@@ -211,7 +211,7 @@ const ICON_SVG = fs.readFileSync(path.join(ROOT, 'static/favicon.svg'), 'utf8').
 
 function layout({ title, desc, canonical, body, jsonld = [], ogImage, noindex = false, bodyClass = '', preload = '' }) {
   if (title.length > 65) title = title.replace(` | ${cfg.name}`, '');
-  const img = ogImage || abs('/assets/our/bubble-wrap-cover.jpg');
+  const img = ogImage || abs('/assets/og.png');
   return `<!doctype html>
 <html lang="en">
 <head>

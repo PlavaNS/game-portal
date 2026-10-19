@@ -1,4 +1,4 @@
-﻿# Game portal (Dodo Arcade — "Fun that never goes extinct.")
+﻿# Game portal (I Love Web Games — ilovewebgames.com — "Play free. Play now.")
 
 StatiÄki sajt sa ~1.200 besplatnih HTML5 igara iz zvaniÄnog GameMonetize publisher feed-a
 (+ GameDistribution kad se aktivira publisher nalog). Bubble Wrap je istaknut kao "Our game".
