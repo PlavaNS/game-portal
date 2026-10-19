@@ -1,0 +1,476 @@
+// Static site generator for the game portal. No dependencies.
+// node scripts/build.mjs  ->  dist/
+import fs from 'node:fs';
+import path from 'node:path';
+
+const ROOT = path.resolve('.');
+const DIST = path.join(ROOT, 'dist');
+const cfg = JSON.parse(fs.readFileSync(path.join(ROOT, 'site.config.json'), 'utf8'));
+if (process.env.SITE_URL) cfg.url = process.env.SITE_URL;
+if (process.env.SITE_BASE !== undefined) cfg.base = process.env.SITE_BASE;
+cfg.url = cfg.url.replace(/\/$/, '');
+const B = cfg.base.replace(/\/$/, '');           // path prefix for links
+const ABS = cfg.url + B;                          // absolute site root
+const YEAR = new Date().getFullYear();
+const BUILD_ID = Date.now().toString(36);
+
+// ---------------------------------------------------------------- helpers
+const ENT = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', ndash: '–', mdash: '—', rsquo: '’', lsquo: '‘', rdquo: '”', ldquo: '“', hellip: '…' };
+const decode = s => String(s ?? '')
+  .replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (m, e) => {
+    if (e[0] === '#') { const n = e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10); return Number.isFinite(n) ? String.fromCodePoint(n) : m; }
+    return ENT[e.toLowerCase()] ?? m;
+  });
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+const clean = s => decode(decode(s))
+  .replace(/<[^>]*>/g, ' ')
+  .replace(/\b(web\s*dev|website|visit|play more( games)? (at|on))\s*:?\s*https?:\/\/\S+/gi, ' ')
+  .replace(/https?:\/\/\S+|www\.\S+/gi, ' ')
+  .replace(/\s+/g, ' ').trim();
+const slugify = s => decode(s).toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
+  .replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 70) || 'game';
+const titleCase = s => s.replace(/\s+/g, ' ').trim();
+const trunc = (s, n) => s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…';
+const u = p => B + p;                              // internal link
+const abs = p => ABS + p;
+function write(rel, content) {
+  const f = path.join(DIST, rel);
+  fs.mkdirSync(path.dirname(f), { recursive: true });
+  fs.writeFileSync(f, content);
+}
+function readJSON(f, def) { try { return JSON.parse(fs.readFileSync(f, 'utf8')); } catch { return def; } }
+
+// ---------------------------------------------------------------- content rules
+// Games named after or copying famous brands/characters are skipped (trademark risk),
+// as are adult-themed games.
+const BLOCK = [
+  'among us', 'amogus', 'impostor', 'imposter', 'crewmate', 'minecraft', 'mine-craft', 'minescraft', 'minecraf', 'herobrine', 'creeper', 'steve ',
+  'skibidi', 'toilet', 'huggy', 'poppy', 'playtime', 'baldi', 'pou ', 'pou online', 'talking tom', 'tom & jerry', 'tom and jerry', 'squid game',
+  'homescapes', 'gardenscapes', 'bitlife', 'temple run', 'subway surf', 'mario', 'luigi', 'sonic', 'candy crush', 'teen titans', 'spider man',
+  'spiderman', 'spider-man', 'batman', 'superman', 'avengers', 'hulk', 'marvel', 'disney', 'pixar', 'frozen', 'elsa', 'barbie', 'barbee', 'ken doll',
+  'pokemon', 'pokémon', 'pikachu', 'roblox', 'fortnite', 'gta', 'grand theft', 'pubg', 'free fire', 'call of duty', 'counter strike', 'cs:go', 'csgo',
+  'stumble guys', 'fall guys', 'angry birds', 'cut the rope', 'fireboy', 'watergirl', 'red ball', 'paw patrol', 'peppa', 'hello kitty', 'fnaf',
+  'five nights', 'freddy', 'sprunki', 'incredibox', 'shrek', 'naruto', 'dragon ball', 'one piece', 'pac-man', 'pacman', 'tetris', 'zelda', 'kirby',
+  'bluey', 'cocomelon', 'spongebob', 'sponge bob', 'simpsons', 'scooby', 'smurf', 'minion', 'harry potter', 'hogwarts', 'star wars', 'jurassic',
+  'transformers', 'lego', 'hot wheels', 'nerf', 'ferrari', 'lamborghini', 'bugatti', 'porsche', 'bentley', 'bmw', 'audi', 'mercedes', 'tesla',
+  'fifa', 'uefa', 'world cup', 'worldcup', 'nba', 'nfl', 'mlb', 'nhl', 'wwe', 'olympic', 'pou', 'tiktok', 'youtube', 'mrbeast', 'mr beast',
+  'messi', 'ronaldo', 'neymar', 'trump', 'biden', 'putin', 'wednesday addams', 'labubu', 'garten of banban', 'banban', 'rainbow friends',
+  'doors roblox', 'bloxburg', 'brookhaven', 'blox', 'fruit ninja', 'flappy bird', 'geometry dash', 'slither', 'agar.io', 'paper.io', 'hole.io',
+  'happy glass', 'love balls', 'hunter assassin', 'save the doge', 'helix jump', 'stack ball', 'bowmasters', 'clash of', 'brawl stars', 'plants vs',
+  'pvz', 'zombie tsunami', 'cookie clicker', 'wordle', 'hearthstone', 'genshin', 'valorant', 'apex legends', 'overwatch', 'kick the buddy',
+  'adult', 'sexy', 'sex', 'nsfw', 'nude', 'strip', 'hentai', 'bikini', 'lingerie', 'dating', 'kissing', 'kiss ', 'erotic', 'casino', 'slot machine',
+  'gambling', 'poker', 'blackjack', 'roulette', 'bet ', 'drunk', 'beer', 'cigarette', 'weed', 'gore', 'bloody', 'killer clown', 'suicide', 'hitler', 'nazi',
+  'unblocked', 'hacked', 'cheat'
+];
+BLOCK.push('drunken', 'kiss', 'bet', 'double dragon', 'left dead', 'left 4 dead', 'mortal kombat', 'street fighter', 'tekken', 'resident evil', 'half-life', 'halo');
+const BLOCK_RE = new RegExp('(^|[^a-z0-9])(' + [...new Set(BLOCK.map(w => w.trim()))].map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')(?=$|[^a-z0-9])', 'i');
+const isBlocked = g => BLOCK_RE.test(g.title) || BLOCK_RE.test(g.tags.join(' , '));
+
+const CATS = [
+  { slug: 'action', name: 'Action', h1: 'Action Games', cats: ['action', 'fighting', 'boys'], tags: ['action', 'fighting', 'fight', 'battle', 'ninja'] },
+  { slug: 'shooting', name: 'Shooting', h1: 'Shooting Games', cats: ['shooting'], tags: ['shooting', 'shooter', 'gun', 'sniper', 'fps', 'tank'] },
+  { slug: 'racing', name: 'Car & Racing', h1: 'Car & Racing Games', cats: ['racing'], tags: ['racing', 'car', 'cars', 'driving', 'drift', 'bike', 'motorbike', 'truck', 'parking'] },
+  { slug: 'puzzle', name: 'Puzzle', h1: 'Puzzle Games', cats: ['puzzles', 'puzzle', 'bejeweled'], tags: ['puzzle', 'logic', 'brain', 'match 3', 'match3', 'sudoku', 'mahjong', 'jigsaw', 'word', 'quiz'] },
+  { slug: 'clicker-idle', name: 'Clicker & Idle', h1: 'Clicker & Idle Games', cats: ['clicker'], tags: ['clicker', 'idle', 'tycoon', 'incremental', 'merge'] },
+  { slug: 'arcade', name: 'Arcade', h1: 'Arcade Games', cats: ['arcade'], tags: ['arcade', 'retro', 'classic'] },
+  { slug: 'adventure', name: 'Adventure', h1: 'Adventure Games', cats: ['adventure'], tags: ['adventure', 'platform', 'platformer', 'parkour', 'obby', 'escape'] },
+  { slug: 'sports', name: 'Sports', h1: 'Sports Games', cats: ['sports', 'soccer'], tags: ['sports', 'football', 'soccer', 'basketball', 'golf', 'tennis', 'baseball', 'pool', 'billiards', 'bowling'] },
+  { slug: 'two-player', name: '2 Player', h1: '2 Player Games', cats: ['2 player'], tags: ['2 player', '2 players', 'two player', '2player', 'two players', 'local multiplayer', 'pvp'] },
+  { slug: 'multiplayer', name: 'Multiplayer & .io', h1: 'Multiplayer & .io Games', cats: ['multiplayer', '.io'], tags: ['multiplayer', 'io', '.io', 'online multiplayer'] },
+  { slug: 'girls', name: 'Girls', h1: 'Games for Girls', cats: ['girls'], tags: ['girls', 'dress up', 'dressup', 'makeup', 'fashion', 'princess', 'nail', 'hair salon', 'makeover'] },
+  { slug: 'hypercasual', name: 'Casual', h1: 'Casual & Hypercasual Games', cats: ['hypercasual'], tags: ['hypercasual', 'casual', 'relaxing', 'satisfying'] },
+  { slug: 'stickman', name: 'Stickman', h1: 'Stickman Games', cats: ['stickman'], tags: ['stickman', 'stick'] },
+  { slug: 'zombie', name: 'Zombie', h1: 'Zombie Games', cats: [], tags: ['zombie', 'zombies', 'undead'] },
+  { slug: '3d', name: '3D', h1: '3D Games', cats: ['3d'], tags: ['3d', 'webgl', 'unity3d'] },
+  { slug: 'cooking', name: 'Cooking', h1: 'Cooking Games', cats: ['cooking'], tags: ['cooking', 'food', 'restaurant', 'cake', 'pizza', 'burger', 'chef'] },
+  { slug: 'kids', name: 'Kids', h1: 'Games for Kids', cats: [], tags: ['kids', 'kid', 'children', 'educational', 'coloring', 'baby'] },
+];
+const CAT_BY = Object.fromEntries(CATS.map(c => [c.slug, c]));
+const CAT_ICON = { action: '⚔️', shooting: '🎯', racing: '🏎️', puzzle: '🧩', 'clicker-idle': '👆', arcade: '🕹️', adventure: '🗺️', sports: '⚽', 'two-player': '👥', multiplayer: '🌐', girls: '👗', hypercasual: '✨', stickman: '🕴️', zombie: '🧟', '3d': '🧊', cooking: '🍳', kids: '🧸' };
+const CAT_INTRO = {
+  action: 'Fight, dodge and battle your way through fast-paced action games. Every game runs right in your browser on PC, tablet and phone.',
+  shooting: 'Aim, fire and take down your targets. From sniper missions to tank battles, these free shooting games load instantly with no download.',
+  racing: 'Hit the gas in free car and racing games: drift, park, race motorbikes and drive monster trucks straight from your browser.',
+  puzzle: 'Train your brain with free puzzle games: logic, match-3, physics puzzles and brain teasers you can play in seconds.',
+  'clicker-idle': 'Tap, upgrade and watch the numbers grow. Our clicker and idle games keep progressing, so every visit pays off.',
+  arcade: 'Quick, addictive arcade games for a short break or a long session. Easy to learn, hard to put down.',
+  adventure: 'Explore new worlds, jump through platform levels and escape tricky traps in free adventure games.',
+  sports: 'Score goals, sink putts and shoot hoops. Play free sports games online with no sign-up.',
+  'two-player': 'Grab a friend and play on the same keyboard or screen. The best free 2 player games for head-to-head fun.',
+  multiplayer: 'Compete with real players in multiplayer and .io games. Jump in, grow, and climb the leaderboard.',
+  girls: 'Dress up, design, style and create. Fun games for girls (and everyone) with fashion, makeup and makeovers.',
+  hypercasual: 'Simple one-tap games that are instantly fun. Perfect for a quick break on your phone or computer.',
+  stickman: 'Stickman fights, parkour and adventures. Free stickman games that run smoothly on any device.',
+  zombie: 'Survive the undead in free zombie games: shoot, build defenses and escape the horde.',
+  '3d': 'Free 3D games running right in your browser: racing, shooting, parkour and more, with no install needed.',
+  cooking: 'Run restaurants, bake cakes and serve hungry customers in free cooking games.',
+  kids: 'Friendly, colorful games for kids: coloring, simple puzzles and easy-to-play fun.',
+};
+
+function catsFor(g) {
+  const primary = g.rawCat.toLowerCase();
+  const tags = g.tags.map(t => t.toLowerCase());
+  const words = ' ' + g.title.toLowerCase().replace(/[^a-z0-9.]+/g, ' ') + ' ';
+  const out = [];
+  for (const c of CATS) {
+    if (c.cats.includes(primary) || tags.some(t => c.tags.includes(t)) || c.tags.some(t => t.length > 3 && words.includes(' ' + t + ' '))) out.push(c.slug);
+  }
+  // primary first
+  const p = CATS.find(c => c.cats.includes(primary));
+  const main = p ? p.slug : (out[0] || 'arcade');
+  return { main, all: [main, ...out.filter(s => s !== main)] };
+}
+
+// ---------------------------------------------------------------- load feeds
+const RAW = path.join(ROOT, 'data/raw');
+const list = n => readJSON(path.join(RAW, `gm-${n}.json`), []);
+const feeds = { most: list('mostplayed'), hot: list('hotgames'), best: list('bestgames'), picks: list('editorpicks'), newest: list('newest') };
+if (!feeds.most.length && !feeds.newest.length) { console.error('No feed data in data/raw. Run: node scripts/fetch-feeds.mjs'); process.exit(1); }
+const rank = {};
+for (const [k, arr] of Object.entries(feeds)) { rank[k] = new Map(); arr.forEach((g, i) => { if (!rank[k].has(g.id)) rank[k].set(String(g.id), i); }); }
+
+const pool = new Map();
+for (const arr of Object.values(feeds)) for (const g of arr) if (!pool.has(String(g.id))) pool.set(String(g.id), g);
+
+function normalize(g, source) {
+  const title = titleCase(clean(g.title));
+  const tags = String(g.tags || '').split(',').map(t => clean(t)).filter(Boolean);
+  return {
+    id: source + '-' + g.id, srcId: String(g.id), source, title,
+    description: clean(g.description), instructions: clean(g.instructions),
+    embed: String(g.url || '').replace(/^http:/, 'https:'), thumb: String(g.thumb || '').replace(/^http:/, 'https:'),
+    w: +g.width || 800, h: +g.height || 600, rawCat: clean(g.category), tags,
+  };
+}
+
+let games = [];
+const seenTitle = new Set();
+for (const g0 of pool.values()) {
+  const g = normalize(g0, 'gm');
+  if (!g.title || !g.embed.startsWith('https://') || !g.thumb || g.description.length < 30) continue;
+  if (isBlocked(g)) continue;
+  const key = g.title.toLowerCase().replace(/[^a-z0-9]/g, '');
+  if (seenTitle.has(key)) continue;
+  const r = id => (rank[id].has(g.srcId) ? rank[id].get(g.srcId) : Infinity);
+  g.score = Math.min(r('most'), r('hot') * 2, r('best') * 2.5, r('picks') * 4, r('newest') * 5);
+  if (!Number.isFinite(g.score)) continue;
+  g.r = { most: r('most'), hot: r('hot'), best: r('best'), newest: r('newest') };
+  seenTitle.add(key);
+  games.push(g);
+}
+
+// optional GameDistribution feed (publisher dashboard export), tolerant field mapping
+const gd = readJSON(path.join(RAW, 'gd.json'), null);
+if (Array.isArray(gd) || Array.isArray(gd?.data) || Array.isArray(gd?.result)) {
+  const arr = Array.isArray(gd) ? gd : (gd.data || gd.result);
+  arr.forEach((x, i) => {
+    const pick = (...ks) => { for (const k of ks) if (x[k] != null && x[k] !== '') return x[k]; return ''; };
+    const asset = [].concat(pick('Asset', 'assets', 'Assets', 'images') || []);
+    const g = normalize({
+      id: pick('Md5', 'md5', 'id', 'Id', 'gameId'), title: pick('Title', 'title', 'name'), description: pick('Description', 'description'),
+      instructions: pick('Instructions', 'instructions'), url: pick('Url', 'url', 'embedUrl'),
+      thumb: (asset.find(a => /512x384|512x512/.test(a)) || asset[0] || pick('thumb', 'image')),
+      category: [].concat(pick('Category', 'category', 'categories'))[0] || '', tags: [].concat(pick('Tag', 'tags', 'Tags')).join(','),
+      width: pick('Width', 'width'), height: pick('Height', 'height'),
+    }, 'gd');
+    if (!g.title || !g.embed.startsWith('https://') || !g.thumb || isBlocked(g)) return;
+    const key = g.title.toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (seenTitle.has(key)) return;
+    seenTitle.add(key);
+    g.score = i * 2; g.r = { most: Infinity, hot: Infinity, best: Infinity, newest: Infinity };
+    games.push(g);
+  });
+}
+
+games.sort((a, b) => a.score - b.score);
+games = games.slice(0, cfg.maxGames);
+
+// our own games always first
+const ours = readJSON(path.join(ROOT, 'data/our-games.json'), []).map(o => ({
+  id: 'our-' + o.slug, own: true, slug: o.slug, title: o.title, description: o.description, instructions: o.instructions, short: o.short,
+  embed: o.gmEmbedUrl || u(o.embed), thumb: u(o.thumb), cover: u(o.cover), video: o.video ? u(o.video) : null, screens: (o.screens || []).map(u),
+  w: o.orientation === 'portrait' ? 600 : 1280, h: o.orientation === 'portrait' ? 1000 : 720, rawCat: o.category, tags: o.tags, studio: o.studio,
+  score: -1, r: { most: -1, hot: -1, best: -1, newest: -1 }, cats: { main: o.category, all: [o.category] },
+}));
+
+// slugs
+const usedSlugs = new Set(ours.map(o => o.slug));
+for (const g of games) {
+  let s = slugify(g.title);
+  if (usedSlugs.has(s)) s = `${s}-${g.srcId}`.slice(0, 80);
+  usedSlugs.add(s); g.slug = s; g.cats = catsFor(g);
+}
+const all = [...ours, ...games];
+const byCat = Object.fromEntries(CATS.map(c => [c.slug, []]));
+for (const g of all) for (const c of g.cats.all) byCat[c]?.push(g);
+const activeCats = CATS.filter(c => byCat[c.slug].length >= 8);
+const top = (key, n) => games.filter(g => Number.isFinite(g.r[key])).sort((a, b) => a.r[key] - b.r[key]).slice(0, n);
+
+// ---------------------------------------------------------------- templates
+const ICON_SVG = `<svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#7c5cff"/><path d="M12 9.5v13l10.5-6.5z" fill="#fff"/><circle cx="25" cy="8" r="3" fill="#ffd34d"/></svg>`;
+
+function layout({ title, desc, canonical, body, jsonld = [], ogImage, noindex = false, bodyClass = '' }) {
+  const img = ogImage || abs('/assets/our/bubble-wrap-cover.jpg');
+  return `<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>${esc(title)}</title>
+<meta name="description" content="${esc(desc)}">
+<link rel="canonical" href="${esc(canonical)}">
+${noindex ? '<meta name="robots" content="noindex">' : ''}
+<meta name="theme-color" content="#0f1020">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="${esc(cfg.name)}">
+<meta property="og:title" content="${esc(title)}">
+<meta property="og:description" content="${esc(desc)}">
+<meta property="og:url" content="${esc(canonical)}">
+<meta property="og:image" content="${esc(img)}">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="${u('/favicon.svg')}" type="image/svg+xml">
+<link rel="manifest" href="${u('/manifest.webmanifest')}">
+<link rel="preconnect" href="https://img.gamemonetize.com" crossorigin>
+<link rel="stylesheet" href="${u('/assets/style.css')}?v=${BUILD_ID}">
+${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replace(/</g, '\\u003c')}</script>`).join('\n')}
+</head>
+<body class="${bodyClass}">
+<a class="skip" href="#main">Skip to content</a>
+<header class="top">
+  <button class="menu-btn" aria-label="Open categories" aria-expanded="false" data-menu>☰</button>
+  <a class="logo" href="${u('/')}">${ICON_SVG}<span>${esc(cfg.name)}</span></a>
+  <form class="search" action="${u('/search/')}" role="search">
+    <input type="search" name="q" placeholder="Search games" aria-label="Search games" autocomplete="off">
+  </form>
+</header>
+<div class="wrap">
+<nav class="side" aria-label="Categories">
+  <a href="${u('/')}"><i>🏠</i>Home</a>
+  <a href="${u('/new/')}"><i>🆕</i>New games</a>
+  <a href="${u('/popular/')}"><i>🔥</i>Most played</a>
+  <a href="${u('/games/bubble-wrap/')}"><i>🫧</i>Our games</a>
+  <hr>
+  ${activeCats.map(c => `<a href="${u(`/c/${c.slug}/`)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc(c.name)}</a>`).join('\n  ')}
+</nav>
+<main id="main">
+${body}
+</main>
+</div>
+<footer class="foot">
+  <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.tagline)}</p>
+  <p><a href="${u('/about/')}">About</a> · <a href="${u('/contact/')}">Contact</a> · <a href="${u('/privacy/')}">Privacy Policy</a> · <a href="${u('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
+  <p class="muted">© ${YEAR} ${esc(cfg.name)} by ${esc(cfg.studio)}. All games are the property of their respective developers and are provided through official distribution partners.</p>
+</footer>
+<div class="consent" hidden data-consent>
+  <p>We and our game partners use cookies to run the site, show ads inside games and measure performance. You can accept or reject non-essential cookies. <a href="${u('/privacy/')}">Privacy Policy</a></p>
+  <div><button class="btn ghost" data-consent-reject>Reject</button><button class="btn" data-consent-accept>Accept</button></div>
+</div>
+<script>window.SITE={base:${JSON.stringify(B)}};</script>
+<script src="${u('/assets/app.js')}?v=${BUILD_ID}" defer></script>
+</body>
+</html>`;
+}
+
+const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}" href="${u(`/games/${g.slug}/`)}"><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${g.own ? '<b class="badge">Our game</b>' : ''}</a>`;
+const row = (title, href, list, eager = false) => list.length ? `<section class="row"><div class="row-h"><h2>${esc(title)}</h2>${href ? `<a href="${href}">See all ›</a>` : ''}</div><div class="grid">${list.map(g => card(g, eager)).join('')}</div></section>` : '';
+const crumbs = items => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: url })) });
+
+function pager(baseHref, page, pages) {
+  if (pages <= 1) return '';
+  const href = p => p === 1 ? baseHref : `${baseHref}${p}/`;
+  let h = '<nav class="pager" aria-label="Pages">';
+  if (page > 1) h += `<a href="${href(page - 1)}" rel="prev">‹ Prev</a>`;
+  for (let p = 1; p <= pages; p++) h += p === page ? `<span aria-current="page">${p}</span>` : `<a href="${href(p)}">${p}</a>`;
+  if (page < pages) h += `<a href="${href(page + 1)}" rel="next">Next ›</a>`;
+  return h + '</nav>';
+}
+
+const sitemap = [];
+const addUrl = (p, prio = 0.5) => sitemap.push({ loc: abs(p), prio });
+
+// ---------------------------------------------------------------- build
+fs.rmSync(DIST, { recursive: true, force: true });
+fs.cpSync(path.join(ROOT, 'static'), DIST, { recursive: true });
+
+// HOME
+{
+  const o = ours[0];
+  const hero = o ? `<section class="hero">
+  <div class="hero-media">
+    ${o.video ? `<video src="${esc(o.video)}" poster="${esc(o.cover)}" muted loop playsinline preload="none" data-hover-play></video>` : `<img src="${esc(o.cover)}" alt="${esc(o.title)}">`}
+  </div>
+  <div class="hero-text">
+    <p class="eyebrow">🫧 Our game · by ${esc(o.studio)}</p>
+    <h2>${esc(o.title)}</h2>
+    <p>${esc(o.short)}</p>
+    <a class="btn big" href="${u(`/games/${o.slug}/`)}">▶ Play now — free</a>
+  </div>
+</section>` : '';
+  const catTiles = `<section class="row"><div class="row-h"><h2>Categories</h2></div><div class="cats">${activeCats.map(c => `<a href="${u(`/c/${c.slug}/`)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc(c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
+  const body = `<h1 class="sr">${esc(cfg.name)} — Play Free Online Games</h1>
+${hero}
+<section class="row" data-recent hidden><div class="row-h"><h2>Continue playing</h2></div><div class="grid"></div></section>
+${row('🔥 Trending now', u('/popular/'), top('hot', 18), true)}
+${row('⭐ Most played', u('/popular/'), top('most', 18))}
+${row('🆕 New games', u('/new/'), top('newest', 18))}
+${catTiles}
+${row('🏆 Best games', null, top('best', 18))}
+${activeCats.map(c => row(`${CAT_ICON[c.slug] || ''} ${c.h1}`, u(`/c/${c.slug}/`), byCat[c.slug].slice(0, 12))).join('\n')}
+<section class="seo-text"><h2>Free online games on ${esc(cfg.name)}</h2><p>${esc(cfg.name)} is a hand-picked collection of ${all.length.toLocaleString('en')} free browser games. Every game runs instantly on your computer, tablet or phone, with no downloads, no installs and no account. Play action, puzzle, racing, sports, clicker and 2 player games, and come back every day for new titles.</p></section>`;
+  write('index.html', layout({
+    title: `${cfg.name} — Play Free Online Games (No Download)`,
+    desc: `Play ${all.length.toLocaleString('en')}+ free online games instantly: action, puzzle, racing, 2 player, clicker and more. No downloads, no sign-up — works on PC and mobile.`,
+    canonical: abs('/'), body,
+    jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.name, url: abs('/'), potentialAction: { '@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
+      { '@context': 'https://schema.org', '@type': 'Organization', name: cfg.name, url: abs('/'), logo: abs('/favicon.svg') }],
+  }));
+  addUrl('/', 1.0);
+}
+
+// LIST PAGES (category, popular, new, all)
+function listPages(basePath, list, { title, h1, intro, desc }) {
+  const size = cfg.gridPageSize;
+  const pages = Math.max(1, Math.ceil(list.length / size));
+  for (let p = 1; p <= pages; p++) {
+    const slice = list.slice((p - 1) * size, p * size);
+    const pagePath = p === 1 ? basePath : `${basePath}${p}/`;
+    const body = `<nav class="crumbs"><a href="${u('/')}">Home</a> › <span>${esc(h1)}</span></nav>
+<header class="page-h"><h1>${esc(h1)}${p > 1 ? ` — page ${p}` : ''}</h1>${p === 1 ? `<p>${esc(intro)}</p>` : ''}</header>
+<div class="grid">${slice.map((g, i) => card(g, i < 8)).join('')}</div>
+${pager(u(basePath), p, pages)}`;
+    write(path.join(pagePath, 'index.html'), layout({
+      title: p === 1 ? title : `${h1} — Page ${p} | ${cfg.name}`,
+      desc, canonical: abs(pagePath), body,
+      jsonld: [crumbs([['Home', abs('/')], [h1, abs(basePath)]]),
+        { '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, url: abs(pagePath), numberOfItems: slice.length }],
+    }));
+    addUrl(pagePath, p === 1 ? 0.8 : 0.4);
+  }
+}
+for (const c of activeCats) {
+  listPages(`/c/${c.slug}/`, byCat[c.slug], {
+    title: `${c.h1} — Play Free Online | ${cfg.name}`,
+    h1: c.h1, intro: CAT_INTRO[c.slug] || '',
+    desc: trunc(`Play ${byCat[c.slug].length}+ free ${c.h1.toLowerCase()} online. ${CAT_INTRO[c.slug] || ''}`, 158),
+  });
+}
+listPages('/popular/', [...ours, ...top('most', 300)], { title: `Most Played Free Online Games | ${cfg.name}`, h1: 'Most played games', intro: 'The games players love most right now. All free, all instant.', desc: 'The most played free online games right now. Play instantly in your browser, no download needed.' });
+listPages('/new/', top('newest', 192), { title: `New Free Online Games | ${cfg.name}`, h1: 'New games', intro: 'Fresh games added to the collection. Check back daily.', desc: 'Brand new free online games, added every day. Play instantly on PC and mobile.' });
+listPages('/all/', [...all].sort((a, b) => a.title.localeCompare(b.title)), { title: `All Games A–Z | ${cfg.name}`, h1: 'All games A–Z', intro: `Every game on ${cfg.name}, sorted alphabetically.`, desc: `Browse all ${all.length} free online games on ${cfg.name} from A to Z.` });
+
+// GAME PAGES
+const catIndex = Object.fromEntries(Object.entries(byCat).map(([k, v]) => [k, new Map(v.map((g, i) => [g.id, i]))]));
+for (const g of all) {
+  const main = CAT_BY[g.cats.main] || CATS[0];
+  const pool = byCat[main.slug];
+  const idx = catIndex[main.slug].get(g.id) ?? 0;
+  const similar = [];
+  for (let k = 1; similar.length < 12 && k < pool.length; k++) { const s = pool[(idx + k) % pool.length]; if (s.id !== g.id) similar.push(s); }
+  if (!g.own && ours.length) similar.splice(1, 0, ours[0]);
+  const sim = similar.slice(0, 12);
+
+  const portrait = g.h > g.w * 1.05;
+  const pageUrl = abs(`/games/${g.slug}/`);
+  const desc = trunc(`Play ${g.title} online for free. ${g.description}`, 158);
+  const catLinks = g.cats.all.filter(c => CAT_BY[c]).map(c => `<a class="chip" href="${u(`/c/${c}/`)}">${esc(CAT_BY[c].name)}</a>`).join('');
+  const tagText = g.tags.slice(0, 8).map(t => `<span class="chip ghost">${esc(t)}</span>`).join('');
+  const body = `<nav class="crumbs"><a href="${u('/')}">Home</a> › <a href="${u(`/c/${main.slug}/`)}">${esc(main.h1)}</a> › <span>${esc(g.title)}</span></nav>
+<section class="player${portrait ? ' portrait' : ''}" data-player data-src="${esc(g.embed)}" data-id="${esc(g.slug)}" data-title="${esc(g.title)}" data-thumb="${esc(g.thumb)}" style="--ar:${g.w}/${g.h}">
+  <div class="stage">
+    <img class="stage-bg" src="${esc(g.thumb)}" alt="" aria-hidden="true" fetchpriority="high">
+    <div class="stage-ui">
+      <img class="stage-thumb" src="${esc(g.thumb)}" alt="${esc(g.title)}" width="256" height="192">
+      <h1>${esc(g.title)}</h1>
+      <button class="btn big" data-play>▶ Play now</button>
+    </div>
+  </div>
+  <div class="bar">
+    <strong>${esc(g.title)}</strong>
+    <span class="spacer"></span>
+    <button class="icon" data-like aria-label="Add to favorites" title="Favorite">♡</button>
+    <button class="icon" data-share aria-label="Share" title="Share">↗</button>
+    <button class="icon" data-fs aria-label="Full screen" title="Full screen">⛶</button>
+  </div>
+</section>
+<div class="game-cols">
+  <article class="about">
+    <h2>About ${esc(g.title)}</h2>
+    <p>${esc(g.description)}</p>
+    ${g.instructions ? `<h2>How to play</h2><p>${esc(g.instructions)}</p>` : ''}
+    <p class="chips">${catLinks}${tagText}</p>
+    <p class="muted">${g.own ? `Made by ${esc(g.studio)} — the team behind ${esc(cfg.name)}.` : `${esc(g.title)} is a free online game you can play right in your browser on ${esc(cfg.name)}. It works on desktop, tablet and mobile with no download or sign-up.`}</p>
+  </article>
+  <aside class="similar"><h2>Similar games</h2><div class="grid small">${sim.map(s => card(s)).join('')}</div></aside>
+</div>`;
+  const ld = {
+    '@context': 'https://schema.org', '@type': 'VideoGame', name: g.title, url: pageUrl, image: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)),
+    description: trunc(g.description, 300), genre: g.cats.all.filter(c => CAT_BY[c]).map(c => CAT_BY[c].name), gamePlatform: ['Web browser', 'PC', 'Mobile'],
+    applicationCategory: 'Game', operatingSystem: 'Any', playMode: g.cats.all.includes('two-player') || g.cats.all.includes('multiplayer') ? 'MultiPlayer' : 'SinglePlayer',
+    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/InStock' },
+    ...(g.own ? { author: { '@type': 'Organization', name: g.studio } } : {}),
+  };
+  write(`games/${g.slug}/index.html`, layout({
+    title: `${g.title} — Play Online for Free | ${cfg.name}`, desc, canonical: pageUrl, body, bodyClass: 'game-page',
+    ogImage: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)),
+    jsonld: [ld, crumbs([['Home', abs('/')], [main.h1, abs(`/c/${main.slug}/`)], [g.title, pageUrl]])],
+  }));
+  addUrl(`/games/${g.slug}/`, g.own ? 0.9 : 0.6);
+}
+
+// SEARCH
+write('search.json', JSON.stringify(all.map(g => [g.slug, g.title, g.thumb, g.cats.main, g.tags.slice(0, 6).join(' ')])));
+write('search/index.html', layout({
+  title: `Search Games | ${cfg.name}`, desc: `Search ${all.length} free online games.`, canonical: abs('/search/'), noindex: true,
+  body: `<header class="page-h"><h1>Search games</h1></header><form class="search big" action="${u('/search/')}" role="search"><input type="search" name="q" placeholder="Type a game name or genre…" aria-label="Search" data-search-input autofocus></form><p class="muted" data-search-count></p><div class="grid" data-search-results></div>`,
+}));
+
+// STATIC TEXT PAGES
+const textPage = (slug, title, html, desc) => {
+  write(`${slug}/index.html`, layout({ title: `${title} | ${cfg.name}`, desc, canonical: abs(`/${slug}/`), body: `<article class="text"><h1>${esc(title)}</h1>${html}</article>` }));
+  addUrl(`/${slug}/`, 0.2);
+};
+const today = new Date().toISOString().slice(0, 10);
+textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games website made by <strong>${esc(cfg.studio)}</strong>, an independent game studio from Novi Sad, Serbia. We build our own browser games (like <a href="${u('/games/bubble-wrap/')}">Bubble Wrap</a>) and hand-pick the best free HTML5 games from trusted distribution partners, so you can play instantly on any device.</p>
+<h2>What makes us different</h2><ul><li><strong>Curated, not cluttered.</strong> We skip low-quality knock-offs and games that copy famous brands.</li><li><strong>Instant play.</strong> No downloads, no account, no installs.</li><li><strong>Fast on phones.</strong> The site is lightweight and works on slow connections.</li></ul>
+<p>The games are free for you because they show short ads, which support the developers who make them and keep this site running.</p>
+<p>Questions or ideas? <a href="${u('/contact/')}">Get in touch</a>.</p>`, `About ${cfg.name}: free online games by ${cfg.studio}.`);
+
+textPage('contact', 'Contact', `<p>We'd love to hear from you — feedback, bug reports, game suggestions or business inquiries.</p>
+<p>Email: <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a></p>
+<h2>Game developers</h2><p>Made a great HTML5 game? Send us a link and we'll take a look.</p>
+<h2>Copyright concerns</h2><p>If you believe a game on this site infringes your rights, email us with the game URL and details, and we will review and remove it promptly.</p>`, `Contact ${cfg.name}.`);
+
+textPage('privacy', 'Privacy Policy', `<p class="muted">Last updated: ${today}</p>
+<p>This Privacy Policy explains how ${esc(cfg.name)} ("we", "us"), operated by ${esc(cfg.studio)}, handles information when you visit ${esc(cfg.url)}.</p>
+<h2>1. Information we collect</h2><p>We do not ask you to create an account and we do not collect your name, email or other directly identifying information unless you contact us by email. Our website stores small amounts of data in your own browser (local storage), such as your recently played and favorite games and your cookie choice. This data never leaves your device.</p>
+<h2>2. Games and advertising partners</h2><p>Games on this site are provided by third-party distribution platforms and shown inside embedded frames. These partners serve advertisements inside the games and may use cookies, device identifiers and similar technologies to deliver, measure and personalize ads and to prevent fraud. Our partners include:</p>
+<ul><li>GameMonetize — <a href="https://gamemonetize.com/privacypolicy" rel="nofollow noopener" target="_blank">Privacy Policy</a></li><li>GameDistribution (KeyGames Network B.V.) — <a href="https://gamedistribution.com/privacy-policy/" rel="nofollow noopener" target="_blank">Privacy Policy</a></li></ul>
+<p>These partners act as independent data controllers for the data they collect. Please read their policies to learn how they process data and how to opt out of personalized advertising.</p>
+<h2>3. Cookies and your choices</h2><p>When you first visit, we ask whether you accept non-essential cookies. You can change your choice at any time using "Cookie settings" in the footer. You can also block or delete cookies in your browser settings and opt out of personalized ads at <a href="https://www.youronlinechoices.eu/" rel="nofollow noopener" target="_blank">youronlinechoices.eu</a> or <a href="https://optout.aboutads.info/" rel="nofollow noopener" target="_blank">aboutads.info</a>.</p>
+<h2>4. Hosting and logs</h2><p>Our hosting provider may process technical data such as IP address and browser type in server logs for security and performance purposes.</p>
+<h2>5. Legal basis (GDPR)</h2><p>Where the GDPR applies, non-essential cookies and personalized advertising are based on your consent, which you can withdraw at any time. Essential storage is based on our legitimate interest in running the site.</p>
+<h2>6. Children</h2><p>Our site is intended for a general audience. We do not knowingly collect personal information from children under 13 (or under 16 in the EEA). If you believe a child has provided us personal information, contact us and we will delete it.</p>
+<h2>7. Your rights</h2><p>Depending on where you live, you may have the right to access, correct, delete or restrict processing of your personal data. Contact us at <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a>.</p>
+<h2>8. Changes</h2><p>We may update this policy. The date at the top shows the latest version.</p>`, `Privacy Policy of ${cfg.name}.`);
+
+textPage('terms', 'Terms of Use', `<p class="muted">Last updated: ${today}</p>
+<p>By using ${esc(cfg.name)} (the "Site") you agree to these Terms. If you do not agree, please do not use the Site.</p>
+<h2>1. The service</h2><p>The Site offers free browser games. Most games are created by third-party developers and provided through official distribution partners under license. All games, names and trademarks belong to their respective owners.</p>
+<h2>2. Acceptable use</h2><p>You agree not to misuse the Site, including attempting to disrupt it, scraping it in bulk, copying games from it, or using bots or automated traffic.</p>
+<h2>3. Advertising</h2><p>Games may display advertisements served by our partners. We are not responsible for the content of third-party ads or websites they link to.</p>
+<h2>4. Intellectual property</h2><p>The Site's design, text and our own games (made by ${esc(cfg.studio)}) are protected by copyright. If you believe content on the Site infringes your rights, contact us at <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a> and we will respond promptly.</p>
+<h2>5. No warranty</h2><p>The Site and games are provided "as is" without warranties of any kind. Games may be changed or removed at any time.</p>
+<h2>6. Limitation of liability</h2><p>To the extent permitted by law, we are not liable for any damages arising from your use of the Site.</p>
+<h2>7. Changes</h2><p>We may update these Terms at any time. Continued use of the Site means you accept the updated Terms.</p>`, `Terms of Use of ${cfg.name}.`);
+
+write('404.html', layout({ title: `Page not found | ${cfg.name}`, desc: 'Page not found.', canonical: abs('/404.html'), noindex: true,
+  body: `<article class="text center"><h1>404 — Game over?</h1><p>This page doesn't exist (anymore). But there are ${all.length} games that do.</p><p><a class="btn big" href="${u('/')}">Back to games</a></p></article>${row('Try one of these', null, top('hot', 12))}` }));
+
+// SITEMAP / ROBOTS / MANIFEST
+write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemap.map(s => `<url><loc>${esc(s.loc)}</loc><lastmod>${today}</lastmod><priority>${s.prio.toFixed(1)}</priority></url>`).join('\n')}\n</urlset>\n`);
+write('robots.txt', `User-agent: *\nAllow: /\nDisallow: ${B}/search/\n\nSitemap: ${abs('/sitemap.xml')}\n`);
+write('manifest.webmanifest', JSON.stringify({ name: cfg.name, short_name: cfg.shortName, start_url: u('/'), display: 'standalone', background_color: '#0f1020', theme_color: '#0f1020', icons: [{ src: u('/favicon.svg'), sizes: 'any', type: 'image/svg+xml' }] }));
+if (process.env.CNAME) write('CNAME', process.env.CNAME + '\n');
+write('.nojekyll', '');
+
+console.log(`Built ${all.length} games (${ours.length} ours), ${activeCats.length} categories, ${sitemap.length} URLs in sitemap -> dist/`);

@@ -1,0 +1,11 @@
+{
+  "name": "404 Arcade",
+  "shortName": "404 Arcade",
+  "tagline": "Free online games. No downloads, no sign-up — just play.",
+  "url": "https://example.com",
+  "base": "",
+  "contactEmail": "hello@example.com",
+  "studio": "Door 404",
+  "maxGames": 1200,
+  "gridPageSize": 96
+}
