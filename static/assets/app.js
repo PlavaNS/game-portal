@@ -23,7 +23,13 @@
   const setConsent = v => { store.set('consent', { v, t: Date.now() }); if (box) box.hidden = true; };
   $('[data-consent-accept]')?.addEventListener('click', () => setConsent('all'));
   $('[data-consent-reject]')?.addEventListener('click', () => setConsent('essential'));
-  $$('[data-consent-open]').forEach(a => a.addEventListener('click', e => { e.preventDefault(); if (box) box.hidden = false; }));
+  $$('[data-consent-open]').forEach(a => a.addEventListener('click', e => {
+    e.preventDefault();
+    if (box) { box.hidden = false; return; }
+    // Google's consent tool (AdSense Privacy & messaging)
+    window.googlefc = window.googlefc || {}; window.googlefc.callbackQueue = window.googlefc.callbackQueue || [];
+    window.googlefc.callbackQueue.push(() => window.googlefc.showRevocationMessage && window.googlefc.showRevocationMessage());
+  }));
 
   // recently played row
   const recent = store.get('recent', []);
