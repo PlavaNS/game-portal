@@ -1,11 +1,14 @@
 {
-  "name": "404 Arcade",
-  "shortName": "404 Arcade",
-  "tagline": "Free online games. No downloads, no sign-up — just play.",
-  "url": "https://example.com",
+  "name": "Dodo Arcade",
+  "shortName": "Dodo Arcade",
+  "slogan": "Fun that never goes extinct.",
+  "tagline": "Free online games — no downloads, no sign-up, just play.",
+  "url": "https://dodoarcade.com",
   "base": "",
-  "contactEmail": "hello@example.com",
+  "contactEmail": "hello@dodoarcade.com",
   "studio": "Door 404",
+  "gsc": "",
+  "bing": "",
   "maxGames": 1200,
   "gridPageSize": 96
 }

@@ -144,3 +144,15 @@ body.noscroll{overflow:hidden}
   .page-h h1{font-size:23px}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
+
+/* home welcome + game info */
+.welcome{margin:2px 0 16px}
+.welcome h1{font-size:24px;margin:0;letter-spacing:-.3px}
+.welcome h1 span{color:var(--accent2);font-weight:700}
+.welcome p{margin:4px 0 0;color:var(--muted)}
+.about h3{font-size:15px;margin:14px 0 4px}
+.about a{color:#b6a6ff}
+.info{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;margin:0 0 18px;font-size:14px}
+.info dt{color:var(--muted)}
+.info dd{margin:0}
+@media (max-width:860px){.welcome h1{font-size:19px}.welcome h1 span{display:block;font-size:15px}}

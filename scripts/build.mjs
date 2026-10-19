@@ -207,9 +207,10 @@ const activeCats = CATS.filter(c => byCat[c.slug].length >= 8);
 const top = (key, n) => games.filter(g => Number.isFinite(g.r[key])).sort((a, b) => a.r[key] - b.r[key]).slice(0, n);
 
 // ---------------------------------------------------------------- templates
-const ICON_SVG = `<svg viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="#7c5cff"/><path d="M12 9.5v13l10.5-6.5z" fill="#fff"/><circle cx="25" cy="8" r="3" fill="#ffd34d"/></svg>`;
+const ICON_SVG = fs.readFileSync(path.join(ROOT, 'static/favicon.svg'), 'utf8').trim().replace('<svg ', '<svg aria-hidden="true" ');
 
-function layout({ title, desc, canonical, body, jsonld = [], ogImage, noindex = false, bodyClass = '' }) {
+function layout({ title, desc, canonical, body, jsonld = [], ogImage, noindex = false, bodyClass = '', preload = '' }) {
+  if (title.length > 65) title = title.replace(` | ${cfg.name}`, '');
   const img = ogImage || abs('/assets/our/bubble-wrap-cover.jpg');
   return `<!doctype html>
 <html lang="en">
@@ -219,7 +220,13 @@ function layout({ title, desc, canonical, body, jsonld = [], ogImage, noindex = 
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${esc(canonical)}">
-${noindex ? '<meta name="robots" content="noindex">' : ''}
+<meta name="robots" content="${noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large,max-snippet:-1'}">
+${preload ? `<link rel="preload" as="image" href="${esc(preload)}" fetchpriority="high">` : ''}
+<meta name="application-name" content="${esc(cfg.name)}">
+<meta name="apple-mobile-web-app-title" content="${esc(cfg.shortName)}">
+<link rel="apple-touch-icon" href="${u('/assets/icon-180.png')}">
+<meta property="og:locale" content="en_US">
+<meta property="og:image:alt" content="${esc(title)}">${cfg.gsc ? `\n<meta name="google-site-verification" content="${esc(cfg.gsc)}">` : ''}${cfg.bing ? `\n<meta name="msvalidate.01" content="${esc(cfg.bing)}">` : ''}
 <meta name="theme-color" content="#0f1020">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${esc(cfg.name)}">
@@ -257,7 +264,7 @@ ${body}
 </main>
 </div>
 <footer class="foot">
-  <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.tagline)}</p>
+  <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.slogan)} ${esc(cfg.tagline)}</p>
   <p><a href="${u('/about/')}">About</a> · <a href="${u('/contact/')}">Contact</a> · <a href="${u('/privacy/')}">Privacy Policy</a> · <a href="${u('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
   <p class="muted">© ${YEAR} ${esc(cfg.name)} by ${esc(cfg.studio)}. All games are the property of their respective developers and are provided through official distribution partners.</p>
 </footer>
@@ -286,7 +293,7 @@ function pager(baseHref, page, pages) {
 }
 
 const sitemap = [];
-const addUrl = (p, prio = 0.5) => sitemap.push({ loc: abs(p), prio });
+const addUrl = (p, prio = 0.5, image = null) => sitemap.push({ loc: abs(p), prio, image });
 
 // ---------------------------------------------------------------- build
 fs.rmSync(DIST, { recursive: true, force: true });
@@ -307,7 +314,7 @@ fs.cpSync(path.join(ROOT, 'static'), DIST, { recursive: true });
   </div>
 </section>` : '';
   const catTiles = `<section class="row"><div class="row-h"><h2>Categories</h2></div><div class="cats">${activeCats.map(c => `<a href="${u(`/c/${c.slug}/`)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc(c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
-  const body = `<h1 class="sr">${esc(cfg.name)} — Play Free Online Games</h1>
+  const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(cfg.slogan)}</span></h1><p>${all.length.toLocaleString('en')}+ free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.</p></header>
 ${hero}
 <section class="row" data-recent hidden><div class="row-h"><h2>Continue playing</h2></div><div class="grid"></div></section>
 ${row('🔥 Trending now', u('/popular/'), top('hot', 18), true)}
@@ -318,11 +325,11 @@ ${row('🏆 Best games', null, top('best', 18))}
 ${activeCats.map(c => row(`${CAT_ICON[c.slug] || ''} ${c.h1}`, u(`/c/${c.slug}/`), byCat[c.slug].slice(0, 12))).join('\n')}
 <section class="seo-text"><h2>Free online games on ${esc(cfg.name)}</h2><p>${esc(cfg.name)} is a hand-picked collection of ${all.length.toLocaleString('en')} free browser games. Every game runs instantly on your computer, tablet or phone, with no downloads, no installs and no account. Play action, puzzle, racing, sports, clicker and 2 player games, and come back every day for new titles.</p></section>`;
   write('index.html', layout({
-    title: `${cfg.name} — Play Free Online Games (No Download)`,
-    desc: `Play ${all.length.toLocaleString('en')}+ free online games instantly: action, puzzle, racing, 2 player, clicker and more. No downloads, no sign-up — works on PC and mobile.`,
+    title: `${cfg.name} — Free Online Games, Play Instantly`,
+    desc: `${cfg.slogan} Play ${all.length.toLocaleString('en')}+ free online games: action, puzzle, racing, 2 player, clicker and more. No downloads, works on PC & mobile.`,
     canonical: abs('/'), body,
-    jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.name, url: abs('/'), potentialAction: { '@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
-      { '@context': 'https://schema.org', '@type': 'Organization', name: cfg.name, url: abs('/'), logo: abs('/favicon.svg') }],
+    jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.name, alternateName: cfg.name.replace(/\s+/g, ''), slogan: cfg.slogan, url: abs('/'), potentialAction: { '@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
+      { '@context': 'https://schema.org', '@type': 'Organization', name: cfg.name, url: abs('/'), logo: abs('/assets/icon-512.png'), slogan: cfg.slogan, parentOrganization: { '@type': 'Organization', name: cfg.studio } }],
   }));
   addUrl('/', 1.0);
 }
@@ -398,7 +405,19 @@ for (const g of all) {
     <p>${esc(g.description)}</p>
     ${g.instructions ? `<h2>How to play</h2><p>${esc(g.instructions)}</p>` : ''}
     <p class="chips">${catLinks}${tagText}</p>
-    <p class="muted">${g.own ? `Made by ${esc(g.studio)} — the team behind ${esc(cfg.name)}.` : `${esc(g.title)} is a free online game you can play right in your browser on ${esc(cfg.name)}. It works on desktop, tablet and mobile with no download or sign-up.`}</p>
+    <h2>Game info</h2>
+    <dl class="info">
+      <dt>Genre</dt><dd>${g.cats.all.filter(c => CAT_BY[c]).slice(0, 4).map(c => esc(CAT_BY[c].name)).join(', ')}</dd>
+      <dt>Platform</dt><dd>Web browser (PC, Mac, Android, iPhone, tablet)</dd>
+      <dt>Price</dt><dd>Free</dd>
+      <dt>Screen</dt><dd>${portrait ? 'Portrait — great on phones' : 'Landscape'}</dd>
+      ${g.own ? `<dt>Developer</dt><dd>${esc(g.studio)}</dd>` : ''}
+    </dl>
+    <h2>FAQ</h2>
+    <h3>Is ${esc(g.title)} free to play?</h3><p>Yes. ${esc(g.title)} is completely free on ${esc(cfg.name)}. The game is supported by short ads.</p>
+    <h3>Can I play ${esc(g.title)} on my phone?</h3><p>Yes. It runs in the browser on Android phones, iPhones and tablets as well as on PC and Mac — tap “Play now” and the game opens full screen.</p>
+    <h3>Do I need to download or sign up?</h3><p>No. There is nothing to install and no account needed. The game loads instantly in your browser.</p>
+    <p class="muted">${g.own ? `Made by ${esc(g.studio)} — the team behind ${esc(cfg.name)}.` : `Like ${esc(g.title)}? Try more <a href="${u(`/c/${main.slug}/`)}">${esc(main.h1.toLowerCase())}</a> or browse the <a href="${u('/popular/')}">most played games</a> on ${esc(cfg.name)}.`}</p>
   </article>
   <aside class="similar"><h2>Similar games</h2><div class="grid small">${sim.map(s => card(s)).join('')}</div></aside>
 </div>`;
@@ -410,11 +429,11 @@ for (const g of all) {
     ...(g.own ? { author: { '@type': 'Organization', name: g.studio } } : {}),
   };
   write(`games/${g.slug}/index.html`, layout({
-    title: `${g.title} — Play Online for Free | ${cfg.name}`, desc, canonical: pageUrl, body, bodyClass: 'game-page',
+    title: `${g.title} — Play Online for Free | ${cfg.name}`, desc, canonical: pageUrl, body, bodyClass: 'game-page', preload: g.thumb,
     ogImage: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)),
     jsonld: [ld, crumbs([['Home', abs('/')], [main.h1, abs(`/c/${main.slug}/`)], [g.title, pageUrl]])],
   }));
-  addUrl(`/games/${g.slug}/`, g.own ? 0.9 : 0.6);
+  addUrl(`/games/${g.slug}/`, g.own ? 0.9 : 0.6, { img: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)), title: g.title });
 }
 
 // SEARCH
@@ -467,9 +486,9 @@ write('404.html', layout({ title: `Page not found | ${cfg.name}`, desc: 'Page no
   body: `<article class="text center"><h1>404 — Game over?</h1><p>This page doesn't exist (anymore). But there are ${all.length} games that do.</p><p><a class="btn big" href="${u('/')}">Back to games</a></p></article>${row('Try one of these', null, top('hot', 12))}` }));
 
 // SITEMAP / ROBOTS / MANIFEST
-write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${sitemap.map(s => `<url><loc>${esc(s.loc)}</loc><lastmod>${today}</lastmod><priority>${s.prio.toFixed(1)}</priority></url>`).join('\n')}\n</urlset>\n`);
+write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${sitemap.map(s => `<url><loc>${esc(s.loc)}</loc><lastmod>${today}</lastmod><priority>${s.prio.toFixed(1)}</priority>${s.image ? `<image:image><image:loc>${esc(s.image.img)}</image:loc></image:image>` : ''}</url>`).join('\n')}\n</urlset>\n`);
 write('robots.txt', `User-agent: *\nAllow: /\nDisallow: ${B}/search/\n\nSitemap: ${abs('/sitemap.xml')}\n`);
-write('manifest.webmanifest', JSON.stringify({ name: cfg.name, short_name: cfg.shortName, start_url: u('/'), display: 'standalone', background_color: '#0f1020', theme_color: '#0f1020', icons: [{ src: u('/favicon.svg'), sizes: 'any', type: 'image/svg+xml' }] }));
+write('manifest.webmanifest', JSON.stringify({ name: cfg.name, short_name: cfg.shortName, start_url: u('/'), display: 'standalone', background_color: '#0f1020', theme_color: '#0f1020', description: `${cfg.slogan} ${cfg.tagline}`, icons: [{ src: u('/assets/icon-192.png'), sizes: '192x192', type: 'image/png' }, { src: u('/assets/icon-512.png'), sizes: '512x512', type: 'image/png', purpose: 'any maskable' }, { src: u('/favicon.svg'), sizes: 'any', type: 'image/svg+xml' }] }));
 if (process.env.CNAME) write('CNAME', process.env.CNAME + '\n');
 write('.nojekyll', '');
 
