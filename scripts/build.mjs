@@ -222,6 +222,7 @@ function layout({ title, desc, canonical, body, jsonld = [], ogImage, noindex = 
 <link rel="canonical" href="${esc(canonical)}">
 <meta name="robots" content="${noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large,max-snippet:-1'}">
 ${preload ? `<link rel="preload" as="image" href="${esc(preload)}" fetchpriority="high">` : ''}
+${cfg.adsenseClient ? `<meta name="google-adsense-account" content="${esc(cfg.adsenseClient)}">\n<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${esc(cfg.adsenseClient)}" crossorigin="anonymous"></script>` : ''}
 <meta name="application-name" content="${esc(cfg.name)}">
 <meta name="apple-mobile-web-app-title" content="${esc(cfg.shortName)}">
 <link rel="apple-touch-icon" href="${u('/assets/icon-180.png')}">
@@ -490,6 +491,12 @@ write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="htt
 write('robots.txt', `User-agent: *\nAllow: /\nDisallow: ${B}/search/\n\nSitemap: ${abs('/sitemap.xml')}\n`);
 write('manifest.webmanifest', JSON.stringify({ name: cfg.name, short_name: cfg.shortName, start_url: u('/'), display: 'standalone', background_color: '#0f1020', theme_color: '#0f1020', description: `${cfg.slogan} ${cfg.tagline}`, icons: [{ src: u('/assets/icon-192.png'), sizes: '192x192', type: 'image/png' }, { src: u('/assets/icon-512.png'), sizes: '512x512', type: 'image/png', purpose: 'any maskable' }, { src: u('/favicon.svg'), sizes: 'any', type: 'image/svg+xml' }] }));
 if (process.env.CNAME) write('CNAME', process.env.CNAME + '\n');
+// ads.txt: AdSense line is added automatically once adsenseClient is set; partner lines come from config.adsTxt
+{
+  const lines = [...(cfg.adsTxt || [])];
+  if (cfg.adsenseClient) lines.unshift(`google.com, ${cfg.adsenseClient.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0`);
+  if (lines.length) write('ads.txt', lines.join('\n') + '\n');
+}
 write('.nojekyll', '');
 
 console.log(`Built ${all.length} games (${ours.length} ours), ${activeCats.length} categories, ${sitemap.length} URLs in sitemap -> dist/`);
