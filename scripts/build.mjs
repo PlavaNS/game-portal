@@ -280,7 +280,7 @@ ${cfg.adsenseClient ? `<meta name="google-adsense-account" content="${esc(cfg.ad
 <meta name="apple-mobile-web-app-title" content="${esc(cfg.shortName)}">
 <link rel="apple-touch-icon" href="${u('/assets/icon-180.png')}">
 <meta property="og:locale" content="en_US">
-<meta property="og:image:alt" content="${esc(title)}">${cfg.gsc ? `\n<meta name="google-site-verification" content="${esc(cfg.gsc)}">` : ''}${cfg.bing ? `\n<meta name="msvalidate.01" content="${esc(cfg.bing)}">` : ''}
+<meta property="og:image:alt" content="${esc(title)}">${cfg.gsc ? `\n<meta name="google-site-verification" content="${esc(cfg.gsc)}">` : ''}${cfg.bing ? `\n<meta name="msvalidate.01" content="${esc(cfg.bing)}">` : ''}${cfg.ahrefs ? `\n<meta name="ahrefs-site-verification" content="${esc(cfg.ahrefs)}">` : ''}
 <meta name="theme-color" content="#0f1020">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="${esc(cfg.name)}">

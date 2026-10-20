@@ -8,7 +8,7 @@
   "contactEmail": "contact@ilovewebgames.com",
   "studio": "Door 404",
   "gsc": "",
-  "bing": "",
+  "bing": "E1DCCEFB4949773DB680C359E3541158",
   "adsenseClient": "ca-pub-8306394918109064",
   "ga4": "G-9RHHSDRECD",
   "playgamaClid": "p_6e26841c-048f-4295-98d3-d32c7ecb22a0",
@@ -18,5 +18,6 @@
     "google.com, pub-4764333688337558, DIRECT, f08c47fec0942fa0"
   ],
   "maxGames": 4000,
-  "gridPageSize": 96
+  "gridPageSize": 96,
+  "ahrefs": "81eee57447738e37bf019a9ea1c775e4205d0c5b4a089ce00de892f554745571"
 }

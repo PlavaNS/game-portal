@@ -1,101 +1,704 @@
 [
-  { "slug": "games-to-play-when-bored", "h1": "Games to Play When You're Bored", "kw": "games to play when bored",
-    "match": "", "pick": "best",
-    "intro": ["Bored at home, on a break or waiting for something to finish? These are the free online games our players come back to most — quick to start, easy to learn and surprisingly hard to put down.", "Every game runs instantly in your browser on PC, Mac, phone or tablet. No downloads, no sign-up: tap a game, play for two minutes or two hours, and come back whenever boredom strikes again."] },
-  { "slug": "mahjong", "h1": "Mahjong Games", "kw": "mahjong online free",
-    "match": "mahjong|majong|mah jong",
-    "intro": ["Play free mahjong solitaire online: match pairs of identical tiles, clear the board and relax with classic layouts, connect variants and fresh daily-style puzzles.", "No download needed — every mahjong game here runs in your browser on desktop and mobile, so you can pick up a quick round any time."] },
-  { "slug": "solitaire", "h1": "Solitaire Card Games", "kw": "solitaire online free",
-    "match": "solitaire|klondike|spider|freecell|pyramid card|tripeaks|patience",
-    "intro": ["Classic Klondike, Spider, FreeCell and more — free solitaire card games you can play instantly in your browser.", "Perfect for a calm break: simple rules, endless deals and no sign-up. Works on PC, tablet and phone."] },
-  { "slug": "chess-and-board-games", "h1": "Chess & Board Games", "kw": "chess and board games online",
-    "match": "chess|checkers|draughts|backgammon|ludo|domino|dominoes|board game|monopoly-like|reversi|othello|go game|connect 4|four in a row|tic tac toe",
-    "intro": ["Play chess, checkers, backgammon, ludo and other classic board games online for free — against the computer or a friend on the same screen.", "Sharpen your strategy in a few clicks: no installs and no account, just pick a board and start."] },
-  { "slug": "word-games", "h1": "Word Games", "kw": "word games online",
-    "match": "word|wordle-like|crossword|anagram|spelling|letters|scrabble-like|hangman",
-    "intro": ["Find words, fill crosswords and unscramble letters in free online word games that train your vocabulary.", "Great for adults and kids alike — play in your browser on any device, no download required."] },
-  { "slug": "sudoku-and-number-puzzles", "h1": "Sudoku & Number Puzzles", "kw": "sudoku online free",
-    "match": "sudoku|2048|number|numbers|math|nonogram|kakuro|merge numbers",
-    "intro": ["Sudoku, 2048, nonograms and other number puzzles to keep your brain sharp. Free to play online, from easy to fiendish.", "No pencil needed — every puzzle runs in your browser on PC and mobile."] },
-  { "slug": "match-3-games", "h1": "Match 3 Games", "kw": "match 3 games online",
-    "match": "match 3|match3|match-3|jewel|gem|candy|crush|bejeweled|swap|triple match",
-    "intro": ["Swap, match and blast colorful pieces in free match-3 games. Hundreds of levels, satisfying combos and no download.", "Ideal for short sessions on your phone or long relaxing runs on your computer."] },
-  { "slug": "bubble-shooter", "h1": "Bubble Shooter Games", "kw": "bubble shooter online",
-    "match": "bubble|bubbles|bubble shooter|pop it",
-    "intro": ["Aim, shoot and pop bubbles of the same color in free bubble shooter games — the classic arcade puzzle that never gets old.", "Plus our own Bubble Wrap: pop an entire planet made of bubble wrap. All free, all instant, on any device."] },
-  { "slug": "hidden-object-games", "h1": "Hidden Object Games", "kw": "hidden object games online free",
-    "match": "hidden|find the|spot the|differences|seek",
-    "intro": ["Search detailed scenes, spot the differences and find every hidden item in free hidden object games.", "Relaxing, story-driven and playable right in your browser — no download, no account."] },
-  { "slug": "escape-room-games", "h1": "Escape Room Games", "kw": "online escape room games",
-    "match": "escape|exit|locked", "titleOnly": true,
-    "intro": ["Find clues, solve puzzles and break out in free online escape room games. Every room is a new mystery waiting to be cracked.", "Made by the team behind Door 404, a real escape room in Novi Sad — we love a good puzzle. Play instantly in your browser."] },
-  { "slug": "merge-games", "h1": "Merge Games", "kw": "merge games online",
-    "match": "merge|combine|fusion|evolution|evolve",
-    "intro": ["Combine two of the same to create something bigger: free merge games full of satisfying upgrades and surprising discoveries.", "Play casual merge puzzles and idle merge tycoons online on PC and mobile, no download needed."] },
-  { "slug": "idle-and-tycoon-games", "h1": "Idle & Tycoon Games", "kw": "idle tycoon games online",
-    "match": "idle|tycoon|clicker|empire|manager|business|factory|incremental",
-    "intro": ["Build empires, run businesses and watch the money roll in — even while you are away. Free idle, clicker and tycoon games to play in your browser.", "Start small, upgrade smart and come back to bigger numbers every visit."] },
-  { "slug": "car-parking-games", "h1": "Car Parking Games", "kw": "car parking games online",
-    "match": "parking|park",
-    "intro": ["Squeeze into tight spots, reverse like a pro and master every parking challenge in free car parking games.", "Realistic 3D parking simulators and quick puzzle parking games — all playable online with no download."] },
-  { "slug": "truck-and-driving-games", "h1": "Truck & Driving Games", "kw": "truck driving games online",
-    "match": "truck|driving|driver|bus|taxi|tractor|cargo",
-    "intro": ["Drive trucks, buses, taxis and tractors in free driving simulator games. Deliver cargo, follow the rules of the road or just cruise.", "No install required — get behind the wheel straight from your browser."] },
-  { "slug": "motorcycle-and-bike-games", "h1": "Motorcycle & Bike Games", "kw": "motorcycle games online",
-    "match": "moto|motorcycle|motorbike|bike|bmx|dirt bike|scooter",
-    "intro": ["Pull wheelies, land stunts and race the clock in free motorcycle and bike games.", "From trials to street racing, every game runs instantly in your browser on PC and mobile."] },
-  { "slug": "drift-games", "h1": "Drift Games", "kw": "drift games online",
-    "match": "drift|drifting",
-    "intro": ["Slide sideways through tight corners and rack up drift points in free online drift games.", "Tune your car, master the handbrake and play right in your browser."] },
-  { "slug": "soccer-games", "h1": "Soccer Games", "kw": "soccer games online",
-    "match": "soccer|football|penalty|goal|striker|goalkeeper",
-    "intro": ["Score goals, take penalties and win the cup in free online soccer (football) games.", "Play solo or 2 player on one keyboard — no download, just kick off."] },
-  { "slug": "basketball-games", "h1": "Basketball Games", "kw": "basketball games online",
-    "match": "basketball|hoops|dunk",
-    "intro": ["Shoot hoops, nail trick shots and slam dunk in free basketball games online.", "Quick to play on your phone or computer, with no sign-up required."] },
-  { "slug": "golf-and-pool-games", "h1": "Golf, Pool & Billiards", "kw": "mini golf and pool games online",
-    "match": "golf|pool|billiard|billiards|snooker|8 ball|bowling|darts",
-    "intro": ["Mini golf, 8-ball pool, snooker, bowling and darts — precise, relaxing sports games you can play for free online.", "Aim carefully, play against the computer or a friend, right in your browser."] },
-  { "slug": "sniper-games", "h1": "Sniper Games", "kw": "sniper games online",
-    "match": "sniper|marksman|scope|assassin",
-    "intro": ["Steady your aim, hold your breath and take the perfect shot in free online sniper games.", "Mission-based shooters that run instantly in your browser — no download."] },
-  { "slug": "tank-and-war-games", "h1": "Tank & War Games", "kw": "tank games online",
-    "match": "tank|tanks|war|wars|army|soldier|soldiers|military|artillery", "titleOnly": true,
-    "intro": ["Command tanks, lead armies and win battles in free online war and tank games.", "Action-packed and strategic, playable on PC and mobile with no install."] },
-  { "slug": "tower-defense-games", "h1": "Tower Defense Games", "kw": "tower defense games online",
-    "match": "tower defense|defense|defence|td|castle defense|protect",
-    "intro": ["Build towers, upgrade defenses and stop wave after wave of enemies in free tower defense games.", "Plan smart, play online, no download needed."] },
-  { "slug": "ninja-and-fighting-games", "h1": "Ninja & Fighting Games", "kw": "fighting games online",
-    "match": "ninja|samurai|kung fu|karate|fighter|fighting|boxing|wrestling|brawl|punch",
-    "intro": ["Punch, kick, block and combo your way to victory in free online fighting games — from stickman brawls to ninja adventures.", "Many games support 2 players on one keyboard. Play instantly in your browser."] },
-  { "slug": "monster-truck-games", "h1": "Monster Truck Games", "kw": "monster truck games online",
-    "match": "monster truck|monster wheels|offroad|off-road|4x4|jeep",
-    "intro": ["Crush cars, climb hills and fly over ramps in free monster truck and off-road games.", "Big wheels, big jumps, no download — play in your browser."] },
-  { "slug": "fishing-games", "h1": "Fishing Games", "kw": "fishing games online",
-    "match": "fish|fishing|aquarium|ocean|shark",
-    "intro": ["Cast your line, catch rare fish and upgrade your gear in free online fishing games.", "Relaxing idle fishing and arcade fishing games for all ages."] },
-  { "slug": "coloring-and-drawing-games", "h1": "Coloring & Drawing Games", "kw": "coloring games online",
-    "match": "coloring|colouring|color by|paint|painting|draw|drawing", "titleOnly": true,
-    "intro": ["Color pictures, paint by numbers and draw your own creations in free coloring and drawing games.", "Calm, creative fun for kids and adults — right in your browser."] },
-  { "slug": "dress-up-games", "h1": "Dress Up Games", "kw": "dress up games online",
-    "match": "dress|dress up|fashion|makeup|make up|makeover|outfit|salon|nail",
-    "intro": ["Style outfits, try makeup and create fabulous looks in free online dress up and fashion games.", "Hundreds of clothes and accessories to mix and match, playable on any device."] },
-  { "slug": "cooking-games", "h1": "Cooking & Restaurant Games", "kw": "cooking games online",
-    "match": "cook|cooking|chef|restaurant|cafe|kitchen|pizza|burger|cake|bakery|food|sushi",
-    "intro": ["Run a café, bake cakes and serve hungry customers in free cooking and restaurant games.", "Time-management fun that plays great on phones and computers alike."] },
-  { "slug": "animal-games", "h1": "Animal Games", "kw": "animal games online",
-    "match": "animal|animals|cat|dog|puppy|kitten|horse|pet|pets|farm|zoo|dinosaur|bird",
-    "intro": ["Care for pets, run a farm and play with cats, dogs, horses and dinosaurs in free animal games.", "Cute, family-friendly and instant — no download required."] },
-  { "slug": "jigsaw-puzzles", "h1": "Jigsaw Puzzles", "kw": "jigsaw puzzles online free",
-    "match": "jigsaw|puzzle pieces",
-    "intro": ["Piece together beautiful pictures in free online jigsaw puzzles — from quick 16-piece puzzles to relaxing challenges.", "No table needed: play in your browser on PC, tablet or phone."] },
-  { "slug": "snake-games", "h1": "Snake Games", "kw": "snake games online",
-    "match": "snake|snakes|worm|slither-like",
-    "intro": ["Eat, grow and avoid your own tail in free snake games — from the retro classic to modern online battles.", "Instant play in your browser, no download."] },
-  { "slug": "parkour-and-obby-games", "h1": "Parkour & Obby Games", "kw": "parkour games online",
-    "match": "parkour|obby|jump|jumper|platform|run|runner",
-    "intro": ["Run, jump and climb through obstacle courses in free parkour, obby and runner games.", "Fast-paced platforming that plays smoothly in your browser."] },
-  { "slug": "horror-games", "h1": "Horror Games", "kw": "horror games online",
-    "match": "horror|scary|creepy|haunted|ghost|nightmare|zombie|zombies", "titleOnly": true,
-    "intro": ["Explore haunted houses, escape monsters and survive the night in free online horror games.", "Spooky but browser-friendly — no download required. Best played with the lights off."] }
+ {
+  "slug": "games-to-play-when-bored",
+  "h1": "Games to Play When You're Bored",
+  "kw": "games to play when bored",
+  "match": "",
+  "pick": "best",
+  "intro": [
+   "Bored at home, on a break or waiting for something to finish? These are the free online games our players come back to most — quick to start, easy to learn and surprisingly hard to put down.",
+   "Every game runs instantly in your browser on PC, Mac, phone or tablet. No downloads, no sign-up: tap a game, play for two minutes or two hours, and come back whenever boredom strikes again."
+  ]
+ },
+ {
+  "slug": "mahjong",
+  "h1": "Mahjong Games",
+  "kw": "mahjong online free",
+  "match": "mahjong|majong|mah jong",
+  "intro": [
+   "Play free mahjong solitaire online: match pairs of identical tiles, clear the board and relax with classic layouts, connect variants and fresh daily-style puzzles.",
+   "No download needed — every mahjong game here runs in your browser on desktop and mobile, so you can pick up a quick round any time."
+  ]
+ },
+ {
+  "slug": "solitaire",
+  "h1": "Solitaire Card Games",
+  "kw": "solitaire online free",
+  "match": "solitaire|klondike|spider|freecell|pyramid card|tripeaks|patience",
+  "intro": [
+   "Classic Klondike, Spider, FreeCell and more — free solitaire card games you can play instantly in your browser.",
+   "Perfect for a calm break: simple rules, endless deals and no sign-up. Works on PC, tablet and phone."
+  ]
+ },
+ {
+  "slug": "chess-and-board-games",
+  "h1": "Chess & Board Games",
+  "kw": "chess and board games online",
+  "match": "chess|checkers|draughts|backgammon|ludo|domino|dominoes|board game|monopoly-like|reversi|othello|go game|connect 4|four in a row|tic tac toe",
+  "intro": [
+   "Play chess, checkers, backgammon, ludo and other classic board games online for free — against the computer or a friend on the same screen.",
+   "Sharpen your strategy in a few clicks: no installs and no account, just pick a board and start."
+  ]
+ },
+ {
+  "slug": "word-games",
+  "h1": "Word Games",
+  "kw": "word games online",
+  "match": "word|wordle-like|crossword|anagram|spelling|letters|scrabble-like|hangman",
+  "intro": [
+   "Find words, fill crosswords and unscramble letters in free online word games that train your vocabulary.",
+   "Great for adults and kids alike — play in your browser on any device, no download required."
+  ]
+ },
+ {
+  "slug": "sudoku-and-number-puzzles",
+  "h1": "Sudoku & Number Puzzles",
+  "kw": "sudoku online free",
+  "match": "sudoku|2048|number|numbers|math|nonogram|kakuro|merge numbers",
+  "intro": [
+   "Sudoku, 2048, nonograms and other number puzzles to keep your brain sharp. Free to play online, from easy to fiendish.",
+   "No pencil needed — every puzzle runs in your browser on PC and mobile."
+  ]
+ },
+ {
+  "slug": "match-3-games",
+  "h1": "Match 3 Games",
+  "kw": "match 3 games online",
+  "match": "match 3|match3|match-3|jewel|gem|candy|crush|bejeweled|swap|triple match",
+  "intro": [
+   "Swap, match and blast colorful pieces in free match-3 games. Hundreds of levels, satisfying combos and no download.",
+   "Ideal for short sessions on your phone or long relaxing runs on your computer."
+  ]
+ },
+ {
+  "slug": "bubble-shooter",
+  "h1": "Bubble Shooter Games",
+  "kw": "bubble shooter online",
+  "match": "bubble|bubbles|bubble shooter|pop it",
+  "intro": [
+   "Aim, shoot and pop bubbles of the same color in free bubble shooter games — the classic arcade puzzle that never gets old.",
+   "Plus our own Bubble Wrap: pop an entire planet made of bubble wrap. All free, all instant, on any device."
+  ]
+ },
+ {
+  "slug": "hidden-object-games",
+  "h1": "Hidden Object Games",
+  "kw": "hidden object games online free",
+  "match": "hidden|find the|spot the|differences|seek",
+  "intro": [
+   "Search detailed scenes, spot the differences and find every hidden item in free hidden object games.",
+   "Relaxing, story-driven and playable right in your browser — no download, no account."
+  ]
+ },
+ {
+  "slug": "escape-room-games",
+  "h1": "Escape Room Games",
+  "kw": "online escape room games",
+  "match": "escape|exit|locked",
+  "titleOnly": true,
+  "intro": [
+   "Find clues, solve puzzles and break out in free online escape room games. Every room is a new mystery waiting to be cracked.",
+   "Made by the team behind Door 404, a real escape room in Novi Sad — we love a good puzzle. Play instantly in your browser."
+  ]
+ },
+ {
+  "slug": "merge-games",
+  "h1": "Merge Games",
+  "kw": "merge games online",
+  "match": "merge|combine|fusion|evolution|evolve",
+  "intro": [
+   "Combine two of the same to create something bigger: free merge games full of satisfying upgrades and surprising discoveries.",
+   "Play casual merge puzzles and idle merge tycoons online on PC and mobile, no download needed."
+  ]
+ },
+ {
+  "slug": "idle-and-tycoon-games",
+  "h1": "Idle & Tycoon Games",
+  "kw": "idle tycoon games online",
+  "match": "idle|tycoon|clicker|empire|manager|business|factory|incremental",
+  "intro": [
+   "Build empires, run businesses and watch the money roll in — even while you are away. Free idle, clicker and tycoon games to play in your browser.",
+   "Start small, upgrade smart and come back to bigger numbers every visit."
+  ]
+ },
+ {
+  "slug": "car-parking-games",
+  "h1": "Car Parking Games",
+  "kw": "car parking games online",
+  "match": "parking|park",
+  "intro": [
+   "Squeeze into tight spots, reverse like a pro and master every parking challenge in free car parking games.",
+   "Realistic 3D parking simulators and quick puzzle parking games — all playable online with no download."
+  ]
+ },
+ {
+  "slug": "truck-and-driving-games",
+  "h1": "Truck & Driving Games",
+  "kw": "truck driving games online",
+  "match": "truck|driving|driver|bus|taxi|tractor|cargo",
+  "intro": [
+   "Drive trucks, buses, taxis and tractors in free driving simulator games. Deliver cargo, follow the rules of the road or just cruise.",
+   "No install required — get behind the wheel straight from your browser."
+  ]
+ },
+ {
+  "slug": "motorcycle-and-bike-games",
+  "h1": "Motorcycle & Bike Games",
+  "kw": "motorcycle games online",
+  "match": "moto|motorcycle|motorbike|bike|bmx|dirt bike|scooter",
+  "intro": [
+   "Pull wheelies, land stunts and race the clock in free motorcycle and bike games.",
+   "From trials to street racing, every game runs instantly in your browser on PC and mobile."
+  ]
+ },
+ {
+  "slug": "drift-games",
+  "h1": "Drift Games",
+  "kw": "drift games online",
+  "match": "drift|drifting",
+  "intro": [
+   "Slide sideways through tight corners and rack up drift points in free online drift games.",
+   "Tune your car, master the handbrake and play right in your browser."
+  ]
+ },
+ {
+  "slug": "soccer-games",
+  "h1": "Soccer Games",
+  "kw": "soccer games online",
+  "match": "soccer|football|penalty|goal|striker|goalkeeper",
+  "intro": [
+   "Score goals, take penalties and win the cup in free online soccer (football) games.",
+   "Play solo or 2 player on one keyboard — no download, just kick off."
+  ]
+ },
+ {
+  "slug": "basketball-games",
+  "h1": "Basketball Games",
+  "kw": "basketball games online",
+  "match": "basketball|hoops|dunk",
+  "intro": [
+   "Shoot hoops, nail trick shots and slam dunk in free basketball games online.",
+   "Quick to play on your phone or computer, with no sign-up required."
+  ]
+ },
+ {
+  "slug": "golf-and-pool-games",
+  "h1": "Golf, Pool & Billiards",
+  "kw": "mini golf and pool games online",
+  "match": "golf|pool|billiard|billiards|snooker|8 ball|bowling|darts",
+  "intro": [
+   "Mini golf, 8-ball pool, snooker, bowling and darts — precise, relaxing sports games you can play for free online.",
+   "Aim carefully, play against the computer or a friend, right in your browser."
+  ]
+ },
+ {
+  "slug": "sniper-games",
+  "h1": "Sniper Games",
+  "kw": "sniper games online",
+  "match": "sniper|marksman|scope|assassin",
+  "intro": [
+   "Steady your aim, hold your breath and take the perfect shot in free online sniper games.",
+   "Mission-based shooters that run instantly in your browser — no download."
+  ]
+ },
+ {
+  "slug": "tank-and-war-games",
+  "h1": "Tank & War Games",
+  "kw": "tank games online",
+  "match": "tank|tanks|war|wars|army|soldier|soldiers|military|artillery",
+  "titleOnly": true,
+  "intro": [
+   "Command tanks, lead armies and win battles in free online war and tank games.",
+   "Action-packed and strategic, playable on PC and mobile with no install."
+  ]
+ },
+ {
+  "slug": "tower-defense-games",
+  "h1": "Tower Defense Games",
+  "kw": "tower defense games online",
+  "match": "tower defense|defense|defence|td|castle defense|protect",
+  "intro": [
+   "Build towers, upgrade defenses and stop wave after wave of enemies in free tower defense games.",
+   "Plan smart, play online, no download needed."
+  ]
+ },
+ {
+  "slug": "ninja-and-fighting-games",
+  "h1": "Ninja & Fighting Games",
+  "kw": "fighting games online",
+  "match": "ninja|samurai|kung fu|karate|fighter|fighting|boxing|wrestling|brawl|punch",
+  "intro": [
+   "Punch, kick, block and combo your way to victory in free online fighting games — from stickman brawls to ninja adventures.",
+   "Many games support 2 players on one keyboard. Play instantly in your browser."
+  ]
+ },
+ {
+  "slug": "monster-truck-games",
+  "h1": "Monster Truck Games",
+  "kw": "monster truck games online",
+  "match": "monster truck|monster wheels|offroad|off-road|4x4|jeep",
+  "intro": [
+   "Crush cars, climb hills and fly over ramps in free monster truck and off-road games.",
+   "Big wheels, big jumps, no download — play in your browser."
+  ]
+ },
+ {
+  "slug": "fishing-games",
+  "h1": "Fishing Games",
+  "kw": "fishing games online",
+  "match": "fish|fishing|aquarium|ocean|shark",
+  "intro": [
+   "Cast your line, catch rare fish and upgrade your gear in free online fishing games.",
+   "Relaxing idle fishing and arcade fishing games for all ages."
+  ]
+ },
+ {
+  "slug": "coloring-and-drawing-games",
+  "h1": "Coloring & Drawing Games",
+  "kw": "coloring games online",
+  "match": "coloring|colouring|color by|paint|painting|draw|drawing",
+  "titleOnly": true,
+  "intro": [
+   "Color pictures, paint by numbers and draw your own creations in free coloring and drawing games.",
+   "Calm, creative fun for kids and adults — right in your browser."
+  ]
+ },
+ {
+  "slug": "dress-up-games",
+  "h1": "Dress Up Games",
+  "kw": "dress up games online",
+  "match": "dress|dress up|fashion|makeup|make up|makeover|outfit|salon|nail",
+  "intro": [
+   "Style outfits, try makeup and create fabulous looks in free online dress up and fashion games.",
+   "Hundreds of clothes and accessories to mix and match, playable on any device."
+  ]
+ },
+ {
+  "slug": "cooking-games",
+  "h1": "Cooking & Restaurant Games",
+  "kw": "cooking games online",
+  "match": "cook|cooking|chef|restaurant|cafe|kitchen|pizza|burger|cake|bakery|food|sushi",
+  "intro": [
+   "Run a café, bake cakes and serve hungry customers in free cooking and restaurant games.",
+   "Time-management fun that plays great on phones and computers alike."
+  ]
+ },
+ {
+  "slug": "animal-games",
+  "h1": "Animal Games",
+  "kw": "animal games online",
+  "match": "animal|animals|cat|dog|puppy|kitten|horse|pet|pets|farm|zoo|dinosaur|bird",
+  "intro": [
+   "Care for pets, run a farm and play with cats, dogs, horses and dinosaurs in free animal games.",
+   "Cute, family-friendly and instant — no download required."
+  ]
+ },
+ {
+  "slug": "jigsaw-puzzles",
+  "h1": "Jigsaw Puzzles",
+  "kw": "jigsaw puzzles online free",
+  "match": "jigsaw|puzzle pieces",
+  "intro": [
+   "Piece together beautiful pictures in free online jigsaw puzzles — from quick 16-piece puzzles to relaxing challenges.",
+   "No table needed: play in your browser on PC, tablet or phone."
+  ]
+ },
+ {
+  "slug": "snake-games",
+  "h1": "Snake Games",
+  "kw": "snake games online",
+  "match": "snake|snakes|worm|slither-like",
+  "intro": [
+   "Eat, grow and avoid your own tail in free snake games — from the retro classic to modern online battles.",
+   "Instant play in your browser, no download."
+  ]
+ },
+ {
+  "slug": "parkour-and-obby-games",
+  "h1": "Parkour & Obby Games",
+  "kw": "parkour games online",
+  "match": "parkour|obby|jump|jumper|platform|run|runner",
+  "intro": [
+   "Run, jump and climb through obstacle courses in free parkour, obby and runner games.",
+   "Fast-paced platforming that plays smoothly in your browser."
+  ]
+ },
+ {
+  "slug": "horror-games",
+  "h1": "Horror Games",
+  "kw": "horror games online",
+  "match": "horror|scary|creepy|haunted|ghost|nightmare|zombie|zombies",
+  "titleOnly": true,
+  "intro": [
+   "Explore haunted houses, escape monsters and survive the night in free online horror games.",
+   "Spooky but browser-friendly — no download required. Best played with the lights off."
+  ]
+ },
+ {
+  "slug": "2-player-games",
+  "h1": "2 Player Games",
+  "kw": "2 player games",
+  "match": "2 player|two player|2player|1v1|duo|versus",
+  "intro": [
+   "Grab a friend and play free 2 player games on one keyboard or one phone: races, duels, sports matches and silly physics battles where only one of you can win.",
+   "Every game runs instantly in your browser with no download and no account. Perfect for a quick rematch on the sofa, at school or during a break."
+  ]
+ },
+ {
+  "slug": "io-games",
+  "h1": ".io Games",
+  "kw": "io games",
+  "match": "\\.io|io games|io game",
+  "intro": [
+   "Jump into free .io games: grow bigger, outsmart other players and climb the leaderboard in fast rounds that start in one click.",
+   "No installs and no sign-up. These browser .io games work on PC, Mac and most phones, so you can play a quick round anywhere."
+  ]
+ },
+ {
+  "slug": "car-games",
+  "h1": "Car Games",
+  "kw": "car games",
+  "match": "car|cars|racing|race|driving|drift|parking",
+  "intro": [
+   "Drive, race, drift and crash in free car games: from realistic highway racing to stunt tracks, parking challenges and demolition derbies.",
+   "All car games here run directly in your browser on desktop and mobile. Pick a car, hit the gas and play instantly, no download needed."
+  ],
+  "titleOnly": true
+ },
+ {
+  "slug": "racing-games",
+  "h1": "Racing Games",
+  "kw": "racing games",
+  "match": "racing|race|racer|rally|speed|kart",
+  "intro": [
+   "Free online racing games for every kind of driver: street races, rally stages, karts, bikes and futuristic speed tracks.",
+   "Beat your best lap, unlock faster rides and race again in seconds. Everything plays in your browser with no download."
+  ],
+  "titleOnly": true
+ },
+ {
+  "slug": "shooting-games",
+  "h1": "Shooting Games",
+  "kw": "shooting games",
+  "match": "shoot|shooter|shooting|gun|fps|sniper|bullet",
+  "intro": [
+   "Aim, fire and survive in free shooting games: first-person shooters, sniper missions, zombie waves and arcade gunfights.",
+   "These browser shooting games load instantly on PC and many work on mobile too. No download, no registration, just lock and load."
+  ]
+ },
+ {
+  "slug": "puzzle-games",
+  "h1": "Puzzle Games",
+  "kw": "puzzle games",
+  "match": "puzzle|logic|brain|sort|block|tile|riddle",
+  "intro": [
+   "Train your brain with free puzzle games: block puzzles, sorting games, logic challenges, tile matching and clever level-based riddles.",
+   "Play one level or a hundred. Every puzzle game here runs in your browser on desktop and mobile with no download or sign-up."
+  ]
+ },
+ {
+  "slug": "card-games",
+  "h1": "Card Games",
+  "kw": "card games online free",
+  "match": "card|cards|solitaire|klondike|spider|freecell|poker|uno|blackjack",
+  "intro": [
+   "Play classic card games online for free: solitaire, spider, freecell and plenty of fresh card puzzles for a calm few minutes or a long session.",
+   "Cards are dealt instantly in your browser on PC, tablet and phone. No download, no account and no money involved, just the game."
+  ]
+ },
+ {
+  "slug": "stickman-games",
+  "h1": "Stickman Games",
+  "kw": "stickman games",
+  "match": "stickman|stick man|stick",
+  "titleOnly": true,
+  "intro": [
+   "Simple figures, big action: free stickman games full of fights, ragdoll physics, parkour runs, archery duels and wild stunts.",
+   "Stickman games load fast and play instantly in your browser on any device. Pick one and see how far your little hero can go."
+  ]
+ },
+ {
+  "slug": "clicker-games",
+  "h1": "Clicker Games",
+  "kw": "clicker games",
+  "match": "clicker|click|tap|idle|incremental",
+  "intro": [
+   "Click, upgrade and watch the numbers explode in free clicker games. Start small, automate everything and grow an empire one tap at a time.",
+   "Clicker and idle games save progress in your browser, so you can come back later and collect what you earned. No download needed."
+  ]
+ },
+ {
+  "slug": "zombie-games",
+  "h1": "Zombie Games",
+  "kw": "zombie games",
+  "match": "zombie|zombies|undead|apocalypse",
+  "intro": [
+   "Survive the outbreak in free zombie games: shoot hordes, build defenses, drive through infected cities and hold out until the last wave.",
+   "Every zombie game here runs straight in your browser. No download, no sign-up, just you against the undead."
+  ]
+ },
+ {
+  "slug": "multiplayer-games",
+  "h1": "Multiplayer Games",
+  "kw": "multiplayer games online",
+  "match": "multiplayer|online pvp|pvp|online players|io",
+  "intro": [
+   "Play free multiplayer games against real people from around the world: arenas, races, shooters and .io battles that start in seconds.",
+   "No installation and no account required for most games. Just open one in your browser and join the match."
+  ]
+ },
+ {
+  "slug": "games-for-girls",
+  "h1": "Games for Girls",
+  "kw": "games for girls",
+  "match": "girl|girls|princess|dress|makeup|fashion|nail|hair|salon|doll|bride|wedding",
+  "intro": [
+   "Free games for girls full of style and creativity: dress up stars and princesses, design outfits, do makeup and nails and run your own salon.",
+   "All games play instantly in your browser on phone, tablet and computer. No download, no sign-up, just fun."
+  ]
+ },
+ {
+  "slug": "kids-games",
+  "h1": "Games for Kids",
+  "kw": "games for kids",
+  "match": "kids|kid|baby|toddler|preschool|learning|educational|coloring|animal|cartoon",
+  "intro": [
+   "Friendly, colorful free games for kids: coloring, simple puzzles, animal games, learning games and gentle adventures.",
+   "Games run in the browser with no download and no account. As always, parents should keep an eye on younger children while they play online."
+  ]
+ },
+ {
+  "slug": "brain-games",
+  "h1": "Brain Games",
+  "kw": "brain games",
+  "match": "brain|iq|memory|logic|quiz|trivia|riddle|math",
+  "intro": [
+   "Give your mind a workout with free brain games: memory tests, logic puzzles, quizzes, math challenges and tricky riddles.",
+   "A few minutes a day keeps you sharp. Play instantly in your browser on any device, no download required."
+  ]
+ },
+ {
+  "slug": "math-games",
+  "h1": "Math Games",
+  "kw": "math games",
+  "match": "math|number|numbers|2048|sudoku|count|calcul",
+  "intro": [
+   "Practice numbers the fun way with free math games: 2048, sudoku, number merges, counting challenges and quick arithmetic puzzles.",
+   "Great for students and grown-ups alike. Everything runs in your browser on PC and mobile with no download."
+  ]
+ },
+ {
+  "slug": "2048-games",
+  "h1": "2048 Games",
+  "kw": "2048 game",
+  "match": "2048",
+  "intro": [
+   "Slide tiles, merge equal numbers and chase the 2048 tile. Play the classic and creative twists like 2048 with balls, blocks and fruit.",
+   "Every 2048 game here is free and runs in your browser on desktop and mobile. One more move is always tempting."
+  ]
+ },
+ {
+  "slug": "block-puzzle-games",
+  "h1": "Block Puzzle Games",
+  "kw": "block puzzle games",
+  "match": "block|blocks|blast|tetris|brick|wood",
+  "intro": [
+   "Drop, rotate and fit pieces in free block puzzle games. Clear lines, set up combos and beat your high score in calm or fast-paced modes.",
+   "Block puzzles are perfect for short breaks. Play instantly in your browser on phone or computer, no download."
+  ]
+ },
+ {
+  "slug": "sorting-games",
+  "h1": "Sorting Games",
+  "kw": "sorting games",
+  "match": "sort|sorting|organize|arrange|tidy",
+  "intro": [
+   "Satisfying free sorting games: sort colors, balls, liquids, screws, goods and messy rooms until everything is perfectly in place.",
+   "Relaxing, clever and quick to play. Every sorting game works in your browser on desktop and mobile."
+  ]
+ },
+ {
+  "slug": "relaxing-games",
+  "h1": "Relaxing Games",
+  "kw": "relaxing games",
+  "match": "relax|relaxing|calm|cozy|asmr|satisfying|zen|chill",
+  "intro": [
+   "Slow down with free relaxing games: cozy puzzles, satisfying ASMR games, coloring, sorting and gentle idle games without stress.",
+   "No timers you can't ignore, no downloads and no sign-up. Just open a game in your browser and unwind."
+  ]
+ },
+ {
+  "slug": "simulator-games",
+  "h1": "Simulator Games",
+  "kw": "simulator games",
+  "match": "simulator|simulation|sim|tycoon|manager|life",
+  "intro": [
+   "Live another life in free simulator games: drive buses and trucks, run shops and farms, manage businesses or just mess around with physics.",
+   "Play instantly in your browser on PC and mobile. No download, no account, start simulating in seconds."
+  ]
+ },
+ {
+  "slug": "bus-games",
+  "h1": "Bus Games",
+  "kw": "bus games",
+  "match": "bus|coach|minibus",
+  "titleOnly": true,
+  "intro": [
+   "Drive city buses, coaches and school buses in free bus games. Pick up passengers, follow routes, park in tight spots and keep everyone on schedule.",
+   "Every bus game runs in your browser with no download. Start your shift right now."
+  ]
+ },
+ {
+  "slug": "airplane-games",
+  "h1": "Airplane Games",
+  "kw": "airplane games",
+  "match": "airplane|plane|planes|flight|pilot|jet|aircraft|helicopter",
+  "intro": [
+   "Take off in free airplane games: fly passenger jets, fighter planes and helicopters, land on tricky runways and survive aerial battles.",
+   "Play instantly in your browser on desktop or mobile. No download, no sign-up, just clear skies."
+  ]
+ },
+ {
+  "slug": "bike-games",
+  "h1": "Bike Games",
+  "kw": "bike games",
+  "match": "bike|bikes|bmx|moto|motorbike|motorcycle|dirt",
+  "intro": [
+   "Free bike games for stunt lovers: dirt bikes, BMX tricks, motocross tracks and crazy obstacle courses where balance is everything.",
+   "Flip, land and race again. All bike games play in your browser with no download."
+  ]
+ },
+ {
+  "slug": "cat-games",
+  "h1": "Cat Games",
+  "kw": "cat games",
+  "match": "cat|cats|kitty|kitten",
+  "titleOnly": true,
+  "intro": [
+   "Purr-fect free cat games: take care of cute kittens, solve cat puzzles, run, jump and cause chaos as a mischievous feline.",
+   "Every cat game runs in your browser on PC and mobile. No download, just cats."
+  ]
+ },
+ {
+  "slug": "dinosaur-games",
+  "h1": "Dinosaur Games",
+  "kw": "dinosaur games",
+  "match": "dino|dinosaur|dinosaurs|t-rex|trex|jurassic",
+  "intro": [
+   "Stomp through free dinosaur games: run as a T-Rex, hunt, evolve, dig up fossils and survive in prehistoric worlds.",
+   "Play instantly in your browser on any device, no download needed. Roar!"
+  ]
+ },
+ {
+  "slug": "space-games",
+  "h1": "Space Games",
+  "kw": "space games",
+  "match": "space|galaxy|alien|aliens|planet|star|rocket|asteroid|ufo",
+  "intro": [
+   "Blast off with free space games: pilot rockets, fight alien fleets, mine asteroids and explore strange planets far from home.",
+   "All space games play in your browser on desktop and mobile with no download required."
+  ],
+  "titleOnly": true
+ },
+ {
+  "slug": "archery-games",
+  "h1": "Archery Games",
+  "kw": "archery games",
+  "match": "archery|archer|bow|arrow|arrows",
+  "intro": [
+   "Draw your bow in free archery games: hit targets, shoot apples, duel other archers and pull off impossible long-range shots.",
+   "Archery games run instantly in your browser. Steady hand, no download needed."
+  ]
+ },
+ {
+  "slug": "boxing-games",
+  "h1": "Boxing Games",
+  "kw": "boxing games",
+  "match": "boxing|boxer|punch|wrestling|mma|kickbox",
+  "intro": [
+   "Step into the ring with free boxing and wrestling games: throw punches, dodge hits and knock out your rivals in fast arcade fights.",
+   "Every fighting game here plays in your browser on PC and mobile, no download."
+  ]
+ },
+ {
+  "slug": "farm-games",
+  "h1": "Farm Games",
+  "kw": "farm games",
+  "match": "farm|farming|harvest|crops|tractor|ranch|garden",
+  "intro": [
+   "Grow crops, raise animals and expand your land in free farm games. Drive tractors, harvest fields and build a thriving farm.",
+   "Play instantly in your browser with no download. Your farm is waiting."
+  ]
+ },
+ {
+  "slug": "makeup-games",
+  "h1": "Makeup Games",
+  "kw": "makeup games",
+  "match": "makeup|make up|make-up|beauty|nail|nails|spa|salon|hair",
+  "intro": [
+   "Free makeup games for beauty lovers: create glam looks, do nails and hair, run a spa and transform characters from everyday to red carpet.",
+   "Play in your browser on phone, tablet or computer. No download and no sign-up."
+  ]
+ },
+ {
+  "slug": "princess-games",
+  "h1": "Princess Games",
+  "kw": "princess games",
+  "match": "princess|princesses|queen|royal|fairy",
+  "intro": [
+   "Free princess games full of magic and style: dress up royals, plan fairy-tale weddings, decorate castles and go on enchanted adventures.",
+   "Every princess game runs instantly in your browser on any device."
+  ]
+ },
+ {
+  "slug": "physics-games",
+  "h1": "Physics Games",
+  "kw": "physics games",
+  "match": "physics|ragdoll|destruction|crash|sandbox|gravity",
+  "intro": [
+   "Play with gravity in free physics games: ragdoll stunts, destruction sandboxes, crash tests and clever physics puzzles.",
+   "Physics games load instantly in your browser. Break things, no download required."
+  ]
+ },
+ {
+  "slug": "running-games",
+  "h1": "Running Games",
+  "kw": "running games",
+  "match": "run|runner|running|rush|dash|endless",
+  "intro": [
+   "Run, jump and dodge in free running games: endless runners, obstacle rushes and fast platform dashes where one mistake ends the run.",
+   "Play instantly in your browser on mobile or desktop. Beat your best distance."
+  ]
+ },
+ {
+  "slug": "halloween-games",
+  "h1": "Halloween Games",
+  "kw": "halloween games",
+  "match": "halloween|pumpkin|witch|ghost|spooky|vampire|skeleton|haunted",
+  "intro": [
+   "Get into the spooky spirit with free Halloween games: carve pumpkins, escape haunted houses, match witchy tiles and dress up for the night.",
+   "All Halloween games run in your browser with no download. Trick or treat!"
+  ]
+ },
+ {
+  "slug": "christmas-games",
+  "h1": "Christmas Games",
+  "kw": "christmas games",
+  "match": "christmas|xmas|santa|snowman|holiday|winter|snow|elf",
+  "intro": [
+   "Celebrate with free Christmas games: help Santa deliver gifts, decorate trees, build snowmen and solve festive winter puzzles.",
+   "Every Christmas game plays instantly in your browser on PC and mobile."
+  ],
+  "titleOnly": true
+ },
+ {
+  "slug": "pirate-games",
+  "h1": "Pirate Games",
+  "kw": "pirate games",
+  "match": "pirate|pirates|ship|ships|treasure|sea battle|naval",
+  "intro": [
+   "Hoist the sails in free pirate games: battle ships, hunt for treasure, defend your island and rule the seven seas.",
+   "Pirate games play instantly in your browser, no download. Arr!"
+  ]
+ }
 ]
