@@ -197,7 +197,7 @@ if (cfg.playgamaClid && pg.length) {
     const rawCat = (genres.map(gn => GENRE_MAP[gn.toLowerCase()]).find(Boolean)) || nice(genres[0] || 'Arcade');
     const paras = String(x.description || '').split(/\n+/).map(s => clean(s)).filter(Boolean);
     const g = {
-      id: 'pg-' + x.id, srcId: String(x.id), source: 'pg', title: titleCase(clean(x.title)),
+      id: 'pg-' + x.id, srcId: String(x.id), source: 'pg', pgSlug: x.slug ? String(x.slug) : '', title: titleCase(clean(x.title)),
       description: paras.join(' '), paras, instructions: clean(x.howToPlayText || ''),
       embed: `${String(x.gameURL || '').replace(/^http:/, 'https:')}?clid=${encodeURIComponent(cfg.playgamaClid)}`,
       thumb: String((x.images || [])[0] || ''), w: x.screenOrientation?.vertical && !x.screenOrientation?.horizontal ? 600 : 1280,
@@ -490,6 +490,7 @@ for (const g of all) {
       <dt>Price</dt><dd>Free</dd>
       <dt>Screen</dt><dd>${portrait ? 'Portrait — great on phones' : 'Landscape'}</dd>
       ${g.own ? `<dt>Developer</dt><dd>${esc(g.studio)}</dd>` : ''}
+      ${g.pgSlug ? `<dt>Also on</dt><dd><a href="https://playgama.com/game/${encodeURIComponent(g.pgSlug)}?clid=${encodeURIComponent(cfg.playgamaClid)}" rel="sponsored noopener" target="_blank">Playgama ↗</a></dd>` : ''}
     </dl>
     <h2>FAQ</h2>
     <h3>Is ${esc(g.title)} free to play?</h3><p>Yes. ${esc(g.title)} is completely free on ${esc(cfg.name)}. The game is supported by short ads.</p>
