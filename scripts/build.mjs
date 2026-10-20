@@ -222,6 +222,8 @@ function layout({ title, desc, canonical, body, jsonld = [], ogImage, noindex = 
 <link rel="canonical" href="${esc(canonical)}">
 <meta name="robots" content="${noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large,max-snippet:-1'}">
 ${preload ? `<link rel="preload" as="image" href="${esc(preload)}" fetchpriority="high">` : ''}
+${cfg.ga4 ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(cfg.ga4)}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${esc(cfg.ga4)}');</script>` : ''}
 ${cfg.adsenseClient ? `<meta name="google-adsense-account" content="${esc(cfg.adsenseClient)}">\n<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${esc(cfg.adsenseClient)}" crossorigin="anonymous"></script>` : ''}
 <meta name="application-name" content="${esc(cfg.name)}">
 <meta name="apple-mobile-web-app-title" content="${esc(cfg.shortName)}">
