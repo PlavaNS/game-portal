@@ -214,12 +214,37 @@ if (cfg.playgamaClid && pg.length) {
   });
 }
 
+// GamePix publisher catalogue (embed URL carries our property sid)
+const gpx = readJSON(path.join(RAW, 'gpx.json'), []);
+if (cfg.gamepixSid && gpx.length) {
+  const GPX_MAP = { puzzle: 'Puzzles', 'match-3': 'Puzzles', merge: 'Puzzles', mahjong: 'Puzzles', solitaire: 'Puzzles', cards: 'Puzzles', board: 'Puzzles', word: 'Puzzles', quiz: 'Puzzles', educational: 'Puzzles', racing: 'Racing', driving: 'Racing', shooter: 'Shooting', shooting: 'Shooting', sports: 'Sports', soccer: 'Soccer', football: 'Soccer', io: '.io', 'two-players': '2 Player', '2-player': '2 Player', girls: 'Girls', 'dress-up': 'Girls', cooking: 'Cooking', clicker: 'Clicker', idle: 'Clicker', action: 'Action', fighting: 'Action', adventure: 'Adventure', platform: 'Adventure', arcade: 'Arcade', casual: 'Hypercasual', hypercasual: 'Hypercasual', stickman: 'Stickman', multiplayer: 'Multiplayer', strategy: 'Puzzles', simulation: 'Arcade', 'tower-defense': 'Action', runner: 'Arcade', skill: 'Arcade', classics: 'Arcade', jigsaw: 'Puzzles', bubble: 'Puzzles' };
+  const nice = s => String(s).replace(/[-_]+/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  gpx.forEach((x, i) => {
+    const cat = String(x.category || 'arcade').toLowerCase();
+    const portrait = x.orientation === 'portrait';
+    const g = {
+      id: 'gpx-' + x.id, srcId: String(x.id), source: 'gpx', title: titleCase(clean(x.title)),
+      description: clean(x.description || ''), instructions: '',
+      embed: String(x.url || '').replace(/^http:/, 'https:'),
+      thumb: String(x.banner || '').replace(/([?&])w=\d+/, '$1w=512'),
+      w: portrait ? 600 : (x.width || 1280), h: portrait ? 1000 : (x.height || 720),
+      rawCat: GPX_MAP[cat] || nice(cat), tags: [nice(cat)], mobile: true,
+    };
+    if (!g.title || !g.embed || !/sid=/.test(g.embed) || !g.thumb || g.description.length < 30 || isBlocked(g)) return;
+    const key = g.title.toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (seenTitle.has(key)) return;
+    seenTitle.add(key);
+    g.score = i * 0.6 + 0.3; g.r = { most: i * 0.8, hot: i * 0.8, best: i * 0.7, newest: Infinity };
+    games.push(g);
+  });
+}
+
 games.sort((a, b) => a.score - b.score);
 // every filtered Playgama game stays; other sources fill the rest up to maxGames
 {
-  const pgCount = games.filter(g => g.source === 'pg').length;
+  const pgCount = games.filter(g => g.source === 'pg' || g.source === 'gpx').length;
   let room = Math.max(0, cfg.maxGames - pgCount);
-  games = games.filter(g => g.source === 'pg' || room-- > 0);
+  games = games.filter(g => g.source === 'pg' || g.source === 'gpx' || room-- > 0);
 }
 
 // our own games always first

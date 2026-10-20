@@ -63,6 +63,23 @@ try {
   else throw new Error('too few games: ' + all.length);
 } catch (e) { console.warn('pg: FAILED (' + e.message + ') - keeping previous file'); }
 
+// GamePix publisher feed (property sid in site.config.json); top games by quality
+try {
+  const cfgG = JSON.parse(await fs.readFile(path.resolve('site.config.json'), 'utf8'));
+  if (cfgG.gamepixSid) {
+    const all = [];
+    for (let page = 1; page <= (cfgG.gamepixPages || 12); page++) {
+      const txt = await get(`https://feeds.gamepix.com/v2/json?sid=${encodeURIComponent(cfgG.gamepixSid)}&order=quality&pagination=96&page=${page}`);
+      const j = JSON.parse(txt);
+      const items = j.items || [];
+      all.push(...items.map(g => ({ id: g.id, title: g.title, namespace: g.namespace, description: g.description, category: g.category, orientation: g.orientation, quality: g.quality_score, width: g.width, height: g.height, banner: g.banner_image, url: g.url })));
+      if (!j.next_url || items.length < 96) break;
+    }
+    if (all.length > 50) { await fs.writeFile(path.join(RAW, 'gpx.json'), JSON.stringify(all)); console.log(`gpx: ${all.length} games`); }
+    else throw new Error('too few games: ' + all.length);
+  }
+} catch (e) { console.warn('gpx: FAILED (' + e.message + ') - keeping previous file'); }
+
 if (process.env.GD_FEED_URL) {
   try {
     const txt = await get(process.env.GD_FEED_URL);

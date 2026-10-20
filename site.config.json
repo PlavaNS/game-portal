@@ -2,7 +2,7 @@
   "name": "I Love Web Games",
   "shortName": "ILoveWebGames",
   "slogan": "Play free. Play now.",
-  "tagline": "4,000+ free web games — no downloads, no sign-up.",
+  "tagline": "5,000+ free web games — no downloads, no sign-up.",
   "url": "https://ilovewebgames.com",
   "base": "",
   "contactEmail": "contact@ilovewebgames.com",
@@ -17,7 +17,9 @@
     "google.com, pub-5519830896693885, DIRECT, f08c47fec0942fa0",
     "google.com, pub-4764333688337558, DIRECT, f08c47fec0942fa0"
   ],
-  "maxGames": 4000,
+  "maxGames": 5000,
   "gridPageSize": 96,
-  "ahrefs": "81eee57447738e37bf019a9ea1c775e4205d0c5b4a089ce00de892f554745571"
+  "ahrefs": "81eee57447738e37bf019a9ea1c775e4205d0c5b4a089ce00de892f554745571",
+  "gamepixSid": "5E198",
+  "gamepixPages": 12
 }
