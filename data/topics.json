@@ -700,5 +700,27 @@
    "Hoist the sails in free pirate games: battle ships, hunt for treasure, defend your island and rule the seven seas.",
    "Pirate games play instantly in your browser, no download. Arr!"
   ]
+ },
+ {
+  "slug": "thanksgiving-games",
+  "h1": "Thanksgiving Games",
+  "kw": "thanksgiving games",
+  "match": "thanksgiving|turkey|autumn|harvest|pumpkin|pumpkins|scarecrow|leaf|leaves",
+  "titleOnly": true,
+  "intro": [
+   "Celebrate the season with free Thanksgiving and autumn games: catch the runaway turkey, bake pies, gather the harvest and solve cozy fall-themed puzzles.",
+   "All games play instantly in your browser with no download, so they are great for the whole family while dinner is in the oven."
+  ]
+ },
+ {
+  "slug": "witch-and-wizard-games",
+  "h1": "Witch and Wizard Games",
+  "kw": "witch games",
+  "match": "witch|witches|wizard|wizards|magic|spell|spells|potion|potions|mage|sorcerer",
+  "titleOnly": true,
+  "intro": [
+   "Brew potions, cast spells and defend your tower with magic in free witch and wizard games. Whether you want a spooky Halloween witch, a wise old mage or an epic magic battle, you will find it here.",
+   "Every magic game plays instantly in your browser on PC, tablet and phone with no download or sign-up. Pick a spell book and start playing in seconds."
+  ]
  }
 ]
