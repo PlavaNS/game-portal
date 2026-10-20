@@ -208,13 +208,19 @@ if (cfg.playgamaClid && pg.length) {
     const key = g.title.toLowerCase().replace(/[^a-z0-9]/g, '');
     if (seenTitle.has(key)) return;
     seenTitle.add(key);
-    g.score = i * 1.3; g.r = { most: i * 1.5, hot: i * 2, best: i * 2, newest: Infinity };
+    // Playgama is our preferred partner: its ranking is boosted ahead of GameMonetize
+    g.score = i * 0.5; g.r = { most: i * 0.7, hot: i * 0.7, best: i * 0.8, newest: Infinity };
     games.push(g);
   });
 }
 
 games.sort((a, b) => a.score - b.score);
-games = games.slice(0, cfg.maxGames);
+// every filtered Playgama game stays; other sources fill the rest up to maxGames
+{
+  const pgCount = games.filter(g => g.source === 'pg').length;
+  let room = Math.max(0, cfg.maxGames - pgCount);
+  games = games.filter(g => g.source === 'pg' || room-- > 0);
+}
 
 // our own games always first
 const ours = readJSON(path.join(ROOT, 'data/our-games.json'), []).map(o => ({
@@ -345,7 +351,9 @@ const sitemap = [];
 const addUrl = (p, prio = 0.5, image = null) => sitemap.push({ loc: abs(p), prio, image });
 
 // ---------------------------------------------------------------- build
-fs.rmSync(DIST, { recursive: true, force: true });
+// empty dist without removing the folder itself (Windows may lock the folder handle)
+fs.mkdirSync(DIST, { recursive: true });
+for (const f of fs.readdirSync(DIST)) fs.rmSync(path.join(DIST, f), { recursive: true, force: true, maxRetries: 5 });
 fs.cpSync(path.join(ROOT, 'static'), DIST, { recursive: true });
 
 // HOME
@@ -533,7 +541,7 @@ textPage('privacy', 'Privacy Policy', `<p class="muted">Last updated: ${today}</
 <p>This Privacy Policy explains how ${esc(cfg.name)} ("we", "us"), operated by ${esc(cfg.studio)}, handles information when you visit ${esc(cfg.url)}.</p>
 <h2>1. Information we collect</h2><p>We do not ask you to create an account and we do not collect your name, email or other directly identifying information unless you contact us by email. Our website stores small amounts of data in your own browser (local storage), such as your recently played and favorite games and your cookie choice. This data never leaves your device.</p>
 <h2>2. Games and advertising partners</h2><p>Games on this site are provided by third-party distribution platforms and shown inside embedded frames. These partners serve advertisements inside the games and may use cookies, device identifiers and similar technologies to deliver, measure and personalize ads and to prevent fraud. Our partners include:</p>
-<ul>${cfg.adsenseClient ? '<li>Google AdSense — <a href="https://policies.google.com/privacy" rel="nofollow noopener" target="_blank">Privacy Policy</a></li>' : ''}<li>GameMonetize — <a href="https://gamemonetize.com/privacypolicy" rel="nofollow noopener" target="_blank">Privacy Policy</a></li><li>GameDistribution (KeyGames Network B.V.) — <a href="https://gamedistribution.com/privacy-policy/" rel="nofollow noopener" target="_blank">Privacy Policy</a></li></ul>
+<ul>${cfg.adsenseClient ? '<li>Google AdSense — <a href="https://policies.google.com/privacy" rel="nofollow noopener" target="_blank">Privacy Policy</a></li>' : ''}<li>Playgama — <a href="https://playgama.com/privacy-policy" rel="nofollow noopener" target="_blank">Privacy Policy</a></li><li>GameMonetize — <a href="https://gamemonetize.com/privacypolicy" rel="nofollow noopener" target="_blank">Privacy Policy</a></li></ul>
 <p>These partners act as independent data controllers for the data they collect. Please read their policies to learn how they process data and how to opt out of personalized advertising.</p>
 <h2>3. Cookies and your choices</h2><p>Visitors in the EEA, UK and Switzerland are asked for consent through Google's certified consent tool before personalized ads are shown.${cfg.adsenseClient ? ' This site uses Google AdSense; Google uses cookies to serve ads based on your visits to this and other websites. You can opt out of personalized advertising in <a href="https://adssettings.google.com/" rel="nofollow noopener" target="_blank">Google Ads Settings</a>. Learn how <a href="https://policies.google.com/technologies/partner-sites" rel="nofollow noopener" target="_blank">Google uses data from partner sites</a>.' : ''} When you first visit, we may ask whether you accept non-essential cookies. You can change your choice at any time using "Cookie settings" in the footer. You can also block or delete cookies in your browser settings and opt out of personalized ads at <a href="https://www.youronlinechoices.eu/" rel="nofollow noopener" target="_blank">youronlinechoices.eu</a> or <a href="https://optout.aboutads.info/" rel="nofollow noopener" target="_blank">aboutads.info</a>.</p>
 <h2>4. Hosting and logs</h2><p>Our hosting provider may process technical data such as IP address and browser type in server logs for security and performance purposes.</p>
