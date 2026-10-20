@@ -341,6 +341,8 @@ ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replac
   <a href="${u('/games/bubble-wrap/')}"><i>🫧</i>Our games</a>
   <hr>
   ${activeCats.map(c => `<a href="${u(`/c/${c.slug}/`)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc(c.name)}</a>`).join('\n  ')}
+  <hr>
+  <a href="${u('/submit-game/')}"><i>&#128228;</i>Submit your game</a>
 </nav>
 <main id="main">
 ${body}
