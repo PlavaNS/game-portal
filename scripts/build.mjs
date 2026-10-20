@@ -262,6 +262,10 @@ const ICON_SVG = fs.readFileSync(path.join(ROOT, 'static/favicon.svg'), 'utf8').
 
 function layout({ title, desc, canonical, body, jsonld = [], ogImage, noindex = false, bodyClass = '', preload = '' }) {
   if (title.length > 65) title = title.replace(` | ${cfg.name}`, '');
+  if (title.length > 65) title = title.slice(0, 62).replace(/\s+\S*$/, '') + '…';
+  // desc too short: pad with a generic but accurate sentence
+  desc = String(desc || '');
+  if (desc.length < 110) desc = (desc + (desc ? ' ' : '') + `Play free online at ${cfg.name}: no download, no sign-up, works on PC and mobile.`).slice(0, 160);
   const img = ogImage || abs('/assets/og.png');
   return `<!doctype html>
 <html lang="en">
