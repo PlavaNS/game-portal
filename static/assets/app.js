@@ -60,6 +60,7 @@
     };
     const play = () => {
       remember();
+      try { window.gtag && gtag('event', 'play_game', { game_id: info.id, game_title: info.title }); } catch {}
       if (mobile()) {
         const ov = document.createElement('div');
         ov.className = 'overlay';

@@ -38,6 +38,31 @@ for (const p of lists) {
   }
 }
 
+// GameMonetize list of mobile-ready games (used to mark games that work on phones)
+try {
+  const txt = await get('https://rss.gamemonetize.com/rssfeed.php?format=json&category=All&type=mobile&company=All&amount=All&popularity=mostplayed');
+  const arr = JSON.parse(txt);
+  if (Array.isArray(arr) && arr.length > 50) { await fs.writeFile(path.join(RAW, 'gm-mobile.json'), JSON.stringify(arr.map(g => String(g.id)))); console.log(`gm-mobile: ${arr.length} ids`); }
+} catch (e) { console.warn('gm-mobile: FAILED - ' + e.message); }
+
+// Playgama partner catalogue (sorted by Playgama's own performance ranking)
+try {
+  const all = [];
+  for (let offset = 0; offset < 3000; offset += 100) {
+    const r = await fetch('https://playgama.com/api/v1/partner/export/catalogue/games', {
+      method: 'POST', headers: { 'content-type': 'application/json', accept: 'application/json' },
+      body: JSON.stringify({ pagination: { limit: 100, offset }, sort: { type: 'ranking_default' }, filters: { ageGroups: [], interests: [], platforms: [], supportedLanguages: [], hasInAppPurchases: false, horizontal: false, vertical: false } }),
+    });
+    if (!r.ok) throw new Error('HTTP ' + r.status);
+    const j = await r.json();
+    const page = j.games || [];
+    all.push(...page.map(g => ({ id: g.id, slug: g.slug, title: g.title, description: g.description, howToPlayText: g.howToPlayText, gameURL: g.gameURL, genres: g.genres, tags: g.tags, images: g.images, mobileReady: g.mobileReady, supportedLanguages: g.supportedLanguages, screenOrientation: g.screenOrientation })));
+    if (page.length < 100) break;
+  }
+  if (all.length > 50) { await fs.writeFile(path.join(RAW, 'pg.json'), JSON.stringify(all)); console.log(`pg: ${all.length} games`); }
+  else throw new Error('too few games: ' + all.length);
+} catch (e) { console.warn('pg: FAILED (' + e.message + ') - keeping previous file'); }
+
 if (process.env.GD_FEED_URL) {
   try {
     const txt = await get(process.env.GD_FEED_URL);

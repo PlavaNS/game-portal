@@ -156,3 +156,8 @@ body.noscroll{overflow:hidden}
 .info dt{color:var(--muted)}
 .info dd{margin:0}
 @media (max-width:860px){.welcome h1{font-size:19px}.welcome h1 span{display:block;font-size:15px}}
+
+/* desktop-only games: note on game page, pushed to the end of grids on touch devices */
+.desk-note{margin:0;font-size:13px;color:#ffd34d;text-shadow:0 1px 6px #000}
+@media (pointer:coarse){.grid .card.dm{order:1}.grid .card.dm img{filter:saturate(.7)}}
+@media (pointer:fine){.desk-note{display:none}}

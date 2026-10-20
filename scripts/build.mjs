@@ -84,9 +84,10 @@ const CATS = [
   { slug: '3d', name: '3D', h1: '3D Games', cats: ['3d'], tags: ['3d', 'webgl', 'unity3d'] },
   { slug: 'cooking', name: 'Cooking', h1: 'Cooking Games', cats: ['cooking'], tags: ['cooking', 'food', 'restaurant', 'cake', 'pizza', 'burger', 'chef'] },
   { slug: 'kids', name: 'Kids', h1: 'Games for Kids', cats: [], tags: ['kids', 'kid', 'children', 'educational', 'coloring', 'baby'] },
+  { slug: 'mobile', name: 'Mobile', h1: 'Mobile Games', cats: [], tags: [] },
 ];
 const CAT_BY = Object.fromEntries(CATS.map(c => [c.slug, c]));
-const CAT_ICON = { action: '⚔️', shooting: '🎯', racing: '🏎️', puzzle: '🧩', 'clicker-idle': '👆', arcade: '🕹️', adventure: '🗺️', sports: '⚽', 'two-player': '👥', multiplayer: '🌐', girls: '👗', hypercasual: '✨', stickman: '🕴️', zombie: '🧟', '3d': '🧊', cooking: '🍳', kids: '🧸' };
+const CAT_ICON = { action: '⚔️', shooting: '🎯', racing: '🏎️', puzzle: '🧩', 'clicker-idle': '👆', arcade: '🕹️', adventure: '🗺️', sports: '⚽', 'two-player': '👥', multiplayer: '🌐', girls: '👗', hypercasual: '✨', stickman: '🕴️', zombie: '🧟', '3d': '🧊', cooking: '🍳', kids: '🧸', mobile: '📱' };
 const CAT_INTRO = {
   action: 'Fight, dodge and battle your way through fast-paced action games. Every game runs right in your browser on PC, tablet and phone.',
   shooting: 'Aim, fire and take down your targets. From sniper missions to tank battles, these free shooting games load instantly with no download.',
@@ -105,6 +106,7 @@ const CAT_INTRO = {
   '3d': 'Free 3D games running right in your browser: racing, shooting, parkour and more, with no install needed.',
   cooking: 'Run restaurants, bake cakes and serve hungry customers in free cooking games.',
   kids: 'Friendly, colorful games for kids: coloring, simple puzzles and easy-to-play fun.',
+  mobile: 'Free games that work great on your phone and tablet. Tap to play instantly in your browser on Android or iPhone — no app, no download.',
 };
 
 function catsFor(g) {
@@ -145,8 +147,10 @@ function normalize(g, source) {
 
 let games = [];
 const seenTitle = new Set();
+const gmMobile = new Set(readJSON(path.join(RAW, 'gm-mobile.json'), []));
 for (const g0 of pool.values()) {
   const g = normalize(g0, 'gm');
+  g.mobile = gmMobile.size ? gmMobile.has(g.srcId) : true;
   if (!g.title || !g.embed.startsWith('https://') || !g.thumb || g.description.length < 30) continue;
   if (isBlocked(g)) continue;
   const key = g.title.toLowerCase().replace(/[^a-z0-9]/g, '');
@@ -182,6 +186,33 @@ if (Array.isArray(gd) || Array.isArray(gd?.data) || Array.isArray(gd?.result)) {
   });
 }
 
+// Playgama partner catalogue (embed URL carries our partner clid so revenue is attributed)
+const pg = readJSON(path.join(RAW, 'pg.json'), []);
+if (cfg.playgamaClid && pg.length) {
+  const GENRE_MAP = { puzzle: 'Puzzles', match3: 'Puzzles', merge: 'Puzzles', mahjong: 'Puzzles', solitaire: 'Puzzles', cards: 'Puzzles', word: 'Puzzles', educational: 'Puzzles', racing: 'Racing', cars: 'Racing', shooter: 'Shooting', shooting: 'Shooting', sports: 'Sports', football: 'Soccer', soccer: 'Soccer', io: '.io', '2_player': '2 Player', 'two-player': '2 Player', girls: 'Girls', 'dress-up': 'Girls', cooking: 'Cooking', clicker: 'Clicker', idle: 'Clicker', action: 'Action', fighting: 'Action', adventure: 'Adventure', platformer: 'Adventure', arcade: 'Arcade', hypercasual: 'Hypercasual', casual: 'Hypercasual', stickman: 'Stickman', multiplayer: 'Multiplayer' };
+  const nice = s => String(s).replace(/[-_]+/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+  pg.forEach((x, i) => {
+    if (!(x.supportedLanguages || []).some(l => /^en/i.test(l))) return;
+    const genres = (x.genres || []).map(String);
+    const rawCat = (genres.map(gn => GENRE_MAP[gn.toLowerCase()]).find(Boolean)) || nice(genres[0] || 'Arcade');
+    const paras = String(x.description || '').split(/\n+/).map(s => clean(s)).filter(Boolean);
+    const g = {
+      id: 'pg-' + x.id, srcId: String(x.id), source: 'pg', title: titleCase(clean(x.title)),
+      description: paras.join(' '), paras, instructions: clean(x.howToPlayText || ''),
+      embed: `${String(x.gameURL || '').replace(/^http:/, 'https:')}?clid=${encodeURIComponent(cfg.playgamaClid)}`,
+      thumb: String((x.images || [])[0] || ''), w: x.screenOrientation?.vertical && !x.screenOrientation?.horizontal ? 600 : 1280,
+      h: x.screenOrientation?.vertical && !x.screenOrientation?.horizontal ? 1000 : 720,
+      rawCat, tags: genres.map(nice), mobile: (x.mobileReady || []).some(m => /android|ios/i.test(m)),
+    };
+    if (!g.title || !x.gameURL || !g.thumb || g.description.length < 30 || isBlocked(g)) return;
+    const key = g.title.toLowerCase().replace(/[^a-z0-9]/g, '');
+    if (seenTitle.has(key)) return;
+    seenTitle.add(key);
+    g.score = i * 1.3; g.r = { most: i * 1.5, hot: i * 2, best: i * 2, newest: Infinity };
+    games.push(g);
+  });
+}
+
 games.sort((a, b) => a.score - b.score);
 games = games.slice(0, cfg.maxGames);
 
@@ -190,7 +221,7 @@ const ours = readJSON(path.join(ROOT, 'data/our-games.json'), []).map(o => ({
   id: 'our-' + o.slug, own: true, slug: o.slug, title: o.title, description: o.description, instructions: o.instructions, short: o.short,
   embed: o.gmEmbedUrl || u(o.embed), thumb: u(o.thumb), cover: u(o.cover), video: o.video ? u(o.video) : null, screens: (o.screens || []).map(u),
   w: o.orientation === 'portrait' ? 600 : 1280, h: o.orientation === 'portrait' ? 1000 : 720, rawCat: o.category, tags: o.tags, studio: o.studio,
-  score: -1, r: { most: -1, hot: -1, best: -1, newest: -1 }, cats: { main: o.category, all: [o.category] },
+  score: -1, r: { most: -1, hot: -1, best: -1, newest: -1 }, cats: { main: o.category, all: [o.category] }, mobile: true,
 }));
 
 // slugs
@@ -203,6 +234,7 @@ for (const g of games) {
 const all = [...ours, ...games];
 const byCat = Object.fromEntries(CATS.map(c => [c.slug, []]));
 for (const g of all) for (const c of g.cats.all) byCat[c]?.push(g);
+byCat.mobile = all.filter(g => g.mobile);
 const activeCats = CATS.filter(c => byCat[c.slug].length >= 8);
 const top = (key, n) => games.filter(g => Number.isFinite(g.r[key])).sort((a, b) => a.r[key] - b.r[key]).slice(0, n);
 
@@ -281,7 +313,7 @@ ${cfg.adsenseClient ? '' : `<div class="consent" hidden data-consent>
 </html>`;
 }
 
-const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}" href="${u(`/games/${g.slug}/`)}"><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${g.own ? '<b class="badge">Our game</b>' : ''}</a>`;
+const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.mobile ? '' : ' dm'}" href="${u(`/games/${g.slug}/`)}"><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${g.own ? '<b class="badge">Our game</b>' : ''}</a>`;
 const row = (title, href, list, eager = false) => list.length ? `<section class="row"><div class="row-h"><h2>${esc(title)}</h2>${href ? `<a href="${href}">See all ›</a>` : ''}</div><div class="grid">${list.map(g => card(g, eager)).join('')}</div></section>` : '';
 const crumbs = items => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: url })) });
 
@@ -391,7 +423,7 @@ for (const g of all) {
     <div class="stage-ui">
       <img class="stage-thumb" src="${esc(g.thumb)}" alt="${esc(g.title)}" width="256" height="192">
       <h1>${esc(g.title)}</h1>
-      <button class="btn big" data-play>▶ Play now</button>
+      <button class="btn big" data-play>▶ Play now</button>${g.mobile ? '' : '\n      <p class="desk-note">💻 Best played on a computer with a keyboard</p>'}
     </div>
   </div>
   <div class="bar">
@@ -405,20 +437,20 @@ for (const g of all) {
 <div class="game-cols">
   <article class="about">
     <h2>About ${esc(g.title)}</h2>
-    <p>${esc(g.description)}</p>
+    ${(g.paras && g.paras.length > 1 ? g.paras : [g.description]).map(p => `<p>${esc(p)}</p>`).join('\n    ')}
     ${g.instructions ? `<h2>How to play</h2><p>${esc(g.instructions)}</p>` : ''}
     <p class="chips">${catLinks}${tagText}</p>
     <h2>Game info</h2>
     <dl class="info">
       <dt>Genre</dt><dd>${g.cats.all.filter(c => CAT_BY[c]).slice(0, 4).map(c => esc(CAT_BY[c].name)).join(', ')}</dd>
-      <dt>Platform</dt><dd>Web browser (PC, Mac, Android, iPhone, tablet)</dd>
+      <dt>Platform</dt><dd>${g.mobile ? 'Web browser (PC, Mac, Android, iPhone, tablet)' : 'Web browser — best on PC / Mac'}</dd>
       <dt>Price</dt><dd>Free</dd>
       <dt>Screen</dt><dd>${portrait ? 'Portrait — great on phones' : 'Landscape'}</dd>
       ${g.own ? `<dt>Developer</dt><dd>${esc(g.studio)}</dd>` : ''}
     </dl>
     <h2>FAQ</h2>
     <h3>Is ${esc(g.title)} free to play?</h3><p>Yes. ${esc(g.title)} is completely free on ${esc(cfg.name)}. The game is supported by short ads.</p>
-    <h3>Can I play ${esc(g.title)} on my phone?</h3><p>Yes. It runs in the browser on Android phones, iPhones and tablets as well as on PC and Mac — tap “Play now” and the game opens full screen.</p>
+    <h3>Can I play ${esc(g.title)} on my phone?</h3><p>${g.mobile ? 'Yes. It runs in the browser on Android phones, iPhones and tablets as well as on PC and Mac — tap “Play now” and the game opens full screen.' : `${esc(g.title)} is made for computers and plays best with a keyboard and mouse. For phones, check out our <a href="${u('/c/mobile/')}">mobile games</a>.`}</p>
     <h3>Do I need to download or sign up?</h3><p>No. There is nothing to install and no account needed. The game loads instantly in your browser.</p>
     <p class="muted">${g.own ? `Made by ${esc(g.studio)} — the team behind ${esc(cfg.name)}.` : `Like ${esc(g.title)}? Try more <a href="${u(`/c/${main.slug}/`)}">${esc(main.h1.toLowerCase())}</a> or browse the <a href="${u('/popular/')}">most played games</a> on ${esc(cfg.name)}.`}</p>
   </article>
