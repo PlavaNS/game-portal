@@ -15,7 +15,7 @@ const YEAR = new Date().getFullYear();
 const BUILD_ID = Date.now().toString(36);
 
 // ---------------------------------------------------------------- helpers
-const ENT = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', ndash: '–', mdash: '—', rsquo: '’', lsquo: '‘', rdquo: '”', ldquo: '“', hellip: '…' };
+const ENT = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ', ndash: '–', mdash: '—', rsquo: '’', lsquo: '‘', rdquo: '”', ldquo: '“', hellip: '…', eacute: 'é', egrave: 'è', ecirc: 'ê', aacute: 'á', agrave: 'à', acirc: 'â', auml: 'ä', ouml: 'ö', uuml: 'ü', iacute: 'í', oacute: 'ó', uacute: 'ú', ntilde: 'ñ', ccedil: 'ç', szlig: 'ß', trade: '™', copy: '©', reg: '®', deg: '°', times: '×', laquo: '«', raquo: '»' };
 const decode = s => String(s ?? '')
   .replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (m, e) => {
     if (e[0] === '#') { const n = e[1].toLowerCase() === 'x' ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10); return Number.isFinite(n) ? String.fromCodePoint(n) : m; }
@@ -62,7 +62,7 @@ const BLOCK = [
   'gambling', 'poker', 'blackjack', 'roulette', 'bet ', 'drunk', 'beer', 'cigarette', 'weed', 'gore', 'bloody', 'killer clown', 'suicide', 'hitler', 'nazi',
   'unblocked', 'hacked', 'cheat'
 ];
-BLOCK.push('drunken', 'kiss', 'bet', 'double dragon', 'left dead', 'left 4 dead', 'mortal kombat', 'street fighter', 'tekken', 'resident evil', 'half-life', 'halo');
+BLOCK.push('amongus', 'among', 'shadowgun', 'plants vs zombies', 'pvz', 'sprunki', 'brainrot', 'tralalero', 'drunken', 'kiss', 'bet', 'double dragon', 'left dead', 'left 4 dead', 'mortal kombat', 'street fighter', 'tekken', 'resident evil', 'half-life', 'halo');
 const BLOCK_RE = new RegExp('(^|[^a-z0-9])(' + [...new Set(BLOCK.map(w => w.trim()))].map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')(?=$|[^a-z0-9])', 'i');
 const isBlocked = g => BLOCK_RE.test(g.title) || BLOCK_RE.test(g.tags.join(' , '));
 
@@ -238,6 +238,19 @@ byCat.mobile = all.filter(g => g.mobile);
 const activeCats = CATS.filter(c => byCat[c.slug].length >= 8);
 const top = (key, n) => games.filter(g => Number.isFinite(g.r[key])).sort((a, b) => a.r[key] - b.r[key]).slice(0, n);
 
+// keyword collections ("mahjong", "escape room games"...): root-level SEO landing pages
+const topics = readJSON(path.join(ROOT, 'data/topics.json'), []).map(t => {
+  let list;
+  if (t.match) {
+    const re = new RegExp('(^|[^a-z0-9])(' + t.match + ')(?=$|[^a-z0-9])', 'i');
+    list = all.filter(g => re.test(g.title) || (!t.titleOnly && re.test(g.tags.join(' , '))));
+  } else {
+    const seen = new Set(); list = [];
+    for (const g of [...ours, ...top('best', 60), ...top('hot', 60), ...top('most', 60)]) if (!seen.has(g.id)) { seen.add(g.id); list.push(g); }
+  }
+  return { ...t, list: list.slice(0, 120) };
+}).filter(t => t.list.length >= 8);
+
 // ---------------------------------------------------------------- templates
 const ICON_SVG = fs.readFileSync(path.join(ROOT, 'static/favicon.svg'), 'utf8').trim().replace('<svg ', '<svg aria-hidden="true" ');
 
@@ -301,6 +314,7 @@ ${body}
 <footer class="foot">
   <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.slogan)} ${esc(cfg.tagline)}</p>
   <p><a href="${u('/about/')}">About</a> · <a href="${u('/contact/')}">Contact</a> · <a href="${u('/privacy/')}">Privacy Policy</a> · <a href="${u('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
+  <p class="foot-topics">${topics.slice(0, 14).map(t => `<a href="${u(`/${t.slug}/`)}">${esc(t.h1)}</a>`).join(' · ')}</p>
   <p class="muted">© ${YEAR} ${esc(cfg.name)} by ${esc(cfg.studio)}. All games are the property of their respective developers and are provided through official distribution partners.</p>
 </footer>
 ${cfg.adsenseClient ? '' : `<div class="consent" hidden data-consent>
@@ -356,6 +370,7 @@ ${row('🔥 Trending now', u('/popular/'), top('hot', 18), true)}
 ${row('⭐ Most played', u('/popular/'), top('most', 18))}
 ${row('🆕 New games', u('/new/'), top('newest', 18))}
 ${catTiles}
+<section class="row"><div class="row-h"><h2>Popular collections</h2></div><p class="chips">${topics.map(t => `<a class="chip" href="${u(`/${t.slug}/`)}">${esc(t.h1)}</a>`).join('')}</p></section>
 ${row('🏆 Best games', null, top('best', 18))}
 ${activeCats.map(c => row(`${CAT_ICON[c.slug] || ''} ${c.h1}`, u(`/c/${c.slug}/`), byCat[c.slug].slice(0, 12))).join('\n')}
 <section class="seo-text"><h2>Free online games on ${esc(cfg.name)}</h2><p>${esc(cfg.name)} is a hand-picked collection of ${all.length.toLocaleString('en')} free browser games. Every game runs instantly on your computer, tablet or phone, with no downloads, no installs and no account. Play action, puzzle, racing, sports, clicker and 2 player games, and come back every day for new titles.</p></section>`;
@@ -400,6 +415,25 @@ listPages('/popular/', [...ours, ...top('most', 300)], { title: `Most Played Fre
 listPages('/new/', top('newest', 192), { title: `New Free Online Games | ${cfg.name}`, h1: 'New games', intro: 'Fresh games added to the collection. Check back daily.', desc: 'Brand new free online games, added every day. Play instantly on PC and mobile.' });
 listPages('/all/', [...all].sort((a, b) => a.title.localeCompare(b.title)), { title: `All Games A–Z | ${cfg.name}`, h1: 'All games A–Z', intro: `Every game on ${cfg.name}, sorted alphabetically.`, desc: `Browse all ${all.length} free online games on ${cfg.name} from A to Z.` });
 
+// TOPIC PAGES
+const topicOf = new Map();
+for (const t of topics) for (const g of t.list) if (!topicOf.has(g.id)) topicOf.set(g.id, t);
+for (const t of topics) {
+  const others = topics.filter(o => o.slug !== t.slug).slice(0, 12);
+  const body = `<nav class="crumbs"><a href="${u('/')}">Home</a> › <span>${esc(t.h1)}</span></nav>
+<header class="page-h"><h1>${esc(t.h1)}</h1>${t.intro.map(p => `<p>${esc(p)}</p>`).join('')}</header>
+<div class="grid">${t.list.map((g, i) => card(g, i < 8)).join('')}</div>
+<section class="row" style="margin-top:28px"><div class="row-h"><h2>More collections</h2></div><p class="chips">${others.map(o => `<a class="chip" href="${u(`/${o.slug}/`)}">${esc(o.h1)}</a>`).join('')}</p></section>`;
+  write(`${t.slug}/index.html`, layout({
+    title: `${t.h1} — Play Free Online | ${cfg.name}`,
+    desc: trunc(`${t.list.length}+ free ${t.kw}. ${t.intro[0]}`, 158), canonical: abs(`/${t.slug}/`), body,
+    jsonld: [crumbs([['Home', abs('/')], [t.h1, abs(`/${t.slug}/`)]]),
+      { '@context': 'https://schema.org', '@type': 'CollectionPage', name: t.h1, url: abs(`/${t.slug}/`), description: t.intro[0],
+        mainEntity: { '@type': 'ItemList', numberOfItems: t.list.length, itemListElement: t.list.slice(0, 20).map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(`/games/${g.slug}/`), name: g.title })) } }],
+  }));
+  addUrl(`/${t.slug}/`, 0.8);
+}
+
 // GAME PAGES
 const catIndex = Object.fromEntries(Object.entries(byCat).map(([k, v]) => [k, new Map(v.map((g, i) => [g.id, i]))]));
 for (const g of all) {
@@ -414,7 +448,8 @@ for (const g of all) {
   const portrait = g.h > g.w * 1.05;
   const pageUrl = abs(`/games/${g.slug}/`);
   const desc = trunc(`Play ${g.title} online for free. ${g.description}`, 158);
-  const catLinks = g.cats.all.filter(c => CAT_BY[c]).map(c => `<a class="chip" href="${u(`/c/${c}/`)}">${esc(CAT_BY[c].name)}</a>`).join('');
+  const tp = topicOf.get(g.id);
+  const catLinks = (tp ? `<a class="chip" href="${u(`/${tp.slug}/`)}">${esc(tp.h1)}</a>` : '') + g.cats.all.filter(c => CAT_BY[c]).map(c => `<a class="chip" href="${u(`/c/${c}/`)}">${esc(CAT_BY[c].name)}</a>`).join('');
   const tagText = g.tags.slice(0, 8).map(t => `<span class="chip ghost">${esc(t)}</span>`).join('');
   const body = `<nav class="crumbs"><a href="${u('/')}">Home</a> › <a href="${u(`/c/${main.slug}/`)}">${esc(main.h1)}</a> › <span>${esc(g.title)}</span></nav>
 <section class="player${portrait ? ' portrait' : ''}" data-player data-src="${esc(g.embed)}" data-id="${esc(g.slug)}" data-title="${esc(g.title)}" data-thumb="${esc(g.thumb)}" style="--ar:${g.w}/${g.h}">
