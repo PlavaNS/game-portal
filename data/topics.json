@@ -722,5 +722,36 @@
    "Brew potions, cast spells and defend your tower with magic in free witch and wizard games. Whether you want a spooky Halloween witch, a wise old mage or an epic magic battle, you will find it here.",
    "Every magic game plays instantly in your browser on PC, tablet and phone with no download or sign-up. Pick a spell book and start playing in seconds."
   ]
+ },
+ {
+  "slug": "monster-games",
+  "h1": "Monster Games",
+  "kw": "monster games",
+  "match": "monsters?(?! ?(truck|trucks|wheels|car|cars|jam))|creature|creatures|beast|beasts|goblin|goblins|troll|trolls|ogre|ogres|mutant|mutants|kaiju",
+  "intro": [
+   "Meet friendly blobs, giant beasts and creepy creatures in our free monster games. Battle mutants, evolve your own critter, run from a hungry troll or raise a pocket monster that grows with every level.",
+   "Every monster game here plays instantly in your browser on PC, tablet or phone, with no download and no sign-up. A perfect pick for Halloween week or any night you feel like something a little wild."
+  ],
+  "titleOnly": true
+ },
+ {
+  "slug": "building-games",
+  "h1": "Building & Crafting Games",
+  "kw": "building games",
+  "match": "build|builder|building|builders|craft|crafting|crafter|construct|construction|blocky|voxel|minecraft|mining|miner",
+  "intro": [
+   "Stack, dig, craft and design in free building games. Mine blocky worlds for resources, raise a skyline from an empty lot, run a construction site or craft tools to survive the night.",
+   "These sandbox and construction games load straight in the browser and save time-wasting installs. Start small, think big and see how far your creation can grow."
+  ]
+ },
+ {
+  "slug": "candy-games",
+  "h1": "Candy Games",
+  "kw": "candy games",
+  "match": "candy|candies|sweet|sweets|lollipop|chocolate|dessert|desserts|ice cream|donut|donuts|cupcake|cupcakes|gummy|jelly",
+  "intro": [
+   "Fill your bag with free candy games: swap sugary tiles in match-3 puzzles, run a dessert shop, stack cupcakes, decorate donuts and pop jelly blocks for big combos.",
+   "Sweet games are a fun way to warm up for trick-or-treat night or to relax after a long day. Everything runs in your browser on phone or PC, with zero calories and no downloads."
+  ]
  }
 ]

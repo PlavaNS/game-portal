@@ -417,7 +417,7 @@ ${activeCats.map(c => row(`${CAT_ICON[c.slug] || ''} ${c.h1}`, u(`/c/${c.slug}/`
     title: `${cfg.name} — Free Online Games, Play Instantly`,
     desc: `${cfg.slogan} Play ${all.length.toLocaleString('en')}+ free online games: action, puzzle, racing, 2 player, clicker and more. No downloads, works on PC & mobile.`,
     canonical: abs('/'), body,
-    jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.name, alternateName: cfg.name.replace(/\s+/g, ''), slogan: cfg.slogan, url: abs('/'), potentialAction: { '@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
+    jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.name, alternateName: cfg.name.replace(/\s+/g, ''), url: abs('/'), potentialAction: { '@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
       { '@context': 'https://schema.org', '@type': 'Organization', name: cfg.name, url: abs('/'), logo: abs('/assets/icon-512.png'), slogan: cfg.slogan, parentOrganization: { '@type': 'Organization', name: cfg.studio } }],
   }));
   addUrl('/', 1.0);
@@ -438,7 +438,8 @@ ${pager(u(basePath), p, pages)}`;
       title: p === 1 ? title : `${h1} — Page ${p} | ${cfg.name}`,
       desc, canonical: abs(pagePath), body,
       jsonld: [crumbs([['Home', abs('/')], [h1, abs(basePath)]]),
-        { '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, url: abs(pagePath), numberOfItems: slice.length }],
+        { '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, url: abs(pagePath),
+          mainEntity: { '@type': 'ItemList', numberOfItems: slice.length, itemListElement: slice.slice(0, 20).map((g, i) => ({ '@type': 'ListItem', position: (p - 1) * size + i + 1, url: abs(`/games/${g.slug}/`), name: g.title })) } }],
     }));
     addUrl(pagePath, p === 1 ? 0.8 : 0.4);
   }
