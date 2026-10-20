@@ -577,7 +577,9 @@ if (process.env.CNAME) write('CNAME', process.env.CNAME + '\n');
 {
   const lines = [...(cfg.adsTxt || [])];
   if (cfg.adsenseClient) lines.unshift(`google.com, ${cfg.adsenseClient.replace(/^ca-/, '')}, DIRECT, f08c47fec0942fa0`);
-  if (lines.length) write('ads.txt', lines.join('\n') + '\n');
+  // partner ads.txt blocks stored as files (e.g. GamePix property snippet)
+for (const f of ['data/ads-gamepix.txt']) { const p = path.join(ROOT, f); if (fs.existsSync(p)) lines.push('', ...fs.readFileSync(p, 'utf8').replace(/^\uFEFF/, '').split(/\r?\n/).map(l => l.trimEnd())); }
+if (lines.length) write('ads.txt', lines.join('\n') + '\n');
 }
 write('.nojekyll', '');
 
