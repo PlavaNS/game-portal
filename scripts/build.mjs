@@ -348,7 +348,7 @@ ${body}
 </div>
 <footer class="foot">
   <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.slogan)} ${esc(cfg.tagline)}</p>
-  <p><a href="${u('/about/')}">About</a> · <a href="${u('/contact/')}">Contact</a> · <a href="${u('/privacy/')}">Privacy Policy</a> · <a href="${u('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
+  <p><a href="${u('/about/')}">About</a> · <a href="${u('/contact/')}">Contact</a> &middot; <a href="${u('/submit-game/')}">Submit your game</a> · <a href="${u('/privacy/')}">Privacy Policy</a> · <a href="${u('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
   <p class="foot-topics">${topics.slice(0, 14).map(t => `<a href="${u(`/${t.slug}/`)}">${esc(t.h1)}</a>`).join(' · ')}</p>
   <p class="muted">© ${YEAR} ${esc(cfg.name)} by ${esc(cfg.studio)}. All games are the property of their respective developers and are provided through official distribution partners.</p>
 </footer>
@@ -562,9 +562,21 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
 <p>The games are free for you because they show short ads, which support the developers who make them and keep this site running.</p>
 <p>Questions or ideas? <a href="${u('/contact/')}">Get in touch</a>.</p>`, `About ${cfg.name}: free online games by ${cfg.studio}.`);
 
+{
+  const subj = encodeURIComponent('Game submission: <your game title>');
+  const body = encodeURIComponent('Game title:\nGame URL (HTML5, playable in an iframe):\nStudio / developer name:\nGenre:\nWorks on mobile? (yes/no):\nShort description (2-3 sentences):\nHow to play:\nThumbnail / cover image link (512x384 or larger):\nDo you own all rights to this game? (yes/no):\n');
+  textPage('submit-game', 'Submit Your Game', `<p class="lead">Made an HTML5 game? Get it in front of new players on ${esc(cfg.name)}. Submitting is free.</p>
+<p><a class="btn big" href="mailto:${esc(cfg.contactEmail)}?subject=${subj}&amp;body=${body}">&#9993; Submit your game by email</a></p>
+<h2>What we are looking for</h2>
+<ul><li>HTML5 / WebGL games that run in a browser and can be embedded in an iframe</li><li>Games you made yourself or have the rights to publish</li><li>Family-friendly content: no adult content, gambling or hate</li><li>Works on desktop; mobile support is a big plus</li><li>Your own ads inside the game (e.g. your publisher SDK) are fine, so you keep your revenue</li></ul>
+<h2>How it works</h2>
+<ol><li>Send us the link to your game and a short description using the button above, or email <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a>.</li><li>We play it and check quality, performance and content, usually within a week.</li><li>If it is a good fit, we publish it with its own page, description and a link to your studio.</li></ol>
+<h2>Good to know</h2>
+<p>We do not host files: the game stays on your server or your distribution platform, and you can ask us to remove it at any time. Games from other people that you do not own will not be accepted.</p>`, `Submit your HTML5 game to ${cfg.name} and reach new players for free.`);
+}
 textPage('contact', 'Contact', `<p>We'd love to hear from you — feedback, bug reports, game suggestions or business inquiries.</p>
 <p>Email: <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a></p>
-<h2>Game developers</h2><p>Made a great HTML5 game? Send us a link and we'll take a look.</p>
+<h2>Game developers</h2><p>Made a great HTML5 game? <a href="${u('/submit-game/')}">Submit it here</a> and we'll take a look.</p>
 <h2>Copyright concerns</h2><p>If you believe a game on this site infringes your rights, email us with the game URL and details, and we will review and remove it promptly.</p>`, `Contact ${cfg.name}.`);
 
 textPage('privacy', 'Privacy Policy', `<p class="muted">Last updated: ${today}</p>
