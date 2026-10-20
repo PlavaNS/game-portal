@@ -46,3 +46,17 @@ jobs:
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
+  ping:
+    needs: deploy
+    runs-on: ubuntu-latest
+    continue-on-error: true
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Tell search engines about new/updated pages (IndexNow)
+        run: |
+          node scripts/fetch-feeds.mjs
+          node scripts/build.mjs
+          node scripts/indexnow.mjs
