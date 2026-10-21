@@ -786,5 +786,27 @@
    "Power up with free robot games: pilot giant mechs in arena battles, build and transform your own bot, solve puzzles as a tiny droid or race futuristic machines across neon tracks.",
    "From quick arcade fights to clever logic puzzles, robot games suit players of every age. Everything loads instantly in your browser on mobile or desktop, with no downloads."
   ]
+ },
+ {
+  "slug": "pumpkin-games",
+  "h1": "Pumpkin Games",
+  "kw": "pumpkin games",
+  "match": "pumpkin|pumpkins|jack-o-lantern|jack o lantern|jackolantern",
+  "titleOnly": true,
+  "intro": [
+   "Carve out some fun with free pumpkin games: smash and match glowing jack-o-lanterns, guide a rolling pumpkin through spooky levels, decorate your own patch or pop autumn bubbles before they reach the bottom.",
+   "These orange-themed games are perfect for Halloween parties, a cozy fall evening or a quick break at school. Every game runs right in your browser on phone, tablet or desktop, with nothing to install."
+  ]
+ },
+ {
+  "slug": "winter-and-snow-games",
+  "h1": "Winter & Snow Games",
+  "kw": "winter games",
+  "match": "snow|snowy|snowman|snowball|winter|ski|skiing|skier|snowboard|sled|sledding|penguin|penguins|frozen|ice|icy|igloo|blizzard",
+  "titleOnly": true,
+  "intro": [
+   "Bundle up for free winter and snow games: race down slopes on skis or a snowboard, build a snowman, win snowball fights, slide across frozen lakes with penguins and survive icy adventures.",
+   "Whether it is a snow day, winter break or you just want a frosty change of scenery, these games load instantly in your browser on mobile and desktop. No downloads, no sign-up, just cold-weather fun."
+  ]
  }
 ]
