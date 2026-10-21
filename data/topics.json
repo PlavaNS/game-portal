@@ -753,5 +753,38 @@
    "Fill your bag with free candy games: swap sugary tiles in match-3 puzzles, run a dessert shop, stack cupcakes, decorate donuts and pop jelly blocks for big combos.",
    "Sweet games are a fun way to warm up for trick-or-treat night or to relax after a long day. Everything runs in your browser on phone or PC, with zero calories and no downloads."
   ]
+ },
+ {
+  "slug": "ghost-games",
+  "h1": "Ghost Games",
+  "kw": "ghost games",
+  "match": "ghost|ghosts|spooky|haunted|haunt|phantom|spirit|spirits|poltergeist|boo",
+  "titleOnly": true,
+  "intro": [
+   "Things go bump in the night in these free ghost games. Explore haunted houses, help a friendly spirit find its way home, bust spooky phantoms or solve eerie puzzles, all straight from your browser.",
+   "With Halloween around the corner, ghost games are a fun pick for anyone who likes a little chill without real scares. They run instantly on phone, tablet and PC, with nothing to download."
+  ]
+ },
+ {
+  "slug": "mining-games",
+  "h1": "Mining Games",
+  "kw": "mining games",
+  "match": "mining|miner|miners|mine|mines|dig|digger|digging|drill|gold rush|pickaxe",
+  "titleOnly": true,
+  "intro": [
+   "Grab a pickaxe and dig deep in free mining games. Tunnel through rock for gold and gems, upgrade drills in idle mining tycoons, or blast your way down in fast arcade diggers.",
+   "Mining games mix the calm of collecting with the thrill of finding something rare in the next layer. Play them in your browser on any device, no installs or accounts needed."
+  ]
+ },
+ {
+  "slug": "robot-games",
+  "h1": "Robot Games",
+  "kw": "robot games",
+  "match": "robot|robots|robo|mech|mechs|android|cyborg|droid|transform",
+  "titleOnly": true,
+  "intro": [
+   "Power up with free robot games: pilot giant mechs in arena battles, build and transform your own bot, solve puzzles as a tiny droid or race futuristic machines across neon tracks.",
+   "From quick arcade fights to clever logic puzzles, robot games suit players of every age. Everything loads instantly in your browser on mobile or desktop, with no downloads."
+  ]
  }
 ]
