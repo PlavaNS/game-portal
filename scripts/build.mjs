@@ -338,7 +338,7 @@ ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replac
   <a href="${u('/')}"><i>🏠</i>Home</a>
   <a href="${u('/new/')}"><i>🆕</i>New games</a>
   <a href="${u('/popular/')}"><i>🔥</i>Most played</a>
-  <a href="${u('/games/bubble-wrap/')}"><i>🫧</i>Our games</a>
+  <a href="${u('/our-games/')}"><i>🫧</i>Our games</a>
   <hr>
   ${activeCats.map(c => `<a href="${u(`/c/${c.slug}/`)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc(c.name)}</a>`).join('\n  ')}
   <hr>
@@ -482,7 +482,7 @@ for (const g of all) {
   const idx = catIndex[main.slug].get(g.id) ?? 0;
   const similar = [];
   for (let k = 1; similar.length < 12 && k < pool.length; k++) { const s = pool[(idx + k) % pool.length]; if (s.id !== g.id) similar.push(s); }
-  if (!g.own && ours.length) similar.splice(1, 0, ours[0]);
+  if (!g.own && ours.length) similar.splice(1, 0, ours.find(o => o.cats.main === g.cats.main) || ours[0]);
   const sim = similar.slice(0, 12);
 
   const portrait = g.h > g.w * 1.05;
@@ -560,6 +560,10 @@ const textPage = (slug, title, html, desc) => {
   addUrl(`/${slug}/`, 0.2);
 };
 const today = new Date().toISOString().slice(0, 10);
+textPage('our-games', 'Our Games', `<p class="lead">Games made by ${esc(cfg.studio)}, the team behind ${esc(cfg.name)} and a real escape room studio from Novi Sad, Serbia. Free, no download, no sign-up.</p>
+<div class="grid">${ours.map(o => card(o)).join('')}</div>
+${ours.map(o => `<h2><a href="${u(`/games/${o.slug}/`)}">${esc(o.title)}</a></h2><p>${esc(o.short || '')}</p>`).join('')}`, `Free browser games made by ${cfg.studio}: ${ours.map(o => o.title).join(', ')}.`);
+
 textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games website made by <strong>${esc(cfg.studio)}</strong>, an independent game studio from Novi Sad, Serbia. We build our own browser games (like <a href="${u('/games/bubble-wrap/')}">Bubble Wrap</a>) and hand-pick the best free HTML5 games from trusted distribution partners, so you can play instantly on any device.</p>
 <h2>What makes us different</h2><ul><li><strong>Curated, not cluttered.</strong> We skip low-quality knock-offs and games that copy famous brands.</li><li><strong>Instant play.</strong> No downloads, no account, no installs.</li><li><strong>Fast on phones.</strong> The site is lightweight and works on slow connections.</li></ul>
 <p>The games are free for you because they show short ads, which support the developers who make them and keep this site running.</p>

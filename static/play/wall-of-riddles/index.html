@@ -1,0 +1,786 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Wall of Riddles | Free online escape game by Door 404</title>
+<meta name="description" content="Free online escape game by Door 404. Nine locked chests, nine gems and one wall. Play in your browser, no sign-up.">
+<link rel="canonical" href="https://ilovewebgames.com/games/wall-of-riddles/">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#ffd6b4">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#5a3322; --inkSoft:#8a5a43; --cream:#fff8ee;
+  --g1:#7fe6c6; --g2:#26a584; --y1:#ffd877; --y2:#f39a22; --r1:#ff9a83; --r2:#e2514c;
+  --gold:linear-gradient(180deg,#fff3c4 0%,#ffd36b 45%,#f3a62c 100%);
+  --noise:none; --grain:none;
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html,body{margin:0;min-height:100%}
+body{color:var(--ink);font-family:Nunito,system-ui,sans-serif;overflow-x:hidden;
+  background:#ffe3c8;
+  background-image:
+   radial-gradient(circle at 12% 18%,#fff6e8 0,transparent 32%),
+   radial-gradient(circle at 88% 12%,#ffd0b0 0,transparent 30%),
+   radial-gradient(circle at 80% 85%,#ffc39a 0,transparent 35%),
+   radial-gradient(circle at 15% 90%,#ffe9c9 0,transparent 30%),
+   linear-gradient(160deg,#fff0de,#ffd6b4 55%,#ffbf96);
+  background-attachment:fixed}
+button{font:inherit;color:inherit;cursor:pointer}
+#dust{position:fixed;inset:0;pointer-events:none;z-index:0}
+.app{position:relative;z-index:1;max-width:880px;margin:0 auto;padding:12px 14px 128px}
+
+/* zaglavlje */
+header.top{display:flex;align-items:center;gap:10px;flex-wrap:wrap;justify-content:space-between;margin-bottom:10px}
+.plate{position:relative;padding:8px 18px 10px;border-radius:18px;background:linear-gradient(180deg,#fff,#fff1e1);color:var(--ink);
+  box-shadow:0 5px 0 #f0b98f,0 12px 22px #d9875a55,inset 0 2px 0 #fff}
+.plate small{display:block;font-size:.6rem;letter-spacing:.24em;text-transform:uppercase;font-weight:800;color:#e2604a}
+.plate b{display:block;font-family:Fredoka,Nunito,sans-serif;font-size:1.75rem;font-weight:700;line-height:1;letter-spacing:.01em}
+.stats{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.chip{background:linear-gradient(180deg,#fff,#fff0de);border-radius:999px;padding:8px 13px;font-size:.86rem;font-weight:800;display:flex;gap:6px;align-items:center;white-space:nowrap;box-shadow:0 3px 0 #f0b98f,0 6px 12px #d9875a44}
+.chip svg{width:16px;height:16px;color:#e2604a}
+.ib{width:40px;height:40px;border-radius:50%;border:none;background:linear-gradient(180deg,#fff,#fff0de);display:grid;place-items:center;box-shadow:0 3px 0 #f0b98f,0 6px 12px #d9875a44;transition:transform .1s}
+.ib:active{transform:translateY(2px);box-shadow:0 1px 0 #f0b98f}
+.ib svg{width:19px;height:19px;color:#e2604a}
+.ib.off svg{color:#d8b49c}
+
+/* dragulji */
+.gems{display:flex;gap:7px;justify-content:center;margin:8px 0 14px;flex-wrap:wrap}
+.sock{width:34px;height:34px;border-radius:50%;background:radial-gradient(circle at 50% 35%,#f6c9a6,#fde5cf 70%);box-shadow:inset 0 3px 5px #d88f6280,0 2px 0 #fff;display:grid;place-items:center}
+.sock svg{width:26px;height:26px}
+.sock.on svg{filter:drop-shadow(0 2px 3px #0003);animation:pop .55s}
+@keyframes pop{0%{transform:scale(.2) rotate(-30deg)}70%{transform:scale(1.25)}100%{transform:scale(1)}}
+
+/* zid */
+.wall{position:relative;width:min(100%,max(330px,calc(100svh - 225px)));margin:0 auto;padding:16px;border-radius:30px;
+  background:linear-gradient(180deg,#fffaf3,#ffeedd);box-shadow:0 10px 0 #f0b98f,0 24px 40px #c7704a55,inset 0 3px 0 #fff,inset 0 -6px 14px #f5c9a6aa}
+.bracket{display:none}
+.grid{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:13px}
+.tile{position:relative;min-width:0;aspect-ratio:1/1;border:none;padding:0;border-radius:24px;overflow:hidden;transition:transform .18s cubic-bezier(.3,1.6,.5,1)}
+.tile.g{background:linear-gradient(180deg,var(--g1),var(--g2));box-shadow:0 7px 0 #1a7c62,0 14px 20px #1a7c6255,inset 0 -8px 14px #0002}
+.tile.y{background:linear-gradient(180deg,var(--y1),var(--y2));box-shadow:0 7px 0 #c46f10,0 14px 20px #c46f1055,inset 0 -8px 14px #0002}
+.tile.r{background:linear-gradient(180deg,var(--r1),var(--r2));box-shadow:0 7px 0 #a8332f,0 14px 20px #a8332f55,inset 0 -8px 14px #0002}
+.tile::before{content:"";position:absolute;left:7%;right:7%;top:3%;height:28%;border-radius:20px 20px 60% 60%/20px 20px 30px 30px;background:linear-gradient(180deg,#ffffff8c,#ffffff00);pointer-events:none;z-index:3}
+.tile:hover{transform:translateY(-4px) scale(1.02)}
+.tile:active{transform:translateY(3px) scale(.98)}
+.tile:focus-visible{outline:4px solid #fff;outline-offset:3px}
+.tile.drop{outline:5px solid #fff;outline-offset:2px;transform:scale(1.04)}
+.screw{display:none}
+.tile .art{position:absolute;left:7%;right:7%;top:6%;height:57%;display:grid;place-items:center;z-index:1}
+.tile .art>svg{max-width:100%;max-height:100%;filter:drop-shadow(0 4px 4px #0003)}
+.tile .chest{position:absolute;left:28%;right:28%;bottom:3%;height:34%;z-index:1}
+.tile .chest svg{width:100%;height:100%}
+.tile .emb{position:absolute;right:5%;bottom:5%;width:21%;aspect-ratio:1;z-index:2}
+.tile .emb svg{width:100%;height:100%;filter:drop-shadow(0 3px 2px #0003)}
+.tile.done .chest{filter:drop-shadow(0 0 12px #fff8)}
+
+/* torba */
+.inv{position:fixed;left:0;right:0;bottom:0;z-index:45;padding:16px 10px calc(10px + env(safe-area-inset-bottom));pointer-events:none}
+.bag{pointer-events:auto;max-width:760px;margin:0 auto;display:flex;gap:9px;align-items:center;overflow-x:auto;padding:9px 12px;border-radius:26px;
+  background:linear-gradient(180deg,#fffaf3,#ffe9d4);box-shadow:0 6px 0 #f0b98f,0 14px 28px #c7704a66,inset 0 2px 0 #fff}
+.bag .lab{flex:0 0 auto;font-family:Fredoka,Nunito;font-weight:700;font-size:.95rem;letter-spacing:.1em;color:#e2604a;writing-mode:vertical-rl;transform:rotate(180deg)}
+.item{flex:0 0 auto;width:62px;height:62px;border-radius:18px;border:none;background:radial-gradient(circle at 50% 30%,#fff,#ffe8d2);box-shadow:inset 0 -3px 0 #f3c49f,0 3px 0 #e9a87b,0 6px 10px #c7704a44;display:grid;place-items:center;touch-action:none;position:relative;transition:transform .15s}
+.item:hover{transform:translateY(-3px)}
+.item svg{width:46px;height:46px;filter:drop-shadow(0 2px 2px #0002);pointer-events:none}
+.item.new::after{content:"";position:absolute;top:5px;right:5px;width:11px;height:11px;border-radius:50%;background:#ff6b57;box-shadow:0 0 0 2px #fff;animation:blink 1s infinite alternate}
+@keyframes blink{to{transform:scale(.7)}}
+.bag .empty{color:var(--inkSoft);font-size:.88rem;padding:0 6px;font-weight:600}
+.ghost{position:fixed;z-index:100;width:74px;height:74px;margin:-37px 0 0 -37px;pointer-events:none;filter:drop-shadow(0 12px 14px #0004);transform:rotate(-6deg) scale(1.12)}
+.ghost svg{width:100%;height:100%}
+body.dragging .sheet{outline:5px solid #fff;outline-offset:3px}
+
+/* modal */
+.modal{position:fixed;inset:0;z-index:40;background:#a5583366;display:none;align-items:flex-start;justify-content:center;padding:10px 10px var(--invh,110px);overflow-y:auto;backdrop-filter:blur(6px)}
+.modal.open{display:flex}
+.sheet{position:relative;width:100%;max-width:720px;margin:auto 0;padding:16px 16px 18px;border-radius:32px;animation:rise .3s cubic-bezier(.3,1.5,.5,1)}
+@keyframes rise{from{transform:translateY(24px) scale(.94);opacity:0}}
+.sheet.g{background:linear-gradient(180deg,var(--g1),var(--g2));box-shadow:0 9px 0 #1a7c62,0 26px 50px #1a7c6266}
+.sheet.y{background:linear-gradient(180deg,var(--y1),var(--y2));box-shadow:0 9px 0 #c46f10,0 26px 50px #c46f1066}
+.sheet.r{background:linear-gradient(180deg,var(--r1),var(--r2));box-shadow:0 9px 0 #a8332f,0 26px 50px #a8332f66}
+.sheet.d{background:linear-gradient(180deg,#fffaf3,#ffe6cf);box-shadow:0 9px 0 #f0b98f,0 26px 50px #c7704a66}
+.sheet::before{content:"";position:absolute;left:4%;right:4%;top:6px;height:70px;border-radius:28px 28px 50% 50%/28px 28px 40px 40px;background:linear-gradient(180deg,#ffffff70,#fff0);pointer-events:none}
+.sheet>*:not(.close):not(.pemb){position:relative;z-index:1}
+.title{display:inline-block;margin:0 104px 12px 0;padding:7px 18px 8px;border-radius:999px;background:#fff;color:var(--ink);font-family:Fredoka,Nunito;font-weight:700;font-size:1.3rem;box-shadow:0 4px 0 #0002}
+.close{position:absolute;right:14px;top:14px;width:40px;height:40px;border-radius:50%;border:none;background:#fff;color:#e2604a;font-weight:900;font-size:1rem;box-shadow:0 4px 0 #0002;z-index:2}
+.pemb{position:absolute!important;right:62px;top:14px;width:40px;z-index:2;filter:drop-shadow(0 3px 0 #0002)}
+.stage{position:relative;background:#ffffff38;border-radius:24px;padding:14px 10px;display:flex;flex-direction:column;align-items:center;gap:14px;box-shadow:inset 0 3px 8px #0000001f}
+.sheet.d .stage{background:#ffffffaa}
+.stage svg:not(svg svg){max-width:100%;height:auto}
+.msg{min-height:1.3em;text-align:center;font-weight:800;color:#fff;font-size:1rem;text-shadow:0 2px 0 #0002}
+.note{color:#fff;text-align:center;font-size:.92rem;font-weight:700;text-shadow:0 1px 0 #0002}
+.sheet.d .note{color:var(--inkSoft);text-shadow:none}
+.row{display:flex;gap:8px;flex-wrap:wrap;justify-content:center;align-items:center}
+.btn{background:linear-gradient(180deg,#fff,#fff0dd);color:var(--ink);border:none;border-radius:999px;padding:11px 22px;font-weight:900;font-family:Nunito;box-shadow:0 5px 0 #0000002e,0 8px 14px #0000001f;transition:transform .1s}
+.btn:active{transform:translateY(3px);box-shadow:0 2px 0 #0000002e}
+.btn.ghostb{background:#ffffffd9;color:var(--ink);box-shadow:0 4px 0 #0000002a;text-shadow:none}
+.sheet.d .btn.ghostb,.cover .btn.ghostb{color:var(--ink);background:#ffffff99;box-shadow:inset 0 0 0 2px #fff,0 4px 0 #f0b98f}
+.btn[disabled]{opacity:.5;cursor:not-allowed}
+.hintbox{margin-top:12px;background:#fffffff0;color:var(--ink);border-radius:20px;padding:11px 14px;font-size:.92rem;display:none;box-shadow:0 4px 0 #0001}
+.hintbox p{margin:.3em 0}
+.hintbox b{color:#e2604a}
+
+/* katanac */
+.padlock{position:relative;margin-top:32px;padding:14px 14px 16px;border-radius:26px;background:linear-gradient(180deg,#ffe07d,#f5a527);box-shadow:0 7px 0 #c46f10,0 14px 22px #0003,inset 0 3px 0 #fff8}
+.padlock::before{content:"";position:absolute;left:50%;top:-42px;width:88px;height:64px;margin-left:-44px;border:14px solid #fff;border-bottom:none;border-radius:50px 50px 0 0;z-index:-1;box-shadow:0 4px 0 #e2d4c6;transition:transform .55s cubic-bezier(.3,1.6,.5,1)}
+.padlock.opened::before{transform:translate(20px,-18px)}
+.dials{display:flex;gap:7px;padding:8px;border-radius:18px;background:#c46f10;box-shadow:inset 0 3px 6px #0004}
+.dial{display:flex;flex-direction:column;align-items:center;width:46px}
+.dial button{width:46px;height:28px;border:none;background:none;color:#fff;font-size:.95rem;text-shadow:0 2px 0 #0003}
+.dial button:hover{transform:scale(1.2)}
+.drum{position:relative;width:46px;height:70px;border-radius:14px;overflow:hidden;background:linear-gradient(180deg,#e9dccf,#fff 30%,#fff 70%,#e9dccf);box-shadow:inset 0 -3px 0 #e0cbb6,0 2px 0 #fff6;user-select:none;outline:none}
+.drum:focus-visible{box-shadow:inset 0 0 0 3px #26a584}
+.drum span{position:absolute;left:0;right:0;text-align:center;font-family:Fredoka,Nunito;font-weight:700;color:var(--ink)}
+.drum .c{top:50%;transform:translateY(-50%);font-size:2rem}
+.drum .u{top:0;font-size:.9rem;opacity:.3}
+.drum .d{bottom:0;font-size:.9rem;opacity:.3}
+.drum .c.up{animation:rollUp .16s}.drum .c.dn{animation:rollDn .16s}
+@keyframes rollUp{from{transform:translateY(-110%);opacity:.2}}
+@keyframes rollDn{from{transform:translateY(10%);opacity:.2}}
+.padlock.opened{background:linear-gradient(180deg,#8ff0c9,#26a584);box-shadow:0 7px 0 #1a7c62,0 14px 22px #0003,inset 0 3px 0 #fff8}
+.padlock.opened .dials{background:#1a7c62}
+.contents{display:flex;gap:10px;justify-content:center;flex-wrap:wrap}
+.contents .it{background:#fff;color:var(--ink);border-radius:999px;padding:7px 14px 7px 8px;display:flex;align-items:center;gap:8px;font-weight:800;font-size:.9rem;box-shadow:0 4px 0 #0002}
+.contents .it svg{width:34px;height:34px}
+
+/* diskovi */
+.disks{display:flex;flex-direction:column;gap:4px;align-items:center;padding:6px 0;position:relative}
+.disk{display:flex;align-items:center;gap:8px}
+.cyl{position:relative;display:flex;width:220px;height:48px;border-radius:24px;overflow:hidden;background:linear-gradient(180deg,#ffe2b8,#ffb36a 55%,#e88a3c);box-shadow:inset 0 -5px 0 #d0702b,inset 0 3px 0 #fff8,0 4px 0 #0002}
+.cyl::after{content:"";position:absolute;left:8%;right:8%;top:4px;height:12px;border-radius:10px;background:#ffffff70}
+.cyl span{position:relative;z-index:1;flex:1;display:grid;place-items:center;font-family:Fredoka,Nunito;font-weight:700;font-size:1.9rem;color:var(--ink)}
+.cyl span.side{opacity:.35;transform:scaleX(.65)}
+.cyl.back{background:linear-gradient(180deg,#b88cff,#7d58d6 55%,#5d3fb0);box-shadow:inset 0 -5px 0 #4a2f93,inset 0 3px 0 #fff6,0 4px 0 #0002}
+.cyl.back span{color:#fff}
+.rb{width:42px;height:42px;border-radius:50%;border:none;background:#fff;color:#e2604a;font-weight:900;box-shadow:0 4px 0 #0002}
+.shelf{width:250px;height:12px;border-radius:8px;background:#ffffff88;box-shadow:0 3px 0 #0001}
+.readwin{position:absolute;left:50%;top:2px;bottom:16px;width:76px;transform:translateX(-50%);border:4px solid #fff;border-radius:18px;box-shadow:0 0 0 3px #ffffff55,0 0 18px #fff;pointer-events:none;z-index:2}
+@media (max-width:560px){.readwin{width:58px}}
+
+/* prekidači */
+.panel6{width:100%;max-width:460px;padding:14px;border-radius:26px;background:#fffaf3;box-shadow:0 6px 0 #0002,inset 0 2px 0 #fff}
+.btns6,.symrow{display:grid;grid-template-columns:repeat(6,1fr);gap:9px}
+.pbtn{aspect-ratio:1;border-radius:50%;border:none;padding:0;background:radial-gradient(circle at 40% 30%,#fff3c4,#ffc947 45%,#f09a1c);box-shadow:0 6px 0 #c46f10,0 9px 10px #0003,inset 0 2px 0 #fff;transition:transform .08s}
+.pbtn.on{transform:translateY(5px);background:radial-gradient(circle at 40% 30%,#e6ffe9,#4fdc85 45%,#1a9a55);box-shadow:0 1px 0 #11733c,0 0 18px #45d873,inset 0 2px 0 #fff}
+.symrow{margin-top:12px;background:#eaf6fb;border-radius:16px;padding:7px;box-shadow:inset 0 2px 4px #0001}
+.symrow svg{width:100%;height:auto}
+.cl{transition:fill .3s}.cl.lit{fill:#e2514c}
+#needle.shiver{animation:shiver .5s}
+@keyframes shiver{20%{translate:2px 0}40%{translate:-2px 0}60%{translate:2px 0}80%{translate:-1px 0}}
+
+/* kocke */
+.tray{display:grid;grid-template-columns:repeat(9,1fr);gap:9px;width:100%;max-width:590px;padding:12px;border-radius:22px;background:#ffffff55;box-shadow:inset 0 3px 8px #0002}
+.cube,.cslot{aspect-ratio:1;border-radius:14px;border:none;padding:0;position:relative;overflow:hidden}
+.cube{box-shadow:0 5px 0 #b85f2c,0 8px 10px #0003;transition:transform .15s}
+.cube:hover{transform:translateY(-3px)}
+.cube svg,.cslot svg{width:100%;height:100%;display:block}
+.cube.sel{outline:4px solid #fff;outline-offset:3px;transform:translateY(-5px)}
+.cube.used{visibility:hidden}
+.slots{display:grid;grid-template-columns:repeat(3,76px);gap:18px;padding:12px;border-radius:22px;background:#ffffff55}
+.cslot{background:#00000022;box-shadow:inset 0 4px 8px #0003}
+.cslot.filled{box-shadow:0 0 0 4px #fff}
+.slotlab{display:grid;grid-template-columns:repeat(3,76px);gap:18px;margin-top:-8px;text-align:center;font-family:Fredoka,Nunito;font-weight:700;font-size:1.4rem;color:#fff;text-shadow:0 2px 0 #0002}
+@media (max-width:560px){.slotlab{grid-template-columns:repeat(3,64px)}}
+.aglow{animation:aglow 1.1s infinite alternate}@keyframes aglow{from{opacity:.35}}
+
+/* kalendar */
+.cal{background:#fff;color:#3a2a22;border-radius:18px;padding:12px;width:100%;max-width:340px;box-shadow:0 6px 0 #0002;position:relative}
+.cal .hd{display:flex;justify-content:space-between;align-items:center;font-weight:800;font-family:Fredoka,Nunito;font-size:1.15rem}
+.cal table{width:100%;border-collapse:separate;border-spacing:2px;margin-top:6px;font-size:.8rem}
+.cal th{font-size:.6rem;color:#e2604a;padding:3px 0}
+.cal td{background:#fff5ea;border-radius:6px;height:30px;text-align:left;vertical-align:top;padding:2px 4px;position:relative}
+.cal td.x::after{content:"";position:absolute;inset:3px;background:linear-gradient(45deg,transparent 43%,#e2514c 43% 57%,transparent 57%),linear-gradient(-45deg,transparent 43%,#e2514c 43% 57%,transparent 57%)}
+.cal .nav{border:none;background:#ffe2c8;color:#e2604a;border-radius:10px;width:36px;height:32px;font-weight:900}
+
+/* folija */
+.flagwrap{position:relative;width:100%;max-width:640px;margin-bottom:var(--foilroom,0px)}
+.foil{position:absolute;left:0;top:0;width:100%;touch-action:none;cursor:grab;filter:drop-shadow(0 10px 12px #0003)}
+.foil:active{cursor:grabbing}
+.foil>svg{display:block;width:100%;height:auto}
+.foil.settle{transition:transform .6s cubic-bezier(.25,1.2,.4,1)}
+.pinned{position:relative;padding:8px;background:#ffffff66;border-radius:18px}
+.pinned::before{content:"";position:absolute;top:-7px;left:50%;width:14px;height:14px;margin-left:-7px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#fff,#ff6b57 40%,#c93a2f);box-shadow:0 2px 2px #0003;z-index:2}
+
+/* naslovni i kraj */
+.cover{position:fixed;inset:0;z-index:60;display:none;place-items:center;padding:20px;overflow:auto;background:linear-gradient(160deg,#fff1e0f2,#ffcfa8f5)}
+.cover.open{display:grid}
+.card{max-width:540px;text-align:center}
+.cover h1{font-family:Fredoka,Nunito;font-weight:700;font-size:clamp(3rem,13vw,5.4rem);margin:.05em 0;line-height:.95;color:#e9563f;
+  text-shadow:0 3px 0 #fff,0 7px 0 #f6b48d,0 14px 20px #c7704a66}
+.cover .sub{font-family:Fredoka,Nunito;font-weight:600;font-size:1.25rem;color:#f08a3c;margin:.3em 0 .8em}
+.cover p{color:var(--ink);line-height:1.6;font-weight:600}
+.eyebrow{letter-spacing:.3em;font-size:.68rem;color:#26a584;font-weight:900;text-transform:uppercase}
+.rules{text-align:left;background:#ffffffc9;border-radius:22px;padding:12px 20px;font-size:.92rem;margin:16px 0;box-shadow:0 5px 0 #f0b98f}
+.rules li{margin:.4em 0}
+.cover .btn:not(.ghostb){background:linear-gradient(180deg,#ff9a83,#e2514c);color:#fff;box-shadow:0 5px 0 #a8332f,0 10px 16px #a8332f55;text-shadow:0 1px 0 #0002}
+.toast{position:fixed;left:50%;top:14px;transform:translateX(-50%) translateY(-160%);z-index:90;background:#fff;color:var(--ink);border-radius:999px;padding:11px 20px;font-weight:800;transition:transform .4s cubic-bezier(.3,1.5,.5,1);max-width:92vw;text-align:center;box-shadow:0 5px 0 #f0b98f,0 12px 24px #c7704a55}
+.toast.show{transform:translateX(-50%) translateY(0)}
+.shake{animation:shake .38s}
+@keyframes shake{20%,60%{transform:translateX(-7px)}40%,80%{transform:translateX(7px)}}
+@media (max-width:560px){
+  .app{padding:8px 8px 120px}.grid{gap:9px}.wall{padding:11px;border-radius:24px}.tile{border-radius:18px}
+  .plate b{font-size:1.45rem}.ib{width:36px;height:36px}.chip{padding:7px 10px}
+  .dial,.dial button,.drum{width:40px}
+  .tray{grid-template-columns:repeat(5,1fr);max-width:340px}
+  .slots{grid-template-columns:repeat(3,64px)}
+  .cyl{width:170px}.shelf{width:200px}
+  .item{width:54px;height:54px}.item svg{width:40px;height:40px}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs id="defs"></defs></svg>
+<canvas id="dust"></canvas>
+
+<div class="app">
+  <header class="top">
+    <div class="plate"><small>Door 404 · online escape game</small><b>Wall of Riddles</b></div>
+    <div class="stats">
+      <span class="chip" title="Time"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></svg><span id="time">00:00</span></span>
+      <span class="chip" title="Hints used"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.8.8 1 1.5 1 2.5h6c0-1 .2-1.7 1-2.5A6 6 0 0 0 12 3z"/></svg><span id="hintsUsed">0</span></span>
+      <button class="ib" id="musicBtn" title="Music" aria-label="Music"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M9 18V5l11-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="17" cy="16" r="3"/></svg></button>
+      <button class="ib" id="soundBtn" title="Sound effects" aria-label="Sound effects"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M11 5 6 9H3v6h3l5 4z"/><path id="sw" d="M16 9a4 4 0 0 1 0 6M19 6a8 8 0 0 1 0 12"/></svg></button>
+      <button class="ib" id="fsBtn" title="Full screen" aria-label="Play full screen"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path id="fsPath" d="M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5"/></svg></button>
+      <button class="ib" id="menuBtn" title="How to play" aria-label="How to play"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4"><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.7.3-1 .9-1 1.7v.5"/><circle cx="12" cy="17.5" r=".6" fill="currentColor"/><circle cx="12" cy="12" r="10"/></svg></button>
+    </div>
+  </header>
+  <div class="gems" id="gems" aria-label="Gems"></div>
+  <div class="wall"><span class="bracket b1"></span><span class="bracket b2"></span><span class="bracket b3"></span><span class="bracket b4"></span><div class="grid" id="grid"></div></div>
+</div>
+
+<div class="inv"><div class="bag" id="inv"></div></div>
+<div class="modal" id="modal" role="dialog" aria-modal="true"><div class="sheet" id="sheet"></div></div>
+
+<div class="cover" id="intro">
+  <div class="card">
+    <div class="eyebrow">Door 404 · Escape room games</div>
+    <h1>Wall of Riddles</h1>
+    <div class="sub">Nine chests. Nine gems. One wall.</div>
+    <p>In front of you is a wall with nine locked chests. Each one holds a gem, and some also hide a clue for another chest. Collect all nine gems and the wall is yours.</p>
+    <ul class="rules">
+      <li>The three green chests can be solved right away.</li>
+      <li>Yellow and red chests need items you find along the way. Items drop into the bag at the bottom of the screen.</li>
+      <li>Tap an item to look at it. <b>Drag it onto a chest</b> to use it.</li>
+      <li>Stuck? Every chest has a hint button.</li>
+      <li>Best played by two or three people at one screen. Turn the sound up.</li>
+    </ul>
+    <div class="row">
+      <button class="btn" id="startBtn">Start game</button>
+      <button class="btn ghostb" id="startFsBtn">Play full screen</button>
+      <button class="btn ghostb" id="resetBtn" style="display:none">New game</button>
+    </div>
+  </div>
+</div>
+
+<div class="cover" id="win">
+  <div class="card">
+    <div class="eyebrow">All 9 gems</div>
+    <h1>The wall is yours!</h1>
+    <p id="winText"></p>
+    <p>Enjoyed it? A real escape room goes much further: darkness, sounds, mechanisms that really open and 60 minutes on the clock. Visit Door 404 in Novi Sad, Serbia.</p>
+    <div class="row" style="margin-top:14px">
+      <a class="btn" href="https://www.escaperoom.co.rs/rezervacija?utm_source=ilovewebgames&utm_medium=game&utm_campaign=wall_of_riddles" target="_blank" rel="noopener" style="text-decoration:none">Book a real room</a>
+      <button class="btn ghostb" id="shareBtn">Send to a friend</button>
+      <button class="btn ghostb" id="againBtn">Play again</button>
+    </div>
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+(function(){
+"use strict";
+const $=s=>document.querySelector(s);
+
+/* ================= TEKSTURE ================= */
+const noiseSVG=`<svg xmlns="http://www.w3.org/2000/svg" width="220" height="220"><filter id="n"><feTurbulence type="fractalNoise" baseFrequency=".85" numOctaves="3" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .5 0 0 0 0 .5 0 0 0 0 .5 0 0 0 1.4 -.2"/></filter><rect width="220" height="220" filter="url(#n)"/></svg>`;
+const grainSVG=`<svg xmlns="http://www.w3.org/2000/svg" width="240" height="600"><filter id="g"><feTurbulence type="fractalNoise" baseFrequency=".18 .006" numOctaves="4" seed="7" stitchTiles="stitch"/><feColorMatrix values="0 0 0 0 .08 0 0 0 0 .05 0 0 0 0 .02 1.6 0 0 0 -.55"/></filter><rect width="240" height="600" filter="url(#g)"/></svg>`;
+document.documentElement.style.setProperty("--noise",`url("data:image/svg+xml,${encodeURIComponent(noiseSVG)}")`);
+document.documentElement.style.setProperty("--grain",`url("data:image/svg+xml,${encodeURIComponent(grainSVG)}")`);
+
+/* šare za uglove i kocke */
+const PAT=[
+ '<rect width="20" height="20" fill="#fff3df"/><path d="M-5,5 L5,-5 M0,20 L20,0 M15,25 L25,15" stroke="#d0663c" stroke-width="3.2"/>',
+ '<rect width="20" height="20" fill="#fff3df"/><circle cx="10" cy="10" r="4.2" fill="#d0663c"/>',
+ '<rect width="20" height="20" fill="#fff3df"/><rect width="10" height="10" fill="#d0663c"/><rect x="10" y="10" width="10" height="10" fill="#d0663c"/>',
+ '<rect width="20" height="20" fill="#fff3df"/><path d="M0,15 L10,5 L20,15" stroke="#d0663c" stroke-width="3.2" fill="none"/>',
+ '<rect width="20" height="20" fill="#fff3df"/><path d="M0,20 A10,10 0 0 1 20,20 M-10,10 A10,10 0 0 1 10,10 M10,10 A10,10 0 0 1 30,10" stroke="#d0663c" stroke-width="2.6" fill="none"/>',
+ '<rect width="20" height="20" fill="#fff3df"/><path d="M0,1 H20 M1,0 V20" stroke="#d0663c" stroke-width="2.6"/><path d="M0,10 H20 M10,0 V20" stroke="#d0663c" stroke-width="1" opacity=".6"/>',
+ '<rect width="20" height="20" fill="#fff3df"/><path d="M10,3 L17,16 L3,16Z" fill="#d0663c"/>',
+ '<rect width="20" height="20" fill="#fff3df"/><path d="M0,10 Q5,3 10,10 T20,10" stroke="#d0663c" stroke-width="3" fill="none"/>',
+ '<rect width="20" height="20" fill="#fff3df"/><path d="M10,2 L18,10 L10,18 L2,10Z" stroke="#d0663c" stroke-width="2.4" fill="none"/><circle cx="10" cy="10" r="2" fill="#d0663c"/>'
+];
+$("#defs").innerHTML=PAT.map((p,i)=>`<pattern id="pt${i}" width="20" height="20" patternUnits="userSpaceOnUse">${p}</pattern>`).join("")+`
+<linearGradient id="gBrass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff3c4"/><stop offset=".45" stop-color="#ffd36b"/><stop offset="1" stop-color="#f3a62c"/></linearGradient>
+<linearGradient id="gIron" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffe9d6"/><stop offset="1" stop-color="#f3c7a4"/></linearGradient>
+<linearGradient id="gSteel" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#e8dccf"/></linearGradient>
+<linearGradient id="gWoodF" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb877"/><stop offset="1" stop-color="#ee8640"/></linearGradient>
+<linearGradient id="gWoodT" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffd9a6"/><stop offset="1" stop-color="#ffa95e"/></linearGradient>
+<linearGradient id="gWoodS" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#e57a35"/><stop offset="1" stop-color="#c9612a"/></linearGradient>
+<radialGradient id="gVelvet" cx=".5" cy=".3" r=".8"><stop offset="0" stop-color="#c2477a"/><stop offset="1" stop-color="#6e1f4a"/></radialGradient>
+<radialGradient id="gDial" cx=".45" cy=".4" r=".7"><stop offset="0" stop-color="#fbf3df"/><stop offset=".8" stop-color="#e6d6b2"/><stop offset="1" stop-color="#b99d68"/></radialGradient>
+<radialGradient id="gGlow"><stop offset="0" stop-color="#ffe9a8" stop-opacity=".9"/><stop offset="1" stop-color="#ffe9a8" stop-opacity="0"/></radialGradient>
+<linearGradient id="gParch" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7ecd2"/><stop offset=".6" stop-color="#ead7ae"/><stop offset="1" stop-color="#d1b57e"/></linearGradient>
+<filter id="fGrain"><feOffset dx="0" dy="0"/></filter>
+<filter id="fGrainV"><feOffset dx="0" dy="0"/></filter>
+<filter id="fPaper"><feOffset dx="0" dy="0"/></filter>
+<filter id="fSoft"><feDropShadow dx="0" dy="3" stdDeviation="2" flood-color="#5a3322" flood-opacity=".35"/></filter>`;
+
+function starPts(n,R,r,cx=50,cy=50,rot=-90){let a=[];for(let i=0;i<n*2;i++){const rr=i%2?r:R,ang=(rot+i*180/n)*Math.PI/180;a.push((cx+rr*Math.cos(ang)).toFixed(1)+","+(cy+rr*Math.sin(ang)).toFixed(1))}return a.join(" ")}
+function polyPts(n,R,cx=50,cy=50,rot=-90){let a=[];for(let i=0;i<n;i++){const ang=(rot+i*360/n)*Math.PI/180;a.push((cx+R*Math.cos(ang)).toFixed(1)+","+(cy+R*Math.sin(ang)).toFixed(1))}return a.join(" ")}
+const SHAPE={
+ diamond:'<path d="M50,4 L93,50 L50,96 L7,50Z"/>',circle:'<circle cx="50" cy="50" r="45"/>',triangle:'<path d="M50,5 L95,90 L5,90Z"/>',
+ star:`<polygon points="${starPts(5,48,20)}"/>`,hexagram:`<polygon points="${starPts(6,48,27)}"/>`,
+ crescent:'<path d="M64,6 A45,45 0 1 0 64,94 A37,37 0 1 1 64,6Z"/>',sqstar:`<polygon points="${starPts(8,48,34)}"/>`,
+ pie:'<path d="M50,50 L50,5 A45,45 0 1 1 5,50Z"/>',pentagon:`<polygon points="${polyPts(5,47)}"/>`
+};
+function emblemSVG(shape,pat){return `<svg viewBox="0 0 100 100"><circle cx="50" cy="53" r="48" fill="#d98a1e"/><circle cx="50" cy="49" r="48" fill="url(#gBrass)"/><circle cx="50" cy="50" r="40" fill="#fffaf2"/><g transform="translate(50,50) scale(.7) translate(-50,-50)" fill="url(#pt${pat})" stroke="#c8603a" stroke-width="3.5" stroke-linejoin="round">${SHAPE[shape]}</g><ellipse cx="38" cy="22" rx="16" ry="6" fill="#fff" opacity=".6"/></svg>`}
+
+/* ================= DRAGULJI I PREDMETI ================= */
+const GEMCOL={g:["#3ee08a","#0b6b37","#d6ffe6","#33d17a"],y:["#ffd65c","#9a6a06","#fff6d0","#f2c84b"],r:["#ff5a62","#8f141a","#ffd2d4","#e5484d"]};
+function gemSVG(c){const [m,d,l]=GEMCOL[c];return `<svg viewBox="0 0 40 40" style="color:${GEMCOL[c][3]}"><path d="M10,6 H30 L37,15 L20,36 L3,15Z" fill="${m}" stroke="${d}" stroke-width="1.4"/><path d="M3,15 H37 M10,6 L15,15 L20,36 L25,15 L30,6 M15,15 L20,6 L25,15" stroke="${d}" stroke-width=".9" fill="none" opacity=".75"/><path d="M11,8 L14,14 L6,14Z" fill="${l}" opacity=".85"/><path d="M26,17 L29,15 L22,29Z" fill="${l}" opacity=".35"/></svg>`}
+const ITEMS={
+ kalendar:{name:"Desk calendar",use:"calendar",icon:'<svg viewBox="0 0 48 48"><path d="M6,44 L12,10 H36 L42,44Z" fill="#2b2b2b"/><rect x="9" y="8" width="30" height="34" rx="2" fill="#fffaf0"/><rect x="9" y="8" width="30" height="9" fill="#a8231f"/><path d="M14,5 V12 M19,5 V12 M24,5 V12 M29,5 V12 M34,5 V12" stroke="#888" stroke-width="2" stroke-linecap="round"/><text x="24" y="15" font-size="6" fill="#fff" text-anchor="middle" font-weight="800">JANUARY</text><path d="M13,23 H17 M21,23 H25 M29,23 H33 M13,30 H17 M21,30 H25 M13,37 H17" stroke="#aaa" stroke-width="2.4"/><path d="M28,27 L35,34 M35,27 L28,34" stroke="#d11" stroke-width="2.4"/></svg>'},
+ folija:{name:"Grey film",use:"flags",icon:'<svg viewBox="0 0 48 48"><g transform="rotate(-12 24 24)"><rect x="3" y="14" width="42" height="20" rx="1.5" fill="#8b9097" fill-opacity=".8" stroke="#dfe3e8" stroke-width="1"/><rect x="5" y="21" width="7" height="4" fill="#1f5fae"/><rect x="14" y="16" width="2" height="6" fill="#f5c400"/><circle cx="22" cy="24" r="3" fill="#fff"/><rect x="30" y="21" width="5" height="5" fill="#d81e1e"/><rect x="40" y="16" width="2.5" height="4" fill="#d81e1e"/><path d="M5,16 L18,16" stroke="#fff" stroke-opacity=".5"/></g></svg>'},
+ svitak:{name:"Scroll with symbols",use:"disks",icon:'<svg viewBox="0 0 48 48"><rect x="13" y="6" width="22" height="36" fill="#efe1c0"/><rect x="10" y="3" width="28" height="6" rx="3" fill="#8a5a2c"/><rect x="10" y="39" width="28" height="6" rx="3" fill="#8a5a2c"/><circle cx="24" cy="13" r="3.5" fill="none" stroke="#2a1a0c" stroke-width="2"/><path d="M27,17 L21,22" stroke="#2a1a0c" stroke-width="2"/><circle cx="24" cy="26" r="3.5" fill="none" stroke="#2a1a0c" stroke-width="2"/><path d="M21,30 L27,34 M20,34 L24,38 L28,34" stroke="#2a1a0c" stroke-width="2" fill="none"/></svg>'},
+ simboli:{name:"Paper with symbols",use:"switches",icon:'<svg viewBox="0 0 48 48"><path d="M7,4 H37 L41,8 V44 H7Z" fill="#fbf7ee"/><path d="M37,4 V8 H41" fill="#ddd"/><rect x="11" y="9" width="7" height="7" fill="#1fa34a"/><circle cx="24" cy="12.5" r="3.5" fill="#e0249a"/><rect x="30" y="9" width="7" height="7" fill="#3fb3e8"/><rect x="11" y="21" width="7" height="7" fill="#f2a51f"/><rect x="21" y="21" width="7" height="7" fill="#1fa34a"/><rect x="30" y="21" width="7" height="7" fill="#d6245a"/><rect x="11" y="33" width="7" height="7" fill="#3fb3e8"/><rect x="21" y="33" width="7" height="7" fill="#f2a51f"/><rect x="30" y="33" width="7" height="7" fill="#1b2a9c"/></svg>'},
+ strelice:{name:"Board with arrows",use:"branko",icon:'<svg viewBox="0 0 48 48"><rect x="4" y="4" width="40" height="40" rx="9" fill="#1f8f73"/><rect x="7" y="7" width="34" height="34" rx="7" fill="#2bb08e"/><text x="24" y="18" fill="#efe6cf" font-size="10" font-family="Fredoka,Nunito,sans-serif" text-anchor="middle" letter-spacing="2">RABB</text><path d="M12,24 H17 M14,22 L12,24 14,26 M23,22 V29 M21,27 L23,29 25,27 M29,24 H35 M33,22 L35,24 33,26 M13,31 V38 M11,36 L13,38 15,36" stroke="#e8f4ef" stroke-width="1.6" fill="none"/></svg>'},
+ disk:{name:"Wooden disc",use:"cubes",icon:'<svg viewBox="0 0 48 48"><circle cx="24" cy="25" r="20" fill="#5a3415"/><circle cx="24" cy="23" r="20" fill="url(#gWoodT)" filter="url(#fGrain)"/><circle cx="24" cy="23" r="13" fill="none" stroke="#8a5a2c" stroke-opacity=".6"/><circle cx="24" cy="23" r="3" fill="#2a170a"/><path d="M38,12 l5,1 -3,4z" fill="#111"/><text x="8" y="17" font-size="8" font-weight="800" fill="#111">L</text></svg>'},
+ kljuc:{name:"Brass key",use:"cubes",icon:'<svg viewBox="0 0 48 48"><g transform="rotate(-30 24 24)"><circle cx="13" cy="24" r="8" fill="none" stroke="url(#gBrass)" stroke-width="4.5"/><circle cx="13" cy="24" r="2.5" fill="url(#gBrass)"/><path d="M21,24 H43 M37,24 V31 M42,24 V30" stroke="url(#gBrass)" stroke-width="4.5" stroke-linecap="round"/></g></svg>'}
+};
+
+/* ================= CRTEŽI ================= */
+function chestSVG(open,gem,keyhole){
+ const gemG=gem?`<g transform="translate(50,8) scale(.72)">${gemSVG(gem).replace(/^<svg[^>]*>|<\/svg>$/g,"")}</g>`:"";
+ const lock=keyhole?`<circle cx="64" cy="70" r="6.5" fill="#8a3a17"/><path d="M60.5,72 h7 l1.6,13 h-10.2z" fill="#8a3a17"/>`:open?"":`<g transform="translate(52,52)"><path d="M5,3 V-8 A7,7 0 0 1 19,-8 V3" stroke="#fff" stroke-width="5.5" fill="none" stroke-linecap="round"/><rect x="0" y="2" width="24" height="22" rx="7" fill="#d98a1e"/><rect x="0" y="0" width="24" height="22" rx="7" fill="url(#gBrass)"/><rect x="4" y="2.5" width="16" height="5" rx="2.5" fill="#fff" opacity=".6"/><circle cx="12" cy="11" r="3" fill="#a5501f"/><rect x="11" y="12" width="2" height="5" rx="1" fill="#a5501f"/></g>`;
+ const top=open?`<rect x="14" y="-30" width="100" height="56" rx="16" fill="#d9773a"/><rect x="14" y="-34" width="100" height="56" rx="16" fill="url(#gWoodT)"/><rect x="22" y="-26" width="84" height="40" rx="11" fill="url(#gVelvet)"/><rect x="26" y="-23" width="60" height="7" rx="3.5" fill="#fff" opacity=".25"/>
+  <rect x="9" y="30" width="110" height="24" rx="12" fill="#7a2348"/><ellipse cx="64" cy="26" rx="46" ry="22" fill="url(#gGlow)"/>${gemG}`
+  :`<rect x="8" y="33" width="112" height="26" rx="13" fill="#e0823d"/><rect x="8" y="28" width="112" height="26" rx="13" fill="url(#gWoodT)"/><rect x="18" y="31" width="84" height="7" rx="3.5" fill="#fff" opacity=".6"/>`;
+ return `<svg viewBox="0 -38 140 148"><ellipse cx="64" cy="106" rx="56" ry="5" fill="#7a3a1a" opacity=".25"/>
+ ${top}
+ <rect x="12" y="50" width="104" height="56" rx="16" fill="#c9612a"/><rect x="12" y="44" width="104" height="56" rx="16" fill="url(#gWoodF)"/>
+ <rect x="12" y="62" width="104" height="5" fill="#fff" opacity=".18"/><rect x="20" y="50" width="12" height="40" rx="6" fill="#fff" opacity=".22"/>
+ ${lock}</svg>`}
+
+function woodTile(x,y,w,h,ch,size){return `<rect x="${x}" y="${y+2.5}" width="${w}" height="${h}" rx="8" fill="#e8a578"/><rect x="${x}" y="${y}" width="${w}" height="${h}" rx="8" fill="#fffaf2"/><rect x="${x+4}" y="${y+3}" width="${w-8}" height="${(h*.26).toFixed(1)}" rx="5" fill="#fff"/><text x="${x+w/2}" y="${y+h/2+1}" font-family="Fredoka,Nunito,sans-serif" font-weight="700" font-size="${(size*.78).toFixed(1)}" text-anchor="middle" dominant-baseline="central" fill="#5a3322">${ch}</text>`}
+
+const XO=["OOOOOOO","OXXXOXO","OOOOOOO","OXOXXXO","OOOOOOO"];
+function xoSVG(){let s='<svg viewBox="0 0 290 210"><rect width="290" height="210" rx="20" fill="url(#gWoodF)"/>';
+ XO.forEach((r,y)=>[...r].forEach((c,x)=>{s+=woodTile(10+x*39.3,10+y*38.6,35,35,c,30)}));return s+'</svg>'}
+function pianoSVG(start){let s='<svg viewBox="0 0 74 30"><rect width="74" height="30" rx="3" fill="url(#gBrass)"/>';for(let i=0;i<7;i++){const b=i>=start&&i<start+3;s+=`<rect x="${3+i*9.8}" y="3" width="8.8" height="24" rx="1" fill="${b?'#151515':'#fbf8f0'}" stroke="#3a2708" stroke-width=".8"/>`}return s+'</svg>'}
+
+function seasonArt(kind){
+ if(kind==="spring")return `<defs><linearGradient id="sk1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#cfeaf7"/><stop offset="1" stop-color="#e8f6d5"/></linearGradient></defs><rect width="100" height="100" fill="url(#sk1)"/><path d="M0,58 Q30,48 60,56 T100,52 V100 H0Z" fill="#7cbf4a"/><path d="M0,72 Q40,64 100,70 V100 H0Z" fill="#4f9a2e"/>${[12,28,44,60,76,90].map((x,i)=>`<path d="M${x},100 Q${x+4},${78-i%2*6} ${x},${60-i%3*4}" stroke="#2f6b1f" stroke-width="2" fill="none"/><path d="M${x-5},${60-i%3*4} q5,13 10,0 q-5,-7 -10,0z" fill="#fff" stroke="#cfd8c0" stroke-width=".6"/>`).join("")}`;
+ if(kind==="summer")return `<defs><linearGradient id="sk2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#2e9be0"/><stop offset="1" stop-color="#8fd3f5"/></linearGradient></defs><rect width="100" height="100" fill="url(#sk2)"/><circle cx="78" cy="22" r="11" fill="#ffe066"/><circle cx="78" cy="22" r="17" fill="#ffe066" opacity=".25"/><rect y="56" width="100" height="16" fill="#1479bf"/><path d="M0,60 H100" stroke="#fff" stroke-opacity=".5"/><path d="M0,70 Q50,64 100,72 V100 H0Z" fill="#f1cf7a"/><path d="M22,86 Q27,56 31,32" stroke="#6b3f17" stroke-width="4" fill="none"/><path d="M31,32 q-17,-2 -23,9 M31,32 q15,-9 25,0 M31,32 q-4,-15 -17,-17 M31,32 q8,-15 21,-12" stroke="#1d7d36" stroke-width="5" fill="none" stroke-linecap="round"/>`;
+ if(kind==="winter")return `<defs><linearGradient id="sk3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fb3c4"/><stop offset="1" stop-color="#e6edf2"/></linearGradient></defs><rect width="100" height="100" fill="url(#sk3)"/><path d="M0,66 Q50,58 100,66 V100 H0Z" fill="#fff"/>${[12,34,62,86].map((x,i)=>`<path d="M${x},${64-i%2*4} l-11,0 11,-${30+i%2*6} 11,${30+i%2*6}z" fill="#4f6a5c"/><path d="M${x},${34-i%2*10} l-6,10 h12z" fill="#fff"/><path d="M${x-8},${54-i%2*4} h16" stroke="#fff" stroke-width="2"/>`).join("")}<circle cx="50" cy="80" r="2.6" fill="#c62828"/><rect x="48.6" y="82" width="2.8" height="8" fill="#8e1b1b"/>${[[10,10],[30,20],[60,8],[80,30],[45,40],[20,46],[70,50],[90,12]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="1.5" fill="#fff"/>`).join("")}`;
+ return `<defs><linearGradient id="sk4" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#f6c27a"/><stop offset="1" stop-color="#e6934a"/></linearGradient></defs><rect width="100" height="100" fill="url(#sk4)"/><path d="M38,100 L47,56 H53 L62,100Z" fill="#a9733e"/>${[8,24,76,92].map(x=>`<rect x="${x-2}" y="42" width="4" height="58" fill="#3b220e"/><circle cx="${x}" cy="36" r="15" fill="${x<50?'#b83a14':'#d9701a'}"/><circle cx="${x+5}" cy="30" r="8" fill="${x<50?'#d8541f':'#efa13a'}"/>`).join("")}${[[30,86,"#b33"],[66,92,"#d70"],[56,80,"#c52"],[40,94,"#e90"]].map(([x,y,c])=>`<ellipse cx="${x}" cy="${y}" rx="2.4" ry="1.4" fill="${c}"/>`).join("")}`;
+}
+function seasonsSVG(){return `<svg viewBox="0 0 236 236"><rect width="236" height="236" fill="url(#gBrass)"/><rect x="5" y="5" width="226" height="226" fill="#5a3f10"/><g transform="translate(8,8)"><rect width="220" height="220" fill="#111"/>
+ <svg x="0" y="0" width="104" height="104" viewBox="0 0 100 100">${seasonArt("spring")}</svg><svg x="116" y="0" width="104" height="104" viewBox="0 0 100 100">${seasonArt("summer")}</svg>
+ <svg x="0" y="116" width="104" height="104" viewBox="0 0 100 100">${seasonArt("winter")}</svg><svg x="116" y="116" width="104" height="104" viewBox="0 0 100 100">${seasonArt("autumn")}</svg>
+ <rect x="104" y="0" width="12" height="220" fill="#111"/><rect x="0" y="104" width="220" height="12" fill="#111"/></g></svg>`}
+function cornersPlaque(){return `<svg viewBox="0 0 210 66"><rect x="1" y="1" width="208" height="64" rx="6" fill="url(#gBrass)"/><rect x="7" y="7" width="196" height="52" rx="3" fill="#f8f0dc" filter="url(#fPaper)"/><path d="M22,19 H48 V47 M66,19 V47 H92 M114,47 V19 H140 M188,19 V47 H160" stroke="#151515" stroke-width="5.5" fill="none"/></svg>`}
+
+function handPath(kind,L){
+ if(kind==="dia")return `<rect x="-2.2" y="${-L+20}" width="4.4" height="${L-8}" fill="#1a1a1a"/><path d="M0,${-L} L9,${-L+12} L0,${-L+26} L-9,${-L+12}Z" fill="#1a1a1a"/><path d="M0,${-L+6} L4,${-L+12} L0,${-L+19} L-4,${-L+12}Z" fill="#e9dcc0"/><circle r="9" fill="#1a1a1a"/><circle r="3.5" fill="#e9dcc0"/>`;
+ if(kind==="ring")return `<rect x="-1.4" y="${-L+4}" width="2.8" height="${L+12}" fill="#1a1a1a"/><circle cy="${-L+24}" r="7" fill="none" stroke="#1a1a1a" stroke-width="3.2"/><path d="M0,${-L} L4,${-L+8} H-4Z" fill="#1a1a1a"/><circle r="5" fill="#1a1a1a"/>`;
+ return `<rect x="-3" y="${-L+18}" width="6" height="${L-6}" fill="#1a1a1a"/><path d="M0,${-L} C14,${-L+10} 10,${-L+22} 0,${-L+20} C-10,${-L+22} -14,${-L+10} 0,${-L}Z" fill="#1a1a1a"/><path d="M-6,${-L+28} H6" stroke="#1a1a1a" stroke-width="4"/><circle r="7" fill="#1a1a1a"/>`}
+function clockSVG(){const rom=["XII","I","II","III","IV","V","VI","VII","VIII","IX","X","XI"];let t="";
+ rom.forEach((r,i)=>{const a=(i*30-90)*Math.PI/180;t+=`<text x="${(100+72*Math.cos(a)).toFixed(1)}" y="${(100+72*Math.sin(a)+6).toFixed(1)}" font-family="Fredoka,Nunito,sans-serif" font-size="18" font-weight="600" text-anchor="middle" fill="#2b2216">${r}</text>`});
+ for(let i=0;i<60;i++){const a=i*6*Math.PI/180,r1=i%5?84:79;t+=`<line x1="${(100+r1*Math.cos(a)).toFixed(1)}" y1="${(100+r1*Math.sin(a)).toFixed(1)}" x2="${(100+88*Math.cos(a)).toFixed(1)}" y2="${(100+88*Math.sin(a)).toFixed(1)}" stroke="#3a2e1e" stroke-width="${i%5?1:2.4}"/>`}
+ return `<svg viewBox="0 0 200 200"><circle cx="100" cy="103" r="99" fill="#000" opacity=".4"/><circle cx="100" cy="100" r="99" fill="url(#gBrass)"/><circle cx="100" cy="100" r="92" fill="#5a3f10"/><circle cx="100" cy="100" r="90" fill="url(#gDial)" filter="url(#fPaper)"/>${t}
+ <g filter="url(#fSoft)"><g transform="translate(100,100) rotate(210)">${handPath("arrow",50)}</g><g transform="translate(100,100) rotate(90)">${handPath("dia",66)}</g><g transform="translate(100,100) rotate(150)">${handPath("ring",72)}</g></g>
+ <circle cx="100" cy="100" r="4" fill="url(#gBrass)"/><path d="M40,40 A85,85 0 0 1 150,30" stroke="#fff" stroke-opacity=".35" stroke-width="6" fill="none" stroke-linecap="round"/></svg>`}
+function handsPlaque(){return `<svg viewBox="0 0 190 96"><rect x="1" y="1" width="188" height="94" rx="6" fill="url(#gBrass)"/><rect x="7" y="7" width="176" height="82" rx="3" fill="#c88f52" filter="url(#fGrain)"/>
+ <g transform="translate(45,62) scale(.6)">${handPath("dia",66)}</g><g transform="translate(95,62) scale(.6)">${handPath("ring",72)}</g><g transform="translate(145,62) scale(.6)">${handPath("arrow",50)}</g>
+ <text x="45" y="84" font-weight="800" font-size="13" text-anchor="middle" fill="#2a160a">M</text><text x="95" y="84" font-weight="800" font-size="13" text-anchor="middle" fill="#2a160a">S</text><text x="145" y="84" font-weight="800" font-size="13" text-anchor="middle" fill="#2a160a">H</text></svg>`}
+
+/* zastave 160x100 */
+function flag(i){
+ if(i===0)return `<rect width="160" height="100" fill="#1f5fae"/><rect x="50" width="20" height="100" fill="#f5c400"/><rect y="40" width="160" height="20" fill="#f5c400"/>`;
+ if(i===1)return `<rect width="160" height="100" fill="#fbfbf8"/><circle cx="80" cy="50" r="30" fill="#c8102e"/>`;
+ if(i===2)return `<rect width="160" height="100" fill="#d81e1e"/><circle cx="68" cy="50" r="27" fill="#fff"/><circle cx="76" cy="50" r="21.5" fill="#d81e1e"/><polygon points="${starPts(5,11,4.5,104,50,-90+18)}" fill="#fff" transform="rotate(-18,104,50)"/>`;
+ return `<rect width="160" height="100" fill="#d81e1e"/><rect x="70" y="18" width="20" height="64" fill="#fff"/><rect x="48" y="40" width="64" height="20" fill="#fff"/>`}
+function foilMarks(i){
+ if(i===0)return `<rect y="40" width="50" height="20" fill="#1f5fae"/><rect x="128" y="0" width="22" height="40" fill="#f5c400"/><rect x="128" y="60" width="22" height="40" fill="#f5c400"/><rect x="150" y="40" width="10" height="20" fill="#1f5fae"/>`;
+ if(i===1)return `<circle cx="80" cy="50" r="17" fill="#fbfbf8"/>`;
+ if(i===2)return `<rect x="90" y="36" width="28" height="28" fill="#d81e1e"/>`;
+ return `<rect x="70" y="16" width="20" height="24" fill="#d81e1e"/>`}
+const FL_X=i=>8+i*168;
+function flagsSVG(merged){let s='<svg viewBox="0 0 680 116" class="flagsvg"><defs><linearGradient id="cloth" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity=".0"/><stop offset=".3" stop-color="#fff" stop-opacity=".18"/><stop offset=".55" stop-color="#000" stop-opacity=".14"/><stop offset=".8" stop-color="#fff" stop-opacity=".12"/><stop offset="1" stop-color="#000" stop-opacity=".1"/></linearGradient></defs>';
+ for(let i=0;i<4;i++){s+=`<rect x="${FL_X(i)-3}" y="5" width="166" height="106" fill="url(#gBrass)"/><svg x="${FL_X(i)}" y="8" width="160" height="100" viewBox="0 0 160 100">${flag(i)}${merged?foilMarks(i):""}<rect width="160" height="100" fill="url(#cloth)"/></svg>`}return s+'</svg>'}
+function foilSVG(clear){let s=`<svg viewBox="0 0 680 116"><rect x="2" y="2" width="676" height="112" rx="4" fill="#7d838b" fill-opacity="${clear?.05:.62}" stroke="#e8ecf0" stroke-opacity=".7" stroke-width="2"/>`;
+ if(!clear)for(let i=0;i<4;i++){s+=`<svg x="${FL_X(i)}" y="8" width="160" height="100" viewBox="0 0 160 100">${foilMarks(i)}</svg>`}
+ return s+`<path d="M10,10 L240,10 L180,106 L10,106Z" fill="#fff" opacity=".07"/><path d="M14,8 H300" stroke="#fff" stroke-opacity=".5" stroke-width="2"/></svg>`}
+
+/* prekidači */
+const SYM=[
+ '<path d="M3,20 L19,4 V13 H37 V27 H19 V36Z" fill="#1fa34a"/>',
+ '<circle cx="20" cy="20" r="13" fill="none" stroke="#e0249a" stroke-width="7"/><circle cx="27" cy="13" r="5" fill="#f9b6dd"/>',
+ '<rect x="4" y="4" width="32" height="32" rx="2" fill="#3fb3e8"/><circle cx="18" cy="20" r="10" fill="#fff"/><circle cx="23" cy="18" r="9" fill="#3fb3e8"/>',
+ '<path d="M8,3 H32 V37 L20,26 L8,37Z" fill="#1b2a9c"/>',
+ '<rect x="4" y="4" width="32" height="32" fill="#d6245a"/><circle cx="16" cy="24" r="10" fill="#fff"/>',
+ '<path d="M15,3 H25 V15 H37 V25 H25 V37 H15 V25 H3 V15 H15Z" fill="#f2a51f"/><circle cx="20" cy="20" r="4" fill="#fff4d6"/>'
+];
+const symSVG=i=>`<svg viewBox="0 0 40 40">${SYM[i]}</svg>`;
+const COMBOS={"0,1,2":"M","0,4,5":"A","2,3,5":"K","1,3,4":"E","0,2,3":"R"};
+const CLUE_ROWS=[[0,1,2],[5,0,4],[2,5,3],[3,1,4],[2,3,0]];
+const COMPASS=["A","Z","B","E","O","K","M","R"];
+function comboLetter(sel){const k=[...sel].sort((a,b)=>a-b).join(",");if(COMBOS[k])return COMBOS[k];let h=0;for(const c of k)h=(h*31+c.charCodeAt(0))%997;return ["Z","B","O","Z","B","O","E","A"][h%8]}
+function compassSVG(){let t="";COMPASS.forEach((c,i)=>{const a=(i*45-90)*Math.PI/180;t+=`<text data-l="${c}" class="cl" x="${(100+76*Math.cos(a)).toFixed(1)}" y="${(100+76*Math.sin(a)+8).toFixed(1)}" font-family="Fredoka,Nunito,sans-serif" font-size="26" text-anchor="middle" fill="#2a1a08">${c}</text>`});
+ return `<svg viewBox="0 0 200 200"><circle cx="100" cy="103" r="98" fill="#000" opacity=".4"/><circle cx="100" cy="100" r="98" fill="url(#gBrass)"/><circle cx="100" cy="100" r="90" fill="url(#gDial)" filter="url(#fPaper)"/>${t}
+ <circle cx="100" cy="100" r="56" fill="none" stroke="#8a6a2c" stroke-width="2"/>${[...Array(32)].map((_,i)=>{const a=i*11.25*Math.PI/180;return `<line x1="${(100+50*Math.cos(a)).toFixed(1)}" y1="${(100+50*Math.sin(a)).toFixed(1)}" x2="${(100+56*Math.cos(a)).toFixed(1)}" y2="${(100+56*Math.sin(a)).toFixed(1)}" stroke="#8a6a2c" stroke-width="1"/>`}).join("")}
+ <g id="needle" style="transform:rotate(22.5deg);transform-origin:100px 100px;transition:transform .7s cubic-bezier(.3,1.7,.5,1)" filter="url(#fSoft)"><path d="M100,40 L108,100 L100,112 L92,100Z" fill="#a8231f"/><path d="M100,40 L100,112 L92,100Z" fill="#7a1512"/><circle cx="100" cy="100" r="7" fill="url(#gBrass)"/></g>
+ <path d="M38,52 A75,75 0 0 1 140,32" stroke="#fff" stroke-opacity=".4" stroke-width="7" fill="none" stroke-linecap="round"/></svg>`}
+
+/* diskovi */
+const DISKS=[{f:["V","\\","O","/","V","\\"],b:["S","N","C","B","I","R"]},{f:["O","V","\\","/","O","V"],b:["B","R","I","H","K","A"]},{f:["V","/","\\","V","O","/"],b:["Z","M","O","L","E","D"]},{f:["\\","O","V","/","O","V"],b:["S","T","R","N","P","O"]},{f:["O","/","\\","O","V","/"],b:["V","R","K","E","T","A"]}];
+function scrollSVG(){return `<svg viewBox="0 0 130 310"><rect x="14" y="12" width="102" height="286" fill="url(#gParch)" filter="url(#fPaper)"/><rect x="6" y="2" width="118" height="16" rx="8" fill="#7a4a22" filter="url(#fGrain)"/><rect x="6" y="292" width="118" height="16" rx="8" fill="#7a4a22" filter="url(#fGrain)"/>
+ <g stroke="#2a1a0c" stroke-width="5" fill="none" stroke-linecap="round"><circle cx="65" cy="54" r="20"/><path d="M80,82 L50,124"/><circle cx="65" cy="154" r="20"/><path d="M50,184 L80,226"/><path d="M47,236 L65,274 L83,236"/></g></svg>`}
+
+/* branko */
+const BR=[["B","R"],["A","N"],["K","O"]];
+function brankoSVG(){let s='<svg viewBox="0 0 150 214"><rect width="150" height="214" rx="20" fill="url(#gWoodF)"/>';BR.forEach((r,y)=>r.forEach((c,x)=>{s+=woodTile(11+x*66,11+y*66,62,62,c,46)}));return s+'</svg>'}
+const ARROWS=[["←","↓","→","↓","←"],["↑","→","↓","↓"],["→","↓","←","→","↓","←"],["→","↓","←","↓","→"]];
+function arrowsSVG(){let s='<svg viewBox="0 0 230 270"><rect width="230" height="270" rx="24" fill="#1f8f73"/><rect x="8" y="8" width="214" height="254" rx="18" fill="#2bb08e"/><rect x="8" y="8" width="214" height="254" rx="6" fill="url(#cl)" opacity=".0"/><text x="115" y="58" fill="#efe6cf" font-size="50" font-family="Fredoka,Nunito,sans-serif" text-anchor="middle" letter-spacing="14" opacity=".92">RABB</text>';
+ const xs=[51,95,139,183];ARROWS.forEach((col,i)=>col.forEach((a,j)=>{s+=`<text x="${xs[i]-4}" y="${98+j*28}" fill="#e8f2ee" font-size="26" font-family="Manrope" font-weight="800" text-anchor="middle" opacity=".88">${a}</text>`}));return s+'</svg>'}
+
+/* disk na ploči */
+const DISK_PAIRS=[{shape:"star",letter:"L",phi:-90,step:4},{shape:"sqstar",letter:"C",phi:30,step:2},{shape:"pentagon",letter:"R",phi:150,step:10}];
+const PC=150,RD=104;
+function rimEl(kind,content,angDeg,selfRot){const a=angDeg*Math.PI/180,x=PC+RD*Math.cos(a),y=PC+RD*Math.sin(a);
+ if(kind==="shape")return `<g transform="translate(${x.toFixed(1)},${y.toFixed(1)}) rotate(${selfRot}) scale(.42) translate(-50,-50)" fill="#141414">${SHAPE[content]}</g>`;
+ return `<text transform="translate(${x.toFixed(1)},${y.toFixed(1)}) rotate(${selfRot})" font-family="Manrope" font-weight="800" font-size="40" text-anchor="middle" dominant-baseline="central" fill="#141414">${content}</text>`}
+function plateSVG(placed,rot){let plate="",disk="";
+ DISK_PAIRS.forEach(p=>{plate+=rimEl("shape",p.shape,p.phi,0)+rimEl("text",p.letter,p.phi+24,0);const th=p.step*30;disk+=rimEl("shape",p.shape,p.phi-th,-th)+rimEl("text",p.letter,p.phi+24-th,-th)});
+ return `<svg viewBox="0 0 300 300"><defs><clipPath id="dclip"><circle cx="${PC}" cy="${PC}" r="${RD}"/></clipPath><linearGradient id="gPlate" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#9fbccb"/><stop offset="1" stop-color="#5f8193"/></linearGradient></defs>
+ <rect width="300" height="300" rx="10" fill="url(#gPlate)"/><rect width="300" height="300" rx="10" fill="#fff" filter="url(#fPaper)" opacity=".25"/>${[[14,14],[286,14],[14,286],[286,286]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="5" fill="url(#gSteel)" stroke="#456"/>`).join("")}
+ ${plate}
+ ${placed?`<g id="diskg" style="transform:rotate(${rot}deg);transform-origin:${PC}px ${PC}px;transition:transform .5s cubic-bezier(.3,1.35,.5,1)"><circle cx="${PC}" cy="${PC+4}" r="${RD}" fill="#000" opacity=".35"/><g clip-path="url(#dclip)"><circle cx="${PC}" cy="${PC}" r="${RD}" fill="url(#gWoodT)" filter="url(#fGrain)"/>
+ ${[22,44,66,88].map(r=>`<circle cx="${PC}" cy="${PC}" r="${r}" fill="none" stroke="#7a4a20" stroke-width="1" opacity=".45"/>`).join("")}${disk}</g>
+ <circle cx="${PC}" cy="${PC}" r="${RD}" fill="none" stroke="#4a2a10" stroke-width="2.5"/><circle cx="${PC}" cy="${PC}" r="9" fill="url(#gBrass)"/><path d="M${PC},${PC-RD+6} v16" stroke="#4a2a10" stroke-width="3"/></g>`:
+ `<circle cx="${PC}" cy="${PC}" r="${RD}" fill="#3e5a69" stroke="#2c4350" stroke-width="2" stroke-dasharray="7 6"/><circle cx="${PC}" cy="${PC}" r="7" fill="#1d2d36"/><text x="${PC}" y="${PC+42}" fill="#d7e6ef" font-size="14" text-anchor="middle" font-weight="700" opacity=".8">empty socket</text>`}<g id="alignGlow">${placed?alignGlow(rot):""}</g></svg>`}
+const SHAPE_NAME={star:"The star",sqstar:"The two-square star",pentagon:"The pentagon"},SLOT_NAME={L:"the left slot",C:"the center slot",R:"the right slot"};
+function alignedPair(rot){const k=((Math.round(rot/30))%12+12)%12;return DISK_PAIRS.find(p=>p.step===k)||null}
+function alignGlow(rot){const p=alignedPair(rot);if(!p)return"";const pos=a=>{const r=a*Math.PI/180;return [PC+RD*Math.cos(r),PC+RD*Math.sin(r)]};const [x1,y1]=pos(p.phi),[x2,y2]=pos(p.phi+24);
+ return `<g class="aglow"><circle cx="${x1.toFixed(1)}" cy="${y1.toFixed(1)}" r="27" fill="none" stroke="#ffd36b" stroke-width="4"/><circle cx="${x2.toFixed(1)}" cy="${y2.toFixed(1)}" r="24" fill="none" stroke="#ffd36b" stroke-width="4"/></g>`}
+function plateNote(rot){const p=alignedPair(rot);return p?`<b>${SHAPE_NAME[p.shape]}</b> and the letter <b>${p.letter}</b> have lined up. ${p.letter} means ${SLOT_NAME[p.letter]}. Find the same shape in the corner of a chest on the wall: the cube with its pattern goes into that slot.`:"Turn the disc until a shape and a letter line up."}
+
+/* ================= KUTIJE ================= */
+const P={
+ branko:{c:"r",corner:"diamond",pat:6,gem:"r",title:"Six letters"},
+ xo:{c:"g",corner:"circle",pat:1,gem:"g",title:"X and O board"},
+ flags:{c:"y",corner:"triangle",pat:3,gem:"y",title:"Four flags"},
+ calendar:{c:"y",corner:"star",pat:0,gem:"y",title:"Four seasons"},
+ switches:{c:"r",corner:"hexagram",pat:7,gem:"r",title:"Buttons and compass"},
+ cubes:{c:"r",corner:"crescent",pat:8,gem:"r",title:"Disc and cubes"},
+ clock:{c:"g",corner:"sqstar",pat:5,gem:"g",title:"The stopped clock"},
+ disks:{c:"y",corner:"pie",pat:2,gem:"y",title:"Wooden discs"},
+ riddles:{c:"g",corner:"pentagon",pat:4,gem:"g",title:"Four riddles"}
+};
+const ORDER=["branko","xo","flags","calendar","switches","cubes","clock","disks","riddles"];
+const LOCKS={
+ xo:{alpha:"0123456789",code:"629",reward:["kalendar"]},
+ clock:{alpha:"0123456789",code:"15257",reward:["folija"]},
+ riddles:{alpha:"0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ",code:"3A1M",reward:["svitak"]},
+ calendar:{alpha:"0123456789",code:"7194",reward:["disk","kljuc"]},
+ flags:{alpha:"ABCDEFGHIJKLMNOPQRSTUVWXYZ",code:"HOCT",reward:["simboli"]},
+ disks:{alpha:"ABCDEFGHIJKLMNOPQRSTUVWXYZ",code:"CHEST",reward:["strelice"]},
+ branko:{alpha:"0123456789",code:"5732",reward:[]},
+ switches:{alpha:"ABCDEFGHIJKLMNOPQRSTUVWXYZ",code:"MAKER",reward:[]}
+};
+const CUBE_SOL=[0,5,4],TRAY=[4,7,0,2,8,5,1,6,3];
+const HINTS={
+ xo:["Three small keyboards are drawn on the chest. Look only at the black keys.","The black keys show which three columns of the board to look at. Follow the O marks, not the X marks.","Columns 1 to 3 make the number 6, columns 3 to 5 make 2, columns 5 to 7 make 9. The code is 629."],
+ clock:["Every hand on the clock has a different tip. The same tips are drawn on the chest.","The chest says M for minutes, S for seconds and H for hours. A hand pointing at III means 15 minutes.","Minutes 15, seconds 25, hours 7. The code is 15257."],
+ riddles:["Each riddle gives exactly one character: a number or a letter.","Candles that keep burning burn down completely. Riddles II and IV are about letters in words, and riddle III asks about the word \"it\" only.","3 blown-out candles remain, the rest burn away. The answers are 3, A, 1 and M. The code is 3A1M."],
+ calendar:["You need the calendar from one of the green chests. Drag it from the bag onto this chest.","The four pictures are the four seasons. The signs on the chest are the corners the black lines make around each picture.","Winter is January (7), summer August (1), autumn November (9), spring April (4). The order on the chest gives 7194."],
+ flags:["You will need the grey film from the clock chest.","Drag the film from the bag onto the flags, then move it until it sits exactly on top of them.","The code is HOCT."],
+ disks:["The scroll from the riddle chest shows five symbols, top to bottom. Drag it here.","Turn the discs so the golden frame shows the same symbols as the scroll, top to bottom: O / O \\ V. Then tap Look at the back and read the letters in the frame.","The back of the frame reads CHEST. That is the code."],
+ branko:["The board with arrows is inside the wooden discs chest.","Each letter at the top of the board is a starting square. The arrows below it draw a path across the letters BRANKO.","The paths draw the digits 5, 7, 3 and 2. The code is 5732."],
+ switches:["The paper with symbols is inside the flags chest.","Press the three buttons from one row of the paper and watch the compass. Release all buttons before the next row. Read the rows top to bottom.","The five rows give the letters M, A, K, E, R. The code is MAKER."],
+ cubes:["Drag the disc from the bag into the socket and open the big chest with the key. Then turn the disc until a shape and a letter line up and glow gold. There are three such pairs: the star, the two-square star and the pentagon.","The letter says WHERE the cube goes: L is left, C center, R right. The shape says WHICH cube: the same shape sits in the corner of a chest on the wall, filled with a pattern. The cube with that pattern goes into that slot.","Example: the star lined up with L. The star is in the corner of the seasons chest and is filled with diagonal stripes, so the striped cube goes left. Likewise the two-square star is in the clock corner with a grid, that cube goes in the middle. The pentagon is in the riddles corner with arcs, that cube goes right."]
+};
+
+/* ================= STANJE ================= */
+const KEY="ilwg-wall-of-riddles-v1";
+const fresh=()=>({started:false,elapsed:0,solved:{},items:[],used:[],gems:[],hints:{},diskRot:[5,1,0,3,2],diskBack:false,diskPlaced:false,plateRot:0,cubesOpen:false,slots:[null,null,null],foil:null,pinned:{},locks:{},won:false,sound:true,music:true,seen:[]});
+let S=fresh();
+try{const raw=localStorage.getItem(KEY);if(raw){S=Object.assign(fresh(),JSON.parse(raw));if(typeof S.foil==="boolean")S.foil=null}}catch(e){}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+const has=i=>S.items.includes(i)&&!S.used.includes(i);
+
+/* ================= ZVUK ================= */
+let AC=null,SFXBUS=null,REV=null,NOISE=null;
+function ac(){if(!AC){try{AC=new (window.AudioContext||window.webkitAudioContext)();
+ const comp=AC.createDynamicsCompressor();comp.connect(AC.destination);
+ SFXBUS=AC.createGain();SFXBUS.gain.value=.9;SFXBUS.connect(comp);
+ REV=AC.createConvolver();const len=AC.sampleRate*3,ir=AC.createBuffer(2,len,AC.sampleRate);for(let c=0;c<2;c++){const d=ir.getChannelData(c);for(let i=0;i<len;i++)d[i]=(Math.random()*2-1)*Math.pow(1-i/len,2.6)}REV.buffer=ir;const rg=AC.createGain();rg.gain.value=.5;REV.connect(rg).connect(comp);
+ NOISE=AC.createBuffer(1,AC.sampleRate,AC.sampleRate);const nd=NOISE.getChannelData(0);for(let i=0;i<nd.length;i++)nd[i]=Math.random()*2-1;
+ AC._comp=comp}catch(e){AC=null}}if(AC&&AC.state==="suspended")AC.resume();return AC}
+function osc(f,t0,dur,{type="sine",vol=.2,att=.005,rev=0,f2=null,out=null}={}){const a=ac();if(!a)return;const o=a.createOscillator(),g=a.createGain();o.type=type;o.frequency.setValueAtTime(f,t0);if(f2)o.frequency.exponentialRampToValueAtTime(f2,t0+dur);
+ g.gain.setValueAtTime(0,t0);g.gain.linearRampToValueAtTime(vol,t0+att);g.gain.exponentialRampToValueAtTime(.0001,t0+dur);o.connect(g);g.connect(out||SFXBUS);if(rev){const r=a.createGain();r.gain.value=rev;g.connect(r).connect(REV)}o.start(t0);o.stop(t0+dur+.05)}
+function noise(t0,dur,{vol=.2,type="bandpass",f=1000,q=1,f2=null,att=.002,rev=0,out=null}={}){const a=ac();if(!a)return;const s=a.createBufferSource();s.buffer=NOISE;const fl=a.createBiquadFilter();fl.type=type;fl.frequency.setValueAtTime(f,t0);if(f2)fl.frequency.exponentialRampToValueAtTime(f2,t0+dur);fl.Q.value=q;const g=a.createGain();
+ g.gain.setValueAtTime(0,t0);g.gain.linearRampToValueAtTime(vol,t0+att);g.gain.exponentialRampToValueAtTime(.0001,t0+dur);s.connect(fl).connect(g).connect(out||SFXBUS);if(rev){const r=a.createGain();r.gain.value=rev;g.connect(r).connect(REV)}s.start(t0,Math.random()*.5);s.stop(t0+dur+.05)}
+const T=()=>ac()?AC.currentTime:0;
+const sfx={
+ tick(){if(!S.sound||!ac())return;const t=T();noise(t,.03,{f:3200,q:4,vol:.35});osc(2300,t,.025,{type:"square",vol:.03})},
+ press(){if(!S.sound||!ac())return;const t=T();osc(190,t,.09,{vol:.35,f2:90});noise(t,.02,{f:2500,q:2,vol:.15})},
+ wood(){if(!S.sound||!ac())return;const t=T();noise(t,.18,{f:420,q:3,vol:.45,f2:260});osc(140,t,.12,{vol:.2,f2:80})},
+ paper(){if(!S.sound||!ac())return;const t=T();for(let i=0;i<5;i++)noise(t+i*.045+Math.random()*.02,.07,{f:3000+Math.random()*2500,q:.8,vol:.12+Math.random()*.1,type:"highpass"})},
+ pickup(){if(!S.sound||!ac())return;const t=T();noise(t,.35,{type:"lowpass",f:300,f2:3000,vol:.12,att:.15});osc(660,t+.25,.3,{type:"triangle",vol:.12,rev:.4});osc(990,t+.33,.35,{type:"triangle",vol:.08,rev:.4})},
+ unlock(){if(!S.sound||!ac())return;const t=T();noise(t,.06,{f:1800,q:6,vol:.6});osc(1250,t,.5,{type:"triangle",vol:.12,rev:.3});osc(1870,t,.4,{type:"triangle",vol:.08,rev:.3});
+  osc(95,t+.18,.7,{type:"sawtooth",vol:.07,f2:62});noise(t+.18,.7,{f:500,f2:1100,q:12,vol:.12});
+  [523,659,784,1046].forEach((f,i)=>osc(f,t+.75+i*.09,.9,{type:"triangle",vol:.09,rev:.6}))},
+ gem(){if(!S.sound||!ac())return;const t=T();[1568,2093,2637,3136].forEach((f,i)=>osc(f,t+i*.07,.8,{vol:.06,rev:.8}));noise(t,.5,{type:"highpass",f:7000,vol:.05,att:.05})},
+ wrong(){if(!S.sound||!ac())return;const t=T();osc(110,t,.25,{type:"sawtooth",vol:.08,f2:70});noise(t,.12,{f:200,q:1,vol:.3})},
+ needle(){if(!S.sound||!ac())return;const t=T();noise(t,.4,{f:900,f2:2400,q:6,vol:.08});osc(880,t+.35,.5,{vol:.06,rev:.5})},
+ snap(){if(!S.sound||!ac())return;const t=T();noise(t,.04,{f:2600,q:5,vol:.4});[1318,1760].forEach((f,i)=>osc(f,t+.05+i*.06,.5,{vol:.07,rev:.6}))},
+ hint(){if(!S.sound||!ac())return;const t=T();osc(1046,t,1.2,{vol:.08,rev:.7});osc(1568,t+.12,1,{vol:.05,rev:.7})},
+ win(){if(!S.sound||!ac())return;const t=T();[[523,659,784],[587,740,880],[659,831,988],[784,988,1175,1568]].forEach((ch,k)=>ch.forEach(f=>osc(f,t+k*.32,k===3?2.2:.5,{type:"triangle",vol:.07,rev:.6})))}
+};
+
+/* muzika: generativni ambijent u molu */
+const Music={on:false,timer:null,bus:null,next:0,idx:0,
+ CH:[[146.8,174.6,220,73.4],[116.5,146.8,174.6,58.3],[98,116.5,146.8,49],[110,138.6,164.8,55]],
+ start(){const a=ac();if(!a||this.on)return;this.on=true;this.bus=a.createGain();this.bus.gain.setValueAtTime(0,a.currentTime);this.bus.gain.linearRampToValueAtTime(.16,a.currentTime+4);this.bus.connect(a._comp);
+  this.lp=a.createBiquadFilter();this.lp.type="lowpass";this.lp.frequency.value=900;this.lp.connect(this.bus);const rv=a.createGain();rv.gain.value=.35;this.lp.connect(rv).connect(REV);
+  this.room=a.createBufferSource();this.room.buffer=NOISE;this.room.loop=true;const rf=a.createBiquadFilter();rf.type="lowpass";rf.frequency.value=260;const rgn=a.createGain();rgn.gain.value=.05;this.room.connect(rf).connect(rgn).connect(this.bus);this.room.start();
+  this.next=a.currentTime+.2;this.timer=setInterval(()=>this.sched(),400)},
+ sched(){const a=AC;if(!a||!this.on)return;while(this.next<a.currentTime+3){this.chord(this.next,this.CH[this.idx%4]);this.idx++;this.next+=8}},
+ chord(t0,ch){const a=AC;ch.slice(0,3).forEach(f=>[-6,6].forEach(dt=>{const o=a.createOscillator(),g=a.createGain();o.type="sawtooth";o.frequency.value=f;o.detune.value=dt;g.gain.setValueAtTime(0,t0);g.gain.linearRampToValueAtTime(.022,t0+2.5);g.gain.setValueAtTime(.022,t0+6.5);g.gain.linearRampToValueAtTime(0,t0+10);o.connect(g).connect(this.lp);o.start(t0);o.stop(t0+10.2)}));
+  const b=a.createOscillator(),bg=a.createGain();b.type="sine";b.frequency.value=ch[3];bg.gain.setValueAtTime(0,t0);bg.gain.linearRampToValueAtTime(.09,t0+2);bg.gain.linearRampToValueAtTime(0,t0+9.5);b.connect(bg).connect(this.bus);b.start(t0);b.stop(t0+10);
+  const tones=[ch[0]*4,ch[1]*4,ch[2]*4,ch[0]*8,ch[2]*2];for(let k=0;k<6;k++){if(Math.random()<.65){const tt=t0+1+k*1.15+Math.random()*.3,f=tones[Math.floor(Math.random()*tones.length)];
+   const o=a.createOscillator(),g=a.createGain();o.type="triangle";o.frequency.value=f;g.gain.setValueAtTime(0,tt);g.gain.linearRampToValueAtTime(.035,tt+.01);g.gain.exponentialRampToValueAtTime(.0001,tt+2.2);o.connect(g);g.connect(this.bus);const r=a.createGain();r.gain.value=.9;g.connect(r).connect(REV);o.start(tt);o.stop(tt+2.3)}}},
+ stop(){if(!this.on)return;this.on=false;clearInterval(this.timer);const a=AC,b=this.bus,rm=this.room;if(a&&b){b.gain.cancelScheduledValues(a.currentTime);b.gain.setValueAtTime(b.gain.value,a.currentTime);b.gain.linearRampToValueAtTime(0,a.currentTime+1.2);setTimeout(()=>{try{rm.stop();b.disconnect()}catch(e){}},1500)}}
+};
+function syncAudio(){if(S.music&&S.started&&!S.won)Music.start();else Music.stop()}
+
+/* ================= UI ================= */
+function toast(t){const el=$("#toast");el.textContent=t;el.classList.add("show");clearTimeout(toast._t);toast._t=setTimeout(()=>el.classList.remove("show"),2800)}
+const fmt=s=>String(Math.floor(s/60)).padStart(2,"0")+":"+String(s%60).padStart(2,"0");
+function renderTop(){
+ $("#time").textContent=fmt(S.elapsed);$("#hintsUsed").textContent=Object.values(S.hints).reduce((a,b)=>a+b,0);
+ $("#soundBtn").classList.toggle("off",!S.sound);$("#sw").style.display=S.sound?"":"none";$("#musicBtn").classList.toggle("off",!S.music);
+ const g=$("#gems");g.innerHTML="";const cnt={g:0,y:0,r:0};S.gems.forEach(c=>cnt[c]++);const shown={g:0,y:0,r:0};
+ ["g","g","g","y","y","y","r","r","r"].forEach(c=>{const on=shown[c]<cnt[c];shown[c]++;const d=document.createElement("div");d.className="sock"+(on?" on":"");d.innerHTML=on?gemSVG(c):"";g.appendChild(d)});
+}
+function tileArt(id){switch(id){
+ case "xo":return xoSVG();case "clock":return clockSVG();case "calendar":return seasonsSVG();case "flags":return `<svg viewBox="0 0 340 228">${[0,1,2,3].map(i=>`<rect x="${(i%2)*172+2}" y="${Math.floor(i/2)*116+2}" width="164" height="104" rx="8" fill="url(#gBrass)"/><svg x="${(i%2)*172+4}" y="${Math.floor(i/2)*116+4}" width="160" height="100" viewBox="0 0 160 100">${flag(i)}</svg>`).join("")}</svg>`;case "branko":return brankoSVG();
+ case "riddles":return `<svg viewBox="0 0 130 100"><rect x="6" y="4" width="118" height="92" fill="url(#gParch)" filter="url(#fPaper)"/>${[14,22,34,42,50,58,70,78].map((y,i)=>`<rect x="16" y="${y}" width="${58+(y*7)%34}" height="3.4" rx="1.7" fill="#4a3620" opacity=".75"/>`).join("")}<circle cx="106" cy="82" r="9" fill="#9b1c1c"/><circle cx="106" cy="82" r="5" fill="none" stroke="#6d0f0f" stroke-width="1.5"/></svg>`;
+ case "disks":return `<svg viewBox="0 0 110 110">${[0,1,2,3,4].map(i=>`<rect x="24" y="${8+i*18}" width="62" height="16" rx="7" fill="url(#gWoodF)" filter="url(#fGrain)" stroke="#3a2311"/><text x="55" y="${20.5+i*18}" font-family="Bebas Neue" font-size="12" text-anchor="middle" fill="#2a160a">${["V \\ O","\\ O /","O V \\","V \\ /","V \\ O"][i]}</text>`).join("")}<rect x="12" y="98" width="86" height="7" rx="2" fill="#4a2a10"/></svg>`;
+ case "switches":return `<svg viewBox="0 0 186 150"><rect width="186" height="150" rx="20" fill="#fffaf2"/>${[0,1,2,3,4,5].map(i=>{const x=14+(i%3)*58,y=10+Math.floor(i/3)*70;return `<circle cx="${x+22}" cy="${y+16}" r="15" fill="url(#gBrass)" stroke="#e0a03a" stroke-width="2"/><rect x="${x+6}" y="${y+36}" width="32" height="28" rx="6" fill="#eaf6fb"/><svg x="${x+8}" y="${y+37}" width="28" height="26" viewBox="0 0 40 40">${SYM[i]}</svg>`}).join("")}</svg>`;
+ case "cubes":return `<svg viewBox="0 0 100 100"><rect x="6" y="6" width="88" height="88" rx="4" fill="#7c9cad"/><circle cx="50" cy="50" r="32" fill="#3e5a69" stroke="#2c4350" stroke-dasharray="4 3"/><circle cx="50" cy="50" r="3" fill="#1d2d36"/>${[[14,14],[86,14],[14,86],[86,86]].map(([x,y])=>`<circle cx="${x}" cy="${y}" r="3" fill="url(#gSteel)"/>`).join("")}</svg>`;
+}}
+function renderGrid(){const g=$("#grid");g.innerHTML="";
+ ORDER.forEach(id=>{const p=P[id],done=!!S.solved[id];const b=document.createElement("button");b.className=`tile ${p.c}${done?" done":""}`;b.dataset.drop=id;b.setAttribute("aria-label",p.title+(done?", solved":""));
+  b.innerHTML=`<span class="screw s1"></span><span class="screw s2"></span><span class="screw s3"></span><span class="screw s4"></span><div class="art">${tileArt(id)}</div><div class="chest">${chestSVG(done,done?p.gem:null)}</div><div class="emb">${emblemSVG(p.corner,p.pat)}</div>`;
+  b.onclick=()=>{sfx.wood();openPanel(id)};g.appendChild(b)})}
+function renderInv(){const el=$("#inv");el.innerHTML='<span class="lab">Bag</span>';const list=S.items.filter(i=>!S.used.includes(i));
+ if(!list.length){el.insertAdjacentHTML("beforeend",'<span class="empty">Your bag is empty. Items from opened chests drop here.</span>');return}
+ list.forEach(i=>{const b=document.createElement("button");b.className="item"+(S.seen.includes(i)?"":" new");b.title=ITEMS[i].name+": tap to look, drag onto a chest";b.setAttribute("aria-label",ITEMS[i].name);b.innerHTML=ITEMS[i].icon;wireDrag(b,i);el.appendChild(b)})}
+function renderAll(){retireItems();renderTop();renderGrid();renderInv()}
+
+/* ---- prevlačenje predmeta ---- */
+let drag=null;
+function wireDrag(btn,item){
+ btn.addEventListener("pointerdown",e=>{if(e.button>0)return;drag={item,x:e.clientX,y:e.clientY,on:false,id:e.pointerId,btn};try{btn.setPointerCapture(e.pointerId)}catch(_){}});
+ btn.addEventListener("pointermove",e=>{if(!drag||drag.btn!==btn)return;const dx=e.clientX-drag.x,dy=e.clientY-drag.y;
+  if(!drag.on&&Math.hypot(dx,dy)>8){drag.on=true;const gh=document.createElement("div");gh.className="ghost";gh.innerHTML=ITEMS[item].icon;document.body.appendChild(gh);drag.gh=gh;document.body.classList.add("dragging");sfx.paper()}
+  if(drag.on){drag.gh.style.left=e.clientX+"px";drag.gh.style.top=e.clientY+"px";document.querySelectorAll(".tile.drop").forEach(t=>t.classList.remove("drop"));const el=document.elementFromPoint(e.clientX,e.clientY);const t=el&&el.closest(".tile");if(t)t.classList.add("drop")}});
+ const end=e=>{if(!drag||drag.btn!==btn)return;const d=drag;drag=null;document.body.classList.remove("dragging");document.querySelectorAll(".tile.drop").forEach(t=>t.classList.remove("drop"));
+  if(!S.seen.includes(item)){S.seen.push(item);save();btn.classList.remove("new")}
+  if(!d.on){openItem(item,current);return}
+  d.gh.remove();const el=document.elementFromPoint(e.clientX,e.clientY);const zone=el&&el.closest("[data-drop]");
+  if(!zone){return}const pid=zone.dataset.drop;
+  if(!$("#modal").classList.contains("open")||current!==pid)openPanel(pid);
+  useItem(item,pid,e.clientX,e.clientY)};
+ btn.addEventListener("pointerup",end);btn.addEventListener("pointercancel",()=>{if(drag&&drag.gh)drag.gh.remove();drag=null;document.body.classList.remove("dragging")});
+}
+function useItem(item,pid,cx,cy){
+ if(ITEMS[item].use!==pid||S.solved[pid]&&item!=="kalendar"){sfx.wrong();toast(S.solved[pid]?"This chest is already open.":"That does not help here.");const sh=$("#sheet");sh.classList.remove("shake");void sh.offsetWidth;sh.classList.add("shake");return}
+ if(pid==="flags"){S.foil={fx:.04,fy:.9,snap:false};sfx.paper();openPanel("flags");
+  setTimeout(()=>{const f=$("#foil");if(!f)return;f.classList.add("settle");S.foil={fx:0,fy:0,snap:true};f.classList.add("snap");f.innerHTML=foilSVG(true);placeFoil();save();setTimeout(()=>{const fs=$("#fw .flagsvg");if(fs)fs.outerHTML=flagsSVG(true)},450);setTimeout(()=>{sfx.snap();f.classList.remove("settle")},600)},80);
+  toast("The film is placed on the flags.");return}
+ if(item==="disk"){if(S.diskPlaced)return;S.diskPlaced=true;S.used.push("disk");save();sfx.wood();renderInv();openPanel("cubes");toast("The disc is in the socket. Turn it.");return}
+ if(item==="kljuc"){if(S.cubesOpen)return;S.cubesOpen=true;S.used.push("kljuc");save();sfx.unlock();renderInv();openPanel("cubes");toast("The big chest is open.");return}
+ S.pinned[pid]=true;save();sfx.paper();openPanel(pid);
+}
+
+/* ---- modal ---- */
+let current=null;
+function openModal(c,html){const sh=$("#sheet");sh.className="sheet "+c;sh.innerHTML=`<button class="close" aria-label="Close">✕</button>`+html;sh.querySelector(".close").onclick=closeModal;$("#modal").classList.add("open")}
+let fitRaf=0;
+function fitSheet(){cancelAnimationFrame(fitRaf);fitRaf=requestAnimationFrame(()=>{const sh=$("#sheet"),md=$("#modal");if(!md.classList.contains("open"))return;
+ const bag=$(".bag"),invh=(bag?bag.getBoundingClientRect().height:80)+22;md.style.setProperty("--invh",invh+"px");
+ sh.style.zoom=1;const avail=innerHeight-invh-16,h=sh.scrollHeight;const z=h>avail?Math.max(.5,avail/h):1;sh.style.zoom=z;md.scrollTop=0})}
+new MutationObserver(()=>fitSheet()).observe(document.getElementById("sheet"),{childList:true,subtree:true,characterData:true});
+addEventListener("resize",()=>fitSheet());
+function closeModal(){$("#modal").classList.remove("open");current=null;renderAll();checkWin()}
+$("#modal").addEventListener("click",e=>{if(e.target.id==="modal")closeModal()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"&&$("#modal").classList.contains("open"))closeModal()});
+function hintHTML(){return `<div class="row" style="margin-top:12px"><button class="btn ghostb" data-hint>Hint</button></div><div class="hintbox" data-hintbox></div>`}
+function wireHints(id){const box=$("[data-hintbox]"),btn=$("[data-hint]");if(!btn)return;
+ const show=()=>{const n=S.hints[id]||0;btn.textContent=n>=HINTS[id].length?"No more hints":`Hint ${n+1} of ${HINTS[id].length}`;btn.disabled=n>=HINTS[id].length;if(!n){box.style.display="none";return}box.style.display="block";box.innerHTML=HINTS[id].slice(0,n).map((h,i)=>`<p><b>Hint ${i+1}:</b> ${h}</p>`).join("")};
+ show();btn.onclick=()=>{S.hints[id]=Math.min((S.hints[id]||0)+1,HINTS[id].length);save();sfx.hint();renderTop();show()}}
+const gemName=g=>g==="g"?"Green":g==="y"?"Yellow":"Red";
+function contentsHTML(id){const its=LOCKS[id]?LOCKS[id].reward:[];return `<div class="msg">The chest is open!</div><div style="width:150px">${chestSVG(true,P[id].gem)}</div><div class="contents"><div class="it">${gemSVG(P[id].gem)} ${gemName(P[id].gem)} gem</div>${its.map(i=>`<div class="it">${ITEMS[i].icon} ${ITEMS[i].name}</div>`).join("")}</div>`}
+function retireItems(){Object.keys(ITEMS).forEach(i=>{if(S.items.includes(i)&&S.solved[ITEMS[i].use]&&!S.used.includes(i))S.used.push(i)})}
+function solve(id){if(S.solved[id])return;S.solved[id]=true;S.gems.push(P[id].gem);retireItems();if(id==='flags')S.foil=null;const its=LOCKS[id]?LOCKS[id].reward:[];its.forEach(i=>{if(!S.items.includes(i))S.items.push(i)});save();
+ sfx.unlock();setTimeout(sfx.gem,1100);if(its.length)setTimeout(sfx.pickup,1500);renderTop();renderInv();
+ toast(`The ${gemName(P[id].gem).toLowerCase()} gem is yours!`+(its.length?` In your bag: ${its.map(i=>ITEMS[i].name).join(", ")}.`:""));
+ if(S.gems.length>=9)setTimeout(()=>{if($("#modal").classList.contains("open"))closeModal();else checkWin()},2600)}
+
+function lockWidget(id){
+ const L=LOCKS[id];if(!S.locks[id])S.locks[id]=Array(L.code.length).fill(0);const st=S.locks[id],n=L.alpha.length;
+ const wrap=document.createElement("div");wrap.className="padlock"+(S.solved[id]?" opened":"");const dials=document.createElement("div");dials.className="dials";wrap.appendChild(dials);
+ st.forEach((v,i)=>{const w=document.createElement("div");w.className="dial";
+  w.innerHTML=`<button aria-label="Next character">▲</button><div class="drum" tabindex="0"><span class="u"></span><span class="c"></span><span class="d"></span></div><button aria-label="Previous character">▼</button>`;
+  const drum=w.querySelector(".drum"),draw=dir=>{drum.querySelector(".u").textContent=L.alpha[(st[i]+1)%n];drum.querySelector(".d").textContent=L.alpha[(st[i]-1+n)%n];const c=drum.querySelector(".c");c.textContent=L.alpha[st[i]];if(dir){c.classList.remove("up","dn");void c.offsetWidth;c.classList.add(dir>0?"up":"dn")}};
+  draw(0);
+  const step=d=>{if(S.solved[id])return;st[i]=(st[i]+d+n)%n;draw(d);sfx.tick();save();check()};
+  w.children[0].onclick=()=>step(1);w.children[2].onclick=()=>step(-1);
+  drum.addEventListener("wheel",e=>{e.preventDefault();step(e.deltaY<0?1:-1)},{passive:false});
+  drum.addEventListener("keydown",e=>{if(e.key==="ArrowUp"){e.preventDefault();step(1)}else if(e.key==="ArrowDown"){e.preventDefault();step(-1)}else{const k=L.alpha.indexOf(e.key.toUpperCase());if(k>=0&&e.key.length===1){st[i]=k;draw(1);sfx.tick();save();check();const nx=wrap.querySelectorAll(".drum")[i+1];if(nx)nx.focus()}}});
+  let y0=null;drum.addEventListener("touchstart",e=>{y0=e.touches[0].clientY},{passive:true});drum.addEventListener("touchend",e=>{if(y0===null)return;const dy=e.changedTouches[0].clientY-y0;if(Math.abs(dy)>16)step(dy<0?1:-1);y0=null});
+  dials.appendChild(w)});
+ function check(){if(st.map(v=>L.alpha[v]).join("")===L.code){wrap.classList.add("opened");solve(id);setTimeout(()=>{if(current===id)openPanel(id)},1300)}}
+ return wrap}
+const needsHint=(item)=>has(item)?`<div class="note">Something in your bag could help here. Drag it onto the chest.</div>`:"";
+
+function openPanel(id){current=id;const p=P[id],done=!!S.solved[id];
+ openModal(p.c,`<h2 class="title">${p.title}</h2><div class="pemb" title="This chest's sign">${emblemSVG(p.corner,p.pat)}</div><div class="stage" id="stage"></div>`+(done?"":hintHTML()));$("#sheet").dataset.drop=id;
+ const st=$("#stage"),add=h=>st.insertAdjacentHTML("beforeend",h),addLock=()=>{if(done)add(contentsHTML(id));else st.appendChild(lockWidget(id))};
+ switch(id){
+ case "xo":add(`<div style="width:100%;max-width:430px">${xoSVG()}</div><div class="row" style="gap:16px">${[0,2,4].map(s=>`<div style="width:92px">${pianoSVG(s)}</div>`).join("")}</div>`);addLock();break;
+ case "clock":add(`<div style="width:100%;max-width:300px">${clockSVG()}</div><div style="width:100%;max-width:260px">${handsPlaque()}</div>`);addLock();break;
+ case "riddles":add(`<div style="position:relative;max-width:450px;padding:18px 22px;color:#5a3322;font-family:Nunito,sans-serif;font-weight:700;font-size:1.05rem;line-height:1.4;background:#fffaf2;box-shadow:0 6px 0 #0002;border-radius:22px">
+   <p style="margin:.1em 0 .8em"><b>I.</b> Five candles burn on a table.<br>The wind blows out three.<br>How many candles are left in the end?</p>
+   <p style="margin:.1em 0 .8em"><b>II.</b> I start every adventure,<br>I end every idea,<br>I open every alarm<br>and close every saga.</p>
+   <p style="margin:.1em 0 .8em"><b>III.</b> Ten tiny turtles trot toward town.<br>How many letters T are in it?</p>
+   <p style="margin:.1em 0"><b>IV.</b> What comes once in a minute, twice in a moment, but never in a thousand years?</p>
+   <div style="position:absolute;right:14px;bottom:10px;width:34px;height:34px;border-radius:50%;background:radial-gradient(circle at 40% 35%,#d33,#7a0f0f);box-shadow:0 2px 4px #0008"></div></div>`);addLock();break;
+ case "calendar":add(`<div class="row" style="gap:18px;align-items:center"><div style="display:flex;flex-direction:column;align-items:center;gap:12px"><div style="width:250px">${seasonsSVG()}</div><div style="width:220px">${cornersPlaque()}</div></div>${S.pinned.calendar?`<div class="pinned" style="width:330px;max-width:100%"><div class="cal" id="cal"></div></div>`:""}</div>`);
+  if(!S.pinned.calendar&&!done)add(needsHint("kalendar")||`<div class="note">There are no numbers in these pictures. Maybe they are somewhere else.</div>`);
+  addLock();if(S.pinned.calendar)calendar(0);break;
+ case "flags":{add(`<div class="flagwrap" id="fw">${flagsSVG(!!(S.foil&&S.foil.snap&&!done))}</div>`);
+  if(S.foil&&!done){const fw=$("#fw");fw.insertAdjacentHTML("beforeend",`<div class="foil${S.foil.snap?" snap":""}" id="foil">${foilSVG(S.foil.snap)}</div>`);placeFoil();wireFoil();
+   add(`<div class="row"><button class="btn ghostb" id="foilBack">Put the film back in the bag</button></div>`);$("#foilBack").onclick=()=>{S.foil=null;save();sfx.paper();openPanel("flags")}}
+  else if(!done)add(needsHint("folija")||`<div class="note">Four flags and a letter padlock. Something is missing here.</div>`);
+  addLock();break;}
+ case "disks":{if(S.pinned.disks)add(`<div class="row" style="align-items:center;gap:20px"><div class="disks" id="dk"></div><div class="pinned" style="width:76px">${scrollSVG()}</div></div>`);else add(`<div class="disks" id="dk"></div>`);
+  const box=$("#dk");const draw=()=>{box.innerHTML="";DISKS.forEach((d,i)=>{const r=S.diskRot[i],arr=S.diskBack?d.b:d.f;const row=document.createElement("div");row.className="disk";
+   row.innerHTML=`<button class="rb" aria-label="Turn left">⟲</button><div class="cyl${S.diskBack?" back":""}"><span class="side">${arr[(r+5)%6]}</span><span>${arr[r]}</span><span class="side">${arr[(r+1)%6]}</span></div><button class="rb" aria-label="Turn right">⟳</button>`;
+   row.children[0].onclick=()=>{S.diskRot[i]=(r+5)%6;sfx.wood();save();draw()};row.children[2].onclick=()=>{S.diskRot[i]=(r+1)%6;sfx.wood();save();draw()};box.appendChild(row)});box.insertAdjacentHTML("beforeend",'<div class="shelf"></div><div class="readwin"></div>')};
+  draw();add(`<div class="row"><button class="btn ghostb" id="flipBtn">${S.diskBack?"Look at the front":"Look at the back"}</button></div>`);
+  $("#flipBtn").onclick=e=>{S.diskBack=!S.diskBack;save();sfx.wood();e.target.textContent=S.diskBack?"Look at the front":"Look at the back";draw()};
+  if(!S.pinned.disks&&!done)add(needsHint("svitak"));addLock();break;}
+ case "branko":add(`<div class="row" style="gap:20px;align-items:center"><div style="width:170px">${brankoSVG()}</div>${S.pinned.branko?`<div class="pinned" style="width:190px">${arrowsSVG()}</div>`:""}</div>`);
+  if(!S.pinned.branko&&!done)add(needsHint("strelice")||`<div class="note">Six letters and a number padlock. How do letters turn into numbers?</div>`);addLock();break;
+ case "switches":{const sel=new Set();
+  add(`<div class="panel6"><div class="btns6">${[0,1,2,3,4,5].map(i=>`<button class="pbtn" data-i="${i}" aria-label="Button ${i+1}"></button>`).join("")}</div><div class="symrow">${[0,1,2,3,4,5].map(symSVG).join("")}</div></div>
+   <div class="row" style="gap:20px;align-items:center"><div style="width:220px">${compassSVG()}</div>${S.pinned.switches?`<div class="pinned" style="background:#fbf7ee;border-radius:4px;padding:10px;display:grid;gap:6px">${CLUE_ROWS.map(r=>`<div style="display:flex;gap:5px">${r.map(s=>`<div style="width:34px">${symSVG(s)}</div>`).join("")}</div>`).join("")}</div>`:""}</div>`);
+  if(!done)add(`<div class="note">The compass only reacts when exactly the right three buttons are pressed.</div><div class="row" id="relRow" style="visibility:hidden"><button class="btn ghostb" id="relAll">Release all buttons</button></div>`);if(!S.pinned.switches&&!done)add(needsHint("simboli"));
+  let ang=22.5;const turn=t=>{let x=t;while(x<ang-180)x+=360;while(x>ang+180)x-=360;ang=x};
+  const upd=()=>{const nd=$("#needle");st.querySelectorAll(".cl").forEach(e=>e.classList.remove("lit"));const k=[...sel].sort((a,b)=>a-b).join(","),L=sel.size===3?COMBOS[k]:null;
+   if(L){turn(COMPASS.indexOf(L)*45);sfx.needle();setTimeout(()=>{const e=st.querySelector(`.cl[data-l="${L}"]`);if(e)e.classList.add("lit")},500)}
+   else{turn(22.5);if(sel.size===3){nd.classList.remove("shiver");void nd.getBoundingClientRect();nd.classList.add("shiver")}}
+   nd.style.transform=`rotate(${ang}deg)`;const rr=$("#relRow");if(rr)rr.style.visibility=sel.size?"visible":"hidden"};
+  const rel=$("#relAll");if(rel)rel.onclick=()=>{sel.clear();st.querySelectorAll(".pbtn.on").forEach(b=>b.classList.remove("on"));sfx.press();upd()};
+  st.querySelectorAll(".pbtn").forEach(b=>b.onclick=()=>{const i=+b.dataset.i;if(sel.has(i)){sel.delete(i);b.classList.remove("on")}else{if(sel.size>=3){toast("Three buttons at most. Release one or tap Release all buttons.");sfx.wrong();return}sel.add(i);b.classList.add("on")}sfx.press();upd()});
+  addLock();break;}
+ case "cubes":{const wrap=document.createElement("div");wrap.style.cssText="width:100%;display:flex;flex-direction:column;align-items:center;gap:14px";st.appendChild(wrap);
+  const draw=()=>{wrap.innerHTML=`<div style="width:100%;max-width:320px">${plateSVG(S.diskPlaced,S.plateRot)}</div>`;
+   if(S.diskPlaced)wrap.insertAdjacentHTML("beforeend",`<div class="row"><button class="btn ghostb" id="rl">⟲ Turn</button><button class="btn ghostb" id="rr">Turn ⟳</button></div>${S.solved.cubes?"":`<div class="note" id="pnote" style="max-width:420px">${plateNote(S.plateRot)}</div>`}`);
+   if(!S.cubesOpen){wrap.insertAdjacentHTML("beforeend",`<div style="width:240px;position:relative">${chestSVG(false,null,true)}</div>`);
+    if(!S.solved.cubes)wrap.insertAdjacentHTML("beforeend",(has("disk")||has("kljuc"))?needsHint(has("disk")?"disk":"kljuc"):`<div class="note">An empty socket for a disc and a big chest with a keyhole.</div>`)}
+   else{if(!S.diskPlaced&&has("disk"))wrap.insertAdjacentHTML("beforeend",needsHint("disk"));
+    wrap.insertAdjacentHTML("beforeend",`<div class="slots">${[0,1,2].map(i=>{const c=S.slots[i];return `<button class="cslot${c!==null?" filled":""}" data-s="${i}" aria-label="Slot ${i+1}">${c!==null?cubeSVG(c):""}</button>`}).join("")}</div><div class="slotlab"><span>L</span><span>C</span><span>R</span></div>
+     <div class="tray">${TRAY.map(pi=>`<button class="cube${S.slots.includes(pi)?" used":""}${selCube===pi?" sel":""}" data-p="${pi}" aria-label="Cube">${cubeSVG(pi)}</button>`).join("")}</div>`);
+    wrap.querySelectorAll(".cube").forEach(b=>b.onclick=()=>{if(S.solved.cubes)return;const pi=+b.dataset.p;selCube=selCube===pi?null:pi;sfx.wood();draw()});
+    wrap.querySelectorAll(".cslot").forEach(b=>b.onclick=()=>{if(S.solved.cubes)return;const i=+b.dataset.s;if(selCube!==null){S.slots[i]=selCube;selCube=null}else if(S.slots[i]!==null)S.slots[i]=null;sfx.wood();save();
+     if(S.slots.every(x=>x!==null)){if(S.slots.join()===CUBE_SOL.join()){draw();solve("cubes");setTimeout(()=>{if(current==="cubes")openPanel("cubes")},1300);return}sfx.wrong();toast("The cubes are in place, but nothing happens.")}draw()})}
+   if(S.solved.cubes)wrap.insertAdjacentHTML("beforeend",contentsHTML("cubes"));
+   const rl=$("#rl");if(rl){rl.onclick=()=>rot(-30);$("#rr").onclick=()=>rot(30)}};
+  const rot=d=>{S.plateRot+=d;save();sfx.wood();const g=$("#diskg");if(g)g.style.transform=`rotate(${S.plateRot}deg)`;const ag=$("#alignGlow");if(ag)ag.innerHTML="";
+   setTimeout(()=>{const ag2=$("#alignGlow");if(ag2)ag2.innerHTML=alignGlow(S.plateRot);const pn=$("#pnote");if(pn)pn.innerHTML=plateNote(S.plateRot)},420);if(alignedPair(S.plateRot))setTimeout(sfx.snap,380)};
+  draw();break;}
+ }
+ if(!done)wireHints(id)}
+let selCube=null;
+function cubeSVG(pi){return `<svg viewBox="0 0 100 100"><rect width="100" height="100" fill="url(#pt${pi})"/><rect x="8" y="5" width="84" height="20" rx="10" fill="#fff" opacity=".45"/><rect y="84" width="100" height="16" fill="#c8603a" opacity=".25"/></svg>`}
+
+/* ---- folija ---- */
+function placeFoil(){const f=$("#foil"),fw=$("#fw");if(!f||!fw)return;const W=fw.clientWidth;f.style.transform=`translate(${(S.foil.fx*W).toFixed(1)}px,${(S.foil.fy*W*116/680).toFixed(1)}px) rotate(${S.foil.snap?0:-2.5}deg)`;
+ fw.style.setProperty("--foilroom",Math.max(0,S.foil.fy*W*116/680+10)+"px")}
+function wireFoil(){const f=$("#foil"),fw=$("#fw");let st=null;
+ f.addEventListener("pointerdown",e=>{st={x:e.clientX,y:e.clientY,fx:S.foil.fx,fy:S.foil.fy};f.setPointerCapture(e.pointerId);sfx.paper()});
+ f.addEventListener("pointermove",e=>{if(!st)return;const W=fw.getBoundingClientRect().width,H=W*116/680;S.foil.fx=Math.max(-.35,Math.min(.35,st.fx+(e.clientX-st.x)/W));S.foil.fy=Math.max(-1.2,Math.min(1.4,st.fy+(e.clientY-st.y)/H));
+  const near=Math.abs(S.foil.fx*W)<Math.max(18,W*.035)&&Math.abs(S.foil.fy*H)<Math.max(16,H*.28);if(near!==S.foil.snap){S.foil.snap=near;f.classList.toggle("snap",near);f.innerHTML=foilSVG(near);const fs=$("#fw .flagsvg");if(fs)fs.outerHTML=flagsSVG(near)}placeFoil()});
+ const up=()=>{if(!st)return;st=null;if(S.foil.snap){S.foil.fx=0;S.foil.fy=0;placeFoil();sfx.snap()}save()};f.addEventListener("pointerup",up);f.addEventListener("pointercancel",up)}
+window.addEventListener("resize",()=>{if(current==="flags"&&S.foil)placeFoil()});
+
+/* ---- predmeti izbliza ---- */
+function openItem(i,back){const it=ITEMS[i];let body="";sfx.paper();delete $("#sheet").dataset.drop;
+ if(i==="kalendar")body=`<div class="cal" id="cal"></div><div class="note">Flip through the months with the arrows.</div>`;
+ if(i==="folija")body=`<div style="width:100%;max-width:640px;padding:10px;background:repeating-conic-gradient(#fff 0 25%,#ffe9d6 0 50%) 0 0/24px 24px;border-radius:18px">${foilSVG(false)}</div><div class="note">A see-through grey film with a few coloured patches. It is as wide as one row on the wall.</div>`;
+ if(i==="svitak")body=`<div style="width:120px">${scrollSVG()}</div>`;
+ if(i==="simboli")body=`<div style="background:#fbf7ee;border-radius:3px;padding:14px;display:grid;gap:10px;box-shadow:0 10px 20px #000a">${CLUE_ROWS.map(r=>`<div style="display:flex;gap:8px">${r.map(s=>`<div style="width:48px">${symSVG(s)}</div>`).join("")}</div>`).join("")}</div>`;
+ if(i==="strelice")body=`<div style="width:100%;max-width:260px">${arrowsSVG()}</div>`;
+ if(i==="disk")body=`<div style="width:170px">${it.icon}</div><div class="note">A wooden disc with a hole in the middle and marks around the edge. It belongs somewhere on the wall.</div>`;
+ if(i==="kljuc")body=`<div style="width:170px">${it.icon}</div><div class="note">A small brass key.</div>`;
+ openModal("d",`<h2 class="title">${it.name}</h2><div class="stage">${body}<div class="row">${back?`<button class="btn" id="useHere">Use on this chest</button><button class="btn ghostb" id="backBtn">Back to the chest</button>`:`<span class="note">Drag the item from your bag onto a chest to use it.</span>`}</div></div>`);
+ if(back){$("#backBtn").onclick=()=>openPanel(back);$("#useHere").onclick=()=>{openPanel(back);useItem(i,back)}}
+ if(i==="kalendar")calendar(0)}
+const MONTHS=["January","February","March","April","May","June","July","August","September","October","November","December"],MARKS={0:7,3:4,7:1,10:9};
+function calendar(m){const el=$("#cal");if(!el)return;const y=2026,first=(new Date(y,m,1).getDay()+6)%7,days=new Date(y,m+1,0).getDate();
+ let h=`<div class="hd"><button class="nav" id="pm" aria-label="Previous month">◀</button><span>${MONTHS[m]} ${y}</span><button class="nav" id="nm" aria-label="Next month">▶</button></div><table><tr>${["MON","TUE","WED","THU","FRI","SAT","SUN"].map(d=>`<th>${d}</th>`).join("")}</tr><tr>`;
+ let c=0;for(let i=0;i<first;i++){h+="<td></td>";c++}for(let d=1;d<=days;d++){if(c%7===0&&c)h+="</tr><tr>";h+=`<td class="${MARKS[m]===d?"x":""}">${d}</td>`;c++}while(c%7){h+="<td></td>";c++}
+ el.innerHTML=h+"</tr></table>";$("#pm").onclick=()=>{sfx.paper();calendar((m+11)%12)};$("#nm").onclick=()=>{sfx.paper();calendar((m+1)%12)}}
+
+/* ---- kraj ---- */
+function checkWin(){if(S.gems.length>=9&&!S.won){S.won=true;save();setTimeout(showWin,500)}}
+function showWin(){const h=Object.values(S.hints).reduce((a,b)=>a+b,0);Music.stop();sfx.win();
+ $("#winText").textContent=`Time: ${fmt(S.elapsed)}. Hints used: ${h}. ${h===0?"Not a single hint, well done!":S.elapsed<1200?"That was fast, a great result.":"You solved the whole wall, bravo!"}`;$("#win").classList.add("open");
+ try{if(window.parent!==window)window.parent.postMessage({type:"door404-zid-win",time:S.elapsed,hints:h},"*")}catch(e){}}
+
+/* ---- ceo ekran ---- */
+const docEl=document.documentElement,fsOn=()=>!!(document.fullscreenElement||document.webkitFullscreenElement),fsApi=()=>!!(document.fullscreenEnabled||document.webkitFullscreenEnabled);
+const inFrame=(()=>{try{return window.self!==window.top}catch(e){return true}})();
+function fallbackFs(){if(inFrame){try{window.top.location.href=location.href;return}catch(e){window.open(location.href,"_blank");return}}toast("On iPhone: tap Share, then Add to Home Screen, and the game opens full screen.")}
+function enterFs(){if(fsOn())return;if(fsApi()){try{const r=docEl.requestFullscreen?docEl.requestFullscreen({navigationUI:"hide"}):docEl.webkitRequestFullscreen();if(r&&r.catch)r.catch(fallbackFs)}catch(e){fallbackFs()}}else fallbackFs()}
+function toggleFs(){if(fsOn())(document.exitFullscreen||document.webkitExitFullscreen).call(document);else enterFs()}
+function fsIcon(){$("#fsPath").setAttribute("d",fsOn()?"M9 4v5H4M15 4v5h5M9 20v-5H4M15 20v-5h5":"M4 9V4h5M20 9V4h-5M4 15v5h5M20 15v5h-5")}
+document.addEventListener("fullscreenchange",fsIcon);document.addEventListener("webkitfullscreenchange",fsIcon);
+
+/* ---- prašina u svetlu ---- */
+(function dust(){const cv=$("#dust"),cx=cv.getContext("2d");if(matchMedia("(prefers-reduced-motion:reduce)").matches)return;let W,H,ps=[];
+ const rs=()=>{W=cv.width=innerWidth;H=cv.height=innerHeight;ps=[...Array(Math.round(W/40))].map(()=>({x:Math.random()*W,y:Math.random()*H,r:Math.random()*5+1.5,vx:(Math.random()-.5)*.15,vy:-Math.random()*.15-.03,a:Math.random()}))};rs();addEventListener("resize",rs);
+ (function f(){cx.clearRect(0,0,W,H);ps.forEach(p=>{p.x+=p.vx;p.y+=p.vy;p.a+=.01;if(p.y<-5){p.y=H+5;p.x=Math.random()*W}const lit=Math.max(0,1-Math.hypot((p.x-W/2)/(W*.5),p.y/(H*.75)));cx.fillStyle=`rgba(255,255,255,${(.25+.35*lit)*(.6+.4*Math.sin(p.a))})`;cx.beginPath();cx.arc(p.x,p.y,p.r,0,7);cx.fill()});requestAnimationFrame(f)})()})();
+
+/* ---- start ---- */
+function start(){S.started=true;save();$("#intro").classList.remove("open");ac();sfx.unlock();syncAudio()}
+$("#startBtn").onclick=start;
+$("#startFsBtn").onclick=()=>{enterFs();start()};
+$("#resetBtn").onclick=()=>{if(S.gems.length&&!S.won&&!$("#resetBtn").dataset.sure){$("#resetBtn").dataset.sure="1";$("#resetBtn").textContent="Sure? Tap once more";return}delete $("#resetBtn").dataset.sure;$("#resetBtn").textContent="New game";const a=S.sound,m=S.music;S=fresh();S.sound=a;S.music=m;start();renderAll()};
+$("#againBtn").onclick=()=>{const a=S.sound,m=S.music;S=fresh();S.sound=a;S.music=m;$("#win").classList.remove("open");start();renderAll()};
+$("#menuBtn").onclick=()=>{$("#startBtn").textContent=S.started?"Continue":"Start game";$("#resetBtn").style.display=S.started?"":"none";$("#intro").classList.add("open")};
+$("#soundBtn").onclick=()=>{S.sound=!S.sound;save();renderTop();sfx.press()};
+$("#musicBtn").onclick=()=>{S.music=!S.music;save();renderTop();ac();syncAudio()};
+$("#fsBtn").onclick=()=>{sfx.press();toggleFs()};
+$("#shareBtn").onclick=async()=>{const url="https://ilovewebgames.com/games/wall-of-riddles/",text=`I solved the Wall of Riddles in ${fmt(S.elapsed)}. Try it, it is free:`;
+ try{if(navigator.share){await navigator.share({title:"Wall of Riddles",text,url});return}}catch(e){}try{await navigator.clipboard.writeText(text+" "+url);toast("Link copied.")}catch(e){toast(url)}};
+document.addEventListener("pointerdown",()=>{if(S.started&&!Music.on&&S.music&&!S.won){ac();syncAudio()}},{once:false,passive:true});
+document.addEventListener("visibilitychange",()=>{if(!AC)return;if(document.hidden)AC.suspend();else AC.resume()});
+setInterval(()=>{if(S.started&&!S.won&&!document.hidden&&!$("#intro").classList.contains("open")){S.elapsed++;$("#time").textContent=fmt(S.elapsed);if(S.elapsed%5===0)save()}},1000);
+if(!S.started)$("#intro").classList.add("open");else if(S.won){$("#intro").classList.add("open");$("#startBtn").textContent="View the wall";$("#resetBtn").style.display=""}else{$("#startBtn").textContent="Continue";$("#resetBtn").style.display="";$("#intro").classList.add("open")}
+renderAll();
+window.__zid={S:()=>S,openPanel,openItem,useItem};
+})();
+</script>
+</body>
+</html>

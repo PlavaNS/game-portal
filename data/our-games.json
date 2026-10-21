@@ -7,13 +7,49 @@
     "description": "Bubble Wrap is the most satisfying idle clicker on the web. Spin a 3D globe covered in hexagonal bubbles and pop them one by one, or let your weapons do the work. Earn coins, unlock 38 weapons from simple pins to absurd planet-wreckers, trigger Rage Mode for a burst of chaos, and break through to the boss core of every world. Progress keeps growing even when you take a break, so every visit pays off.",
     "instructions": "Click or tap bubbles to pop them. Drag to rotate the globe. Buy and upgrade weapons with the coins you earn. Fill the rage bar to unleash Rage Mode, then destroy the core to reach the next world.",
     "category": "clicker-idle",
-    "tags": ["Clicker", "Idle", "3D", "Satisfying", "Casual"],
+    "tags": [
+      "Clicker",
+      "Idle",
+      "3D",
+      "Satisfying",
+      "Casual"
+    ],
     "embed": "/play/bubble-wrap/",
     "gmEmbedUrl": null,
     "thumb": "/assets/our/bubble-wrap-thumb.jpg",
     "cover": "/assets/our/bubble-wrap-cover.jpg",
     "video": "/assets/our/bubble-wrap-trailer.mp4",
-    "screens": ["/assets/our/bubble-wrap-1.jpg", "/assets/our/bubble-wrap-2.jpg", "/assets/our/bubble-wrap-3.jpg"],
+    "screens": [
+      "/assets/our/bubble-wrap-1.jpg",
+      "/assets/our/bubble-wrap-2.jpg",
+      "/assets/our/bubble-wrap-3.jpg"
+    ],
+    "orientation": "landscape"
+  },
+  {
+    "slug": "wall-of-riddles",
+    "title": "Wall of Riddles",
+    "studio": "Door 404",
+    "short": "A free online escape room game: nine locked chests, nine gems and one wall of clever puzzles.",
+    "description": "Wall of Riddles is a free online escape room game made by Door 404, a real escape room studio from Novi Sad. In front of you is a wall with nine locked chests. Each chest hides a gem, and some of them hold items and clues you need to open the others: a desk calendar, a grey film, a scroll of symbols, a wooden disc and a brass key. Crack padlocks, read a stopped clock, line up flags, spin wooden discs and decode a compass. It is a real escape room puzzle chain you can play in your browser, alone or with friends at one screen, with a hint system for every chest when you get stuck.",
+    "instructions": "Tap a chest to open its puzzle. Turn the padlock dials to enter a code. Items you find drop into the bag at the bottom: tap an item to inspect it and drag it onto a chest to use it. Every chest has up to three hints. Collect all nine gems to beat the wall.",
+    "category": "puzzle",
+    "tags": [
+      "Escape Room",
+      "Puzzle",
+      "Logic",
+      "Riddles",
+      "Brain"
+    ],
+    "embed": "/play/wall-of-riddles/",
+    "gmEmbedUrl": null,
+    "thumb": "/assets/our/wall-of-riddles-thumb.jpg",
+    "cover": "/assets/our/wall-of-riddles-cover.jpg",
+    "video": null,
+    "screens": [
+      "/assets/our/wall-of-riddles-1.jpg",
+      "/assets/our/wall-of-riddles-2.jpg"
+    ],
     "orientation": "landscape"
   }
 ]
