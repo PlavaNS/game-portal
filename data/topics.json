@@ -808,5 +808,16 @@
    "Bundle up for free winter and snow games: race down slopes on skis or a snowboard, build a snowman, win snowball fights, slide across frozen lakes with penguins and survive icy adventures.",
    "Whether it is a snow day, winter break or you just want a frosty change of scenery, these games load instantly in your browser on mobile and desktop. No downloads, no sign-up, just cold-weather fun."
   ]
+ },
+ {
+  "slug": "spider-games",
+  "h1": "Spider Games",
+  "kw": "spider games",
+  "match": "spider|spiders|web ?swing|tarantula|arachnid|cobweb",
+  "titleOnly": true,
+  "intro": [
+   "Swing, climb and crawl through free spider games: sling webs across city rooftops, escape creepy spider lairs, solve web puzzles and play classic spider solitaire.",
+   "Perfect for the spooky season and beyond, these games load instantly in your browser on any device. No downloads, no registration, just quick web-slinging and eight-legged fun."
+  ]
  }
 ]
