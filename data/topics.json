@@ -810,14 +810,25 @@
   ]
  },
  {
-  "slug": "spider-games",
-  "h1": "Spider Games",
-  "kw": "spider games",
-  "match": "spider|spiders|web ?swing|tarantula|arachnid|cobweb",
+  "slug": "fruit-games",
+  "h1": "Fruit Games",
+  "kw": "fruit games",
+  "match": "fruit|fruits|fruity|watermelon|banana|apple|apples|orange|cherry|strawberry|mango|pineapple|lemon|grape|grapes",
   "titleOnly": true,
   "intro": [
-   "Swing, climb and crawl through free spider games: sling webs across city rooftops, escape creepy spider lairs, solve web puzzles and play classic spider solitaire.",
-   "Perfect for the spooky season and beyond, these games load instantly in your browser on any device. No downloads, no registration, just quick web-slinging and eight-legged fun."
+   "Juicy, colorful and fun: play free fruit games where you slice flying fruit, merge watermelons, match berries in puzzle boards, blend smoothies and run your own fruit farm or shop.",
+   "These bright, easy-to-learn games are great for quick breaks and for players of all ages. Every one loads instantly in your browser on phone, tablet or PC with no download and no account."
+  ]
+ },
+ {
+  "slug": "boat-and-ship-games",
+  "h1": "Boat & Ship Games",
+  "kw": "boat games",
+  "match": "boat|boats|ship|ships|sailing|sailboat|yacht|jet ?ski|speedboat|submarine|ferry",
+  "titleOnly": true,
+  "intro": [
+   "Set sail with free boat and ship games: race speedboats across the waves, park yachts in tight marinas, command battleships, dive in submarines and steer cargo ships through stormy seas.",
+   "Whether you like fast water racing or calm sailing simulators, these games start right away in your browser on mobile and desktop. No downloads, no registration, just open water and adventure."
   ]
  }
 ]
