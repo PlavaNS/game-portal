@@ -830,5 +830,27 @@
    "Set sail with free boat and ship games: race speedboats across the waves, park yachts in tight marinas, command battleships, dive in submarines and steer cargo ships through stormy seas.",
    "Whether you like fast water racing or calm sailing simulators, these games start right away in your browser on mobile and desktop. No downloads, no registration, just open water and adventure."
   ]
+ },
+ {
+  "slug": "dragon-games",
+  "h1": "Dragon Games",
+  "kw": "dragon games",
+  "match": "dragon|dragons|wyvern",
+  "titleOnly": true,
+  "intro": [
+   "Spread your wings with free dragon games: hatch and raise baby dragons, soar through fiery caves, battle knights and monsters, or team up with a fire-breathing friend in puzzles and platformers full of fantasy action.",
+   "Whether you like fast arcade flying, epic fights or calm collecting and merging, there is a dragon adventure here for every mood. All games play instantly in your browser on phone, tablet or computer, with no download and no sign-up."
+  ]
+ },
+ {
+  "slug": "police-games",
+  "h1": "Police Games",
+  "kw": "police games",
+  "match": "police|cop|cops|sheriff|swat",
+  "titleOnly": true,
+  "intro": [
+   "Hit the sirens in free police games: chase speeding robbers through city streets, park a patrol car with precision, lead a SWAT raid or solve crimes as a detective. Every mission puts you on the side of the law.",
+   "From high-speed pursuits and driving simulators to quick arcade shooters and puzzle cases, these cop games are easy to start and hard to put down. Play right in your browser on any device, completely free and with nothing to install."
+  ]
  }
 ]
