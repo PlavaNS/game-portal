@@ -863,5 +863,27 @@
    "Put on the white coat in free doctor games: treat patients in a busy city hospital, fix teeth as a dentist, perform careful surgery, care for sick pets at the vet clinic or race an ambulance to the next emergency.",
    "These hospital games mix gentle caring and dress-up fun with quick-thinking simulator challenges, so they suit young players and grown-ups alike. Everything runs instantly in your browser on phone, tablet or PC, free and with no download."
   ]
+ },
+ {
+  "slug": "gun-games",
+  "h1": "Gun Games",
+  "kw": "gun games",
+  "match": "guns?|gunner|gunman|gunfight|pistol|rifle|shotgun|revolver|blaster|bullets?",
+  "titleOnly": true,
+  "intro": [
+   "Lock and load with free gun games you can play right in your browser: stickman gunfights, pixel shooters, target practice with pistols and rifles, gun-merge puzzles and fast arcade blasters where every bullet counts.",
+   "Some games are about quick reflexes and aim, others about upgrading your weapons or solving tricky trick-shot levels. All of them run instantly on PC, tablet and phone, with no download and no account needed."
+  ]
+ },
+ {
+  "slug": "fish-games",
+  "h1": "Fish Games",
+  "kw": "fish games",
+  "match": "fish|fishes|shark|sharks|aquarium|goldfish|piranha",
+  "titleOnly": true,
+  "intro": [
+   "Dive under the waves with free fish games: sort colorful fish in clever puzzles, grow a tiny fish into the king of the ocean, run your own aquarium or swim as a hungry shark hunting for its next snack.",
+   "These ocean games range from calm, relaxing sorting puzzles to fast eat-and-grow arcade action, so there is something for kids and adults. Play instantly in your browser on mobile or desktop, free and with no download."
+  ]
  }
 ]
