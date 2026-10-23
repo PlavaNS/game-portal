@@ -39,7 +39,7 @@ jobs:
       - name: Write guides
         run: node scripts/write-guides.mjs "${{ inputs.count }}"
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.ILOVEWEBGAMES }}
       - name: Commit guides
         run: |
           git config user.name "github-actions[bot]"
