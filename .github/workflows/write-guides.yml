@@ -1,0 +1,54 @@
+name: Write game guides (Claude API)
+
+# Manual for now: Actions -> "Write game guides" -> Run workflow.
+on:
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'How many games (most played without a guide)'
+        default: '200'
+        required: true
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: write-guides
+  cancel-in-progress: false
+
+jobs:
+  guides:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Refresh game feeds
+        run: node scripts/fetch-feeds.mjs
+        env:
+          GD_FEED_URL: ${{ secrets.GD_FEED_URL }}
+      - name: Build game index
+        run: node scripts/build.mjs
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          SITE_BASE: ${{ vars.SITE_BASE }}
+          CNAME: ${{ vars.CNAME }}
+      - name: Write guides
+        run: node scripts/write-guides.mjs "${{ inputs.count }}"
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+      - name: Commit guides
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/guides.json
+          git diff --cached --quiet && { echo "no changes"; exit 0; }
+          git commit -m "SEO: Claude-written guides for most played games"
+          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+      - name: Deploy site
+        run: gh workflow run deploy.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}

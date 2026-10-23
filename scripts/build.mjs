@@ -267,6 +267,14 @@ for (const g of games) {
   usedSlugs.add(s); g.slug = s; g.cats = catsFor(g);
 }
 const all = [...ours, ...games];
+// game index for scripts/write-guides.mjs (not deployed; .cache/ is gitignored)
+try {
+  fs.mkdirSync(path.join(ROOT, '.cache'), { recursive: true });
+  fs.writeFileSync(path.join(ROOT, '.cache/games.json'), JSON.stringify(games.map(g => ({
+    slug: g.slug, title: g.title, source: g.source, cat: g.rawCat, tags: g.tags, score: g.score,
+    description: g.description, instructions: g.instructions,
+  }))));
+} catch (e) { console.warn('games index not written: ' + e.message); }
 const byCat = Object.fromEntries(CATS.map(c => [c.slug, []]));
 for (const g of all) for (const c of g.cats.all) byCat[c]?.push(g);
 byCat.mobile = all.filter(g => g.mobile);
