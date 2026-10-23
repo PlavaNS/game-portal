@@ -8,7 +8,16 @@
       "Save boosters for the moment the tray is almost full instead of using them early.",
       "If a level goes wrong, restart quickly: the early moves decide most levels."
     ],
-    "faq": [["Is Fish Sort Puzzle free?", "Yes. You can play Fish Sort Puzzle online for free in your browser, with no download and no sign-up."], ["Does my progress save?", "Progress is saved locally in your browser, so you can come back and continue on the same device."]]
+    "faq": [
+      [
+        "Is Fish Sort Puzzle free?",
+        "Yes. You can play Fish Sort Puzzle online for free in your browser, with no download and no sign-up."
+      ],
+      [
+        "Does my progress save?",
+        "Progress is saved locally in your browser, so you can come back and continue on the same device."
+      ]
+    ]
   },
   "stickman-gun-shooter-3d": {
     "intro": "Stickman Gun Shooter 3D is all about survival: enemy stickmen attack from every side and the goal is to last as long as possible. A few habits make a big difference.",
@@ -19,7 +28,16 @@
       "Reload when the area is clear, not in the middle of a fight.",
       "Use walls and objects as cover and peek out only to shoot."
     ],
-    "faq": [["Is Stickman Gun Shooter 3D free?", "Yes, it is free to play online in your browser with no download."], ["Is it suitable for kids?", "The game contains shooting and blood effects, so it is meant for older players."]]
+    "faq": [
+      [
+        "Is Stickman Gun Shooter 3D free?",
+        "Yes, it is free to play online in your browser with no download."
+      ],
+      [
+        "Is it suitable for kids?",
+        "The game contains shooting and blood effects, so it is meant for older players."
+      ]
+    ]
   },
   "daddy-mouse": {
     "intro": "Daddy Mouse is a colorful platform adventure where a brave mouse collects cheese and heads home to his family through forests, icy mountains, volcanoes, the sea and castles.",
@@ -30,7 +48,12 @@
       "Before a boss fight, take a second to learn its attack pattern, then strike in the gaps.",
       "On mobile, use the on-screen controls with your thumbs resting near the jump button."
     ],
-    "faq": [["Can I play Daddy Mouse on my phone?", "Yes. It works in the browser on desktop with a keyboard and on mobile with touch controls."]]
+    "faq": [
+      [
+        "Can I play Daddy Mouse on my phone?",
+        "Yes. It works in the browser on desktop with a keyboard and on mobile with touch controls."
+      ]
+    ]
   },
   "referee-simulator-3d": {
     "intro": "Referee Simulator 3D puts the whistle in your hands. Instead of scoring goals, you decide fouls, penalties, offsides and cards, and you can check the VAR monitor when you are not sure.",
@@ -41,7 +64,12 @@
       "Remember the second yellow: a player who is already booked gets a red for the next cautionable foul.",
       "Career mode rewards accuracy, so it is better to review than to guess."
     ],
-    "faq": [["What can you do in Referee Simulator 3D?", "You referee football matches: judge fouls, penalties, offsides, handballs and goal-line decisions, show cards and use VAR reviews, and climb from a regional league to international matches in career mode."]]
+    "faq": [
+      [
+        "What can you do in Referee Simulator 3D?",
+        "You referee football matches: judge fouls, penalties, offsides, handballs and goal-line decisions, show cards and use VAR reviews, and climb from a regional league to international matches in career mode."
+      ]
+    ]
   },
   "drifty-road-rush": {
     "intro": "Drifty Road Rush is a fast arcade driving game where every corner needs a clean drift. The longer you survive, the harder the roads get.",
@@ -52,7 +80,12 @@
       "Grab rewards only when it is safe; a crash ends the run and costs more than a coin.",
       "Spend rewards on new vehicles to find one that suits your drifting style."
     ],
-    "faq": [["Is Drifty Road Rush free to play?", "Yes, play it free in your browser with no download."]]
+    "faq": [
+      [
+        "Is Drifty Road Rush free to play?",
+        "Yes, play it free in your browser with no download."
+      ]
+    ]
   },
   "fire-truck-driving-simulator": {
     "intro": "Fire Truck Driving Simulator lets you drive a fire truck through four modes: Level Mode, City Mode, Free Mode and Parking Mode.",
@@ -63,7 +96,12 @@
       "Use Parking Mode to practice tight turns, it helps in every other mode.",
       "Brake early before corners, a fire truck needs much more room to stop than a car."
     ],
-    "faq": [["How many modes does Fire Truck Driving Simulator have?", "Four: Level Mode with 10 levels, City Mode with free emergency missions, Free Mode and Parking Mode."]]
+    "faq": [
+      [
+        "How many modes does Fire Truck Driving Simulator have?",
+        "Four: Level Mode with 10 levels, City Mode with free emergency missions, Free Mode and Parking Mode."
+      ]
+    ]
   },
   "my-town-home-family-playhouse": {
     "intro": "My Town Home: Family Playhouse is an online dollhouse with six rooms to explore. There is no score and no time limit, you create your own family stories.",
@@ -74,6 +112,111 @@
       "On mobile, drag items and characters with your finger; on desktop use the mouse.",
       "Play together with a younger sibling or child and take turns telling the story."
     ],
-    "faq": [["Is My Town Home: Family Playhouse free?", "Yes, it is free to play in your browser on phone or computer."]]
+    "faq": [
+      [
+        "Is My Town Home: Family Playhouse free?",
+        "Yes, it is free to play in your browser on phone or computer."
+      ]
+    ]
+  },
+  "black-hole-swallow-master": {
+    "intro": "In Black Hole Swallow Master you start as a tiny black hole and have to grow as big as possible before the timer runs out. A little planning goes a long way.",
+    "tips": [
+      "At the start, only chase small objects. Trying to swallow something too big just wastes precious seconds.",
+      "Sweep across areas packed with small items instead of hunting single objects: dense clusters make you grow fastest.",
+      "Keep an eye on the timer and save the largest objects for later in the round, once your black hole is big enough to eat them.",
+      "Move in smooth paths around the level rather than zig-zagging, so you don't pass the same empty spots twice.",
+      "If a level ends early, replay it and plan a route: you will already know where the best targets are."
+    ],
+    "faq": [
+      [
+        "How do you get bigger in Black Hole Swallow Master?",
+        "Swallow objects that fit inside your black hole. Every object you collect makes it grow, so you can eat larger things as the round goes on."
+      ],
+      [
+        "Is there a time limit?",
+        "Yes. Each round is timed, so the goal is to swallow as much as possible before time runs out."
+      ]
+    ]
+  },
+  "get-10-ultimate": {
+    "intro": "Get 10 Ultimate looks like a simple counting game, but merging your way to 10 and beyond takes real planning. These tips help you build higher numbers.",
+    "tips": [
+      "Only adjacent numbers of the same colour can be matched, so look for groups before you tap the first one you see.",
+      "Bigger groups are worth waiting for: let small numbers collect next to each other instead of merging every pair right away.",
+      "Try to build your highest number near one side of the board, so new tiles have space to fall in around it.",
+      "Think one move ahead: check which tiles will end up touching after a merge before you make it.",
+      "The difficulty rises with every new number you create, so play more carefully once you pass 7 or 8."
+    ],
+    "faq": [
+      [
+        "How do you play Get 10 Ultimate?",
+        "Match adjacent numbers of the same colour to combine them into a higher number. The goal is to create the highest number you can, starting with 10."
+      ],
+      [
+        "Can you go higher than 10?",
+        "Yes. Reaching 10 is the first big goal, but you can keep merging to create even higher numbers as the game gets harder."
+      ]
+    ]
+  },
+  "stickman-kombat-2d": {
+    "intro": "Stickman Kombat 2D is a quick 1v1 arena fighter where timing matters more than mashing buttons. Here is how to win more matches.",
+    "tips": [
+      "Learn the punch, kick and special attack combos on the first easy opponents before the tougher fighters show up.",
+      "Dodge first, then hit back: attacking right after an enemy swing is the safest moment to land a combo.",
+      "Chain attacks together instead of single hits. Combos do far more damage than random clicks.",
+      "Try different stickman fighters. Each one feels a bit different, so pick the one whose timing suits you.",
+      "If an enemy keeps beating you, slow down and watch its attack pattern for a round before going aggressive."
+    ],
+    "faq": [
+      [
+        "How do the controls work in Stickman Kombat 2D?",
+        "The game uses simple mouse click or tap controls to punch, kick and use special attacks, so you can start fighting right away."
+      ],
+      [
+        "Does Stickman Kombat 2D have different modes?",
+        "Yes. You fight through multiple levels and game modes against increasingly tough stickman opponents."
+      ]
+    ]
+  },
+  "fire-truck-driving-simulator-2024": {
+    "intro": "Fire Truck Driving Simulator 2024 puts you behind the wheel of a fire engine racing to emergencies through city streets, country roads and mountain paths.",
+    "tips": [
+      "Drive with WASD and take corners slowly: a heavy fire truck needs more room to turn than a car.",
+      "Use the siren to clear a path through traffic, especially in busy city streets.",
+      "Speed matters, but crashing costs more time than braking early. Slow down before tight turns and obstacles.",
+      "Mountain paths are the trickiest routes, so keep a steady speed there instead of flooring it.",
+      "Stay calm when the timer is tight: a clean, steady route usually beats a risky shortcut."
+    ],
+    "faq": [
+      [
+        "What are the controls in Fire Truck Driving Simulator 2024?",
+        "Use the WASD keys to drive the fire truck. The game plays best on a computer with a keyboard."
+      ],
+      [
+        "What is the goal of the game?",
+        "Reach emergency scenes quickly and safely, navigating traffic and obstacles on city, rural and mountain roads."
+      ]
+    ]
+  },
+  "biryani-cooking-indian-super-chef-food-game": {
+    "intro": "Biryani Cooking Indian Super Chef Food Game lets you cook a classic chicken biryani step by step, from chopping onions to layering basmati rice.",
+    "tips": [
+      "Follow the recipe steps in order: preparing the ingredients first makes the cooking steps go smoothly.",
+      "Get the onions, peppers and spices ready before you start cooking so nothing is missing later.",
+      "Pay attention to the spices (cumin, curry, chilli and pepper): they are what gives the biryani its flavour.",
+      "Take your time with the basmati rice step, it is the heart of the dish.",
+      "Finish by serving the dish nicely: presentation is part of being a super chef."
+    ],
+    "faq": [
+      [
+        "What do you cook in this game?",
+        "You prepare a chicken biryani, a rice dish popular across India and Pakistan, using ingredients like basmati rice, onions, ghee and spices."
+      ],
+      [
+        "Can I play it on my phone?",
+        "Yes. It runs in the browser on phones, tablets and computers with no download."
+      ]
+    ]
   }
 }

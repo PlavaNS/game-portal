@@ -885,5 +885,27 @@
    "Dive under the waves with free fish games: sort colorful fish in clever puzzles, grow a tiny fish into the king of the ocean, run your own aquarium or swim as a hungry shark hunting for its next snack.",
    "These ocean games range from calm, relaxing sorting puzzles to fast eat-and-grow arcade action, so there is something for kids and adults. Play instantly in your browser on mobile or desktop, free and with no download."
   ]
+ },
+ {
+  "slug": "black-hole-games",
+  "h1": "Black Hole Games",
+  "kw": "black hole games",
+  "match": "black hole|hole\\.?io|holecraft\\.?io|holemart|holey|attack (super )?hole|color hole|sink hole|loot hole|hole (eats|feast|3d|and)",
+  "titleOnly": true,
+  "intro": [
+   "Start as a tiny hole in the ground and swallow everything in sight: cars, trees, buildings and, eventually, whole cities. Black hole games are simple to pick up and very hard to put down, because every object you eat makes you a little bigger.",
+   "Some are calm puzzles where you clear a level piece by piece, others are timed arcade challenges or io-style battles where you race other holes to become the biggest. Play them free in your browser on mobile or desktop, with no download."
+  ]
+ },
+ {
+  "slug": "brainrot-games",
+  "h1": "Brainrot Games",
+  "kw": "brainrot games",
+  "match": "brainrots?",
+  "titleOnly": true,
+  "intro": [
+   "The weird and wonderful brainrot characters have jumped from memes into games. Save them from tsunamis and lava, run obby parkour courses with them, merge them, dress them up or take them for a ride on a bike or a skateboard.",
+   "These brainrot games are quick, silly and made for short sessions, from easy obby jumps to chaotic escape challenges. Play them free in your browser on phone, tablet or PC, with no download and no sign-up."
+  ]
  }
 ]
