@@ -3918,5 +3918,105 @@
         "Press X or Space, or use the left mouse button, to switch gravity. On touch devices, tap the screen to switch gravity."
       ]
     ]
+  },
+  "soccerlat-3d-football-online": {
+    "intro": "SoccerLat is a real-time 3D football match against other players, with fouls, set pieces and a referee who notices late tackles. These tips help you play cleaner and score more.",
+    "tips": [
+      "Shooting and passing share one button: hold right click to charge and release to strike, so practise how long to charge for each distance.",
+      "To bend the ball, move sideways as you strike, and aim the camera higher when you want to loft a cross or chip the keeper.",
+      "Time your slide tackle (C) carefully: a late slide is a foul, and the referee will give it.",
+      "Press E to raise your hand and ask for the ball instead of chasing it, so teammates can find you in space.",
+      "If your lobby is short of players, turn on the bot goalkeepers so both goals are covered."
+    ],
+    "faq": [
+      [
+        "Can I play SoccerLat with a gamepad or on my phone?",
+        "Yes. It supports mouse and keyboard, a gamepad, and touch controls with an on-screen joystick on mobile."
+      ],
+      [
+        "What happens if the match is a draw?",
+        "If the score is level at full time, the match goes to a penalty shootout."
+      ]
+    ]
+  },
+  "jigmerge-puzzles": {
+    "intro": "Jigmerge Puzzles splits a photo into shuffled tiles and lets you rebuild it piece by piece. It is calm and satisfying, and a little method makes every level faster.",
+    "tips": [
+      "Start with the tiles that have strong details, like edges of an animal, a car or a horizon line, and connect those first.",
+      "Once two fragments merge, move the whole group together instead of placing single tiles around it.",
+      "Look at colors and shapes across tile borders: a matching color line is usually the fastest clue.",
+      "Build one corner or one area at a time rather than scattering small groups across the board.",
+      "If you are stuck, swap two tiles that look out of place; correct pieces snap together on their own."
+    ],
+    "faq": [
+      [
+        "Is Jigmerge Puzzles free to play?",
+        "Yes, you can play it free in your browser on desktop or mobile, with no download."
+      ],
+      [
+        "Does the game run out of pictures?",
+        "No. Levels cycle through themes like animals, nature, food, winter and cars, and new images are added over time."
+      ]
+    ]
+  },
+  "5-nights-at-tung-tung-hotel-horror-3d": {
+    "intro": "In 5 Nights at Tung Tung Hotel you work the night shift in a creepy hotel and have to make it to morning five times. Careful resource use matters as much as quick reactions.",
+    "tips": [
+      "Check the cameras regularly so you know where the threats are before they reach you.",
+      "Close doors only when you need to and watch your power: running out before morning is the fastest way to lose a night.",
+      "Pick up notes and items whenever you can; they explain the hotel's secrets and help you reach the endings.",
+      "Use the items you find instead of saving them forever, especially on the harder later nights.",
+      "Play with sound on, since noises are often your first warning that something is close."
+    ],
+    "faq": [
+      [
+        "How many nights do I need to survive?",
+        "Five. Survive each night until morning to move on, and keep finding notes to unlock one of the endings."
+      ],
+      [
+        "Can I play on mobile?",
+        "Yes. On mobile you move with a joystick and look around by swiping; on desktop you use WASD and the mouse."
+      ]
+    ]
+  },
+  "sunny-farm-match-3": {
+    "intro": "Sunny Farm is a cozy match-3 with 400 levels, from your home farm to the Sky Islands. Every level has its own goal, so reading it first is the key to three stars.",
+    "tips": [
+      "Check the level goal at the top before your first swap: crops, hay, turf, baskets and fireflies all need different moves.",
+      "Make four in a row for a rake, a 2x2 square for a beehive and an L or T shape for a barrel; five in a row gives the magic watering can.",
+      "Swap two special pieces into each other to set both off at once for a much bigger clear.",
+      "To bring baskets down, match below them; to dig up turf, match right on top of it.",
+      "Finish with moves to spare: leftover moves turn into points and help you earn three stars."
+    ],
+    "faq": [
+      [
+        "Is Sunny Farm free?",
+        "Yes. It is free to play with no sign-up, on phone, tablet and computer."
+      ],
+      [
+        "Is there a Halloween event?",
+        "Yes, the Pumpkin Festival lets you catch jack-o'-lanterns on the board and open festive chests."
+      ]
+    ]
+  },
+  "drive-quest": {
+    "intro": "Drive Quest is an open-world driving adventure with cities, ports, highways and secret zones to explore. These tips help you get more out of the map and the challenges.",
+    "tips": [
+      "Steer with WASD or the arrow keys and use Space as the handbrake to swing the car into tight drifts.",
+      "Press C to switch the camera when you need a better view for stunts or narrow roads.",
+      "Explore away from the main highways: the map hides secret areas worth finding.",
+      "Try the drifting, stunt and speed challenges to put each of the 35 cars to the test.",
+      "Customize your favourite vehicles so you can tell your cars apart and drive in your own style."
+    ],
+    "faq": [
+      [
+        "How many cars are in Drive Quest?",
+        "There are 35 customizable vehicles."
+      ],
+      [
+        "Do I need to download Drive Quest?",
+        "No, it runs in your browser for free."
+      ]
+    ]
   }
 }

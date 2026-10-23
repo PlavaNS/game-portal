@@ -676,8 +676,8 @@
   "kw": "halloween games",
   "match": "halloween|pumpkin|witch|ghost|spooky|vampire|skeleton|haunted",
   "intro": [
-   "Get into the spooky spirit with free Halloween games: carve pumpkins, escape haunted houses, match witchy tiles and dress up for the night.",
-   "All Halloween games run in your browser with no download. Trick or treat!"
+   "Halloween is the best excuse to play something a little spooky. This page collects free Halloween games in one place: carve and smash pumpkins, sneak through haunted houses, match witchy tiles, sort potions and dress up for the big night. There is something for every mood, from cozy puzzles to jump-scare escapes.",
+   "New seasonal games appear here as our partners release them in October, and every game runs right in your browser on phone, tablet or computer with no download and no sign-up. Pick a game, grab some candy and have fun. Trick or treat!"
   ]
  },
  {
@@ -906,6 +906,16 @@
   "intro": [
    "The weird and wonderful brainrot characters have jumped from memes into games. Save them from tsunamis and lava, run obby parkour courses with them, merge them, dress them up or take them for a ride on a bike or a skateboard.",
    "These brainrot games are quick, silly and made for short sessions, from easy obby jumps to chaotic escape challenges. Play them free in your browser on phone, tablet or PC, with no download and no sign-up."
+  ]
+ },
+ {
+  "slug": "open-world-games",
+  "h1": "Open World Games",
+  "kw": "open world games",
+  "match": "open[- ]world|sandbox|free roam|explore the (city|map|world)",
+  "intro": [
+   "Open world games give you a big map and let you decide what to do next. Drive through cities, wander around sandbox worlds, build, explore and take on missions at your own pace instead of following a fixed path.",
+   "This collection brings together free open world and sandbox games you can play in your browser on desktop or mobile. No download and no installation: pick a world and start exploring."
   ]
  }
 ]
