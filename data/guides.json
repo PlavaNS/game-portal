@@ -1,0 +1,79 @@
+{
+  "fish-sort-puzzle": {
+    "intro": "Fish Sort Puzzle looks relaxing, but the holding tray turns every level into a small planning puzzle. These tips help you clear more tanks without getting stuck.",
+    "tips": [
+      "Before tapping, scan the bubbles for fish that already have an open matching tank and send those first.",
+      "Treat the holding tray as an emergency space, not storage. Every fish parked there makes the next mistake more expensive.",
+      "Try to finish a tank you have already started (two of three fish) before opening a new color.",
+      "Save boosters for the moment the tray is almost full instead of using them early.",
+      "If a level goes wrong, restart quickly: the early moves decide most levels."
+    ],
+    "faq": [["Is Fish Sort Puzzle free?", "Yes. You can play Fish Sort Puzzle online for free in your browser, with no download and no sign-up."], ["Does my progress save?", "Progress is saved locally in your browser, so you can come back and continue on the same device."]]
+  },
+  "stickman-gun-shooter-3d": {
+    "intro": "Stickman Gun Shooter 3D is all about survival: enemy stickmen attack from every side and the goal is to last as long as possible. A few habits make a big difference.",
+    "tips": [
+      "Keep moving. Standing still makes you an easy target for the enemy stickmen.",
+      "Strike first: enemies that see you first usually win the duel, so check corners before you walk into the open.",
+      "Learn each weapon. Shotguns hit hard up close, rifles like the M16 and AK-47 are better at range.",
+      "Reload when the area is clear, not in the middle of a fight.",
+      "Use walls and objects as cover and peek out only to shoot."
+    ],
+    "faq": [["Is Stickman Gun Shooter 3D free?", "Yes, it is free to play online in your browser with no download."], ["Is it suitable for kids?", "The game contains shooting and blood effects, so it is meant for older players."]]
+  },
+  "daddy-mouse": {
+    "intro": "Daddy Mouse is a colorful platform adventure where a brave mouse collects cheese and heads home to his family through forests, icy mountains, volcanoes, the sea and castles.",
+    "tips": [
+      "Explore off the main path: hidden routes often lead to extra golden stars.",
+      "Watch trap patterns for a moment before jumping, most of them move in a fixed rhythm.",
+      "Collect the cheese on the way rather than rushing to the exit.",
+      "Before a boss fight, take a second to learn its attack pattern, then strike in the gaps.",
+      "On mobile, use the on-screen controls with your thumbs resting near the jump button."
+    ],
+    "faq": [["Can I play Daddy Mouse on my phone?", "Yes. It works in the browser on desktop with a keyboard and on mobile with touch controls."]]
+  },
+  "referee-simulator-3d": {
+    "intro": "Referee Simulator 3D puts the whistle in your hands. Instead of scoring goals, you decide fouls, penalties, offsides and cards, and you can check the VAR monitor when you are not sure.",
+    "tips": [
+      "Stay close to the ball. A referee who keeps up with play sees incidents from a better angle.",
+      "When a decision is close, use the VAR monitor and review the slow-motion replays before you blow the whistle.",
+      "For offsides, check the position at the moment the pass is played, not when the ball arrives.",
+      "Remember the second yellow: a player who is already booked gets a red for the next cautionable foul.",
+      "Career mode rewards accuracy, so it is better to review than to guess."
+    ],
+    "faq": [["What can you do in Referee Simulator 3D?", "You referee football matches: judge fouls, penalties, offsides, handballs and goal-line decisions, show cards and use VAR reviews, and climb from a regional league to international matches in career mode."]]
+  },
+  "drifty-road-rush": {
+    "intro": "Drifty Road Rush is a fast arcade driving game where every corner needs a clean drift. The longer you survive, the harder the roads get.",
+    "tips": [
+      "Start the drift slightly before the corner instead of in the middle of it.",
+      "Learn the rhythm of the turns, most runs end on a corner you entered too late.",
+      "Weave through traffic early, before the road starts to bend again.",
+      "Grab rewards only when it is safe; a crash ends the run and costs more than a coin.",
+      "Spend rewards on new vehicles to find one that suits your drifting style."
+    ],
+    "faq": [["Is Drifty Road Rush free to play?", "Yes, play it free in your browser with no download."]]
+  },
+  "fire-truck-driving-simulator": {
+    "intro": "Fire Truck Driving Simulator lets you drive a fire truck through four modes: Level Mode, City Mode, Free Mode and Parking Mode.",
+    "tips": [
+      "Start in Free Mode to learn how the heavy truck brakes and turns before taking on timed missions.",
+      "In Level Mode, take the fastest safe route: crashing costs more time than driving a little slower.",
+      "In City Mode you choose which emergency missions to accept, so start with the closest ones.",
+      "Use Parking Mode to practice tight turns, it helps in every other mode.",
+      "Brake early before corners, a fire truck needs much more room to stop than a car."
+    ],
+    "faq": [["How many modes does Fire Truck Driving Simulator have?", "Four: Level Mode with 10 levels, City Mode with free emergency missions, Free Mode and Parking Mode."]]
+  },
+  "my-town-home-family-playhouse": {
+    "intro": "My Town Home: Family Playhouse is an online dollhouse with six rooms to explore. There is no score and no time limit, you create your own family stories.",
+    "tips": [
+      "Visit every room first to see what you can interact with, there are more objects than you notice at first.",
+      "Move characters between rooms to build a story, for example breakfast in the kitchen and a garden afternoon.",
+      "Try the mini-games, like washing the teddy bear or popping the right balloons.",
+      "On mobile, drag items and characters with your finger; on desktop use the mouse.",
+      "Play together with a younger sibling or child and take turns telling the story."
+    ],
+    "faq": [["Is My Town Home: Family Playhouse free?", "Yes, it is free to play in your browser on phone or computer."]]
+  }
+}

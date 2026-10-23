@@ -24,6 +24,7 @@ const decode = s => String(s ?? '')
 const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const clean = s => decode(decode(s))
   .replace(/<[^>]*>/g, ' ')
+  .replace(/\*\*|__/g, '')
   .replace(/\b(web\s*dev|website|visit|play more( games)? (at|on))\s*:?\s*https?:\/\/\S+/gi, ' ')
   .replace(/https?:\/\/\S+|www\.\S+/gi, ' ')
   .replace(/\s+/g, ' ').trim();
@@ -246,6 +247,9 @@ games.sort((a, b) => a.score - b.score);
   let room = Math.max(0, cfg.maxGames - pgCount);
   games = games.filter(g => g.source === 'pg' || g.source === 'gpx' || room-- > 0);
 }
+
+// hand-written tips/FAQ for selected games (data/guides.json, keyed by slug)
+const GUIDES = readJSON(path.join(ROOT, 'data/guides.json'), {});
 
 // our own games always first
 const ours = readJSON(path.join(ROOT, 'data/our-games.json'), []).map(o => ({
@@ -514,6 +518,7 @@ for (const g of all) {
     <h2>About ${esc(g.title)}</h2>
     ${(g.paras && g.paras.length > 1 ? g.paras : [g.description]).map(p => `<p>${esc(p)}</p>`).join('\n    ')}
     ${g.instructions ? `<h2>How to play</h2><p>${esc(g.instructions)}</p>` : ''}
+    ${GUIDES[g.slug] ? `<h2>Tips and tricks for ${esc(g.title)}</h2>${GUIDES[g.slug].intro ? `<p>${esc(GUIDES[g.slug].intro)}</p>` : ''}<ul class="tips">${(GUIDES[g.slug].tips || []).map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}
     <p class="chips">${catLinks}${tagText}</p>
     <h2>Game info</h2>
     <dl class="info">
@@ -524,7 +529,7 @@ for (const g of all) {
       ${g.own ? `<dt>Developer</dt><dd>${esc(g.studio)}</dd>` : ''}
       ${g.pgSlug ? `<dt>Also on</dt><dd><a href="https://playgama.com/game/${encodeURIComponent(g.pgSlug)}?clid=${encodeURIComponent(cfg.playgamaClid)}" rel="sponsored noopener" target="_blank">Playgama ↗</a></dd>` : ''}
     </dl>
-    <h2>FAQ</h2>
+    <h2>FAQ</h2>${GUIDES[g.slug] ? (GUIDES[g.slug].faq || []).map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('') : ''}
     <h3>Is ${esc(g.title)} free to play?</h3><p>Yes. ${esc(g.title)} is completely free on ${esc(cfg.name)}. The game is supported by short ads.</p>
     <h3>Can I play ${esc(g.title)} on my phone?</h3><p>${g.mobile ? 'Yes. It runs in the browser on Android phones, iPhones and tablets as well as on PC and Mac — tap “Play now” and the game opens full screen.' : `${esc(g.title)} is made for computers and plays best with a keyboard and mouse. For phones, check out our <a href="${u('/c/mobile/')}">mobile games</a>.`}</p>
     <h3>Do I need to download or sign up?</h3><p>No. There is nothing to install and no account needed. The game loads instantly in your browser.</p>
