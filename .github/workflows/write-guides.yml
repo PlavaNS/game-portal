@@ -47,7 +47,16 @@ jobs:
           git add data/guides.json
           git diff --cached --quiet && { echo "no changes"; exit 0; }
           git commit -m "SEO: Claude-written guides for most played games"
-          for i in 1 2 3; do git pull --rebase && git push && break; sleep 5; done
+          git stash --include-untracked || true
+          ok=0; for i in 1 2 3; do git pull --rebase && git push && { ok=1; break; }; sleep 5; done
+          [ "$ok" = 1 ] || { echo "push failed"; exit 1; }
+      - name: Keep a copy of the guides
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: guides
+          path: data/guides.json
+          if-no-files-found: ignore
       - name: Deploy site
         run: gh workflow run deploy.yml --ref main
         env:
