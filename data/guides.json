@@ -4018,5 +4018,105 @@
         "No, it runs in your browser for free."
       ]
     ]
+  },
+  "noob-in-mine-sandbox-and-craft": {
+    "intro": "Noob in Mine - Sandbox & Craft gives you a blocky 3D world with two very different ways to play: relaxed building in Creative mode or a fight to stay alive in Survival mode. These tips help you get more out of both.",
+    "tips": [
+      "Start in Creative mode to learn the controls and block types with unlimited materials before taking on Survival.",
+      "In Survival, gather resources and craft your first tools during the day, because zombies and monsters come out at night.",
+      "Build a simple shelter early so you have a safe place to retreat to when darkness falls.",
+      "Explore caves, forests and villages to find new resources, but keep track of the way back to your base.",
+      "Use dynamite carefully: it clears space fast, but it can also destroy the structures you spent time building."
+    ],
+    "faq": [
+      [
+        "What is the difference between Creative and Survival mode?",
+        "Creative mode gives you unlimited blocks to build anything you like. In Survival mode you gather resources, craft tools and defend yourself against zombies and monsters at night."
+      ],
+      [
+        "Is Noob in Mine suitable for kids?",
+        "Yes. The game uses friendly graphics and easy controls designed so younger players can build and explore."
+      ]
+    ]
+  },
+  "mahjong-connect-classic": {
+    "intro": "Mahjong Connect Classic is a calm tile-matching puzzle with one key rule: two identical tiles can only be removed if a line with at most two 90-degree turns can join them. These tips help you clear the layouts as the difficulty climbs.",
+    "tips": [
+      "Look at the outer edges first: tiles on the border are the easiest to connect because the line can run around the outside.",
+      "Before clicking, trace the path in your head and count the turns; more than two turns means the pair cannot be removed yet.",
+      "Remove pairs that open up blocked rows and columns, not just the first match you spot.",
+      "When three or four copies of the same tile are visible, think about which pairing frees up the most space.",
+      "Clear tiles from the crowded middle of the board gradually so you do not leave isolated pairs that can no longer connect."
+    ],
+    "faq": [
+      [
+        "How do you connect tiles in Mahjong Connect Classic?",
+        "Click two identical tiles. They are removed if they can be joined by a line with up to two 90-degree turns that does not pass through other tiles."
+      ],
+      [
+        "Does the game get harder?",
+        "Yes. You solve several layouts, and the difficulty increases as you progress."
+      ]
+    ]
+  },
+  "mask-of-six-moons": {
+    "intro": "Mask of Six Moons is a pixel-art action platformer where you dive through moon gates, fight monsters and hunt for better weapons. With 12 weapon types and random bonuses, a little planning goes a long way.",
+    "tips": [
+      "Try several of the 12 weapon types, from greatswords and scythes to bows and chain whips, and keep the one whose moves suit your style.",
+      "Equip a second weapon (K or right click) so you can switch between close-range and ranged attacks during a fight.",
+      "Check weapon bonuses in the status screen (I): rare weapons can carry unique effects worth more than raw damage.",
+      "Spend level-up points on the five stats with your main weapon in mind, and unlock dash, double jump and wall jump to move more safely.",
+      "Save healing (Q) for boss fights like the Drowned Carillon in the Sunken Crypt or the Mother Bloom in the Fungal Caverns."
+    ],
+    "faq": [
+      [
+        "What are the controls in Mask of Six Moons?",
+        "Move with A/D or the arrow keys, jump with Space or W, attack with J or left click, use the second weapon with K or right click, dash with L or Shift and heal with Q. A gamepad is also supported."
+      ],
+      [
+        "How many areas are there?",
+        "Two gates are open now: the Sunken Crypt and the Fungal Caverns. More gates are planned in future updates."
+      ]
+    ]
+  },
+  "momo-horror-story": {
+    "intro": "Momo Horror Story is a 3D horror survival game: after contacting Momo by message, you are hunted by the monster and must hold out until the timer hits 00:00 and the police arrive. These tips help you survive the night.",
+    "tips": [
+      "Turn on the generator early, since many other tasks are easier once you have power.",
+      "Use the flashlight (right mouse button) to search dark rooms for keys, but keep moving while you look.",
+      "Close the windows as soon as you can; finishing tasks quickly leaves you more time to avoid the monster.",
+      "Save running (Left Shift) for escapes instead of using it all the time.",
+      "In Gun mode, reload (R) when you are safe rather than in the middle of a chase, and keep grenades (G) for emergencies."
+    ],
+    "faq": [
+      [
+        "How do you win Momo Horror Story?",
+        "Complete the tasks, such as turning on the generator, finding keys and closing windows, and survive until the timer reaches 00:00, when the police arrive and you can escape."
+      ],
+      [
+        "What game modes are there?",
+        "There are two modes: Classic and Gun mode."
+      ]
+    ]
+  },
+  "pool-blast-merge-balls": {
+    "intro": "Pool Blast: Merge Balls mixes billiards with a merge puzzle: shoot the cue ball so that balls with the same number collide and combine into bigger ones. These tips help you set up chain reactions and keep your score climbing.",
+    "tips": [
+      "Drag slowly to line up the aiming line before releasing; a precise shot is worth more than a powerful one.",
+      "Use cushion bounces to reach matching balls that are blocked by others.",
+      "Look for spots where one merge will push the new, bigger ball into another ball of the same tier to start a chain reaction.",
+      "Keep matching numbers close together instead of scattering them around the table.",
+      "Hold the Bomb and Magnet boosters for moments when you are about to run out of moves."
+    ],
+    "faq": [
+      [
+        "How does merging work in Pool Blast?",
+        "When two balls with the same number or tier collide, they merge into the next bigger ball."
+      ],
+      [
+        "When does the game end?",
+        "You need to keep making successful merges; the game ends when you run out of moves."
+      ]
+    ]
   }
 }

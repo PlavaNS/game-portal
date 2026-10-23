@@ -917,5 +917,27 @@
    "Open world games give you a big map and let you decide what to do next. Drive through cities, wander around sandbox worlds, build, explore and take on missions at your own pace instead of following a fixed path.",
    "This collection brings together free open world and sandbox games you can play in your browser on desktop or mobile. No download and no installation: pick a world and start exploring."
   ]
+ },
+ {
+  "slug": "cleaning-games",
+  "h1": "Cleaning Games",
+  "kw": "cleaning games",
+  "match": "\\bclean(ing|er|up)?\\b|car wash|washing|\\bwash\\b|tidy|organi[sz]|leaf blower|sponge|vacuum|laundry",
+  "titleOnly": true,
+  "intro": [
+   "Cleaning games turn messy jobs into something oddly satisfying. Wash dirty cars until they shine, blow piles of leaves off the lawn, scrub, sort and tidy cluttered rooms, or organize shelves until everything clicks into place.",
+   "This collection gathers free cleaning, washing and tidying games you can play right in your browser on PC, tablet or phone. There is nothing to download and no sign-up, so pick a mess and start cleaning."
+  ]
+ },
+ {
+  "slug": "autumn-games",
+  "h1": "Autumn Games",
+  "kw": "autumn games",
+  "match": "autumn|\\bfall leaves\\b|leaf blower|leaf clean|harvest|mushroom|squirrel|hedgehog|pumpkin|acorn",
+  "titleOnly": true,
+  "intro": [
+   "Autumn games bring the colors and feel of fall to your screen: blow away piles of orange leaves, bring in the harvest, go mushroom hunting in the forest or help a hungry squirrel get ready for winter.",
+   "Here you will find free autumn-themed games for all ages that run in your browser on desktop and mobile. No downloads and no account needed, so grab a cozy seat and play."
+  ]
  }
 ]
