@@ -961,5 +961,27 @@
    "Home design games let you play interior designer: renovate old rooms, pick furniture and colors, decorate gardens and pools, or solve match 3 puzzles to unlock the next part of a dream mansion.",
    "All of these decorating games are free to play in your browser on PC, tablet and phone. Choose a house, get creative and make every room your own, no download required."
   ]
+ },
+ {
+  "slug": "sandbox-games",
+  "h1": "Sandbox Games",
+  "kw": "sandbox games",
+  "titleOnly": true,
+  "match": "sandbox|ragdoll|playground",
+  "intro": [
+   "Sandbox games give you a world and a set of tools, then let you decide what happens. Build, break, launch ragdolls, crash cars or craft your own little world with no fixed path to follow.",
+   "Every sandbox game here is free to play in your browser on PC, tablet and phone. Pick a playground, experiment with physics and have fun, no download required."
+  ]
+ },
+ {
+  "slug": "flag-and-geography-games",
+  "h1": "Flag & Geography Games",
+  "kw": "flag games",
+  "titleOnly": true,
+  "match": "flags\\b|flag (learn|memory|coloring|painting|merging|puzzle)|draw flag|geograph|geovex|countries|capitals|world map",
+  "intro": [
+   "Flag and geography games turn learning about the world into a game: guess country flags in quizzes, paint and color flags, match them in memory games or test yourself with daily geography challenges.",
+   "They are free to play in your browser on PC, tablet and phone, great for students and anyone who loves maps and trivia. No download or sign-up needed."
+  ]
  }
 ]

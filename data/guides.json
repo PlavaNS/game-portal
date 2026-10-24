@@ -4218,5 +4218,105 @@
         "You cook meals, clean the house, shop for groceries, attend checkups and complete baby care activities."
       ]
     ]
+  },
+  "insect-clicker": {
+    "intro": "Insect Clicker turns every tap into tarantula coins, and the real game is deciding which upgrade to buy next. These tips help your insect grow faster.",
+    "tips": [
+      "Click steadily in the first minutes: early coins come almost only from your own taps.",
+      "Put your first coins into upgrades that raise the insect's output before spending anything on looks.",
+      "Compare upgrade prices with what they add and pick the one that pays itself back fastest.",
+      "Buy new skins once your income is stable, so they never slow down your progress.",
+      "On mobile, tap with two fingers in turn to keep a steady rhythm without tiring your hand."
+    ],
+    "faq": [
+      [
+        "What are tarantula coins used for in Insect Clicker?",
+        "They are the game's currency. You spend them on upgrades that increase your insect's output and on new skins."
+      ],
+      [
+        "How do I earn coins faster?",
+        "Keep clicking and reinvest coins into output upgrades early; every upgrade makes each later click worth more."
+      ]
+    ]
+  },
+  "find-out-hidden-object": {
+    "intro": "Find Out Hidden Object is a scavenger hunt across lively scenes where you tap items from a list. A calm, systematic search finishes scenes much faster than random tapping.",
+    "tips": [
+      "Read the whole item list first so your eyes know what shapes and colors to look for.",
+      "Zoom in and swipe through the map one section at a time instead of jumping around.",
+      "Look for objects hidden by matching colors or tucked behind furniture, plants and edges of the scene.",
+      "Keep hints for the last one or two items that you really cannot spot.",
+      "Finish scenes to unlock new maps; replaying a scene you know is a quick way to warm up."
+    ],
+    "faq": [
+      [
+        "How do I unlock new maps in Find Out Hidden Object?",
+        "Collect all hidden objects in a scene to complete it, which unlocks new maps and mystery locations for free."
+      ],
+      [
+        "What do hints do?",
+        "A hint helps you locate one of the target objects when you are stuck on a scene."
+      ]
+    ]
+  },
+  "animal-hospital": {
+    "intro": "Animal Hospital is a night-shift horror game where some patients are only pretending to be animals. Careful checks keep anomalies out while you treat the real cats, dogs and rabbits.",
+    "tips": [
+      "Compare every photo with the paperwork: an extra eye, the wrong coat color or an odd shadow are warning signs.",
+      "Listen as well as look, because some anomalies give themselves away with a voice that is subtly wrong.",
+      "Press F to open the patient chart and G for the records log before you admit (E) or refuse (R) anyone.",
+      "Between patients, run the generator, check the cages and glance at the security cameras so nothing builds up.",
+      "In co-op (up to 4 players), split jobs: one player handles reception while others treat patients and watch cameras."
+    ],
+    "faq": [
+      [
+        "Can I play Animal Hospital with friends?",
+        "Yes. You can play solo or in co-op with up to 4 players."
+      ],
+      [
+        "What are the PC controls?",
+        "WASD to move, mouse to look, E to interact or admit, R to refuse, F for the patient chart, G for the records log and Q for the flashlight."
+      ]
+    ]
+  },
+  "the-specimen-zero": {
+    "intro": "The Specimen Zero drops you into a hostile facility full of creatures, with only your wits and whatever ammo you find. Moving smart matters more than shooting fast.",
+    "tips": [
+      "Make finding door keys your main goal; every key opens the route to the next room.",
+      "Pick up every weapon and ammo you see, and reload with R when things are quiet, not mid-fight.",
+      "Avoid monsters when you can instead of fighting every one, especially when ammo is low.",
+      "Use F to interact with doors and items and Space to jump over obstacles while escaping.",
+      "Before running into a new room, look around from the doorway so creatures do not catch you by surprise."
+    ],
+    "faq": [
+      [
+        "What is the goal in The Specimen Zero?",
+        "Escape the facility by finding the door keys and moving from room to room while avoiding or fighting the monsters."
+      ],
+      [
+        "What are the controls?",
+        "WASD to move, Space to jump, F to interact, R to reload and Esc for the menu."
+      ]
+    ]
+  },
+  "cake-sort": {
+    "intro": "Cake Sort asks you to combine colorful slices into whole cakes on a 4x4 grid. A little planning keeps the board open and the desserts coming.",
+    "tips": [
+      "Place a new plate next to plates that already share a flavor so slices can merge into a whole cake.",
+      "Keep at least a few empty cells free; a full 4x4 grid ends the run quickly.",
+      "Avoid scattering many flavors around the board, especially as more flavors are added.",
+      "Finish nearly complete cakes first to clear plates and make room.",
+      "Come back daily to collect the daily rewards."
+    ],
+    "faq": [
+      [
+        "How big is the board in Cake Sort?",
+        "You build cakes on a 4x4 grid, so space management is a big part of the puzzle."
+      ],
+      [
+        "Can I play Cake Sort on my phone?",
+        "It is designed for PC and Mac and plays best with a mouse, but you can drag trays with touch as well."
+      ]
+    ]
   }
 }
