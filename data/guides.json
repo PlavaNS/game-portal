@@ -4318,5 +4318,105 @@
         "It is designed for PC and Mac and plays best with a mouse, but you can drag trays with touch as well."
       ]
     ]
+  },
+  "jelly-sandbox-playground": {
+    "intro": "Jelly Sandbox Playground is an open 2D ragdoll sandbox with no missions: you place characters, weapons, objects and vehicles and watch the physics decide what happens.",
+    "tips": [
+      "Start with one character and a single object to get a feel for how impacts and falls behave before building bigger scenes.",
+      "Launch items across the map from different heights to see how speed changes the collision.",
+      "Combine vehicles with ragdoll characters for the most dramatic physics reactions.",
+      "Switch between calm experiments and full chaotic battles; there is no objective, so try both.",
+      "On desktop use the mouse to drag and place objects; on phones and tablets use touch."
+    ],
+    "faq": [
+      [
+        "Does Jelly Sandbox Playground have levels or missions?",
+        "No. It is a free-form sandbox with no required objective, so you create your own scenes and battles."
+      ],
+      [
+        "What can I place in the sandbox?",
+        "Characters, weapons, objects and vehicles, all with ragdoll physics and destruction."
+      ]
+    ]
+  },
+  "bee-swarm": {
+    "intro": "Bee Swarm puts you in control of a honeybee in a 3D voxel meadow, collecting pollen from flowers and turning it into honey back at the hive.",
+    "tips": [
+      "Fill up on pollen, then fly straight back to the hive so no trip is wasted.",
+      "Upgrade cargo capacity early so each flight brings back more pollen.",
+      "Boost flight speed next to shorten the trips between flowers and the hive.",
+      "Hire helper bees as soon as you can; they automate pollen collection while you explore.",
+      "On desktop fly with WASD or the arrow keys, or hold the left mouse button; on mobile use the virtual joystick."
+    ],
+    "faq": [
+      [
+        "How do I make honey in Bee Swarm?",
+        "Collect pollen from blooming flowers and return it to your hive, where it is turned into honey."
+      ],
+      [
+        "What are helper bees for?",
+        "Helper bees collect pollen for you, so your swarm grows and works automatically."
+      ]
+    ]
+  },
+  "emergency-dispatcher-911": {
+    "intro": "Emergency Dispatcher 911 casts you as the person on the other end of the emergency line, making fast decisions and sending help where it is needed.",
+    "tips": [
+      "Read each situation carefully before dispatching; a wrong choice under pressure costs time.",
+      "Prioritize the most critical cases first when several calls are waiting.",
+      "Send aid quickly, since speed is a big part of saving lives in each scenario.",
+      "Spend rewards on upgrading your setup so you are ready for more complex cases.",
+      "Treat it as a strategy game: plan ahead instead of reacting to every call at once."
+    ],
+    "faq": [
+      [
+        "What do you do in Emergency Dispatcher 911?",
+        "You handle lifelike emergency scenarios, make critical decisions and dispatch aid as quickly as possible."
+      ],
+      [
+        "Can I upgrade anything?",
+        "Yes, you can upgrade your setup to handle more complex cases."
+      ]
+    ]
+  },
+  "trimino": {
+    "intro": "Trimino is a triangular domino game for one player against bots, where tiles score when matching numbers meet on shared edges and the first to 400 points wins.",
+    "tips": [
+      "Always look for placements where equal numbers meet on every shared edge.",
+      "Aim for bonuses: opening plays, bridges and closed hexes all add to your score.",
+      "Play high-value tiles when you can, because you score the sum of the tile's numbers.",
+      "Avoid getting stuck: drawing from the boneyard costs 5 points and passing costs 10.",
+      "Try to empty your hand first for the extra bonus and to end the round on your terms."
+    ],
+    "faq": [
+      [
+        "How do you win Trimino?",
+        "Reach 400 match points before the bots. A round ends when someone plays their last tile or the game is blocked."
+      ],
+      [
+        "Is there a tutorial?",
+        "Yes, the menu includes a tutorial, plus daily rewards, quests and a skin shop."
+      ]
+    ]
+  },
+  "leaf-blower-autumn-yard": {
+    "intro": "Leaf Blower: Autumn Yard is a cozy 3D cleaning game: walk your leaf blower across yards full of autumn leaves, sell the bags for coins and upgrade your gear.",
+    "tips": [
+      "Drag anywhere or use WASD / arrow keys to move; leaves close to you are sucked into the bag.",
+      "Head to the compost crate as soon as your bag is full so you never waste time.",
+      "Upgrade suction size and bag capacity first to clean much faster.",
+      "Buy robot helpers to keep cleaning on their own while you work elsewhere.",
+      "Check under leaf piles for hidden treasures, and try the spooky Halloween yards at night."
+    ],
+    "faq": [
+      [
+        "How do I earn coins in Leaf Blower: Autumn Yard?",
+        "Empty your full leaf bag at the compost crate to sell the leaves for coins."
+      ],
+      [
+        "Are there Halloween levels?",
+        "Yes, you can clean spooky Halloween yards at night and collect hats like a pumpkin head and witch hat."
+      ]
+    ]
   }
 }

@@ -983,5 +983,26 @@
    "Flag and geography games turn learning about the world into a game: guess country flags in quizzes, paint and color flags, match them in memory games or test yourself with daily geography challenges.",
    "They are free to play in your browser on PC, tablet and phone, great for students and anyone who loves maps and trivia. No download or sign-up needed."
   ]
+ },
+ {
+  "slug": "ragdoll-games",
+  "h1": "Ragdoll Games",
+  "kw": "ragdoll games",
+  "match": "ragdoll",
+  "intro": [
+   "Ragdoll games are all about floppy, physics-driven characters: launch them, crash them, knock them over and watch every limb react in real time. Some are open sandboxes where you build your own scenes, others are fighting, falling or stunt games where the physics creates the fun.",
+   "Every ragdoll game here is free to play in your browser on PC, tablet and phone, with no download and no sign-up. Pick one and see how the physics plays out."
+  ]
+ },
+ {
+  "slug": "bee-and-insect-games",
+  "h1": "Bee & Insect Games",
+  "kw": "bee games",
+  "titleOnly": true,
+  "match": "\\bbees?\\b|insect|\\bants?\\b|butterfl|ladybug|honeybee|\\bbugs?\\b|bumbl|caterpillar|beetle|firefl",
+  "intro": [
+   "Bee and insect games let you see the world from a much smaller point of view: fly with a honeybee and gather pollen, grow an ant colony, catch butterflies or squash bugs in fast arcade challenges.",
+   "They are free to play online in your browser on PC, tablet and phone, and many are relaxing and suitable for kids. No download or account needed."
+  ]
  }
 ]
