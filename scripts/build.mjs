@@ -361,10 +361,9 @@ ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replac
   <a href="${u('/new/')}"><i>🆕</i>New games</a>
   <a href="${u('/popular/')}"><i>🔥</i>Most played</a>
   <a href="${u('/our-games/')}"><i>🫧</i>Our games</a>
+  <a href="${u('/submit-game/')}"><i>&#128228;</i>Submit your game</a>
   <hr>
   ${activeCats.map(c => `<a href="${u(`/c/${c.slug}/`)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc(c.name)}</a>`).join('\n  ')}
-  <hr>
-  <a href="${u('/submit-game/')}"><i>&#128228;</i>Submit your game</a>
 </nav>
 <main id="main">
 ${body}
@@ -424,7 +423,7 @@ fs.cpSync(path.join(ROOT, 'static'), DIST, { recursive: true });
   </div>
 </section>` : '';
   const catTiles = `<section class="row"><div class="row-h"><h2>Categories</h2></div><div class="cats">${activeCats.map(c => `<a href="${u(`/c/${c.slug}/`)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc(c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
-  const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(cfg.slogan)}</span></h1><p>${all.length.toLocaleString('en')}+ free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.</p></header>
+  const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(cfg.slogan)}</span></h1><p>${all.length.toLocaleString('en')}+ free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.</p><p class="dev-cta">Made a web game? <a href="${u('/submit-game/')}">Submit your game</a> and reach new players for free.</p></header>
 ${hero}
 <section class="row" data-recent hidden><div class="row-h"><h2>Continue playing</h2></div><div class="grid"></div></section>
 ${row('🔥 Trending now', u('/popular/'), top('hot', 18), true)}
