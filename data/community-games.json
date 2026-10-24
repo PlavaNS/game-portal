@@ -1,5 +1,30 @@
 [
   {
+    "slug": "knockback",
+    "title": "Knockback",
+    "studio": "Knockback",
+    "added": "2026-10-24",
+    "short": "A free browser party board game: race your pegs home through erupting arenas and Power-Ups.",
+    "description": "Knockback is a free party board game you play right in your browser. Race your pegs home while arenas erupt, black holes swallow pieces and Power-Ups flip the board. Pop the dome, move your pegs and knock rivals back to the start. Jump into a quick match with players worldwide, take on the weekly arena and seasonal events, and play on desktop or mobile. Instant play: no install and no account needed.",
+    "instructions": "Pop the dome to roll, then pick a peg to move. Land on a rival to knock it back to the start, grab Power-Ups to change the board and get all your pegs home first to win. A short how-to video is available when you start.",
+    "category": "multiplayer",
+    "extraCats": [
+      "two-player",
+      "kids"
+    ],
+    "tags": [
+      "Board Game",
+      "Party",
+      "Multiplayer",
+      "Family",
+      "Strategy",
+      "Casual"
+    ],
+    "embed": "https://playknockback.com/?s=il",
+    "thumb": "https://playknockback.com/img/og.jpg",
+    "orientation": "landscape"
+  },
+  {
     "slug": "kart-chaos",
     "title": "Kart Chaos",
     "studio": "Kart Chaos",
@@ -8,9 +33,20 @@
     "description": "Kart Chaos is a free 3D kart racer that runs in the browser on desktop and mobile. Race the Chamo Cup Grand Prix against CPU racers, beat ghosts in Time Trial, take on the Daily Challenge, or open an online room and race your friends. Drift for speed boosts and land ramp tricks. Play with keyboard, gamepad or touch. No download, no sign-up.",
     "instructions": "Use the arrow keys or WASD to steer and accelerate. Drift through corners to charge speed boosts and land ramp tricks for extra speed. Gamepad and touch controls are supported.",
     "category": "racing",
-    "tags": ["Racing", "Kart", "Driving", "Drift", "3D", "Multiplayer"],
+    "tags": [
+      "Racing",
+      "Kart",
+      "Driving",
+      "Drift",
+      "3D",
+      "Multiplayer"
+    ],
     "embed": "https://kartchaos.com/?ref=ilovewebgames",
     "thumb": "https://kartchaos.com/og-image.jpg?v=2",
-    "orientation": "landscape"
+    "orientation": "landscape",
+    "extraCats": [
+      "multiplayer",
+      "3d"
+    ]
   }
 ]

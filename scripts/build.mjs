@@ -264,7 +264,7 @@ const community = readJSON(path.join(ROOT, 'data/community-games.json'), []).map
   id: 'com-' + o.slug, own: false, community: true, source: 'community', slug: o.slug, title: o.title, description: o.description, instructions: o.instructions, short: o.short,
   embed: o.embed, thumb: o.thumb, cover: o.cover || o.thumb, video: null, screens: o.screens || [],
   w: o.orientation === 'portrait' ? 600 : 1280, h: o.orientation === 'portrait' ? 1000 : 720, rawCat: o.category, tags: o.tags, studio: o.studio,
-  score: 0.5, r: { most: 0.5, hot: 0.5, best: 0.5, newest: -0.5 }, cats: { main: o.category, all: [o.category] }, mobile: true,
+  score: 0.5, r: { most: 0.5, hot: 0.5, best: 0.5, newest: -0.5 }, cats: { main: o.category, all: [o.category, ...(o.extraCats || [])] }, mobile: true,
 }));
 games.unshift(...community);
 
