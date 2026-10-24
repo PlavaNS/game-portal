@@ -259,9 +259,19 @@ const ours = readJSON(path.join(ROOT, 'data/our-games.json'), []).map(o => ({
   score: -1, r: { most: -1, hot: -1, best: -1, newest: -1 }, cats: { main: o.category, all: [o.category] }, mobile: true,
 }));
 
+// games submitted by outside developers (data/community-games.json), embedded from their own site
+const community = readJSON(path.join(ROOT, 'data/community-games.json'), []).map(o => ({
+  id: 'com-' + o.slug, own: false, community: true, source: 'community', slug: o.slug, title: o.title, description: o.description, instructions: o.instructions, short: o.short,
+  embed: o.embed, thumb: o.thumb, cover: o.cover || o.thumb, video: null, screens: o.screens || [],
+  w: o.orientation === 'portrait' ? 600 : 1280, h: o.orientation === 'portrait' ? 1000 : 720, rawCat: o.category, tags: o.tags, studio: o.studio,
+  score: 0.5, r: { most: 0.5, hot: 0.5, best: 0.5, newest: -0.5 }, cats: { main: o.category, all: [o.category] }, mobile: true,
+}));
+games.unshift(...community);
+
 // slugs
-const usedSlugs = new Set(ours.map(o => o.slug));
+const usedSlugs = new Set([...ours, ...community].map(o => o.slug));
 for (const g of games) {
+  if (g.community) continue;
   let s = slugify(g.title);
   if (usedSlugs.has(s)) s = `${s}-${g.srcId}`.slice(0, 80);
   usedSlugs.add(s); g.slug = s; g.cats = catsFor(g);
@@ -534,7 +544,7 @@ for (const g of all) {
       <dt>Platform</dt><dd>${g.mobile ? 'Web browser (PC, Mac, Android, iPhone, tablet)' : 'Web browser — best on PC / Mac'}</dd>
       <dt>Price</dt><dd>Free</dd>
       <dt>Screen</dt><dd>${portrait ? 'Portrait — great on phones' : 'Landscape'}</dd>
-      ${g.own ? `<dt>Developer</dt><dd>${esc(g.studio)}</dd>` : ''}
+      ${g.studio ? `<dt>Developer</dt><dd>${esc(g.studio)}</dd>` : ''}
       ${g.pgSlug ? `<dt>Also on</dt><dd><a href="https://playgama.com/game/${encodeURIComponent(g.pgSlug)}?clid=${encodeURIComponent(cfg.playgamaClid)}" rel="sponsored noopener" target="_blank">Playgama ↗</a></dd>` : ''}
     </dl>
     <h2>FAQ</h2>${GUIDES[g.slug] ? (GUIDES[g.slug].faq || []).map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('') : ''}
@@ -550,7 +560,7 @@ for (const g of all) {
     description: trunc(g.description, 300), genre: g.cats.all.filter(c => CAT_BY[c]).map(c => CAT_BY[c].name), gamePlatform: ['Web browser', 'PC', 'Mobile'],
     applicationCategory: 'Game', operatingSystem: 'Any', playMode: g.cats.all.includes('two-player') || g.cats.all.includes('multiplayer') ? 'MultiPlayer' : 'SinglePlayer',
     offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/InStock' },
-    ...(g.own ? { author: { '@type': 'Organization', name: g.studio } } : {}),
+    ...(g.studio ? { author: { '@type': 'Organization', name: g.studio } } : {}),
   };
   write(`games/${g.slug}/index.html`, layout({
     title: `${g.title} — Play Online for Free | ${cfg.name}`, desc, canonical: pageUrl, body, bodyClass: 'game-page', preload: g.thumb,

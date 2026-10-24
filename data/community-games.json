@@ -1,0 +1,16 @@
+[
+  {
+    "slug": "kart-chaos",
+    "title": "Kart Chaos",
+    "studio": "Kart Chaos",
+    "added": "2026-10-24",
+    "short": "A free 3D kart racer: Grand Prix cups, Time Trial ghosts, a Daily Challenge and online rooms with friends.",
+    "description": "Kart Chaos is a free 3D kart racer that runs in the browser on desktop and mobile. Race the Chamo Cup Grand Prix against CPU racers, beat ghosts in Time Trial, take on the Daily Challenge, or open an online room and race your friends. Drift for speed boosts and land ramp tricks. Play with keyboard, gamepad or touch. No download, no sign-up.",
+    "instructions": "Use the arrow keys or WASD to steer and accelerate. Drift through corners to charge speed boosts and land ramp tricks for extra speed. Gamepad and touch controls are supported.",
+    "category": "racing",
+    "tags": ["Racing", "Kart", "Driving", "Drift", "3D", "Multiplayer"],
+    "embed": "https://kartchaos.com/?ref=ilovewebgames",
+    "thumb": "https://kartchaos.com/og-image.jpg?v=2",
+    "orientation": "landscape"
+  }
+]
