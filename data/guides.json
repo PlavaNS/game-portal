@@ -4118,5 +4118,105 @@
         "You need to keep making successful merges; the game ends when you run out of moves."
       ]
     ]
+  },
+  "age-evolution-run": {
+    "intro": "Age Evolution Run is a runner that sends your hero sprinting through the ages of humanity, from primitive beginnings to a futuristic finish. Use these tips to evolve faster and get further in each run.",
+    "tips": [
+      "Grab as many points as you can along the track, since points are what level you up and unlock the next era.",
+      "Keep your eyes a little ahead of your runner so you can switch lanes early and avoid traps.",
+      "Smash through barriers only when you are confident your current form is strong enough; otherwise steer around them.",
+      "Pick up power-ups whenever they are on your path, they make the next stretch of obstacles and rivals much easier.",
+      "Spend your rewards on upgrades between runs to unlock new looks, weapons and abilities for your hero."
+    ],
+    "faq": [
+      [
+        "How do I control the runner in Age Evolution Run?",
+        "Move with the WASD or arrow keys, or use the left mouse button."
+      ],
+      [
+        "How do I unlock new eras?",
+        "Collect points to level up; each new era unlocks new forms and abilities for your hero."
+      ]
+    ]
+  },
+  "loot-hole": {
+    "intro": "Loot Hole is a cartoony first-person digging game: dig down through your front yard, haul treasure back up and sell it at your yard stall. These tips help you reach the 1000 m bottom quicker.",
+    "tips": [
+      "Sell everything you carry at the yard stall before heading back down, so no trip is wasted.",
+      "Upgrade your backpack early; a bigger bag means fewer trips to the surface.",
+      "Swap to better shovels, pickaxes and drills as soon as the rock layers start to slow you down.",
+      "Push to the end of each layer, because every layer finishes with a hidden landmark and a guaranteed rare find.",
+      "Check the neighbour board for requests and keep items they ask for instead of selling them straight away."
+    ],
+    "faq": [
+      [
+        "How deep can you dig in Loot Hole?",
+        "The goal is to dig all the way to the bottom, 1000 m down, through ever harder layers of rock."
+      ],
+      [
+        "What can I buy with my coins?",
+        "Coins buy better shovels, pickaxes and drills, bigger backpacks, jetpacks and explosives."
+      ]
+    ]
+  },
+  "home-design-decorate-house": {
+    "intro": "Home Design: Decorate House combines match 3 puzzles with renovating a huge mansion, from the kitchen and library to the garden, pool and tennis court. These tips help you clear levels and unlock rooms faster.",
+    "tips": [
+      "Look for matches near the bottom of the board first; falling tiles can set up free combos.",
+      "Make matches of four or five whenever possible to create stronger pieces that clear more of the board.",
+      "Read the level goal before you start and focus your moves on it instead of on random matches.",
+      "Finish one room at a time so you unlock new house areas sooner.",
+      "Take your time between moves; there is no rush, and a planned move saves the level more often than a quick one."
+    ],
+    "faq": [
+      [
+        "What do you do in Home Design: Decorate House?",
+        "You solve match 3 puzzles to earn progress and use it to design and decorate rooms of a mansion."
+      ],
+      [
+        "Which areas can I decorate?",
+        "The game includes rooms such as the library and kitchen, plus outdoor areas like the garden, swimming pool, playground and tennis court."
+      ]
+    ]
+  },
+  "slendrina-must-die-the-asylum": {
+    "intro": "Slendrina Must Die: The Asylum is a first-person horror shooter set in an abandoned asylum, where you must find 8 old medical books while Slendrina and her mother hunt you. These tips help you survive longer.",
+    "tips": [
+      "Move carefully and crouch with Left CTRL in tight corridors so you can react before something reaches you.",
+      "Use Left Shift to run only when you need to escape or cross open areas, then slow down again to listen.",
+      "Reload with R whenever you have a quiet moment, so you are never caught with an empty weapon.",
+      "Switch weapons with the mouse wheel: keep the shotgun for close encounters and the MP5 or gun for range.",
+      "Pick up items with F as you explore and keep track of which rooms you have already searched for books."
+    ],
+    "faq": [
+      [
+        "What is the goal in Slendrina Must Die: The Asylum?",
+        "You need to find 8 Old Medical Books hidden in the abandoned asylum."
+      ],
+      [
+        "What weapons are in the game?",
+        "There are three weapons: a gun, an MP5 and a shotgun, plus grenades on the G key."
+      ]
+    ]
+  },
+  "pregnant-mom-simulator-family-life": {
+    "intro": "Pregnant Mom Simulator Family Life lets you play as a virtual mom handling pregnancy, baby care and daily household life in a 3D home. These tips help you complete missions smoothly.",
+    "tips": [
+      "Try all three modes, Pregnancy, Baby Care and Life Without Him, since each one has its own set of tasks.",
+      "Read each mission's task list before you start so you know which chores to do first.",
+      "Group nearby chores together, like cooking and cleaning the kitchen, to finish levels faster.",
+      "Don't skip hospital checkups in Pregnancy Mode; they are part of the mission progress.",
+      "In Baby Care Mode, keep an eye on your newborn's needs between other tasks to keep the baby happy."
+    ],
+    "faq": [
+      [
+        "How many modes does Pregnant Mom Simulator Family Life have?",
+        "Three: Pregnancy, Baby Care and Life Without Him."
+      ],
+      [
+        "What kind of tasks are in the game?",
+        "You cook meals, clean the house, shop for groceries, attend checkups and complete baby care activities."
+      ]
+    ]
   }
 }

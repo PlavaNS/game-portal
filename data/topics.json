@@ -939,5 +939,27 @@
    "Autumn games bring the colors and feel of fall to your screen: blow away piles of orange leaves, bring in the harvest, go mushroom hunting in the forest or help a hungry squirrel get ready for winter.",
    "Here you will find free autumn-themed games for all ages that run in your browser on desktop and mobile. No downloads and no account needed, so grab a cozy seat and play."
   ]
+ },
+ {
+  "slug": "evolution-games",
+  "h1": "Evolution Games",
+  "kw": "evolution games",
+  "match": "evolution|evolve|evolving",
+  "titleOnly": true,
+  "intro": [
+   "Evolution games are all about growth: start small, collect, merge or run, and watch your character, creature or vehicle transform into something bigger and stronger with every level.",
+   "Play free evolution games in your browser on desktop and mobile, from runners that race through the ages of humanity to idle clickers and animal simulators. No downloads and no sign-up needed."
+  ]
+ },
+ {
+  "slug": "home-design-games",
+  "h1": "Home Design & Decorating Games",
+  "kw": "home design games",
+  "match": "home design|house design|interior|decorat|decor\\b|renovat|makeover.*room|room makeover|dream room|dream house|dream castle",
+  "titleOnly": true,
+  "intro": [
+   "Home design games let you play interior designer: renovate old rooms, pick furniture and colors, decorate gardens and pools, or solve match 3 puzzles to unlock the next part of a dream mansion.",
+   "All of these decorating games are free to play in your browser on PC, tablet and phone. Choose a house, get creative and make every room your own, no download required."
+  ]
  }
 ]
