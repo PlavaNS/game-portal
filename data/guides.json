@@ -98641,5 +98641,84 @@
         "Every flip is a gamble, but the game gives each flip a 75% win rate, so most flips pay out."
       ]
     ]
+  },
+  "my-perfect-hotel-html5": {
+    "intro": "My Perfect Hotel HTML5 is a fast time-management game where you start a hotel from the ground up and grow it into a lodging empire. You run the place as manager, deciding when to invest in staff and when to upgrade the property.",
+    "tips": [
+      "Serve guests quickly early on: in a time-management game, speed is what keeps money coming in.",
+      "Spend your first earnings on upgrades that help you serve more guests, then expand once the basics run smoothly.",
+      "Hire staff when you can no longer keep up alone, so you can focus on the jobs that need you most.",
+      "Balance spending between staff and property improvements instead of pouring everything into one side.",
+      "Everything is done with a mouse click or tap, so keep your cursor close to the busiest part of the hotel."
+    ],
+    "faq": [
+      [
+        "What is the goal in My Perfect Hotel HTML5?",
+        "Build your hotel from its foundation into a large lodging empire by investing wisely in staff and property upgrades."
+      ],
+      [
+        "How do you control the game?",
+        "Click with the mouse or tap the screen to play."
+      ]
+    ]
+  },
+  "jewel-loop-color-sort": {
+    "intro": "Jewel Loop Color Sort is a sorting puzzle where colorful jewels travel around a looping conveyor and you fill matching spaces to reveal sparkling pictures. The belt has limited space and a clock is ticking, so every click counts.",
+    "tips": [
+      "Look at the whole board before you click: send jewel groups whose matching spaces are open right now.",
+      "Keep an eye on belt capacity. Sending too many groups at once can jam the loop with jewels that have nowhere to go.",
+      "Work against the clock, but do not rush blindly; a wrong group on the belt costs more time than a short pause to plan.",
+      "Save boosters for levels where you are stuck or running out of time rather than using them on easy boards.",
+      "On mobile, pinch with two fingers to zoom in on the board when groups are hard to tell apart."
+    ],
+    "faq": [
+      [
+        "How many levels does Jewel Loop Color Sort have?",
+        "The game has 1,478 puzzle levels."
+      ],
+      [
+        "Is my progress saved?",
+        "Yes. Progress is saved automatically."
+      ]
+    ]
+  },
+  "tricky-prank-annoying-quest": {
+    "intro": "Tricky Prank: Annoying Quest is a funny puzzle game built around clever pranks, tricky situations and unexpected twists. Each level is a new scene with its own little story, hidden clues and surprising interactions.",
+    "tips": [
+      "Think differently: the obvious answer is often not the right one in a prank puzzle.",
+      "Click and drag objects around the scene to see how they react; some solutions only appear when you experiment.",
+      "Search the whole scene for hidden clues before you start trying things at random.",
+      "Some levels need actions in a specific order, so if one step does nothing, try another object first and come back.",
+      "Read each level's setup carefully, since the funny storyline often hints at the prank you need to pull."
+    ],
+    "faq": [
+      [
+        "What kind of game is Tricky Prank: Annoying Quest?",
+        "It is a puzzle game where every level is a funny scene. Some levels play like a quick brain test, others need you to experiment with objects to find the right sequence."
+      ],
+      [
+        "How do you play?",
+        "Click and drag to interact with objects in each scene."
+      ]
+    ]
+  },
+  "stage-show-designer": {
+    "intro": "Stage Show Designer is a 3D collecting game where you gather clothes and decorations that match the performance you are shown. Pick up the right items, avoid the wrong ones and finish each level with a stage-ready look.",
+    "tips": [
+      "Check the performance theme at the start of each level so you know which clothes and decorations to aim for.",
+      "Drag to steer toward correct items and away from ones that do not fit the theme.",
+      "You need more than 75% correct items to complete a level, so skipping a doubtful item is often safer than grabbing it.",
+      "Look ahead down the track instead of only at the item right in front of you, so you can line up your next pickup early."
+    ],
+    "faq": [
+      [
+        "How do you complete a level in Stage Show Designer?",
+        "Collect more than 75% correct items for the shown performance."
+      ],
+      [
+        "What are the controls?",
+        "Drag to move and collect items. The game runs in the browser on PC, Mac, phones and tablets."
+      ]
+    ]
   }
 }
