@@ -165,3 +165,6 @@ body.noscroll{overflow:hidden}
 .page-h p+p{margin-top:-8px}
 
 .dev-cta{margin:.4rem 0 0;font-size:.95rem;opacity:.9}.dev-cta a{font-weight:700}
+.foot-langs{margin:.4rem 0 .2rem;font-size:.9rem;opacity:.85}
+.foot-langs a{text-decoration:none}
+.foot-langs a:hover{text-decoration:underline}

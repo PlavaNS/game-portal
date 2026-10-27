@@ -1,0 +1,6 @@
+[
+  { "code": "es", "name": "Español", "hreflang": "es", "label": "Spanish" },
+  { "code": "pt", "name": "Português", "hreflang": "pt", "label": "Portuguese (Brazil)" },
+  { "code": "de", "name": "Deutsch", "hreflang": "de", "label": "German" },
+  { "code": "fr", "name": "Français", "hreflang": "fr", "label": "French" }
+]

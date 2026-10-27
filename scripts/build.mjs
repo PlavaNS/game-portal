@@ -32,10 +32,39 @@ const slugify = s => decode(s).toLowerCase().normalize('NFKD').replace(/[\u0300-
   .replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 70) || 'game';
 const titleCase = s => s.replace(/\s+/g, ' ').trim();
 const trunc = (s, n) => s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…';
-const u = p => B + p;                              // internal link
-const abs = p => ABS + p;
+// ---------------------------------------------------------------- languages
+// The site is built once per language. English keeps the paths it always had; every other
+// language lives under /<code>/ and reuses the same data with translated text layered on top.
+// (readJSON below is a hoisted function declaration, so it can be used here.)
+const LANGS = readJSON(path.join(ROOT, 'data/i18n/langs.json'), []);
+const UI = {}, CATTR = {}, GAMETR = {};
+for (const l of LANGS) {
+  UI[l.code] = readJSON(path.join(ROOT, `data/i18n/ui/${l.code}.json`), {});
+  CATTR[l.code] = readJSON(path.join(ROOT, `data/i18n/cats/${l.code}.json`), {});
+  GAMETR[l.code] = readJSON(path.join(ROOT, `data/i18n/games/${l.code}.json`), {});
+}
+let LANG = 'en';
+const uiLangs = () => LANGS.filter(l => Object.keys(UI[l.code] || {}).length >= 20).map(l => l.code);
+const PFX = () => (LANG === 'en' ? '' : '/' + LANG);
+// every phrase that reaches tr() is recorded, so scripts/translate.mjs always knows what to translate
+const PHRASES = new Set();
+const tr = s => { const k = String(s ?? ''); PHRASES.add(k); return LANG === 'en' ? k : (UI[LANG][k] || k); };
+// a game's text in the current language; an untranslated game simply keeps its English text
+const tgame = g => (LANG === 'en' ? null : (GAMETR[LANG] || {})[g.slug] || null);
+const gDesc = g => { const t = tgame(g); return (t && t.description) || g.description; };
+const gInstr = g => { const t = tgame(g); return (t && t.instructions) || g.instructions; };
+const langsFor = g => LANGS.filter(l => (GAMETR[l.code] || {})[g.slug]);
+const catTr = key => (LANG === 'en' ? null : (CATTR[LANG] || {})[key] || null);
+
+const u = p => B + PFX() + p;                      // internal link (language aware)
+const ur = p => B + p;                             // shared file at the site root (assets, icons)
+const gHref = g => (LANG === 'en' || (GAMETR[LANG] || {})[g.slug]) ? u(`/games/${g.slug}/`) : ur(`/games/${g.slug}/`);
+const cHref = slug => (LANG === 'en' || (CATTR[LANG] || {})[slug]) ? u(`/c/${slug}/`) : ur(`/c/${slug}/`);
+const tHref = slug => (LANG === 'en' || (CATTR[LANG] || {})['topic:' + slug]) ? u(`/${slug}/`) : ur(`/${slug}/`);
+const abs = p => ABS + PFX() + p;
+const absIn = (lang, p) => ABS + (lang === 'en' ? '' : '/' + lang) + p;
 function write(rel, content) {
-  const f = path.join(DIST, rel);
+  const f = path.join(DIST, LANG === 'en' ? rel : path.join(LANG, rel));
   fs.mkdirSync(path.dirname(f), { recursive: true });
   fs.writeFileSync(f, content);
 }
@@ -308,21 +337,28 @@ const topics = readJSON(path.join(ROOT, 'data/topics.json'), []).map(t => {
 // ---------------------------------------------------------------- templates
 const ICON_SVG = fs.readFileSync(path.join(ROOT, 'static/favicon.svg'), 'utf8').trim().replace('<svg ', '<svg aria-hidden="true" ');
 
-function layout({ title, desc, canonical, body, jsonld = [], ogImage, noindex = false, bodyClass = '', preload = '' }) {
+function layout({ title, desc, canonical, body, jsonld = [], ogImage, noindex = false, bodyClass = '', preload = '', altPath = null, altLangs = null }) {
   if (title.length > 65) title = title.replace(` | ${cfg.name}`, '');
   if (title.length > 65) title = title.slice(0, 62).replace(/\s+\S*$/, '') + '…';
   // desc too short: pad with a generic but accurate sentence
   desc = String(desc || '');
   if (desc.length < 110) desc = (desc + (desc ? ' ' : '') + `Play free online at ${cfg.name}: no download, no sign-up, works on PC and mobile.`).slice(0, 160);
   const img = ogImage || abs('/assets/og.png');
+  // hreflang: every language this exact page exists in, so Google serves the right one per country
+  const langsHere = altPath ? ['en', ...(altLangs || LANGS.map(l => l.code))] : [];
+  const alt = langsHere.length > 1
+    ? langsHere.map(l => `<link rel="alternate" hreflang="${esc(l === 'en' ? 'en' : (LANGS.find(x => x.code === l) || {}).hreflang || l)}" href="${esc(absIn(l, altPath))}">`).join('\n')
+      + `\n<link rel="alternate" hreflang="x-default" href="${esc(absIn('en', altPath))}">`
+    : '';
   return `<!doctype html>
-<html lang="en">
+<html lang="${esc(LANG)}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${esc(canonical)}">
+${alt}
 <meta name="robots" content="${noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large,max-snippet:-1'}">
 ${preload ? `<link rel="preload" as="image" href="${esc(preload)}" fetchpriority="high">` : ''}
 ${cfg.ga4 ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(cfg.ga4)}"></script>
@@ -330,7 +366,7 @@ ${cfg.ga4 ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${es
 ${cfg.adsenseClient ? `<meta name="google-adsense-account" content="${esc(cfg.adsenseClient)}">\n<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${esc(cfg.adsenseClient)}" crossorigin="anonymous"></script>` : ''}
 <meta name="application-name" content="${esc(cfg.name)}">
 <meta name="apple-mobile-web-app-title" content="${esc(cfg.shortName)}">
-<link rel="apple-touch-icon" href="${u('/assets/icon-180.png')}">
+<link rel="apple-touch-icon" href="${ur('/assets/icon-180.png')}">
 <meta property="og:locale" content="en_US">
 <meta property="og:image:alt" content="${esc(title)}">${cfg.gsc ? `\n<meta name="google-site-verification" content="${esc(cfg.gsc)}">` : ''}${cfg.bing ? `\n<meta name="msvalidate.01" content="${esc(cfg.bing)}">` : ''}${cfg.ahrefs ? `\n<meta name="ahrefs-site-verification" content="${esc(cfg.ahrefs)}">` : ''}
 <meta name="theme-color" content="#0f1020">
@@ -341,30 +377,30 @@ ${cfg.adsenseClient ? `<meta name="google-adsense-account" content="${esc(cfg.ad
 <meta property="og:url" content="${esc(canonical)}">
 <meta property="og:image" content="${esc(img)}">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="${u('/favicon.svg')}" type="image/svg+xml">
-<link rel="manifest" href="${u('/manifest.webmanifest')}">
+<link rel="icon" href="${ur('/favicon.svg')}" type="image/svg+xml">
+<link rel="manifest" href="${ur('/manifest.webmanifest')}">
 <link rel="preconnect" href="https://img.gamemonetize.com" crossorigin>
-<link rel="stylesheet" href="${u('/assets/style.css')}?v=${BUILD_ID}">
+<link rel="stylesheet" href="${ur('/assets/style.css')}?v=${BUILD_ID}">
 ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replace(/</g, '\\u003c')}</script>`).join('\n')}
 </head>
 <body class="${bodyClass}">
-<a class="skip" href="#main">Skip to content</a>
+<a class="skip" href="#main">${esc(tr('Skip to content'))}</a>
 <header class="top">
-  <button class="menu-btn" aria-label="Open categories" aria-expanded="false" data-menu>☰</button>
+  <button class="menu-btn" aria-label="${esc(tr('Open categories'))}" aria-expanded="false" data-menu>☰</button>
   <a class="logo" href="${u('/')}">${ICON_SVG}<span>${esc(cfg.name)}</span></a>
   <form class="search" action="${u('/search/')}" role="search">
-    <input type="search" name="q" placeholder="Search games" aria-label="Search games" autocomplete="off">
+    <input type="search" name="q" placeholder="${esc(tr('Search games'))}" aria-label="${esc(tr('Search games'))}" autocomplete="off">
   </form>
 </header>
 <div class="wrap">
-<nav class="side" aria-label="Categories">
-  <a href="${u('/')}"><i>🏠</i>Home</a>
-  <a href="${u('/new/')}"><i>🆕</i>New games</a>
-  <a href="${u('/popular/')}"><i>🔥</i>Most played</a>
-  <a href="${u('/our-games/')}"><i>🫧</i>Our games</a>
-  <a href="${u('/submit-game/')}"><i>&#128228;</i>Submit your game</a>
+<nav class="side" aria-label="${esc(tr('Categories'))}">
+  <a href="${u('/')}"><i>🏠</i>${esc(tr('Home'))}</a>
+  <a href="${u('/new/')}"><i>🆕</i>${esc(tr('New games'))}</a>
+  <a href="${u('/popular/')}"><i>🔥</i>${esc(tr('Most played'))}</a>
+  <a href="${ur('/our-games/')}"><i>🫧</i>${esc(tr('Our games'))}</a>
+  <a href="${ur('/submit-game/')}"><i>&#128228;</i>${esc(tr('Submit your game'))}</a>
   <hr>
-  ${activeCats.map(c => `<a href="${u(`/c/${c.slug}/`)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc(c.name)}</a>`).join('\n  ')}
+  ${activeCats.map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}</a>`).join('\n  ')}
 </nav>
 <main id="main">
 ${body}
@@ -372,8 +408,9 @@ ${body}
 </div>
 <footer class="foot">
   <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.slogan)} ${esc(cfg.tagline)}</p>
-  <p><a href="${u('/about/')}">About</a> · <a href="${u('/contact/')}">Contact</a> &middot; <a href="${u('/submit-game/')}">Submit your game</a> · <a href="${u('/privacy/')}">Privacy Policy</a> · <a href="${u('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
-  <p class="foot-topics">${topics.slice(0, 14).map(t => `<a href="${u(`/${t.slug}/`)}">${esc(t.h1)}</a>`).join(' · ')}</p>
+  <p><a href="${ur('/about/')}">${esc(tr('About'))}</a> · <a href="${ur('/contact/')}">${esc(tr('Contact'))}</a> &middot; <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> · <a href="${ur('/privacy/')}">${esc(tr('Privacy Policy'))}</a> · <a href="${ur('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
+  ${langsHere.length > 1 ? `<p class="foot-langs">${langsHere.map(l => l === LANG ? `<strong>${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</strong>` : `<a href="${esc(absIn(l, altPath))}" hreflang="${esc(l)}">${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</a>`).join(' · ')}</p>` : ''}
+  <p class="foot-topics">${topics.filter(t => LANG === 'en' || (CATTR[LANG] || {})['topic:' + t.slug]).slice(0, 14).map(t => `<a href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join(' · ')}</p>
   <p class="muted">© ${YEAR} ${esc(cfg.name)} by ${esc(cfg.studio)}. All games are the property of their respective developers and are provided through official distribution partners.</p>
 </footer>
 ${cfg.adsenseClient ? '' : `<div class="consent" hidden data-consent>
@@ -381,12 +418,12 @@ ${cfg.adsenseClient ? '' : `<div class="consent" hidden data-consent>
   <div><button class="btn ghost" data-consent-reject>Reject</button><button class="btn" data-consent-accept>Accept</button></div>
 </div>`}
 <script>window.SITE={base:${JSON.stringify(B)}};</script>
-<script src="${u('/assets/app.js')}?v=${BUILD_ID}" defer></script>
+<script src="${ur('/assets/app.js')}?v=${BUILD_ID}" defer></script>
 </body>
 </html>`;
 }
 
-const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.mobile ? '' : ' dm'}" href="${u(`/games/${g.slug}/`)}"><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${g.own ? '<b class="badge">Our game</b>' : ''}</a>`;
+const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.mobile ? '' : ' dm'}" href="${gHref(g)}"><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${g.own ? '<b class="badge">Our game</b>' : ''}</a>`;
 const row = (title, href, list, eager = false) => list.length ? `<section class="row"><div class="row-h"><h2>${esc(title)}</h2>${href ? `<a href="${href}">See all ›</a>` : ''}</div><div class="grid">${list.map(g => card(g, eager)).join('')}</div></section>` : '';
 const crumbs = items => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: url })) });
 
@@ -409,176 +446,197 @@ fs.mkdirSync(DIST, { recursive: true });
 for (const f of fs.readdirSync(DIST)) fs.rmSync(path.join(DIST, f), { recursive: true, force: true, maxRetries: 5 });
 fs.cpSync(path.join(ROOT, 'static'), DIST, { recursive: true });
 
-// HOME
-{
-  const o = ours[0];
-  const hero = o ? `<section class="hero">
-  <div class="hero-media">
-    ${o.video ? `<video src="${esc(o.video)}" poster="${esc(o.cover)}" muted loop playsinline preload="none" data-hover-play></video>` : `<img src="${esc(o.cover)}" alt="${esc(o.title)}">`}
-  </div>
-  <div class="hero-text">
-    <p class="eyebrow">🫧 Our game · by ${esc(o.studio)}</p>
-    <h2>${esc(o.title)}</h2>
-    <p>${esc(o.short)}</p>
-    <a class="btn big" href="${u(`/games/${o.slug}/`)}">▶ Play now — free</a>
-  </div>
-</section>` : '';
-  const catTiles = `<section class="row"><div class="row-h"><h2>Categories</h2></div><div class="cats">${activeCats.map(c => `<a href="${u(`/c/${c.slug}/`)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc(c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
-  const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(cfg.slogan)}</span></h1><p>${all.length.toLocaleString('en')}+ free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.</p><p class="dev-cta">Made a web game? <a href="${u('/submit-game/')}">Submit your game</a> and reach new players for free.</p></header>
-${hero}
-<section class="row" data-recent hidden><div class="row-h"><h2>Continue playing</h2></div><div class="grid"></div></section>
-${row('🔥 Trending now', u('/popular/'), top('hot', 18), true)}
-${row('⭐ Most played', u('/popular/'), top('most', 18))}
-${row('🆕 New games', u('/new/'), top('newest', 18))}
-${catTiles}
-<section class="row"><div class="row-h"><h2>Popular collections</h2></div><p class="chips">${topics.map(t => `<a class="chip" href="${u(`/${t.slug}/`)}">${esc(t.h1)}</a>`).join('')}</p></section>
-${row('🏆 Best games', null, top('best', 18))}
-${activeCats.map(c => row(`${CAT_ICON[c.slug] || ''} ${c.h1}`, u(`/c/${c.slug}/`), byCat[c.slug].slice(0, 12))).join('\n')}
-<section class="seo-text"><h2>Free online games on ${esc(cfg.name)}</h2><p>${esc(cfg.name)} is a hand-picked collection of ${all.length.toLocaleString('en')} free browser games. Every game runs instantly on your computer, tablet or phone, with no downloads, no installs and no account. Play action, puzzle, racing, sports, clicker and 2 player games, and come back every day for new titles.</p></section>`;
-  write('index.html', layout({
-    title: `${cfg.name} — Free Online Games, Play Instantly`,
-    desc: `${cfg.slogan} Play ${all.length.toLocaleString('en')}+ free online games: action, puzzle, racing, 2 player, clicker and more. No downloads, works on PC & mobile.`,
-    canonical: abs('/'), body,
-    jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.name, alternateName: cfg.name.replace(/\s+/g, ''), url: abs('/'), potentialAction: { '@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
-      { '@context': 'https://schema.org', '@type': 'Organization', name: cfg.name, url: abs('/'), logo: abs('/assets/icon-512.png'), slogan: cfg.slogan, parentOrganization: { '@type': 'Organization', name: cfg.studio } }],
-  }));
-  addUrl('/', 1.0);
-}
-
-// LIST PAGES (category, popular, new, all)
-function listPages(basePath, list, { title, h1, intro, desc }) {
-  const size = cfg.gridPageSize;
-  const pages = Math.max(1, Math.ceil(list.length / size));
-  for (let p = 1; p <= pages; p++) {
-    const slice = list.slice((p - 1) * size, p * size);
-    const pagePath = p === 1 ? basePath : `${basePath}${p}/`;
-    const body = `<nav class="crumbs"><a href="${u('/')}">Home</a> › <span>${esc(h1)}</span></nav>
-<header class="page-h"><h1>${esc(h1)}${p > 1 ? ` — page ${p}` : ''}</h1>${p === 1 ? `<p>${esc(intro)}</p>` : ''}</header>
-<div class="grid">${slice.map((g, i) => card(g, i < 8)).join('')}</div>
-${pager(u(basePath), p, pages)}`;
-    write(path.join(pagePath, 'index.html'), layout({
-      title: p === 1 ? title : `${h1} — Page ${p} | ${cfg.name}`,
-      desc, canonical: abs(pagePath), body,
-      jsonld: [crumbs([['Home', abs('/')], [h1, abs(basePath)]]),
-        { '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, url: abs(pagePath),
-          mainEntity: { '@type': 'ItemList', numberOfItems: slice.length, itemListElement: slice.slice(0, 20).map((g, i) => ({ '@type': 'ListItem', position: (p - 1) * size + i + 1, url: abs(`/games/${g.slug}/`), name: g.title })) } }],
-    }));
-    addUrl(pagePath, p === 1 ? 0.8 : 0.4);
-  }
-}
-for (const c of activeCats) {
-  listPages(`/c/${c.slug}/`, byCat[c.slug], {
-    title: `${c.h1} — Play Free Online | ${cfg.name}`,
-    h1: c.h1, intro: CAT_INTRO[c.slug] || '',
-    desc: trunc(`Play ${byCat[c.slug].length}+ free ${c.h1.toLowerCase()} online. ${CAT_INTRO[c.slug] || ''}`, 158),
-  });
-}
-listPages('/popular/', [...ours, ...top('most', 300)], { title: `Most Played Free Online Games | ${cfg.name}`, h1: 'Most played games', intro: 'The games players love most right now. All free, all instant.', desc: 'The most played free online games right now. Play instantly in your browser, no download needed.' });
-listPages('/new/', top('newest', 192), { title: `New Free Online Games | ${cfg.name}`, h1: 'New games', intro: 'Fresh games added to the collection. Check back daily.', desc: 'Brand new free online games, added every day. Play instantly on PC and mobile.' });
-listPages('/all/', [...all].sort((a, b) => a.title.localeCompare(b.title)), { title: `All Games A–Z | ${cfg.name}`, h1: 'All games A–Z', intro: `Every game on ${cfg.name}, sorted alphabetically.`, desc: `Browse all ${all.length} free online games on ${cfg.name} from A to Z.` });
-
-// TOPIC PAGES
-const topicOf = new Map();
-for (const t of topics) for (const g of t.list) if (!topicOf.has(g.id)) topicOf.set(g.id, t);
-for (const t of topics) {
-  const others = topics.filter(o => o.slug !== t.slug).slice(0, 12);
-  const body = `<nav class="crumbs"><a href="${u('/')}">Home</a> › <span>${esc(t.h1)}</span></nav>
-<header class="page-h"><h1>${esc(t.h1)}</h1>${t.intro.map(p => `<p>${esc(p)}</p>`).join('')}</header>
-<div class="grid">${t.list.map((g, i) => card(g, i < 8)).join('')}</div>
-<section class="row" style="margin-top:28px"><div class="row-h"><h2>More collections</h2></div><p class="chips">${others.map(o => `<a class="chip" href="${u(`/${o.slug}/`)}">${esc(o.h1)}</a>`).join('')}</p></section>`;
-  write(`${t.slug}/index.html`, layout({
-    title: `${t.h1} — Play Free Online | ${cfg.name}`,
-    desc: trunc(`${t.list.length}+ free ${t.kw}. ${t.intro[0]}`, 158), canonical: abs(`/${t.slug}/`), body,
-    jsonld: [crumbs([['Home', abs('/')], [t.h1, abs(`/${t.slug}/`)]]),
-      { '@context': 'https://schema.org', '@type': 'CollectionPage', name: t.h1, url: abs(`/${t.slug}/`), description: t.intro[0],
-        mainEntity: { '@type': 'ItemList', numberOfItems: t.list.length, itemListElement: t.list.slice(0, 20).map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(`/games/${g.slug}/`), name: g.title })) } }],
-  }));
-  addUrl(`/${t.slug}/`, 0.8);
-}
-
-// GAME PAGES
-const catIndex = Object.fromEntries(Object.entries(byCat).map(([k, v]) => [k, new Map(v.map((g, i) => [g.id, i]))]));
-for (const g of all) {
-  const main = CAT_BY[g.cats.main] || CATS[0];
-  const pool = byCat[main.slug];
-  const idx = catIndex[main.slug].get(g.id) ?? 0;
-  const similar = [];
-  for (let k = 1; similar.length < 12 && k < pool.length; k++) { const s = pool[(idx + k) % pool.length]; if (s.id !== g.id) similar.push(s); }
-  if (!g.own && ours.length) similar.splice(1, 0, ours.find(o => o.cats.main === g.cats.main) || ours[0]);
-  const sim = similar.slice(0, 12);
-
-  const portrait = g.h > g.w * 1.05;
-  const pageUrl = abs(`/games/${g.slug}/`);
-  // pages with a guide get a more specific snippet (the guide intro) and a title that promises tips, which app-store results do not offer
-  const GD = GUIDES[g.slug];
-  const desc = trunc(`Play ${g.title} online for free. ${GD && GD.intro ? GD.intro + " " : ""}${g.description}`, 158);
-  const pageTitle = GD ? `${g.title} — Play Free Online, Tips & FAQ | ${cfg.name}` : `${g.title} — Play Online for Free | ${cfg.name}`;
-  const tp = topicOf.get(g.id);
-  const catLinks = (tp ? `<a class="chip" href="${u(`/${tp.slug}/`)}">${esc(tp.h1)}</a>` : '') + g.cats.all.filter(c => CAT_BY[c]).map(c => `<a class="chip" href="${u(`/c/${c}/`)}">${esc(CAT_BY[c].name)}</a>`).join('');
-  const tagText = g.tags.slice(0, 8).map(t => `<span class="chip ghost">${esc(t)}</span>`).join('');
-  const body = `<nav class="crumbs"><a href="${u('/')}">Home</a> › <a href="${u(`/c/${main.slug}/`)}">${esc(main.h1)}</a> › <span>${esc(g.title)}</span></nav>
-<section class="player${portrait ? ' portrait' : ''}" data-player data-src="${esc(g.embed)}" data-id="${esc(g.slug)}" data-title="${esc(g.title)}" data-thumb="${esc(g.thumb)}" style="--ar:${g.w}/${g.h}">
-  <div class="stage">
-    <img class="stage-bg" src="${esc(g.thumb)}" alt="" aria-hidden="true" fetchpriority="high">
-    <div class="stage-ui">
-      <img class="stage-thumb" src="${esc(g.thumb)}" alt="${esc(g.title)}" width="256" height="192">
-      <h1>${esc(g.title)}</h1>
-      <button class="btn big" data-play>▶ Play now</button>${g.mobile ? '' : '\n      <p class="desk-note">💻 Best played on a computer with a keyboard</p>'}
+// Everything below is produced once per language: English at the root, each other language under /<code>/.
+function emitContent() {
+  // A language appears on the site only once its text exists. Until then it emits nothing,
+  // so Google never sees an English page duplicated under /es/, /de/ and so on.
+  if (LANG !== 'en' && Object.keys(UI[LANG] || {}).length < 20) return;
+  const catOK = c => LANG === 'en' || !!catTr(c);
+  const gameOK = g => LANG === 'en' || !!tgame(g);
+  // HOME
+  {
+    const o = ours[0];
+    const hero = o ? `<section class="hero">
+    <div class="hero-media">
+      ${o.video ? `<video src="${esc(o.video)}" poster="${esc(o.cover)}" muted loop playsinline preload="none" data-hover-play></video>` : `<img src="${esc(o.cover)}" alt="${esc(o.title)}">`}
     </div>
-  </div>
-  <div class="bar">
-    <strong>${esc(g.title)}</strong>
-    <span class="spacer"></span>
-    <button class="icon" data-like aria-label="Add to favorites" title="Favorite">♡</button>
-    <button class="icon" data-share aria-label="Share" title="Share">↗</button>
-    <button class="icon" data-fs aria-label="Full screen" title="Full screen">⛶</button>
-  </div>
-</section>
-<div class="game-cols">
-  <article class="about">
-    <h2>About ${esc(g.title)}</h2>
-    ${(g.paras && g.paras.length > 1 ? g.paras : [g.description]).map(p => `<p>${esc(p)}</p>`).join('\n    ')}
-    ${g.instructions ? `<h2>How to play</h2><p>${esc(g.instructions)}</p>` : ''}
-    ${GUIDES[g.slug] ? `<h2>Tips and tricks for ${esc(g.title)}</h2>${GUIDES[g.slug].intro ? `<p>${esc(GUIDES[g.slug].intro)}</p>` : ''}<ul class="tips">${(GUIDES[g.slug].tips || []).map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}
-    <p class="chips">${catLinks}${tagText}</p>
-    <h2>Game info</h2>
-    <dl class="info">
-      <dt>Genre</dt><dd>${g.cats.all.filter(c => CAT_BY[c]).slice(0, 4).map(c => esc(CAT_BY[c].name)).join(', ')}</dd>
-      <dt>Platform</dt><dd>${g.mobile ? 'Web browser (PC, Mac, Android, iPhone, tablet)' : 'Web browser — best on PC / Mac'}</dd>
-      <dt>Price</dt><dd>Free</dd>
-      <dt>Screen</dt><dd>${portrait ? 'Portrait — great on phones' : 'Landscape'}</dd>
-      ${g.studio ? `<dt>Developer</dt><dd>${esc(g.studio)}</dd>` : ''}
-      ${g.pgSlug ? `<dt>Also on</dt><dd><a href="https://playgama.com/game/${encodeURIComponent(g.pgSlug)}?clid=${encodeURIComponent(cfg.playgamaClid)}" rel="sponsored noopener" target="_blank">Playgama ↗</a></dd>` : ''}
-    </dl>
-    <h2>FAQ</h2>${GUIDES[g.slug] ? (GUIDES[g.slug].faq || []).map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('') : ''}
-    <h3>Is ${esc(g.title)} free to play?</h3><p>Yes. ${esc(g.title)} is completely free on ${esc(cfg.name)}. The game is supported by short ads.</p>
-    <h3>Can I play ${esc(g.title)} on my phone?</h3><p>${g.mobile ? 'Yes. It runs in the browser on Android phones, iPhones and tablets as well as on PC and Mac — tap “Play now” and the game opens full screen.' : `${esc(g.title)} is made for computers and plays best with a keyboard and mouse. For phones, check out our <a href="${u('/c/mobile/')}">mobile games</a>.`}</p>
-    <h3>Do I need to download or sign up?</h3><p>No. There is nothing to install and no account needed. The game loads instantly in your browser.</p>
-    <p class="muted">${g.own ? `Made by ${esc(g.studio)} — the team behind ${esc(cfg.name)}.` : `Like ${esc(g.title)}? Try more <a href="${u(`/c/${main.slug}/`)}">${esc(main.h1.toLowerCase())}</a> or browse the <a href="${u('/popular/')}">most played games</a> on ${esc(cfg.name)}.`}</p>
-  </article>
-  <aside class="similar"><h2>Similar games</h2><div class="grid small">${sim.map(s => card(s)).join('')}</div></aside>
-</div>`;
-  const ld = {
-    '@context': 'https://schema.org', '@type': 'VideoGame', name: g.title, url: pageUrl, image: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)),
-    description: trunc(g.description, 300), genre: g.cats.all.filter(c => CAT_BY[c]).map(c => CAT_BY[c].name), gamePlatform: ['Web browser', 'PC', 'Mobile'],
-    applicationCategory: 'Game', operatingSystem: 'Any', playMode: g.cats.all.includes('two-player') || g.cats.all.includes('multiplayer') ? 'MultiPlayer' : 'SinglePlayer',
-    offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/InStock' },
-    ...(g.studio ? { author: { '@type': 'Organization', name: g.studio } } : {}),
-  };
-  write(`games/${g.slug}/index.html`, layout({
-    title: pageTitle, desc, canonical: pageUrl, body, bodyClass: 'game-page', preload: g.thumb,
-    ogImage: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)),
-    jsonld: [ld, crumbs([['Home', abs('/')], [main.h1, abs(`/c/${main.slug}/`)], [g.title, pageUrl]])],
-  }));
-  addUrl(`/games/${g.slug}/`, g.own ? 0.9 : 0.6, { img: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)), title: g.title });
-}
+    <div class="hero-text">
+      <p class="eyebrow">🫧 ${esc(tr('Our game'))} · ${esc(tr('by'))} ${esc(o.studio)}</p>
+      <h2>${esc(o.title)}</h2>
+      <p>${esc(o.short)}</p>
+      <a class="btn big" href="${gHref(o)}">▶ ${esc(tr('Play now — free'))}</a>
+    </div>
+  </section>` : '';
+    const catTiles = `<section class="row"><div class="row-h"><h2>${esc(tr('Categories'))}</h2></div><div class="cats">${activeCats.filter(c => catOK(c.slug)).map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
+    const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(cfg.slogan)}</span></h1><p>${all.length.toLocaleString('en')}+ free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.</p><p class="dev-cta">Made a web game? <a href="${ur('/submit-game/')}">Submit your game</a> and reach new players for free.</p></header>
+  ${hero}
+  <section class="row" data-recent hidden><div class="row-h"><h2>${esc(tr('Continue playing'))}</h2></div><div class="grid"></div></section>
+  ${row('🔥 ' + tr('Trending now'), u('/popular/'), top('hot', 18), true)}
+  ${row('⭐ ' + tr('Most played'), u('/popular/'), top('most', 18))}
+  ${row('🆕 ' + tr('New games'), u('/new/'), top('newest', 18))}
+  ${catTiles}
+  <section class="row"><div class="row-h"><h2>${esc(tr('Popular collections'))}</h2></div><p class="chips">${topics.filter(t => catOK('topic:' + t.slug)).map(t => `<a class="chip" href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join('')}</p></section>
+  ${row('🏆 ' + tr('Best games'), null, top('best', 18))}
+  ${activeCats.filter(c => catOK(c.slug)).map(c => row(`${CAT_ICON[c.slug] || ''} ${(catTr(c.slug) || {}).h1 || c.h1}`, cHref(c.slug), byCat[c.slug].slice(0, 12))).join('\n')}
+  <section class="seo-text"><h2>Free online games on ${esc(cfg.name)}</h2><p>${esc(cfg.name)} is a hand-picked collection of ${all.length.toLocaleString('en')} free browser games. Every game runs instantly on your computer, tablet or phone, with no downloads, no installs and no account. Play action, puzzle, racing, sports, clicker and 2 player games, and come back every day for new titles.</p></section>`;
+    write('index.html', layout({
+      title: `${cfg.name} — Free Online Games, Play Instantly`,
+      desc: `${cfg.slogan} Play ${all.length.toLocaleString('en')}+ free online games: action, puzzle, racing, 2 player, clicker and more. No downloads, works on PC & mobile.`,
+      canonical: abs('/'), body, altPath: '/', altLangs: LANGS.filter(l => Object.keys(UI[l.code] || {}).length >= 20).map(l => l.code),
+      jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.name, alternateName: cfg.name.replace(/\s+/g, ''), url: abs('/'), potentialAction: { '@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
+        { '@context': 'https://schema.org', '@type': 'Organization', name: cfg.name, url: abs('/'), logo: abs('/assets/icon-512.png'), slogan: cfg.slogan, parentOrganization: { '@type': 'Organization', name: cfg.studio } }],
+    }));
+    addUrl('/', 1.0);
+  }
 
-// SEARCH
-write('search.json', JSON.stringify(all.map(g => [g.slug, g.title, g.thumb, g.cats.main, g.tags.slice(0, 6).join(' ')])));
-write('search/index.html', layout({
-  title: `Search Games | ${cfg.name}`, desc: `Search ${all.length} free online games.`, canonical: abs('/search/'), noindex: true,
-  body: `<header class="page-h"><h1>Search games</h1></header><form class="search big" action="${u('/search/')}" role="search"><input type="search" name="q" placeholder="Type a game name or genre…" aria-label="Search" data-search-input autofocus></form><p class="muted" data-search-count></p><div class="grid" data-search-results></div>`,
-}));
+  // LIST PAGES (category, popular, new, all)
+  function listPages(basePath, list, { title, h1, intro, desc, altPath = null, altLangs = null }) {
+    const size = cfg.gridPageSize;
+    const pages = Math.max(1, Math.ceil(list.length / size));
+    for (let p = 1; p <= pages; p++) {
+      const slice = list.slice((p - 1) * size, p * size);
+      const pagePath = p === 1 ? basePath : `${basePath}${p}/`;
+      const body = `<nav class="crumbs"><a href="${u('/')}">${esc(tr('Home'))}</a> › <span>${esc(h1)}</span></nav>
+  <header class="page-h"><h1>${esc(h1)}${p > 1 ? ` — ${tr('page')} ${p}` : ''}</h1>${p === 1 ? `<p>${esc(intro)}</p>` : ''}</header>
+  <div class="grid">${slice.map((g, i) => card(g, i < 8)).join('')}</div>
+  ${pager(u(basePath), p, pages)}`;
+      write(path.join(pagePath, 'index.html'), layout({
+        title: p === 1 ? title : `${h1} — ${tr('Page')} ${p} | ${cfg.name}`,
+        desc, canonical: abs(pagePath), body,
+        ...(p === 1 && altPath ? { altPath, altLangs } : {}),
+        jsonld: [crumbs([[tr('Home'), abs('/')], [h1, abs(basePath)]]),
+          { '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, url: abs(pagePath),
+            mainEntity: { '@type': 'ItemList', numberOfItems: slice.length, itemListElement: slice.slice(0, 20).map((g, i) => ({ '@type': 'ListItem', position: (p - 1) * size + i + 1, url: abs(`/games/${g.slug}/`), name: g.title })) } }],
+      }));
+      addUrl(pagePath, p === 1 ? 0.8 : 0.4);
+    }
+  }
+  for (const c of activeCats) {
+    if (!catOK(c.slug)) continue;
+    listPages(`/c/${c.slug}/`, byCat[c.slug], {
+      title: `${(catTr(c.slug) || {}).h1 || c.h1} — ${tr('Play Free Online')} | ${cfg.name}`,
+      h1: (catTr(c.slug) || {}).h1 || c.h1, intro: (catTr(c.slug) || {}).intro || CAT_INTRO[c.slug] || '',
+      desc: trunc(`${tr('Play')} ${byCat[c.slug].length}+ ${tr('free')} ${((catTr(c.slug) || {}).h1 || c.h1).toLowerCase()} ${tr('online.')} ${(catTr(c.slug) || {}).intro || CAT_INTRO[c.slug] || ''}`, 158),
+      altPath: `/c/${c.slug}/`, altLangs: LANGS.filter(l => (CATTR[l.code] || {})[c.slug]).map(l => l.code),
+    });
+  }
+  listPages('/popular/', [...ours, ...top('most', 300)], { altPath: '/popular/', altLangs: uiLangs(), title: `${tr('Most Played Free Online Games')} | ${cfg.name}`, h1: tr('Most played games'), intro: 'The games players love most right now. All free, all instant.', desc: 'The most played free online games right now. Play instantly in your browser, no download needed.' });
+  listPages('/new/', top('newest', 192), { altPath: '/new/', altLangs: uiLangs(), title: `${tr('New Free Online Games')} | ${cfg.name}`, h1: tr('New games'), intro: 'Fresh games added to the collection. Check back daily.', desc: 'Brand new free online games, added every day. Play instantly on PC and mobile.' });
+  listPages('/all/', [...all].sort((a, b) => a.title.localeCompare(b.title)), { title: `All Games A–Z | ${cfg.name}`, h1: tr('All games A–Z'), intro: `Every game on ${cfg.name}, sorted alphabetically.`, desc: `Browse all ${all.length} free online games on ${cfg.name} from A to Z.` });
+
+  // TOPIC PAGES
+  const topicOf = new Map();
+  for (const t of topics) for (const g of t.list) if (!topicOf.has(g.id)) topicOf.set(g.id, t);
+  for (const t of topics) {
+    if (!catOK('topic:' + t.slug)) continue;
+    const TT = catTr('topic:' + t.slug) || {};
+    const th1 = TT.h1 || t.h1, tintro = TT.intro || t.intro, tkw = TT.kw || t.kw;
+    const others = topics.filter(o => o.slug !== t.slug).slice(0, 12);
+    const body = `<nav class="crumbs"><a href="${u('/')}">${esc(tr('Home'))}</a> › <span>${esc(th1)}</span></nav>
+  <header class="page-h"><h1>${esc(th1)}</h1>${tintro.map(p => `<p>${esc(p)}</p>`).join('')}</header>
+  <div class="grid">${t.list.map((g, i) => card(g, i < 8)).join('')}</div>
+  <section class="row" style="margin-top:28px"><div class="row-h"><h2>${esc(tr('More collections'))}</h2></div><p class="chips">${others.map(o => `<a class="chip" href="${tHref(o.slug)}">${esc((catTr('topic:' + o.slug) || {}).h1 || o.h1)}</a>`).join('')}</p></section>`;
+    write(`${t.slug}/index.html`, layout({
+      title: `${th1} — ${tr('Play Free Online')} | ${cfg.name}`,
+      desc: trunc(`${t.list.length}+ ${tr('free')} ${tkw}. ${tintro[0]}`, 158), canonical: abs(`/${t.slug}/`), body,
+      altPath: `/${t.slug}/`, altLangs: LANGS.filter(l => (CATTR[l.code] || {})['topic:' + t.slug]).map(l => l.code),
+      jsonld: [crumbs([[tr('Home'), abs('/')], [th1, abs(`/${t.slug}/`)]]),
+        { '@context': 'https://schema.org', '@type': 'CollectionPage', name: th1, url: abs(`/${t.slug}/`), description: tintro[0],
+          mainEntity: { '@type': 'ItemList', numberOfItems: t.list.length, itemListElement: t.list.slice(0, 20).map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(`/games/${g.slug}/`), name: g.title })) } }],
+    }));
+    addUrl(`/${t.slug}/`, 0.8);
+  }
+
+  // GAME PAGES
+  const catIndex = Object.fromEntries(Object.entries(byCat).map(([k, v]) => [k, new Map(v.map((g, i) => [g.id, i]))]));
+  for (const g of all) {
+    if (!gameOK(g)) continue;
+    const main = CAT_BY[g.cats.main] || CATS[0];
+    const pool = byCat[main.slug];
+    const idx = catIndex[main.slug].get(g.id) ?? 0;
+    const similar = [];
+    for (let k = 1; similar.length < 12 && k < pool.length; k++) { const s = pool[(idx + k) % pool.length]; if (s.id !== g.id) similar.push(s); }
+    if (!g.own && ours.length) similar.splice(1, 0, ours.find(o => o.cats.main === g.cats.main) || ours[0]);
+    const sim = similar.slice(0, 12);
+
+    const portrait = g.h > g.w * 1.05;
+    const pageUrl = abs(`/games/${g.slug}/`);
+    // pages with a guide get a more specific snippet (the guide intro) and a title that promises tips, which app-store results do not offer
+    const GD = (tgame(g) || {}).guide || (LANG === 'en' ? GUIDES[g.slug] : null);
+    const gdesc = gDesc(g), ginstr = gInstr(g);
+    const desc = trunc(`${tr('Play')} ${g.title} ${tr('online for free.')} ${GD && GD.intro ? GD.intro + " " : ""}${gdesc}`, 158);
+    const pageTitle = GD ? `${g.title} — ${tr('Play Free Online, Tips & FAQ')} | ${cfg.name}` : `${g.title} — ${tr('Play Online for Free')} | ${cfg.name}`;
+    const tp = topicOf.get(g.id);
+    const catLinks = (tp ? `<a class="chip" href="${tHref(tp.slug)}">${esc((catTr('topic:' + tp.slug) || {}).h1 || tp.h1)}</a>` : '') + g.cats.all.filter(c => CAT_BY[c]).map(c => `<a class="chip" href="${cHref(c)}">${esc((catTr(c) || {}).name || CAT_BY[c].name)}</a>`).join('');
+    const tagText = g.tags.slice(0, 8).map(t => `<span class="chip ghost">${esc(t)}</span>`).join('');
+    const body = `<nav class="crumbs"><a href="${u('/')}">${esc(tr('Home'))}</a> › <a href="${cHref(main.slug)}">${esc((catTr(main.slug) || {}).h1 || main.h1)}</a> › <span>${esc(g.title)}</span></nav>
+  <section class="player${portrait ? ' portrait' : ''}" data-player data-src="${esc(g.embed)}" data-id="${esc(g.slug)}" data-title="${esc(g.title)}" data-thumb="${esc(g.thumb)}" style="--ar:${g.w}/${g.h}">
+    <div class="stage">
+      <img class="stage-bg" src="${esc(g.thumb)}" alt="" aria-hidden="true" fetchpriority="high">
+      <div class="stage-ui">
+        <img class="stage-thumb" src="${esc(g.thumb)}" alt="${esc(g.title)}" width="256" height="192">
+        <h1>${esc(g.title)}</h1>
+        <button class="btn big" data-play>▶ ${esc(tr('Play now'))}</button>${g.mobile ? '' : `\n      <p class="desk-note">💻 ${esc(tr('Best played on a computer with a keyboard'))}</p>`}
+      </div>
+    </div>
+    <div class="bar">
+      <strong>${esc(g.title)}</strong>
+      <span class="spacer"></span>
+      <button class="icon" data-like aria-label="${esc(tr('Add to favorites'))}" title="${esc(tr('Favorite'))}">♡</button>
+      <button class="icon" data-share aria-label="${esc(tr('Share'))}" title="${esc(tr('Share'))}">↗</button>
+      <button class="icon" data-fs aria-label="${esc(tr('Full screen'))}" title="${esc(tr('Full screen'))}">⛶</button>
+    </div>
+  </section>
+  <div class="game-cols">
+    <article class="about">
+      <h2>${esc(tr('About'))} ${esc(g.title)}</h2>
+      ${(LANG === 'en' && g.paras && g.paras.length > 1 ? g.paras : [gdesc]).map(p => `<p>${esc(p)}</p>`).join('\n    ')}
+      ${ginstr ? `<h2>${esc(tr('How to play'))}</h2><p>${esc(ginstr)}</p>` : ''}
+      ${GD ? `<h2>${esc(tr('Tips and tricks for'))} ${esc(g.title)}</h2>${GD.intro ? `<p>${esc(GD.intro)}</p>` : ''}<ul class="tips">${(GD.tips || []).map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}
+      <p class="chips">${catLinks}${tagText}</p>
+      <h2>${esc(tr('Game info'))}</h2>
+      <dl class="info">
+        <dt>${esc(tr('Genre'))}</dt><dd>${g.cats.all.filter(c => CAT_BY[c]).slice(0, 4).map(c => esc((catTr(c) || {}).name || CAT_BY[c].name)).join(', ')}</dd>
+        <dt>${esc(tr('Platform'))}</dt><dd>${esc(g.mobile ? tr('Web browser (PC, Mac, Android, iPhone, tablet)') : tr('Web browser — best on PC / Mac'))}</dd>
+        <dt>${esc(tr('Price'))}</dt><dd>${esc(tr('Free'))}</dd>
+        <dt>${esc(tr('Screen'))}</dt><dd>${esc(portrait ? tr('Portrait — great on phones') : tr('Landscape'))}</dd>
+        ${g.studio ? `<dt>${esc(tr('Developer'))}</dt><dd>${esc(g.studio)}</dd>` : ''}
+        ${g.pgSlug ? `<dt>${esc(tr('Also on'))}</dt><dd><a href="https://playgama.com/game/${encodeURIComponent(g.pgSlug)}?clid=${encodeURIComponent(cfg.playgamaClid)}" rel="sponsored noopener" target="_blank">Playgama ↗</a></dd>` : ''}
+      </dl>
+      <h2>${esc(tr('FAQ'))}</h2>${GD ? (GD.faq || []).map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('') : ''}
+      <h3>${esc(tr('Is this game free to play?'))}</h3><p>${esc(tr('Yes. It is completely free here. The game is supported by short ads.'))}</p>
+      <h3>${esc(tr('Can I play this game on my phone?'))}</h3><p>${g.mobile ? tr('Yes. It runs in the browser on Android phones, iPhones and tablets as well as on PC and Mac — tap “Play now” and the game opens full screen.') : `${esc(g.title)} is made for computers and plays best with a keyboard and mouse. For phones, check out our <a href="${u('/c/mobile/')}">mobile games</a>.`}</p>
+      <h3>${esc(tr('Do I need to download or sign up?'))}</h3><p>${esc(tr('No. There is nothing to install and no account needed. The game loads instantly in your browser.'))}</p>
+      <p class="muted">${g.own ? `Made by ${esc(g.studio)} — the team behind ${esc(cfg.name)}.` : `${esc(tr('Like this game? Try more'))} <a href="${cHref(main.slug)}">${esc(((catTr(main.slug) || {}).h1 || main.h1).toLowerCase())}</a> or browse the <a href="${u('/popular/')}">most played games</a> on ${esc(cfg.name)}.`}</p>
+    </article>
+    <aside class="similar"><h2>${esc(tr('Similar games'))}</h2><div class="grid small">${sim.map(s => card(s)).join('')}</div></aside>
+  </div>`;
+    const ld = {
+      '@context': 'https://schema.org', '@type': 'VideoGame', name: g.title, url: pageUrl, image: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)),
+      description: trunc(gdesc, 300), genre: g.cats.all.filter(c => CAT_BY[c]).map(c => CAT_BY[c].name), gamePlatform: ['Web browser', 'PC', 'Mobile'],
+      applicationCategory: 'Game', operatingSystem: 'Any', playMode: g.cats.all.includes('two-player') || g.cats.all.includes('multiplayer') ? 'MultiPlayer' : 'SinglePlayer',
+      offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/InStock' },
+      ...(g.studio ? { author: { '@type': 'Organization', name: g.studio } } : {}),
+    };
+    write(`games/${g.slug}/index.html`, layout({
+      title: pageTitle, desc, canonical: pageUrl, body, bodyClass: 'game-page', preload: g.thumb,
+      altPath: `/games/${g.slug}/`, altLangs: langsFor(g).map(l => l.code),
+      ogImage: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)),
+      jsonld: [ld, crumbs([['Home', abs('/')], [main.h1, abs(`/c/${main.slug}/`)], [g.title, pageUrl]])],
+    }));
+    addUrl(`/games/${g.slug}/`, g.own ? 0.9 : 0.6, { img: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)), title: g.title });
+  }
+
+  // SEARCH
+  if (LANG === 'en') write('search.json', JSON.stringify(all.map(g => [g.slug, g.title, g.thumb, g.cats.main, g.tags.slice(0, 6).join(' ')])));
+  write('search/index.html', layout({
+    title: `Search Games | ${cfg.name}`, desc: `Search ${all.length} free online games.`, canonical: abs('/search/'), noindex: true,
+    body: `<header class="page-h"><h1>Search games</h1></header><form class="search big" action="${u('/search/')}" role="search"><input type="search" name="q" placeholder="Type a game name or genre…" aria-label="Search" data-search-input autofocus></form><p class="muted" data-search-count></p><div class="grid" data-search-results></div>`,
+  }));
+
+}
+for (const lang of ['en', ...LANGS.map(l => l.code)]) { LANG = lang; emitContent(); }
+LANG = 'en';
 
 // STATIC TEXT PAGES
 const textPage = (slug, title, html, desc) => {
@@ -609,7 +667,7 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
 }
 textPage('contact', 'Contact', `<p>We'd love to hear from you — feedback, bug reports, game suggestions or business inquiries.</p>
 <p>Email: <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a></p>
-<h2>Game developers</h2><p>Made a great HTML5 game? <a href="${u('/submit-game/')}">Submit it here</a> and we'll take a look.</p>
+<h2>Game developers</h2><p>Made a great HTML5 game? <a href="${ur('/submit-game/')}">Submit it here</a> and we'll take a look.</p>
 <h2>Copyright concerns</h2><p>If you believe a game on this site infringes your rights, email us with the game URL and details, and we will review and remove it promptly.</p>`, `Contact ${cfg.name}.`);
 
 textPage('privacy', 'Privacy Policy', `<p class="muted">Last updated: ${today}</p>
@@ -652,5 +710,15 @@ for (const f of ['data/ads-gamepix.txt']) { const p = path.join(ROOT, f); if (fs
 if (lines.length) write('ads.txt', lines.join('\n') + '\n');
 }
 write('.nojekyll', '');
+
+// what the translator needs to know: every UI phrase the pages actually use
+try {
+  fs.mkdirSync(path.join(ROOT, '.cache'), { recursive: true });
+  fs.writeFileSync(path.join(ROOT, '.cache/phrases.json'), JSON.stringify([...PHRASES].sort(), null, 1));
+  fs.writeFileSync(path.join(ROOT, '.cache/cats.json'), JSON.stringify({
+    cats: activeCats.map(c => ({ key: c.slug, name: c.name, h1: c.h1, intro: CAT_INTRO[c.slug] || '' })),
+    topics: topics.map(t => ({ key: 'topic:' + t.slug, h1: t.h1, kw: t.kw, intro: t.intro })),
+  }, null, 1));
+} catch (e) { console.warn('phrase dump failed: ' + e.message); }
 
 console.log(`Built ${all.length} games (${ours.length} ours), ${activeCats.length} categories, ${sitemap.length} URLs in sitemap -> dist/`);
