@@ -9,7 +9,7 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const ROOT = path.resolve('.');
-const COUNT = Math.max(1, Math.min(1000, parseInt(process.argv[2] || process.env.GUIDE_COUNT || '200', 10) || 200));
+const COUNT = Math.max(1, Math.min(6000, parseInt(process.argv[2] || process.env.GUIDE_COUNT || '200', 10) || 200));
 const KEY = process.env.ANTHROPIC_API_KEY;
 const DRY = process.env.DRY_RUN === '1';
 const API = 'https://api.anthropic.com/v1';
