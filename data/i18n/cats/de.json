@@ -860,5 +860,53 @@
    "Tier- und Tierarztspiele lassen dich Tiere vom ersten Check-up bis zur letzten Verbeugung versorgen: Behandle kranke Welpen und Kätzchen in einer Tierklinik, pflege und bade Haustiere, führe eine Tierhandlung oder baue aus einem kleinen Raum ein ganzes Tierzentrum auf.",
    "Viele dieser Spiele sind sanft und entspannend, was sie zu einer guten Wahl für Kinder und alle Tierfreunde macht. Sie sind kostenlos online im Browser auf PC, Tablet und Smartphone spielbar, ohne Download oder Konto."
   ]
+ },
+ "topic:boxing-games": {
+  "h1": "Boxspiele",
+  "kw": "boxspiele",
+  "intro": [
+   "Steigt in den Ring mit kostenlosen Box- und Wrestling-Spielen: Verteilt Schläge, weicht Treffern aus und schickt eure Gegner in schnellen Arcade-Kämpfen k.o.",
+   "Alle Kampfspiele hier laufen direkt im Browser auf PC und Handy, ganz ohne Download."
+  ]
+ },
+ "topic:farm-games": {
+  "h1": "Farmspiele",
+  "kw": "farmspiele",
+  "intro": [
+   "Baut Ernten an, züchtet Tiere und erweitert euer Land in kostenlosen Farmspielen. Fahrt Traktoren, erntet Felder und baut einen blühenden Bauernhof auf.",
+   "Spielt sofort im Browser ohne Download. Euer Hof wartet."
+  ]
+ },
+ "topic:makeup-games": {
+  "h1": "Schminkspiele",
+  "kw": "schminkspiele",
+  "intro": [
+   "Kostenlose Schminkspiele für Beauty-Fans: Gestaltet glamouröse Looks, macht Nägel und Haare, betreibt ein Spa und verwandelt Figuren vom Alltag zum roten Teppich.",
+   "Spielt im Browser auf Handy, Tablet oder Computer. Kein Download und keine Anmeldung."
+  ]
+ },
+ "topic:princess-games": {
+  "h1": "Prinzessinnenspiele",
+  "kw": "prinzessinnenspiele",
+  "intro": [
+   "Kostenlose Prinzessinnenspiele voller Magie und Stil: Kleidet Royals ein, plant Märchenhochzeiten, dekoriert Schlösser und begebt euch auf verzauberte Abenteuer.",
+   "Jedes Prinzessinnenspiel startet sofort im Browser auf jedem Gerät."
+  ]
+ },
+ "topic:physics-games": {
+  "h1": "Physikspiele",
+  "kw": "physikspiele",
+  "intro": [
+   "Spielt mit der Schwerkraft in kostenlosen Physikspielen: Ragdoll-Stunts, Zerstörungs-Sandkästen, Crashtests und clevere Physikrätsel.",
+   "Physikspiele laden sofort im Browser. Zerstört alles, ganz ohne Download."
+  ]
+ },
+ "topic:running-games": {
+  "h1": "Laufspiele",
+  "kw": "laufspiele",
+  "intro": [
+   "Lauft, springt und weicht aus in kostenlosen Laufspielen: endlose Runner, Hindernisrennen und schnelle Plattform-Sprints, bei denen ein Fehler das Ende bedeutet.",
+   "Spielt sofort im Browser auf Handy oder Desktop. Schlagt eure beste Distanz."
+  ]
  }
 }
