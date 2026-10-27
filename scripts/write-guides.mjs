@@ -94,7 +94,7 @@ async function write(g, model) {
 const model = await pickModel();
 console.log('model:', model);
 let done = 0, failed = 0, i = 0;
-const CONC = 4;
+const CONC = Math.max(1, Math.min(24, parseInt(process.env.GUIDE_CONC || '4', 10) || 4));
 async function worker() {
   while (i < todo.length) {
     const g = todo[i++];

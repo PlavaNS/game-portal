@@ -5,9 +5,13 @@ on:
   workflow_dispatch:
     inputs:
       count:
-        description: 'How many games (most played without a guide)'
+        description: 'How many games (Search Console pages first, then most played)'
         default: '200'
         required: true
+      conc:
+        description: 'Parallel requests to the Claude API'
+        default: '4'
+        required: false
 
 permissions:
   contents: write
@@ -20,7 +24,7 @@ concurrency:
 jobs:
   guides:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 330
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -38,8 +42,10 @@ jobs:
           CNAME: ${{ vars.CNAME }}
       - name: Write guides
         run: node scripts/write-guides.mjs "${{ inputs.count }}"
+        timeout-minutes: 300
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.ILOVEWEBGAMES }}
+          GUIDE_CONC: ${{ inputs.conc }}
       - name: Commit guides
         run: |
           git config user.name "github-actions[bot]"
