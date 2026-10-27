@@ -151,7 +151,8 @@ const seenTitle = new Set();
 const gmMobile = new Set(readJSON(path.join(RAW, 'gm-mobile.json'), []));
 for (const g0 of pool.values()) {
   const g = normalize(g0, 'gm');
-  g.mobile = gmMobile.size ? gmMobile.has(g.srcId) : true;
+  // the mobile feed is capped, so a game is also mobile when its own text says it plays by touch
+  g.mobile = gmMobile.size ? (gmMobile.has(g.srcId) || /\b(touch ?screen|touch controls?|mobile|phone|tablet|swipe|tap)\b/i.test(g.description + " " + (g.instructions || ""))) : true;
   if (!g.title || !g.embed.startsWith('https://') || !g.thumb || g.description.length < 30) continue;
   if (isBlocked(g)) continue;
   const key = g.title.toLowerCase().replace(/[^a-z0-9]/g, '');
