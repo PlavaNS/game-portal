@@ -55,6 +55,7 @@ const gDesc = g => { const t = tgame(g); return (t && t.description) || g.descri
 const gInstr = g => { const t = tgame(g); return (t && t.instructions) || g.instructions; };
 const langsFor = g => LANGS.filter(l => (GAMETR[l.code] || {})[g.slug]);
 const catTr = key => (LANG === 'en' ? null : (CATTR[LANG] || {})[key] || null);
+const catIntro = slug => { const v = (catTr(slug) || {}).intro; return (Array.isArray(v) ? v.join(' ') : v) || CAT_INTRO[slug] || ''; };
 
 const u = p => B + PFX() + p;                      // internal link (language aware)
 const ur = p => B + p;                             // shared file at the site root (assets, icons)
@@ -468,7 +469,7 @@ function emitContent() {
     </div>
   </section>` : '';
     const catTiles = `<section class="row"><div class="row-h"><h2>${esc(tr('Categories'))}</h2></div><div class="cats">${activeCats.filter(c => catOK(c.slug)).map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
-    const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(cfg.slogan)}</span></h1><p>${all.length.toLocaleString('en')}+ free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.</p><p class="dev-cta">Made a web game? <a href="${ur('/submit-game/')}">Submit your game</a> and reach new players for free.</p></header>
+    const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${all.length.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p><p class="dev-cta">${esc(tr('Made a web game?'))} <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> ${esc(tr('and reach new players for free.'))}</p></header>
   ${hero}
   <section class="row" data-recent hidden><div class="row-h"><h2>${esc(tr('Continue playing'))}</h2></div><div class="grid"></div></section>
   ${row('🔥 ' + tr('Trending now'), u('/popular/'), top('hot', 18), true)}
@@ -478,10 +479,10 @@ function emitContent() {
   <section class="row"><div class="row-h"><h2>${esc(tr('Popular collections'))}</h2></div><p class="chips">${topics.filter(t => catOK('topic:' + t.slug)).map(t => `<a class="chip" href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join('')}</p></section>
   ${row('🏆 ' + tr('Best games'), null, top('best', 18))}
   ${activeCats.filter(c => catOK(c.slug)).map(c => row(`${CAT_ICON[c.slug] || ''} ${(catTr(c.slug) || {}).h1 || c.h1}`, cHref(c.slug), byCat[c.slug].slice(0, 12))).join('\n')}
-  <section class="seo-text"><h2>Free online games on ${esc(cfg.name)}</h2><p>${esc(cfg.name)} is a hand-picked collection of ${all.length.toLocaleString('en')} free browser games. Every game runs instantly on your computer, tablet or phone, with no downloads, no installs and no account. Play action, puzzle, racing, sports, clicker and 2 player games, and come back every day for new titles.</p></section>`;
+  <section class="seo-text"><h2>${esc(tr('Free online games on'))} ${esc(cfg.name)}</h2><p>${esc(cfg.name)} ${esc(tr('is a hand-picked collection of'))} ${all.length.toLocaleString('en')} ${esc(tr('free browser games. Every game runs instantly on your computer, tablet or phone, with no downloads, no installs and no account. Play action, puzzle, racing, sports, clicker and 2 player games, and come back every day for new titles.'))}</p></section>`;
     write('index.html', layout({
-      title: `${cfg.name} — Free Online Games, Play Instantly`,
-      desc: `${cfg.slogan} Play ${all.length.toLocaleString('en')}+ free online games: action, puzzle, racing, 2 player, clicker and more. No downloads, works on PC & mobile.`,
+      title: `${cfg.name} — ${tr('Free Online Games, Play Instantly')}`,
+      desc: `${tr(cfg.slogan)} ${tr('Play')} ${all.length.toLocaleString('en')}+ ${tr('free online games: action, puzzle, racing, 2 player, clicker and more. No downloads, works on PC & mobile.')}`,
       canonical: abs('/'), body, altPath: '/', altLangs: LANGS.filter(l => Object.keys(UI[l.code] || {}).length >= 20).map(l => l.code),
       jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.name, alternateName: cfg.name.replace(/\s+/g, ''), url: abs('/'), potentialAction: { '@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
         { '@context': 'https://schema.org', '@type': 'Organization', name: cfg.name, url: abs('/'), logo: abs('/assets/icon-512.png'), slogan: cfg.slogan, parentOrganization: { '@type': 'Organization', name: cfg.studio } }],
@@ -515,14 +516,14 @@ function emitContent() {
     if (!catOK(c.slug)) continue;
     listPages(`/c/${c.slug}/`, byCat[c.slug], {
       title: `${(catTr(c.slug) || {}).h1 || c.h1} — ${tr('Play Free Online')} | ${cfg.name}`,
-      h1: (catTr(c.slug) || {}).h1 || c.h1, intro: (catTr(c.slug) || {}).intro || CAT_INTRO[c.slug] || '',
-      desc: trunc(`${tr('Play')} ${byCat[c.slug].length}+ ${tr('free')} ${((catTr(c.slug) || {}).h1 || c.h1).toLowerCase()} ${tr('online.')} ${(catTr(c.slug) || {}).intro || CAT_INTRO[c.slug] || ''}`, 158),
+      h1: (catTr(c.slug) || {}).h1 || c.h1, intro: catIntro(c.slug),
+      desc: trunc(`${tr('Play')} ${byCat[c.slug].length}+ ${tr('free')} ${((catTr(c.slug) || {}).h1 || c.h1).toLowerCase()} ${tr('online.')} ${catIntro(c.slug)}`, 158),
       altPath: `/c/${c.slug}/`, altLangs: LANGS.filter(l => (CATTR[l.code] || {})[c.slug]).map(l => l.code),
     });
   }
-  listPages('/popular/', [...ours, ...top('most', 300)], { altPath: '/popular/', altLangs: uiLangs(), title: `${tr('Most Played Free Online Games')} | ${cfg.name}`, h1: tr('Most played games'), intro: 'The games players love most right now. All free, all instant.', desc: 'The most played free online games right now. Play instantly in your browser, no download needed.' });
-  listPages('/new/', top('newest', 192), { altPath: '/new/', altLangs: uiLangs(), title: `${tr('New Free Online Games')} | ${cfg.name}`, h1: tr('New games'), intro: 'Fresh games added to the collection. Check back daily.', desc: 'Brand new free online games, added every day. Play instantly on PC and mobile.' });
-  listPages('/all/', [...all].sort((a, b) => a.title.localeCompare(b.title)), { title: `All Games A–Z | ${cfg.name}`, h1: tr('All games A–Z'), intro: `Every game on ${cfg.name}, sorted alphabetically.`, desc: `Browse all ${all.length} free online games on ${cfg.name} from A to Z.` });
+  listPages('/popular/', [...ours, ...top('most', 300)], { altPath: '/popular/', altLangs: uiLangs(), title: `${tr('Most Played Free Online Games')} | ${cfg.name}`, h1: tr('Most played games'), intro: tr('The games players love most right now. All free, all instant.'), desc: tr('The most played free online games right now. Play instantly in your browser, no download needed.') });
+  listPages('/new/', top('newest', 192), { altPath: '/new/', altLangs: uiLangs(), title: `${tr('New Free Online Games')} | ${cfg.name}`, h1: tr('New games'), intro: tr('Fresh games added to the collection. Check back daily.'), desc: tr('Brand new free online games, added every day. Play instantly on PC and mobile.') });
+  listPages('/all/', [...all].sort((a, b) => a.title.localeCompare(b.title)), { altPath: '/all/', altLangs: uiLangs(), title: `${tr('All Games A–Z')} | ${cfg.name}`, h1: tr('All games A–Z'), intro: `${tr('Every game on')} ${cfg.name}, ${tr('sorted alphabetically.')}`, desc: `${tr('Browse all')} ${all.length} ${tr('free online games on')} ${cfg.name} ${tr('from A to Z.')}` });
 
   // TOPIC PAGES
   const topicOf = new Map();
@@ -530,7 +531,8 @@ function emitContent() {
   for (const t of topics) {
     if (!catOK('topic:' + t.slug)) continue;
     const TT = catTr('topic:' + t.slug) || {};
-    const th1 = TT.h1 || t.h1, tintro = TT.intro || t.intro, tkw = TT.kw || t.kw;
+    const th1 = TT.h1 || t.h1, tkw = TT.kw || t.kw;
+    const tintro = Array.isArray(TT.intro) ? TT.intro : (typeof TT.intro === 'string' ? [TT.intro] : t.intro);
     const others = topics.filter(o => o.slug !== t.slug).slice(0, 12);
     const body = `<nav class="crumbs"><a href="${u('/')}">${esc(tr('Home'))}</a> › <span>${esc(th1)}</span></nav>
   <header class="page-h"><h1>${esc(th1)}</h1>${tintro.map(p => `<p>${esc(p)}</p>`).join('')}</header>
@@ -630,8 +632,8 @@ function emitContent() {
   // SEARCH
   if (LANG === 'en') write('search.json', JSON.stringify(all.map(g => [g.slug, g.title, g.thumb, g.cats.main, g.tags.slice(0, 6).join(' ')])));
   write('search/index.html', layout({
-    title: `Search Games | ${cfg.name}`, desc: `Search ${all.length} free online games.`, canonical: abs('/search/'), noindex: true,
-    body: `<header class="page-h"><h1>Search games</h1></header><form class="search big" action="${u('/search/')}" role="search"><input type="search" name="q" placeholder="Type a game name or genre…" aria-label="Search" data-search-input autofocus></form><p class="muted" data-search-count></p><div class="grid" data-search-results></div>`,
+    title: `${tr('Search Games')} | ${cfg.name}`, desc: `${tr('Search')} ${all.length} ${tr('free online games.')}`, canonical: abs('/search/'), noindex: true,
+    body: `<header class="page-h"><h1>${esc(tr('Search games'))}</h1></header><form class="search big" action="${u('/search/')}" role="search"><input type="search" name="q" placeholder="Type a game name or genre…" aria-label="Search" data-search-input autofocus></form><p class="muted" data-search-count></p><div class="grid" data-search-results></div>`,
   }));
 
 }
