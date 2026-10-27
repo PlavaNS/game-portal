@@ -1,1 +1,864 @@
-{}
+{
+ "action": {
+  "name": "Action",
+  "h1": "Jeux d'action",
+  "intro": [
+   "Combattez, esquivez et battez-vous à travers des jeux d'action au rythme effréné. Chaque jeu se lance directement dans votre navigateur sur PC, tablette et téléphone."
+  ]
+ },
+ "shooting": {
+  "name": "Tir",
+  "h1": "Jeux de tir",
+  "intro": [
+   "Visez, tirez et abattez vos cibles. Des missions de sniper aux batailles de chars, ces jeux de tir gratuits se lancent instantanément sans téléchargement."
+  ]
+ },
+ "racing": {
+  "name": "Voitures & Course",
+  "h1": "Jeux de voitures & de course",
+  "intro": [
+   "Appuyez sur le champignon avec les jeux de voitures et de course gratuits : dérapez, garez-vous, faites la course à moto et conduisez des monster trucks directement depuis votre navigateur."
+  ]
+ },
+ "puzzle": {
+  "name": "Puzzle",
+  "h1": "Jeux de puzzle",
+  "intro": [
+   "Entraînez votre cerveau avec des jeux de puzzle gratuits : logique, match-3, puzzles de physique et casse-têtes à jouer en quelques secondes."
+  ]
+ },
+ "clicker-idle": {
+  "name": "Clicker & Idle",
+  "h1": "Jeux clicker & idle",
+  "intro": [
+   "Cliquez, améliorez et regardez les chiffres grimper. Nos jeux clicker et idle progressent sans cesse, donc chaque visite en vaut la peine."
+  ]
+ },
+ "arcade": {
+  "name": "Arcade",
+  "h1": "Jeux d'arcade",
+  "intro": [
+   "Des jeux d'arcade rapides et addictifs pour une petite pause ou une longue session. Faciles à prendre en main, difficiles à lâcher."
+  ]
+ },
+ "adventure": {
+  "name": "Aventure",
+  "h1": "Jeux d'aventure",
+  "intro": [
+   "Explorez de nouveaux mondes, sautez de plateforme en plateforme et échappez aux pièges les plus vicieux dans les jeux d'aventure gratuits."
+  ]
+ },
+ "sports": {
+  "name": "Sports",
+  "h1": "Jeux de sport",
+  "intro": [
+   "Marquez des buts, réussissez vos putts et shootez dans le panier. Jouez gratuitement aux jeux de sport en ligne, sans inscription."
+  ]
+ },
+ "two-player": {
+  "name": "2 joueurs",
+  "h1": "Jeux à 2 joueurs",
+  "intro": [
+   "Prenez un ami et jouez sur le même clavier ou écran. Les meilleurs jeux gratuits à 2 joueurs pour un duel amical."
+  ]
+ },
+ "multiplayer": {
+  "name": "Multijoueur & .io",
+  "h1": "Jeux multijoueur & .io",
+  "intro": [
+   "Affrontez de vrais joueurs dans les jeux multijoueur et .io. Lancez-vous, grandissez et grimpez dans le classement."
+  ]
+ },
+ "girls": {
+  "name": "Filles",
+  "h1": "Jeux pour filles",
+  "intro": [
+   "Habillez-vous, dessinez, stylez et créez. Des jeux amusants pour les filles (et tout le monde) avec mode, maquillage et relooking."
+  ]
+ },
+ "hypercasual": {
+  "name": "Casual",
+  "h1": "Jeux casual & hypercasual",
+  "intro": [
+   "Des jeux simples à un seul tap, immédiatement amusants. Parfaits pour une pause rapide sur votre téléphone ou votre ordinateur."
+  ]
+ },
+ "stickman": {
+  "name": "Stickman",
+  "h1": "Jeux Stickman",
+  "intro": [
+   "Combats, parkour et aventures en stickman. Des jeux stickman gratuits qui tournent parfaitement sur tous les appareils."
+  ]
+ },
+ "zombie": {
+  "name": "Zombie",
+  "h1": "Jeux de zombies",
+  "intro": [
+   "Survivez aux morts-vivants dans les jeux de zombies gratuits : tirez, construisez vos défenses et échappez à la horde."
+  ]
+ },
+ "3d": {
+  "name": "3D",
+  "h1": "Jeux 3D",
+  "intro": [
+   "Jeux 3D gratuits qui tournent directement dans votre navigateur : course, tir, parkour et bien d'autres, sans aucune installation."
+  ]
+ },
+ "cooking": {
+  "name": "Cuisine",
+  "h1": "Jeux de cuisine",
+  "intro": [
+   "Gérez des restaurants, préparez des gâteaux et servez des clients affamés dans des jeux de cuisine gratuits."
+  ]
+ },
+ "kids": {
+  "name": "Enfants",
+  "h1": "Jeux pour enfants",
+  "intro": [
+   "Des jeux colorés et conviviaux pour les enfants : coloriage, puzzles simples et plaisir facile à prendre en main."
+  ]
+ },
+ "mobile": {
+  "name": "Mobile",
+  "h1": "Jeux mobiles",
+  "intro": [
+   "Des jeux gratuits qui fonctionnent parfaitement sur votre téléphone et votre tablette. Appuyez pour jouer instantanément dans votre navigateur sur Android ou iPhone, sans application ni téléchargement."
+  ]
+ },
+ "topic:games-to-play-when-bored": {
+  "h1": "Jeux à jouer quand on s'ennuie",
+  "kw": "jeux gratuits à jouer quand on s'ennuie",
+  "intro": [
+   "Coincé à la maison, en pause ou en train d'attendre que quelque chose se termine ? Voici les jeux en ligne gratuits que nos joueurs reviennent le plus souvent tester : faciles à lancer, simples à prendre en main et étonnamment difficiles à lâcher.",
+   "Chaque jeu se lance instantanément dans votre navigateur sur PC, Mac, téléphone ou tablette. Pas de téléchargement, pas d'inscription : cliquez sur un jeu, jouez deux minutes ou deux heures, et revenez dès que l'ennui frappe à nouveau."
+  ]
+ },
+ "topic:mahjong": {
+  "h1": "Jeux de mahjong",
+  "kw": "mahjong en ligne gratuit",
+  "intro": [
+   "Jouez au mahjong solitaire en ligne gratuitement : associez les paires de tuiles identiques, libérez le plateau et détendez-vous avec les dispositions classiques, les variantes à relier et des puzzles frais dans l'esprit du défi quotidien.",
+   "Inutile de télécharger quoi que ce soit : chaque jeu de mahjong proposé ici fonctionne dans votre navigateur sur ordinateur et mobile, pour une petite partie rapide à tout moment."
+  ]
+ },
+ "topic:solitaire": {
+  "h1": "Jeux de cartes solitaire",
+  "kw": "solitaire en ligne gratuit",
+  "intro": [
+   "Klondike, Spider, FreeCell et bien d'autres : des jeux de cartes solitaire gratuits à jouer instantanément dans votre navigateur.",
+   "Parfaits pour une pause tranquille : règles simples, donnes infinies et aucune inscription. Fonctionne sur PC, tablette et téléphone."
+  ]
+ },
+ "topic:chess-and-board-games": {
+  "h1": "Échecs & jeux de société",
+  "kw": "jeux d'échecs et de société en ligne",
+  "intro": [
+   "Jouez aux échecs, aux dames, au backgammon, au jeu de l'oie et à d'autres jeux de société classiques en ligne gratuitement, contre l'ordinateur ou un ami sur le même écran.",
+   "Aiguisez votre stratégie en quelques clics : pas d'installation ni de compte, choisissez simplement un plateau et lancez-vous."
+  ]
+ },
+ "topic:word-games": {
+  "h1": "Jeux de mots",
+  "kw": "jeux de mots en ligne",
+  "intro": [
+   "Trouvez des mots, remplissez des mots croisés et retrouvez des lettres mélangées dans des jeux de mots en ligne gratuits qui entraînent votre vocabulaire.",
+   "Parfaits pour les adultes comme pour les enfants : jouez dans votre navigateur sur n'importe quel appareil, sans téléchargement."
+  ]
+ },
+ "topic:sudoku-and-number-puzzles": {
+  "h1": "Sudoku & casse-têtes numériques",
+  "kw": "sudoku en ligne gratuit",
+  "intro": [
+   "Sudoku, 2048, nonogrammes et autres casse-têtes numériques pour garder votre cerveau en forme. Jouez gratuitement en ligne, du niveau facile au diabolique.",
+   "Inutile de crayon : chaque puzzle fonctionne dans votre navigateur sur PC et mobile."
+  ]
+ },
+ "topic:match-3-games": {
+  "h1": "Jeux Match 3",
+  "kw": "jeux match 3 en ligne",
+  "intro": [
+   "Échangez, alignez et faites exploser des pièces colorées dans nos jeux match-3 gratuits. Des centaines de niveaux, des combos satisfaisants et aucun téléchargement.",
+   "Idéal pour de courtes parties sur votre téléphone ou de longues sessions détendues sur votre ordinateur."
+  ]
+ },
+ "topic:bubble-shooter": {
+  "h1": "Jeux Bubble Shooter",
+  "kw": "bubble shooter en ligne",
+  "intro": [
+   "Visez, tirez et faites éclater les bulles de même couleur dans nos jeux bubble shooter gratuits, le classique du puzzle d'arcade qui ne vieillit jamais.",
+   "Et en plus, notre propre Bubble Wrap : faites éclater une planète entière faite de papier bulle. Tout gratuit, tout instantané, sur n'importe quel appareil."
+  ]
+ },
+ "topic:hidden-object-games": {
+  "h1": "Jeux d'objets cachés",
+  "kw": "jeux d'objets cachés en ligne gratuits",
+  "intro": [
+   "Fouillez des scènes détaillées, repérez les différences et trouvez chaque objet caché dans nos jeux d'objets cachés gratuits.",
+   "Détendus, scénarisés et jouables directement dans votre navigateur, sans téléchargement ni compte."
+  ]
+ },
+ "topic:escape-room-games": {
+  "h1": "Jeux d'escape room",
+  "kw": "jeux d'escape room en ligne",
+  "intro": [
+   "Trouvez des indices, résolvez des énigmes et échappez-vous dans nos jeux d'escape room en ligne gratuits. Chaque salle est un nouveau mystère à percer.",
+   "Créé par l'équipe derrière Door 404, une vraie salle d'escape game à Novi Sad : nous adorons les bons casse-têtes. Jouez instantanément dans votre navigateur."
+  ]
+ },
+ "topic:merge-games": {
+  "h1": "Jeux Merge",
+  "kw": "jeux merge en ligne",
+  "intro": [
+   "Combinez deux éléments identiques pour en créer un plus grand : des jeux merge gratuits remplis d'améliorations satisfaisantes et de découvertes surprenantes.",
+   "Jouez à des puzzles merge casual et à des tycoons merge idle en ligne sur PC et mobile, sans téléchargement."
+  ]
+ },
+ "topic:idle-and-tycoon-games": {
+  "h1": "Jeux Idle & Tycoon",
+  "kw": "jeux tycoon idle en ligne",
+  "intro": [
+   "Bâtissez des empires, dirigez des entreprises et regardez l'argent affluer, même pendant votre absence. Des jeux idle, clicker et tycoon gratuits à jouer dans votre navigateur.",
+   "Commencez petit, améliorez intelligemment et revenez voir des chiffres plus élevés à chaque visite."
+  ]
+ },
+ "topic:car-parking-games": {
+  "h1": "Jeux de parking de voiture",
+  "kw": "jeux de parking de voiture en ligne",
+  "intro": [
+   "Glissez dans les places serrées, faites marche arrière comme un pro et maîtrisez chaque défi de stationnement dans nos jeux de parking de voiture gratuits.",
+   "Simulateurs de parking 3D réalistes et jeux de parking-puzzle rapides, tous jouables en ligne sans téléchargement."
+  ]
+ },
+ "topic:truck-and-driving-games": {
+  "h1": "Jeux de camion et de conduite",
+  "kw": "jeux de conduite de camion en ligne",
+  "intro": [
+   "Conduisez camions, bus, taxis et tracteurs dans des jeux de simulation de conduite gratuits. Livrez la marchandise, respectez le code de la route ou roulez tranquillement.",
+   "Aucune installation requise : prenez le volant directement depuis votre navigateur."
+  ]
+ },
+ "topic:motorcycle-and-bike-games": {
+  "h1": "Jeux de moto et de vélo",
+  "kw": "jeux de moto en ligne",
+  "intro": [
+   "Faites des wheelies, réussissez vos cascades et battez le chrono dans des jeux de moto et de vélo gratuits.",
+   "Des trials à la course de rue, chaque jeu se lance instantanément dans votre navigateur sur PC et mobile."
+  ]
+ },
+ "topic:drift-games": {
+  "h1": "Jeux de drift",
+  "kw": "jeux de drift en ligne",
+  "intro": [
+   "Glissez de travers dans les virages serrés et accumulez les points de drift dans nos jeux de drift en ligne gratuits.",
+   "Réglez votre voiture, maîtrisez le frein à main et jouez directement dans votre navigateur."
+  ]
+ },
+ "topic:soccer-games": {
+  "h1": "Jeux de football",
+  "kw": "jeux de football en ligne",
+  "intro": [
+   "Marquez des buts, tirez les penalties et remportez la coupe dans des jeux de football en ligne gratuits.",
+   "Jouez seul ou à 2 joueurs sur un même clavier, sans téléchargement : il suffit de donner le coup d'envoi."
+  ]
+ },
+ "topic:basketball-games": {
+  "h1": "Jeux de basket-ball",
+  "kw": "jeux de basket en ligne",
+  "intro": [
+   "Shootez dans le panier, réussissez des tirs acrobatiques et smashez dans des jeux de basket-ball en ligne gratuits.",
+   "Rapide à lancer sur votre téléphone ou ordinateur, sans inscription requise."
+  ]
+ },
+ "topic:golf-and-pool-games": {
+  "h1": "Golf & Billard",
+  "kw": "jeux de mini golf et billard en ligne",
+  "intro": [
+   "Mini-golf, billard 8 boules, snooker, bowling et fléchettes : des jeux de sport précis et relaxants à jouer gratuitement en ligne.",
+   "Visez avec soin, jouez contre l'ordinateur ou un ami, directement dans votre navigateur."
+  ]
+ },
+ "topic:sniper-games": {
+  "h1": "Jeux de Sniper",
+  "kw": "jeux de sniper en ligne",
+  "intro": [
+   "Stabilisez votre visée, retenez votre souffle et réalisez le tir parfait dans les jeux de sniper gratuits en ligne.",
+   "Des jeux de tir à missions qui se lancent instantanément dans votre navigateur, sans téléchargement."
+  ]
+ },
+ "topic:tank-and-war-games": {
+  "h1": "Jeux de Tank & de Guerre",
+  "kw": "jeux de tank en ligne",
+  "intro": [
+   "Commandez des chars, dirigez des armées et remportez des batailles dans les jeux de guerre et de tanks gratuits en ligne.",
+   "Pleins d'action et de stratégie, jouables sur PC et mobile sans installation."
+  ]
+ },
+ "topic:tower-defense-games": {
+  "h1": "Jeux de Tower Defense",
+  "kw": "jeux tower defense en ligne",
+  "intro": [
+   "Construisez des tours, améliorez vos défenses et repoussez vague après vague d'ennemis dans les jeux de tower defense gratuits.",
+   "Planifiez intelligemment, jouez en ligne, sans téléchargement."
+  ]
+ },
+ "topic:ninja-and-fighting-games": {
+  "h1": "Jeux de Ninja & de Combat",
+  "kw": "jeux de combat en ligne",
+  "intro": [
+   "Frappez, donnez des coups de pied, bloquez et enchaînez vos combos vers la victoire dans les jeux de combat gratuits en ligne, des bagarres de stickmen aux aventures ninja.",
+   "De nombreux jeux prennent en charge 2 joueurs sur un même clavier. Jouez instantanément dans votre navigateur."
+  ]
+ },
+ "topic:monster-truck-games": {
+  "h1": "Jeux de Monster Truck",
+  "kw": "jeux de monster truck en ligne",
+  "intro": [
+   "Écrasez des voitures, grimpez les collines et survolez les rampes dans les jeux de monster truck et de tout-terrain gratuits.",
+   "De grandes roues, de grands sauts, aucun téléchargement : jouez dans votre navigateur."
+  ]
+ },
+ "topic:fishing-games": {
+  "h1": "Jeux de pêche",
+  "kw": "jeux de pêche en ligne",
+  "intro": [
+   "Lancez votre ligne, attrapez des poissons rares et améliorez votre équipement dans les jeux de pêche en ligne gratuits.",
+   "Jeux de pêche idle et d'arcade détendants, pour tous les âges."
+  ]
+ },
+ "topic:coloring-and-drawing-games": {
+  "h1": "Jeux de coloriage et de dessin",
+  "kw": "jeux de coloriage en ligne",
+  "intro": [
+   "Coloriez des images, peignez par numéros et dessinez vos propres créations dans les jeux de coloriage et de dessin gratuits.",
+   "Un plaisir calme et créatif pour les enfants comme pour les adultes, directement dans votre navigateur."
+  ]
+ },
+ "topic:dress-up-games": {
+  "h1": "Jeux d'habillage",
+  "kw": "jeux d'habillage en ligne",
+  "intro": [
+   "Composez des tenues, essayez du maquillage et créez des looks fabuleux dans les jeux d'habillage et de mode gratuits en ligne.",
+   "Des centaines de vêtements et d'accessoires à associer, jouables sur tous les appareils."
+  ]
+ },
+ "topic:cooking-games": {
+  "h1": "Jeux de cuisine et de restaurant",
+  "kw": "jeux de cuisine en ligne",
+  "intro": [
+   "Gérez un café, préparez des gâteaux et servez des clients affamés dans les jeux de cuisine et de restaurant gratuits.",
+   "Un jeu de gestion du temps qui fonctionne parfaitement sur téléphone comme sur ordinateur."
+  ]
+ },
+ "topic:animal-games": {
+  "h1": "Jeux d'animaux",
+  "kw": "jeux d'animaux en ligne",
+  "intro": [
+   "Les jeux d'animaux font partie des jeux en ligne gratuits les plus populaires : gérez un zoo, prenez soin d'animaux de compagnie, soignez des animaux dans une clinique vétérinaire, élevez une ferme ou explorez le monde en tant que chat, chien, cheval ou dinosaure. Cette page les rassemble au même endroit, des gestionnaires idle relaxants aux défis d'arcade rapides.",
+   "La plupart des jeux d'animaux conviennent à toute la famille et se prennent en main facilement, ce qui les rend parfaits pour les enfants comme pour les adultes. Chaque jeu se lance instantanément dans votre navigateur sur téléphone, tablette ou ordinateur, sans téléchargement ni inscription."
+  ]
+ },
+ "topic:jigsaw-puzzles": {
+  "h1": "Puzzles",
+  "kw": "puzzles en ligne gratuits",
+  "intro": [
+   "Reconstituez de belles images dans les puzzles en ligne gratuits, des puzzles rapides de 16 pièces aux défis plus relaxants.",
+   "Pas besoin de table : jouez dans votre navigateur sur PC, tablette ou téléphone."
+  ]
+ },
+ "topic:snake-games": {
+  "h1": "Jeux de Snake",
+  "kw": "jeux snake en ligne",
+  "intro": [
+   "Mangez, grandissez et évitez votre propre queue dans les jeux de snake gratuits, du classique rétro aux combats en ligne modernes.",
+   "Jouez instantanément dans votre navigateur, sans téléchargement."
+  ]
+ },
+ "topic:parkour-and-obby-games": {
+  "h1": "Jeux de Parkour & Obby",
+  "kw": "jeux de parkour en ligne",
+  "intro": [
+   "Courez, sautez et grimpez à travers des parcours d'obstacles dans des jeux de parkour, d'obby et de runner gratuits.",
+   "Des plateformes au rythme effréné qui tournent en douceur dans votre navigateur."
+  ]
+ },
+ "topic:horror-games": {
+  "h1": "Jeux d'Horreur",
+  "kw": "jeux d'horreur en ligne",
+  "intro": [
+   "Explorez des maisons hantées, échappez à des monstres et survivez à la nuit dans des jeux d'horreur en ligne gratuits.",
+   "Effrayant mais compatible navigateur, aucun téléchargement requis. Idéal à jouer lumières éteintes."
+  ]
+ },
+ "topic:2-player-games": {
+  "h1": "Jeux à 2 Joueurs",
+  "kw": "jeux à 2 joueurs",
+  "intro": [
+   "Prenez un ami et jouez à des jeux à 2 joueurs gratuits sur un même clavier ou un même téléphone : courses, duels, matchs sportifs et batailles de physique loufoques où un seul d'entre vous peut gagner.",
+   "Chaque jeu se lance instantanément dans votre navigateur, sans téléchargement ni compte. Parfait pour une revanche rapide sur le canapé, à l'école ou pendant une pause."
+  ]
+ },
+ "topic:io-games": {
+  "h1": "Jeux .io",
+  "kw": "jeux io",
+  "intro": [
+   "Lancez-vous dans des jeux .io gratuits : grandissez, déjouez les autres joueurs et grimpez au classement dans des parties rapides qui démarrent en un clic.",
+   "Aucune installation et aucune inscription. Ces jeux .io dans le navigateur fonctionnent sur PC, Mac et la plupart des téléphones, pour une partie rapide où que vous soyez."
+  ]
+ },
+ "topic:car-games": {
+  "h1": "Jeux de Voiture",
+  "kw": "jeux de voiture",
+  "intro": [
+   "Conduisez, roulez, dérapez et percutez dans des jeux de voiture gratuits : de la course sur autoroute réaliste aux circuits de cascades, défis de stationnement et derbys de démolition.",
+   "Tous les jeux de voiture proposés ici tournent directement dans votre navigateur, sur ordinateur et mobile. Choisissez une voiture, appuyez sur l'accélérateur et jouez instantanément, sans téléchargement."
+  ]
+ },
+ "topic:racing-games": {
+  "h1": "Jeux de course",
+  "kw": "jeux de course en ligne gratuits",
+  "intro": [
+   "Des jeux de course en ligne gratuits pour tous les pilotes : courses de rue, épreuves de rallye, karts, motos et circuits futuristes ultra-rapides.",
+   "Battez votre meilleur tour, débloquez des bolides plus rapides et repartez en course en quelques secondes. Tout se joue directement dans votre navigateur, sans téléchargement."
+  ]
+ },
+ "topic:shooting-games": {
+  "h1": "Jeux de tir",
+  "kw": "jeux de tir gratuits",
+  "intro": [
+   "Visez, tirez et survivez dans les jeux de tir gratuits : FPS, missions de sniper, vagues de zombies et fusillades d'arcade.",
+   "Ces jeux de tir jouables dans le navigateur se lancent instantanément sur PC, et beaucoup fonctionnent aussi sur mobile. Pas de téléchargement, pas d'inscription, il ne reste plus qu'à viser."
+  ]
+ },
+ "topic:puzzle-games": {
+  "h1": "Jeux de puzzle",
+  "kw": "jeux de puzzle gratuits",
+  "intro": [
+   "Entraînez votre cerveau avec les jeux de puzzle gratuits : puzzles de blocs, jeux de tri, défis de logique, jeux d'association de tuiles et énigmes ingénieuses par niveaux.",
+   "Jouez un niveau ou cent. Chaque jeu de puzzle proposé ici tourne dans votre navigateur sur ordinateur et mobile, sans téléchargement ni inscription."
+  ]
+ },
+ "topic:card-games": {
+  "h1": "Jeux de cartes",
+  "kw": "jeux de cartes en ligne gratuits",
+  "intro": [
+   "Jouez gratuitement aux jeux de cartes classiques en ligne : Solitaire, Spider, FreeCell et de nombreux nouveaux casse-têtes de cartes, pour quelques minutes calmes ou une longue session.",
+   "Les cartes sont distribuées instantanément dans votre navigateur sur PC, tablette et téléphone. Pas de téléchargement, pas de compte, aucune mise d'argent, juste le jeu."
+  ]
+ },
+ "topic:stickman-games": {
+  "h1": "Jeux stickman",
+  "kw": "jeux stickman",
+  "intro": [
+   "Des silhouettes simples, de l'action à gogo : jeux stickman gratuits remplis de combats, de physique ragdoll, de parcours de parkour, de duels à l'arc et de cascades folles.",
+   "Les jeux stickman se chargent vite et se lancent instantanément dans votre navigateur, sur n'importe quel appareil. Choisissez-en un et voyez jusqu'où votre petit héros peut aller."
+  ]
+ },
+ "topic:clicker-games": {
+  "h1": "Jeux clicker",
+  "kw": "jeux clicker gratuits",
+  "intro": [
+   "Cliquez, améliorez et regardez les chiffres exploser dans les jeux clicker gratuits. Commencez petit, automatisez tout et bâtissez un empire à coups de clic.",
+   "Les jeux clicker et idle sauvegardent votre progression dans le navigateur : revenez plus tard récupérer vos gains. Aucun téléchargement nécessaire."
+  ]
+ },
+ "topic:zombie-games": {
+  "h1": "Jeux de zombies",
+  "kw": "jeux zombies",
+  "intro": [
+   "Survivez à l'épidémie dans les jeux de zombies gratuits : tirez sur des hordes, construisez des défenses, traversez des villes infectées et tenez bon jusqu'à la dernière vague.",
+   "Tous les jeux de zombies proposés ici se lancent directement dans votre navigateur. Pas de téléchargement, pas d'inscription, juste vous contre les morts-vivants."
+  ]
+ },
+ "topic:multiplayer-games": {
+  "h1": "Jeux multijoueurs",
+  "kw": "jeux multijoueurs en ligne",
+  "intro": [
+   "Jouez à des jeux multijoueurs gratuits contre de vrais joueurs du monde entier : arènes, courses, jeux de tir et batailles .io qui démarrent en quelques secondes.",
+   "Aucune installation et aucun compte requis pour la plupart des jeux. Ouvrez-en un dans votre navigateur et rejoignez la partie."
+  ]
+ },
+ "topic:games-for-girls": {
+  "h1": "Jeux pour filles",
+  "kw": "jeux pour filles",
+  "intro": [
+   "Des jeux gratuits pour filles pleins de style et de créativité : habillez des stars et des princesses, créez des tenues, faites du maquillage et des ongles et gérez votre propre salon.",
+   "Tous les jeux se lancent instantanément dans votre navigateur sur téléphone, tablette et ordinateur. Pas de téléchargement, pas d'inscription, juste du plaisir."
+  ]
+ },
+ "topic:kids-games": {
+  "h1": "Jeux pour enfants",
+  "kw": "jeux pour enfants",
+  "intro": [
+   "Des jeux gratuits colorés et conviviaux pour enfants : coloriages, puzzles simples, jeux sur les animaux, jeux éducatifs et aventures douces.",
+   "Les jeux fonctionnent dans le navigateur, sans téléchargement ni compte. Comme toujours, les parents doivent surveiller les plus jeunes enfants pendant qu'ils jouent en ligne."
+  ]
+ },
+ "topic:brain-games": {
+  "h1": "Jeux de réflexion",
+  "kw": "jeux de réflexion",
+  "intro": [
+   "Entraînez votre esprit avec les jeux de réflexion gratuits : tests de mémoire, puzzles de logique, quiz, défis de maths et énigmes complexes.",
+   "Quelques minutes par jour suffisent pour rester vif. Jouez instantanément dans votre navigateur sur n'importe quel appareil, sans téléchargement."
+  ]
+ },
+ "topic:math-games": {
+  "h1": "Jeux de maths",
+  "kw": "jeux de maths",
+  "intro": [
+   "Pratiquez les nombres de façon ludique avec les jeux de maths gratuits : 2048, sudoku, fusions de nombres, défis de calcul et puzzles d'arithmétique rapides.",
+   "Idéal pour les élèves comme pour les adultes. Tout fonctionne dans votre navigateur sur PC et mobile, sans téléchargement."
+  ]
+ },
+ "topic:2048-games": {
+  "h1": "Jeux 2048",
+  "kw": "jeu 2048",
+  "intro": [
+   "Glissez les tuiles, fusionnez les nombres identiques et cherchez la tuile 2048. Jouez à la version classique et aux variantes originales comme 2048 avec des balles, des blocs et des fruits.",
+   "Chaque jeu 2048 proposé ici est gratuit et fonctionne dans votre navigateur, sur ordinateur comme sur mobile. Un coup de plus est toujours tentant."
+  ]
+ },
+ "topic:block-puzzle-games": {
+  "h1": "Jeux de puzzle en blocs",
+  "kw": "jeux de puzzle en blocs",
+  "intro": [
+   "Faites tomber, tournez et ajustez les pièces dans des jeux de puzzle en blocs gratuits. Effacez des lignes, enchaînez les combos et battez votre meilleur score, en mode détendu ou rapide.",
+   "Les puzzles en blocs sont parfaits pour les pauses courtes. Jouez instantanément dans votre navigateur, sur téléphone ou sur ordinateur, sans téléchargement."
+  ]
+ },
+ "topic:sorting-games": {
+  "h1": "Jeux de tri",
+  "kw": "jeux de tri",
+  "intro": [
+   "Des jeux de tri gratuits et satisfaisants : triez les couleurs, les balles, les liquides, les vis, les marchandises et les pièces en désordre jusqu'à ce que tout soit parfaitement en place.",
+   "Relaxants, malins et rapides à prendre en main. Chaque jeu de tri fonctionne dans votre navigateur, sur ordinateur comme sur mobile."
+  ]
+ },
+ "topic:relaxing-games": {
+  "h1": "Jeux relaxants",
+  "kw": "jeux relaxants",
+  "intro": [
+   "Ralentissez avec des jeux relaxants gratuits : puzzles reposants, jeux ASMR satisfaisants, coloriage, tri et jeux idle doux, sans stress.",
+   "Pas de minuteur impossible à ignorer, pas de téléchargement et pas d'inscription. Ouvrez simplement un jeu dans votre navigateur et détendez-vous."
+  ]
+ },
+ "topic:simulator-games": {
+  "h1": "Jeux de simulation",
+  "kw": "jeux de simulation",
+  "intro": [
+   "Vivez une autre vie avec des jeux de simulation gratuits : conduisez bus et camions, gérez magasins et fermes, dirigez des entreprises ou amusez-vous simplement avec la physique.",
+   "Jouez instantanément dans votre navigateur, sur PC et mobile. Pas de téléchargement, pas de compte, lancez la simulation en quelques secondes."
+  ]
+ },
+ "topic:bus-games": {
+  "h1": "Jeux de bus",
+  "kw": "jeux de bus",
+  "intro": [
+   "Conduisez bus urbains, autocars et bus scolaires dans des jeux de bus gratuits. Prenez des passagers, suivez les itinéraires, garez-vous dans les espaces serrés et respectez les horaires.",
+   "Chaque jeu de bus fonctionne dans votre navigateur sans téléchargement. Commencez votre service dès maintenant."
+  ]
+ },
+ "topic:airplane-games": {
+  "h1": "Jeux d'avion",
+  "kw": "jeux d'avion",
+  "intro": [
+   "Décollez avec les jeux d'avion gratuits : pilotez des avions de ligne, des avions de chasse et des hélicoptères, posez-vous sur des pistes délicates et survivez aux combats aériens.",
+   "Jouez instantanément dans votre navigateur sur ordinateur ou mobile. Pas de téléchargement, pas d'inscription, juste un ciel dégagé."
+  ]
+ },
+ "topic:bike-games": {
+  "h1": "Jeux de moto",
+  "kw": "jeux de moto",
+  "intro": [
+   "Jeux de moto gratuits pour les fans de cascades : motos tout-terrain, figures BMX, circuits de motocross et parcours d'obstacles délirants où l'équilibre est tout.",
+   "Faites des sauts périlleux, atterrissez et repartez en course. Tous les jeux de moto se jouent dans votre navigateur, sans téléchargement."
+  ]
+ },
+ "topic:cat-games": {
+  "h1": "Jeux de chat",
+  "kw": "jeux de chat",
+  "intro": [
+   "Des jeux de chat gratuits qui font ronronner : prenez soin de chatons adorables, résolvez des puzzles félins, courez, sautez et semez le chaos en tant que félin espiègle.",
+   "Chaque jeu de chat fonctionne dans votre navigateur sur PC et mobile. Pas de téléchargement, juste des chats."
+  ]
+ },
+ "topic:dinosaur-games": {
+  "h1": "Jeux de dinosaures",
+  "kw": "jeux de dinosaures",
+  "intro": [
+   "Foulez la terre avec les jeux de dinosaures gratuits : courez en tant que T-Rex, chassez, évoluez, déterrez des fossiles et survivez dans des mondes préhistoriques.",
+   "Jouez instantanément dans votre navigateur sur n'importe quel appareil, sans téléchargement. Rugissez !"
+  ]
+ },
+ "topic:space-games": {
+  "h1": "Jeux de l'espace",
+  "kw": "jeux de l'espace",
+  "intro": [
+   "Décollez avec les jeux spatiaux gratuits : pilotez des fusées, combattez des flottes extraterrestres, exploitez des astéroïdes et explorez d'étranges planètes loin de chez vous.",
+   "Tous les jeux spatiaux se jouent dans votre navigateur sur ordinateur et mobile, sans téléchargement."
+  ]
+ },
+ "topic:archery-games": {
+  "h1": "Jeux de tir à l'arc",
+  "kw": "jeux de tir à l'arc",
+  "intro": [
+   "Bandez votre arc avec les jeux de tir à l'arc gratuits : touchez des cibles, tirez sur des pommes, défiez d'autres archers et réussissez des tirs à longue portée impossibles.",
+   "Les jeux de tir à l'arc se lancent instantanément dans votre navigateur. Main sûre, pas de téléchargement nécessaire."
+  ]
+ },
+ "topic:boxing-games": {
+  "h1": "Jeux de boxe",
+  "kw": "jeux de boxe",
+  "intro": [
+   "Entrez dans l'arène avec des jeux de boxe et de catch gratuits : enchaînez les coups, esquivez les attaques et mettez K.O. vos adversaires dans des combats d'arcade rapides.",
+   "Tous les jeux de combat proposés ici se jouent directement dans votre navigateur sur PC et mobile, sans téléchargement."
+  ]
+ },
+ "topic:farm-games": {
+  "h1": "Jeux de ferme",
+  "kw": "jeux de ferme",
+  "intro": [
+   "Cultivez, élevez des animaux et agrandissez vos terres avec les jeux de ferme gratuits. Conduisez des tracteurs, récoltez vos champs et bâtissez une ferme prospère.",
+   "Jouez instantanément dans votre navigateur, sans téléchargement. Votre ferme vous attend."
+  ]
+ },
+ "topic:makeup-games": {
+  "h1": "Jeux de maquillage",
+  "kw": "jeux de maquillage",
+  "intro": [
+   "Jeux de maquillage gratuits pour les passionnés de beauté : créez des looks glamour, faites des ongles et des coiffures, gérez un spa et transformez vos personnages du quotidien au tapis rouge.",
+   "Jouez dans votre navigateur sur téléphone, tablette ou ordinateur. Sans téléchargement ni inscription."
+  ]
+ },
+ "topic:princess-games": {
+  "h1": "Jeux de princesses",
+  "kw": "jeux de princesses",
+  "intro": [
+   "Jeux de princesses gratuits pleins de magie et de style : habillez des princesses, organisez des mariages de conte de fées, décorez des châteaux et partez pour des aventures enchantées.",
+   "Chaque jeu de princesses se lance instantanément dans votre navigateur, sur n'importe quel appareil."
+  ]
+ },
+ "topic:physics-games": {
+  "h1": "Jeux de physique",
+  "kw": "jeux de physique",
+  "intro": [
+   "Jouez avec la gravité grâce aux jeux de physique gratuits : cascades ragdoll, bacs à sable de destruction, crash tests et puzzles de physique astucieux.",
+   "Les jeux de physique se chargent instantanément dans votre navigateur. Cassez tout, sans téléchargement."
+  ]
+ },
+ "topic:running-games": {
+  "h1": "Jeux de course",
+  "kw": "jeux de course",
+  "intro": [
+   "Courez, sautez et esquivez dans les jeux de course gratuits : runners sans fin, parcours d'obstacles et sprints de plateforme rapides où une seule erreur met fin à la partie.",
+   "Jouez instantanément dans votre navigateur sur mobile ou ordinateur. Battez votre meilleure distance."
+  ]
+ },
+ "topic:halloween-games": {
+  "h1": "Jeux d'Halloween",
+  "kw": "jeux halloween",
+  "intro": [
+   "Halloween est la meilleure occasion pour jouer à quelque chose d'un peu effrayant. Cette page rassemble au même endroit des jeux d'Halloween gratuits : sculptez et écrasez des citrouilles, faufilez-vous dans des maisons hantées, associez des tuiles sorcières, triez des potions et déguisez-vous pour la grande nuit. Il y en a pour toutes les envies, des puzzles relaxants aux évasions à sursauts.",
+   "De nouveaux jeux saisonniers apparaissent ici au fur et à mesure que nos partenaires les publient en octobre, et chaque jeu se lance directement dans votre navigateur sur téléphone, tablette ou ordinateur, sans téléchargement ni inscription. Choisissez un jeu, prenez quelques bonbons et amusez-vous bien. Un bonbon ou un sort !"
+  ]
+ },
+ "topic:christmas-games": {
+  "h1": "Jeux de Noël",
+  "kw": "jeux de noël",
+  "intro": [
+   "Fêtez Noël avec des jeux de Noël gratuits : aidez le Père Noël à livrer les cadeaux, décorez des sapins, construisez des bonhommes de neige et résolvez des puzzles d'hiver festifs.",
+   "Chaque jeu de Noël se lance instantanément dans votre navigateur sur PC et mobile."
+  ]
+ },
+ "topic:pirate-games": {
+  "h1": "Jeux de Pirates",
+  "kw": "jeux de pirates",
+  "intro": [
+   "Hissez les voiles avec les jeux de pirates gratuits : livrez des batailles navales, partez à la chasse au trésor, défendez votre île et régnez sur les sept mers.",
+   "Les jeux de pirates se lancent instantanément dans votre navigateur, sans téléchargement. Yo ho ho !"
+  ]
+ },
+ "topic:thanksgiving-games": {
+  "h1": "Jeux de Thanksgiving",
+  "kw": "jeux de thanksgiving",
+  "intro": [
+   "Célébrez la saison avec des jeux gratuits de Thanksgiving et d'automne : attrapez la dinde en fuite, préparez des tartes, récoltez la moisson et résolvez des puzzles douillets sur le thème de l'automne.",
+   "Tous les jeux se lancent instantanément dans votre navigateur sans téléchargement, ce qui en fait une excellente activité pour toute la famille pendant que le dîner cuit au four."
+  ]
+ },
+ "topic:witch-and-wizard-games": {
+  "h1": "Jeux de Sorcières et de Magiciens",
+  "kw": "jeux de sorcière",
+  "intro": [
+   "Préparez des potions, lancez des sorts et défendez votre tour grâce à la magie dans les jeux gratuits de sorcières et de magiciens. Que vous vouliez une sorcière d'Halloween effrayante, un vieux mage sage ou une bataille magique épique, vous la trouverez ici.",
+   "Chaque jeu de magie se lance instantanément dans votre navigateur sur PC, tablette et téléphone, sans téléchargement ni inscription. Choisissez un grimoire et commencez à jouer en quelques secondes."
+  ]
+ },
+ "topic:monster-games": {
+  "h1": "Jeux de Monstres",
+  "kw": "jeux de monstres",
+  "intro": [
+   "Rencontrez des blobs sympathiques, des bêtes géantes et des créatures effrayantes dans nos jeux de monstres gratuits. Combattez des mutants, faites évoluer votre propre créature, fuyez un troll affamé ou élevez un monstre de poche qui grandit à chaque niveau.",
+   "Chaque jeu de monstres proposé ici se lance instantanément dans votre navigateur sur PC, tablette ou téléphone, sans téléchargement ni inscription. Un choix parfait pour la semaine d'Halloween ou pour toute soirée où vous avez envie de quelque chose d'un peu sauvage."
+  ]
+ },
+ "topic:building-games": {
+  "h1": "Jeux de construction et d'artisanat",
+  "kw": "jeux de construction",
+  "intro": [
+   "Empile, creuse, fabrique et conçois dans les jeux de construction gratuits. Extrais des ressources dans des mondes en blocs, fais monter une skyline à partir d'un terrain vide, dirige un chantier ou fabrique des outils pour survivre à la nuit.",
+   "Ces jeux de bac à sable et de construction se lancent directement dans le navigateur, sans installation qui prend du temps. Commence petit, vois grand et découvre jusqu'où ta création peut grandir."
+  ]
+ },
+ "topic:candy-games": {
+  "h1": "Jeux de bonbons",
+  "kw": "jeux de bonbons",
+  "intro": [
+   "Remplis ton sac avec les jeux de bonbons gratuits : échange des tuiles sucrées dans des puzzles match-3, gère une boutique de desserts, empile des cupcakes, décore des donuts et fais éclater des blocs de gelée pour de gros combos.",
+   "Les jeux sucrés sont une façon amusante de se mettre dans l'ambiance pour la nuit d'Halloween ou de se détendre après une longue journée. Tout fonctionne dans ton navigateur sur téléphone ou PC, sans calories ni téléchargement."
+  ]
+ },
+ "topic:ghost-games": {
+  "h1": "Jeux de fantômes",
+  "kw": "jeux de fantômes",
+  "intro": [
+   "Des bruits étranges dans la nuit avec ces jeux de fantômes gratuits. Explore des maisons hantées, aide un esprit amical à retrouver son chemin, chasse des fantômes effrayants ou résous des énigmes sinistres, le tout directement depuis ton navigateur.",
+   "À l'approche d'Halloween, les jeux de fantômes sont un bon choix pour qui aime les frissons sans vraie peur. Ils se lancent instantanément sur téléphone, tablette et PC, sans rien à télécharger."
+  ]
+ },
+ "topic:mining-games": {
+  "h1": "Jeux de minage",
+  "kw": "jeux de minage",
+  "intro": [
+   "Prends ta pioche et creuse profond dans les jeux de minage gratuits. Traverse la roche à la recherche d'or et de gemmes, améliore tes foreuses dans des jeux de gestion minière idle, ou fonce vers le fond dans des arcades de creusage rapides.",
+   "Les jeux de minage mêlent la tranquillité de la collecte au frisson de trouver quelque chose de rare dans la couche suivante. Joue dans ton navigateur sur n'importe quel appareil, sans installation ni compte."
+  ]
+ },
+ "topic:robot-games": {
+  "h1": "Jeux de robots",
+  "kw": "jeux de robots",
+  "intro": [
+   "Recharge tes batteries avec les jeux de robots gratuits : pilote des mechs géants dans des combats d'arène, construis et transforme ton propre robot, résous des puzzles en tant que petit droïde ou fais la course de machines futuristes sur des circuits néon.",
+   "Des combats arcade rapides aux puzzles de logique malins, les jeux de robots plaisent à tous les âges. Tout se charge instantanément dans ton navigateur sur mobile ou ordinateur, sans téléchargement."
+  ]
+ },
+ "topic:pumpkin-games": {
+  "h1": "Jeux de citrouilles",
+  "kw": "jeux de citrouilles",
+  "intro": [
+   "Taille-toi une dose de plaisir avec les jeux de citrouilles gratuits : écrase et associe des lanternes d'Halloween lumineuses, guide une citrouille qui roule à travers des niveaux effrayants, décore ta propre parcelle ou fais éclater des bulles d'automne avant qu'elles n'atteignent le bas.",
+   "Ces jeux aux couleurs orange sont parfaits pour les fêtes d'Halloween, une douce soirée d'automne ou une pause rapide en classe. Chaque jeu tourne directement dans ton navigateur sur téléphone, tablette ou ordinateur, sans rien installer."
+  ]
+ },
+ "topic:gun-games": {
+  "h1": "Jeux de Tir",
+  "kw": "jeux de tir",
+  "intro": [
+   "Armez-vous et chargez avec des jeux de tir gratuits jouables directement dans votre navigateur : duels de stickmen, tireurs en pixel art, entraînement au tir avec pistolets et fusils, puzzles de fusion d'armes et arcade rapide où chaque balle compte.",
+   "Certains jeux misent sur les réflexes et la visée, d'autres sur l'amélioration de vos armes ou sur des niveaux de tirs complexes à résoudre. Tous se lancent instantanément sur PC, tablette et téléphone, sans téléchargement ni compte."
+  ]
+ },
+ "topic:fish-games": {
+  "h1": "Jeux de Poissons",
+  "kw": "jeux de poissons",
+  "intro": [
+   "Plongez sous les vagues avec des jeux de poissons gratuits : triez des poissons colorés dans des puzzles malins, faites grandir un petit poisson jusqu'à devenir le roi de l'océan, gérez votre propre aquarium ou nagez en requin affamé à la recherche de son prochain repas.",
+   "Ces jeux océaniques vont des puzzles de tri calmes et relaxants à l'action arcade où il faut manger pour grandir, de quoi plaire aux enfants comme aux adultes. Jouez instantanément dans votre navigateur sur mobile ou ordinateur, gratuitement et sans téléchargement."
+  ]
+ },
+ "topic:black-hole-games": {
+  "h1": "Jeux de Trou Noir",
+  "kw": "jeux trou noir",
+  "intro": [
+   "Commencez en petit trou dans le sol et avalez tout ce qui vous entoure : voitures, arbres, bâtiments et, à terme, des villes entières. Les jeux de trou noir sont simples à prendre en main et très difficiles à lâcher, car chaque objet avalé vous fait grossir un peu plus.",
+   "Certains sont des puzzles tranquilles où l'on dégage un niveau pièce par pièce, d'autres sont des défis arcade chronométrés ou des batailles de type io où l'on rivalise avec d'autres trous pour devenir le plus gros. Jouez-y gratuitement dans votre navigateur sur mobile ou ordinateur, sans téléchargement."
+  ]
+ },
+ "topic:brainrot-games": {
+  "h1": "Jeux Brainrot",
+  "kw": "jeux brainrot",
+  "intro": [
+   "Les personnages brainrot, bizarres et géniaux, sont passés des mèmes aux jeux. Sauvez-les des tsunamis et de la lave, faites des parcours de parkour obby avec eux, fusionnez-les, habillez-les ou emmenez-les faire un tour à vélo ou en skateboard.",
+   "Ces jeux brainrot sont rapides, absurdes et pensés pour de courtes sessions, des simples sauts obby aux défis d'évasion chaotiques. Jouez-y gratuitement dans votre navigateur sur téléphone, tablette ou PC, sans téléchargement ni inscription."
+  ]
+ },
+ "topic:open-world-games": {
+  "h1": "Jeux en Monde Ouvert",
+  "kw": "jeux en monde ouvert",
+  "intro": [
+   "Les jeux en monde ouvert vous offrent une grande carte et vous laissent décider de la suite. Roulez à travers les villes, explorez des mondes bac à sable, construisez, découvrez et relevez des missions à votre rythme, au lieu de suivre un chemin imposé.",
+   "Cette sélection rassemble des jeux gratuits en monde ouvert et bac à sable, à jouer directement dans votre navigateur sur ordinateur ou mobile. Aucun téléchargement ni installation : choisissez un monde et commencez à explorer."
+  ]
+ },
+ "topic:cleaning-games": {
+  "h1": "Jeux de Nettoyage",
+  "kw": "jeux de nettoyage",
+  "intro": [
+   "Les jeux de nettoyage transforment les corvées en une satisfaction étrange. Lavez des voitures sales jusqu'à ce qu'elles brillent, soufflez les tas de feuilles sur la pelouse, frottez, triez et rangez des pièces encombrées, ou organisez des étagères jusqu'à ce que tout soit en place.",
+   "Cette sélection rassemble des jeux gratuits de nettoyage, de lavage et de rangement, à jouer directement dans votre navigateur sur PC, tablette ou téléphone. Rien à télécharger et pas d'inscription : choisissez un désordre et commencez à nettoyer."
+  ]
+ },
+ "topic:autumn-games": {
+  "h1": "Jeux d'automne",
+  "kw": "jeux d'automne",
+  "intro": [
+   "Les jeux d'automne mettent les couleurs et l'ambiance de la saison sur votre écran : soufflez des tas de feuilles orange, rentrez la récolte, partez à la cueillette des champignons dans la forêt ou aidez un écureuil affamé à se préparer pour l'hiver.",
+   "Vous trouverez ici des jeux gratuits sur le thème de l'automne, pour tous les âges, qui fonctionnent dans votre navigateur sur ordinateur et mobile. Aucun téléchargement ni compte nécessaire, installez-vous confortablement et jouez."
+  ]
+ },
+ "topic:evolution-games": {
+  "h1": "Jeux d'évolution",
+  "kw": "jeux d'évolution",
+  "intro": [
+   "Les jeux d'évolution tournent autour de la croissance : commencez petit, collectez, fusionnez ou courez, et regardez votre personnage, créature ou véhicule se transformer en quelque chose de plus grand et plus fort à chaque niveau.",
+   "Jouez gratuitement à des jeux d'évolution dans votre navigateur sur ordinateur et mobile, des jeux de course à travers les âges de l'humanité aux clickers idle et aux simulateurs d'animaux. Aucun téléchargement ni inscription nécessaire."
+  ]
+ },
+ "topic:home-design-games": {
+  "h1": "Jeux de design d'intérieur et de décoration",
+  "kw": "jeux de décoration",
+  "intro": [
+   "Les jeux de design d'intérieur vous permettent de jouer à décorateur : rénovez de vieilles pièces, choisissez meubles et couleurs, décorez jardins et piscines, ou résolvez des puzzles match 3 pour débloquer la prochaine partie d'un manoir de rêve.",
+   "Tous ces jeux de décoration sont gratuits dans votre navigateur sur PC, tablette et téléphone. Choisissez une maison, laissez parler votre créativité et faites de chaque pièce la vôtre, sans téléchargement."
+  ]
+ },
+ "topic:sandbox-games": {
+  "h1": "Jeux bac à sable",
+  "kw": "jeux bac à sable",
+  "intro": [
+   "Les jeux bac à sable vous donnent un monde et un jeu d'outils, puis vous laissent décider de ce qui se passe. Construisez, détruisez, lancez des ragdolls, percutez des voitures ou créez votre petit monde sans chemin imposé.",
+   "Chaque jeu bac à sable proposé ici est gratuit dans votre navigateur sur PC, tablette et téléphone. Choisissez une aire de jeu, expérimentez avec la physique et amusez-vous, sans téléchargement."
+  ]
+ },
+ "topic:flag-and-geography-games": {
+  "h1": "Jeux de drapeaux et de géographie",
+  "kw": "jeux de drapeaux",
+  "intro": [
+   "Les jeux de drapeaux et de géographie transforment l'apprentissage du monde en partie : devinez les drapeaux des pays dans des quiz, peignez et coloriez des drapeaux, associez-les dans des jeux de mémoire ou testez vos connaissances avec des défis de géographie quotidiens.",
+   "Ils sont gratuits dans votre navigateur sur PC, tablette et téléphone, parfaits pour les élèves et pour tous ceux qui aiment les cartes et les jeux de culture générale. Aucun téléchargement ni inscription nécessaire."
+  ]
+ },
+ "topic:ragdoll-games": {
+  "h1": "Jeux ragdoll",
+  "kw": "jeux ragdoll",
+  "intro": [
+   "Les jeux ragdoll tournent autour de personnages mous et articulés pilotés par la physique : lancez-les, écrasez-les, faites-les tomber et regardez chaque membre réagir en temps réel. Certains sont des bacs à sable ouverts où vous construisez vos propres scènes, d'autres sont des jeux de combat, de chute ou de cascades où c'est la physique qui crée le plaisir.",
+   "Chaque jeu ragdoll proposé ici est gratuit dans votre navigateur sur PC, tablette et téléphone, sans téléchargement ni inscription. Choisissez-en un et voyez comment la physique se déroule."
+  ]
+ },
+ "topic:bee-and-insect-games": {
+  "h1": "Jeux d'abeilles et d'insectes",
+  "kw": "jeux abeilles",
+  "intro": [
+   "Les jeux d'abeilles et d'insectes vous permettent de voir le monde d'un point de vue bien plus petit : volez avec une abeille pour récolter du pollen, faites grandir une colonie de fourmis, attrapez des papillons ou écrasez des insectes dans des défis d'arcade rapides.",
+   "Ils sont gratuits à jouer en ligne dans votre navigateur sur PC, tablette et téléphone, et beaucoup sont relaxants et adaptés aux enfants. Aucun téléchargement ni compte n'est nécessaire."
+  ]
+ },
+ "topic:pet-and-vet-games": {
+  "h1": "Jeux d'animaux et de vétérinaire",
+  "kw": "jeux de vétérinaire",
+  "intro": [
+   "Les jeux d'animaux et de vétérinaire vous permettent de vous occuper des animaux du premier examen jusqu'à la remise finale : soignez des chiots et des chatons malades dans une clinique vétérinaire, toilettez et baignez des animaux de compagnie, gérez une animalerie ou construisez tout un centre vétérinaire à partir d'une petite pièce.",
+   "Beaucoup de ces jeux sont doux et relaxants, ce qui en fait un bon choix pour les enfants et pour toute personne qui aime les animaux. Ils sont gratuits à jouer en ligne dans votre navigateur sur PC, tablette et téléphone, sans téléchargement ni compte."
+  ]
+ }
+}

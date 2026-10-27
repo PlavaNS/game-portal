@@ -1,1 +1,864 @@
-{}
+{
+ "action": {
+  "name": "Action",
+  "h1": "Action Spiele",
+  "intro": [
+   "Kämpfe, weiche aus und bahne dir in rasanten Actionspielen deinen Weg. Jedes Spiel läuft direkt in deinem Browser auf PC, Tablet und Handy."
+  ]
+ },
+ "shooting": {
+  "name": "Shooter",
+  "h1": "Shooter Spiele",
+  "intro": [
+   "Ziele, feuere und schalte deine Gegner aus. Von Scharfschützen-Missionen bis zu Panzerschlachten: Diese kostenlosen Shooter starten sofort, ohne Download."
+  ]
+ },
+ "racing": {
+  "name": "Autos & Rennen",
+  "h1": "Auto & Rennspiele",
+  "intro": [
+   "Gib Gas bei kostenlosen Auto- und Rennspielen: driften, einparken, Motorradrennen fahren und Monstertrucks direkt im Browser steuern."
+  ]
+ },
+ "puzzle": {
+  "name": "Puzzle",
+  "h1": "Puzzle Spiele",
+  "intro": [
+   "Trainiere dein Gehirn mit kostenlosen Puzzlespielen: Logikrätsel, Match-3, Physikpuzzles und Denksportaufgaben, die du in Sekunden spielen kannst."
+  ]
+ },
+ "clicker-idle": {
+  "name": "Clicker & Idle",
+  "h1": "Clicker & Idle Spiele",
+  "intro": [
+   "Klicken, aufrüsten und zusehen, wie die Zahlen wachsen. Unsere Clicker- und Idle-Spiele entwickeln sich ständig weiter, sodass sich jeder Besuch lohnt."
+  ]
+ },
+ "arcade": {
+  "name": "Arcade",
+  "h1": "Arcade Spiele",
+  "intro": [
+   "Schnelle, süchtig machende Arcade-Spiele für eine kurze Pause oder eine lange Session. Leicht zu lernen, schwer aus der Hand zu legen."
+  ]
+ },
+ "adventure": {
+  "name": "Abenteuer",
+  "h1": "Abenteuerspiele",
+  "intro": [
+   "Entdecke neue Welten, spring durch Plattform-Level und entkomme kniffligen Fallen in kostenlosen Abenteuerspielen."
+  ]
+ },
+ "sports": {
+  "name": "Sport",
+  "h1": "Sportspiele",
+  "intro": [
+   "Schieße Tore, versenke Putts und wirf Körbe. Spiele kostenlose Sportspiele online ohne Anmeldung."
+  ]
+ },
+ "two-player": {
+  "name": "2 Spieler",
+  "h1": "2-Spieler-Spiele",
+  "intro": [
+   "Schnapp dir einen Freund und spielt an derselben Tastatur oder auf demselben Bildschirm. Die besten kostenlosen 2-Spieler-Spiele für packenden Spaß im Duell."
+  ]
+ },
+ "multiplayer": {
+  "name": "Multiplayer & .io",
+  "h1": "Multiplayer- & .io-Spiele",
+  "intro": [
+   "Tritt gegen echte Spieler in Multiplayer- und .io-Spielen an. Steig ein, wachse und klettere in der Bestenliste nach oben."
+  ]
+ },
+ "girls": {
+  "name": "Mädchen",
+  "h1": "Spiele für Mädchen",
+  "intro": [
+   "Zieh dich an, gestalte, styl und kreiere. Spaßige Spiele für Mädchen (und alle anderen) mit Mode, Make-up und Verwandlungen."
+  ]
+ },
+ "hypercasual": {
+  "name": "Casual",
+  "h1": "Casual- & Hypercasual-Spiele",
+  "intro": [
+   "Einfache Ein-Tipp-Spiele, die sofort Spaß machen. Perfekt für eine kurze Pause am Handy oder Computer."
+  ]
+ },
+ "stickman": {
+  "name": "Stickman",
+  "h1": "Stickman-Spiele",
+  "intro": [
+   "Stickman-Kämpfe, Parkour und Abenteuer. Kostenlose Stickman-Spiele, die auf jedem Gerät flüssig laufen."
+  ]
+ },
+ "zombie": {
+  "name": "Zombie",
+  "h1": "Zombie-Spiele",
+  "intro": [
+   "Überlebe die Untoten in kostenlosen Zombie-Spielen: Schieße, baue Verteidigungen und entkomme der Horde."
+  ]
+ },
+ "3d": {
+  "name": "3D",
+  "h1": "3D-Spiele",
+  "intro": [
+   "Kostenlose 3D-Spiele, die direkt in deinem Browser laufen: Rennen, Shooter, Parkour und mehr, ganz ohne Installation."
+  ]
+ },
+ "cooking": {
+  "name": "Kochen",
+  "h1": "Kochspiele",
+  "intro": [
+   "Führe Restaurants, backe Kuchen und bediene hungrige Gäste in kostenlosen Kochspielen."
+  ]
+ },
+ "kids": {
+  "name": "Kinder",
+  "h1": "Spiele für Kinder",
+  "intro": [
+   "Freundliche, bunte Spiele für Kinder: Malen, einfache Puzzles und leicht zu spielender Spaß."
+  ]
+ },
+ "mobile": {
+  "name": "Mobil",
+  "h1": "Handyspiele",
+  "intro": [
+   "Kostenlose Spiele, die auf deinem Handy und Tablet super funktionieren. Einfach antippen und sofort im Browser auf Android oder iPhone spielen – keine App, kein Download."
+  ]
+ },
+ "topic:games-to-play-when-bored": {
+  "h1": "Spiele gegen Langeweile",
+  "kw": "spiele gegen langeweile",
+  "intro": [
+   "Gelangweilt zu Hause, in der Pause oder beim Warten, bis etwas fertig ist? Das sind die kostenlosen Online-Spiele, zu denen unsere Spieler am häufigsten zurückkommen: schnell gestartet, leicht zu lernen und erstaunlich schwer aus der Hand zu legen.",
+   "Jedes Spiel läuft sofort im Browser auf PC, Mac, Handy oder Tablet. Keine Downloads, keine Anmeldung: Spiel antippen, zwei Minuten oder zwei Stunden spielen und wiederkommen, wann immer die Langeweile erneut zuschlägt."
+  ]
+ },
+ "topic:mahjong": {
+  "h1": "Mahjong-Spiele",
+  "kw": "mahjong online kostenlos",
+  "intro": [
+   "Kostenloses Mahjong-Solitaire online spielen: Paare identischer Steine finden, das Spielfeld leeren und sich mit klassischen Layouts, Connect-Varianten und neuen täglichen Rätseln entspannen.",
+   "Kein Download nötig. Jedes Mahjong-Spiel hier läuft im Browser am Desktop und auf dem Handy, sodass du jederzeit eine schnelle Runde spielen kannst."
+  ]
+ },
+ "topic:solitaire": {
+  "h1": "Solitaire-Kartenspiele",
+  "kw": "solitaire online kostenlos",
+  "intro": [
+   "Klassisches Klondike, Spider, FreeCell und mehr: kostenlose Solitaire-Kartenspiele, die du sofort im Browser spielen kannst.",
+   "Ideal für eine ruhige Pause: einfache Regeln, endlos viele Austeilungen und keine Anmeldung. Funktioniert auf PC, Tablet und Handy."
+  ]
+ },
+ "topic:chess-and-board-games": {
+  "h1": "Schach & Brettspiele",
+  "kw": "schach und brettspiele online",
+  "intro": [
+   "Schach, Dame, Backgammon, Ludo und andere klassische Brettspiele kostenlos online spielen, gegen den Computer oder einen Freund am selben Bildschirm.",
+   "Schärfe deine Strategie mit wenigen Klicks: keine Installation und kein Konto, einfach ein Brett auswählen und loslegen."
+  ]
+ },
+ "topic:word-games": {
+  "h1": "Wortspiele",
+  "kw": "wortspiele online",
+  "intro": [
+   "Finde Wörter, löse Kreuzworträtsel und entwirre Buchstaben in kostenlosen Online-Wortspielen, die deinen Wortschatz trainieren.",
+   "Ideal für Erwachsene und Kinder gleichermaßen. Spiel im Browser auf jedem Gerät, ganz ohne Download."
+  ]
+ },
+ "topic:sudoku-and-number-puzzles": {
+  "h1": "Sudoku & Zahlenrätsel",
+  "kw": "sudoku kostenlos online",
+  "intro": [
+   "Sudoku, 2048, Nonogramme und andere Zahlenrätsel halten dein Gehirn fit. Kostenlos online spielbar, von leicht bis teuflisch schwer.",
+   "Kein Bleistift nötig. Jedes Rätsel läuft im Browser auf PC und Handy."
+  ]
+ },
+ "topic:match-3-games": {
+  "h1": "Match 3 Spiele",
+  "kw": "match 3 spiele online",
+  "intro": [
+   "Tausche, kombiniere und zerlege bunte Steine in kostenlosen Match-3-Spielen. Hunderte Level, befriedigende Kombos und kein Download.",
+   "Ideal für kurze Runden auf dem Handy oder lange, entspannte Sessions am Computer."
+  ]
+ },
+ "topic:bubble-shooter": {
+  "h1": "Bubble Shooter Spiele",
+  "kw": "bubble shooter online spielen",
+  "intro": [
+   "Zielen, schießen und Blasen gleicher Farbe zum Platzen bringen in kostenlosen Bubble-Shooter-Spielen — das klassische Arcade-Puzzle, das nie langweilig wird.",
+   "Dazu unser eigenes Bubble Wrap: Lass einen ganzen Planeten aus Luftpolsterfolie platzen. Alles kostenlos, sofort spielbar, auf jedem Gerät."
+  ]
+ },
+ "topic:hidden-object-games": {
+  "h1": "Wimmelbild Spiele",
+  "kw": "wimmelbild spiele kostenlos online",
+  "intro": [
+   "Durchsuche detailreiche Szenen, finde die Unterschiede und entdecke jeden versteckten Gegenstand in kostenlosen Wimmelbild-Spielen.",
+   "Entspannt, mit spannender Handlung und direkt im Browser spielbar — ohne Download, ohne Konto."
+  ]
+ },
+ "topic:escape-room-games": {
+  "h1": "Escape Room Spiele",
+  "kw": "online escape room spiele",
+  "intro": [
+   "Finde Hinweise, löse Rätsel und entkomme in kostenlosen Online-Escape-Room-Spielen. Jeder Raum ist ein neues Geheimnis, das darauf wartet, geknackt zu werden.",
+   "Entwickelt vom Team hinter Door 404, einem echten Escape Room in Novi Sad — wir lieben gute Rätsel. Sofort im Browser spielen."
+  ]
+ },
+ "topic:merge-games": {
+  "h1": "Merge Spiele",
+  "kw": "merge spiele online",
+  "intro": [
+   "Kombiniere zwei gleiche Objekte zu etwas Größerem: kostenlose Merge-Spiele voller befriedigender Upgrades und überraschender Entdeckungen.",
+   "Spiele Casual-Merge-Puzzles und Idle-Merge-Tycoons online am PC und auf dem Handy, ohne Download."
+  ]
+ },
+ "topic:idle-and-tycoon-games": {
+  "h1": "Idle & Tycoon Spiele",
+  "kw": "idle tycoon spiele online",
+  "intro": [
+   "Baue Imperien, führe Unternehmen und sieh zu, wie das Geld fließt — auch wenn du weg bist. Kostenlose Idle-, Clicker- und Tycoon-Spiele zum Spielen im Browser.",
+   "Klein anfangen, clever aufrüsten und bei jedem Besuch mit größeren Zahlen zurückkommen."
+  ]
+ },
+ "topic:car-parking-games": {
+  "h1": "Parkspiele",
+  "kw": "parkspiele online",
+  "intro": [
+   "Quetsche dich in enge Lücken, setze rückwärts wie ein Profi ein und meistere jede Parkherausforderung in kostenlosen Auto-Parkspielen.",
+   "Realistische 3D-Parksimulatoren und schnelle Puzzle-Parkspiele, alle online spielbar, ohne Download."
+  ]
+ },
+ "topic:truck-and-driving-games": {
+  "h1": "LKW- & Fahrspiele",
+  "kw": "lkw fahrspiele online",
+  "intro": [
+   "Steuere LKWs, Busse, Taxis und Traktoren in kostenlosen Fahrsimulator-Spielen. Liefere Fracht, halte dich an die Verkehrsregeln oder fahre einfach nur entspannt herum.",
+   "Keine Installation nötig. Setz dich direkt im Browser hinters Steuer."
+  ]
+ },
+ "topic:motorcycle-and-bike-games": {
+  "h1": "Motorrad- & Bikespiele",
+  "kw": "motorradspiele online",
+  "intro": [
+   "Mach Wheelies, lande Stunts und fahre gegen die Uhr in kostenlosen Motorrad- und Bikespielen.",
+   "Von Trial bis Straßenrennen: Jedes Spiel läuft sofort in deinem Browser, auf PC und Handy."
+  ]
+ },
+ "topic:drift-games": {
+  "h1": "Drift-Spiele",
+  "kw": "drift spiele online",
+  "intro": [
+   "Rutsche seitwärts durch enge Kurven und sammle Drift-Punkte in kostenlosen Online-Driftspielen.",
+   "Tune dein Auto, meistere die Handbremse und spiele direkt im Browser."
+  ]
+ },
+ "topic:soccer-games": {
+  "h1": "Fußballspiele",
+  "kw": "fußballspiele online",
+  "intro": [
+   "Schieße Tore, verwandle Elfmeter und gewinne den Pokal in kostenlosen Online-Fußballspielen.",
+   "Spiele allein oder zu 2 Spielern auf einer Tastatur. Kein Download, einfach Anstoß."
+  ]
+ },
+ "topic:basketball-games": {
+  "h1": "Basketballspiele",
+  "kw": "basketballspiele online",
+  "intro": [
+   "Wirf Körbe, lande Trickwürfe und dunke in kostenlosen Basketballspielen online.",
+   "Schnell startklar auf dem Handy oder Computer, ohne Anmeldung nötig."
+  ]
+ },
+ "topic:golf-and-pool-games": {
+  "h1": "Golf, Pool & Billard",
+  "kw": "Minigolf- und Poolspiele online",
+  "intro": [
+   "Minigolf, 8-Ball-Pool, Snooker, Bowling und Darts – präzise, entspannte Sportspiele, die du kostenlos online spielen kannst.",
+   "Ziele sorgfältig, spiele gegen den Computer oder einen Freund, direkt im Browser."
+  ]
+ },
+ "topic:sniper-games": {
+  "h1": "Scharfschützenspiele",
+  "kw": "Scharfschützenspiele online",
+  "intro": [
+   "Ruhige Hand, Atem anhalten und den perfekten Schuss setzen – in kostenlosen Online-Scharfschützenspielen.",
+   "Missionsbasierte Shooter, die sofort im Browser laufen – ohne Download."
+  ]
+ },
+ "topic:tank-and-war-games": {
+  "h1": "Panzer- & Kriegsspiele",
+  "kw": "Panzerspiele online",
+  "intro": [
+   "Befehlige Panzer, führe Armeen und gewinne Schlachten in kostenlosen Online-Kriegs- und Panzerspielen.",
+   "Actiongeladen und strategisch, spielbar auf PC und Handy ohne Installation."
+  ]
+ },
+ "topic:tower-defense-games": {
+  "h1": "Tower-Defense-Spiele",
+  "kw": "Tower-Defense-Spiele online",
+  "intro": [
+   "Baue Türme, verbessere deine Verteidigung und stoppe Welle um Welle von Gegnern in kostenlosen Tower-Defense-Spielen.",
+   "Plane clever, spiele online – ganz ohne Download."
+  ]
+ },
+ "topic:ninja-and-fighting-games": {
+  "h1": "Ninja- & Kampfspiele",
+  "kw": "Kampfspiele online",
+  "intro": [
+   "Schlage, tritt, blocke und kombiniere dich zum Sieg in kostenlosen Online-Kampfspielen – von Stickman-Prügeleien bis zu Ninja-Abenteuern.",
+   "Viele Spiele unterstützen 2 Spieler an einer Tastatur. Spiel sofort im Browser."
+  ]
+ },
+ "topic:monster-truck-games": {
+  "h1": "Monster-Truck-Spiele",
+  "kw": "Monster-Truck-Spiele online",
+  "intro": [
+   "Zerquetsche Autos, erklimme Hügel und fliege über Rampen in kostenlosen Monster-Truck- und Geländespielen.",
+   "Große Räder, große Sprünge, kein Download – spiele direkt im Browser."
+  ]
+ },
+ "topic:fishing-games": {
+  "h1": "Angelspiele",
+  "kw": "angelspiele online",
+  "intro": [
+   "Wirf die Angel aus, fange seltene Fische und verbessere deine Ausrüstung in kostenlosen Online-Angelspielen.",
+   "Entspannte Idle-Angelspiele und Arcade-Angelspiele für alle Altersgruppen."
+  ]
+ },
+ "topic:coloring-and-drawing-games": {
+  "h1": "Mal- & Zeichenspiele",
+  "kw": "malspiele online",
+  "intro": [
+   "Male Bilder aus, male nach Zahlen und zeichne deine eigenen Kreationen in kostenlosen Mal- und Zeichenspielen.",
+   "Ruhiger, kreativer Spaß für Kinder und Erwachsene – direkt in deinem Browser."
+  ]
+ },
+ "topic:dress-up-games": {
+  "h1": "Ankleidespiele",
+  "kw": "ankleidespiele online",
+  "intro": [
+   "Stelle Outfits zusammen, probiere Make-up aus und kreiere traumhafte Looks in kostenlosen Online-Ankleide- und Modespielen.",
+   "Hunderte Kleidungsstücke und Accessoires zum Kombinieren, spielbar auf jedem Gerät."
+  ]
+ },
+ "topic:cooking-games": {
+  "h1": "Koch- & Restaurantspiele",
+  "kw": "kochspiele online",
+  "intro": [
+   "Führe ein Café, backe Kuchen und bediene hungrige Gäste in kostenlosen Koch- und Restaurantspielen.",
+   "Zeitmanagement-Spaß, der auf Handys und Computern gleichermaßen gut funktioniert."
+  ]
+ },
+ "topic:animal-games": {
+  "h1": "Tierspiele",
+  "kw": "tierspiele online",
+  "intro": [
+   "Tierspiele gehören zu den beliebtesten kostenlosen Spielen online: Betreibe einen Zoo, kümmere dich um Haustiere, behandle Tiere in einer Tierklinik, bewirtschafte einen Bauernhof oder erkunde die Welt als Katze, Hund, Pferd oder Dinosaurier. Diese Seite bündelt sie an einem Ort, von entspannenden Idle-Tycoon-Spielen bis zu schnellen Arcade-Herausforderungen.",
+   "Die meisten Tierspiele sind familienfreundlich und schnell zu erlernen, daher eignen sie sich gut für Kinder und Erwachsene gleichermaßen. Jedes Spiel startet sofort in deinem Browser auf Handy, Tablet oder Computer – ohne Download und ohne Anmeldung."
+  ]
+ },
+ "topic:jigsaw-puzzles": {
+  "h1": "Puzzles",
+  "kw": "puzzles online kostenlos",
+  "intro": [
+   "Setze wunderschöne Bilder zusammen in kostenlosen Online-Puzzlespielen – von schnellen Puzzles mit 16 Teilen bis zu entspannenden Herausforderungen.",
+   "Kein Tisch nötig: Spiele direkt im Browser auf PC, Tablet oder Handy."
+  ]
+ },
+ "topic:snake-games": {
+  "h1": "Snake Spiele",
+  "kw": "snake spiele online",
+  "intro": [
+   "Friss, wachse und weiche deinem eigenen Schwanz aus in kostenlosen Snake Spielen – vom Retro-Klassiker bis zu modernen Online-Duellen.",
+   "Sofort spielbar im Browser, ohne Download."
+  ]
+ },
+ "topic:parkour-and-obby-games": {
+  "h1": "Parkour & Obby Spiele",
+  "kw": "parkour spiele online",
+  "intro": [
+   "Laufe, springe und klettere durch Hindernisparcours in kostenlosen Parkour-, Obby- und Runner-Spielen.",
+   "Rasante Jump-and-Run-Action, die im Browser flüssig läuft."
+  ]
+ },
+ "topic:horror-games": {
+  "h1": "Horror Spiele",
+  "kw": "horror spiele online",
+  "intro": [
+   "Erkunde verwunschene Häuser, entkomme Monstern und überlebe die Nacht in kostenlosen Online-Horrorspielen.",
+   "Gruselig, aber browserfreundlich – kein Download nötig. Am besten bei ausgeschaltetem Licht spielen."
+  ]
+ },
+ "topic:2-player-games": {
+  "h1": "2 Spieler Spiele",
+  "kw": "2 spieler spiele",
+  "intro": [
+   "Schnapp dir einen Freund und spiel kostenlose 2 Spieler Spiele an einer Tastatur oder einem Handy: Rennen, Duelle, Sportpartien und verrückte Physik-Schlachten, bei denen nur einer gewinnen kann.",
+   "Jedes Spiel startet sofort im Browser, ohne Download und ohne Konto. Ideal für ein schnelles Rematch auf dem Sofa, in der Schule oder in der Pause."
+  ]
+ },
+ "topic:io-games": {
+  "h1": ".io Spiele",
+  "kw": "io spiele",
+  "intro": [
+   "Tauche ein in kostenlose .io Spiele: Werde größer, überliste andere Spieler und klettere in der Rangliste nach oben – in schnellen Runden, die mit einem Klick starten.",
+   "Keine Installation und keine Anmeldung. Diese Browser-.io-Spiele laufen auf PC, Mac und den meisten Handys, damit du überall eine schnelle Runde spielen kannst."
+  ]
+ },
+ "topic:car-games": {
+  "h1": "Auto Spiele",
+  "kw": "auto spiele",
+  "intro": [
+   "Fahre, rase, driften und crashe in kostenlosen Autospielen – vom realistischen Highway-Rennen über Stunt-Strecken und Parkherausforderungen bis zu Demolition Derbys.",
+   "Alle Autospiele hier laufen direkt im Browser auf Desktop und Handy. Wähle ein Auto, gib Gas und spiel sofort, ohne Download."
+  ]
+ },
+ "topic:racing-games": {
+  "h1": "Rennspiele",
+  "kw": "Rennspiele kostenlos",
+  "intro": [
+   "Kostenlose Online-Rennspiele für jeden Fahrertyp: Straßenrennen, Rallye-Etappen, Karts, Motorräder und futuristische Hochgeschwindigkeitsstrecken.",
+   "Unterbiete deine Bestzeit, schalte schnellere Fahrzeuge frei und starte in Sekunden neu. Alles läuft direkt im Browser ohne Download."
+  ]
+ },
+ "topic:shooting-games": {
+  "h1": "Shooter-Spiele",
+  "kw": "Shooter Spiele kostenlos",
+  "intro": [
+   "Zielen, feuern und überleben in kostenlosen Shooter-Spielen: Ego-Shooter, Scharfschützen-Missionen, Zombiewellen und Arcade-Feuergefechte.",
+   "Diese Browser-Shooter laden sofort auf dem PC, und viele funktionieren auch auf dem Handy. Kein Download, keine Registrierung, einfach zielen und abdrücken."
+  ]
+ },
+ "topic:puzzle-games": {
+  "h1": "Puzzlespiele",
+  "kw": "Puzzlespiele kostenlos",
+  "intro": [
+   "Trainiere dein Gehirn mit kostenlosen Puzzlespielen: Block-Puzzles, Sortierspiele, Logikrätsel, Kachel-Matching und clevere levelbasierte Knobeleien.",
+   "Spiel ein Level oder hundert. Jedes Puzzlespiel hier läuft im Browser auf Desktop und Handy, ohne Download oder Anmeldung."
+  ]
+ },
+ "topic:card-games": {
+  "h1": "Kartenspiele",
+  "kw": "Kartenspiele online kostenlos",
+  "intro": [
+   "Spiele klassische Kartenspiele kostenlos online: Solitaire, Spider, FreeCell und jede Menge neue Kartenrätsel für ein paar ruhige Minuten oder eine lange Session.",
+   "Die Karten werden sofort im Browser auf PC, Tablet und Handy ausgeteilt. Kein Download, kein Konto und kein Geld im Spiel, nur das Spiel."
+  ]
+ },
+ "topic:stickman-games": {
+  "h1": "Stickman-Spiele",
+  "kw": "Stickman Spiele kostenlos",
+  "intro": [
+   "Einfache Figuren, große Action: kostenlose Stickman-Spiele voller Kämpfe, Ragdoll-Physik, Parkour-Läufe, Bogenduelle und wilde Stunts.",
+   "Stickman-Spiele laden schnell und starten sofort im Browser auf jedem Gerät. Wähle eines aus und finde heraus, wie weit dein kleiner Held kommen kann."
+  ]
+ },
+ "topic:clicker-games": {
+  "h1": "Clicker-Spiele",
+  "kw": "Clicker Spiele kostenlos",
+  "intro": [
+   "Klicken, aufrüsten und zusehen, wie die Zahlen explodieren, in kostenlosen Clicker-Spielen. Fang klein an, automatisiere alles und baue mit jedem Tippen ein Imperium auf.",
+   "Clicker- und Idle-Spiele speichern deinen Fortschritt im Browser, sodass du später zurückkommen und deine Erfolge einsammeln kannst. Kein Download nötig."
+  ]
+ },
+ "topic:zombie-games": {
+  "h1": "Zombie Spiele",
+  "kw": "zombie spiele",
+  "intro": [
+   "Überlebe den Ausbruch in kostenlosen Zombie Spielen: Schieße dich durch Horden, baue Verteidigungen, fahre durch verseuchte Städte und halte bis zur letzten Welle durch.",
+   "Jedes Zombie Spiel hier läuft direkt in deinem Browser. Kein Download, keine Anmeldung, nur du gegen die Untoten."
+  ]
+ },
+ "topic:multiplayer-games": {
+  "h1": "Multiplayer Spiele",
+  "kw": "multiplayer spiele online",
+  "intro": [
+   "Spiele kostenlose Multiplayer Spiele gegen echte Menschen aus aller Welt: Arenen, Rennen, Shooter und .io Schlachten, die in Sekunden losgehen.",
+   "Für die meisten Spiele sind keine Installation und kein Konto nötig. Öffne einfach eines im Browser und tritt dem Match bei."
+  ]
+ },
+ "topic:games-for-girls": {
+  "h1": "Spiele für Mädchen",
+  "kw": "spiele für mädchen",
+  "intro": [
+   "Kostenlose Spiele für Mädchen voller Stil und Kreativität: Stars und Prinzessinnen stylen, Outfits entwerfen, Make-up und Nägel machen und deinen eigenen Salon führen.",
+   "Alle Spiele starten sofort im Browser auf Handy, Tablet und Computer. Kein Download, keine Anmeldung, einfach Spaß."
+  ]
+ },
+ "topic:kids-games": {
+  "h1": "Spiele für Kinder",
+  "kw": "spiele für kinder",
+  "intro": [
+   "Freundliche, bunte kostenlose Spiele für Kinder: Malen, einfache Puzzles, Tierspiele, Lernspiele und sanfte Abenteuer.",
+   "Die Spiele laufen im Browser ohne Download und ohne Konto. Wie immer sollten Eltern jüngere Kinder beim Online-Spielen im Auge behalten."
+  ]
+ },
+ "topic:brain-games": {
+  "h1": "Denkspiele",
+  "kw": "denkspiele",
+  "intro": [
+   "Trainiere dein Gehirn mit kostenlosen Denkspielen: Gedächtnistests, Logikrätsel, Quizze, Mathe-Herausforderungen und knifflige Rätsel.",
+   "Ein paar Minuten am Tag halten dich fit. Spiele sofort im Browser auf jedem Gerät, ohne Download."
+  ]
+ },
+ "topic:math-games": {
+  "h1": "Mathe Spiele",
+  "kw": "mathe spiele",
+  "intro": [
+   "Übe Zahlen auf spielerische Art mit kostenlosen Mathe Spielen: 2048, Sudoku, Zahlen-Zusammenführen, Zähl-Challenges und schnelle Rechenrätsel.",
+   "Ideal für Schüler und Erwachsene gleichermaßen. Alles läuft im Browser auf PC und Handy ohne Download."
+  ]
+ },
+ "topic:2048-games": {
+  "h1": "2048 Spiele",
+  "kw": "2048 Spiel",
+  "intro": [
+   "Schiebe Kacheln, verbinde gleiche Zahlen und jage die 2048-Kachel. Spiele das Original und kreative Varianten wie 2048 mit Bällen, Blöcken und Früchten.",
+   "Jedes 2048-Spiel hier ist kostenlos und läuft im Browser auf Desktop und Handy. Noch ein Zug ist immer verlockend."
+  ]
+ },
+ "topic:block-puzzle-games": {
+  "h1": "Block-Puzzle-Spiele",
+  "kw": "block puzzle spiele",
+  "intro": [
+   "Lass Teile in kostenlosen Block-Puzzle-Spielen fallen, drehe und passe sie ein. Räume Reihen ab, baue Combos auf und knacke deinen Highscore in ruhigen oder schnellen Modi.",
+   "Block-Puzzles sind perfekt für kurze Pausen. Spiele sofort im Browser auf Handy oder Computer, ohne Download."
+  ]
+ },
+ "topic:sorting-games": {
+  "h1": "Sortierspiele",
+  "kw": "sortierspiele",
+  "intro": [
+   "Befriedigende kostenlose Sortierspiele: Sortiere Farben, Bälle, Flüssigkeiten, Schrauben, Waren und chaotische Räume, bis alles perfekt an seinem Platz ist.",
+   "Entspannend, clever und schnell zu spielen. Jedes Sortierspiel läuft im Browser auf Desktop und Handy."
+  ]
+ },
+ "topic:relaxing-games": {
+  "h1": "Entspannungsspiele",
+  "kw": "entspannungsspiele",
+  "intro": [
+   "Werde langsamer mit kostenlosen Entspannungsspielen: gemütliche Rätsel, befriedigende ASMR-Spiele, Ausmalen, Sortieren und sanfte Idle-Spiele ohne Stress.",
+   "Keine Timer, die man nicht ignorieren kann, keine Downloads und keine Anmeldung. Öffne einfach ein Spiel im Browser und entspanne dich."
+  ]
+ },
+ "topic:simulator-games": {
+  "h1": "Simulationsspiele",
+  "kw": "simulationsspiele",
+  "intro": [
+   "Lebe ein anderes Leben in kostenlosen Simulationsspielen: Fahre Busse und Lkw, führe Läden und Höfe, manage Unternehmen oder experimentiere einfach mit der Physik.",
+   "Spiele sofort im Browser auf PC und Handy. Kein Download, kein Konto, in Sekunden simulierst du los."
+  ]
+ },
+ "topic:bus-games": {
+  "h1": "Busspiele",
+  "kw": "busspiele",
+  "intro": [
+   "Fahre Stadtbusse, Reisebusse und Schulbusse in kostenlosen Busspielen. Nimm Fahrgäste mit, folge Linien, parke auf engem Raum und halte alle im Zeitplan.",
+   "Jedes Busspiel läuft ohne Download im Browser. Starte gleich jetzt deine Schicht."
+  ]
+ },
+ "topic:airplane-games": {
+  "h1": "Flugzeugspiele",
+  "kw": "flugzeugspiele",
+  "intro": [
+   "Heb ab mit kostenlosen Flugzeugspielen: Steuere Passagierjets, Kampfflugzeuge und Hubschrauber, lande auf kniffligen Landebahnen und überlebe Luftkämpfe.",
+   "Spiele sofort in deinem Browser am Desktop oder auf dem Handy. Kein Download, keine Anmeldung, nur klarer Himmel."
+  ]
+ },
+ "topic:bike-games": {
+  "h1": "Bike-Spiele",
+  "kw": "bike spiele",
+  "intro": [
+   "Kostenlose Bike-Spiele für Stunt-Fans: Dirt-Bikes, BMX-Tricks, Motocross-Strecken und verrückte Hindernisparcours, bei denen alles auf das Gleichgewicht ankommt.",
+   "Salto, Landung, nochmal fahren. Alle Bike-Spiele laufen ohne Download direkt im Browser."
+  ]
+ },
+ "topic:cat-games": {
+  "h1": "Katzenspiele",
+  "kw": "katzenspiele",
+  "intro": [
+   "Schnurr-fekt: kostenlose Katzenspiele! Kümmere dich um süße Kätzchen, löse Katzenrätsel, laufe, springe und richte als schelmische Katze Chaos an.",
+   "Jedes Katzenspiel läuft im Browser am PC und auf dem Handy. Kein Download, nur Katzen."
+  ]
+ },
+ "topic:dinosaur-games": {
+  "h1": "Dinosaurierspiele",
+  "kw": "dinosaurierspiele",
+  "intro": [
+   "Stampfe durch kostenlose Dinosaurierspiele: Laufe als T-Rex, jage, entwickle dich weiter, grabe Fossilien aus und überlebe in urzeitlichen Welten.",
+   "Spiele sofort im Browser auf jedem Gerät, kein Download nötig. Brüll!"
+  ]
+ },
+ "topic:space-games": {
+  "h1": "Weltraumspiele",
+  "kw": "weltraumspiele",
+  "intro": [
+   "Hebe ab mit kostenlosen Weltraumspielen: Steuere Raketen, kämpfe gegen Alienflotten, baue Asteroiden ab und erkunde fremde Planeten weit weg von zu Hause.",
+   "Alle Weltraumspiele laufen im Browser am Desktop und auf dem Handy, ohne Download."
+  ]
+ },
+ "topic:archery-games": {
+  "h1": "Bogenschießen-Spiele",
+  "kw": "bogenschießen spiele",
+  "intro": [
+   "Spanne deinen Bogen bei kostenlosen Bogenschießen-Spielen: Triff Zielscheiben, schieße auf Äpfel, duelliere dich mit anderen Bogenschützen und lande unmögliche Fernschüsse.",
+   "Bogenschießen-Spiele laufen sofort im Browser. Ruhige Hand, kein Download nötig."
+  ]
+ },
+ "topic:halloween-games": {
+  "h1": "Halloween Spiele",
+  "kw": "halloween spiele",
+  "intro": [
+   "Halloween ist der beste Anlass, um etwas gruselig zu spielen. Diese Seite sammelt kostenlose Halloween-Spiele an einem Ort: Kürbisse schnitzen und zerschmettern, durch Spukhäuser schleichen, hexige Kacheln zuordnen, Zaubertränke sortieren und sich für die große Nacht verkleiden. Für jede Stimmung ist etwas dabei, von gemütlichen Rätseln bis zu Flucht-Spielen mit Schreckmomenten.",
+   "Neue saisonale Spiele erscheinen hier, sobald unsere Partner sie im Oktober veröffentlichen. Jedes Spiel läuft direkt im Browser auf Handy, Tablet oder Computer, ohne Download und ohne Anmeldung. Wähle ein Spiel, schnapp dir ein paar Süßigkeiten und viel Spaß. Süßes oder Saures!"
+  ]
+ },
+ "topic:christmas-games": {
+  "h1": "Weihnachtsspiele",
+  "kw": "weihnachtsspiele",
+  "intro": [
+   "Feiere mit kostenlosen Weihnachtsspielen: Hilf dem Weihnachtsmann, Geschenke zu liefern, schmücke Bäume, baue Schneemänner und löse festliche Winterrätsel.",
+   "Jedes Weihnachtsspiel startet sofort im Browser auf PC und Handy."
+  ]
+ },
+ "topic:pirate-games": {
+  "h1": "Piratenspiele",
+  "kw": "piratenspiele",
+  "intro": [
+   "Hisst die Segel bei kostenlosen Piratenspielen: Kämpfe mit Schiffen, suche nach Schätzen, verteidige deine Insel und herrsche über die sieben Meere.",
+   "Piratenspiele starten sofort im Browser, ohne Download. Arr!"
+  ]
+ },
+ "topic:thanksgiving-games": {
+  "h1": "Thanksgiving Spiele",
+  "kw": "thanksgiving spiele",
+  "intro": [
+   "Feiere die Jahreszeit mit kostenlosen Thanksgiving- und Herbstspielen: Fang den davonlaufenden Truthahn, backe Kuchen, sammle die Ernte und löse gemütliche herbstliche Rätsel.",
+   "Alle Spiele laufen sofort im Browser ohne Download, ideal für die ganze Familie, während das Essen im Ofen ist."
+  ]
+ },
+ "topic:witch-and-wizard-games": {
+  "h1": "Hexen- und Zauberer-Spiele",
+  "kw": "hexenspiele",
+  "intro": [
+   "Braue Zaubertränke, wirke Zauber und verteidige deinen Turm mit Magie in kostenlosen Hexen- und Zauberer-Spielen. Ob gruselige Halloween-Hexe, weiser alter Magier oder epische Magieschlacht, hier findest du alles.",
+   "Jedes Magie-Spiel startet sofort im Browser auf PC, Tablet und Handy, ohne Download oder Anmeldung. Wähle ein Zauberbuch und leg in Sekunden los."
+  ]
+ },
+ "topic:monster-games": {
+  "h1": "Monsterspiele",
+  "kw": "monsterspiele",
+  "intro": [
+   "Triff freundliche Klekse, riesige Bestien und gruselige Kreaturen in unseren kostenlosen Monsterspielen. Kämpfe gegen Mutanten, entwickle dein eigenes Viech, flüchte vor einem hungrigen Troll oder zieh ein Taschenmonster groß, das mit jedem Level wächst.",
+   "Jedes Monsterspiel hier startet sofort im Browser auf PC, Tablet oder Handy, ohne Download und ohne Anmeldung. Perfekt für die Halloween-Woche oder jeden Abend, an dem dir nach etwas Wildem ist."
+  ]
+ },
+ "topic:building-games": {
+  "h1": "Bau- und Crafting-Spiele",
+  "kw": "Bauspiele",
+  "intro": [
+   "Stapeln, graben, craften und gestalten in kostenlosen Bauspielen. Baue Rohstoffe in klotzigen Welten ab, lass eine Skyline aus einem leeren Grundstück wachsen, leite eine Baustelle oder stelle Werkzeuge her, um die Nacht zu überleben.",
+   "Diese Sandbox- und Konstruktionsspiele laden direkt im Browser und sparen dir zeitraubende Installationen. Fang klein an, denk groß und sieh, wie weit deine Schöpfung wachsen kann."
+  ]
+ },
+ "topic:candy-games": {
+  "h1": "Süßigkeitenspiele",
+  "kw": "Süßigkeiten Spiele",
+  "intro": [
+   "Füll deine Tasche mit kostenlosen Süßigkeitenspielen: Tausche zuckrige Steine in Match-3-Rätseln, führe einen Dessertladen, stapel Cupcakes, verziere Donuts und zerplatze Gelee-Blöcke für große Kombos.",
+   "Süße Spiele sind eine lustige Art, sich auf die Halloween-Süßigkeitentour einzustimmen oder nach einem langen Tag abzuschalten. Alles läuft im Browser am Handy oder PC, ganz ohne Kalorien und ohne Downloads."
+  ]
+ },
+ "topic:ghost-games": {
+  "h1": "Geisterspiele",
+  "kw": "Geisterspiele",
+  "intro": [
+   "In diesen kostenlosen Geisterspielen geht es nachts gruselig zu. Erkunde verwunschene Häuser, hilf einem freundlichen Geist, den Weg nach Hause zu finden, jag unheimliche Phantome oder löse schaurige Rätsel, alles direkt in deinem Browser.",
+   "Da Halloween vor der Tür steht, sind Geisterspiele eine tolle Wahl für alle, die ein bisschen Nervenkitzel ohne echten Schrecken mögen. Sie starten sofort auf Handy, Tablet und PC, ganz ohne Download."
+  ]
+ },
+ "topic:mining-games": {
+  "h1": "Mining-Spiele",
+  "kw": "Mining Spiele",
+  "intro": [
+   "Schnapp dir eine Spitzhacke und grab tief in kostenlosen Mining-Spielen. Grabe dich durch Gestein nach Gold und Edelsteinen, verbessere Bohrer in Idle-Mining-Tycoons oder bahn dir in schnellen Arcade-Diggern den Weg nach unten.",
+   "Mining-Spiele verbinden die Ruhe des Sammelns mit dem Kick, in der nächsten Schicht etwas Seltenes zu finden. Spiel sie im Browser auf jedem Gerät, ohne Installation und ohne Konto."
+  ]
+ },
+ "topic:robot-games": {
+  "h1": "Roboterspiele",
+  "kw": "Roboterspiele",
+  "intro": [
+   "Lade dich auf mit kostenlosen Roboterspielen: Steuere riesige Mechs in Arenakämpfen, baue deinen eigenen Bot und verwandle ihn, löse Rätsel als winziger Droide oder rase mit futuristischen Maschinen über neonfarbene Strecken.",
+   "Von schnellen Arcade-Kämpfen bis zu cleveren Logikrätseln, Roboterspiele sind für Spieler jeden Alters geeignet. Alles lädt sofort im Browser auf Handy oder Desktop, ganz ohne Downloads."
+  ]
+ },
+ "topic:pumpkin-games": {
+  "h1": "Kürbisspiele",
+  "kw": "Kürbisspiele",
+  "intro": [
+   "Schnitz dir ein bisschen Spaß aus kostenlosen Kürbisspielen: Zerschmettere und kombiniere leuchtende Jack-o'-Lanterns, führe einen rollenden Kürbis durch gruselige Level, dekoriere deinen eigenen Kürbisacker oder zerplatze Herbstblasen, bevor sie unten ankommen.",
+   "Diese orangefarbenen Spiele sind ideal für Halloween-Partys, einen gemütlichen Herbstabend oder eine kurze Pause in der Schule. Jedes Spiel läuft direkt im Browser auf Handy, Tablet oder Desktop, ganz ohne Installation."
+  ]
+ },
+ "topic:winter-and-snow-games": {
+  "h1": "Winter- & Schneespiele",
+  "kw": "winterspiele",
+  "intro": [
+   "Mach dich warm für kostenlose Winter- und Schneespiele: Fahre auf Skiern oder einem Snowboard die Hänge hinunter, baue einen Schneemann, gewinne Schneeballschlachten, rutsche mit Pinguinen über zugefrorene Seen und überlebe eisige Abenteuer.",
+   "Ob Schneefrei, Winterferien oder einfach der Wunsch nach frischer Abwechslung: Diese Spiele laden sofort in deinem Browser auf Handy und Desktop. Keine Downloads, keine Anmeldung, nur kaltes Wintervergnügen."
+  ]
+ },
+ "topic:fruit-games": {
+  "h1": "Obstspiele",
+  "kw": "obstspiele",
+  "intro": [
+   "Saftig, bunt und spaßig: Spiel kostenlose Obstspiele, in denen du fliegendes Obst aufschneidest, Wassermelonen zusammenführst, Beeren auf Puzzle-Feldern zuordnest, Smoothies mixt und deine eigene Obstfarm oder deinen Laden betreibst.",
+   "Diese hellen, leicht verständlichen Spiele eignen sich perfekt für kurze Pausen und für Spieler jeden Alters. Jedes lädt sofort in deinem Browser auf Handy, Tablet oder PC, ohne Download und ohne Konto."
+  ]
+ },
+ "topic:boat-and-ship-games": {
+  "h1": "Boots- & Schiffsspiele",
+  "kw": "bootsspiele",
+  "intro": [
+   "Leine los mit kostenlosen Boots- und Schiffsspielen: Liefere dich Rennen mit Schnellbooten über die Wellen, parke Yachten in engen Marinas, befehlige Schlachtschiffe, tauche mit U-Booten ab und steuere Frachter durch stürmische Meere.",
+   "Ob du schnelle Wasserrennen oder ruhige Segelsimulationen magst, diese Spiele starten sofort in deinem Browser auf Handy und Desktop. Keine Downloads, keine Registrierung, nur offene See und Abenteuer."
+  ]
+ },
+ "topic:dragon-games": {
+  "h1": "Drachenspiele",
+  "kw": "drachenspiele",
+  "intro": [
+   "Breite deine Flügel aus mit kostenlosen Drachenspielen: Schlüpfe und ziehe Drachenbabys auf, fliege durch feurige Höhlen, kämpfe gegen Ritter und Monster oder verbünde dich mit einem feuerspeienden Freund in Puzzles und Jump-'n'-Runs voller Fantasy-Action.",
+   "Ob du rasante Arcade-Flüge, epische Kämpfe oder ruhiges Sammeln und Zusammenführen liebst, hier gibt es für jede Stimmung ein Drachenabenteuer. Alle Spiele laufen sofort in deinem Browser auf Handy, Tablet oder Computer, ohne Download und ohne Anmeldung."
+  ]
+ },
+ "topic:police-games": {
+  "h1": "Polizeispiele",
+  "kw": "polizeispiele",
+  "intro": [
+   "Schalte das Blaulicht ein mit kostenlosen Polizeispielen: Jage rasende Räuber durch Stadtstraßen, parke einen Streifenwagen mit Präzision, leite einen SWAT-Einsatz oder löse Verbrechen als Detektiv. Jede Mission stellt dich auf die Seite des Gesetzes.",
+   "Von Hochgeschwindigkeitsverfolgungen und Fahrsimulatoren bis zu schnellen Arcade-Shootern und Rätselfällen: Diese Polizeispiele sind schnell gestartet und schwer aus der Hand zu legen. Spiele direkt in deinem Browser auf jedem Gerät, völlig kostenlos und ohne Installation."
+  ]
+ },
+ "topic:doctor-and-hospital-games": {
+  "h1": "Arzt- & Krankenhausspiele",
+  "kw": "arztspiele",
+  "intro": [
+   "Zieh den weißen Kittel an mit kostenlosen Arztspielen: Behandle Patienten in einem belebten Stadtkrankenhaus, repariere als Zahnarzt Zähne, führe sorgfältige Operationen durch, kümmere dich in der Tierklinik um kranke Haustiere oder fahre mit dem Krankenwagen zum nächsten Notfall.",
+   "Diese Krankenhausspiele verbinden sanfte Fürsorge und Verkleidungsspaß mit schnellen Denkaufgaben in Simulationen, daher eignen sie sich für junge Spieler und Erwachsene gleichermaßen. Alles läuft sofort in deinem Browser auf Handy, Tablet oder PC, kostenlos und ohne Download."
+  ]
+ },
+ "topic:gun-games": {
+  "h1": "Waffenspiele",
+  "kw": "waffenspiele",
+  "intro": [
+   "Mach dich bereit und lade durch mit kostenlosen Waffenspielen, die du direkt im Browser spielen kannst: Stickman-Gefechte, Pixel-Shooter, Zielübungen mit Pistolen und Gewehren, Gun-Merge-Rätsel und schnelle Arcade-Ballerspiele, in denen jeder Schuss zählt.",
+   "Manche Spiele drehen sich um schnelle Reflexe und Zielen, andere ums Aufrüsten deiner Waffen oder das Lösen kniffliger Trickschuss-Level. Alle laufen sofort auf PC, Tablet und Handy, ohne Download und ohne Konto."
+  ]
+ },
+ "topic:fish-games": {
+  "h1": "Fischspiele",
+  "kw": "fischspiele",
+  "intro": [
+   "Tauch ab unter die Wellen mit kostenlosen Fischspielen: Sortiere bunte Fische in cleveren Rätseln, wachse vom winzigen Fisch zum König des Ozeans, richte dein eigenes Aquarium ein oder schwimm als hungriger Hai auf der Jagd nach dem nächsten Snack.",
+   "Diese Meeresspiele reichen von ruhigen, entspannenden Sortierrätseln bis zu schnellen Fress-und-Wachs-Arcade-Action, also ist für Kinder und Erwachsene etwas dabei. Spiele sofort im Browser am Handy oder Desktop, kostenlos und ohne Download."
+  ]
+ },
+ "topic:black-hole-games": {
+  "h1": "Black Hole Spiele",
+  "kw": "black hole spiele",
+  "intro": [
+   "Fang als winziges Loch im Boden an und verschling alles, was dir begegnet: Autos, Bäume, Gebäude und irgendwann ganze Städte. Black-Hole-Spiele sind leicht zu lernen und sehr schwer aus der Hand zu legen, denn jedes Objekt, das du frisst, macht dich ein kleines bisschen größer.",
+   "Manche sind ruhige Rätsel, bei denen du ein Level Stück für Stück leerräumst, andere sind zeitlich begrenzte Arcade-Herausforderungen oder io-artige Kämpfe, in denen du gegen andere Löcher antrittst, um der Größte zu werden. Spiele sie kostenlos im Browser am Handy oder Desktop, ohne Download."
+  ]
+ },
+ "topic:brainrot-games": {
+  "h1": "Brainrot Spiele",
+  "kw": "brainrot spiele",
+  "intro": [
+   "Die seltsamen und wunderbaren Brainrot-Charaktere sind aus Memes in Spiele gesprungen. Rette sie vor Tsunamis und Lava, absolviere mit ihnen obby-Parkour-Parcours, kombiniere sie, zieh sie an oder nimm sie mit auf eine Fahrt mit dem Fahrrad oder Skateboard.",
+   "Diese Brainrot-Spiele sind schnell, albern und für kurze Runden gemacht, von einfachen obby-Sprüngen bis zu chaotischen Fluchtherausforderungen. Spiele sie kostenlos im Browser am Handy, Tablet oder PC, ohne Download und ohne Anmeldung."
+  ]
+ },
+ "topic:open-world-games": {
+  "h1": "Open World Spiele",
+  "kw": "open world spiele",
+  "intro": [
+   "Open-World-Spiele bieten dir eine große Karte und lassen dich entscheiden, was als Nächstes passiert. Fahre durch Städte, streife durch Sandbox-Welten, baue, erkunde und übernimm Missionen in deinem eigenen Tempo, statt einem festen Pfad zu folgen.",
+   "Diese Sammlung vereint kostenlose Open-World- und Sandbox-Spiele, die du im Browser am Desktop oder Handy spielen kannst. Kein Download und keine Installation: Wähle eine Welt und fang an zu erkunden."
+  ]
+ },
+ "topic:cleaning-games": {
+  "h1": "Putzspiele",
+  "kw": "putzspiele",
+  "intro": [
+   "Putzspiele verwandeln lästige Arbeiten in etwas erstaunlich Befriedigendes. Wasche schmutzige Autos, bis sie glänzen, puste Laubhaufen vom Rasen, schrubbe, sortiere und räume vollgestellte Zimmer auf oder organisiere Regale, bis alles an seinem Platz einrastet.",
+   "Diese Sammlung bietet kostenlose Putz-, Wasch- und Aufräumspiele, die du direkt im Browser am PC, Tablet oder Handy spielen kannst. Es gibt nichts herunterzuladen und keine Anmeldung, also such dir ein Chaos aus und fang an zu putzen."
+  ]
+ },
+ "topic:autumn-games": {
+  "h1": "Herbstspiele",
+  "kw": "herbstspiele",
+  "intro": [
+   "Herbstspiele bringen die Farben und die Stimmung des Herbstes auf deinen Bildschirm: Puste haufenweise orangefarbene Blätter weg, bring die Ernte ein, geh im Wald auf Pilzsuche oder hilf einem hungrigen Eichhörnchen, sich auf den Winter vorzubereiten.",
+   "Hier findest du kostenlose Herbstspiele für alle Altersgruppen, die im Browser auf dem Desktop und auf dem Handy laufen. Keine Downloads und kein Konto nötig, also mach es dir gemütlich und leg los."
+  ]
+ },
+ "topic:evolution-games": {
+  "h1": "Evolutionsspiele",
+  "kw": "evolutionsspiele",
+  "intro": [
+   "Evolutionsspiele drehen sich alles ums Wachsen: Fang klein an, sammle, kombiniere oder renne los, und beobachte, wie sich dein Charakter, dein Wesen oder dein Fahrzeug mit jedem Level in etwas Größeres und Stärkeres verwandelt.",
+   "Spiel kostenlose Evolutionsspiele im Browser auf dem Desktop und auf dem Handy, von Runnern, die durch die Zeitalter der Menschheit rasen, bis zu Idle-Clickern und Tiersimulationen. Keine Downloads und keine Anmeldung nötig."
+  ]
+ },
+ "topic:home-design-games": {
+  "h1": "Wohnungsdesign- & Einrichtungsspiele",
+  "kw": "einrichtungsspiele",
+  "intro": [
+   "Einrichtungsspiele lassen dich Innenarchitekt spielen: Renoviere alte Räume, wähle Möbel und Farben aus, gestalte Gärten und Pools oder löse Match-3-Rätsel, um den nächsten Teil einer Traumvilla freizuschalten.",
+   "Alle diese Einrichtungsspiele sind kostenlos im Browser auf dem PC, Tablet und Handy spielbar. Wähl ein Haus, sei kreativ und mach jeden Raum zu deinem eigenen, ganz ohne Download."
+  ]
+ },
+ "topic:sandbox-games": {
+  "h1": "Sandbox-Spiele",
+  "kw": "sandbox spiele",
+  "intro": [
+   "Sandbox-Spiele geben dir eine Welt und eine Auswahl an Werkzeugen und überlassen dir, was passiert. Baue, zerstöre, schleudere Ragdolls durch die Luft, lass Autos crashen oder erschaffe deine eigene kleine Welt ganz ohne vorgegebenen Weg.",
+   "Jedes Sandbox-Spiel hier ist kostenlos im Browser auf dem PC, Tablet und Handy spielbar. Wähl einen Spielplatz, experimentiere mit der Physik und hab Spaß, ganz ohne Download."
+  ]
+ },
+ "topic:flag-and-geography-games": {
+  "h1": "Flaggen- & Geografiespiele",
+  "kw": "flaggenspiele",
+  "intro": [
+   "Flaggen- und Geografiespiele machen das Lernen über die Welt zum Spiel: Errate Länderflaggen in Quizzes, male und koloriere Flaggen, ordne sie in Memory-Spielen zu oder teste dich mit täglichen Geografie-Herausforderungen.",
+   "Sie sind kostenlos im Browser auf dem PC, Tablet und Handy spielbar, ideal für Schüler und alle, die Landkarten und Wissensfragen lieben. Kein Download und keine Anmeldung nötig."
+  ]
+ },
+ "topic:ragdoll-games": {
+  "h1": "Ragdoll-Spiele",
+  "kw": "ragdoll spiele",
+  "intro": [
+   "Ragdoll-Spiele drehen sich alles um schlaffe, physikgesteuerte Figuren: Schleudere sie, lass sie crashen, stoß sie um und beobachte, wie jede Gliedmaße in Echtzeit reagiert. Manche sind offene Sandkästen, in denen du eigene Szenen baust, andere sind Kampf-, Fall- oder Stuntspiele, in denen die Physik den Spaß ausmacht.",
+   "Jedes Ragdoll-Spiel hier ist kostenlos im Browser auf dem PC, Tablet und Handy spielbar, ohne Download und ohne Anmeldung. Wähl eins aus und sieh, wie die Physik sich entfaltet."
+  ]
+ },
+ "topic:bee-and-insect-games": {
+  "h1": "Bienen- & Insektenspiele",
+  "kw": "bienen spiele",
+  "intro": [
+   "Bienen- und Insektenspiele lassen dich die Welt aus einer viel kleineren Perspektive erleben: Flieg als Honigbiene und sammle Pollen, baue eine Ameisenkolonie auf, fang Schmetterlinge oder zerquetsche Käfer in schnellen Arcade-Herausforderungen.",
+   "Sie sind kostenlos online im Browser auf PC, Tablet und Smartphone spielbar, und viele sind entspannend und für Kinder geeignet. Kein Download und kein Konto nötig."
+  ]
+ },
+ "topic:pet-and-vet-games": {
+  "h1": "Tier- & Tierarztspiele",
+  "kw": "tierarzt spiele",
+  "intro": [
+   "Tier- und Tierarztspiele lassen dich Tiere vom ersten Check-up bis zur letzten Verbeugung versorgen: Behandle kranke Welpen und Kätzchen in einer Tierklinik, pflege und bade Haustiere, führe eine Tierhandlung oder baue aus einem kleinen Raum ein ganzes Tierzentrum auf.",
+   "Viele dieser Spiele sind sanft und entspannend, was sie zu einer guten Wahl für Kinder und alle Tierfreunde macht. Sie sind kostenlos online im Browser auf PC, Tablet und Smartphone spielbar, ohne Download oder Konto."
+  ]
+ }
+}
