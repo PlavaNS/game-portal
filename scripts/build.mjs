@@ -509,7 +509,10 @@ for (const g of all) {
 
   const portrait = g.h > g.w * 1.05;
   const pageUrl = abs(`/games/${g.slug}/`);
-  const desc = trunc(`Play ${g.title} online for free. ${g.description}`, 158);
+  // pages with a guide get a more specific snippet (the guide intro) and a title that promises tips, which app-store results do not offer
+  const GD = GUIDES[g.slug];
+  const desc = trunc(`Play ${g.title} online for free. ${GD && GD.intro ? GD.intro + " " : ""}${g.description}`, 158);
+  const pageTitle = GD ? `${g.title} — Play Free Online, Tips & FAQ | ${cfg.name}` : `${g.title} — Play Online for Free | ${cfg.name}`;
   const tp = topicOf.get(g.id);
   const catLinks = (tp ? `<a class="chip" href="${u(`/${tp.slug}/`)}">${esc(tp.h1)}</a>` : '') + g.cats.all.filter(c => CAT_BY[c]).map(c => `<a class="chip" href="${u(`/c/${c}/`)}">${esc(CAT_BY[c].name)}</a>`).join('');
   const tagText = g.tags.slice(0, 8).map(t => `<span class="chip ghost">${esc(t)}</span>`).join('');
@@ -563,7 +566,7 @@ for (const g of all) {
     ...(g.studio ? { author: { '@type': 'Organization', name: g.studio } } : {}),
   };
   write(`games/${g.slug}/index.html`, layout({
-    title: `${g.title} — Play Online for Free | ${cfg.name}`, desc, canonical: pageUrl, body, bodyClass: 'game-page', preload: g.thumb,
+    title: pageTitle, desc, canonical: pageUrl, body, bodyClass: 'game-page', preload: g.thumb,
     ogImage: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)),
     jsonld: [ld, crumbs([['Home', abs('/')], [main.h1, abs(`/c/${main.slug}/`)], [g.title, pageUrl]])],
   }));
