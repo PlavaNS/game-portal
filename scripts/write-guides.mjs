@@ -21,8 +21,14 @@ if (!games) { console.error('No .cache/games.json - run: node scripts/build.mjs'
 const GUIDES_FILE = path.join(ROOT, 'data/guides.json');
 const guides = readJSON(GUIDES_FILE, {});
 
-// most played first (build.mjs already sorts by score), only games without a guide
-const todo = games.filter(g => g.slug && !guides[g.slug] && (g.description || '').length >= 60).slice(0, COUNT);
+// pages Google already shows first (data/priority-slugs.txt, from Search Console), then the most played
+// (build.mjs already sorts by score); only games without a guide
+const prio = (() => { try { return fs.readFileSync(path.join(ROOT, 'data/priority-slugs.txt'), 'utf8').split('\n').filter(l => l && !l.startsWith('#')).join(',').split(',').map(x => x.trim()).filter(Boolean); } catch { return []; } })();
+const rank = new Map(prio.map((s, i) => [s, i]));
+const cand = games.filter(g => g.slug && !guides[g.slug] && (g.description || '').length >= 60);
+cand.sort((a, b) => (rank.has(a.slug) ? rank.get(a.slug) : 1e9) - (rank.has(b.slug) ? rank.get(b.slug) : 1e9));
+const todo = cand.slice(0, COUNT);
+console.log(`priority list: ${prio.length} pages, ${cand.filter(g => rank.has(g.slug)).length} of them still without a guide`);
 console.log(`games: ${games.length}, with guide: ${Object.keys(guides).length}, writing now: ${todo.length}`);
 if (!todo.length) process.exit(0);
 if (DRY) { todo.slice(0, 20).forEach(g => console.log(' -', g.slug)); process.exit(0); }
