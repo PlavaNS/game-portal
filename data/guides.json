@@ -98561,5 +98561,85 @@
         "Move with WASD and look around with the mouse. Click to swing the pickaxe at an egg until it breaks."
       ]
     ]
+  },
+  "special-ops-go": {
+    "intro": "Special Ops: GO is a modern browser FPS built around quick, competitive matches. You pick a loadout, drop into an arena and fight real players in up to 5v5 battles, or take on single-player missions if you prefer to play solo.",
+    "tips": [
+      "Match your weapon to the map: SMGs and pistols suit close-quarters fights, while rifles and sniper rifles pay off on long sight lines.",
+      "Try Deathmatch first to warm up your aim, then move to Team Deathmatch or Ranked once you know the maps.",
+      "Keep moving between shots. Matches reward sharp aim, movement and smart decisions, so standing still makes you an easy target.",
+      "Use the single-player missions and survival challenges to practise against enemies without the pressure of a ranked match.",
+      "Log in daily and finish quests to collect rewards and credits, which help you unlock weapon skins and climb the ranks."
+    ],
+    "faq": [
+      [
+        "Can I play Special Ops: GO alone?",
+        "Yes. Besides online PvP it has a single-player mode with missions and survival-style challenges."
+      ],
+      [
+        "Which game modes are there?",
+        "The game offers Deathmatch, Team Deathmatch, Ranked and Custom Rooms for online play, plus single-player missions."
+      ]
+    ]
+  },
+  "pixel-conquest": {
+    "intro": "Pixel Conquest is a territory strategy game where you race AI opponents to claim as much of the grid as you can. Leave your own area, draw a trail and close the loop to capture land, while your city grows automatically inside your borders.",
+    "tips": [
+      "Make small, quick loops at the start. A short trail is safer because you spend less time outside your own territory.",
+      "Never run into the outer walls or an opponent's established territory; both end your run instantly.",
+      "Watch rival trails: cutting off and eliminating opponents is one of the fastest ways to boost your score.",
+      "Grab the Shield power-up before a risky move, since it lets you survive one fatal collision.",
+      "Save the Bomb for a crowded spot, because it instantly claims a large circular area around you."
+    ],
+    "faq": [
+      [
+        "How do I score points in Pixel Conquest?",
+        "Houses and skyscrapers are built automatically as your territory grows and earn points over time. Conquering enemy land, destroying their buildings and eliminating opponents also raise your score."
+      ],
+      [
+        "What power-ups are there?",
+        "Speed makes you move twice as fast, Shield survives one fatal collision, Ghost lets you pass through enemy trails and Bomb claims a large circle around you."
+      ]
+    ]
+  },
+  "block-zero": {
+    "intro": "Block Zero is a third-person action game set in an open low-poly city. You play a blocky mutant who runs up walls, glides between rooftops and takes on missions across three zones, from quiet residential blocks to the infected quarantine and the corporate base.",
+    "tips": [
+      "Sprint straight into a building to run up its wall, then hold jump to glide across the street to the next roof.",
+      "Use the air dash mid-flight to correct your landing or reach a roof that is just out of glide range.",
+      "When your health is low, weaken an enemy and absorb it: you heal, gain biomass and can take its appearance.",
+      "Disguise yourself as security before entering guarded areas, because security will not shoot at one of their own.",
+      "Try the yellow pillars between missions for medal challenges; a restart is one press away, so keep retrying for gold."
+    ],
+    "faq": [
+      [
+        "How many missions does Block Zero have?",
+        "After the tutorial there are 12 missions, including nest bosses, a courier chase, a convoy and a final mission called the Source."
+      ],
+      [
+        "What are the medal challenges?",
+        "Yellow pillars start rooftop runs through a chain of gates and 60-second Smash arenas. There are 6 runs and 3 arenas, each with bronze, silver and gold medals, plus a daily challenge with a twist."
+      ]
+    ]
+  },
+  "flippin-coins": {
+    "intro": "Flippin' Coins is an idle merge game that mixes a little luck with planning. You tap coins to flip them for cash, drag matching coins together to reach higher tiers and spend your earnings on new coins to grow faster.",
+    "tips": [
+      "Flip coins often in the early game; each flip has a 75% win rate, so the odds are on your side.",
+      "Merge two matching coins as soon as you can to free up space on the board and unlock the next tier.",
+      "Reinvest your earnings in new coins rather than saving everything, so you have more coins to flip and merge.",
+      "Aim for higher tiers, because each new tier brings bigger rewards than the last.",
+      "Keep a few free spots on the board so newly bought coins always have somewhere to go."
+    ],
+    "faq": [
+      [
+        "How do I merge coins in Flippin' Coins?",
+        "Drag one coin onto a matching coin of the same tier. Two Tier 1 coins become a Tier 2 coin, two Tier 2 coins become Tier 3, and so on."
+      ],
+      [
+        "Can a flip lose money?",
+        "Every flip is a gamble, but the game gives each flip a 75% win rate, so most flips pay out."
+      ]
+    ]
   }
 }
