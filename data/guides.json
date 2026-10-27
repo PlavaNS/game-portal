@@ -4418,5 +4418,85 @@
         "Yes, you can clean spooky Halloween yards at night and collect hats like a pumpkin head and witch hat."
       ]
     ]
+  },
+  "the-egg-stealing-master": {
+    "intro": "The Egg Stealing Master mixes 3D stealth with a pet-collecting loop: every egg you sneak out becomes a pet you can hatch, sell and turn into upgrades. These tips help you steal more and get caught less.",
+    "tips": [
+      "Watch where the guards are looking before you grab an egg. A short wait is cheaper than losing the run.",
+      "Carry each egg straight back to your pen so it starts hatching; an egg in your hands earns nothing.",
+      "Spend your first coins on speed upgrades. Being faster makes every later trip safer and quicker.",
+      "Sell pets you do not need to fund upgrades, and keep the rare ones that are worth more.",
+      "On PC use WASD and press E near an egg; on mobile use the joystick and the action button."
+    ],
+    "faq": [
+      [
+        "How do I steal an egg in The Egg Stealing Master?",
+        "Walk up to an egg and press E (or the action button on mobile), then bring it back to your pen to hatch it while avoiding the guards."
+      ],
+      [
+        "What are coins used for?",
+        "You earn coins by selling the pets you hatch and spend them on upgrades such as more speed and on trails."
+      ]
+    ]
+  },
+  "idle-zoo-tycoon": {
+    "intro": "Idle Zoo Tycoon starts with a small park and grows into a big wildlife attraction. Your zoo keeps earning while you are away, so smart spending decides how fast it grows.",
+    "tips": [
+      "Tap the zoo often at the start; early tapping income speeds up the first animal unlocks.",
+      "Unlock new animals whenever you can, because every species raises popularity and revenue.",
+      "Upgrade enclosures you already own before expanding too far, so your income keeps up with your costs.",
+      "Build exhibitions that attract more visitors, since visitors are what drive your earnings.",
+      "Come back after a break to collect what the zoo earned automatically and reinvest it straight away."
+    ],
+    "faq": [
+      [
+        "Does Idle Zoo Tycoon earn money while I am away?",
+        "Yes. The game description says your zoo generates money automatically, even while you are away, so you can collect it when you return."
+      ],
+      [
+        "How do I make my zoo more popular?",
+        "Unlock new animals and build exhibitions. Each new animal increases your zoo's popularity and boosts your revenue."
+      ]
+    ]
+  },
+  "animal-care-tycoon": {
+    "intro": "Animal Care Tycoon puts you in charge of an idle animal hospital that starts as one small treatment room. Heal pets, earn coins and grow it into the biggest veterinary center in the city.",
+    "tips": [
+      "Treat patients quickly at the start; healed animals are your main source of coins for the first upgrades.",
+      "Upgrade equipment early so you can treat colds, viruses and fractures faster.",
+      "Hire vet doctors and staff as soon as you can afford them, so the hospital keeps running while you manage other rooms.",
+      "Unlock new rooms to take in more animals at once, which means more coins per minute.",
+      "On PC move with WASD or the arrow keys and click to interact; on mobile use the joystick and tap."
+    ],
+    "faq": [
+      [
+        "What animals can I treat in Animal Care Tycoon?",
+        "Cats, dogs and sheep, and even exotic animals such as zebras. Each patient arrives with its own problem, like a cold, a virus or a fracture."
+      ],
+      [
+        "Can I hire helpers?",
+        "Yes. You can hire professional vet doctors and staff to keep your animal hospital running smoothly."
+      ]
+    ]
+  },
+  "wild-animal-hospital-vet-doctor": {
+    "intro": "Wild Animal Hospital Vet Doctor lets you run a clinic for wild animals that need emergency care. Each patient comes in with colds, bruises or wounds, and it is your job to get them healthy again.",
+    "tips": [
+      "Look at each animal carefully first to see what it needs before picking a tool.",
+      "Follow the steps one at a time; finishing a treatment in order is faster than jumping between tools.",
+      "Take your time with wounds and bruises, the game rewards careful work more than speed.",
+      "Treat every new patient as a new puzzle, since each wild animal can have a different problem.",
+      "Play with a mouse click on PC or a simple tap on phones and tablets."
+    ],
+    "faq": [
+      [
+        "Is Wild Animal Hospital Vet Doctor good for kids?",
+        "It is a cute, simple doctor game controlled by clicking or tapping, which makes it easy for younger players."
+      ],
+      [
+        "What do I do in Wild Animal Hospital Vet Doctor?",
+        "You work as a doctor in a clinic that takes in sick and injured wild animals and treat them for colds, bruises and other wounds."
+      ]
+    ]
   }
 }

@@ -289,8 +289,8 @@
   "kw": "animal games online",
   "match": "animal|animals|cat|dog|puppy|kitten|horse|pet|pets|farm|zoo|dinosaur|bird",
   "intro": [
-   "Care for pets, run a farm and play with cats, dogs, horses and dinosaurs in free animal games.",
-   "Cute, family-friendly and instant — no download required."
+   "Animal games are some of the most popular free games online: run a zoo, care for pets, treat animals in a vet hospital, raise a farm or explore the world as a cat, dog, horse or dinosaur. This page gathers them in one place, from relaxing idle tycoons to quick arcade challenges.",
+   "Most animal games are family-friendly and easy to pick up, so they work well for kids and grown-ups alike. Every game runs instantly in your browser on phone, tablet or computer, with no download and no sign-up."
   ]
  },
  {
@@ -1003,6 +1003,16 @@
   "intro": [
    "Bee and insect games let you see the world from a much smaller point of view: fly with a honeybee and gather pollen, grow an ant colony, catch butterflies or squash bugs in fast arcade challenges.",
    "They are free to play online in your browser on PC, tablet and phone, and many are relaxing and suitable for kids. No download or account needed."
+  ]
+ },
+ {
+  "slug": "pet-and-vet-games",
+  "h1": "Pet & Vet Games",
+  "kw": "animal hospital games",
+  "match": "\\bpets?\\b|\\bvet\\b|veterinar|animal hospital|animal care|pet doctor|puppy|kitten|pet shop|pet salon|grooming",
+  "intro": [
+   "Pet and vet games let you look after animals from the first check-up to the final bow: treat sick puppies and kittens in an animal hospital, groom and bathe pets, run a pet shop or build a whole veterinary center from one small room.",
+   "Many of these games are gentle and relaxing, which makes them a good pick for kids and anyone who loves animals. They are free to play online in your browser on PC, tablet and phone, with no download or account needed."
   ]
  }
 ]
