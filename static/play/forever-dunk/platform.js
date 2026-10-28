@@ -96,7 +96,13 @@
         await loadScript('https://sdk.crazygames.com/crazygames-sdk-v3.js');
         await window.CrazyGames.SDK.init();
         window.CrazyGames.SDK.game.loadingStart();
+        const sdk = window.CrazyGames.SDK;
+        hooks.audio(!sdk.game.settings.muteAudio);
+        sdk.game.addSettingsChangeListener(st => hooks.audio(!st.muteAudio));
       },
+      // CrazyGames Data Module: progress follows the player's CrazyGames account
+      loadData: key => window.CrazyGames.SDK.data.getItem(key),
+      saveData: (key, raw) => window.CrazyGames.SDK.data.setItem(key, raw),
       loadingDone: () => window.CrazyGames.SDK.game.loadingStop(),
       gameplayStart: () => window.CrazyGames.SDK.game.gameplayStart(),
       gameplayStop: () => window.CrazyGames.SDK.game.gameplayStop(),
@@ -280,6 +286,8 @@
     gameplayStop: () => { if (playing) { playing = false; call(be.gameplayStop); } },
     happy: () => call(be.happy),
     get hasPlatformLeaderboard() { return ready && !!be.hasLeaderboard && be.hasLeaderboard(); },
+    loadData(key) { return ready && be.loadData ? be.loadData(key) : null; },
+    saveData(key, raw) { call(be.saveData, key, raw); },
     submitScore(score) { if (ready && be.submitScore) be.submitScore(score).catch(e => console.warn('Score submit failed', e)); },
     userName() { return ready && be.userName ? be.userName().catch(() => null) : Promise.resolve(null); },
     // Interstitial at a natural break (game over -> play again). Our own floor of 45 s between ads.

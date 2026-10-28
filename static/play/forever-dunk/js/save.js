@@ -15,10 +15,13 @@ function defaultSave() {
   };
 }
 function loadSave() {
+  try { return parseSave(localStorage.getItem(SAVE_KEY)); }
+  catch (e) { console.warn('Save unavailable', e); return defaultSave(); }
+}
+function parseSave(raw) {
   const base = defaultSave();
-  try {
-    const raw = localStorage.getItem(SAVE_KEY);
-    if (!raw) return base;
+  if (!raw) return base;
+  {
     const s = JSON.parse(raw);
     if (!s.ballSet) dropRemovedBall(s);
     return {
@@ -26,7 +29,12 @@ function loadSave() {
       best: { ...base.best, ...s.best }, total: { ...base.total, ...s.total },
       owned: { ...base.owned, ...s.owned }, daily: { ...base.daily, ...s.daily },
     };
-  } catch (e) { console.warn('Save unavailable', e); return base; }
+  }
+}
+// Portals with their own cloud save (CrazyGames Data Module) replace the local save once their SDK is ready
+function loadPlatformSave() {
+  const raw = Platform.loadData(SAVE_KEY);
+  if (raw) Object.assign(save, parseSave(raw));
 }
 // Ball set 2 removed the old 4th ball (index 3): later balls move down one place,
 // and a player who bought it gets the coins back.
@@ -39,7 +47,11 @@ function dropRemovedBall(s) {
   s.ballSkin = b === REMOVED ? 0 : b > REMOVED ? b - 1 : b;
   s.ballSet = 2;
 }
-function writeSave() { try { localStorage.setItem(SAVE_KEY, JSON.stringify(save)); } catch (e) { console.warn('Save failed', e); } }
+function writeSave() {
+  const raw = JSON.stringify(save);
+  try { localStorage.setItem(SAVE_KEY, raw); } catch (e) { console.warn('Save failed', e); }
+  Platform.saveData(SAVE_KEY, raw);
+}
 const save = loadSave();
 const today = () => new Date().toISOString().slice(0, 10);
 

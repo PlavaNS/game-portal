@@ -547,6 +547,7 @@ Platform.hooks.audio = v => { platformAudio = v; applyAudio(); };
 async function boot() {
   resize();
   await Promise.all([loadImages(), Platform.init()]);
+  loadPlatformSave();
   await Promise.all([document.fonts.load('40px "Lilita One"'), document.fonts.load('40px "Mitr"')]);
   ensureMissions();
   if (!save.playerName) Platform.userName().then(n => { if (n && !save.playerName) { save.playerName = cleanName(n); writeSave(); } });
