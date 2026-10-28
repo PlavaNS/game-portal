@@ -1,7 +1,7 @@
-@font-face { font-family: "Lilita One"; src: url(lilita-one.woff2) format("woff2"); font-display: swap; }
-@font-face { font-family: "Mitr"; font-weight: 400; src: url(mitr-400.woff2) format("woff2"); font-display: swap; }
-@font-face { font-family: "Mitr"; font-weight: 500; src: url(mitr-500.woff2) format("woff2"); font-display: swap; }
-@font-face { font-family: "Mitr"; font-weight: 600; src: url(mitr-600.woff2) format("woff2"); font-display: swap; }
+@font-face { font-family: "Lilita One"; src: url(lilita-one.woff2?v=f8c8febb) format("woff2"); font-display: swap; }
+@font-face { font-family: "Mitr"; font-weight: 400; src: url(mitr-400.woff2?v=f8c8febb) format("woff2"); font-display: swap; }
+@font-face { font-family: "Mitr"; font-weight: 500; src: url(mitr-500.woff2?v=f8c8febb) format("woff2"); font-display: swap; }
+@font-face { font-family: "Mitr"; font-weight: 600; src: url(mitr-600.woff2?v=f8c8febb) format("woff2"); font-display: swap; }
 
 /* Layout: one 9:16 portrait stage; font-size on #stage = 1% of its height, so every size below is in "em" of that. */
 :root {

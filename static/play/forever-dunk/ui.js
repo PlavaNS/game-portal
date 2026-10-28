@@ -548,7 +548,8 @@ async function boot() {
   resize();
   await Promise.all([loadImages(), Platform.init()]);
   loadPlatformSave();
-  await Promise.all([document.fonts.load('40px "Lilita One"'), document.fonts.load('40px "Mitr"')]);
+  // Fonts only change how text looks: a font that fails to load must never stop the game from starting
+  await Promise.allSettled([document.fonts.load('40px "Lilita One"'), document.fonts.load('40px "Mitr"')]);
   ensureMissions();
   if (!save.playerName) Platform.userName().then(n => { if (n && !save.playerName) { save.playerName = cleanName(n); writeSave(); } });
   setMode('menu');
