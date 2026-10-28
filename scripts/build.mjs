@@ -528,12 +528,14 @@ function emitContent() {
   listPages('/all/', [...all].sort((a, b) => a.title.localeCompare(b.title)), { altPath: '/all/', altLangs: uiLangs(), title: `${tr('All Games A–Z')} | ${cfg.name}`, h1: tr('All games A–Z'), intro: `${tr('Every game on')} ${cfg.name}, ${tr('sorted alphabetically.')}`, desc: `${tr('Browse all')} ${all.length} ${tr('free online games on')} ${cfg.name} ${tr('from A to Z.')}` });
 
   // TOPIC PAGES
+  const slugSet = new Set(all.map(g => g.slug));
   const topicOf = new Map();
   for (const t of topics) for (const g of t.list) if (!topicOf.has(g.id)) topicOf.set(g.id, t);
   for (const t of topics) {
     if (!catOK('topic:' + t.slug)) continue;
     const TT = catTr('topic:' + t.slug) || {};
-    const TG = LANG === 'en' ? TGUIDES[t.slug] : ((catTr('topic:' + t.slug) || {}).guide || null);
+    const TG0 = LANG === 'en' ? TGUIDES[t.slug] : ((catTr('topic:' + t.slug) || {}).guide || null);
+    const TG = TG0 ? (() => { const picks = (TG0.picks || []).filter(p => slugSet.has(p.slug)); return picks.length >= 3 ? { ...TG0, picks } : null; })() : null;
     const th1 = TT.h1 || t.h1, tkw = TT.kw || t.kw;
     const tintro = Array.isArray(TT.intro) ? TT.intro : (typeof TT.intro === 'string' ? [TT.intro] : t.intro);
     const others = topics.filter(o => o.slug !== t.slug).slice(0, 12);
