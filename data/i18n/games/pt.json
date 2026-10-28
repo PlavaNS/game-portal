@@ -7018,5 +7018,1386 @@
     ]
    ]
   }
+ },
+ "bubble-wrap": {
+  "description": "Bubble Wrap é o clicker ocioso mais satisfatório da web. Gire um globo 3D coberto de bolhas hexagonais e estoure-as uma por uma, ou deixe suas armas fazerem o trabalho. Ganhe moedas, desbloqueie 38 armas, de alfinetes simples a destruidores de planetas absurdos, ative o Modo Fúria para uma explosão de caos e avance até o núcleo do chefe de cada mundo. O progresso continua crescendo mesmo quando você faz uma pausa, então cada visita compensa.",
+  "instructions": "Segure o botão esquerdo do mouse e passe sobre o globo para estourar bolhas; continue estourando sem pausa para montar uma combinação. Arraste com o botão direito do mouse para girar o globo. No celular, toque ou segure para estourar e arraste com dois dedos para girar. Compre e melhore armas com as moedas que você ganha, encha o anel da Fúria para ativar o Modo Fúria e, em seguida, quebre o núcleo para chegar ao próximo mundo.",
+  "guide": {
+   "intro": "Bubble Wrap recompensa duas coisas que puxam em direções opostas: estourar rápido sem pausa para montar uma combinação, e guardar suas moedas para a arma que realmente combina com o mundo em que você está.",
+   "tips": [
+    "Passe sobre o globo com o botão pressionado em vez de tocar uma bolha por vez. Um movimento contínuo é o que mantém a combinação viva.",
+    "Gire o globo antes de acabarem as bolhas do lado que você está encarando. Uma pausa para olhar em volta quebra a combinação que você acabou de montar.",
+    "Compre uma arma e melhore-a em vez de ter várias fracas. As melhorias se acumulam, uma segunda arma não.",
+    "Encha o anel da Fúria antes de começar um lado novo do globo, para que a explosão caia onde há mais bolhas para estourar.",
+    "Deixe o jogo de lado por um tempo de propósito. O progresso continua crescendo enquanto você está fora, então você volta com moedas para gastar."
+   ],
+   "faq": [
+    [
+     "O que é o núcleo no fim de um mundo?",
+     "Quando o globo estiver limpo, você chega a um núcleo de chefe. Quebrá-lo abre o próximo mundo, com novas bolhas e uma recompensa maior."
+    ],
+    [
+     "O Bubble Wrap continua rodando quando eu fecho o jogo?",
+     "Sim. É um jogo ocioso, então suas armas continuam ganhando moedas enquanto você está fora e você volta com as moedas acumuladas."
+    ]
+   ]
+  }
+ },
+ "wall-of-riddles": {
+  "description": "Wall of Riddles é um jogo de escape room online gratuito criado pela Door 404, um estúdio real de escape rooms de Novi Sad. Diante de você há uma parede com nove baús trancados. Cada baú esconde uma gema, e alguns guardam itens e pistas necessários para abrir os outros: um calendário de mesa, um filme cinza, um pergaminho de símbolos, um disco de madeira e uma chave de latão. Resolva cadeados, leia um relógio parado, alinhe bandeiras, gire discos de madeira e decifre uma bússola. É uma verdadeira cadeia de enigmas de escape room que você pode jogar no navegador, sozinho ou com amigos em uma só tela, com um sistema de dicas para cada baú quando você travar.",
+  "instructions": "Toque em um baú para abrir o seu enigma. Gire os discos do cadeado para inserir um código. Os itens que você encontrar vão para a bolsa na parte inferior: toque em um item para examiná-lo e arraste-o até um baú para usá-lo. Cada baú tem até três dicas. Colete as nove gemas para vencer a parede.",
+  "guide": {
+   "intro": "Wall of Riddles é um verdadeiro escape room criado por pessoas que administram um. Os nove baús não são independentes: vários escondem o item ou a pista que abre outro, então a ordem em que você trabalha faz diferença.",
+   "tips": [
+    "Abra primeiro todos os baús que você conseguir alcançar e leia o que há dentro antes de mexer em qualquer cadeado. Alguns baús entregam a chave dos outros.",
+    "Confira a bolsa na parte inferior após cada achado. Tocar em um item mostra uma visão mais detalhada, e o detalhe que você precisa muitas vezes está no verso.",
+    "Anote os códigos. Vários enigmas usam os mesmos símbolos em ordem diferente, e é fácil esquecer um dígito que você já resolveu.",
+    "Observe a sala, não só os baús. Um relógio parado, uma fileira de bandeiras e uma bússola fazem parte do enigma.",
+    "Use as dicas. Cada baú tem até três, e gastar uma é melhor do que testar combinações à força em um cadeado."
+   ],
+   "faq": [
+    [
+     "Quantos enigmas Wall of Riddles tem?",
+     "Nove baús trancados, cada um com seu próprio enigma e uma gema dentro. Colete as nove gemas para vencer a parede."
+    ],
+    [
+     "Posso jogar Wall of Riddles com amigos?",
+     "Sim. Funciona muito bem com várias pessoas em torno de uma mesma tela, que é como um escape room real costuma ser jogado."
+    ]
+   ]
+  }
+ },
+ "forever-dunk": {
+  "description": "Forever Dunk é um jogo de basquete sem fim em que o seu dedo é a quadra. A bola cai do topo da tela e você desenha uma linha para fazê-la quicar, rolar e deslizar até a cesta lá embaixo. Cada cesta te leva uma tela mais fundo, e cada linha some 1,5 segundo depois de ser desenhada, então o timing importa tanto quanto a mira. Acerte a cesta sem tocar no aro para um Perfect Dunk, encadeie três para ativar o Rage Mode, construa combos até x4 e vença um chefe no final de cada zona. Atravesse seis zonas cheias de bumpers, trampolins, giratórios, esteiras, vento, portais, pêndulos, buracos negros, portões de energia e drones, pegue power-ups como Long Line, Magnet e Shield, complete missões, jogue o desafio diário e gaste suas moedas em novas bolas, cestas e estilos de linha.",
+  "instructions": "Segure o botão do mouse ou toque na tela e desenhe uma linha; a bola quica e rola ao longo dela. Guie a bola até a cesta lá embaixo. Uma cesta sem tocar no aro é um Perfect Dunk que vale 2 pontos, três seguidas ativam o Rage Mode com pontos em dobro, e as cestas douradas valem 5. Errar a cesta custa uma das suas três vidas. Estrelas dão moedas, corações dão uma vida extra, e os power-ups deixam sua linha mais longa, puxam a bola em direção à cesta ou protegem você de uma falha.",
+  "guide": {
+   "intro": "Forever Dunk parece um jogo simples de soltar e desenhar, mas cada linha some depois de um segundo e meio, então a habilidade de verdade está em decidir onde a bola deve estar, e não onde ela está.",
+   "tips": [
+    "Desenhe linhas curtas perto da bola em vez de longas atravessando a tela. Uma linha curta gera um quique mais limpo e você ainda tem tempo para desenhar a próxima.",
+    "Mire em uma cesta limpa. Um Perfect Dunk que não toca no aro vale dois pontos, e três seguidos ativam o Rage Mode, que dobra tudo o que vem depois.",
+    "Trate bumpers e trampolins como velocidade grátis. Deixe que eles façam o trabalho e guarde sua linha para o último ajuste até a cesta.",
+    "Fique de olho na cesta antes de desenhar. A bola segue a sua linha, então planeje o ângulo que faz ela cair reto em vez de cruzando.",
+    "Gaste moedas em power-ups que você realmente vai usar. Magnet resgata ângulos ruins, Shield salva uma vida em um chefe e Long Line ajuda nas zonas largas."
+   ],
+   "faq": [
+    [
+     "Quanto tempo uma linha desenhada dura em Forever Dunk?",
+     "Cerca de um segundo e meio. Ela some sozinha, então desenhe-a logo antes de a bola chegar nela, e não com muita antecedência."
+    ],
+    [
+     "O que ativa o Rage Mode?",
+     "Três Perfect Dunks seguidos — cestas em que a bola passa sem tocar no aro. O Rage Mode dobra seus pontos enquanto durar."
+    ]
+   ]
+  }
+ },
+ "ball-ball-away": {
+  "description": "Ball Ball Away é um jogo de física sem fim em que o seu dedo é a única ferramenta. A bola é lançada em um mundo neon de montanhas, impulsionadores e barras giratórias, e você desenha linhas retas em qualquer ângulo para fazê-la quicar para frente e para cima, até o portal brilhante no fim de cada fase. Nada pode destruir a bola, mas o relógio está correndo: chegue ao portal antes que o tempo acabe ou perca uma das três vidas. Encadeie portais para combos de até x4, acerte o centro para um Perfeito e fique de olho no portal dourado a cada quinta fase, que vale o triplo de pontos. Pegue ímãs que puxam a bola para o portal, foguetes, +10 segundos, power-ups X2 e de linha longa, colete estrelas para ganhar moedas e gaste-as em nove skins de bola e seis estilos de linha neon. Doze mundos com música e clima próprios (Neon Night, Sunset Bay, Deep Space, Aurora, Lava Core, Ice Peak, Candy Land, Toxic Lab, Cyber City, Desert Dusk, Ocean Deep, Sakura), cristais e barras deslizantes suspensas, desafio diário, missões, presente diário e um ranking global.",
+  "instructions": "Toque ou clique para lançar a bola. Pressione, arraste e solte para desenhar uma linha reta; a bola quica nela e sempre continua indo para frente. O tempo diminui enquanto você desenha. Até 3 linhas ficam na tela, e uma nova substitui a mais antiga. Guie a bola pelo portal antes que o cronômetro acabe. Passar pelo centro do portal é um Perfeito, e os portais dourados valem 3x. Estrelas dão moedas, corações devolvem uma vida, orbes dão power-ups: Ímã, Foguete, +10 s, X2 e Linha Longa.",
+  "guide": {
+   "intro": "Ball Ball Away não consegue destruir sua bola, só o relógio pode fazer isso. Quando você parar de se preocupar em bater, o jogo passa a ser sobre desenhar o menor número de linhas, e as melhores, para chegar ao portal a tempo.",
+   "tips": [
+    "O tempo diminui enquanto você desenha, então use aquele meio segundo extra para escolher um bom ângulo em vez de encaixar uma linha às pressas.",
+    "Só três linhas ficam na tela, e uma nova substitui a mais antiga. Desenhe onde a bola vai estar, não onde ela já passou.",
+    "Mire no centro do portal. Um Perfeito mantém seu combo subindo, e um combo vale mais do que qualquer quique com sorte.",
+    "Fique de olho no portal dourado a cada quinta fase — ele paga o triplo, então vale a pena pegar um +10 segundos para ter certeza de alcançá-lo.",
+    "Deixe os impulsionadores e as barras giratórias levarem a bola para frente. Lutar contra eles com uma linha geralmente custa mais tempo do que economiza."
+   ],
+   "faq": [
+    [
+     "Dá para destruir a bola em Ball Ball Away?",
+     "Não. Nada no jogo mata a bola — você só perde uma vida se o tempo acabar antes de chegar ao portal."
+    ],
+    [
+     "Como consigo um combo maior?",
+     "Passe pelos portais sem perder uma vida e vá pelo centro para conseguir um Perfeito. O combo sobe até x4 e multiplica cada ponto que você marca."
+    ]
+   ]
+  }
+ },
+ "good-guys-and-bad-boys-zombie-survival-gui": {
+  "description": "Sobreviva a ondas de zumbis em Good Guys & Bad Boys Zombie Survival GUI, um jogo de tiro rápido com uma jogabilidade cheia de ação em Unity. Mova-se com WASD, mire e atire com o mouse, troque de arma, pule e fique atento enquanto os inimigos se aproximam. Teste seus reflexos, gerencie suas armas e lute para sobreviver a cada rodada intensa no campo de batalha, jogue online hoje mesmo.",
+  "instructions": "wasd para mover mouse para mirar e atirar tab para trocar de arma e abrir o menu espaço para pular",
+  "guide": {
+   "intro": "Good Guys & Bad Boys Zombie Survival GUI é um jogo de tiro rápido em que você sobrevive a ondas de zumbis no campo de batalha. Você se move, mira, troca de arma e pula para continuar vivo enquanto os inimigos se aproximam.",
+   "tips": [
+    "Continue se movendo com WASD em vez de ficar parado, para que os zumbis tenham mais dificuldade em chegar até você.",
+    "Mire com o mouse e atire em rajadas curtas em vez de segurar o botão, o que ajuda a manter seus tiros certeiros.",
+    "Confira o menu de armas com a tecla Tab entre as ondas para saber qual arma está pronta antes que os inimigos cheguem.",
+    "Use a barra de espaço para pular quando precisar mudar de posição rapidamente ou sair de uma situação apertada.",
+    "Preste atenção em quão perto estão os inimigos o tempo todo e enfrente primeiro as ameaças mais próximas, antes que eles cerquem você."
+   ],
+   "faq": [
+    [
+     "Como faço para mover e mirar meu personagem?",
+     "Use W, A, S e D para se movimentar pelo campo de batalha. Mire com o mouse e clique para atirar."
+    ],
+    [
+     "Como troco de arma?",
+     "Pressione a tecla Tab para abrir o menu de armas e escolher a arma que você quer usar."
+    ]
+   ]
+  }
+ },
+ "hugi-wugi": {
+  "description": "hey você precisa correr, seja rápido! corre, corre sem parar! Hugi Wugi está de olho em você, você tem que correr, correr. Você precisa encontrar o bloco da sorte antes que o tempo acabe, senão o Hugi Wugi pode te pegar. Corra logo até o bloco da sorte. Chegue ao bloco da sorte e pule para o próximo nível!",
+  "instructions": "Use as teclas WASD para jogar Use o cursor do mouse para girar 360 graus Pressione a tecla P para parar o jogo",
+  "guide": {
+   "intro": "Hugi Wugi é uma aventura 3D em que você corre por uma fase para encontrar o bloco da sorte antes que o tempo acabe. Hugi Wugi está atrás de você, então é preciso continuar se movendo.",
+   "tips": [
+    "Continue se movendo em vez de parar, já que a descrição diz que Hugi Wugi está atrás de você e pausar por muito tempo pode deixar que ele te alcance.",
+    "Use o mouse para girar sua visão 360 graus antes de escolher uma direção, assim você consegue ver o bloco da sorte com antecedência.",
+    "Fique de olho no tempo restante e planeje seu caminho até o bloco da sorte desde o início.",
+    "Pressione P para pausar quando precisar de um momento para decidir para onde ir em seguida, depois pressione de novo para continuar.",
+    "Use WASD para um movimento constante e evite mudanças bruscas de direção que possam te fazer perder tempo."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Hugi Wugi?",
+     "Encontre o bloco da sorte antes que o tempo acabe e alcance-o para pular para o próximo nível. Hugi Wugi pode te pegar se você for devagar demais."
+    ],
+    [
+     "Como eu movimento meu personagem?",
+     "Use as teclas W, A, S e D para jogar. Mova o cursor do mouse para girar a visão um giro completo de 360 graus."
+    ]
+   ]
+  }
+ },
+ "block-zero": {
+  "description": "Block Zero é um jogo de ação em terceira pessoa numa cidade aberta de baixo polígono. Você é um mutante em formato de bloco, nascido do surto: cada parede é uma rua até o telhado, cada telhado é uma plataforma de lançamento. Corra em direção a um prédio para subir sua parede, segure o pulo para planar pelas ruas, use o dash no ar e pouse onde quiser. Seu primeiro movimento é um salto de um telhado para o meio de uma multidão de infectados. A cidade tem três zonas: os quarteirões residenciais tranquilos, a quarentena cheia de infectados e a base corporativa no norte. Os terminais de resistência dão missões curtas: eliminar infectados, caçar uma testemunha, queimar um ninho que revida em três ondas. Enfraqueça um inimigo e absorva-o para se curar, ganhar biomassa e até pegar sua aparência: a segurança não atira em um dos seus.Entre as missões, pilares amarelos iniciam desafios de medalha: corridas pelos telhados passando por uma sequência de portões e arenas Smash de 60 segundos cheias de carros, drones e torres de metralhadora. Busque bronze, prata ou ouro. Recomeçar custa apenas um toque. O desafio diário é o mesmo para todos, vem com uma reviravolta (gravidade baixa ou carros explosivos) e mantém uma sequência que faz o rastro das suas garras crescer. Recursos: • Uma cidade aberta de baixo polígono com 64 quarteirões, sem telas de carregamento e sem paredes invisíveis entre os telhados. • Corrida em paredes, saltos altos, planagem e dash aéreo. • Combos de garras com mira automática, lançamentos para o alto e multiplicador de pontos: cada golpe vem com pausa de impacto, tremor de câmera e um som próprio. • Absorva inimigos enfraquecidos para se curar, crescer biomassa e se disfarçar. • Mauls, um arpão e arremesso de carros; um alerta corporativo que envia esquadrões, drones e um helicóptero. • Um tutorial que começa com um salto na multidão, depois 12 missões com chefes de ninho, perseguição de um mensageiro, um comboio e a Fonte final. • 6 corridas pelos telhados e 3 arenas Smash para bronze, prata e ouro, além de um desafio diário com reviravolta e sequência. • 12 mutações, 18 formas, 20 cápsulas de dados escondidas, 10 conquistas e uma recompensa diária. • Um menu vivo: seu mutante espera num telhado na hora dourada, usando a forma que você escolheu; os resultados das missões sobem com fanfarra, e uma melhor partida ganha \"Novo recorde\". • Jogue em paisagem ou retrato, com mouse e teclado ou tela sensível ao toque; tremor de câmera e",
+  "instructions": "1. Pressione \"Jogar\". Você começa num telhado acima de uma multidão de infectados: pule no meio deles. A primeira missão ensina todos os movimentos no caminho: lutar com mauls emprestados, absorver, arremessar um carro, subir uma parede e planar. 2. Mova-se com WASD ou as setas do teclado (em tela sensível ao toque, use o analógico na metade esquerda da tela). Segure Shift ou empurre o analógico até a borda para correr. 3. Corra contra uma parede para subir por ela. Toque em Espaço para um pulo curto, segure para um pulo alto; segure no ar para planar. Ctrl (ou o botão Dash no ar) faz um dash para frente. 4. O clique esquerdo (botão Ataque) golpeia com as garras: toque três vezes para um combo. A câmera gira com o mouse depois de um clique no jogo; sem captura do mouse, arraste com o botão direito (em tela sensível ao toque, arraste na metade direita). 5. Um inimigo enfraquecido recebe um marcador: pressione E (botão de contexto) para absorvê-lo. 6. Q (botão Eco) destaca os alvos da missão através das paredes. Esc ou o botão de pausa no canto superior esquerdo pausa o jogo. 7. Term",
+  "guide": {
+   "intro": "Block Zero é um jogo de ação em terceira pessoa ambientado numa cidade aberta de baixo polígono. Você joga como um mutante em formato de bloco que corre pelas paredes, planando entre os telhados e enfrentando missões em três zonas, dos quarteirões residenciais tranquilos à quarentena de infectados e a base corporativa.",
+   "tips": [
+    "Corra direto para um prédio para subir pela parede, depois segure o pulo para planar pela rua até o próximo telhado.",
+    "Use o dash aéreo no meio do voo para corrigir o pouso ou alcançar um telhado que esteja um pouco fora do alcance da planagem.",
+    "Quando sua vida estiver baixa, enfraqueça um inimigo e absorva-o: você se cura, ganha biomassa e pode pegar sua aparência.",
+    "Disfarce-se de segurança antes de entrar em áreas vigiadas, porque a segurança não atira em um dos seus.",
+    "Experimente os pilares amarelos entre as missões para os desafios de medalha; recomeçar custa apenas um toque, então continue tentando para conquistar o ouro."
+   ],
+   "faq": [
+    [
+     "Quantas missões Block Zero tem?",
+     "Depois do tutorial há 12 missões, incluindo chefes de ninho, uma perseguição de mensageiro, um comboio e uma missão final chamada Fonte."
+    ],
+    [
+     "Quais são os desafios de medalha?",
+     "Os pilares amarelos iniciam corridas pelos telhados passando por uma sequência de portões e arenas Smash de 60 segundos. São 6 corridas e 3 arenas, cada uma com medalhas de bronze, prata e ouro, além de um desafio diário com reviravolta."
+    ]
+   ]
+  }
+ },
+ "boat-merge": {
+  "description": "Boat Merge é um jogo de merge idle relaxante em que os jogadores combinam barcos iguais para criar embarcações mais rápidas e valiosas. Monte sua frota, desbloqueie dezenas de barcos únicos, expanda suas rotas aquáticas, ganhe moedas automaticamente e use melhorias e impulsos para progredir ainda mais.",
+  "instructions": "Arraste dois barcos idênticos um sobre o outro para uni-los em um barco de nível mais alto. Posicione os barcos nas rotas disponíveis para ganhar moedas automaticamente e, em seguida, use essas moedas para comprar mais barcos e melhorias. Continue fazendo merges, expandindo sua frota, completando tarefas e desbloqueando barcos cada vez mais poderosos. O principal objetivo é descobrir os barcos de nível mais alto e maximizar seus ganhos. Controles: - Desktop: Clique e arraste com o mouse. - Celular: Toque e arraste com um dedo. - Não são necessários controles de teclado.",
+  "guide": {
+   "intro": "Boat Merge é um jogo de quebra-cabeça idle sobre combinar barcos iguais em outros mais rápidos e valiosos. Monte sua frota, ganhe moedas automaticamente e busque os barcos de nível mais alto.",
+   "tips": [
+    "Faça o merge dos barcos assim que tiver dois iguais, já que cada barco de nível mais alto rende mais moedas quando está em uma rota.",
+    "Gaste moedas em novos barcos e melhorias de forma constante, em vez de tudo de uma vez, para que sua frota continue crescendo enquanto você ganha moedas.",
+    "Confira suas tarefas regularmente, pois completá-las é uma das principais formas de continuar avançando.",
+    "Guarde os impulsos para os momentos em que quiser acelerar o progresso, como quando estiver esperando as moedas acumularem para uma compra grande.",
+    "Expanda suas rotas aquáticas quando puder pagar, já que mais rotas dão aos seus barcos mais lugares para render."
+   ],
+   "faq": [
+    [
+     "Como faço o merge de dois barcos?",
+     "Clique e arraste um barco idêntico sobre outro com o mouse, ou toque e arraste com um dedo em telas sensíveis ao toque. Os dois barcos se combinam em um barco de nível mais alto."
+    ],
+    [
+     "Como ganho moedas?",
+     "Posicione os barcos nas rotas disponíveis e as moedas são ganhas automaticamente com o tempo. Depois, use essas moedas para comprar mais barcos e melhorias."
+    ]
+   ]
+  }
+ },
+ "geovex-daily-geography-challenge": {
+  "description": "O desafio diário de mapas para os fãs de bandeiras e geografia. GeoVex é um jogo de quebra-cabeça educativo diário e envolvente que testa o seu conhecimento de geografia mundial. Neste desafio de perguntas e respostas baseado em mapas, você verá uma série de bandeiras nacionais e precisará localizar exatamente cada país no globo. Jogue no modo Fácil para ver os nomes dos países e as fronteiras no mapa, ou teste seu verdadeiro conhecimento no modo Difícil, com um mapa totalmente sem fronteiras! Participe do Desafio Diário de 10 rodadas para aumentar sua sequência diária e compartilhe sua pontuação com os amigos!",
+  "instructions": "Seu objetivo é identificar a bandeira, encontrar o país no mapa, posicionar seu marcador e fazer a maior pontuação possível! Controles: • PC: Clique e arraste para mover o mapa, use a roda do mouse para dar zoom e clique com o botão esquerdo para soltar o marcador da bandeira. • Celular: Deslize para mover o mapa, faça pinça para dar zoom e toque para soltar o marcador da bandeira. Depois de posicionar o marcador, clique no botão \"Enviar\" para confirmar seu palpite. Se o seu marcador cair perfeitamente dentro do país correto, você ganha no máximo 10 pontos. Se errar, recebe pontos parciais de acordo com a sua distância do alvo (5 pontos a até 500 km, 3 pontos a até 1000 km e 1 ponto a até 2000 km). Complete todas as rodadas para ver sua pontuação final e compartilhe seus resultados com os amigos!",
+  "guide": {
+   "intro": "GeoVex é um desafio diário de mapas com 10 rodadas, no qual você identifica uma bandeira e posiciona um marcador no país a que ela pertence. O modo Fácil mostra os nomes dos países e as fronteiras, enquanto o modo Difícil os remove.",
+   "tips": [
+    "Comece cada rodada observando as cores, os símbolos e o layout da bandeira antes de tocar no mapa, para saber em que região procurar.",
+    "Dê zoom antes de posicionar o marcador. Um palpite correto dentro do país vale os 10 pontos completos, enquanto um marcador perto da fronteira vale apenas pontos parciais.",
+    "Se estiver em dúvida, posicione o marcador na área mais provável e veja o quão perto você chegou. A distância importa, então até um quase acerto dentro de 500 km vale 5 pontos.",
+    "Use o modo Fácil para aprender onde os países ficam em relação aos vizinhos e depois mude para o modo Difícil quando quiser um teste real do seu conhecimento.",
+    "Jogue o desafio diário todos os dias para aumentar sua sequência e compare sua pontuação final com a dos amigos quando terminar todas as rodadas."
+   ],
+   "faq": [
+    [
+     "Como faço para ganhar o máximo de pontos?",
+     "Posicione o marcador dentro do país correto para ganhar o máximo de 10 pontos naquela rodada. As pontuações diminuem à medida que o marcador fica mais distante do alvo."
+    ],
+    [
+     "Qual é a diferença entre o modo Fácil e o modo Difícil?",
+     "O modo Fácil mostra os nomes dos países e as fronteiras do mapa para ajudar você a encontrar o lugar certo. O modo Difícil usa um mapa totalmente sem fronteiras, então você precisa confiar no seu próprio conhecimento de geografia."
+    ]
+   ]
+  }
+ },
+ "join-the-gang-and-fight": {
+  "description": "Join the Gang and Fight é um jogo de PVP multiplayer online hilário baseado em física, em que guerreiros stickman se enfrentam em arenas ragdoll bambas! Convide seus amigos para formar uma gangue e competir em lutas pastelão usando socos, chutes e movimentos ragdoll malucos. Jogue eventos divertidos como Brawl, Kick the King, Steal the Chicken, Racing e Football, todos com física totalmente precisa que deixa cada luta imprevisível e hilária. Domine seu stickman, nocauteie os adversários e aproveite o caos multiplayer sem fim neste jogo de festa bambo e cheio de ação!",
+  "instructions": "Clique ou toque com o mouse para jogar",
+  "guide": {
+   "intro": "Join the Gang and Fight é um brawler multiplayer baseado em física, em que lutadores stickman se enfrentam em arenas ragdoll bambas. Forme equipe com os amigos e experimente vários modos de evento, cada um com seu próprio objetivo.",
+   "tips": [
+    "Como a física deixa cada luta imprevisível, observe como seu stickman balança antes de executar um movimento. O posicionamento costuma importar mais do que o golpe em si.",
+    "Experimente cada evento pelo menos uma vez, já que Brawl, Kick the King, Steal the Chicken, Racing e Football recompensam habilidades diferentes.",
+    "Em Steal the Chicken e Kick the King, fique de olho onde está o objetivo e onde está sua gangue, para apoiar uns aos outros em vez de lutar sozinho.",
+    "Use socos e chutes em rajadas curtas e observe os resultados antes de repetir, porque as reações ragdoll podem fazer você voar e perder o equilíbrio.",
+    "Jogar com amigos em uma gangue facilita a coordenação, então combinem um alvo ou objetivo antes de cada rodada começar."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal do jogo?",
+     "O objetivo é nocautear os adversários e vencer cada evento, seja um brawl, uma corrida, uma partida de futebol ou outro modo. Cada evento define seu próprio objetivo."
+    ],
+    [
+     "Como controlo meu stickman?",
+     "Você joga com cliques ou toques do mouse. Use os cliques para executar socos, chutes e outros movimentos ragdoll durante a partida."
+    ]
+   ]
+  }
+ },
+ "break-and-steal-eggs": {
+  "description": "🥚 Break and Steal Eggs! 🥚 Quebre ovos com sua picareta, pegue o pet que nasce e leve-o para casa antes que o guarda da zona te pegue! • Quebre ovos e aumente sua sorte para pets mais raros • Roube o pet e corra de volta para sua base, passando pelo guarda e por outros jogadores • Atordoe rivais com o bastão e roube os pets deles • Coloque os pets no seu curral e ganhe dinheiro a cada segundo • Una 3 pets para formar um mais forte ⚡ O que tem dentro: ⛏️ 18 picaretas, da madeira ao celestial 🐾 24 pets para coletar no Índice 🌋 9 zonas, da floresta ao vulcão e além 💎 O gigante Titanic Egg com os pets mais raros",
+  "instructions": "Quebre um ovo em uma zona, pegue o pet que pula para fora e leve-o de volta para sua base. Coloque os pets no seu curral para ganhar dinheiro, depois compre picaretas mais fortes e mais velocidade para chegar a zonas mais distantes. 💻 Controles no PC: WASD – Mover Segure o Botão Direito do Mouse – Girar a câmera Espaço – Pular Botão Esquerdo do Mouse / F – Balançar a picareta ou o bastão 1 / 2 – Picareta / bastão Segure E – Pegar um pet R – Soltar o pet 📱 Controles no Celular: Joystick – Mover Deslize no lado direito da tela – Girar a câmera Botões na tela – Balançar, pular, pegar e outras ações",
+  "guide": {
+   "intro": "Break and Steal Eggs é um jogo arcade 3D sobre quebrar ovos, pegar os pets que nascem e correr com eles para casa passando pelo guarda da zona. Monte seu curral, melhore sua picareta e avance para zonas mais distantes.",
+   "tips": [
+    "Quebre ovos em uma zona por tempo suficiente para aumentar sua sorte, já que é isso que dá a chance de pegar pets mais raros.",
+    "Volte para casa logo depois de pegar um pet. O guarda da zona e outros jogadores podem te pegar, então continue indo em direção à sua base.",
+    "Use o bastão para atordoar rivais que estão carregando pets que você quer e depois roube esses pets de volta para o seu curral.",
+    "Gaste seus ganhos em picaretas mais fortes e mais velocidade para conseguir chegar a zonas mais distantes.",
+    "Una três pets em um mais forte quando tiver duplicados, assim seu curral rende mais com o tempo."
+   ],
+   "faq": [
+    [
+     "Como pego um pet depois que ele nasce?",
+     "Segure E perto do pet que pula para fora do ovo. Pressione R para soltá-lo se precisar largá-lo."
+    ],
+    [
+     "Como ganho dinheiro?",
+     "Coloque seus pets no seu curral e o dinheiro é ganho a cada segundo. Comprar picaretas mais fortes e mais velocidade ajuda você a chegar a zonas mais distantes."
+    ]
+   ]
+  }
+ },
+ "soccer-random": {
+  "description": "O futebol chega com seu jeito mais engraçado e aleatório. No jogo Soccer Random, tente marcar um gol usando apenas uma tecla com variações diferentes entre si! Às vezes você jogará em um campo congelado ou em uma praia. O objetivo do jogo é marcar cinco gols e vencer a partida, mesmo que as bolas, os jogadores ou as traves mudem! Você pode jogar Soccer Random contra a CPU ou contra um amigo no modo para 2 jogadores! Que a partida de futebol comece!",
+  "instructions": "Jogador 1: tecla W | Jogador 2: tecla SETA PARA CIMA. Você também pode jogar com os controles de toque em dispositivos móveis ou tablets",
+  "guide": {
+   "intro": "Soccer Random é um jogo de futebol com uma única tecla para um ou dois jogadores. Cada lado usa uma única tecla para tentar marcar cinco gols, enquanto o campo, a bola, os jogadores e as traves não param de mudar.",
+   "tips": [
+    "Reserve um momento para verificar a bola, os jogadores e as traves após cada mudança, já que a configuração pode mudar sem aviso.",
+    "Em um campo com gelo ou em uma praia, teste alguns toques curtos antes de apostar em um grande lance para entender como a superfície afeta seus movimentos.",
+    "Sua única tecla é o seu único controle, então cronometre seus toques em vez de segurá-la ou apertá-la sem parar para não desperdiçar chances.",
+    "Ao jogar contra um amigo, combinem quem usa cada tecla antes de a partida começar para que os controles fiquem claros desde o primeiro chute.",
+    "Mantenha o foco após cada gol, porque a próxima rodada pode ser diferente e os primeiros momentos costumam decidir quem tem a primeira chance."
+   ],
+   "faq": [
+    [
+     "Como eu venço no Soccer Random?",
+     "O objetivo é marcar cinco gols antes do seu adversário, mesmo que as bolas, os jogadores e as traves possam mudar durante a partida."
+    ],
+    [
+     "Quais teclas eu uso?",
+     "O Jogador 1 usa a tecla W e o Jogador 2 usa a tecla Seta para Cima. Em dispositivos de toque, você pode jogar usando os controles de toque."
+    ]
+   ]
+  }
+ },
+ "baby-supermarket": {
+  "description": "Bem-vindo ao maior supermercado da Cidade! Baby e Mommy Panda precisam fazer as compras do supermercado hoje! Jogue junto com amigos e família e ajude seu panda favorito a fazer compras em um supermercado de animais.",
+  "instructions": "Use o mouse ou toque na tela para jogar",
+  "guide": {
+   "intro": "Baby Supermarket é um jogo de compras em que Baby e Mommy Panda visitam o maior supermercado da cidade. Você escolhe seu panda favorito e o ajuda a fazer compras em um supermercado de animais, sozinho ou com amigos e família.",
+   "tips": [
+    "Escolha o panda de que você mais gosta antes de começar, já que você pode ajudar tanto o Baby Panda quanto o Mommy Panda nas compras.",
+    "Revezem-se com amigos ou família se estiverem jogando juntos, para que todos tenham a chance de guiar as compras.",
+    "Ande devagar e observe cada parte da loja antes de clicar ou tocar, para não passar correndo pelo que você precisa.",
+    "Mantenha as duas mãos livres para o mouse ou a tela sensível ao toque, se possível, para que seus cliques e toques fiquem firmes e precisos.",
+    "Jogue em sessões curtas e volte à loja depois, já que refazer a mesma viagem de compras pode ajudar você a aprender onde estão as coisas."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Baby Supermarket?",
+     "O objetivo é ajudar o panda escolhido a fazer as compras no maior supermercado da cidade. O jogo é sobre aproveitar a viagem de compras com Baby e Mommy Panda."
+    ],
+    [
+     "Como eu controlo o jogo?",
+     "Use o mouse ou toque na tela para jogar. Clique ou toque nos itens e áreas com que você quer interagir."
+    ]
+   ]
+  }
+ },
+ "tile-pair-jam-mahjong-master": {
+  "description": "Tile Pair Jam é um quebra-cabeça de mahjong deslizante. Desloque as peças horizontal ou verticalmente para formar pares iguais. Planeje cada movimento, remova todas as peças e resolva tabuleiros cada vez mais desafiadores!",
+  "instructions": "Deslize para cima, para baixo, para a esquerda ou para a direita para deslocar as peças ao longo de uma linha ou coluna. As peças não podem se mover na diagonal. Duas peças idênticas são removidas quando estão na mesma linha ou coluna sem nenhuma outra peça entre elas. Continue deslocando e combinando até que o tabuleiro seja limpo.",
+  "guide": {
+   "intro": "Tile Pair Jam é um quebra-cabeça de mahjong deslizante em que você desloca linhas e colunas para alinhar peças idênticas. Cada tabuleiro fica mais difícil, então planejar alguns movimentos à frente ajuda você a remover todas as peças.",
+   "tips": [
+    "Antes de cada deslize, procure peças idênticas que já estejam na mesma linha ou coluna e verifique se há algo entre elas.",
+    "Remova primeiro as peças que estão bloqueando outras, já que um caminho livre pode abrir várias combinações de uma vez.",
+    "Evite deslizar uma linha ou coluna de forma que separe um par que você poderia combinar no próximo movimento.",
+    "Observe o tabuleiro inteiro em busca de peças que aparecem apenas uma ou duas vezes e planeje juntar esses pares logo no início.",
+    "Se ficar travado, pense em qual movimento colocaria uma peça alinhada com a sua correspondente, em vez de fazer deslizes aleatórios."
+   ],
+   "faq": [
+    [
+     "Como eu movo as peças?",
+     "Deslize para cima, para baixo, para a esquerda ou para a direita para deslocar as peças ao longo de uma linha ou coluna. As peças não podem se mover na diagonal."
+    ],
+    [
+     "Quando duas peças são removidas?",
+     "Duas peças idênticas são removidas quando estão na mesma linha ou coluna sem nenhuma outra peça entre elas."
+    ]
+   ]
+  }
+ },
+ "boing-bang": {
+  "description": "Boing Bang joga você direto numa ação frenética, controlando uma criatura excêntrica armada com um blaster. Navegue pelo caos das bolas quicando, estilhace bolas gigantes em pedaços e use as plataformas de forma estratégica. Com padrões de quique imprevisíveis para dominar e a sobrevivência em jogo, cada tiro conta nessa aventura arcade emocionante.",
+  "guide": {
+   "intro": "Boing Bang é um jogo arcade retrô em que você controla uma criatura excêntrica com um blaster. Você se movimenta pelo caos das bolas quicando, estilhaça bolas grandes em pedaços menores e usa as plataformas para se manter a salvo.",
+   "tips": [
+    "Observe como as bolas grandes quicam antes de atirar, já que os padrões delas são imprevisíveis e o timing faz toda a diferença.",
+    "Estilhace as bolas grandes logo no início, enquanto você ainda tem espaço para se mover, para que os pedaços menores não peguem você em espaços apertados.",
+    "Use as plataformas para ficar acima da ação das bolas quicando e se reposicionar, em vez de ficar parado no chão.",
+    "Faça cada tiro contar mirando nas bolas que mais ameaçam você, em vez de atirar sem parar em tudo que estiver por perto.",
+    "Mantenha a calma nos momentos mais agitados e continue se movendo, porque a sobrevivência depende de evitar colisões tanto quanto de acertar os alvos."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal em Boing Bang?",
+     "Você controla uma criatura com um blaster e tenta estilhaçar as bolas gigantes quicando em pedaços, sobrevivendo ao caos na tela."
+    ],
+    [
+     "Como lidar com as bolas quicando?",
+     "Atire nas bolas grandes para quebrá-las em pedaços menores e preste atenção nos padrões de quique para prever para onde elas vão em seguida."
+    ]
+   ]
+  }
+ },
+ "magic-castle-invasion-idle-rpg": {
+  "description": "Neste emocionante RPG de fantasia, você joga como um poderoso mago encarregado de defender seu castelo mágico contra monstros assustadores. O mundo está cheio de criaturas místicas, masmorras perigosas e tesouros escondidos, e só os mais fortes vão sobreviver. Libere todo o seu potencial mágico e reúna sua equipe de ajudantes mágicos para auxiliá-lo na batalha pela sobrevivência. Destaques do Jogo: * Batalhas Épicas de Magos * Caça e Abate de Monstros * Melhorias Mágicas e Progressão * Exploração e Missões * Construa e Defenda Seu Castelo Mágico * Lutas e Desafios contra Chefões",
+  "instructions": "Controle o personagem usando as teclas WASD ou o joystick na tela. O personagem ataca os inimigos próximos sozinho.",
+  "guide": {
+   "intro": "Magic Castle Invasion é um RPG idle em que você defende seu castelo como um mago. Mova-se com WASD ou com o joystick, e seu personagem ataca os inimigos próximos automaticamente.",
+   "tips": [
+    "Como seu mago ataca os inimigos próximos automaticamente, concentre sua atenção no posicionamento. Vá até onde os monstros estão se reunindo para que seus ataques os alcancem.",
+    "Gaste seu progresso em melhorias mágicas aos poucos, em vez de tudo de uma vez. Habilidades mais fortes tornam os próximos monstros e chefões bem mais fáceis de enfrentar.",
+    "Use a exploração para encontrar tesouros escondidos e pegar missões, já que as duas coisas ajudam você a avançar. Verificar o mapa com frequência evita que você perca recompensas úteis.",
+    "Construa e fortaleça seu castelo ao longo do caminho, pois ele é o núcleo da sua defesa. Um castelo bem defendido protege você enquanto explora as masmorras.",
+    "Antes de enfrentar uma luta contra um chefão, reúna sua equipe de ajudantes mágicos e melhore seu mago. Entrar em uma batalha contra chefão com poder insuficiente é o motivo mais comum para perder progresso."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal de Magic Castle Invasion?",
+     "Você joga como um mago que defende seu castelo dos monstros, e o objetivo é sobreviver. Melhorar seu mago e seu castelo ajuda a resistir por mais tempo contra inimigos mais fortes."
+    ],
+    [
+     "Preciso mirar ou apertar o botão de ataque manualmente?",
+     "Não. O personagem ataca os inimigos próximos automaticamente, então sua principal tarefa é se mover com WASD ou com o joystick na tela para ficar no alcance das ameaças."
+    ]
+   ]
+  }
+ },
+ "cuphead-rush": {
+  "description": "Corra com os personagens de Cuphead e escape dos ambientes perigosos, evite espinhos, colete estrelas, power-ups e boosters conforme você corre. Corra e pule todos os obstáculos. Corra, deslize, pule, role e desvie de qualquer foguete e obstáculo que surgir no seu caminho. Use as estrelas para desbloquear novos personagens e bata as melhores pontuações neste jogo sem fim",
+  "instructions": "Mouse ou toque para jogar",
+  "guide": {
+   "intro": "Cuphead Rush é um runner 2D sem fim em que você guia um personagem Cuphead por áreas perigosas, desviando de espinhos e foguetes. Colete estrelas e power-ups para desbloquear novos personagens e bater sua melhor pontuação.",
+   "tips": [
+    "Mantenha os olhos um passo à frente do seu personagem para planejar seu pulo, deslize ou rolagem antes que um obstáculo chegue até você.",
+    "Aprenda quais obstáculos exigem um pulo e quais exigem um deslize ou rolagem, e reaja cedo em vez de em cima da hora.",
+    "Pegue estrelas sempre que for seguro, já que elas são necessárias para desbloquear novos personagens.",
+    "Pegue power-ups e boosters quando aparecerem, mas não faça desvios arriscados só para alcançá-los.",
+    "Faça várias corridas curtas seguidas para aprender os padrões dos obstáculos e depois tente bater sua melhor pontuação anterior."
+   ],
+   "faq": [
+    [
+     "Qual é o principal objetivo de Cuphead Rush?",
+     "O objetivo é continuar correndo pelos ambientes perigosos o máximo de tempo possível, evitando espinhos e foguetes. Como o jogo é sem fim, você busca bater sua melhor pontuação."
+    ],
+    [
+     "Como desbloqueio novos personagens?",
+     "Colete estrelas durante suas corridas e use-as para desbloquear novos personagens."
+    ]
+   ]
+  }
+ },
+ "pull-him-out-online": {
+  "description": "O caçador começa sua jornada em busca de um tesouro, mas os quebra-cabeças à sua frente o deixaram preso. O que você precisa fazer é desenhar as varetas na ordem certa, para que o caçador possa pegar o tesouro escondido em segurança.",
+  "instructions": "Use o mouse para jogar",
+  "guide": {
+   "intro": "Pull Him Out Online é um quebra-cabeça de lógica em que você desenha varetas na ordem certa para libertar um caçador preso por obstáculos e alcançar o tesouro escondido em segurança. Cada fase recompensa o planejamento cuidadoso em vez de cliques rápidos.",
+   "tips": [
+    "Observe a tela inteira antes de desenhar qualquer coisa. Anote onde está o caçador, onde está o tesouro e quais obstáculos estão no caminho.",
+    "Pense na ordem das varetas, não apenas na posição delas. Algumas varetas só funcionam corretamente se outra for desenhada antes.",
+    "Tente encontrar o caminho que mantenha o caçador seguro em cada etapa. Se um traço levar a um perigo, use isso como pista sobre o que não é a solução.",
+    "Use o mouse com cuidado e faça traços suaves e deliberados para que a vareta caia exatamente onde você planejou.",
+    "Se ficar travado, dê um passo atrás e teste uma ideia diferente em vez de repetir o mesmo movimento. Experimentar uma nova ordem muitas vezes revela a resposta."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Pull Him Out Online?",
+     "O objetivo é desenhar as varetas na ordem correta para que o caçador preso consiga chegar ao tesouro escondido em segurança."
+    ],
+    [
+     "Como eu controlo o jogo?",
+     "Você joga com o mouse. Desenhe as varetas na tela para montar a solução de cada quebra-cabeça."
+    ]
+   ]
+  }
+ },
+ "half-life-2-platformer": {
+  "description": "Acompanhe Gordon Freeman através de cinco capítulos em um plataforma de ação ilustrado de Half-Life 2. Empunhe o pé de cabra, a SMG e a arma de gravidade contra a Combine.",
+  "instructions": "Clique ou toque com o mouse para jogar",
+  "guide": {
+   "intro": "Half Life 2: Platformer é um plataforma de ação ilustrado em que você guia Gordon Freeman por cinco capítulos. Você combate a Combine usando um pé de cabra, uma SMG e uma arma de gravidade.",
+   "tips": [
+    "Use o clique ou toque do mouse para jogar e se acostume com os controles no primeiro capítulo antes de avançar para as seções mais difíceis.",
+    "Reserve o pé de cabra para encontros de perto e use a SMG quando os inimigos estiverem mais distantes, para não ser pego no corpo a corpo.",
+    "Encare a arma de gravidade como solucionadora de problemas além de arma, e procure objetos no ambiente que você possa usar para eliminar ameaças ou alcançar terrenos mais altos.",
+    "Pause para examinar cada área antes de avançar, assim você consegue identificar inimigos e plataformas à sua frente.",
+    "Jogue os cinco capítulos em ordem, já que cada um se baseia no anterior e a dificuldade aumenta conforme você progride."
+   ],
+   "faq": [
+    [
+     "Como jogo Half Life 2: Platformer?",
+     "Você joga clicando com o mouse ou tocando na tela. O jogo é controlado com essas entradas simples enquanto você avança por cada capítulo."
+    ],
+    [
+     "Quais armas o Gordon Freeman usa?",
+     "Gordon usa três armas: o pé de cabra, a SMG e a arma de gravidade. Cada uma é adequada a situações diferentes durante os combates contra a Combine."
+    ]
+   ]
+  }
+ },
+ "residence-of-evil-quarantine": {
+  "description": "Você é um dos sobreviventes em meio ao apocalipse zumbi. Lute para atravessar a cidade infectada e descubra a verdade por trás do surto do vírus mortal. • Gráficos 3D incríveis • Muitas armas • Mais de 10 tipos de monstros",
+  "instructions": "Mouse 1 Atirar Mouse 2 Mirar Block W-S-A-D Andar Left Shift Correr Left Ctrl Agachar X Deitar Space Pular F Usar item R Recarregar H Guardar arma G Granada V Ataque corpo a corpo",
+  "guide": {
+   "intro": "Sobreviva a um surto zumbi em uma cidade infectada e descubra a verdade por trás do vírus mortal. Você vai enfrentar monstros usando uma variedade de armas, granadas e ataques corpo a corpo.",
+   "tips": [
+    "Use o Mouse 2 para mirar antes de atirar, já que tiros precisos economizam mais munição do que disparos rápidos.",
+    "Pressione R para recarregar durante uma pausa, e não no meio de uma luta, para não ficar com a arma vazia.",
+    "Guarde as granadas (G) para grupos de monstros ou locais perigosos, e reserve os ataques corpo a corpo (V) para quando estiver com pouca munição.",
+    "Use o Left Shift para correr entre os confrontos, e agache ou deite com Left Ctrl ou X quando precisar chamar menos atenção.",
+    "Pressione F para usar itens quando precisar, e verifique sua arma guardada com H para saber o que está carregando antes de uma luta."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Residence of Evil: Quarantine?",
+     "Você deve lutar para atravessar a cidade infectada e descobrir a verdade por trás do surto do vírus mortal."
+    ],
+    [
+     "Quais teclas controlam os tiros e a mira?",
+     "O Mouse 1 atira com sua arma e o Mouse 2 mira. Use Block para manter sua posição, se necessário."
+    ]
+   ]
+  }
+ },
+ "boo-brew": {
+  "description": "Administre um café de poções mágicas de Halloween no estilo mangá! Combine ingredientes, mexa poções encantadas e sirva clientes monstrinhos charmosos antes que a paciência deles acabe. Complete 12 turnos da meia-noite, crie combos, ative a febre do arco-íris e melhore sua cozinha de bruxa. Controles fáceis de toque e arrastar e um mundo animado de magia de Halloween.",
+  "instructions": "- Mouse Toque Toque ou arraste ingredientes para o caldeirão Toque em STIR ou gire a panela - DUMP Reinicia a mistura - 1 ndash 6 Adicionar ingredientes - Espaço Enter Mexer - 1 ndash 3 Sirva quando um",
+  "guide": {
+   "intro": "Boo Brew é um jogo de quebra-cabeça de Halloween em que você administra um café de poções de bruxa. Combine ingredientes, mexa as poções e sirva clientes monstrinhos antes que a paciência deles acabe.",
+   "tips": [
+    "Veja qual cliente está esperando e o que ele quer antes de começar a adicionar ingredientes, para não precisar descartar a mistura e recomeçar.",
+    "Use DUMP para reiniciar uma mistura que deu errado, em vez de servir algo que você sabe que não vai combinar com o pedido.",
+    "Mexa depois de adicionar os ingredientes, usando o botão STIR, a tecla Espaço ou Enter, para que a poção esteja pronta quando você tocar em um cliente.",
+    "Fique de olho na paciência de cada cliente e sirva primeiro os que estão prestes a ir embora, já que eles não podem esperar muito.",
+    "Crie combos servindo poções iguais em sequência rápida, que é a principal forma de chegar à febre do arco-íris."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Boo Brew?",
+     "Prepare as poções que os clientes pedem e sirva-as antes que a paciência deles acabe. Complete todos os 12 turnos da meia-noite mantendo os clientes satisfeitos."
+    ],
+    [
+     "Como adiciono ingredientes ao caldeirão?",
+     "Toque em um ingrediente ou arraste-o para o caldeirão com o mouse ou com o toque na tela. No teclado, as teclas 1 a 6 adicionam ingredientes."
+    ]
+   ]
+  }
+ },
+ "hoop-world": {
+  "description": "Em Hoop World, torne-se um mestre das acrobacias aéreas com cliques precisos do mouse. Voe pelo ar, acerte enterradas com embaixadas e brilhe com estilo. Controles simples encontram movimentos espetaculares, tornando cada enterrada perfeita uma conquista emocionante neste dinâmico jogo de basquete 3D.",
+  "guide": {
+   "intro": "Hoop World é um jogo de basquete 3D em que você executa acrobacias aéreas e enterradas com embaixadas usando cliques precisos do mouse. Seus controles são simples, mas os movimentos foram feitos para parecer espetaculares.",
+   "tips": [
+    "Comece pegando o jeito de como seus cliques do mouse afetam seus pulos antes de tentar as embaixadas mais complexas.",
+    "Foque no timing em vez da velocidade, já que cada enterrada perfeita depende do momento em que você clica.",
+    "Pratique o mesmo movimento várias vezes seguidas para criar um ritmo que você consiga repetir sob pressão.",
+    "Preste atenção na sua posição no ar para reagir e manter sua enterrada no alvo.",
+    "Mantenha seus cliques deliberados e precisos em vez de rápidos, porque o jogo recompensa a precisão."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Hoop World?",
+     "O jogo foca em executar acrobacias aéreas e enterradas com embaixadas com estilo. Cada enterrada perfeita é a principal conquista a ser buscada."
+    ],
+    [
+     "Quais controles Hoop World usa?",
+     "O jogo é jogado inteiramente com o mouse, usando cliques precisos para controlar seus movimentos. Os controles são descritos como simples."
+    ]
+   ]
+  }
+ },
+ "xtreme-motorbikes-rider": {
+  "description": "Acelere por cenários urbanos agitados a bordo de uma moto esportiva em Xtreme Motorbikes Rider. Vença batalhas de corrida intensas, mostre acrobacias de tirar o fôlego e personalize sua moto em um ambiente de mundo aberto impressionante. Com física realista e controles intuitivos, cada corrida traz uma emoção de cortar o coração e possibilidades ilimitadas. Seu maior desafio de adrenalina está esperando por você.",
+  "guide": {
+   "intro": "Xtreme Motorbikes Rider é um jogo de moto ambientado em ruas movimentadas da cidade e em um mundo aberto. Você pode participar de batalhas de corrida, fazer acrobacias e personalizar sua moto.",
+   "tips": [
+    "Faça algumas voltas curtas no mundo aberto antes de começar as corridas, para entender como a física realista afeta sua moto.",
+    "Preste atenção em como sua moto se comporta em alta velocidade, já que peso e momento importam mais quando a física é realista.",
+    "Use as ruas do mundo aberto para treinar acrobacias em áreas tranquilas antes de tentá-las durante uma corrida movimentada.",
+    "Personalize sua moto pensando no tipo de pilotagem que você mais faz, seja corrida ou acrobacias.",
+    "Mantenha a atenção em áreas lotadas da cidade, porque as batalhas de corrida podem ficar mais difíceis quando o trânsito e as curvas aparecem rapidamente."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal de Xtreme Motorbikes Rider?",
+     "O jogo gira em torno de acelerar por ambientes urbanos, participar de batalhas de corrida e fazer acrobacias com sua moto. Você também pode personalizar sua moto enquanto joga."
+    ],
+    [
+     "O jogo tem física realista?",
+     "Sim, a descrição diz que o jogo usa física realista, então o movimento e o equilíbrio da sua moto devem reagir de forma crível. Treinar em velocidades diferentes ajuda você a entender como ela reage."
+    ]
+   ]
+  }
+ },
+ "go-octopus-find-pearl": {
+  "description": "Go Octopus Find Pearl é um jogo de quebra-cabeça e aventura subaquática em que você controla um polvo fofinho que explora o fundo do mar para encontrar gemas preciosas. Supere obstáculos, evite criaturas perigosas e escolha o caminho certo para coletar todas as gemas de cada fase. A jogabilidade é simples, mas viciante, com gráficos vibrantes e muitos desafios empolgantes, adequada para todas as idades.",
+  "instructions": "Teclas WASD ou setas do teclado para mover",
+  "guide": {
+   "intro": "Go Octopus Find Pearl é um jogo de quebra-cabeça em que você guia um pequeno polvo pelo fundo do mar para coletar gemas. Em cada fase, você precisa escolher um caminho seguro para passar por obstáculos e criaturas.",
+   "tips": [
+    "Observe a fase inteira antes de se mover para ver onde estão as gemas e quais caminhos parecem bloqueados.",
+    "Planeje sua rota em pequenos passos, verificando após cada movimento se alguma criatura ou obstáculo está por perto.",
+    "Se ficar preso, volte um passo e tente outro caminho em vez de repetir os mesmos movimentos.",
+    "Fique de olho nas criaturas perigosas e avance quando elas estiverem a uma distância segura, em vez de passar correndo por elas.",
+    "Colete as gemas em uma ordem que mantenha seu caminho livre, para não bloquear sua própria volta."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Go Octopus Find Pearl?",
+     "Seu objetivo é coletar todas as gemas de cada fase escolhendo o caminho certo pelo fundo do mar."
+    ],
+    [
+     "Como movimento o polvo?",
+     "Use as teclas W, A, S e D ou as setas do teclado para se mover em cada direção."
+    ]
+   ]
+  }
+ },
+ "ultimate-lawn-mowing-simulator-mower-master": {
+  "description": "🌿 Ultimate Lawn Mowing Simulator: Mower Master 🚜✨ Relaxe, corte, limpe e domine a arte de cortar grama com perfeição neste simulador de corte de grama muito satisfatório! Aproveite animações suaves, efeitos realistas de corte e o som tranquilo da grama recém-cortada enquanto você se torna o verdadeiro Mower Master. 🌟 Recursos do Jogo: 🔸 Animações de Corte Suaves: Aproveite efeitos de corte ultra satisfatórios e um corte de grama realista. 🔸 Paisagens em Constante Mudança: Corte grama em jardins, parques, fazendas e gramados amplos e abertos. 🔸 Controles Simples de Arrastar: Controles fáceis de aprender para jogadores de todas as idades. 🔸 Vários Tipos de Cortadores: Cortadores de grama manuais, cortadores de grama com assento e cortadores robóticos automáticos. 🔸 Trabalhos de Corte Desafiadores: Encare tarefas em gramados residenciais, parques públicos, propriedades privadas e fazendas. 🔸 Gráficos HD e Física Realista: Experimente mecânicas de corte autênticas e visuais vibrantes. 🔸 Desbloqueie Cortadores Incríveis: Melhore e desbloqueie máquinas avançadas de corte de grama. 🏡 Descrição do Jogo: Bem-vindo ao Ultimate Lawn Mowing Simulator: Mower Master, o jogo de corte de grama mais relaxante e satisfatório de 2025! 🌱 Assuma o papel de um especialista profissional em cuidado de gramados e controle máquinas de corte poderosas. Seu trabalho? Aparar cada lâmina de grama, embelezar jardins e transformar gramados bagunçados em obras-primas perfeitas! Corte campos verdes e exuberantes, navegue por cantos apertados e conclua tarefas diárias de corte com precisão. Seja cortando pequenos gramados de quintal ou grandes campos de fazenda, cada trabalho traz um novo nível de satisfação. Escolha entre cortadores manuais, cortadores com assento e até cortadores robóticos, cada um com controles realistas e movimento suave. O ambiente relaxante, os efeitos sonoros ricos e a física detalhada da grama tornam cada corte gratificante. Se você adora jogos de simulação relaxantes, jogos de corte satisfatórios ou experiências de limpeza no estilo ASMR, este simulador de corte de grama é feito para você! 🎯 Complete Níveis Desafiadores – Corte formatos, áreas e paisagens diferentes simulador de corte de grama, jogo de corte de grama, cortador de jardim, simulador de cuidado com gramado, corte ASMR, jogo relaxante de gramado, jogo de cortador com assento, corte de grama realista, cortador de grama 3D, mowing master, simulador de paisagem, jogo de limpeza de jardim, corte de fazenda, aparar gramado",
+  "instructions": "🕹️ Como Jogar: 👉 Arraste para Mover – Controle seu cortador com gestos suaves de arrastar 🌱 Corte Toda a Grama – Cubra cada área para concluir o trabalho 🚜 Troque de Cortador – Escolha o melhor cortador para cada tarefa 🪙 Ganhe Recompensas – Termine os trabalhos para desbloquear cortadores melhores",
+  "guide": {
+   "intro": "Corte gramados de tamanhos e formatos diferentes usando os controles de arrastar e depois cubra cada área de grama para terminar cada trabalho. Os trabalhos concluídos rendem recompensas que desbloqueiam cortadores melhores.",
+   "tips": [
+    "Antes de começar, observe o gramado inteiro e planeje um caminho que cubra tudo em fileiras organizadas e sobrepostas, para que nenhuma área seja esquecida.",
+    "Verifique os cantos e as bordas no final de cada trabalho, pois são fáceis de deixar passar e precisam ser cortados para concluir o trabalho.",
+    "Compare os tipos de cortador antes de cada trabalho e escolha o que combina com o tamanho e o formato da área, especialmente quando o gramado tem cantos apertados.",
+    "Passe devagar por lugares estreitos para controlar melhor o cortador e evitar cortar de novo a grama que você já terminou.",
+    "Gaste suas recompensas com as melhorias de cortador que vão ajudar nos trabalhos que você acha mais difíceis."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de cada trabalho?",
+     "Seu objetivo é cortar toda a grama do gramado, cobrindo cada área. Quando o trabalho estiver totalmente cortado, ele será concluído."
+    ],
+    [
+     "Como eu controlo o cortador?",
+     "Arraste na tela para mover seu cortador. Os gestos de arrastar são o único controle de movimento descrito nas instruções."
+    ]
+   ]
+  }
+ },
+ "the-long-way-home": {
+  "description": "Sua nave sumiu. Você está muito longe da Terra, com uma roupa espacial, um tanque de combustível e o ar nos pulmões. The Long Way Home é um jogo em que o impulso é precioso e a deriva é de graça. Cada queimada gasta combustível que você talvez nunca consiga repor, então a rota mais rápida raramente é a reta. Passe perto de um planeta e deixe a gravidade te lançar para frente sem custo nenhum, e guarde o combustível para o momento em que você realmente precisar. Entre você e casa: estações de suprimento abandonadas, cada uma com um reabastecimento decisivo. Contêineres lacrados que você pode abrir se tiver paciência. Campos de detritos que vão te despedaçar em alta velocidade e deixar você passar bem devagar. VESTA, a unidade de assistência presa ao seu peito, te guia em tudo. Ela é uma máquina e não esconde isso, e vai te avisar quando sua direção estiver errada. Chegue à Terra antes que o oxigênio acabe. Depois faça tudo de novo, levando carga.",
+  "instructions": "Tudo também é um botão na tela, então funciona com mouse, teclado ou tela de toque. ARRASTE em qualquer lugar para olhar ao redor e mirar. ENGINE ou ESPAÇO acionam o propulsor principal — toques curtos, pois o combustível é limitado. STOP ou X vira você e aciona o retrofoguete; é a única forma de desacelerar por aqui. DRIFT ou Z deixa você alinhado com sua direção, o que aerodinamiza você e permite desviar de pedras. ION DRIVE ou V é um impulso elétrico fraco que funciona com bateria em vez de combustível. SCAN ou F ilumina os suprimentos próximos e marca os campos de detritos no seu mapa. REPAIR ou T conserta a roupa. TAB, ou um toque no mapa pequeno, abre o mapa de planejamento — escolha um destino ali e seu scanner vira uma bússola. A chave AIM ONLY / HOLD = THRUST muda se arrastar também aciona o motor.",
+  "guide": {
+   "intro": "Você está sozinho em uma roupa danificada, com combustível e oxigênio limitados, tentando chegar à Terra por um longo trecho do espaço. Cada queimada é uma escolha, então planeje sua rota antes de se mover.",
+   "tips": [
+    "Use a gravidade dos planetas para se impulsionar para frente antes de gastar combustível em uma queimada.",
+    "Mantenha os toques no motor curtos, já que o combustível não pode ser reposto depois que acaba.",
+    "Use STOP cedo quando precisar desacelerar, pois é a única forma de frear por aqui.",
+    "Abra o mapa de planejamento e defina um destino para que seu scanner funcione como uma bússola.",
+    "Use DRIFT para desviar de pedras e passar pelos campos de detritos devagar, em vez de bater neles em alta velocidade."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal?",
+     "Chegar à Terra antes que seu oxigênio acabe e, depois, repetir a viagem levando carga."
+    ],
+    [
+     "Como eu desacelero?",
+     "Pressione STOP ou X, que vira você e aciona o retrofoguete para frear sua nave."
+    ]
+   ]
+  }
+ },
+ "holemart": {
+  "description": "HoleMart é um jogo casual divertido e viciante em que você controla um buraco que cresce dentro de um mercado movimentado. Movimente-se pela área, engula objetos e aumente seu tamanho conforme consome mais itens. Comece pequeno absorvendo mercadorias minúsculas, prateleiras e carrinhos. À medida que seu buraco fica maior, você poderá engolir objetos maiores e esvaziar o mercado mais rápido. Quanto mais você consome, mais forte e maior fica seu buraco. Controles simples, crescimento satisfatório e jogabilidade fluida tornam HoleMart perfeito para partidas rápidas e diversão sem fim.",
+  "instructions": "Mova o Buraco Arraste o dedo para mover o buraco pelo mercado. Consuma Objetos Absorva objetos menores para aumentar seu tamanho. Cresça Mais O número de itens que você engole determina o quanto seu buraco fica maior. Desbloqueie Itens Maiores Conforme você cresce, pode consumir prateleiras, carrinhos e objetos maiores. Esvazie o Mercado Continue engolindo até que o mercado esteja completamente vazio.",
+  "guide": {
+   "intro": "HoleMart é um jogo de arcade em que você controla um buraco que cresce em um mercado movimentado. Engula objetos, fique maior e limpe a área inteira.",
+   "tips": [
+    "Comece com as mercadorias minúsculas perto do seu buraco, já que elas o fazem crescer rapidamente e deixam os itens maiores acessíveis mais cedo.",
+    "Antes de ir até uma prateleira ou carrinho grande, verifique se seu buraco é grande o bastante para engoli-lo, para não perder tempo dando voltas em volta dele.",
+    "Varra uma seção do mercado de cada vez, em vez de ziguezaguear, para não deixar pequenos itens espalhados para trás.",
+    "Mantenha um ritmo constante engolindo objetos pequenos enquanto se move, porque cada um que você pega aumenta seu tamanho.",
+    "Guarde seus movimentos mais poderosos para o final da fase, quando os objetos restantes forem os maiores e precisarem de um buraco maior."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de HoleMart?",
+     "O objetivo é continuar engolindo objetos até que o mercado esteja completamente vazio. Crescer mais ajuda você a terminar mais rápido."
+    ],
+    [
+     "Como meu buraco fica maior?",
+     "Absorva objetos menores: quanto mais itens você engole, maior fica seu buraco."
+    ]
+   ]
+  }
+ },
+ "stampede-evolution": {
+  "description": "Um platformer 3D de natureza em que você lidera um rebanho de animais que não para de crescer. Ande pelo seu acampamento para subir de nível e evoluir de um esquilo para um leão, depois corra e pule por biomas feitos à mão (campos de flores, florestas de outono, pântanos chuvosos, rios congelados, florestas noturnas) enquanto seu rebanho joga comida nos predadores que o caçam. Passe pelos portões bons para aumentar o rebanho, escolha melhorias, derrote chefes e conquiste três estrelas em cada fase. Ou experimente Stampede: uma corrida automática sem fim que fica cada vez mais rápida e selvagem.",
+  "instructions": "Computador: WASD ou as setas do teclado (ou arraste com o botão esquerdo do mouse) para se mover, Espaço ou clique com o direito para pular, P para pausar. Celular: o polegar esquerdo funciona como joystick, toque em JUMP ou no lado direito da tela para pular. Seu rebanho joga comida nos predadores automaticamente. Passe pelos portões verdes para aumentar o rebanho e evite os vermelhos, passe pelas placas azuis para escolher uma melhoria e chegue ao arco de chegada com o maior número de animais possível. Ande pelo acampamento para subir de nível e depois evolua para animais maiores. Em Stampede você corre para frente sozinho: desvie de muros e da água e vá o mais longe que conseguir.",
+  "guide": {
+   "intro": "Stampede Evolution é um platformer 3D de natureza em que você lidera um rebanho que cresce por biomas em constante mudança. Corra, pule e passe pelos portões para aumentar seu rebanho e evoluir para animais maiores.",
+   "tips": [
+    "Planeje sua rota com antecedência. Procure os portões verdes para aumentar o rebanho e evite os vermelhos, já que o portão errado pode diminuí-lo.",
+    "Use as placas de melhoria azuis sempre que puder. Escolher a melhoria certa pode ajudar seu rebanho nas partes mais difíceis de uma fase.",
+    "Mantenha seu rebanho grande antes de chegar ao arco de chegada. O objetivo é chegar com o maior número de animais possível, então a escolha dos portões importa tanto quanto a velocidade.",
+    "Dedique tempo para andar pelo acampamento e subir de nível. Evoluir para animais maiores faz parte de ficar mais forte para os biomas mais avançados.",
+    "No modo Stampede, concentre-se em desviar de muros e da água conforme o ritmo aumenta. Manter a calma importa mais do que correr, porque a corrida fica cada vez mais rápida e selvagem."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal de cada fase?",
+     "Chegar ao arco de chegada com o maior número de animais no seu rebanho que você conseguir. Conquistar três estrelas em cada fase também faz parte do desafio."
+    ],
+    [
+     "Como controlo meu rebanho?",
+     "No computador, use WASD ou as setas do teclado, ou arraste com o botão esquerdo do mouse para se mover, e pressione Espaço ou clique com o direito para pular. No celular, use o polegar esquerdo como joystick e toque em JUMP ou no lado direito da tela para pular."
+    ]
+   ]
+  }
+ },
+ "flip-trickster-parkour-simulator": {
+  "description": "Flip Trickster - Parkour Simulator permite que você desafie a gravidade com saltos mortais e acrobacias emocionantes. Percorra paisagens urbanas com controles intuitivos, aproveitando a física realista para uma aventura cativante. Domine o timing para executar aterrissagens perfeitas e avance por fases cada vez mais desafiadoras, mostrando seu talento de parkour com estilo.",
+  "guide": {
+   "intro": "Flip Trickster é um jogo de parkour ambientado em paisagens urbanas, onde você executa saltos mortais e acrobacias e busca aterrissagens limpas. Sua física e a dificuldade crescente recompensam o timing cuidadoso.",
+   "tips": [
+    "Observe a trajetória do seu salto antes de se comprometer com um salto mortal, já que a física torna o ponto de aterrissagem previsível depois que você vê alguns saltos.",
+    "Pratique um salto mortal ou uma acrobacia sozinho até conseguir aterrissar sempre, antes de encadear movimentos.",
+    "Calcule o timing da aterrissagem em vez de se apressar, porque um toque bem cronometrado é o principal objetivo de cada salto.",
+    "Aprenda os controles testando primeiro movimentos pequenos, para saber quanta entrada um salto mortal exige antes que as fases mais difíceis cheguem.",
+    "Quando uma fase ficar difícil, diminua o ritmo e planeje seu caminho pelo cenário urbano em vez de repetir o mesmo salto que falhou."
+   ],
+   "faq": [
+    [
+     "Qual é o principal objetivo de Flip Trickster?",
+     "Seu objetivo é executar saltos mortais e acrobacias e aterrissar com limpeza enquanto avança pelas fases urbanas. Cada fase fica mais difícil conforme você progride."
+    ],
+    [
+     "O que torna uma boa aterrissagem neste jogo?",
+     "Boas aterrissagens dependem do timing, então você precisa cronometrar seu salto mortal para cair no momento certo. A física realista do jogo afeta como cada salto acontece."
+    ]
+   ]
+  }
+ },
+ "quizmasters": {
+  "description": "QuizMasters é um jogo de perguntas e respostas colorido no estilo de programa de auditório, onde você responde perguntas, sobe na escada de prêmios e busca a grande recompensa. Escolha a resposta certa entre quatro opções, ganhe dinheiro e cristais, colecione figurinhas de recompensa e desafie outros jogadores em batalhas de conhecimento. Cada nível fica mais difícil, mantendo cada rodada empolgante, rápida e recompensadora.",
+  "instructions": "Leia cada pergunta com atenção e escolha a resposta certa entre quatro opções possíveis. Cada resposta certa faz você subir mais na escada de prêmios e te aproxima da grande recompensa. As perguntas ficam mais difíceis conforme você avança, então mantenha o foco e pense rápido. Ganhe dinheiro, cristais e figurinhas colecionáveis enquanto joga. Use suas recompensas para desbloquear novas coleções e continuar melhorando seu progresso. Você também pode desafiar outros jogadores em batalhas de perguntas um contra um e provar quem sabe mais.",
+  "guide": {
+   "intro": "QuizMasters é um jogo de perguntas e respostas no estilo de programa de auditório, onde você escolhe a resposta certa entre quatro opções para subir na escada de prêmios. Cada resposta certa te aproxima da grande recompensa, e você também pode desafiar outros jogadores.",
+   "tips": [
+    "Leia cada pergunta até o fim antes de escolher, já que as quatro opções foram feitas para testar seu raciocínio com cuidado.",
+    "Responda rápido, mas mantenha o foco, porque as perguntas ficam mais difíceis conforme você sobe na escada de prêmios.",
+    "Acompanhe em quais temas você responde com confiança e em quais erra, para saber onde precisa se concentrar.",
+    "Guarde seu dinheiro e seus cristais para desbloquear novas coleções, em vez de gastá-los sem um plano.",
+    "Experimente algumas batalhas de perguntas um contra um para ver como seus conhecimentos se comparam aos de outros jogadores."
+   ],
+   "faq": [
+    [
+     "Como subo de nível no QuizMasters?",
+     "Cada resposta certa faz você subir mais na escada de prêmios e se aproximar da grande recompensa. Escolha uma resposta entre as quatro opções para cada pergunta."
+    ],
+    [
+     "O jogo fica mais difícil conforme eu jogo?",
+     "Sim. Cada nível fica mais difícil, e as perguntas ficam mais complicadas conforme você avança."
+    ]
+   ]
+  }
+ },
+ "slendrina-must-die-the-asylum": {
+  "description": "Slendrina Must Die está de volta em uma nova aventura assustadora! The Asylum! Ela está muito mais furiosa do que o normal. Cuidado, ela está protegendo algo. Também fique de olho na Mãe da Slendrina! Ela é uma velha bruxa muito malvada! Encontre 8 Velhos Livros Médicos no Asilo Abandonado. Três armas: - Gun - MP5 - Shotgun",
+  "instructions": "W A S D para andar Mouse para olhar ao redor Botão Esquerdo do Mouse para atirar Botão Direito do Mouse para mirar Roda do Mouse para trocar de arma G para granadas R para recarregar F para pegar itens Shift Esquerdo para correr Ctrl Esquerdo para agachar X para deitar V para corpo a corpo",
+  "guide": {
+   "intro": "Slendrina Must Die: The Asylum é um shooter de terror em primeira pessoa ambientado em um asilo abandonado, onde você deve encontrar 8 velhos livros médicos enquanto Slendrina e sua mãe caçam você. Estas dicas ajudam você a sobreviver por mais tempo.",
+   "tips": [
+    "Ande com cuidado e agache com Ctrl Esquerdo em corredores estreitos para poder reagir antes que algo chegue até você.",
+    "Use Shift Esquerdo para correr apenas quando precisar fugir ou atravessar áreas abertas, depois diminua o ritmo de novo para ouvir.",
+    "Recarregue com R sempre que tiver um momento tranquilo, para nunca ficar com a arma vazia.",
+    "Troque de arma com a roda do mouse: guarde a shotgun para encontros de perto e a MP5 ou a gun para longa distância.",
+    "Pegue itens com F enquanto explora e fique de olho em quais salas você já revistou em busca de livros."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo em Slendrina Must Die: The Asylum?",
+     "Você precisa encontrar 8 Velhos Livros Médicos escondidos no asilo abandonado."
+    ],
+    [
+     "Quais armas existem no jogo?",
+     "Existem três armas: a gun, a MP5 e a shotgun, além de granadas na tecla G."
+    ]
+   ]
+  }
+ },
+ "traffic-rush-online": {
+  "description": "TRAFFIC Rush Online é um jogo de direção 3D dinâmico ambientado nas ruas de uma grande cidade. Mude de faixa entre carros em movimento, controle sua velocidade e prove que você consegue atravessar o trânsito intenso sem cometer erros. Escolha entre três modos de jogo. Dirija com outros jogadores online, explore a cidade sem restrições no Free Ride ou desvie do trânsito e ganhe mais ouro no modo Traffic. Suba de nível, expanda sua garagem e personalize seu carro com novas cores, rodas e peças externas. A física de direção responsiva, as múltiplas visões de câmera e as ruas urbanas detalhadas tornam cada partida empolgante. Assuma riscos calculados, escolha o momento certo para se mover e bata um novo recorde!",
+  "instructions": "O objetivo da corrida é dirigir o mais longe possível pela rodovia e bater o recorde. Tente não bater em outros carros. Quanto mais longe você dirigir, mais dinheiro vai ganhar. O jogo também tem um modo online: convide seus amigos e joguem juntos ou conheça novos jogadores. Gaste o dinheiro que ganhar melhorando seu carro e comprando novos veículos. Controles no PC: WASD / Teclas de seta — Dirigir C — Trocar câmera Barra de espaço — Freio de mão Controles no celular: Botões na tela / volante na tela. Você pode alternar entre os modos de controle nas configurações do jogo.",
+  "guide": {
+   "intro": "TRAFFIC Rush Online é um jogo de direção 3D em uma rodovia movimentada da cidade. Desvie entre carros em movimento, controle sua velocidade e tente dirigir o mais longe possível sem bater.",
+   "tips": [
+    "Observe os carros duas ou três faixas à frente, e não apenas o que está diretamente na sua frente, para planejar a troca de faixa com antecedência.",
+    "Escolha o momento de trocar de faixa quando houver um espaço livre. Fazer a manobra com pressa em um espaço apertado é a forma mais comum de bater.",
+    "Use o freio de mão (barra de espaço no PC) com moderação para controlar a velocidade em trechos apertados e solte o acelerador quando o trânsito engarrafar.",
+    "Experimente diferentes visões de câmera com a tecla C no PC para encontrar a que mostra com mais clareza o trânsito ao redor do seu carro.",
+    "Como a distância define seus ganhos, uma corrida segura e constante geralmente rende mais do que uma arriscada que termina cedo. Gaste seu ouro em melhorias que deixem seu carro mais fácil de controlar."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo do jogo?",
+     "O objetivo é dirigir o mais longe possível pela rodovia, evitar bater em outros carros e quebrar seu recorde."
+    ],
+    [
+     "Como ganho dinheiro?",
+     "Quanto mais longe você dirigir, mais dinheiro ganha, e pode gastá-lo melhorando seu carro ou comprando novos veículos."
+    ]
+   ]
+  }
+ },
+ "gun-festival-shoot": {
+  "description": "Gun Festival Shoot traz a emoção de um arcade acelerado, com controles simples e jogabilidade envolvente. Use matemática para fortalecer seu arsenal enquanto persegue assaltantes por fases 3D vibrantes, planejando sua estratégia em torno de barreiras que multiplicam ou diminuem seu poder de fogo. Desvie de obstáculos, derrote chefes e dispare sem parar para impedir o assalto!",
+  "guide": {
+   "intro": "Gun Festival Shoot é um shooter arcade rápido em que você persegue assaltantes por fases 3D, usando portões matemáticos para aumentar seu poder de fogo. Impeça o assalto antes que ele escape.",
+   "tips": [
+    "Antes de passar por uma barreira, verifique se ela multiplica ou reduz seu poder de fogo e escolha o caminho que oferece o maior ganho.",
+    "Fique de olho nos obstáculos à frente para desviar deles com antecedência, em vez de reagir na última hora.",
+    "Observe como seu poder de fogo muda após cada barreira, já que algumas reduções podem anular ganhos anteriores.",
+    "Guarde seu poder de fogo mais forte para as batalhas contra chefes, onde você precisará de mais dano para vencer.",
+    "Continue atirando sem parar, pois o jogo recompensa a pressão constante sobre os assaltantes enquanto você os persegue."
+   ],
+   "faq": [
+    [
+     "Qual é o principal objetivo de Gun Festival Shoot?",
+     "Você persegue os assaltantes em cada fase 3D, derrota chefes e impede o assalto. Sobreviver enquanto os persegue é o desafio central."
+    ],
+    [
+     "Como as barreiras afetam o jogo?",
+     "As barreiras multiplicam ou diminuem seu poder de fogo, então você usa matemática para decidir quais delas tornarão seu arsenal mais forte. Escolher com cuidado é uma parte essencial para se dar bem."
+    ]
+   ]
+  }
+ },
+ "skating-hero": {
+  "description": "Deslize sobre o gelo em Skating Hero, dominando três eventos emocionantes enquanto exibe movimentos deslumbrantes de patinação artística. Aperfeiçoe seu timing e desenvolva as habilidades do seu patinador, buscando pontuações altas com reflexos precisos. É uma jornada envolvente de velocidade e técnica, agora disponível para jogar grátis e se divertir.",
+  "guide": {
+   "intro": "Skating Hero é um jogo de esporte sobre deslizar pelo gelo em três eventos. Seu objetivo é executar movimentos de patinação artística com bom timing e conquistar pontuações altas.",
+   "tips": [
+    "Aprenda o timing de cada evento antes de buscar uma pontuação alta, já que o timing preciso é essencial neste jogo.",
+    "Observe como seu patinador responde nos primeiros instantes de cada evento para saber o momento certo de fazer o próximo movimento.",
+    "Concentre-se em um evento por vez e evite trocar de evento rápido demais até se sentir confortável com o ritmo dele.",
+    "Mantenha a calma e reações firmes, porque o jogo recompensa reflexos precisos em vez de comandos apressados.",
+    "Use suas primeiras tentativas para desenvolver as habilidades do seu patinador e depois busque execuções mais limpas para elevar sua pontuação."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal em Skating Hero?",
+     "O objetivo é executar movimentos de patinação artística em três eventos e alcançar pontuações altas com timing e reflexos precisos."
+    ],
+    [
+     "Como posso melhorar minha pontuação?",
+     "Concentre-se em acertar o timing dos seus movimentos e desenvolva as habilidades do seu patinador com tentativas repetidas, buscando execuções mais limpas a cada vez."
+    ]
+   ]
+  }
+ },
+ "train-puzzle": {
+  "description": "Embarque para uma aventura que vai exercitar sua mente! Em Train Puzzle, seu objetivo é se tornar o engenheiro ferroviário definitivo. Deslize, gire e conecte os trilhos para criar um caminho perfeito para o seu trem atravessar a grade com segurança. Com gráficos 3D encantadores e controles intuitivos, você precisa usar a lógica para evitar becos sem saída e levar seus vagões até a linha de chegada. Você consegue resolver a rota antes que o trem deixe a estação?",
+  "instructions": "Clique ou toque com o mouse para jogar",
+  "guide": {
+   "intro": "Train Puzzle é um jogo de lógica sobre a construção de uma ferrovia. Deslize e gire os trilhos na grade para que seu trem chegue à linha de chegada sem bater em becos sem saída.",
+   "tips": [
+    "Antes de mover qualquer coisa, trace a rota do trem até a linha de chegada. Procure as peças de trilho que precisam se conectar para formar um caminho claro.",
+    "Verifique cada ponta de trilho em busca de um beco sem saída antes de fixar uma peça. Uma peça que parece certa sozinha pode bloquear a rota inteira.",
+    "Concentre-se primeiro nos trilhos mais próximos do trem, já que o caminho dele começa ali. Trabalhar a partir do início deixa o traçado mais fácil de seguir.",
+    "Faça uma mudança por vez e observe como a rota se altera. Movimentos pequenos e pensados são mais fáceis de desfazer do que uma série de cliques rápidos.",
+    "Se travar, dê um passo para trás e procure peças que só encaixam de um jeito. Resolver essas primeiro costuma revelar o resto do caminho."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Train Puzzle?",
+     "Seu objetivo é deslizar e girar os trilhos para que o trem e seus vagões possam atravessar a grade até a linha de chegada."
+    ],
+    [
+     "Como eu movo os trilhos?",
+     "Use cliques ou toques do mouse para deslizar e girar as peças de trilho na grade."
+    ]
+   ]
+  }
+ },
+ "park-sort": {
+  "description": "Park Sort é um quebra-cabeça de estacionamento colorido em que cada movimento é claro e cada escolha importa. Todo veículo tem uma seta no teto. Toque nele e ele dirige reto naquela direção. Se a pista estiver livre, ele sai do pátio e vai para a garagem da sua cor. Se algo estiver no caminho, ele bate e volta. As garagens chegam uma após a outra, e cada uma é preenchida em ordem: primeiro os veículos grandes, depois os carros e por fim as motos. Um carro que pode sair agora nem sempre é o que deveria sair. Carros sem para onde ir esperam nas vagas de espera e entram na garagem assim que ela abre. Mas se as vagas de espera lotarem, é game over! Recursos - Controles simples com um toque e setas claras: você sempre sabe para onde o veículo vai - Ordenação por cor com uma reviravolta: veículos grandes estacionam primeiro - Novos veículos e novidades conforme você joga: caminhões, motos, semáforos, barreiras e chaves, carros misteriosos e mais por vir - Impulsos úteis: Desfazer, Dica, +Vaga e Escanear - Colecione skins de garagem e preencha seu álbum - Recompensas diárias, bônus de sequência de vitórias e uma corrida de rally com 100 jogadores - Carrinhos de brinquedo coloridos em tons de bala e animações suaves e satisfatórias - Sem cronômetros, sem pressa: pense no seu ritmo - Desfaça o engarrafamento, ordene todos os carros e torne-se o melhor gerente de estacionamento da cidade!",
+  "instructions": "1. Toque em um veículo para dirigi-lo na direção da seta do teto. 2. Se o caminho estiver livre, ele sai do pátio e vai para a garagem aberta da mesma cor. 3. Cada garagem é preenchida em ordem: primeiro os veículos grandes, depois os carros e por fim as motos. Confira os espaços vazios na garagem. 4. Veículos que ainda não podem estacionar esperam nas vagas de espera e entram automaticamente quando a garagem deles abre. 5. Não deixe as vagas de espera lotarem! Quando todas as vagas estiverem cheias, a fase termina. 6. Acompanhe a lista PRÓXIMOS para ver quais garagens vêm a seguir e planeje seus movimentos. 7. Travado? Use os impulsos: Desfazer volta um movimento, Dica mostra um bom movimento, +Vaga adiciona uma vaga de espera, e Escanear bloqueia veículos que não podem estacionar agora.",
+  "guide": {
+   "intro": "Park Sort é um quebra-cabeça de estacionamento de ordenação por cor, em que cada veículo segue sua seta no teto até a garagem correspondente. As garagens abrem em ordem, então planejar com antecedência importa tanto quanto o próximo toque.",
+   "tips": [
+    "Confira a lista PRÓXIMOS antes de cada movimento para saber qual garagem abre em breve e quais veículos você precisará estacionar primeiro.",
+    "Lembre-se de que as garagens são preenchidas em ordem: primeiro os veículos grandes, depois os carros e por fim as motos. Segure os veículos menores se um grande ainda estiver esperando pela garagem dele.",
+    "Antes de tocar em um veículo, observe os espaços vazios na garagem dele. Um veículo que pode sair agora nem sempre é aquele que deveria sair agora.",
+    "Fique de olho nas vagas de espera. Carros que ainda não podem estacionar vão ocupá-las, e o jogo termina quando todas estiverem cheias, então libere o caminho para os veículos que podem se mover.",
+    "Use Desfazer para testar um movimento em que você não tem certeza, e use Dica quando estiver travado. Escanear pode bloquear veículos que não podem estacionar agora, o que ajuda você a focar nos outros."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Park Sort?",
+     "Seu objetivo é ordenar cada veículo na garagem da cor correspondente. Desfaça o engarrafamento antes que as vagas de espera fiquem cheias."
+    ],
+    [
+     "O que acontece quando as vagas de espera estão cheias?",
+     "A fase termina quando todas as vagas de espera estão cheias. Veículos que ainda não podem estacionar permanecem nessas vagas até a garagem deles abrir."
+    ]
+   ]
+  }
+ },
+ "tic-tac-toe-multiplayer-x-o": {
+  "description": "Mergulhe nos duelos atemporais de Tic Tac Toe Multiplayer X O, onde gráficos modernos encontram a estratégia clássica. Desafie seus amigos em confrontos táticos em uma grade digital 3x3, planejando jogadas inteligentes para superar seu rival. Uma obra-prima estratégica, perfeita para partidas rápidas e rivalidades emocionantes.",
+  "guide": {
+   "intro": "Tic Tac Toe Multiplayer X O é uma versão para dois jogadores do clássico jogo de X e O em uma grade 3x3. Os jogadores se enfrentam em partidas rápidas e táticas para superar um ao outro.",
+   "tips": [
+    "Ocupe o quadrado central logo no início, quando ele estiver livre, pois ele faz parte de mais linhas vencedoras do que qualquer outro quadrado.",
+    "Sempre verifique se seu adversário tem duas marcas em linha com o terceiro quadrado vazio, e bloqueie antes de montar sua própria linha.",
+    "Procure por bifurcações: uma jogada que cria duas ameaças de vitória separadas ao mesmo tempo é muito difícil para seu rival impedir.",
+    "Pense uma ou duas jogadas à frente, perguntando para onde seu adversário irá após cada uma das suas escolhas.",
+    "Mantenha as partidas curtas e focadas, já que o tabuleiro é pequeno e cada jogada pode mudar o resultado rapidamente."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo do jogo?",
+     "O objetivo é colocar três das suas marcas, X ou O, em linha reta, seja em uma fileira, coluna ou diagonal na grade 3x3, antes que seu rival faça isso."
+    ],
+    [
+     "O que devo fazer se meu adversário estiver prestes a vencer?",
+     "Bloqueie imediatamente o quadrado vazio na linha dele, porque uma falha no bloqueio geralmente termina a partida na jogada seguinte dele."
+    ]
+   ]
+  }
+ },
+ "super-bike-racing": {
+  "description": "Jogos online grátis de Super bike racing - jogue jogos de Super bike racing grátis. O Little Johnny adora os jogos online grátis de Superbike Racing, e os amigos dele também! Entre na brincadeira agora neste jogo em que você controla uma moto com as teclas de seta. Complete os desafios e vença! Quer se divertir de verdade? Então, aproveite muito com Super Bike Racing! O jogo tem gráficos fantásticos e oferece uma experiência totalmente nova de corrida de motos. Atravesse as pistas em alta velocidade nesta corrida de super motos! Caia na ação com sua Superbike! Vista o equipamento, prenda o cinto e corra contra jogadores do mundo todo neste jogo de corrida arcade e acelerado. Curvas fechadas, ladeiras íngremes, planícies abertas – você tem que dominar todas! Escolha entre uma variedade de designs de moto e personalize do jeito que quiser: esta é a sua chance de montar a moto perfeita.",
+  "instructions": "Toque para Jogar",
+  "guide": {
+   "intro": "Super Bike Racing é um jogo de corrida arcade em que você pilota uma superbike por pistas rápidas com curvas fechadas, ladeiras íngremes e planícies abertas. Complete os desafios, escolha um design de moto e corra para vencer.",
+   "tips": [
+    "Use as teclas de seta para conduzir sua moto com suavidade, em vez de fazer mudanças bruscas, especialmente nas curvas fechadas.",
+    "Desacelere um pouco antes das curvas acentuadas para manter o controle e continuar na pista.",
+    "Observe o terreno à frente: ladeiras íngremes e planícies abertas exigem controles diferentes, então ajuste sua velocidade antes de chegar até elas.",
+    "Experimente alguns designs de moto diferentes e veja qual combina melhor com o seu estilo de pilotagem antes de se decidir por uma corrida.",
+    "Repita as pistas que você achar mais difíceis, concentrando-se em uma seção por vez, até conseguir passar por elas com consistência."
+   ],
+   "faq": [
+    [
+     "Como eu controlo a moto?",
+     "Você controla a moto com as teclas de seta. Toque na tela para começar o jogo, como mostrado nas instruções."
+    ],
+    [
+     "Qual é o objetivo do jogo?",
+     "Seu objetivo é atravessar as pistas em alta velocidade, completar os desafios e vencer a corrida."
+    ]
+   ]
+  }
+ },
+ "mr-bullet-3d-online": {
+  "description": "Um jogo de ação espetacular e divertido está chegando, cheio de ação, diversão e muitas fases desafiadoras. Jogue agora Mr Bullet 3D, um novo jogo exclusivo do kiz10.com !!!! Procurando um jogo que possa te entreter cheio de ação e muita diversão? Este jogo é para você. Neste jogo de tiro, você vai controlar o personagem Mr Bullet e ajudá-lo a mirar e atirar na direção certa. Tente calcular os ângulos, os ricochetes e cuide da sua munição para eliminar os agentes em cada fase. Divirta-se com este novo jogo espetacular da nossa coleção de jogos online grátis com recompensas no kiz10. Neste jogo com gráficos em um ambiente 3D, você pode se divertir superando cada fase no modo normal, com mais de 15 fases. Complete o modo normal e você poderá superar a si mesmo com o modo Refém, que é muito mais exigente e divertido. Neste jogo exclusivo da galeria do kiz10, você pode coletar muitos kizkoins e desbloquear recompensas, tornar-se um dos melhores jogadores online do kiz10 e preparar-se para muitas horas de diversão totalmente grátis.",
+  "instructions": "Controles Use o mouse para mirar e atirar ou toque na tela para apontar e atirar",
+  "guide": {
+   "intro": "Mr Bullet 3D é um jogo de tiro em 3D no qual você mira e dispara com Mr Bullet contra agentes em mais de 15 fases normais, e depois enfrenta o modo Refém, mais difícil. Planeje cada tiro com cuidado, pois os ricochetes e a munição fazem diferença.",
+   "tips": [
+    "Antes de atirar, observe as paredes e superfícies ao redor do alvo para planejar um tiro com ricochete em vez de mirar diretamente no agente.",
+    "Conte seus tiros antes de começar uma fase e use a munição que você tem nos agentes mais difíceis de alcançar diretamente.",
+    "Teste ângulos pequenos no início de uma fase para aprender como seus tiros ricocheteiam e depois aplique esse padrão nos alvos mais complicados.",
+    "Termine o modo normal primeiro, já que o modo Refém é descrito como muito mais exigente e se baseia no que você aprende ali.",
+    "Colete os kizkoins que encontrar, pois eles são usados para desbloquear recompensas."
+   ],
+   "faq": [
+    [
+     "Como eu miro e atiro?",
+     "Use o mouse para mirar e clique para atirar, ou toque na tela para apontar e atirar. Mire com cuidado, porque cada tiro usa munição."
+    ],
+    [
+     "O que deixa uma fase difícil?",
+     "As fases exigem que você calcule ângulos e ricochetes enquanto gerencia sua munição limitada para eliminar cada agente. Planejar seus tiros antes de atirar é a habilidade principal."
+    ]
+   ]
+  }
+ },
+ "marble-maze": {
+  "description": "Um quebra-cabeça de labirinto 3D de um contra um. Você desliza para rolar sua bolinha pelo labirinto e pintar cada casa aberta do tabuleiro. Cada labirinto usa uma cor só: seu objetivo é cobrir o tabuleiro inteiro, não chegar a uma linha de chegada.",
+  "instructions": "Como Jogar Role sua bolinha — Deslize para cima, para baixo, para a esquerda ou para a direita. A bolinha continua rolando até bater em uma parede. Pinte o labirinto — As casas escuras não estão pintadas. Passe por cima delas para deixar a cor da sua bolinha para trás. Complete o labirinto — Visite e pinte todas as casas abertas. Não há linha de chegada; o labirinto está concluído quando o tabuleiro inteiro estiver pintado. Use dicas (opcional) — Toque na dica da lâmpada por 50 moedas. Ela mostra sua próxima rolagem e é atualizada após cada movimento. Vença seu rival — Complete mais labirintos que seu oponente antes que o cronômetro de 90 segundos acabe.",
+  "guide": {
+   "intro": "Marble Maze é um quebra-cabeça de labirinto 3D de um contra um. Deslize para rolar sua bolinha e pintar cada casa aberta, e dispute com seu rival para completar mais labirintos antes que o tempo acabe.",
+   "tips": [
+    "Antes de cada deslize, observe o tabuleiro em busca de casas escuras não pintadas e escolha a direção que levará sua bolinha sobre a maior quantidade delas.",
+    "Lembre-se de que a bolinha continua rolando até bater em uma parede, então planeje onde ela vai parar, não apenas por onde vai começar.",
+    "Deixe um caminho de volta para as áreas não pintadas, pois uma rolagem que isola uma seção pode deixar casas que você terá de voltar para pintar.",
+    "Fique de olho no cronômetro de 90 segundos e administre seu ritmo para completar mais labirintos que seu oponente.",
+    "Use a dica da lâmpada quando estiver preso, mas lembre-se de que ela custa 50 moedas, então guarde-a para os momentos difíceis."
+   ],
+   "faq": [
+    [
+     "Como eu venço uma rodada?",
+     "Complete mais labirintos que seu oponente antes que o cronômetro de 90 segundos acabe. Cada labirinto é concluído quando todas as casas abertas estiverem pintadas."
+    ],
+    [
+     "Existe uma linha de chegada que eu preciso alcançar?",
+     "Não. Não há linha de chegada, então o labirinto só está concluído quando o tabuleiro inteiro estiver pintado."
+    ]
+   ]
+  }
+ },
+ "perfect-wax-3d": {
+  "description": "Perfect Wax 3D leva você a um mundo divertido de precisão e timing, no papel de um barbeiro em uma missão cabeluda. Colete cabelo rapidamente, evite obstáculos e transplante seu butim para uma cabeça careca. Uma jogabilidade envolvente e controles simples prometem horas de diversão neste desafio excêntrico.",
+  "guide": {
+   "intro": "Perfect Wax 3D é um jogo hipercasual sobre timing e precisão. Você joga como um barbeiro que coleta cabelo, desvia de obstáculos e leva o cabelo até uma cabeça careca.",
+   "tips": [
+    "Foque no timing antes da velocidade. O jogo recompensa movimentos precisos, então uma partida mais lenta e limpa geralmente vence uma feita com pressa.",
+    "Fique de olho nos obstáculos enquanto coleta cabelo. Planeje sua rota para pegar cabelo sem bater em perigos que possam custar seu progresso.",
+    "Pratique a etapa do transplante até ela parecer natural. Colocar o cabelo na cabeça careca com precisão é o centro de cada tentativa.",
+    "Como os controles são simples, concentre sua atenção em ler o layout à frente em vez de em comandos complicados.",
+    "Jogue em sessões curtas e tente de novo rapidamente. Cada tentativa ensina mais sobre timing e sobre onde os obstáculos tendem a aparecer."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Perfect Wax 3D?",
+     "Você joga como um barbeiro que coleta cabelo, evita obstáculos e transplanta o cabelo para uma cabeça careca."
+    ],
+    [
+     "Quão difícil é Perfect Wax 3D?",
+     "O jogo foca em precisão e timing, então pode levar algumas tentativas para pegar o ritmo de coletar e transplantar o cabelo."
+    ]
+   ]
+  }
+ },
+ "shadow-fights": {
+  "description": "Os Shadow Fighters tomaram seus lugares no campo. A luta terá apenas 1 vencedor! Seja rápido, golpeie com os punhos e desvie dos ataques! O jogo Shadow Fights pode ser jogado de 1 jogador ou 2 jogadores. Se você está pronto para 3 rounds de luta, comece o jogo!",
+  "instructions": "Jogador Azul Movimento W A S D Soco F Chute G Jogador Laranja Movimento SETAS DO TECLADO Soco K Chute L",
+  "guide": {
+   "intro": "Shadow Fights é um jogo de luta 2D para um ou dois jogadores, decidido em três rounds. Azul e Laranja controlam cada um um lutador das sombras com seu próprio conjunto de teclas.",
+   "tips": [
+    "Aprenda os dois ataques logo no início: Soco e Chute têm teclas diferentes para cada jogador, então pratique até conseguir usá-los sem olhar para o teclado.",
+    "Desvie antes de atacar. Observar a postura do seu adversário e recuar por um instante pode impedir o golpe dele e abrir uma brecha para o seu.",
+    "Use rajadas curtas de socos em vez de apertar os botões sem parar, já que você precisa continuar pronto para se mover entre as trocas de golpes.",
+    "Fique de olho na contagem de rounds. A partida tem três rounds, então perder o primeiro round significa que você precisa vencer os dois próximos, o que pode mudar o seu jeito de jogar, deixando-o mais cauteloso.",
+    "Em partidas de dois jogadores, revezem-se testando abordagens diferentes com um amigo para ver como o outro jogador reage aos seus movimentos."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Shadow Fights?",
+     "O objetivo é derrotar seu adversário e vencer a luta. A descrição diz que a luta terá apenas um vencedor, decidido em três rounds."
+    ],
+    [
+     "Quais teclas controlam o jogador Azul?",
+     "O Azul se move com W, A, S e D, dá socos com F e chutes com G."
+    ]
+   ]
+  }
+ },
+ "dead-paradise": {
+  "description": "Dead Paradise: Race Shooter é um jogo de carro apocalíptico em que você precisa atirar nos seus inimigos. Dirija e atire nos seus inimigos ao mesmo tempo para terminar a fase! Seu objetivo não é apenas terminar a corrida, mas sobreviver a ela. Seus inimigos virão atrás de você em todo tipo de veículo. Termine a fase e ganhe moedas para melhorar seu carro na garagem. Há melhorias de mísseis, melhorias de blindagem, melhorias de motor e melhorias de combustível para desbloquear, que vão aumentar seu dano, sua vida e sua velocidade. Ainda há outros veículos incríveis que você pode comprar.",
+  "instructions": "Acelerar - seta para cima Desacelerar - seta para baixo Lançar mísseis - x Ajustar direção de tiro - z Nitro - espaço",
+  "guide": {
+   "intro": "Dead Paradise é um jogo de corrida e tiro apocalíptico em 3D em que você dirige e atira nos inimigos ao mesmo tempo. Termine cada fase sobrevivendo aos ataques e depois gaste moedas em melhorias na garagem.",
+   "tips": [
+    "Mantenha seu carro em movimento com a seta para cima, mas alivie com a seta para baixo quando os inimigos se aglomerarem à sua frente para conseguir alinhar os tiros.",
+    "Use a tecla z para ajustar a direção de tiro antes de disparar um míssil com x, já que os mísseis são seus golpes mais pesados.",
+    "Guarde o nitro da barra de espaço para trechos em que você precisa se afastar dos perseguidores ou chegar rápido à linha de chegada, em vez de gastá-lo logo no início.",
+    "Escolha melhorias de acordo com suas dificuldades: opte por blindagem se você tomar dano demais, melhorias de mísseis se as batalhas durarem muito, e melhorias de motor ou combustível se você ficar para trás.",
+    "Lembre-se de que terminar a corrida é só metade do objetivo, então observe sua vida entre as levas de inimigos em vez de focar apenas na linha de chegada."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal de Dead Paradise?",
+     "Você precisa terminar cada fase de corrida e, ao mesmo tempo, sobreviver aos inimigos que perseguem você em todo tipo de veículo. Terminar a corrida sozinho não é suficiente."
+    ],
+    [
+     "Como atiro enquanto dirijo?",
+     "Dirija e acelere com as teclas de seta, depois dispare mísseis com a tecla x. Use a tecla z para ajustar a direção de tiro."
+    ]
+   ]
+  }
+ },
+ "flows": {
+  "description": "Flows é um quebra-cabeça de lógica aconchegante sobre organizar líquidos coloridos entre frascos. Toque em um frasco e depois em outro para despejar a cor de cima — seu objetivo é deixar cada frasco com uma única cor (ou vazio). ✨ Destaques: • 40 fases cuidadosamente ajustadas, com dificuldade crescente e suave • Rankings de tempo por fase — dispute com o mundo quem resolve mais rápido • Sistema de dicas opcional (anúncio premiado) • Visual limpo e minimalista, com paleta relaxante • Disponível em 4 idiomas: English, Русский, Español, Português • Sem contas, sem cronômetros, sem pressão — é só pegar e jogar Perfeito para pausas rápidas no café ou sessões longas e concentradas.",
+  "instructions": "Toque em um frasco e depois em outro frasco para despejar a cor do topo nele. Você só pode despejar se o frasco de destino estiver vazio ou se a cor do topo for igual. A fase está resolvida quando cada frasco contém uma única cor ou está vazio. 🎯 Dicas: • Planeje com antecedência — quando uma cor fica enterrada sob outra, você precisa mover primeiro a cor de cima • Use o botão de Dica (anúncio premiado) se ficar preso • Cada fase tem seu próprio ranking de tempo — termine rápido para subir nas posições Controles: clique com o mouse no computador, toque no celular.",
+  "guide": {
+   "intro": "Flows é um quebra-cabeça de lógica tranquilo em que você despeja líquidos coloridos entre frascos até que cada um tenha uma única cor ou fique vazio. Conclua 40 fases no seu ritmo.",
+   "tips": [
+    "Antes de cada despejo, observe o que está embaixo da cor do topo dos dois frascos. Uma cor enterrada sob outra só pode ser alcançada depois que a de cima se mover.",
+    "Frascos vazios são o seu espaço mais útil. Mover a cor do topo para um frasco vazio pode liberar a cor que estava embaixo dela.",
+    "Reúna uma cor de cada vez. Juntar uma cor em um único frasco deixa o resto da fase mais fácil de entender.",
+    "Se ficar preso, tente desfazer o raciocínio voltando pelos despejos que você fez primeiro e procure uma ordem diferente, em vez de repetir os mesmos movimentos.",
+    "Use a dica se uma fase deixar de fazer sentido, e lembre-se de que terminar rápido só importa se você quiser comparar tempos no ranking da fase."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Flows?",
+     "Você vence uma fase quando cada frasco contém apenas uma cor ou está completamente vazio. Despeje as cores entre os frascos até que isso aconteça."
+    ],
+    [
+     "Como despejo uma cor?",
+     "Toque em um frasco e depois em um segundo frasco para despejar a cor do topo nele. No computador, use cliques do mouse; no celular, use toques."
+    ]
+   ]
+  }
+ },
+ "music-tools": {
+  "description": "Acenda sua paixão pela música com Music Tools, uma experiência imersiva em que você pode dominar o piano, a guitarra e a bateria. Experimente sons e ritmos enquanto cria composições únicas e suba nos rankings online. Seja você iniciante ou profissional, aprimore suas habilidades e aproveite a diversão musical sem fim.",
+  "guide": {
+   "intro": "Music Tools permite tocar piano, guitarra e bateria enquanto você experimenta sons e ritmos. Crie suas próprias composições e veja como você se posiciona nos rankings online.",
+   "tips": [
+    "Experimente cada instrumento, piano, guitarra e bateria, antes de escolher um. Cada um tem sua própria sensação, então você pode encontrar um favorito.",
+    "Comece com um ritmo simples e construa a partir dele. Adicionar um som de cada vez facilita perceber o que cada mudança faz.",
+    "Experimente sons diferentes na mesma melodia. Pequenas mudanças de timbre podem deixar uma composição com uma cara bem diferente.",
+    "Grave ou repita as partes que você mais gosta para comparar versões. Isso ajuda a perceber o que funciona nas suas composições.",
+    "Se você é novo em música, foque em manter um ritmo constante antes de adicionar complexidade. Se você tem mais experiência, tente sobrepor instrumentos para criar peças mais completas."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo do Music Tools?",
+     "O jogo é construído em torno da criação de suas próprias composições com piano, guitarra e bateria. Experimentar sons e ritmos é a atividade principal."
+    ],
+    [
+     "Como faço para marcar pontos ou subir nos rankings?",
+     "A descrição menciona rankings online, mas não explica como as pontuações são obtidas. Experimente os recursos do jogo e confira a exibição na tela para ver os detalhes da pontuação."
+    ]
+   ]
+  }
+ },
+ "idle-airport-tycoon": {
+  "description": "Idle Airport Tycoon é um jogo de simulação casual que coloca você no comando da construção e da gestão do seu próprio aeroporto movimentado. Comece com uma pista humilde e transforme-a em um hub de viagens de nível mundial—deixe o aeroporto de Atlanta para trás; agora queremos ser o aeroporto mais movimentado do mundo! Melhore tudo, desde aviões até terminais, desbloqueie novas fontes de receita e veja seus lucros dispararem! Você está pronto para encarar o desafio e se tornar o magnata de aeroportos definitivo?",
+  "instructions": "Controles: Use o botão esquerdo do mouse = interagir com a interface do jogo | Teclas +/- = alterar o tamanho da câmera",
+  "guide": {
+   "intro": "Idle Airport Tycoon é um jogo de simulação em que você constrói e gerencia um aeroporto, começando com uma pequena pista e transformando-a em um hub de viagens movimentado. Você melhora aviões e terminais e desbloqueia novas fontes de receita para aumentar seus lucros.",
+   "tips": [
+    "Confira suas opções de melhoria com frequência, já que aviões e terminais são as principais partes do aeroporto que você pode aprimorar.",
+    "Gaste seus lucros com planejamento, e não de uma vez só, para poder pagar as melhorias mais importantes em cada etapa.",
+    "Fique de olho em novas fontes de receita assim que elas estiverem disponíveis, pois mais fontes de renda ajudam seu aeroporto a crescer mais rápido.",
+    "Use as teclas + e - para aproximar e afastar a câmera e ver todo o layout do seu aeroporto ou focar em uma área específica.",
+    "Use o botão esquerdo do mouse para interagir com os menus na tela e volte a eles com frequência para ver o que você pode pagar em seguida."
+   ],
+   "faq": [
+    [
+     "Qual é o principal objetivo de Idle Airport Tycoon?",
+     "O objetivo é transformar uma pequena pista em um hub de viagens de nível mundial e se tornar o aeroporto mais movimentado do mundo. Para isso, você melhora seu aeroporto e aumenta seus lucros."
+    ],
+    [
+     "Como controlo o jogo?",
+     "Use o botão esquerdo do mouse para interagir com os menus e a interface do jogo. Use as teclas + e - para alterar o tamanho da visão da câmera."
+    ]
+   ]
+  }
+ },
+ "hospital-surgeon-doctor-game": {
+  "description": "Torne-se um cirurgião cardíaco habilidoso e enfrente emergências médicas desafiadoras! Diagnostique pacientes, use ferramentas cirúrgicas realistas, realize cirurgias cardíacas, trate condições críticas e ajude os pacientes a se recuperarem. Gerencie diferentes departamentos do hospital, complete missões emocionantes e tome decisões importantes sob pressão. De cirurgia cardíaca e atendimento de emergência a tratamentos odontológicos, oftalmológicos, otorrinolaringológicos e ortopédicos, cada caso traz um novo desafio. Salve vidas, complete cirurgias, ganhe recompensas e construa sua carreira como médico profissional. Você está pronto para entrar na sala de cirurgia e se tornar um cirurgião que salva vidas?",
+  "instructions": "Toque e arraste as ferramentas médicas, siga as instruções na tela e complete cada cirurgia",
+  "guide": {
+   "intro": "Hospital Surgeon: Doctor Game é uma simulação em que você diagnostica pacientes e realiza cirurgias nos casos cardíacos, de emergência, odontológicos, oftalmológicos, otorrinolaringológicos e ortopédicos. Você trabalha com ferramentas médicas sob pressão de tempo e de decisões.",
+   "tips": [
+    "Leia o diagnóstico com atenção antes de pegar qualquer ferramenta, já que cada caso começa com a identificação do que o paciente precisa.",
+    "Siga as instruções na tela passo a passo em vez de se apressar, porque cada cirurgia é concluída em uma ordem definida.",
+    "Vá com calma no movimento de arrastar ao mover as ferramentas e mantenha a mão firme para não desfazer o progresso do procedimento.",
+    "Fique atento ao estado do paciente conforme o caso avança e priorize o problema mais crítico quando vários surgirem.",
+    "Experimente diferentes departamentos para desenvolver um conjunto mais amplo de habilidades, já que cada um traz um novo tipo de desafio."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo básico do jogo?",
+     "Seu objetivo é diagnosticar pacientes, realizar cirurgias e ajudá-los a se recuperar enquanto constrói sua carreira como médico. Cada caso concluído com sucesso faz você avançar."
+    ],
+    [
+     "Como eu controlo as ferramentas cirúrgicas?",
+     "Você toca e arrasta as ferramentas médicas para executar cada etapa da operação. Siga as instruções na tela para saber qual ferramenta usar e onde."
+    ]
+   ]
+  }
+ },
+ "evade": {
+  "description": "Um jogo de perseguição em alta velocidade onde você entrega pacotes pela cidade enquanto a polícia tenta te pegar. Despiste os policiais, faça a entrega e siga para o próximo trabalho.",
+  "instructions": "Use as setas do teclado ou WASD para dirigir, Espaço para o freio de mão e Shift para acelerar. Dirija até cada ponto de entrega, mas despiste os policiais primeiro — você não pode entregar enquanto eles estiverem no seu encalço.",
+  "guide": {
+   "intro": "EVADE é um jogo de perseguição de carro em que você entrega pacotes pela cidade enquanto a polícia te persegue. Despiste os policiais, chegue a cada ponto de entrega e depois siga para o próximo trabalho.",
+   "tips": [
+    "Despiste a polícia antes de ir até um ponto de entrega, já que você não pode entregar enquanto eles ainda estiverem te perseguindo.",
+    "Guarde o impulso do Shift para trechos retos ou para se livrar de um perseguidor, assim você não perde o controle nas curvas fechadas.",
+    "Use o freio de mão com Espaço para virar o carro rapidamente nas esquinas quando um policial estiver se aproximando por trás.",
+    "Fique de olho de onde a polícia está vindo e evite becos sem saída, onde você pode ficar encurralado.",
+    "Planeje sua rota até o ponto de entrega logo no início, para conseguir despistar a perseguição no caminho em vez de voltar em círculos com os policiais ainda no seu encalço."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal em EVADE?",
+     "Dirija até cada ponto de entrega para entregar o pacote, mas só depois de ter despistado a polícia que te persegue. Concluir uma entrega permite seguir para o próximo trabalho."
+    ],
+    [
+     "Por que não consigo fazer uma entrega durante a perseguição?",
+     "O jogo não permite concluir uma entrega enquanto a polícia ainda está no seu encalço. Você precisa despistá-los primeiro e depois dirigir até o ponto de entrega."
+    ]
+   ]
+  }
+ },
+ "life-of-a-tree": {
+  "description": "Life of a Tree não é apenas um jogo; é uma aventura educativa que combina aprendizado com diversão. Seja você um entusiasta da natureza, um estudante ou simplesmente curioso sobre o mundo natural, este jogo oferece informações valiosas e uma profunda apreciação pelas árvores. Ao jogar, você vai compreender melhor como as árvores crescem, sobrevivem e contribuem para o mundo ao nosso redor. Comece sua jornada hoje e descubra a vida das árvores como nunca antes. Com Life of a Tree, aprender é uma aventura, e cada árvore tem uma história para contar.",
+  "instructions": "Clique com o mouse ou toque na tela para jogar",
+  "guide": {
+   "intro": "Life of a Tree é um jogo de quebra-cabeça 2D para um jogador que ensina como as árvores crescem, sobrevivem e sustentam o mundo ao nosso redor. Ele é jogado com cliques do mouse ou toques na tela.",
+   "tips": [
+    "Leia cada tela com atenção antes de clicar, já que o jogo é construído em torno do aprendizado sobre como as árvores crescem e sobrevivem.",
+    "Anote os fatos que você perceber, como a forma como uma árvore muda com o tempo, para poder lembrá-los depois.",
+    "Experimente diferentes cliques ou toques na mesma área para ver o que responde, o que ajuda você a entender como cada parte da árvore funciona.",
+    "Jogue devagar e pense em por que cada fase da vida de uma árvore acontece, em vez de correr para terminar.",
+    "Volte depois de uma pausa e jogue novamente as partes que você achou confusas, porque os quebra-cabeças se baseiam nas ideias sobre a vida das árvores."
+   ],
+   "faq": [
+    [
+     "Como eu controlo o jogo?",
+     "Você joga clicando com o mouse ou tocando na tela. Nenhum outro controle está listado nas instruções."
+    ],
+    [
+     "Qual é o objetivo principal?",
+     "O jogo visa ajudar você a aprender como as árvores crescem, sobrevivem e contribuem para o mundo natural enquanto resolve quebra-cabeças."
+    ]
+   ]
+  }
+ },
+ "portal": {
+  "description": "Navegue pelo fascinante mundo de Portal, onde seus reflexos e sua precisão são essenciais. Guie uma bola até a segurança, desviando de um buraco negro implacável. Domine quebra-cabeças baseados em física com manobras habilidosas e raciocínio rápido, enquanto cada fase apresenta um novo desafio emocionante. Você consegue escapar do seu domínio cósmico?",
+  "guide": {
+   "intro": "Portal é um jogo hyper casual em que você guia uma bola até a segurança enquanto desvia de um buraco negro implacável. Quebra-cabeças baseados em física e reações rápidas são necessários para superar cada nova fase.",
+   "tips": [
+    "Observe a força de atração do buraco negro por alguns segundos antes de se mover, assim você consegue identificar um caminho seguro em vez de reagir tarde demais.",
+    "Planeje sua rota pela fase antes de se comprometer, já que quebra-cabeças baseados em física costumam recompensar um caminho suave e deliberado em vez de movimentos apressados.",
+    "Faça ajustes pequenos e precisos em vez de grandes, o que ajuda você a se manter longe do alcance do buraco negro.",
+    "Espere que cada fase traga algo novo, então pare para ler o layout e descobrir o que mudou antes de começar.",
+    "Se você falhar em uma fase, recomece e tente uma abordagem diferente em vez de repetir o mesmo movimento que levou a bola ao perigo."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Portal?",
+     "Seu objetivo é guiar a bola até a segurança evitando o buraco negro. Cada fase apresenta um novo desafio que testa seus reflexos e sua precisão."
+    ],
+    [
+     "Como o jogo testa minhas habilidades?",
+     "Ele combina reações rápidas com quebra-cabeças baseados em física, então você precisa se mover rápido e pensar à frente. O planejamento cuidadoso é tão importante quanto a velocidade."
+    ]
+   ]
+  }
+ },
+ "fps-gun-shooting-game-3d": {
+  "description": "FPS Shooting Strike - Gun Games 3D Offline Shooting Games 2026 é um jogo de tiro intenso onde você precisa fazer de tudo para eliminar seus inimigos e manter sua equipe segura. Você está pronto para se tornar campeão de tiro em primeira pessoa (FPS) em gun games 3D? Esta experiência gratuita de Shooting Games 2026 leva a jogabilidade para o próximo nível para os fãs de jogos de tiro de comando. A missão secreta intensa traz ação emocionante e gráficos marcantes que incentivam você a testar suas habilidades a cada vez. Você precisa fazer tudo o que estiver ao seu alcance para enfrentar os atiradores inimigos e eliminá-los para vencer. Mas não será fácil completar todas as tarefas neste novo action gun game 3D, disponível para jogar offline e em multiplayer online. FPS Shooting Games e Gun Shooter Game Com a ajuda do Real Commando Shooting Game 3D, você finalmente pode jogar um novo FPS com uma ótima história e muitos elementos emocionantes. O jogo está cheio de ideias extraordinárias e desafia você constantemente enquanto você se esforça para se tornar o melhor. É divertido, envolvente e permite que você aproveite um dos melhores jogos de tiro FPS de 2026. Além disso, a jogabilidade é imersiva, e você precisa usar todas as suas habilidades e táticas para vencer, levando sua experiência para o próximo nível. Fps Gun Shooting Games: Counter Terrorist Strike Shooting Games Diferente de outros jogos de tiro offline e jogos de guerra FPS, este novo título de Shooting Games 2026 traz gráficos chamativos e uma história interessante. Este jogo permite que você comande uma unidade de comando em uma jogabilidade cheia de ação. Novos mapas, armas aprimoradas e modos de jogo emocionantes esperam por você neste gun fighting game, onde terroristas e comandos lutam pela sobrevivência. Free Shooting Games - Gun Games 3D A jogabilidade desses free shooting games é cheia de ação e emoção. Comece suas missões diárias atacando inimigos como um atirador FPS habilidoso em um dos melhores jogos de tiro offline disponíveis. Aumente o nível do seu jogador e desbloqueie armas poderosas conforme você avança. Shooter Games 2026 trazem combate de linha de frente com uma variedade de armas de guerra moderna. Use suas habilidades de tiro para eliminar inimigos terroristas e dominar o campo de batalha. Counter Terrorism Gun Shooting Game Se você jogou c",
+  "instructions": "Controles Teclas de Seta — Mover seu personagem Botão Direito do Mouse — Atirar Botão Esquerdo do Mouse — Zoom / Mirar Tecla G — Jogar bomba Barra de Espaço — Pular Shift + Teclas de Seta — Mover mais rápido / Correr",
+  "guide": {
+   "intro": "FPS Gun Shooting Game 3D é um jogo de tiro em primeira pessoa onde você comanda uma unidade de comando contra inimigos terroristas. Você pode jogar offline ou em multiplayer online, e avança aumentando o nível do seu jogador e desbloqueando armas mais poderosas.",
+   "tips": [
+    "Use Shift com as teclas de seta para correr entre coberturas, e mova-se em velocidade normal quando precisar ser silencioso ou preciso.",
+    "Guarde a bomba da tecla G para grupos de inimigos ou locais onde vários atiradores estão escondidos, em vez de usá-la em um alvo único.",
+    "Use o botão esquerdo do mouse para dar zoom antes de um tiro de longa distância, especialmente durante missões de sniper, e atire com o botão direito do mouse quando sua mira estiver firme.",
+    "Pule com a barra de espaço somente quando precisar passar por um obstáculo ou mudar de posição, já que pular pode atrapalhar sua mira.",
+    "Mantenha sua equipe segura verificando o campo de batalha antes de avançar, e reposicione-se quando vir inimigos se aproximando de uma nova direção."
+   ],
+   "faq": [
+    [
+     "Como eu atiro e miro neste jogo?",
+     "Pressione o botão direito do mouse para atirar e o botão esquerdo do mouse para dar zoom e mirar. Dar zoom primeiro facilita acertar inimigos distantes."
+    ],
+    [
+     "Como eu me movo mais rápido?",
+     "Segure Shift e pressione as teclas de seta para se mover mais rápido ou correr. Use o movimento normal quando precisar de mais controle sobre sua posição."
+    ]
+   ]
+  }
+ },
+ "transport-tycoon-deluxe-open-ttd": {
+  "description": "Libere seu talento estratégico em Transport Tycoon Deluxe - Open TTD. Construa e gerencie redes de transporte complexas usando diversos veículos para aumentar a eficiência e a classificação do seu império de transportes. Planeje rotas que combinem viagens terrestres, marítimas e aéreas para uma jogabilidade envolvente que expande os horizontes do seu negócio.",
+  "guide": {
+   "intro": "Transport Tycoon Deluxe - Open TTD é um jogo de estratégia e quebra-cabeça sobre construir e gerenciar redes de transporte. Você combina rotas terrestres, marítimas e aéreas com diferentes veículos para fazer crescer o seu império de transportes.",
+   "tips": [
+    "Planeje sua rede antes de construí-la, para que as rotas se conectem de forma lógica em vez de se sobrepor desnecessariamente.",
+    "Use uma combinação de rotas terrestres, marítimas e aéreas sempre que cada uma fizer sentido, em vez de depender de um único tipo de transporte.",
+    "Preste atenção na eficiência de cada rota, já que ela é um dos principais fatores que determinam a sua classificação geral.",
+    "Teste veículos diferentes na mesma rota para descobrir qual combinação oferece os melhores resultados para o seu império.",
+    "Expanda aos poucos, verificando se a sua rede atual funciona bem antes de adicionar novas rotas."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal de Transport Tycoon Deluxe?",
+     "O objetivo é construir e gerenciar redes de transporte que aumentem a eficiência e a classificação do seu império de transportes. O jogo incentiva você a continuar expandindo seu negócio ao longo do tempo."
+    ],
+    [
+     "Como posso melhorar minha classificação?",
+     "Sua classificação melhora quando a sua rede de transporte funciona com eficiência. Foque em rotas bem planejadas e escolha veículos adequados para cada rota."
+    ]
+   ]
+  }
+ },
+ "ultimate-flying-car": {
+  "description": "Quer fazer corridas rápidas e voos pelas longas ruas da cidade? O jogo Ultimate Flying Car convida você para uma experiência realista de simulador de carro voador. Explore o céu com carros voadores estilosos ou desbloqueie novos carros participando de corridas. Você pode jogar todos esses modos de jogo sozinho ou em dupla, com 2 jogadores.",
+  "instructions": "Jogador 1 Mover W A S D NOS SHIFT Olhar para trás T Corrigir posição do carro R Freio de mão SPACE Jogador 2 Mover TECLAS DE SETA NOS M Olhar para trás L Corrigir posição do carro U Freio de mão K",
+  "guide": {
+   "intro": "Ultimate Flying Car é um jogo de corrida e voo ambientado em longas ruas da cidade. Você pode explorar o céu em carros voadores estilosos, desbloquear novos carros através de corridas e jogar sozinho ou com um amigo no modo de 2 jogadores.",
+   "tips": [
+    "Experimente voar livremente antes de entrar nas corridas para aprender como seu carro se comporta no ar e no chão.",
+    "Use o freio de mão (SPACE para o Jogador 1, K para o Jogador 2) para fazer curvas fechadas em vez de desacelerar com as teclas de movimento.",
+    "Guarde o NOS (SHIFT para o Jogador 1, M para o Jogador 2) para as retas ou para momentos em que você está claramente à frente, assim ainda terá turbo quando for mais importante.",
+    "Olhe para trás (T para o Jogador 1, L para o Jogador 2) quando precisar verificar onde estão os rivais antes de ultrapassar ou trocar de pista.",
+    "Se o seu carro ficar preso ou capotar, use a tecla de corrigir posição do carro (R para o Jogador 1, U para o Jogador 2) em vez de perder tempo tentando se recuperar."
+   ],
+   "faq": [
+    [
+     "Como desbloqueio novos carros?",
+     "Você desbloqueia novos carros participando de corridas. Continue correndo para ampliar suas opções."
+    ],
+    [
+     "Quais são os controles do Jogador 1?",
+     "Use W, A, S e D para mover, SHIFT para o NOS, SPACE para o freio de mão, T para olhar para trás e R para corrigir a posição do carro."
+    ]
+   ]
+  }
+ },
+ "zombie-raft": {
+  "description": "Zombie Raft é um jogo de sobrevivência. O apocalipse zumbi está chegando e é hora de um jogo de sobrevivência em jangada! Proteja a si mesmo e outros sobreviventes do tsunami zumbi que se aproxima e empurre todos para trás, é sua responsabilidade sobreviver na jangada! Espremer os veículos para frente e empurrá-los se necessário! Continue em frente, escape do tsunami zumbi e conquiste a terra devastada! Se sobreviventes abandonados forem encontrados, você precisa resgatá-los! Junte-se a nós e experimente o melhor jogo de zumbi!",
+  "instructions": "Clique com o mouse ou toque na tela para jogar",
+  "guide": {
+   "intro": "Zombie Raft é um jogo de corrida de sobrevivência em que você conduz uma jangada à frente de um tsunami zumbi. Você protege a si mesmo e outros sobreviventes, avança pela terra devastada e resgata os sobreviventes abandonados que encontrar.",
+   "tips": [
+    "Continue avançando, já que o objetivo é fugir do tsunami zumbi e conquistar a terra devastada.",
+    "Fique atento aos sobreviventes abandonados durante a viagem e resgate-os quando os avistar, pois fazem parte do seu trabalho na jangada.",
+    "Use cliques ou toques curtos e deliberados e observe como sua jangada responde antes de fazer movimentos maiores.",
+    "Preste atenção nos veículos à sua frente, já que você pode precisar passar espremido por eles ou empurrá-los quando necessário.",
+    "Mantenha o foco no tsunami atrás de você para reagir cedo em vez de ser pego de surpresa."
+   ],
+   "faq": [
+    [
+     "Qual é o principal objetivo em Zombie Raft?",
+     "Seu objetivo é sobreviver na jangada, escapar do tsunami zumbi e continuar avançando pela terra devastada. Resgatar sobreviventes abandonados também faz parte da sua responsabilidade."
+    ],
+    [
+     "Como eu controlo a jangada?",
+     "Você joga clicando com o mouse ou tocando na tela. Use esses comandos para avançar, passar espremido pelos veículos e empurrá-los quando necessário."
+    ]
+   ]
+  }
+ },
+ "crocodile-online-draw-and-guess": {
+  "description": "\"Crocodile Online - Draw and Guess\" é um jogo de festa online divertido em que um jogador desenha uma palavra e os outros tentam adivinhá-la o mais rápido possível. Você pode jogar com amigos em uma sala privada ou entrar direto em uma partida rápida com outros jogadores. O chat integrado ajuda você a discutir seus palpites e se divertir, e o sistema de ranking acompanha seu progresso e mostra os melhores adivinhadores. O jogo funciona diretamente no seu navegador, sem download, aceita teclado e mouse e é perfeito para sessões curtas depois da escola ou do trabalho.",
+  "instructions": "Faça login no jogo, digite seu nome e escolha entre uma partida rápida ou uma sala privada. Na partida rápida, você será colocado automaticamente em uma sala adequada. Na sala privada, crie uma sala e envie o ID dela para seus amigos. Um jogador será o artista, que verá a palavra e precisará desenhá-la na tela usando lápis, marcador e borracha. Os outros jogadores digitarão seus palpites no chat. O primeiro jogador a adivinhar a palavra ganha um ponto e ajuda a subir no ranking. As rodadas são trocadas automaticamente, e o tempo é limitado por um cronômetro.",
+  "guide": {
+   "intro": "Crocodile Online é um jogo de desenho multijogador em que um jogador desenha uma palavra e os outros competem para adivinhá-la no chat. Você pode entrar em uma partida rápida ou jogar com amigos em uma sala privada.",
+   "tips": [
+    "Como artista, desenhe primeiro a forma principal da palavra e depois adicione detalhes somente se der tempo, já que o cronômetro é limitado.",
+    "Como adivinhador, digite seus palpites rapidamente no chat, pois o primeiro jogador a adivinhar a palavra ganha o ponto.",
+    "Use a borracha para corrigir um erro em vez de refazer o desenho inteiro, o que economiza tempo durante a rodada.",
+    "Se estiver jogando com amigos, crie uma sala privada e envie o ID da sala antes de começar para que todos possam entrar juntos.",
+    "Preste atenção no desenho conforme ele se desenvolve e combine-o com os palpites dos outros jogadores no chat para descobrir a palavra mais rápido."
+   ],
+   "faq": [
+    [
+     "Como eu ganho pontos?",
+     "O primeiro jogador a adivinhar a palavra corretamente ganha um ponto, que também ajuda você a subir no ranking."
+    ],
+    [
+     "Quais ferramentas o artista tem?",
+     "O artista pode usar um lápis, um marcador e uma borracha para desenhar a palavra na tela."
+    ]
+   ]
+  }
+ },
+ "zombie-apocalypse-now-survival": {
+  "description": "Popular Zombie Survival 3D - Latest Humans Shooting Game, all of you are a terminator. Então fique alerta e atire nos zumbis neste jogo de tiro viciante com armas épicas em 3D—lute pela sobrevivência em um apocalipse zumbi com os jogos de tiro. Escolha a melhor arma para enfrentar os mortos que avançam em sua direção. Você vai precisar de estratégia e precisão para impedir o ataque neste jogo de tiro com zumbis. Mantenha o dedo no gatilho, resista e atire em cada fera selvagem! Escolha a sua favorita e melhore-a! Quanto maior o nível, menor o tempo de recarga. Enfrente um enxame de um exército de mortos em um dos jogos de sobrevivência grátis mais divertidos. Lute pelo amanhã, atire em multidões de zumbis, destrua a base deles, elimine os supervisores zumbis em missões especiais. Mantenha o dedo no gatilho da sua arma, mire e atire para garantir sua sobrevivência neste jogo de tiro com zumbis. O monstro precisa ser eliminado no combate! Caso contrário, eles vão encontrar novas presas constantemente. O zumbi é selvagem. Não é aconselhável persegui-los. Atire neles imediatamente. Usar armas letais aumentará a probabilidade de sucesso quando você arrasar a base zumbi. Mate todos os mortos, não deixe nenhum zumbi vivo. Você está pronto para toda a ação e aventura neste jogo de rastreamento de zumbis? Se você não quer morrer, empenhe-se honestamente em atirar e matar nos fantásticos jogos de tiro com zumbis! Mate todos os mortos, não deixe nenhum zumbi vivo. Você está pronto para toda a ação e aventura neste jogo de rastreamento de zumbis? Se você não quer morrer, empenhe-se honestamente em atirar e matar nos fantásticos jogos de tiro com zumbis! tags: 2 player games, two player games, multiplayer games, games to play with friends, online games to play with friends, multiplayer games online, multiplayer online games ,online games multiplaye ,online multiplayer games , multiplayer online battle arena , 2 player games unblocked , coop games , online games with friends , two player online games, free online multiplayer games, multiplayer survival games, best multiplayer games, fun multiplayer games, free online multiplayer games, multiplayer browser games, online multiplayer games with friends, multiplayer",
+  "instructions": "WASD- MOVE CHARACTER MOUSE - SHOOT AIM CHANGE GUN TAB - MENU SPACE - JUMP Q - CAMOS E - ATTACHAMENTS",
+  "guide": {
+   "intro": "Zombie Apocalypse Now Survival é um shooter em 3D em que você resiste a ondas de zumbis, melhora suas armas e enfrenta as bases zumbis e os supervisores. Mire com cuidado, porque cada zumbi que você erra continua vindo.",
+   "tips": [
+    "Atire nos zumbis assim que eles aparecerem na tela, em vez de persegui-los, já que o jogo os descreve como selvagens e agressivos.",
+    "Melhore as armas que você mais usa, porque níveis mais altos reduzem o tempo de recarga, e isso pode fazer diferença em uma multidão.",
+    "Use as teclas Q e E para testar camuflagens e acessórios, e escolha combinações que combinem com o seu estilo de luta.",
+    "Continue se movendo com WASD e pule com a barra de espaço para não ficar parado enquanto um enxame se aproxima.",
+    "Ao atacar uma base zumbi, priorize armas letais, já que a descrição diz que elas aumentam suas chances de arrasá-la."
+   ],
+   "faq": [
+    [
+     "Qual é o principal objetivo do jogo?",
+     "Você precisa sobreviver a um apocalipse zumbi atirando nos zumbis, destruindo as bases deles e eliminando os supervisores zumbis em missões especiais. A descrição diz que você deve matar todos os zumbis e não deixar nenhum vivo."
+    ],
+    [
+     "Como eu miro e atiro?",
+     "Mova o mouse para mirar e clique para atirar. Mantenha o dedo no gatilho e atire em cada zumbi conforme ele se aproxima."
+    ]
+   ]
+  }
+ },
+ "connect-puzzle-image": {
+  "description": "Você era uma dessas crianças que podiam passar horas montando quebra-cabeças, passando uma tarde chuvosa ou um dia frio de inverno juntando um quebra-cabeça de 500 peças da Torre Eiffel ou da Ponte de Londres? Pois agora você pode relembrar a infância no seu smartphone ou tablet, de qualquer lugar do mundo. Esqueça a realidade com este jogo de quebra-cabeça envolvente, que desafia suas habilidades de raciocínio a conectar peças virtuais em tempo real e criar imagens únicas de complexidade crescente. Organize vários itens para formar uma imagem bonita bem na sua tela, enquanto desenvolve suas habilidades conforme avança pelas fases. Você nunca mais vai ficar entediado!",
+  "instructions": "Toque e arraste as peças do quebra-cabeça para conectá-las ou alinhá-las corretamente. Quando as peças estiverem bem posicionadas, a imagem completa — seja um personagem excêntrico, um prato delicioso ou um objeto legal — se forma. Termine a fase e siga para a próxima ou pause e retome a qualquer momento, perfeito para jogatinas rápidas.",
+  "guide": {
+   "intro": "Connect Puzzle Image é um jogo estilo quebra-cabeça em que você arrasta peças virtuais para o lugar certo e revelar uma imagem. As fases ficam mais complexas conforme você avança.",
+   "tips": [
+    "Observe o formato geral das peças antes de começar a posicioná-las, assim você consegue identificar quais bordas e cantos se encaixam.",
+    "Trabalhe em uma área da imagem por vez, em vez de espalhar peças pela tela, o que facilita ver como elas se conectam.",
+    "Confira cada peça depois de posicioná-la. As peças só completam a imagem quando ficam na posição correta, então um pequeno desalinhamento pode atrapalhar você mais tarde.",
+    "Use a opção de pausa quando sentir que travou e volte com a mente descansada. Sessões curtas funcionam bem neste jogo.",
+    "Preste atenção nos personagens, pratos ou objetos excêntricos da imagem, já que as cores e os contornos deles podem ajudar a combinar as peças vizinhas."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Connect Puzzle Image?",
+     "O objetivo é tocar e arrastar as peças do quebra-cabeça para que se conectem ou se alinhem corretamente. Quando todas as peças estiverem bem posicionadas, a imagem completa aparece."
+    ],
+    [
+     "Como movo as peças do quebra-cabeça?",
+     "Toque em uma peça e arraste-a até a posição dela na tela. Solte quando ela estiver conectada ou alinhada às peças ao redor."
+    ]
+   ]
+  }
+ },
+ "coloring-book-color-by-number": {
+  "description": "Relaxe, concentre-se e dê vida à arte em pixels colorida, um número de cada vez. Pixel Art Book é um jogo de pintar por número muito satisfatório para quem ama criatividade e uma pausa relaxante. Escolha uma obra de arte, combine cada pixel numerado com sua cor e veja a imagem ganhar vida. PINTE NO SEU PRÓPRIO RITMO Toque ou pinte sobre os pixels correspondentes. Escolha pincéis de 1x, 3x ou 5x e pinte exatamente do jeito que você quiser. DESCUBRA OBRAS DE ARTE QUE VOCÊ VAI AMAR Explore animais coloridos, comida, transportes, ambientes, personagens e muito mais. Escolha entre desenhos rápidos e fáceis ou obras detalhadas para um desafio mais recompensador. USE POWER-UPS SATISFATÓRIOS Encontre pixels difíceis de achar e complete as imagens mais rápido com o Localizador, Balde de Tinta, Varinha Mágica, Bomba e Pincel Arco-Íris. TRANSFORME FOTOS EM ARTE EM PIXELS Importe uma foto favorita e transforme-a na sua própria criação de pintar por número. GUARDE SUAS CRIAÇÕES Seu progresso é salvo automaticamente. Encontre as imagens concluídas em Meus Trabalhos e salve sua obra finalizada em Fotos. DESBLOQUEIE MAIS COM O PREMIUM Desbloqueie todas as obras de arte e categorias, aproveite power-ups ilimitados e remova os anúncios com o Pixel Art Book Premium. Seja que você tenha alguns minutos ou queira uma fuga criativa mais longa, o Pixel Art Book torna a pintura simples, colorida e relaxante. Pinte. Relaxe. Crie.",
+  "instructions": "Use o mouse para completar cada imagem pintando os quadrados numerados. - Clique com o botão esquerdo: Escolha uma obra de arte, selecione uma cor numerada e clique nos quadrados com o número correspondente para preenchê-los. - Segure o botão esquerdo e arraste: Comece em um quadrado correspondente e arraste sobre outros quadrados iguais para pintar continuamente. - Mover a imagem: Segure o botão esquerdo do mouse em uma área vazia ou já pintada e arraste. - Rolagem para cima: Aproxime para uma visão mais de perto. - Rolagem para baixo: Afaste para ver mais da imagem. O zoom acompanha o ponteiro do mouse.",
+  "guide": {
+   "intro": "Pixel Art Book é um jogo calmo de pintar por número em que você preenche pixels numerados com cores correspondentes para revelar uma imagem. Escolha uma obra de arte e avance no seu próprio ritmo.",
+   "tips": [
+    "Aproxime com a rolagem do mouse antes de pintar áreas pequenas, para ver os números com clareza e evitar preencher o quadrado errado.",
+    "Escolha um tamanho de pincel adequado para a área: use o pincel maior para seções grandes e abertas e o menor para bordas e detalhes apertados.",
+    "Termine uma cor de cada vez em toda a imagem, em vez de alternar entre cores, o que evita que você se perca nas combinações.",
+    "Guarde o power-up Localizador para pixels difíceis de achar e use-o quando estiver procurando na mesma área há um tempo.",
+    "Comece com uma imagem rápida e fácil para aprender como funcionam os números e a pintura arrastando, depois passe para uma obra detalhada quando se sentir à vontade."
+   ],
+   "faq": [
+    [
+     "Como pinto uma seção rapidamente?",
+     "Selecione uma cor numerada, depois segure o botão esquerdo do mouse em um quadrado correspondente e arraste sobre outros quadrados com o mesmo número. Pincéis maiores cobrem mais pixels a cada traço."
+    ],
+    [
+     "O que devo fazer quando não consigo encontrar os últimos pixels de um número?",
+     "Aproxime e procure esse número na imagem, ou use o power-up Localizador, feito para ajudar a encontrar pixels difíceis de achar. Mover a imagem arrastando também pode ajudar a verificar áreas que estão fora da tela."
+    ]
+   ]
+  }
  }
 }
