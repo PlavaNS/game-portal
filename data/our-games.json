@@ -3,6 +3,7 @@
     "slug": "bubble-wrap",
     "title": "Bubble Wrap",
     "studio": "Door 404",
+    "studioUrl": "https://www.escaperoom.co.rs/en",
     "short": "Pop a whole planet made of bubble wrap. Combos, 38 weapons, Rage Mode and boss cores.",
     "description": "Bubble Wrap is the most satisfying idle clicker on the web. Spin a 3D globe covered in hexagonal bubbles and pop them one by one, or let your weapons do the work. Earn coins, unlock 38 weapons from simple pins to absurd planet-wreckers, trigger Rage Mode for a burst of chaos, and break through to the boss core of every world. Progress keeps growing even when you take a break, so every visit pays off.",
     "instructions": "Hold the left mouse button and sweep over the globe to pop bubbles; keep popping without a pause to build a combo. Drag with the right mouse button to rotate the globe. On mobile, tap or hold to pop and drag with two fingers to rotate. Buy and upgrade weapons with the coins you earn, fill the Rage ring for Rage Mode, then crack the core to reach the next world.",
@@ -30,6 +31,7 @@
     "slug": "wall-of-riddles",
     "title": "Wall of Riddles",
     "studio": "Door 404",
+    "studioUrl": "https://www.escaperoom.co.rs/en",
     "short": "A free online escape room game: nine locked chests, nine gems and one wall of clever puzzles.",
     "description": "Wall of Riddles is a free online escape room game made by Door 404, a real escape room studio from Novi Sad. In front of you is a wall with nine locked chests. Each chest hides a gem, and some of them hold items and clues you need to open the others: a desk calendar, a grey film, a scroll of symbols, a wooden disc and a brass key. Crack padlocks, read a stopped clock, line up flags, spin wooden discs and decode a compass. It is a real escape room puzzle chain you can play in your browser, alone or with friends at one screen, with a hint system for every chest when you get stuck.",
     "instructions": "Tap a chest to open its puzzle. Turn the padlock dials to enter a code. Items you find drop into the bag at the bottom: tap an item to inspect it and drag it onto a chest to use it. Every chest has up to three hints. Collect all nine gems to beat the wall.",
@@ -50,12 +52,14 @@
       "/assets/our/wall-of-riddles-1.jpg",
       "/assets/our/wall-of-riddles-2.jpg"
     ],
-    "orientation": "landscape"
+    "orientation": "landscape",
+    "promo": "Enjoyed it? Take your whole team on a bigger mission: <a href=\"https://www.escaperoom.co.rs/online-escape-room\">Better World Alliance</a>, our online escape game for 2–6 players, each on their own device (€4.99 per team)."
   },
   {
     "slug": "forever-dunk",
     "title": "Forever Dunk",
     "studio": "Door 404",
+    "studioUrl": "https://www.escaperoom.co.rs/en",
     "short": "Draw lines to guide the ball into the hoop and fall through endless zones of bumpers, portals and black holes.",
     "description": "Forever Dunk is an endless basketball game where your finger is the court. The ball drops from the top of the screen and you draw a line to bounce it, roll it and steer it into the hoop below. Every basket sends you one screen deeper, and every line fades 1.5 seconds after you draw it, so timing matters as much as aim. Swish without touching the rim for a Perfect Dunk, chain three for Rage Mode, build combos up to x4 and beat a boss round at the end of every zone. Fall through six zones full of bumpers, trampolines, spinners, conveyor belts, wind, portals, pendulums, black holes, energy gates and drones, grab power-ups like Long Line, Magnet and Shield, finish missions, play the daily challenge and spend your coins on new balls, hoops and line styles.",
     "instructions": "Hold the mouse button or touch the screen and draw a line; the ball bounces and rolls along it. Guide the ball into the hoop below. A swish without touching the rim is a Perfect Dunk worth 2 points, three in a row start Rage Mode with double points, and golden hoops are worth 5. Missing the hoop costs one of your three lives. Stars give coins, hearts give an extra life, and power-ups make your line longer, pull the ball toward the hoop or protect you from one miss.",

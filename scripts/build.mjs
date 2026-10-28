@@ -288,7 +288,7 @@ const TGUIDES = readJSON(path.join(ROOT, 'data/topic-guides.json'), {});
 const ours = readJSON(path.join(ROOT, 'data/our-games.json'), []).map(o => ({
   id: 'our-' + o.slug, own: true, slug: o.slug, title: o.title, description: o.description, instructions: o.instructions, short: o.short,
   embed: o.gmEmbedUrl || u(o.embed), thumb: u(o.thumb), cover: u(o.cover), video: o.video ? u(o.video) : null, screens: (o.screens || []).map(u),
-  w: o.orientation === 'portrait' ? 600 : 1280, h: o.orientation === 'portrait' ? 1000 : 720, rawCat: o.category, tags: o.tags, studio: o.studio,
+  w: o.orientation === 'portrait' ? 600 : 1280, h: o.orientation === 'portrait' ? 1000 : 720, rawCat: o.category, tags: o.tags, studio: o.studio, studioUrl: o.studioUrl || null, promo: o.promo || null,
   score: -1, r: { most: -1, hot: -1, best: -1, newest: -1 }, cats: { main: o.category, all: [o.category] }, mobile: true,
 }));
 
@@ -541,6 +541,7 @@ function emitContent() {
     const others = topics.filter(o => o.slug !== t.slug).slice(0, 12);
     const body = `<nav class="crumbs"><a href="${u('/')}">${esc(tr('Home'))}</a> › <span>${esc(th1)}</span></nav>
   <header class="page-h"><h1>${esc(th1)}</h1>${tintro.map(p => `<p>${esc(p)}</p>`).join('')}</header>
+  ${t.promo && LANG === 'en' ? `<section class="topic-guide topic-promo">${t.promo}</section>` : ''}
   <div class="grid">${t.list.map((g, i) => card(g, i < 8)).join('')}</div>
   ${TG ? `<section class="topic-guide">
     <h2>${esc(tr('Where to start'))}</h2>
@@ -613,14 +614,14 @@ function emitContent() {
         <dt>${esc(tr('Platform'))}</dt><dd>${esc(g.mobile ? tr('Web browser (PC, Mac, Android, iPhone, tablet)') : tr('Web browser — best on PC / Mac'))}</dd>
         <dt>${esc(tr('Price'))}</dt><dd>${esc(tr('Free'))}</dd>
         <dt>${esc(tr('Screen'))}</dt><dd>${esc(portrait ? tr('Portrait — great on phones') : tr('Landscape'))}</dd>
-        ${g.studio ? `<dt>${esc(tr('Developer'))}</dt><dd>${esc(g.studio)}</dd>` : ''}
+        ${g.studio ? `<dt>${esc(tr('Developer'))}</dt><dd>${g.studioUrl ? `<a href="${esc(g.studioUrl)}" rel="noopener" target="_blank">${esc(g.studio)}</a>` : esc(g.studio)}</dd>` : ''}
         ${g.pgSlug ? `<dt>${esc(tr('Also on'))}</dt><dd><a href="https://playgama.com/game/${encodeURIComponent(g.pgSlug)}?clid=${encodeURIComponent(cfg.playgamaClid)}" rel="sponsored noopener" target="_blank">Playgama ↗</a></dd>` : ''}
       </dl>
       <h2>${esc(tr('FAQ'))}</h2>${GD ? (GD.faq || []).map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('') : ''}
       <h3>${esc(tr('Is this game free to play?'))}</h3><p>${esc(tr('Yes. It is completely free here. The game is supported by short ads.'))}</p>
       <h3>${esc(tr('Can I play this game on my phone?'))}</h3><p>${g.mobile ? tr('Yes. It runs in the browser on Android phones, iPhones and tablets as well as on PC and Mac — tap “Play now” and the game opens full screen.') : `${esc(g.title)} is made for computers and plays best with a keyboard and mouse. For phones, check out our <a href="${u('/c/mobile/')}">mobile games</a>.`}</p>
       <h3>${esc(tr('Do I need to download or sign up?'))}</h3><p>${esc(tr('No. There is nothing to install and no account needed. The game loads instantly in your browser.'))}</p>
-      <p class="muted">${g.own ? `Made by ${esc(g.studio)} — the team behind ${esc(cfg.name)}.` : `${esc(tr('Like this game? Try more'))} <a href="${cHref(main.slug)}">${esc(((catTr(main.slug) || {}).h1 || main.h1).toLowerCase())}</a> or browse the <a href="${u('/popular/')}">most played games</a> on ${esc(cfg.name)}.`}</p>
+      <p class="muted">${g.own ? `Made by ${g.studioUrl ? `<a href="${esc(g.studioUrl)}" rel="noopener" target="_blank">${esc(g.studio)}</a>` : esc(g.studio)} — the team behind ${esc(cfg.name)}.${g.promo && LANG === 'en' ? ` ${g.promo}` : ''}` : `${esc(tr('Like this game? Try more'))} <a href="${cHref(main.slug)}">${esc(((catTr(main.slug) || {}).h1 || main.h1).toLowerCase())}</a> or browse the <a href="${u('/popular/')}">most played games</a> on ${esc(cfg.name)}.`}</p>
     </article>
     <aside class="similar"><h2>${esc(tr('Similar games'))}</h2><div class="grid small">${sim.map(s => card(s)).join('')}</div></aside>
   </div>`;

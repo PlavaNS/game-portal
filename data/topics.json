@@ -99,7 +99,8 @@
   "intro": [
    "Find clues, solve puzzles and break out in free online escape room games. Every room is a new mystery waiting to be cracked.",
    "Made by the team behind Door 404, a real escape room in Novi Sad — we love a good puzzle. Play instantly in your browser."
-  ]
+  ],
+  "promo": "<h2>Playing with friends?</h2><p>Online escape games are best as a team. <a href=\"https://www.escaperoom.co.rs/online-escape-room\">Better World Alliance</a> is our premium online escape game for 2–6 players: a hacker and an investigative reporter send your team clues by chat, and everyone plays on their own phone or computer, even from different cities. €4.99 per team, no time limit.</p><p>Want a free warm-up first? Try <a href=\"/games/wall-of-riddles/\">Wall of Riddles</a>, nine locked chests built by the team behind <a href=\"https://www.escaperoom.co.rs/en\">Door 404</a>, a real escape room in Novi Sad.</p>"
  },
  {
   "slug": "merge-games",
