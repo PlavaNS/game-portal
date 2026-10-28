@@ -1,7 +1,7 @@
-@font-face { font-family: "Lilita One"; src: url(lilita-one.woff2?v=f8c8febb) format("woff2"); font-display: swap; }
-@font-face { font-family: "Mitr"; font-weight: 400; src: url(mitr-400.woff2?v=f8c8febb) format("woff2"); font-display: swap; }
-@font-face { font-family: "Mitr"; font-weight: 500; src: url(mitr-500.woff2?v=f8c8febb) format("woff2"); font-display: swap; }
-@font-face { font-family: "Mitr"; font-weight: 600; src: url(mitr-600.woff2?v=f8c8febb) format("woff2"); font-display: swap; }
+@font-face { font-family: "Lilita One"; src: url(lilita-one.woff2?v=d170fb48) format("woff2"); font-display: swap; }
+@font-face { font-family: "Mitr"; font-weight: 400; src: url(mitr-400.woff2?v=d170fb48) format("woff2"); font-display: swap; }
+@font-face { font-family: "Mitr"; font-weight: 500; src: url(mitr-500.woff2?v=d170fb48) format("woff2"); font-display: swap; }
+@font-face { font-family: "Mitr"; font-weight: 600; src: url(mitr-600.woff2?v=d170fb48) format("woff2"); font-display: swap; }
 
 /* Layout: one 9:16 portrait stage; font-size on #stage = 1% of its height, so every size below is in "em" of that. */
 :root {
@@ -156,6 +156,7 @@ canvas.basket-icon { background: #2b2160; border-radius: 22%; }
 .opt { width: 100%; display: flex; justify-content: space-between; align-items: center; font-size: 2.6em; background: var(--cell); border-radius: .7em; padding: .5em .8em; }
 .opt b { font-family: "Lilita One", sans-serif; font-weight: 400; color: #fff; background: var(--orange); border-radius: .6em; padding: .05em .7em; }
 .opt b.off { background: rgba(255,255,255,.2); }
+.legal-link { display: block; margin-top: 1.2em; text-align: center; font-size: 2em; color: rgba(255,255,255,.55); text-decoration: underline; }
 
 /* Bravo pop-up */
 #bravo { position: absolute; left: 0; right: 0; top: 24%; display: flex; justify-content: center; pointer-events: none; }

@@ -9,7 +9,7 @@ function loadImages() {
     const i = new Image();
     i.onload = () => { img[n] = i; res(); };
     i.onerror = () => rej(new Error('Missing asset ' + n));
-    i.src = '' + n + '.png?v=f8c8febb';
+    i.src = '' + n + '.png?v=d170fb48';
   })));
 }
 
