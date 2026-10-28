@@ -133,7 +133,7 @@
             gameId: cfg.gdGameId,
             onEvent: e => {
               if (e.name === 'SDK_READY') resolve();
-              if (e.name === 'SDK_GAME_PAUSE' && pending) pending.start();
+              if (e.name === 'SDK_GAME_PAUSE' && pending) { pending.started = true; pending.start(); }
               if (e.name === 'SDK_REWARDED_WATCH_COMPLETE' && pending) pending.rewarded = true;
               if (e.name === 'SDK_GAME_START' && pending) { const p = pending; pending = null; p.end(p.kind === 'rewarded' ? !!p.rewarded : true); }
             },
@@ -143,11 +143,15 @@
         hasRewarded: () => true,
         interstitial: () => adWindow((start, end) => {
           pending = { kind: 'interstitial', start, end };
-          window.gdsdk.showAd().catch(() => { pending = null; end(false); });
+          window.gdsdk.showAd()
+            .then(() => { if (pending && !pending.started) { pending = null; end(false); } }) // resolved without showing an ad
+            .catch(() => { pending = null; end(false); });
         }),
         rewarded: () => adWindow((start, end) => {
           pending = { kind: 'rewarded', start, end };
-          window.gdsdk.showAd('rewarded').catch(() => { pending = null; end(false); });
+          window.gdsdk.showAd('rewarded')
+            .then(() => { if (pending && !pending.started) { pending = null; end(false); } }) // resolved without showing an ad
+            .catch(() => { pending = null; end(false); });
         }),
       };
     })(),
@@ -162,7 +166,8 @@
             gameId: cfg.gmGameId,
             onEvent: e => {
               if (e.name === 'SDK_READY') resolve();
-              if (e.name === 'SDK_GAME_PAUSE' && pending) pending.start();
+              if (e.name === 'SDK_ERROR') reject(new Error('GameMonetize SDK error'));
+              if (e.name === 'SDK_GAME_PAUSE' && pending) { pending.started = true; pending.start(); }
               if (e.name === 'SDK_GAME_START' && pending) { const p = pending; pending = null; p.end(true); }
             },
           };
@@ -173,7 +178,7 @@
           pending = { start, end };
           if (typeof window.sdk === 'undefined' || typeof window.sdk.showBanner !== 'function') { pending = null; end(false); return; }
           window.sdk.showBanner();
-          setTimeout(() => { if (pending) { pending = null; end(false); } }, 1500); // no ad was shown
+          setTimeout(() => { if (pending && !pending.started) { pending = null; end(false); } }, 1500); // no ad was shown
         }),
       };
     })(),
@@ -255,9 +260,11 @@
   window.Platform = {
     name: cfg.platform,
     hooks,
+    // The game starts after at most 5 s even when a portal SDK never answers (ad blockers, network);
+    // ads switch on as soon as the SDK reports ready.
     async init() {
-      try { await be.init(); ready = true; }
-      catch (e) { console.warn('Platform SDK unavailable, running without ads', e); }
+      const sdk = be.init().then(() => { ready = true; }, e => console.warn('Platform SDK unavailable, running without ads', e));
+      await Promise.race([sdk, new Promise(r => setTimeout(r, 5000))]);
     },
     get hasRewarded() { return ready && !!be.rewarded && !!(be.hasRewarded && be.hasRewarded()); },
     loadingDone: () => call(be.loadingDone),
