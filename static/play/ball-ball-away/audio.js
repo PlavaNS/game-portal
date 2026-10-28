@@ -60,15 +60,20 @@ const audio = (() => {
     whoosh: () => noise(0.25, 0.2, 400, 5000),
   };
 
-  // ---------- Music: a bright 104 bpm synth-pop loop; layers come in as the combo climbs ----------
+  // ---------- Music: four synth loops, one per world, layers come in as the combo climbs ----------
+  const SONGS = [
+    // 0 Neon pop: Dm9 – Bbmaj7 – F – C
+    { bpm: 104, chords: [[62, 65, 69, 72, 76], [58, 62, 65, 69], [53, 57, 60, 65], [60, 64, 67, 71]], roots: [38, 34, 41, 36], arp: [0, 2, 1, 3, 2, 4, 1, 3], lead: [[74, 76, 77, 81], [77, 74, 72, 69], [72, 74, 77, 72], [76, 74, 71, 67]], pad: 'sawtooth', bass: 'square', arpW: 'triangle', drums: 'pop' },
+    // 1 Sunset chill: Fmaj7 – G6 – Em7 – Am7 (slower, warm keys)
+    { bpm: 88, chords: [[53, 57, 60, 64], [55, 59, 62, 64], [52, 55, 59, 62], [57, 60, 64, 67]], roots: [41, 43, 40, 45], arp: [0, 2, 1, 3, 2, 1, 3, 2], lead: [[72, 76, 77, 79], [79, 76, 74, 71], [71, 74, 76, 79], [76, 72, 69, 67]], pad: 'triangle', bass: 'sine', arpW: 'sine', drums: 'chill' },
+    // 2 Space drive: Am – F – C – G (driving, darker)
+    { bpm: 118, chords: [[57, 60, 64, 69], [53, 57, 60, 65], [48, 52, 55, 60], [55, 59, 62, 67]], roots: [33, 29, 36, 31], arp: [0, 1, 2, 3, 0, 2, 1, 3], lead: [[69, 72, 76, 74], [72, 69, 65, 64], [67, 72, 76, 72], [71, 67, 62, 64]], pad: 'sawtooth', bass: 'sawtooth', arpW: 'square', drums: 'drive' },
+    // 3 Candy bounce: C – Am – F – G (bright, bouncy)
+    { bpm: 112, chords: [[60, 64, 67, 72], [57, 60, 64, 69], [53, 57, 60, 65], [55, 59, 62, 67]], roots: [36, 33, 29, 31], arp: [0, 3, 1, 3, 2, 3, 1, 3], lead: [[76, 79, 81, 84], [81, 79, 76, 72], [77, 81, 84, 81], [79, 76, 74, 72]], pad: 'triangle', bass: 'square', arpW: 'square', drums: 'bounce' },
+  ];
   const music = (() => {
-    const BPM = 104, SIX = 60 / BPM / 4;
-    // Dm9 – Bbmaj7 – F – C  (MIDI numbers)
-    const CHORDS = [[62, 65, 69, 72, 76], [58, 62, 65, 69], [53, 57, 60, 65], [60, 64, 67, 71]];
-    const ROOTS = [38, 34, 41, 36];
-    const ARP = [0, 2, 1, 3, 2, 4, 1, 3];
-    const LEAD = [[74, 76, 77, 81], [77, 74, 72, 69], [72, 74, 77, 72], [76, 74, 71, 67]];
     const hz = m => 440 * Math.pow(2, (m - 69) / 12);
+    let song = SONGS[0], SIX = 60 / song.bpm / 4, cur = 0;
     let out, delayIn, timer = null, next = 0, step = 0, running = false, ready = false;
     function setup() {
       const a = ctx();
@@ -100,29 +105,33 @@ const audio = (() => {
       const gn = ac.createGain(); gn.gain.setValueAtTime(vol, t); gn.gain.exponentialRampToValueAtTime(0.0008, t + dur);
       s.connect(flt).connect(gn).connect(out); s.start(t); s.stop(t + dur);
     }
-    function kick(t) {
+    function kick(t, soft) {
       const o = ac.createOscillator(), gn = ac.createGain();
-      o.frequency.setValueAtTime(130, t); o.frequency.exponentialRampToValueAtTime(44, t + 0.2);
-      gn.gain.setValueAtTime(0.34, t); gn.gain.exponentialRampToValueAtTime(0.001, t + 0.28);
+      o.frequency.setValueAtTime(soft ? 110 : 130, t); o.frequency.exponentialRampToValueAtTime(44, t + 0.2);
+      gn.gain.setValueAtTime(soft ? 0.26 : 0.34, t); gn.gain.exponentialRampToValueAtTime(0.001, t + 0.28);
       o.connect(gn).connect(out); o.start(t); o.stop(t + 0.3);
     }
     function play(s16, t) {
-      const bar = Math.floor(s16 / 16) % 4, pos = s16 % 16, chord = CHORDS[bar], hot = state.intensity;
-      if (pos === 0 || pos === 10) chord.forEach(m => note(hz(m), t, SIX * 9, 'sawtooth', 0.022, 900 + hot * 500));      // pad
-      if (pos % 4 === 0) note(hz(ROOTS[bar]), t, SIX * 3.5, 'square', 0.09, 420);                                        // bass
-      if (pos % 4 === 2) note(hz(ROOTS[bar] + 12), t, SIX * 1.6, 'square', 0.06, 420);
-      if (pos % 2 === 0) note(hz(chord[ARP[pos / 2] % chord.length] + 12), t, SIX * 2, 'triangle', 0.05, 2800, true);   // arp
-      if (hot >= 1 && pos % 4 === 1 && s16 % 64 >= 32) note(hz(LEAD[bar][(pos >> 2) % 4]), t, SIX * 3.5, 'sine', 0.07, 4000, true); // lead
-      if (pos === 0 || pos === 8 || (hot >= 2 && pos === 11)) kick(t);
-      if (pos === 4 || pos === 12) hit(t, 0.09, 'bandpass', 1800, 0.18);                                                  // snare
-      if (pos % 2 === 0 || hot >= 1) hit(t, pos % 4 === 2 ? 0.035 : 0.02, 'highpass', 7500, 0.045);                      // hats
+      const bar = Math.floor(s16 / 16) % 4, pos = s16 % 16, chord = song.chords[bar], hot = state.intensity, d = song.drums;
+      const padVol = song.pad === 'sawtooth' ? 0.022 : 0.045;
+      if (pos === 0 || pos === 10) chord.forEach(m => note(hz(m), t, SIX * 9, song.pad, padVol, 900 + hot * 500));
+      if (pos % 4 === 0) note(hz(song.roots[bar]), t, SIX * 3.5, song.bass, song.bass === 'sine' ? 0.2 : 0.09, 420);
+      if (pos % 4 === 2 && d !== 'chill') note(hz(song.roots[bar] + 12), t, SIX * 1.6, song.bass, 0.06, 420);
+      if (pos % 2 === 0 && (d !== 'chill' || pos % 4 === 2 || s16 % 32 >= 16)) note(hz(chord[song.arp[pos / 2] % chord.length] + 12), t, SIX * 2, song.arpW, song.arpW === 'square' ? 0.03 : 0.05, 2800, true);
+      if (hot >= 1 && pos % 4 === 1 && s16 % 64 >= 32) note(hz(song.lead[bar][(pos >> 2) % 4]), t, SIX * 3.5, 'sine', 0.07, 4000, true);
+      if (d === 'chill') { if (pos === 0 || pos === 9) kick(t, true); if (pos === 4 || pos === 12) hit(t, 0.07, 'bandpass', 1900, 0.16); if (pos % 4 === 2 || (hot >= 1 && pos % 2 === 1)) hit(t, 0.03, 'highpass', 7000, 0.05); }
+      else if (d === 'drive') { if (pos % 4 === 0 || (hot >= 2 && pos === 14)) kick(t); if (pos === 4 || pos === 12) hit(t, 0.1, 'bandpass', 1700, 0.2); if (pos % 2 === 0 || hot >= 1) hit(t, pos % 4 === 2 ? 0.04 : 0.022, 'highpass', 8000, 0.04); }
+      else if (d === 'bounce') { if (pos === 0 || pos === 6 || pos === 8 || (hot >= 2 && pos === 14)) kick(t); if (pos === 4 || pos === 12) hit(t, 0.09, 'bandpass', 2200, 0.15); if (pos % 2 === 1 || hot >= 1) hit(t, 0.028, 'highpass', 7500, 0.045); }
+      else { if (pos === 0 || pos === 8 || (hot >= 2 && pos === 11)) kick(t); if (pos === 4 || pos === 12) hit(t, 0.09, 'bandpass', 1800, 0.18); if (pos % 2 === 0 || hot >= 1) hit(t, pos % 4 === 2 ? 0.035 : 0.02, 'highpass', 7500, 0.045); }
     }
     function tick() { while (next < ac.currentTime + 0.3) { play(step, next); next += SIX; step = (step + 1) % 64; } }
-    return {
+    const m = {
+      tracks: SONGS.length,
       start() {
         if (!state.save.music || !state.save.sound || state.blocked || running) return;
         if (!ready) setup();
-        running = true; next = ac.currentTime + 0.1;
+        running = true; next = ac.currentTime + 0.1; step = 0;
+        delayIn.delayTime.value = SIX * 3;
         out.gain.cancelScheduledValues(ac.currentTime); out.gain.setTargetAtTime(1, ac.currentTime, 0.8);
         timer = setInterval(tick, 60);
       },
@@ -131,8 +140,16 @@ const audio = (() => {
         running = false; clearInterval(timer);
         out.gain.cancelScheduledValues(ac.currentTime); out.gain.setTargetAtTime(0, ac.currentTime, 0.15);
       },
+      // Switch to another loop (per world); fades the old one out and starts the new one on the next bar
+      track(i) {
+        if (i === cur) return;
+        cur = i; song = SONGS[i]; SIX = 60 / song.bpm / 4;
+        if (!running) return;
+        m.stop(); setTimeout(() => { if (!running) m.start(); }, 350);
+      },
       get running() { return running; },
     };
+    return m;
   })();
 
   return {

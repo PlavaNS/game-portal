@@ -6,7 +6,7 @@ const R = 14, GRAV = 600, MAX_SPEED = 820;
 const LINE_E = .9, LINE_MIN_BOUNCE = 400, LINE_LEN = 300, LINE_LEN_LONG = 480, MAX_LINES = 3, LINE_W = 8, LINE_FORWARD = 240;
 const TERRAIN_E = .55;
 const SLOWMO = .35, LAUNCH = { x: 300, y: -560 };
-const RING_RY = 62, RING_RX = 24, RIM_R = 8;
+const RING_RY = 62, RING_RX = 24, RIM_R = 8, CEIL = -150;
 const LIVES = 3, GIFT_COINS = 50, DAILY_GOAL = 8, DAILY_REWARD = 100, GOLDEN_EVERY = 5;
 const POWERUPS = {
   magnet: { label: 'MAGNET', color: '#ff5f8a', dur: 8, glyph: 'U' },
@@ -87,6 +87,12 @@ const THEMES = [
   { name: 'AURORA', top: '#06474a', bot: '#0a0f2e', glow: '#3df5a7', hillL: '#1fd18e', hillR: '#0b7a6a', hillD: '#06334a', rim: '#b2ffe0', far: ['#0b5d5c', '#073c4a'], bokeh: '#7dffd0', portal: ['#3df5a7', '#3ee6ff'], fx: 'aurora', grid: '#3df5a7' },
   { name: 'LAVA CORE', top: '#4a0a08', bot: '#140308', glow: '#ff6a1f', hillL: '#ff5a2b', hillR: '#8a1d0e', hillD: '#3a0a06', rim: '#ffb347', far: ['#6b1a0e', '#40100a'], bokeh: '#ff9a4a', portal: ['#ffd21f', '#ff3d00'], fx: 'embers', grid: '#ff7a3a' },
   { name: 'ICE PEAK', top: '#9fd8ff', bot: '#24508f', glow: '#ffffff', hillL: '#dff6ff', hillR: '#7fb8e8', hillD: '#3d6fb0', rim: '#ffffff', far: ['#6ea6d8', '#4f84bd'], bokeh: '#ffffff', portal: ['#ffffff', '#7fe7ff'], fx: 'snow', grid: '#ffffff' },
+  { name: 'CANDY LAND', top: '#ff9ad5', bot: '#5a1e6e', glow: '#ff5fb4', hillL: '#ff7ac8', hillR: '#c23d9a', hillD: '#6a1d63', rim: '#fff0fa', far: ['#d65ab0', '#9a3a8a'], bokeh: '#ffd1ec', portal: ['#ffe14a', '#ff5fb4'], fx: 'bokeh', grid: '#ff8ad0' },
+  { name: 'TOXIC LAB', top: '#0b3b2a', bot: '#040d16', glow: '#7dff5a', hillL: '#2fd36a', hillR: '#0f7a3e', hillD: '#063a22', rim: '#c8ffb0', far: ['#0d5a3a', '#083d2c'], bokeh: '#7dff5a', portal: ['#7dff5a', '#3ee6ff'], fx: 'bubbles', grid: '#7dff5a' },
+  { name: 'CYBER CITY', top: '#120a3a', bot: '#05030f', glow: '#ff2bd6', hillL: '#3b2aa8', hillR: '#1d1466', hillD: '#0c0836', rim: '#ff2bd6', far: ['#2a1a7a', '#1a1050'], bokeh: '#3ee6ff', portal: ['#ff2bd6', '#3ee6ff'], fx: 'rain', grid: '#ff2bd6' },
+  { name: 'DESERT DUSK', top: '#ffb16b', bot: '#5a2140', glow: '#ffd27a', hillL: '#ff8a5a', hillR: '#b8503a', hillD: '#5c2630', rim: '#ffe3b0', far: ['#c86a4a', '#8a4040'], bokeh: '#ffd9a0', portal: ['#ffd27a', '#ff7a4a'], fx: 'sand', grid: '#ffb070' },
+  { name: 'OCEAN DEEP', top: '#0a4f7a', bot: '#021124', glow: '#3ee6ff', hillL: '#1f8fc9', hillR: '#0f5a8a', hillD: '#072e4c', rim: '#aef0ff', far: ['#0e5f8e', '#0a4468'], bokeh: '#9fe9ff', portal: ['#3ee6ff', '#3df5a7'], fx: 'bubbles', grid: '#3ee6ff' },
+  { name: 'SAKURA', top: '#ffd6e8', bot: '#4a1f5e', glow: '#ff7ab8', hillL: '#f08ac0', hillR: '#a95494', hillD: '#5c2a66', rim: '#ffffff', far: ['#c87aa8', '#8d4f84'], bokeh: '#ffb3d6', portal: ['#ff7ab8', '#ffffff'], fx: 'petals', grid: '#ff9ad0' },
 ];
 
 // ================= world state =================
@@ -110,7 +116,7 @@ function genStage(k, start, wall) {
     mountains.push({ x0: x, px: x + (x1 - x) * rand(.38, .62), x1, py: GROUND - h });
     x += w * rand(.6, .95);
   }
-  const st = { k, start, wall, ringX, ringY, mountains, bumpers: [], bars: [], stars: [], pickups: [], passed: false,
+  const st = { k, start, wall, ringX, ringY, mountains, bumpers: [], bars: [], stars: [], pickups: [], crystals: [], ceilBars: [], passed: false,
     golden: k > 0 && (k + 1) % GOLDEN_EVERY === 0, time: Math.max(24, 36 - Math.min(k, 12)) };
   for (let i = 0; i < Math.min(k, 3); i++) {
     const bx = rand(start + 320, ringX - 200);
@@ -119,6 +125,11 @@ function genStage(k, start, wall) {
   for (let i = 0; i < Math.min(Math.max(0, k - 2), 2); i++) {
     st.bars.push({ x: rand(start + 380, ringX - 220), y: rand(170, 300), len: 120, a: rand(-.5, .5), spin: rng() < .5 ? rand(.5, 1.1) * (rng() < .5 ? -1 : 1) : 0 });
   }
+  if (k >= 2) for (let i = 0; i < Math.min(1 + Math.floor(k / 4), 3); i++) {
+    const cx = rand(start + 300, ringX - 260), w = rand(50, 90), h = rand(90, 170);
+    st.crystals.push({ x: cx, w, y0: -10, y1: -10 + h });
+  }
+  if (k >= 5 && rng() < .6) st.ceilBars.push({ x: rand(start + 420, ringX - 320), y: rand(50, 120), len: 150, amp: rand(80, 160), spd: rand(.5, 1), ph: rand(0, 6.28) });
   for (let i = 0; i < 6; i++) {
     const sx = start + 200 + (L - 320) * (i + rng() * .6) / 6;
     st.stars.push({ x: sx, y: Math.min(rand(120, 330), surfaceY(st, sx) - 60), got: false });
@@ -140,6 +151,7 @@ function surfaceY(st, x) {
   }
   return y;
 }
+function ceilSeg(b) { const x = b.x + Math.sin(time * b.spd + b.ph) * b.amp; return [x - b.len / 2, b.y, x + b.len / 2, b.y]; }
 function barSeg(b) { const a = b.a + time * b.spin, dx = Math.cos(a) * b.len / 2, dy = Math.sin(a) * b.len / 2; return [b.x - dx, b.y - dy, b.x + dx, b.y + dy]; }
 
 // ================= flow =================
@@ -147,7 +159,7 @@ function startGame(isDaily) {
   daily = !!isDaily;
   rng = daily ? mulberry(+today().replace(/-/g, '')) : mulberry((Math.random() * 1e9) | 0);
   stages = [genStage(0, 0, 0)]; stages.push(nextStage(stages[0])); cur = 0;
-  themeIdx = 0; lives = LIVES; portals = 0; starsRun = 0; coinsRun = 0; perfectsRun = 0; maxX = 0; score = 0; combo = 0; bestComboRun = 0; continued = false;
+  themeIdx = 0; audio.music.track(0); lives = LIVES; portals = 0; starsRun = 0; coinsRun = 0; perfectsRun = 0; maxX = 0; score = 0; combo = 0; bestComboRun = 0; continued = false;
   power = { magnet: 0, x2: 0, long: 0 };
   particles = []; floaters = []; fx = []; fxInit();
   S.games++; mission('games', 1); save();
@@ -243,7 +255,7 @@ function passPortal(st) {
   cur = stages.findIndex(s => !s.passed);
   lines = []; timeLeft = stages[cur].time;
   const k = stages[cur].k;
-  if (k % 3 === 0) { themeIdx = Math.floor(k / 3) % THEMES.length; fxInit(); banner(THEMES[themeIdx].name, 'WORLD ' + (Math.floor(k / 3) + 1), THEMES[themeIdx].glow); sfx.zone(); }
+  if (k % 3 === 0) { themeIdx = Math.floor(k / 3) % THEMES.length; fxInit(); audio.music.track(themeIdx % audio.music.tracks); banner(THEMES[themeIdx].name, 'WORLD ' + (Math.floor(k / 3) + 1), THEMES[themeIdx].glow); sfx.zone(); }
   else if (combo !== 3 && combo !== 6 && combo !== 10) banner(st.golden ? 'GOLDEN!' : perfect ? 'PERFECT!' : ['NICE!', 'SWISH!', 'BALL AWAY!', 'GREAT!', 'SMOOTH!'][portals % 5], '', THEMES[themeIdx].glow);
   if (stages[cur].golden) toast('<small>NEXT UP</small>A golden portal — 3× points, +20 coins');
   save();
@@ -358,7 +370,18 @@ function step(dt) {
     ball.x = st.ringX - R; ball.vx = -Math.abs(ball.vx) * .6; st.gateHit = 1; sfx.gate();
   }
   if (ball.x < st.wall + R) { ball.x = st.wall + R; ball.vx = Math.abs(ball.vx) * .7; }
-  if (ball.y < -170) { ball.y = -170; ball.vy = Math.abs(ball.vy) * .5; }
+  if (ball.y < CEIL + R) { ball.y = CEIL + R; ball.vy = Math.abs(ball.vy) * .5; }
+  for (const c of st.crystals) {
+    if (ball.x + R < c.x - c.w / 2 || ball.x - R > c.x + c.w / 2) continue;
+    for (const [ax, ay, bx, by] of [[c.x - c.w / 2, c.y0, c.x, c.y1], [c.x, c.y1, c.x + c.w / 2, c.y0]]) {
+      const [qx, qy] = closest(ball.x, ball.y, ax, ay, bx, by);
+      if (Math.hypot(ball.x - qx, ball.y - qy) < R) { const v = bounce(qx, qy, R, .7, 0); if (v > 60) { sfx.rim(); sparks(qx, qy, '#ffffff', 5); } }
+    }
+  }
+  for (const b of st.ceilBars) {
+    const [ax, ay, bx, by] = ceilSeg(b), [qx, qy] = closest(ball.x, ball.y, ax, ay, bx, by);
+    if (Math.hypot(ball.x - qx, ball.y - qy) < R + 7) { const v = bounce(qx, qy, R + 7, .8, 160); if (v > 40) sfx.rim(); }
+  }
 }
 
 // ================= effects =================
@@ -373,7 +396,7 @@ function bumpScore() { const el = $('hScore'); el.classList.remove('bump'); void
 // theme ambient particles (screen space)
 function fxInit() {
   const th = THEMES[themeIdx], n = Math.round(24 + W * H / 45000); fx = [];
-  for (let i = 0; i < n; i++) fx.push({ x: Math.random() * W, y: Math.random() * H, r: th.fx === 'bokeh' ? 4 + Math.random() * 26 : th.fx === 'stars' ? .6 + Math.random() * 1.6 : 1.5 + Math.random() * 3, a: .05 + Math.random() * .16, p: .1 + Math.random() * .5, v: 4 + Math.random() * 12, ph: Math.random() * 6.3 });
+  for (let i = 0; i < n; i++) fx.push({ x: Math.random() * W, y: Math.random() * H, r: th.fx === 'bokeh' ? 4 + Math.random() * 26 : th.fx === 'stars' ? .6 + Math.random() * 1.6 : th.fx === 'petals' ? 3 + Math.random() * 3 : 1.5 + Math.random() * 3, a: .05 + Math.random() * .16, p: .1 + Math.random() * .5, v: 4 + Math.random() * 12, ph: Math.random() * 6.3 });
 }
 
 // ================= HUD & screens =================
@@ -522,7 +545,7 @@ $('btnPlay').onclick = () => { audio.unlock(); audio.apply(); sfx.click(); start
 $('btnDaily').onclick = () => { audio.unlock(); audio.apply(); sfx.click(); startGame(true); };
 $('btnAgain').onclick = () => { sfx.click(); Platform.interstitial().then(() => startGame(daily)); };
 $('btnHome').onclick = goHome; $('btnQuit').onclick = () => { show('pause', false); paused = false; gameOver(); };
-function goHome() { sfx.click(); setMode('menu'); setupAttract(); refreshMenu(); }
+function goHome() { sfx.click(); audio.music.track(0); setMode('menu'); setupAttract(); refreshMenu(); }
 function togglePause() { if (mode !== 'play' && mode !== 'ready') return; paused = !paused; show('pause', paused); drag = null; }
 $('btnPause').onclick = togglePause; $('btnResume').onclick = togglePause;
 document.addEventListener('visibilitychange', () => { if (document.hidden && !paused && (mode === 'play' || mode === 'ready')) togglePause(); });
@@ -599,6 +622,8 @@ function render() {
   for (let x = Math.floor((camX - 40) / 60) * 60; x < camX + viewW + 60; x += 60) { ctx.beginPath(); ctx.moveTo(x, GROUND); ctx.lineTo(x + (x - camX - viewW / 2) * .5, GROUND + 120); ctx.stroke(); }
   for (let i = 0; i < 5; i++) { const y = GROUND + 6 + i * i * 6; ctx.beginPath(); ctx.moveTo(camX - 40, y); ctx.lineTo(camX + viewW + 40, y); ctx.stroke(); }
   ctx.globalAlpha = .6; ctx.strokeStyle = th.rim; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(camX - 40, GROUND); ctx.lineTo(camX + viewW + 40, GROUND); ctx.stroke(); ctx.globalAlpha = 1;
+  if (camY < CEIL + 10) { const cg = ctx.createLinearGradient(0, CEIL - 200, 0, CEIL); cg.addColorStop(0, th.bot); cg.addColorStop(1, th.hillD); ctx.fillStyle = cg; ctx.fillRect(camX - 40, CEIL - 400, viewW + 80, 400 - 20);
+    ctx.strokeStyle = th.rim; ctx.globalAlpha = .5; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(camX - 40, CEIL - 20); ctx.lineTo(camX + viewW + 40, CEIL - 20); ctx.stroke(); ctx.globalAlpha = 1; }
   for (const s of stages) drawGate(s, th);
   for (const s of stages) drawMountains(s, th);
   for (const s of stages) drawProps(s, th);
@@ -615,12 +640,19 @@ function render() {
 function drawFx(th) {
   for (const b of fx) {
     let x, y;
-    if (th.fx === 'snow') { x = ((b.x + Math.sin(time + b.ph) * 20 - camX * scale * b.p * .3) % (W + 60) + W + 60) % (W + 60) - 30; y = (b.y + time * b.v * 3) % (H + 20) - 10; }
+    if (th.fx === 'petals') { x = ((b.x + Math.sin(time * 1.5 + b.ph) * 40 - camX * scale * b.p * .3) % (W + 60) + W + 60) % (W + 60) - 30; y = (b.y + time * b.v * 2.5) % (H + 20) - 10; }
+    else if (th.fx === 'bubbles') { x = ((b.x + Math.sin(time * 2 + b.ph) * 10 - camX * scale * b.p * .3) % (W + 60) + W + 60) % (W + 60) - 30; y = (b.y - time * b.v * 3 + H * 10) % (H + 20) - 10; }
+    else if (th.fx === 'rain') { x = ((b.x - time * b.v * 1.5 - camX * scale * b.p * .3) % (W + 60) + W + 60) % (W + 60) - 30; y = (b.y + time * b.v * 12) % (H + 40) - 20; }
+    else if (th.fx === 'sand') { x = ((b.x + time * b.v * 6 - camX * scale * b.p * .3) % (W + 60) + W + 60) % (W + 60) - 30; y = b.y + Math.sin(time * 3 + b.ph) * 6; }
+    else if (th.fx === 'snow') { x = ((b.x + Math.sin(time + b.ph) * 20 - camX * scale * b.p * .3) % (W + 60) + W + 60) % (W + 60) - 30; y = (b.y + time * b.v * 3) % (H + 20) - 10; }
     else if (th.fx === 'embers') { x = ((b.x + Math.sin(time * 2 + b.ph) * 12 - camX * scale * b.p * .3) % (W + 60) + W + 60) % (W + 60) - 30; y = (b.y - time * b.v * 2 + H * 10) % (H + 20) - 10; }
     else { x = ((b.x - camX * scale * b.p * .3) % (W + 60) + W + 60) % (W + 60) - 30; y = (b.y - time * b.v + H * 10) % (H + 60) - 30; }
-    ctx.globalAlpha = th.fx === 'stars' ? .3 + .4 * Math.abs(Math.sin(time * 2 + b.ph)) : b.a;
+    ctx.globalAlpha = th.fx === 'stars' ? .3 + .4 * Math.abs(Math.sin(time * 2 + b.ph)) : th.fx === 'rain' ? b.a * 1.6 : b.a;
     ctx.fillStyle = th.fx === 'embers' ? (b.ph < 3 ? '#ffb347' : '#ff5a2b') : th.bokeh;
-    ctx.beginPath(); ctx.arc(x, y, b.r, 0, 7); ctx.fill();
+    if (th.fx === 'petals') { ctx.beginPath(); ctx.ellipse(x, y, b.r * 2.2, b.r * 1.2, b.ph + time, 0, 7); ctx.fill(); }
+    else if (th.fx === 'rain') { ctx.fillRect(x, y, 1.5, 14); }
+    else if (th.fx === 'bubbles') { ctx.strokeStyle = th.bokeh; ctx.lineWidth = 1.5; ctx.beginPath(); ctx.arc(x, y, b.r * 1.5, 0, 7); ctx.stroke(); }
+    else { ctx.beginPath(); ctx.arc(x, y, b.r, 0, 7); ctx.fill(); }
   }
   ctx.globalAlpha = 1;
   if (th.fx === 'aurora') {
@@ -668,6 +700,20 @@ function drawProps(s, th) {
     ctx.lineCap = 'round'; ctx.strokeStyle = 'rgba(62,230,255,.25)'; ctx.lineWidth = 22; ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(bx, by); ctx.stroke();
     ctx.strokeStyle = '#3ee6ff'; ctx.lineWidth = 11; ctx.stroke();
     ctx.fillStyle = '#0b0b24'; ctx.beginPath(); ctx.arc(b.x, b.y, 7, 0, 7); ctx.fill(); ctx.strokeStyle = '#3ee6ff'; ctx.lineWidth = 3; ctx.stroke();
+  }
+  for (const c of s.crystals) {
+    const g = ctx.createLinearGradient(0, c.y0, 0, c.y1); g.addColorStop(0, th.hillL); g.addColorStop(1, th.rim);
+    ctx.fillStyle = g; ctx.beginPath(); ctx.moveTo(c.x - c.w / 2, CEIL - 20); ctx.lineTo(c.x + c.w / 2, CEIL - 20); ctx.lineTo(c.x + c.w / 2, c.y0); ctx.lineTo(c.x, c.y1); ctx.lineTo(c.x - c.w / 2, c.y0); ctx.closePath(); ctx.fill();
+    ctx.fillStyle = 'rgba(255,255,255,.18)'; ctx.beginPath(); ctx.moveTo(c.x - c.w / 2, c.y0); ctx.lineTo(c.x - c.w * .1, c.y0); ctx.lineTo(c.x, c.y1); ctx.closePath(); ctx.fill();
+    ctx.strokeStyle = th.rim; ctx.lineWidth = 2.5; ctx.lineJoin = 'round'; ctx.globalAlpha = .9; ctx.beginPath(); ctx.moveTo(c.x - c.w / 2, c.y0); ctx.lineTo(c.x, c.y1); ctx.lineTo(c.x + c.w / 2, c.y0); ctx.stroke(); ctx.globalAlpha = 1;
+    drawGlow(c.x, c.y1, 26, hex(th.rim), .35);
+  }
+  for (const b of s.ceilBars) {
+    const [ax, ay, bx, by] = ceilSeg(b), mx = (ax + bx) / 2;
+    ctx.strokeStyle = 'rgba(255,255,255,.25)'; ctx.lineWidth = 2; ctx.setLineDash([6, 8]); ctx.beginPath(); ctx.moveTo(mx, CEIL - 20); ctx.lineTo(mx, ay); ctx.stroke(); ctx.setLineDash([]);
+    ctx.lineCap = 'round'; ctx.strokeStyle = th.portal[0] + '44'; ctx.lineWidth = 24; ctx.beginPath(); ctx.moveTo(ax, ay); ctx.lineTo(bx, by); ctx.stroke();
+    ctx.strokeStyle = th.portal[0]; ctx.lineWidth = 12; ctx.stroke();
+    ctx.strokeStyle = 'rgba(255,255,255,.7)'; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(ax + 8, ay - 3); ctx.lineTo(bx - 8, by - 3); ctx.stroke();
   }
   for (const t of s.stars) { if (!t.got) drawStar(t.x, t.y + Math.sin(time * 3 + t.x) * 4, 14); }
   for (const p of s.pickups) { if (!p.got) drawPickup(p); }
@@ -785,7 +831,7 @@ function drawParticles() {
 function setupAttract() {
   rng = mulberry(11); themeIdx = 0; fxInit();
   stages = [genStage(0, 0, 0)]; stages.push(nextStage(stages[0])); cur = 0;
-  stages[0].bumpers = []; lines = []; particles = []; floaters = [];
+  stages[0].bumpers = []; stages[0].crystals = []; stages[1].crystals = []; lines = []; particles = []; floaters = [];
   ball = { x: 120, y: 330, vx: 150, vy: -300, rot: 0 }; trail = []; camX = -60;
 }
 function updateAttract(dt) {
@@ -837,6 +883,7 @@ const applyAudio = () => { audio.state.blocked = adActive || platformMuted; audi
 Platform.hooks.adStart = () => { adActive = true; drag = null; applyAudio(); };
 Platform.hooks.adEnd = () => { adActive = false; lastT = performance.now(); applyAudio(); };
 Platform.hooks.audio = v => { platformMuted = !v; applyAudio(); };
+if (cfg.debug) window.__setTheme = i => { themeIdx = i; fxInit(); };
 if (cfg.debug) window.__g = () => ({ ball, st: stages[cur], portals, mode, camX, camY, scale, lives, timeLeft, score, combo, power, themeIdx, coins: S.coins });
 resize(); setupAttract(); refreshMenu();
 requestAnimationFrame(frame);
