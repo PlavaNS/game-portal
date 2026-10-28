@@ -23,7 +23,7 @@
   function adWindow(run) {
     return new Promise(resolve => {
       let started = false, done = false;
-      const start = () => { if (!started) { started = true; hooks.adStart(); } };
+      const start = () => { if (!started && !done) { started = true; hooks.adStart(); } };
       const end = result => { if (done) return; done = true; if (started) hooks.adEnd(); lastAdAt = Date.now(); resolve(result); };
       try { run(start, end); } catch (e) { console.warn('Ad error', e); end(false); }
     });
@@ -59,6 +59,8 @@
         if (!cfg.adsenseClient) { resolve(false); return; }
         rewardOffer = null;
         let answered = false;
+        // AdSense ignores ad breaks it cannot serve (site not approved, H5 ads off): no answer = no reward
+        setTimeout(() => { if (!answered) { answered = true; resolve(false); } }, 2000);
         window.adBreak({
           type: 'reward', name: 'continue',
           beforeAd: () => rewardOffer && rewardOffer.start(), afterAd: () => {},
@@ -67,9 +69,13 @@
           adBreakDone: () => { if (!answered) { answered = true; resolve(false); return; } if (rewardOffer && rewardOffer.end) rewardOffer.end(rewardOffer.granted); },
         });
       }),
-      interstitial: () => !cfg.adsenseClient ? Promise.resolve(false) : adWindow((start, end) => window.adBreak({
-        type: 'next', name: 'play-again', beforeAd: start, afterAd: () => {}, adBreakDone: () => end(true),
-      })),
+      interstitial: () => !cfg.adsenseClient ? Promise.resolve(false) : adWindow((start, end) => {
+        let started = false;
+        setTimeout(() => { if (!started) end(false); }, 2000); // AdSense never answered
+        window.adBreak({
+          type: 'next', name: 'play-again', beforeAd: () => { started = true; start(); }, afterAd: () => {}, adBreakDone: () => end(started),
+        });
+      }),
       rewarded: () => !rewardOffer ? Promise.resolve(false) : adWindow((start, end) => {
         rewardOffer.start = start; rewardOffer.end = end;
         rewardOffer.show();
