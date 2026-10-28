@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#0d0920">
+<title>Ball Ball Away</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage">
+<canvas id="c"></canvas>
+<div id="vignette"></div>
+
+<div id="hud" hidden>
+  <div class="hud-row">
+    <div class="hud-side"><div class="coin-chip"><i class="coin"></i><span id="hCoins">0</span></div><div id="combo" hidden>x2</div></div>
+    <div class="hud-mid">
+      <div id="hScore">0</div>
+      <div class="timer" aria-label="Time left"><div id="hTime"></div></div>
+      <div class="hud-sub">PORTAL <b id="hPortal">1</b> · <b id="hDist">0</b> m</div>
+    </div>
+    <div class="hud-side r">
+      <div id="hLives"><i></i><i></i><i></i></div>
+      <button class="icon-btn" id="btnPause" aria-label="Pause"><svg viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14" rx="1.5"/><rect x="14" y="5" width="4" height="14" rx="1.5"/></svg></button>
+    </div>
+  </div>
+  <div id="powers"></div>
+  <div id="hint" hidden></div>
+</div>
+<div id="banner"></div>
+<div id="toast" hidden></div>
+
+<div id="menu" class="screen">
+  <div class="menu-top">
+    <div class="coin-chip"><i class="coin"></i><span id="mCoins">0</span></div>
+    <button id="btnGift" class="gift-btn" hidden aria-label="Daily gift"><svg viewBox="0 0 24 24"><path d="M3 10h18v4H3zM5 14h14v7H5z"/><path d="M12 10c-2-4-6-5-6-2s4 2 6 2zm0 0c2-4 6-5 6-2s-4 2-6 2z"/></svg>GIFT</button>
+  </div>
+  <svg class="logo" viewBox="0 0 600 260" role="img" aria-label="Ball Ball Away">
+    <defs>
+      <linearGradient id="lg1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff27a"/><stop offset=".55" stop-color="#ffc21f"/><stop offset="1" stop-color="#ff8a1f"/></linearGradient>
+      <linearGradient id="lg2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffb3ff"/><stop offset=".5" stop-color="#e04bff"/><stop offset="1" stop-color="#8a2bff"/></linearGradient>
+      <radialGradient id="lb" cx=".35" cy=".3" r=".75"><stop offset="0" stop-color="#c9ceff"/><stop offset=".45" stop-color="#4f5bff"/><stop offset="1" stop-color="#1c2280"/></radialGradient>
+    </defs>
+    <path d="M60 238 Q300 170 548 92" fill="none" stroke="#3ee6ff" stroke-width="10" stroke-linecap="round" stroke-dasharray="4 26" opacity=".8"/>
+    <g font-family="Lilita One, Arial Rounded MT Bold, sans-serif" text-anchor="middle" stroke-linejoin="round" paint-order="stroke">
+      <text x="300" y="104" font-size="104" fill="url(#lg1)" stroke="#d2321a" stroke-width="18">BALL BALL</text>
+      <text x="290" y="210" font-size="118" fill="url(#lg2)" stroke="#3a0f7a" stroke-width="18">AWAY</text>
+    </g>
+    <circle cx="520" cy="178" r="30" fill="url(#lb)" stroke="#fff" stroke-opacity=".35" stroke-width="3"/>
+    <ellipse cx="510" cy="166" rx="10" ry="6" fill="#fff" opacity=".85" transform="rotate(-35 510 166)"/>
+  </svg>
+  <div class="menu-mid">
+    <button id="btnPlay" class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg>PLAY</button>
+    <button id="btnDaily" class="daily-btn"><span class="d-title">DAILY CHALLENGE</span><span id="dailyInfo" class="d-info"></span></button>
+    <div class="records">
+      <div class="chip"><span class="lbl">BEST</span><span id="mBest">0</span></div>
+      <div class="chip"><span class="lbl">LONGEST</span><span id="mDist">0 m</span></div>
+    </div>
+  </div>
+  <div class="dock">
+    <button class="dock-btn" id="btnShop"><span class="dock-ico hot"><canvas id="dockBall" width="96" height="96"></canvas></span><span>SHOP</span></button>
+    <button class="dock-btn" id="btnMissions"><span class="dock-ico"><svg viewBox="0 0 24 24"><path d="M9 4h6v2h3a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h3z"/><path d="M8.5 13l2.5 2.5 5-5" fill="none" stroke="#241a52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></span><span class="badge" id="mBadge" hidden>!</span><span>MISSIONS</span></button>
+    <button class="dock-btn" id="btnRanks"><span class="dock-ico"><svg viewBox="0 0 24 24"><path d="M7 3h10v2h3v3a4 4 0 0 1-4 4h-.3A5 5 0 0 1 13 14.9V17h3v3H8v-3h3v-2.1A5 5 0 0 1 8.3 12H8a4 4 0 0 1-4-4V5h3zm0 4H6v1a2 2 0 0 0 1 1.7zm10 0v2.7A2 2 0 0 0 18 8V7z"/></svg></span><span>RANKS</span></button>
+    <button class="dock-btn" id="btnStats"><span class="dock-ico"><svg viewBox="0 0 24 24"><rect x="4" y="12" width="4" height="8" rx="1"/><rect x="10" y="7" width="4" height="13" rx="1"/><rect x="16" y="3" width="4" height="17" rx="1"/></svg></span><span>STATS</span></button>
+    <button class="dock-btn" id="btnSettings"><span class="dock-ico"><svg viewBox="0 0 24 24"><path d="M12 8.5a3.5 3.5 0 1 0 0 7 3.5 3.5 0 0 0 0-7zm8.4 4.6l1.9 1.5-2 3.4-2.3-.9a7.6 7.6 0 0 1-1.7 1l-.3 2.4h-4l-.3-2.4a7.6 7.6 0 0 1-1.7-1l-2.3.9-2-3.4 1.9-1.5a7.7 7.7 0 0 1 0-2l-1.9-1.5 2-3.4 2.3.9a7.6 7.6 0 0 1 1.7-1L10 2.5h4l.3 2.4a7.6 7.6 0 0 1 1.7 1l2.3-.9 2 3.4-1.9 1.5a7.7 7.7 0 0 1 0 2z"/></svg></span><span>SETTINGS</span></button>
+  </div>
+  <div id="adMenu" class="ad-slot" hidden></div>
+</div>
+
+<div id="dialog" class="screen dim" hidden>
+  <div class="panel">
+    <div class="panel-head"><h2 id="dTitle"></h2><button class="x-btn" id="dClose" aria-label="Close">✕</button></div>
+    <div class="panel-body" id="dBody"></div>
+  </div>
+</div>
+
+<div id="pause" class="screen dim" hidden>
+  <div class="panel over-card">
+    <h2>PAUSED</h2>
+    <div class="btn-row" style="margin-top:18px"><button class="btn" id="btnResume">RESUME</button><button class="btn alt" id="btnQuit">HOME</button></div>
+  </div>
+</div>
+
+<div id="continue" class="screen dim" hidden>
+  <div class="panel over-card">
+    <h2>KEEP GOING?</h2>
+    <p class="note">Watch a short ad to get <b>+1 life</b> and keep your combo.</p>
+    <div class="btn-row"><button class="btn ad-btn" id="btnContinue"><svg viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="M10 9.2v5.6l4.8-2.8z" fill="#ff5a1f"/></svg>+1 LIFE</button><button class="btn alt" id="btnNoThanks">NO THANKS</button></div>
+    <div class="cont-timer"><i id="contBar"></i></div>
+  </div>
+</div>
+
+<div id="over" class="screen dim" hidden>
+  <div class="panel over-card">
+    <h2 id="oTitle">TIME'S UP!</h2>
+    <div id="oNew" class="newbest" hidden>NEW BEST!</div>
+    <div class="bigscore" id="oScore">0</div>
+    <div class="over-stats">
+      <div class="chip"><span class="lbl">PORTALS</span><span id="oPortals">0</span></div>
+      <div class="chip"><span class="lbl">DISTANCE</span><span id="oDist">0 m</span></div>
+      <div class="chip"><span class="lbl">COINS</span><span id="oCoins">+0</span></div>
+    </div>
+    <div id="nameEntry" class="name-row" hidden><input id="nameInput" maxlength="16" autocomplete="off" spellcheck="false" placeholder="Your name for the ranks"><button id="btnName" class="small-btn">SAVE</button></div>
+    <div id="overRank" class="rank-line" hidden></div>
+    <button id="btnDouble" class="ad-pill" hidden><svg viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="M10 9.2v5.6l4.8-2.8z" fill="#ff5a1f"/></svg>×2 COINS</button>
+    <div class="btn-row"><button class="btn" id="btnAgain">PLAY AGAIN</button><button class="btn alt" id="btnHome">HOME</button></div>
+    <div id="adOver" class="ad-slot" hidden></div>
+  </div>
+</div>
+</div>
+<script>window.BBA_CONFIG = {"platform": "ilovewebgames", "adsenseClient": "ca-pub-8306394918109064", "adsenseBannerSlot": "", "adsenseMpuSlot": "", "lbUrl": "https://pxjlcbjwdalctlyeljql.supabase.co", "lbKey": "sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k"};</script>
+<script src="platform.js"></script>
+<script src="audio.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

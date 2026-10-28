@@ -82,5 +82,33 @@
       "/assets/our/forever-dunk-space.jpg"
     ],
     "orientation": "landscape"
+  },
+  {
+    "slug": "ball-ball-away",
+    "title": "Ball Ball Away",
+    "studio": "Door 404",
+    "short": "Draw straight lines to bounce the ball over neon mountains and through glowing portals in an endless flight.",
+    "description": "Ball Ball Away is an endless physics game where your finger is the only tool. The ball launches into a neon world of mountains, bumpers and spinning bars, and you draw straight lines at any angle to bounce it forward and up into the glowing portal at the end of every stage. Nothing can destroy the ball, but the clock is ticking: reach the portal before time runs out or lose one of three lives. Chain portals for combos up to x4, hit the centre for a Perfect, and watch for the golden portal every fifth stage, worth triple points. Grab magnets that pull the ball into the portal, rockets, +10 seconds, X2 and long-line power-ups, collect stars for coins and spend them on nine ball skins and six neon line styles. Six worlds (Neon Night, Sunset Bay, Deep Space, Aurora, Lava Core, Ice Peak), daily challenge, missions, daily gift and a global leaderboard.",
+    "instructions": "Tap or click to launch the ball. Press, drag and release to draw a straight line; the ball bounces off it and always keeps flying forward. Time slows down while you draw. Up to 3 lines stay on screen, a new one replaces the oldest. Guide the ball through the portal before the timer runs out. Passing through the centre of the portal is a Perfect, golden portals are worth 3x. Stars give coins, hearts give a life back, orbs give power-ups: Magnet, Rocket, +10 s, X2 and Long Line.",
+    "category": "arcade",
+    "tags": [
+      "Draw",
+      "Physics",
+      "Ball",
+      "Endless",
+      "Casual",
+      "Arcade"
+    ],
+    "embed": "/play/ball-ball-away/",
+    "gmEmbedUrl": null,
+    "thumb": "/assets/our/ball-ball-away-thumb.jpg",
+    "cover": "/assets/our/ball-ball-away-cover.jpg",
+    "video": "/assets/our/ball-ball-away-trailer.mp4",
+    "screens": [
+      "/assets/our/ball-ball-away-sunset.jpg",
+      "/assets/our/ball-ball-away-space.jpg",
+      "/assets/our/ball-ball-away-aurora.jpg"
+    ],
+    "orientation": "landscape"
   }
 ]
