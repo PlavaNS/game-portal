@@ -24,7 +24,7 @@
     return new Promise(resolve => {
       let started = false, done = false;
       const start = () => { if (!started && !done) { started = true; hooks.adStart(); } };
-      const end = result => { if (done) return; done = true; if (started) hooks.adEnd(); lastAdAt = Date.now(); resolve(result); };
+      const end = result => { if (done) return; done = true; hooks.adEnd(); if (started) lastAdAt = Date.now(); resolve(result); }; // adEnd always: a portal may have paused the game on its own
       try { run(start, end); } catch (e) { console.warn('Ad error', e); end(false); }
     });
   }
@@ -206,21 +206,23 @@
     // Playgama Bridge
     playgama: (() => {
       let pending = null;
+      // An ad that has not opened after 6 s is not coming (no fill, blocked, stuck loading): the game moves on
+      const show = p => { pending = p; setTimeout(() => { if (pending === p && !p.opened) { pending = null; p.end(false); } }, 6000); };
       return {
         init: async () => {
-          await loadScript('https://bridge.playgama.com/v1/stable/playgama-bridge.js');
+          await loadScript('https://bridge.playgama.com/v2/stable/playgama-bridge.js');
           const b = window.bridge;
           await b.initialize();
           b.platform.on(b.EVENT_NAME.AUDIO_STATE_CHANGED, on => hooks.audio(on));
           b.platform.on(b.EVENT_NAME.PAUSE_STATE_CHANGED, paused => paused ? hooks.adStart() : hooks.adEnd());
           b.advertisement.on(b.EVENT_NAME.INTERSTITIAL_STATE_CHANGED, st => {
             if (!pending || pending.kind !== 'interstitial') return;
-            if (st === 'opened') pending.start();
+            if (st === 'opened') { pending.opened = true; pending.start(); }
             if (st === 'closed' || st === 'failed') { const p = pending; pending = null; p.end(st === 'closed'); }
           });
           b.advertisement.on(b.EVENT_NAME.REWARDED_STATE_CHANGED, st => {
             if (!pending || pending.kind !== 'rewarded') return;
-            if (st === 'opened') pending.start();
+            if (st === 'opened') { pending.opened = true; pending.start(); }
             if (st === 'rewarded') pending.granted = true;
             if (st === 'closed' || st === 'failed') { const p = pending; pending = null; p.end(!!p.granted); }
           });
@@ -230,8 +232,8 @@
         gameplayStop: () => window.bridge.platform.sendMessage('gameplay_stopped'),
         hasRewarded: () => window.bridge.advertisement.isRewardedSupported,
         interstitial: () => !window.bridge.advertisement.isInterstitialSupported ? Promise.resolve(false)
-          : adWindow((start, end) => { pending = { kind: 'interstitial', start, end }; window.bridge.advertisement.showInterstitial('play_again'); }),
-        rewarded: () => adWindow((start, end) => { pending = { kind: 'rewarded', start, end }; window.bridge.advertisement.showRewarded('continue'); }),
+          : adWindow((start, end) => { show({ kind: 'interstitial', start, end }); window.bridge.advertisement.showInterstitial('play_again'); }),
+        rewarded: () => adWindow((start, end) => { show({ kind: 'rewarded', start, end }); window.bridge.advertisement.showRewarded('continue'); }),
       };
     })(),
   };
