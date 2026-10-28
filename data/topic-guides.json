@@ -3863,5 +3863,306 @@
     "The LadyBug Jigsaw Puzzle Collection is described as fun for girls who like cartoons, and the puzzles are a gentle choice. The other descriptions do not list an age group, so check each game before letting younger players start."
    ]
   ]
+ },
+ "hidden-object-games": {
+  "picks": [
+   {
+    "slug": "hidden-object-clues-and-mysteries",
+    "title": "Hidden Object: Clues and Mysteries",
+    "line": "A story-driven detective game with riddles and a calm guide, good for players who like mysteries and slow, thoughtful searching."
+   },
+   {
+    "slug": "find-the-frog-hidden-objects",
+    "title": "Find the Frog - Hidden Objects",
+    "line": "A cozy collecting game across many themed worlds, suited to players who enjoy gathering everything in an album."
+   },
+   {
+    "slug": "frame-agent-hidden-object-puzzle",
+    "title": "Frame Agent: Hidden Object Puzzle",
+    "line": "Search famous paintings for a hidden detective agent, a good fit for art lovers who enjoy looking closely at details."
+   },
+   {
+    "slug": "robot-bar-find-the-differences",
+    "title": "Robot Bar - Find the differences",
+    "line": "A quick spot-the-difference challenge with robots in a sci-fi bar, for players who like sharp observation under light time pressure."
+   },
+   {
+    "slug": "find-the-needle",
+    "title": "Find the Needle",
+    "line": "Dig through a haystack layer by layer and unlock better tools and upgrades, suited to players who enjoy steady progress."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a hidden object game and a spot the difference game?",
+    "In hidden object games you search a busy scene for listed items. In spot the difference games you compare two almost identical pictures and find the changes, and some of these add a time limit or a set number of chances."
+   ],
+   [
+    "Are these games suitable for children?",
+    "Some are gentle and relaxed, such as Find the Frog and Hidden Objects: Home Sweet Home, while others, such as The Kitchen and Robot Bar, are timed or have limited attempts. Pick the calmer ones for younger players."
+   ],
+   [
+    "How long does a session take?",
+    "The descriptions do not list session lengths. Relaxed scene-searching games can be played at your own pace, while timed spot the difference rounds are shorter and more intense."
+   ]
+  ]
+ },
+ "tower-defense-games": {
+  "picks": [
+   {
+    "slug": "milord-we-have-a-zombie-problem",
+    "title": "Milord, We Have a Zombie Problem",
+    "line": "A deep medieval classic where you place crossbows and trebuchets by the road and aim them yourself against huge undead hordes."
+   },
+   {
+    "slug": "last-archer",
+    "title": "Last Archer",
+    "line": "A colorful, quick archery defense game that suits anyone who wants a light, fast-paced session."
+   },
+   {
+    "slug": "goblin-defense-merge",
+    "title": "Goblin Defense Merge",
+    "line": "Merge matching goblins to evolve them and defend your village, a good pick if you enjoy building up a growing army."
+   },
+   {
+    "slug": "clearfell-forest-outpost",
+    "title": "Clearfell: Forest Outpost",
+    "line": "A slower base-building survival game in an endless forest, for players who like gathering resources and planning a settlement."
+   },
+   {
+    "slug": "naval-base",
+    "title": "Naval Base",
+    "line": "Tactical naval battles where you build a balanced fleet and face a different boss in every operation, for strategy fans."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between merge games and classic tower defense?",
+    "Merge games such as Goblin Defense Merge and Merge Elementals Castle Defense upgrade your fighters by combining two identical ones. Classic tower defense games such as Milord, We Have a Zombie Problem have you place and upgrade towers along the enemy route."
+   ],
+   [
+    "Which tower defense game should a newcomer start with?",
+    "Last Archer is a bright, simple game with fast rounds that is easy to pick up. Once you like the genre, Milord, We Have a Zombie Problem offers a much deeper challenge."
+   ],
+   [
+    "Is Clearfell: Forest Outpost still a tower defense game?",
+    "Not quite. Clearfell is a base-building survival game where you chop wood, gather stone and iron, and build sawmills, mines and turrets. It has defenses, but the focus is on growing your outpost in the forest."
+   ]
+  ]
+ },
+ "golf-and-pool-games": {
+  "picks": [
+   {
+    "slug": "mini-golf-3d",
+    "title": "Mini Golf 3D",
+    "line": "A smooth arcade mini golf game with 40+ levels that get harder, good for players who like steady progression."
+   },
+   {
+    "slug": "golf-king-3d",
+    "title": "Golf king 3D",
+    "line": "Real-time 1v1 golf matches on detailed courses, suited to players who want to compete against others."
+   },
+   {
+    "slug": "mini-pool-3d",
+    "title": "Mini Pool 3D",
+    "line": "A colorful 3D pool game with free play, arcade levels and a timed mode, easy to start and hard to master."
+   },
+   {
+    "slug": "just-golf",
+    "title": "Just Golf",
+    "line": "210 minimalist golf puzzles with aim assist, suited to players who enjoy careful planning and collecting stars."
+   },
+   {
+    "slug": "disc-golf-3d-frisbee-for-masters",
+    "title": "Disc Golf 3D - Frisbee for Masters",
+    "line": "Cartoon 3D disc golf with a quick release mini-game, a good pick for anyone who wants a different kind of throwing sport."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between solo golf games and multiplayer ones?",
+    "Solo games such as Just Golf and Mini Golf 3D are played through levels at your own pace. Multiplayer games such as Golf King 3D and Golf Battle have real-time matches against other players."
+   ],
+   [
+    "Which game should a beginner start with?",
+    "Mini Golf 3D is a good start, since its 40+ levels grow gradually harder. Mini Pool 3D is also easy to begin with, because its Classic free play mode lets you learn before trying the arcade levels."
+   ],
+   [
+    "Are these games easy to pick up?",
+    "Most are built to be simple to start. Mini Pool 3D describes itself as easy to play but hard to master, and Just Golf includes an aim assist to help with shots."
+   ]
+  ]
+ },
+ "monster-truck-games": {
+  "picks": [
+   {
+    "slug": "hilltop-hustle",
+    "title": "Hilltop Hustle",
+    "line": "A bouncy physics game about flying over endless hills, grabbing fuel and collecting coins for upgrades. Good for relaxed players who enjoy trying stunts."
+   },
+   {
+    "slug": "monster-truck-offroad-2",
+    "title": "Monster Truck Offroad 2",
+    "line": "Steer monster trucks up steep slopes and rocky paths against the clock. A good fit for players who like checkpoint challenges with a clean-finish goal."
+   },
+   {
+    "slug": "monster-truck-simulator-game",
+    "title": "Monster Truck Simulator Game",
+    "line": "Split between smashing obstacles in Demolish Mode and performing jumps in Stunt Mode. Suits players who want two different styles of monster truck play."
+   },
+   {
+    "slug": "city-bus-simulator-driving-games",
+    "title": "City Bus Simulator Driving Games",
+    "line": "Drive a city bus, pick up passengers, park carefully and drop them off. A calm change of pace for players who like driving without monsters."
+   },
+   {
+    "slug": "monster-truck-dirt-rally",
+    "title": "Monster Truck Dirt Rally",
+    "line": "Racing events on rugged dirt tracks with stunts and obstacles to crush. Suits players who want competitive rally-style monster truck action."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between monster truck games and offroad jeep games on this page?",
+    "Monster truck games here lean toward stunts, jumps, smashing obstacles and rally racing. Offroad jeep and SUV games focus more on climbing hills, managing your speed and reaching checkpoints or destinations across rough terrain."
+   ],
+   [
+    "What makes a good offroad driving game?",
+    "The games on this page stand out when they offer varied terrain like mud, rocks and steep hills, and when they reward careful speed control. Realistic physics is a plus for players who want the driving to feel grounded."
+   ],
+   [
+    "Which game should I start with if I am new to this kind of game?",
+    "Hilltop Hustle is a light, easy-to-pick-up option with bouncy physics and upgrades. Monster Truck Offroad 2 is a good next step if you want clear checkpoint goals and a time limit."
+   ]
+  ]
+ },
+ "snake-games": {
+  "picks": [
+   {
+    "slug": "wiggle-escape-snake-puzzle",
+    "title": "Wiggle Escape: Snake Puzzle",
+    "line": "A calm, thinking-first puzzle where you untangle snakes by tapping them in order. Good for players who like logic and no pressure."
+   },
+   {
+    "slug": "worms-zone",
+    "title": "Worms Zone",
+    "line": "A classic snake game with colorful zones, power-ups and worm customization. Suits players who want to grow big while watching rivals."
+   },
+   {
+    "slug": "six-fold",
+    "title": "SIX FOLD",
+    "line": "A strange, original 3D take where one ink line rolls around a paper cube. Best for players who enjoy a fresh twist on snake."
+   },
+   {
+    "slug": "snake-of-bullets-collect-and-shoot",
+    "title": "Snake of Bullets: Collect and Shoot!",
+    "line": "A simple, relaxing mix of snake, shooter and runner with smooth controls. A light pick for players who want something easy to start."
+   },
+   {
+    "slug": "color-snake-run",
+    "title": "Color Snake Run",
+    "line": "A fast arcade run where you match your snake's color to changing tracks. Suits players who like quick reflexes and sharp focus."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the battle snake games and the puzzle snake games?",
+    "Battle games like Worm Hunt or Snake Arena have you grow by eating food and outmaneuvering other snakes in real time. Puzzle games like Wiggle Escape ask you to untangle snakes and solve levels with careful thought."
+   ],
+   [
+    "Which snake games are good for children?",
+    "Snake of Bullets is described as one of the best games for children, with simple, smooth controls. Wiggle Escape is a relaxing logic game that many players may find easy to enjoy."
+   ],
+   [
+    "What should a newcomer try first?",
+    "Start with a classic like Worms Zone or a puzzle like Wiggle Escape if you want something calm. If you like fast action, try a color-matching run like Color Snake Run 3D."
+   ]
+  ]
+ },
+ "black-hole-games": {
+  "picks": [
+   {
+    "slug": "black-hole-fill-3d",
+    "title": "Black Hole Fill 3D",
+    "line": "A simple timed game where you grow a black hole by collecting everything in a level, good for quick, relaxed sessions."
+   },
+   {
+    "slug": "sink-hole",
+    "title": "Sink Hole",
+    "line": "A chaotic battle game with four modes where you swallow a city and rivals, suited to players who like competitive play."
+   },
+   {
+    "slug": "black-hole-eat-the-universe",
+    "title": "Black Hole: Eat the Universe",
+    "line": "A slow-build idle game where you feed a black hole from atoms up to galaxies, best for players who enjoy upgrades and progression."
+   },
+   {
+    "slug": "loot-hole",
+    "title": "Loot Hole",
+    "line": "A cartoony digging game where you dig through layers for treasure and buy better tools, suited to players who like steady upgrades."
+   },
+   {
+    "slug": "color-hole",
+    "title": "Color Hole",
+    "line": "A reflex game where you pull in white objects while dodging colored ones, good for players who like a growing challenge."
+   }
+  ],
+  "faq": [
+   [
+    "What should I try first on this page?",
+    "Black Hole Fill 3D is a straightforward place to start, with levels you complete before time runs out. If you want something more competitive, try Sink Hole."
+   ],
+   [
+    "What is the difference between the battle games and the level games?",
+    "Battle games like Hole Feast and Sink Hole pit your hole against rivals and reward growing by swallowing smaller ones. Level games like Black Hole Fill 3D ask you to collect objects and fill a target area before the timer ends."
+   ],
+   [
+    "How long does a game session take?",
+    "It depends on the game. Hole Feast battles last 90 seconds, while levels in games like Black Hole Fill 3D end when time runs out."
+   ]
+  ]
+ },
+ "thanksgiving-games": {
+  "picks": [
+   {
+    "slug": "leaf-blower-autumn-yard",
+    "title": "Leaf Blower: Autumn Yard",
+    "line": "A relaxing cleanup game where you drag a leaf blower around autumn yards, then spend your coins on upgrades and helpers."
+   },
+   {
+    "slug": "pumpkin-ninja",
+    "title": "Pumpkin Ninja",
+    "line": "A fast Halloween arcade game where quick swipes slice flying pumpkins and build combos while you dodge bombs."
+   },
+   {
+    "slug": "tile-harvest-3d",
+    "title": "Tile Harvest 3D",
+    "line": "A 3D tile-matching puzzle with merges and boosters, suited to players who enjoy planning a few moves ahead."
+   },
+   {
+    "slug": "little-pumpkin-online-game",
+    "title": "Little Pumpkin Online Game",
+    "line": "A candy-collecting adventure with simple controls that suits younger players and anyone who likes a gentle, educational challenge."
+   },
+   {
+    "slug": "halloweem-pumpkin-adventure",
+    "title": "Halloweem Pumpkin Adventure",
+    "line": "A one-tap pumpkin game where you lift the pumpkin to reach the finish line, ideal for a quick, easy round."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the idle games and the arcade games on this page?",
+    "Idle games like Harvest Haulers and Veggie Harvest are about tapping or dragging to grow earnings and buy upgrades, so they suit a slower pace. Arcade games like Pumpkin Ninja and Boss Level - Pumpkin Madness test your reflexes with fast action."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Some are, especially Little Pumpkin Online Game, which is described as both fun and educational, and the one-tap Halloween Pumpkin Adventure. Games with bombs, monsters or foes, such as Pumpkin Ninja and Boss Level, are better suited to older players."
+   ],
+   [
+    "How long does a game session take?",
+    "The game descriptions do not list session lengths, so the best way to find out is to start one. Quick games like Halloween Pumpkin Adventure are built for short rounds, while upgrade-based games like Leaf Blower Tycoon grow over a longer play."
+   ]
+  ]
  }
 }
