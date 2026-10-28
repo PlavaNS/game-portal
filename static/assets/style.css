@@ -173,3 +173,27 @@ body.noscroll{overflow:hidden}
 .topic-guide h3{margin:14px 0 4px;font-size:1rem}
 .topic-guide .picks{margin:0;padding-left:1.1rem}
 .topic-guide .picks li{margin:.35rem 0;line-height:1.5}
+
+/* submit-your-game form */
+.sg-form{margin:14px 0 6px;max-width:680px}
+.sg-row{margin:0 0 14px}
+.sg-row label,.sg-check span{display:block;font-weight:700;margin:0 0 5px;font-size:.95rem}
+.sg-row label b,.sg-check b{color:var(--accent);font-weight:700}
+.sg-form input[type=text],.sg-form input[type=url],.sg-form input[type=email],.sg-form input:not([type]),.sg-form select,.sg-form textarea{
+  width:100%;background:var(--bg2);color:var(--text);border:1px solid var(--line);border-radius:10px;
+  padding:10px 12px;font:inherit;line-height:1.45}
+.sg-form textarea{resize:vertical;min-height:80px}
+.sg-form input:focus,.sg-form select:focus,.sg-form textarea:focus{outline:2px solid var(--accent);outline-offset:1px;border-color:transparent}
+.sg-row small{display:block;margin:5px 0 0;color:var(--muted);font-size:.85rem}
+.sg-two{display:grid;grid-template-columns:1fr 1fr;gap:0 16px}
+@media (max-width:560px){.sg-two{grid-template-columns:1fr}}
+.sg-check{display:flex;gap:10px;align-items:flex-start;margin:4px 0 16px;cursor:pointer}
+.sg-check input{width:18px;height:18px;margin:1px 0 0;flex:0 0 auto;accent-color:var(--accent)}
+.sg-check span{font-weight:400;margin:0;line-height:1.45}
+.sg-hp{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+.sg-msg{margin:10px 0 0;font-weight:700;min-height:1.2em}
+.sg-msg.ok{color:var(--good)}
+.sg-msg.bad{color:var(--accent2)}
+.sg-done{margin:14px 0;padding:16px 18px;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--good);border-radius:var(--radius)}
+.sg-done h2{margin:0 0 6px}
+.sg-done p{margin:0}
