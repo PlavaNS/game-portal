@@ -8159,5 +8159,9 @@
     ]
    ]
   }
+ },
+ "balls-of-glory": {
+  "description": "Balls of Glory es un runner 3D infinito con los héroes más tontos de la web: dos bolas blanditas atadas entre sí que vuelan por un pasillo lleno de muros. Cada muro tiene agujeros y tienes que estirar las bolas, juntarlas y guiar cada una a su agujero antes de que llegue el muro. Si fallas, hay repetición a cámara lenta, una tirita y un comentarista en directo muy sincero. Cada mundo tiene diez muros: el quinto es un minijuego y el décimo es un muro jefe. Dieciséis minijuegos mantienen la locura, desde soplar las velas de cumpleaños y elegir la caja correcta hasta piedra, papel o tijera contra el campeón del mundo, un penalti contra tu ex y un médico que te pide que tosas. Vuela por mundos como un baño público, el banco, el dentista, una cueva, el Ártico, el fondo del mar y la noche de Halloween, consigue power-ups como pistolas, una bazuca, una capa con ojos láser y golpes que rompen muros, súbete a un taxi OVNI, contesta las llamadas de mamá o del jefe, completa misiones, juega el reto diario, desafía a un amigo en el mismo pasillo y sube en la clasificación mundial. Humor pícaro para adolescentes y adultos.",
+  "instructions": "En el móvil, arrastra un dedo en cada mitad de la pantalla para mover la bola izquierda y la derecha, o arrastra las dos con un dedo. En el ordenador, mueve la bola izquierda con W A S D y la derecha con las flechas, o arrástralas con el ratón. Mete cada bola por su agujero antes de que llegue el muro. Con tres golpes se acaba la partida, pero puedes revivir una vez. En el 5.º muro de cada mundo toca para jugar al minijuego; las bolas también pueden tocar. Los power-ups que rompen muros también rompen los muros de minijuego y de jefe."
  }
 }
