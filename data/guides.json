@@ -98720,5 +98720,85 @@
         "Drag to move and collect items. The game runs in the browser on PC, Mac, phones and tablets."
       ]
     ]
+  },
+  "forever-dunk": {
+    "intro": "Forever Dunk looks like a simple drop-and-draw game, but every line fades after a second and a half, so the real skill is deciding where the ball should be rather than where it is.",
+    "tips": [
+      "Draw short lines close to the ball instead of long ones across the screen. A short line gives a cleaner bounce and you still have time to draw the next one.",
+      "Aim for a swish. A Perfect Dunk that misses the rim is worth two points, and three in a row start Rage Mode, which doubles everything that follows.",
+      "Treat bumpers and trampolines as free speed. Let them do the work and save your line for the last steer into the hoop.",
+      "Keep an eye on the hoop before you draw. The ball follows your line, so plan the angle that drops it straight down rather than across.",
+      "Spend coins on power-ups you will actually use. Magnet rescues bad angles, Shield saves a life on a boss round, and Long Line helps in the wide zones."
+    ],
+    "faq": [
+      [
+        "How long does a drawn line last in Forever Dunk?",
+        "About a second and a half. It fades on its own, so draw it just before the ball reaches it rather than far in advance."
+      ],
+      [
+        "What starts Rage Mode?",
+        "Three Perfect Dunks in a row — baskets where the ball goes through without touching the rim. Rage Mode doubles your points while it lasts."
+      ]
+    ]
+  },
+  "ball-ball-away": {
+    "intro": "Ball Ball Away cannot kill your ball, only the clock can. Once you stop worrying about crashing, the game becomes about drawing the fewest, best lines to reach the portal in time.",
+    "tips": [
+      "Time slows down while you are drawing, so take the extra half second to pick a good angle instead of panicking a line into place.",
+      "Only three lines stay on screen and a new one replaces the oldest. Draw where the ball is about to be, not where it already passed.",
+      "Aim through the centre of the portal. A Perfect keeps your combo climbing, and a combo is worth more than any single lucky bounce.",
+      "Watch for the golden portal on every fifth stage — it pays triple, so it is worth spending a +10 seconds pick-up to be sure you reach it.",
+      "Let bumpers and spinning bars carry the ball forward. Fighting them with a line usually costs more time than it saves."
+    ],
+    "faq": [
+      [
+        "Can the ball be destroyed in Ball Ball Away?",
+        "No. Nothing in the game kills the ball — you only lose a life if the timer runs out before you reach the portal."
+      ],
+      [
+        "How do I get a higher combo?",
+        "Pass through portals without losing a life and go through the centre for a Perfect. The combo climbs to x4 and multiplies every point you score."
+      ]
+    ]
+  },
+  "bubble-wrap": {
+    "intro": "Bubble Wrap rewards two things that pull in opposite directions: popping fast without a pause to build a combo, and saving your coins for the weapon that actually suits the world you are on.",
+    "tips": [
+      "Sweep across the globe with the button held down instead of tapping one bubble at a time. An unbroken sweep is what keeps the combo alive.",
+      "Rotate the globe before you run out of bubbles on the side you are facing. A pause to look around breaks the combo you just built.",
+      "Buy one weapon and upgrade it rather than owning several weak ones. Upgrades compound, a second weapon does not.",
+      "Fill the Rage ring before you start on a fresh side of the globe, so the burst lands where there is the most to pop.",
+      "Leave the game for a while on purpose. Progress keeps growing while you are away, so you come back with coins to spend."
+    ],
+    "faq": [
+      [
+        "What is the core at the end of a world?",
+        "Once the globe is cleared you reach a boss core. Breaking it opens the next world, with new bubbles and a higher payout."
+      ],
+      [
+        "Does Bubble Wrap keep going when I close it?",
+        "Yes. It is an idle game, so your weapons keep earning while you are away and you return to collected coins."
+      ]
+    ]
+  },
+  "wall-of-riddles": {
+    "intro": "Wall of Riddles is a real escape room built by people who run one. The nine chests are not independent: several of them hide the item or the clue that opens another, so the order you work in matters.",
+    "tips": [
+      "Open every chest you can reach first and read what is inside before touching a padlock. Some chests hand you the key to others.",
+      "Check the bag at the bottom after every find. Tapping an item shows a closer look, and the detail you need is often on the back.",
+      "Write the codes down. Several puzzles use the same symbols in a different order, and it is easy to lose a digit you already solved.",
+      "Look at the room, not only the chests. A stopped clock, a row of flags and a compass are all part of the puzzle.",
+      "Use the hints. Each chest has up to three, and spending one is better than brute-forcing a padlock."
+    ],
+    "faq": [
+      [
+        "How many puzzles does Wall of Riddles have?",
+        "Nine locked chests, each with its own puzzle and a gem inside. Collect all nine gems to beat the wall."
+      ],
+      [
+        "Can I play Wall of Riddles with friends?",
+        "Yes. It works well with several people around one screen, which is how a real escape room is usually played."
+      ]
+    ]
   }
 }

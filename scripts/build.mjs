@@ -313,7 +313,7 @@ const all = [...ours, ...games];
 // game index for scripts/write-guides.mjs (not deployed; .cache/ is gitignored)
 try {
   fs.mkdirSync(path.join(ROOT, '.cache'), { recursive: true });
-  fs.writeFileSync(path.join(ROOT, '.cache/games.json'), JSON.stringify(games.map(g => ({
+  fs.writeFileSync(path.join(ROOT, '.cache/games.json'), JSON.stringify([...ours, ...games].map(g => ({
     slug: g.slug, title: g.title, source: g.source, cat: g.rawCat, tags: g.tags, score: g.score,
     description: g.description, instructions: g.instructions,
   }))));
