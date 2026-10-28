@@ -4164,5 +4164,134 @@
     "The game descriptions do not list session lengths, so the best way to find out is to start one. Quick games like Halloween Pumpkin Adventure are built for short rounds, while upgrade-based games like Leaf Blower Tycoon grow over a longer play."
    ]
   ]
+ },
+ "ninja-and-fighting-games": {
+  "picks": [
+   {
+    "slug": "stickman-kombat-2d",
+    "title": "stickman kombat 2d",
+    "line": "A quick 1v1 stickman arena fighter with punch, kick and special combos, good for learning the basics fast."
+   },
+   {
+    "slug": "halloween-fighters",
+    "title": "Halloween Fighters",
+    "line": "A colourful Halloween arcade brawler with 11 monsters and giant bosses, suited to players who like big, bouncy combat."
+   },
+   {
+    "slug": "streets-of-rage-neon-district",
+    "title": "Streets of Rage: Neon District",
+    "line": "A story-driven 2D street brawler with eight chapters, weapons and boss fights, for players who want a longer campaign."
+   },
+   {
+    "slug": "bonecrypt",
+    "title": "Bonecrypt",
+    "line": "A hand-drawn dungeon roguelite where parrying and dodging matter, suited to players who enjoy learning patterns and trying again."
+   },
+   {
+    "slug": "epic-sword-battle-fight-in-the-ragdoll-arena",
+    "title": "Epic Sword Battle! Fight in the Ragdoll Arena!",
+    "line": "A 3D sword duel game with ragdoll physics, good for players who want funny, unpredictable fights against knights and gladiators."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a 1v1 fighter and a beat em up?",
+    "A 1v1 fighter like Stickman Kombat 2D pits you against one opponent in an arena. A beat em up like Streets of Rage: Neon District has you fight through waves of enemies across several levels, with checkpoints to save progress."
+   ],
+   [
+    "Which game should I try first if I am new to this genre?",
+    "Stickman Kombat 2D is a simple place to start for one-on-one combat, and Halloween Fighters offers a colourful arcade showdown with plenty of characters to try."
+   ],
+   [
+    "Can I play these games with a friend?",
+    "Yes, some are built for it. Apex Combat supports team up cooperative play with friends, and Rabbit Punch Rabbit lets you battle a friend on the same device."
+   ]
+  ]
+ },
+ "restaurant-and-cafe-games": {
+  "picks": [
+   {
+    "slug": "rope-chef",
+    "title": "Rope Chef",
+    "line": "A cute physics puzzle where you cut ropes at the right moment to drop ingredients into the pot in recipe order. Good for puzzle fans."
+   },
+   {
+    "slug": "diner-in-the-storm",
+    "title": "Diner in the Storm",
+    "line": "A tense escape game set in a diner during a storm, where you must persuade others to leave with you. Suits players who like suspense."
+   },
+   {
+    "slug": "busy-bites-tycoon",
+    "title": "Busy Bites Tycoon",
+    "line": "A cozy restaurant tycoon that grows from one counter into a fully automated restaurant. Good for players who enjoy building and planning."
+   },
+   {
+    "slug": "capy-cafe",
+    "title": "Capy Cafe",
+    "line": "A relaxed idle café game where you brew teas and smoothies as a capybara barista. Suits anyone who wants a calm, low-pressure game."
+   },
+   {
+    "slug": "mahjong-street-cafe",
+    "title": "Mahjong Street Cafe",
+    "line": "A tile-matching puzzle set in a street cafe, where you clear the board with chain reactions. Suits fans of match and strategy puzzles."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between an idle game and a tycoon game?",
+    "Tycoon games like Busy Bites Tycoon have you cook, serve and spend your cash on machines and staff as you build a restaurant. Idle games like Burger Bay and Monster Café keep earning while you are away, so you return to collect coins."
+   ],
+   [
+    "What should I try first if I am new to restaurant games?",
+    "Try Capy Cafe for a calm start, or Rope Chef if you enjoy puzzles. If you want to run a business, Busy Bites Tycoon shows the core loop of serving customers and growing your restaurant."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Many of these games are light and cozy, such as Capy Cafe and Cake Maker, but the descriptions do not list age ratings. Diner in the Storm is a suspenseful escape game, so it may suit older players better."
+   ]
+  ]
+ },
+ "shooting-games": {
+  "picks": [
+   {
+    "slug": "fragbyte",
+    "title": "FRAGBYTE",
+    "line": "A fast 3D wave survival shooter in an ink-drawn arena, with no final level, for players who like testing how long they can last."
+   },
+   {
+    "slug": "splash-rivals",
+    "title": "Splash Rivals",
+    "line": "A team paint battle where two squads of four cover the arena in their colour, good for players who enjoy online play with friends."
+   },
+   {
+    "slug": "steel-directive-city-zero",
+    "title": "Steel Directive: City Zero",
+    "line": "A 2D action shooter with 20 missions, cover, grenades and robot bosses, suited to players who like structured campaigns."
+   },
+   {
+    "slug": "sorter-ragdoll-playground-shooter",
+    "title": "Sorter: Ragdoll Playground Shooter",
+    "line": "A light, anti-stress ragdoll shooter with simple gameplay and lots of weapons, a good pick for relaxed, unserious sessions."
+   },
+   {
+    "slug": "bubble-shooter-tap-and-pop",
+    "title": "Bubble Shooter: Tap & Pop",
+    "line": "A bubble-popping puzzle with levels, upgrades and bonuses, ideal if you want a calmer, less violent break from shooting."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good shooting game to start with?",
+    "Start with a game whose style matches what you enjoy: a team battle, a solo wave survival, or a story of missions. Simple controls and clear goals make the first session easier."
+   ],
+   [
+    "What is the difference between 2D and 3D shooters here?",
+    "2D games like Steel Directive and Hellforge are side-scrolling, so you move through a flat world. 3D games like FRAGBYTE and RIVALS FPS put you in a first-person view with more space to move around."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "It depends on the game. Funny Shooter 2 has a silly, cartoon tone, but many others involve zombies, demons or combat, so read each game's description before letting a child play."
+   ]
+  ]
  }
 }
