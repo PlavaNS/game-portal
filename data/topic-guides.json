@@ -1,0 +1,3867 @@
+{
+ "word-games": {
+  "picks": [
+   {
+    "slug": "word-cross",
+    "title": "Word Cross",
+    "line": "A crossword-style hidden word game with thousands of levels, good for players who like classic word puzzles with a fresh twist."
+   },
+   {
+    "slug": "rowly-word-association",
+    "title": "Rowly: Word Association",
+    "line": "A calm picture-and-word sorting puzzle with no timer, suited to anyone who wants a gentle, unhurried brain workout."
+   },
+   {
+    "slug": "word-string",
+    "title": "Word String",
+    "line": "A word chain game where each answer links to the next through compound words or famous phrases, ideal for lovers of wordplay."
+   },
+   {
+    "slug": "kitten-s-way-home-word-associations",
+    "title": "Kitten's Way Home: Word Associations",
+    "line": "A quick two-player word duel that can also be played against the computer, good for sharing a game with a friend."
+   },
+   {
+    "slug": "pics-2-word",
+    "title": "Pics 2 Word",
+    "line": "A picture guessing game where four images hint at one word, a light and fun pick for quick, puzzle-style thinking."
+   }
+  ],
+  "faq": [
+   [
+    "What kinds of word games are on this page?",
+    "The page mixes several types: word search grids, crossword-style puzzles, word association and sorting card games, word chains, and picture-based guessing. Each type asks for a different kind of thinking."
+   ],
+   [
+    "What is the difference between a word search and a word association game?",
+    "A word search asks you to find hidden words in a grid of letters. A word association game asks you to group words by theme, such as fruits, tools, or pets, and sort them into the right place."
+   ],
+   [
+    "Are these games suitable for children?",
+    "Some games on this page are described as suitable for players of all ages, such as Word Cross and Word Puzzle Connect Words and Letters. Check each game's description to see what it is designed for."
+   ]
+  ]
+ },
+ "solitaire": {
+  "picks": [
+   {
+    "slug": "ola-solitaire",
+    "title": "Ola! Solitaire",
+    "line": "A classic Klondike with large cards and simple controls, made for seniors or anyone who wants an easy, familiar start."
+   },
+   {
+    "slug": "wordaire-word-solitaire",
+    "title": "Wordaire: Word Solitaire",
+    "line": "A relaxed word-sorting game with no timer, where you group words like Fruit and Pets into categories."
+   },
+   {
+    "slug": "solitaire-tile-match",
+    "title": "Solitaire Tile Match",
+    "line": "A cozy tile-matching puzzle where clearing three identical tiles is easy, but tight dock space keeps you thinking."
+   },
+   {
+    "slug": "solitaire-tripeaks",
+    "title": "Solitaire Tripeaks",
+    "line": "A TriPeaks solitaire with an undersea theme, good for training your brain with a different card layout."
+   },
+   {
+    "slug": "solitaire-picture-puzzles",
+    "title": "Solitaire Picture Puzzles",
+    "line": "A gentle picture-matching take on solitaire that begins with simple 3x3 puzzles and grows harder as you improve."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between classic card solitaire and word solitaire?",
+    "Classic card games like Ola! Solitaire move cards into order on the table. Word solitaire games such as Wordaire deal word cards and ask you to sort them by meaning or association."
+   ],
+   [
+    "Which game should a beginner start with?",
+    "Ola! Solitaire has clear rules, large cards and comfortable controls, so it suits new players well. Solitaire Picture Puzzles is another good start, since it begins with simple 3x3 puzzles."
+   ],
+   [
+    "Are there games here I can play without a time limit?",
+    "Yes. Wordaire has no timer and a gentle difficulty curve, and Word Associations Solitaire lets you play at your own pace."
+   ]
+  ]
+ },
+ "chess-and-board-games": {
+  "picks": [
+   {
+    "slug": "chess-online",
+    "title": "Chess Online",
+    "line": "A full chess experience with AI levels, worldwide opponents, and several time controls, good for players who want to sharpen their tactics."
+   },
+   {
+    "slug": "reversi-classic",
+    "title": "Reversi Classic",
+    "line": "Reversi in 3D, where one move can flip many discs, suits anyone who enjoys quick-to-learn strategy with a satisfying comeback twist."
+   },
+   {
+    "slug": "knockback",
+    "title": "Knockback",
+    "line": "A fast party board game where you race pegs home through arenas and knock rivals back, best for groups who want chaotic, lively matches."
+   },
+   {
+    "slug": "mini-dice-chess",
+    "title": "Mini Dice Chess",
+    "line": "A chess variant where dice rolls decide which pieces you can move, ideal for players who like strategy mixed with a bit of luck."
+   },
+   {
+    "slug": "ludo-classic",
+    "title": "Ludo Classic",
+    "line": "A classic Ludo game for family and friends, with simple rules that make it easy to pick up and share with others."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the strategy games and the dice games here?",
+    "Chess, checkers, and Reversi rely on planning each move, with no dice involved. Mini Dice Chess and Ludo World add dice rolls, so luck plays a part alongside strategy."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Ludo Classic is described as a game for family and friends, and Knockback as a party game, so both suit group play. Chess and checkers reward careful planning, so they may appeal more to players who enjoy thinking ahead."
+   ],
+   [
+    "Can I play against the computer or against other people?",
+    "Many games offer both. Chess Online lets you face AI levels or opponents worldwide, and Tic Tac Toe Mania lets you challenge a friend or the AI."
+   ]
+  ]
+ },
+ "sudoku-and-number-puzzles": {
+  "picks": [
+   {
+    "slug": "sudoku-online",
+    "title": "Sudoku Online",
+    "line": "A free, no-signup Sudoku with four difficulty levels, so beginners can start on Easy and work up to Expert."
+   },
+   {
+    "slug": "2048",
+    "title": "2048",
+    "line": "A calm sliding-tile puzzle where you merge matching numbers on a small grid to reach 2048; good for planning ahead."
+   },
+   {
+    "slug": "nonogram",
+    "title": "Nonogram",
+    "line": "A logic puzzle where number clues reveal a pixel picture, suiting people who like Sudoku-style reasoning with a visual reward."
+   },
+   {
+    "slug": "correct-math",
+    "title": "Correct Math",
+    "line": "A quick addition and subtraction quiz with three answers per question, for players who want fast, simple number practice."
+   },
+   {
+    "slug": "hexa-village-sort-and-match",
+    "title": "Hexa Village: Sort & Match",
+    "line": "A relaxing mix of sorting and number matching that suits players who prefer a slower, story-driven puzzle."
+   }
+  ],
+  "faq": [
+   [
+    "Which number puzzle should I start with if I'm new to them?",
+    "Sudoku Online is a good first stop, since its Easy level is built for beginners and you can move up as you get comfortable. If you prefer a visual goal, Nonogram works well too."
+   ],
+   [
+    "What is the difference between the 2048 games?",
+    "2048 is a single puzzle where you slide and merge tiles on a compact grid. 2048 Rush is a nine-player race where every merge drops blocker tiles on your rivals and the lowest scorer is knocked out every 60 seconds."
+   ],
+   [
+    "Are there games here for practicing basic number skills?",
+    "Yes. Correct Math asks you to pick the right result for addition and subtraction questions quickly, and Kobadoo Arithmetic has you memorize sequences and calculate sums at rising levels."
+   ]
+  ]
+ },
+ "games-to-play-when-bored": {
+  "picks": [
+   {
+    "slug": "kart-chaos",
+    "title": "Kart Chaos",
+    "line": "A fast 3D kart racer with drifting and ramp tricks, good for anyone who wants quick races against CPUs or friends."
+   },
+   {
+    "slug": "mahjong-lines",
+    "title": "Mahjong Lines",
+    "line": "A calm, simple mahjong connect puzzle where you clear the board by matching pairs. Suits players who like slow, thoughtful play."
+   },
+   {
+    "slug": "garden-master",
+    "title": "Garden Master",
+    "line": "A cozy gardening adventure where you tend plants, fend off gophers and collect seeds for upgrades. Good for relaxed, steady play."
+   },
+   {
+    "slug": "halloween-fighters",
+    "title": "Halloween Fighters",
+    "line": "A Halloween arcade fighter with 11 monsters, 12 arenas and combos. Suits players who enjoy button-mashing action and boss battles."
+   },
+   {
+    "slug": "knockback",
+    "title": "Knockback",
+    "line": "A free party board game where you race your pegs home, knock rivals back and dodge black holes. Best for quick matches with others."
+   }
+  ],
+  "faq": [
+   [
+    "Which game should I try first if I just want something quick to pass the time?",
+    "Mahjong Lines and Kobadoo Emojis both have simple rules and easy controls, so they are easy to pick up. Knockback is also a good choice for a quick match against other players."
+   ],
+   [
+    "Which games can I play with friends?",
+    "Kart Chaos lets you open an online room and race friends, and Apex Combat offers cooperative combat with friends. Knockback lets you join matches with players worldwide."
+   ],
+   [
+    "Are these games suitable for children?",
+    "The descriptions do not list age ratings, so it is best to check each game before letting a child play. Simple titles such as Vegan Quest and Kobadoo Emojis have straightforward controls."
+   ]
+  ]
+ },
+ "mahjong": {
+  "picks": [
+   {
+    "slug": "mahjong-classic",
+    "title": "Mahjong Classic",
+    "line": "A classic mahjong solitaire where every random layout has a solution, so you can replay favorite shapes like Turtle and Fort without running out of boards."
+   },
+   {
+    "slug": "mahjong-lines",
+    "title": "Mahjong Lines",
+    "line": "A simple connect puzzle with the whole board on one level, good for players who want clear rules and a calm, straightforward mahjong feel."
+   },
+   {
+    "slug": "tile-pair-jam-mahjong-master",
+    "title": "Tile Pair Jam: Mahjong Master",
+    "line": "A sliding puzzle where you shift rows and columns to line up pairs, suiting players who enjoy planning several moves ahead."
+   },
+   {
+    "slug": "happy-zoo-mahjong-triple-match",
+    "title": "Happy Zoo: Mahjong Triple Match",
+    "line": "A cozy triple-match game with animals and zoo themes, suited to relaxed players who like collecting and light daily goals."
+   },
+   {
+    "slug": "mahjong-tide",
+    "title": "Mahjong Tide",
+    "line": "Classic mahjong solitaire with paintings to unlock and a 55-stop journey along Japan's Tokaido road, good for players who like a sense of progress."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good mahjong solitaire game?",
+    "Look for clear tile matching, layouts that always have a solution, and a difficulty curve that suits you. Several games here, such as Mahjong Classic and Mahjong Tide, offer varied layouts so each board feels fresh."
+   ],
+   [
+    "What is the difference between classic mahjong and the match-3 style games?",
+    "Classic mahjong asks you to pair identical free tiles, while match-3 style games ask you to gather three identical tiles at once. Mahjong 3 and Happy Zoo mix the two, so they add boosters or merges to the usual tile clearing."
+   ],
+   [
+    "How long does a session take?",
+    "It depends on the game and how you play. Some, like Master of 3 Tiles, are described as suited to both short and long sessions, and others, like Mahjong Unlimited, have endlessly generated levels so you can keep playing as long as you like."
+   ]
+  ]
+ },
+ "bubble-shooter": {
+  "picks": [
+   {
+    "slug": "bubble-boom",
+    "title": "Bubble Boom",
+    "line": "A classic bubble shooter with colorful levels and relaxing gameplay, a good first game if you want the basics."
+   },
+   {
+    "slug": "bubble-mania",
+    "title": "Bubble Mania",
+    "line": "Shoot and match colored balls with power-ups like Bomb, Colorful Ball and Freeze, for players who like a bit more variety."
+   },
+   {
+    "slug": "bubble-war",
+    "title": "Bubble War",
+    "line": "A bubble shooter with both solo play and real-time battles against other players, for those who enjoy competing."
+   },
+   {
+    "slug": "bubbla-boing",
+    "title": "Bubbla Boing",
+    "line": "A breakout-style twist where you bounce the ball off a paddle to clear bubbles, for players who want something different."
+   },
+   {
+    "slug": "pop-it-infinity",
+    "title": "Pop it Infinity",
+    "line": "A calm, pop-it style game of clicking shapes to clear the board, suited to anyone who wants to unwind."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a bubble shooter and a breakout game?",
+    "In a bubble shooter you aim and fire colored bubbles to match groups of three or more. In a breakout game like Bubbla Boing, you bounce a ball off a paddle to destroy the bubbles."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Some are described as suitable for all ages, such as Pop it Infinity and Super Pop It. Check each game's description to see what fits your family."
+   ],
+   [
+    "Can I play against other people?",
+    "Yes. Bubble War offers real-time battles against players worldwide, and Pop It! Duel is a 1v1 mode where you play a best-of-3 match against an opponent."
+   ]
+  ]
+ },
+ "merge-games": {
+  "picks": [
+   {
+    "slug": "watermelon-merge-fruit-drop",
+    "title": "Watermelon Merge: Fruit Drop",
+    "line": "A physics drop puzzle where matching fruits combine into bigger ones, suited to anyone who likes watching a crowded jar and planning each drop."
+   },
+   {
+    "slug": "2048-rush-multiplayer",
+    "title": "2048 Rush - Multiplayer",
+    "line": "A nine-player race to 2048 where your merges also drop blockers on rivals, good for players who enjoy a competitive challenge."
+   },
+   {
+    "slug": "my-castle-merge-and-story",
+    "title": "My Castle. Merge & Story",
+    "line": "A relaxing offline merge adventure about restoring a medieval castle and following a princess, ideal for a calm, story-driven session."
+   },
+   {
+    "slug": "merge-mine-idle-clicker",
+    "title": "Merge Mine - Idle Clicker",
+    "line": "An idle clicker where you upgrade and merge mining tools that keep earning diamonds while you're away, suited to players who like steady progress."
+   },
+   {
+    "slug": "merge-royal",
+    "title": "Merge Royal",
+    "line": "A card puzzle that blends solitaire with 2048-style merging, a good pick for players who like logic puzzles with a quick pace."
+   }
+  ],
+  "faq": [
+   [
+    "How do merge games work?",
+    "You combine two identical items to create the next level up, such as two matching fruits becoming a bigger one. Most games build from there, adding goals, decorating, or racing for a higher score."
+   ],
+   [
+    "What is the difference between a story merge game and an idle merge game?",
+    "Story merge games, like My Castle or Pier & Lighthouse, follow a plot as you restore places and decorate. Idle games, like Merge Mine, keep producing rewards even when you are not playing."
+   ],
+   [
+    "Which merge game should I try first?",
+    "Watermelon Merge is a simple physics puzzle that is easy to pick up. If you prefer a slower pace with a story, try My Castle: Merge & Story next."
+   ]
+  ]
+ },
+ "match-3-games": {
+  "picks": [
+   {
+    "slug": "vega-mix-2-adventure",
+    "title": "Vega Mix 2: Adventure",
+    "line": "A three-in-a-row match game with a story, where you swap colorful pieces to clear the board. Good for fans of classic match-3 puzzles."
+   },
+   {
+    "slug": "mahjong-3",
+    "title": "Mahjong 3",
+    "line": "A mix of match-3 and mahjong on a tile board, with boosters and a fairytale setting. Suits players who like clearing boards."
+   },
+   {
+    "slug": "my-castle-merge-and-story",
+    "title": "My Castle. Merge & Story",
+    "line": "A calm merge puzzle where you restore and decorate a castle and follow a princess's story. Suits players who want a cozy pace."
+   },
+   {
+    "slug": "jewel-box-block-puzzle",
+    "title": "Jewel Box: Block Puzzle",
+    "line": "A gentle block puzzle with 300 adventure levels and a Classic mode for high scores. Suits players who like fitting shapes together."
+   },
+   {
+    "slug": "trick-or-treat-candy-carnival",
+    "title": "Trick Or Treat Candy Carnival",
+    "line": "A Halloween carnival of seven small games, including matching pairs and jigsaws, with a gentle mode. Suits younger players and families."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between match-3 games and sorting games?",
+    "Match-3 games like Vega Mix 2 and Candy Match Saga 2 have you swap pieces to line up three in a row. Sorting games like Good Sort Master and Jewel Coloring ask you to arrange items by color or place them in the right spots."
+   ],
+   [
+    "Which games are the most relaxing?",
+    "Pencil Jam says it has no timers or stress, and Hexa Village and My Castle are both described as relaxing. Gem Clicker is also a calm choice if you enjoy slow, rewarding progress."
+   ],
+   [
+    "Are any of these games suitable for kids?",
+    "Trick Or Treat Candy Carnival offers gentle play with pop ghosts, jigsaws, matching pairs, and a talking alphabet, and it has a challenge option too. Pencil Jam, with its bright art and simple tapping, is another easy one to try."
+   ]
+  ]
+ },
+ "truck-and-driving-games": {
+  "picks": [
+   {
+    "slug": "monsters-wheels-2",
+    "title": "Monsters Wheels 2",
+    "line": "A monster truck game with varied events, from racing a packed grid to backflips, suited to anyone who likes trying different challenges."
+   },
+   {
+    "slug": "farming-tractor-game",
+    "title": "Farming Tractor Game",
+    "line": "A relaxed farming simulator where you drive tractors, work fields and haul goods, good for players who enjoy slow, steady tasks."
+   },
+   {
+    "slug": "bus-driver-simulator-3d",
+    "title": "Bus Driver Simulator 3D",
+    "line": "A bus driving game across iconic cities with a choice of racing or a relaxed free mode, suited to players who want to drive without pressure."
+   },
+   {
+    "slug": "taxi-rush",
+    "title": "Taxi Rush",
+    "line": "A taxi driving game where you deliver passengers through busy streets, upgrade your car and plan routes, suited to players who like goals and progress."
+   },
+   {
+    "slug": "roadster-dash-halloween-night",
+    "title": "Roadster Dash: Halloween Night",
+    "line": "A fast 3D arcade racer with a flying car, stunt combos and spooky zones, suited to players who want quick, flashy driving with a high score to chase."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good truck or driving game?",
+    "Look for games that match the kind of driving you enjoy. Some focus on realistic tasks like farming or bus routes, while others focus on fast races, stunts or crashes."
+   ],
+   [
+    "What is the difference between a simulator and an arcade driving game?",
+    "Simulators, such as Bus Driver Simulator 3D or Farming Tractor Game, centre on everyday driving jobs and daily activities. Arcade games, such as Roadster Dash: Halloween Night, focus on speed, jumps and stunt combos."
+   ],
+   [
+    "Can I play these driving games with friends?",
+    "Kart Chaos lets you open an online room and race your friends. The other games on this page are described as single-player experiences."
+   ]
+  ]
+ },
+ "idle-and-tycoon-games": {
+  "picks": [
+   {
+    "slug": "snail-clicker",
+    "title": "Snail Clicker",
+    "line": "A simple tap-to-play clicker where you multiply snail coins and unlock upgrades and skins. Good for a relaxed first game."
+   },
+   {
+    "slug": "car-wash-idle",
+    "title": "Car Wash Idle",
+    "line": "A 3D idle arcade game about running a car wash, with cash to collect, machines to unlock and upgrades to buy. Suits fans of steady growth."
+   },
+   {
+    "slug": "dungeon-shop-rush",
+    "title": "Dungeon Shop Rush",
+    "line": "An active shop game where you match heroes to the right items before their patience runs out. Suits players who like quick decisions."
+   },
+   {
+    "slug": "colonora-colony-survival",
+    "title": "Colonora: Colony Survival",
+    "line": "A colony survival sim where you build shelter, grow food and manage colonists with their own skills and moods. Suits players who like deeper planning."
+   },
+   {
+    "slug": "punch-through",
+    "title": "Punch Through!",
+    "line": "A first-person escape where you smash walls block by block and upgrade your tools as you go. Suits players who like digging and hands-on action."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between an idle game and a clicker?",
+    "Clickers such as Snail Clicker and Cat Clicker grow mainly through your taps. Idle games such as Merge Mine and Car Wash Idle keep earning or progressing even while you are away."
+   ],
+   [
+    "Which game should I start with?",
+    "Snail Clicker is the simplest place to begin, with just clicks, upgrades and skins. If you want a little more to manage, try Car Wash Idle."
+   ],
+   [
+    "What makes a good idle game?",
+    "Good ones give you steady upgrades, new areas or machines to unlock, and progress you can see building over time. Games like My Sugar Factory and Bun Boss mix this with management choices."
+   ]
+  ]
+ },
+ "escape-room-games": {
+  "picks": [
+   {
+    "slug": "arrows-escape-tap-puzzle",
+    "title": "Arrows: Escape - Tap Puzzle",
+    "line": "A relaxing tap puzzle where you clear colorful arrow pictures in the right order. Good for players who like calm, careful planning."
+   },
+   {
+    "slug": "paint-and-escape",
+    "title": "Paint & Escape",
+    "line": "A neon stealth game where you sneak past guards and cameras, paint a spot, and escape. Suits players who enjoy tense sneaking."
+   },
+   {
+    "slug": "escape-school-duel",
+    "title": "Escape School Duel",
+    "line": "A fast, funny school escape with solo time trials or a 2-player race down the hallways. Best for players who want a quick challenge."
+   },
+   {
+    "slug": "escape-the-giant-cat",
+    "title": "Escape the Giant Cat",
+    "line": "A colorful 3D running obby on a giant keyboard, where every step makes you faster. Suits players who like jumping and speed."
+   },
+   {
+    "slug": "prison-escape-push-the-guards",
+    "title": "Prison Escape: Push the Guards",
+    "line": "A 3D action game where you push guards off platforms while avoiding the edge yourself. Suits players who want bold, physical action."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the puzzle games and the parkour games here?",
+    "Puzzle games such as Arrows: Escape and Block Drop Escape Puzzle ask you to plan moves in the right order. Parkour games such as Escape the Giant Cat ask you to run and jump, and many of them make you faster as you go."
+   ],
+   [
+    "Which game should a newcomer start with?",
+    "Arrows: Escape is a good first pick if you want a calm puzzle. If you prefer action, Paint & Escape is a neon stealth game with a clear goal."
+   ],
+   [
+    "Can I play these games with friends?",
+    "Yes. Escape School Duel has a 2-player mode for racing down the hallways, and Your Obby Escape is a multiplayer adventure you can play with friends worldwide."
+   ]
+  ]
+ },
+ "drift-games": {
+  "picks": [
+   {
+    "slug": "kart-chaos",
+    "title": "Kart Chaos",
+    "line": "A 3D kart racer with CPU races, Time Trial, a Daily Challenge and online rooms for racing friends, suiting anyone who likes competitive multiplayer."
+   },
+   {
+    "slug": "rally-race-pro-3-0-car-racing",
+    "title": "Rally Race Pro 3.0 Car Racing",
+    "line": "A realistic rally simulator where you tune suspension and improve lap times, suited to players who want careful, precise driving over arcade thrills."
+   },
+   {
+    "slug": "nitro-racing-gear",
+    "title": "Nitro Racing Gear",
+    "line": "A fast arcade racer across 40 stages and eight worlds, with drift challenges and drag duels, suiting players who want variety and car upgrades."
+   },
+   {
+    "slug": "tiny-track-rally",
+    "title": "Tiny Track Rally",
+    "line": "A colourful 3D racer with tiny toy cars, rain and fog, and rival drivers, suiting players who want a light, cheerful race with a harder second cup."
+   },
+   {
+    "slug": "russian-car-drift-3d",
+    "title": "Russian Car Drift 3D",
+    "line": "A casual isometric drift game with simple tap controls and unlockable cars, suiting beginners who want to learn drifting without complicated steering."
+   }
+  ],
+  "faq": [
+   [
+    "What kind of drift game should I start with?",
+    "If you want something quick and easy to pick up, try a tap-controlled drift game like Russian Car Drift 3D. If you want more depth, a realistic rally sim or an arcade racer with car upgrades will give you more to work with."
+   ],
+   [
+    "What is the difference between a realistic simulator and an arcade racer?",
+    "Realistic simulators like Rally Race Pro 3.0 focus on suspension tuning, braking and precise driving. Arcade racers like Nitro Racing Gear are faster and looser, with nitro boosts, power-ups and a wider range of race types."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Tiny Track Rally has a bright, colourful look with toy cars, which may appeal to younger players. The descriptions do not list age ratings, so check each game's content before letting children play."
+   ]
+  ]
+ },
+ "car-parking-games": {
+  "picks": [
+   {
+    "slug": "park-the-cars",
+    "title": "Park the Cars",
+    "line": "A good first stop: simple controls and steadily harder levels make it easy to learn precision parking at your own pace."
+   },
+   {
+    "slug": "vehicle-masters",
+    "title": "Vehicle Masters",
+    "line": "A minimalist arcade challenge with over 40 levels, suited to players who like tight spaces, moving barriers and sharp corners."
+   },
+   {
+    "slug": "bus-parking-out",
+    "title": "Bus Parking Out",
+    "line": "A logic puzzle with colourful 3D buses where you plan each move carefully, ideal for fans of strategy over speed."
+   },
+   {
+    "slug": "midnight-valet",
+    "title": "Midnight Valet",
+    "line": "A 3D valet simulator with a night-shift routine of taking keys, parking cars and returning them, suited to players who enjoy busy, structured tasks."
+   },
+   {
+    "slug": "euro-truck-parking",
+    "title": "Euro Truck Parking",
+    "line": "A truck-driving simulator for players who want heavy vehicles and realistic parking areas, with more room to practise steering."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a parking puzzle and a parking driving game?",
+    "Puzzle games such as Bus Parking Out and Parking Solution ask you to plan moves so the lot or path clears. Driving games such as Car Parking Simulator and Euro Truck Parking focus more on steering and positioning vehicles carefully."
+   ],
+   [
+    "Which car parking game should a newcomer start with?",
+    "Park the Cars is a good starting point because it uses simple controls and increases difficulty gradually. Vehicle Masters is another option if you want a quick arcade challenge with many levels."
+   ],
+   [
+    "How long does a play session take?",
+    "The descriptions do not give exact session lengths. Most of these games are built around separate levels, so you can play one level at a time and stop whenever you like."
+   ]
+  ]
+ },
+ "soccer-games": {
+  "picks": [
+   {
+    "slug": "pro-football-eleven-2027",
+    "title": "Pro Football Eleven 2027",
+    "line": "A full eleven-a-side match with offside, fouls and set pieces, good for players who want a proper football simulation."
+   },
+   {
+    "slug": "soccer-legends-2026",
+    "title": "Soccer Legends 2026",
+    "line": "A fast arcade game for solo play or 1v1 and 2v2 with friends, with special player abilities like superkicks."
+   },
+   {
+    "slug": "rolling-football",
+    "title": "Rolling Football",
+    "line": "A physics puzzle where you build ramps and paths to guide the ball into the net, suited to players who like thinking ahead."
+   },
+   {
+    "slug": "pinball-football-kids",
+    "title": "Pinball Football Kids",
+    "line": "A simple pinball-style football game made for kids, with easier play and limited chances to score."
+   },
+   {
+    "slug": "football-free-kick",
+    "title": "Football Free Kick",
+    "line": "A 3D arcade free-kick game that suits quick, skill-based fun, with curling shots over walls and a diving keeper."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the full match games and the penalty or puzzle games?",
+    "Full match games like Pro Football Eleven 2027 play a whole game with fouls, cards and set pieces. Penalty games are a single shot-and-save duel, and puzzle games like Rolling Football ask you to build a path for the ball."
+   ],
+   [
+    "Which game should a beginner start with?",
+    "Try a penalty or free-kick game first, such as Football Free Kick, since the rules are quick to learn. Pro Football Eleven 2027 is a good next step if you want a full match with assisted controls."
+   ],
+   [
+    "Are these games suitable for children?",
+    "Yes, some are. Pinball Football Kids is designed specifically for kids, with easier play. Rolling Football also uses simple controls, though its puzzles can take some thought."
+   ]
+  ]
+ },
+ "motorcycle-and-bike-games": {
+  "picks": [
+   {
+    "slug": "super-motocross",
+    "title": "Super Motocross",
+    "line": "A simple dirt bike game with ramps and jumps, fast-paced and easy to pick up, aimed at players of all ages."
+   },
+   {
+    "slug": "magline-moto",
+    "title": "Magline Moto",
+    "line": "A futuristic stunt racer with 30 levels across three worlds, suited to players who enjoy flips, gadgets and nitro boosts."
+   },
+   {
+    "slug": "wheelie-bike-for-2-players",
+    "title": "Wheelie Bike For 2 Players",
+    "line": "A quick local game for two players on one device, where you race to hold a wheelie the longest in 60 seconds."
+   },
+   {
+    "slug": "superbike-hero",
+    "title": "Superbike Hero",
+    "line": "A Superbike Series racer across Europe and the Middle East, good for players who like boosting past rivals and upgrading their bike."
+   },
+   {
+    "slug": "bike-race-rush",
+    "title": "Bike Race Rush",
+    "line": "A colourful stunt racer with many bikes and characters to unlock, suited to players who like collecting coins and completing quests."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a racing game and a stunt game here?",
+    "Racing games such as Superbike Hero focus on beating rivals to the finish and upgrading your bike between races. Stunt games such as Magline Moto focus more on flips, tricks and keeping your balance on tricky tracks."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Super Motocross is described as a fun game for all ages, and Bike Race Rush is open to both boys and girls. Some games here have a spooky or ghoulish theme, so check the description before choosing one for younger players."
+   ],
+   [
+    "How long does a round last?",
+    "Wheelie Bike For 2 Players has a 60-second time limit per round. The descriptions for most other games do not give a set length."
+   ]
+  ]
+ },
+ "basketball-games": {
+  "picks": [
+   {
+    "slug": "basketball-stars",
+    "title": "Basketball Stars",
+    "line": "Fast, comical one-on-one or two-on-two matches with NBA-style players, best for anyone who wants to play head-to-head with a friend on one keyboard."
+   },
+   {
+    "slug": "basketball-rush",
+    "title": "Basketball Rush",
+    "line": "A two-minute timed challenge where you drag to set each shot's arc, suited to players who like precise aiming and chasing a high score."
+   },
+   {
+    "slug": "tiny-sports-empire-idle",
+    "title": "Tiny Sports Empire Idle",
+    "line": "A relaxed idle management game where you build a multi-sport franchise, suited to fans who enjoy upgrades and team building more than live play."
+   },
+   {
+    "slug": "retro-basketball",
+    "title": "Retro Basketball",
+    "line": "A pixel-art shooting game with simple click-and-drag aiming, suited to players who enjoy nostalgic retro styling and climbing a leaderboard."
+   },
+   {
+    "slug": "hoop-world",
+    "title": "Hoop World",
+    "line": "A 3D game built around flipping dunks made with simple mouse clicks, suited to players who like stylish aerial moves over strict shooting."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the one-tap games and the matchup games?",
+    "One-tap games such as Bouncy Dunk and Flipper Dunk 3D are built around timing a single click or tap to score in quick rounds. Matchup games such as Basketball Stars and Basket Sport Stars let you pick a character and compete against a computer rival or a friend."
+   ],
+   [
+    "Can I play basketball games with a friend here?",
+    "Yes. Basketball Stars and Basket Sport Stars both offer local two-player play by sharing the keyboard, and Basket Ball For Two Player lets two people share one device with a single tap-to-jump control."
+   ],
+   [
+    "How long does a game usually take?",
+    "Basketball Rush is a two-minute round, so it is a quick session. Other games describe their play in terms of levels, matches, or streaks, so length will vary by game."
+   ]
+  ]
+ },
+ "sniper-games": {
+  "picks": [
+   {
+    "slug": "sniper-hero-urban-strike",
+    "title": "Sniper Hero: Urban Strike",
+    "line": "A calm starting point: precision missions in cities where you must avoid civilians and manage limited ammo."
+   },
+   {
+    "slug": "sniper-master",
+    "title": "Sniper Master",
+    "line": "An arcade-style pick for players who like timing: you jump, float, and fire mid-air to hit targets."
+   },
+   {
+    "slug": "fragbyte",
+    "title": "FRAGBYTE",
+    "line": "A fast wave survival shooter with no final level, suited to players who enjoy escalating pressure."
+   },
+   {
+    "slug": "urban-sniper-multiplayer",
+    "title": "Urban Sniper Multiplayer",
+    "line": "Competitive sniper duels across rooftops and alleys, best for players who enjoy outwitting real opponents."
+   },
+   {
+    "slug": "sniper-for-brainrots",
+    "title": "Sniper for Brainrots",
+    "line": "A quirky collection and survival game where each successful shot unlocks a new Brainrot and a race to safety."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the sniper-focused games and the general FPS shooters on this page?",
+    "Games like Sniper Hero: Urban Strike and Guilty Sniper focus on single, careful shots with limited ammo or time. Hazmob FPS and Special Ops: GO are faster multiplayer shooters with more weapons and non-stop combat."
+   ],
+   [
+    "Which sniper game should I try first?",
+    "Sniper Hero: Urban Strike is a good first choice because each stage rewards careful aim and patience. If you want something lighter and more playful, try Sniper Master."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Some are gentle, such as Sniper Hero: Urban Strike, which asks you to avoid civilians. Stickman Armed Assassin 3D contains lots of blood and killing, so check that one before letting younger players try it."
+   ]
+  ]
+ },
+ "tank-and-war-games": {
+  "picks": [
+   {
+    "slug": "hit-tank-battle",
+    "title": "Hit Tank Battle",
+    "line": "A fast 3D arena tank battle with simple controls, good for players who want straightforward shooting and quick rounds."
+   },
+   {
+    "slug": "tanks-1944",
+    "title": "Tanks 1944",
+    "line": "A tank battle game with realistic physics and choices of tank, suited to players who enjoy learning tactics and weighing their options."
+   },
+   {
+    "slug": "call-of-tanks",
+    "title": "Call of Tanks",
+    "line": "A deployment battle where you place units and upgrade defenses, best for players who like planning a winning combination."
+   },
+   {
+    "slug": "trench-tycoon-toy-army-defense",
+    "title": "Trench Tycoon: Toy Army Defense",
+    "line": "An idle tycoon and fortress defense mix, good for players who enjoy building an economy while holding back waves of enemies."
+   },
+   {
+    "slug": "boat-war-mayhem",
+    "title": "Boat War Mayhem",
+    "line": "A river-raft shooter where you dodge traps and blast obstacles, suited to players who like quick reactions and aiming."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the shooting games and the strategy games on this page?",
+    "Shooting games like Hit Tank Battle have you aim and fire your tank in real time. Strategy games like Call of Tanks and Age of Tanks Warriors focus on choosing units, upgrading, and planning how to win the battle."
+   ],
+   [
+    "Which game should I try first if I am new to tank games?",
+    "Hit Tank Battle is a good first pick because its controls are simple and each battle is fast. If you prefer planning over reflexes, try Call of Tanks instead."
+   ],
+   [
+    "Are there games here I can play against other people?",
+    "War Robot Earth Survival offers online PvP battles against players around the world. Bubble War also has real-time multiplayer battles, while Sky Wars is a one-player game against seven bots."
+   ]
+  ]
+ },
+ "coloring-and-drawing-games": {
+  "picks": [
+   {
+    "slug": "cozy-coloring",
+    "title": "Cozy Coloring",
+    "line": "A calm color-by-number game with pictures to choose from, suited to anyone who wants a simple, relaxing way to fill in artwork step by step."
+   },
+   {
+    "slug": "magic-coloring-book-for-little-artists",
+    "title": "Magic Coloring Book for Little Artists",
+    "line": "A gentle outline-and-color game for little artists, where children hold the screen to draw the outline and then color it in."
+   },
+   {
+    "slug": "jewel-coloring",
+    "title": "Jewel Coloring",
+    "line": "A colorful gem puzzle where you place jewels into matching cells, good for players who like planning moves and clearing tricky boards."
+   },
+   {
+    "slug": "doodle-guard-draw-to-save",
+    "title": "Doodle Guard: Draw to Save",
+    "line": "A physics drawing puzzle where one finger line becomes a real object, suited to players who enjoy clever problem-solving with a light touch."
+   },
+   {
+    "slug": "paint-and-escape",
+    "title": "Paint & Escape",
+    "line": "A neon stealth game where you sneak past guards to paint graffiti and escape, best for players who want more action than quiet coloring."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the coloring games and the drawing puzzle games?",
+    "Coloring games like Cozy Coloring and Coloring by Numbers: Pixel Room ask you to fill in a picture by matching numbers to colors. Drawing puzzles like Doodle Guard or Draw Path To Finish ask you to draw a line that solves a problem in the scene."
+   ],
+   [
+    "Are these games suitable for children?",
+    "Magic Coloring Book for Little Artists is made specifically for kids, combining outline drawing with classic coloring. Other games on this page, such as Paint & Escape, involve guards and traps and are better suited to older players."
+   ],
+   [
+    "Where should a newcomer start?",
+    "If you want something calm, start with Cozy Coloring or Color Pixels, which follow numbered instructions. If you prefer a challenge, Jewel Coloring: Crystal Sorting or Doodle Guard are good next steps."
+   ]
+  ]
+ },
+ "dress-up-games": {
+  "picks": [
+   {
+    "slug": "tb-world",
+    "title": "TB World",
+    "line": "A open-ended creative game for building one-of-a-kind looks and cozy interiors, good for players who like to design both outfits and rooms."
+   },
+   {
+    "slug": "superstar-family-dress-up-game",
+    "title": "Superstar Family Dress Up Game",
+    "line": "Dress a four-person superstar family with clothes, makeup, pets and fireworks, then share your scenes. Suits players who enjoy big, busy styling."
+   },
+   {
+    "slug": "animal-hair-salon",
+    "title": "Animal Hair Salon",
+    "line": "Work as a stylist for adorable animals, cutting, coloring and accessorizing their hair. A gentle choice for players who like hair and animals."
+   },
+   {
+    "slug": "3d-acrylic-nail-nail-art-game",
+    "title": "3D Acrylic Nail: Nail Art Game",
+    "line": "Run a nail salon by designing acrylic nails for customers, earning money and upgrading your shop. Good for fans of salon and business games."
+   },
+   {
+    "slug": "anna-s-story-dress-up-diy",
+    "title": "Anna's Story: Dress Up DIY",
+    "line": "A paper doll game where you dress Anna for parties, dates and holidays like Halloween and Christmas. Well suited to players who like choosing outfits for occasions."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a dress-up game and a salon game?",
+    "Dress-up games focus on putting together outfits and looks for a character. Salon games, such as the nail and hair games here, have you work on a customer's nails or hair, and some let you earn money and upgrade your shop."
+   ],
+   [
+    "Are these games suitable for young children?",
+    "Many are aimed at younger players. Fashion Princess, for example, is described as ideal for girls of all ages and is available in Russian."
+   ],
+   [
+    "Which game should I try first if I am new to this kind of game?",
+    "Anna's Story: Dress Up DIY is a good first pick, since you choose outfits for many occasions. For more variety, try Superstar Family Dress Up Game, which offers many options for clothes, makeup and backgrounds."
+   ]
+  ]
+ },
+ "fishing-games": {
+  "picks": [
+   {
+    "slug": "hlbina",
+    "title": "Hlbina",
+    "line": "A push-your-luck fishing game in cozy pixel art, where deeper fish are worth more but every catch raises the risk. Good for players who like tense choices."
+   },
+   {
+    "slug": "fish-rain",
+    "title": "Fish Rain",
+    "line": "A realistic 3D-style angling game across global locations, rewarding patient observation and bait choice. Suits players who enjoy studying fish and fine-tuning their tactics."
+   },
+   {
+    "slug": "sea-restore",
+    "title": "Sea Restore",
+    "line": "A relaxed building game where you fill a meteor crater with water and grow a seaside town through seven ages. Suits players who like planning and steady progress."
+   },
+   {
+    "slug": "big-shark",
+    "title": "Big Shark",
+    "line": "An arcade survival game where you play a shark, using tap-to-move controls to eat smaller fish and avoid bigger ones. Suits players who want quick, simple action."
+   },
+   {
+    "slug": "deadly-catch",
+    "title": "Deadly Catch!",
+    "line": "A casual fishing game where one tap casts your line and you reel in fish from coastal waters to deep-sea rarities. Suits players who want a light, easy session."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between realistic and arcade fishing games here?",
+    "Realistic games such as Fish Rain and Fishing Online focus on observation, bait choice and skill. Arcade-style games such as Deadly Catch! and Fun Fishing are simpler, with one-tap casting and upgrades that keep things light."
+   ],
+   [
+    "Which fishing game should I try first?",
+    "If you want something quick and simple, start with Deadly Catch!, which needs only one tap to cast. If you prefer a challenge, try Hlbina, where you choose how deep to go and when to stop."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "The descriptions do not list age ratings, so check each game before letting a child play. Games with simple tap controls, like Big Shark and Deadly Catch!, are generally easy to pick up."
+   ]
+  ]
+ },
+ "cooking-games": {
+  "picks": [
+   {
+    "slug": "cooking-city",
+    "title": "Cooking City",
+    "line": "A timed kitchen game where you cook dishes for hungry customers and manage your time. Good for players who like a fast, busy challenge."
+   },
+   {
+    "slug": "burger-restaurant-simulator-3d",
+    "title": "Burger Restaurant Simulator 3D",
+    "line": "A burger restaurant simulation covering frying, staff, and expansion. Suits players who enjoy running a business step by step."
+   },
+   {
+    "slug": "bun-boss",
+    "title": "Bun Boss",
+    "line": "A one-finger bakery tycoon where you grow wheat, bake, and serve customers. A relaxed pick for players who like building up a shop."
+   },
+   {
+    "slug": "dumpling-clicker",
+    "title": "Dumpling Clicker",
+    "line": "A cute idle clicker where you tap dumplings and buy upgrades. Ideal for players who enjoy slow progress and collecting things."
+   },
+   {
+    "slug": "go-find-the-cake",
+    "title": "Go Find The Cake",
+    "line": "A food-themed puzzle adventure where you plan routes to deliver cakes. Good for players who like logic and clever problem-solving."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a cooking game and a tycoon game?",
+    "Cooking games like Cooking City focus on preparing dishes quickly against the clock. Tycoon games like Bun Boss or Busy Bites focus on growing a business, spending coins on machines, helpers, and upgrades."
+   ],
+   [
+    "Which game should I start with if I am new to this kind of game?",
+    "Burger Restaurant Simulator 3D or Bun Boss are good starting points, since they explain the basics of cooking, serving, and upgrading. If you prefer puzzles, try Go Find The Cake."
+   ],
+   [
+    "Are these games suitable for children?",
+    "Go Find The Cake is built around simple controls and clever puzzles, so it is a gentle option. The descriptions do not list age ratings, so check each game's own page before choosing one for a child."
+   ]
+  ]
+ },
+ "animal-games": {
+  "picks": [
+   {
+    "slug": "hedgies",
+    "title": "Hedgies",
+    "line": "A slow, cozy farm and cooking sim where one hedgehog turns an abandoned homestead into a busy farm. Good for players who like building at their own pace."
+   },
+   {
+    "slug": "find-the-frog-hidden-objects",
+    "title": "Find the Frog - Hidden Objects",
+    "line": "A relaxed hidden-object game across themed worlds, with frogs to find and collect. A gentle pick for anyone who enjoys searching scenes."
+   },
+   {
+    "slug": "going-right",
+    "title": "Going Right",
+    "line": "A one-touch arcade game where you guide a bird back to its nest. Quick to learn, with tough timing, so it suits short, focused play."
+   },
+   {
+    "slug": "cadillacs-dino-riot",
+    "title": "Cadillacs: Dino Riot",
+    "line": "A colourful 2D brawler where you pick Kira or Bo to fight through eight chapters. Suits players who enjoy punching, jumping and rescuing dinosaurs."
+   },
+   {
+    "slug": "slinky",
+    "title": "Slinky",
+    "line": "A logic puzzle where you move across numbered tiles and plan each route carefully. Best for players who enjoy thinking several steps ahead."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a clicker game and a runner game on this page?",
+    "Cat Clicker is about tapping to build up cat bubbles, then using upgrades and resets to grow faster. Runner games like Octopus Run and Duckling Rush are about moving and dodging obstacles while you collect things."
+   ],
+   [
+    "Are these animal games suitable for kids?",
+    "Some are gentle, such as Find the Frog and Save the Kitten, which involve searching and rescuing. Others, like Cadillacs: Dino Riot, are fighting games and are better suited to older players."
+   ],
+   [
+    "How long does a typical game session last?",
+    "The descriptions don't give set play times. Find the Frog is split into worlds of three levels each, so you can play it in short bursts or keep going for longer."
+   ]
+  ]
+ },
+ "jigsaw-puzzles": {
+  "picks": [
+   {
+    "slug": "jigsaw-puzzles",
+    "title": "Jigsaw Puzzles",
+    "line": "A calm, no-pressure jigsaw with over 13,000 pictures and no points, good for unwinding at your own pace."
+   },
+   {
+    "slug": "cozy-jigsaw-puzzles",
+    "title": "Cozy Jigsaw Puzzles",
+    "line": "Pick from seven difficulty levels, from 35 to 630 pieces, plus daily puzzles and a timed hidden-picture mode."
+   },
+   {
+    "slug": "jixora-jigsaw-solitaire-puzzle",
+    "title": "Jixora – Jigsaw Solitaire Puzzle",
+    "line": "A solitaire-style puzzle with 100 levels and a clock to earn stars, for players who like a light challenge."
+   },
+   {
+    "slug": "jigsaw-puzzle-anime",
+    "title": "Jigsaw Puzzle - Anime",
+    "line": "Classic anime-themed puzzles, and you can build your own from your photos, suiting fans of the genre."
+   },
+   {
+    "slug": "masha-and-the-bear-jigsaw-puzzles-for-kids",
+    "title": "Masha And The Bear Jigsaw - Puzzles For Kids",
+    "line": "A cartoon jigsaw based on Masha and the Bear, aimed at young children who enjoy the show."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good online jigsaw puzzle game?",
+    "Look for a range of picture sizes so you can start easy and work up. Games with clear controls and a calm pace are also a good fit if you want to relax."
+   ],
+   [
+    "What is the difference between the kinds of jigsaw games here?",
+    "Most are classic games where you drag pieces into place, while Jigsaw Sort has you swap pieces to reveal the image. Jixora and Jigsaw Solitaire use a card-style layout, and Jixora adds a timer to earn stars."
+   ],
+   [
+    "Are these games suitable for children?",
+    "Yes, some are made for kids, such as the Masha and the Bear jigsaw, and Jigsaw Sort is described as suitable for all ages. Cozy Jigsaw Puzzles lets you start with 35-piece puzzles, which are easier for younger players."
+   ]
+  ]
+ },
+ "horror-games": {
+  "picks": [
+   {
+    "slug": "5-nights-at-tung-tung-hotel-horror-3d",
+    "title": "5 Nights at Tung Tung Hotel - Horror 3D",
+    "line": "A tense 3D survival horror where you work night shifts, watch cameras and uncover secrets. Best for patient players who like slow, creeping dread."
+   },
+   {
+    "slug": "haunted-house-idle",
+    "title": "Haunted House Idle",
+    "line": "A relaxed 3D idle game where you build and grow your own haunted attraction. Suits players who enjoy management and spooky scenery without heavy combat."
+   },
+   {
+    "slug": "kick-the-zombie-ragdoll-sandbox",
+    "title": "Kick the Zombie: Ragdoll Sandbox",
+    "line": "A silly ragdoll physics sandbox where you toss, kick and zap a polite cartoon zombie. Good for a light, playful break with no pressure."
+   },
+   {
+    "slug": "milord-we-have-a-zombie-problem",
+    "title": "Milord, We Have a Zombie Problem",
+    "line": "A medieval tower defense game where you aim your own defenses at huge undead hordes. Fits fans of strategy who like hands-on action."
+   },
+   {
+    "slug": "zombie-grave-yard",
+    "title": "Zombie Grave Yard",
+    "line": "A fast arcade shooter in a haunted cemetery, with a Campaign mode and an endless Survival mode. Suits players who want quick, straightforward zombie fights."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a survival horror game and a zombie shooter?",
+    "Survival horror games like 5 Nights at Tung Tung Hotel focus on watching, collecting clues and staying hidden until the night ends. Zombie shooters like Zombie Graveyard focus on fast aiming and fighting waves of undead."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "The descriptions do not list age ratings, so it is hard to say for certain. Lighter picks like Kick the Zombie are goofy and cartoonish, while Momo Horror Story is a scary story and better suited to older players."
+   ],
+   [
+    "How long does a play session usually take?",
+    "The descriptions do not give run times. Some games have clear endpoints, like surviving five nights in the hotel game, while Survival mode in Zombie Graveyard runs endless waves until you fall, so it can go on as long as you want."
+   ]
+  ]
+ },
+ "2-player-games": {
+  "picks": [
+   {
+    "slug": "12-minibattles",
+    "title": "12 MiniBattles",
+    "line": "Quick, silly multiplayer matches against a friend across many mini games, all played with one button, so it's easy to pick up."
+   },
+   {
+    "slug": "splatcha",
+    "title": "Splatcha!",
+    "line": "A fast paint duel where you and a friend cover the arena in 90-second rounds. Best for players who like quick, lively rivalry."
+   },
+   {
+    "slug": "soccer-legends-2026",
+    "title": "Soccer Legends 2026",
+    "line": "Arcade soccer for solo play or 1v1 and 2v2 matches with friends, with special player abilities. Suits fans of quick sports games."
+   },
+   {
+    "slug": "ember-boy-and-ripple-girl",
+    "title": "Ember Boy and Ripple Girl",
+    "line": "A cooperative puzzle-platformer where two heroes switch abilities to escape each level. Good for players who enjoy teamwork and brain teasers."
+   },
+   {
+    "slug": "chess-online-playing",
+    "title": "Chess Online Playing",
+    "line": "A classic chess game you can play against real opponents online or against the computer. Suits anyone who wants a familiar strategy game."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good two player game on this page?",
+    "Look for games built around a shared goal or a head-to-head contest. Many here, like Splatcha and 12 MiniBattles, are made for two people on one device."
+   ],
+   [
+    "What is the difference between local and online two player games?",
+    "Local games let you and a friend share one device, such as Splatcha. Online games like Chess Online Multiplayer connect you with other players elsewhere."
+   ],
+   [
+    "How long does a typical session take?",
+    "It depends on the game. A Splatcha round lasts 90 seconds, while puzzle games like Ember Boy and Ripple Girl are played level by level at your own pace."
+   ]
+  ]
+ },
+ "car-games": {
+  "picks": [
+   {
+    "slug": "driver-club-highway-racing",
+    "title": "Driver Club: Highway Racing",
+    "line": "A fast highway racer where you dodge traffic and overtake cars, good for anyone who likes testing their reflexes at speed."
+   },
+   {
+    "slug": "car-crash-test",
+    "title": "Car Crash Test",
+    "line": "A destruction sandbox with real-time physics, suited to players who enjoy earning coins by smashing cars and unlocking new ones."
+   },
+   {
+    "slug": "city-bus-simulator-driving-games",
+    "title": "City Bus Simulator Driving Games",
+    "line": "A calm driving sim where you pick up passengers, navigate busy city roads and park carefully, for players who like slow, steady missions."
+   },
+   {
+    "slug": "slope-racing-3d",
+    "title": "Slope Racing 3D",
+    "line": "A ball rolls down an endless slope, grabbing gems and hitting boost pads, which suits quick reflex fans who like simple, fast runs."
+   },
+   {
+    "slug": "bus-parking-out",
+    "title": "Bus Parking Out",
+    "line": "A logic puzzle about clearing a path for buses in a 3D scene, ideal for players who enjoy planning moves over driving fast."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a racing game and a crash test game?",
+    "Racing games like Driver Club: Highway Racing focus on speed, traffic and winning races. Crash test games such as Car Crash Test focus on smashing cars, using physics and earning coins from the destruction."
+   ],
+   [
+    "Which car game should I start with?",
+    "Start with Driver Club: Highway Racing if you want a classic driving feel. If you prefer something lighter, try City Bus Simulator or Bus Parking Out for slower, planned play."
+   ],
+   [
+    "Can I play these in a short session?",
+    "The descriptions do not give play times. City Car Driver Mega Real Sim is described as designed for quick fun, so it is a good choice for a short break."
+   ]
+  ]
+ },
+ "io-games": {
+  "picks": [
+   {
+    "slug": "fall-bros",
+    "title": "Fall Bros",
+    "line": "Fall Bros is a multiplayer knockout game where you survive by staying on the platforms and knocking rivals off. It suits anyone who likes quick, competitive rounds."
+   },
+   {
+    "slug": "tap-tap-reloaded",
+    "title": "Tap Tap Reloaded",
+    "line": "Tap Tap Reloaded is a fast rhythm game where you tap along to songs. It suits players who enjoy music and quick timing."
+   },
+   {
+    "slug": "spotless",
+    "title": "Spotless",
+    "line": "Spotless is a relaxing pressure-washing game where you clean mud, rust and grime off everything from stop signs to cargo ships. It suits calm, satisfying play."
+   },
+   {
+    "slug": "sink-hole",
+    "title": "Sink Hole",
+    "line": "Sink Hole has you grow a hungry sinkhole that swallows a city and rivals. It suits players who like growing-bigger games with several modes to try."
+   },
+   {
+    "slug": "golf-king-3d",
+    "title": "Golf king 3D",
+    "line": "Golf King 3D is a multiplayer golf game with real-time one-on-one matches and simple shot control. It suits fans of sports games who want to play against others."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the multiplayer games and the solo ones here?",
+    "Fall Bros and Golf King 3D have real-time matches against other players. Games like Spotless and Snow Slider 3D are played on your own, at your own pace."
+   ],
+   [
+    "Which game should I start with if I am new to this page?",
+    "Spotless and Snow Slider 3D are easy to pick up and need no rivals. If you want competition, try Fall Bros, which is built around surviving and knocking others off."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Some are, such as the simple Snow Slider 3D sledding game and the Spotless cleaning game. Others, like Winter Clash 3D and Roads Off Fury, include shooting and combat, so check each game's description before letting younger players try them."
+   ]
+  ]
+ },
+ "racing-games": {
+  "picks": [
+   {
+    "slug": "kart-chaos",
+    "title": "Kart Chaos",
+    "line": "A colourful 3D kart racer with a Grand Prix, Time Trial, a Daily Challenge and online rooms for racing friends. Good for anyone who likes drifting and ramp tricks."
+   },
+   {
+    "slug": "rally-race-pro-3-0-car-racing",
+    "title": "Rally Race Pro 3.0 Car Racing",
+    "line": "A realistic rally sim with drifting, braking and suspension tuning on rough hill roads. Best for players who enjoy precise, careful driving over arcade speed."
+   },
+   {
+    "slug": "slope-racing-3d",
+    "title": "Slope Racing 3D",
+    "line": "Guide a ball down an endless, ever-changing slope, hitting boost pads and collecting gems. A quick, reflex-based thrill ride for short bursts of play."
+   },
+   {
+    "slug": "driver-club-highway-racing",
+    "title": "Driver Club: Highway Racing",
+    "line": "A high-speed highway game about dodging traffic, overtaking cars and unlocking powerful rides. Suits players who want smooth, fast driving with lots of tension."
+   },
+   {
+    "slug": "bmg-ragdoll-car-race",
+    "title": "BMG: Ragdoll Car Race",
+    "line": "A crash-test racer where ragdoll physics and destruction are the main fun. Suits players who enjoy silly, unpredictable crashes more than serious racing."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good racing game here?",
+    "Look for the style that suits you: arcade kart racers are fast and forgiving, while rally sims reward careful driving. Games with good controls and clear challenges, like time trials, are a strong start."
+   ],
+   [
+    "Which game should I start with?",
+    "Kart Chaos is a good first pick because it offers several modes, including single races, Time Trial and online rooms. If you prefer a quick, simple challenge, try Slope Racing 3D."
+   ],
+   [
+    "Can I race against other people?",
+    "Yes. Kart Chaos lets you open an online room and race your friends, and Racing Ball 3D has a two-player mode for a head-to-head challenge."
+   ]
+  ]
+ },
+ "card-games": {
+  "picks": [
+   {
+    "slug": "4-colors",
+    "title": "4 Colors",
+    "line": "A straightforward matching card game against computer rivals, with a Uno-style penalty for forgetting to call out your last card. Good for newcomers."
+   },
+   {
+    "slug": "deck-of-deception",
+    "title": "Deck Of Deception",
+    "line": "An online multiplayer bluffing game where you play number and action cards to drain, steal or protect coins. Suits players who enjoy bluffing against real people."
+   },
+   {
+    "slug": "draft-arena-battle-cards",
+    "title": "Draft Arena: Battle Cards",
+    "line": "A quick strategy auto battler: you draft one of three cards each round, then your army fights on its own. Suits players who like planning over fast reactions."
+   },
+   {
+    "slug": "tavern-cardsharp",
+    "title": "Tavern Cardsharp",
+    "line": "A pixel card duel where you bet coins and take your rival's deck if you win. Suits players who enjoy collecting classes, affixes and deck-building choices."
+   },
+   {
+    "slug": "ola-solitaire",
+    "title": "Ola! Solitaire",
+    "line": "A classic Klondike solitaire with large cards and comfortable controls, made especially for seniors. Suits anyone who wants a calm, easy-to-read game."
+   }
+  ],
+  "faq": [
+   [
+    "Which card game should I try first?",
+    "Start with 4 Colors if you want a simple matching game against computer opponents. If you prefer a slower, calmer game, Ola! Solitaire has large cards and clear rules."
+   ],
+   [
+    "What is the difference between solitaire games and multiplayer card games?",
+    "Solitaire games like Solitaire Klondike - Treasure Island and Wordaire are played alone at your own pace. Multiplayer games such as Deck of Deception and 4 Colors Multiplayer pit you against other players or AI rivals."
+   ],
+   [
+    "Are any of these games good for playing against other people?",
+    "Deck of Deception is an online multiplayer bluffing game with ranked matches. 4 Colors Multiplayer can be played against friends or AI, so it works for both group and solo play."
+   ]
+  ]
+ },
+ "stickman-games": {
+  "picks": [
+   {
+    "slug": "stickman-kombat-2d",
+    "title": "stickman kombat 2d",
+    "line": "A fast 1v1 fighting game with punch, kick and special combos, suited to players who like learning moves and fighting tougher opponents."
+   },
+   {
+    "slug": "stickman-kart-hero",
+    "title": "Stickman Kart Hero",
+    "line": "A relaxed physics game where you fling your cart as far as you can, good for a light, silly session with no combat."
+   },
+   {
+    "slug": "stickman-attack",
+    "title": "Stickman Attack",
+    "line": "A simple tap-to-punch brawler against waves of stickmen, a good pick if you want easy, mindless action."
+   },
+   {
+    "slug": "battle-simluator-counter-stickman",
+    "title": "Battle Simluator - Counter Stickman",
+    "line": "A strategy game where you command stickman soldiers across 3D battlefields, suited to players who enjoy planning and tactics."
+   },
+   {
+    "slug": "stickman-prison-counter-assault",
+    "title": "Stickman Prison Counter Assault",
+    "line": "A fast 3D shooter where you pick a side and aim and fire with simple controls, for players who want nonstop action."
+   }
+  ],
+  "faq": [
+   [
+    "What kinds of stickman games are on this page?",
+    "The page mixes fighting games, shooters, physics games, strategy battles and simple tap games. Some are light and silly, while others are more intense."
+   ],
+   [
+    "What's the difference between the fighting games and the shooters?",
+    "Fighting games like Stickman Kombat 2D have you throw punches, kicks and combos face to face. Shooters like Stickman Gun Shooter 3D have you aim and fire at enemy stickmen from a distance."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Some are gentle, such as Stickman Kart Hero and Push the Crazy Crowd. Others, like Stickman Gun Shooter 3D and Stickman Simulator: Final Battle, contain blood and killing, so check the description before letting younger players try them."
+   ]
+  ]
+ },
+ "puzzle-games": {
+  "picks": [
+   {
+    "slug": "piece-of-cake-merge-and-bake",
+    "title": "Piece of Cake: Merge & Bake",
+    "line": "A story-driven mix of puzzle-solving and café management, good for players who enjoy following a plot while growing a business."
+   },
+   {
+    "slug": "mahjong-lines",
+    "title": "Mahjong Lines",
+    "line": "A straightforward mahjong connect game where you match identical tiles on one level, suited to anyone who likes calm, classic logic puzzles."
+   },
+   {
+    "slug": "hidden-objects-island-secrets",
+    "title": "Hidden Objects: Island Secrets",
+    "line": "A hidden object adventure with riddles and time-based twists, ideal for players who like searching detailed scenes and solving clues."
+   },
+   {
+    "slug": "sudoku-online",
+    "title": "Sudoku Online",
+    "line": "A free online Sudoku with four difficulty levels and extra modes, a good pick for beginners and experienced number-puzzle fans alike."
+   },
+   {
+    "slug": "jewel-coloring-crystal-sorting",
+    "title": "Jewel Coloring: Crystal Sorting",
+    "line": "A relaxing color-sorting puzzle where each correct move reveals more of a sparkling picture, suited to players who want an unhurried session."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the mahjong games and the sorting games?",
+    "Mahjong games ask you to find and connect pairs of matching tiles to clear the board. Sorting games ask you to arrange colors or items, such as nuts on screws or liquids in tubes, until each group is uniform."
+   ],
+   [
+    "Which puzzle game should I try first?",
+    "If you like a story, try Piece of Cake: Merge & Bake. If you prefer a calm, classic challenge, Mahjong Lines or Sudoku Online are simple places to start, since Sudoku offers four difficulty levels."
+   ],
+   [
+    "Are there puzzle games here with endless levels?",
+    "Yes. Mahjong Unlimited generates endless levels of varying difficulty and does not require a timed game. Nuts Puzzle: Sort by Color has set levels that become trickier as you progress."
+   ]
+  ]
+ },
+ "zombie-games": {
+  "picks": [
+   {
+    "slug": "plant-squad",
+    "title": "Plant Squad",
+    "line": "A strategy game where you combine plants into stronger ones and plan defenses against the zombies. Good for players who like thinking ahead."
+   },
+   {
+    "slug": "kick-the-zombie-ragdoll-sandbox",
+    "title": "Kick the Zombie: Ragdoll Sandbox",
+    "line": "A silly ragdoll physics toy in a moonlit graveyard, where you can kick, fling and zap a polite cartoon zombie. Good for a light, playful session."
+   },
+   {
+    "slug": "zombie-siege",
+    "title": "Zombie Siege",
+    "line": "A survival game where you defend a city, rescue survivors to build a squad, and push through zombie hordes. Suits players who enjoy teamwork and tactics."
+   },
+   {
+    "slug": "deadly-zombie-virus",
+    "title": "Deadly Zombie Virus",
+    "line": "A top-down zombie survival shooter with several characters, three maps and upgradable weapons. Suits fans of fast, intense shooting with plenty of choices."
+   },
+   {
+    "slug": "cars-vs-zombies",
+    "title": "Cars vs Zombies",
+    "line": "An arcade game where you drive a car through waves of zombies and smash the arena around you. Suits players who like upgrades and chaotic action."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good zombie game to start with?",
+    "Start with a game that matches the style you enjoy most. Shooters like Deadly Zombie Virus give fast action, while Plant Squad suits players who prefer planning and strategy."
+   ],
+   [
+    "What is the difference between a shooter and a tower defense game?",
+    "In shooters such as Zombie Graveyard or Zombie Siege, you aim and fire at the undead yourself. In tower defense games such as Empire Tower Defense, you mainly place defenses and manage resources to stop the waves."
+   ],
+   [
+    "Are these zombie games suitable for kids?",
+    "Some are light and cartoonish, such as Kick the Zombie, which is a goofy physics toy. Many others are shooters with guns and fighting, so check each game's description before letting younger players try it."
+   ]
+  ]
+ },
+ "games-for-girls": {
+  "picks": [
+   {
+    "slug": "piece-of-cake-merge-and-bake",
+    "title": "Piece of Cake: Merge & Bake",
+    "line": "A puzzle and café management mix with a family mystery, good for players who like growing a business and following a story."
+   },
+   {
+    "slug": "my-town-home-family-playhouse",
+    "title": "My Town Home: Family Playhouse",
+    "line": "A cozy online dollhouse with six rooms, where you build family stories and try cooking and gardening, suited to imaginative play."
+   },
+   {
+    "slug": "draw-path-to-finish",
+    "title": "Draw Path To Finish",
+    "line": "Draw a route for the heroine across traps and obstacles, a good pick for players who enjoy planning clever solutions."
+   },
+   {
+    "slug": "royal-couple-halloween-party",
+    "title": "Royal Couple Halloween Party",
+    "line": "Mix and match outfits for royal couples in a festive Halloween setting, a relaxed choice for fans of dress-up and creative styling."
+   },
+   {
+    "slug": "flufflings-pocket-pets",
+    "title": "Flufflings: Pocket Pets",
+    "line": "Look after stray kittens, buy toys and decorations, and build a cozy home for them, ideal for calm pet-care fans."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the puzzle games and the dress-up games?",
+    "Puzzle games like Draw Path To Finish and Pull Him Out Online ask you to plan a solution, while dress-up games like Royal Couple Halloween Party and Fashion Princess focus on styling outfits and looks. If you like thinking things through, start with a puzzle; if you like creating, try dressing up."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Fashion Princess is described as ideal for girls of all ages. The Pregnant Mother Simulator covers pregnancy and childbirth, so check its content before letting younger players try it."
+   ],
+   [
+    "How long does a session take?",
+    "The game descriptions don't list how long a session lasts, so the best way to find out is to start one and see how it fits your time."
+   ]
+  ]
+ },
+ "kids-games": {
+  "picks": [
+   {
+    "slug": "cozy-coloring",
+    "title": "Cozy Coloring",
+    "line": "A calm color-by-number game where you pick a picture and fill it in step by step. Good for quiet, relaxed play."
+   },
+   {
+    "slug": "my-first-100-words",
+    "title": "My First 100 Words",
+    "line": "A language game for young children that pairs emojis with correct pronunciations as they build vocabulary across several languages."
+   },
+   {
+    "slug": "bean-party-obby",
+    "title": "Bean Party Obby",
+    "line": "A colorful 3D party game with obstacle courses and bean characters to pick. Suits players who like racing and jumping."
+   },
+   {
+    "slug": "going-right",
+    "title": "Going Right",
+    "line": "A one-touch arcade game where you guide a bird back to its nest by timing your taps. Simple to learn, with a steady challenge."
+   },
+   {
+    "slug": "color-sort-party",
+    "title": "Color Sort Party",
+    "line": "A sorting puzzle where you pour liquids between tubes to group colors. Easy to pick up and suits players who like planning moves."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good game for kids on this page?",
+    "Look for games with simple controls and clear goals, like the one-touch arcade game Going Right or the coloring game Cozy Coloring. Learning games such as My First 100 Words are also a good fit for younger children."
+   ],
+   [
+    "What is the difference between an arcade game and a puzzle game here?",
+    "Arcade games such as Going Right and Bean Party Obby are fast and test your reactions while you move. Puzzle games such as Color Sort Party and Slinky ask you to think ahead and plan each move."
+   ],
+   [
+    "How long does a play session usually take?",
+    "The descriptions don't give set session lengths. Word Finder suggests about 10 minutes a day, and the other games are played at whatever pace you choose."
+   ]
+  ]
+ },
+ "brain-games": {
+  "picks": [
+   {
+    "slug": "kobadoo-numbers",
+    "title": "Kobadoo Numbers",
+    "line": "A short memory challenge where you repeat growing two-digit sequences, good for anyone who wants a focused mental workout."
+   },
+   {
+    "slug": "mahjong-unlimited",
+    "title": "Mahjong Unlimited",
+    "line": "A relaxed mahjong puzzle with endlessly generated levels, suited to players who like a calm, unhurried board with no clock."
+   },
+   {
+    "slug": "chess-online-playing",
+    "title": "Chess Online Playing",
+    "line": "A full chess game you can play against the computer or against players worldwide, for both beginners and experienced players."
+   },
+   {
+    "slug": "math-fight-club",
+    "title": "Math Fight Club",
+    "line": "Solve math equations to win battles against opponents, a fun pick for players who enjoy quick calculations and a bit of competition."
+   },
+   {
+    "slug": "word-finder",
+    "title": "Word Finder",
+    "line": "A word game for building vocabulary and relaxing, designed to be played for about ten minutes a day."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between memory games and puzzle games here?",
+    "Memory games such as Kobadoo Numbers and Memory Cards ask you to remember and repeat sequences. Puzzle games such as Mahjong Lines and Mahjong Unlimited ask you to find matching tiles and plan moves across a board."
+   ],
+   [
+    "Are these brain games suitable for children?",
+    "Kobadoo Shapes is described as inviting players of all ages, and Flag Memory Match is described as an educational challenge. Check each game's description to see what suits the player you have in mind."
+   ],
+   [
+    "How long does a typical session take?",
+    "Word Finder is described as something you can play for about 10 minutes a day. The other games' descriptions do not give a set session length, so you can play as long or as briefly as you like."
+   ]
+  ]
+ },
+ "multiplayer-games": {
+  "picks": [
+   {
+    "slug": "knockback",
+    "title": "Knockback",
+    "line": "A party board game where you race pegs home and knock rivals back, with quick matches against players worldwide. Good for fans of board games with a twist."
+   },
+   {
+    "slug": "kart-chaos",
+    "title": "Kart Chaos",
+    "line": "A 3D kart racer with drifting, ramps and friend rooms. Suits anyone who wants a fast, friendly race with people they know."
+   },
+   {
+    "slug": "splash-rivals",
+    "title": "Splash Rivals",
+    "line": "Two teams of four fight to paint the arena in their colour, with seven weapons to choose from. Best for players who enjoy teamwork and action."
+   },
+   {
+    "slug": "soccer-legends-2026",
+    "title": "Soccer Legends 2026",
+    "line": "A fast arcade soccer game with unique players and special abilities, playable solo or in 1v1 and 2v2 matches. Suits quick, competitive sports fans."
+   },
+   {
+    "slug": "chess-online-playing",
+    "title": "Chess Online Playing",
+    "line": "A classic chess game where you can challenge players from around the world or play against the computer. Right for anyone who likes slower, thinking-based play."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a quick match and playing with friends?",
+    "Some games, like Knockback, offer quick matches against players worldwide. Others, like Kart Chaos, let you open an online room and race friends directly."
+   ],
+   [
+    "Can I play these games on my own as well as with other people?",
+    "Yes. Kart Chaos has CPU racers and Time Trial, Soccer Legends 2026 can be played solo, and Chess Online Playing lets you play against the computer as well as real opponents."
+   ],
+   [
+    "Which game should I try first if I enjoy teamwork?",
+    "Splash Rivals is built around two teams of four, so teamwork matters a lot. Soccer Legends 2026 also offers 2v2 matches if you want to team up with a friend."
+   ]
+  ]
+ },
+ "math-games": {
+  "picks": [
+   {
+    "slug": "math-fight-club",
+    "title": "Math Fight Club",
+    "line": "Math Fight Club turns equation-solving into boxing-style battles, suiting players who enjoy quick calculations with a competitive edge."
+   },
+   {
+    "slug": "kobadoo-arithmetic",
+    "title": "Kobadoo Arithmetic",
+    "line": "Kobadoo Arithmetic combines memorising sequences with sums at rising levels, good for anyone wanting to sharpen both memory and mental maths."
+   },
+   {
+    "slug": "sudoku-online",
+    "title": "Sudoku Online",
+    "line": "Sudoku Online offers four difficulty levels, from Easy for beginners to Expert, so it suits both first-timers and experienced puzzle fans."
+   },
+   {
+    "slug": "correct-math",
+    "title": "Correct Math",
+    "line": "Correct Math is a fast addition and subtraction quiz where you pick the right answer from three, ideal for practising speed and accuracy."
+   },
+   {
+    "slug": "2048",
+    "title": "2048",
+    "line": "2048 is a calm sliding puzzle where you merge tiles on a small grid, suiting players who like planning a few moves ahead."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good math game for practice?",
+    "The best ones make you work out answers quickly, like Correct Math, or combine calculation with another skill, like Kobadoo Arithmetic. Pick one that matches whether you want speed or careful thinking."
+   ],
+   [
+    "What is the difference between the logic puzzles and the quick-answer games?",
+    "Sudoku Online and Nonogram give you time to reason through each move at your own pace. Correct Math asks for a fast answer, so it rewards quick recall rather than planning."
+   ],
+   [
+    "Are these games suitable for children?",
+    "Correct Math and Kobadoo Arithmetic practise addition, subtraction and sums, so they suit anyone learning those skills. The descriptions do not give age ranges, so check each game before passing it on to a child."
+   ]
+  ]
+ },
+ "2048-games": {
+  "picks": [
+   {
+    "slug": "2048",
+    "title": "2048",
+    "line": "The classic slide-and-merge puzzle on a compact grid, best for players who like planning each move ahead."
+   },
+   {
+    "slug": "2048-shoot-merge-number-3d",
+    "title": "2048 Shoot Merge Number 3D",
+    "line": "A 3D take on 2048 where you aim and shoot numbered blocks with one-touch controls, good for those who want something easy to learn."
+   },
+   {
+    "slug": "2048-rush-multiplayer",
+    "title": "2048 Rush - Multiplayer",
+    "line": "A nine-player race to 2048 where merging also drops blockers on rivals, suited to players who enjoy competing live."
+   },
+   {
+    "slug": "snake-2048",
+    "title": "Snake 2048",
+    "line": "A snake game where you merge growing numbers, eat smaller snakes and dodge bigger ones, with two difficulty levels to choose from."
+   },
+   {
+    "slug": "2048-merge-runner",
+    "title": "2048 Merge Runner",
+    "line": "A runner game where you merge with matching numbers on the track, a good pick for players who like movement with their puzzles."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a classic 2048 game and the variants?",
+    "Classic versions keep the slide-and-merge puzzle as it is, while variants add shooting, snakes, racing or runners on top of the merging. Pick a classic if you want the original feel, or a variant if you want something new."
+   ],
+   [
+    "Which 2048 game should I start with?",
+    "Start with the classic 2048 puzzle to learn how merging works. Once you are comfortable, try a shooting or snake version for a different challenge."
+   ],
+   [
+    "Are these games suitable for children?",
+    "Some are, such as the classic puzzle, which is described as suitable for players of all ages, and Merge Cats, which has a cute atmosphere. Check each game's description to see if it suits you or your child."
+   ]
+  ]
+ },
+ "sorting-games": {
+  "picks": [
+   {
+    "slug": "ball-sort-puzzle",
+    "title": "Ball Sort Puzzle",
+    "line": "A classic ball-sorting puzzle where you fill each flask with one color, with levels that range from easy to hard. Good for anyone new to the genre."
+   },
+   {
+    "slug": "toolbox-sort",
+    "title": "Toolbox Sort",
+    "line": "Sort workshop parts, fuse them into bigger tools, and build machines with the stars you earn. Suits players who enjoy steady progress and rewards."
+   },
+   {
+    "slug": "jewel-coloring-crystal-sorting",
+    "title": "Jewel Coloring: Crystal Sorting",
+    "line": "A relaxing sorting game where gems are placed into cells to reveal a sparkling picture that grows brighter with each correct move."
+   },
+   {
+    "slug": "marble-color-sort",
+    "title": "Marble Color Sort",
+    "line": "A 3D physics-based marble puzzle where you sort colored marbles from the top trays into matching boxes. Suits those who like satisfying, bouncy brain teasers."
+   },
+   {
+    "slug": "sortilege-magic-shop-sort",
+    "title": "Sortilege: Magic Shop Sort",
+    "line": "A cozy magic-shop sorting puzzle where you make sets of three items and serve animal customers. Suits players who want a gentle, story-driven experience."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the liquid sorting games and the item sorting games?",
+    "Liquid games like Color Sort Party and Lipuzz ask you to pour colored liquids between tubes or containers until each holds one color. Item games like Good Sort Master and Goods Sort 3D ask you to group matching objects, such as shelf items or goods."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Some are described as suitable for all ages, such as Jigsaw Sort, which is built around swapping pieces to reveal images. Others, like Screw Sort 3D, are aimed at mechanics enthusiasts, so check the description to choose one that fits."
+   ],
+   [
+    "Which sorting game should I start with?",
+    "Ball Sort Puzzle is a good first choice because its levels rise gradually from easy to hard. If you prefer something calmer, try Jewel Coloring: Crystal Sorting, which focuses on relaxed play and a picture that comes together as you go."
+   ]
+  ]
+ },
+ "block-puzzle-games": {
+  "picks": [
+   {
+    "slug": "fair-blocks",
+    "title": "Fair Blocks",
+    "line": "A cozy wooden block puzzle where you fill rows and columns on an 8x8 board, with a relaxed Classic mode for easy play."
+   },
+   {
+    "slug": "wood-blocks-jam",
+    "title": "Wood Blocks Jam",
+    "line": "A calm logic puzzle with no time limits, where you drag colored wooden blocks into matching gates. Good for slow, thoughtful players."
+   },
+   {
+    "slug": "tentrix",
+    "title": "TenTrix",
+    "line": "A Tetris-style game on a 10x10 grid with unrotatable shapes. Suits players who enjoy planning and clearing lines."
+   },
+   {
+    "slug": "hatchfire-dragon-brick-breaker",
+    "title": "Hatchfire: Dragon Brick Breaker",
+    "line": "A cute dragon brick breaker where you bounce fireballs to crack an egg open. Suits players who like quick aiming and bouncing shots."
+   },
+   {
+    "slug": "wooden-blocks-3d-take-it-apart",
+    "title": "Wooden Blocks 3D: Take It Apart",
+    "line": "A quiet 3D puzzle about sliding wooden pieces out of sculptures, with 240 handcrafted levels. Suits players who prefer calm, careful thinking."
+   }
+  ],
+  "faq": [
+   [
+    "What should I try first on this page?",
+    "Start with a calm drag-and-fill game such as Fair Blocks or Wood Blocks Jam. Both are relaxed, and Wood Blocks Jam has no time limits."
+   ],
+   [
+    "What is the difference between the block puzzle styles here?",
+    "Some games, like Fair Blocks and Jewel Box, ask you to drag pieces onto a board and fill rows or columns. TenTrix drops falling blocks onto a grid, and Hatchfire is a brick breaker where you bounce fireballs."
+   ],
+   [
+    "Do the games need quick reflexes?",
+    "Most block puzzles are about planning rather than speed. Brick breakers and arcade games like Santa Wood Cutter depend more on timing and aim."
+   ]
+  ]
+ },
+ "clicker-games": {
+  "picks": [
+   {
+    "slug": "snail-clicker",
+    "title": "Snail Clicker",
+    "line": "A cute, pure clicking game where every tap multiplies snail coins, good for anyone who wants a simple, relaxing start."
+   },
+   {
+    "slug": "merge-mine-idle-clicker",
+    "title": "Merge Mine - Idle Clicker",
+    "line": "Tap diamonds, merge tools to boost mining, and let your empire keep earning while you're away. Suits fans of steady progress."
+   },
+   {
+    "slug": "punch-through",
+    "title": "Punch Through!",
+    "line": "A first-person prison escape where you smash walls block by block and upgrade your tools. Best for players who like hands-on action."
+   },
+   {
+    "slug": "car-wash-idle",
+    "title": "Car Wash Idle",
+    "line": "A 3D idle management game where you clean cars, unlock washing stations and grow the business. Good for players who enjoy building things up."
+   },
+   {
+    "slug": "find-the-needle",
+    "title": "Find the Needle",
+    "line": "Dig through a giant haystack layer by layer to find one tiny needle. A calm, satisfying tapping game with upgrades that speed things up."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a clicker game and an idle game?",
+    "In a clicker game such as Snail Clicker or Cat Clicker, you earn by clicking and upgrading as you go. Idle games like Merge Mine or Car Wash Idle keep earning for you, even when you are away."
+   ],
+   [
+    "Where should a newcomer start?",
+    "Try Snail Clicker or Cat Clicker first, since they are simple to pick up. Once you like upgrading, move on to an idle game like Merge Mine or Car Wash Idle."
+   ],
+   [
+    "Do these games involve puzzles or only clicking?",
+    "Most are about clicking, merging or upgrading, but some add puzzles, such as Bubble Shooter: Tap & Pop and PuzzleMaster. Pick the style you enjoy most."
+   ]
+  ]
+ },
+ "bus-games": {
+  "picks": [
+   {
+    "slug": "bus-driver-simulator-3d",
+    "title": "Bus Driver Simulator 3D",
+    "line": "A full driving simulator with iconic cities, varied terrain and traffic, plus a choice of racing or a relaxed free mode for drivers who like to explore."
+   },
+   {
+    "slug": "city-bus-simulator-driving-games",
+    "title": "City Bus Simulator Driving Games",
+    "line": "A calm city driving game where you pick up passengers, park carefully and complete missions, suiting anyone who enjoys steady, realistic bus routines."
+   },
+   {
+    "slug": "bus-parking-out",
+    "title": "Bus Parking Out",
+    "line": "A logic puzzle with three bus types and eight colours, suiting players who like planning several moves ahead in a tidy 3D parking space."
+   },
+   {
+    "slug": "pixel-jam-bus-puzzle",
+    "title": "Pixel Jam Bus Puzzle",
+    "line": "A gentle sorting puzzle where passengers build pixel pictures, with 1,000 levels for players who like steady progression and colour matching."
+   },
+   {
+    "slug": "bus-and-subway-rush",
+    "title": "Bus & Subway Rush",
+    "line": "A fast runner through a busy city, where you dodge obstacles, switch lanes and collect rewards, suiting quick reflex play in short bursts."
+   }
+  ],
+  "faq": [
+   [
+    "Which kind of bus game should I try first?",
+    "If you like driving, start with a simulator such as City Bus Simulator Driving Games. If you prefer thinking things through, try a parking or sorting puzzle such as Bus Parking Out."
+   ],
+   [
+    "What is the difference between the simulators and the puzzles?",
+    "Simulators ask you to drive, pick up passengers and handle roads, traffic and parking. Puzzle games ask you to clear vehicles and match colours, with the challenge coming from planning each move."
+   ],
+   [
+    "Are any of these games violent?",
+    "Some are. Lost Bus is set after a nuclear war with zombies, and Bus Crash Stunts 2 is built around crashing your bus. The puzzle games are the calmest choice on this page."
+   ]
+  ]
+ },
+ "relaxing-games": {
+  "picks": [
+   {
+    "slug": "cozy-jigsaw-puzzles",
+    "title": "Cozy Jigsaw Puzzles",
+    "line": "A calm jigsaw game with many images and seven difficulty levels, from gentle 35-piece puzzles to larger challenges."
+   },
+   {
+    "slug": "cozy-coloring",
+    "title": "Cozy Coloring",
+    "line": "A simple color-by-number game for anyone who wants to unwind and fill in pictures one step at a time."
+   },
+   {
+    "slug": "maple-lake",
+    "title": "Maple Lake",
+    "line": "A relaxing merge game where you rebuild a lakeside camp into a resort, suited to fans of gentle building."
+   },
+   {
+    "slug": "hexa-bloom",
+    "title": "Hexa Bloom",
+    "line": "A soothing hexagon sorting puzzle with 60 levels and colorful cascades, good for patient puzzle lovers."
+   },
+   {
+    "slug": "flufflings-pocket-pets",
+    "title": "Flufflings: Pocket Pets",
+    "line": "A cozy caretaking game where you look after stray kittens, decorate their home, and feed them to attract more."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a game good for relaxing?",
+    "Look for slow, gentle play with soft visuals, such as Cozy Coloring or Hexa Bloom. These are built around calm, step-by-step actions rather than fast competition."
+   ],
+   [
+    "What is the difference between merge games and puzzle games?",
+    "In merge games like Maple Lake or Snackrab, you combine two identical items into a better one. Puzzle games like Cozy Jigsaw Puzzles or Yarn Fever ask you to assemble pictures or sort colors."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Simple picks like Cozy Coloring, where you fill in pictures step by step, and My Town Home, a dollhouse with cooking and gardening, suit younger players who enjoy creative play."
+   ]
+  ]
+ },
+ "bike-games": {
+  "picks": [
+   {
+    "slug": "super-motocross",
+    "title": "Super Motocross",
+    "line": "A simple, easy-to-learn dirt bike game where you balance and avoid crashes over ramps and jumps, suited to all ages."
+   },
+   {
+    "slug": "wheelie-bike-for-2-players",
+    "title": "Wheelie Bike For 2 Players",
+    "line": "A quick local two-player balance contest where you hold a wheelie against a friend within a 60-second round."
+   },
+   {
+    "slug": "hilltop-hustle",
+    "title": "Hilltop Hustle",
+    "line": "A bouncy physics driving game on endless hills, for players who enjoy upgrading vehicles and chasing bonus coins."
+   },
+   {
+    "slug": "magline-moto",
+    "title": "Magline Moto",
+    "line": "A futuristic stunt racer with 30 levels across three worlds, for players who like flips, time bonuses and blasting obstacles."
+   },
+   {
+    "slug": "bike-race-rush",
+    "title": "Bike Race Rush",
+    "line": "A colourful stunt racer with characters, bikes to earn and quests, for players who want lots of tricks and progression."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a stunt game and a race game on this page?",
+    "Stunt games such as Magline Moto and Mega Ramp Stunt Moto focus on flips, jumps and tricks, while race games such as Superbike Hero have you competing against opponents across a series of races."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Super Motocross is described as fun for all ages, and Bike Race Rush has bright characters for both boys and girls. The Halloween and spooky titles have a darker, creepier mood, so check the look of a game before letting younger players try it."
+   ],
+   [
+    "How long does a session take?",
+    "The Wheelie Bike For 2 Players game runs in 60-second rounds, so it is quick to play. Many other games are split into tracks or levels, so you can play a few and stop whenever you like."
+   ]
+  ]
+ },
+ "simulator-games": {
+  "picks": [
+   {
+    "slug": "farming-tractor-game",
+    "title": "Farming Tractor Game",
+    "line": "A relaxed tractor simulator where you explore the countryside, work fields and haul farm goods, good for calm players who like slow, steady tasks."
+   },
+   {
+    "slug": "bus-driver-simulator-3d",
+    "title": "Bus Driver Simulator 3D",
+    "line": "A bus driving sim with a choice between timed racing and a relaxed free mode, suited to anyone who enjoys driving through busy city traffic."
+   },
+   {
+    "slug": "avocado-yard-ragdoll-sandbox",
+    "title": "Avocado Yard: Ragdoll Sandbox",
+    "line": "A free ragdoll physics sandbox where you build with crates and ropes and launch floppy avocados, best for players who like experimenting and silly chaos."
+   },
+   {
+    "slug": "car-wash-idle",
+    "title": "Car Wash Idle",
+    "line": "An idle arcade management game where you clean cars, earn cash and upgrade your wash, a good fit for players who like steady growth and small goals."
+   },
+   {
+    "slug": "burger-restaurant-simulator-3d",
+    "title": "Burger Restaurant Simulator 3D",
+    "line": "A restaurant management sim covering cooking, expanding your business and managing staff, ideal for fans of running a busy kitchen."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a driving simulator and a management simulator?",
+    "Driving simulators like Bus Driver Simulator 3D and Farming Tractor Game put you behind the wheel of a vehicle and focus on handling and tasks. Management simulators like Burger Restaurant Simulator 3D and Car Wash Idle focus on running a business, growing it and making decisions about staff and upgrades."
+   ],
+   [
+    "Which game should I try first if I have never played a simulator before?",
+    "Farming Tractor Game is a good starting point because it is relaxed and easy to pick up. If you prefer building things and experimenting, try Avocado Yard: Ragdoll Sandbox instead."
+   ],
+   [
+    "What is a ragdoll game?",
+    "A ragdoll game uses physics so characters and objects flop, tumble and react realistically when they hit things. Games like Body Drop 3D and Jelly Sandbox Playground are built around this kind of chaotic, physics-based fun."
+   ]
+  ]
+ },
+ "airplane-games": {
+  "picks": [
+   {
+    "slug": "sky-ace-stunt-plane-islands",
+    "title": "Sky Ace: Stunt Plane Islands",
+    "line": "A bright stunt plane game with rings, balloons and loops to chain into big combos, suited to players who like quick, colourful arcade flying."
+   },
+   {
+    "slug": "airplane-flight-manager-game",
+    "title": "Airplane Flight Manager Game",
+    "line": "A relaxed flight game where you take off from one airport and land at another, suited to anyone who wants to feel like a pilot without complex controls."
+   },
+   {
+    "slug": "crazy-plane-shooter",
+    "title": "Crazy Plane Shooter",
+    "line": "A fast arcade shooter where you upgrade your plane, dodge enemy fire and clear the sky, suited to players who enjoy quick reflexes."
+   },
+   {
+    "slug": "obby-craft-build-a-plane",
+    "title": "Obby Craft: Build a Plane",
+    "line": "A build-and-fly game where you assemble your own plane from parts and collect coins, suited to players who enjoy designing and tinkering."
+   },
+   {
+    "slug": "stunt-witch-3",
+    "title": "Stunt Witch 3",
+    "line": "A Halloween flying adventure with a story, glowing rings and an endless mode, suited to younger players and fans of cheerful, storybook games."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between an arcade flying game and a flight simulator?",
+    "Arcade games like Sky Ace and Crazy Plane Shooter focus on quick fun, stunts and shooting. Simulators like Pilot Life and Airplane Flight Manager focus on controlling a plane realistically, including take-offs, landings and flying in weather."
+   ],
+   [
+    "Which airplane game should I try first?",
+    "If you want fast, simple fun, start with Sky Ace: Stunt Plane Islands or Crazy Plane Shooter. If you prefer a calmer pace and real piloting, Airplane Flight Manager Game is a good first choice."
+   ],
+   [
+    "Are these airplane games suitable for kids?",
+    "Stunt Witch 3 has a cheerful Halloween story with illustrated scenes. Gangsters is described as bloody, and Alien Shooter and Crazy Plane Shooter involve battles, so check each game's description before letting a child play."
+   ]
+  ]
+ },
+ "archery-games": {
+  "picks": [
+   {
+    "slug": "world-archery-league",
+    "title": "World Archery League",
+    "line": "A realistic archery sport sim with competitive-range physics, best for players who want precise aiming and a calm, skill-based challenge."
+   },
+   {
+    "slug": "last-archer",
+    "title": "Last Archer",
+    "line": "A colorful tower-defense shooter where you fire at monsters and explosive barrels, suited to players who like fast, lively action."
+   },
+   {
+    "slug": "archer-ragdoll",
+    "title": "Archer Ragdoll",
+    "line": "A ragdoll physics game where arrows ricochet and bounce unpredictably, good for anyone who enjoys chaotic, physics-driven fun."
+   },
+   {
+    "slug": "arrows-escape-tap-puzzle",
+    "title": "Arrows: Escape - Tap Puzzle",
+    "line": "A relaxing logic puzzle where you slide out snake-like arrows to reveal pictures, ideal for players who like planning calm, tidy solutions."
+   },
+   {
+    "slug": "geometry-arrow-wave-rush",
+    "title": "Geometry Arrow Wave Rush",
+    "line": "A fast reflex game where you steer an arrow through narrow gaps on tricky tracks, for players who like quick, sharp movements."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the archery games and the arrow puzzles on this page?",
+    "Archery games such as World Archery League and Bois d'Arc have you aim and release shots at targets or enemies. Arrow puzzles such as Arrow Cube 3D and Arrows: Escape ask you to work out the order in which to remove arrows."
+   ],
+   [
+    "Which game should I try first if I want something quick?",
+    "Arrow Cube 3D is described as a calm puzzle with short, satisfying levels. Geometry Arrow Wave Rush is a fast reflex game where you survive for as long as you can."
+   ],
+   [
+    "What makes a good archery game here?",
+    "Look for games where timing and aim matter. Bois d'Arc asks you to lead enemies and time powerful shots, while Archer 2023 has you draw and release with precise timing to hit targets."
+   ]
+  ]
+ },
+ "space-games": {
+  "picks": [
+   {
+    "slug": "strike-galaxy-attack",
+    "title": "Strike Galaxy Attack",
+    "line": "A simple 2D arcade shooter where you dodge waves of space birds and collect upgrades. Good for quick, action-packed sessions."
+   },
+   {
+    "slug": "the-space-mover",
+    "title": "The Space Mover",
+    "line": "A brain puzzle that uses a robot's magnetic power to move boxes. Suits players who like thinking through levels step by step."
+   },
+   {
+    "slug": "rocket-car-football-championship",
+    "title": "Rocket Car Football Championship",
+    "line": "Rocket-powered cars play football in 1v1, 2v2 and 3v3 matches. A fun pick for fans of sports games who enjoy fast, silly action."
+   },
+   {
+    "slug": "space-tower-defense",
+    "title": "Space Tower Defense",
+    "line": "A 3D tower defense game where you place towers to stop enemy waves. Best for players who enjoy planning and strategy."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the shooter games and the strategy games on this page?",
+    "Shooters like Strike Galaxy Attack and Space Destroyer have you fire and dodge in real time. Space Tower Defense is about planning, placing towers to stop enemy waves before they reach your base."
+   ],
+   [
+    "Which space game should I try first?",
+    "Strike Galaxy Attack is a good starting point because it is a simple 2D arcade shooter: you dodge, shoot and collect upgrades. If you prefer thinking over reflexes, try The Space Mover instead."
+   ],
+   [
+    "Are there space games here that suit kids?",
+    "Save The Planet is a waste-sorting game where you drag items into the correct recycling bins, and Baby Race Galaxy 2 is a funny racing game about a baby racer. Both are light and easy to pick up."
+   ]
+  ]
+ },
+ "cat-games": {
+  "picks": [
+   {
+    "slug": "cat-clicker",
+    "title": "Cat Clicker",
+    "line": "A relaxed clicker where each click makes cat bubbles and upgrades grow your feline world. Good for players who like steady, cosy progress."
+   },
+   {
+    "slug": "save-the-kitten",
+    "title": "Save the Kitten",
+    "line": "A simple rescue game where you run, bounce enemies off a trampoline and carry kittens to their mother. Suits anyone who wants an easy, heartwarming goal."
+   },
+   {
+    "slug": "cat-lovescapes",
+    "title": "Cat Lovescapes",
+    "line": "A pressure-free point-and-click puzzle about guiding a lovesick black cat past household obstacles. Suits players who enjoy thinking things through at their own pace."
+   },
+   {
+    "slug": "online-cats-multiplayer-park",
+    "title": "Online Cats Multiplayer Park",
+    "line": "A real-time multiplayer arena with seven modes where you race, guess and compete against other cats. Suits players who enjoy playing against others."
+   },
+   {
+    "slug": "bad-cat-simulator-pet-game",
+    "title": "Bad Cat Simulator Pet Game",
+    "line": "A cozy home simulator where you pull pranks, sneak and scratch your way to new cat abilities. Suits players who like mischief and light exploration."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the cat simulator games and the action games on this page?",
+    "The simulators, such as Bad Cat Simulator and Cat and Granny, are about causing mischief around a home and avoiding being caught. The action games, such as Save the Kitten and Super Cute Cat, are about running, dodging and rescuing or surviving through levels."
+   ],
+   [
+    "What should a first-time player try?",
+    "Start with a gentle game like Save the Kitten for quick action or Cat Lovescapes for slower puzzles. Cat Clicker is another easy start if you like building something up over time."
+   ],
+   [
+    "How long does a play session take?",
+    "The descriptions do not give set session lengths for these games. Clicker and merge games like Cat Clicker and Merge Cats: 2048! are built around progress, so you can play for a few minutes or much longer."
+   ]
+  ]
+ },
+ "farm-games": {
+  "picks": [
+   {
+    "slug": "garden-master",
+    "title": "Garden Master",
+    "line": "A gnome gardener who nurtures plants, fends off gophers and unlocks upgrades, suited to players who like a calm but challenging grow-and-defend loop."
+   },
+   {
+    "slug": "sunny-farm-match-3",
+    "title": "Sunny Farm: Match 3",
+    "line": "A match-3 puzzle with 500 levels across five worlds, good for players who want varied goals and explosive combos rather than farm management."
+   },
+   {
+    "slug": "cloudburg-sky-farm",
+    "title": "Cloudburg: Sky Farm",
+    "line": "A cozy floating sky farm you tap to grow, build and research, with a goose mayor who comments on everything, ideal for light and funny tapping."
+   },
+   {
+    "slug": "field-master",
+    "title": "Field Master",
+    "line": "A casual farming simulator where you plow, sow and harvest with powerful machines, a good fit for anyone who enjoys real tractor work."
+   },
+   {
+    "slug": "the-machinegg",
+    "title": "The MachinEGG",
+    "line": "A relaxing idle clicker where you grow an egg farm, automate production and aim to earn enough to retire, suited to slow, set-and-watch play."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good farm game?",
+    "The best ones give you a clear loop of planting, harvesting and spending coins on upgrades. Pick one whose style, from tractors to puzzles, matches what you enjoy."
+   ],
+   [
+    "What is the difference between a tractor simulator and an idle game?",
+    "Tractor simulators like Field Master have you driving machines and working fields yourself. Idle games like The MachinEGG run mostly on their own, with you buying upgrades and collecting earnings."
+   ],
+   [
+    "Are these games suitable for children?",
+    "Many are peaceful and cozy, such as Sunfield Vegetable Farm and Chicken Farm 3D. Others, like Noob: Steal the Egg, involve racing and sneaking, so check the description to see if it suits."
+   ]
+  ]
+ },
+ "dinosaur-games": {
+  "picks": [
+   {
+    "slug": "cadillacs-dino-riot",
+    "title": "Cadillacs: Dino Riot",
+    "line": "A colourful 2D brawler where you choose Kira or Bo, chain punches, and free caged dinosaurs. Suits players who like side-on fights and rescue stories."
+   },
+   {
+    "slug": "dinosaur-city-hunting-destroy",
+    "title": "Dinosaur City Hunting Destroy",
+    "line": "A huge open-world rampage through a modern city, smashing buildings and hunting targets. Suits anyone who wants to play as a massive predator."
+   },
+   {
+    "slug": "dinosaur-bone-game",
+    "title": "Dinosaur Bone Game",
+    "line": "A calm digging game where you search for fossils and assemble skeletons. Suits slower, curious players who enjoy discovery."
+   },
+   {
+    "slug": "chrome-dino-game-original",
+    "title": "Chrome Dino Game (Original)",
+    "line": "The classic endless runner: jump and duck past cacti and pterodactyls while chasing a high score. Suits quick sessions and anyone who likes simple, repeatable challenges."
+   },
+   {
+    "slug": "click-and-colors-dinosaurs",
+    "title": "Click And Colors Dinosaurs",
+    "line": "A simple colouring game where clicking parts of a dinosaur picture fills them with colour. Suits young children and budding artists."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the dinosaur game types on this page?",
+    "Some games are endless runners, where you jump and dodge obstacles as a dinosaur. Others are rampage games where you smash cities, and some are brawlers or escape shooters with combat."
+   ],
+   [
+    "Which dinosaur game should I try first?",
+    "Chrome Dino Game is a good start if you want something quick and simple. If you prefer more action, try Dinosaur City Hunting Destroy or Cadillacs: Dino Riot."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Click and Color Dinosaurs is made for young children, and Dinosaur Bone Game is a calm exploration game. Many others, such as Dino Riot, Gang Blast and Happy Gunman, involve fighting or violence."
+   ]
+  ]
+ },
+ "princess-games": {
+  "picks": [
+   {
+    "slug": "dream-castle",
+    "title": "Dream Castle",
+    "line": "A match-3 puzzle where you restore a princess's castle, suited to fans of colourful levels and collecting coins."
+   },
+   {
+    "slug": "anna-s-story-dress-up-diy",
+    "title": "Anna's Story: Dress Up DIY",
+    "line": "A paper doll dress-up game with plenty of outfits for different occasions, good for anyone who likes styling a character."
+   },
+   {
+    "slug": "rescue-the-princess",
+    "title": "Rescue The Princess",
+    "line": "A strategy game where you push crates to build turrets and merge them, suited to players who like planning ahead."
+   },
+   {
+    "slug": "princess-nail-art",
+    "title": "Princess Nail Art",
+    "line": "A calm nail-design game with drag-and-drop tools and no time limits or scores, ideal for a relaxed session."
+   },
+   {
+    "slug": "princess-glitter-coloring-for-kids",
+    "title": "Princess Glitter Coloring - For Kids",
+    "line": "A simple colouring and decorating game made for children, which is easy to pick up and needs no internet."
+   }
+  ],
+  "faq": [
+   [
+    "What kinds of princess games are on this page?",
+    "The page mixes dress-up and styling games, match-3 and jewel puzzles, endless runners, a strategy game with turrets, and relaxed salon, nail and dental games. Each game's description says what kind it is."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Some are made with children in mind, such as Princess Glitter Coloring, which is described as easy to use and designed for kids of all ages. Check each game's description to see who it is aimed at."
+   ],
+   [
+    "Do the games have time limits?",
+    "Not all of them. Princess Nail Art has no time limits or scores, and Subway Santa Princess Runner is described as an endless running game."
+   ]
+  ]
+ },
+ "halloween-games": {
+  "picks": [
+   {
+    "slug": "halloween-fighters",
+    "title": "Halloween Fighters",
+    "line": "A wild arcade fighter with 11 monsters and combos, best for players who enjoy quick, punchy battles against giant bosses."
+   },
+   {
+    "slug": "stunt-witch-3",
+    "title": "Stunt Witch 3",
+    "line": "A flying broom adventure with a story, glowing rings and 24 levels, well suited to players who like gentle, colourful action."
+   },
+   {
+    "slug": "trick-or-treat-candy-carnival",
+    "title": "Trick Or Treat Candy Carnival",
+    "line": "A moonlit carnival of seven mini-games with gentle play or a challenge, a friendly pick for younger players and families."
+   },
+   {
+    "slug": "spooky-racing",
+    "title": "Spooky Racing",
+    "line": "A 3D Halloween kart race with eight monster drivers and item boxes, good for fans of fast, silly multiplayer-style racing."
+   },
+   {
+    "slug": "halloween-tile-tumble",
+    "title": "Halloween Tile Tumble",
+    "line": "A calm chain-reaction block puzzle with boosters and rising levels, ideal for anyone who wants a relaxed brain teaser."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the racing games on this page?",
+    "Moto Extreme, Moto X3M and Spooky Racing involve bikes or karts on tracks, while Roadster Dash is an arcade racer where you can fly and do stunt combos in a flying car."
+   ],
+   [
+    "Are any of these games good for younger players?",
+    "Trick Or Treat Candy Carnival offers gentle play alongside a challenge mode, and Stunt Witch 3 has illustrated story scenes, so both suit a younger audience."
+   ],
+   [
+    "What should I try first if I want something quick?",
+    "Halloween Tile Tumble is built around levels and target scores, and Halloween Horror Massacre is a fast reflex game, so both work well for short bursts of play."
+   ]
+  ]
+ },
+ "boxing-games": {
+  "picks": [
+   {
+    "slug": "boxing-hero-2077",
+    "title": "Boxing Hero 2077",
+    "line": "A training-focused career where you upgrade your punches and abilities, suited to players who enjoy building a fighter over time."
+   },
+   {
+    "slug": "king-boxing-2024",
+    "title": "King Boxing 2024",
+    "line": "Pick one of 8 boxers and balance quick attacks with timely defense, good for players who like strategy in the ring."
+   },
+   {
+    "slug": "spooky-boxing",
+    "title": "SPOOKY BOXING",
+    "line": "Fight 12 monsters with unique abilities through spooky arenas, with a comic ending to unlock for each fighter."
+   },
+   {
+    "slug": "power-puncher",
+    "title": "Power Puncher",
+    "line": "A quick arcade challenge where you time your punches to smash incoming wooden boxes, ideal for short, focused sessions."
+   },
+   {
+    "slug": "obby-ragdoll-boxing",
+    "title": "Obby: Ragdoll Boxing",
+    "line": "A ragdoll boxing simulator with trials, training and improvised fights, best for players who enjoy silly physics and chaos."
+   }
+  ],
+  "faq": [
+   [
+    "What should I play first if I'm new to boxing games?",
+    "Start with a game that matches what you want: King Boxing 2024 for strategy, or Power Puncher for quick timed punches. Boxing Hero 2077 suits players who like training and upgrades."
+   ],
+   [
+    "What is the difference between the arcade-style games and the career games?",
+    "Arcade games like Power Puncher are about quick reactions and timing. Career games like Boxing Stars and Boxing Hero 2077 have you rise through tournaments or train and upgrade a fighter over time."
+   ],
+   [
+    "Are the stress-relief games the same as the boxing games?",
+    "Not quite. Games like Annoying Boss Punch Game, Punch The Wall and Crazy Aunty are silly, over-the-top punching games for blowing off steam, while the others focus more on fighting skill."
+   ]
+  ]
+ },
+ "running-games": {
+  "picks": [
+   {
+    "slug": "super-runcraft",
+    "title": "Super RunCraft",
+    "line": "A classic endless runner through a blocky Minecraft-style land. Good for quick, simple runs that collect coins and dodge obstacles."
+   },
+   {
+    "slug": "bean-party-obby",
+    "title": "Bean Party Obby",
+    "line": "A colorful 3D party game with obby courses, many bean characters and five modes. Suits players who want variety and a bit of racing."
+   },
+   {
+    "slug": "going-up-rooftop",
+    "title": "Going Up Rooftop",
+    "line": "A 3D parkour climb across city rooftops, using walls, ledges, zip lines and gaps. Suits players who enjoy careful, precise movement."
+   },
+   {
+    "slug": "duckling-rush-io",
+    "title": "Duckling Rush.io",
+    "line": "A cute pond arcade where you race as a mama duck gathering ducklings. Suits players who like light, friendly competition."
+   },
+   {
+    "slug": "roadster-dash-halloween-night",
+    "title": "Roadster Dash: Halloween Night",
+    "line": "A 3D arcade racer with a flying car, stunts and a spooky Halloween setting. Suits players who want fast driving and big jumps."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good running game?",
+    "Good ones are quick to pick up and reward good timing, like dodging obstacles, jumping gaps and collecting items along the way. Many of the games here, such as Super RunCraft and Going Up Rooftop, focus on keeping you moving."
+   ],
+   [
+    "What is the difference between an obby and an endless runner?",
+    "An obby is a course of platforms, gaps and traps that you complete from start to finish, as in Bean Party Obby. An endless runner keeps going with no clear finish, and you try to last as long as you can, as in Super RunCraft or Age Evolution Run."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Many are bright and cartoonish, such as Duckling Rush.io and Bean Party Obby. Others involve police chases or guards, such as Endless Car Chase and Steal An Egg, so check each game's description to decide what suits your child."
+   ]
+  ]
+ },
+ "makeup-games": {
+  "picks": [
+   {
+    "slug": "makeup-artist-fashion-salon",
+    "title": "Makeup Artist Fashion Salon",
+    "line": "A classic makeup game where you apply foundation, eye makeup, lipstick, and accessories, great for anyone who likes choosing their own look."
+   },
+   {
+    "slug": "makeup-fruits",
+    "title": "Makeup Fruits",
+    "line": "A playful pick where you give watermelons and other fruits a makeover, suited to players who want something light and silly."
+   },
+   {
+    "slug": "princess-nail-art",
+    "title": "Princess Nail Art",
+    "line": "A relaxed nail art game with drag-and-drop designs, no time limits and no scores, ideal for unwinding at your own pace."
+   },
+   {
+    "slug": "stacky-dash-nail",
+    "title": "Stacky Dash Nail",
+    "line": "A stacking challenge with simple mouse controls that gets harder over time, good for players who enjoy planning and a bit of strategy."
+   },
+   {
+    "slug": "monster-makeup-3d",
+    "title": "Monster Makeup 3D",
+    "line": "A disguise game where you change monsters' features to look human, suited to players who like careful work and a tricky twist."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between nail games and makeup games on this page?",
+    "Nail games focus on designing nails, with colors, patterns, and accessories. Makeup games cover the face and hair as well, such as foundation, eye makeup, lipstick, and hairstyles."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Many are light and cute, such as Animal Hair Salon and Makeup Fruits. Others have a darker style, like Gothic New Era, so it helps to read each game's description before you choose."
+   ],
+   [
+    "How long does a session take?",
+    "The descriptions don't give set lengths. Several are open-ended, such as Princess Nail Art, which has no time limits or scores, so you can play as briefly or as long as you like."
+   ]
+  ]
+ },
+ "physics-games": {
+  "picks": [
+   {
+    "slug": "avocado-yard-ragdoll-sandbox",
+    "title": "Avocado Yard: Ragdoll Sandbox",
+    "line": "A open-ended ragdoll sandbox where you build, stack and wreck a yard full of floppy avocados. Good for experimenting with no set goal."
+   },
+   {
+    "slug": "punch-through",
+    "title": "Punch Through!",
+    "line": "A first-person prison breakout where you smash walls and upgrade your tools step by step. Suits players who like steady progression."
+   },
+   {
+    "slug": "hilltop-hustle",
+    "title": "Hilltop Hustle",
+    "line": "A bouncy hill driving game where you balance a jeep, collect fuel and do flips for coins. Suits players who enjoy simple, physics-driven driving."
+   },
+   {
+    "slug": "golf-orbit",
+    "title": "Golf Orbit",
+    "line": "A golf game where you launch balls to huge heights in one-shot battles and challenges. Suits players who like precise, funny sports games."
+   },
+   {
+    "slug": "last-archer",
+    "title": "Last Archer",
+    "line": "A colorful archery defense game where you protect a tower from monsters. Suits players who like quick, lively action with a clear goal."
+   }
+  ],
+  "faq": [
+   [
+    "What is a ragdoll physics game?",
+    "It is a game where characters have floppy, realistic bodies that react to falls, hits and pushes. Many, like Kick the Zombie, are built as toys you can throw around and play with."
+   ],
+   [
+    "What is the difference between a sandbox and a game with goals?",
+    "Sandbox games such as Avocado Yard and Jelly Sandbox let you build scenes and experiment freely. Games like Hilltop Hustle and Punch Through give you levels, coins and upgrades to work toward."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Some are gentle, such as Elastic Man and Kick the Zombie, while others include guns, explosions or car wrecks. Check each game's description before you let a child play."
+   ]
+  ]
+ },
+ "pirate-games": {
+  "picks": [
+   {
+    "slug": "island-mayhem-tiki-blast-3d",
+    "title": "Island Mayhem: Tiki Blast 3D",
+    "line": "A colourful cannon game where physics decides how blocks fall, so each shot is a small puzzle. Good for quick, playful fun."
+   },
+   {
+    "slug": "tide-and-powder",
+    "title": "Tide & Powder",
+    "line": "A single-player 3D pirate sailing roguelike with naval combat and salvage. Suits players who enjoy building a ship over many runs."
+   },
+   {
+    "slug": "pirates-tiles-challenge",
+    "title": "Pirates Tiles Challenge",
+    "line": "A relaxed tile-matching puzzle where you connect matching pirate icons with a few straight lines. Suits anyone who likes calm, thinking-based play."
+   },
+   {
+    "slug": "battleships-pirates",
+    "title": "Battleships Pirates",
+    "line": "A turn-based guessing game in the style of Battleships, with pirate ship placement. Suits players who like a classic head-to-head challenge."
+   },
+   {
+    "slug": "pirates-merge-war-path",
+    "title": "Pirates Merge: War Path",
+    "line": "A strategy game where you merge swashbucklers into a growing army across 50 missions. Suits players who like planning and building up forces."
+   }
+  ],
+  "faq": [
+   [
+    "What should I try first on this page?",
+    "If you want something light and easy to pick up, start with Pirates Tiles Challenge or Island Mayhem. For a bigger project, Tide & Powder or Pirates Merge: War Path give you more to build and plan."
+   ],
+   [
+    "What is the difference between the puzzle games and the strategy games here?",
+    "Puzzle games like Pirates Tiles Challenge and Island Mayhem are about solving one problem at a time. Strategy games like Pirates Merge: War Path and Tide & Powder ask you to plan, build up your forces, and manage bigger battles over time."
+   ],
+   [
+    "How do the sea battle games differ from each other?",
+    "Sea Kings focuses on blasting enemy ships with cannons and unlocking weapons. Tide & Powder is a roguelike where you sail, salvage and upgrade a single warship through changing winds and coastal waters."
+   ]
+  ]
+ },
+ "witch-and-wizard-games": {
+  "picks": [
+   {
+    "slug": "stunt-witch-3",
+    "title": "Stunt Witch 3",
+    "line": "A flying arcade adventure where you steer a broom through glowing rings and collect stars across 24 levels, suiting players who like quick, bright action."
+   },
+   {
+    "slug": "purr-magic-merge-balls",
+    "title": "Purr Magic: Merge Balls",
+    "line": "A calm merge puzzle with a cat and a wizard hat, where you plan drops and build chain reactions. It suits players who enjoy careful planning."
+   },
+   {
+    "slug": "witch-s-shop-potion-brewing",
+    "title": "Witch's Shop: Potion Brewing",
+    "line": "A cozy shop simulator where you brew potions for customers with different problems. It suits players who like relaxed, creative problem-solving."
+   },
+   {
+    "slug": "magic-coloring-book-for-little-artists",
+    "title": "Magic Coloring Book for Little Artists",
+    "line": "A gentle drawing game where a magical marker outlines a picture for children to colour in. It suits young artists who like making things by hand."
+   },
+   {
+    "slug": "magic-castle-invasion-idle-rpg",
+    "title": "Magic Castle Invasion: Idle RPG",
+    "line": "An idle fantasy RPG where you defend your castle from monsters and gather magical helpers. It suits players who enjoy building up a team over time."
+   }
+  ],
+  "faq": [
+   [
+    "What kinds of witch and wizard games are on this page?",
+    "The page mixes genres: flying arcade games, merge and sorting puzzles, cozy shop and academy simulators, an idle RPG, shooters and solitaire. You can choose whichever style you enjoy most."
+   ],
+   [
+    "Are these games suitable for children?",
+    "The Magic Coloring Book is made for little artists, and cozy puzzles like Purr Magic and Sortilege have a gentle feel. Shooter and RPG titles such as Guns vs Magic are more action-focused, so pick according to what you like."
+   ],
+   [
+    "How long does a play session take?",
+    "It depends on the game. Stunt Witch 3 is split into 24 levels, so you can play one at a time, while Magic Block Sort is described as something that can keep you entertained for hours."
+   ]
+  ]
+ },
+ "monster-games": {
+  "picks": [
+   {
+    "slug": "sir-shiba-monster-island",
+    "title": "Sir Shiba: Monster Island",
+    "line": "A relaxed idle-arcade game where you steer a small Shiba Inu knight and he fights monsters on his own, good for low-effort play."
+   },
+   {
+    "slug": "goblin-defense-merge",
+    "title": "Goblin Defense Merge",
+    "line": "A merge-and-defend strategy game where you combine goblins of the same rank to evolve them and hold off waves of human invaders."
+   },
+   {
+    "slug": "monster-go",
+    "title": "Monster Go",
+    "line": "A colourful puzzle game where you connect cube-shaped monsters on a grid, earning stars across increasingly tricky levels."
+   },
+   {
+    "slug": "red-stickman-vs-monster-school",
+    "title": "Red Stickman vs Monster School",
+    "line": "A fast, pixel-style 2D fighter for players who enjoy quick reflexes, upgrades and battling monsters and giant bosses."
+   },
+   {
+    "slug": "giant-wanted-monster",
+    "title": "Giant Wanted Monster",
+    "line": "A sniper shooter where you pick off giant monsters across a city, suited to players who like precise, distance-based aiming."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good monster game on this page?",
+    "Look for a game whose main action suits your style: puzzles for thinking, merge games for building, and action or shooter games for quick reactions. Each game below is described by its genre, so you can match that to what you enjoy."
+   ],
+   [
+    "What is the difference between merge games and idle games?",
+    "In merge games like Goblin Defense Merge, you combine two monsters or goblins of the same rank to evolve them. In idle games like Sir Shiba: Monster Island or Monster Café, your characters keep working on their own while you are away or only lightly guiding them."
+   ],
+   [
+    "Are these monster games suitable for kids?",
+    "Several are described as suitable for all ages, including Mix Monsters: Fun Merge and Monster School Challenges. Others, such as the sniper and fighter games, are more action-focused, so check each game's description before choosing one for a younger player."
+   ]
+  ]
+ },
+ "christmas-games": {
+  "picks": [
+   {
+    "slug": "santa-vs-zomby",
+    "title": "Santa Vs Zomby",
+    "line": "A physics-based level game where you launch Santa at zombies to knock them down, suited to players who enjoy clearing stages."
+   },
+   {
+    "slug": "santa-gift-matching",
+    "title": "Santa Gift Matching",
+    "line": "A calm, cheerful matching puzzle with mouse or touchscreen play, good for players who like steady problem solving."
+   },
+   {
+    "slug": "santa-wood-cutter",
+    "title": "Santa Wood Cutter",
+    "line": "A quick reflex game where you chop wood and dodge branches as the pace rises, for players who like fast, simple challenges."
+   },
+   {
+    "slug": "bff-christmas-cookie-challenge",
+    "title": "Bff Christmas Cookie Challenge",
+    "line": "A creative cookie decorating contest against friends or AI, well suited to players who enjoy colourful, relaxed design."
+   },
+   {
+    "slug": "snow-slider-3d",
+    "title": "Snow Slider 3D",
+    "line": "A fast downhill sledding runner where you dodge obstacles and unlock new sleds, ideal for endless-run fans."
+   }
+  ],
+  "faq": [
+   [
+    "What kinds of Christmas games are on this page?",
+    "The list mixes several styles: endless runners like Santa Snow Runner, puzzles like Santa Gift Matching, reflex games like Santa Wood Cutter, shooters like Xmas Rooftop Battles, and even a ski simulation. You can browse by the kind of play you enjoy."
+   ],
+   [
+    "Which game should I try first?",
+    "If you want something quick to pick up, start with Santa Wood Cutter or Snow Slider 3D, which are based on reflexes. If you prefer thinking things through, Santa Gift Matching is a calm puzzle to begin with."
+   ],
+   [
+    "Are these games suitable for children?",
+    "Many are described as cheerful and casual, such as the Bff Christmas Cookie Challenge and Santa Gift Matching. Games like Winter Clash 3D and Xmas Rooftop Battles are shooters, so look at each game's description before choosing one for a child."
+   ]
+  ]
+ },
+ "ghost-games": {
+  "picks": [
+   {
+    "slug": "boo-brew",
+    "title": "Boo Brew",
+    "line": "A relaxed Halloween potion café where you match ingredients and serve monster customers, good for players who like calm, tap-and-drag puzzles."
+   },
+   {
+    "slug": "haunted-panic",
+    "title": "Haunted Panic",
+    "line": "A tap-to-defend game where you guard haunted doors, suited to anyone who likes quick reflexes and steady progress through themed worlds."
+   },
+   {
+    "slug": "spooky-racing",
+    "title": "Spooky Racing",
+    "line": "A bright 3D Halloween kart race with monster drivers, items and drifting, a fun pick for fans of arcade racers."
+   },
+   {
+    "slug": "boo-chains",
+    "title": "Boo Chains",
+    "line": "A chain-matching puzzle game with pumpkin bombs and boss fights, well suited to players who enjoy building big combos."
+   },
+   {
+    "slug": "spooky-boxing",
+    "title": "SPOOKY BOXING",
+    "line": "A fighting game where you punch and dodge through spooky arenas against 12 monsters, ideal for players who like timing-based combat."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the horror games and the lighter ghost games on this page?",
+    "Games like Granny Returns Haunted House and Horror Sniper Clown Ghost are horror experiences built around escape and survival. Games like Boo Brew, Spooky Racing and Spooky Vending Machine 2 keep the Halloween theme light and playful."
+   ],
+   [
+    "Are these ghost games suitable for kids?",
+    "The cute, cheerful titles such as Spooky Halloween Makeover, Boo Chains and Spooky Vending Machine 2 suit younger players. Games described as horror or shooter-style, like Ghost Sniper and Horror Sniper Clown Ghost, are better for older players."
+   ],
+   [
+    "How long does a session usually take?",
+    "The descriptions do not give exact play times. Several games are split into levels, shifts or nights, such as Boo Brew's 12 midnight shifts and Haunted Panic's 24 nights, so you can stop and restart at a natural break."
+   ]
+  ]
+ },
+ "building-games": {
+  "picks": [
+   {
+    "slug": "colonora-colony-survival",
+    "title": "Colonora: Colony Survival",
+    "line": "A deep colony sim where each survivor has their own needs and mood, suited to players who enjoy managing a settlement over time."
+   },
+   {
+    "slug": "wild-camp",
+    "title": "Wild Camp",
+    "line": "A gentle forest village builder: chop trees, keep the fire going, and summon villagers to help. A good easy start."
+   },
+   {
+    "slug": "terrablox",
+    "title": "TerraBlox",
+    "line": "A pixel sandbox where every world is freshly generated, with mining, crafting, and house building for players who like to explore."
+   },
+   {
+    "slug": "build-a-rollercoaster-simulator",
+    "title": "Build a Rollercoaster: Simulator",
+    "line": "A simple building game about designing and riding your own roller coasters, for players who want to build without much pressure."
+   },
+   {
+    "slug": "idle-craft-3d",
+    "title": "Idle Craft 3D",
+    "line": "A calm 3D home-rebuilding game where progress continues while you're away, suited to players who like steady, relaxed growth."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good building game?",
+    "The best ones give you a clear goal and room to experiment. Look for games where what you build actually changes how things work, like the planes in Obby Craft or the colony in Colonora."
+   ],
+   [
+    "What is the difference between a sandbox and a survival base-building game?",
+    "A sandbox like TerraBlox or Noob in Mine lets you build and explore freely. Survival base-building games like Clearfell add threats, so you must gather resources and defend what you make."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Many are simple building games with colorful blocks and rides, such as Build an Aquapark and Build a Rollercoaster. Games with raids, zombies, or shooting, such as Pixel Gun Apocalypse 9, are more intense."
+   ]
+  ]
+ },
+ "candy-games": {
+  "picks": [
+   {
+    "slug": "candy-match-saga-2",
+    "title": "Candy Match Saga 2",
+    "line": "A colorful swap-and-match puzzle with levels, obstacles and power-ups, good for anyone who likes steady progress."
+   },
+   {
+    "slug": "jelly-sandbox-playground",
+    "title": "Jelly Sandbox Playground",
+    "line": "A ragdoll physics sandbox where you build your own scenes, best for players who enjoy experimenting and watching chaos unfold."
+   },
+   {
+    "slug": "slime-jelly-bouncer",
+    "title": "Slime Jelly Bouncer",
+    "line": "A skill-based jumping game where you charge and launch a jelly blob onto platforms, suited to patient players who like precise aiming."
+   },
+   {
+    "slug": "trick-or-treat-candy-carnival",
+    "title": "Trick Or Treat Candy Carnival",
+    "line": "A moonlit Halloween carnival of seven mini-games with gentle and challenge modes, a good pick for families and younger players."
+   },
+   {
+    "slug": "dessert-maker",
+    "title": "Dessert Maker",
+    "line": "A relaxed creative game where you make ice cream, popsicles, waffles and more, ideal for players who want to design sweet treats."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the candy puzzle games and the other candy games?",
+    "Candy Match Saga 2, Popping Candies and Candy Pop Mania are swap-and-match puzzles with levels, while Candy Clicker 2 is about clicking to grow a candy hoard. Candy Mahjong 3D asks you to clear matching candy tiles in a rotating 3D scene."
+   ],
+   [
+    "Which candy games are suitable for younger players?",
+    "Trick Or Treat Candy Carnival offers a gentle play option alongside its challenge mode, with jigsaws, matching pairs and a talking alphabet. Dessert Maker is also a creative game with no fail state described."
+   ],
+   [
+    "Where should a newcomer start?",
+    "Candy Match Saga 2 is a good first try if you enjoy puzzles with levels and power-ups. If you prefer experimenting, Jelly Sandbox Playground lets you build your own scenes."
+   ]
+  ]
+ },
+ "winter-and-snow-games": {
+  "picks": [
+   {
+    "slug": "zigzag-snow-mountain",
+    "title": "ZigZag Snow Mountain",
+    "line": "A realistic freeski simulator with many tricks and terrain types, best for players who enjoy learning moves and styling their runs."
+   },
+   {
+    "slug": "snow-slider-3d",
+    "title": "Snow Slider 3D",
+    "line": "A quick downhill sledding runner where you dodge trees and rocks and collect gifts, good for short, fast rounds."
+   },
+   {
+    "slug": "snowball-platformer",
+    "title": "SnowBall: Platformer",
+    "line": "A relaxed physics platformer with 25 levels where you roll a snowball to collect gifts, suited to puzzle-minded players."
+   },
+   {
+    "slug": "snow-mo-cannon-shooting-game",
+    "title": "Snow Mo-Cannon Shooting Game",
+    "line": "A tap-and-drag cannon shooter that defends against waves of snowball invaders, great for players who like upgrades and quick reflexes."
+   },
+   {
+    "slug": "winter-tale-secrets-and-mergings",
+    "title": "Winter Tale: Secrets and Mergings",
+    "line": "A calm winter fairy-tale merge puzzle where you combine items on a board, suited to players who enjoy slow, thoughtful puzzles."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good winter game here?",
+    "Look for a clear goal and simple controls. Many games on this page, such as Snow Slider 3D and Ice Ball Run, use one or two controls, while others like ZigZag Snow Mountain reward deeper skill."
+   ],
+   [
+    "What is the difference between a runner and a platformer?",
+    "Runners like Snow Slider 3D keep you moving forward and dodging hazards as speed rises. Platformers like SnowBall: Platformer are split into set levels where you plan jumps and rolls to reach a goal."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "The descriptions do not list age ratings, but several are simple holiday games, such as Santa Snow Runner and SnowBall: Platformer. Check each game's content before letting younger players start on their own."
+   ]
+  ]
+ },
+ "mining-games": {
+  "picks": [
+   {
+    "slug": "deep-mine-1-strength",
+    "title": "Deep Mine: +1 Strength",
+    "line": "A 3D shaft-digging game where each swing adds strength and deeper rock hides richer ore. Good for players who like steady upgrades and pets."
+   },
+   {
+    "slug": "deep-drill-run",
+    "title": "Deep Drill Run",
+    "line": "A fast 3D arcade run where you drill into a new mine each time and decide how far to push your luck. Suits quick, tense sessions."
+   },
+   {
+    "slug": "mine-tycoon",
+    "title": "Mine Tycoon",
+    "line": "A blocky mining sim where you sell ore to villagers, fill their orders and grow a small pit into a large quarry. Relaxed and easy to follow."
+   },
+   {
+    "slug": "mine-and-rush-survival",
+    "title": "Mine And Rush Survival",
+    "line": "A fast top-down survival shooter where you dig for gold while your auto-firing gun clears bugs. Best for players who enjoy action."
+   },
+   {
+    "slug": "idle-gold-miner",
+    "title": "Idle Gold Miner",
+    "line": "An idle miner that keeps earning gold even offline, so you can build your empire at your own pace. Suits players who like to set and check back."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between idle mining games and active digging games?",
+    "Idle games like Idle Gold Miner and Merge Mine keep your mine working while you're away. Active games like Deep Drill Run and Mine And Rush Survival need you to play in real time."
+   ],
+   [
+    "Which mining game should I start with?",
+    "Mine Tycoon or Deep Mine are good first choices. Both mix digging with clear upgrades, so you can learn the basics without much pressure."
+   ],
+   [
+    "Are there calmer mining games for a relaxed session?",
+    "Pictures by Numbers - Nubik and Mobs Mine is a soothing coloring game guided by number puzzles. Noob in Mine lets you build freely, though its survival mode brings monsters out at night."
+   ]
+  ]
+ },
+ "robot-games": {
+  "picks": [
+   {
+    "slug": "super-droid-adventure",
+    "title": "Super Droid Adventure",
+    "line": "A side-scrolling adventure where you battle enemies, break blocks for surprises, and fight a boss. Good for fans of classic platformers."
+   },
+   {
+    "slug": "robot-car-transform-race",
+    "title": "Robot Car Transform Race",
+    "line": "A fast arcade kart racer with sharp turns and rivals to pass. It suits anyone who likes quick races and learning tracks."
+   },
+   {
+    "slug": "war-robot-earth-survival",
+    "title": "War Robot Earth Survival",
+    "line": "A team-based online shooter where you pilot a massive battle robot against players worldwide. Best for competitive players who enjoy clans."
+   },
+   {
+    "slug": "orbadrone-robot-escape",
+    "title": "OrbaDrone - Robot Escape",
+    "line": "An orb-shaped drone puzzler that uses attract and repel to move through a cave. It suits players who enjoy thinking through levels."
+   },
+   {
+    "slug": "robot-band",
+    "title": "Robot Band",
+    "line": "A relaxed music game where you guide robot musicians and shape soundscapes with sliders. Good for calm, creative play with no pressure."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the spot-the-difference games and the battle games?",
+    "The spot-the-difference games, such as Robot Band and Robot Bar, test your eyes and patience with pictures. The battle games, such as Robo-Butcher and Robot Attacks, focus on fast combat, reflexes and upgrades."
+   ],
+   [
+    "Which games let me play with other people?",
+    "War Robot Earth Survival lets you battle players from around the world and join teams. Robot Astro Party is a multiplayer running game, and Ultimate Robo Duel 3D has a 2 player mode against a friend."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "The descriptions do not list age ratings. Music and spot-the-difference games like Robot Band are gentle, while shooters and battle games involve combat, so check each game before letting a child play."
+   ]
+  ]
+ },
+ "dragon-games": {
+  "picks": [
+   {
+    "slug": "merge-dragons",
+    "title": "Merge Dragons",
+    "line": "A relaxed merging game where you combine dragons to unlock new species, with simple controls that suit anyone who likes collecting and discovery."
+   },
+   {
+    "slug": "hatchfire-dragon-brick-breaker",
+    "title": "Hatchfire: Dragon Brick Breaker",
+    "line": "A cute brick breaker where you bounce fireballs to crack open an egg. Good for quick, satisfying puzzle rounds."
+   },
+   {
+    "slug": "dragon-fly",
+    "title": "Dragon Fly",
+    "line": "A light timing game where a tiny dragon pup slides down hills and times its touches to take off. Suits players who enjoy simple, precise rhythm."
+   },
+   {
+    "slug": "knights-vs-dragons-battle-simulator",
+    "title": "Knights vs Dragons Battle Simulator",
+    "line": "A 3D strategy battle game where you assemble knights, use each unit's strengths, and outwit monsters. Best for players who enjoy planning."
+   },
+   {
+    "slug": "clicker-knights-vs-dragons",
+    "title": "Clicker Knights Vs Dragons",
+    "line": "A pixel-art idle clicker RPG where you tap for damage, upgrade your heroes, and push through stages. Suits players who like steady progress."
+   }
+  ],
+  "faq": [
+   [
+    "What kinds of dragon games are on this page?",
+    "The page mixes several styles, including merging, brick breaking, timing-based flying, strategy battles, idle clicker RPGs, and dress-up games. Each one plays quite differently."
+   ],
+   [
+    "How is a clicker game different from a puzzle game?",
+    "Clicker games like Clicker Knights vs Dragons have you tap for damage while heroes attack automatically, and you grow stronger through upgrades. Puzzle games like Hatchfire ask you to aim and time each shot yourself."
+   ],
+   [
+    "Should I start with a game that needs quick reflexes or one that needs planning?",
+    "If you like fast action, try Glauron or Dragon Fly, which reward quick timing. If you prefer thinking ahead, Knights vs Dragons Battle Simulator focuses on formations and resource management."
+   ]
+  ]
+ },
+ "police-games": {
+  "picks": [
+   {
+    "slug": "police-car-parking-2026",
+    "title": "Police Car Parking 2026",
+    "line": "A calm, precise driving test where you park a police cruiser through tight alleys and busy lots, suiting players who enjoy careful, skill-based challenges."
+   },
+   {
+    "slug": "police-car-chaser",
+    "title": "police car chaser",
+    "line": "A straightforward high-speed chase through busy roads, good for players who want quick, exciting pursuits without much complexity."
+   },
+   {
+    "slug": "police-chase-simulator",
+    "title": "Police Chase Simulator",
+    "line": "An open sandbox with over 15 vehicles and several maps, suiting players who like free-form chases, crashes and wild races."
+   },
+   {
+    "slug": "swat-ops-body-camera",
+    "title": "SWAT OPS: Body Camera",
+    "line": "A first-person tactical shooter with a retro body-cam look, suiting players who enjoy short three-minute matches against bots or other players."
+   },
+   {
+    "slug": "safety-sheriff-labrador",
+    "title": "Safety Sheriff Labrador",
+    "line": "A drag-and-drop game where Sheriff Labrador teaches street and bicycle safety, suiting children and families who want playful learning."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the driving games and the shooters on this page?",
+    "The driving games, such as police chases and parking challenges, focus on steering, speed and precision. The shooters, such as the SWAT titles, focus on tactical combat with weapons and teams."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Safety Sheriff Labrador is made for children and teaches safety tips through play. The chase and shooting games are action games about catching criminals and fighting, so check them before letting younger children play."
+   ],
+   [
+    "How long does a play session take?",
+    "The descriptions don't give a fixed length for most games. SWAT OPS: Body Camera matches last three minutes, and many games are split into levels you can play at your own pace."
+   ]
+  ]
+ },
+ "fruit-games": {
+  "picks": [
+   {
+    "slug": "fruit-slasher",
+    "title": "Fruit Slasher",
+    "line": "A fast 3D slicing arcade where quick finger swipes carve fruit and avoid explosive obstacles, suited to players who enjoy reflex challenges."
+   },
+   {
+    "slug": "watermelon-merge-fruit-drop",
+    "title": "Watermelon Merge: Fruit Drop",
+    "line": "A physics merge puzzle where matching fruits combine into bigger ones, with a rare Golden Seed that upgrades any fruit. Good for puzzle fans."
+   },
+   {
+    "slug": "banana-quest",
+    "title": "Banana Quest",
+    "line": "An endless jungle runner where a monkey collects bananas while dodging spikes and enemies, with simple controls and nonstop action."
+   },
+   {
+    "slug": "makeup-fruits",
+    "title": "Makeup Fruits",
+    "line": "A light, playful dress-up game where you add makeup and accessories to fruit. It suits anyone wanting a relaxed, creative session."
+   },
+   {
+    "slug": "happy-orange-glass",
+    "title": "Happy Orange Glass",
+    "line": "A line-drawing puzzle where you guide juice into a glass while avoiding obstacles. It suits players who like planning their route."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the merge games and the slicing games?",
+    "Merge games have you drop fruit into a box or jar and combine two identical fruits into a larger one. Slicing games ask you to swipe quickly to cut fruit, so they depend more on reflexes."
+   ],
+   [
+    "Which game should a newcomer start with?",
+    "Fruit Slasher is a good first pick if you enjoy quick action. If you prefer thinking things through, try Watermelon Merge: Fruit Drop or Happy Orange Glass."
+   ],
+   [
+    "Are there games here that are calm and relaxed?",
+    "Yes. Watermelon Merging is designed as a calm experience where you tap to merge fruit, and Makeup Fruits is a relaxed dress-up game with no pressure."
+   ]
+  ]
+ },
+ "gun-games": {
+  "picks": [
+   {
+    "slug": "gun-trigger",
+    "title": "Gun Trigger",
+    "line": "A slow-motion action shooter where you play a stylish agent, suited to players who enjoy flashy timing and quick, precise moves."
+   },
+   {
+    "slug": "commando-gun-shooting",
+    "title": "Commando Gun Shooting",
+    "line": "A first-person commando shooter with four battle modes, suited to players who want straightforward military action and bomb-defusing missions."
+   },
+   {
+    "slug": "pixel-gun-apocalypse-9",
+    "title": "Pixel gun apocalypse 9",
+    "line": "A blocky pixel shooter with multiplayer battles and offline zombie missions, suited to players who like simple controls and nonstop shooting with friends."
+   },
+   {
+    "slug": "bullet-factory",
+    "title": "Bullet Factory",
+    "line": "A 3D factory sim and shooter, suited to players who enjoy building up a production line by day and spending their coins on upgrades at night."
+   },
+   {
+    "slug": "snake-of-bullets-collect-and-shoot",
+    "title": "Snake of Bullets: Collect and Shoot!",
+    "line": "A simple, relaxing mix of snake, shooter and runner, suited to younger players and anyone who wants calm, smooth controls."
+   }
+  ],
+  "faq": [
+   [
+    "What should I try first if I'm new to gun games?",
+    "Start with a game that matches your taste: Commando Gun Shooting for first-person military action, or Snake of Bullets for something simple and relaxed. Both are listed on this page as good entry points."
+   ],
+   [
+    "Are these games suitable for children?",
+    "Snake of Bullets is described as one of the best games for children, with simple, smooth controls. Stickman Gun Shooter 3D is not a good fit for younger players, as it warns that it contains blood and shooting."
+   ],
+   [
+    "What is the difference between a shooter and a factory sim like Bullet Factory?",
+    "In a shooter like Commando Gun Shooting you aim and fire directly at enemies. In Bullet Factory, your factory runs by itself during the day, and you spend the coins you earn at night on upgrades for it."
+   ]
+  ]
+ },
+ "boat-and-ship-games": {
+  "picks": [
+   {
+    "slug": "tumble-boat",
+    "title": "Tumble Boat",
+    "line": "A calm, tricky puzzle where you remove blocks without tipping the tower holding your boat. Good for patient thinkers who like careful steps."
+   },
+   {
+    "slug": "boat-merge",
+    "title": "Boat Merge",
+    "line": "A relaxing idle merge game where you combine matching boats to build a bigger fleet. Suits players who want an easygoing pace."
+   },
+   {
+    "slug": "boat-merge-and-race",
+    "title": "Boat Merge & Race",
+    "line": "A 3D arcade race where you merge boats for speed and beat AI rivals. Suits fans of racing who also enjoy collecting and upgrading."
+   },
+   {
+    "slug": "air-assault-ship-defense",
+    "title": "Air Assault: Ship Defense",
+    "line": "You man a twin gun on a WW2 destroyer and shoot down diving planes. Suits players who enjoy aiming and managing gun heat under pressure."
+   },
+   {
+    "slug": "block-ship-battle",
+    "title": "Block Ship Battle",
+    "line": "A fast pirate brawler where your cannons fire to the side, so you must turn and time shots. Suits players who like sea battles and treasure."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the racing and shooting boat games?",
+    "Boat Attack and Boat Merge & Race are racing games where you steer a boat against opponents. Air Assault and Block Ship Battle are combat games where you aim and fire cannons or guns at enemies."
+   ],
+   [
+    "Which boat game should I start with?",
+    "If you like puzzles, start with Tumble Boat, which is steady and rewards careful thinking. If you want something more relaxed, try Boat Merge, where you build your fleet at your own pace."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "The descriptions do not list age ratings. Puzzle and merge games like Tumble Boat and Boat Merge are calm, while Air Assault and Block Ship Battle involve cannons and sinking ships, so check the game before letting children play."
+   ]
+  ]
+ },
+ "doctor-and-hospital-games": {
+  "picks": [
+   {
+    "slug": "emergency-rush-city-ambulance-rescue",
+    "title": "Emergency Rush: City Ambulance Rescue",
+    "line": "A driving game where you race an ambulance through busy city traffic to reach patients, suited to players who like speed and quick route choices."
+   },
+   {
+    "slug": "animal-clinic-anomaly",
+    "title": "Animal Clinic (Anomaly)",
+    "line": "A spooky, funny vet clinic shift where anomalies hide among cute animals, suited to players who enjoy mild horror and careful attention."
+   },
+   {
+    "slug": "hospital-doctor",
+    "title": "Hospital Doctor",
+    "line": "A calm, kid-friendly hospital game where you treat varied patients, master medical tools, and unlock harder cases as you go."
+   },
+   {
+    "slug": "knee-surgery-clicker",
+    "title": "Knee Surgery Clicker",
+    "line": "A silly clicking game where you tap through knee operations and buy upgrades, suited to players who like steady progress and goofy humor."
+   },
+   {
+    "slug": "hospital-surgeon-doctor-game",
+    "title": "Hospital Surgeon: Doctor Game",
+    "line": "A more serious simulation where you diagnose patients and perform heart operations, suited to players who want realistic surgical tasks."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the dental games and the surgery games?",
+    "The dental games focus on cleaning teeth, treating cavities and choosing the right tools for each patient. The surgery games focus on operations, such as heart surgery or knee procedures, and some of them are more serious in tone."
+   ],
+   [
+    "Which games suit kids?",
+    "Hospital Doctor is described as a kid-friendly setting, and Halloween Dentist For Kids 2 features cartoon-style monster patients. Funny Nose Surgery is also light-hearted and simple to play."
+   ],
+   [
+    "What is a good game to start with if I am new to this kind of game?",
+    "Try a simple, friendly game first, such as Hospital Doctor or Emergency Rush. Both have clear goals and let you learn the tools and tasks step by step."
+   ]
+  ]
+ },
+ "fish-games": {
+  "picks": [
+   {
+    "slug": "fish-rain",
+    "title": "Fish Rain",
+    "line": "A realistic angling game with varied global locations and bait choices, best for patient players who enjoy learning each fish."
+   },
+   {
+    "slug": "big-shark",
+    "title": "Big Shark",
+    "line": "Simple tap-to-move controls make this an easy start: eat smaller fish to grow and dodge bigger threats."
+   },
+   {
+    "slug": "aquarium-of-surprises",
+    "title": "Aquarium of Surprises",
+    "line": "A calm idle game where fish earn coins while you decorate a tank, suited to players who want to relax."
+   },
+   {
+    "slug": "fish-sort-puzzle",
+    "title": "Fish Sort Puzzle",
+    "line": "A colorful sorting puzzle where you plan moves carefully, good for anyone who likes thinking through small tricks."
+   },
+   {
+    "slug": "shoot-some-fish",
+    "title": "Shoot Some Fish!",
+    "line": "A worm with a harpoon fights through 10 levels of growing, smarter fish, suiting players who enjoy quick reflexes."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the shark games and the fishing games?",
+    "The shark games, such as Big Shark and Angry Sharks, are about eating smaller creatures to grow while avoiding danger. The fishing games, such as Fish Rain, focus on patience, bait choice and catching each kind of fish."
+   ],
+   [
+    "Which fish games are the most relaxing to play?",
+    "Aquarium of Surprises is a calm idle game where fish swim and earn coins while you decide what to add. Fish Sort Puzzle is also gentle, since you simply sort fish into matching tanks."
+   ],
+   [
+    "How long does a play session usually take?",
+    "The descriptions do not give session lengths. Games with levels, like Shoot Some Fish! with its 10 levels, can be played in short bursts, while idle games like Aquarium of Surprises can be left running."
+   ]
+  ]
+ },
+ "brainrot-games": {
+  "picks": [
+   {
+    "slug": "break-a-lucky-egg-brainrots",
+    "title": "Break a Lucky Egg Brainrots",
+    "line": "A fast collection game mixing reflexes with planning, where you break eggs and carry rare characters back to base before time runs out."
+   },
+   {
+    "slug": "brainrots-merge",
+    "title": "Brainrots Merge",
+    "line": "A slower merge-and-battle game where you combine characters and fight other players, suited to anyone who likes building up a collection."
+   },
+   {
+    "slug": "brainrots-dress-up-and-interior-design",
+    "title": "Brainrots: Dress Up & Interior Design",
+    "line": "A calm dress-up and interior design game with six popular heroes, good for anyone who wants a creative, low-pressure session."
+   },
+   {
+    "slug": "baby-brainrots-multiplayer-with-friends",
+    "title": "Baby Brainrots - Multiplayer with Friends!",
+    "line": "A multiplayer game where you explore islands, find baby Brainrots and make friends, ideal for playing with others."
+   },
+   {
+    "slug": "obby-parkour-sleeping-brainrots",
+    "title": "Obby Parkour: Sleeping Brainrots",
+    "line": "An arcade parkour game where you run and dodge sleepers while a huge threat closes in, suited to players who enjoy quick reflex tests."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the escape games and the obby games on this page?",
+    "Escape games such as Escape from Wave for Brainrots or Escape Police for Brainrots have you running from a wave, a tsunami or the police while you grab Brainrots. Obby games such as Ride a Bike for Brainrots are obstacle courses where one mistake sends you into the void or back to the start."
+   ],
+   [
+    "Which brainrot games are the calmest to start with?",
+    "Brainrots Merge, Brainrots: Dress Up & Interior Design and Baby Brainrots are the most relaxed options here. They focus on merging, decorating or exploring rather than racing against a timer or danger."
+   ],
+   [
+    "What makes a good brainrot game?",
+    "The best ones on this page combine collecting with a clear challenge, like a rising wave, a timer or a tricky jump. The games with upgrades and bases give you a steady sense of progress as you play."
+   ]
+  ]
+ },
+ "open-world-games": {
+  "picks": [
+   {
+    "slug": "noob-in-mine-sandbox-and-craft",
+    "title": "Noob in Mine - Sandbox & Craft",
+    "line": "A huge block-building world where you can build cities, explore caves, or switch on survival mode. Good for patient builders and explorers."
+   },
+   {
+    "slug": "kick-the-zombie-ragdoll-sandbox",
+    "title": "Kick the Zombie: Ragdoll Sandbox",
+    "line": "A silly ragdoll toy where you fling, kick and bonk a cartoon zombie with all sorts of tools. Good for anyone who wants to laugh and experiment."
+   },
+   {
+    "slug": "drift-race-in-the-open-world",
+    "title": "Drift Race in the Open World",
+    "line": "A street racer where you drift through urban landscapes, customize your ride and chase the clock. Good for fans of driving and precise handling."
+   },
+   {
+    "slug": "battle-simulator-sandbox",
+    "title": "Battle Simulator - Sandbox",
+    "line": "A strategy game where you build a custom army and test troops in many battles. Good for players who enjoy planning and tactics."
+   },
+   {
+    "slug": "dead-lands-driver-open-world",
+    "title": "Dead Lands Driver Open World",
+    "line": "A post-apocalyptic driving game across an open world of empty roads and zombie hordes. Good for players who like survival and tough driving."
+   }
+  ],
+  "faq": [
+   [
+    "What's the difference between a ragdoll sandbox and a driving game on this page?",
+    "Ragdoll sandboxes like Avocado Yard and Kick the Zombie let you play with floppy characters and physics, mostly for experimenting and messing about. Driving games like Drift Race or Car Crash Sandbox focus on vehicles, racing, or smashing cars on slopes and obstacles."
+   ],
+   [
+    "What should a first-time visitor try?",
+    "Start with Kick the Zombie for quick, silly physics fun, or Noob in Mine if you want to build and explore a big 3D world. Both let you experiment at your own pace."
+   ],
+   [
+    "Are there games here with a survival or mission side?",
+    "Yes. Noob in Mine has a survival mode where zombies and monsters come out at night. Survival Sandbox for 99 Nights asks you to find four missing children in a forest before time runs out."
+   ]
+  ]
+ },
+ "autumn-games": {
+  "picks": [
+   {
+    "slug": "hedgehog-go-home",
+    "title": "Hedgehog Go Home",
+    "line": "A relaxing puzzle where you plan routes and push obstacles to bring the hedgehog home, with levels that grow gradually harder."
+   },
+   {
+    "slug": "leaf-blower-tycoon",
+    "title": "Leaf Blower Tycoon",
+    "line": "A leaf-cleaning business game where you reinvest earnings in better blowers and workers. Good for players who enjoy steady upgrades."
+   },
+   {
+    "slug": "pumpkin-ninja",
+    "title": "Pumpkin Ninja",
+    "line": "A fast Halloween arcade game where you slice flying pumpkins and build combos while avoiding bombs. Suits quick reflexes."
+   },
+   {
+    "slug": "mushroom-runners",
+    "title": "Mushroom Runners",
+    "line": "A fast endless runner where you dodge obstacles, crush enemies and grow bigger by collecting mushrooms."
+   },
+   {
+    "slug": "mushroom-hunting-forest-search",
+    "title": "Mushroom Hunting: Forest Search",
+    "line": "A calm hidden object game set in forests, where you find mushrooms among leaves and grass. Suits slow, quiet play."
+   }
+  ],
+  "faq": [
+   [
+    "What kinds of autumn and Halloween games are on this page?",
+    "The page mixes fast arcade games like Pumpkin Ninja and Mushroom Runners, puzzles like Hedgehog Go Home, hidden object and farming games, and idle tap games like Harvest Haulers."
+   ],
+   [
+    "Which games are relaxed and which are fast?",
+    "Hedgehog Go Home, Mushroom Hunting and the leaf-cleaning games are calm and steady. Pumpkin Ninja, Mushroom Runners and Telekinetic Pumpkin are faster and need quick reactions."
+   ],
+   [
+    "What is an idle game, and how is it different from an arcade game?",
+    "In idle games such as Harvest Haulers and Veggie Harvest, you tap or drag to earn money and upgrade over time. Arcade games like Pumpkin Ninja focus on quick reactions in the moment."
+   ]
+  ]
+ },
+ "home-design-games": {
+  "picks": [
+   {
+    "slug": "dream-room",
+    "title": "Dream Room",
+    "line": "A open-ended room designer with over 250 items across six rooms, ideal if you want total freedom to decide what goes where."
+   },
+   {
+    "slug": "room-makeover-design-and-aesthetic",
+    "title": "Room Makeover: Design And Aesthetic",
+    "line": "A calm unpacking-and-placing game where you style empty rooms in different looks, suited to anyone who enjoys tidy, cozy interiors."
+   },
+   {
+    "slug": "dream-castle",
+    "title": "Dream Castle",
+    "line": "A match-3 puzzle game where you earn coins to restore a castle, good for players who like puzzles mixed with redecorating."
+   },
+   {
+    "slug": "home-decor-clicker",
+    "title": "Home Decor Clicker",
+    "line": "A relaxing idle clicker where you tap your house to earn money and unlock furniture, suited to slow, low-pressure play."
+   },
+   {
+    "slug": "kiki-world-kawaii-doll-decor",
+    "title": "Kiki World: Kawaii Doll Decor",
+    "line": "A makeover game about cleaning out cluttered rooms and arranging stylish furniture, a good pick for players who enjoy transforming spaces."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between match-3 design games and decorating-only games?",
+    "Match-3 games such as Dream Castle and Home Design - Match 3 add puzzles that earn you coins or rewards for decor. Decorating-only games such as Dream Room and Room Makeover focus on choosing and placing furniture without a puzzle layer."
+   ],
+   [
+    "Which game should I start with if I only want to decorate?",
+    "Room Makeover is a good first choice for a calm, step-by-step style of play. Dream Room is a better pick if you want to arrange a wide range of items freely in several rooms."
+   ],
+   [
+    "What is a clicker game on this page?",
+    "Home Decor Clicker is a game where you tap your house to earn gold. You spend that gold to upgrade the home and unlock new furniture and decorations as your income grows."
+   ]
+  ]
+ },
+ "evolution-games": {
+  "picks": [
+   {
+    "slug": "age-evolution-run",
+    "title": "Age Evolution Run",
+    "line": "A fast runner that sprints through human history, dodging obstacles and gaining new abilities in each era. Good for quick, action-packed sessions."
+   },
+   {
+    "slug": "animal-evolution-simulator",
+    "title": "Animal Evolution Simulator",
+    "line": "A slower simulator where you grow from a worm, choosing between stealthy hunting and defending territory. Suits players who like planning their own path."
+   },
+   {
+    "slug": "evolution-of-hamster-clicker",
+    "title": "Evolution of hamster - Clicker",
+    "line": "A simple clicker where you tap your way up a huge points total as a hamster. Suits anyone who enjoys steady, low-pressure progress."
+   },
+   {
+    "slug": "stampede-evolution",
+    "title": "Stampede Evolution",
+    "line": "A 3D platformer where you lead a growing herd through varied biomes, evolving from squirrel to lion. Suits players who enjoy exploring open nature scenes."
+   },
+   {
+    "slug": "evolution-survival",
+    "title": "Evolution: Survival",
+    "line": "A survival game that starts as a single cell and lets you pick mutations as you evolve. Suits players who like choosing upgrades and reshaping their creature."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a runner and a clicker in these games?",
+    "Runner games like Age Evolution Run have you dash and dodge obstacles in real time. Clicker games like Evolution of hamster ask you to tap repeatedly to build up points over time."
+   ],
+   [
+    "Which game should I try first?",
+    "Start with Animal Evolution Simulator if you like growing through your own choices, or Age Evolution Run if you want fast, simple action. Both show the evolution theme clearly."
+   ],
+   [
+    "Do any of these games involve fighting?",
+    "Yes. In Evolution: Survival you defeat enemies to collect DNA, Animal Evolution Simulator has you fight predators, and Ultimate Evolution includes player-versus-player arena battles."
+   ]
+  ]
+ },
+ "sandbox-games": {
+  "picks": [
+   {
+    "slug": "avocado-yard-ragdoll-sandbox",
+    "title": "Avocado Yard: Ragdoll Sandbox",
+    "line": "A floppy-avocado toy box where you build with crates, ropes and trampolines, then throw, zap and cannon-blast your way through the yard."
+   },
+   {
+    "slug": "playground-man-ragdoll-show",
+    "title": "Playground Man! Ragdoll Show!",
+    "line": "A calm ragdoll puzzle playground with a wooden stickman, suited to players who like physics puzzles more than fast action."
+   },
+   {
+    "slug": "battle-simulator-sandbox",
+    "title": "Battle Simulator - Sandbox",
+    "line": "Build a custom army and test tactics across many scenarios, a good pick for strategy fans who enjoy planning."
+   },
+   {
+    "slug": "noob-in-mine-sandbox-and-craft",
+    "title": "Noob in Mine - Sandbox & Craft",
+    "line": "A block-building world for creating houses and cities, with an optional survival mode for players who want a challenge."
+   },
+   {
+    "slug": "car-crash-sandbox",
+    "title": "Car Crash Sandbox",
+    "line": "A high-speed car crash simulator where you launch vehicles down slopes and watch detailed damage, for fans of realistic physics."
+   }
+  ],
+  "faq": [
+   [
+    "What's the difference between a ragdoll sandbox and a block sandbox?",
+    "Ragdoll sandboxes like Avocado Yard and Kick the Zombie are physics toy boxes built around floppy characters you can throw, stack and break. Noob in Mine is a block world where you build houses, castles and cities, and explore caves and forests."
+   ],
+   [
+    "What makes a good sandbox game?",
+    "Freedom to experiment is the main thing. Look for a wide set of tools and objects, such as Avocado Yard's crates, ropes, fans and cannon, or Last Play's building tools and environments."
+   ],
+   [
+    "Which one should I start with if I just want to mess around?",
+    "Avocado Yard or Kick the Zombie are good first choices. Both are built for experimenting with physics and seeing what happens when you throw, drop or combine things."
+   ]
+  ]
+ },
+ "flag-and-geography-games": {
+  "picks": [
+   {
+    "slug": "flag-memory-match",
+    "title": "Flag Memory Match",
+    "line": "A memory card game across flags from 98 countries, with six levels that get harder. Good for anyone who wants to train recall."
+   },
+   {
+    "slug": "world-flags-quiz",
+    "title": "World Flags Quiz",
+    "line": "A fast, simple quiz where you match countries to their flags one at a time. Suits players who like quick rounds and clear goals."
+   },
+   {
+    "slug": "flag-painting-game",
+    "title": "Flag Painting Game",
+    "line": "A relaxed coloring game where you fill in national flags with bright colors. Best for players who want to unwind without being tested."
+   },
+   {
+    "slug": "geovex-daily-geography-challenge",
+    "title": "GeoVex - Daily Geography Challenge",
+    "line": "A daily map puzzle where you locate each flag's country on the globe. Suits geography fans who enjoy a fresh challenge each day."
+   },
+   {
+    "slug": "flag-learn",
+    "title": "Flag Learn",
+    "line": "A learning-focused quiz that repeats the flags you struggle with until you know them. Good for anyone who wants to memorize flags and capitals."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the memory games and the quiz games?",
+    "Memory games such as Flag Memory Match ask you to flip cards and find matching pairs. Quiz games such as World Flags Quiz ask you to pick the correct flag or country, so they test what you already know."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Coloring games like Flag Painting Game are relaxed and bright, so they suit a slower pace. Quiz and map games take more geography knowledge, so they may suit older players better."
+   ],
+   [
+    "Which game should I try first?",
+    "Flag Memory Match is a good starting point, since it has six levels that increase in difficulty. If you want something calm with no testing, try Flag Painting Game instead."
+   ]
+  ]
+ },
+ "ragdoll-games": {
+  "picks": [
+   {
+    "slug": "avocado-yard-ragdoll-sandbox",
+    "title": "Avocado Yard: Ragdoll Sandbox",
+    "line": "A creative sandbox where you build with crates, ropes, and trampolines, then make floppy avocados dance, run, and backflip. Good for tinkerers."
+   },
+   {
+    "slug": "playground-man-ragdoll-show",
+    "title": "Playground Man! Ragdoll Show!",
+    "line": "A calm physics puzzle game with wooden stickmen and plenty of destruction. Suits players who like solving problems at their own pace."
+   },
+   {
+    "slug": "ragdoll-mega-dunk",
+    "title": "Ragdoll Mega Dunk",
+    "line": "A quirky 3D basketball game where you guide a ragdoll through obstacle courses for the perfect dunk. Suits players who enjoy timing and trial and error."
+   },
+   {
+    "slug": "ragdoll-racing-extreme-downhill",
+    "title": "Ragdoll Racing: Extreme Downhill!",
+    "line": "A fast downhill race with a ragdoll stickman on steep slopes and sharp turns. Suits players who like speed and quick reactions."
+   },
+   {
+    "slug": "epic-sword-battle-fight-in-the-ragdoll-arena",
+    "title": "Epic Sword Battle! Fight in the Ragdoll Arena!",
+    "line": "A 3D sword-fighting game in a ragdoll arena, where each blow matters and duels get funny physics. Suits players who want head-to-head action."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good ragdoll game?",
+    "Good ones let the physics do the work, so bodies flop, tumble, and react in ways you did not plan. Sandbox games give you the most freedom, while puzzle and racing games add goals to aim for."
+   ],
+   [
+    "What is the difference between a sandbox and a puzzle game here?",
+    "A sandbox like Avocado Yard or Jelly Sandbox Playground lets you build and experiment with no set goal. Puzzle games such as Playground Man! Ragdoll Show! give you challenges to solve with the same physics."
+   ],
+   [
+    "Are these games suitable for kids, and how long does a session take?",
+    "Kick the Zombie is a goofy, light-hearted toy, while many games here involve shooting, fighting, or crashes. Mini-game collections like Fun Ragdoll Challenge! are built around short levels, so you can play in quick bursts."
+   ]
+  ]
+ },
+ "cleaning-games": {
+  "picks": [
+   {
+    "slug": "car-wash-idle",
+    "title": "Car Wash Idle",
+    "line": "A 3D car wash business game where you clean cars, unlock stations and upgrade gear. Good for players who like steady growth and management."
+   },
+   {
+    "slug": "tidy-bot",
+    "title": "Tidy Bot",
+    "line": "A relaxing robot vacuum game with 30 handmade rooms and an Endless mode. Suits players who enjoy gentle puzzles and tidy, step-by-step progress."
+   },
+   {
+    "slug": "wash-master",
+    "title": "Wash Master",
+    "line": "A first-person pressure washer game where you blast away mud to reveal bright colors. Suits anyone who wants a calm, satisfying cleaning session."
+   },
+   {
+    "slug": "clean-kitty",
+    "title": "Clean Kitty",
+    "line": "A physics puzzle where you draw ramps and funnels to guide water into a bathtub. Suits players who like thinking ahead with limited ink."
+   },
+   {
+    "slug": "pretty-tidy-asmr-organizing",
+    "title": "Pretty Tidy - ASMR Organizing",
+    "line": "A cozy ASMR game of clicking, dragging and sorting messy spaces into tidy ones. Suits players who want a quiet, de-stressing break."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the idle games and the ASMR tidy games?",
+    "Idle and tycoon games like Car Wash Idle and Leaf Blower Tycoon focus on earning money, upgrading equipment and growing a business. ASMR tidy games like Pretty Tidy and Tidy Up focus on calm clicking, dragging and sorting with little pressure."
+   ],
+   [
+    "Which game should a newcomer start with?",
+    "Pretty Tidy or Wash Master are good first choices if you want something relaxing. Car Wash Idle is a good pick if you like building up a business over time."
+   ],
+   [
+    "How long does a play session take?",
+    "The descriptions do not give exact session lengths. Many games here are split into levels or small puzzles, such as Clean Kitty and Tidy Bot, so you can play in short bursts or for longer."
+   ]
+  ]
+ },
+ "pet-and-vet-games": {
+  "picks": [
+   {
+    "slug": "kind-shelter-animal-care-and-treatment",
+    "title": "Kind Shelter - Animal Care and Treatment",
+    "line": "A relaxing hands-on vet game where you examine, bathe, and dress up pets. Good for anyone who wants calm, cozy animal care."
+   },
+   {
+    "slug": "animal-care-tycoon",
+    "title": "Animal Care Tycoon",
+    "line": "A hospital-building game where you grow a small treatment room into a city's biggest vet center. Suits fans of management and steady progress."
+   },
+   {
+    "slug": "save-the-puppy-remove-the-screws",
+    "title": "Save the Puppy: Remove the Screws",
+    "line": "A colorful screw puzzle where you clear pieces to free a puppy. Best for players who enjoy thinking a few moves ahead."
+   },
+   {
+    "slug": "save-kitten",
+    "title": "Save kitten",
+    "line": "A fast catching game where you bounce kittens into a basket on a trampoline. Suits players who like quick reflexes and leaderboards."
+   },
+   {
+    "slug": "find-the-pets",
+    "title": "Find The Pets",
+    "line": "A 3D search game with 150 hidden pets across maps, including meme favorite Floppa. Good for explorers who like finding things."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between a vet care game and an idle tycoon game?",
+    "Vet care games like Kind Shelter have you examine, treat, and groom the animals yourself. Tycoon games like Animal Care Tycoon have you build and manage a growing hospital, earning coins and unlocking better medicine."
+   ],
+   [
+    "Which games on this page suit kids?",
+    "Hatch Surprise Pets describes itself as a virtual pet care game for girls and boys. Save the Puppy is a colorful puzzle, and Find The Pets is a light search game with lots of quirky animals."
+   ],
+   [
+    "Are there games where you rescue animals from danger instead of caring for them?",
+    "Yes. Save the Kitten and Save kitten have you catch falling kittens, and Save The Pets: Draw to Save asks you to draw lines that block bees from a dog."
+   ]
+  ]
+ },
+ "jewel-and-gem-games": {
+  "picks": [
+   {
+    "slug": "jewel-coloring-crystal-sorting",
+    "title": "Jewel Coloring: Crystal Sorting",
+    "line": "A calm color-sorting puzzle where each correct move brightens a crystal picture. Suits players who want something gentle and satisfying."
+   },
+   {
+    "slug": "jewel-box-block-puzzle",
+    "title": "Jewel Box: Block Puzzle",
+    "line": "A cozy block puzzle with 300 adventure levels plus endless play. Good for fans who want a long run of drag-and-drop puzzling."
+   },
+   {
+    "slug": "alchemist-lab-jewel-crush",
+    "title": "Alchemist Lab - Jewel Crush",
+    "line": "A match-3 game with more than 100 levels and jewel bonuses to build toward. Suits people who enjoy classic matching with a bit of progression."
+   },
+   {
+    "slug": "gem-clicker",
+    "title": "Gem Clicker",
+    "line": "A relaxed clicker where you crack gems, buy upgrades and automate income. Suits players who like planning and steady, low-pressure progress."
+   },
+   {
+    "slug": "paint-with-diamonds",
+    "title": "Paint with Diamonds",
+    "line": "A creative diamond-painting game with stunning themes and a slow, meticulous pace. Suits people who enjoy quiet, artistic play."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the match games and the block puzzles on this page?",
+    "Match games ask you to line up or match jewels on a board, while block puzzles have you drop jewel pieces onto a grid to clear full rows and columns."
+   ],
+   [
+    "Which game should a newcomer start with?",
+    "Jewel Coloring: Crystal Sorting is a gentle first pick, since it is simple to control and rewards every correct move. If you want a longer run afterwards, try Jewel Box: Block Puzzle with its 300 levels."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "Kitty Jewel Quest is described as fun for all ages, and many others on the page are simple, relaxing puzzles. Each game's description is the best guide, since not every one mentions an age group."
+   ]
+  ]
+ },
+ "preschool-and-learning-games": {
+  "picks": [
+   {
+    "slug": "alphabet-writing-for-kids",
+    "title": "Alphabet Writing for Kids",
+    "line": "A good first choice for letter learning: children trace letters with guidance, hear phonetic sounds, and earn stickers as they go."
+   },
+   {
+    "slug": "kindergarten-kids-learning-games",
+    "title": "Kindergarten Kids Learning Games",
+    "line": "A broad starter for toddlers and preschoolers, covering alphabet, shapes, counting, tracing, and body parts in one place."
+   },
+   {
+    "slug": "kids-flurry-educational-puzzle-game",
+    "title": "Kids Flurry Educational Puzzle Game",
+    "line": "A detective-style puzzle for kids who like spotting hidden animals and noticing small color and shape differences."
+   },
+   {
+    "slug": "cookie-maker-for-kids",
+    "title": "Cookie Maker for Kids",
+    "line": "A pretend-play pick for little ones who enjoy rolling, shaping, baking, and decorating, with simple controls and no reading needed."
+   },
+   {
+    "slug": "halloween-dentist-for-kids-2",
+    "title": "Halloween Dentist For Kids 2",
+    "line": "A silly role-play game for children who enjoy caring for characters, matching dental tools to problems and cleaning teeth."
+   }
+  ],
+  "faq": [
+   [
+    "What makes a good game on this page for kindergarten learning?",
+    "Look for games that teach one clear skill, such as letters, counting, or shapes, with simple controls. Games like Alphabet Writing for Kids and Kindergarten Kids Learning Games are built around exactly those skills."
+   ],
+   [
+    "What is the difference between the learning games and the play games here?",
+    "Learning games such as the alphabet tracer or the detective puzzle focus on a specific skill. Play games such as Cookie Maker for Kids or Coloring Book For Kids Game focus on creativity and imagination, with less of a lesson."
+   ],
+   [
+    "How long does a session last, and are these suitable for young children?",
+    "The descriptions do not state how long a session takes. Most are designed for toddlers and preschool or kindergarten children, and several involve simple, playful tasks that suit that age."
+   ]
+  ]
+ },
+ "steal-and-thief-games": {
+  "picks": [
+   {
+    "slug": "heist-idle",
+    "title": "Heist Idle",
+    "line": "A 3D idle heist where you rob stores, banks and museums, dodge lasers and upgrade your crew. Good for players who like steady progress."
+   },
+   {
+    "slug": "thief-puzzle-long-hand-game",
+    "title": "Thief Puzzle Long Hand Game",
+    "line": "A puzzle game where you control a thief with a very long, flexible hand, reaching past traps and guards. Suits players who enjoy careful, thoughtful problem solving."
+   },
+   {
+    "slug": "stealth-robbery-of-a-house-together",
+    "title": "Stealth robbery of a house together",
+    "line": "A stealth robbery where you hide from guards and load furniture and valuables into a van. Best with a friend sharing one device."
+   },
+   {
+    "slug": "egg-thief",
+    "title": "Egg Thief",
+    "line": "A one-finger 3D stealth chase: tiptoe quietly past a sleeping guardian, then sprint home with its egg. Suits players who like tense, quiet sneaking."
+   },
+   {
+    "slug": "duckling-rush-io",
+    "title": "Duckling Rush.io",
+    "line": "A cute pond arcade where you race as a mama duck, collecting ducklings and cutting rivals' lines. Suits lighthearted players who like quick, playful races."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between the egg games and the heist or puzzle games?",
+    "The egg games are chases where you steal eggs, hatch pets and race them back to a base, often with a collection to grow. The heist and puzzle games focus on sneaking, grabbing loot and solving each level's layout."
+   ],
+   [
+    "Can I play with a friend?",
+    "Yes, the stealth robbery game lets you play with a friend on the same device, or alone. Steal an Egg 3D lets you play solo against rival bots."
+   ],
+   [
+    "What makes a good game to start with on this page?",
+    "Pick one that matches the kind of play you enjoy: quiet sneaking, puzzles, or fast chases. Short levels, like those in the puzzle games, are an easy way to get used to the controls."
+   ]
+  ]
+ },
+ "bee-and-insect-games": {
+  "picks": [
+   {
+    "slug": "bumbly-bee",
+    "title": "Bumbly Bee",
+    "line": "A cheerful bee collecting game with 40 levels, where you gather honey while dodging wildlife. Good for players who enjoy gentle exploring."
+   },
+   {
+    "slug": "bee-careful",
+    "title": "Bee Careful",
+    "line": "A charming arcade game where you dodge predators and collect pollen with power-ups. Suits players who like quick, fast-paced levels."
+   },
+   {
+    "slug": "bee-swarm",
+    "title": "Bee Swarm",
+    "line": "A relaxing 3D bee simulator where you collect pollen and make honey at your hive. Suits anyone who likes calm, steady progress."
+   },
+   {
+    "slug": "ant-moving-simulator",
+    "title": "Ant Moving Simulator",
+    "line": "A colorful puzzle game with 2,200 levels of block clearing and careful planning. Suits players who enjoy thinking ahead."
+   },
+   {
+    "slug": "bug-crunch",
+    "title": "Bug Crunch",
+    "line": "A silly, fast tapping game where you squish bugs under a shoe and chase a rising multiplier. Suits players who want quick, bouncy action."
+   }
+  ],
+  "faq": [
+   [
+    "What is the difference between clicker games and action games on this page?",
+    "Clicker and idle games, such as Insect Clicker and Bee Rise, grow over time as you tap, upgrade and gather resources. Action games, such as Warrior Bee Apocalypse and Bouncing Bug, ask you to dodge and react in real time."
+   ],
+   [
+    "Which game should I try first?",
+    "Bumbly Bee is a good start if you want a simple bee game with clear goals. If you prefer thinking over reflexes, try Ant Moving Simulator, which has a long run of puzzle levels."
+   ],
+   [
+    "Are these games suitable for kids?",
+    "The LadyBug Jigsaw Puzzle Collection is described as fun for girls who like cartoons, and the puzzles are a gentle choice. The other descriptions do not list an age group, so check each game before letting younger players start."
+   ]
+  ]
+ }
+}
