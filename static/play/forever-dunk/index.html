@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="theme-color" content="#0c0a1c">
+<title>Forever Dunk</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="stage">
+  <canvas id="game"></canvas>
+
+  <!-- In-game HUD -->
+  <div id="hud" class="hidden">
+    <div id="hudScore">0</div>
+    <div class="hud-under"><div id="streak"></div><div id="hudCombo" class="hidden"></div></div>
+    <div class="hud-right">
+      <div id="hudLives"></div>
+      <button id="btnPause" class="icon-btn" aria-label="Pause">
+        <svg viewBox="0 0 24 24"><rect x="6" y="5" width="4" height="14" rx="1.5"/><rect x="14" y="5" width="4" height="14" rx="1.5"/></svg>
+      </button>
+    </div>
+    <div id="hudPowers"></div>
+    <div id="hudDaily" class="hidden"></div>
+    <div id="rageBadge" class="hidden">RAGE MODE ×2</div>
+    <div id="hint" class="hidden"></div>
+  </div>
+
+  <!-- Main menu -->
+  <div id="menu" class="screen">
+    <div class="menu-top">
+      <div class="coin-chip"><i class="coin"></i><span id="menuCoins">0</span></div>
+      <button id="btnGift" class="gift-btn hidden" aria-label="Daily gift">
+        <svg viewBox="0 0 24 24"><path d="M3 10h18v4H3zM5 14h14v7H5z"/><path d="M12 10v11" stroke="#ff5a1f" stroke-width="2"/><path d="M12 10c-2-4-6-5-6-2s4 2 6 2zm0 0c2-4 6-5 6-2s-4 2-6 2z"/></svg>
+        <span>GIFT</span>
+      </button>
+    </div>
+    <img src="assets/logo.png" class="logo" alt="Forever Dunk">
+    <div class="menu-stage" aria-hidden="true"></div>
+    <button id="btnPlay" class="play-btn"><svg viewBox="0 0 24 24"><path d="M8 5.5v13a1 1 0 0 0 1.5.86l10.4-6.5a1 1 0 0 0 0-1.72L9.5 4.64A1 1 0 0 0 8 5.5z"/></svg>PLAY</button>
+    <button id="btnDaily" class="daily-btn"><span class="d-title">DAILY CHALLENGE</span><span id="dailyInfo" class="d-info"></span></button>
+    <div class="records">
+      <div class="chip"><span class="lbl">BEST</span><span id="menuBest">0</span></div>
+      <div class="chip"><span class="lbl">LONGEST</span><span id="menuDist">0 m</span></div>
+    </div>
+    <div class="dock">
+      <button id="btnSkins" class="dock-btn"><span class="dock-ico ball"><img id="dockBall" alt=""></span><span>SHOP</span></button>
+      <button id="btnMissions" class="dock-btn"><span class="dock-ico">
+        <svg viewBox="0 0 24 24"><path d="M9 4h6v2h3a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h3z"/><path d="M8.5 13l2.5 2.5 5-5" fill="none" stroke="#241a52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </span><span>MISSIONS</span></button>
+      <button id="btnStats" class="dock-btn"><span class="dock-ico">
+        <svg viewBox="0 0 24 24"><path d="M4 20V11h3v9H4zm6 0V7h3v13h-3zm6 0v-6h3v6h-3z"/></svg></span><span>STATS</span></button>
+      <button id="btnSettings" class="dock-btn"><span class="dock-ico">
+        <svg viewBox="0 0 24 24"><path d="M19.4 13a7.5 7.5 0 0 0 0-2l2-1.6-2-3.4-2.4 1a7 7 0 0 0-1.7-1L15 3.5h-4l-.4 2.5a7 7 0 0 0-1.7 1l-2.4-1-2 3.4 2 1.6a7.5 7.5 0 0 0 0 2l-2 1.6 2 3.4 2.4-1a7 7 0 0 0 1.7 1l.4 2.5h4l.4-2.5a7 7 0 0 0 1.7-1l2.4 1 2-3.4-2-1.6zM13 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7z" transform="translate(-1 0)"/></svg></span><span>SETTINGS</span></button>
+    </div>
+    <div id="adMenu" class="ad-slot" hidden></div>
+  </div>
+
+  <!-- Continue (rewarded ad) -->
+  <div id="cont" class="screen modal hidden">
+    <div class="panel">
+      <h2>CONTINUE?</h2>
+      <div class="cont-ring"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="44" class="track"/><circle id="contArc" cx="50" cy="50" r="44" class="arc"/></svg><span id="contNum">5</span></div>
+      <button id="btnContinue" class="big-btn ad-btn"><svg viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="M10 9.2v5.6l4.8-2.8z" fill="#ff5a1f"/></svg>+1 LIFE</button>
+      <div class="cont-note">Watch a short ad to keep your run going</div>
+      <button id="btnNoThanks" class="ghost-btn">NO THANKS</button>
+    </div>
+  </div>
+
+  <!-- Pause -->
+  <div id="pause" class="screen modal hidden">
+    <div class="panel">
+      <h2>PAUSED</h2>
+      <div id="pauseMissions" class="mission-list compact"></div>
+      <button id="btnResume" class="big-btn">RESUME</button>
+      <button id="btnPauseHome" class="ghost-btn">MAIN MENU</button>
+    </div>
+  </div>
+
+  <!-- Game over -->
+  <div id="over" class="screen modal hidden">
+    <div class="panel">
+      <h2 id="overTitle">GAME OVER</h2>
+      <div class="result">
+        <div class="res"><span class="lbl">SCORE</span><span id="overScore">0</span><span id="overScoreRec" class="rec hidden">NEW RECORD!</span></div>
+        <div class="res"><span class="lbl">DISTANCE</span><span id="overDist">0 m</span><span id="overDistRec" class="rec hidden">NEW RECORD!</span></div>
+      </div>
+      <div id="overZone"></div>
+      <div class="coins-row">
+        <div class="coins-earned"><i class="coin"></i><span id="overCoins">+0</span></div>
+        <button id="btnDouble" class="ad-pill hidden"><svg viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="M10 9.2v5.6l4.8-2.8z" fill="#ff5a1f"/></svg>×2 COINS</button>
+      </div>
+      <div id="unlockBox" class="hidden"></div>
+      <button id="btnAgain" class="big-btn">PLAY AGAIN</button>
+      <button id="btnOverHome" class="ghost-btn">MAIN MENU</button>
+    </div>
+    <div id="adOver" class="ad-slot" hidden></div>
+  </div>
+
+  <!-- Shop / skins -->
+  <div id="skins" class="screen modal hidden">
+    <div class="panel wide">
+      <div class="shop-head">
+        <button id="btnSkinsBack" class="back-btn" aria-label="Back"><svg viewBox="0 0 24 24"><path d="M15 4L7 12l8 8"/></svg></button>
+        <div class="coin-chip small"><i class="coin"></i><span id="shopCoins">0</span></div>
+      </div>
+      <div class="tabs">
+        <button class="tab" data-tab="ball">BALLS</button>
+        <button class="tab" data-tab="basket">HOOPS</button>
+        <button class="tab" data-tab="line">LINES</button>
+      </div>
+      <div class="preview-wrap"><canvas id="skinPreview" width="300" height="300"></canvas></div>
+      <div id="skinName"></div>
+      <div class="ach">
+        <img id="achIcon" alt="">
+        <div class="ach-body">
+          <div id="achText"></div>
+          <div class="bar"><div id="achFill"></div></div>
+          <div id="achStatus"></div>
+        </div>
+      </div>
+      <button id="btnBuy" class="buy-btn hidden"></button>
+      <div id="skinGrid"></div>
+    </div>
+  </div>
+
+  <!-- Missions -->
+  <div id="missions" class="screen modal hidden">
+    <div class="panel">
+      <h2>MISSIONS</h2>
+      <div id="missionList" class="mission-list"></div>
+      <div class="cont-note">Finish a mission to earn coins. A new one appears right away.</div>
+      <button id="btnMissionsBack" class="big-btn">OK</button>
+    </div>
+  </div>
+
+  <!-- Daily challenge -->
+  <div id="dailyPanel" class="screen modal hidden">
+    <div class="panel">
+      <h2>DAILY CHALLENGE</h2>
+      <div class="daily-body">
+        <p>Today's course is the same for every player. Score <b id="dailyGoal"></b> baskets to earn <b class="coin-inline"><i class="coin"></i><span id="dailyReward"></span></b>.</p>
+        <div class="daily-stats"><div><span class="lbl">TODAY'S BEST</span><span id="dailyBest">0</span></div><div><span class="lbl">REWARD</span><span id="dailyState"></span></div></div>
+      </div>
+      <button id="btnDailyGo" class="big-btn">PLAY</button>
+      <button id="btnDailyBack" class="ghost-btn">BACK</button>
+    </div>
+  </div>
+
+  <!-- Stats -->
+  <div id="stats" class="screen modal hidden">
+    <div class="panel">
+      <h2>STATISTICS</h2>
+      <div id="statsList"></div>
+      <button id="btnStatsBack" class="big-btn">OK</button>
+    </div>
+  </div>
+
+  <!-- Settings -->
+  <div id="settings" class="screen modal hidden">
+    <div class="panel">
+      <h2>SETTINGS</h2>
+      <button id="optSound" class="opt"></button>
+      <button id="optMusic" class="opt"></button>
+      <button id="optVibrate" class="opt"></button>
+      <button id="optUnits" class="opt"></button>
+      <button id="btnSettingsBack" class="big-btn">OK</button>
+    </div>
+  </div>
+
+  <div id="bravo"></div>
+  <div id="zoneBanner"></div>
+  <div id="toast"></div>
+</div>
+<script>window.FD_CONFIG = {"platform": "ilovewebgames", "adsenseClient": "ca-pub-8306394918109064", "adsenseBannerSlot": "", "adsenseMpuSlot": ""};</script>
+<script src="platform.js"></script>
+<script src="js/config.js"></script>
+<script src="js/save.js"></script>
+<script src="js/audio.js"></script>
+<script src="js/world.js"></script>
+<script src="js/render.js"></script>
+<script src="js/ui.js"></script>
+</body>
+</html>
