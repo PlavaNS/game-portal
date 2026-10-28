@@ -7687,5 +7687,33 @@
     ]
    ]
   }
+ },
+ "crowd-runner": {
+  "description": "Crowd Runner ist ein Ein-Finger-Laufspiel, bei dem du eine Handvoll kleiner Gelee-Männchen in eine Armee verwandelst. Ziehe nach links und rechts, um deine Menge über die Strecke zu lenken, und wähle dein Tor: x3 und +20 lassen die Menge anschwellen, -15 und /2 schrumpfen sie. Triffst du die richtige Wahl, werden aus einem Dutzend Läufern bis zum Ziel hunderte. Die Strecke wehrt sich. Sägen gleiten über die Bahn, Hämmer schwingen, Quetschen fallen herab, Flammenstrahlen und Laser streichen über die Spuren, Felsbrocken rollen auf dich zu und TNT wartet darauf, gezündet zu werden. Jedes davon frisst ein Stück deiner Menge, beendet den Lauf aber nie allein. Erreichst du das Ziel, stapeln sich deine Läufer auf den Siegestreppen: Je mehr du mitgebracht hast, desto höher steigst du und desto größer fällt die Auszahlung aus. Manche Level enden stattdessen mit einem Boss, und dann geht es einfach um deine Zahlen gegen seine. Die Level werden zufällig generiert, daher gehen sie nie aus, und sie wechseln durch acht Themen: Wald, Schnee, Wüste, Nacht, Herbst, Süßigkeiten, Strand und Vulkan. Münzen kaufen dauerhafte Verbesserungen (eine größere Startmenge, bessere Einnahmen, reichere Münzen), Boosts für einen Durchgang (zusätzliche Läufer, ein Schild, doppelte Münzen) und fünfzehn Gelee-Skins, von einfachem Blau bis zu Cowboy, Wikinger, Engel und König. Es gibt eine siebentägige Login-Belohnung und eine Schatztruhe, die sich alle drei Siege öffnet.",
+  "instructions": "- Halte und ziehe (oder klicke und ziehe) irgendwo, um die Menge nach links und rechts zu lenken. Mehr gibt es nicht zu drücken. - Lenke deine Menge durch das bessere Tor: Grüne Tore addieren oder vervielfachen deine Läufer, rote subtrahieren oder teilen sie. Lies beide, bevor du dich entscheidest. - Hindernisse schalten Läufer aus - Sägen, Hämmer, Drehkreisel, Quetschen, Flammenstrahlen, Laser, Felsbrocken, TNT. Keines davon kann einen Lauf allein beenden, zusammen aber schon. - Erreichst du das Ziel, steigt deine Menge die Siegestreppen hinauf; je mehr Läufer übrig sind, desto höher kommst du und desto mehr Münzen verdienst du. - Auf einem Boss-Level stürmt deine Menge auf den Boss zu: Bringe genug Läufer mit und du gewinnst. - Gib Münzen für dauerhafte Verbesserungen, für Boosts für einen Durchgang vor dem Start oder für neue Gelee-Skins aus. Boosts und Skins kannst du auch durch das Ansehen einer kurzen Werbung verdienen. - Gewinne drei Level, um die Schatztruhe zu füllen, und komm jeden Tag für die tägliche Belohnung zurück. Steuerung: nur Ziehen per Touch oder Maus. Keine Tastatur nötig. Funktioniert auf Handy, Tablet und Desktop.",
+  "guide": {
+   "intro": "Crowd Runner ist ein Ein-Finger-Laufspiel, in dem du eine kleine Gruppe Gelee-Läufer durch Tore und Hindernisse bis ins Ziel lenkst. Deine Menge entscheidet, wie hoch du steigst und wie viele Münzen du verdienst.",
+   "tips": [
+    "Lies beide Tore, bevor du dich entscheidest. Ein x3- oder +20-Tor lohnt sich meist, aber vergleiche es mit dem roten Tor daneben, bevor du wählst.",
+    "Halte deine Menge so groß wie möglich, bevor die Hindernisse beginnen. Jedes Hindernis frisst ein Stück, daher hast du mit einer größeren Menge später im Lauf mehr Spielraum für Verluste.",
+    "Beobachte das Muster der Hindernisse ein paar Sekunden, bevor du dich bewegst. Sägen, Hämmer und Quetschen haben einen Rhythmus, sodass du durch Lücken gleiten kannst, statt zu spät zu reagieren.",
+    "Gib Münzen zuerst für eine größere Startmenge aus, wenn du viele Läufe planst. Eine höhere Startzahl bleibt in jedem Level erhalten.",
+    "Zähle auf Boss-Levels deine Läufer gegen den Boss, bevor du ihn erreichst. Wirken deine Zahlen zu niedrig, nutze beim nächsten Mal einen Boost für einen Durchgang, bevor du losrennst."
+   ],
+   "faq": [
+    [
+     "Wie gewinne ich ein Level?",
+     "Erreiche die Ziellinie mit so vielen Läufern wie möglich, denn je mehr Läufer du hast, desto höher steigst du auf den Siegestreppen. Auf Boss-Levels gewinnst du, indem du genug Läufer mitbringst, um den Boss zu besiegen."
+    ],
+    [
+     "Kann ein einziges Hindernis meinen Lauf beenden?",
+     "Nein. Jedes Hindernis schaltet nur einige deiner Läufer aus, aber wenn genug Hindernisse deine Menge treffen, kann der Lauf enden."
+    ]
+   ]
+  }
+ },
+ "forever-dunk": {
+  "description": "Forever Dunk ist ein endloses Basketballspiel, bei dem dein Finger das Spielfeld ist. Der Ball fällt von oben ins Bild, und du ziehst eine Linie, damit er abprallt, rollt und in den Korb darunter gelenkt wird. Jeder Treffer bringt dich einen Bildschirm tiefer, und jede Linie verblasst 1,5 Sekunden nach dem Zeichnen, sodass das Timing genauso wichtig ist wie das Zielen. Ein Swish ohne den Ring zu berühren bringt dir einen Perfect Dunk, drei davon in Folge aktivieren den Rage Mode, Kombos steigern sich bis x4, und am Ende jeder Zone wartet ein Boss-Level. Kämpfe dich durch sechs Zonen voller Bumper, Trampoline, Spinner, Förderbänder, Wind, Portale, Pendel, Schwarze Löcher, Energietore und Drohnen, sammle Power-ups wie Long Line, Magnet und Shield, erfülle Missionen, spiel die Tagesherausforderung und gib deine Münzen für neue Bälle, Körbe und Linienstile aus.",
+  "instructions": "Halte die Maustaste gedrückt oder berühre den Bildschirm und zeichne eine Linie; der Ball prallt ab und rollt an ihr entlang. Lenke den Ball in den Korb darunter. Ein Swish ohne den Ring zu berühren ist ein Perfect Dunk und bringt 2 Punkte, drei in Folge aktivieren den Rage Mode mit doppelten Punkten, und goldene Körbe sind 5 Punkte wert. Ein verfehlter Korb kostet dich eines deiner drei Leben. Sterne bringen Münzen, Herzen geben ein zusätzliches Leben, und Power-ups verlängern deine Linie, ziehen den Ball zum Korb oder schützen dich vor einem Fehlwurf."
  }
 }
