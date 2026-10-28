@@ -45,8 +45,10 @@ function resize() {
   const rs = getComputedStyle(document.documentElement);
   const vw = window.innerWidth - parseFloat(rs.paddingLeft) - parseFloat(rs.paddingRight);
   const vh = window.innerHeight - parseFloat(rs.paddingTop) - parseFloat(rs.paddingBottom);
-  let h = vh, w = vh * ASPECT;
-  if (w > vw) { w = vw; h = vw / ASPECT; }
+  const aspect = Math.min(MAX_ASPECT, Math.max(MIN_ASPECT, vw / vh));
+  let h = vh, w = vh * aspect;
+  if (w > vw) { w = vw; h = vw / aspect; }
+  VIEW_W = VIEW_H * aspect; HALF_W = VIEW_W / 2;
   stage.style.width = w + 'px'; stage.style.height = h + 'px';
   stage.style.fontSize = (h / 100) + 'px';
   const dpr = Math.min(window.devicePixelRatio || 1, 2);

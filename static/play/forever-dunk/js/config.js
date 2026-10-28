@@ -7,9 +7,14 @@
 
 // ---------- Tuning ----------
 const VIEW_H = 10;
-const ASPECT = 9 / 16;
-const VIEW_W = VIEW_H * ASPECT;
-const HALF_W = VIEW_W / 2;
+// The field is as wide as the screen: portrait on phones, full width on monitors.
+// VIEW_W / HALF_W are updated on every resize.
+const PORTRAIT_W = VIEW_H * 9 / 16;          // the classic phone field (daily challenge always uses it)
+const MIN_ASPECT = 0.45, MAX_ASPECT = 2.4;   // beyond these the stage is letterboxed
+let VIEW_W = PORTRAIT_W;
+let HALF_W = VIEW_W / 2;
+// Hoops stay within reach of the ball, however wide the field is
+const HOOP_MIN_DX = 1.5, HOOP_MAX_DX = 3.8;
 const GRAVITY = 9.81 * 1.2;        // Unity used gravityScale 1.5; lowered so the ball falls a bit slower
 const DRAG = 1.9;                  // Unity: linearDrag 1.9
 const BALL_R = 0.39;               // Unity: ball collider radius

@@ -10,6 +10,7 @@ const S = {
   daily: false, dailyDate: '', tutorial: false,
   waitingRelease: true, respawnT: 0, overTimer: 0, zoneShown: 0,
   adActive: false, continued: false, sessionGames: 0, promo: false, rng: Math.random,
+  band: { min: -99, max: 99 },   // horizontal range where obstacles of the screen being built may go
 };
 const pointers = new Map();
 function screenCenter(n) { return -n * VIEW_H; }
@@ -35,6 +36,9 @@ function withLevelRng(screen, fn) {
   S.rng = mulberry32(hashStr(S.dailyDate + ':' + screen));
   try { return fn(); } finally { S.rng = prev; }
 }
+// Half-width used for laying out hoops and obstacles. The daily challenge always uses the
+// portrait field so the course is identical on every device.
+function genHalfW() { return S.daily ? PORTRAIT_W / 2 : HALF_W; }
 function lineLife() { return S.power.long > 0 ? LONG_LINE_LIFE : LINE_LIFE; }
 
 function makeBall(x, y, screen) {
@@ -49,17 +53,21 @@ function makeHoop(screen, avoidX, opts = {}) {
   const boss = isBossScreen(screen);
   const golden = !opts.plain && !boss && screen >= UNLOCK.golden && chance(0.12);
   const k = opts.k || (screen < 2 ? 1.15 : golden ? 0.85 : 1);    // wider hoops for the first screens
-  const limit = HALF_W - 1.05 * k;
+  const limit = genHalfW() - 1.05 * k;
   let x = 0;
-  for (let i = 0; i < 40; i++) {
-    x = rand(-limit, limit);
-    if (avoidX === null || Math.abs(x - avoidX) >= 1.5) break;
+  if (avoidX === null) x = rand(-Math.min(limit, 1.8), Math.min(limit, 1.8));
+  else {
+    // Next hoop: within reach of where the ball comes from, on whichever side has room
+    for (let i = 0; i < 40; i++) {
+      x = clamp(avoidX + (chance(0.5) ? 1 : -1) * rand(HOOP_MIN_DX, HOOP_MAX_DX), -limit, limit);
+      if (Math.abs(x - avoidX) >= HOOP_MIN_DX) break;
+    }
   }
   if (opts.x !== undefined) x = opts.x;
   const y = opts.y !== undefined ? opts.y : cy + rand(-4.0, -2.7);
   let rot = 0;
   if (!opts.plain && screen >= UNLOCK.tilt && chance(boss ? 0.8 : Math.min(0.75, 0.25 + screen * 0.02))) {
-    rot = (Math.PI / 180) * rand(6, 6 + Math.min(24, screen * 0.8)) * Math.sign(x || 1);
+    rot = (Math.PI / 180) * rand(6, 6 + Math.min(24, screen * 0.8)) * (Math.sign(x - (avoidX === null ? 0 : avoidX)) || 1); // opening faces the ball
   }
   let amp = 0, speed = 0;
   if (!opts.plain && screen >= UNLOCK.moving && (boss || chance(Math.min(0.65, 0.2 + (screen - UNLOCK.moving) * 0.03)))) {
@@ -148,37 +156,47 @@ function placeOk(o, hoop, cy) {
 function makeObstacle(type, screen, hoop, extra) {
   const cy = screenCenter(screen);
   const y = rand(cy - 1.8, cy + 3.0);
-  const lim = HALF_W - 0.5;
+  const lim = genHalfW() - 0.5;
+  // x inside the band where the action is (between the ball's entry and the hoop), with margin m
+  const bx = (m = 0) => {
+    const lo = Math.max(-lim, S.band.min) + m, hi = Math.min(lim, S.band.max) - m;
+    return hi > lo ? rand(lo, hi) : (lo + hi) / 2;
+  };
   const towardHoop = x => Math.sign(hoop.baseX - x) || 1;
   switch (type) {
-    case 'bumper': { const r = rand(0.32, 0.45); return { type, screen, x: rand(-lim + r, lim - r), y, r, ext: r, flash: 0 }; }
+    case 'bumper': { const r = rand(0.32, 0.45); return { type, screen, x: bx(r), y, r, ext: r, flash: 0 }; }
     case 'spinner': case 'cross': {
       const len = type === 'cross' ? rand(0.7, 0.85) : rand(0.75, 1.0);
-      return { type, screen, x: rand(-lim + len, lim - len), y, len, ext: len, angle: rand(0, 3), omega: rand(1.4, 2.4) * (chance(0.5) ? 1 : -1), arms: type === 'cross' ? 2 : 1 };
+      return { type, screen, x: bx(len), y, len, ext: len, angle: rand(0, 3), omega: rand(1.4, 2.4) * (chance(0.5) ? 1 : -1), arms: type === 'cross' ? 2 : 1 };
     }
-    case 'slider': { const w = rand(0.55, 0.75), amp = rand(0.6, 1.2); return { type, screen, cx: rand(-lim + w + amp, lim - w - amp), x: 0, y, w, amp, ext: w + amp, speed: rand(1.0, 1.8), phase: rand(0, 6), vx: 0 }; }
+    case 'slider': { const w = rand(0.55, 0.75), amp = rand(0.6, 1.2); return { type, screen, cx: bx(w + amp), x: 0, y, w, amp, ext: w + amp, speed: rand(1.0, 1.8), phase: rand(0, 6), vx: 0 }; }
     case 'wind': { const dir = hoop.baseX > 0 ? 1 : -1; return { type, screen, x: 0, y: rand(cy - 0.6, cy + 1.6), h: 1.5, force: dir * rand(5, 8), ext: 0.2, wide: true }; }
-    case 'drone': { const side = chance(0.5) ? -1 : 1; return { type, screen, side, x: side * (HALF_W - 0.55), y: rand(cy + 0.2, cy + 2.6), ext: 0.5, timer: 1.6, interval: Math.max(1.5, 2.8 - screen * 0.03), aim: 0, bob: rand(0, 6), recoil: 0 }; }
-    case 'trampoline': { const x = rand(-lim + 0.6, lim - 0.6); return { type, screen, x, y, half: 0.55, ext: 0.6, angle: towardHoop(x) * rand(0.15, 0.5), boing: 0 }; }
-    case 'conveyor': { const x = rand(-lim + 0.8, lim - 0.8); return { type, screen, x, y, half: rand(0.7, 0.9), ext: 0.9, angle: rand(-0.18, 0.18), speed: towardHoop(x) * rand(2.5, 3.5) * (chance(0.25) ? -1 : 1) }; }
-    case 'portal': return { type, screen, x: rand(-lim, lim), y: rand(cy + 0.8, cy + 3.0), r: 0.36, ext: 0.45, hue: 0, cooldown: 0, hueT: 0 };
-    case 'pendulum': { const len = rand(1.1, 1.4); return { type, screen, x: rand(-lim + 0.5, lim - 0.5), y: rand(cy + 1.2, cy + 3.2), len, bob: 0.3, ext: 1.1, amp: rand(0.7, 1.05), speed: rand(1.6, 2.2), phase: rand(0, 6), angle: 0, omega: 0 }; }
-    case 'blackhole': return { type, screen, x: rand(-lim + 0.4, lim - 0.4), y, R: 1.5, ext: 1.1, spin: 0 };
-    case 'gate': { const half = rand(0.6, 0.8); return { type, screen, x: rand(-lim + half, lim - half), y, half, ext: half + 0.1, cycle: rand(0, 2.8), on: true }; }
-    case 'cloud': return { type, screen, x: rand(-lim + 0.9, lim - 0.9), y, w: 1.0, h: 0.65, ext: 1.0, t: 0 };
-    case 'star': return { type, screen, x: rand(-lim, lim), y, ext: 0.3, pickup: true, t: rand(0, 6) };
-    case 'heart': return { type, screen, x: rand(-lim, lim), y, ext: 0.3, pickup: true, t: rand(0, 6) };
-    case 'powerup': return { type, screen, kind: extra, x: rand(-lim, lim), y, ext: 0.35, pickup: true, t: rand(0, 6) };
+    case 'drone': { const side = chance(0.5) ? -1 : 1; return { type, screen, side, x: side > 0 ? Math.min(lim - 0.05, S.band.max) : Math.max(-lim + 0.05, S.band.min), y: rand(cy + 0.2, cy + 2.6), ext: 0.5, timer: 1.6, interval: Math.max(1.5, 2.8 - screen * 0.03), aim: 0, bob: rand(0, 6), recoil: 0 }; }
+    case 'trampoline': { const x = bx(0.6); return { type, screen, x, y, half: 0.55, ext: 0.6, angle: towardHoop(x) * rand(0.15, 0.5), boing: 0 }; }
+    case 'conveyor': { const x = bx(0.8); return { type, screen, x, y, half: rand(0.7, 0.9), ext: 0.9, angle: rand(-0.18, 0.18), speed: towardHoop(x) * rand(2.5, 3.5) * (chance(0.25) ? -1 : 1) }; }
+    case 'portal': return { type, screen, x: bx(), y: rand(cy + 0.8, cy + 3.0), r: 0.36, ext: 0.45, hue: 0, cooldown: 0, hueT: 0 };
+    case 'pendulum': { const len = rand(1.1, 1.4); return { type, screen, x: bx(0.5), y: rand(cy + 1.2, cy + 3.2), len, bob: 0.3, ext: 1.1, amp: rand(0.7, 1.05), speed: rand(1.6, 2.2), phase: rand(0, 6), angle: 0, omega: 0 }; }
+    case 'blackhole': return { type, screen, x: bx(0.4), y, R: 1.5, ext: 1.1, spin: 0 };
+    case 'gate': { const half = rand(0.6, 0.8); return { type, screen, x: bx(half), y, half, ext: half + 0.1, cycle: rand(0, 2.8), on: true }; }
+    case 'cloud': return { type, screen, x: bx(0.9), y, w: 1.0, h: 0.65, ext: 1.0, t: 0 };
+    case 'star': return { type, screen, x: bx(), y, ext: 0.3, pickup: true, t: rand(0, 6) };
+    case 'heart': return { type, screen, x: bx(), y, ext: 0.3, pickup: true, t: rand(0, 6) };
+    case 'powerup': return { type, screen, kind: extra, x: bx(), y, ext: 0.35, pickup: true, t: rand(0, 6) };
   }
   throw new Error('Unknown obstacle ' + type);
 }
-function populateScreen(screen, hoop) {
+function populateScreen(screen, hoop, entryX = 0) {
+  // Obstacles go where the ball travels: from its entry point to the hoop, plus some room around
+  S.band = { min: Math.min(entryX, hoop.baseX - hoop.amp) - 2.6, max: Math.max(entryX, hoop.baseX + hoop.amp) + 2.6 };
   if (screen < 1) return;
   const boss = isBossScreen(screen);
   const types = OBSTACLE_TYPES.filter(t => screen >= UNLOCK[t]);
   const fresh = types.find(t => UNLOCK[t] === screen);    // a newly unlocked type always shows up
   let count = boss ? 3 + (screen > 30 ? 1 : 0)
     : screen < UNLOCK.bumper ? 0 : screen < 10 ? (chance(0.7) ? 1 : 0) : screen < 22 ? 1 + (chance(0.4) ? 1 : 0) : 1 + (chance(0.7) ? 1 : 0) + (screen > 34 && chance(0.3) ? 1 : 0);
+  // Wider fields get a few more obstacles
+  const widthFactor = genHalfW() * 2 / PORTRAIT_W;
+  count = Math.round(count * (1 + (widthFactor - 1) * 0.35));
   const wanted = [];
   if (fresh) { wanted.push(fresh); count = Math.max(count, 1); }
   let guard = 0;
@@ -571,7 +589,7 @@ function hoopCleared(h, perfect) {
 }
 function advanceScreen(h) {
   S.screen++;
-  const next = withLevelRng(S.screen, () => { const nh = makeHoop(S.screen, h.x); S.hoops.push(nh); populateScreen(S.screen, nh); return nh; });
+  const next = withLevelRng(S.screen, () => { const nh = makeHoop(S.screen, h.x); S.hoops.push(nh); populateScreen(S.screen, nh, h.x); return nh; });
   S.camFrom = S.camY; S.camTo = screenCenter(S.screen); S.camT = 0;
   const z = zoneIndex(S.screen);
   if (isBossScreen(S.screen)) { showBanner('BOSS ROUND', 'Clear it for a big bonus', '#ff3d6e'); sfx.boss(); }
@@ -586,7 +604,10 @@ function spawnBall() {
   const h = hoopFor(S.screen);
   const x = withLevelRng(S.screen * 31 + 7, () => {
     let v = 0;
-    for (let i = 0; i < 40; i++) { v = rand(-(HALF_W - 1.6), HALF_W - 1.6); if (!h || Math.abs(v - h.baseX) > 1.4) break; }
+    const lim = genHalfW() - 1.6;
+    if (!h) return rand(-lim, lim);
+    // Start the ball within reach of the hoop, but not right above it
+    for (let i = 0; i < 40; i++) { v = clamp(h.baseX + (chance(0.5) ? 1 : -1) * rand(1.4, 3.2), -lim, lim); if (Math.abs(v - h.baseX) > 1.4) break; }
     return v;
   });
   const b = makeBall(x, cy + VIEW_H / 2 - BALL_R - 0.12, S.screen);
