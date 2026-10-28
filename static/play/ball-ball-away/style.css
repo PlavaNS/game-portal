@@ -190,5 +190,5 @@ canvas#c{position:absolute;inset:0;width:100%;height:100%;display:block;cursor:c
 .cont-timer{width:100%;height:6px;border-radius:6px;background:rgba(255,255,255,.12);margin-top:18px;overflow:hidden}
 .cont-timer i{display:block;height:100%;width:100%;background:var(--orange-2);transition:width 1s linear}
 @media (prefers-reduced-motion:reduce){.logo,.play-btn,.gift-btn,#hint,.ad-pill,.newbest{animation:none}}
-@media (max-width:480px){.hud-side{min-width:0;gap:6px}#hLives i{width:16px;height:16px}.coin-chip{font-size:17px;padding:4px 10px 4px 5px}.coin{width:20px;height:20px}.hud-sub{font-size:12px}#combo{font-size:18px}}
+@media (max-width:480px){.dock{gap:9px}.dock-ico{width:50px;height:50px;border-radius:16px}.dock-btn>span:last-child{font-size:12px}.hud-side{min-width:0;gap:6px}#hLives i{width:16px;height:16px}.coin-chip{font-size:17px;padding:4px 10px 4px 5px}.coin{width:20px;height:20px}.hud-sub{font-size:12px}#combo{font-size:18px}}
 @media (max-height:560px){.logo{width:min(55vw,340px)}.dock-ico{width:48px;height:48px;border-radius:15px}.play-btn{font-size:34px}.menu-mid{gap:8px}.records{display:none}}
