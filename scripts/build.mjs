@@ -281,6 +281,8 @@ games.sort((a, b) => a.score - b.score);
 
 // hand-written tips/FAQ for selected games (data/guides.json, keyed by slug)
 const GUIDES = readJSON(path.join(ROOT, 'data/guides.json'), {});
+// "where to start" picks and an FAQ for each collection page (data/topic-guides.json)
+const TGUIDES = readJSON(path.join(ROOT, 'data/topic-guides.json'), {});
 
 // our own games always first
 const ours = readJSON(path.join(ROOT, 'data/our-games.json'), []).map(o => ({
@@ -531,18 +533,25 @@ function emitContent() {
   for (const t of topics) {
     if (!catOK('topic:' + t.slug)) continue;
     const TT = catTr('topic:' + t.slug) || {};
+    const TG = LANG === 'en' ? TGUIDES[t.slug] : ((catTr('topic:' + t.slug) || {}).guide || null);
     const th1 = TT.h1 || t.h1, tkw = TT.kw || t.kw;
     const tintro = Array.isArray(TT.intro) ? TT.intro : (typeof TT.intro === 'string' ? [TT.intro] : t.intro);
     const others = topics.filter(o => o.slug !== t.slug).slice(0, 12);
     const body = `<nav class="crumbs"><a href="${u('/')}">${esc(tr('Home'))}</a> › <span>${esc(th1)}</span></nav>
   <header class="page-h"><h1>${esc(th1)}</h1>${tintro.map(p => `<p>${esc(p)}</p>`).join('')}</header>
   <div class="grid">${t.list.map((g, i) => card(g, i < 8)).join('')}</div>
+  ${TG ? `<section class="topic-guide">
+    <h2>${esc(tr('Where to start'))}</h2>
+    <ul class="picks">${TG.picks.map(p => `<li><a href="${gHref({ slug: p.slug })}">${esc(p.title)}</a> — ${esc(p.line)}</li>`).join('')}</ul>
+    <h2>${esc(tr('FAQ'))}</h2>${TG.faq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
+  </section>` : ''}
   <section class="row" style="margin-top:28px"><div class="row-h"><h2>${esc(tr('More collections'))}</h2></div><p class="chips">${others.map(o => `<a class="chip" href="${tHref(o.slug)}">${esc((catTr('topic:' + o.slug) || {}).h1 || o.h1)}</a>`).join('')}</p></section>`;
     write(`${t.slug}/index.html`, layout({
       title: `${th1} — ${tr('Play Free Online')} | ${cfg.name}`,
       desc: trunc(`${t.list.length}+ ${tr('free')} ${tkw}. ${tintro[0]}`, 158), canonical: abs(`/${t.slug}/`), body,
       altPath: `/${t.slug}/`, altLangs: LANGS.filter(l => (CATTR[l.code] || {})['topic:' + t.slug]).map(l => l.code),
       jsonld: [crumbs([[tr('Home'), abs('/')], [th1, abs(`/${t.slug}/`)]]),
+        ...(TG && TG.faq.length ? [{ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: TG.faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }] : []),
         { '@context': 'https://schema.org', '@type': 'CollectionPage', name: th1, url: abs(`/${t.slug}/`), description: tintro[0],
           mainEntity: { '@type': 'ItemList', numberOfItems: t.list.length, itemListElement: t.list.slice(0, 20).map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(`/games/${g.slug}/`), name: g.title })) } }],
     }));
@@ -717,6 +726,10 @@ write('.nojekyll', '');
 try {
   fs.mkdirSync(path.join(ROOT, '.cache'), { recursive: true });
   fs.writeFileSync(path.join(ROOT, '.cache/phrases.json'), JSON.stringify([...PHRASES].sort(), null, 1));
+  fs.writeFileSync(path.join(ROOT, '.cache/topic-games.json'), JSON.stringify(topics.map(t => ({
+    slug: t.slug, h1: t.h1, kw: t.kw,
+    games: t.list.filter(g => !g.own).slice(0, 18).map(g => ({ slug: g.slug, title: g.title, description: g.description })),
+  }))));
   fs.writeFileSync(path.join(ROOT, '.cache/cats.json'), JSON.stringify({
     cats: activeCats.map(c => ({ key: c.slug, name: c.name, h1: c.h1, intro: CAT_INTRO[c.slug] || '' })),
     topics: topics.map(t => ({ key: 'topic:' + t.slug, h1: t.h1, kw: t.kw, intro: t.intro })),

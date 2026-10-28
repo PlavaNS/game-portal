@@ -168,3 +168,8 @@ body.noscroll{overflow:hidden}
 .foot-langs{margin:.4rem 0 .2rem;font-size:.9rem;opacity:.85}
 .foot-langs a{text-decoration:none}
 .foot-langs a:hover{text-decoration:underline}
+.topic-guide{margin:28px 0 8px}
+.topic-guide h2{margin:18px 0 8px}
+.topic-guide h3{margin:14px 0 4px;font-size:1rem}
+.topic-guide .picks{margin:0;padding-left:1.1rem}
+.topic-guide .picks li{margin:.35rem 0;line-height:1.5}
