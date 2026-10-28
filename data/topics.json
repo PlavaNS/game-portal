@@ -1014,5 +1014,46 @@
    "Pet and vet games let you look after animals from the first check-up to the final bow: treat sick puppies and kittens in an animal hospital, groom and bathe pets, run a pet shop or build a whole veterinary center from one small room.",
    "Many of these games are gentle and relaxing, which makes them a good pick for kids and anyone who loves animals. They are free to play online in your browser on PC, tablet and phone, with no download or account needed."
   ]
+ },
+ {
+  "slug": "restaurant-and-cafe-games",
+  "h1": "Restaurant & Cafe Games",
+  "kw": "restaurant games",
+  "match": "restaurant|diner|cafe|waitress|burger|pizzeria|food truck|chef",
+  "intro": [
+   "Restaurant and cafe games put you behind the counter: take the order, cook it before the timer runs out, serve it while it is still hot, and keep the queue moving. Some are quick arcade shifts, others let you build a whole place from a single coffee machine to a packed dining room.",
+   "They are easy to pick up and hard to put down, because every level adds one more thing to juggle. All of them are free and run straight in your browser on PC, tablet and phone, with nothing to download."
+  ]
+ },
+ {
+  "slug": "jewel-and-gem-games",
+  "h1": "Jewel & Gem Games",
+  "kw": "jewel games",
+  "match": "jewel|jewels|gem|gems|diamond|diamonds",
+  "intro": [
+   "Jewel and gem games are the bright, clicky corner of puzzle gaming: line up matching stones, clear a crowded board, drop blocks into place and watch the whole screen sparkle when a big combo goes off.",
+   "Most of them are relaxing enough to play one-handed and clever enough to keep you thinking a few moves ahead. Play them free in your browser, with no download and no account."
+  ]
+ },
+ {
+  "slug": "steal-and-thief-games",
+  "h1": "Steal & Thief Games",
+  "kw": "steal games",
+  "match": "steal|stealing|thief|robbery|heist|burglar",
+  "intro": [
+   "Steal and thief games are about the sneak, not the fight: grab the egg, pick the lock, slip past the guard and make it back out without being spotted. Some are puzzle rooms where one wrong move gives you away, others are fast obby runs where the whole house is chasing you.",
+   "This is one of the most popular corners of browser gaming right now, and new titles show up every week. They are all free to play online, instantly, on PC and phone."
+  ]
+ },
+ {
+  "slug": "preschool-and-learning-games",
+  "h1": "Preschool & Learning Games",
+  "kw": "learning games for kindergarten",
+  "match": "kindergarten|preschool|pre-k|toddler|alphabet|abc|first 100 words|for kids|kids learning|learn(ing)? (english|to read|to count|numbers|colors|colours)|educational",
+  "intro": [
+   "Preschool and learning games turn letters, numbers, colours and shapes into something a small child actually wants to do. Trace the alphabet, match the animal to its sound, count the fruit, colour the picture, and get a cheerful noise every time it goes right.",
+   "They are built for short attention spans and big buttons, so they work well on a tablet or a phone. Everything here is free, runs in the browser, and needs no download or sign-up."
+  ],
+  "titleOnly": true
  }
 ]
