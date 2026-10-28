@@ -122,11 +122,23 @@ ${JSON.stringify(part.map(x => ({ key: x.key, ...(x.name ? { name: x.name } : {}
       const payload = { description: String(g.description).slice(0, 2200), instructions: String(g.instructions || '').slice(0, 1000) || undefined,
         guide: gd ? { intro: gd.intro, tips: gd.tips, faq: gd.faq } : undefined };
       try {
-        const out = await ask(`This is the text of the game "${g.title}" on a free online games site. Translate it into ${L.label}.
+        let out = await ask(`This is the text of the game "${g.title}" on a free online games site. Translate it into ${L.label}.
 Keep exactly the same JSON shape and the same number of tips and FAQ pairs. Keep the game's own name "${g.title}" in English everywhere it appears.
 Reply with the translated JSON object only.
 
 ${JSON.stringify(payload, null, 1)}`, 2500);
+        // if the whole block keeps failing, fall back to the description alone: a translated page
+        // without its guide is still far better than no page in that language
+        let res = out;
+        if (!(res && typeof res.description === 'string' && res.description.length > 30) && payload.guide) {
+          res = await ask(`This is the text of the game "${g.title}" on a free online games site. Translate it into ${L.label}.
+Keep exactly the same JSON shape. Keep the game's own name "${g.title}" in English everywhere it appears.
+Reply with the translated JSON object only.
+
+${JSON.stringify({ description: payload.description, instructions: payload.instructions }, null, 1)}`, 2000);
+          if (res) console.warn('guide skipped, description only:', g.slug);
+        }
+        out = res;
         if (out && typeof out.description === 'string' && out.description.length > 30) {
           const entry = { description: out.description.trim() };
           if (payload.instructions && typeof out.instructions === 'string' && out.instructions.trim()) entry.instructions = out.instructions.trim();
