@@ -1,6 +1,6 @@
 'use strict';
 // ---------- Assets ----------
-const IMG_NAMES = ['ball0', 'ball1', 'ball2', 'ball3', 'ball4', 'ball5', 'ball6', 'ball7', 'ball8', 'ball9',
+const IMG_NAMES = ['ball0', 'ball1', 'ball2', 'ball4', 'ball5', 'ball6', 'ball7', 'ball8', 'ball9',
   'fire', 'glow', 't_awesome', 't_goodjob', 't_nice', 't_cake', 'life', 'locked', 'locked_big',
   'ach_on', 'ach_off', 'unlocked'];
 const img = {};

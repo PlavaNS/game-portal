@@ -49,6 +49,8 @@
       <button id="btnMissions" class="dock-btn"><span class="dock-ico">
         <svg viewBox="0 0 24 24"><path d="M9 4h6v2h3a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h3z"/><path d="M8.5 13l2.5 2.5 5-5" fill="none" stroke="#241a52" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
         </span><span>MISSIONS</span></button>
+      <button id="btnRanks" class="dock-btn"><span class="dock-ico">
+        <svg viewBox="0 0 24 24"><path d="M7 3h10v2h3v3a4 4 0 0 1-4 4h-.3A5 5 0 0 1 13 14.9V17h3v3H8v-3h3v-2.1A5 5 0 0 1 8.3 12H8a4 4 0 0 1-4-4V5h3zm0 4H6v1a2 2 0 0 0 1 1.7zm10 0v2.7A2 2 0 0 0 18 8V7z"/></svg></span><span>RANKS</span></button>
       <button id="btnStats" class="dock-btn"><span class="dock-ico">
         <svg viewBox="0 0 24 24"><path d="M4 20V11h3v9H4zm6 0V7h3v13h-3zm6 0v-6h3v6h-3z"/></svg></span><span>STATS</span></button>
       <button id="btnSettings" class="dock-btn"><span class="dock-ico">
@@ -87,6 +89,11 @@
         <div class="res"><span class="lbl">DISTANCE</span><span id="overDist">0 m</span><span id="overDistRec" class="rec hidden">NEW RECORD!</span></div>
       </div>
       <div id="overZone"></div>
+      <div id="overRank" class="hidden"></div>
+      <div id="nameEntry" class="name-entry hidden">
+        <span>Enter your name to join the leaderboard</span>
+        <div class="name-row"><input id="nameInput" maxlength="16" autocomplete="off" spellcheck="false" placeholder="Your name"><button id="btnNameSave" class="small-btn">SAVE</button></div>
+      </div>
       <div class="coins-row">
         <div class="coins-earned"><i class="coin"></i><span id="overCoins">+0</span></div>
         <button id="btnDouble" class="ad-pill hidden"><svg viewBox="0 0 24 24"><rect x="2.5" y="5" width="19" height="14" rx="3"/><path d="M10 9.2v5.6l4.8-2.8z" fill="#ff5a1f"/></svg>×2 COINS</button>
@@ -135,6 +142,22 @@
     </div>
   </div>
 
+  <!-- Leaderboard -->
+  <div id="ranks" class="screen modal hidden">
+    <div class="panel">
+      <h2>LEADERBOARD</h2>
+      <div id="lbNameBox" class="name-row"><input id="lbNameInput" maxlength="16" autocomplete="off" spellcheck="false" placeholder="Your name"><button id="btnLbName" class="small-btn">SAVE</button></div>
+      <div class="tabs" id="lbTabs">
+        <button class="tab" data-period="day">TODAY</button>
+        <button class="tab" data-period="all">ALL TIME</button>
+        <button class="tab" data-period="mine">MY RUNS</button>
+      </div>
+      <div id="lbList"></div>
+      <div id="lbNote" class="cont-note"></div>
+      <button id="btnRanksBack" class="big-btn">OK</button>
+    </div>
+  </div>
+
   <!-- Daily challenge -->
   <div id="dailyPanel" class="screen modal hidden">
     <div class="panel">
@@ -173,10 +196,11 @@
   <div id="zoneBanner"></div>
   <div id="toast"></div>
 </div>
-<script>window.FD_CONFIG = {"platform": "ilovewebgames", "adsenseClient": "ca-pub-8306394918109064", "adsenseBannerSlot": "", "adsenseMpuSlot": ""};</script>
+<script>window.FD_CONFIG = {"platform": "ilovewebgames", "adsenseClient": "ca-pub-8306394918109064", "adsenseBannerSlot": "", "adsenseMpuSlot": "", "lbUrl": "https://pxjlcbjwdalctlyeljql.supabase.co", "lbKey": "sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k"};</script>
 <script src="platform.js"></script>
 <script src="js/config.js"></script>
 <script src="js/save.js"></script>
+<script src="js/leaderboard.js"></script>
 <script src="js/audio.js"></script>
 <script src="js/world.js"></script>
 <script src="js/render.js"></script>

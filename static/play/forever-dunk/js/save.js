@@ -8,8 +8,10 @@ function defaultSave() {
     days: [], ballSkin: 0, basketSkin: 0, lineSkin: 0,
     owned: { ball: [0], basket: [0], line: [0] },
     coins: 0, missions: [], tutorialDone: false,
+    pid: '', secret: '', playerName: '', runs: [],
     daily: { date: '', best: 0, rewarded: false }, giftDate: '',
     sound: true, music: true, vibrate: true, feet: false,
+    ballSet: 2,
   };
 }
 function loadSave() {
@@ -18,12 +20,24 @@ function loadSave() {
     const raw = localStorage.getItem(SAVE_KEY);
     if (!raw) return base;
     const s = JSON.parse(raw);
+    if (!s.ballSet) dropRemovedBall(s);
     return {
       ...base, ...s,
       best: { ...base.best, ...s.best }, total: { ...base.total, ...s.total },
       owned: { ...base.owned, ...s.owned }, daily: { ...base.daily, ...s.daily },
     };
   } catch (e) { console.warn('Save unavailable', e); return base; }
+}
+// Ball set 2 removed the old 4th ball (index 3): later balls move down one place,
+// and a player who bought it gets the coins back.
+function dropRemovedBall(s) {
+  const REMOVED = 3, PRICE = 500;
+  const owned = (s.owned && s.owned.ball) || [0];
+  if (owned.includes(REMOVED)) s.coins = (s.coins || 0) + PRICE;
+  s.owned = { ...s.owned, ball: owned.filter(i => i !== REMOVED).map(i => i > REMOVED ? i - 1 : i) };
+  const b = s.ballSkin || 0;
+  s.ballSkin = b === REMOVED ? 0 : b > REMOVED ? b - 1 : b;
+  s.ballSet = 2;
 }
 function writeSave() { try { localStorage.setItem(SAVE_KEY, JSON.stringify(save)); } catch (e) { console.warn('Save failed', e); } }
 const save = loadSave();

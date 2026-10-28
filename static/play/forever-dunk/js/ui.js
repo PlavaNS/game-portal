@@ -183,6 +183,9 @@ function finishGame() {
   overScoreRec.classList.toggle('hidden', !scoreRec || S.score === 0);
   overDistRec.classList.toggle('hidden', !distRec || S.distance === 0);
   $('overCoins').textContent = '+' + S.coinsRun;
+  addRun(S.score);
+  if (Platform.hasPlatformLeaderboard && S.score > 0) Platform.submitScore(S.score);
+  showOverRank();
   const dbl = $('btnDouble');
   dbl.classList.add('hidden');
   if (S.coinsRun > 0) Platform.prepareRewarded().then(ok => { if (ok && S.mode === 'over') dbl.classList.remove('hidden'); });
@@ -218,6 +221,57 @@ function doubleCoins() {
 function quitToMenu() {
   if (S.coinsRun > 0) { save.coins += S.coinsRun; S.coinsRun = 0; writeSave(); }
   setMode('menu');
+}
+
+// ---------- Leaderboard ----------
+const overRank = $('overRank'), nameEntry = $('nameEntry');
+// Game over: send the score to the global board and show today's / all-time rank
+function showOverRank() {
+  overRank.classList.add('hidden'); nameEntry.classList.add('hidden');
+  if (!LB.enabled || S.score <= 0) return;
+  if (!save.playerName) { $('nameInput').value = ''; nameEntry.classList.remove('hidden'); return; }
+  overRank.textContent = 'Sending your score…'; overRank.classList.remove('hidden');
+  LB.submit(S.score).then(r => {
+    overRank.innerHTML = `Today <b>#${r.day_rank}</b> · All time <b>#${r.rank}</b> <small>of ${r.players} players</small>`;
+  }).catch(e => { console.warn(e); overRank.textContent = 'Leaderboard is offline right now — your score is saved on this device.'; });
+}
+function saveName(inputId) {
+  const name = cleanName($(inputId).value);
+  if (name.length < 2) { toast('<small>NAME</small>Use 2 to 16 letters or numbers'); return false; }
+  save.playerName = name; writeSave();
+  return true;
+}
+let lbPeriod = 'day';
+function openRanks() {
+  lbPeriod = LB.enabled ? 'day' : 'mine';
+  $('lbNameBox').classList.toggle('hidden', !LB.enabled);
+  document.querySelectorAll('#lbTabs .tab').forEach(t => t.classList.toggle('hidden', !LB.enabled && t.dataset.period !== 'mine'));
+  $('lbNameInput').value = save.playerName;
+  $('ranks').classList.remove('hidden');
+  renderRanks();
+}
+const escHtml = t => String(t).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+function renderRanks() {
+  document.querySelectorAll('#lbTabs .tab').forEach(t => t.classList.toggle('on', t.dataset.period === lbPeriod));
+  const list = $('lbList'), note = $('lbNote');
+  const row = (pos, name, cc, score, me, extra = '') =>
+    `<div class="lb-row${me ? ' me' : ''}"><span class="pos">${pos}</span><span class="nm">${name}${cc ? ` <i class="cc">${cc}</i>` : ''}${extra}</span><b>${score}</b></div>`;
+  if (lbPeriod === 'mine') {
+    list.innerHTML = save.runs.length
+      ? save.runs.map((r, i) => row(i + 1, r.date, null, r.score, false, `<small>${ZONES[r.zone].name}${r.daily ? ' · DAILY' : ''}</small>`)).join('')
+      : '<div class="lb-empty">Play a game to see your best runs here.</div>';
+    note.textContent = Platform.name === 'crazygames' ? 'The weekly world leaderboard is on the CrazyGames game page.' : 'Your 10 best runs on this device.';
+    return;
+  }
+  list.innerHTML = '<div class="lb-empty">Loading…</div>';
+  note.textContent = lbPeriod === 'day' ? 'Resets every day at midnight UTC.' : 'Best score of every player.';
+  const period = lbPeriod;
+  LB.top(period).then(rows => {
+    if (lbPeriod !== period) return;
+    list.innerHTML = rows.length
+      ? rows.map(r => row(r.pos, escHtml(r.name), r.cc, r.score, r.me)).join('')
+      : '<div class="lb-empty">No scores yet — be the first!</div>';
+  }).catch(e => { console.warn(e); list.innerHTML = '<div class="lb-empty">Leaderboard is offline right now.</div>'; });
 }
 
 // ---------- Menu ----------
@@ -420,6 +474,11 @@ document.querySelectorAll('#skins .tab').forEach(t => t.addEventListener('click'
 on('btnMissions', () => { renderMissionList($('missionList'), false); missionsEl.classList.remove('hidden'); });
 on('btnMissionsBack', () => missionsEl.classList.add('hidden'));
 on('btnStats', openStats);
+on('btnRanks', openRanks);
+on('btnRanksBack', () => $('ranks').classList.add('hidden'));
+on('btnLbName', () => { if (saveName('lbNameInput')) { toast('<small>NAME SAVED</small>' + save.playerName); renderRanks(); } });
+on('btnNameSave', () => { if (saveName('nameInput')) showOverRank(); });
+document.querySelectorAll('#lbTabs .tab').forEach(t => t.addEventListener('click', click(() => { lbPeriod = t.dataset.period; renderRanks(); })));
 on('btnStatsBack', () => statsEl.classList.add('hidden'));
 on('btnSettings', () => { renderSettings(); settingsEl.classList.remove('hidden'); });
 on('btnSettingsBack', () => settingsEl.classList.add('hidden'));
@@ -428,6 +487,7 @@ $('optUnits').addEventListener('click', click(() => { save.feet = !save.feet; wr
 document.addEventListener('visibilitychange', () => { if (document.hidden && S.mode === 'play') setMode('paused'); });
 // Portals require that keys used by the page never scroll the parent page, and no context menu
 window.addEventListener('keydown', e => {
+  if (e.target instanceof HTMLInputElement) { if (e.key === 'Enter') e.target.nextElementSibling.click(); return; }
   if ([' ', 'ArrowUp', 'ArrowDown', 'ArrowLeft', 'ArrowRight'].includes(e.key)) e.preventDefault();
   if (e.key === 'Escape' || e.key === 'p') { if (S.mode === 'play') setMode('paused'); else if (S.mode === 'paused') setMode('play'); }
 });
@@ -489,6 +549,7 @@ async function boot() {
   await Promise.all([loadImages(), Platform.init()]);
   await Promise.all([document.fonts.load('40px "Lilita One"'), document.fonts.load('40px "Mitr"')]);
   ensureMissions();
+  if (!save.playerName) Platform.userName().then(n => { if (n && !save.playerName) { save.playerName = cleanName(n); writeSave(); } });
   setMode('menu');
   Platform.loadingDone();
   requestAnimationFrame(frame);

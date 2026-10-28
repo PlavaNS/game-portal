@@ -79,7 +79,6 @@ const BALL_SKINS = [
   { name: 'Classic', img: 'ball0' },
   { name: '8 Ball', img: 'ball1', price: 300, ach: ['Travel 60 m in one game.', P.DistancePerGame, 60] },
   { name: 'Pumpkin', img: 'ball2', price: 500, ach: ['Travel 3000 m in total.', P.TotalDistance, 3000] },
-  { name: 'Super Dunk', img: 'ball3', price: 500, ach: ['Score 90 points in one game.', P.PointsPerGame, 90] },
   { name: 'Beach Ball', img: 'ball4', price: 400, ach: ['Score 3000 points in total.', P.TotalPoints, 3000] },
   { name: 'Watermelon', img: 'ball5', price: 400, ach: ['Play 30 games.', P.PlayGames, 30] },
   { name: 'Planet', img: 'ball6', price: 300, ach: ['Play on 2 different days.', P.PlayDays, 2] },

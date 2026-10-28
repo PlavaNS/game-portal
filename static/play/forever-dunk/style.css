@@ -224,3 +224,27 @@ canvas.basket-icon { background: #2b2160; border-radius: 22%; }
 .daily-stats > div { flex: 1; display: flex; flex-direction: column; align-items: center; background: var(--cell); border-radius: 1.4em; padding: .8em; }
 .daily-stats .lbl { font-size: 1.5em; color: var(--muted); letter-spacing: .1em; }
 .daily-stats span:last-child { font-family: "Lilita One", sans-serif; font-size: 3em; }
+
+/* ---------- Leaderboard ---------- */
+.name-row { display: flex; gap: .8em; width: 100%; }
+.name-row input { flex: 1; min-width: 0; font: 500 2.2em "Mitr", sans-serif; color: #fff; background: rgba(0,0,0,.3); border: .1em solid var(--glass-line); border-radius: .6em; padding: .3em .6em; outline: none; }
+.name-row input:focus { border-color: var(--orange-2); }
+.small-btn { font-family: "Lilita One", sans-serif; font-size: 2.2em; padding: .2em .9em; border-radius: .6em; color: #fff; background: linear-gradient(180deg, var(--orange-2), var(--orange)); }
+.name-entry { width: 100%; display: flex; flex-direction: column; gap: .7em; background: var(--cell); border-radius: 1.4em; padding: 1em 1.2em; }
+.name-entry > span { font-size: 1.8em; color: var(--muted); }
+#overRank { font-size: 2em; color: #e9e4ff; text-align: center; }
+#overRank b { font-family: "Lilita One", sans-serif; font-weight: 400; font-size: 1.3em; color: var(--yellow); }
+#overRank small { display: block; font-size: .75em; color: var(--muted); }
+#lbList { width: 100%; max-height: 46vh; overflow-y: auto; display: flex; flex-direction: column; gap: .4em; }
+.lb-row { display: flex; align-items: center; gap: 1em; font-size: 2em; padding: .3em .6em; border-radius: .6em; background: var(--cell); }
+.lb-row.me { background: rgba(255,90,31,.25); border: .08em solid var(--orange-2); }
+.lb-row .pos { width: 2.2em; font-family: "Lilita One", sans-serif; color: var(--muted); }
+.lb-row:nth-child(1) .pos { color: #ffd21f; } .lb-row:nth-child(2) .pos { color: #d9e2f0; } .lb-row:nth-child(3) .pos { color: #e3a26a; }
+.lb-row .nm { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.lb-row .nm small { display: block; font-size: .7em; color: var(--muted); }
+.lb-row .cc { font-style: normal; font-size: .65em; color: var(--muted); border: .08em solid var(--glass-line); border-radius: .3em; padding: 0 .3em; vertical-align: .15em; }
+.lb-row b { font-family: "Lilita One", sans-serif; font-weight: 400; font-size: 1.15em; font-variant-numeric: tabular-nums; }
+.lb-empty { font-size: 2em; color: var(--muted); text-align: center; padding: 1em; }
+.dock { gap: 1.6em; }
+.dock-ico { width: 6.8em; height: 6.8em; }
+.tab.hidden, .name-row.hidden { display: none; }

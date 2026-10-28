@@ -108,6 +108,19 @@
         window.CrazyGames.SDK.banner.requestBanner({ id: el.id + '-cg', width: w, height: h }).catch(e => { console.warn('Banner error', e); el.hidden = true; });
       },
       hideBanner: el => { el.hidden = true; el.innerHTML = ''; },
+      // CrazyGames weekly leaderboard (enabled by CrazyGames for invited games; needs cfg.cgLeaderboardKey)
+      hasLeaderboard: () => !!cfg.cgLeaderboardKey,
+      submitScore: async score => {
+        if (!cfg.cgLeaderboardKey) return;
+        const encryptedScore = await encryptScore(score, cfg.cgLeaderboardKey);
+        window.CrazyGames.SDK.user.submitScore({ encryptedScore, score });
+      },
+      // The player's CrazyGames username, used as the default leaderboard name
+      userName: async () => {
+        if (!window.CrazyGames.SDK.user.isUserAccountAvailable) return null;
+        const u = await window.CrazyGames.SDK.user.getUser();
+        return u ? u.username : null;
+      },
     },
 
     // GameDistribution — needs cfg.gdGameId (from the GD developer dashboard)
@@ -212,6 +225,17 @@
     })(),
   };
 
+  // AES-GCM score encryption for the CrazyGames leaderboard (their documented sample, ported)
+  async function encryptScore(score, base64Key) {
+    const iv = window.crypto.getRandomValues(new Uint8Array(12));
+    const keyBytes = Uint8Array.from(atob(base64Key), c => c.charCodeAt(0));
+    const key = await crypto.subtle.importKey('raw', keyBytes, { name: 'AES-GCM' }, false, ['encrypt']);
+    const data = await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, key, new TextEncoder().encode(String(score)));
+    const out = new Uint8Array(iv.length + data.byteLength);
+    out.set(iv, 0); out.set(new Uint8Array(data), iv.length);
+    return btoa(String.fromCharCode(...out));
+  }
+
   // ---------- Mock ad overlay (preview build only) ----------
   function mockOverlay(label, ms, done) {
     const el = document.createElement('div');
@@ -240,6 +264,9 @@
     gameplayStart: () => { if (!playing) { playing = true; call(be.gameplayStart); } },
     gameplayStop: () => { if (playing) { playing = false; call(be.gameplayStop); } },
     happy: () => call(be.happy),
+    get hasPlatformLeaderboard() { return ready && !!be.hasLeaderboard && be.hasLeaderboard(); },
+    submitScore(score) { if (ready && be.submitScore) be.submitScore(score).catch(e => console.warn('Score submit failed', e)); },
+    userName() { return ready && be.userName ? be.userName().catch(() => null) : Promise.resolve(null); },
     // Interstitial at a natural break (game over -> play again). Our own floor of 45 s between ads.
     interstitial() {
       if (!ready || !be.interstitial || (lastAdAt && sinceLastAd() < 45)) return Promise.resolve(false);
