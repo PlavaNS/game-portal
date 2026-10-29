@@ -48,5 +48,60 @@
       "multiplayer",
       "3d"
     ]
+  },
+  {
+    "slug": "noillirk",
+    "title": "Noillirk",
+    "studio": "Playdaily",
+    "studioUrl": "https://playdaily.org/",
+    "added": "2026-10-29",
+    "short": "A free daily guessing game: pick the answer most people gave and float your balloons from the pond up to the universe.",
+    "description": "Noillirk is a free daily guessing game you play straight in your browser. Every day brings seven survey prompts, and for each one you pick the answer you think most people chose. Every correct pick inflates a balloon that lifts you higher, from a quiet pond all the way to the universe. There is a daily run, a classic mode and an endless mode, plus a live multiplayer room, and the whole thing is free with no sign-up needed.",
+    "instructions": "Click or tap the answer you think was the most common survey response. Each correct answer inflates a balloon and lifts you higher, so the closer you read the crowd the further you climb. A fresh set of seven prompts arrives every day, and you can switch to classic or endless mode, or join a multiplayer room, from the buttons under the title.",
+    "category": "puzzle",
+    "extraCats": [
+      "multiplayer",
+      "kids",
+      "hypercasual"
+    ],
+    "tags": [
+      "Puzzle",
+      "Trivia",
+      "Quiz",
+      "Daily",
+      "Guessing",
+      "Multiplayer",
+      "Word"
+    ],
+    "embed": "https://playdaily.org/noillirk",
+    "thumb": "https://playdaily.org/noillirk-opengraph.jpg?v=2026-09-25",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "bounce-blast",
+    "title": "Bounce Blast",
+    "studio": "mengyuxuan",
+    "studioUrl": "https://tantanbaoji.com/",
+    "added": "2026-10-29",
+    "short": "A free brick breaker where you aim one growing volley of balls, bank shots off the walls and clear the board before it reaches the line.",
+    "description": "Bounce Blast is a free ball-bounce brick breaker you play right in your browser. Drag to aim, release a growing volley of balls and watch one good angle turn into a chain reaction. Bank shots off the walls to slip behind the numbered bricks, grab the plus pickups for more balls, hit blast bricks to damage their neighbours, and save Energy Blast for the moment a row is about to cross the bottom line. Rounds are short, it works with mouse, touch or keyboard, and your best score is kept on your own device.",
+    "instructions": "Drag inside the playfield to aim, then release to launch all of your balls at once. On a keyboard use the arrow keys to aim and Space to fire. Numbers on the bricks show how many hits they still need, plus pickups add balls to your volley, and Energy Blast clears the lowest row when bricks get close to the bottom line.",
+    "category": "arcade",
+    "extraCats": [
+      "puzzle",
+      "hypercasual"
+    ],
+    "tags": [
+      "Arcade",
+      "Brick Breaker",
+      "Balls",
+      "Bricks",
+      "Casual",
+      "Skill",
+      "Aim"
+    ],
+    "embed": "https://tantanbaoji.com/#game-area",
+    "thumb": "https://tantanbaoji.com/og-image.png",
+    "orientation": "landscape"
   }
 ]
