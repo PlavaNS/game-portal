@@ -272,11 +272,18 @@ if (cfg.gamepixSid && gpx.length) {
 }
 
 games.sort((a, b) => a.score - b.score);
-// every filtered Playgama game stays; other sources fill the rest up to maxGames
+// every game page we ever published (data/published.txt) stays published while the game is still in a feed,
+// so pages don't flip between 200 and 404 when feed rankings shift around the maxGames cut-off
+const PUBLISHED_FILE = path.join(ROOT, 'data/published.txt');
+const published = new Set(fs.existsSync(PUBLISHED_FILE)
+  ? fs.readFileSync(PUBLISHED_FILE, 'utf8').split(/\r?\n/).map(s => s.trim()).filter(Boolean) : []);
+const wasPublished = g => { const s = slugify(g.title); return published.has(s) || published.has(`${s}-${g.srcId}`.slice(0, 80)); };
+// every filtered Playgama game stays; previously published games stay; other sources fill the rest up to maxGames
 {
-  const pgCount = games.filter(g => g.source === 'pg' || g.source === 'gpx').length;
-  let room = Math.max(0, cfg.maxGames - pgCount);
-  games = games.filter(g => g.source === 'pg' || g.source === 'gpx' || room-- > 0);
+  const keep = g => g.source === 'pg' || g.source === 'gpx' || wasPublished(g);
+  const keptCount = games.filter(keep).length;
+  let room = Math.max(0, cfg.maxGames - keptCount);
+  games = games.filter(g => keep(g) || room-- > 0);
 }
 
 // hand-written tips/FAQ for selected games (data/guides.json, keyed by slug)
@@ -840,5 +847,21 @@ try {
     topics: topics.map(t => ({ key: 'topic:' + t.slug, h1: t.h1, kw: t.kw, intro: t.intro })),
   }, null, 1));
 } catch (e) { console.warn('phrase dump failed: ' + e.message); }
+
+// published games that left every feed: a noindex redirect page instead of a hard 404, then remember today's set
+{
+  LANG = 'en';
+  const live = new Set(all.map(g => g.slug));
+  let gone = 0;
+  for (const s of published) {
+    if (live.has(s) || !/^[a-z0-9-]+$/.test(s)) continue;
+    const to = u('/');
+    write(`games/${s}/index.html`, `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Game moved | ${esc(cfg.name)}</title><link rel="canonical" href="${esc(abs('/'))}"><meta http-equiv="refresh" content="0; url=${esc(to)}"></head><body><p>This game is no longer available. <a href="${esc(to)}">Play other free games</a>.</p></body></html>\n`);
+    gone++;
+  }
+  const next = [...new Set([...published, ...all.filter(g => !g.own && !g.community).map(g => g.slug)])].sort();
+  fs.writeFileSync(PUBLISHED_FILE, next.join('\n') + '\n');
+  console.log(`published.txt: ${next.length} slugs, ${gone} retired games redirected`);
+}
 
 console.log(`Built ${all.length} games (${ours.length} ours), ${activeCats.length} categories, ${sitemap.length} URLs in sitemap -> dist/`);
