@@ -684,6 +684,15 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
 <div class="sg-row"><label for="sg-genre">Genre</label><input id="sg-genre" name="genre" maxlength="60" placeholder="puzzle, racing, .io&hellip;" autocomplete="off"></div>
 <div class="sg-row"><label for="sg-mobile">Works on mobile?</label><select id="sg-mobile" name="mobile"><option value="">Select&hellip;</option><option value="yes">Yes, touch controls</option><option value="no">Desktop only</option></select></div>
 </div>
+<fieldset class="sg-net">
+<legend>Is your game already on a distribution network?</legend>
+<p class="sg-net-why">If it is on Playgama, GameMonetize or GamePix, we take that version &mdash; the network then pays you for every play on our site too, on top of what the game already earns for you elsewhere.</p>
+<div class="sg-two">
+<div class="sg-row"><label for="sg-network">Network</label><select id="sg-network" name="network"><option value="">Not yet / not sure</option><option value="playgama">Playgama</option><option value="gamemonetize">GameMonetize</option><option value="gamepix">GamePix</option><option value="other">Another network</option></select></div>
+<div class="sg-row"><label for="sg-network-url">Link to the game on that network</label><input id="sg-network-url" name="network_url" type="url" maxlength="400" placeholder="https://" autocomplete="off"></div>
+</div>
+<label class="sg-check"><input type="checkbox" id="sg-help" name="help_network"> <span>Not on a network yet &mdash; show me how to get on one. It is free, it takes about an afternoon, and it is money your game is not collecting today.</span></label>
+</fieldset>
 <div class="sg-row"><label for="sg-email">Your email <b>*</b></label><input id="sg-email" name="email" type="email" maxlength="160" autocomplete="email" required><small>We reply here with the link to your live game page.</small></div>
 <div class="sg-row"><label for="sg-desc">Short description <b>*</b></label><textarea id="sg-desc" name="description" rows="4" maxlength="3000" required></textarea><small>2&ndash;3 sentences in English, as you would like them to appear on the game page.</small></div>
 <div class="sg-row"><label for="sg-instr">How to play</label><textarea id="sg-instr" name="instructions" rows="3" maxlength="2000"></textarea><small>Controls, goal, anything a new player should know.</small></div>
@@ -706,6 +715,7 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
     e.preventDefault();
     if (v('nickname')) return;
     var d = { title: v('title'), url: v('url'), studio: v('studio'), site: v('site'), genre: v('genre'), mobile: v('mobile'),
+              network: v('network'), network_url: v('network_url'), help_network: !!f.elements['help_network'].checked,
               description: v('description'), instructions: v('instructions'), thumb: v('thumb'), email: v('email'),
               rights: !!f.elements['rights'].checked, status: 'new' };
     if (d.title.length < 2) return say('Please tell us the title of your game.', false);
@@ -714,6 +724,7 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
     if (d.description.length < 30) return say('Please add a short description, at least a sentence or two.', false);
     if (!d.rights) return say('Please confirm you have the rights to publish this game.', false);
     if (d.site && !/^https?:\\/\\//i.test(d.site)) return say('Your website link should start with https://', false);
+    if (d.network_url && !/^https?:\\/\\//i.test(d.network_url)) return say('The network link should start with https://', false);
     if (d.thumb && !/^https?:\\/\\//i.test(d.thumb)) return say('The thumbnail link should start with https://', false);
     btn.disabled = true; say('Sending…', true);
     fetch(EP, { method: 'POST', headers: { 'apikey': KEY, 'Authorization': 'Bearer ' + KEY, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' }, body: JSON.stringify(d) })
@@ -733,7 +744,9 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
   const sgFaq = [
     ['Does it cost anything to submit a game?', `No. Submitting is free, we do not charge a listing or review fee, and we do not take a share of your revenue.`],
     ['Do I have to give you exclusivity?', `No. Your game can stay on your own site, on itch.io and on any other portal. Nothing you sign here stops you publishing it anywhere else.`],
-    ['Do I keep the ad revenue from my game?', `Yes. We do not host your files and we do not touch your build: the game is embedded from your own URL, so your ad tags, your analytics and your revenue share stay exactly as they are on your site.`],
+    ['Do I get paid for the plays my game gets on your site?', `If your game is distributed through Playgama, GameMonetize or GamePix, yes: we take the network version, and the network pays you your developer share for every play here, the same way it does on any other portal. If you send us a direct link instead, we embed your own build from your own URL, so your own ad tags keep running and that revenue stays entirely yours.`],
+    ['I am not on any network. Can you help me get on one?', `Yes, and it costs you nothing. Tick the box in the form and we will walk you through signing up and uploading your build. It usually takes an afternoon, and for most small games it is revenue that is simply not being collected today.`],
+    ['Will you ever change or remove the ads in my game?', `Never. We do not re-host your files, we do not repackage your build and we do not touch anyone's ad code. That is a rule here, and it is also a condition of every network we work with.`],
     ['Will you link back to my site?', `Yes. Every game page credits the developer, and if you give us your website or store page we link your name to it, so players who like the game can find the rest of your work.`],
     ['How long does the review take?', `Usually a few days. A real person plays the game and checks that it runs, loads in an iframe and is family-friendly. You get one reply that already contains the link to your live game page.`],
     ['What do you need from me — files, a build, a zip?', `Just a link. Send the URL of the playable HTML5 build plus a short description, and a cover image if you have one. There is nothing to upload.`],
@@ -742,11 +755,12 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
   ];
   const sgFaqHtml = sgFaq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('');
   const sgLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: sgFaq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) };
-  textPage('submit-game', 'Submit Your HTML5 Game', `<p class="lead">Made a browser game? Get it in front of the players on ${esc(cfg.name)} &mdash; free, non-exclusive, and you keep your own ads and revenue. A real person plays every game that comes in.</p>
+  textPage('submit-game', 'Submit Your HTML5 Game', `<p class="lead">Made a browser game? Get it in front of the players on ${esc(cfg.name)} &mdash; free, non-exclusive, and you earn from every play. A real person plays every game that comes in.</p>
 <h2>What you get</h2>
 <ul>
 <li><strong>It costs nothing.</strong> No listing fee, no review fee, and we take no share of what your game earns.</li>
-<li><strong>You keep your ads and your revenue.</strong> We embed your build from your own URL, so your ad tags and analytics run exactly as they do on your site.</li>
+<li><strong>You get paid for the plays you get here.</strong> If your game is on Playgama, GameMonetize or GamePix, we take that version, and the network pays you your developer share for every play on our site &mdash; on top of whatever the game already earns you elsewhere. Not on a network yet? Tick the box in the form and we will walk you through it for free.</li>
+<li><strong>Your build stays yours, untouched.</strong> We never repackage a game, never re-host it and never strip anyone's ads. If you send us a direct link instead, it is embedded from your own URL and your own ad tags keep running exactly as they do on your site.</li>
 <li><strong>A link back to you.</strong> Your game page credits you as the developer and links your name to your site or store page.</li>
 <li><strong>Your own game page.</strong> Title, description, how to play, FAQ and screenshots &mdash; built to be found on Google, not buried in a list.</li>
 <li><strong>Listed where players look.</strong> Your game is placed in the matching categories and themed collections, next to games people already play here.</li>
@@ -763,7 +777,7 @@ ${sgFaqHtml}
 <h2>Good to know</h2>
 <p>We do not host files: the game stays on your server or your distribution platform, and you can ask us to remove it at any time. Games from other people that you do not own will not be accepted.</p>
 <p class="muted">We only use the details you send here to review your game and reply to you. Nothing is shared with third parties. See our <a href="${ur('/privacy/')}">privacy policy</a>.</p>`,
-    `Submit your HTML5 game to ${cfg.name}: free and non-exclusive, keep your own ads and revenue, get a link back to your site, reviewed by a real person in a few days.`,
+    `Submit your HTML5 game to ${cfg.name}: free and non-exclusive, you earn from every play, and you get a link back to your site. Reviewed by a real person in a few days.`,
     [sgLd], 0.8);
 }
 textPage('contact', 'Contact', `<p>We'd love to hear from you — feedback, bug reports, game suggestions or business inquiries.</p>
