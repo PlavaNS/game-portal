@@ -296,7 +296,7 @@ const ours = readJSON(path.join(ROOT, 'data/our-games.json'), []).map(o => ({
 const community = readJSON(path.join(ROOT, 'data/community-games.json'), []).map(o => ({
   id: 'com-' + o.slug, own: false, community: true, source: 'community', slug: o.slug, title: o.title, description: o.description, instructions: o.instructions, short: o.short,
   embed: o.embed, thumb: o.thumb, cover: o.cover || o.thumb, video: null, screens: o.screens || [],
-  w: o.orientation === 'portrait' ? 600 : 1280, h: o.orientation === 'portrait' ? 1000 : 720, rawCat: o.category, tags: o.tags, studio: o.studio,
+  w: o.orientation === 'portrait' ? 600 : 1280, h: o.orientation === 'portrait' ? 1000 : 720, rawCat: o.category, tags: o.tags, studio: o.studio, studioUrl: o.studioUrl || null,
   score: 0.5, r: { most: 0.5, hot: 0.5, best: 0.5, newest: -0.5 }, cats: { main: o.category, all: [o.category, ...(o.extraCats || [])] }, mobile: true,
 }));
 games.unshift(...community);
@@ -622,6 +622,7 @@ function emitContent() {
       <h3>${esc(tr('Can I play this game on my phone?'))}</h3><p>${g.mobile ? tr('Yes. It runs in the browser on Android phones, iPhones and tablets as well as on PC and Mac — tap “Play now” and the game opens full screen.') : `${esc(g.title)} is made for computers and plays best with a keyboard and mouse. For phones, check out our <a href="${u('/c/mobile/')}">mobile games</a>.`}</p>
       <h3>${esc(tr('Do I need to download or sign up?'))}</h3><p>${esc(tr('No. There is nothing to install and no account needed. The game loads instantly in your browser.'))}</p>
       <p class="muted">${g.own ? `Made by ${g.studioUrl ? `<a href="${esc(g.studioUrl)}" rel="noopener" target="_blank">${esc(g.studio)}</a>` : esc(g.studio)} — the team behind ${esc(cfg.name)}.${g.promo && LANG === 'en' ? ` ${g.promo}` : ''}` : `${esc(tr('Like this game? Try more'))} <a href="${cHref(main.slug)}">${esc(((catTr(main.slug) || {}).h1 || main.h1).toLowerCase())}</a> or browse the <a href="${u('/popular/')}">most played games</a> on ${esc(cfg.name)}.`}</p>
+      <p class="dev-cta">${esc(tr('Made a game like this?'))} <a href="${ur('/submit-game/')}">${esc(tr('Submit your HTML5 game'))}</a> ${esc(tr('— free, non-exclusive, and we link back to your site.'))}</p>
     </article>
     <aside class="similar"><h2>${esc(tr('Similar games'))}</h2><div class="grid small">${sim.map(s => card(s)).join('')}</div></aside>
   </div>`;
@@ -653,9 +654,9 @@ for (const lang of ['en', ...LANGS.map(l => l.code)]) { LANG = lang; emitContent
 LANG = 'en';
 
 // STATIC TEXT PAGES
-const textPage = (slug, title, html, desc) => {
-  write(`${slug}/index.html`, layout({ title: `${title} | ${cfg.name}`, desc, canonical: abs(`/${slug}/`), body: `<article class="text"><h1>${esc(title)}</h1>${html}</article>` }));
-  addUrl(`/${slug}/`, 0.2);
+const textPage = (slug, title, html, desc, jsonld = [], prio = 0.2) => {
+  write(`${slug}/index.html`, layout({ title: `${title} | ${cfg.name}`, desc, canonical: abs(`/${slug}/`), body: `<article class="text"><h1>${esc(title)}</h1>${html}</article>`, jsonld }));
+  addUrl(`/${slug}/`, prio);
 };
 const today = new Date().toISOString().slice(0, 10);
 textPage('our-games', 'Our Games', `<p class="lead">Games made by ${esc(cfg.studio)}, the team behind ${esc(cfg.name)} and a real escape room studio from Novi Sad, Serbia. Free, no download, no sign-up.</p>
@@ -669,20 +670,21 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
 
 {
   const subj = encodeURIComponent('Game submission: <your game title>');
-  const body = encodeURIComponent('Game title:\nGame URL (HTML5, playable in an iframe):\nStudio / developer name:\nGenre:\nWorks on mobile? (yes/no):\nShort description (2-3 sentences):\nHow to play:\nThumbnail / cover image link (512x384 or larger):\n\nI confirm I made this game or have the rights to publish it: yes\n');
+  const body = encodeURIComponent('Game title:\nGame URL (HTML5, playable in an iframe):\nStudio / developer name:\nYour website or store page:\nGenre:\nWorks on mobile? (yes/no):\nShort description (2-3 sentences):\nHow to play:\nThumbnail / cover image link (512x384 or larger):\n\nI confirm I made this game or have the rights to publish it: yes\n');
   const SB_URL = 'https://pxjlcbjwdalctlyeljql.supabase.co';
   const SB_KEY = 'sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k';
   const form = `<form id="sg" class="sg-form" novalidate>
 <div class="sg-row"><label for="sg-title">Game title <b>*</b></label><input id="sg-title" name="title" maxlength="120" autocomplete="off" required></div>
-<div class="sg-row"><label for="sg-url">Game URL <b>*</b></label><input id="sg-url" name="url" type="url" maxlength="400" placeholder="https://" autocomplete="off" required><small>Direct link to the playable build, embeddable in an iframe.</small></div>
+<div class="sg-row"><label for="sg-url">Game URL <b>*</b></label><input id="sg-url" name="url" type="url" maxlength="400" placeholder="https://" autocomplete="off" required><small>Direct link to the playable build, embeddable in an iframe. Keep your own ad and analytics tags in it.</small></div>
 <div class="sg-two">
-<div class="sg-row"><label for="sg-studio">Studio / developer</label><input id="sg-studio" name="studio" maxlength="120" autocomplete="off"></div>
+<div class="sg-row"><label for="sg-studio">Studio / developer</label><input id="sg-studio" name="studio" maxlength="120" autocomplete="off"><small>The name we credit you under.</small></div>
+<div class="sg-row"><label for="sg-site">Your website or store page</label><input id="sg-site" name="site" type="url" maxlength="300" placeholder="https://" autocomplete="off"><small>We link to it from your game page.</small></div>
+</div>
+<div class="sg-two">
 <div class="sg-row"><label for="sg-genre">Genre</label><input id="sg-genre" name="genre" maxlength="60" placeholder="puzzle, racing, .io&hellip;" autocomplete="off"></div>
-</div>
-<div class="sg-two">
 <div class="sg-row"><label for="sg-mobile">Works on mobile?</label><select id="sg-mobile" name="mobile"><option value="">Select&hellip;</option><option value="yes">Yes, touch controls</option><option value="no">Desktop only</option></select></div>
-<div class="sg-row"><label for="sg-email">Your email <b>*</b></label><input id="sg-email" name="email" type="email" maxlength="160" autocomplete="email" required><small>We reply here, usually within a few days.</small></div>
 </div>
+<div class="sg-row"><label for="sg-email">Your email <b>*</b></label><input id="sg-email" name="email" type="email" maxlength="160" autocomplete="email" required><small>We reply here with the link to your live game page.</small></div>
 <div class="sg-row"><label for="sg-desc">Short description <b>*</b></label><textarea id="sg-desc" name="description" rows="4" maxlength="3000" required></textarea><small>2&ndash;3 sentences in English, as you would like them to appear on the game page.</small></div>
 <div class="sg-row"><label for="sg-instr">How to play</label><textarea id="sg-instr" name="instructions" rows="3" maxlength="2000"></textarea><small>Controls, goal, anything a new player should know.</small></div>
 <div class="sg-row"><label for="sg-thumb">Thumbnail / cover image URL</label><input id="sg-thumb" name="thumb" type="url" maxlength="400" placeholder="https://" autocomplete="off"><small>512&times;384 or larger, 4:3 works best.</small></div>
@@ -703,7 +705,7 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
   f.addEventListener('submit', function(e){
     e.preventDefault();
     if (v('nickname')) return;
-    var d = { title: v('title'), url: v('url'), studio: v('studio'), genre: v('genre'), mobile: v('mobile'),
+    var d = { title: v('title'), url: v('url'), studio: v('studio'), site: v('site'), genre: v('genre'), mobile: v('mobile'),
               description: v('description'), instructions: v('instructions'), thumb: v('thumb'), email: v('email'),
               rights: !!f.elements['rights'].checked, status: 'new' };
     if (d.title.length < 2) return say('Please tell us the title of your game.', false);
@@ -711,6 +713,7 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
     if (!/^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$/.test(d.email)) return say('Please add an email address we can reply to.', false);
     if (d.description.length < 30) return say('Please add a short description, at least a sentence or two.', false);
     if (!d.rights) return say('Please confirm you have the rights to publish this game.', false);
+    if (d.site && !/^https?:\\/\\//i.test(d.site)) return say('Your website link should start with https://', false);
     if (d.thumb && !/^https?:\\/\\//i.test(d.thumb)) return say('The thumbnail link should start with https://', false);
     btn.disabled = true; say('Sending…', true);
     fetch(EP, { method: 'POST', headers: { 'apikey': KEY, 'Authorization': 'Bearer ' + KEY, 'Content-Type': 'application/json', 'Prefer': 'return=minimal' }, body: JSON.stringify(d) })
@@ -727,16 +730,41 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
   });
 })();
 <\/script>`;
-  textPage('submit-game', 'Submit Your Game', `<p class="lead">Made an HTML5 game? Get it in front of new players on ${esc(cfg.name)}. Submitting is free, and a real person plays every game that comes in.</p>
+  const sgFaq = [
+    ['Does it cost anything to submit a game?', `No. Submitting is free, we do not charge a listing or review fee, and we do not take a share of your revenue.`],
+    ['Do I have to give you exclusivity?', `No. Your game can stay on your own site, on itch.io and on any other portal. Nothing you sign here stops you publishing it anywhere else.`],
+    ['Do I keep the ad revenue from my game?', `Yes. We do not host your files and we do not touch your build: the game is embedded from your own URL, so your ad tags, your analytics and your revenue share stay exactly as they are on your site.`],
+    ['Will you link back to my site?', `Yes. Every game page credits the developer, and if you give us your website or store page we link your name to it, so players who like the game can find the rest of your work.`],
+    ['How long does the review take?', `Usually a few days. A real person plays the game and checks that it runs, loads in an iframe and is family-friendly. You get one reply that already contains the link to your live game page.`],
+    ['What do you need from me — files, a build, a zip?', `Just a link. Send the URL of the playable HTML5 build plus a short description, and a cover image if you have one. There is nothing to upload.`],
+    ['Can I update or remove the game later?', `Yes. Because the game is loaded from your server, any update you publish is live here immediately, and one email is enough to have the page taken down.`],
+    ['What kind of games get rejected?', `Games that will not load in an iframe, broken or unfinished builds, adult or gambling content, and clones that reuse another studio's art, characters or title.`],
+  ];
+  const sgFaqHtml = sgFaq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('');
+  const sgLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: sgFaq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) };
+  textPage('submit-game', 'Submit Your HTML5 Game', `<p class="lead">Made a browser game? Get it in front of the players on ${esc(cfg.name)} &mdash; free, non-exclusive, and you keep your own ads and revenue. A real person plays every game that comes in.</p>
+<h2>What you get</h2>
+<ul>
+<li><strong>It costs nothing.</strong> No listing fee, no review fee, and we take no share of what your game earns.</li>
+<li><strong>You keep your ads and your revenue.</strong> We embed your build from your own URL, so your ad tags and analytics run exactly as they do on your site.</li>
+<li><strong>A link back to you.</strong> Your game page credits you as the developer and links your name to your site or store page.</li>
+<li><strong>Your own game page.</strong> Title, description, how to play, FAQ and screenshots &mdash; built to be found on Google, not buried in a list.</li>
+<li><strong>Listed where players look.</strong> Your game is placed in the matching categories and themed collections, next to games people already play here.</li>
+<li><strong>Non-exclusive, and reversible.</strong> Publish the same game anywhere else you like, and one email is enough to have it removed.</li>
+</ul>
 <h2>What we are looking for</h2>
 <ul><li>HTML5 / WebGL games that run in a browser and can be embedded in an iframe</li><li>Games you made yourself or have the rights to publish</li><li>Family-friendly content: no adult content, gambling or hate</li><li>Works on desktop; mobile support is a big plus</li></ul>
 <h2>Send us your game</h2>
 ${form}
 <h2>How it works</h2>
 <ol><li>You fill in the form above (or email <a href="mailto:${esc(cfg.contactEmail)}?subject=${subj}&amp;body=${body}">${esc(cfg.contactEmail)}</a> if you prefer).</li><li>We play it and check quality, performance and content, usually within a few days.</li><li>If it fits, we publish it with a link and credit back to you, and reply with the link to the live game page.</li></ol>
+<h2>Questions developers ask</h2>
+${sgFaqHtml}
 <h2>Good to know</h2>
 <p>We do not host files: the game stays on your server or your distribution platform, and you can ask us to remove it at any time. Games from other people that you do not own will not be accepted.</p>
-<p class="muted">We only use the details you send here to review your game and reply to you. Nothing is shared with third parties. See our <a href="${ur('/privacy/')}">privacy policy</a>.</p>`, `Submit your HTML5 game to ${cfg.name}: free, fast review by a real person, link and credit back to you.`);
+<p class="muted">We only use the details you send here to review your game and reply to you. Nothing is shared with third parties. See our <a href="${ur('/privacy/')}">privacy policy</a>.</p>`,
+    `Submit your HTML5 game to ${cfg.name}: free and non-exclusive, keep your own ads and revenue, get a link back to your site, reviewed by a real person in a few days.`,
+    [sgLd], 0.8);
 }
 textPage('contact', 'Contact', `<p>We'd love to hear from you — feedback, bug reports, game suggestions or business inquiries.</p>
 <p>Email: <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a></p>
