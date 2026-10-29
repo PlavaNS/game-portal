@@ -354,6 +354,7 @@ basket-ball-for-two-player
 basket-battle
 basket-champs
 basket-random
+basket-sort-puzzle
 basket-sport-stars
 basketball-allstars
 basketball-arcade
