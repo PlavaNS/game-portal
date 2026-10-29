@@ -1056,5 +1056,27 @@
    "They are built for short attention spans and big buttons, so they work well on a tablet or a phone. Everything here is free, runs in the browser, and needs no download or sign-up."
   ],
   "titleOnly": true
+ },
+ {
+  "slug": "tile-matching-games",
+  "h1": "Tile Matching Games",
+  "kw": "tile explorer online free",
+  "match": "tile match(ing|er)?|tiles? (match|connect|explorer|master|valley|farm|harvest|stack|pair|party|camp|story|challenge)|tile(s)? 3d|matching tiles|onet|triple tiles?|3 tiles|mahjong (tiles?|connect)|pocket tile|tile (valley|stack|farm story)",
+  "titleOnly": true,
+  "intro": [
+   "Tile matching games give you a board full of picture tiles and one simple job: find the identical ones and clear them. Some let you tap three of a kind into a tray at the bottom, some ask you to connect two tiles with a short path, and others stack the tiles in layers so you have to think about which one to free first.",
+   "They are calm, quick to learn and easy to pick up for a few minutes at a time, which is why they work so well on a phone. Every game on this page is free, runs straight in your browser and needs no download or account."
+  ]
+ },
+ {
+  "slug": "3d-games",
+  "h1": "3D Games",
+  "kw": "online 3d games",
+  "match": "3d",
+  "titleOnly": true,
+  "intro": [
+   "These are browser games built in full 3D: racing and driving games with a chase camera, stickman brawlers, sorting and block puzzles you can rotate, runners and simulators. They load in a normal browser tab with WebGL, so there is nothing to install.",
+   "Most of them work on a phone as well as a computer, though a desktop with a keyboard helps for the faster driving and shooting games. All of them are free to play here, with no download and no sign-up."
+  ]
  }
 ]

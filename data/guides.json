@@ -98800,5 +98800,65 @@
         "Yes. It works well with several people around one screen, which is how a real escape room is usually played."
       ]
     ]
+  },
+  "save-my-pet-game": {
+    "intro": "Save My Pet Game is a logic puzzle where each level puts a cute pet in danger and you have to work out the safest way to protect it, usually by drawing a path or a barrier before the hazard reaches it.",
+    "tips": [
+      "Look at the whole level before you start drawing. Note where the danger comes from and where your pet is standing.",
+      "Think about timing as well as shape: a solution that is too slow or leaves a gap lets the hazard through.",
+      "Keep your drawing simple. A short, solid line usually holds up better than a long, complicated one.",
+      "If a level fails, change one thing at a time so you can see which part of your plan did not work.",
+      "Later levels add new obstacles, so expect each one to need a slightly different idea rather than repeating the last solution."
+    ],
+    "faq": [
+      [
+        "How do you play Save My Pet Game?",
+        "Everything is done with the mouse: click the buttons and draw your solution, then watch whether it keeps the pet safe from the obstacles in that level."
+      ],
+      [
+        "Does Save My Pet Game get harder?",
+        "Yes. Each level brings a new challenge, and as you progress they ask for more careful thinking and more creative solutions."
+      ]
+    ]
+  },
+  "blade-merge": {
+    "intro": "Blade Merge mixes merging strategy with spinning blade duels: combine your blades into stronger weapons, then send them in to cut down an enemy bot's health before it wears down yours.",
+    "tips": [
+      "Merge before you fight. Two matching blades combine into a stronger one, so a few merges usually beat many weak blades.",
+      "Watch both health bars during a duel so you know whether you are winning the exchange.",
+      "Protecting your own health matters as much as hitting hard; a stronger blade helps on both counts.",
+      "If a level feels too tough, go back to merging and bring a higher-level blade into the next duel.",
+      "The game is played with the left mouse button only, so it works the same way on a laptop touchpad."
+    ],
+    "faq": [
+      [
+        "What are the controls in Blade Merge?",
+        "Use the left mouse button for everything: merging blades and playing the battles."
+      ],
+      [
+        "How do you win a level in Blade Merge?",
+        "Reduce the enemy bot's health to zero with your spinning blades while protecting your own."
+      ]
+    ]
+  },
+  "bloom": {
+    "intro": "Bloom is a small arcade .io-style game across multiple levels, played in the browser with WebGL and steered with the keyboard or a swipe of the mouse.",
+    "tips": [
+      "Move with W, A, S and D, or swipe with the mouse if that feels more natural to you.",
+      "Try both control styles in the first level and stick with the one that gives you finer control.",
+      "Take the early levels slowly to learn how your character moves before going for speed.",
+      "Each level is a fresh start, so if one goes badly simply try it again with what you learned.",
+      "The game uses WebGL, so if it runs slowly, close other heavy browser tabs."
+    ],
+    "faq": [
+      [
+        "What are the controls in Bloom?",
+        "Use W, A, S, D on the keyboard or swipe with the mouse to move."
+      ],
+      [
+        "Does Bloom have more than one level?",
+        "Yes, it features multiple levels with io-style gameplay."
+      ]
+    ]
   }
 }
