@@ -495,7 +495,14 @@ function emitContent() {
       desc: `${tr(cfg.slogan)} ${tr('Play')} ${all.length.toLocaleString('en')}+ ${tr('free online games: action, puzzle, racing, 2 player, clicker and more. No downloads, works on PC & mobile.')}`,
       canonical: abs('/'), body, altPath: '/', altLangs: LANGS.filter(l => Object.keys(UI[l.code] || {}).length >= 20).map(l => l.code),
       jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.name, alternateName: cfg.name.replace(/\s+/g, ''), url: abs('/'), potentialAction: { '@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
-        { '@context': 'https://schema.org', '@type': 'Organization', name: cfg.name, url: abs('/'), logo: abs('/assets/icon-512.png'), slogan: cfg.slogan, parentOrganization: { '@type': 'Organization', name: cfg.studio } }],
+        { '@context': 'https://schema.org', '@type': 'Organization', '@id': abs('/#organization'), name: cfg.name, alternateName: cfg.shortName, url: abs('/'),
+          logo: { '@type': 'ImageObject', url: abs('/assets/icon-512.png'), width: 512, height: 512 }, image: abs('/assets/og.png'),
+          description: `${cfg.name} is a free HTML5 game portal with ${all.length.toLocaleString('en-US')}+ browser games you can play instantly on desktop and mobile, with no downloads and no sign-up.`,
+          slogan: cfg.slogan, email: cfg.contactEmail,
+          contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: cfg.contactEmail, availableLanguage: ['English'] },
+          foundingDate: '2026', areaServed: 'Worldwide',
+          sameAs: ['https://plavans.itch.io', 'https://www.escaperoom.co.rs/en', 'https://ballsofglory.app'],
+          parentOrganization: { '@type': 'Organization', name: cfg.studio, url: 'https://www.escaperoom.co.rs/en', address: { '@type': 'PostalAddress', addressLocality: 'Novi Sad', addressCountry: 'RS' } } }],
     }));
     addUrl('/', 1.0);
   }
