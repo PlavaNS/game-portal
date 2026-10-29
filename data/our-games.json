@@ -137,6 +137,7 @@
       "/assets/our/balls-of-glory-replay.jpg",
       "/assets/our/balls-of-glory-minigame.jpg"
     ],
-    "orientation": "landscape"
+    "orientation": "landscape",
+    "promo": "Balls of Glory has its own home at <a href=\"https://ballsofglory.app\">ballsofglory.app</a>, with the latest version, the global leaderboard and friend duels."
   }
 ]
