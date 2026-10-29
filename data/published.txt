@@ -191,6 +191,7 @@ annoying-cousins-punch-game
 ant-colony-idle
 ant-moving-simulator
 anti-terrorist-shooting-game
+ants-ate-my-pixels
 aod-art-of-defense
 apex-combat
 apocalypse-rush
@@ -1909,6 +1910,7 @@ gangster-crime-car-simulator-1
 gangster-vegas-driving-simulator-online
 gangsters
 garage-boss
+garden-clicker
 garden-master
 garden-pals-idle
 garden-snakes
@@ -3024,6 +3026,7 @@ music-tools
 musketeers-gunpowder-vs-steel
 mustang-city-driver-2024
 mutant-mash-merge-garden
+mutant-zone-zombie-merge-fighter
 mx-offroad-mountain-bike
 my-bakery
 my-castle-merge-and-story
@@ -3121,6 +3124,7 @@ nomad-guardians
 none-shall-get-through-save-cappuccina
 nonogram
 nonograms-pixel-garden
+nonograph
 noob-big-item-sorting
 noob-city-the-gangster
 noob-hero-adventure
@@ -3945,6 +3949,7 @@ screw-and-pin-puzzle-levels
 screw-color-puzzle
 screw-jam-puzzle
 screw-master-3d-pin-puzzle
+screw-master-nuts-and-pin-jam
 screw-match
 screw-nuts-snap-puzzle
 screw-out-jam-puzzle
