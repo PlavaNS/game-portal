@@ -1988,6 +1988,7 @@ going-rolling-ball
 going-up
 going-up-rooftop
 gold-miner-tower-defense
+gold-rush-builder
 golden-boot-2022
 golf-battle
 golf-cars-simulator
