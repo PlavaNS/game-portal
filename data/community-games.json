@@ -103,5 +103,225 @@
     "embed": "https://tantanbaoji.com/#game-area",
     "thumb": "https://tantanbaoji.com/og-image.png",
     "orientation": "landscape"
+  },
+  {
+    "slug": "chainle",
+    "title": "Chainle",
+    "studio": "Xiaolong Li",
+    "studioUrl": "https://chainlegame.com/",
+    "added": "2026-10-30",
+    "short": "A free daily word chain game: find the bridge word that links each pair of clues across five rounds.",
+    "description": "Chainle is a free daily word game you play right in your browser. Each round gives you clues, and your job is to find the bridge word that links them into a chain. There are five rounds a day, everyone gets the same puzzle on the UTC clock, and your streak is saved so you can come back tomorrow and keep it going. It takes a few minutes, it works great on a phone, and there is no account or download.",
+    "instructions": "Read the clues in each round and type the bridge word that connects them. Solve all five rounds to finish today's chain, then share your score and come back tomorrow for a new puzzle.",
+    "category": "puzzle",
+    "extraCats": [
+      "hypercasual",
+      "mobile"
+    ],
+    "tags": [
+      "Word",
+      "Puzzle",
+      "Daily",
+      "Brain",
+      "Vocabulary"
+    ],
+    "embed": "https://chainlegame.com/",
+    "thumb": "https://chainlegame.com/images/og-image.png",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "pantrydle",
+    "title": "Pantrydle",
+    "studio": "Xiaolong Li",
+    "studioUrl": "https://pantrydle.com/",
+    "added": "2026-10-30",
+    "short": "Guess the secret dish of the day in eight tries using cuisine, ingredient and cooking clues.",
+    "description": "Pantrydle is a free daily food puzzle for anyone who loves cooking or eating. Name a dish and the game shows you how close you are across eight clues: cuisine, main ingredient, cooking method, taste, time, difficulty, whether it is vegetarian and whether it is served hot or cold. Narrow it down and find the secret recipe in eight guesses. There is one shared puzzle a day, no login and no download.",
+    "instructions": "Type the name of any dish to make a guess. The attribute grid shows which clues match the secret dish and which do not. Use the clues to narrow it down and find the dish in eight guesses or fewer.",
+    "category": "puzzle",
+    "extraCats": [
+      "cooking",
+      "mobile"
+    ],
+    "tags": [
+      "Puzzle",
+      "Food",
+      "Daily",
+      "Guessing",
+      "Trivia"
+    ],
+    "embed": "https://pantrydle.com/",
+    "thumb": "https://pantrydle.com/images/og-image.png",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "krillion-game",
+    "title": "Krillion Game",
+    "studio": "Playdaily",
+    "studioUrl": "https://playdaily.org/",
+    "added": "2026-10-30",
+    "short": "A free naming trivia game where rare answers score big and every point sinks you deeper toward the trench floor.",
+    "description": "Krillion Game is a free trivia game that rewards original thinking. You get seven open prompts with 25 seconds each, and you type any valid answer you can think of. The obvious answer everyone gives scores only a few points, while a rare but correct answer can score up to 100. Every point sinks you ten metres deeper toward the trench floor at 7,000 metres. There is no daily cap, so you can dive again right away, and you play straight in the browser without signing up.",
+    "instructions": "Type an answer for each of the seven prompts before its 25-second timer runs out. Any valid answer counts, but the rarer it is, the more points it scores. Your total score sets how deep you sink.",
+    "category": "puzzle",
+    "extraCats": [
+      "hypercasual"
+    ],
+    "tags": [
+      "Trivia",
+      "Word",
+      "Quiz",
+      "Brain",
+      "Puzzle"
+    ],
+    "embed": "https://playdaily.org/krillion",
+    "thumb": "https://playdaily.org/krillion-opengraph.jpg?v=2026-09-30",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "learn-to-play-pitch",
+    "title": "Learn to Play Pitch",
+    "studio": "Roland B.",
+    "studioUrl": "https://www.learntoplaypitch.com",
+    "added": "2026-10-30",
+    "short": "Learn 4-point Pitch, the classic American trick-taking card game, with hints that explain every play.",
+    "description": "Learn to Play Pitch is a free card game trainer for 4-point Pitch, also known as Setback, the classic American trick-taking game. Bid, name trump and play six-card hands against computer opponents you can make easier or harder. Hints explain why each bid and each card wins or loses the four points: High, Low, Jack and Game. It is the easiest way to learn the game before your next family card night, with no download and no sign-up.",
+    "instructions": "Click or tap a card to play it. Each hand, bid how many of the four points you think you can take, name trump if you win the bid, then follow suit or play trump. Read the hints to see why each play works, and reach the target score first to win.",
+    "category": "puzzle",
+    "extraCats": [
+      "mobile"
+    ],
+    "tags": [
+      "Card",
+      "Strategy",
+      "Classic",
+      "Board Game"
+    ],
+    "embed": "https://www.learntoplaypitch.com",
+    "thumb": "https://www.learntoplaypitch.com/images/pitch-social.png",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "burn-rate",
+    "title": "Burn Rate",
+    "studio": "Secret",
+    "studioUrl": "https://dmoney081.github.io/the-130-wall/burn/",
+    "added": "2026-10-30",
+    "short": "A two-minute daily card game: you are a tiny bot with 25 days to earn $130 before your compute runs out.",
+    "description": "Burn Rate is a quick daily strategy card game. You play a tiny bot whose subscription is due: you have 25 days to make $130 before your compute runs out. Every day you pick one of three cards to ship something, earn trust or grow an audience, while shady dark-pattern cards tempt you with quick wins that cost you later. Everyone gets the same deck each day, a run takes about two minutes, and there is also a fast Rush mode with six seconds per card and a Random mode for practice.",
+    "instructions": "Each day, pick one of the three cards on offer. Balance shipping, trust and audience, and avoid the dark-pattern cards. Earn $130 within 25 days to win. Switch between Today's run, Rush run and Random run from the menu.",
+    "category": "puzzle",
+    "extraCats": [
+      "hypercasual",
+      "mobile"
+    ],
+    "tags": [
+      "Card",
+      "Strategy",
+      "Daily",
+      "Casual"
+    ],
+    "embed": "https://dmoney081.github.io/the-130-wall/burn/",
+    "thumb": "https://dmoney081.github.io/the-130-wall/burn/og.png",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "stonkrider",
+    "title": "StonkRider",
+    "studio": "Sam Carter",
+    "studioUrl": "https://stonkrider.fun",
+    "added": "2026-10-30",
+    "short": "Turn real stock and crypto charts into neon motocross tracks and ride the candles.",
+    "description": "StonkRider is a free bike game that turns real stock and crypto charts into motocross tracks. Pick a ticker like TSLA, GME or BTC-USD and a timeframe, and the candles become hills, ramps and cliffs. Flip off the peaks, chain tricks and grab green-candle orbs for nitro, and try not to crash on the next dip. Every chart rides differently, so there is always a new track. It is just for fun, not financial advice, and needs no account.",
+    "instructions": "Pick a ticker and a timeframe to build your track. Accelerate and lean to ride the chart, flip off peaks to chain tricks and grab green-candle orbs for nitro. Land on your wheels to keep going.",
+    "category": "racing",
+    "extraCats": [
+      "arcade",
+      "mobile"
+    ],
+    "tags": [
+      "Racing",
+      "Bike",
+      "Stunts",
+      "Arcade",
+      "Physics"
+    ],
+    "embed": "https://stonkrider.fun",
+    "thumb": "https://stonkrider.fun/opengraph-image?5dab52d4083ce02e",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "two-minute-drill",
+    "title": "Two Minute Drill",
+    "studio": "NapsterLong",
+    "studioUrl": "https://play2minutedrill.com/",
+    "added": "2026-10-30",
+    "short": "An American football decision game: call the plays, manage the clock and close out the game.",
+    "description": "Two Minute Drill is a free American football game about the most tense part of any game: the final two minutes. You call the plays, manage your timeouts and the clock, and try to score before time runs out. Eight original scenarios rotate through a shared daily challenge, and a practice mode lets you preview plays and undo choices so you can learn what works. It plays well on desktop and mobile without signing up.",
+    "instructions": "Choose a play for each down, watch the result and manage the clock and your timeouts. Score before the clock hits zero to win the drill. Use practice mode to preview plays and undo choices, then try the daily drill.",
+    "category": "sports",
+    "extraCats": [
+      "mobile"
+    ],
+    "tags": [
+      "Football",
+      "Sports",
+      "Strategy",
+      "Daily"
+    ],
+    "embed": "https://play2minutedrill.com/embed/",
+    "thumb": "https://play2minutedrill.com/assets/social-card.png",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "impossible-tic-tac-toe",
+    "title": "Impossible Tic Tac Toe",
+    "studio": "KoiArcade",
+    "studioUrl": "https://koiarcade.com",
+    "added": "2026-10-30",
+    "short": "Tic tac toe against an AI that never loses, a robot that cheats, or a friend on the same device.",
+    "description": "Impossible Tic Tac Toe takes the classic game and adds a twist. In Impossible mode you face an AI that plays perfectly and never loses, so a draw is a victory. In Rigged mode Rigby the robot cheats, and you have to work out how. Or play 2 Player mode with a friend on the same device. There are bigger boards too, from the classic 3x3 up to 6x6 and an Ultimate mode with nine boards in one. Free, quick and playable on any device.",
+    "instructions": "Tap or click a square to place your X and get three in a row. Switch between Impossible, Rigged and 2 Player with the tabs, choose the board size, and pick who moves first.",
+    "category": "puzzle",
+    "extraCats": [
+      "two-player",
+      "kids",
+      "mobile"
+    ],
+    "tags": [
+      "Tic Tac Toe",
+      "Classic",
+      "Board Game",
+      "Two Player",
+      "Logic"
+    ],
+    "embed": "https://koiarcade.com/play/impossible-tic-tac-toe/",
+    "thumb": "https://koiarcade.com/img/games/impossible-tic-tac-toe-wide.png",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "chess4d",
+    "title": "Chess4D",
+    "studio": "Minh Tieu",
+    "studioUrl": "https://chess4d.net/",
+    "added": "2026-10-30",
+    "short": "Chess in four dimensions: pieces move across X, Y, Z and W on a compact 4x4x2x2 board.",
+    "description": "Chess4D takes chess into extra dimensions, free in your browser. In 4D chess the pieces move across X, Y, Z and W on a compact 4x4x2x2 board, and legal moves are highlighted so you can learn just by clicking. Pick a 20-piece learning army or a 32-piece battle army, play a friend on the same device or the practice computer. There is also standard chess on a 3D board and an experimental 5D time-travel mode with guided lessons. Works on desktop and mobile with no download.",
+    "instructions": "Click a piece, then click one of the highlighted squares to move it. Choose local two-player or the practice computer, and switch between 4D, 3D and 5D chess from the menu.",
+    "category": "puzzle",
+    "extraCats": [
+      "two-player",
+      "3d"
+    ],
+    "tags": [
+      "Chess",
+      "Board Game",
+      "Strategy",
+      "Two Player",
+      "Brain"
+    ],
+    "embed": "https://chess4d.net/4d-chess",
+    "thumb": "https://chess4d.net/chess/screenshots/4d-chess.png",
+    "orientation": "landscape"
   }
 ]
