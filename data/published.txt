@@ -903,6 +903,7 @@ cerkio
 chain-cube-2048-3d-merge-game
 chainsaw-3d
 challenge-the-zombies
+chameleon-sniper
 change-part-in-love-story
 chaos-arena
 chaos-road-combat-car-racing
@@ -1220,6 +1221,7 @@ cut-it-3d
 cut-it-all-3d
 cut-it-voxel-crusher
 cute-family-shopping
+cute-little-dragon-creator
 cute-princess-dress-up
 cute-shapes
 cutter-woodsman-game
@@ -1492,6 +1494,7 @@ dunjun
 dunk-up-basketball
 dunkers-fight
 dunkin-beanz
+duohex
 durak
 dusk-warz
 dye-it-right-color-picker
@@ -1688,6 +1691,7 @@ final-christmas-run
 final-fight-harbor-justice
 final-freeway
 final-freeway-2r
+find-a-legendary-needle
 find-a-pair-3d
 find-capybara-valley-of-monsters
 find-match-3d
@@ -4839,6 +4843,7 @@ truck-factory-for-kids
 truck-jam-puzzle
 truck-loader-5
 truck-parking-game
+truck-parking-trailer-challenge
 truck-simulation
 truck-simulator-arcade-championship
 truck-simulator-power-slider
