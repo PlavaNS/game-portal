@@ -212,3 +212,9 @@ body.noscroll{overflow:hidden}
 .indie-badge{display:inline-block;margin:0 0 10px;padding:4px 12px;border-radius:999px;background:#ffd23f22;border:1px solid #ffd23f66;color:#ffd23f;font-size:13px;font-weight:700}
 .dev-cta{padding:10px 14px;border:1px dashed #ffd23f66;border-radius:12px;background:#ffd23f0d}
 .welcome .dev-cta{display:inline-block}
+/* community covers come in any aspect ratio: show the whole image over a blurred fill */
+.card.fit::before{content:"";position:absolute;inset:-12px;background:var(--t) center/cover no-repeat;filter:blur(14px) brightness(.55)}
+.card.fit img{position:relative;object-fit:contain}
+.card.fit span,.card.fit .badge{z-index:1}
+.stage-thumb.wide{width:auto;max-width:min(380px,80vw);height:192px;object-fit:contain;background:#0006}
+@media (max-width:760px){.stage-thumb.wide{height:112px}}

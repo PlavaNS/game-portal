@@ -435,7 +435,7 @@ ${cfg.adsenseClient ? '' : `<div class="consent" hidden data-consent>
 </html>`;
 }
 
-const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.mobile ? '' : ' dm'}" href="${gHref(g)}"><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${g.own ? '<b class="badge">Our game</b>' : ''}</a>`;
+const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.community ? ' fit' : ''}${g.mobile ? '' : ' dm'}" href="${gHref(g)}"${g.community ? ` style="--t:url('${esc(g.thumb)}')"` : ''}><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${g.own ? '<b class="badge">Our game</b>' : ''}</a>`;
 const row = (title, href, list, eager = false) => list.length ? `<section class="row"><div class="row-h"><h2>${esc(title)}</h2>${href ? `<a href="${href}">See all ›</a>` : ''}</div><div class="grid">${list.map(g => card(g, eager)).join('')}</div></section>` : '';
 const crumbs = items => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: url })) });
 
@@ -606,7 +606,7 @@ function emitContent() {
     <div class="stage">
       <img class="stage-bg" src="${esc(g.thumb)}" alt="" aria-hidden="true" fetchpriority="high">
       <div class="stage-ui">
-        <img class="stage-thumb" src="${esc(g.thumb)}" alt="${esc(g.title)}" width="256" height="192">
+        <img class="stage-thumb${g.community ? ' wide' : ''}" src="${esc(g.thumb)}" alt="${esc(g.title)}" width="256" height="192">
         <h1>${esc(g.title)}</h1>${g.community ? `
         <p class="indie-badge">🧑‍💻 ${esc(tr('Indie game by'))} ${esc(g.studio)}</p>` : ''}
         <button class="btn big" data-play>▶ ${esc(tr('Play now'))}</button>${g.mobile ? '' : `\n      <p class="desk-note">💻 ${esc(tr('Best played on a computer with a keyboard'))}</p>`}
