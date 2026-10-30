@@ -1078,5 +1078,16 @@
    "These are browser games built in full 3D: racing and driving games with a chase camera, stickman brawlers, sorting and block puzzles you can rotate, runners and simulators. They load in a normal browser tab with WebGL, so there is nothing to install.",
    "Most of them work on a phone as well as a computer, though a desktop with a keyboard helps for the faster driving and shooting games. All of them are free to play here, with no download and no sign-up."
   ]
+ },
+ {
+  "slug": "screw-puzzle-games",
+  "h1": "Screw Puzzle Games",
+  "kw": "screw puzzle games online",
+  "match": "screws?|nuts?,? (and|&amp;|&) bolts?|bolts,? (and|&) nuts?|bolts nuts|nuts bolts|nut and bolt",
+  "titleOnly": true,
+  "intro": [
+   "Screw puzzles are a calm kind of logic game: unscrew pins and bolts in the right order so wooden planks and metal plates fall away, or sort colored nuts onto matching bolts until every stack is a single color. Each move changes what you can reach next, so a little planning goes a long way.",
+   "The collection mixes pin-pulling board puzzles, nut and bolt sorting games and screw-matching levels that get trickier as you go. They are free to play in your browser on a phone or a computer, with no download and no sign-up."
+  ]
  }
 ]

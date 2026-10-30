@@ -323,5 +323,31 @@
     "embed": "https://chess4d.net/4d-chess",
     "thumb": "https://chess4d.net/chess/screenshots/4d-chess.png",
     "orientation": "landscape"
+  },
+  {
+    "slug": "wordforge",
+    "title": "WordForge",
+    "studio": "Hakky",
+    "studioUrl": "https://x.com/WordForgeJP",
+    "added": "2026-10-30",
+    "short": "Build English words from letter tiles to outscore the computer or a friend, and collect rare words as cards.",
+    "description": "WordForge is a word battle game where you build English words from a hand of letter tiles to outscore your opponent. Play solo against a computer opponent at several difficulty levels, take on a friend through a room code, or follow the adventure mode across its stages. Pick power-ups such as Wild, Swap and Double before each battle, and rarer words you play become collectible cards. Free, no account needed and family-friendly. Note that the menus are mainly in Japanese, while the words you build are English.",
+    "instructions": "Tap letter tiles to spell an English word, then press the send button to score it. Use the clear button to start the word again, skip if you are stuck, and tap your power-ups (Wild, Swap, Double) to boost a turn. The higher score after the last round wins.",
+    "category": "puzzle",
+    "extraCats": [
+      "two-player",
+      "multiplayer",
+      "mobile"
+    ],
+    "tags": [
+      "Word",
+      "Spelling",
+      "Letter Tiles",
+      "Two Player",
+      "Brain"
+    ],
+    "embed": "https://word-forge.replit.app/",
+    "thumb": "https://word-forge.replit.app/ogp.png",
+    "orientation": "portrait"
   }
 ]

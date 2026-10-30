@@ -98860,5 +98860,105 @@
         "Yes, it features multiple levels with io-style gameplay."
       ]
     ]
+  },
+  "sneaky-spikes": {
+    "intro": "Sneaky Spikes is a troll platformer drawn on notebook paper, where floors drop, spikes pop out and even doors bite. A sarcastic narrator comments on every death, and each page ends with a Death Parade that replays all your failed runs at once.",
+    "tips": [
+      "Treat your first attempt at a page as a scouting run: expect a trap and watch where it triggers rather than rushing to the door.",
+      "When a floor drops or a spike appears, remember the exact spot. The traps are part of the page design, so the same place will catch you again.",
+      "Use the pause key (P on desktop) when you need a moment to plan the next jump.",
+      "Go back to earlier pages for the stars once you know the traps; it is easier than collecting them on a first run.",
+      "If you want to speedrun, finish a page cleanly first, then use the timer to shave seconds off a route you already know."
+    ],
+    "faq": [
+      [
+        "How many levels does Sneaky Spikes have?",
+        "There are 60 levels, each drawn as a notebook page, plus stars to collect and a speedrun timer."
+      ],
+      [
+        "What are the controls in Sneaky Spikes?",
+        "On desktop use the arrow keys or A and D to move, Space, W or Up to jump, and P to pause. On mobile there are on-screen arrow and jump buttons."
+      ]
+    ]
+  },
+  "traffic-go": {
+    "intro": "Traffic Go is a quick arcade crossing game: guide your way across busy streets without getting hit by the cars and reach the goal. It is played with the mouse, so it is easy to pick up.",
+    "tips": [
+      "Watch the gaps between cars for a moment before you move instead of going at the first opening.",
+      "Cross one lane at a time and stop in a safe spot when the next lane is busy.",
+      "Look at the speed of each lane, not just the distance to the nearest car. A far car can still arrive quickly.",
+      "Do not rush near the goal. Most crashes come from hurrying on the last stretch.",
+      "If you keep getting hit in the same place, wait one extra cycle of traffic there before crossing."
+    ],
+    "faq": [
+      [
+        "What is the goal of Traffic Go?",
+        "The goal is to cross the streets and reach the finish without hitting any of the cars."
+      ],
+      [
+        "How do you play Traffic Go?",
+        "Traffic Go is played with the mouse. Time your moves so you cross when there is a gap in the traffic."
+      ]
+    ]
+  },
+  "truck-coloring": {
+    "intro": "Truck Coloring is a relaxed coloring game for kids where you pick virtual paints and fill in pictures of different trucks. Each truck looks a little different, so every page is a new picture to color.",
+    "tips": [
+      "Choose a color first, then tap or click the part of the truck you want to fill.",
+      "Try a different color scheme on each truck, such as a fire truck in red or a dump truck in yellow.",
+      "Color the large parts like the cab and the trailer first, then add details like wheels and windows.",
+      "On a phone or tablet, zooming the browser out a little can help you see the whole truck at once.",
+      "There is no wrong answer, so let younger players pick whatever colors they like."
+    ],
+    "faq": [
+      [
+        "Is Truck Coloring good for young kids?",
+        "Yes. It only needs a mouse click or a tap on the screen, so it suits young children who like trucks and coloring."
+      ],
+      [
+        "Can I play Truck Coloring on a tablet?",
+        "Yes. It runs in the browser on phones and tablets as well as on computers, and you color by tapping the screen."
+      ]
+    ]
+  },
+  "tug-the-table-classic": {
+    "intro": "Tug The Table Classic is a simple physics tug-of-war where two sides pull a table in opposite directions. You can play it alone against the computer or with a friend on the same keyboard.",
+    "tips": [
+      "In two-player mode, Player 1 tugs with the Up arrow key and Player 2 tugs with W, so sit at opposite ends of the keyboard.",
+      "Tap your key rapidly and steadily; a constant rhythm usually beats short bursts.",
+      "Keep an eye on the table's balance and push harder when it starts to tip your way.",
+      "Play a few solo rounds first to get a feel for how fast you need to tap.",
+      "Agree on a best-of-five match with a friend to make the games more exciting."
+    ],
+    "faq": [
+      [
+        "Can two people play Tug The Table Classic?",
+        "Yes. It has both a 1 player mode and a 2 player mode on the same device."
+      ],
+      [
+        "What are the controls in Tug The Table Classic?",
+        "Player 1 tugs with the Up arrow key and Player 2 tugs with the W key. You can also tug by touching the screen."
+      ]
+    ]
+  },
+  "a-mother-s-grief": {
+    "intro": "A Mother's Grief is a first-person horror exploration game set in a remote cabin in the winter of 1892. You play an investigator of places with dark histories who has to explore the house and photograph proof of what happened there.",
+    "tips": [
+      "Search every room, including the hallway, kitchen, bedroom, fireplace nook and the evidence room, because the eight haunted objects are spread across the cabin.",
+      "Watch your camera's battery and shot counter, and only take a photo when the object is clearly in the viewfinder.",
+      "Open the journal with TAB to read the cabin's history and pin each photo to the evidence board.",
+      "Use the flashlight in dark corners and listen to the audio; the whisper gets closer the longer you stay.",
+      "Use crouch and sprint to move carefully around tight spots and get away quickly when you need to."
+    ],
+    "faq": [
+      [
+        "What do you do in A Mother's Grief?",
+        "You explore an 1892 cabin in first person and photograph eight haunted objects as evidence, then pin them to the evidence board in your journal."
+      ],
+      [
+        "How do I open the journal in A Mother's Grief?",
+        "Press TAB to open the journal, where you can read the cabin's history and pin your photographs as proof."
+      ]
+    ]
   }
 }
