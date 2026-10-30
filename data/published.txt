@@ -190,6 +190,7 @@ annoying-boss-game
 annoying-cousins-punch-game
 ant-colony-idle
 ant-moving-simulator
+ant-picnic
 anti-terrorist-shooting-game
 ants-ate-my-pixels
 aod-art-of-defense
@@ -241,6 +242,7 @@ arrow-pop
 arrow-rescue
 arrow-survival-15-seconds
 arrowgami-arrow-puzzle
+arrows-dream-home-design
 arrows-edge
 arrows-escape-tap-puzzle
 arrows-idle
@@ -1270,6 +1272,7 @@ deep-mine-1-strength
 deep-space-horror-outpost
 deep-worm
 deepglow
+deepstone-idle-miner-clicker
 defend-military-base
 defend-the-castle
 defender-tanks-merge
@@ -3183,6 +3186,7 @@ obby-1-click-wall-breaker
 obby-1-digging-power-per-click
 obby-1-jump-per-click
 obby-1-power
+obby-1-roll-ice-cream
 obby-1-speed-car-escape
 obby-1-to-spaceflight-altitude
 obby-all-games-dash-or-die
@@ -3190,6 +3194,7 @@ obby-and-dead-river
 obby-arena-1-frag
 obby-battle-arena
 obby-break-an-egg
+obby-build-a-car-farm
 obby-build-an-asmr-keyboard-tycoon
 obby-but-you-re-on-a-motorcycle
 obby-car-keyboard-parkour
@@ -3239,6 +3244,7 @@ obby-saves-brainrots-from-tsunami
 obby-space-challenge-starships
 obby-steal-an-egg-the-great-escape
 obby-survival-island
+obby-swim-for-egg
 obby-swing-for-brainrots-steal
 obby-sword-hero-adventure
 obby-the-legendary-dragon
@@ -4250,6 +4256,7 @@ spider-evolution
 spider-evolution-runner-game
 spider-robot-transformation
 spider-solitaire-pro
+spider-solitaire-silk-horizon
 spikes-and-feathers
 spill-and-knock-down
 spin-and-collect
