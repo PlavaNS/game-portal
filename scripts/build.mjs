@@ -303,7 +303,7 @@ const ours = readJSON(path.join(ROOT, 'data/our-games.json'), []).map(o => ({
 const community = readJSON(path.join(ROOT, 'data/community-games.json'), []).map(o => ({
   id: 'com-' + o.slug, own: false, community: true, source: 'community', slug: o.slug, title: o.title, description: o.description, instructions: o.instructions, short: o.short,
   embed: o.embed, thumb: o.thumb, cover: o.cover || o.thumb, video: null, screens: o.screens || [],
-  w: o.orientation === 'portrait' ? 600 : 1280, h: o.orientation === 'portrait' ? 1000 : 720, rawCat: o.category, tags: o.tags, studio: o.studio, studioUrl: o.studioUrl || null,
+  w: o.orientation === 'portrait' ? 600 : 1280, h: o.orientation === 'portrait' ? 1000 : 720, rawCat: o.category, tags: o.tags, studio: o.studio, studioUrl: o.studioUrl || null, added: o.added || '',
   score: 0.5, r: { most: 0.5, hot: 0.5, best: 0.5, newest: -0.5 }, cats: { main: o.category, all: [o.category, ...(o.extraCats || [])] }, mobile: true,
 }));
 games.unshift(...community);
@@ -402,6 +402,7 @@ ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replac
   <form class="search" action="${u('/search/')}" role="search">
     <input type="search" name="q" placeholder="${esc(tr('Search games'))}" aria-label="${esc(tr('Search games'))}" autocomplete="off">
   </form>
+  <a class="sg-btn" href="${ur('/submit-game/')}" title="${esc(tr('Submit your game'))}"><i>&#128228;</i><span>${esc(tr('Submit your game'))}</span></a>
 </header>
 <div class="wrap">
 <nav class="side" aria-label="${esc(tr('Categories'))}">
@@ -485,6 +486,8 @@ function emitContent() {
   ${row('🔥 ' + tr('Trending now'), u('/popular/'), top('hot', 18), true)}
   ${row('⭐ ' + tr('Most played'), u('/popular/'), top('most', 18))}
   ${row('🆕 ' + tr('New games'), u('/new/'), top('newest', 18))}
+  ${(() => { const indie = all.filter(g => g.community).slice().sort((x, y) => (y.added || '').localeCompare(x.added || '')).slice(0, 12);
+    return indie.length ? `<section class="row indie-row"><div class="row-h"><h2>🧑‍💻 ${esc(tr('New from indie developers'))}</h2><a class="btn sg-cta" href="${ur('/submit-game/')}">📤 ${esc(tr('Made a game? Submit it free'))}</a></div><p class="indie-note">${esc(tr('Games sent to us by independent developers. Every one is played and checked by a real person before it goes live.'))}</p><div class="grid">${indie.map(g => card(g)).join('')}</div></section>` : ''; })()}
   ${catTiles}
   <section class="row"><div class="row-h"><h2>${esc(tr('Popular collections'))}</h2></div><p class="chips">${topics.filter(t => catOK('topic:' + t.slug)).map(t => `<a class="chip" href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join('')}</p></section>
   ${row('🏆 ' + tr('Best games'), null, top('best', 18))}
@@ -604,7 +607,8 @@ function emitContent() {
       <img class="stage-bg" src="${esc(g.thumb)}" alt="" aria-hidden="true" fetchpriority="high">
       <div class="stage-ui">
         <img class="stage-thumb" src="${esc(g.thumb)}" alt="${esc(g.title)}" width="256" height="192">
-        <h1>${esc(g.title)}</h1>
+        <h1>${esc(g.title)}</h1>${g.community ? `
+        <p class="indie-badge">🧑‍💻 ${esc(tr('Indie game by'))} ${esc(g.studio)}</p>` : ''}
         <button class="btn big" data-play>▶ ${esc(tr('Play now'))}</button>${g.mobile ? '' : `\n      <p class="desk-note">💻 ${esc(tr('Best played on a computer with a keyboard'))}</p>`}
       </div>
     </div>
@@ -828,6 +832,34 @@ write('404.html', layout({ title: `Page not found | ${cfg.name}`, desc: 'Page no
 
 // SITEMAP / ROBOTS / MANIFEST
 write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${sitemap.map(s => `<url><loc>${esc(s.loc)}</loc><lastmod>${today}</lastmod><priority>${s.prio.toFixed(1)}</priority>${s.image ? `<image:image><image:loc>${esc(s.image.img)}</image:loc></image:image>` : ''}</url>`).join('\n')}\n</urlset>\n`);
+// llms.txt: a plain summary for AI assistants and AI search (llmstxt.org)
+{
+  const ownG = all.filter(g => g.own), indieG = all.filter(g => g.community);
+  const line = g => `- [${g.title}](${abs(gHref(g).replace(B, ''))}): ${(g.short || '').replace(/\s+/g, ' ')}`;
+  write('llms.txt', `# ${cfg.name}
+
+> ${cfg.name} (${cfg.url}) is a free HTML5 game portal with ${all.length.toLocaleString('en-US')}+ browser games that play instantly on desktop, tablet and phone, with no downloads and no sign-up. It is run by ${cfg.studio}, an escape room and game studio from Novi Sad, Serbia. Independent developers can submit their own HTML5 games for free.
+
+## For players
+- [All games](${abs('/all/')}): the full catalogue
+- [New games](${abs('/new/')}): recently added games
+- [Most played](${abs('/popular/')}): the most popular games right now
+${activeCats.map(c => `- [${c.h1}](${abs(cHref(c.slug).replace(B, ''))})`).join('\n')}
+
+## For game developers
+- [Submit your HTML5 game](${abs('/submit-game/')}): free and non-exclusive. A real person plays every submission; accepted games get their own page with credit and a link back to the developer, and stay embedded from the developer's own URL with their own ads. Games on Playgama, GameMonetize or GamePix earn the developer their network share for every play on the site.
+
+## Games made by ${cfg.studio}
+${ownG.map(line).join('\n')}
+
+## Games from independent developers
+${indieG.map(line).join('\n')}
+
+## About
+- [About](${abs('/about/')})
+- [Contact](${abs('/contact/')}): ${cfg.contactEmail}
+`);
+}
 write('robots.txt', `User-agent: *\nAllow: /\nDisallow: ${B}/search/\n\nSitemap: ${abs('/sitemap.xml')}\n`);
 write('manifest.webmanifest', JSON.stringify({ name: cfg.name, short_name: cfg.shortName, start_url: u('/'), display: 'standalone', background_color: '#0f1020', theme_color: '#0f1020', description: `${cfg.slogan} ${cfg.tagline}`, icons: [{ src: u('/assets/icon-192.png'), sizes: '192x192', type: 'image/png' }, { src: u('/assets/icon-512.png'), sizes: '512x512', type: 'image/png', purpose: 'any maskable' }, { src: u('/favicon.svg'), sizes: 'any', type: 'image/svg+xml' }] }));
 if (process.env.CNAME) write('CNAME', process.env.CNAME + '\n');

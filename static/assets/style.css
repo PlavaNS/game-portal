@@ -201,3 +201,14 @@ body.noscroll{overflow:hidden}
 .sg-net legend{font-weight:700;padding:0 6px;font-size:.95rem}
 .sg-net-why{margin:0 0 10px;color:var(--muted);font-size:.88rem;line-height:1.5}
 .sg-net .sg-check{margin:2px 0 12px}
+.sg-btn{display:inline-flex;align-items:center;gap:6px;flex:none;border-radius:999px;padding:8px 14px;font-weight:700;font-size:14px;text-decoration:none;color:#111;background:linear-gradient(135deg,#ffd23f,#ffb000);box-shadow:0 4px 16px #ffb00044;transition:transform .12s,filter .12s}
+.sg-btn:hover{filter:brightness(1.08);transform:translateY(-1px)}
+.sg-btn i{font-style:normal}
+@media (max-width:760px){.sg-btn span{display:none}.sg-btn{padding:8px 10px}}
+.indie-row{border:1px solid #ffd23f55;border-radius:16px;padding:14px;background:linear-gradient(180deg,#ffd23f10,transparent)}
+.indie-row .row-h{flex-wrap:wrap;gap:8px}
+.indie-row .sg-cta{background:linear-gradient(135deg,#ffd23f,#ffb000);color:#111;padding:8px 16px;font-size:14px}
+.indie-note{margin:.2rem 0 .8rem;font-size:.9rem;opacity:.8}
+.indie-badge{display:inline-block;margin:0 0 10px;padding:4px 12px;border-radius:999px;background:#ffd23f22;border:1px solid #ffd23f66;color:#ffd23f;font-size:13px;font-weight:700}
+.dev-cta{padding:10px 14px;border:1px dashed #ffd23f66;border-radius:12px;background:#ffd23f0d}
+.welcome .dev-cta{display:inline-block}
