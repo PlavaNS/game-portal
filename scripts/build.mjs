@@ -467,7 +467,7 @@ function emitContent() {
   const gameOK = g => LANG === 'en' || !!tgame(g);
   // HOME
   {
-    const o = ours[0];
+    const o = ours.find(g => g.slug === cfg.heroGame) || ours[0];
     const hero = o ? `<section class="hero">
     <div class="hero-media">
       ${o.video ? `<video src="${esc(o.video)}" poster="${esc(o.cover)}" muted loop playsinline preload="none" data-hover-play></video>` : `<img src="${esc(o.cover)}" alt="${esc(o.title)}">`}
