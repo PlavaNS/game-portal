@@ -323,5 +323,30 @@
     "embed": "https://chess4d.net/4d-chess",
     "thumb": "https://chess4d.net/chess/screenshots/4d-chess.png",
     "orientation": "landscape"
+  },
+  {
+    "slug": "louvers",
+    "title": "Louvers",
+    "studio": "Sundryard",
+    "studioUrl": "https://sundryard.com/louvers/",
+    "added": "2026-10-31",
+    "short": "A calm logic puzzle: slide each slat left or right until every column lights up and a hidden picture appears.",
+    "description": "Louvers is a relaxing logic puzzle you play right in your browser. The board is made of horizontal slats, each with a few coloured tiles on it. Slide every slat left or right until each column has exactly the tiles it needs and lights up, and the hidden picture appears. There are 33 hand-made levels that start with a short tutorial and get steadily trickier, so it is easy to learn and hard to put down. It works with the mouse, the arrow keys or a touchscreen, with no account and no download.",
+    "instructions": "Drag a slat left or right, or select it and use the arrow keys, to shift its tiles. A column lights up when it holds the right tiles. Light every column to reveal the picture and finish the level, then pick the next one from the Levels menu.",
+    "category": "puzzle",
+    "extraCats": [
+      "mobile",
+      "kids"
+    ],
+    "tags": [
+      "Puzzle",
+      "Logic",
+      "Brain",
+      "Relaxing",
+      "Picture"
+    ],
+    "embed": "https://sundryard.com/louvers/play/",
+    "thumb": "https://ilovewebgames.com/assets/community/louvers.jpg?v=1",
+    "orientation": "landscape"
   }
 ]
