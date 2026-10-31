@@ -50,34 +50,6 @@
     ]
   },
   {
-    "slug": "noillirk",
-    "title": "Noillirk",
-    "studio": "Playdaily",
-    "studioUrl": "https://playdaily.org/",
-    "added": "2026-10-29",
-    "short": "A free daily guessing game: pick the answer most people gave and float your balloons from the pond up to the universe.",
-    "description": "Noillirk is a free daily guessing game you play straight in your browser. Every day brings seven survey prompts, and for each one you pick the answer you think most people chose. Every correct pick inflates a balloon that lifts you higher, from a quiet pond all the way to the universe. There is a daily run, a classic mode and an endless mode, plus a live multiplayer room, and the whole thing is free with no sign-up needed.",
-    "instructions": "Click or tap the answer you think was the most common survey response. Each correct answer inflates a balloon and lifts you higher, so the closer you read the crowd the further you climb. A fresh set of seven prompts arrives every day, and you can switch to classic or endless mode, or join a multiplayer room, from the buttons under the title.",
-    "category": "puzzle",
-    "extraCats": [
-      "multiplayer",
-      "kids",
-      "hypercasual"
-    ],
-    "tags": [
-      "Puzzle",
-      "Trivia",
-      "Quiz",
-      "Daily",
-      "Guessing",
-      "Multiplayer",
-      "Word"
-    ],
-    "embed": "https://playdaily.org/noillirk",
-    "thumb": "https://playdaily.org/noillirk-opengraph.jpg?v=2026-09-25",
-    "orientation": "landscape"
-  },
-  {
     "slug": "bounce-blast",
     "title": "Bounce Blast",
     "studio": "mengyuxuan",
@@ -105,80 +77,6 @@
     "orientation": "landscape"
   },
   {
-    "slug": "chainle",
-    "title": "Chainle",
-    "studio": "Xiaolong Li",
-    "studioUrl": "https://chainlegame.com/",
-    "added": "2026-10-30",
-    "short": "A free daily word chain game: find the bridge word that links each pair of clues across five rounds.",
-    "description": "Chainle is a free daily word game you play right in your browser. Each round gives you clues, and your job is to find the bridge word that links them into a chain. There are five rounds a day, everyone gets the same puzzle on the UTC clock, and your streak is saved so you can come back tomorrow and keep it going. It takes a few minutes, it works great on a phone, and there is no account or download.",
-    "instructions": "Read the clues in each round and type the bridge word that connects them. Solve all five rounds to finish today's chain, then share your score and come back tomorrow for a new puzzle.",
-    "category": "puzzle",
-    "extraCats": [
-      "hypercasual",
-      "mobile"
-    ],
-    "tags": [
-      "Word",
-      "Puzzle",
-      "Daily",
-      "Brain",
-      "Vocabulary"
-    ],
-    "embed": "https://chainlegame.com/",
-    "thumb": "https://ilovewebgames.com/assets/community/chainle.jpg?v=2",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "pantrydle",
-    "title": "Pantrydle",
-    "studio": "Xiaolong Li",
-    "studioUrl": "https://pantrydle.com/",
-    "added": "2026-10-30",
-    "short": "Guess the secret dish of the day in eight tries using cuisine, ingredient and cooking clues.",
-    "description": "Pantrydle is a free daily food puzzle for anyone who loves cooking or eating. Name a dish and the game shows you how close you are across eight clues: cuisine, main ingredient, cooking method, taste, time, difficulty, whether it is vegetarian and whether it is served hot or cold. Narrow it down and find the secret recipe in eight guesses. There is one shared puzzle a day, no login and no download.",
-    "instructions": "Type the name of any dish to make a guess. The attribute grid shows which clues match the secret dish and which do not. Use the clues to narrow it down and find the dish in eight guesses or fewer.",
-    "category": "puzzle",
-    "extraCats": [
-      "cooking",
-      "mobile"
-    ],
-    "tags": [
-      "Puzzle",
-      "Food",
-      "Daily",
-      "Guessing",
-      "Trivia"
-    ],
-    "embed": "https://pantrydle.com/",
-    "thumb": "https://ilovewebgames.com/assets/community/pantrydle.jpg?v=2",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "krillion-game",
-    "title": "Krillion Game",
-    "studio": "Playdaily",
-    "studioUrl": "https://playdaily.org/",
-    "added": "2026-10-30",
-    "short": "A free naming trivia game where rare answers score big and every point sinks you deeper toward the trench floor.",
-    "description": "Krillion Game is a free trivia game that rewards original thinking. You get seven open prompts with 25 seconds each, and you type any valid answer you can think of. The obvious answer everyone gives scores only a few points, while a rare but correct answer can score up to 100. Every point sinks you ten metres deeper toward the trench floor at 7,000 metres. There is no daily cap, so you can dive again right away, and you play straight in the browser without signing up.",
-    "instructions": "Type an answer for each of the seven prompts before its 25-second timer runs out. Any valid answer counts, but the rarer it is, the more points it scores. Your total score sets how deep you sink.",
-    "category": "puzzle",
-    "extraCats": [
-      "hypercasual"
-    ],
-    "tags": [
-      "Trivia",
-      "Word",
-      "Quiz",
-      "Brain",
-      "Puzzle"
-    ],
-    "embed": "https://playdaily.org/krillion",
-    "thumb": "https://playdaily.org/krillion-opengraph.jpg?v=2026-09-30",
-    "orientation": "landscape"
-  },
-  {
     "slug": "learn-to-play-pitch",
     "title": "Learn to Play Pitch",
     "studio": "Roland B.",
@@ -199,30 +97,6 @@
     ],
     "embed": "https://www.learntoplaypitch.com",
     "thumb": "https://www.learntoplaypitch.com/images/pitch-social.png",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "burn-rate",
-    "title": "Burn Rate",
-    "studio": "Secret",
-    "studioUrl": "https://dmoney081.github.io/the-130-wall/burn/",
-    "added": "2026-10-30",
-    "short": "A two-minute daily card game: you are a tiny bot with 25 days to earn $130 before your compute runs out.",
-    "description": "Burn Rate is a quick daily strategy card game. You play a tiny bot whose subscription is due: you have 25 days to make $130 before your compute runs out. Every day you pick one of three cards to ship something, earn trust or grow an audience, while shady dark-pattern cards tempt you with quick wins that cost you later. Everyone gets the same deck each day, a run takes about two minutes, and there is also a fast Rush mode with six seconds per card and a Random mode for practice.",
-    "instructions": "Each day, pick one of the three cards on offer. Balance shipping, trust and audience, and avoid the dark-pattern cards. Earn $130 within 25 days to win. Switch between Today's run, Rush run and Random run from the menu.",
-    "category": "puzzle",
-    "extraCats": [
-      "hypercasual",
-      "mobile"
-    ],
-    "tags": [
-      "Card",
-      "Strategy",
-      "Daily",
-      "Casual"
-    ],
-    "embed": "https://dmoney081.github.io/the-130-wall/burn/",
-    "thumb": "https://dmoney081.github.io/the-130-wall/burn/og.png",
     "orientation": "landscape"
   },
   {

@@ -737,6 +737,7 @@ burger-bay
 burger-game-burger-shop
 burger-life
 burger-restaurant-simulator-3d
+burn-rate
 bus-and-subway-rush
 bus-color-jam
 bus-crash-stunts-2
@@ -922,6 +923,7 @@ cavern-of-gears
 cavern-run-endless-runner-game
 cerkio
 chain-cube-2048-3d-merge-game
+chainle
 chainsaw-3d
 challenge-the-zombies
 chameleon-sniper
@@ -2587,6 +2589,7 @@ kobadoo-shapes
 koenigsegg-jesko-absolut-puzzle
 koenigsegg-jesko-absolut-slide
 kofi-adventure
+krillion-game
 kuli
 kung-fu-little-animals
 l-y-eggs
@@ -3203,6 +3206,7 @@ nitro-speed-car-racing
 nitrovenant-2
 no-i-m-not-a-plankton
 no-shorts
+noillirk
 nomad-guardians
 none-shall-get-through-save-cappuccina
 nonogram
@@ -3425,6 +3429,7 @@ panda-hair-do
 panda-lu-treehouse
 panda-run-1
 panellka-build-a-tower
+pantrydle
 paper-craft-wars
 paper-doll-diary-chibi-dolls
 paper-fighter-3d
