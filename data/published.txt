@@ -14,6 +14,7 @@
 1-zombie-survival
 100-doors-escape-from-prison
 100-doors-escape-mysteries
+100-doors-mystery-room-escape
 100-doors-puzzle-box
 100-hidden-capybaras
 100-monster-escape-room
@@ -174,6 +175,7 @@ animal-evolution-simulator
 animal-hair-salon
 animal-hospital
 animal-impossible-track-rush
+animal-kart
 animal-merge
 animal-pair-card-match
 animal-racing-2
@@ -220,6 +222,7 @@ archery-king
 archery-master-castle-battle
 archery-shooting
 architects-of-tomorrow
+arctic-truck-driver
 arcuz-treasure-hunters
 arkanoid-for-painters
 arklet
@@ -468,6 +471,7 @@ blade-hit
 blade-merge
 blast-jam
 blast-out-battle-royale
+blast-round-puzzle-block
 blasting-marbles
 blend-it-perfect
 blind-boat-shooting-master
@@ -563,6 +567,7 @@ boo-brew
 boo-chains
 boom-cell
 boom-stick-bazooka-2-puzzles
+boombitz-bomb-chips
 border-battleground
 boss-level-pumpkin-madness
 boss-level-shootout
@@ -966,6 +971,7 @@ christmas-sledge-rider-3d
 chroma-trek
 chrome-dino-game-original
 chu-choo-cake
+chubby-duck-offroad
 chubby-finn
 chute
 circle-car
@@ -1115,6 +1121,7 @@ cooking-shawarma-idle-game
 cool-escape-obby-man
 cool-tuning-paint-the-car
 copy-the-drawing
+core-rush
 cork-and-cauldron
 corner-bakery
 corona-virus-crazy-doctor-simulator
@@ -1806,6 +1813,7 @@ flower-merge-triple-puzzle
 flows
 flufflings-pocket-pets
 fluffy-jump
+flume-v2
 fly-airplane-3d
 fly-car-stunt-5
 flying-grimace
@@ -1831,12 +1839,14 @@ football-leauge
 football-legends
 football-masters
 football-panda
+football-pinball
 football-rumble
 football-soccer
 football-tricks
 ford-f-100-eluminator-slide
 formula-1-driver
 formula-apex-rush
+formula-car-race
 formula-car-racing-games-real
 formula-car-stunt
 formula-go
@@ -2311,6 +2321,7 @@ hoops-the-game
 hop-ballz-3d
 hopeless-island-survival-hero
 horizon-flight-into-the-light
+horizon-highway-driving
 horizon-racer
 horror-sniper-clown-ghost
 horse-simulator-3d
@@ -2395,6 +2406,7 @@ in-space
 indian-taxi-2020
 infinite-bike-trials
 infinite-heroes
+infinity-sky
 injection-invasion
 ink-shop-dress-and-tattoo-games
 ink-streak
@@ -2424,6 +2436,7 @@ jelly-gobble
 jelly-links
 jelly-matches
 jelly-merge-dooper
+jelly-mob-rush
 jelly-path
 jelly-pop-defense
 jelly-run-in-2048
@@ -2477,6 +2490,7 @@ jungle-fury-mutant-rhino-mayhem
 jungle-game
 jungle-mart
 jungle-mart-idle-game
+junkyard-builder-3d
 junkyard-keeper
 just-golf
 k-challenge-456
@@ -2602,6 +2616,7 @@ last-garage-zombie-road
 last-knight-kings-throne
 last-night
 last-play-ragdoll-sandbox
+last-shift
 last-to-leave-circle-obby
 latto-latto
 launch-jack
@@ -2624,6 +2639,7 @@ lets-kill-evil-nun
 letter-ball
 letter-layout-coloring
 letterhold
+level-once-again
 life-of-a-tree
 lifecode
 lift-defender-zombie-carnage
@@ -2943,6 +2959,7 @@ minni-family-home-play-house
 mirrors-and-rays
 miscast
 misland-online
+misregister
 miss-robins-dream-home
 mister-bullet-arcade-shooter
 mix-and-paint-3d
@@ -3071,6 +3088,7 @@ mtb-downhill-extreme
 mud-trails-4x4-jeep-game
 mud-truck-simulator-game
 multi-surgery-hospital-games
+mummy-candy
 mummy-land
 murder-mafia
 muscle-clicker-2
@@ -3124,6 +3142,7 @@ mystical-blade-3d
 nail-salon
 nail-salon-manicure-fashion-girl
 nail-stack
+narcos-crime-master
 narutovsbleach
 natural-disaster-survival-obby
 naughty-baby-prankster
@@ -3135,6 +3154,7 @@ needle-rush
 neko-s-adventure
 neo-traffic-rider-championship
 neon-billard-pool
+neon-circuit-rush
 neon-goal
 neon-jumper
 neon-maze
@@ -3883,6 +3903,7 @@ robotex
 robots-battle-mech-arena
 robots-world-battle
 rocket-bloom
+rocket-car-football-championship
 rocket-clash-3d
 rocket-rush
 rodha
@@ -3964,6 +3985,7 @@ sand-sorting-challenge
 sand-tap-sorting-puzzle
 sand-truck
 sandlab
+sands-of-anubis
 sandwich-runner
 santa-and-the-chaser
 santa-city-run
@@ -4105,6 +4127,7 @@ shot-trigger
 shotwildwest
 shred-the-meme
 shrinkzone-io
+sidefire
 siege-clash
 sift-renegade-brawl
 sigma-boy-musical-clicker
@@ -4120,6 +4143,7 @@ sir-shiba-monster-island
 siren-head-3-game
 siren-head-nightmare-scary-survival
 siren-head-scp-6789-the-hunt-continues
+six-fold
 six-seven-count-fast
 size-up-giant-fighter-game
 skate-1-speed
@@ -4150,6 +4174,7 @@ sky-slash-ninja-rise
 sky-stunts-rolling-ball-3d
 sky-track-racing
 sky-wars-battle-of-the-islands
+skybound-dash-crown-rush
 skyfall-siege
 skyslime-adventures
 slalom-hero
@@ -4279,6 +4304,7 @@ solitaire-match-puzzle
 solitaire-picture-puzzles
 solitaire-spider-and-klondike
 solitaire-stars
+solitaire-the-collection
 solitaire-the-eternal-deck
 solitaire-tile-match
 solitaire-tripeaks
@@ -4296,6 +4322,7 @@ sort-them-cars-sorting-simulator
 sorter-ragdoll-playground-shooter
 sortilege-magic-shop-sort
 sorting-ball-puzzle
+sorting-ball-quiz
 sorting-cute-animals
 sorting-nuts-and-bolts-by-color-home-repair
 sorty-bolty
@@ -4330,6 +4357,7 @@ speed-pool-king
 speed-rush-simulator
 speeding-ball
 speedmatch-competition
+spellbound-orbs
 spider-bubu
 spider-evolution
 spider-evolution-runner-game
@@ -4431,6 +4459,7 @@ stealth-silent-squid
 stealthy-heist
 steel-advance
 steel-directive-city-zero
+stellar-bastion
 stellar-shot-gravity-puzzle
 stellar-style-spectacle-fashion
 stick-archer-champion
@@ -4927,6 +4956,7 @@ triangle-run
 triangle-way
 tribal-zuma
 trick-or-treat-candy-carnival
+trick-paws
 trick-your-brain-puzzle
 tricky-prank-annoying-quest
 tricky-puzzle-brain-test
