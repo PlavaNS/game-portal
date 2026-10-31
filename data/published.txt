@@ -242,6 +242,7 @@ arrow-escape-3d
 arrow-exit-puzzle
 arrow-fever
 arrow-free-3d
+arrow-jam
 arrow-parking
 arrow-patrol
 arrow-pop
@@ -274,6 +275,7 @@ asmr-spa
 asphalt-legend
 assassin-commando-car-driving
 assassin-ninja-rush
+assassins-hunt
 assault-on-squid-island
 assault-zone
 assemble-factory-puzzle
@@ -332,6 +334,7 @@ ball-bounce-try-it
 ball-connect
 ball-io
 ball-jump-switch-the-colors
+ball-packing-master-puzzle-fill-box
 ball-path-through-obstacles
 ball-run-2048-space
 ball-sort-puzzle
@@ -522,6 +525,7 @@ blocky-dude-gangster-auto-city
 blocky-gun-paintball-3
 blocky-guns
 blocky-set-3d-brick-constructions
+blocky-shooter-game
 blocky-zombie-shooting
 blondie-in-the-real-world
 bloom
@@ -615,6 +619,7 @@ brain-crazy-iq-challenge-puzzle
 brain-dots
 brain-draw-line
 brain-find-can-you-find-it-2
+brain-jam
 brain-line-connect
 brain-master-iq-challenge-2
 brain-puzzle-tricky-choices
@@ -723,6 +728,7 @@ bullet-man-3d-online
 bullet-storm
 bullets-master
 bullseye-idle
+bum-brawl-heaven
 bumbly-bee
 bump-bandit
 bump-i
@@ -765,6 +771,7 @@ butterfly-matching
 buttocks-time
 buttons
 cadillacs-dino-riot
+cafe-honey-heist
 cage-ballers-football
 cake-maker-girls-cooking-games
 cake-master-shop
@@ -833,6 +840,7 @@ car-madness-3d
 car-makeup
 car-mechanic-simulator-2025
 car-modding-contest
+car-obby-3d
 car-park-simulator
 car-parking-driving-game
 car-parking-master-3d
@@ -843,6 +851,7 @@ car-rush-game
 car-rush-super
 car-sales-empire-simulator
 car-sky-stunts
+car-smash-obby-3d
 car-smash-simulator-crash-and-tune
 car-sort
 car-stunt-master-3d
@@ -1128,6 +1137,7 @@ cork-and-cauldron
 corner-bakery
 corona-virus-crazy-doctor-simulator
 correct-math
+cosmetic-run
 cosmic-dash
 cosplay-gamer-girls
 counter-battle-strike-swat-multiplayer
@@ -1162,6 +1172,7 @@ crazy-bar-brawl
 crazy-bob
 crazy-breakout-mobile
 crazy-buggy-demolition-derby
+crazy-bus-escape-runner
 crazy-bus-station
 crazy-car-drive-road-challenge
 crazy-car-driving-3d-simulator
@@ -1397,6 +1408,8 @@ doodle-guard-draw-to-save
 doodle-halloween-momo-cat-academy
 doodle-halloween-momo-cat-sea-magic
 doodle-rpg-survivor
+doom-eternal-platformer
+doomfront-iron-breach
 doomsday-shooter
 doors-awakening
 dop-fun-delete-one-part
@@ -1886,6 +1899,7 @@ frontline-commando-shooting-gun-games
 frost-land-snow-survival
 frostport
 frosty-ball
+frosty-rush
 fruit-box-sort
 fruit-chopper
 fruit-cutter-fun
@@ -2270,6 +2284,8 @@ highway-car-racer
 highway-car-shooting-3d-action-game-2025
 highway-of-the-dead
 highway-racers
+highway-rush-overdrive
+highway-traffic-racer-3d
 hill-climb-2022
 hill-climb-racings-2
 hill-climb-truck-transform-adventure
@@ -2412,6 +2428,7 @@ infinity-sky
 injection-invasion
 ink-shop-dress-and-tattoo-games
 ink-streak
+inkageddon
 inner-city-drive
 insect-clicker
 insect-exploration
@@ -2662,6 +2679,7 @@ liquid-sort-puzzle
 little-big-fighters
 little-city-merge
 little-cute-summer-fairies-puzzle
+little-dentist-for-kids-3
 little-pumpkin-online-game
 live-eating-simulator
 live-round
@@ -3093,6 +3111,7 @@ mud-truck-simulator-game
 multi-surgery-hospital-games
 mummy-candy
 mummy-land
+munch-mob
 murder-mafia
 muscle-clicker-2
 muscle-run-io
@@ -3174,6 +3193,7 @@ nextbot-can-you-escape
 nexus-override
 night-city-racing
 night-club-security
+night-lake
 night-order-pick-and-pack
 night-racing-drag
 night-silk-dark-city-fashionistas
@@ -3236,6 +3256,7 @@ noobik-arena-99-nights
 noobik-parkour-in-a-cave
 noodle-pull
 not-before-bed-01
+novabrick-rush
 novahelm-tactical-strike
 novice-fisherman
 nubik-courier-an-open-world
@@ -3537,6 +3558,7 @@ pixel-conquest
 pixel-destroyer
 pixel-differences
 pixel-dino-run
+pixel-feast
 pixel-flow
 pixel-gun-apocalypse-4-zombie-invazion
 pixel-gun-apocalypse-9
@@ -3855,6 +3877,7 @@ ride-a-bike-for-brainrots
 rider-2
 rider-online-pro
 riders-downhill-racing
+ridge-racer-2d
 rift-of-hell-demons-war
 rim-rebels-3v3
 ring-fall-puzzle
@@ -3907,6 +3930,7 @@ robot-wars
 robotex
 robots-battle-mech-arena
 robots-world-battle
+robotu-rebellion
 rocket-bloom
 rocket-car-football-championship
 rocket-clash-3d
@@ -3938,6 +3962,7 @@ rooftop-run
 rooftop-shooters
 room-45
 room-makeover-design-and-aesthetic
+rooster-ranch
 roots-and-wheels
 rope-bowing-puzzle
 rope-chef
@@ -4525,6 +4550,7 @@ stickman-jump
 stickman-kart-hero
 stickman-killing-zombie-3d
 stickman-kombat-2d
+stickman-legion
 stickman-mega-boss-battles
 stickman-merge-2
 stickman-miners-wars
@@ -4872,6 +4898,7 @@ tile-jumper-3d
 tile-match
 tile-match-camp
 tile-match-explorer
+tile-match-guard-baby
 tile-match-puzzle
 tile-matcher-triple-fun
 tile-pair-jam-mahjong-master
@@ -4897,6 +4924,7 @@ tiny-tomb
 tiny-track-rally
 tiny-zomby-the-barricade
 tnt-sandbox
+toca-hidden-stars
 toca-life-adventure
 tom-and-angela-insta-fashion
 tom-jigsaw-puzzle
@@ -5142,6 +5170,7 @@ watermelon-game
 watermelon-merge-fruit-drop
 watermelon-merging
 watermelon-run
+watermelon-stack-3d
 we-are-in-a-simulation-simulator
 we-not-survive
 weapon-run-3d-gun-shooter
@@ -5255,6 +5284,7 @@ yatzy
 yenemy
 yeti-run
 yoga-master-flex-running
+yolk-ops-egg-arena
 your-majesty-build-and-conquer
 your-obby-escape
 your-obby-labyrinth
