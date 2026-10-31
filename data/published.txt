@@ -198,6 +198,7 @@ ant-moving-simulator
 ant-picnic
 anti-terrorist-shooting-game
 ants-ate-my-pixels
+ants-clear-all-color-block-puzzle
 aod-art-of-defense
 apex-combat
 apocalypse-rush
@@ -286,6 +287,7 @@ attack-hole
 attack-super-hole
 aura-clicker
 aura-farm-rng
+aura-farmer-presidents
 avatar-make-up
 avocado-yard-ragdoll-sandbox
 awareness-game-the-robot-bar
@@ -475,6 +477,7 @@ blade-merge
 blast-jam
 blast-out-battle-royale
 blast-round-puzzle-block
+blasties
 blasting-marbles
 blend-it-perfect
 blind-boat-shooting-master
@@ -562,6 +565,7 @@ bombaman-3d
 bomber-friends
 bomber-man
 bomber-quest
+bombstrike-urban-blast
 bone-throne
 bonecrypt
 bonk-islands
@@ -793,6 +797,7 @@ candy-for-capybara
 candy-mahjong-3d
 candy-match-saga-2
 candy-pop-mania
+candy-shop-3d-match-puzzle
 candy-sort
 candy-sweet
 canjump
@@ -1352,6 +1357,7 @@ dicey-paws-idle
 different-fashion-hairstyle
 dig-and-flow-save-water
 dig-it
+dig-to-the-weirdest-world
 diggy
 digit-shooter-1
 digital-circus-parkour-game
@@ -1421,6 +1427,7 @@ dora-candy-land
 dot-and-dot
 dotto-botto
 double-boy-jump
+double-heist-rob-the-robbers
 downhill-car-ride-crash-test
 downhill-christmas-dash
 dr-psycho-hospital-escape
@@ -1570,6 +1577,7 @@ elastic-man
 elden-ring-beat-em-up
 electron-dash
 elemental-barrage
+elemental-challenge
 elemental-friends-adventure
 elemental-rescue-adventure
 elements-craft-ultimate
@@ -1620,6 +1628,7 @@ escape-school-duel
 escape-strange-girl-s-house
 escape-strange-girl-s-house-2
 escape-the-giant-cat
+escape-the-giant-school-3d
 escape-the-monster
 escape-tsunami-and-save-brainrots
 escape-waves-for-lucky-blocks
@@ -1653,7 +1662,9 @@ extreme-car-parking-3d
 extreme-drift-racing
 extreme-formula-racing
 extreme-monster-truck
+extreme-motorcycle-simulator
 extreme-police-chase
+extreme-quad-bike-racing
 extreme-rider-3d
 extreme-space-rush
 extreme-thumb-wars
@@ -1859,6 +1870,7 @@ football-rumble
 football-soccer
 football-tricks
 ford-f-100-eluminator-slide
+forest-fortune
 formula-1-driver
 formula-apex-rush
 formula-car-race
@@ -1997,6 +2009,7 @@ geometry-maze-maps
 geometry-maze-maps-v2
 geometry-neon-dash-world-2
 geometry-open-world
+geometry-vibes
 geometry-vibes-3d
 geometry-vibes-monster
 geometry-vibes-x-arrow
@@ -2014,6 +2027,7 @@ ghost-runaway
 ghost-sniper
 ghost-walker
 ghostly-night-harvest
+giant-crusher-destroy-and-grow
 giant-rush
 giant-snowball-rush
 giant-wanted-monster
@@ -2168,6 +2182,7 @@ halloween-monsters-merge
 halloween-shuffle
 halloween-stickman
 halloween-stickman-2
+halloween-survivor
 halloween-tile-tumble
 hammer-strike
 hamster-escape-prison
@@ -2788,6 +2803,7 @@ maple-lake
 marble-color-sort
 marble-factory
 marble-maze
+marblemaze2
 maritime-sniper
 marnyl-silence-the-haters
 mars-colony
@@ -2833,6 +2849,7 @@ max-speed
 max-the-secret-of-grandpa-s-letter
 maze-bomber-game
 maze-evolution
+maze-evolution-html
 maze-maker
 mazean-com
 mech-battle-arena
@@ -3116,6 +3133,7 @@ murder-mafia
 muscle-clicker-2
 muscle-run-io
 muscle-rush-3d
+museum-night-shift
 mushroom-fight-for-the-kingdom
 mushroom-hunting-forest-search
 mushroom-runners
@@ -3693,6 +3711,7 @@ pro-football-eleven-2027
 pro-obunga-vs-creepender
 professional-archerist
 project-survival
+project-void
 protect-my-dog
 pudding-monsters
 pull-him-out-online
@@ -3774,6 +3793,7 @@ ragdoll-rescue-physics-puzzle
 ragdoll-revenge-throw-at-annoying-people
 ragdoll-robots-sandbox
 ragdoll-runner-run-but-don-t-break
+ragdoll-rush-3d-sky-race
 ragdoll-show-throw-break-and-destroy
 ragdoll-survivor
 ragdoll-teleport-arena
@@ -4230,6 +4250,7 @@ slides-and-climbs
 slidey-sliding-cat-puzzle
 sliding-slide
 slime-assembly-endless
+slime-buffet
 slime-clicker
 slime-color
 slime-heroes
@@ -4269,6 +4290,7 @@ snake-2048
 snake-2048-io
 snake-2077-glitch-war
 snake-arena
+snake-block-rush
 snake-brawl-merge-arena
 snake-color-race
 snake-of-balls
@@ -4279,6 +4301,7 @@ snake-tangle
 snake-train-zone
 snake-vs-ai
 snake-warz
+snake-way
 snake-wiggle-master
 snakearmydefense
 snakes
@@ -4294,6 +4317,7 @@ sniper-hero-urban-strike
 sniper-king-2d-the-dark-city
 sniper-master
 sniper-mission-war
+sniper-rooftop-defense
 sniper-shooter-3d
 sniper-shooter-save-the-fish
 sniper-silent-ridge
@@ -4401,6 +4425,7 @@ spin-and-mow
 spinner-clicker-2d
 spinning-cat-clicker
 spinning-oia-oia-cat-bricker
+spinwhisker
 spiral-blitz
 splash-rivals
 splatcha
@@ -4946,6 +4971,7 @@ tower-crush
 tower-necromancer-s
 tower-of-asmr
 tower-platformer-3d
+tower-siege
 tower-tap
 towers-505
 town-builder-inc
@@ -5069,6 +5095,7 @@ underwater-bicycle-racing
 underwater-survival-deep-dive
 unfamiliar-object
 unicorn-chef-mermaid-cake
+unite-words
 universal-multiplayer-shooter
 unno-game
 uno-online
@@ -5126,6 +5153,7 @@ void-rescue
 void-roller
 void-shot
 volley-beans
+volley-clash
 voxel-atelier
 voxel-master
 voxel-playground-ragdoll-noob
@@ -5277,6 +5305,7 @@ xmas-rooftop-battles
 xo-with-buddy
 xtreme-motorbikes-rider
 xtreme-offroad-jeep-2019
+yaoguard
 yarn-fever-unravel-puzzle
 yarn-to-art-arrow-puzzle
 yarn-untangled
@@ -5345,6 +5374,7 @@ zombie-raid
 zombie-reform
 zombie-royale-io
 zombie-shooter-3d
+zombie-shooter-evil-outbreak
 zombie-siege
 zombie-sniper
 zombie-space-episode-ii
