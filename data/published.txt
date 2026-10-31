@@ -70,6 +70,7 @@
 456-impostor
 456-survival-squid-challenge
 5-nights-at-tung-tung-hotel-horror-3d
+6x6-offroad-jeep
 9-ball-pool-3d
 99-night-survivor
 99-nights-in-the-forest
@@ -135,6 +136,7 @@ alien-shooter
 alien-shooting-survival
 alien-wreckage
 aliens-hunter
+aliens-need-redheads
 all-golf
 allpeopletug
 almost-infinite
@@ -735,6 +737,7 @@ bus-driving-master-3d
 bus-escape-clear-jam
 bus-jam-pick-up-them-all
 bus-jam-sort
+bus-jam-sort-escape
 bus-mania-parking-puzzle
 bus-master-road-journey
 bus-n-ball-jam
@@ -1053,6 +1056,7 @@ color-roll-3d
 color-shot-throw-the-ball
 color-snake-3d-online
 color-snake-run
+color-sort-party
 color-sort-puzzle-milk-tea-sorting
 color-sorting
 color-sorting-rooms
@@ -1261,6 +1265,7 @@ dash-hero
 dash-masters
 dashmash-io
 dd-bubble-up
+dead-city-zombie-survival
 dead-land-survival
 dead-lands-driver-open-world
 dead-paradise
@@ -1423,6 +1428,7 @@ draw-one-line-bridge-puzzle
 draw-one-line-drawing-puzzle
 draw-one-part-brain-puzzle
 draw-or-delete-lovestory
+draw-path-to-finish
 draw-path-to-home
 draw-pixels-heroes-face
 draw-save-puzzle
@@ -1492,6 +1498,7 @@ duck-family-simulator-animal-games
 duck-hunter
 duck-shootingz
 duck-you
+duckling-rush-io
 duckys-colorful-life
 duel-of-builders
 duelers
@@ -1543,6 +1550,7 @@ ellie-summer-spa-beauty-salon
 elska-dog-vs-zombies-multiplayer-co-op
 ember-boy-and-ripple-girl
 emergency-dispatcher-911
+emergency-rush-city-ambulance-rescue
 emilys-hotel-solitaire
 emoji-guess
 emoji-guess-master
@@ -1659,6 +1667,7 @@ farm-mart
 farm-nubik-vs-zombies
 farmers-vs-aliens
 farming-simulation-game
+farming-tractor-game
 fashion-battle-dress
 fashion-foot-shop
 fashion-foot-shop-game
@@ -1669,6 +1678,7 @@ fashion-show-dressup
 fast-and-wild-in-sky
 fast-ball-jump
 fast-car-top-speed
+fast-connect-one-line-blitz
 fastlane-revenge-online
 fastlane-road-to-revenge
 fastlaners
@@ -1740,6 +1750,7 @@ fish-rain-2
 fish-shooting-fish-hunter
 fish-sort-puzzle
 fish-stab-getting-big
+fish-tank-caretaker-simulator
 fishdom
 fishdom-online
 fisher-clicker
@@ -1856,6 +1867,7 @@ frontline-assault-battleground-fire-max-shooting
 frontline-commando-shooting-gun-games
 frost-land-snow-survival
 frostport
+frosty-ball
 fruit-box-sort
 fruit-chopper
 fruit-cutter-fun
@@ -1945,6 +1957,7 @@ geo-metric-run
 geom-etrys
 geometry-arrow
 geometry-arrow-2
+geometry-arrow-wave-rush
 geometry-black-ball
 geometry-black-wave
 geometry-gunner
@@ -2072,6 +2085,7 @@ gt-flying-car-racing
 gt-formula-championship
 gt-ghost-racing
 gt-racing
+gt-rush-2026
 gt-truck-racer
 guard-the-baby
 guardians-of-tower
@@ -2110,6 +2124,7 @@ halloween-fighters
 halloween-final-episode
 halloween-football-championship
 halloween-fruit-slice
+halloween-hand-care
 halloween-horror-massacre
 halloween-is-coming-episode-10
 halloween-makeup-me
@@ -2243,6 +2258,7 @@ hill-climber
 hill-racing
 hill-ride-3d
 hills-of-steel
+hilltop-hustle
 hit-and-knock-down
 hit-em-up
 hit-master
@@ -2465,6 +2481,7 @@ kalulu-tanhulu-asmr-mukbang
 katana-flash
 katana-fruits-cutting-fun
 katana-upgrade
+katana-zero-borrowed-seconds
 keep-her-alive
 keepie-uppie-paddle-pong
 key-and-shield-2
@@ -2476,6 +2493,7 @@ kick-and-run
 kick-lucky-blocks-online
 kick-the-ball-and-shoot
 kick-the-santa-christmas-buddy
+kick-the-zombie-ragdoll-sandbox
 kickoff-academy-football-tycoon
 kids-flurry-educational-puzzle-game
 kids-good-habits
@@ -2561,6 +2579,7 @@ lamborghiniparking3
 lane-clash
 lantern-alley-match-3
 lantern-canals
+lantern-wayfarner
 lanternbloom
 lanternborne
 lanternward
@@ -2994,6 +3013,7 @@ mother-simulator-beach-party-games
 mother-simulator-husband-wife-games
 moto-3d-racing-challenge
 moto-bike-extra
+moto-extreme-halloween-land
 moto-maniac-3
 moto-obby
 moto-stuntman
@@ -3627,6 +3647,7 @@ pumpkin-ninja
 pumpkin-wheel
 punch-superhero
 punch-the-wall
+punch-through
 puppet-killer
 puppy-pet-vet-care
 purr-magic-merge-balls
@@ -3640,6 +3661,7 @@ push-to-go
 pushplush
 putt-party
 puzzle-box-brain-fun
+puzzle-box-connect
 puzzle-candle
 puzzle-drive
 puzzle-fight
@@ -3647,6 +3669,7 @@ puzzle-match-kit
 puzzle-parents-baby-s-path-home
 puzzlebot
 puzzledom-one-line
+puzzlemaster
 qblock-puzzle
 quackventure
 quarantine-rush
@@ -3696,6 +3719,7 @@ rage-road-online
 rageroll-io
 railroad-magnate
 railway-traffic-jam-untangle-the-trains
+rainbow-ball-runner-2048
 rainbow-ice-cream-and-popsicles
 rainbow-obby
 rainbow-s-doctor
@@ -3807,6 +3831,7 @@ road-madness
 road-race-3d
 road-rage
 roads-off-fury
+roadster-dash-halloween-night
 roar-of-city
 robbery-duel
 robbie-draw-your-sword
@@ -4138,6 +4163,7 @@ slime-planet-eater
 sling-chicken
 slinger
 slingshot-shooting-game
+slinky
 slinky-color-sort
 slope-bike
 slope-city
@@ -4305,6 +4331,7 @@ spooky-vending-machine-2
 spore-guard
 sportbike-drive
 sports-minibattles
+spotless
 spra-racing-cars-speed
 spray-paint-coloring-games
 sprint-club-nitro
@@ -4479,6 +4506,7 @@ street-race-master
 street-racer-2d
 streetracer-realistic-destruction
 streets-of-rage
+streets-of-rage-neon-district
 stretch-guy
 strike-bullet
 strike-force-action-platformer
@@ -4491,6 +4519,7 @@ stunt-boxes
 stunt-extreme
 stunt-planes
 stunt-rider
+stunt-witch-3
 subby-quest
 subway-clash-3d
 subway-princess-run
@@ -4742,6 +4771,7 @@ the-room
 the-rooms-escape-challenge
 the-secret-of-the-toy-factory
 the-sort-agency
+the-space-mover
 the-specimen-zero
 the-superhero-league
 the-tall-man
