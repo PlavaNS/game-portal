@@ -283,7 +283,9 @@ const wasPublished = g => { const s = slugify(g.title); return published.has(s) 
   const keep = g => g.source === 'pg' || g.source === 'gpx' || wasPublished(g);
   const keptCount = games.filter(keep).length;
   let room = Math.max(0, cfg.maxGames - keptCount);
-  games = games.filter(g => keep(g) || room-- > 0);
+  // the cap is already full of published pages, so always let the newest feed games in (a few dozen per daily build)
+  const fresh = new Set(games.filter(g => !keep(g) && Number.isFinite(g.r?.newest)).sort((x, y) => x.r.newest - y.r.newest).slice(0, cfg.newPerBuild || 30));
+  games = games.filter(g => keep(g) || fresh.has(g) || room-- > 0);
 }
 
 // hand-written tips/FAQ for selected games (data/guides.json, keyed by slug)
