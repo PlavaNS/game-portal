@@ -104079,5 +104079,2244 @@
         "Dodge the boss's attacks first. When it is open, hit it with nuts thrown using F."
       ]
     ]
+  },
+  "louvers": {
+    "intro": "Louvers is a relaxing browser logic puzzle. Slide horizontal slats left or right so every column gets the right tiles, and a hidden picture appears across the board.",
+    "tips": [
+      "Before moving anything, check which columns are still dark and which tiles they need. Working out the target for each column first saves a lot of trial and error.",
+      "Move one slat at a time and look at what changes. A slide that lights one column can break another, so watch the whole board after each move.",
+      "Start with the slats that have the fewest tiles, since they are usually easier to place exactly where you need them.",
+      "If you get stuck, reset your thinking by focusing on one lit column at a time and making sure it stays lit before you touch the next one.",
+      "Use the short tutorial in the first levels to learn how dragging and the arrow keys behave, then use whichever input feels most comfortable."
+    ],
+    "faq": [
+      [
+        "How do I move a slat?",
+        "Drag it left or right with the mouse or touchscreen, or click to select it and use the arrow keys. Its tiles shift together."
+      ],
+      [
+        "What tells me a column is correct?",
+        "A column lights up when it holds the right tiles. Light every column to reveal the picture and finish the level."
+      ]
+    ]
+  },
+  "rim-rebels-3v3": {
+    "intro": "Rim Rebels 3v3 is a fast street basketball game with two hoops, a running clock and four short quarters. You can play the CPU at three difficulty levels or team up online with friends.",
+    "tips": [
+      "Hold Space to hang in the air longer before releasing your jumper, and watch the defender's position so you shoot when they can't reach you.",
+      "Use the fake pass (hold K) to pull a defender off balance, then drive to the lane while they recover.",
+      "Save your Super Shot for a key moment in the quarter, since each team only gets one per quarter.",
+      "Try Shift + K near the rim to throw an alley-oop to a teammate who is cutting toward the basket.",
+      "On defense, use the J reach-in block when a shooter is close, and press K for a steal when the ball handler is careless."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Rim Rebels 3v3?",
+        "Score more points than the other team across four short quarters while the clock runs. Each quarter begins with a jump ball."
+      ],
+      [
+        "How do I shoot the ball?",
+        "Press J to shoot, and hold Space first if you want to hang in the air before releasing. Release at the right moment for a better shot."
+      ]
+    ]
+  },
+  "katana-zero-borrowed-seconds": {
+    "intro": "Katana Zero: Borrowed Seconds is a 2D sword-action game where you guide Rei through a neon city. You slash enemies, reflect bullets, and bend time to plan each move.",
+    "tips": [
+      "Hold L or Q to slow time before a dangerous room, then look over where enemies and bullets are coming from before you commit to a move.",
+      "Use the dash to get past threats quickly, and save it for moments when you need to leave an enemy's attack range rather than spending it on small gaps.",
+      "Try to reflect bullets back with your slash instead of dodging every shot, since a well-timed reflect can clear a threat and keep your momentum going.",
+      "When you fail, press R to retry right away. Checkpoints are quick, so short practice runs on the same tricky section are usually more effective than pushing on while frustrated.",
+      "Pause with Esc when you need a moment to think about the layout of a room, since planning your route is part of the game."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Katana Zero: Borrowed Seconds?",
+        "You play as Rei moving through rooms in a neon city, slashing enemies and getting past danger to advance the story."
+      ],
+      [
+        "How does slowing time help?",
+        "Holding L or Q slows the action so you can study enemy positions and plan your next slash, jump, or dash more carefully."
+      ]
+    ]
+  },
+  "dead-city-zombie-survival": {
+    "intro": "Dead City: Zombie Survival is a first-person survival shooter set in a zombie-infested city during the night. You scavenge weapons and supplies, fight off the dead, and look for a way out before time runs out.",
+    "tips": [
+      "Open the map with M early and plan a route through the streets, forest camp, or industrial zone before you move on.",
+      "Use Right Click to aim, since it locks onto zombies, and pair it with Left Click to shoot rather than firing wildly.",
+      "Keep track of your ammo and reload with R during quiet moments, so you are not caught empty when a horde arrives.",
+      "Save the flashlight (F) for dark areas where you need to see, and crouch with C in tight spaces to stay less exposed.",
+      "Look for a vehicle to escape the city, and use L to turn the car lights on when driving through dark streets."
+    ],
+    "faq": [
+      [
+        "What is the goal of the game?",
+        "Survive the night in the ruined city, find a way out, and escape before it is too late."
+      ],
+      [
+        "How do I switch between weapons?",
+        "Press keys 1 to 3 to select a weapon, and use Left Click to shoot once you have it ready."
+      ]
+    ]
+  },
+  "frosty-ball": {
+    "intro": "Frosty Ball is a fast-paced physics platformer where you roll a snowball through icy peaks and cosmic frost. Dodge obstacles, collect golden coins, and try to earn 3 stars on every stage.",
+    "tips": [
+      "Watch each new mechanic closely when a world starts, such as anti-gravity pads, portals, swinging frost maces, and laser beams, before you try to rush through it.",
+      "Jump early over sharp spikes rather than at the last moment, since your snowball needs room to clear them.",
+      "Plan your route so you can grab golden coins without putting yourself in danger. Stars depend on how well you play each stage, so replaying a stage can help you spot safer lines.",
+      "Use the Pause control when you need a moment to study a tricky section of a stage, then resume and try again.",
+      "Try different snowball characters to see whether one suits your play style, since the game includes 10 to choose from."
+    ],
+    "faq": [
+      [
+        "What is the goal of Frosty Ball?",
+        "Roll your snowball through each stage, avoid obstacles and spikes, and collect golden coins. The challenge is to earn 3 stars on every stage."
+      ],
+      [
+        "How do I move and jump?",
+        "On desktop, use A and D or the Left and Right Arrow keys to move, and press Spacebar, W, or Up Arrow to jump. On mobile, tap the on-screen Left, Right, and Spacebar buttons."
+      ]
+    ]
+  },
+  "zombie-drift-steel-rage": {
+    "intro": "Zombie Drift: Steel Rage is a racing game where you drive an armored battle car through a ruined city arena. Drifting builds nitro and powers your ramming attacks, so you fight by sliding through the crowd.",
+    "tips": [
+      "Drift on purpose rather than just turning hard, since sharper drifts fill your nitro rage faster. Save nitro for moments when a big group of zombies is close together.",
+      "Aim your spiked bumper at the biggest threats, such as titan bosses, because ramming damage rises the harder you hit.",
+      "Use the handbrake drift to swing your car around corners while keeping your speed up, so you stay in the middle of the action instead of stalling.",
+      "Pick up scrap gears when they are safe to reach, and blow up barrels near clusters of enemies to clear space quickly.",
+      "Between waves, choose weapon modules and upgrades that fit how you drive, and keep an eye on your armor so a single rough fight does not end your run."
+    ],
+    "faq": [
+      [
+        "How do I build up nitro?",
+        "Nitro builds faster the sharper you drift, so controlled slides through zombies are the main way to charge it. Use Space or E to spend it when you need extra power."
+      ],
+      [
+        "What controls should I use for drifting?",
+        "Steer with A and D and press Shift or F for the handbrake drift. On touch screens, use the DRIFT and NITRO buttons along with the floating stick on the left side."
+      ]
+    ]
+  },
+  "meow-squad-zombie-defense": {
+    "intro": "Meow Squad: Zombie Defense is a merge-based defense game where you combine cats to build a stronger squad against zombie waves. Place your cats on the barricade and keep the zombies from breaking through.",
+    "tips": [
+      "Merge cats early so you have stronger fighters on the barricade before the zombie waves grow larger.",
+      "Place your strongest cats in the barricade boxes, since cats there shoot zombies automatically and do the bulk of the work.",
+      "Keep some coins in reserve for repairing the barricade so a single breach does not end your run.",
+      "Save your add-ons such as TNT, spikes or rapid fire for moments when zombies crowd in, rather than using them at the first sign of trouble.",
+      "Between battles, put your upgrades toward the cats and barricade you rely on most, so each wave gets easier to hold."
+    ],
+    "faq": [
+      [
+        "How do I merge cats?",
+        "Drag one cat onto an identical cat to combine them into a stronger cat. Merging is the main way to grow your squad."
+      ],
+      [
+        "Where should I place cats to fight zombies?",
+        "Drag cats onto the barricade boxes. Cats placed there shoot zombies automatically."
+      ]
+    ]
+  },
+  "arrows-dream-home-design": {
+    "intro": "Arrows: Dream Home Design mixes an arrow-clearing puzzle with room renovation. You solve levels to earn coins, then spend them on restoring and decorating Anna's home.",
+    "tips": [
+      "Before you click an arrow, look at which arrows point toward open space. Removing those first usually opens up the rest of the board.",
+      "Work out the removal order on paper or in your head before you start clicking, since a wrong move can block the rest of the puzzle.",
+      "Save coins for the improvements that matter most to the room you are working on rather than spreading them thinly across the house.",
+      "Try the puzzles when your mind is fresh. The logic is the main challenge, so short sessions with a clear head tend to go better than long ones.",
+      "Check your decorating choices against the room's layout before buying, so the furniture and wallpaper you pick fit the space you have unlocked."
+    ],
+    "faq": [
+      [
+        "How do I play the arrow puzzle?",
+        "Clear the board by removing arrows in the correct order. Use only your mouse or touchpad to click the arrows."
+      ],
+      [
+        "How do I earn coins?",
+        "You earn coins by completing puzzle levels. Those coins are then spent on cleaning up and buying interior items."
+      ]
+    ]
+  },
+  "sniper-vs-99-players": {
+    "intro": "Sniper VS 99 Players is a first-person round where you are drawn either as one of six snipers guarding a tower or as a runner racing up a street. Each side has its own goal and scoring.",
+    "tips": [
+      "As a runner, move from cover to cover rather than running in the open, and use jumps and crouch-slides to change your position under the red lasers.",
+      "Plan your route before you move: the door under the tower gives +120 XP, and reaching a staircase and knifing a sniper gives +100 XP, so decide which is realistic for your position.",
+      "As a sniper, use right click to aim before you need to shoot, so you spend less time scoping while runners close in.",
+      "Use the zoom levels to check the crowd at range, then zoom back out when you need a wider view of the street.",
+      "Watch the clock: snipers win by keeping one sniper alive until three minutes pass, so stopping runners early matters more than a single long shot."
+    ],
+    "faq": [
+      [
+        "What is the goal when I am a runner?",
+        "Runners win when every sniper has been knifed. You can reach the tower door or climb a staircase to get to a sniper."
+      ],
+      [
+        "How many shots does a sniper have before reloading?",
+        "Each sniper fires from a clip of five shots."
+      ]
+    ]
+  },
+  "obby-build-a-car-farm": {
+    "intro": "Build and grow a car farm on a colorful island. Buy and merge cars, collect the parts they produce, and work toward discovering all 30 car tiers.",
+    "tips": [
+      "Merge three identical cars into a better one as soon as you can, since higher tiers are the way to expand your collection.",
+      "Keep collecting parts regularly and carry them to the service center deposit pad so your in-game currency keeps coming in.",
+      "Spend your currency on upgrading parts sales speed early, because it helps every car on your farm earn faster.",
+      "Try the parkour course on the central island when your parts are piling up, since it doubles the parts you carry.",
+      "Check in for daily gifts and claim rewards for new models, as these add up over time without extra production work."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Obby: Build a Car Farm?",
+        "Grow your car farm and discover all 30 car tiers. You do this by buying and merging cars, collecting their parts, and reinvesting your currency."
+      ],
+      [
+        "How do I make a car stronger?",
+        "Merge three identical cars into a better one by stepping on the floor buttons. Each merge moves you toward higher car tiers."
+      ]
+    ]
+  },
+  "find-a-legendary-needle": {
+    "intro": "Find a Legendary Needle is a first-person farm simulator in an autumn valley. You gather hay, sell it, upgrade your gear and follow the Seeker Compass to dig up the needle hidden in the haystack.",
+    "tips": [
+      "Fill your backpack with hay, then walk to the Hay Press to sell it before you go back to gathering. This keeps your coins growing steadily.",
+      "Spend your early coins in the workshop on the Seeker Compass first, since it points you toward the needle.",
+      "Try different tools like the rake, pitchfork, golden trident and Hay Vac to see which one collects hay fastest for the area you are working in.",
+      "When the compass leads you to a spot, watch for the needle glinting through the straw before you start digging there.",
+      "Upgrade to bigger backpacks as soon as you can afford them, so each trip to the Hay Press carries more hay."
+    ],
+    "faq": [
+      [
+        "What is the main goal of the game?",
+        "Your goal is to find the legendary needle hidden inside the giant haystack. The game also invites you to collect 12 legendary needles for your trophy shelves."
+      ],
+      [
+        "How do I earn coins?",
+        "Grab hay by hand or with a tool, fill your backpack, then walk into the Hay Press to sell it for coins. Coins are used to buy upgrades in the workshop."
+      ]
+    ]
+  },
+  "ragdoll-gangs": {
+    "intro": "Ragdoll Gangs is a street brawler with an Adventure mode of six single-player levels and an Arena mode for one or two players. Fights use punches, kicks, picking up and throwing.",
+    "tips": [
+      "Learn the punch, kick, pick and run keys for your side early, since every fight depends on quick combinations of them.",
+      "In Arena, the first player to score three wins, so avoid wasting time on risky moves and focus on landing clean hits.",
+      "Adventure mode includes scenarios where you throw enemies off a high place, so keep an eye on where the edges are during fights.",
+      "Against the CPU in single-player Arena, expect a tougher match, so watch its movement patterns before committing to attacks.",
+      "In two-player Arena, agree on a rhythm with your opponent and play at the same keyboard, keeping each player's keys clearly separated."
+    ],
+    "faq": [
+      [
+        "What is the goal of Ragdoll Gangs?",
+        "In Arena mode, the first player to score three wins the match. Adventure mode asks you to get through its six levels, which include fights and throwing enemies off high places."
+      ],
+      [
+        "Which keys control Player 1?",
+        "Player 1 moves with W, A, S and D, picks up and throws with C, punches with V, kicks with B and runs with Left Shift."
+      ]
+    ]
+  },
+  "ants-ate-my-pixels": {
+    "intro": "Ants Ate My Pixels! is a puzzle where you tap colored tiles to send ants out to carry away matching cubes until the whole pixel picture is gone. Each level is a new arrangement, so the order you choose matters.",
+    "tips": [
+      "Before tapping a tile, check which cubes of that color the ants can actually reach from the outside of the shape. Tiles with reachable cubes are usually the safer choice.",
+      "Clear the outer layer first, since cubes inside stay out of reach until the cubes around them are gone.",
+      "Keep an eye on your five slots. Avoid filling them with tiles that have nothing left to collect, because a full tray of those ends the level.",
+      "When a tile's ants are still leaving, its slot stays occupied, so plan for that before you commit to another tile.",
+      "If you get stuck, step back and look at which colors are blocking the inner cubes, then work toward freeing those colors."
+    ],
+    "faq": [
+      [
+        "What is the goal of Ants Ate My Pixels!?",
+        "The goal is to clear every cube from the picture. Each tap sends ants to carry away cubes of one color until the shape is empty."
+      ],
+      [
+        "How do I choose which tile to tap?",
+        "Tap the top colored tile in the tray below. Pick the order carefully, because a tile only helps if its ants can reach matching cubes from outside the shape."
+      ]
+    ]
+  },
+  "keyboard-escape-classic": {
+    "intro": "Keyboard Escape Classic is a 3D running adventure built on giant candy and chocolate keyboard keys. Each key you press adds speed, so you race through a candy hub and ten themed stages while avoiding hazards and guards.",
+    "tips": [
+      "Keep moving across the keys, since every step adds speed and you gain the most by staying on the move.",
+      "Use treadmills whenever you can, because they keep adding speed while you stand on them.",
+      "Stop at the yellow Wins pad in each Safe Zone to bank Wins before pushing into the next stage.",
+      "Watch the chocolate, the rolling marshmallows, and the chocolate wave, and time your jumps with Space to clear them.",
+      "Rebirth once you reach the required level so you gain a permanent multiplier that carries into later runs."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Keyboard Escape Classic?",
+        "Your goal is to run across the candy keys, gain speed, and escape through the 10 themed stages. Reaching each Safe Zone is how you move forward."
+      ],
+      [
+        "How do I move and jump?",
+        "Use WASD or the arrow keys to move and press Space to jump. Press E or tap the button near a stand to open it."
+      ]
+    ]
+  },
+  "jigsolitaire-puzzle": {
+    "intro": "Jigsolitaire is a relaxing jigsaw game where you rebuild a scrambled picture by swapping tiles into their correct places. You can choose from seven grid sizes across several themed collections.",
+    "tips": [
+      "Start with the corner and edge pieces, since they have fewer possible positions and give you a frame to build around.",
+      "Look for distinctive colors, patterns, or shapes in the image to decide where a tile belongs before you swap it.",
+      "Earn hints by completing easier puzzles first, then save them for tricky sections where you have no clear idea where a tile goes.",
+      "Use the daily puzzle each day for the bonus coins, and keep an eye on your streak to stay consistent.",
+      "There is no time pressure, so take your time and check each swap against the emerging picture before moving on."
+    ],
+    "faq": [
+      [
+        "How do I win a puzzle?",
+        "A puzzle is solved when every tile is in its correct position and the complete image is revealed. Keep swapping tiles until nothing is out of place."
+      ],
+      [
+        "How do I move a tile?",
+        "Drag one tile and drop it onto another tile to swap their positions. Repeat this until the image is fully rebuilt."
+      ]
+    ]
+  },
+  "roll-tycoon": {
+    "intro": "Roll Tycoon is a 3D idle game where you throw dice onto a tray, read their top faces, and collect payouts. You grow your dice collection, chase contracts, and build toward a Rebirth.",
+    "tips": [
+      "Check the CONTRACT chip before spending. Finishing the current objective pays cash or chests, so saving for it can speed up your progress.",
+      "Each batch pays based on the top faces that land. Buy more dice when your income is steady, so every throw earns more.",
+      "Keep rolling while you wait for FEVER. Each max-face die charges the meter, and a full meter gives x2 payouts for a short window, so use that time for your biggest batches.",
+      "Open the MISSIONS tab each session and pick the goals closest to done. Claiming the daily and weekly rewards is one of the easiest ways to add value.",
+      "If the game feels slow or heavy on your device, set Graphics to Low in the shop. The lighter setting keeps the rolls responsive."
+    ],
+    "faq": [
+      [
+        "How do I throw my dice?",
+        "Tap or click the board, press Space, or use the ROLL button. This throws every die that is waiting."
+      ],
+      [
+        "What does the FEVER meter do?",
+        "Each die that lands on its max face charges the meter. When it is full, FEVER gives x2 payouts for 8 seconds, and some artifacts make it last longer."
+      ]
+    ]
+  },
+  "trench-tycoon-toy-army-defense": {
+    "intro": "Trench Tycoon mixes idle economy with tower defense. You build a toy army fortress, spend gold on units and defenses, and hold the line against waves of plastic troops. You can also take direct control of soldiers and guns.",
+    "tips": [
+      "Build your economy first. Gold mines, farms, mills and the market pay for everything else, so a stronger income early makes later waves easier to handle.",
+      "Tap the Gold Mine to speed it up, since this is a quick way to boost your gold while you plan the next purchase.",
+      "Watch which road the reinforcements take and spend on defenses along that path, so your trenches and walls face the enemy where they actually arrive.",
+      "Clear each wave to collect bonuses and unlock new units. Use those unlocks to answer whatever type of enemy is pushing hardest, such as armoured cars or tanks.",
+      "When a wave breaks through near the front, take command of a gun or soldier with Lead to fight directly. Use H to hold a position or G to make soldiers follow you."
+    ],
+    "faq": [
+      [
+        "What is the goal of Trench Tycoon?",
+        "Hold the line against waves that cross no-man's land toward your forward trench, front-line trench and wall. Keep clearing waves to push as far as your fort can go."
+      ],
+      [
+        "How do I earn gold?",
+        "Economy buildings earn gold over time, including the Gold Mine, farms, mills and the market. Tapping the Gold Mine speeds it up."
+      ]
+    ]
+  },
+  "shadow-forge": {
+    "intro": "Shadow Forge mixes tower defense with action RPG combat. You build towers, fight alongside the Forge Master, and hold back shadow creatures before they reach the Forge.",
+    "tips": [
+      "Place towers along the path early, then spend your gold on upgrades for the ones that cover the most ground rather than spreading thin.",
+      "Keep your Forge Master moving and near the enemy path so you can deal with leaking creatures while your towers handle the main group.",
+      "Starting a wave early gives bonus gold, but only do it when your current defenses are holding comfortably so the extra enemies don't overwhelm you.",
+      "Save your skill casts for dangerous moments, such as a boss or a large cluster of enemies, instead of using them the moment they come off cooldown.",
+      "Pay attention to your level-ups and pick the boons that support your current build, since a focused set of boons usually helps more than a random mix."
+    ],
+    "faq": [
+      [
+        "How do I win a level?",
+        "You need to stop the shadow creatures from reaching the Forge while you get through the waves on each map. Keep an eye on the path and reinforce any weak point before enemies get close."
+      ],
+      [
+        "How do I build a tower?",
+        "Click a tower first, then click an empty tile on the map to place it. You can upgrade towers afterward using the gold you earn."
+      ]
+    ]
+  },
+  "obby-1-roll-ice-cream": {
+    "intro": "Obby +1 Roll Ice Cream is a multiplayer obby where you push a growing ice cream roll across fields and down the Sweet Road. Your roll gets bigger as you cover fresh tiles, and you sell it to buyers for cash.",
+    "tips": [
+      "Walk over the ice cream field before heading north, since your roll only grows from fresh tiles you cover.",
+      "Think about when to sell: the deeper a buyer catches you on the Sweet Road, the more cash they pay, so pushing further can be worth it.",
+      "Watch the short video option only when you plan to keep running, because declining the sale is how you chase a better price.",
+      "Use the booster pads near the spawn early on, since they give x2 Speed or x2 Ice Cream for a short video.",
+      "Save your cash for the shops, and remember you press E there to buy scoops, flavors and pets, then return to the road with better gear."
+    ],
+    "faq": [
+      [
+        "How do I earn more cash for my roll?",
+        "Keep running down the Sweet Road after a buyer catches you, since the deeper they catch you the more they pay. Press E to sell when the price feels right."
+      ],
+      [
+        "What do I do when a buyer catches me?",
+        "Press E to sell your roll right away, or watch a short video to decline the sale and run deeper for a better price."
+      ]
+    ]
+  },
+  "obby-swim-for-egg": {
+    "intro": "Obby Swim for Egg is a 3D obstacle adventure set in a flooded aquarium. Swim through biomes, steal eggs from guarded nests, carry them home, and hatch them on your farm while earning money.",
+    "tips": [
+      "Before you go for an egg, look at the boss guarding it and plan your route back, since you have to carry the egg past the boss to get home.",
+      "Spend your early earnings on upgrades and treadmills first, so you can move through the water faster on later trips.",
+      "Only swim deeper into a rarer biome once you can handle the trip back, because losing a run is more costly the farther you go.",
+      "Use the Swim and Luck boosts from the video stands at spawn when you are about to start a long run or a risky egg steal.",
+      "Check your Codex regularly to see which creatures you have not filled in yet, and aim your next trips at those biomes."
+    ],
+    "faq": [
+      [
+        "How do I steal an egg?",
+        "Get close to the nest and press E while guarded eggs are within reach. Then carry the egg back toward your farm."
+      ],
+      [
+        "How do I move and swim?",
+        "Use WASD to move and the mouse to look around. Press Space to swim up and Shift to swim down."
+      ]
+    ]
+  },
+  "strykio": {
+    "intro": "STRYKIO is a fast 1-on-1 arcade football game with changing arena rules. Score more goals than your opponent before time runs out, and use the different shots to outplay them.",
+    "tips": [
+      "Use Training first to get a feel for the timing of shots and lobs before you move on to harder AI matches.",
+      "Pick an AI difficulty that lets you win some matches but still challenges you, then raise it as your timing improves.",
+      "Save your Ultimate for a clear moment: press E to prepare the charged shot, and time it so the opponent cannot easily block it.",
+      "Double-tap shoot when you are close to goal for a hard shot, and use a low shot when the opponent is standing in your path.",
+      "Watch how moon gravity and the icy pitch change the ball's movement, and adjust your jumps and touches to match each arena rule."
+    ],
+    "faq": [
+      [
+        "How do I win a match?",
+        "You win by scoring more goals than your opponent before time runs out. Tied competitive matches may go to extra time or a Golden Goal, depending on the mode."
+      ],
+      [
+        "What is the difference between a shot and a lob?",
+        "Shoot with Space or J for a standard shot, and use F to lob the ball over your opponent. A low shot is made with K."
+      ]
+    ]
+  },
+  "the-pyramid-adventure": {
+    "intro": "The Pyramid Adventure is a two-player co-op adventure through historical pyramids. Work with your partner to collect diamonds, solve puzzles, and get through 20 levels.",
+    "tips": [
+      "Learn both control sets before you start, since each player uses a different key layout and you will need to act together.",
+      "Switch weapons with Q as Player 1 when you face different monsters or traps, so you are not stuck with one option.",
+      "Keep your partner in view and move as a pair, because puzzles and locked doors are easier to handle when both players are close.",
+      "Try each puzzle carefully before rushing ahead, and look at what the sculptures and doors need before you act.",
+      "Use Player 2's grenade on L when several enemies or traps are grouped together, saving it for tougher moments."
+    ],
+    "faq": [
+      [
+        "How many levels do I need to complete?",
+        "You need to pass a total of 20 levels to get out of the pyramid."
+      ],
+      [
+        "Can I play this game alone?",
+        "The game is described as a two-player adventure, so it is played with a partner who controls Player 2 while you control Player 1."
+      ]
+    ]
+  },
+  "picky-parking": {
+    "intro": "Picky Parking is a logic puzzle where you guide toy cars into a parking layout using limited fuel. Each car must sit alone in its row and column, and no two cars can touch.",
+    "tips": [
+      "Before moving anything, check which rows and columns still lack a car. Filling the gaps that have only one possible spot is often the fastest way to make progress.",
+      "Think about fuel early. Plan each car's route so it ends where you want it with its fuel used up, rather than wandering and having to backtrack.",
+      "Watch the corners and diagonals. Two cars that look fine side by side can still break the rules when they touch diagonally.",
+      "Use Undo (Z) freely to test an idea. If a move leaves you stuck, rolling back is cheaper than restarting the whole puzzle.",
+      "Save hints for when you are truly stuck. Try a few more moves on your own first, since working out the reasoning is what makes the lessons stick."
+    ],
+    "faq": [
+      [
+        "How do I move a car?",
+        "Drag a car to a square it can reach, or click or tap the car and then its destination. Each square it travels uses one unit of fuel."
+      ],
+      [
+        "What counts as solving a puzzle?",
+        "You need to use all of the cars' fuel, leave exactly one car in every row and column, and keep every car apart, including diagonally. Locked cars cannot be moved."
+      ]
+    ]
+  },
+  "truck-parking-trailer-challenge": {
+    "intro": "Truck Parking: Trailer Challenge is a driving game about precise reversing and parking. Connect your trailer to the hitch, guide it into the green bay, and hold still until the countdown ends.",
+    "tips": [
+      "Reverse slowly when connecting the trailer. Small steering adjustments are easier to correct than large ones, so ease the hitch into place.",
+      "Before you start reversing, check the camera views. Switching angles helps you judge tight turns and how the trailer is swinging.",
+      "Slow down as you approach the green bay. Speed makes it harder to stop inside the marked area, and braking late often causes overshoot.",
+      "Line up the truck and trailer before the final approach so you are not correcting at the last moment. Keep an eye on the timer, but do not rush the final position.",
+      "Once you are inside the bay, release the controls and hold still. Moving during the countdown can reset your progress, so stay steady until it finishes."
+    ],
+    "faq": [
+      [
+        "What is the main goal of each level?",
+        "Follow the route, connect the trailer if the level requires it, park in the green bay, and hold still until the countdown finishes. You must do this before the timer runs out."
+      ],
+      [
+        "How do I avoid losing a level?",
+        "Keep collisions low, since too many can cause you to fail. Move slowly near obstacles and the trailer, and check your camera views before each reverse."
+      ]
+    ]
+  },
+  "obby-keyboard-run-1-speed": {
+    "intro": "Obby: Keyboard Run +1 Speed is a 3D obstacle course game where you run and jump across giant keyboard keys. Build speed, reach each trophy, and use your wins to unlock upgrades.",
+    "tips": [
+      "Keep moving forward between jumps, since speed builds up with every step and a faster run helps you clear longer gaps.",
+      "Use the right mouse button to look ahead before each jump so you can line up your landing on the next key.",
+      "Take your time in the early courses and learn the rhythm of each jump before you rush, because a missed jump sends you back.",
+      "Collect wins as you go and spend them on upgrades when you can, since they are what help you progress further.",
+      "Explore both worlds at your own pace, and return to earlier courses if a later one feels too hard for your current upgrades."
+    ],
+    "faq": [
+      [
+        "What is the goal of the game?",
+        "Your goal is to run and jump across each obstacle course and reach the trophy at the end. Along the way, you collect wins and use upgrades to move further."
+      ],
+      [
+        "How do I control my character?",
+        "Use WASD to move, Space to jump, and hold the right mouse button to look around. Your progress is saved, so you can pick up where you left off."
+      ]
+    ]
+  },
+  "cannon-blast-3d": {
+    "intro": "Cannon Blast 3D is a physics puzzle where you aim a cannon at structures and clear every target before your shots run out. Each level can be solved in more than one way.",
+    "tips": [
+      "Study the whole structure before firing and look for the weakest point, such as a support that holds up many blocks.",
+      "Plan your shot so one impact breaks a support, since removing a key piece can bring down several targets at once.",
+      "Use TNT placed close to clusters of targets, because explosions can destroy several objects in one shot.",
+      "Watch how the first hit moves the structure, then adjust your aim for the next shot rather than repeating the same angle.",
+      "Keep your remaining shots in mind and pick the target that clears the most objects, especially on levels with moving platforms or portals."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "Destroy all the required objects in the structure before you run out of shots. Once every target is cleared, you move on to the next challenge."
+      ],
+      [
+        "How do I aim and fire the cannon?",
+        "Aim the cannon at the target you want to hit and fire. Use the controls shown in the game to set your direction before each shot."
+      ]
+    ]
+  },
+  "single-dad-simulator-family-life": {
+    "intro": "Single Dad Simulator Family Life puts you in charge of a single father's daily routine, from parenting and housework to work tasks and family outings. You can follow story missions, drive around a 3D city, or simply spend time with your kids.",
+    "tips": [
+      "Start with Career Mode if you want a guided path, since it adds story-based missions on top of your daily responsibilities.",
+      "Use Free Mode to learn the controls and get a feel for the city before you take on driving missions with your kids in the car.",
+      "Keep an eye on your household tasks, such as meals, cleaning, and groceries, so they don't pile up while you work on missions.",
+      "Press I to check the in-game info whenever you forget a control, and use P to pause if you need a moment to plan your next move.",
+      "If you get stuck on a level, the N key skips it so you can keep moving through the game."
+    ],
+    "faq": [
+      [
+        "What is the main goal of the game?",
+        "You balance work and family life as a single dad, completing missions and daily tasks while looking after your children."
+      ],
+      [
+        "Which keys move my character around?",
+        "Use W, A, S, and D to move, Shift to sprint, and the mouse to move the camera. On mobile, use the joystick to move and drag the screen to rotate the camera."
+      ]
+    ]
+  },
+  "terrablox": {
+    "intro": "TerraBlox is a pixel sandbox about survival and mining in procedurally generated worlds. Dig for ore, craft gear, build a home, and defeat the bosses of each biome.",
+    "tips": [
+      "Mine ore early and smelt it into bars so you can craft better tools and weapons before you venture into deeper, more dangerous areas.",
+      "Build a shelter before night, since monsters come out after dark. Fill your house with residents once it is ready.",
+      "Pick one fighting style, such as sword, bow, or magic, and focus your crafting on gear for it so your upgrades stay useful.",
+      "Place torches with Shift as you dig tunnels so you can see where you are going and where monsters might approach.",
+      "Check the map with Tab often so you can remember where you found ore and where the biome bosses are waiting."
+    ],
+    "faq": [
+      [
+        "How do I win TerraBlox?",
+        "Defeat the bosses of every biome, including the final boss deep below, to unlock the finale."
+      ],
+      [
+        "How do I open my inventory and crafting menu?",
+        "Press E on desktop, or use the on-screen button on a phone. Use the mouse wheel or keys 1-0 to choose hotbar slots."
+      ]
+    ]
+  },
+  "orbit-shift": {
+    "intro": "Orbit Shift is a one-tap arcade game where you switch between two rings to dodge comets, shooting stars, and meteors. Each run starts from zero, and your survival time is your score.",
+    "tips": [
+      "Watch the spawn point at the top of the rings and decide which ring will be clear before the hazards reach your ship, not after.",
+      "Treat the red flare as a backup signal. If you find yourself reacting to it often, slow down your reading of the pattern and switch earlier.",
+      "Collect crystals when the path is clear, but skip any that sit in a tight gap between obstacles. A missed timing costs more than a missed crystal.",
+      "Use your shield wisely. Once active, it absorbs one hit, so avoid switching into risky spots just because you have it.",
+      "Expect the surge at the end of each stage to be the hardest part. Stay calm, keep your switches small and deliberate, and do not chase every gap."
+    ],
+    "faq": [
+      [
+        "What is the goal of Orbit Shift?",
+        "Survive as long as you can by dodging obstacles on the two rings. Your survival time is your score, and you try to beat your personal best."
+      ],
+      [
+        "How do I control my ship?",
+        "Tap, click, or press Space to switch instantly between the inner and outer rings. There is no cooldown or delay, so each switch takes effect right away."
+      ]
+    ]
+  },
+  "mini-games-brainy-prank": {
+    "intro": "Mini Games Brainy Prank is a casual puzzle collection with cartoon graphics and a mix of tricky challenges. Each task is played by clicking and dragging.",
+    "tips": [
+      "Read each challenge fully before you start dragging, since the prank-style puzzles often hide a twist in the wording or the setup.",
+      "Try a few different approaches on a puzzle instead of repeating the same move, because the solution may depend on an unexpected idea.",
+      "Explore the different themed levels in any order that feels fun, and come back to a tough puzzle later with fresh eyes.",
+      "Pay attention to small visual details on the screen, as they can point to the right answer in brain-teasing tasks.",
+      "Keep your drags slow and deliberate when placing items, so you can see exactly where each piece lands before you commit."
+    ],
+    "faq": [
+      [
+        "What is the goal of Mini Games Brainy Prank?",
+        "The goal is to solve the clever problems and challenges across the different themed levels. Each puzzle has its own task to complete."
+      ],
+      [
+        "How do I control the game?",
+        "You use click and drag controls. Click the Play button to start, then click and drag to interact with the puzzles."
+      ]
+    ]
+  },
+  "zoo-elephant-simulator-city-attack": {
+    "intro": "Zoo Elephant Simulator City Attack puts you in the role of a wild elephant moving through forests and cities. You can raise your elephant family, fight predators, and finish missions across three modes.",
+    "tips": [
+      "Learn the attack and sprint keys early, since you will need to close distance on predators and then escape quickly.",
+      "Use the camera to scan the area before moving in, so you can spot predators or mission targets before they reach you.",
+      "Try Jungle mode first to get comfortable with movement and combat before moving to the more crowded City mode.",
+      "Use Free Mode to practice moving, rotating the camera, and attacking without the pressure of a mission timer or objective.",
+      "Check the pause menu with P when you need a moment to review your surroundings or the controls, rather than rushing through the screen."
+    ],
+    "faq": [
+      [
+        "What is the main goal of the game?",
+        "The game is built around exploring forests and cities, raising your elephant family, battling predators, and completing action-packed missions. Missions are the main structured objective in the game."
+      ],
+      [
+        "Which keys control the elephant?",
+        "Use W, A, S, and D to move, and the mouse to move the camera. E is used to attack, Shift to sprint, and F for actions, while P pauses the game."
+      ]
+    ]
+  },
+  "hide-and-seek-transform-props": {
+    "intro": "Hide and Seek: Transform Props is a 3D action game where you pick a side as a Hider or a Hunter. Hiders disguise themselves as objects, while Hunters search the level for players hiding among the props.",
+    "tips": [
+      "As a Hider, pick a spot that matches the objects around it, since a prop that looks out of place is easy to spot.",
+      "Use your time early on to move to a new hiding spot, because once the timer ends you can no longer move.",
+      "As a Hunter, check the level slowly and look for objects that seem out of place or do not match their surroundings.",
+      "Scan corners, edges, and spots where a prop might be unusual, instead of only looking at the middle of the room.",
+      "Keep an eye on the timer so you know how much time you have left to either stay hidden or finish your search."
+    ],
+    "faq": [
+      [
+        "What is the goal as a Hider?",
+        "Transform into an object and find a clever hiding spot before the timer runs out so the Hunter cannot catch you."
+      ],
+      [
+        "What is the goal as a Hunter?",
+        "Search the level for suspicious objects and catch all disguised players before the round ends."
+      ]
+    ]
+  },
+  "star-rank-heroes": {
+    "intro": "Star Rank Heroes is a 3D anime-style clicker adventure where you defeat enemies, earn Yen, and build a squad of companions. Move through eight worlds, defend the crystal, and climb from rookie to Stellar.",
+    "tips": [
+      "Turn on auto-click early so you can focus on moving around the map and positioning yourself against groups of enemies.",
+      "Spend Yen on summoning and equipping stronger companions before you spend it on upgrades, since your squad does much of the damage over time.",
+      "Use Q to dash out of crowded fights or to reach a World Star quickly, then press E or R there to summon.",
+      "Check the quests often, because completing them is a steady way to keep progressing alongside your fights.",
+      "Before entering a new world, make sure your squad is strong enough, since the tougher enemies there will be harder to clear."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Star Rank Heroes?",
+        "Defeat enemies, grow your companion squad, unlock worlds, and climb the ranks until you reach Stellar and fill your Index."
+      ],
+      [
+        "How do I earn Yen and what do I use it for?",
+        "You earn Yen by defeating enemies. Use it to summon and equip stronger companions and to upgrade your power."
+      ]
+    ]
+  },
+  "extreme-car-parking-3d": {
+    "intro": "Extreme Car Parking 3D asks you to drive over narrow elevated platforms and steep ramps, then stop fully inside a marked parking zone without falling off the track. Precision and slow, controlled driving matter more than speed.",
+    "tips": [
+      "Drive slowly across narrow platforms, since a small steering overcorrection can send the car off the edge.",
+      "Approach each ramp straight on rather than at an angle, so the car climbs evenly and is less likely to tip or slide.",
+      "Keep a steady pace over obstacles and only press the brake when you need to stop, rather than braking mid-climb.",
+      "Before you reach the parking zone, line up the car's position so you can stop with the whole vehicle inside the markings.",
+      "Take each obstacle one at a time and check your position after every section, so a mistake does not carry into the next one."
+    ],
+    "faq": [
+      [
+        "What is the goal of Extreme Car Parking 3D?",
+        "Drive through each elevated obstacle course, avoid barriers, and stop fully inside the marked parking zone without falling from the track."
+      ],
+      [
+        "How do I steer and brake?",
+        "Use WASD or the Arrow keys to drive and steer, and press Space to brake."
+      ]
+    ]
+  },
+  "garden-clicker": {
+    "intro": "Garden Clicker is a watering and management game where you tap a bunny gardener's watering can to grow crops, sell ripe harvests for gold, and expand from a backyard into a garden among the stars.",
+    "tips": [
+      "Choose what to plant with care, since better plants pay more and three of the same plant in a row pays extra.",
+      "Try to fill a row with one plant, which gives a bonus and can grow giant crops.",
+      "Keep an eye on the weather, because it changes by itself and can mutate your crops.",
+      "Tap quickly in bursts to call a downpour, which triples your harvest.",
+      "Fill customer orders when you can for extra gold to spend on upgrades and new gardens."
+    ],
+    "faq": [
+      [
+        "How do I make the downpour happen?",
+        "Tap the garden fast to call a downpour, which triples your harvest while it lasts."
+      ],
+      [
+        "What does the watering can do?",
+        "Every tap is a splash from the watering can, and crops swell on every bush at once."
+      ]
+    ]
+  },
+  "deepstone-idle-miner-clicker": {
+    "intro": "Deepstone is an idle mining clicker where you mine blocks, collect ores, and build a larger mine over time. Your progress saves automatically, so you can return whenever you like.",
+    "tips": [
+      "Spend your resources on helpers early, since they keep mining for you while you are away from the screen.",
+      "Balance pickaxe upgrades with helpers so that your income grows steadily instead of spending everything on one option.",
+      "Check the menu for the hold-to-mine setting if repeated clicking becomes tiring during longer sessions.",
+      "Look at the achievements list now and then to see which goals you are close to, and use them to guide your next purchases.",
+      "Use the biome button to revisit earlier areas after unlocking new ones, and compare how your income changes between them."
+    ],
+    "faq": [
+      [
+        "Is there a final goal or ending in Deepstone?",
+        "There is no final victory screen. Most players focus on increasing their income and improving their score on the leaderboard."
+      ],
+      [
+        "Can I mine with the keyboard?",
+        "Yes. On desktop, press Space while the mining area is focused to mine, or click the block with the left mouse button."
+      ]
+    ]
+  },
+  "maze-maker": {
+    "intro": "Maze Maker is a relaxing idle puzzle game where you build a maze, connect blocks, and watch a ball travel through it. Your interactions earn money that you use to expand and improve your setup.",
+    "tips": [
+      "Tap or click often early on, since each interaction earns money you can spend on new balls, maze elements, and upgrades.",
+      "Watch how the ball moves through your maze after each change, so you can see which connections help it travel smoothly.",
+      "Spend your first earnings carefully and compare what each option adds before choosing between new balls, elements, and upgrades.",
+      "Check your income after buying an upgrade to confirm it is working, then keep building on the parts that pay off.",
+      "Come back to the game regularly, because the idle gameplay keeps progressing while you watch and expanding your base steadily adds up."
+    ],
+    "faq": [
+      [
+        "How do I earn money in Maze Maker?",
+        "Each interaction you make with the game earns money. Tap the screen or click the left mouse button on buttons, menus, and game elements to earn it."
+      ],
+      [
+        "What can I spend my money on?",
+        "You can spend money on new balls, maze elements, and upgrades. Upgrades are used to increase your earnings."
+      ]
+    ]
+  },
+  "city-parking-master-3d": {
+    "intro": "City Parking Master 3D is a parking challenge where you drive through city streets and stop your car fully inside a highlighted bay without crashing. Precision and patience matter more than speed.",
+    "tips": [
+      "Slow down before tight corners and cones, since hitting an obstacle is the main way to fail a parking attempt.",
+      "Use the brake with Space early, so you can stop gently instead of skidding past the bay.",
+      "Line up with the parking guides before you reach the space, then make small steering adjustments rather than sharp turns.",
+      "Check that the whole vehicle is inside the highlighted area, not just the front or back, before you stop.",
+      "Use short, controlled taps of WASD or the Arrow keys when reversing into a tight bay to keep the car steady."
+    ],
+    "faq": [
+      [
+        "What is the goal of City Parking Master 3D?",
+        "Drive through the city course and park the entire vehicle inside the highlighted bay without crashing into cones, corners or other objects."
+      ],
+      [
+        "Which keys control the car?",
+        "Use WASD or the Arrow keys to drive and steer, and press Space to brake."
+      ]
+    ]
+  },
+  "knife-run-game": {
+    "intro": "Knife Run is a fast running game where you guide your character through levels, collecting and using knives to get past obstacles. Timing your moves well is the key to reaching the finish line.",
+    "tips": [
+      "Keep your eyes on the path a few obstacles ahead so you can plan your timing before you reach them.",
+      "Collect knives whenever it is safe to do so, since you will need them to deal with the challenges later in the level.",
+      "Tap or click with a steady rhythm rather than rapidly, which makes it easier to time your movements precisely.",
+      "If you fail a level, watch closely where the obstacles appear and try the same section again with a slower, more deliberate approach.",
+      "Focus on running smoothly through each section instead of rushing, because a single mistake often sends you back."
+    ],
+    "faq": [
+      [
+        "What is the goal of Knife Run?",
+        "Your goal is to guide your character through each level, collecting and using knives, and reach the finish line."
+      ],
+      [
+        "How do I control my character?",
+        "You play with mouse clicks or taps. Use them to make your character move and act at the right moment."
+      ]
+    ]
+  },
+  "dog-runaway": {
+    "intro": "You have slipped the leash and your owner is already running. Sprint through six worlds, complete missions, and stay free as long as you can.",
+    "tips": [
+      "Keep moving. The description says not to stop, so use short bursts of running and avoid standing still near your owner.",
+      "Each world has its own rules, so read the goal before you start. Try the peaceful walk world if you want to learn the controls without being chased.",
+      "Try different dogs. Each one runs and turns differently, so pick the one whose handling suits the mission you are working on.",
+      "When you need to jam the chase, hold Space to drop a poop at the right moment, since this is one of the few ways to stop pursuit.",
+      "Skim past your owner closely to earn bonus treats, but keep enough distance that a mistake does not end your run."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Dog Runaway?",
+        "You run from your owner through six worlds and complete missions such as finding the hidden bone, watering flowers, and nosing a ball into the blue ring. Staying free is the core challenge."
+      ],
+      [
+        "How do I control the dog on desktop?",
+        "Use the arrow keys or WASD to run, or left click to run to a specific spot. Hold Space to pee on a flower or drop a poop, and press P or Escape to pause."
+      ]
+    ]
+  },
+  "jelly-pop-defense": {
+    "intro": "Jelly Pop Defense is a tower defense game where cats guard their home from waves of bouncy jellies. Place cats beside the track, upgrade them, and stop every jelly before it reaches the end.",
+    "tips": [
+      "Popping a jelly releases the layer inside it, so place cats where they can keep hitting jellies along a long stretch of the track rather than only at the start.",
+      "Upgrade each cat along its two paths instead of spreading coins thinly, and pick the path that suits the jellies you face most often.",
+      "Place partner cats side by side to unlock duo powers, so plan your layout around pairs that sit next to each other.",
+      "Every few rounds you choose one of three toys, so read each option carefully and pick the one that fits the cats you already have.",
+      "Watch how the giant bosses change tactics as they take damage, and adjust your target settings and abilities when their behaviour shifts."
+    ],
+    "faq": [
+      [
+        "What is the goal of Jelly Pop Defense?",
+        "Stop the waves of jellies from reaching the end of the track. You lose lives when they get through, and you win by surviving every round."
+      ],
+      [
+        "How do I earn coins to buy cats and upgrades?",
+        "Popping jellies earns coins. Spend them on new cats or on upgrades for the cats you have already placed."
+      ]
+    ]
+  },
+  "royal-smash-puzzle-game": {
+    "intro": "Royal Smash Puzzle Game is a block puzzle where you match, smash, and combine colorful pieces to clear the board. Levels grow harder as you progress, so planning each move matters.",
+    "tips": [
+      "Look at the whole board before your first move and note which colors appear most often, so you can plan a sequence instead of reacting to each piece.",
+      "Think a move or two ahead. Clearing one group may leave pieces in awkward spots, so choose moves that set up the next clear.",
+      "Use the mouse to press buttons deliberately rather than clicking quickly, which helps you avoid mistakes on tight boards.",
+      "Early levels are a good place to test how pieces combine. Once you understand the patterns, apply the same approach to harder levels.",
+      "If a level feels stuck, step back and reassess the board. Focus on the objective listed for that level and work toward it directly."
+    ],
+    "faq": [
+      [
+        "What is the goal of Royal Smash Puzzle Game?",
+        "Your goal is to match, smash, and combine colorful pieces to complete each level's objectives and clear the puzzle board."
+      ],
+      [
+        "How do I control the game?",
+        "Use your mouse to click any button in the game. The controls are simple, so most of your attention can go to planning moves."
+      ]
+    ]
+  },
+  "ant-picnic": {
+    "intro": "Ant Picnic is a mosaic puzzle where you send ant teams from three queues to collect reachable blocks of their own color. Plan ahead so your five slots don't fill with stuck teams.",
+    "tips": [
+      "Before sending a team, check which blocks of that color can actually be reached, since a color with no reachable blocks will leave your ants waiting.",
+      "Keep an eye on the five slots and avoid filling them with teams that are blocked. When all five are full, stop and rethink your plan.",
+      "Look at all three front queue cards before each move, and choose the one that opens up the most useful path rather than the first one you see.",
+      "Use the opening lessons to learn how teams and blocks interact before moving on to harder chapters.",
+      "If a puzzle stalls, step back and try a different order of teams. Changing your plan is often quicker than forcing a blocked one."
+    ],
+    "faq": [
+      [
+        "How do I send an ant team?",
+        "Click or tap a front queue card, or press keys 1, 2 or 3 on a desktop to choose the matching queue."
+      ],
+      [
+        "What makes the puzzle fail?",
+        "The level is lost if all five slots fill up with blocked teams, so you need to keep room open for teams that can still move."
+      ]
+    ]
+  },
+  "fruitbattle": {
+    "intro": "FruitBattle is a fast-paced shooting game with a large number of levels and dozens of bullets. It is easy to pick up, and each battle is short enough to fit into a quick break.",
+    "tips": [
+      "Click the turret to launch and get a feel for the timing before you try to clear a level.",
+      "Since each battle is fast-paced, keep your focus on the screen from the first moment rather than waiting for the action to slow down.",
+      "With dozens of bullets to choose from, try different ones over several levels to see which suit your style.",
+      "Use short sessions to enjoy the game in small pieces, since each battle works well between other tasks.",
+      "Take a short pause if you notice your clicks becoming rushed, as steady play tends to give better results."
+    ],
+    "faq": [
+      [
+        "How do I start playing FruitBattle?",
+        "Click on the turret to launch and begin the battle."
+      ],
+      [
+        "Do I need to learn complicated controls?",
+        "No. The game is designed to be easy to operate, so most players can quickly learn the core gameplay."
+      ]
+    ]
+  },
+  "upgrade-the-cars": {
+    "intro": "Upgrade the CARS is a 3D driving game where you steer through gates that either boost or weaken your car. Build the strongest ride you can before reaching the end of the track.",
+    "tips": [
+      "Aim for the green plus gates and steer around the red minus gates, since every gate changes your engine, body and speed.",
+      "Plan your route a few gates ahead so you can line up for upgrades instead of reacting at the last second.",
+      "Keep an eye on your car's stats as you go, and if a minus gate is unavoidable, try to balance it with plus gates after it.",
+      "Collect the money on each lap, because your earnings are what you spend on new parking spots, cars and paint in the texture shop.",
+      "Once you have a strong build, cash it in and use the earnings to unlock fresh cars so each run starts from a better position."
+    ],
+    "faq": [
+      [
+        "What is the goal of Upgrade the CARS?",
+        "Reach the end of the track with the strongest car you can build, then cash it in for earnings."
+      ],
+      [
+        "How do I steer my car?",
+        "Drag with the mouse or swipe on touch to steer left and right."
+      ]
+    ]
+  },
+  "us-truck-game": {
+    "intro": "US Truck Game is a driving simulation where you pilot a heavy orange semi-truck pulling a large Cargo EX trailer through cities, highway interchanges and industrial areas. Steering the articulated rig is the main challenge.",
+    "tips": [
+      "Go slowly through corners at first. A long trailer swings wide, so easing off the throttle before a turn helps keep it on the road.",
+      "Watch the road signs ahead and plan your route early, especially at complex intersections where you need to change lanes or direction.",
+      "Leave extra space around other vehicles. Traffic is realistic, so braking and steering gently gives you more room to correct mistakes.",
+      "Practice tight corners and precision sections until the trailer's turning behaviour feels predictable before trying to go faster.",
+      "Use W and S (or the up and down arrows) in small taps rather than holding them, so you can keep control of the truck while steering with A and D (or the left and right arrows)."
+    ],
+    "faq": [
+      [
+        "What is the goal of US Truck Game?",
+        "The goal is to drive your semi-truck and Cargo EX trailer through urban areas, highway interchanges and intersections while handling turns, following road signs and managing traffic. The game is built around precision driving."
+      ],
+      [
+        "What are the controls?",
+        "Use W, A, S, D or the Arrow Keys to drive and steer. W or Up moves forward and S or Down moves back, while A and D or the Left and Right arrows turn the truck."
+      ]
+    ]
+  },
+  "car-stunt-master-3d": {
+    "intro": "Car Stunt Master 3D is a 3D racing game where you drive a sports car over sky-high stunt tracks with ramps, loops and narrow platforms. Your goal is to reach the finish line without falling off the course.",
+    "tips": [
+      "Match your speed to the ramp ahead: approach jumps with enough momentum to clear the gap, but not so fast that the car flies past the landing.",
+      "Use the handbrake with Space before tight turns or narrow sections to keep the car steady on the platform.",
+      "Watch the course a few seconds ahead so you can line up for the next ramp or loop before you reach it.",
+      "Keep your steering gentle while in the air, since small adjustments help the car land level on the next surface.",
+      "If a jump or loop is hard, slow down and take it carefully; a clean run to the finish matters more than speed."
+    ],
+    "faq": [
+      [
+        "What is the goal of Car Stunt Master 3D?",
+        "The goal is to drive across the stunt track, perform jumps and loops, and reach the finish line without falling."
+      ],
+      [
+        "How do I control the car?",
+        "Use WASD or the Arrow keys to drive and steer, and press Space to use the handbrake."
+      ]
+    ]
+  },
+  "microgic-89": {
+    "intro": "Microgic 89 is a retro tile puzzle where you play BYTE, a courier collecting data chips on a 1980s microchip. Clear each board before the timer runs out.",
+    "tips": [
+      "Plan your route before you move, especially on ice, because you keep sliding until you hit a wall. Stop your slides by lining up a wall ahead of time.",
+      "Use force floors to your advantage. Their arrows push you along a fixed direction, so check where they lead before you step on them.",
+      "Watch the timer, but do not rush into danger. Each second left adds 10 points, so a careful route that stays alive often scores better than a fast fall into water or fire.",
+      "Pick up the matching boots before crossing water or fire, and push blocks into water when you need a bridge.",
+      "Watch monster patrol routes and wait for a clear gap before crossing. Bombs destroy whatever steps on them, so do not stand where a bomb is set to go off."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "Collect every data chip on the board, step onto the socket to open it, and then reach the exit before the TIME counter hits zero."
+      ],
+      [
+        "How do I move BYTE?",
+        "On desktop, use the arrow keys or WASD, or click and drag toward where you want to go. On mobile, swipe or drag in the direction you want to move."
+      ]
+    ]
+  },
+  "duckys-colorful-life": {
+    "intro": "Duckys Colorful Life is a puzzle adventure where you guide a small duck to its precious egg. You switch colors to clear matching walls, open new paths, and avoid traps on the way.",
+    "tips": [
+      "Before you click, scan the whole level for walls and paths that share a color. Working out which color changes will clear the route saves a lot of trial and error.",
+      "Think a few moves ahead. Changing color may open a path you need later, so check where the duck will be before you switch.",
+      "Watch the traps and note how often they move or appear. Timing your steps between them is often safer than rushing through.",
+      "If you get stuck, try a different order of color switches rather than repeating the same attempt. Small changes in sequence can reveal a new route.",
+      "Use the mouse carefully and take your time, since each level depends on precise choices more than speed."
+    ],
+    "faq": [
+      [
+        "What is the goal of Duckys Colorful Life?",
+        "Your goal is to guide the duck safely to the precious egg in each level. You do this by switching colors to remove matching walls and open new paths."
+      ],
+      [
+        "How do I control the duck?",
+        "The game is played with the mouse only. Use it to make your moves and color switches as you work through each puzzle."
+      ]
+    ]
+  },
+  "leaf-blower-yards": {
+    "intro": "Leaf Blower Yards is a 2D hypercasual cleaning game where you steer a ride-on blower through autumn-covered lawns. Gather leaves into a pile and push it into the bag zone to earn coins.",
+    "tips": [
+      "Keep the pile small and moving rather than letting it grow too large, since a sprawling pile makes it harder to steer into the bag zone.",
+      "Sweep in wide, slow passes across one section of the yard before moving on, so leaves don't scatter back into areas you already cleared.",
+      "Aim the pile straight at the bag zone before you reach it, so you don't have to make sharp turns that can spill leaves.",
+      "Spend your coins on upgrades that help you collect and move leaves faster, since each bag you fill adds to your earnings.",
+      "Work through the yard in a consistent pattern, such as edge to edge, so you can see which spots are still covered and finish the lawn cleanly."
+    ],
+    "faq": [
+      [
+        "How do I move the blower?",
+        "Use the mouse or touch to drive toward your pointer, or switch to the joystick and drag anywhere on screen. The arrow keys or WASD also steer the blower."
+      ],
+      [
+        "How do I earn coins?",
+        "Every 50 leaves you push into the bag zone fills a bag and pays coins. Keep feeding the pile into the bag zone to keep earning."
+      ]
+    ]
+  },
+  "4-in-a-blow": {
+    "intro": "4 in a Blow is Connect 4 with power-ups that charge each turn. Pick Classic for the pure game, Blast for the full power-up mode, or Wakie for a timed score attack.",
+    "tips": [
+      "Save your meter for a moment that matters, such as blocking an opponent's three-in-a-row or setting up your own threat, rather than spending it as soon as it fills.",
+      "Remember that a power can never finish the game, so plan your winning move as a normal drop that lands in the right column.",
+      "Before you use a power, check which column your token would land in and whether the opponent gets an immediate winning drop next turn.",
+      "Try Classic first to learn the board and the AI's habits, then move to Blast once you are comfortable reading threats.",
+      "In Wakie, powers rotate, so watch which one is active and build your plan around it instead of relying on one favourite move."
+    ],
+    "faq": [
+      [
+        "How do I win a round?",
+        "Connect four of your tokens in a row horizontally, vertically, or diagonally. The final winning move must be a normal drop."
+      ],
+      [
+        "How do I use a power-up?",
+        "In Blast and Wakie, every turn charges your power meter. Spend the meter to block a column, swap two tokens, remove a token, or drop twice in a row."
+      ]
+    ]
+  },
+  "duck-shootingz": {
+    "intro": "Duck Shooting is a physics-based puzzle shooter where you bounce bullets off walls to hit every duck in each level. Aim with the mouse and use the environment to find the shot that clears the level.",
+    "tips": [
+      "Before you fire, trace the bullet's path off each wall in your head to see where it will land.",
+      "Start with the ducks that are easiest to reach directly, then plan ricochet shots for the harder ones.",
+      "Look for explosive barrels near ducks, since a single blast may hit more than one target.",
+      "Pay attention to switches and obstacles early in a level, as they often decide the order you should shoot in.",
+      "If a shot misses, study where the bullet went and adjust the angle slightly rather than guessing wildly."
+    ],
+    "faq": [
+      [
+        "How do I aim my shot?",
+        "Use the mouse to set the angle of your shot. Bullets bounce, so the aim should account for where they will travel after hitting walls."
+      ],
+      [
+        "What do I need to do to finish a level?",
+        "You need to hit every duck in the level. Use ricochets, explosive barrels, and switches to reach the ducks that are hard to hit directly."
+      ]
+    ]
+  },
+  "tractor-farm-farming-simulator": {
+    "intro": "Tractor Farm: Farming Simulator is a 3D adventure where you drive a tractor across countryside farms. You complete missions such as transporting farm equipment and plowing fields.",
+    "tips": [
+      "Ease off the throttle before sharp turns so the tractor stays under control. Smooth steering is easier to keep on track than fast corrections.",
+      "Use the reverse and brake control (S) early when you need to line up with a field or load. Backing up slowly is often more accurate than turning around in a wide arc.",
+      "Take each turn with a small steering input first, then adjust. Small, steady corrections help you stay on the path while carrying equipment.",
+      "Look at the whole task before you start driving. Knowing where the field edge or drop-off point is makes each mission quicker to finish.",
+      "Try a level more than once if you miss the target. Repeating a route helps you learn the tractor's turning and braking feel."
+    ],
+    "faq": [
+      [
+        "What is the main goal of the game?",
+        "Your goal is to complete farming tasks across the countryside, such as transporting farm equipment and plowing fields. Finishing each task successfully helps you improve as a tractor driver."
+      ],
+      [
+        "Which keys control the tractor?",
+        "Press W to accelerate, S to reverse or brake, A to turn left, and D to turn right. Keep these simple controls in mind when you start each mission."
+      ]
+    ]
+  },
+  "red-flow": {
+    "intro": "Red Flow is a pipe puzzle set in a Transylvanian cocktail bar. Build a path from the barrel to the glass before the red tide creeps through your pipework.",
+    "tips": [
+      "Use the few seconds of calm at the start of each level to plan the whole route from barrel to glass before placing anything.",
+      "Look at the piece queue before you commit a tile, so you know which shapes are coming and can plan a few steps ahead.",
+      "Remember that pipes with golden rivets cannot be rotated, so place a fixed piece only where its direction already fits your path.",
+      "Work around the dead stone tiles early, since they block the flow completely and can force a longer route.",
+      "Keep an eye on the red tide's progress and rotate placed pieces quickly when needed, rather than waiting until the flow has nearly reached a gap."
+    ],
+    "faq": [
+      [
+        "What is the goal of Red Flow?",
+        "Connect the barrel to the glass with a continuous pipe before the red tide travels too far along your pipework."
+      ],
+      [
+        "How do I place and turn pipe pieces?",
+        "Tap an empty tile to place the next piece from your queue, and tap a piece you have already placed to rotate it."
+      ]
+    ]
+  },
+  "bus-driving-master-3d": {
+    "intro": "Bus Driving Master 3D is a racing and driving game where you work as a bus driver, picking up passengers at city stops and delivering them safely. Routes get harder as you go, so smooth, careful driving pays off.",
+    "tips": [
+      "Use W and S for speed and braking, and A and D for steering, with small, gentle inputs so the bus stays stable at higher speeds.",
+      "Slow down before busy city stops so you can pull in and let passengers board without rushing the bus into obstacles.",
+      "Watch traffic signals and other vehicles on city streets, since the game asks you to follow traffic rules while you drive.",
+      "On highways and mountain routes, ease off the throttle before sharp curves and give yourself more space from other traffic.",
+      "Keep an eye on your route as it gets more challenging, and build the habit of braking early rather than correcting at the last second."
+    ],
+    "faq": [
+      [
+        "What controls do I use to drive the bus?",
+        "Use W A S D or the Arrow Keys. The instructions list these for driving and steering the bus."
+      ],
+      [
+        "What is the main goal of the game?",
+        "Your goal is to pick up passengers from city stops and transport them safely to their destinations while completing missions."
+      ]
+    ]
+  },
+  "1-speed-superhero-obby": {
+    "intro": "Run, jump and climb through colorful speed towers in this 3D obby. Each step raises your speed, and milestones unlock superhero powers that change how the same course plays.",
+    "tips": [
+      "Use the treadmills and speed gates early, since every speed gain raises your run and helps you climb further through the course.",
+      "Check each new power as soon as you unlock it, because wall run, water run, gravity flip and the others can open routes you could not reach before.",
+      "Press B for the Sonic Boom once it is unlocked, and keep it in mind for sections where extra distance or speed helps you get across.",
+      "Race the ghosts of other players to measure your pace against theirs and spot where you lose time on a course.",
+      "Claim daily rewards and try the daily tower each day, and consider rebirths when progress slows so your speed keeps climbing."
+    ],
+    "faq": [
+      [
+        "What is the main goal of +1 Speed Superhero Obby?",
+        "Your goal is to keep raising your speed by running the towers, using treadmills and smashing speed gates. Speed is what drives progress through the five worlds."
+      ],
+      [
+        "How do I move and jump in the game?",
+        "On desktop, use WASD or the arrow keys to run and Space to jump, with mouse drag to look around. On mobile, use the left stick to run, the jump button to jump and drag on the right side to look."
+      ]
+    ]
+  },
+  "cycle-racing-game": {
+    "intro": "Cycle Racing Game is a first-person mountain bike race up steep, rugged trails. You compete against skilled rivals on uphill tracks through forests, rocky slopes, and alpine scenery.",
+    "tips": [
+      "Use small left and right movements with A/D or the arrow keys to stay on the line you need, since big swerves cost ground on steep climbs.",
+      "Watch the trail a few bends ahead rather than just the bike, so you can position yourself before a rocky patch or a tight turn.",
+      "Pace your effort across the whole climb. Pushing hardest at the start can leave you with less endurance for the steepest sections near the top.",
+      "Keep your balance in mind on rough terrain. Staying steady matters more than chasing a perfect line through every rock.",
+      "Study how your rivals take the corners, and try to overtake them at points where the trail gives you a clear path."
+    ],
+    "faq": [
+      [
+        "What is the goal of Cycle Racing Game?",
+        "The goal is to outpace your rivals and finish the uphill race ahead of them. Each track is a steep climb over rugged mountain trails."
+      ],
+      [
+        "How do I steer the bike?",
+        "Press A or the Left Arrow key to move left, and D or the Right Arrow key to move right."
+      ]
+    ]
+  },
+  "cube-match-logic": {
+    "intro": "Cube Match Logic is a puzzle game about observing cube designs, finding matching features, and completing collection tasks across several modes. You play by clicking and sliding.",
+    "tips": [
+      "Before you slide anything, look at the whole board and note which cube designs share a feature, such as a color or pattern.",
+      "Compare cubes one feature at a time so you don't miss a small difference that breaks a match.",
+      "Read the collection task at the start of each round so you know what you are building toward before you move.",
+      "Make small, deliberate slides and check the result after each one, since a single wrong move can undo progress on a match.",
+      "Try each mode to see which style of thinking suits you, then return to the one that feels most challenging."
+    ],
+    "faq": [
+      [
+        "How do I move the cubes?",
+        "Click a cube and slide it to the place you want it. The game is controlled entirely by clicking and sliding."
+      ],
+      [
+        "How do I know if cubes match?",
+        "Look for shared features in the cube designs, such as matching colors or shapes. Check each feature separately so you can confirm the match with confidence."
+      ]
+    ]
+  },
+  "collisiox": {
+    "intro": "CollisioX is a 3D puzzle game about swiping to slide every ball at once and merging balls of matching color. Each level is a logic challenge that rewards careful planning before you move.",
+    "tips": [
+      "Before each swipe, check where every ball will end up, since all balls move in the same direction at the same time.",
+      "Look for paths where two matching colors can be pushed into each other, and plan those merges first.",
+      "Avoid moves that send a ball into a corner or a spot where it blocks the path of a matching ball you still need to merge.",
+      "If a layout looks stuck, try a move that clears space in one direction, then reassess the board from the new positions.",
+      "Take your time on the early levels to notice how obstacles stop the balls, because that behavior is the key to solving harder puzzles."
+    ],
+    "faq": [
+      [
+        "What is the goal of CollisioX?",
+        "Your goal is to merge all balls of matching colors on each level by swiping to move them. Solving the layout completes the level."
+      ],
+      [
+        "How do I move the balls?",
+        "Use the mouse to swipe in a direction. All balls slide that way until they hit an obstacle or another ball."
+      ]
+    ]
+  },
+  "city-car-driving-game": {
+    "intro": "City Car Driving Game is a 3D driving game set on city roads. You steer a car through busy traffic, avoid obstacles, and work through driving challenges using simple arrow-key controls.",
+    "tips": [
+      "Start by driving slowly and using the arrow keys gently, so you can get a feel for how the car responds before you move into busier traffic.",
+      "Keep your eyes looking ahead rather than only on the car, so you spot obstacles and other vehicles early enough to steer around them.",
+      "Make small, steady steering adjustments instead of sharp turns, since smooth control helps you stay on the road in crowded areas.",
+      "Use the reverse control (Arrow Down) sparingly and only when you have room behind you, so you don't end up in a worse position.",
+      "Take each driving challenge one at a time and repeat it until your control feels consistent, since the game rewards careful driving over speed."
+    ],
+    "faq": [
+      [
+        "What is the goal of City Car Driving Game?",
+        "The goal is to drive through city streets, avoid obstacles, and complete the different driving challenges while keeping control of your car."
+      ],
+      [
+        "How do I control the car?",
+        "Use the Arrow Up key to move forward, Arrow Down to move back, and Arrow Left and Arrow Right to steer left and right."
+      ]
+    ]
+  },
+  "bolts-and-nuts-online": {
+    "intro": "Bolts and Nuts Online is a puzzle game where you remove, arrange, and manage bolts and nuts to solve mechanical challenges. Each level gets harder as you go.",
+    "tips": [
+      "Study the whole level before your first click, and look for which pieces block others.",
+      "Plan two or three moves ahead instead of clicking on impulse, since some moves can make later steps harder.",
+      "If you get stuck, try undoing your thinking by working backward from the goal state to find the order you need.",
+      "Clear the pieces that are easiest to reach first so the board opens up and gives you more options.",
+      "Take a short break when a level stops making progress, then come back and look at it with fresh eyes."
+    ],
+    "faq": [
+      [
+        "What is the goal of Bolts and Nuts Online?",
+        "Your goal is to complete each level by removing, arranging, and managing the bolts and nuts using logic and careful planning. Each new level presents a harder challenge."
+      ],
+      [
+        "How do I control the game?",
+        "The game uses mouse clicks only, so you select the pieces you want to act on with a click. The controls are simple, so most of your effort goes into planning."
+      ]
+    ]
+  },
+  "elden-ring-beat-em-up": {
+    "intro": "Elden Ring: Beat Em Up is a fantasy beat em up played across five illustrated chapters. It mixes sword combos, dodging and glintstone magic in a fight-focused arcade style.",
+    "tips": [
+      "Learn the rhythm of your sword combos first, then use them in sequence rather than mashing clicks.",
+      "Use dodge to avoid incoming attacks, since reacting to enemy moves is safer than blocking every hit.",
+      "Save glintstone magic for moments when you need distance or a burst of damage instead of spending it constantly.",
+      "Take each of the five chapters one at a time and notice how enemy behaviour changes as you progress.",
+      "Keep your clicks or taps steady and deliberate, because the game is controlled with mouse click or tap only."
+    ],
+    "faq": [
+      [
+        "What is the goal of Elden Ring: Beat Em Up?",
+        "You fight your way through five illustrated fantasy chapters using swords, dodges and glintstone magic. Progress by defeating enemies as you move forward."
+      ],
+      [
+        "How do I control the character?",
+        "The game is played entirely with mouse clicks or taps. Click or tap to attack, dodge and cast magic as the game prompts."
+      ]
+    ]
+  },
+  "wobble-it": {
+    "intro": "WOBBLE IT is a 3D rolling-ball puzzle platformer where you guide a beach ball across floating block worlds. Collect every key, then reach the exit before the hourglass runs out.",
+    "tips": [
+      "Plan your route before you roll. Because the ball can stick to any side of a block, look for edges where a wall can become a floor.",
+      "Collect all the keys before heading for the exit, since the exit stays closed until you have them.",
+      "Keep an eye on the hourglass and spend coins on TIME UP upgrades if you find yourself running short on time in harder stages.",
+      "Watch out for crumbling tiles and moving blocks. Keep moving rather than pausing on tiles that may give way.",
+      "Use the R key to restart quickly when a route goes wrong, rather than finishing a failed attempt."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "Collect every key to open the exit, then reach the exit before the hourglass runs out. Coins and gems are optional extras you can grab along the way."
+      ],
+      [
+        "How do the controls work?",
+        "Use W or Up to roll, A and D or Left and Right to turn, Space to hop and E to jump forward. On touch screens, hold the lower screen to roll and tap the upper corners to turn."
+      ]
+    ]
+  },
+  "glam-dressup-girls-games": {
+    "intro": "Glam Dressup Girls Games is a dress-up game where you style one of six dolls with clothing, hairstyles, and accessories. It suits players who enjoy mixing looks and experimenting with fashion.",
+    "tips": [
+      "Pick a doll first and build the outfit around her, since each one is meant to be styled as a different character.",
+      "Start with a base outfit, then add accessories last so you can see whether they suit the look.",
+      "Try a few complete looks in different styles, such as bold, soft, or sporty, to see which combinations you like best.",
+      "Change the hairstyle before finalizing the clothes, because the hair can shift how the whole outfit reads.",
+      "Save your attention for the details, like shoes and jewelry, which often make the biggest difference to a finished look."
+    ],
+    "faq": [
+      [
+        "What is the goal of Glam Dressup Girls Games?",
+        "The goal is to create glam outfits for the dolls by choosing from many clothing items, hairstyles, and accessories. There is no timer or score mentioned, so you can take as much time as you like."
+      ],
+      [
+        "How do I control the game?",
+        "You play with a mouse click or by tapping the screen. Click or tap to select items and place them on your doll."
+      ]
+    ]
+  },
+  "word-game-2026": {
+    "intro": "Word Game 2026 is a crossword and word search puzzle game with over 1,000 levels. You drag across connected letters to find hidden words while moving through themed scenery.",
+    "tips": [
+      "Look for word endings and common letter pairs first, since many levels hide words that share letters with each other.",
+      "Drag only between neighbouring letters in the right order, and check that you have the letters in sequence before you lift your finger.",
+      "Scan the whole grid for word shapes in every direction, because the game lets you connect letters in any direction.",
+      "Save hints and letter shuffles for puzzles you have studied for a while. Shuffling can reveal new word shapes when you feel stuck.",
+      "Since there are no time limits, take a short break when a level stalls. Coming back with fresh eyes often makes the answer easier to spot."
+    ],
+    "faq": [
+      [
+        "Is there a time limit on the levels?",
+        "No. The game says you can play at your own pace with no time limits."
+      ],
+      [
+        "What do I do when I get stuck on a puzzle?",
+        "You can use a hint or shuffle the letters to help you find new word patterns."
+      ]
+    ]
+  },
+  "legiontide-army-runner": {
+    "intro": "Legiontide Army Runner is a 3D strategy runner where you lead a growing army down a road, picking gates and clashing with enemy groups. Plan each fight using the enemy's weak point, then build up your island kingdom between runs.",
+    "tips": [
+      "Read the enemy groups ahead before you reach them and pick gates that bring the class that counters them, such as shield bearers against arrows or giants against barriers and armor.",
+      "Hold the squeeze button when your army must pass hammers, saws, holes or narrow bridges, so the line stays together and fewer soldiers are lost.",
+      "Before each boss, check which class it is weak to and build your army around that class's power, since the boss takes more damage from it.",
+      "Save your Golden Army for a tough clash rather than an easy one, so the full bar has the most impact where you need it.",
+      "Spend time between runs upgrading buildings to strengthen your troops, and set up farms early so they produce gold while you are away."
+    ],
+    "faq": [
+      [
+        "How do I steer my army?",
+        "Move the mouse left and right, use the A and D keys or arrow keys, or drag on touch screens. Esc pauses the game."
+      ],
+      [
+        "What does holding the mouse button or Shift do?",
+        "It squeezes your army into a tight line, which helps you get past narrow or dangerous sections of the road."
+      ]
+    ]
+  },
+  "pirate-dodge": {
+    "intro": "Pirate Dodge is a one-player shooter set on a narrow river. Switch lanes to avoid rocks, kraken tentacles, and pirate ships while firing back at enemies.",
+    "tips": [
+      "Watch the ships that cut across your path first, since they can close a lane quickly. Move out of their line before they reach you.",
+      "Pick your lane early when you see rocks or tentacles ahead, so you are not forced into a last-second swerve.",
+      "Fire whenever a lane is clear, especially at ships that shoot, so they stop threatening you sooner.",
+      "Aim to sink pirates in your path when it is safe, because sunk pirates drop the coins and map pieces you need to progress.",
+      "Use the pause key on PC to take a breath and plan your route through a tight stretch of river before continuing."
+    ],
+    "faq": [
+      [
+        "What is the goal of Pirate Dodge?",
+        "Stay afloat in the narrow river by dodging hazards and enemy ships while sinking pirates to collect coins and pieces of an old map."
+      ],
+      [
+        "What should I spend coins on?",
+        "Coins buy you a faster, meaner ship, so spend them when you can to improve your boat's performance against the pirates."
+      ]
+    ]
+  },
+  "galaxy-pop": {
+    "intro": "Galaxy Pop is a space bubble shooter where you aim a blaster, fire colored bubbles, and match three or more of the same color. Clear the bubbles across 1000 levels, each with its own goal.",
+    "tips": [
+      "Before each shot, look at which colors are grouped together and which bubbles would drop if you cleared them. Choose shots that remove the most bubbles at once.",
+      "Because shots are limited, avoid firing at random. Take a moment to plan the next shot before you release.",
+      "Use the walls to reach gaps you cannot hit directly. Test bounce angles on early shots so you know how the path works.",
+      "Read each level's goal first. Whether you need to rescue aliens, collect UFOs, or collect eggs, shape your shots toward that target instead of only clearing colors.",
+      "Save boosters for levels where you are truly stuck. Color Pop, Hook, and Blast work best when the board offers no clean match."
+    ],
+    "faq": [
+      [
+        "How do I aim and shoot?",
+        "Touch and drag, or hold the mouse button, to aim. Release to shoot."
+      ],
+      [
+        "How many bubbles do I need to match to pop them?",
+        "Match three or more bubbles of the same color to pop them."
+      ]
+    ]
+  },
+  "easy-halloween-coloring-quest": {
+    "intro": "Easy Halloween Coloring Quest is a relaxed coloring game with pumpkins, ghosts, witches, bats, and haunted houses. You pick your colors and fill each picture in your own style.",
+    "tips": [
+      "Pick a small set of colors you like before you start, so you spend less time switching and more time filling the picture.",
+      "Work on one area at a time, such as a single pumpkin or ghost, so the scene looks finished as you go.",
+      "Try mixing bright and dark shades, like orange with deep purple, to make the spooky scenes stand out.",
+      "Start with the large background areas, then add the smaller characters and details on top so the picture stays neat.",
+      "Use the mouse steadily and take your time, since the game is designed to be a calm, simple coloring experience."
+    ],
+    "faq": [
+      [
+        "How do I play Easy Halloween Coloring Quest?",
+        "Use the mouse to choose a color and fill in the areas of each Halloween picture. Every picture is a coloring quest you can complete at your own pace."
+      ],
+      [
+        "What kinds of scenes will I color?",
+        "The pictures include pumpkins, friendly ghosts, witches, bats, haunted houses, and other festive surprises. You can choose cute characters or spooky scenes."
+      ]
+    ]
+  },
+  "merge-monsters": {
+    "intro": "Merge Monsters is a card-merging puzzle where you move numbered monster cards between four stacks. Match equal values to combine them into bigger monsters and collect new creatures.",
+    "tips": [
+      "Before you drag a card, look at the cards stacked above it, because they move along with it. Plan the whole move before you start.",
+      "Look for matching numbers that sit on top of stacks, since merging those is the quickest way to free up space.",
+      "Keep at least one stack with room to spare. Running out of space is the main way to get stuck.",
+      "Think about where a merge will leave your next move. A clever merge can open room that you need later.",
+      "Save boosters for moments when the stacks are crowded and no simple move works, rather than using them right away."
+    ],
+    "faq": [
+      [
+        "What is the goal of Merge Monsters?",
+        "Move numbered monster cards between the four stacks and merge cards with matching values to build bigger numbers and discover new monsters."
+      ],
+      [
+        "How do I move a card?",
+        "Hold a monster card with your mouse or finger, drag it to another stack, and release it. Any cards above it move too."
+      ]
+    ]
+  },
+  "wrecking-ball-tycoon": {
+    "intro": "Wrecking Ball Tycoon is a clicker and idle game where you swing a wrecking ball through six districts, smashing buildings to earn cash. Upgrade your gear and grow your demolition business over time.",
+    "tips": [
+      "Watch the swing and aim for the green zone on release, since a super strike does extra damage and is the biggest boost to your progress.",
+      "Use the height controls to pick the part of the building you hit, and adjust before each swing rather than repeating the same aim every time.",
+      "Spend your cash on bigger balls and faster swings first, because these make every later swing hit harder and quicker.",
+      "Check your daily contracts each session so you do not miss easy extra rewards while you work on upgrades.",
+      "Collect ball skins as you go and renew your license when you can, since the description says this gives permanent bonuses."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Wrecking Ball Tycoon?",
+        "Your goal is to grow your demolition business by smashing buildings across six colorful districts and spending the cash you earn on upgrades. Bigger balls, faster swings and cranes all help you earn more."
+      ],
+      [
+        "How do I get a super strike?",
+        "Hold the SWING button or SPACE, then release when the ball is in the green zone. A super hit deals extra damage, and the description notes it is 8x damage."
+      ]
+    ]
+  },
+  "fat-duck-frenzy": {
+    "intro": "Fat Duck Frenzy is a fast endless racer on a candy road that bends through a dream. Steer between traffic, jump obstacles and gaps, and keep your three hearts as the road speeds up.",
+    "tips": [
+      "Look ahead rather than at the duck, so you can start moving toward a clear lane before traffic reaches you.",
+      "Save your double jump for gaps and barricades you cannot clear with a single jump, since you need it for those moments.",
+      "Grab shields when you can, and treat them as a buffer to protect your last hearts during the faster sections.",
+      "Chase the glowing shards in a row to build your combo, but do not swerve into dangerous traffic just to collect one.",
+      "Use the pause button when a loop-the-loop or reality fold surprises you, then resume once you have checked your lane."
+    ],
+    "faq": [
+      [
+        "What is the goal of Fat Duck Frenzy?",
+        "Keep the duck running along the endless candy road for as long as possible while scoring points. The game is about seeing how far the run can go."
+      ],
+      [
+        "How do I jump, and what is the double jump for?",
+        "Press SPACE or W to jump, and press it twice to perform a double jump. On touch screens, swipe up to jump."
+      ]
+    ]
+  },
+  "candy-sort": {
+    "intro": "Candy Sort is a colorful sorting puzzle where you move candies between tubes until each tube holds one color. You work against a clock, so planning your moves matters.",
+    "tips": [
+      "Look at the top candy in every tube before you move anything, so you know which colors are available to stack on.",
+      "Free up an empty tube early. Empty tubes are the only spot besides a matching color, so keeping one open gives you more room to work.",
+      "Try to finish one color at a time. Gather all candies of a single color into one tube before starting on another color.",
+      "Avoid burying candies of a color you still need to collect. Moving a candy on top of a mismatched one is not allowed, so a poor stack can block your progress.",
+      "If you get stuck and the clock is running low, the reward ad can add an extra tube or stop the timer. Save it for a puzzle where you have a clear plan but need more room or time."
+    ],
+    "faq": [
+      [
+        "What is the goal of Candy Sort?",
+        "The goal is to move candies between tubes so that each tube holds candies of only one color. You do this against the clock."
+      ],
+      [
+        "Where can I place a candy?",
+        "You can place a candy in an empty tube or on top of a candy of the same color. You cannot place it on a candy of a different color."
+      ]
+    ]
+  },
+  "wild-fusion": {
+    "intro": "Wild Fusion is a relaxing idle merge puzzle where you combine matching animals to discover stronger species. You control everything with the mouse while your collection grows on the grid.",
+    "tips": [
+      "Merge matching animals as soon as you have a pair, since clearing space on the grid keeps your options open for new combinations.",
+      "Keep an eye on which animals you already have, so you can plan merges that lead toward higher-level species.",
+      "Check the shop regularly and buy animals when you can afford them, because the description says they speed up your progress.",
+      "Leave the game running for a while between sessions to let your idle progress build up before deciding what to merge next.",
+      "Try different pairings when you are unsure, since experimenting is how new combinations and species are discovered."
+    ],
+    "faq": [
+      [
+        "How do I play Wild Fusion?",
+        "Click with the mouse to select two matching animals and merge them to unlock a higher-level species. Repeat this to fill the grid with new wildlife."
+      ],
+      [
+        "What helps me progress faster?",
+        "Buying more animals from the shop speeds up your progress and gives you more options for creating new combinations."
+      ]
+    ]
+  },
+  "car-sort": {
+    "intro": "Car Sort is a colorful parking puzzle where you tap garages to send cars onto the road and match each car with a garage of the same color. Plan ahead to keep the road from filling up as the levels get harder.",
+    "tips": [
+      "Before tapping a garage, check which cars will reach the road and whether they match a garage you can reach next.",
+      "Keep an eye on road capacity. Clearing cars into matching garages early leaves more room for the moves you need later.",
+      "Look at the cars behind each garage's front cars, since they will become playable once the front cars are gone.",
+      "Save boosters for when you are truly stuck, when you need more space or a fresh arrangement.",
+      "Play in the same browser each time, because your progress is saved there."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Car Sort?",
+        "Sort cars into the garages that match their color while keeping the road from filling up. Clear each level by doing this."
+      ],
+      [
+        "How do I move cars in Car Sort?",
+        "Left-click or tap a garage to send its front cars onto the road. Use the same clicks on the interface buttons."
+      ]
+    ]
+  },
+  "ladder-rush-race": {
+    "intro": "Ladder Rush Race is a 3D racing game where you run against a rival on colorful tracks. Collect pieces along the way, build ladders to cut through the course, and try to reach the finish line first.",
+    "tips": [
+      "Build only when a ladder will clearly save you time. Your supply of pieces is limited, so a short ladder over a small gap may not be worth it.",
+      "Keep an eye on your rival's position before you decide to build. If they are close behind, a shortcut can be the move that takes the lead.",
+      "Grab speed boosts when you can, and steer your run so you pass by colored pieces you will need soon.",
+      "Watch the track ahead for traps and obstacles so you can plan when to release the button and when to keep building.",
+      "Since each of the 30 levels has different tracks and climbs, notice how the layout changes and adjust how much you spend on ladders."
+    ],
+    "faq": [
+      [
+        "What is the goal of Ladder Rush Race?",
+        "The goal is to reach the finish line before your rival. You do this by collecting pieces, building ladders, and staying ahead on the track."
+      ],
+      [
+        "How do I build a ladder?",
+        "Hold the mouse button or keep your finger on the screen to spend collected pieces and build. Release to stop building."
+      ]
+    ]
+  },
+  "monster-chef": {
+    "intro": "Monster Chef is a fast-paced kitchen game where you play a monster chef. You keep up with moving ingredients, cooking machines, and hungry robot customers. Tap to play.",
+    "tips": [
+      "Watch the moving ingredients for a moment before acting, so you can plan which one to handle next instead of reacting to the last thing you saw.",
+      "Keep an eye on the cooking machines as well as the customers, so that no dish sits waiting while you are busy elsewhere.",
+      "Serve the robot customers in the order they arrive when you can, since the kitchen moves quickly and waiting customers are easy to lose track of.",
+      "Make quick, simple decisions rather than hesitating, because the game rewards keeping the kitchen moving.",
+      "Start each round by getting a steady rhythm of taps, then speed up once you feel comfortable with how the kitchen flows."
+    ],
+    "faq": [
+      [
+        "How do I control the chef?",
+        "The game uses simple tap controls. Tap to start playing, and then tap to keep the kitchen running."
+      ],
+      [
+        "What is the main goal of Monster Chef?",
+        "Your job is to keep up with moving ingredients, cooking machines, and hungry robot customers in a busy kitchen."
+      ]
+    ]
+  },
+  "9-ball-pool-3d": {
+    "intro": "9 Ball Pool 3D is a 3D pool game where you aim, power up and shoot to pocket the 9-ball legally. You can play computer opponents, a three-round championship, a timed challenge or the practice room.",
+    "tips": [
+      "Before each shot, check which ball is lowest-numbered on the table, since you must strike it first.",
+      "Use the practice room to get a feel for the power meter, because a shot that is too strong can send the cue ball past its target.",
+      "Try both the isometric and top-down camera views and pick the one that makes angles easiest for you to judge.",
+      "Plan ahead for the 9-ball by thinking about where the cue ball will end up after each shot, not just whether you can pocket a ball.",
+      "Log in each day to collect daily rewards and build up your club coins over time."
+    ],
+    "faq": [
+      [
+        "What is the goal of 9 Ball Pool 3D?",
+        "Follow 9-ball rules by always hitting the lowest-numbered ball first, and legally pocket the 9-ball to win the game."
+      ],
+      [
+        "How do I aim and shoot?",
+        "Move the mouse to aim, then left click once to lock your aim and start the power meter. Left click again to shoot. On mobile, drag to aim, tap once to lock, and tap again to shoot."
+      ]
+    ]
+  },
+  "mimi-fish-market": {
+    "intro": "Mimi Fish Market is a 3D arcade stall-management game where you catch fish, stock counters and serve customers before they lose patience. Every coin you earn goes back into growing your market.",
+    "tips": [
+      "Keep an eye on customer patience and serve the people waiting longest first, since a customer who leaves costs you a sale.",
+      "Walk to your counters regularly so stock stays full; empty counters are the fastest way to lose customers.",
+      "Spend early coins on upgrades that speed up your stall, then move on to new counters and products once service runs smoothly.",
+      "Hire helper cats and cashiers as soon as you can afford them, so the market keeps running while you fish or travel.",
+      "Use fishing trips to restock higher-value products like lobster, crab or tuna when your counters start running low."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Mimi Fish Market?",
+        "You run a fish stall by catching fish, stocking counters and selling to customers, then use your earnings to expand into a seafood empire across five islands."
+      ],
+      [
+        "How do I move Mimi around the market?",
+        "Use WASD or the arrow keys to walk. Stepping onto stations, counters and tiles picks up, drops off, sells or buys automatically."
+      ]
+    ]
+  },
+  "skybound-dash-crown-rush": {
+    "intro": "Skybound Dash: Crown Rush is an arcade flying game where you steer through thorn gates, gather crowns, and push for a higher score on every run. Pick a royal relic before each attempt to shape how you play.",
+    "tips": [
+      "Before each run, pick the relic that fits your skill: the Crown Magnet helps if you want to gather more crowns, the Guardian Shield helps if you keep clipping thorns, and the Time Charm helps if the gates feel too fast.",
+      "Use short, controlled taps or clicks rather than holding down. Small flaps keep you steady between gate openings.",
+      "Look ahead to the next gate opening before it reaches you so you can adjust your height early instead of reacting at the last moment.",
+      "Grab crowns and power-ups when they are safe to reach, but do not chase them into a thorn. Avoiding a collision matters more than any single pickup.",
+      "Watch your high score as a target for short runs. Playing a few focused attempts often helps more than one long, tiring session."
+    ],
+    "faq": [
+      [
+        "What is the goal of Skybound Dash: Crown Rush?",
+        "Fly through the gate openings, collect crowns and power-ups, and avoid colliding with thorns. The game also asks you to progress through 12 levels and beat your high score."
+      ],
+      [
+        "How do I control my flight on desktop?",
+        "Click or press SPACE to flap. Each press lifts you upward, so use short presses to control your height."
+      ]
+    ]
+  },
+  "ashen-watch": {
+    "intro": "Ashen Watch is a siege defense game where you guard Princess Elira in the last keep. Hold the walls through waves of enemies, pick perks between waves, and see how long you can survive.",
+    "tips": [
+      "Choose perks with your current playstyle in mind. Arrow volleys suit keeping distance, while the flaming blade rewards staying close to enemies.",
+      "Keep the guardian moving rather than standing still in one spot, since enemies are coming from several directions during a siege.",
+      "Use the dodge roll to escape crowds before your health gets low, instead of waiting until you are cornered.",
+      "Save your big attacks for dangerous moments, such as when a crowd gathers or a boss is close, rather than spending them on small groups.",
+      "Spend coins on permanent upgrades steadily between runs, because each run you survive makes the next one easier to push further."
+    ],
+    "faq": [
+      [
+        "What is the goal of Ashen Watch?",
+        "You control the guardian and defend the castle against endless waves of enemies. The aim is to survive as long as possible across the 20 waves."
+      ],
+      [
+        "How do I move and attack?",
+        "Use WASD or the Arrow Keys to move, or hold the mouse button on the battlefield to move in that direction. The guardian attacks nearby enemies automatically, so your focus is on positioning."
+      ]
+    ]
+  },
+  "sands-of-anubis": {
+    "intro": "Sands of Anubis is a tile matching puzzle set among the pyramids. Tap uncovered tiles to move them into your tray, and clear three matching tiles to progress through its many levels.",
+    "tips": [
+      "Before each tap, check which tiles are uncovered, since covered tiles cannot be picked. Clearing the tiles on top of a stack opens up new options.",
+      "Keep the tray as empty as possible. Because seven tiles in the tray restarts the level, avoid grabbing single tiles that have no match nearby.",
+      "Look for pairs you can complete soon. Moving a tile into the tray early only helps if you can find its two matches before the tray fills.",
+      "Save Magnet for a moment when you have two of a kind in the tray and the third is buried. Use Undo if a move clearly leaves you stuck, and Shuffle when the board layout is blocking every good option.",
+      "Log in to claim the hourly reward chest and spin the lucky wheel when they are available, and finish daily quests to build up boosters for harder levels."
+    ],
+    "faq": [
+      [
+        "What is the goal of Sands of Anubis?",
+        "Move tiles from the board into your tray and collect three matching tiles to clear them. Clear the whole board to finish each level."
+      ],
+      [
+        "What happens if my tray fills up?",
+        "If the tray reaches 7 tiles, the level starts over. Plan moves so you don't fill the tray with tiles that have no match."
+      ]
+    ]
+  },
+  "horizon-highway-driving": {
+    "intro": "Horizon Highway Driving is a racing game set on an endless highway. You weave through changing traffic, pass through different locations, and watch the day and night cycle shift around you. Click or tap to play.",
+    "tips": [
+      "Take close passes on purpose. The game rewards risking the gap, so look for chances to get near traffic rather than always staying far away.",
+      "Keep your combo going by avoiding mistakes between risky moves. Building a streak is what makes your boost more useful.",
+      "Save boost for busy stretches of traffic where you need a quick burst to get through safely. Spending it on open road wastes it.",
+      "Watch the traffic pattern ahead instead of reacting only to the car right in front of you. Planning two or three cars ahead helps you pick safe gaps.",
+      "Expect the view to change as the day and night cycle moves along. Keep your focus on the road and check the traffic ahead when visibility drops."
+    ],
+    "faq": [
+      [
+        "What is the goal of Horizon Highway Driving?",
+        "The game is endless, so there is no finish line. Your aim is to keep driving as long as you can while building combos and managing your boost."
+      ],
+      [
+        "How do I control the car?",
+        "The game is played with mouse clicks or taps only. Check the in-game prompts to see how each click or tap is used during play."
+      ]
+    ]
+  },
+  "football-pinball": {
+    "intro": "Football Pinball turns a pitch into a pinball table. You defend with two flippers, then send the ball past the midfielders and the keeper into the far goal before the 90 seconds run out.",
+    "tips": [
+      "Keep the ball from draining between your flippers, since every drain counts as a goal for the other side.",
+      "Use Space to hit both flippers together when the ball drops into the middle, so you can send it back up the table in one move.",
+      "Watch the keeper's movement along his line and aim for the side he has just left open.",
+      "Use the left and right flippers separately for a ball near one side, so you can aim it instead of just returning it.",
+      "Keep an eye on the clock, since the match is only 90 seconds and one goal can decide it."
+    ],
+    "faq": [
+      [
+        "What is the goal of Football Pinball?",
+        "Score more goals than the other side within 90 seconds. If both sides have the same number of goals when time runs out, the match is a draw."
+      ],
+      [
+        "How do I control the flippers?",
+        "Use the left arrow, A or Z for the left flipper and the right arrow or D for the right flipper. Press Space to work both at once."
+      ]
+    ]
+  },
+  "spellbound-orbs": {
+    "intro": "Spellbound Orbs is a wizard-themed bubble shooter where you aim and fire colorful orbs to match groups of three or more. Clear the board across 1000 levels, some with special goals like freeing fairies or dragons.",
+    "tips": [
+      "Shots are limited, so before each shot look for a match you can set up rather than firing at the nearest orb.",
+      "Use the walls to bounce your shots into hard-to-reach gaps near the top and sides of the board.",
+      "Pop orbs near the bottom of a cluster when possible, since the orbs below will fall and can clear more of the board at once.",
+      "Save boosters for levels where you are truly stuck; Color Pop is most useful when one color is scattered in many places.",
+      "On special-goal levels, check the goal first and aim toward it, such as getting close to a fairy or dragon egg rather than just clearing colors."
+    ],
+    "faq": [
+      [
+        "What is the goal of Spellbound Orbs?",
+        "Match three or more orbs of the same color to pop them and clear the board. Some levels also ask you to free fairies, free the dragon, or collect dragon eggs."
+      ],
+      [
+        "How do I aim and shoot?",
+        "Touch and drag, or hold the mouse button, to aim, then release to shoot."
+      ]
+    ]
+  },
+  "animal-kart": {
+    "intro": "Animal Kart is a side-scrolling racer with ten cartoon animals and 60 tracks across jungle, desert, south pole and volcano. Jump, boost and outpace the pack to earn stars and coins.",
+    "tips": [
+      "Use a double jump on hazards when you're unsure of the timing. A second press in mid-air lets you clear obstacles a single jump can't.",
+      "Hit the boost pads whenever you can. They are the fastest way to close the gap with the pack.",
+      "Aim for at least 2nd place on every track. Finishing 1st gives three stars, but a strong second or third still earns two, which adds up quickly across 60 tracks.",
+      "Spend your coins on tuning the racers you use most. Balancing speed and jump suits different tracks, so pick the upgrade that fits the course you're struggling with.",
+      "Replay early tracks to collect stars and coins before moving on. Building up coins makes it easier to unlock new racers."
+    ],
+    "faq": [
+      [
+        "What is the goal of Animal Kart?",
+        "Race to the front of the pack and finish each track as high as you can. Your finishing position decides how many stars you earn."
+      ],
+      [
+        "How do I jump and double jump?",
+        "Click, tap or press Spacebar to jump. Press again while you are in mid-air to perform a double jump."
+      ]
+    ]
+  },
+  "junkyard-builder-3d": {
+    "intro": "Junkyard Builder 3D is a single-player offroad racing game where you build and tune a custom truck, then drive it through 10 worlds. Earn coins, upgrade parts, and level up your driver career.",
+    "tips": [
+      "Spread your early coins across a few part categories instead of maxing one, so your truck stays balanced for rough ground.",
+      "Try a short run after each upgrade to feel how it changes handling before you spend more coins.",
+      "Check your active contracts before you start a run and drive in a way that helps complete them.",
+      "Collect items and land jumps on the same runs, since both give XP and help you level your driver faster.",
+      "Use the turbo in short bursts, especially on straights, so you still have boost available when you need to recover on rough sections."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Junkyard Builder 3D?",
+        "Build and upgrade your offroad truck, drive it through the 10 worlds, and chase higher records with Play Again."
+      ],
+      [
+        "How do I earn coins and XP?",
+        "You earn coins on each run, and you earn XP by driving, collecting items, and landing jumps. Contracts also give coin rewards."
+      ]
+    ]
+  },
+  "chubby-duck-offroad": {
+    "intro": "Chubby Duck Offroad is a one-run mountain descent where gravity does the work. Your job is to keep the duck upright, use your air spin well, and stay clear of wipeouts.",
+    "tips": [
+      "Land on the back of each hill rather than the front, since that keeps your duck stable for the next section.",
+      "Use A and D on the ground to shift weight for wheelies and stoppies, and save air spin for when you are truly airborne.",
+      "Tap Space to hop boulders instead of hitting them head-on, and use W to keep speed going through the smoother parts.",
+      "Ride the logs by staying balanced along them rather than trying to correct mid-slide, and watch the speed signs ahead for the best line.",
+      "If you wipe out, press Enter to retry the same trail and learn it, or press N for a new trail if you want a fresh layout."
+    ],
+    "faq": [
+      [
+        "What ends a run in Chubby Duck Offroad?",
+        "One wipeout ends the run, so each attempt is a single descent with no second chances on the same try."
+      ],
+      [
+        "How do I earn a star, two stars, or three stars?",
+        "Finishing the run earns a star, ringing every cone earns two, and beating the par time earns three."
+      ]
+    ]
+  },
+  "blast-round-puzzle-block": {
+    "intro": "Blast Round is a block puzzle where you drag pieces onto a board to complete rows and columns. Plan each placement, build combos, and push through levels and boss battles.",
+    "tips": [
+      "Before placing a piece, check which rows and columns it could complete. Clearing full lines is the main way to score.",
+      "Use the rotate button above a piece to test different orientations before you drop it. A small turn can fit a gap you would otherwise miss.",
+      "Keep the board as open as you can. Crowded boards leave fewer options, so avoid filling spaces that are hard to reach later.",
+      "Save your Hammer and Shuffle power-ups for moments when the board gets crowded, rather than using them early.",
+      "Build your Mana Power by clearing lines, then activate it when the mana bar is full. Save it for tough boss fights or difficult boards."
+    ],
+    "faq": [
+      [
+        "How do I score points in Blast Round?",
+        "You earn points by completing full rows and columns and by building combos. Bigger combos give you more points."
+      ],
+      [
+        "How do I place a block piece?",
+        "Click, touch and drag a piece onto the board, then drop it where you want it. Use the rotate button above the piece to turn it first if needed."
+      ]
+    ]
+  },
+  "level-once-again": {
+    "intro": "Level Once Again is a story-driven puzzle platformer with 100 rooms across 4 worlds. Guide Veer through trapped rooms where the layout stays the same but the tricks keep changing.",
+    "tips": [
+      "Treat each room as a puzzle and watch what changes before you commit to a jump. Floors, spikes, and doors can all behave differently from the last attempt.",
+      "Use the first three rooms to learn the controls, since they are the only easy ones. After that, expect a trap in every room.",
+      "Restart with R as often as you need. Failing quickly and trying a new approach is usually faster than pushing through a bad path.",
+      "Pause with Esc or P to step back and think through a room. Coming back with a clear plan helps more than rushing.",
+      "If you are truly stuck, use the hint system with H to see the full room solution, but try a few ideas first so you still get the satisfaction of solving it."
+    ],
+    "faq": [
+      [
+        "What is the goal of Level Once Again?",
+        "Guide Veer through 100 trapped rooms to rescue Tara from Kaal. Each room must be cleared to move forward."
+      ],
+      [
+        "Which keys do I use to move and jump?",
+        "Use the Left and Right arrows or A and D to move, and Space, W, or Up to jump. Restart is R, and Mute is M."
+      ]
+    ]
+  },
+  "infinity-sky": {
+    "intro": "Infinity Sky is a vertical jumper where you guide a bouncing hero up endless platforms. Dodge monsters, collect rewards, and see how high you can climb.",
+    "tips": [
+      "Look ahead to the next platform before you land, so you can line up your next bounce instead of reacting at the last second.",
+      "Keep your hero toward the middle of the screen when you can, since it gives you more room to move left or right to dodge monsters.",
+      "Use short, controlled moves rather than rapid input, which makes it easier to land accurately on each platform.",
+      "Grab rewards when they are on your path, but do not risk a fall or a monster collision to reach one that is out of the way.",
+      "Practice a few runs to learn the rhythm of the bounces, then aim to climb a little higher each time."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Infinity Sky?",
+        "Your goal is to climb as high as you can by bouncing up endless platforms while avoiding monsters. Each run is a chance to beat how high you previously reached."
+      ],
+      [
+        "How do I move on desktop?",
+        "Click the left or right half of the screen, or use the A and D keys or the arrow keys to move in that direction."
+      ]
+    ]
+  },
+  "flume-v2": {
+    "intro": "Flume is an endless runner where your ball rolls inside a half-pipe that never stops. Stay on the track, use boost wisely, and beat your own best speed and score.",
+    "tips": [
+      "Keep your ball steady in the middle of the track when you can, so you have room to react to sudden turns.",
+      "Save your boost for stretches where the path is clear, since it helps you go faster and last longer.",
+      "Try the lower difficulty first to learn how the steering feels before moving to harder settings.",
+      "Use racing mode to compare your current run against your previous best speed and score.",
+      "Aim for higher scores to unlock new balls, and notice which ones handle differently once you have them."
+    ],
+    "faq": [
+      [
+        "What is the goal of Flume?",
+        "Survive as long as you can on the endless half-pipe track. The faster you go, the longer you last, so keep up your speed."
+      ],
+      [
+        "How do I steer the ball?",
+        "On a keyboard, use A and D or the Left and Right arrow keys. On touch screens, hold the left or right side of the screen to steer."
+      ]
+    ]
+  },
+  "solitaire-the-collection": {
+    "intro": "Solitaire The Collection brings 33 card game variants together, from familiar classics to new rule sets. You can choose a mode and a difficulty level, then play through the layout at your own pace.",
+    "tips": [
+      "Before each move, check whether a card you want to free up is blocking others, and prioritize moves that reveal hidden cards.",
+      "In Klondike, try draw one first to learn the rhythm of the deck, then move on to draw three once you are comfortable with planning ahead.",
+      "Build foundations from the ace upward by suit, and avoid pushing low cards up early if they are still needed to build tableau sequences.",
+      "Use hints when you are stuck, but first look for moves that empty a column, since an empty column gives you more room to rearrange cards.",
+      "Use undo to test an idea without commitment: make a move, see what it reveals, and step back if it leads to a dead end."
+    ],
+    "faq": [
+      [
+        "How do I win in Solitaire The Collection?",
+        "The goal depends on the mode you choose, but in Klondike-style games you win by building all the foundations from ace up to king by suit. Each mode explains its own rules when you start it."
+      ],
+      [
+        "What difficulty should I pick as a beginner?",
+        "Start with a calmer deal or the simpler setting in a mode you already know, such as Klondike with draw one. Move to harder settings once you can plan several moves ahead."
+      ]
+    ]
+  },
+  "sorting-ball-quiz": {
+    "intro": "Sorting Ball Quiz is a puzzle game where you move colorful balls into the correct tubes and group them by color. Levels get harder as you go, so each move needs some planning.",
+    "tips": [
+      "Before you click, look at the whole board and find which color is easiest to group first.",
+      "Plan a few moves ahead, since an early move can block the balls you need later.",
+      "Check which tubes are mostly one color and try to keep them that way instead of mixing new colors in.",
+      "If you get stuck, look for a tube you can empty to create space for the balls that are in the wrong place.",
+      "Take your time on harder levels, because careful planning matters more than speed."
+    ],
+    "faq": [
+      [
+        "What is the goal of Sorting Ball Quiz?",
+        "Your goal is to move the balls and group them by color so that each tube holds only one color."
+      ],
+      [
+        "How do I play Sorting Ball Quiz?",
+        "Use your mouse to click the buttons in the game to move the balls between tubes."
+      ]
+    ]
+  },
+  "frosty-rush": {
+    "intro": "Frosty Rush is a winter logic puzzle where you roll snowballs across icy levels, grow them, and merge the two parts of a snowman. Each of its 100 handcrafted levels asks you to plan your rolls carefully.",
+    "tips": [
+      "Before you move, look at the whole level and work out where each snowball needs to end up so the two parts can meet.",
+      "Think about the order of your moves, since rolling one snowball can block or change the path of the other.",
+      "Growing a snowball is the key step, so check which route lets it pick up enough snow before you try to merge the parts.",
+      "If you get stuck, stop and trace the path backwards from the finished snowman to see which earlier move you may have gotten wrong.",
+      "Use the arrow keys for precise control on a computer, or tap the on-screen arrows if you prefer to play by touch."
+    ],
+    "faq": [
+      [
+        "What is the goal of Frosty Rush?",
+        "Your goal is to roll the snowballs, grow them, and merge the two parts of your snowman to complete each puzzle."
+      ],
+      [
+        "How do I move the snowballs?",
+        "Use the arrow keys, or tap the on-screen arrows to roll the snowballs in each direction."
+      ]
+    ]
+  },
+  "mummy-candy": {
+    "intro": "Mummy Candy is a physics puzzle set in ancient Egypt. You cut ropes at the right moment so candy swings and falls into a hungry little mummy's mouth. Each level has targets to complete.",
+    "tips": [
+      "Watch how the candy swings before you cut. Timing the cut at the bottom or peak of a swing often sends it further than cutting at random.",
+      "Look at the whole level before cutting anything. Note where the obstacles, rocks and explosives sit so you know which path is safe.",
+      "Collect the bonus stars and treasure when they are on the way. Going slightly out of your path to grab them can help you earn rewards.",
+      "If a level stalls, reset your plan and try a different rope first. Some candies are easier to reach by cutting a rope you had not considered.",
+      "Spend rewards in the shop on upgrades you will use often, and save bonus items for levels that look difficult."
+    ],
+    "faq": [
+      [
+        "What is the goal of Mummy Candy?",
+        "Your goal is to cut the ropes so the candy falls into the mummy's mouth and completes each level's targets. Once you meet them, you earn rewards and unlock harder puzzles."
+      ],
+      [
+        "How do I cut the ropes?",
+        "Drag your mouse across a rope on desktop, or drag your finger across it on a touchscreen. The candy then falls and swings according to the physics."
+      ]
+    ]
+  },
+  "stellar-bastion": {
+    "intro": "Stellar Bastion is an endless wave-survival shooter played from a star-fortress flight deck. You move to stay alive while your rifle fires at the nearest bug automatically. Waves get harder over time, and the goal is to see how many you can survive.",
+    "tips": [
+      "Aiming is automatic, so focus on where you stand. Keep moving to keep bugs in front of you and avoid getting pinned against the edges.",
+      "Spend your special guns on crowds and save them for tough moments. Use the MK-1 sidearm as your dependable fallback once the limited-ammo weapons run out.",
+      "Use the combat roll with Shift to slip out of a tight spot when bugs close in. Save it for emergencies so you still have it when you need it most.",
+      "Waves get harder every 13 seconds, and every 5th wave brings a HIVE KING that speeds up the whole swarm. Plan your position before that wave arrives.",
+      "When a level-up offers its three perk cards, pick the one that fits how you are playing. The fight keeps going while you choose, so decide quickly."
+    ],
+    "faq": [
+      [
+        "What is the goal of Stellar Bastion?",
+        "The goal is to survive as many waves as you can. Your wave count is what you bank, shown as your score when you end the run with END."
+      ],
+      [
+        "How do I aim my weapon?",
+        "You do not aim manually. Your rifle auto-fires at the nearest bug, so your decisions are about where you move."
+      ]
+    ]
+  },
+  "tile-match-guard-baby": {
+    "intro": "Tile Match Guard Baby is a relaxing match-3 puzzle where you clear colorful tiles to keep a sleeping baby safe from playful monsters. Your goal is to clear the board before the tray fills up.",
+    "tips": [
+      "Before tapping, scan the board and look for tiles that have a matching pair already close to each other, so you can finish them quickly.",
+      "Keep the tray from getting crowded by only tapping tiles that help complete a set of three.",
+      "Watch how many of each tile color are left on the board, and avoid collecting a color whose last matches are still buried under others.",
+      "If the tray is nearly full, focus on finishing any set you can clear right away instead of starting new ones.",
+      "Take your time between taps, since the game is designed to be relaxing and rushing tends to fill the tray with mismatched tiles."
+    ],
+    "faq": [
+      [
+        "What is the goal of Tile Match Guard Baby?",
+        "Clear all the tiles on the board before the tray fills up. Doing so wins the level and keeps the baby asleep."
+      ],
+      [
+        "How do I clear tiles?",
+        "Tap tiles to move them into the tray, then match three identical tiles to clear them from the tray."
+      ]
+    ]
+  },
+  "brain-jam": {
+    "intro": "Brain Jam is a sliding car puzzle set in a jammed parking lot. Clear a path and guide the red car out through the exit on the right, using 120 levels or the daily puzzle.",
+    "tips": [
+      "Before you drag anything, trace the red car's route to the exit and find the car blocking it. Moving that car, or the car blocking it, is usually the right starting point.",
+      "Cars only move forward and back along their own lane, so check which direction a blocking car can actually go before planning several moves ahead.",
+      "Try to solve in par moves, since that earns the perfect bonus. Count your moves as you go and undo your plan if you notice you are wandering.",
+      "Keep the calorie counter in mind: the longer you sit without moving a car, the faster it climbs. Making small, deliberate moves as you think can keep you working steadily.",
+      "If you get stuck, press Hint to see the next good move, then try to work out the rest of the solution yourself. The Daily Puzzle is the same for every player, so it is a good way to compare approaches."
+    ],
+    "faq": [
+      [
+        "How do I win a level?",
+        "Slide the cars out of the way so the red car has a clear path to the exit on the right, then drive it out."
+      ],
+      [
+        "How do cars move?",
+        "You drag a car along its lane with your mouse or finger. Cars can only move forward and back in their lane."
+      ]
+    ]
+  },
+  "crazy-bus-escape-runner": {
+    "intro": "Crazy Bus Escape Runner is a 3D arcade runner where you lead a crowd of stickman runners through busy city roads. Dodge obstacles and traps, gather recruits, and reach the finish across five stages.",
+    "tips": [
+      "Watch the leader closely, since the instructions say to keep the leader alive and losing them is the main risk to your run.",
+      "Start steering early when you spot an obstacle ahead, rather than making a last-second swerve that can clip the edge.",
+      "Pick up new runners whenever the path lets you, as a bigger group gives you more to work with as the stages get harder.",
+      "Check each stage's traps before committing to a lane so you can plan a route instead of reacting to the first trap you see.",
+      "If a stage goes badly, use RESTART and try again rather than pushing on with a weakened crowd, since the game lets you retry after failing."
+    ],
+    "faq": [
+      [
+        "How do I steer on a computer?",
+        "Use the A and D keys or the Left and Right Arrow keys to move left and right. On touch devices, hold and drag left or right instead."
+      ],
+      [
+        "How do I start the game?",
+        "Click or tap to start the run. After clearing a stage, choose NEXT to move on to the following one."
+      ]
+    ]
+  },
+  "yolk-ops-egg-arena": {
+    "intro": "Yolk Ops Egg Arena is a first-person shooter where you fight AI bots across eight 3D maps. Pick a mode, choose your weapons, and aim for the most eliminations.",
+    "tips": [
+      "Hold Tab now and then to check the scoreboard, so you know how your eliminations compare to the bots.",
+      "Use right-click to aim when you have a clear line of sight. Firing from the hip is less accurate at range.",
+      "Swap between your primary weapons and sidearm with 1 and 2 so you always have a weapon that suits the distance.",
+      "Save your grenade with G for groups of bots or tight spots rather than throwing it at a single target.",
+      "Pick up arena items as you move through the map, and reload with R during quiet moments so you are not caught empty."
+    ],
+    "faq": [
+      [
+        "How do I win a match?",
+        "Compete for the most eliminations against the AI bots. Keep track of your score with the Tab scoreboard."
+      ],
+      [
+        "Which game modes are available?",
+        "You can play Free for All, Team Scramble, or King of the Yolk. Each mode is played against AI bots."
+      ]
+    ]
+  },
+  "bum-brawl-heaven": {
+    "intro": "Bum Brawl: Heaven is a brawling adventure set across five heavenly locations. You fight your way through waves of angels, using punches, kicks, jumps and your halo special.",
+    "tips": [
+      "Learn the three attack buttons early. Mixing punches and kicks is usually more useful than repeating one move.",
+      "Pay attention to which enemy type you are facing, since runners, sentinels and scribes are different opponents and may need different responses.",
+      "Save your halo special for tough moments, such as when several angels are closing in at once, rather than using it as soon as it is available.",
+      "Grab power-ups when they are safe to reach, but do not chase them into a crowd of enemies.",
+      "Use jumps to reposition and dodge, not just to get over obstacles, so you can keep an eye on the whole group of angels."
+    ],
+    "faq": [
+      [
+        "How do I use the halo special?",
+        "Press L to unleash your halo special. It is one of the main tools for dealing with dangerous fights."
+      ],
+      [
+        "What are the controls for moving and attacking?",
+        "Use WASD or the arrow keys to move, J to punch, K to kick, L for the halo special, and the space bar to jump."
+      ]
+    ]
+  },
+  "doomfront-iron-breach": {
+    "intro": "Doomfront: Iron Breach is a first-person shooter where you fight through five sectors, from industrial bunkers to the Overlords fortress. Each sector brings new enemies and weapons to handle.",
+    "tips": [
+      "Learn the six enemy types early, since each one may call for a different approach and weapon.",
+      "Try all five weapons in the first sector so you know which one suits which kind of fight.",
+      "Keep moving through the sectors rather than staying in one spot, as each area is large and enemies can come from several directions.",
+      "Take your time in the industrial bunkers to get used to the controls before the badlands and spaceport push you harder.",
+      "Focus your shots on the most dangerous enemies first to keep pressure off yourself."
+    ],
+    "faq": [
+      [
+        "What is the goal of Doomfront: Iron Breach?",
+        "You fight your way through five sectors, starting with industrial bunkers and ending at the Overlords fortress. The game is about pushing forward through each area."
+      ],
+      [
+        "How do I shoot?",
+        "Use a mouse click, or tap the screen if you are playing on a touch device. The game uses this single action to play."
+      ]
+    ]
+  },
+  "robotu-rebellion": {
+    "intro": "You control a robot trapped in a dangerous factory and must find a way out. Dodge lasers, traps, and hostile security robots while you search for hidden paths and hack machines.",
+    "tips": [
+      "Watch lasers and mechanical traps for a moment before you move, so you can spot their timing and pattern.",
+      "Use stealth when you can. Slipping past a security robot may be safer than engaging every enemy you see.",
+      "Save your mouse attacks for robots you can reach without being surrounded, and back off if more enemies approach.",
+      "Check corners and edges of each area for hidden paths before committing to a single route.",
+      "Study the layout of a security puzzle or machine before you start hacking, so you know what you are working toward."
+    ],
+    "faq": [
+      [
+        "What is the goal of Robotu Rebellion?",
+        "Your goal is to escape the factory by searching for a way out, solving security puzzles, and hacking machines while avoiding lasers, traps, and security robots."
+      ],
+      [
+        "How do I move and attack?",
+        "Use W, A, S, and D to move your robot, and use the mouse to attack."
+      ]
+    ]
+  },
+  "cosmetic-run": {
+    "intro": "Cosmetic Run is a running game where you race as makeup brushes and stylish runner girls through glamorous tracks. Dodge spills, collect highlighters, and finish with a beauty look.",
+    "tips": [
+      "Watch the track ahead rather than just your character, so you have time to react before a makeup spill reaches you.",
+      "Use quick taps for small adjustments and hold the click when you need to keep moving steadily in one direction.",
+      "Plan your route toward the glowing highlighters early, and avoid detours that take you into messy spills.",
+      "Stay calm near the finish line so you can focus on building the beauty look before you cross it."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Cosmetic Run?",
+        "Race along the glamorous track, dodge messy makeup spills, collect glowing highlighters, and create the beauty look before crossing the finish line."
+      ],
+      [
+        "How do I control my character?",
+        "Tap or hold the mouse click to move. Short taps are good for small changes, while holding the click keeps you moving."
+      ]
+    ]
+  },
+  "ridge-racer-2d": {
+    "intro": "Ridge Racer 2D is an off-road physics racer where you drive custom vehicles up rugged inclines to reach the peak. Keep your momentum steady, because one bad landing can end the run.",
+    "tips": [
+      "Use short, controlled presses of A/D or Left/Right instead of holding the key down, so you can respond to the terrain as it changes.",
+      "Watch the slope ahead before a climb and ease your speed in time, since carrying too much momentum into steep sections can cause a wipeout.",
+      "Keep your vehicle balanced on uneven ground rather than rushing, because stability matters more than raw speed on treacherous inclines.",
+      "Learn the layout of each track by playing it a few times, so you know where the big obstacles and steep sections appear.",
+      "If you upgrade your vehicle, choose changes that suit the terrain you struggle with most, such as the climbs where you tend to lose control."
+    ],
+    "faq": [
+      [
+        "What is the goal of Ridge Racer 2D?",
+        "Drive your vehicle across extreme off-road tracks and reach the peak of each incline without wiping out."
+      ],
+      [
+        "How do I control the vehicle?",
+        "Use A and D or the Left and Right arrow keys to drive."
+      ]
+    ]
+  },
+  "toca-hidden-stars": {
+    "intro": "Toca: Hidden Stars is a hidden object puzzle where you search colorful scenes full of friendly characters, animals, and cozy places to find well-concealed stars. Use your mouse to look closely and spot them.",
+    "tips": [
+      "Scan each scene in sections, from left to right and top to bottom, so you don't skip areas you've already passed.",
+      "Look closely at the edges of the screen and behind larger objects, since stars are often tucked away where they are easy to miss.",
+      "Pay attention to small details like corners, shadows, and background items, because a star can blend into a busy scene.",
+      "Take a short break and look again with fresh eyes if you feel stuck, as a missed star is often in plain sight.",
+      "Enjoy the characters and locations as you go, since the scenes are designed to reward careful exploration."
+    ],
+    "faq": [
+      [
+        "What is the goal of Toca: Hidden Stars?",
+        "Your goal is to find the cleverly hidden stars in each colorful scene. Every level has its own set of details to explore."
+      ],
+      [
+        "How do I control the game?",
+        "The game is played with a mouse. Move the cursor over the scene and click to interact with the items you find."
+      ]
+    ]
+  },
+  "blocky-shooter-game": {
+    "intro": "Blocky Shooter Game is a block-style shooting game where you move across battlefields, aim at enemies, and fire to survive each encounter. Each level adds new challenges to meet.",
+    "tips": [
+      "Pick your position before you shoot. Find a spot with a clear view of the enemies and some cover from obstacles.",
+      "Aim carefully instead of firing constantly. Accurate shots are more useful than rapid, wasted ones.",
+      "Keep moving between encounters so you are not an easy target. Stay alert for enemies that appear from different directions.",
+      "Pay attention to the obstacles in each environment. Use them to block incoming fire while you line up your next shot.",
+      "Expect each new level to ask for quicker reactions. Practice on the earlier levels to get comfortable with the aiming and movement."
+    ],
+    "faq": [
+      [
+        "What is the goal of Blocky Shooter Game?",
+        "Your goal is to defeat opponents and survive every encounter across the different combat environments."
+      ],
+      [
+        "How do I control the game?",
+        "Use your mouse to click any button in the game. Move around the battlefield, aim at your targets, and fire to take them down."
+      ]
+    ]
+  },
+  "ball-packing-master-puzzle-fill-box": {
+    "intro": "Sort colorful balls into the correct boxes across increasingly challenging levels. This guide covers how to drag balls, plan moves, and use boosters to finish every level.",
+    "tips": [
+      "Before you drag anything, look at the whole board and note which boxes hold which colors. Knowing where each color belongs helps you avoid moves you will need to undo.",
+      "Plan two or three moves ahead instead of reacting to each ball. Clearing a box early can free up space for the balls that are stuck.",
+      "Use boosters when you are stuck rather than guessing. Save them for harder levels where a wrong move could leave you short of room.",
+      "Drag slowly and check where the ball lands before you let go. A ball placed in the wrong box can block the balls behind it.",
+      "If a level feels impossible, stop and reread the board before trying again. A calm review of the colors and box layout often shows a clear next step."
+    ],
+    "faq": [
+      [
+        "How do I move a ball?",
+        "Click and drag a ball with the mouse, or tap and drag it on a touch screen, then drop it into the box you want."
+      ],
+      [
+        "What is the goal of each level?",
+        "Sort every ball into the correct box so that all the balls are completed."
+      ]
+    ]
+  },
+  "rooster-ranch": {
+    "intro": "Rooster Ranch is a calm egg-matching puzzle set on a sunny farm. Send eggs into your nest tray, group three of the same color to hatch a chick, and clear crates and paths across 1000 levels.",
+    "tips": [
+      "Before you tap an egg, check that its path to the tray is fully open, since an egg can only leave when the way is clear.",
+      "Keep an eye on how full the nest tray is, because a full tray ends the level, and avoid sending in eggs that won't match a group you can finish.",
+      "Look for the egg that is blocking others and clear that path first, which often frees several eggs at once.",
+      "Save Undo for a real mistake rather than using it early, so you still have it when a level gets tight.",
+      "Use Magnet when a matching egg is hard to reach, and Hammer when a crate is the thing blocking your path."
+    ],
+    "faq": [
+      [
+        "How do I move an egg?",
+        "Click or tap an egg to send it along the open path into your nest tray."
+      ],
+      [
+        "What happens if the tray fills up?",
+        "If the nest tray fills up, the level is lost, so plan moves to keep space open."
+      ]
+    ]
+  },
+  "highway-rush-overdrive": {
+    "intro": "Highway Rush Overdrive is an arcade driving game where you race through a city, weave between traffic, and chain near misses to unleash Overdrive. Clicking or tapping is all you need to get started.",
+    "tips": [
+      "Watch the gaps in traffic several cars ahead rather than only the car directly in front of you, so you can line up your next move early.",
+      "Chain near misses on purpose when it is safe to do so, since chaining them is what leads to Overdrive.",
+      "Avoid stacking yourself into a corner with cars on both sides, because a single collision can break a run you have been building.",
+      "Stay calm and make small, timely inputs instead of rapid clicking or tapping, which tends to cause overcorrections.",
+      "Try a few short runs to learn how the traffic patterns repeat, then use that knowledge to plan longer chains."
+    ],
+    "faq": [
+      [
+        "How do I control the car?",
+        "The game is played with mouse clicks or taps. Use timed inputs to weave through traffic rather than clicking as fast as you can."
+      ],
+      [
+        "What is the main goal?",
+        "Race through the city, weave through traffic, and chain near misses to unleash Overdrive. Staying in play while you build your chain is the key objective."
+      ]
+    ]
+  },
+  "assassins-hunt": {
+    "intro": "Assassins Hunt is a top-down stealth shooter set on the Wild West frontier. You play a lone gunslinger who eliminates corrupt sheriffs, outlaws, and patrol guards across 100 levels.",
+    "tips": [
+      "Approach enemies from behind, since sneaking up on them is how you eliminate them silently. Keep your distance until you have a clear path to their back.",
+      "Look for TNT barrels before you act. A single explosion can set off a chain reaction and take out several enemies at once.",
+      "Move carefully and stay in the shadows while you plan your route. Quiet movement gives you more chances to reach targets unnoticed.",
+      "Study each level's layout before you move, so you know where the patrol guards walk. Timing your moves around them keeps your approach silent.",
+      "Treat each level as a puzzle and try different approaches if one fails. Some challenges reward a quieter route, while others may suit an explosive one."
+    ],
+    "faq": [
+      [
+        "How do I eliminate enemies without being noticed?",
+        "Sneak up behind an enemy and eliminate them silently. Stealth assassinations are the core of the game."
+      ],
+      [
+        "What are the TNT barrels good for?",
+        "TNT barrels create explosive chain reactions. Use them to take out groups of enemies in one move."
+      ]
+    ]
   }
 }
