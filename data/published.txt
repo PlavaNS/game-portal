@@ -183,6 +183,7 @@ animal-royal
 animal-shape-puzzle
 animal-shifting-transform-run
 animal-transform-race
+animal-word-search-quest
 animals-battle
 animals-vs-zombies
 anime-avatar-maker-anime-doll
@@ -327,6 +328,7 @@ backrooms-slender-horror
 backslash-slash
 backyard-car-parking
 bad-cat-simulator-pet-game
+badabump
 badland
 badlands-hero
 baggage-out
@@ -429,6 +431,7 @@ beep-out
 ben-10-alien
 ben-10-run
 ben10-omnirush
+best-buds
 besties-chinese-new-year-celebration
 besties-halloween-fashionista
 besties-on-wednesday
@@ -515,6 +518,7 @@ block-vs-block-ii
 block-zero
 blockapolypse-zombie-shooter
 blockgunner
+blockibo-color-blocks
 blockivo
 blocks-adventure-jungle-saga
 blocks-merge
@@ -795,6 +799,7 @@ candy-cutter-saga
 candy-egg-blast
 candy-for-capybara
 candy-mahjong-3d
+candy-match-pop
 candy-match-saga-2
 candy-pop-mania
 candy-shop-3d-match-puzzle
@@ -1297,6 +1302,7 @@ dash-masters
 dashmash-io
 dd-bubble-up
 dead-city-zombie-survival
+dead-end-depot
 dead-land-survival
 dead-lands-driver-open-world
 dead-paradise
@@ -1920,6 +1926,7 @@ fruit-fusion
 fruit-lane-cafe
 fruit-madness
 fruit-mahjong
+fruit-match-3-championship
 fruit-merge-juice-jumble
 fruit-merge-mania
 fruit-names
@@ -1997,6 +2004,7 @@ gears-of-war-platformer
 geek-escape-run-for-survival
 gelatino
 gem-clicker
+gem-mahjong
 geo-metric-run
 geom-etrys
 geometry-arrow
@@ -2195,6 +2203,7 @@ happy-color-sort-puzzle
 happy-coloring-book
 happy-farm-1-line-puzzle
 happy-fluffy-cubes
+happy-food-link
 happy-gunman
 happy-jelly
 happy-obby-land
@@ -2688,6 +2697,7 @@ limo-city-taxi-driver
 line-color-2d
 line-control
 line-of-defense
+lineo
 lipuzz-water-sort-puzzle
 liquid-sort
 liquid-sort-puzzle
@@ -2741,6 +2751,7 @@ luna-and-the-magic-maze
 mad-city-matrix
 mad-day-2-special
 mad-day-special
+mad-hatter-rush
 mad-joker
 mad-mad-unicorn
 mad-max-zombie-arena
@@ -2772,6 +2783,7 @@ magical-unicorn-grooming-world-pony-care
 magikmon
 magline-moto
 magnet-master-3d
+magnet-sort
 mahjong-3
 mahjong-3d-match
 mahjong-chef
@@ -2825,6 +2837,7 @@ master-of-break-an-eggs
 master-of-numbers
 master-of-riding-a-pet
 masterpiece-unharmed
+match-3-forest-crew
 match-3d-puzzle-mania
 match-4
 match-challenge
@@ -2864,6 +2877,7 @@ mega-fall-ragdoll-simulator
 mega-jump
 mega-parkour-obby-escape-run
 mega-ramp-car
+mega-ramp-car-stunt-racing
 mega-ramp-car-stunts-gt-racing
 mega-ramp-stunt-moto-fun-and-run-3d-game
 mega-sweet-fruits-popper
@@ -2873,6 +2887,7 @@ melodys-adventure-2
 melon-maker-fruit-game
 mem-brawl-merge-simulator
 memory-cards
+memorya
 memorybot
 meow-captcha
 meow-pair-pop
@@ -2889,6 +2904,7 @@ merge-battler
 merge-beast-arena
 merge-beasts
 merge-builders
+merge-cars-defense
 merge-cars-tycoon
 merge-cats-2048
 merge-cats-idle-army
@@ -3123,6 +3139,7 @@ mr-shooter
 mr-stickman
 mr-tung-shoot-zombie
 mtb-downhill-extreme
+mud-offroad-monster-truck-game
 mud-trails-4x4-jeep-game
 mud-truck-simulator-game
 multi-surgery-hospital-games
@@ -3198,6 +3215,7 @@ neon-circuit-rush
 neon-goal
 neon-jumper
 neon-maze
+neon-nexus-3d
 neon-shot
 neon-snake
 neon-square-rush
@@ -3382,6 +3400,7 @@ obby-weapon-rush
 obbytycoon-money-tycoon
 obunga-nextbot-spot-difference
 ocean-dash
+ocean-match-crush
 ocean-pop
 octo-stickers-merge-and-stick
 octobeer
@@ -3409,6 +3428,7 @@ offroad-truck-driving-simulator
 offroad-vehicle-explorer
 offshore-jeep-race-3d
 oil-rig-driller
+oink-escape
 okay
 ola-solitaire
 on-fire-basketball-shots
@@ -3958,6 +3978,7 @@ rocket-rush
 rodha
 rogue-runner
 roll-away-3d
+roll-ball-hole-puzzle
 roll-king
 roll-kingdoms
 roll-rush
@@ -3998,6 +4019,7 @@ rough-ball
 round-rush-jam
 rowly-word-association
 royal-couple-halloween-party
+royal-jelly-jam
 royal-jewels-match
 royal-smash-puzzle-game
 rpg-idle-clicker
@@ -4099,6 +4121,7 @@ school-stories-teacher-sim
 schoolboy-escape-from-parents
 schoolboy-escape-runaway
 schoolboy-runaway-room-escape
+scientist-and-robot
 scoop-empire
 scp-173-foundation-escape
 scrap-arms-neo
@@ -4281,6 +4304,7 @@ smash-yard
 smashers-io
 smashsite-io
 smod-sandbox-in-backrooms
+snack-and-warp
 snack-sort
 snack-stack
 snackrab
@@ -4327,6 +4351,7 @@ snow-drifting-3d-champ-2024
 snow-mo-cannon-shooting-game
 snow-plow-inc
 snow-plowing-simulator
+snow-rider-neo
 snow-rush-3d
 snow-slider-3d
 snow-track-racing-3d
@@ -4495,6 +4520,7 @@ stand-on-the-right-color-robby
 star-rank-heroes
 star-wing
 starpoly
+starship-ducks
 starship-troopers
 starweave-star-puzzle
 steal-a-bird
@@ -4733,6 +4759,7 @@ survival-rush
 survival-sandbox-for-99-nights
 survival-tycoon-city-of-zombie
 survival-wave-zombie-multiplayer
+survivalist
 survive-lava-for-brainrots
 survive-the-disasters-obby
 survive-the-glass-bridge
@@ -5007,6 +5034,7 @@ trash-master
 trash-sort
 treadbreaker
 treasure-quest
+treasurebound
 trench-tycoon-toy-army-defense
 trend-family-merge-arena
 tri-peaks-emerland-solitaire
@@ -5154,6 +5182,7 @@ void-roller
 void-shot
 volley-beans
 volley-clash
+volzo
 voxel-atelier
 voxel-master
 voxel-playground-ragdoll-noob
@@ -5182,6 +5211,7 @@ warfare-area
 warfare-area-3
 warlock-king-castle-defense
 warrior-bee-apocalypse
+warrior-way
 warriors-vs-evil-spirits
 wars-island-management
 wars-ships-io
