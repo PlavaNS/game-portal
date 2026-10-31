@@ -187,6 +187,7 @@ anime-avatar-maker-anime-doll
 anime-couple-dress-up
 anime-girl-fashion-make-up
 anime-girl-high-school-simulator
+anime-mom-family-life-simulator
 anna-s-story-dress-up-diy
 annoying-boss-game
 annoying-cousins-punch-game
@@ -482,6 +483,7 @@ block-breaker-game
 block-builder-jam
 block-combo-blast
 block-craft-3d-school
+block-drop-escape-puzzle
 block-ice-puzzle
 block-island-destroyer
 block-master-gem-puzzle
@@ -619,6 +621,7 @@ braveward
 brawl-simulator-3d
 brazen-ball
 brazil-cup-2014
+breach-ops
 break-a-lucky-block
 break-a-lucky-egg-brainrots
 break-a-tower-obby
@@ -746,6 +749,7 @@ bus-parking-out
 bus-rush
 bus-school-park-driver
 bus-simulator-3d-bus-coach
+bus-simulator-game-2026
 bushman-bamboo
 business-go
 busy-bites-tycoon
@@ -754,6 +758,7 @@ butterfly-dash
 butterfly-matching
 buttocks-time
 buttons
+cadillacs-dino-riot
 cage-ballers-football
 cake-maker-girls-cooking-games
 cake-master-shop
@@ -1001,6 +1006,7 @@ clawler-fight
 clean-kitty
 clean-the-garden
 clean-up-mini-games
+clearfell-forest-outpost
 click-and-colors-dinosaurs
 click-and-idle-slimes
 click-click-clicker
@@ -2136,6 +2142,7 @@ halloween-monsters-merge
 halloween-shuffle
 halloween-stickman
 halloween-stickman-2
+halloween-tile-tumble
 hammer-strike
 hamster-escape-prison
 hand-daily
@@ -2337,6 +2344,7 @@ hydro-racing-3d
 hyper-cars-ramp-crash
 i-am-crazy-bird
 i-can-paint
+i-get-you
 i-want-ice-cream
 i-want-to-be-king
 ice-and-fire-twins
@@ -2623,6 +2631,7 @@ lift-the-girl
 light-it-rush
 light-stream
 lighthouse-mage-idle-defense
+ligmar-online
 limited-defense
 limo-city-taxi-driver
 line-color-2d
@@ -2709,6 +2718,7 @@ magic-tri-peaks-solitaire
 magic-water-sort
 magical-unicorn-grooming-world-pony-care
 magikmon
+magline-moto
 magnet-master-3d
 mahjong-3
 mahjong-3d-match
@@ -2871,6 +2881,8 @@ micro-gt-racing
 microgic-89
 microplastics-feeding
 midnight-taxi-hustle
+midnight-valet
+midway-malarkey
 mike-and-mia-1st-day-school
 mike-lost-in-desert-hidden-object
 miki-oath
@@ -3057,6 +3069,7 @@ mr-stickman
 mr-tung-shoot-zombie
 mtb-downhill-extreme
 mud-trails-4x4-jeep-game
+mud-truck-simulator-game
 multi-surgery-hospital-games
 mummy-land
 murder-mafia
@@ -3373,6 +3386,7 @@ oxy-arena
 pacific-ocean-adventure
 paco-paco
 pager-war
+paint-and-escape
 paint-and-roll
 paint-pop-3d
 paint-quest-kiddo
@@ -3504,6 +3518,7 @@ pixel-gun-apocalypse-9
 pixel-hero-survivor
 pixel-jam-bus-puzzle
 pixel-paint-sort
+pixel-protocol
 pixel-shooter-puzzle
 pixzombies
 pizza-delivery-drive-and-deliver-hot
@@ -3538,6 +3553,7 @@ pocketgolf
 point-to-merge
 poison-candy-obby-1-or-2-player
 police-car-chase-prison-escape-game
+police-car-chaser
 police-car-parking-2026
 police-car-parking-game
 police-car-stunt-challenge
@@ -3759,6 +3775,7 @@ reaper-s-graveyard-shift
 rebound-rascals
 reckless-roller-fun-park
 recoil
+recoils
 recycle-game
 red-and-blue-cat
 red-and-blue-online-build-destroy-fight
@@ -3830,6 +3847,7 @@ road-gunner-3d
 road-madness
 road-race-3d
 road-rage
+road-restore
 roads-off-fury
 roadster-dash-halloween-night
 roar-of-city
@@ -3912,6 +3930,7 @@ royal-couple-halloween-party
 royal-jewels-match
 royal-smash-puzzle-game
 rpg-idle-clicker
+rubber-doodle
 rule-out-the-dangerous-circle
 rumbox-designer
 run-and-jump-jumbo-runner
@@ -3970,6 +3989,7 @@ savage-defenders
 save-her-tour
 save-king
 save-kitten
+save-my-human
 save-my-pet-game
 save-nemo
 save-the-baby-home-rush
@@ -4115,6 +4135,7 @@ skibronx-runner
 skill-driver-game
 skincare-makeover-makeup-game
 skip-love
+sky-ace-stunt-plane-islands
 sky-ball-adventure-3d
 sky-balls-3d
 sky-blocks-falling
@@ -4214,6 +4235,7 @@ sneaky-spikes
 sniper-attack2
 sniper-clash-3d
 sniper-for-brainrots
+sniper-hero-urban-strike
 sniper-king-2d-the-dark-city
 sniper-master
 sniper-mission-war
@@ -4302,6 +4324,7 @@ special-ops-go
 special-strike-zombies
 speed-car-race-madness
 speed-chaos-crazy-race
+speed-evolution
 speed-per-click-obby
 speed-pool-king
 speed-rush-simulator
@@ -4321,10 +4344,12 @@ spinner-clicker-2d
 spinning-cat-clicker
 spinning-oia-oia-cat-bricker
 spiral-blitz
+splash-rivals
 splatcha
 sponge-challenge
 sponge-strike-clean-and-smash
 spookily-stylish-duo
+spooky-boxing
 spooky-halloween-makeover
 spooky-racing
 spooky-vending-machine-2
@@ -4544,6 +4569,7 @@ summer-rider-3d
 summer-shore-hustle
 summon-tribe
 sumo-fury
+sunfield-vegetable-farm
 sunny-bay-heroes
 sunny-farm-animal-simulator
 sunny-farm-match-3
@@ -4900,6 +4926,7 @@ trial-xtreme
 triangle-run
 triangle-way
 tribal-zuma
+trick-or-treat-candy-carnival
 trick-your-brain-puzzle
 tricky-prank-annoying-quest
 tricky-puzzle-brain-test
@@ -5026,11 +5053,13 @@ viaducts
 vials-asmr-sand-sort-puzzle
 vikings
 vikings-an-archer-s-journey
+villadash-hero-rescue
 village-of-colors
 violent-shooter
 vizavi
 vlinder-garden-dress-princess
 vlinder-girl-fashion-story
+void-rescue
 void-roller
 void-shot
 volley-beans
@@ -5219,6 +5248,7 @@ zodiac-runner
 zombie-apocalypse-bunker-survival-z
 zombie-apocalypse-now-survival
 zombie-apocalypse-tunnel-survival
+zombie-barrage
 zombie-bears-night-shooting
 zombie-can-t-jump
 zombie-catchers
