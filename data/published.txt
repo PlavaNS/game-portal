@@ -736,6 +736,7 @@ bus-escape-clear-jam
 bus-jam-pick-up-them-all
 bus-jam-sort
 bus-mania-parking-puzzle
+bus-master-road-journey
 bus-n-ball-jam
 bus-out-bus-away-traffic-jam
 bus-parking-out
@@ -750,6 +751,7 @@ butterfly-dash
 butterfly-matching
 buttocks-time
 buttons
+cage-ballers-football
 cake-maker-girls-cooking-games
 cake-master-shop
 cake-ready
@@ -790,6 +792,7 @@ capybara-let-s-go-zombie-rush
 capybas
 car-care-repair-dudu-mechanic
 car-cargo-ship-simulator-game
+car-carrier-truck-highway-master
 car-chase
 car-chase-parking
 car-collision-master
@@ -818,6 +821,7 @@ car-mechanic-simulator-2025
 car-modding-contest
 car-park-simulator
 car-parking-driving-game
+car-parking-master-3d
 car-parking-simulator-3
 car-racing
 car-real-simulator
@@ -846,6 +850,7 @@ career-rush
 cargo-path-puzzle
 cargo-truck-game
 cargo-truck-simulator-2025
+carletto-halloween-dreams
 carmania-io
 carrom-club
 carrush
@@ -861,6 +866,7 @@ castel-war-3d
 castel-wars
 castel-wars-middle-ages
 castle-claw
+castle-crashers-stolen-sun
 cat-and-granny
 cat-boba-tea-food-asmr-master
 cat-box-merge
@@ -1032,6 +1038,7 @@ color-blast-puzzle
 color-brain-test-games
 color-brawls
 color-by-numbers-anti-stress-drawings
+color-coin-merge
 color-cube-puzzle
 color-dash-chameleon-runner
 color-dots-challenge
@@ -1139,6 +1146,7 @@ crazy-buggy-demolition-derby
 crazy-bus-station
 crazy-car-drive-road-challenge
 crazy-car-driving-3d-simulator
+crazy-cart
 crazy-cone-sweeper
 crazy-difficult-game
 crazy-downhill-ragdoll-fall-down
@@ -1520,6 +1528,7 @@ egg-escape-tycoon
 egg-hill-climb
 egg-thief
 egging-on
+eggmental
 el-clasico
 elastic-car-3d
 elastic-man
@@ -1847,6 +1856,7 @@ frontline-assault-battleground-fire-max-shooting
 frontline-commando-shooting-gun-games
 frost-land-snow-survival
 frostport
+fruit-box-sort
 fruit-chopper
 fruit-cutter-fun
 fruit-drop-3d
@@ -2006,6 +2016,7 @@ good-sort-master-triple-match
 goodnight-my-baby
 goods-sort-3d
 goods-sort-3d-triple-puzzle
+goods-sort-match-puzzle
 gooey-lab
 gorbo-the-orc-crown-quest
 gorilgo-fps-online-shooter
@@ -2215,6 +2226,7 @@ hide-and-luig
 hide-and-seek-blue-monster
 hide-and-seek-friends
 hide-and-seek-horror-escape
+hide-and-seek-transform-props
 hide-from-school
 hide-heist
 hide-n-seek
@@ -2492,6 +2504,7 @@ kingdom-defense
 kingdom-defense-mega
 kingdom-master
 kingdom-tower-defense
+kingmoon
 kings-defense-roguelike
 kitchen-sorting
 kitten-connections
@@ -2758,6 +2771,7 @@ maze-maker
 mazean-com
 mech-battle-arena
 mech-frontline-last-stand
+mecha-screw-3d
 mechangelion-robot-fight
 mechanic-simulator-car-repair
 mechaspider-cyber-strike
@@ -2779,6 +2793,7 @@ memory-cards
 memorybot
 meow-captcha
 meow-pair-pop
+meow-squad-zombie-defense
 meow-sudoku
 mercenary-keep-siege-defense
 merge-13
@@ -2791,6 +2806,7 @@ merge-battler
 merge-beast-arena
 merge-beasts
 merge-builders
+merge-cars-tycoon
 merge-cats-2048
 merge-cats-idle-army
 merge-combo
@@ -2907,6 +2923,7 @@ mochi-rescue
 model-wedding-girl-games
 modern-fps-strike-zombie-gun-war-ops
 modern-sniper-gun-game-sniper-3d
+modern-strike-shooting-game
 mole-dig-clicker
 mole-in-the-hole
 mole-kingdom-defense
@@ -3019,6 +3036,7 @@ mr-shooter
 mr-stickman
 mr-tung-shoot-zombie
 mtb-downhill-extreme
+mud-trails-4x4-jeep-game
 multi-surgery-hospital-games
 mummy-land
 murder-mafia
@@ -3077,6 +3095,7 @@ narutovsbleach
 natural-disaster-survival-obby
 naughty-baby-prankster
 naval-base
+nebula-marshal
 need-for-drift
 needfor-race
 needle-rush
@@ -3090,6 +3109,7 @@ neon-shot
 neon-snake
 neon-square-rush
 neon-velocity
+nest-heist
 netherton-volleyball
 never-by-color
 newbie-s-escape-from-blogger-prison
@@ -3127,6 +3147,7 @@ nitro-cars-highway-racer
 nitro-kick
 nitro-racing-gear
 nitro-speed-car-racing
+nitrovenant-2
 no-i-m-not-a-plankton
 no-shorts
 nomad-guardians
@@ -3180,6 +3201,7 @@ nuts-and-bolts-game-wood-puzzle
 nuts-bolts-sort
 nuts-puzzle-sort-by-color
 nutty-rush
+nutty-rush-kart
 o-m-i-n-o
 obbie-zombie-land
 obby-1-click-wall-breaker
@@ -3215,6 +3237,7 @@ obby-escape-from-lava-and-survive
 obby-extreme-cart-ride
 obby-fishing-catch-the-megalodon
 obby-football-soccer-3d
+obby-keyboard-run-1-speed
 obby-keyboard-worlds-1-speed-and-jump
 obby-king-of-the-hill
 obby-maker
@@ -3262,6 +3285,7 @@ obby-way
 obby-weapon-rush
 obbytycoon-money-tycoon
 obunga-nextbot-spot-difference
+ocean-dash
 ocean-pop
 octo-stickers-merge-and-stick
 octobeer
@@ -3325,6 +3349,7 @@ outpost-9
 outside
 owl-block
 owl-hunter
+oxy-arena
 pacific-ocean-adventure
 paco-paco
 pager-war
@@ -3344,6 +3369,7 @@ panda-fight
 panda-go
 panda-hair-do
 panda-lu-treehouse
+panda-run-1
 panellka-build-a-tower
 paper-craft-wars
 paper-doll-diary-chibi-dolls
@@ -3556,6 +3582,7 @@ power-puncher
 prado-car-driving
 prado-parking-game
 prasino
+precision-parking-city-driver
 precision-parking-pro
 pregnant-mom-simulator-family-life
 pregnant-mother-simulator
@@ -3763,6 +3790,7 @@ rider-2
 rider-online-pro
 riders-downhill-racing
 rift-of-hell-demons-war
+rim-rebels-3v3
 ring-fall-puzzle
 ringo-starfish
 rings-and-dot
@@ -3822,6 +3850,7 @@ roll-kingdoms
 roll-rush
 roll-sky-ball-3d
 roll-to-riches
+roll-tycoon
 rollance-going-balls
 roller-coaster-simulator
 roller-for-brainrots
@@ -4146,6 +4175,7 @@ snake-out
 snake-simple-retro-game
 snake-tangle
 snake-train-zone
+snake-vs-ai
 snake-warz
 snake-wiggle-master
 snakearmydefense
@@ -4268,6 +4298,7 @@ spiral-blitz
 splatcha
 sponge-challenge
 sponge-strike-clean-and-smash
+spookily-stylish-duo
 spooky-halloween-makeover
 spooky-racing
 spooky-vending-machine-2
@@ -4419,6 +4450,7 @@ stickman-rescue-draw-2-save
 stickman-rush
 stickman-shooter-2
 stickman-simulator-final-battle
+stickman-skybow
 stickman-sports-badminton
 stickman-street-fighting
 stickman-street-fighting-3d
@@ -4433,6 +4465,7 @@ stickman3d-shooter
 stickninja-mission
 stock-car-hero
 stonks
+storky-survivors
 storm-dash
 story-of-alcana
 strategy-of-war-tanks-and-helicopters
@@ -4758,6 +4791,7 @@ tile-stack
 tile-valley
 tiles-hop-edm-rush
 tilt-and-tumble
+timber-truck-city-cargo-driver
 time-of-adventure-finno-and-jacky
 time-of-adventure-ice-king
 time-puzzle
@@ -4872,6 +4906,7 @@ tung-sahur-io
 tung-tung-sahur-hidden-bedug
 tung-tung-sahur-lol-face
 tung-tung-super-sahur
+turbo-boat-runner-3d
 turbo-crash-test
 turbo-drive-mode-blitz
 turbo-horizon-racing
@@ -4946,6 +4981,7 @@ vampire-survival
 van-rush
 vangers-hd
 vector-parkour
+vector-strike
 vega-mix-2-adventure
 vegan-quest
 veggie-harvest
@@ -4963,6 +4999,7 @@ vikings-an-archer-s-journey
 village-of-colors
 violent-shooter
 vizavi
+vlinder-garden-dress-princess
 vlinder-girl-fashion-story
 void-roller
 void-shot
