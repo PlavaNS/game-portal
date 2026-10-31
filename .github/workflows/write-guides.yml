@@ -1,7 +1,10 @@
 name: Write game guides (Claude API)
 
-# Manual for now: Actions -> "Write game guides" -> Run workflow.
+# Runs every day after the daily feed refresh, so every new game gets its guide the same day.
+# Manual run: Actions -> "Write game guides" -> Run workflow.
 on:
+  schedule:
+    - cron: '47 12 * * *'
   workflow_dispatch:
     inputs:
       count:
@@ -41,18 +44,18 @@ jobs:
           SITE_BASE: ${{ vars.SITE_BASE }}
           CNAME: ${{ vars.CNAME }}
       - name: Write guides
-        run: node scripts/write-guides.mjs "${{ inputs.count }}"
+        run: node scripts/write-guides.mjs "${{ inputs.count || '150' }}"
         timeout-minutes: 300
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.ILOVEWEBGAMES }}
-          GUIDE_CONC: ${{ inputs.conc }}
+          GUIDE_CONC: ${{ inputs.conc || '4' }}
       - name: Commit guides
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add data/guides.json
           git diff --cached --quiet && { echo "no changes"; exit 0; }
-          git commit -m "SEO: Claude-written guides for most played games"
+          git commit -m "SEO: Claude-written guides for new games"
           git stash --include-untracked || true
           ok=0; for i in 1 2 3; do git pull --rebase && git push && { ok=1; break; }; sleep 5; done
           [ "$ok" = 1 ] || { echo "push failed"; exit 1; }
