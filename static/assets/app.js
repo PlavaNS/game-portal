@@ -31,6 +31,15 @@
     window.googlefc.callbackQueue.push(() => window.googlefc.showRevocationMessage && window.googlefc.showRevocationMessage());
   }));
 
+  // our own anonymous counter (no cookies, no personal data): which categories people open and which games they start.
+  // The daily build reads the totals to order the menu and the Most played lists.
+  const count = (kind, slug) => { try {
+    const K = 'sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k';
+    fetch('https://pxjlcbjwdalctlyeljql.supabase.co/rest/v1/site_events', { method: 'POST', keepalive: true,
+      headers: { apikey: K, Authorization: 'Bearer ' + K, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
+      body: JSON.stringify({ kind, slug }) }).catch(() => {});
+  } catch {} };
+  { const m = location.pathname.match(/^\/(?:[a-z]{2}\/)?c\/([a-z0-9-]+)\/(?:\d+\/)?$/); if (m) count('cat', m[1]); }
   // recently played row
   const recent = store.get('recent', []);
   const rec = $('[data-recent]');
@@ -67,6 +76,7 @@
     const play = () => {
       remember();
       try { window.gtag && gtag('event', 'play_game', { game_id: info.id, game_title: info.title }); } catch {}
+      count('play', info.id);
       if (mobile()) {
         const ov = document.createElement('div');
         ov.className = 'overlay';
