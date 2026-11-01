@@ -355,6 +355,7 @@ ballerina-cappuccina-loves-tung-tung-sahur
 ballon-race-3d
 balloon-pop-pop-and-blast
 balloon-smash
+balloons-pop
 balls-animal
 balls-bricks-breaker
 balls-pixel-art
@@ -561,6 +562,7 @@ bloxorz-color-block-roll
 blue-and-red-impostor
 blue-chameleon
 blue-tractor
+blumgi-merge-online
 bmg-crash-test
 bmg-crashday-2025
 bmg-ragdoll-car-race
@@ -690,9 +692,11 @@ bridge-dash
 bridge-fun-race
 bridge-race
 bridge-wars
+brikzo
 broom
 broomcraft-mystic-evasion
 brrbrr-patapim
+brush-cat-challenge
 brutal-battle-royale
 brutal-zombies
 bs-simulator
@@ -871,6 +875,7 @@ car-eats-car-winter-adventure
 car-escape
 car-escape-parking
 car-evolution-driving
+car-evolution-game
 car-games-car-racing-game
 car-madness-3d
 car-makeup
@@ -979,6 +984,7 @@ change-part-in-love-story
 chaos-arena
 chaos-road-combat-car-racing
 chaotic-spin
+charade-3d-game
 charge-my-phone
 charlotte-crossing-game
 chasinghunters
@@ -2050,6 +2056,7 @@ funny-shooter-2
 funny-shooter-destroy-all-enemies
 funny-snake-2
 funny-throat-surgery
+funny-volleyball
 funny-walk-fail-run
 furious-gt-drift
 furious-speed
@@ -2142,6 +2149,7 @@ go-octopus-find-pearl
 go-up
 go-up-samurai
 goal-io
+goalshot
 goblin-clan
 goblin-defense-merge
 god-of-entropy
@@ -2193,6 +2201,7 @@ granny-the-game
 grapple-grip
 grass-cutting-mowing-game
 grass-defense
+grass-flip
 grass-land
 grass-rush-adventure
 grave-blast
@@ -2304,6 +2313,7 @@ happy-zoo-mahjong-triple-match
 harbor-dispatch
 hard-crash-zombie-rush
 hard-flap
+hard-push-game
 hard-puzzle
 hard-puzzle-color-lines
 hard-working-man
@@ -2347,6 +2357,7 @@ hero-rescue
 hero-rescue-puzzle
 hero-sheep
 hero-time
+heroes-beware
 heroes-inc
 heroes-of-arena
 heroes-of-the-dungeons-match-3-rpg
@@ -2638,6 +2649,7 @@ jungle-game
 jungle-mart
 jungle-mart-idle-game
 jungle-suv-offroad-adventure
+jungle-tube-sort
 junkyard-builder-3d
 junkyard-keeper
 just-golf
@@ -3168,6 +3180,7 @@ money-rush
 monkeysweeper-mines-puzzles
 mononinja
 monopoly-online
+monster-bounce-game
 monster-cafe-idle-tycoon
 monster-cafe-idle-tycoon-127052
 monster-card-shop
@@ -3265,6 +3278,7 @@ mr-tung-shoot-zombie
 mtb-downhill-extreme
 mud-offroad-monster-truck-game
 mud-trails-4x4-jeep-game
+mud-truck-driving
 mud-truck-simulator-game
 multi-surgery-hospital-games
 mummy-candy
@@ -3564,6 +3578,7 @@ offroad-truck-driving-simulator
 offroad-vehicle-explorer
 offshore-jeep-race-3d
 oil-rig-driller
+oil-tanker-simulator
 oink-escape
 okay
 ola-solitaire
@@ -3621,6 +3636,7 @@ paintwars-shoot
 paletto
 palkovil-the-way-home
 panda-adventure
+panda-adventure-2026
 panda-fight
 panda-go
 panda-hair-do
@@ -3701,6 +3717,7 @@ pga3-survival
 phone-case-diy
 phone-case-diy-2
 physics-box-2
+physics-sandbox
 piano-hexa-fall
 piano-kids-music-songs
 piano-master
@@ -3735,6 +3752,7 @@ pirate-dodge
 pirates-merge-war-path
 pirates-tiles-challenge
 pistonio
+pixel-adventure-3d
 pixel-art-color-by-numbers
 pixel-color-flow
 pixel-color-quest
@@ -3784,6 +3802,7 @@ pocket-zone
 pocketgolf
 point-to-merge
 poison-candy-obby-1-or-2-player
+police-bus-driving
 police-car-chase-prison-escape-game
 police-car-chaser
 police-car-parking-2026
@@ -3878,6 +3897,7 @@ prison-escape-push-the-guards
 prison-survive-break-escape
 prisoners-run
 pro-football-eleven-2027
+pro-golfer-game
 pro-obunga-vs-creepender
 professional-archerist
 project-survival
@@ -4095,6 +4115,7 @@ road-restore
 roads-off-fury
 roadster-dash-halloween-night
 roar-of-city
+robbery-bob-game
 robbery-duel
 robbie-draw-your-sword
 robbie-tiktak-slot-machines
@@ -4268,6 +4289,7 @@ save-your-girl
 sawblade-fest-run
 say-cheese
 scale-kid-run-and-jump-up
+scale-the-depths
 scale-the-wheels
 scary-baby-in-yellow
 scary-granny-horror-maze-escape
@@ -4300,11 +4322,13 @@ sea-kings
 sea-legends-match-3
 sea-restore
 seafloor-racing
+season-change
 season-wiping-window
 secret-parkour
 sector-nine-lockdown
 sell-lemons-idle
 serial-cheaters
+serpento
 set-the-box
 seven-down
 shadobirds
@@ -4639,6 +4663,7 @@ spooky-vending-machine-2
 spore-guard
 sportbike-drive
 sportix
+sports-escape-mania
 sports-minibattles
 spotless
 spra-racing-cars-speed
@@ -4905,6 +4930,7 @@ super-santa-adventures
 super-sergeant-2
 super-shark-world
 super-slashman
+super-slime-black-hole
 super-stickman-duelist
 super-stickman-hook
 super-stunt-car-7
@@ -4927,6 +4953,7 @@ superhero-dentist-surgery-game-for-kids
 superhero-fighting-game
 superhero-transform-change-race
 supermarket-expert-idle
+supermarket-management-simulator
 supermarket-manager
 supermarket-simulator-dream-store
 supernova-the-charon-protocol
@@ -5266,6 +5293,7 @@ tsunami-steal-an-egg
 tug-of-heads
 tug-pull-crash-challenge
 tug-the-table-classic
+tuk-tuk-auto-rikshaw
 tumble-boat
 tumble-tower-survival
 tung-sahur-io
@@ -5451,6 +5479,7 @@ wheelchair-parkour-no-limits
 wheelie-bike-for-2-players
 where-are-the-puffies
 where-is-my-cat-the-adventure
+whirly
 whiskers-adventures
 who-says-pigs-can-t-fly
 wiggle-escape-snake-puzzle
@@ -5553,6 +5582,7 @@ yenemy
 yeti-run
 yoga-master-flex-running
 yolk-ops-egg-arena
+your-idle-farm
 your-majesty-build-and-conquer
 your-obby-escape
 your-obby-labyrinth
