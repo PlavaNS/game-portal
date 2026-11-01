@@ -341,7 +341,10 @@ try {
 const byCat = Object.fromEntries(CATS.map(c => [c.slug, []]));
 for (const g of all) for (const c of g.cats.all) byCat[c]?.push(g);
 byCat.mobile = all.filter(g => g.mobile);
-const activeCats = CATS.filter(c => byCat[c.slug].length >= 8);
+const CAT_ORDER = (readJSON(path.join(ROOT, 'data/cat-order.json'), {}).views) || {};
+// menu order: most visited category pages first (GA data in data/cat-order.json), then by number of games
+const activeCats = CATS.filter(c => byCat[c.slug].length >= 8)
+  .sort((a, b) => (CAT_ORDER[b.slug] || 0) - (CAT_ORDER[a.slug] || 0) || byCat[b.slug].length - byCat[a.slug].length);
 const top = (key, n) => games.filter(g => Number.isFinite(g.r[key])).sort((a, b) => a.r[key] - b.r[key]).slice(0, n);
 // newest on OUR site first (first-seen date), then the network's own 'newest' order
 const fin = x => Number.isFinite(x) ? x : 1e9;

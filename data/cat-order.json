@@ -1,0 +1,5 @@
+{
+  "note": "Menu order by category page views (Google Analytics, last 28 days). Categories not listed follow, sorted by number of games. Updated weekly by the daily ILoveWebGames task.",
+  "updated": "2026-11-01",
+  "views": { "puzzle": 16, "racing": 14, "action": 11, "girls": 10, "arcade": 9, "clicker-idle": 8, "stickman": 8, "3d": 7, "shooting": 7, "zombie": 7 }
+}
