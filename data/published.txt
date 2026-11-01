@@ -72,6 +72,7 @@
 456-survival-squid-challenge
 5-nights-at-tung-tung-hotel-horror-3d
 6x6-offroad-jeep
+8-ball-pool-2d
 9-ball-pool-3d
 99-night-survivor
 99-nights-in-the-forest
@@ -282,6 +283,7 @@ assault-on-squid-island
 assault-zone
 assemble-factory-puzzle
 astro-digger
+astro-merge
 astro-shooter
 attack-and-dash
 attack-hole
@@ -455,6 +457,7 @@ bike-stunt-master-mini-rush
 bike-stunt-racing-legend
 bike-stunts-2024
 biking-extreme-3d
+billiard-hustlers
 billiards-3d-russian-pyramid
 binary-drop
 bingo-mania
@@ -511,6 +514,7 @@ block-puzzle-prize-mania
 block-puzzle-tropical-story
 block-sculptor
 block-ship-battle
+block-sort-colormania
 block-sort-pirate-treasure
 block-sort-puzzle
 block-team-deathmatch
@@ -707,6 +711,7 @@ bucket-brigade
 bucket-crusher-asmr
 bucket-sort-3d
 buddy-and-friends-hill-climb
+budgie-spot-the-difference
 bug-crunch
 bug-war
 buggy-battle-royale
@@ -992,6 +997,7 @@ christmas-sledge-rider-3d
 chroma-trek
 chrome-dino-game-original
 chu-choo-cake
+chubby-duck-jump
 chubby-duck-offroad
 chubby-finn
 chute
@@ -1154,6 +1160,7 @@ counter-battle-strike-swat-multiplayer
 counter-craft-2-zombies
 counter-craft-3-zombies
 counter-craft-zombies
+counter-sniper-1-6-egypt
 counter-terror-battle-simulator
 courageous-sniper
 cow-cow-run
@@ -1342,6 +1349,8 @@ demon-killer
 dental-care-game
 dentist-doctor-teeth-surgery-hospital
 deorbit-space-survivors
+derby-car-smash-challenge
+derby-car-war-arena
 derby-racing
 desert-city-stunt
 desert-gunship
@@ -1521,6 +1530,7 @@ drill-the-snake
 drink-drive-survive
 drive-ahead-sports
 drive-and-crash-sandbox
+drive-and-park-master
 drive-car
 drive-chained-car-3d
 drive-crazy
@@ -1667,6 +1677,7 @@ extreme-car-driving-simulator
 extreme-car-parking-3d
 extreme-drift-racing
 extreme-formula-racing
+extreme-gear-shift-racing
 extreme-monster-truck
 extreme-motorcycle-simulator
 extreme-police-chase
@@ -2070,6 +2081,7 @@ going-up-rooftop
 gold-miner-tower-defense
 gold-rush-builder
 golden-boot-2022
+golden-fish
 golf-battle
 golf-cars-simulator
 golf-invaders
@@ -2081,6 +2093,7 @@ good-knight-story
 good-slice
 good-sort-master-triple-match
 goodnight-my-baby
+goods-master
 goods-sort-3d
 goods-sort-3d-triple-puzzle
 goods-sort-match-puzzle
@@ -2392,6 +2405,7 @@ hungry-squirrel
 hungry-warrior-fight
 hunters-and-props
 hunting-master
+hurdles
 huskeydoku
 hydro-racing-3d
 hyper-cars-ramp-crash
@@ -2528,6 +2542,7 @@ jumper
 jumper-jam
 jumpero
 jumping-bottle-3d
+jumpy-rabbits
 jungle-bricks-breaker
 jungle-fury-mutant-rhino-mayhem
 jungle-game
@@ -2599,6 +2614,7 @@ kitty-grid-puzzle
 kitty-jewel-quest
 kitty-kitty
 kitty-knight-survive-till-new-year
+klondike-solitaire-treasures
 knee-surgery-clicker
 knife-battle
 knife-run-game
@@ -2692,6 +2708,7 @@ light-it-rush
 light-stream
 lighthouse-mage-idle-defense
 ligmar-online
+lilliput-war
 limited-defense
 limo-city-taxi-driver
 line-color-2d
@@ -2819,6 +2836,7 @@ marblemaze2
 maritime-sniper
 marnyl-silence-the-haters
 mars-colony
+martian-builder-tycoon
 marvelous-girl-skate
 mary-run
 masha-and-bear-cooking-dash
@@ -3212,6 +3230,7 @@ neko-s-adventure
 neo-traffic-rider-championship
 neon-billard-pool
 neon-circuit-rush
+neon-city-drift-racing
 neon-goal
 neon-jumper
 neon-maze
@@ -3293,6 +3312,7 @@ noobik-parkour-in-a-cave
 noodle-pull
 not-before-bed-01
 novabrick-rush
+novaguard-sky-defense
 novahelm-tactical-strike
 novice-fisherman
 nubik-courier-an-open-world
@@ -3412,6 +3432,7 @@ off-road-overdrive
 office-escape-to-date
 offroad-4x4-driving-simulator
 offroad-cargo-truck-2024
+offroad-dirt-rally-racing
 offroad-driving-truck-transport
 offroad-jeep-driving-mountain-climb
 offroad-jeep-game-2026
@@ -4257,6 +4278,7 @@ slap-king
 slap-kings-fun-and-run-3d-game
 slap-master
 slap-master-3d
+slash-knight
 slasty-candy-tower
 sledding-hills
 sleepwalkers
@@ -4376,6 +4398,7 @@ sokoballs
 sokoban-puzzle-game
 sol-coalition-force
 soldiers-runner
+solitaire-8-collection
 solitaire-card-sort-puzzle
 solitaire-emperor-secrets-of-fate
 solitaire-klondike-treasure-island
@@ -4476,6 +4499,7 @@ squadz
 squard-shooter
 square-bird
 square-crusher
+square-fling
 square-hero-bird
 square-sort
 squeeze-n-slide
@@ -4797,6 +4821,7 @@ tac-tac-way
 tactical-response-team
 tag-valley
 taiga-expedition
+tailoff-io-snake-dragon-arena
 talking-veggies-meme-merge
 tall-and-rush
 tall-grass
@@ -4960,6 +4985,7 @@ tile-stack
 tile-valley
 tiles-hop-edm-rush
 tilt-and-tumble
+timber-squirrel
 timber-truck-city-cargo-driver
 time-of-adventure-finno-and-jacky
 time-of-adventure-ice-king
@@ -5141,6 +5167,7 @@ uphill-racer2
 urban-derby-stunt-and-drift
 urban-echo
 urban-farm-simulator-game
+urban-jump
 urban-military-strike
 urban-sniper-multiplayer
 urban-sniper-multiplayer-2
@@ -5183,6 +5210,7 @@ void-shot
 volley-beans
 volley-clash
 volzo
+vossk
 voxel-atelier
 voxel-master
 voxel-playground-ragdoll-noob
@@ -5211,6 +5239,7 @@ warfare-area
 warfare-area-3
 warlock-king-castle-defense
 warrior-bee-apocalypse
+warrior-clash
 warrior-way
 warriors-vs-evil-spirits
 wars-island-management
@@ -5229,6 +5258,7 @@ watermelon-merge-fruit-drop
 watermelon-merging
 watermelon-run
 watermelon-stack-3d
+wayfarers-return
 we-are-in-a-simulation-simulator
 we-not-survive
 weapon-run-3d-gun-shooter
@@ -5275,6 +5305,7 @@ wizard-io
 wizard-santa-jump
 wobble-it
 wobble-run
+woms-world-of-master-survivors
 wonder-goal-fun-football-kick
 wonder-vending-machine
 wood-blocks-jam
