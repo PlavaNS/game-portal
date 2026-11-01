@@ -222,5 +222,30 @@
     "embed": "https://sundryard.com/louvers/play/",
     "thumb": "https://ilovewebgames.com/assets/community/louvers.jpg?v=1",
     "orientation": "landscape"
+  },
+  {
+    "slug": "arrow-out",
+    "title": "Arrow Out",
+    "studio": "Arrow Out",
+    "studioUrl": "https://arrout.com/",
+    "added": "2026-11-01",
+    "short": "A calm arrow-exit puzzle: tap an arrow and it slides off the board if its lane is clear. 100 levels, no timer.",
+    "description": "Arrow Out is a calm puzzle game about untangling a board full of arrows. Each arrow points one way, and when you tap it, the whole arrow slides off the board, but only if the lane in front of it is clear. Tap one that is blocked and you lose a heart. Work out the right order to clear every arrow across 100 levels, from First Moves and Foundations to Nesting, Density, Chains, Expert and the Finale. There is no timer, a hint marks a safe arrow when you are stuck, and you can hold an arrow to preview its lane before you commit.",
+    "instructions": "Tap an arrow to send it off the board. It only moves if the lane ahead is clear; a blocked tap shakes and costs a heart. Hold an arrow to see its lane, use the hint button to mark a safe move, and clear every arrow to finish the level. Zoom in and out with the buttons at the bottom.",
+    "category": "puzzle",
+    "extraCats": [
+      "mobile",
+      "hypercasual"
+    ],
+    "tags": [
+      "Puzzle",
+      "Logic",
+      "Brain",
+      "Relaxing",
+      "Arrows"
+    ],
+    "embed": "https://arrout.com/?utm_source=ilovewebgames&utm_medium=referral&utm_campaign=promo_d1&utm_content=ilovewebgames",
+    "thumb": "https://arrout.com/og.png",
+    "orientation": "portrait"
   }
 ]
