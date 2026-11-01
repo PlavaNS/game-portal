@@ -358,6 +358,7 @@ balloon-smash
 balloons-pop
 balls-animal
 balls-bricks-breaker
+balls-catch-game
 balls-pixel-art
 balls-ricochet
 balls-vs-lasers
@@ -494,6 +495,7 @@ blade-and-bedlam-33861
 blade-hit
 blade-merge
 blast-jam
+blast-master
 blast-master2
 blast-out-battle-royale
 blast-round-puzzle-block
@@ -546,6 +548,7 @@ blocks-move-hit-pro
 blocks-move-n-hit
 blocks-puzzle
 blocks-shooter-3d-run-shoot-merge-weapons
+blocky-adventures
 blocky-challenges
 blocky-combat-swat-original-2026
 blocky-dude-gangster-auto-city
@@ -897,6 +900,7 @@ car-smash-obby-3d
 car-smash-simulator-crash-and-tune
 car-sort
 car-stunt-master-3d
+car-stunt-master-game
 car-stunt-race-trial
 car-stunt-races-mega-ramps
 car-stunt-racing-game-3d-car-games
@@ -1126,6 +1130,7 @@ color-fall
 color-hole
 color-lines
 color-match-rush
+color-mosaic
 color-parking-drifter
 color-pixels-coloring-by-numbers
 color-race-obby
@@ -1350,6 +1355,7 @@ dark-world
 darkhood
 darkside-stunt-car-driving-3d
 darling-doll-diy-paper-doll
+dart-duell-timing-champion
 darts-pro
 daruma-matching
 dash-hero
@@ -1518,6 +1524,7 @@ draw-and-guess
 draw-and-guess-online
 draw-and-pass
 draw-and-save
+draw-and-save-the-stickman
 draw-bridge-brain-game
 draw-bridge-puzzle
 draw-bridge-puzzle-2
@@ -1948,6 +1955,7 @@ football-kick-3d
 football-kickoff
 football-leauge
 football-legends
+football-legends-sliding-puzzle
 football-masters
 football-panda
 football-pinball
@@ -2130,6 +2138,8 @@ giant-rush
 giant-snowball-rush
 giant-wanted-monster
 girl-bike-accident-love
+girl-dream-house-diy-fun
+girl-game-organizing-fun
 girl-hair-salon-and-dress-up
 gladiators-merge-and-fight
 glam-doll-salon-makeup-and-dressup-game
@@ -2363,6 +2373,7 @@ heroes-of-arena
 heroes-of-the-dungeons-match-3-rpg
 heroes-vs-monsters-idle-rpg
 heroic-knight
+heros-vs-monster
 hex-a-mong
 hex-block-puzzle-master
 hex-connect
@@ -2660,6 +2671,7 @@ kaiju-run-dzilla-enemies
 kaiten-sushi
 kaku-shikaku-logic-puzzle
 kalulu-tanhulu-asmr-mukbang
+kamal-click-and-dance
 katana-flash
 katana-fruits-cutting-fun
 katana-upgrade
@@ -3177,6 +3189,7 @@ money-factory-tycoon-idle-game
 money-fest
 money-maker
 money-rush
+money-rush-game
 monkeysweeper-mines-puzzles
 mononinja
 monopoly-online
@@ -3333,6 +3346,7 @@ my-town-home-family-playhouse
 my-unicorn-cat-princess-caring
 mydream-universe
 mystery-digger
+mystery-dumpling-squishy-slime
 mystery-of-the-old-house-hidden-objects
 mystery-squishy-dumpling-blind-box
 mystical-blade-3d
@@ -3574,10 +3588,12 @@ offroad-mud-truck
 offroad-muddy-trucks
 offroad-truck-animal-transporter
 offroad-truck-army-driving
+offroad-truck-driving-game
 offroad-truck-driving-simulator
 offroad-vehicle-explorer
 offshore-jeep-race-3d
 oil-rig-driller
+oil-tanker-game
 oil-tanker-simulator
 oink-escape
 okay
@@ -3651,6 +3667,7 @@ paper-fighter-3d
 paper-flight-2
 paper-fold
 paper-panzer
+paper-stick-figures
 paperly-paper-plane-adventure
 park-draw-game
 park-sort
@@ -3769,6 +3786,7 @@ pixel-jam-bus-puzzle
 pixel-paint-sort
 pixel-protocol
 pixel-shooter-puzzle
+pixel-tower
 pixelblock
 pixzombies
 pizza-delivery-drive-and-deliver-hot
@@ -3814,6 +3832,7 @@ police-drift-escape
 police-gangster-chase
 police-mom-simulator
 police-stunt-cars
+police-transport-game
 poligon-war-zombie-apocalypse
 polybounce-tycoon
 polygon-flight-simulator
@@ -4003,6 +4022,7 @@ rainbow-s-doctor
 raised-knight
 rally-point-3
 rally-race-pro-3-0-car-racing
+ramp-car-game
 ramp-car-stunts-impossible
 ramp-race
 ramp-racing
@@ -4010,6 +4030,7 @@ ramp-rider-mega-bike-racing
 ramp-truck-mayhem
 randomation-racing-speed-trial-demolition
 rapid-apex-rush
+rasgullas
 rat-s-house-nonogram
 raven-estate
 rc-racing
@@ -4152,6 +4173,7 @@ rocket-bloom
 rocket-car-football-championship
 rocket-clash-3d
 rocket-rush
+rocketcar-cup
 rodha
 rogue-runner
 roll-away-3d
@@ -4363,6 +4385,7 @@ sheep-simulator-animal-games
 sheep-sort
 sheepdoku
 sheeps-herd-them-all
+shifted-realms
 shikaku-puzzle
 shoe-race
 shoes-outlet-game
@@ -4834,6 +4857,7 @@ stock-car-hero
 stonks
 storky-survivors
 storm-dash
+stormhawk
 story-of-alcana
 strategy-of-war-tanks-and-helicopters
 streamer-simulator-phone-challenge
@@ -4986,6 +5010,7 @@ swat-cats
 swat-ops-body-camera
 sway-tower-builder
 sweet-baby-taylor-summer-travel
+sweet-candy-match-3-game
 sweet-solve
 sweet-supermarket-simulator
 sweetflip
@@ -5054,6 +5079,7 @@ tasty-out-arrow-puzzle
 tavern-cardsharp
 taxi-driver-las-vegas
 taxi-driver-simulator
+taxi-parking-driving
 taxi-rush
 taxi-simulator-3d
 tb-world
@@ -5074,6 +5100,7 @@ tennis-master
 tennis-open-2024
 tentrix
 tentrix-blast
+tentrix-block
 terminal-nine
 terminator-robot-uprising
 terrablox
@@ -5155,6 +5182,7 @@ tide-and-powder
 tidewell
 tidy-bot
 tidy-up-satisfeel-asmr
+tidy-up-the-dollhouse
 tie-dye-game
 tiger-tank
 tile-farm-story
@@ -5507,6 +5535,7 @@ wizard-io
 wizard-santa-jump
 wobble-it
 wobble-run
+wolfoo-2048
 wolfoo-birthday-pixel-art
 wolfoo-town-dream
 woms-world-of-master-survivors
@@ -5599,6 +5628,7 @@ yummy-waffle-ice-cream
 z-machine
 z-stick-duel-fighting
 zap
+zappy
 zaruvane-the-amber-oasis
 zasteroid
 zen-garden-match
