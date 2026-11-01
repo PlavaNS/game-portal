@@ -4,126 +4,504 @@
   "h1": "Action Spiele",
   "intro": [
    "Kämpfe, weiche aus und bahne dir in rasanten Actionspielen deinen Weg. Jedes Spiel läuft direkt in deinem Browser auf PC, Tablet und Handy."
-  ]
+  ],
+  "guide": {
+   "lead": "Du suchst kostenlose Actionspiele, die du sofort im Browser spielen kannst, ohne Download und ohne Anmeldung? I Love Web Games hat {n}+ Actionspiele, von Kampf- und Ninja-Spielen bis zu Battle-Arenen und Bosskämpfen, und jedes startet in wenigen Sekunden auf Computer, Tablet oder Handy.",
+   "faq": [
+    [
+     "Welche sind die besten kostenlosen Actionspiele im Browser?",
+     "Starte mit den meistgespielten Spielen ganz oben auf dieser Seite. Sie sind die, zu denen unsere Spieler am häufigsten zurückkehren, und die Liste wird jeden Tag aktualisiert, sobald neue Spiele dazukommen."
+    ],
+    [
+     "Kann ich Actionspiele auch auf dem Handy spielen?",
+     "Ja. Die meisten Actionspiele hier haben Touch-Steuerung und laufen im mobilen Browser. Spiele, die als Desktop-Spiele gekennzeichnet sind, funktionieren am besten mit einer Tastatur."
+    ],
+    [
+     "Muss ich etwas herunterladen oder installieren?",
+     "Nein. Jedes Spiel läuft direkt in der Seite in deinem Browser, sodass du sofort loslegen und jederzeit das Spiel wechseln kannst."
+    ],
+    [
+     "Wie steuere ich die meisten Actionspiele?",
+     "Am Computer bewegst du dich meist mit WASD oder den Pfeiltasten, angreifen kannst du mit der Maus oder der Leertaste. Die Steuerung jedes Spiels steht unter Spielanleitung auf der jeweiligen Spielseite."
+    ]
+   ]
+  }
  },
  "shooting": {
   "name": "Shooter",
   "h1": "Shooter Spiele",
   "intro": [
    "Ziele, feuere und schalte deine Gegner aus. Von Scharfschützen-Missionen bis zu Panzerschlachten: Diese kostenlosen Shooter starten sofort, ohne Download."
-  ]
+  ],
+  "guide": {
+   "lead": "Willst du kostenlose Shooter-Spiele ohne Download? Hier sind {n}+ Browser-Shooter: Scharfschützen-Missionen, Panzerschlachten, Ego-Shooter, Zombie-Verteidigung und Arcade-Ballerspiele, alle sofort am PC spielbar und viele auch auf dem Handy.",
+   "faq": [
+    [
+     "Sind diese Shooter-Spiele kostenlos?",
+     "Ja, alle sind im Browser kostenlos spielbar. Manche zeigen zwischen den Runden eine kurze Werbung, und genau dadurch bleiben sie kostenlos."
+    ],
+    [
+     "Welche Shooter-Spiele eignen sich für Anfänger?",
+     "Arcade- und Scharfschützen-Spiele sind am einfachsten zu lernen, weil sie einfache Zielen-und-Klicken-Steuerung nutzen. Probiere zuerst die meistgespielten Spiele ganz oben aus."
+    ],
+    [
+     "Kann ich Shooter-Spiele auf einem Chromebook oder Schullaptop spielen?",
+     "Ja, sie laufen in jedem modernen Browser, auch in Chrome auf einem Chromebook, solange das Netzwerk Spieleseiten zulässt."
+    ],
+    [
+     "Welche Steuerung nutzen Browser-Shooter?",
+     "Meist zielst du mit der Maus und schießt mit einem Klick, bewegt dich mit WASD oder den Pfeiltasten. Die Steuerung jedes Spiels steht auf seiner Seite."
+    ]
+   ]
+  }
  },
  "racing": {
   "name": "Autos & Rennen",
   "h1": "Auto & Rennspiele",
   "intro": [
    "Gib Gas bei kostenlosen Auto- und Rennspielen: driften, einparken, Motorradrennen fahren und Monstertrucks direkt im Browser steuern."
-  ]
+  ],
+  "guide": {
+   "lead": "Du suchst kostenlose Auto- und Rennspiele zum Online-Spielen? Wähle aus {n}+ Browser-Rennspielen: Drifting, Einparken, Lkw-Fahren, Motorrad-Stunts und Kart-Rennen, ohne Download und ohne etwas installieren zu müssen.",
+   "faq": [
+    [
+     "Welche sind die besten kostenlosen Rennspiele online?",
+     "Die meistgespielten Rennspiele stehen ganz oben auf dieser Seite und ändern sich, wenn Spieler mit ihrer Spielzeit abstimmen. Jeden Tag kommen neue Rennspiele hinzu."
+    ],
+    [
+     "Kann ich Autospiele auch auf dem Handy spielen?",
+     "Ja. Die meisten Rennspiele hier unterstützen Touch-Steuerung mit Pedalen auf dem Bildschirm oder Neigungssteuerung und laufen im mobilen Browser."
+    ],
+    [
+     "Gibt es auch Parkspiele und Fahrspiele?",
+     "Ja. Neben Rennen gibt es in dieser Sammlung Parkherausforderungen, Stadt- und Lkw-Fahren, Drifting- und Stunt-Spiele."
+    ],
+    [
+     "Wie fahre ich in Browser-Rennspielen?",
+     "Meist lenkst und beschleunigst du mit den Pfeiltasten oder WASD, und mit der Leertaste bremst oder driftest du. Die genaue Steuerung steht auf der Seite jedes Spiels."
+    ]
+   ]
+  }
  },
  "puzzle": {
   "name": "Puzzle",
   "h1": "Puzzle Spiele",
   "intro": [
    "Trainiere dein Gehirn mit kostenlosen Puzzlespielen: Logikrätsel, Match-3, Physikpuzzles und Denksportaufgaben, die du in Sekunden spielen kannst."
-  ]
+  ],
+  "guide": {
+   "lead": "Suchst du nach den besten kostenlosen Puzzlespielen für den Browser, ohne Anmeldung? I Love Web Games hat {n}+ Puzzlespiele: Logikrätsel, Match 3, Mahjong, Sudoku, Legepuzzles, Wortspiele und Denkspiele, alle sofort verfügbar auf PC, Tablet und Handy.",
+   "faq": [
+    [
+     "Was sind die besten kostenlosen Puzzlespiele zum Online-Spielen?",
+     "Fang mit den meistgespielten Puzzles oben auf dieser Seite an. Für originelle, selbst entwickelte Rätsel achte auf Spiele mit dem Hinweis Indie oder Unser Spiel, zum Beispiel Wall of Riddles und Louvers."
+    ],
+    [
+     "Gibt es Puzzlespiele, die das Gehirn trainieren?",
+     "Ja. Logikrätsel, Sudoku, Zahlenspiele und Escape-Room-Rätsel fordern dich alle zum Nachdenken heraus, und die meisten werden Level für Level schwerer."
+    ],
+    [
+     "Kann ich Puzzlespiele offline oder auf meinem Handy spielen?",
+     "Alle funktionieren im Browser auf dem Handy. Die meisten brauchen zum Laden eine Verbindung, und einige laufen nach dem Laden auch ohne Internet weiter."
+    ],
+    [
+     "Speichern Puzzlespiele meinen Fortschritt?",
+     "Viele speichern deinen Fortschritt automatisch im Browser, sodass du später auf demselben Gerät wieder beim gleichen Level weitermachen kannst."
+    ]
+   ]
+  }
  },
  "clicker-idle": {
   "name": "Clicker & Idle",
   "h1": "Clicker & Idle Spiele",
   "intro": [
    "Klicken, aufrüsten und zusehen, wie die Zahlen wachsen. Unsere Clicker- und Idle-Spiele entwickeln sich ständig weiter, sodass sich jeder Besuch lohnt."
-  ]
+  ],
+  "guide": {
+   "lead": "Du liebst Clicker- und Idle-Spiele? Hier sind {n}+ kostenlose Browser-Idle-Spiele: Tycoon-Spiele, Merge-Spiele und Incremental-Spiele, bei denen dein Fortschritt immer weiter wächst, alles ohne Download und ohne Konto.",
+   "faq": [
+    [
+     "Was ist ein Idle- oder Clicker-Spiel?",
+     "Du startest, indem du klickst, um Geld zu verdienen, und kaufst dann Upgrades, die automatisch für dich verdienen. So steigen die Zahlen weiter, auch wenn du mal eine Pause machst."
+    ],
+    [
+     "Bleibt mein Fortschritt bei Idle-Spielen erhalten, wenn ich den Browser schließe?",
+     "Die meisten speichern im Browser, und viele berechnen bei deiner Rückkehr auf demselben Gerät, was du in der Zwischenzeit verdient hast."
+    ],
+    [
+     "Welches Idle-Spiel eignet sich zum Einstieg?",
+     "Probier Bubble Wrap, unser eigenes Spiel, in dem du einen 3D-Planeten aus Luftpolsterfolie zum Platzen bringst, oder eines der meistgespielten Idle-Spiele oben auf dieser Seite."
+    ],
+    [
+     "Kann ich Idle-Spiele auch am Handy spielen?",
+     "Ja, Clicker- und Idle-Spiele funktionieren sehr gut auf dem Handy, weil sie nur Tippen erfordern."
+    ]
+   ]
+  }
  },
  "arcade": {
   "name": "Arcade",
   "h1": "Arcade Spiele",
   "intro": [
    "Schnelle, süchtig machende Arcade-Spiele für eine kurze Pause oder eine lange Session. Leicht zu lernen, schwer aus der Hand zu legen."
-  ]
+  ],
+  "guide": {
+   "lead": "Du suchst schnelle, kostenlose Arcade-Spiele für ein paar Minuten Spaß? Wähle aus {n}+ Browser-Arcade-Spielen: Retro-Klassiker, Highscore-Jagden, Physikspiele und Endless Runner, alle sofort spielbar ohne Download.",
+   "faq": [
+    [
+     "Was sind Arcade-Spiele?",
+     "Kurze, schnelle Spiele, die auf einer einfachen Idee und einer Highscore beruhen, wie die klassischen Münzautomaten-Spiele. Leicht zu lernen, schwer zu meistern."
+    ],
+    [
+     "Welche kostenlosen Arcade-Spiele sollte ich zuerst ausprobieren?",
+     "Unser eigenes Ball Ball Away ist ein Favorit: Zeichne Linien, um einen Ball durch neonfarbene Portale zu lenken. Die meistgespielten Arcade-Spiele findest du oben auf dieser Seite."
+    ],
+    [
+     "Kann ich Arcade-Spiele auf meinem Handy spielen?",
+     "Ja, die meisten Arcade-Spiele hier sind für die Touch-Bedienung gemacht und funktionieren im mobilen Browser."
+    ],
+    [
+     "Haben Arcade-Spiele Bestenlisten?",
+     "Einige schon, und viele speichern deine beste Punktzahl im Browser, damit du beim nächsten Mal versuchen kannst, sie zu übertreffen."
+    ]
+   ]
+  }
  },
  "adventure": {
   "name": "Abenteuer",
   "h1": "Abenteuerspiele",
   "intro": [
    "Entdecke neue Welten, spring durch Plattform-Level und entkomme kniffligen Fallen in kostenlosen Abenteuerspielen."
-  ]
+  ],
+  "guide": {
+   "lead": "Suchst du kostenlose Adventure-Spiele online? Entdecke über {n}+ Browser-Abenteuer: Jump-'n'-Run- und Parkour-Spiele, Obby-Parcours, Escape-Spiele und Story-Adventures, sofort spielbar auf Computer und Handy.",
+   "faq": [
+    [
+     "Welche Arten von Adventure-Spielen gibt es?",
+     "Jump-'n'-Run-Spiele, Parkour- und Obby-Parcours, Escape-Spiele, Erkundungs- und Story-Spiele. Nutze die Suche oder die Sammlungen, um die Auswahl einzugrenzen."
+    ],
+    [
+     "Gibt es Escape-Room-Spiele?",
+     "Ja. Probier Wall of Riddles aus, ein kostenloses Online-Escape-Room-Spiel von Door 404, einem echten Escape-Room-Studio, oder die Sammlung Escape Room Games."
+    ],
+    [
+     "Speichern Adventure-Spiele meinen Fortschritt?",
+     "Viele speichern automatisch im Browser, sodass du später auf demselben Gerät weitermachen kannst."
+    ],
+    [
+     "Wie steuere ich Jump-'n'-Run-Spiele im Browser?",
+     "Meist mit den Pfeiltasten oder WASD zum Bewegen und Leertaste oder W zum Springen. Auf Handys werden Buttons auf dem Bildschirm angezeigt."
+    ]
+   ]
+  }
  },
  "sports": {
   "name": "Sport",
   "h1": "Sportspiele",
   "intro": [
    "Schieße Tore, versenke Putts und wirf Körbe. Spiele kostenlose Sportspiele online ohne Anmeldung."
-  ]
+  ],
+  "guide": {
+   "lead": "Spiele kostenlose Sportspiele online: über {n}+ Browser-Spiele für Fußball, Basketball, Golf, Tennis, Pool und mehr, ohne Download und mit schnellen Partien, die du am PC oder Handy spielen kannst.",
+   "faq": [
+    [
+     "Welche Sportspiele kann ich kostenlos spielen?",
+     "Fußball, Basketball, Golf, Tennis, Baseball, Pool und Billard, Bowling und mehr. Die meistgespielten stehen ganz oben auf dieser Seite."
+    ],
+    [
+     "Gibt es Sportspiele für zwei Spieler?",
+     "Ja, viele Fußball-, Pool- und Tennisspiele lassen zwei Personen an derselben Tastatur spielen. Siehe auch die Kategorie 2 Player Games."
+    ],
+    [
+     "Kann ich Sportspiele auf dem Handy spielen?",
+     "Die meisten haben Touch-Steuerung und funktionieren im mobilen Browser."
+    ],
+    [
+     "Gibt es American-Football-Spiele?",
+     "Ja, zum Beispiel Two Minute Drill, ein Indie-Spiel, in dem du die Spielzüge ansagst und in den letzten zwei Minuten die Uhr managst."
+    ]
+   ]
+  }
  },
  "two-player": {
   "name": "2 Spieler",
   "h1": "2-Spieler-Spiele",
   "intro": [
    "Schnapp dir einen Freund und spielt an derselben Tastatur oder auf demselben Bildschirm. Die besten kostenlosen 2-Spieler-Spiele für packenden Spaß im Duell."
-  ]
+  ],
+  "guide": {
+   "lead": "Suchst du kostenlose 2-Spieler-Spiele, um mit einem Freund an einem Computer zu spielen? Hier sind über {n}+ Browser-Spiele für zwei Spieler: Rennspiele, Kampfspiele, Sport, Brettspiele und Partyspiele, ohne Download.",
+   "faq": [
+    [
+     "Wie funktionieren 2-Spieler-Spiele auf einer Tastatur?",
+     "Meist nutzt ein Spieler WASD und der andere die Pfeiltasten. Auf jeder Spielseite werden die Steuerungen für beide Spieler erklärt."
+    ],
+    [
+     "Können wir 2-Spieler-Spiele auf einem Handy oder Tablet spielen?",
+     "Einige Spiele unterstützen zwei Spieler auf einem Touchscreen, wobei jeder eine Seite des Bildschirms nutzt."
+    ],
+    [
+     "Gibt es Online-2-Spieler-Spiele?",
+     "Ja, manche Spiele lassen dich online gegen einen Freund antreten. Mehr dazu in der Kategorie Multiplayer."
+    ],
+    [
+     "Welche 2-Spieler-Spiele eignen sich gut für Kinder?",
+     "Brettspiele sowie einfache Sport- und Rennspiele sind für jüngere Spieler leicht verständlich. Probier die meistgespielten ganz oben aus."
+    ]
+   ]
+  }
  },
  "multiplayer": {
   "name": "Multiplayer & .io",
   "h1": "Multiplayer- & .io-Spiele",
   "intro": [
    "Tritt gegen echte Spieler in Multiplayer- und .io-Spielen an. Steig ein, wachse und klettere in der Bestenliste nach oben."
-  ]
+  ],
+  "guide": {
+   "lead": "Du möchtest kostenlose Multiplayer- und .io-Spiele? Spiele {n}+ Online-Multiplayer-Browserspiele gegen echte Spieler aus aller Welt, ohne Download und meist ohne Konto.",
+   "faq": [
+    [
+     "Was sind .io-Spiele?",
+     "Einfache Online-Spiele, bei denen viele Spieler gemeinsam in einer Arena wachsen und um die Spitze der Bestenliste kämpfen."
+    ],
+    [
+     "Brauche ich für Multiplayer-Spiele ein Konto?",
+     "Die meisten lassen dich einen Spitznamen wählen und sofort loslegen. Einige bieten optionale Konten an, um den Fortschritt zu speichern."
+    ],
+    [
+     "Kann ich mit meinen Freunden spielen?",
+     "Viele Multiplayer-Spiele haben Räume oder Einladungslinks, damit ihr zusammen Rennen fahren oder spielen könnt, zum Beispiel Kart Chaos und Knockback."
+    ],
+    [
+     "Sind Multiplayer-Spiele für Kinder sicher?",
+     "Die meisten haben keinen offenen Chat, Eltern sollten aber trotzdem jedes Spiel prüfen, da einige Spielernamen oder einfache Chats anzeigen."
+    ]
+   ]
+  }
  },
  "girls": {
   "name": "Mädchen",
   "h1": "Spiele für Mädchen",
   "intro": [
    "Zieh dich an, gestalte, styl und kreiere. Spaßige Spiele für Mädchen (und alle anderen) mit Mode, Make-up und Verwandlungen."
-  ]
+  ],
+  "guide": {
+   "lead": "Spiele kostenlose Mädchenspiele online: {n}+ Browserspiele mit Verkleiden, Styling, Dekorieren, Kochen und Mode, alles sofort ohne Download und auf jedem Gerät spielbar.",
+   "faq": [
+    [
+     "Welche Arten von Spielen gibt es in dieser Kategorie?",
+     "Verkleidungs- und Modespiele, Styling-Spiele, Zimmer dekorieren, Kochen, Tierpflege und kreative Spiele."
+    ],
+    [
+     "Kann ich diese Spiele auf einem Tablet spielen?",
+     "Ja, die meisten sind für Touchscreens gemacht und funktionieren gut auf Tablets und Handys."
+    ],
+    [
+     "Sind diese Spiele kostenlos?",
+     "Ja, alle sind im Browser kostenlos, ohne Download und ohne Anmeldung."
+    ],
+    [
+     "Speichern die Spiele meine Kreationen?",
+     "Einige lassen dich deine Designs speichern oder als Screenshot festhalten; viele speichern den Fortschritt im Browser auf demselben Gerät."
+    ]
+   ]
+  }
  },
  "hypercasual": {
   "name": "Casual",
   "h1": "Casual- & Hypercasual-Spiele",
   "intro": [
    "Einfache Ein-Tipp-Spiele, die sofort Spaß machen. Perfekt für eine kurze Pause am Handy oder Computer."
-  ]
+  ],
+  "guide": {
+   "lead": "Du suchst schnelle und einfache Spiele für eine kurze Pause? Hier sind {n}+ kostenlose Casual- und Hypercasual-Browserspiele mit Steuerung per Fingertipp, kurzen Runden und sofortigem Spielstart, ganz ohne Download.",
+   "faq": [
+    [
+     "Was sind Hypercasual-Spiele?",
+     "Sehr einfache Spiele, die man in Sekunden lernt, meist mit einem Tipp oder Wisch und kurzen Runden."
+    ],
+    [
+     "Sind Casual-Spiele gut für eine kurze Pause?",
+     "Ja, die meisten Runden dauern ein bis zwei Minuten und du kannst jederzeit aufhören."
+    ],
+    [
+     "Kann ich sie auf meinem Handy spielen?",
+     "Ja, Casual-Spiele sind in erster Linie für Handys gemacht und funktionieren im mobilen Browser hervorragend."
+    ],
+    [
+     "Welche Casual-Spiele sind am beliebtesten?",
+     "Die meistgespielten stehen ganz oben auf dieser Seite und ändern sich jeden Tag."
+    ]
+   ]
+  }
  },
  "stickman": {
   "name": "Stickman",
   "h1": "Stickman-Spiele",
   "intro": [
    "Stickman-Kämpfe, Parkour und Abenteuer. Kostenlose Stickman-Spiele, die auf jedem Gerät flüssig laufen."
-  ]
+  ],
+  "guide": {
+   "lead": "Kostenlose Stickman-Spiele online spielen: {n}+ Browserspiele mit Strichmännchen-Kämpfen, Parkour, Bogenschießen und Ragdoll-Physik, ohne Download und sofort spielbar.",
+   "faq": [
+    [
+     "Was sind Stickman-Spiele?",
+     "Spiele mit einfachen Strichmännchen als Figuren, oft mit lustiger Physik, Kämpfen, Bogenschießen oder Parkour."
+    ],
+    [
+     "Sind Stickman-Spiele kostenlos?",
+     "Ja, alle sind im Browser kostenlos spielbar."
+    ],
+    [
+     "Gibt es Stickman-Spiele für 2 Spieler?",
+     "Ja, mehrere Stickman-Kampf- und Sportspiele lassen zwei Spieler an einer Tastatur gegeneinander antreten."
+    ],
+    [
+     "Kann ich Stickman-Spiele auf dem Handy spielen?",
+     "Die meisten funktionieren im mobilen Browser mit Touch-Steuerung."
+    ]
+   ]
+  }
  },
  "zombie": {
   "name": "Zombie",
   "h1": "Zombie-Spiele",
   "intro": [
    "Überlebe die Untoten in kostenlosen Zombie-Spielen: Schieße, baue Verteidigungen und entkomme der Horde."
-  ]
+  ],
+  "guide": {
+   "lead": "Suchst du kostenlose Zombiespiele? Überlebe den Ansturm in {n}+ Zombie-Browserspielen: Shooter, Tower Defense, Survival- und Fahrspiele, alle sofort spielbar ohne Download.",
+   "faq": [
+    [
+     "Welche Arten von Zombiespielen gibt es?",
+     "Zombie-Shooter, Tower Defense, Survival- und Basisbau-Spiele sowie Fahrspiele, bei denen du dich durch die Horde pflügst."
+    ],
+    [
+     "Sind Zombiespiele gruselig?",
+     "Die meisten sind Actionspiele im Cartoon- oder Arcade-Stil und eher nicht Horror, aber einige sind düsterer. Schau dir die Screenshots auf der jeweiligen Spielseite an."
+    ],
+    [
+     "Kann ich Zombiespiele auf dem Handy spielen?",
+     "Viele haben Touch-Steuerung und funktionieren im mobilen Browser."
+    ],
+    [
+     "Sind diese Zombiespiele kostenlos?",
+     "Ja, alle sind im Browser kostenlos, ein Download ist nicht nötig."
+    ]
+   ]
+  }
  },
  "3d": {
   "name": "3D",
   "h1": "3D-Spiele",
   "intro": [
    "Kostenlose 3D-Spiele, die direkt in deinem Browser laufen: Rennen, Shooter, Parkour und mehr, ganz ohne Installation."
-  ]
+  ],
+  "guide": {
+   "lead": "Kostenlose 3D-Spiele im Browser spielen: {n}+ 3D-Rennspiele, Shooter, Parkour-, Simulator- und Abenteuerspiele, die sofort mit WebGL laufen, ohne Download oder Installation.",
+   "faq": [
+    [
+     "Kann ein Browser 3D-Spiele darstellen?",
+     "Ja. Moderne Browser unterstützen WebGL, daher laufen 3D-Spiele auf den meisten Computern und aktuellen Handys direkt in der Seite."
+    ],
+    [
+     "Warum läuft ein 3D-Spiel auf meinem Gerät langsam?",
+     "3D-Spiele brauchen mehr Grafikleistung. Schließe andere Tabs, probiere den Vollbildmodus oder wähle ein leichteres Spiel, wenn dein Gerät älter ist."
+    ],
+    [
+     "Welche kostenlosen 3D-Spiele eignen sich zum Einstieg?",
+     "Probier Balls of Glory aus, unseren 3D-Runner mit Live-Kommentator, oder die meistgespielten 3D-Spiele ganz oben auf dieser Seite."
+    ],
+    [
+     "Funktionieren 3D-Browserspiele auf dem Handy?",
+     "Viele tun das auf aktuellen Handys. Spiele, die als am besten für den Desktop markiert sind, lassen sich mit Tastatur und Maus einfacher spielen."
+    ]
+   ]
+  }
  },
  "cooking": {
   "name": "Kochen",
   "h1": "Kochspiele",
   "intro": [
    "Führe Restaurants, backe Kuchen und bediene hungrige Gäste in kostenlosen Kochspielen."
-  ]
+  ],
+  "guide": {
+   "lead": "Du liebst Kochspiele? Spiele {n}+ kostenlose Browser-Kochspiele und Restaurant-Spiele: Führe ein Café, backe, bediene Kunden und koche Rezepte, alles sofort ohne Download.",
+   "faq": [
+    [
+     "Was sind Kochspiele?",
+     "Spiele, in denen du Essen zubereitest, Kunden bedienst und eine Küche, ein Café oder ein Restaurant führst, oft gegen die Zeit."
+    ],
+    [
+     "Sind Kochspiele gut für Kinder?",
+     "Ja, die meisten sind bunt und leicht zu spielen, und viele sind für jüngere Spieler gemacht."
+    ],
+    [
+     "Kann ich Kochspiele auf einem Tablet spielen?",
+     "Ja, sie sind meist Tipp- und Zieh-Spiele und funktionieren gut auf Tablets und Handys."
+    ],
+    [
+     "Speichern Kochspiele meinen Fortschritt?",
+     "Viele Restaurant- und Tycoon-Kochspiele speichern im Browser, damit du deine Küche weiter ausbauen kannst."
+    ]
+   ]
+  }
  },
  "kids": {
   "name": "Kinder",
   "h1": "Spiele für Kinder",
   "intro": [
    "Freundliche, bunte Spiele für Kinder: Malen, einfache Puzzles und leicht zu spielender Spaß."
-  ]
+  ],
+  "guide": {
+   "lead": "Suchst du kostenlose, sichere Spiele für Kinder? Hier sind {n}+ familienfreundliche Browserspiele: einfache Puzzles, Malen, Tiere, Autos und Lernspiele, ohne Download und ohne Anmeldung.",
+   "faq": [
+    [
+     "Sind diese Spiele für Kinder geeignet?",
+     "Diese Kategorie enthält familienfreundliche Spiele, dennoch empfehlen wir Eltern, ein Spiel vorher selbst auszuprobieren, da einige zwischen den Runden Werbung zeigen."
+    ],
+    [
+     "Brauchen Kinder ein Konto zum Spielen?",
+     "Nein. Alle Spiele starten sofort im Browser ohne Anmeldung und ohne persönliche Daten."
+    ],
+    [
+     "Können Kinder auf einem Tablet spielen?",
+     "Ja, die meisten Kinderspiele sind für Touchscreens gemacht und funktionieren gut auf Tablets."
+    ],
+    [
+     "Gibt es Lernspiele?",
+     "Ja, es gibt Puzzle-, Zahlen-, Wort- und Memory-Spiele, die Spaß machen und das logische Denken trainieren."
+    ]
+   ]
+  }
  },
  "mobile": {
   "name": "Mobil",
   "h1": "Handyspiele",
   "intro": [
    "Kostenlose Spiele, die auf deinem Handy und Tablet super funktionieren. Einfach antippen und sofort im Browser auf Android oder iPhone spielen – keine App, kein Download."
-  ]
+  ],
+  "guide": {
+   "lead": "Willst du kostenlose Spiele auf deinem Handy spielen, ohne Apps zu installieren? Hier sind {n}+ mobile Browserspiele mit Touch-Steuerung, die direkt in Safari oder Chrome auf iPhone und Android laufen.",
+   "faq": [
+    [
+     "Kann ich diese Spiele auf iPhone und Android spielen?",
+     "Ja, sie laufen auf beiden im mobilen Browser, ohne App Store und ohne Download."
+    ],
+    [
+     "Kann ich ein Spiel auf meinem Startbildschirm speichern?",
+     "Ja. Wähle im Browser-Menü „Zum Startbildschirm hinzufügen“, dann öffnet sich das Spiel wie eine App."
+    ],
+    [
+     "Verbrauchen mobile Browserspiele viel Datenvolumen?",
+     "Die meisten laden einmal ein paar Megabyte. 3D-Spiele sind größer, nutze für diese bei begrenztem Datenvolumen lieber WLAN."
+    ],
+    [
+     "Warum fordert ein Spiel mich auf, mein Handy zu drehen?",
+     "Manche Spiele sind fürs Querformat gemacht. Drehe dein Handy seitlich und aktiviere bei Bedarf die Bildschirmdrehung."
+    ]
+   ]
+  }
  },
  "topic:games-to-play-when-bored": {
   "h1": "Spiele gegen Langeweile",
@@ -939,6 +1317,42 @@
   "intro": [
    "Vorschul- und Lernspiele verwandeln Buchstaben, Zahlen, Farben und Formen in etwas, das ein kleines Kind wirklich tun möchte. Buchstaben nachspuren, das Tier seinem Laut zuordnen, das Obst zählen, das Bild ausmalen und jedes Mal, wenn es richtig ist, ein fröhliches Geräusch hören.",
    "Sie sind für kurze Aufmerksamkeitsspannen und große Schaltflächen gemacht und funktionieren deshalb gut auf Tablet oder Handy. Alles hier ist kostenlos, läuft im Browser und braucht weder Download noch Anmeldung."
+  ]
+ },
+ "topic:car-crash-games": {
+  "name": "Car Crash Games",
+  "h1": "Car-Crash-Spiele",
+  "kw": "car crash spiele kostenlos",
+  "intro": [
+   "Schrotte, kracht und zerstöre Autos in kostenlosen Car-Crash-Spielen: realistische Crash-Simulatoren mit Soft-Body-Schäden, Demolition Derbys, Rampensprünge und Zerstörungs-Sandkästen, in denen das Kaputtmachen das eigentliche Ziel ist.",
+   "Alle Spiele laufen direkt im Browser auf dem PC und viele auch auf dem Handy. Kein Download und keine Anmeldung: Wähl ein Auto, such dir die größte Rampe und schau, was davon übrig bleibt."
+  ]
+ },
+ "topic:tile-matching-games": {
+  "name": "Tile Matching Games",
+  "h1": "Tile-Matching-Spiele",
+  "kw": "tile explorer online kostenlos",
+  "intro": [
+   "Tile-Matching-Spiele bieten dir ein Spielfeld voller Bildkacheln und eine einfache Aufgabe: Finde die identischen und räume sie ab. Manche lassen dich drei gleiche Kacheln in eine Leiste am unteren Rand tippen, andere verlangen, dass du zwei Kacheln mit einem kurzen Weg verbindest, und wieder andere stapeln die Kacheln in Schichten, sodass du überlegen musst, welche du zuerst befreist.",
+   "Sie sind ruhig, schnell zu verstehen und lassen sich für ein paar Minuten am Stück wunderbar spielen, weshalb sie auf dem Handy so gut funktionieren. Jedes Spiel auf dieser Seite ist kostenlos, läuft direkt im Browser und braucht weder Download noch Konto."
+  ]
+ },
+ "topic:3d-games": {
+  "name": "3D Games",
+  "h1": "3D-Spiele",
+  "kw": "online 3d spiele",
+  "intro": [
+   "Hier findest du Browserspiele mit vollständiger 3D-Grafik: Rennspiele und Fahrsimulationen mit Verfolgerkamera, Stickman-Prügler, Sortier- und Blockpuzzles, die du drehen kannst, Runner und Simulatoren. Sie laufen mit WebGL in einem ganz normalen Browser-Tab, du musst also nichts installieren.",
+   "Die meisten funktionieren sowohl auf dem Handy als auch am Computer, wobei eine Tastatur für die schnelleren Fahr- und Shooter-Spiele hilfreich ist. Alle sind hier kostenlos spielbar, ohne Download und ohne Anmeldung."
+  ]
+ },
+ "topic:screw-puzzle-games": {
+  "name": "Screw Puzzle Games",
+  "h1": "Screw-Puzzle-Spiele",
+  "kw": "screw puzzle spiele online",
+  "intro": [
+   "Screw-Puzzles sind eine ruhige Art von Logikspiel: Du schraubst Stifte und Bolzen in der richtigen Reihenfolge heraus, damit Holzbretter und Metallplatten herabfallen, oder sortierst farbige Muttern auf passende Bolzen, bis jeder Stapel nur noch eine Farbe hat. Jeder Zug verändert, was du als Nächstes erreichen kannst, deshalb hilft ein wenig Planung enorm.",
+   "Die Sammlung mischt Puzzles mit Stiften herausziehen, Sortierspiele für Muttern und Bolzen sowie Schraubenpaarungs-Level, die mit der Zeit schwieriger werden. Sie sind kostenlos im Browser auf dem Handy oder am Computer spielbar, ohne Download und ohne Anmeldung."
   ]
  }
 }

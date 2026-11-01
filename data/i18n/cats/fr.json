@@ -4,126 +4,504 @@
   "h1": "Jeux d'action",
   "intro": [
    "Combattez, esquivez et battez-vous à travers des jeux d'action au rythme effréné. Chaque jeu se lance directement dans votre navigateur sur PC, tablette et téléphone."
-  ]
+  ],
+  "guide": {
+   "lead": "Vous cherchez des jeux d'action gratuits à jouer tout de suite dans votre navigateur, sans téléchargement ni inscription ? I Love Web Games propose {n}+ jeux d'action, des jeux de combat et de ninja aux arènes de bataille et aux combats de boss, et chacun se lance en quelques secondes sur ordinateur, tablette ou téléphone.",
+   "faq": [
+    [
+     "Quels sont les meilleurs jeux d'action gratuits à jouer dans un navigateur ?",
+     "Commencez par les jeux les plus joués en haut de cette page. Ce sont ceux auxquels nos joueurs reviennent le plus souvent, et la liste est mise à jour chaque jour à mesure que de nouveaux jeux arrivent."
+    ],
+    [
+     "Puis-je jouer aux jeux d'action sur mon téléphone ?",
+     "Oui. La plupart des jeux d'action proposés ici disposent de commandes tactiles et fonctionnent dans le navigateur mobile. Les jeux indiqués pour ordinateur fonctionnent mieux avec un clavier."
+    ],
+    [
+     "Faut-il télécharger ou installer quoi que ce soit ?",
+     "Non. Chaque jeu fonctionne directement dans la page, dans votre navigateur, ce qui vous permet de jouer immédiatement et de changer de jeu quand vous voulez."
+    ],
+    [
+     "Comment contrôler la plupart des jeux d'action ?",
+     "Sur ordinateur, ce sont généralement les touches WASD ou les flèches directionnelles pour se déplacer, et la souris ou la barre d'espace pour attaquer. Chaque page de jeu indique ses propres commandes dans la section Comment jouer."
+    ]
+   ]
+  }
  },
  "shooting": {
   "name": "Tir",
   "h1": "Jeux de tir",
   "intro": [
    "Visez, tirez et abattez vos cibles. Des missions de sniper aux batailles de chars, ces jeux de tir gratuits se lancent instantanément sans téléchargement."
-  ]
+  ],
+  "guide": {
+   "lead": "Vous voulez des jeux de tir gratuits sans téléchargement ? Voici {n}+ jeux de tir en navigateur : missions de sniper, batailles de chars, jeux de tir à la première personne, défense contre les zombies et shooters d'arcade, tous jouables instantanément sur PC et beaucoup sur mobile.",
+   "faq": [
+    [
+     "Ces jeux de tir sont-ils gratuits ?",
+     "Oui, tous sont gratuits à jouer dans votre navigateur. Certains affichent une courte publicité entre les manches, ce qui permet de les garder gratuits."
+    ],
+    [
+     "Quels sont les bons jeux de tir pour débutants ?",
+     "Les jeux d'arcade et de sniper sont les plus faciles à prendre en main, car ils utilisent des commandes simples de visée et de clic. Essayez d'abord les jeux les plus joués en haut de la page."
+    ],
+    [
+     "Peut-on jouer aux jeux de tir sur un Chromebook ou un ordinateur portable scolaire ?",
+     "Oui, ils fonctionnent dans tous les navigateurs récents, y compris Chrome sur Chromebook, à condition que le réseau autorise les sites de jeux."
+    ],
+    [
+     "Quelles commandes utilisent les shooters en navigateur ?",
+     "La plupart utilisent la souris pour viser et le clic pour tirer, avec les touches WASD ou les flèches pour se déplacer. Les commandes de chaque jeu sont indiquées sur sa page."
+    ]
+   ]
+  }
  },
  "racing": {
   "name": "Voitures & Course",
   "h1": "Jeux de voitures & de course",
   "intro": [
    "Appuyez sur le champignon avec les jeux de voitures et de course gratuits : dérapez, garez-vous, faites la course à moto et conduisez des monster trucks directement depuis votre navigateur."
-  ]
+  ],
+  "guide": {
+   "lead": "Vous cherchez des jeux de voiture et de course gratuits à jouer en ligne ? Choisissez parmi {n}+ jeux de course en navigateur : drift, stationnement, conduite de camion, cascades à moto et courses de karts, sans téléchargement ni installation.",
+   "faq": [
+    [
+     "Quels sont les meilleurs jeux de course gratuits en ligne ?",
+     "Les jeux de course les plus joués se trouvent en haut de cette page et changent selon le temps que les joueurs leur consacrent. De nouveaux jeux de course sont ajoutés chaque jour."
+    ],
+    [
+     "Puis-je jouer aux jeux de voiture sur mon téléphone ?",
+     "Oui. La plupart des jeux de course proposés ici prennent en charge les commandes tactiles avec des pédales à l'écran ou l'inclinaison, et fonctionnent dans le navigateur mobile."
+    ],
+    [
+     "Y a-t-il aussi des jeux de stationnement et de conduite ?",
+     "Oui. En plus des courses, cette collection comprend des défis de stationnement, la conduite en ville et de camion, le drift et des jeux de cascades."
+    ],
+    [
+     "Comment conduire dans les jeux de course en navigateur ?",
+     "En général, les flèches directionnelles ou WASD permettent de diriger et d'accélérer, et la barre d'espace freine ou fait déraper. Chaque page de jeu indique ses commandes exactes."
+    ]
+   ]
+  }
  },
  "puzzle": {
   "name": "Puzzle",
   "h1": "Jeux de puzzle",
   "intro": [
    "Entraînez votre cerveau avec des jeux de puzzle gratuits : logique, match-3, puzzles de physique et casse-têtes à jouer en quelques secondes."
-  ]
+  ],
+  "guide": {
+   "lead": "Vous cherchez les meilleurs jeux de puzzle gratuits à jouer dans votre navigateur sans inscription ? I Love Web Games propose plus de {n} jeux de puzzle : casse-têtes logiques, match 3, mahjong, sudoku, puzzles, jeux de mots et défis de réflexion, tous accessibles instantanément sur PC, tablette et téléphone.",
+   "faq": [
+    [
+     "Quels sont les meilleurs jeux de puzzle gratuits en ligne ?",
+     "Commencez par les puzzles les plus joués en haut de cette page. Pour des puzzles originaux et faits main, repérez les jeux marqués Indie ou Notre jeu, comme Wall of Riddles et Louvers."
+    ],
+    [
+     "Existe-t-il des jeux de puzzle qui entraînent le cerveau ?",
+     "Oui. Les casse-têtes logiques, le sudoku, les jeux de chiffres et les énigmes de type escape room vous font réfléchir, et la plupart deviennent plus difficiles niveau après niveau."
+    ],
+    [
+     "Peut-on jouer aux jeux de puzzle hors ligne ou sur téléphone ?",
+     "Tous fonctionnent sur téléphone dans le navigateur. La plupart ont besoin d'une connexion pour se charger, et certains continuent de fonctionner une fois chargés."
+    ],
+    [
+     "Les jeux de puzzle sauvegardent-ils ma progression ?",
+     "Beaucoup enregistrent automatiquement votre progression dans le navigateur, ce qui vous permet de reprendre le même niveau plus tard sur le même appareil."
+    ]
+   ]
+  }
  },
  "clicker-idle": {
   "name": "Clicker & Idle",
   "h1": "Jeux clicker & idle",
   "intro": [
    "Cliquez, améliorez et regardez les chiffres grimper. Nos jeux clicker et idle progressent sans cesse, donc chaque visite en vaut la peine."
-  ]
+  ],
+  "guide": {
+   "lead": "Vous aimez les jeux de clic et les jeux idle ? Voici plus de {n} jeux idle gratuits dans le navigateur : jeux de gestion, jeux de fusion et jeux incrémentaux où votre progression ne cesse de grandir, le tout sans téléchargement et sans compte.",
+   "faq": [
+    [
+     "Qu'est-ce qu'un jeu idle ou de clic ?",
+     "Vous commencez par cliquer pour gagner, puis vous achetez des améliorations qui rapportent automatiquement, si bien que les chiffres continuent d'augmenter même quand vous faites une pause."
+    ],
+    [
+     "Les jeux idle conservent-ils ma progression quand je ferme le navigateur ?",
+     "La plupart sauvegardent dans le navigateur, et beaucoup calculent ce que vous avez gagné pendant votre absence lorsque vous revenez sur le même appareil."
+    ],
+    [
+     "Quel bon jeu idle pour débuter ?",
+     "Essayez Bubble Wrap, notre propre jeu où vous faites éclater une planète 3D en film à bulles, ou l'un des jeux idle les plus joués en haut de cette page."
+    ],
+    [
+     "Peut-on jouer aux jeux idle sur mobile ?",
+     "Oui, les jeux de clic et idle fonctionnent très bien sur téléphone, car ils ne demandent que des tapotements."
+    ]
+   ]
+  }
  },
  "arcade": {
   "name": "Arcade",
   "h1": "Jeux d'arcade",
   "intro": [
    "Des jeux d'arcade rapides et addictifs pour une petite pause ou une longue session. Faciles à prendre en main, difficiles à lâcher."
-  ]
+  ],
+  "guide": {
+   "lead": "Vous voulez des jeux d'arcade gratuits et rapides pour quelques minutes de plaisir ? Choisissez parmi plus de {n} jeux d'arcade dans le navigateur : classiques rétro, jeux de high score, jeux de physique et runners sans fin, tous accessibles instantanément sans téléchargement.",
+   "faq": [
+    [
+     "Qu'est-ce qu'un jeu d'arcade ?",
+     "Ce sont des jeux courts et rapides reposant sur une idée simple et un score à battre, à la manière des classiques des bornes d'arcade. Faciles à prendre en main, difficiles à maîtriser."
+    ],
+    [
+     "Quels sont les bons jeux d'arcade gratuits à essayer en premier ?",
+     "Notre propre Ball Ball Away est un favori : tracez des lignes pour faire rebondir une balle à travers des portails néon. Les jeux d'arcade les plus joués se trouvent en haut de cette page."
+    ],
+    [
+     "Peut-on jouer aux jeux d'arcade sur son téléphone ?",
+     "Oui, la plupart des jeux d'arcade proposés ici sont conçus pour le tactile et fonctionnent dans le navigateur mobile."
+    ],
+    [
+     "Les jeux d'arcade proposent-ils des classements ?",
+     "Certains oui, et beaucoup enregistrent votre meilleur score dans le navigateur pour que vous puissiez tenter de le battre la prochaine fois."
+    ]
+   ]
+  }
  },
  "adventure": {
   "name": "Aventure",
   "h1": "Jeux d'aventure",
   "intro": [
    "Explorez de nouveaux mondes, sautez de plateforme en plateforme et échappez aux pièges les plus vicieux dans les jeux d'aventure gratuits."
-  ]
+  ],
+  "guide": {
+   "lead": "Vous cherchez des jeux d'aventure gratuits en ligne ? Explorez plus de {n} aventures dans le navigateur : jeux de plateforme, parkour et obby, jeux d'évasion et aventures narratives, à jouer instantanément sur ordinateur et téléphone.",
+   "faq": [
+    [
+     "Quels types de jeux d'aventure existe-t-il ?",
+     "Jeux de plateforme, parcours de parkour et obby, jeux d'évasion, jeux d'exploration et jeux narratifs. Utilisez la recherche ou les collections pour affiner votre choix."
+    ],
+    [
+     "Y a-t-il des jeux d'escape room ?",
+     "Oui. Essayez Wall of Riddles, un jeu d'escape room gratuit en ligne créé par Door 404, un véritable studio d'escape room, ou la collection Escape Room Games."
+    ],
+    [
+     "Les jeux d'aventure sauvegardent-ils ma progression ?",
+     "Beaucoup sauvegardent automatiquement dans votre navigateur, vous pouvez donc reprendre plus tard sur le même appareil."
+    ],
+    [
+     "Comment contrôler les jeux de plateforme dans le navigateur ?",
+     "En général avec les touches fléchées ou WASD pour vous déplacer et Espace ou W pour sauter. Sur téléphone, des boutons apparaissent à l'écran."
+    ]
+   ]
+  }
  },
  "sports": {
   "name": "Sports",
   "h1": "Jeux de sport",
   "intro": [
    "Marquez des buts, réussissez vos putts et shootez dans le panier. Jouez gratuitement aux jeux de sport en ligne, sans inscription."
-  ]
+  ],
+  "guide": {
+   "lead": "Jouez gratuitement à des jeux de sport en ligne : plus de {n} jeux dans le navigateur pour le football, le basket, le golf, le tennis, le billard et plus encore, sans téléchargement et avec des parties rapides à jouer sur PC ou téléphone.",
+   "faq": [
+    [
+     "Quels jeux de sport puis-je jouer gratuitement ?",
+     "Football, basket, golf, tennis, baseball, billard, bowling et plus encore. Les plus joués figurent en haut de cette page."
+    ],
+    [
+     "Y a-t-il des jeux de sport à deux joueurs ?",
+     "Oui, de nombreux jeux de football, de billard et de tennis permettent à deux personnes de jouer sur le même clavier. Voir aussi la catégorie 2 Player Games."
+    ],
+    [
+     "Peut-on jouer aux jeux de sport sur mobile ?",
+     "La plupart disposent de commandes tactiles et fonctionnent dans le navigateur mobile."
+    ],
+    [
+     "Y a-t-il des jeux de football américain ?",
+     "Oui, par exemple Two Minute Drill, un jeu indépendant où vous choisissez les actions et gérez le chronomètre lors des deux dernières minutes."
+    ]
+   ]
+  }
  },
  "two-player": {
   "name": "2 joueurs",
   "h1": "Jeux à 2 joueurs",
   "intro": [
    "Prenez un ami et jouez sur le même clavier ou écran. Les meilleurs jeux gratuits à 2 joueurs pour un duel amical."
-  ]
+  ],
+  "guide": {
+   "lead": "Vous cherchez des jeux gratuits à 2 joueurs pour jouer entre amis sur un même ordinateur ? Voici plus de {n} jeux de navigateur à deux joueurs : course, combat, sport, jeux de société et jeux de soirée, sans téléchargement.",
+   "faq": [
+    [
+     "Comment fonctionnent les jeux à 2 joueurs sur un même clavier ?",
+     "En général, un joueur utilise WASD et l'autre les flèches directionnelles. La page de chaque jeu explique les commandes des deux joueurs."
+    ],
+    [
+     "Peut-on jouer à deux sur un même téléphone ou une même tablette ?",
+     "Certains jeux permettent à deux joueurs de jouer sur un même écran tactile, chacun utilisant une moitié de l'écran."
+    ],
+    [
+     "Y a-t-il des jeux à deux joueurs en ligne ?",
+     "Oui, certains jeux permettent d'affronter un ami en ligne. Consultez la catégorie Multiplayer pour en savoir plus."
+    ],
+    [
+     "Quels sont les bons jeux à 2 joueurs pour les enfants ?",
+     "Les jeux de société, les jeux de sport simples et les jeux de course sont faciles pour les plus jeunes. Essayez les plus joués en haut de la page."
+    ]
+   ]
+  }
  },
  "multiplayer": {
   "name": "Multijoueur & .io",
   "h1": "Jeux multijoueur & .io",
   "intro": [
    "Affrontez de vrais joueurs dans les jeux multijoueur et .io. Lancez-vous, grandissez et grimpez dans le classement."
-  ]
+  ],
+  "guide": {
+   "lead": "Envie de jeux multijoueurs et .io gratuits ? Jouez à plus de {n} jeux en ligne multijoueurs sur navigateur contre de vrais joueurs du monde entier, sans téléchargement et généralement sans compte.",
+   "faq": [
+    [
+     "Qu'est-ce que les jeux .io ?",
+     "Des jeux en ligne simples où de nombreux joueurs partagent une même arène, grandissent et se battent pour arriver en tête du classement."
+    ],
+    [
+     "Faut-il un compte pour jouer en multijoueur ?",
+     "La plupart vous laissent choisir un pseudo et jouer tout de suite. Quelques-uns proposent des comptes facultatifs pour sauvegarder la progression."
+    ],
+    [
+     "Puis-je jouer avec mes amis ?",
+     "De nombreux jeux multijoueurs proposent des salons ou des liens d'invitation pour courir ou jouer ensemble, par exemple Kart Chaos et Knockback."
+    ],
+    [
+     "Les jeux multijoueurs sont-ils sûrs pour les enfants ?",
+     "La plupart n'ont pas de chat ouvert, mais les parents doivent tout de même vérifier chaque jeu, car certains affichent les pseudos des joueurs ou un chat simple."
+    ]
+   ]
+  }
  },
  "girls": {
   "name": "Filles",
   "h1": "Jeux pour filles",
   "intro": [
    "Habillez-vous, dessinez, stylez et créez. Des jeux amusants pour les filles (et tout le monde) avec mode, maquillage et relooking."
-  ]
+  ],
+  "guide": {
+   "lead": "Jouez gratuitement à des jeux pour filles en ligne : plus de {n} jeux sur navigateur de déguisement, relooking, décoration, cuisine et mode, tous instantanés, sans téléchargement et jouables sur tous les appareils.",
+   "faq": [
+    [
+     "Quels types de jeux trouve-t-on dans cette catégorie ?",
+     "Des jeux de déguisement et de mode, des relookings, de la décoration de pièces, de la cuisine, des soins aux animaux et des jeux créatifs."
+    ],
+    [
+     "Puis-je jouer à ces jeux sur une tablette ?",
+     "Oui, la plupart sont conçus pour le tactile et fonctionnent bien sur tablettes et téléphones."
+    ],
+    [
+     "Ces jeux sont-ils gratuits ?",
+     "Oui, tous sont gratuits dans le navigateur, sans téléchargement et sans inscription."
+    ],
+    [
+     "Les jeux sauvegardent-ils mes créations ?",
+     "Certains permettent de sauvegarder ou de faire une capture d'écran de vos créations ; beaucoup sauvegardent la progression dans votre navigateur sur le même appareil."
+    ]
+   ]
+  }
  },
  "hypercasual": {
   "name": "Casual",
   "h1": "Jeux casual & hypercasual",
   "intro": [
    "Des jeux simples à un seul tap, immédiatement amusants. Parfaits pour une pause rapide sur votre téléphone ou votre ordinateur."
-  ]
+  ],
+  "guide": {
+   "lead": "Envie de jeux rapides et faciles pour une petite pause ? Voici plus de {n} jeux casual et hypercasual gratuits sur navigateur, avec des commandes d'une seule touche, des parties courtes et un lancement instantané, sans téléchargement.",
+   "faq": [
+    [
+     "Qu'est-ce que les jeux hypercasual ?",
+     "Des jeux très simples qu'on apprend en quelques secondes, généralement avec un seul tap ou un glissement et des parties courtes."
+    ],
+    [
+     "Les jeux casual sont-ils adaptés à une pause rapide ?",
+     "Oui, la plupart des parties durent une minute ou deux et vous pouvez arrêter à tout moment."
+    ],
+    [
+     "Puis-je y jouer sur mon téléphone ?",
+     "Oui, les jeux casual sont conçus avant tout pour les téléphones et fonctionnent très bien dans le navigateur mobile."
+    ],
+    [
+     "Quels sont les jeux casual les plus populaires ?",
+     "Les plus joués sont en haut de cette page et changent chaque jour."
+    ]
+   ]
+  }
  },
  "stickman": {
   "name": "Stickman",
   "h1": "Jeux Stickman",
   "intro": [
    "Combats, parkour et aventures en stickman. Des jeux stickman gratuits qui tournent parfaitement sur tous les appareils."
-  ]
+  ],
+  "guide": {
+   "lead": "Jouez gratuitement aux jeux stickman en ligne : {n}+ jeux navigateur avec combats de bonshommes bâtons, parkour, tir à l'arc et physique ragdoll, sans téléchargement et jouables immédiatement.",
+   "faq": [
+    [
+     "Qu'est-ce que les jeux stickman ?",
+     "Des jeux avec des personnages simples en bâtons, souvent avec une physique amusante, des combats, du tir à l'arc ou du parkour."
+    ],
+    [
+     "Les jeux stickman sont-ils gratuits ?",
+     "Oui, tous sont gratuits à jouer dans votre navigateur."
+    ],
+    [
+     "Y a-t-il des jeux stickman à 2 joueurs ?",
+     "Oui, plusieurs jeux stickman de combat et de sport permettent à deux joueurs de jouer sur un même clavier."
+    ],
+    [
+     "Puis-je jouer aux jeux stickman sur mobile ?",
+     "La plupart fonctionnent dans le navigateur mobile avec des commandes tactiles."
+    ]
+   ]
+  }
  },
  "zombie": {
   "name": "Zombie",
   "h1": "Jeux de zombies",
   "intro": [
    "Survivez aux morts-vivants dans les jeux de zombies gratuits : tirez, construisez vos défenses et échappez à la horde."
-  ]
+  ],
+  "guide": {
+   "lead": "Vous cherchez des jeux de zombies gratuits ? Survivez à la horde dans {n}+ jeux de zombies sur navigateur : shooters, tower defense, survie et jeux de conduite, tous jouables instantanément sans téléchargement.",
+   "faq": [
+    [
+     "Quels types de jeux de zombies existe-t-il ?",
+     "Des shooters de zombies, du tower defense, de la survie et de la construction de base, et des jeux de conduite où vous fonncez à travers la horde."
+    ],
+    [
+     "Les jeux de zombies font-ils peur ?",
+     "La plupart sont des jeux d'action au style cartoon ou arcade plutôt que de l'horreur, mais certains sont plus sombres. Consultez les captures d'écran sur la page de chaque jeu."
+    ],
+    [
+     "Puis-je jouer aux jeux de zombies sur mobile ?",
+     "Beaucoup ont des commandes tactiles et fonctionnent dans le navigateur mobile."
+    ],
+    [
+     "Ces jeux de zombies sont-ils gratuits ?",
+     "Oui, tous sont gratuits dans le navigateur, sans téléchargement nécessaire."
+    ]
+   ]
+  }
  },
  "3d": {
   "name": "3D",
   "h1": "Jeux 3D",
   "intro": [
    "Jeux 3D gratuits qui tournent directement dans votre navigateur : course, tir, parkour et bien d'autres, sans aucune installation."
-  ]
+  ],
+  "guide": {
+   "lead": "Jouez gratuitement à des jeux 3D dans votre navigateur : {n}+ jeux 3D de course, de tir, de parkour, de simulation et d'aventure qui se lancent instantanément grâce à WebGL, sans téléchargement ni installation.",
+   "faq": [
+    [
+     "Un navigateur peut-il faire tourner des jeux 3D ?",
+     "Oui. Les navigateurs modernes prennent en charge WebGL, donc les jeux 3D tournent directement dans la page sur la plupart des ordinateurs et des téléphones récents."
+    ],
+    [
+     "Pourquoi un jeu 3D est-il lent sur mon appareil ?",
+     "Les jeux 3D demandent plus de puissance graphique. Fermez les autres onglets, essayez le plein écran, ou choisissez un jeu plus léger si votre appareil est ancien."
+    ],
+    [
+     "Quels sont de bons jeux 3D gratuits pour débuter ?",
+     "Essayez Balls of Glory, notre runner 3D avec un commentateur en direct, ou les jeux 3D les plus joués en haut de cette page."
+    ],
+    [
+     "Les jeux 3D de navigateur fonctionnent-ils sur téléphone ?",
+     "Beaucoup fonctionnent sur les téléphones récents. Les jeux marqués comme meilleurs sur ordinateur sont plus faciles avec un clavier et une souris."
+    ]
+   ]
+  }
  },
  "cooking": {
   "name": "Cuisine",
   "h1": "Jeux de cuisine",
   "intro": [
    "Gérez des restaurants, préparez des gâteaux et servez des clients affamés dans des jeux de cuisine gratuits."
-  ]
+  ],
+  "guide": {
+   "lead": "Vous aimez les jeux de cuisine ? Jouez à plus de {n} jeux de cuisine et de restaurant gratuits dans le navigateur : tenez un café, faites de la pâtisserie, servez les clients et cuisinez des recettes, le tout instantanément et sans téléchargement.",
+   "faq": [
+    [
+     "Qu'est-ce que les jeux de cuisine ?",
+     "Des jeux où vous préparez des plats, servez les clients et gérez une cuisine, un café ou un restaurant, souvent contre la montre."
+    ],
+    [
+     "Les jeux de cuisine conviennent-ils aux enfants ?",
+     "Oui, la plupart sont colorés et faciles à prendre en main, et beaucoup sont conçus pour les plus jeunes joueurs."
+    ],
+    [
+     "Peut-on jouer aux jeux de cuisine sur une tablette ?",
+     "Oui, ce sont surtout des jeux à toucher et à glisser qui fonctionnent très bien sur tablettes et téléphones."
+    ],
+    [
+     "Les jeux de cuisine sauvegardent-ils la progression ?",
+     "Beaucoup de jeux de restaurant et de gestion culinaire sont sauvegardés dans votre navigateur, ce qui vous permet de continuer à améliorer votre cuisine."
+    ]
+   ]
+  }
  },
  "kids": {
   "name": "Enfants",
   "h1": "Jeux pour enfants",
   "intro": [
    "Des jeux colorés et conviviaux pour les enfants : coloriage, puzzles simples et plaisir facile à prendre en main."
-  ]
+  ],
+  "guide": {
+   "lead": "Vous cherchez des jeux gratuits et sûrs pour enfants ? Voici plus de {n} jeux de navigateur adaptés à toute la famille : puzzles simples, dessin, animaux, voitures et jeux éducatifs, sans téléchargement ni inscription.",
+   "faq": [
+    [
+     "Ces jeux conviennent-ils aux enfants ?",
+     "Cette catégorie regroupe des jeux adaptés à toute la famille, mais nous conseillons tout de même aux parents d'essayer un jeu au préalable, car certains affichent des publicités entre les parties."
+    ],
+    [
+     "Les enfants ont-ils besoin d'un compte pour jouer ?",
+     "Non. Tous les jeux se lancent instantanément dans le navigateur, sans inscription ni données personnelles."
+    ],
+    [
+     "Les enfants peuvent-ils jouer sur une tablette ?",
+     "Oui, la plupart des jeux pour enfants sont conçus pour les écrans tactiles et fonctionnent très bien sur tablettes."
+    ],
+    [
+     "Y a-t-il des jeux éducatifs ?",
+     "Oui, il existe des jeux de puzzle, de chiffres, de mots et de mémoire, à la fois amusants et utiles pour entraîner la réflexion."
+    ]
+   ]
+  }
  },
  "mobile": {
   "name": "Mobile",
   "h1": "Jeux mobiles",
   "intro": [
    "Des jeux gratuits qui fonctionnent parfaitement sur votre téléphone et votre tablette. Appuyez pour jouer instantanément dans votre navigateur sur Android ou iPhone, sans application ni téléchargement."
-  ]
+  ],
+  "guide": {
+   "lead": "Vous voulez des jeux gratuits à jouer sur votre téléphone sans installer d'applications ? Voici plus de {n} jeux de navigateur mobile avec commandes tactiles, qui fonctionnent directement dans Safari ou Chrome sur iPhone et Android.",
+   "faq": [
+    [
+     "Peut-on jouer à ces jeux sur iPhone et Android ?",
+     "Oui, ils fonctionnent dans le navigateur mobile sur les deux, sans boutique d'applications et sans téléchargement."
+    ],
+    [
+     "Puis-je ajouter un jeu à mon écran d'accueil ?",
+     "Oui. Dans le menu de votre navigateur, choisissez Ajouter à l'écran d'accueil et le jeu s'ouvre comme une application."
+    ],
+    [
+     "Les jeux de navigateur mobile consomment-ils beaucoup de données ?",
+     "La plupart se chargent une seule fois, sur quelques mégaoctets. Les jeux 3D sont plus lourds, donc utilisez le Wi-Fi pour ceux-ci si votre forfait data est limité."
+    ],
+    [
+     "Pourquoi un jeu me demande-t-il de tourner mon téléphone ?",
+     "Certains jeux sont conçus pour le mode paysage. Tournez votre téléphone sur le côté et activez la rotation de l'écran si nécessaire."
+    ]
+   ]
+  }
  },
  "topic:games-to-play-when-bored": {
   "h1": "Jeux à jouer quand on s'ennuie",
@@ -939,6 +1317,42 @@
   "intro": [
    "Enfilez la blouse blanche avec des jeux de médecin gratuits : soignez des patients dans un hôpital urbain animé, soignez les dents en tant que dentiste, réalisez des opérations minutieuses, prenez soin d'animaux malades à la clinique vétérinaire ou filez en ambulance vers la prochaine urgence.",
    "Ces jeux d'hôpital mêlent douceur, soins et plaisir du déguisement à des défis de simulation qui demandent de la réflexion rapide, ils plaisent donc aussi bien aux jeunes joueurs qu'aux adultes. Tout se lance instantanément dans votre navigateur sur téléphone, tablette ou PC, gratuitement et sans téléchargement."
+  ]
+ },
+ "topic:car-crash-games": {
+  "name": "Car Crash Games",
+  "h1": "Jeux de Crash Auto",
+  "kw": "jeux de crash auto",
+  "intro": [
+   "Fracassez, écrasez et détruisez des voitures dans les jeux de crash auto gratuits : simulateurs de collisions réalistes avec déformations de carrosserie, derbys de démolition, sauts de rampe et bacs à sable de destruction où casser des choses est tout l'enjeu.",
+   "Chaque jeu fonctionne directement dans votre navigateur sur PC et sur beaucoup de mobiles. Pas de téléchargement, pas d'inscription : choisissez votre voiture, trouvez la plus grosse rampe et voyez ce qu'il en reste."
+  ]
+ },
+ "topic:tile-matching-games": {
+  "name": "Tile Matching Games",
+  "h1": "Jeux de Tuiles à Assortir",
+  "kw": "tile explorer online free",
+  "intro": [
+   "Les jeux de tuiles à assortir vous proposent un plateau rempli de tuiles illustrées et une mission simple : trouver les tuiles identiques et les faire disparaître. Certains demandent de toucher trois tuiles semblables pour les envoyer dans un plateau en bas de l'écran, d'autres de relier deux tuiles par un court chemin, et d'autres encore empilent les tuiles en couches pour que vous réfléchissiez à celle qu'il faut dégager en premier.",
+   "Ils sont apaisants, rapides à comprendre et faciles à prendre en main pour quelques minutes à la fois, ce qui les rend si agréables sur téléphone. Chaque jeu de cette page est gratuit, se lance directement dans votre navigateur et ne nécessite ni téléchargement ni compte."
+  ]
+ },
+ "topic:3d-games": {
+  "name": "3D Games",
+  "h1": "Jeux 3D",
+  "kw": "jeux 3d en ligne",
+  "intro": [
+   "Ce sont des jeux de navigateur entièrement en 3D : jeux de course et de conduite avec caméra poursuite, combattants bâton, puzzles de tri et de blocs à faire pivoter, jeux de course infinie et simulateurs. Ils se chargent dans un onglet de navigateur classique grâce à WebGL, il n'y a donc rien à installer.",
+   "La plupart fonctionnent aussi bien sur téléphone que sur ordinateur, même si un ordinateur avec clavier est préférable pour les jeux de conduite et de tir les plus rapides. Tous sont gratuits à jouer ici, sans téléchargement ni inscription."
+  ]
+ },
+ "topic:screw-puzzle-games": {
+  "name": "Screw Puzzle Games",
+  "h1": "Jeux de Puzzle à Vis",
+  "kw": "jeux de puzzle à vis en ligne",
+  "intro": [
+   "Les puzzles à vis sont un type de jeu de logique paisible : dévissez les goupilles et les boulons dans le bon ordre pour faire tomber les planches en bois et les plaques métalliques, ou triez des écrous colorés sur les boulons correspondants jusqu'à ce que chaque pile ne contienne qu'une seule couleur. Chaque coup modifie ce que vous pouvez atteindre ensuite, alors un peu de réflexion vous mènera loin.",
+   "La collection mélange puzzles de retrait de goupilles sur plateau, jeux de tri d'écrous et de boulons, et niveaux d'appariement de vis de plus en plus difficiles. Ils sont gratuits à jouer dans votre navigateur sur téléphone ou ordinateur, sans téléchargement ni inscription."
   ]
  }
 }

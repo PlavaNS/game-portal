@@ -4,126 +4,504 @@
   "h1": "Juegos de Acción",
   "intro": [
    "Lucha, esquiva y abre camino a través de juegos de acción llenos de ritmo. Cada juego funciona directamente en tu navegador en PC, tablet y móvil."
-  ]
+  ],
+  "guide": {
+   "lead": "¿Buscas juegos de acción gratis para jugar ya mismo en tu navegador, sin descargas ni registrarte? I Love Web Games tiene más de {n} juegos de acción, desde juegos de lucha y ninjas hasta arenas de batalla y combates contra jefes, y cada uno se abre en unos segundos en el ordenador, la tableta o el móvil.",
+   "faq": [
+    [
+     "¿Cuáles son los mejores juegos de acción gratis para jugar en el navegador?",
+     "Empieza por los juegos más jugados que aparecen arriba en esta página. Son los que nuestros jugadores vuelven a probar más a menudo, y la lista se actualiza cada día a medida que llegan juegos nuevos."
+    ],
+    [
+     "¿Puedo jugar a juegos de acción en el móvil?",
+     "Sí. La mayoría de los juegos de acción de aquí tienen controles táctiles y funcionan en el navegador del móvil. Los juegos marcados para ordenador funcionan mejor con teclado."
+    ],
+    [
+     "¿Necesito descargar o instalar algo?",
+     "No. Cada juego se ejecuta dentro de la página en tu navegador, así que puedes jugar al instante y cambiar de juego cuando quieras."
+    ],
+    [
+     "¿Cómo controlo la mayoría de juegos de acción?",
+     "En el ordenador suelen usarse WASD o las flechas para moverse, y el ratón o la barra espaciadora para atacar. Cada página de juego indica sus controles en el apartado Cómo jugar."
+    ]
+   ]
+  }
  },
  "shooting": {
   "name": "Disparos",
   "h1": "Juegos de Disparos",
   "intro": [
    "Apunta, dispara y derriba a tus objetivos. Desde misiones de francotirador hasta batallas de tanques, estos juegos de disparos gratis se cargan al instante sin descargas."
-  ]
+  ],
+  "guide": {
+   "lead": "¿Quieres juegos de disparos gratis sin descargar nada? Aquí tienes más de {n} juegos de disparos para el navegador: misiones de francotirador, batallas de tanques, shooters en primera persona, defensa contra zombis y arcade de disparos, todos jugables al instante en PC y muchos en el móvil.",
+   "faq": [
+    [
+     "¿Son gratis estos juegos de disparos?",
+     "Sí, todos son gratuitos en tu navegador. Algunos muestran un breve anuncio entre rondas, y eso es lo que los mantiene gratis."
+    ],
+    [
+     "¿Cuáles son buenos juegos de disparos para principiantes?",
+     "Los juegos arcade y de francotirador son los más fáciles de aprender porque usan controles sencillos de apuntar y hacer clic. Prueba primero los más jugados que aparecen arriba."
+    ],
+    [
+     "¿Puedo jugar a juegos de disparos en un Chromebook o en un portátil del colegio?",
+     "Sí, funcionan en cualquier navegador moderno, incluido Chrome en un Chromebook, siempre que la red permita el acceso a sitios de juegos."
+    ],
+    [
+     "¿Qué controles usan los shooters de navegador?",
+     "La mayoría usa el ratón para apuntar y clic para disparar, con WASD o las flechas para moverse. Los controles de cada juego aparecen en su página."
+    ]
+   ]
+  }
  },
  "racing": {
   "name": "Coches y Carreras",
   "h1": "Juegos de Coches y Carreras",
   "intro": [
    "Pisa el acelerador con juegos de coches y carreras gratis: derrapa, aparca, corre en motos y conduce monster trucks directamente desde tu navegador."
-  ]
+  ],
+  "guide": {
+   "lead": "¿Buscas juegos de coches y carreras gratis para jugar online? Elige entre más de {n} juegos de carreras para el navegador: drifting, aparcamiento, conducción de camiones, acrobacias en moto y carreras de karts, sin descargar ni instalar nada.",
+   "faq": [
+    [
+     "¿Cuáles son los mejores juegos de carreras gratis online?",
+     "Los juegos de carreras más jugados están arriba en esta página y cambian a medida que los jugadores votan con su tiempo. Cada día se añaden juegos de carreras nuevos."
+    ],
+    [
+     "¿Puedo jugar a juegos de coches en el móvil?",
+     "Sí. La mayoría de los juegos de carreras de aquí admiten controles táctiles con pedales en pantalla o inclinación del móvil, y funcionan en el navegador del móvil."
+    ],
+    [
+     "¿También hay juegos de aparcar y conducir?",
+     "Sí. Además de las carreras, en esta colección hay retos de aparcamiento, conducción por ciudad y con camiones, drifting y juegos de acrobacias."
+    ],
+    [
+     "¿Cómo conduzco en los juegos de carreras del navegador?",
+     "Normalmente las flechas o WASD dirigen y aceleran, y la barra espaciadora frena o derrapa. Cada página de juego indica los controles exactos."
+    ]
+   ]
+  }
  },
  "puzzle": {
   "name": "Puzles",
   "h1": "Juegos de Puzles",
   "intro": [
    "Entrena tu cerebro con juegos de puzles gratis: lógica, match-3, puzles de física y acertijos que puedes jugar en segundos."
-  ]
+  ],
+  "guide": {
+   "lead": "¿Buscas los mejores juegos de puzle gratis para jugar en tu navegador sin registrarte? I Love Web Games tiene más de {n} juegos de puzle: rompecabezas de lógica, match 3, mahjong, sudoku, puzzles de encaje, juegos de palabras y acertijos para exprimir el cerebro, todos al instante en PC, tablet y móvil.",
+   "faq": [
+    [
+     "¿Cuáles son los mejores juegos de puzle gratis para jugar online?",
+     "Empieza por los puzles más jugados que aparecen arriba de esta página. Para puzles originales y hechos a mano, busca los juegos marcados como Indie o Nuestro juego, como Wall of Riddles y Louvers."
+    ],
+    [
+     "¿Hay juegos de puzle que entrenen la mente?",
+     "Sí. Los puzles de lógica, el sudoku, los juegos de números y los puzles de escape room te hacen pensar, y la mayoría se vuelve más difícil nivel a nivel."
+    ],
+    [
+     "¿Puedo jugar a juegos de puzle sin conexión o en el móvil?",
+     "Todos funcionan en el móvil desde el navegador. La mayoría necesita conexión para cargarse, y algunos siguen funcionando una vez cargados."
+    ],
+    [
+     "¿Los juegos de puzle guardan mi progreso?",
+     "Muchos guardan el progreso automáticamente en tu navegador, así que puedes volver al mismo nivel más tarde en el mismo dispositivo."
+    ]
+   ]
+  }
  },
  "clicker-idle": {
   "name": "Clicker e Idle",
   "h1": "Juegos Clicker e Idle",
   "intro": [
    "Toca, mejora y mira cómo crecen los números. Nuestros juegos clicker e idle siguen avanzando, así que cada visita merece la pena."
-  ]
+  ],
+  "guide": {
+   "lead": "¿Te encantan los juegos clicker e idle? Aquí tienes más de {n} juegos idle gratis para navegador: tycoons, juegos de fusión y juegos incrementales en los que tu progreso no para de crecer, todos sin descargas y sin cuenta.",
+   "faq": [
+    [
+     "¿Qué es un juego idle o clicker?",
+     "Empiezas haciendo clic para ganar y luego compras mejoras que generan ganancias por ti automáticamente, así que los números siguen subiendo incluso mientras descansas."
+    ],
+    [
+     "¿Los juegos idle guardan el progreso al cerrar el navegador?",
+     "La mayoría guarda los datos en tu navegador, y muchos calculan lo que ganaste mientras estabas fuera cuando vuelves en el mismo dispositivo."
+    ],
+    [
+     "¿Qué juego idle es bueno para empezar?",
+     "Prueba Bubble Wrap, nuestro propio juego en el que revientas un planeta 3D hecho de plástico de burbujas, o cualquiera de los juegos idle más jugados que aparecen arriba de esta página."
+    ],
+    [
+     "¿Puedo jugar a juegos idle en el móvil?",
+     "Sí, los juegos clicker e idle funcionan muy bien en el móvil porque solo necesitan toques."
+    ]
+   ]
+  }
  },
  "arcade": {
   "name": "Arcade",
   "h1": "Juegos Arcade",
   "intro": [
    "Juegos arcade rápidos y adictivos para una pausa corta o una sesión larga. Fáciles de aprender, difíciles de dejar."
-  ]
+  ],
+  "guide": {
+   "lead": "¿Quieres juegos arcade gratis y rápidos para pasar unos minutos de diversión? Elige entre más de {n} juegos arcade para navegador: clásicos retro, juegos de récords, juegos de físicas y runners sin fin, todos al instante y sin descargas.",
+   "faq": [
+    [
+     "¿Qué son los juegos arcade?",
+     "Juegos cortos y rápidos basados en una idea sencilla y una puntuación máxima, como los clásicos de las recreativas. Fáciles de aprender, difíciles de dominar."
+    ],
+    [
+     "¿Cuáles son buenos juegos arcade gratis para probar primero?",
+     "Nuestro propio Ball Ball Away es uno de los favoritos: dibuja líneas para hacer rebotar una pelota a través de portales de neón. Los juegos arcade más jugados están arriba de esta página."
+    ],
+    [
+     "¿Puedo jugar a juegos arcade en el móvil?",
+     "Sí, la mayoría de los juegos arcade de aquí están pensados para pantalla táctil y funcionan en el navegador del móvil."
+    ],
+    [
+     "¿Los juegos arcade tienen clasificaciones?",
+     "Algunos sí, y muchos guardan tu mejor puntuación en el navegador para que puedas intentar superarla la próxima vez."
+    ]
+   ]
+  }
  },
  "adventure": {
   "name": "Aventura",
   "h1": "Juegos de Aventura",
   "intro": [
    "Explora nuevos mundos, salta por niveles de plataformas y escapa de trampas complicadas en juegos de aventura gratis."
-  ]
+  ],
+  "guide": {
+   "lead": "¿Buscas juegos de aventuras gratis en línea? Explora más de {n} aventuras en el navegador: plataformas, juegos de parkour y obby, juegos de escape y aventuras narrativas, todas jugables al instante en el ordenador y el móvil.",
+   "faq": [
+    [
+     "¿Qué tipos de juegos de aventuras hay?",
+     "Plataformas, recorridos de parkour y obby, juegos de escape, exploración y juegos de historia. Usa el buscador o las colecciones para afinar la búsqueda."
+    ],
+    [
+     "¿Hay juegos de escape room?",
+     "Sí. Prueba Wall of Riddles, un juego de escape room gratis en línea creado por Door 404, un estudio real de escape rooms, o la colección Escape Room Games."
+    ],
+    [
+     "¿Los juegos de aventuras guardan mi progreso?",
+     "Muchos guardan la partida automáticamente en el navegador, así que puedes continuar más tarde en el mismo dispositivo."
+    ],
+    [
+     "¿Cómo controlo las plataformas en el navegador?",
+     "Normalmente con las teclas de flechas o WASD para moverte y con Espacio o W para saltar. En los móviles aparecen botones en pantalla."
+    ]
+   ]
+  }
  },
  "sports": {
   "name": "Deportes",
   "h1": "Juegos de Deportes",
   "intro": [
    "Marca goles, mete los putts y encesta. Juega gratis a juegos de deportes online sin registrarte."
-  ]
+  ],
+  "guide": {
+   "lead": "Juega a juegos de deportes gratis en línea: más de {n} juegos de navegador de fútbol, baloncesto, golf, tenis, billar y mucho más, sin descargas y con partidas rápidas que puedes jugar en el PC o el móvil.",
+   "faq": [
+    [
+     "¿Qué juegos de deportes puedo jugar gratis?",
+     "Fútbol, baloncesto, golf, tenis, béisbol, billar y pool, bolos y mucho más. Los más jugados están arriba en esta página."
+    ],
+    [
+     "¿Hay juegos de deportes para dos jugadores?",
+     "Sí, muchos juegos de fútbol, billar y tenis permiten que dos personas jueguen con el mismo teclado. Consulta también la categoría Juegos para 2 jugadores."
+    ],
+    [
+     "¿Puedo jugar a juegos de deportes en el móvil?",
+     "La mayoría tiene controles táctiles y funciona en el navegador del móvil."
+    ],
+    [
+     "¿Hay juegos de fútbol americano?",
+     "Sí, por ejemplo Two Minute Drill, un juego independiente en el que eliges las jugadas y gestionas el reloj en los dos últimos minutos."
+    ]
+   ]
+  }
  },
  "two-player": {
   "name": "2 Jugadores",
   "h1": "Juegos para 2 Jugadores",
   "intro": [
    "Invita a un amigo y jueguen en el mismo teclado o pantalla. Los mejores juegos gratis para 2 jugadores para diversión cara a cara."
-  ]
+  ],
+  "guide": {
+   "lead": "¿Buscas juegos gratis para 2 jugadores con un amigo en un mismo ordenador? Aquí tienes más de {n} juegos de navegador para dos jugadores: carreras, lucha, deportes, juegos de mesa y juegos de fiesta, sin descargas.",
+   "faq": [
+    [
+     "¿Cómo funcionan los juegos para 2 jugadores con un solo teclado?",
+     "Normalmente un jugador usa WASD y el otro las teclas de flechas. La página de cada juego explica los controles de ambos jugadores."
+    ],
+    [
+     "¿Podemos jugar a juegos para 2 jugadores en un mismo móvil o tableta?",
+     "Algunos juegos admiten a dos jugadores en una misma pantalla táctil, cada uno usando un lado de la pantalla."
+    ],
+    [
+     "¿Hay juegos en línea para dos jugadores?",
+     "Sí, algunos juegos permiten jugar contra un amigo en línea. Consulta la categoría Multijugador para más."
+    ],
+    [
+     "¿Cuáles son buenos juegos para 2 jugadores para niños?",
+     "Los juegos de mesa, los deportes sencillos y los juegos de carreras son fáciles para los jugadores más pequeños. Prueba los más jugados de arriba."
+    ]
+   ]
+  }
  },
  "multiplayer": {
   "name": "Multijugador y .io",
   "h1": "Juegos Multijugador y .io",
   "intro": [
    "Compite con jugadores reales en juegos multijugador y .io. Únete, crece y sube en la tabla de clasificación."
-  ]
+  ],
+  "guide": {
+   "lead": "¿Quieres juegos multijugador y .io gratis? Juega a más de {n} juegos multijugador online en el navegador contra jugadores reales de todo el mundo, sin descargar nada y normalmente sin necesidad de cuenta.",
+   "faq": [
+    [
+     "¿Qué son los juegos .io?",
+     "Juegos online sencillos donde muchos jugadores comparten una misma arena, crecen y compiten por los primeros puestos de la clasificación."
+    ],
+    [
+     "¿Necesito una cuenta para jugar en multijugador?",
+     "La mayoría te deja elegir un apodo y jugar enseguida. Algunos ofrecen cuentas opcionales para guardar el progreso."
+    ],
+    [
+     "¿Puedo jugar con mis amigos?",
+     "Muchos juegos multijugador tienen salas o enlaces de invitación para correr o jugar juntos, por ejemplo Kart Chaos y Knockback."
+    ],
+    [
+     "¿Son seguros los juegos multijugador para niños?",
+     "La mayoría no tiene chat abierto, pero los padres deberían revisar cada juego, ya que algunos muestran nombres de jugadores o un chat sencillo."
+    ]
+   ]
+  }
  },
  "girls": {
   "name": "Chicas",
   "h1": "Juegos para Chicas",
   "intro": [
    "Vístete, diseña, ponte estilo y crea. Juegos divertidos para chicas (y para todos) con moda, maquillaje y transformaciones."
-  ]
+  ],
+  "guide": {
+   "lead": "Juega a juegos gratis para chicas online: más de {n} juegos de navegador de vestir, maquillaje, decoración, cocina y moda, todos al instante, sin descargar y jugables en cualquier dispositivo.",
+   "faq": [
+    [
+     "¿Qué tipos de juegos hay en esta categoría?",
+     "Juegos de vestir y moda, maquillajes, decoración de habitaciones, cocina, cuidado de mascotas y juegos creativos."
+    ],
+    [
+     "¿Puedo jugar a estos juegos en una tableta?",
+     "Sí, la mayoría está hecha para pantalla táctil y funciona bien en tabletas y móviles."
+    ],
+    [
+     "¿Estos juegos son gratis?",
+     "Sí, todos son gratuitos en el navegador, sin descargas y sin registrarse."
+    ],
+    [
+     "¿Los juegos guardan mis creaciones?",
+     "Algunos te permiten guardar o hacer capturas de tus diseños; muchos guardan el progreso en el navegador del mismo dispositivo."
+    ]
+   ]
+  }
  },
  "hypercasual": {
   "name": "Casual",
   "h1": "Juegos Casuales e Hipercasuales",
   "intro": [
    "Juegos sencillos de un toque que son divertidos al instante. Perfectos para una pausa rápida en tu móvil o computadora."
-  ]
+  ],
+  "guide": {
+   "lead": "¿Quieres juegos rápidos y fáciles para una pausa corta? Aquí tienes más de {n} juegos casuales e hipercasuales gratis para el navegador, con controles de un toque, partidas cortas y juego instantáneo, sin descargas.",
+   "faq": [
+    [
+     "¿Qué son los juegos hipercasuales?",
+     "Juegos muy sencillos que se aprenden en segundos, normalmente con un toque o deslizamiento y partidas cortas."
+    ],
+    [
+     "¿Los juegos casuales son buenos para una pausa rápida?",
+     "Sí, la mayoría de partidas duran un minuto o dos y puedes parar en cualquier momento."
+    ],
+    [
+     "¿Puedo jugarlos en el móvil?",
+     "Sí, los juegos casuales están pensados primero para el móvil y funcionan muy bien en el navegador del teléfono."
+    ],
+    [
+     "¿Qué juegos casuales son los más populares?",
+     "Los más jugados están en la parte superior de esta página y cambian cada día."
+    ]
+   ]
+  }
  },
  "stickman": {
   "name": "Stickman",
   "h1": "Juegos Stickman",
   "intro": [
    "Peleas de stickman, parkour y aventuras. Juegos stickman gratis que funcionan sin problemas en cualquier dispositivo."
-  ]
+  ],
+  "guide": {
+   "lead": "Juega a juegos de stickman gratis en línea: más de {n} juegos de navegador con peleas de muñequitos de palitos, parkour, tiro con arco y física ragdoll, sin descargas y con juego instantáneo.",
+   "faq": [
+    [
+     "¿Qué son los juegos de stickman?",
+     "Juegos con personajes sencillos de muñequitos de palitos, a menudo con física divertida, peleas, tiro con arco o parkour."
+    ],
+    [
+     "¿Los juegos de stickman son gratis?",
+     "Sí, todos se pueden jugar gratis en tu navegador."
+    ],
+    [
+     "¿Hay juegos de stickman para 2 jugadores?",
+     "Sí, varios juegos de peleas y deportes de stickman permiten que dos jugadores jueguen con un mismo teclado."
+    ],
+    [
+     "¿Puedo jugar a juegos de stickman en el móvil?",
+     "La mayoría funcionan en el navegador del móvil con controles táctiles."
+    ]
+   ]
+  }
  },
  "zombie": {
   "name": "Zombi",
   "h1": "Juegos de Zombis",
   "intro": [
    "Sobrevive a los muertos vivientes en juegos de zombis gratis: dispara, construye defensas y escapa de la horda."
-  ]
+  ],
+  "guide": {
+   "lead": "¿Buscas juegos de zombis gratis? Sobrevive a la horda en más de {n} juegos de zombis para navegador: de disparos, defensa de torres, supervivencia y conducción, todos jugables al instante sin descargar nada.",
+   "faq": [
+    [
+     "¿Qué tipos de juegos de zombis hay?",
+     "Juegos de disparos contra zombis, defensa de torres, supervivencia y construcción de bases, y juegos de conducción en los que arrollas a la horda."
+    ],
+    [
+     "¿Los juegos de zombis dan miedo?",
+     "La mayoría son juegos de acción con estilo de dibujos animados o arcade más que de terror, aunque algunos son más oscuros. Revisa las capturas de pantalla en la página de cada juego."
+    ],
+    [
+     "¿Puedo jugar a juegos de zombis en el móvil?",
+     "Muchos tienen controles táctiles y funcionan en el navegador del móvil."
+    ],
+    [
+     "¿Estos juegos de zombis son gratis?",
+     "Sí, todos son gratuitos en el navegador, sin necesidad de descargar nada."
+    ]
+   ]
+  }
  },
  "3d": {
   "name": "3D",
   "h1": "Juegos 3D",
   "intro": [
    "Juegos 3D gratis que funcionan directamente en tu navegador: carreras, disparos, parkour y mucho más, sin necesidad de instalar nada."
-  ]
+  ],
+  "guide": {
+   "lead": "Juega a juegos 3D gratis en tu navegador: más de {n} juegos 3D de carreras, disparos, parkour, simulación y aventura que funcionan al instante con WebGL, sin descargas ni instalación.",
+   "faq": [
+    [
+     "¿Un navegador puede ejecutar juegos 3D?",
+     "Sí. Los navegadores modernos admiten WebGL, así que los juegos 3D se ejecutan directamente en la página en la mayoría de ordenadores y móviles recientes."
+    ],
+    [
+     "¿Por qué un juego 3D va lento en mi dispositivo?",
+     "Los juegos 3D necesitan más potencia gráfica. Cierra otras pestañas, prueba el modo de pantalla completa o elige un juego más ligero si tu dispositivo es antiguo."
+    ],
+    [
+     "¿Cuáles son buenos juegos 3D gratis para empezar?",
+     "Prueba Balls of Glory, nuestro juego de correr en 3D con comentarista en directo, o los juegos 3D más jugados que aparecen arriba en esta página."
+    ],
+    [
+     "¿Los juegos 3D del navegador funcionan en el móvil?",
+     "Muchos sí en los móviles recientes. Los juegos marcados como mejores para ordenador son más fáciles con teclado y ratón."
+    ]
+   ]
+  }
  },
  "cooking": {
   "name": "Cocina",
   "h1": "Juegos de Cocina",
   "intro": [
    "Dirige restaurantes, hornea pasteles y atiende a clientes hambrientos en juegos de cocina gratis."
-  ]
+  ],
+  "guide": {
+   "lead": "¿Te encantan los juegos de cocina? Juega a más de {n} juegos gratis de cocina y restaurantes en el navegador: lleva una cafetería, hornea, atiende a los clientes y prepara recetas, todo al instante y sin descargas.",
+   "faq": [
+    [
+     "¿Qué son los juegos de cocina?",
+     "Juegos en los que preparas comida, atiendes a los clientes y diriges una cocina, cafetería o restaurante, a menudo contra reloj."
+    ],
+    [
+     "¿Los juegos de cocina son buenos para niños?",
+     "Sí, la mayoría son coloridos y fáciles de jugar, y muchos están pensados para los jugadores más pequeños."
+    ],
+    [
+     "¿Puedo jugar a los juegos de cocina en una tableta?",
+     "Sí, en su mayoría son juegos de tocar y arrastrar, y funcionan muy bien en tabletas y teléfonos."
+    ],
+    [
+     "¿Los juegos de cocina guardan el progreso?",
+     "Muchos juegos de restaurantes y de tycoon guardan los datos en tu navegador para que puedas seguir mejorando tu cocina."
+    ]
+   ]
+  }
  },
  "kids": {
   "name": "Niños",
   "h1": "Juegos para Niños",
   "intro": [
    "Juegos amigables y coloridos para niños: colorear, rompecabezas sencillos y diversión fácil de jugar."
-  ]
+  ],
+  "guide": {
+   "lead": "¿Buscas juegos gratis y seguros para niños? Aquí tienes más de {n} juegos de navegador aptos para toda la familia: puzzles sencillos, dibujo, animales, coches y juegos educativos, sin descargas y sin registrarse.",
+   "faq": [
+    [
+     "¿Son adecuados para niños estos juegos?",
+     "Esta categoría reúne juegos aptos para toda la familia, pero recomendamos que los padres prueben antes el juego, ya que algunos muestran anuncios entre partidas."
+    ],
+    [
+     "¿Los niños necesitan una cuenta para jugar?",
+     "No. Todos los juegos se abren al instante en el navegador, sin registro y sin datos personales."
+    ],
+    [
+     "¿Los niños pueden jugar en una tableta?",
+     "Sí, la mayoría de los juegos infantiles están hechos para pantallas táctiles y funcionan muy bien en tabletas."
+    ],
+    [
+     "¿Hay juegos educativos?",
+     "Sí, hay puzzles, juegos de números, de palabras y de memoria que son divertidos y ayudan a practicar las habilidades de pensamiento."
+    ]
+   ]
+  }
  },
  "mobile": {
   "name": "Móvil",
   "h1": "Juegos para Móvil",
   "intro": [
    "Juegos gratis que funcionan genial en tu teléfono y tablet. Toca para jugar al instante en tu navegador en Android o iPhone — sin app ni descarga."
-  ]
+  ],
+  "guide": {
+   "lead": "¿Quieres juegos gratis para jugar en el móvil sin instalar aplicaciones? Aquí tienes más de {n} juegos de navegador para móviles con controles táctiles que funcionan directamente en Safari o Chrome en iPhone y Android.",
+   "faq": [
+    [
+     "¿Puedo jugar a estos juegos en iPhone y Android?",
+     "Sí, funcionan en el navegador móvil de ambos, sin tienda de aplicaciones y sin descargas."
+    ],
+    [
+     "¿Puedo añadir un juego a la pantalla de inicio?",
+     "Sí. En el menú de tu navegador elige Añadir a pantalla de inicio y el juego se abrirá como una aplicación."
+    ],
+    [
+     "¿Los juegos de navegador para móviles consumen muchos datos?",
+     "La mayoría se cargan una vez y ocupan unos pocos megabytes. Los juegos en 3D son más pesados, así que usa Wi-Fi para esos si tu tarifa de datos es limitada."
+    ],
+    [
+     "¿Por qué un juego me pide que gire el teléfono?",
+     "Algunos juegos están hechos para el modo horizontal. Gira el teléfono de lado y desbloquea la rotación de pantalla si hace falta."
+    ]
+   ]
+  }
  },
  "topic:games-to-play-when-bored": {
   "h1": "Juegos para jugar cuando te aburres",
@@ -958,6 +1336,42 @@
   "intro": [
    "Los juegos educativos para preescolar convierten las letras, los números, los colores y las formas en algo que un niño pequeño de verdad quiere hacer. Traza el abecedario, relaciona el animal con su sonido, cuenta la fruta, colorea el dibujo y escucha un sonido alegre cada vez que lo hace bien.",
    "Están pensados para atenciones cortas y botones grandes, así que funcionan muy bien en una tableta o un móvil. Todo aquí es gratis, funciona en el navegador y no necesita descargas ni registro."
+  ]
+ },
+ "topic:car-crash-games": {
+  "name": "Car Crash Games",
+  "h1": "Juegos de Choques de Coches",
+  "kw": "juegos de choques de coches",
+  "intro": [
+   "¡Golpea, choca y destroza coches en los juegos de choques de coches gratis: simuladores de choques realistas con daños de cuerpo blando, derbis de demolición, saltos por rampas y sandboxes de destrucción donde romper cosas es lo principal.",
+   "Todos los juegos funcionan directamente en tu navegador, en PC y en muchos casos en el móvil. Sin descargas ni registro: elige un coche, busca la rampa más grande y mira lo que queda de ella."
+  ]
+ },
+ "topic:tile-matching-games": {
+  "name": "Tile Matching Games",
+  "h1": "Juegos de Emparejar Fichas",
+  "kw": "tile explorer online gratis",
+  "intro": [
+   "Los juegos de emparejar fichas te dan un tablero lleno de fichas con dibujos y una tarea sencilla: encontrar las idénticas y eliminarlas. Algunos te dejan tocar tres iguales para llevarlas a una bandeja inferior, otros te piden unir dos fichas con un camino corto y otros apilan las fichas en capas para que pienses cuál liberar primero.",
+   "Son tranquilos, rápidos de aprender y fáciles de jugar unos minutos seguidos, por eso funcionan tan bien en el móvil. Todos los juegos de esta página son gratis, se ejecutan directamente en tu navegador y no necesitan descarga ni cuenta."
+  ]
+ },
+ "topic:3d-games": {
+  "name": "3D Games",
+  "h1": "Juegos 3D",
+  "kw": "juegos 3d online",
+  "intro": [
+   "Estos son juegos de navegador creados en 3D completo: juegos de carreras y conducción con cámara persecutoria, luchadores de stickman, puzzles de ordenar y de bloques que puedes girar, juegos de correr y simuladores. Se cargan en una pestaña normal del navegador con WebGL, así que no hay nada que instalar.",
+   "La mayoría también funcionan en el móvil además del ordenador, aunque un escritorio con teclado ayuda en los juegos de conducción y disparos más rápidos. Todos son gratis para jugar aquí, sin descargas ni registro."
+  ]
+ },
+ "topic:screw-puzzle-games": {
+  "name": "Screw Puzzle Games",
+  "h1": "Juegos de Puzzles de Tornillos",
+  "kw": "juegos de puzzles de tornillos online",
+  "intro": [
+   "Los puzzles de tornillos son un tipo de juego de lógica tranquilo: desatornilla pines y tornillos en el orden correcto para que las tablas de madera y las placas de metal caigan, o ordena tuercas de colores en tornillos del mismo color hasta que cada pila sea de un solo color. Cada movimiento cambia lo que puedes alcanzar después, así que un poco de planificación te ayuda mucho.",
+   "La colección mezcla puzzles de tablero para quitar pines, juegos de ordenar tuercas y tornillos y niveles de emparejar tornillos que se vuelven más difíciles a medida que avanzas. Son gratis para jugar en tu navegador desde el móvil o el ordenador, sin descargas ni registro."
   ]
  }
 }
