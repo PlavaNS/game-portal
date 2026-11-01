@@ -348,6 +348,7 @@ ball-run-2048-space
 ball-sort-puzzle
 ballerina-cappuccina-loves-tung-tung-sahur
 ballon-race-3d
+balloon-pop-pop-and-blast
 balloon-smash
 balls-animal
 balls-bricks-breaker
@@ -489,6 +490,7 @@ blast-out-battle-royale
 blast-round-puzzle-block
 blasties
 blasting-marbles
+blastix
 blend-it-perfect
 blind-boat-shooting-master
 blind-box-master
@@ -895,6 +897,7 @@ career-rush
 cargo-path-puzzle
 cargo-truck-game
 cargo-truck-simulator-2025
+cargomatchmaster
 carletto-halloween-dreams
 carmania-io
 carrom-club
@@ -1069,6 +1072,7 @@ clue-hunter
 clutter-master
 cobraz-io
 cockroach-tower-defense
+cocoon-crossing
 cod-duty-call-fps
 code-breaker-deluxe
 coffe-merge-house
@@ -1090,6 +1094,7 @@ color-ball-escape
 color-blast-puzzle
 color-brain-test-games
 color-brawls
+color-brick-battle
 color-by-numbers-anti-stress-drawings
 color-coin-merge
 color-cube-puzzle
@@ -1336,6 +1341,7 @@ death-run
 deck-of-deception
 deconstruct-cube-create-hotel
 decorate-my-dream-castle-home-design
+deep-drill
 deep-drill-run
 deep-freeze-fishing
 deep-in-the-lab-chapter-1
@@ -1392,6 +1398,7 @@ dig-it
 dig-to-the-weirdest-world
 diggy
 digit-shooter-1
+digital-circus-2026
 digital-circus-parkour-game
 diner-in-the-storm
 dino-dash
@@ -1620,6 +1627,7 @@ elip-adventure
 ellie-summer-spa-beauty-salon
 elska-dog-vs-zombies-multiplayer-co-op
 ember-boy-and-ripple-girl
+ember-carnival
 emergency-dispatcher-911
 emergency-rush-city-ambulance-rescue
 emilys-hotel-solitaire
@@ -1863,6 +1871,7 @@ flick-shot-soccer
 flip-8
 flip-bird
 flip-bottle
+flip-fork-game
 flip-gun-3d-ragdoll-shooter
 flip-master
 flip-shoot-control
@@ -1896,6 +1905,7 @@ foot-bomb
 foot-chinko
 football-champ-3d
 football-crash
+football-crash-2
 football-free-kick
 football-io
 football-kick-3d
@@ -1947,6 +1957,7 @@ from-nerd-to-school-popular
 from-zombie-to-glam-a-spooky
 frontline-assault-battleground-fire-max-shooting
 frontline-commando-shooting-gun-games
+froozy
 frost-land-snow-survival
 frostport
 frosty-ball
@@ -1974,6 +1985,7 @@ fruits-shooter-pop-master
 fruits-slice-challenge
 fruitsland-escape-from-the-amusement-park
 frutiger-friends-io
+full-space-shooter
 fun-draw-race-3d
 fun-fishing
 fun-jigsaw-puzzle-game
@@ -2183,6 +2195,7 @@ guard-the-baby
 guardians-of-tower
 guess-drawing
 guess-monster-voice
+guess-which-game
 guilty-sniper
 gun-and-guys
 gun-and-roll
@@ -2191,6 +2204,7 @@ gun-blast
 gun-bounce-idle
 gun-clone
 gun-craft-and-fight
+gun-evolution-game
 gun-festival-shoot
 gun-shooter
 gun-strike-runner
@@ -2423,6 +2437,7 @@ hugie-wugie-coloring
 hugie-wugie-runner
 hula-hoops-rush
 humans-playground-sandbox
+hungry-ants
 hungry-cars
 hungry-cats
 hungry-crab
@@ -2451,6 +2466,7 @@ ice-scream-horror-adventure
 ice-slide
 icing-on-doll-cake-creative-bakery
 icy-purple-head-2
+icymatch
 idle-airport-tycoon
 idle-bank
 idle-chicken-farm
@@ -2558,6 +2574,7 @@ join-clash-3d
 join-clash-epic-battle
 join-the-gang-and-fight
 joyful-ball
+juice-sort-puzzle
 juice-tycoon
 juicy-run
 juicyjong
@@ -2789,6 +2806,7 @@ lows-adventures-3
 luchaball
 lucky-clash
 lucky-dice
+lucy-makeup-and-dress-up
 ludo-classic
 ludo-world
 lumbering-at-sea
@@ -2930,6 +2948,7 @@ mega-ramp-car
 mega-ramp-car-stunt-racing
 mega-ramp-car-stunts-gt-racing
 mega-ramp-stunt-moto-fun-and-run-3d-game
+mega-ramp-stunt-racing-3d
 mega-sweet-fruits-popper
 mellow-escape
 melodys-adventure
@@ -2997,6 +3016,7 @@ metal-shooter-brother-squad
 mexico-rex-2
 mfps-military-combat
 mice-hunt
+mice-rush
 micro-gt-racing
 microgic-89
 microplastics-feeding
@@ -3071,6 +3091,7 @@ mix-and-paint-3d
 mix-monsters-fun-merge
 mixed-world
 mixed-world-weekend
+mob-runner-master
 mochi-mochi-tower
 mochi-rescue
 model-wedding-girl-games
@@ -3161,6 +3182,7 @@ moto-x3m-winter
 motocross-racing
 motor-stunt-simulator-3d
 motorbike-drive
+motorcarvolleyball
 motorcycle-racer-road-mayhem
 motorcycle-stunts-drive
 mountain-bike-challenge
@@ -3563,6 +3585,7 @@ parking-bike-3d-game
 parking-boom
 parking-journey-car-puzzle
 parking-master-urban-challenges
+parking-puzzle-game
 parking-skills
 parking-solution
 parkour-obby-jump-to-victory
@@ -4155,6 +4178,7 @@ save-my-pet-game
 save-nemo
 save-the-baby-home-rush
 save-the-balloon-road-to-the-stars
+save-the-capybara
 save-the-dummy
 save-the-fruit-draw-to-save
 save-the-galaxy
@@ -4436,12 +4460,14 @@ soccer-drop-game
 soccer-hero
 soccer-heroes
 soccer-legends-2026
+soccer-mini-3d
 soccer-random
 soccer-rebound
 soccer-strike
 soccerlat-3d-football-online
 soda-sandbox
 sokoballs
+sokoban-master
 sokoban-puzzle-game
 sol-coalition-force
 soldiers-runner
@@ -4473,6 +4499,7 @@ sortilege-magic-shop-sort
 sorting-ball-puzzle
 sorting-ball-quiz
 sorting-cute-animals
+sorting-games-toy-sort
 sorting-nuts-and-bolts-by-color-home-repair
 sorty-bolty
 spa-with-daddy
@@ -4535,6 +4562,7 @@ spooky-racing
 spooky-vending-machine-2
 spore-guard
 sportbike-drive
+sportix
 sports-minibattles
 spotless
 spra-racing-cars-speed
@@ -5306,6 +5334,7 @@ washing-toilets
 wasteland-hunter-puzzle-rpg
 water-city-racers
 water-me-please
+water-race-game
 water-sort-master-color-puzzle
 watermelon-falling-animals
 watermelon-fruit-2048
@@ -5514,6 +5543,7 @@ zombies-ate-my-castle
 zombies-vs-special-forces
 zombiracer-speed-on-earth
 zombotron-re-boot
+zomly
 zone-breaker
 zoo-elephant-simulator-city-attack
 zoo-mahjongg-deluxe
