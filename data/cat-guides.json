@@ -1,0 +1,164 @@
+{
+  "action": {
+    "lead": "Looking for free action games you can play right away in your browser, with no download and no sign-up? I Love Web Games has {n}+ action games, from fighting and ninja games to battle arenas and boss fights, and every one starts in a few seconds on a computer, tablet or phone.",
+    "faq": [
+      ["What are the best free action games to play in a browser?", "Start with the most played games at the top of this page. They are the ones our players come back to most, and the list updates every day as new games arrive."],
+      ["Can I play action games on my phone?", "Yes. Most action games here have touch controls and run in the mobile browser. Games marked for desktop work best with a keyboard."],
+      ["Do I need to download or install anything?", "No. Every game runs inside the page in your browser, so you can play instantly and switch games whenever you like."],
+      ["How do I control most action games?", "On a computer it is usually WASD or the arrow keys to move and the mouse or Space to attack. Each game page lists its own controls under How to play."]
+    ]
+  },
+  "shooting": {
+    "lead": "Want free shooting games with no download? Here are {n}+ browser shooters: sniper missions, tank battles, first-person shooters, zombie defence and arcade blasters, all playable instantly on PC and many on mobile.",
+    "faq": [
+      ["Are these shooting games free?", "Yes, all of them are free to play in your browser. Some show a short ad between rounds, which is what keeps them free."],
+      ["What are good shooting games for beginners?", "Arcade and sniper games are the easiest to pick up because they use simple aim-and-click controls. Try the most played games at the top first."],
+      ["Can I play shooting games on a Chromebook or school laptop?", "Yes, they run in any modern browser, including Chrome on a Chromebook, as long as the network allows game sites."],
+      ["What controls do browser shooters use?", "Most use the mouse to aim and click to shoot, with WASD or the arrow keys to move. The controls for each game are listed on its page."]
+    ]
+  },
+  "racing": {
+    "lead": "Looking for free car and racing games to play online? Pick from {n}+ browser racing games: drifting, parking, truck driving, motorbike stunts and kart races, with no download and nothing to install.",
+    "faq": [
+      ["What are the best free racing games online?", "The most played racing games are at the top of this page and change as players vote with their time. New racing games are added every day."],
+      ["Can I play car games on my phone?", "Yes. Most racing games here support touch controls with on-screen pedals or tilt, and work in the mobile browser."],
+      ["Are there car parking and driving games too?", "Yes. Besides races there are parking challenges, city and truck driving, drifting and stunt games in this collection."],
+      ["How do I drive in browser racing games?", "Usually the arrow keys or WASD steer and accelerate, and Space brakes or drifts. Each game page lists its exact controls."]
+    ]
+  },
+  "puzzle": {
+    "lead": "Looking for the best free puzzle games to play in your browser without signing up? I Love Web Games has {n}+ puzzle games: logic puzzles, match 3, mahjong, sudoku, jigsaw, word games and brain teasers, all instant on PC, tablet and phone.",
+    "faq": [
+      ["What are the best free puzzle games to play online?", "Start with the most played puzzles at the top of this page. For original, hand-made puzzles, look for games marked Indie or Our game, such as Wall of Riddles and Louvers."],
+      ["Are there puzzle games that train the brain?", "Yes. Logic puzzles, sudoku, number games and escape room puzzles all make you think, and most get harder level by level."],
+      ["Can I play puzzle games offline or on my phone?", "All of them work on phones in the browser. Most need a connection to load, and some keep working once loaded."],
+      ["Do puzzle games save my progress?", "Many save progress in your browser automatically, so you can come back to the same level later on the same device."]
+    ]
+  },
+  "clicker-idle": {
+    "lead": "Love clicker and idle games? Here are {n}+ free browser idle games: tycoons, merge games and incremental games where your progress keeps growing, all with no download and no account.",
+    "faq": [
+      ["What is an idle or clicker game?", "You start by clicking to earn, then buy upgrades that earn for you automatically, so the numbers keep growing even while you take a break."],
+      ["Do idle games keep progress when I close the browser?", "Most save in your browser, and many calculate what you earned while you were away when you come back on the same device."],
+      ["What is a good idle game to start with?", "Try Bubble Wrap, our own game where you pop a 3D planet made of bubble wrap, or any of the most played idle games at the top of this page."],
+      ["Can I play idle games on mobile?", "Yes, clicker and idle games work very well on phones because they only need taps."]
+    ]
+  },
+  "arcade": {
+    "lead": "Want quick, free arcade games for a few minutes of fun? Choose from {n}+ browser arcade games: retro classics, high-score chasers, physics games and endless runners, all instant with no download.",
+    "faq": [
+      ["What are arcade games?", "Short, fast games built around one simple idea and a high score, like the classic coin-op games. Easy to learn, hard to master."],
+      ["What are good free arcade games to try first?", "Our own Ball Ball Away is a favourite: draw lines to bounce a ball through neon portals. The most played arcade games are at the top of this page."],
+      ["Can I play arcade games on my phone?", "Yes, most arcade games here are made for touch and work in the mobile browser."],
+      ["Do arcade games have leaderboards?", "Some do, and many save your best score in your browser so you can try to beat it next time."]
+    ]
+  },
+  "adventure": {
+    "lead": "Looking for free adventure games online? Explore {n}+ browser adventures: platformers, parkour and obby games, escape games and story adventures, all playable instantly on computer and phone.",
+    "faq": [
+      ["What kinds of adventure games are there?", "Platformers, parkour and obby courses, escape games, exploration and story games. Use the search or the collections to narrow it down."],
+      ["Are there escape room games?", "Yes. Try Wall of Riddles, a free online escape room game made by Door 404, a real escape room studio, or the Escape Room Games collection."],
+      ["Do adventure games save my progress?", "Many save in your browser automatically, so you can continue later on the same device."],
+      ["How do I control platformers in the browser?", "Usually the arrow keys or WASD to move and Space or W to jump. On phones they show on-screen buttons."]
+    ]
+  },
+  "sports": {
+    "lead": "Play free sports games online: {n}+ browser games for football, basketball, golf, tennis, pool and more, with no download and quick matches you can play on PC or phone.",
+    "faq": [
+      ["What sports games can I play for free?", "Football and soccer, basketball, golf, tennis, baseball, pool and billiards, bowling and more. The most played ones are at the top of this page."],
+      ["Are there two player sports games?", "Yes, many football, pool and tennis games let two people play on the same keyboard. See also the 2 Player Games category."],
+      ["Can I play sports games on mobile?", "Most of them have touch controls and work in the mobile browser."],
+      ["Are there American football games?", "Yes, for example Two Minute Drill, an indie game where you call the plays and manage the clock in the final two minutes."]
+    ]
+  },
+  "two-player": {
+    "lead": "Looking for free 2 player games to play with a friend on one computer? Here are {n}+ two player browser games: racing, fighting, sports, board games and party games, with no download.",
+    "faq": [
+      ["How do 2 player games work on one keyboard?", "Usually one player uses WASD and the other the arrow keys. Each game page explains the controls for both players."],
+      ["Can we play 2 player games on one phone or tablet?", "Some games support two players on one touchscreen, each using one side of the screen."],
+      ["Are there online two player games?", "Yes, some games let you play against a friend online. See the Multiplayer category for more."],
+      ["What are good 2 player games for kids?", "Board games, simple sports and racing games are easy for younger players. Try the most played ones at the top."]
+    ]
+  },
+  "multiplayer": {
+    "lead": "Want free multiplayer and .io games? Play {n}+ online multiplayer browser games against real players around the world, with no download and usually no account needed.",
+    "faq": [
+      ["What are .io games?", "Simple online games where many players share one arena, grow, and compete for the top of the leaderboard."],
+      ["Do I need an account for multiplayer games?", "Most let you pick a nickname and play straight away. A few offer optional accounts to save progress."],
+      ["Can I play with my friends?", "Many multiplayer games have rooms or invite links so you can race or play together, for example Kart Chaos and Knockback."],
+      ["Are multiplayer games safe for kids?", "Most have no open chat, but parents should still check each game, as some show player names or simple chat."]
+    ]
+  },
+  "girls": {
+    "lead": "Play free games for girls online: {n}+ browser games with dress up, makeover, decorating, cooking and fashion, all instant with no download and playable on any device.",
+    "faq": [
+      ["What kinds of games are in this category?", "Dress up and fashion games, makeovers, room decorating, cooking, pet care and creative games."],
+      ["Can I play these games on a tablet?", "Yes, most of them are made for touch and work well on tablets and phones."],
+      ["Are these games free?", "Yes, all of them are free in the browser, with no download and no sign-up."],
+      ["Do the games save my creations?", "Some let you save or screenshot your designs; many save progress in your browser on the same device."]
+    ]
+  },
+  "hypercasual": {
+    "lead": "Want quick and easy games to play in a short break? Here are {n}+ free casual and hypercasual browser games with one-touch controls, short rounds and instant play, no download needed.",
+    "faq": [
+      ["What are hypercasual games?", "Very simple games you learn in seconds, usually with one tap or swipe and short rounds."],
+      ["Are casual games good for a quick break?", "Yes, most rounds take a minute or two and you can stop any time."],
+      ["Can I play them on my phone?", "Yes, casual games are made for phones first and work great in the mobile browser."],
+      ["Which casual games are most popular?", "The most played ones are at the top of this page and change every day."]
+    ]
+  },
+  "stickman": {
+    "lead": "Play free stickman games online: {n}+ browser games with stick figure fighting, parkour, archery and ragdoll physics, with no download and instant play.",
+    "faq": [
+      ["What are stickman games?", "Games with simple stick figure characters, often with fun physics, fighting, archery or parkour."],
+      ["Are stickman games free?", "Yes, all of them are free to play in your browser."],
+      ["Are there 2 player stickman games?", "Yes, several stickman fighting and sports games let two players play on one keyboard."],
+      ["Can I play stickman games on mobile?", "Most of them work in the mobile browser with touch controls."]
+    ]
+  },
+  "zombie": {
+    "lead": "Looking for free zombie games? Survive the horde in {n}+ browser zombie games: shooters, tower defence, survival and driving games, all playable instantly with no download.",
+    "faq": [
+      ["What types of zombie games are there?", "Zombie shooters, tower defence, survival and base building, and driving games where you plough through the horde."],
+      ["Are zombie games scary?", "Most are action games with cartoon or arcade style rather than horror, but some are darker. Check the screenshots on each game page."],
+      ["Can I play zombie games on mobile?", "Many have touch controls and work in the mobile browser."],
+      ["Are these zombie games free?", "Yes, all of them are free in the browser, no download needed."]
+    ]
+  },
+  "3d": {
+    "lead": "Play free 3D games in your browser: {n}+ 3D racing, shooting, parkour, simulator and adventure games that run instantly with WebGL, no download or install needed.",
+    "faq": [
+      ["Can a browser run 3D games?", "Yes. Modern browsers support WebGL, so 3D games run directly in the page on most computers and recent phones."],
+      ["Why is a 3D game slow on my device?", "3D games need more graphics power. Close other tabs, try full screen, or pick a lighter game if your device is older."],
+      ["What are good free 3D games to start with?", "Try Balls of Glory, our 3D runner with a live commentator, or the most played 3D games at the top of this page."],
+      ["Do 3D browser games work on phones?", "Many do on recent phones. Games marked as best on desktop are easier with a keyboard and mouse."]
+    ]
+  },
+  "cooking": {
+    "lead": "Love cooking games? Play {n}+ free browser cooking and restaurant games: run a cafe, bake, serve customers and cook recipes, all instantly with no download.",
+    "faq": [
+      ["What are cooking games?", "Games where you prepare food, serve customers and run a kitchen, cafe or restaurant, often against the clock."],
+      ["Are cooking games good for kids?", "Yes, most are colourful and easy to play, and many are made with younger players in mind."],
+      ["Can I play cooking games on a tablet?", "Yes, they are mostly tap and drag games and work well on tablets and phones."],
+      ["Do cooking games save progress?", "Many restaurant and tycoon cooking games save in your browser so you can keep upgrading your kitchen."]
+    ]
+  },
+  "kids": {
+    "lead": "Looking for free, safe games for kids? Here are {n}+ family-friendly browser games: simple puzzles, drawing, animals, cars and learning games, with no download and no sign-up.",
+    "faq": [
+      ["Are these games suitable for children?", "This category collects family-friendly games, but we still recommend parents try a game first, as some show ads between rounds."],
+      ["Do kids need an account to play?", "No. All games play instantly in the browser with no sign-up and no personal details."],
+      ["Can kids play on a tablet?", "Yes, most kids games are made for touch screens and work well on tablets."],
+      ["Are there educational games?", "Yes, there are puzzle, number, word and memory games that are fun and help practise thinking skills."]
+    ]
+  },
+  "mobile": {
+    "lead": "Want free games to play on your phone without installing apps? Here are {n}+ mobile browser games with touch controls that run straight in Safari or Chrome on iPhone and Android.",
+    "faq": [
+      ["Can I play these games on iPhone and Android?", "Yes, they run in the mobile browser on both, with no app store and no download."],
+      ["Can I add a game to my home screen?", "Yes. In your browser menu choose Add to Home Screen and the game opens like an app."],
+      ["Do mobile browser games use a lot of data?", "Most load a few megabytes once. 3D games are bigger, so use Wi-Fi for those if your data is limited."],
+      ["Why does a game ask me to rotate my phone?", "Some games are made for landscape. Turn your phone sideways and unlock screen rotation if needed."]
+    ]
+  }
+}

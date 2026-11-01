@@ -55,6 +55,7 @@ const gDesc = g => { const t = tgame(g); return (t && t.description) || g.descri
 const gInstr = g => { const t = tgame(g); return (t && t.instructions) || g.instructions; };
 const langsFor = g => LANGS.filter(l => (GAMETR[l.code] || {})[g.slug]);
 const catTr = key => (LANG === 'en' ? null : (CATTR[LANG] || {})[key] || null);
+const CAT_GUIDES = readJSON(path.join(ROOT, 'data/cat-guides.json'), {});
 const catIntro = slug => { const v = (catTr(slug) || {}).intro; return (Array.isArray(v) ? v.join(' ') : v) || CAT_INTRO[slug] || ''; };
 
 const u = p => B + PFX() + p;                      // internal link (language aware)
@@ -539,23 +540,29 @@ function emitContent() {
   }
 
   // LIST PAGES (category, popular, new, all)
-  function listPages(basePath, list, { title, h1, intro, desc, altPath = null, altLangs = null }) {
+  function listPages(basePath, list, { title, h1, intro, desc, altPath = null, altLangs = null, guide = null }) {
     const size = cfg.gridPageSize;
     const pages = Math.max(1, Math.ceil(list.length / size));
     for (let p = 1; p <= pages; p++) {
       const slice = list.slice((p - 1) * size, p * size);
       const pagePath = p === 1 ? basePath : `${basePath}${p}/`;
       const body = `<nav class="crumbs"><a href="${u('/')}">${esc(tr('Home'))}</a> › <span>${esc(h1)}</span></nav>
-  <header class="page-h"><h1>${esc(h1)}${p > 1 ? ` — ${tr('page')} ${p}` : ''}</h1>${p === 1 ? `<p>${esc(intro)}</p>` : ''}</header>
+  <header class="page-h"><h1>${esc(h1)}${p > 1 ? ` — ${tr('page')} ${p}` : ''}</h1>${p === 1 ? `${guide ? `<p class="cat-lead">${esc(guide.lead)}</p>` : ''}<p>${esc(intro)}</p>` : ''}</header>
   <div class="grid">${slice.map((g, i) => card(g, i < 8)).join('')}</div>
-  ${pager(u(basePath), p, pages)}`;
+  ${pager(u(basePath), p, pages)}${p === 1 && guide ? `
+  <section class="topic-guide">
+    <h2>Most played ${esc(h1.toLowerCase())}</h2>
+    <ul class="picks">${guide.picks.map(g => `<li><a href="${gHref(g)}">${esc(g.title)}</a>${g.short ? ` — ${esc(trunc(g.short, 110))}` : ''}</li>`).join('')}</ul>
+    <h2>${esc(tr('FAQ'))}</h2>${guide.faq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
+  </section>` : ''}`;
       write(path.join(pagePath, 'index.html'), layout({
         title: p === 1 ? title : `${h1} — ${tr('Page')} ${p} | ${cfg.name}`,
         desc, canonical: abs(pagePath), body,
         ...(p === 1 && altPath ? { altPath, altLangs } : {}),
         jsonld: [crumbs([[tr('Home'), abs('/')], [h1, abs(basePath)]]),
           { '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, url: abs(pagePath),
-            mainEntity: { '@type': 'ItemList', numberOfItems: slice.length, itemListElement: slice.slice(0, 20).map((g, i) => ({ '@type': 'ListItem', position: (p - 1) * size + i + 1, url: abs(`/games/${g.slug}/`), name: g.title })) } }],
+            mainEntity: { '@type': 'ItemList', numberOfItems: slice.length, itemListElement: slice.slice(0, 20).map((g, i) => ({ '@type': 'ListItem', position: (p - 1) * size + i + 1, url: abs(`/games/${g.slug}/`), name: g.title })) } },
+          ...(p === 1 && guide ? [{ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: guide.faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }] : [])],
       }));
       addUrl(pagePath, p === 1 ? 0.8 : 0.4);
     }
@@ -567,6 +574,8 @@ function emitContent() {
       h1: (catTr(c.slug) || {}).h1 || c.h1, intro: catIntro(c.slug),
       desc: trunc(`${tr('Play')} ${byCat[c.slug].length}+ ${tr('free')} ${((catTr(c.slug) || {}).h1 || c.h1).toLowerCase()} ${tr('online.')} ${catIntro(c.slug)}`, 158),
       altPath: `/c/${c.slug}/`, altLangs: LANGS.filter(l => (CATTR[l.code] || {})[c.slug]).map(l => l.code),
+      guide: LANG === 'en' && CAT_GUIDES[c.slug] ? { lead: CAT_GUIDES[c.slug].lead.replace('{n}', (Math.floor(byCat[c.slug].length / 10) * 10 || byCat[c.slug].length).toLocaleString('en-US')), faq: CAT_GUIDES[c.slug].faq,
+        picks: byCat[c.slug].filter(g => !g.own && !g.community && Number.isFinite(g.r?.most)).sort((a, b) => a.r.most - b.r.most).slice(0, 6) } : null,
     });
   }
   listPages('/popular/', [...ours, ...top('most', 300)], { altPath: '/popular/', altLangs: uiLangs(), title: `${tr('Most Played Free Online Games')} | ${cfg.name}`, h1: tr('Most played games'), intro: tr('The games players love most right now. All free, all instant.'), desc: tr('The most played free online games right now. Play instantly in your browser, no download needed.') });
