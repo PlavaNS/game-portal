@@ -950,6 +950,8 @@ try {
     write(`games/${s}/index.html`, `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Game moved | ${esc(cfg.name)}</title><link rel="canonical" href="${esc(abs('/'))}"><meta http-equiv="refresh" content="0; url=${esc(to)}"></head><body><p>This game is no longer available. <a href="${esc(to)}">Play other free games</a>.</p></body></html>\n`);
     gone++;
   }
+  fs.mkdirSync(path.join(DIST, 'assets'), { recursive: true });
+  fs.writeFileSync(path.join(DIST, 'assets/retired.json'), JSON.stringify([...published].filter(s => !live.has(s))));
   const next = [...new Set([...published, ...all.filter(g => !g.own && !g.community).map(g => g.slug)])].sort();
   fs.writeFileSync(PUBLISHED_FILE, next.join('\n') + '\n');
   const seen = { ...firstSeen };

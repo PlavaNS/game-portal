@@ -34,7 +34,13 @@
   // recently played row
   const recent = store.get('recent', []);
   const rec = $('[data-recent]');
-  if (rec && recent.length) { rec.hidden = false; $('.grid', rec).innerHTML = recent.slice(0, 12).map(card).join(''); }
+  // games we took off the site must not come back through the visitor's own history or favourites
+  const showRecent = list => { if (rec && list.length) { rec.hidden = false; $('.grid', rec).innerHTML = list.slice(0, 12).map(card).join(''); } };
+  if (rec && recent.length) {
+    fetch((document.documentElement.dataset.base || '') + '/assets/retired.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : []).catch(() => [])
+      .then(gone => { const out = new Set(gone); const keep = recent.filter(g => !out.has(g.id)); if (keep.length !== recent.length) store.set('recent', keep);
+        const f = store.get('favs', []); const fk = f.filter(g => !out.has(g.id)); if (fk.length !== f.length) store.set('favs', fk); showRecent(keep); });
+  }
 
   // hero video plays on view
   $$('video[data-hover-play]').forEach(v => {
