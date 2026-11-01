@@ -167,7 +167,9 @@ angry-battle-birds-mania
 angry-bird-2-friends-angry
 angry-bird-friends
 angry-bird-vs-pig
+angry-bubble
 angry-checkers
+angry-cockroach
 angry-gran
 angry-grandmother-run
 angry-pets-3d-boom
@@ -609,6 +611,7 @@ boo-chains
 boom-cell
 boom-stick-bazooka-2-puzzles
 boombitz-bomb-chips
+boomix
 border-battleground
 border-clash
 boss-level-pumpkin-madness
@@ -789,6 +792,7 @@ burger-game-burger-shop
 burger-life
 burger-restaurant-simulator-3d
 burn-rate
+burrow
 bus-and-subway-rush
 bus-color-jam
 bus-crash-stunts-2
@@ -836,6 +840,7 @@ candy-cutter-saga
 candy-egg-blast
 candy-for-capybara
 candy-mahjong-3d
+candy-match-move
 candy-match-pop
 candy-match-saga-2
 candy-pop-mania
@@ -1006,6 +1011,7 @@ cheerleader-magazine-dressup
 cheese-collector-rat-runner
 chef-tycoon
 chernobyl-zombie-hell
+chess-3d
 chess-free
 chess-master-3d
 chess-online
@@ -1226,6 +1232,7 @@ cozy-jigsaw-puzzles
 cozy-puzzles
 cozy-sort-theme-collect
 crab-shooter
+craft-magic-world-escape
 craft-the-war
 craft-theft-war
 craftsman-land
@@ -1476,6 +1483,7 @@ dive-deep
 diy-joystick-game
 diy-phone-case-maker
 diy-slime-art
+dna-evolution-3d
 do-not-enter-this-game-at-night
 do-not-feed-the-monkeys
 doctor-kids-3
@@ -2075,6 +2083,7 @@ funny-hair-salon
 funny-kitty-care
 funny-nose-surgery
 funny-pet-haircut
+funny-prank-sounds
 funny-ragdoll-wrestlers
 funny-rescue-carpenter
 funny-rescue-gardener
@@ -2165,6 +2174,7 @@ gladiators-merge-and-fight
 glam-doll-salon-makeup-and-dressup-game
 glam-dressup-girls-games
 glauron-dragon-tales
+glim-and-glo
 glimmer
 gloom-gargoyle
 glossy-garage-car-asmr
@@ -2240,6 +2250,7 @@ graveyard-wars-two-player
 gravity-football
 gravity-shift-sky-racers-gt
 gravity-speed-run
+grayscale
 grazing-giraffe
 green-man-smash
 green-slaughter
@@ -2281,6 +2292,7 @@ gun-clone
 gun-craft-and-fight
 gun-evolution-game
 gun-festival-shoot
+gun-merge-mr-bullet
 gun-shooter
 gun-strike-runner
 gun-trigger
@@ -2541,6 +2553,7 @@ i-want-to-be-king
 ice-and-fire-twins
 ice-ball-run
 ice-cream-inc
+ice-cream-sorting
 ice-cream-vendor
 ice-dash
 ice-man-3d
@@ -2907,6 +2920,7 @@ lumen-descent
 lumina-robot
 luna-and-the-magic-maze
 lunarleap
+machine-eater
 mad-city-matrix
 mad-day-2-special
 mad-day-special
@@ -3108,6 +3122,7 @@ merge-rush-attack
 merge-sesame
 merge-shoot-run
 merge-the-coins-ussr
+merge-the-presidents
 merge-to-agi
 merge-wall-last-stand
 mergemaster-dragonets
@@ -3452,6 +3467,7 @@ nitro-speed-car-racing
 nitrovenant-2
 no-i-m-not-a-plankton
 no-shorts
+noescape
 noillirk
 nokia-3310-snack-game
 nomad-guardians
@@ -3828,6 +3844,7 @@ pixzombies
 pizza-delivery-drive-and-deliver-hot
 pizza-maker-food-cooking-games
 place-it-right
+placik
 plane
 plane-crash-ragdoll-simulator
 planes-dodge-and-go
@@ -4632,6 +4649,7 @@ soccer-rebound
 soccer-strike
 soccerlat-3d-football-online
 soda-sandbox
+sofia-wedding-story
 sokoballs
 sokoban-master
 sokoban-puzzle-game
@@ -4695,6 +4713,7 @@ spartan-fruits
 speakerman-revenge
 special-ops-go
 special-strike-zombies
+speed-box-game
 speed-car-race-madness
 speed-chaos-crazy-race
 speed-evolution
@@ -4703,6 +4722,7 @@ speed-pool-king
 speed-rush-simulator
 speeding-ball
 speedmatch-competition
+speen
 spellbound-orbs
 spider-bubu
 spider-evolution
@@ -4905,6 +4925,7 @@ stock-car-hero
 stonks
 storky-survivors
 storm-dash
+storm-fighter007
 stormhawk
 story-of-alcana
 strategy-of-war-tanks-and-helicopters
@@ -5272,6 +5293,7 @@ tiny-sports-empire-idle
 tiny-tomb
 tiny-track-rally
 tiny-zomby-the-barricade
+tip-master-wine
 tnt-sandbox
 toca-coloring-book
 toca-hidden-stars
@@ -5383,6 +5405,7 @@ tung-sahur-io
 tung-tung-sahur-hidden-bedug
 tung-tung-sahur-lol-face
 tung-tung-super-sahur
+tunnel-escape
 turbo-boat-runner-3d
 turbo-crash-test
 turbo-drive-mode-blitz
@@ -5393,6 +5416,7 @@ turbo-team-racing
 turnline-relaxing-puzzle
 twerk-eat-and-run
 twining-color-switch-game
+twist-and-roll
 twist-and-tug
 twisted-rope-3d
 twisty-planet
@@ -5405,6 +5429,7 @@ two-punk-racing-2
 uber-sim-transport-2020
 ugi-bugi
 ultimate-bike-stunt-racing
+ultimate-billiard-3d-game
 ultimate-car-driving-simulator-3d
 ultimate-car-parking-sim
 ultimate-evolution
@@ -5594,8 +5619,11 @@ wobble-run
 wolfoo-2048
 wolfoo-birthday-pixel-art
 wolfoo-maze-adventure
+wolfoo-supermarket-sort
 wolfoo-tangram
+wolfoo-time-to-bed
 wolfoo-town-dream
+wolfoo-word-wonders
 woms-world-of-master-survivors
 wonder-goal-fun-football-kick
 wonder-vending-machine
@@ -5619,6 +5647,7 @@ word-cross
 word-finder
 word-game-2026
 word-master-puzzle
+word-online-hunt
 word-puzzle-connect-words-and-letters
 word-runner-game
 word-search-and-quiz
@@ -5647,6 +5676,7 @@ world-war-camp-company
 world-war-iii
 world-war-zombie
 worldcup2026
+worm-and-apple
 worm-hunt-snake-game-io-zone
 worm-path
 worm-puzzle-snake-apple
