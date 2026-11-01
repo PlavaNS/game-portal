@@ -64,14 +64,27 @@
       if (mobile()) {
         const ov = document.createElement('div');
         ov.className = 'overlay';
-        ov.innerHTML = '<button class="close" aria-label="Close game">✕</button>';
+        ov.innerHTML = '<button class="close" aria-label="Close game">✕ Close</button>';
         ov.appendChild(frame());
         document.body.appendChild(ov); document.body.classList.add('noscroll');
         history.pushState({ ov: 1 }, '');
-        const close = () => { ov.remove(); document.body.classList.remove('noscroll'); };
+        const close = () => { try { screen.orientation?.unlock?.(); } catch {} ov.remove(); document.body.classList.remove('noscroll'); };
         $('.close', ov).addEventListener('click', () => history.back());
         addEventListener('popstate', close, { once: true });
-        ov.requestFullscreen?.().catch(() => {});
+        const land = p.dataset.orient === 'landscape';
+        const fs = ov.requestFullscreen ? ov.requestFullscreen() : null;
+        // landscape games: try to turn the screen (works on Android once full screen), otherwise show a short hint
+        Promise.resolve(fs).then(() => land && screen.orientation?.lock?.('landscape')).catch(() => {}).finally(() => {
+          if (land && matchMedia('(orientation: portrait)').matches) {
+            const hint = document.createElement('div');
+            hint.className = 'rotate-hint';
+            hint.textContent = '\u21BB Turn your phone sideways for the best view';
+            ov.appendChild(hint);
+            const bye = () => hint.remove();
+            setTimeout(bye, 4500);
+            matchMedia('(orientation: landscape)').addEventListener?.('change', bye, { once: true });
+          }
+        });
       } else if (!$('iframe', stage)) {
         stage.appendChild(frame());
       }

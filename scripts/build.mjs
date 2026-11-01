@@ -639,7 +639,7 @@ function emitContent() {
     const catLinks = (tp ? `<a class="chip" href="${tHref(tp.slug)}">${esc((catTr('topic:' + tp.slug) || {}).h1 || tp.h1)}</a>` : '') + g.cats.all.filter(c => CAT_BY[c]).map(c => `<a class="chip" href="${cHref(c)}">${esc((catTr(c) || {}).name || CAT_BY[c].name)}</a>`).join('');
     const tagText = g.tags.slice(0, 8).map(t => `<span class="chip ghost">${esc(t)}</span>`).join('');
     const body = `<nav class="crumbs"><a href="${u('/')}">${esc(tr('Home'))}</a> › <a href="${cHref(main.slug)}">${esc((catTr(main.slug) || {}).h1 || main.h1)}</a> › <span>${esc(g.title)}</span></nav>
-  <section class="player${portrait ? ' portrait' : ''}" data-player data-src="${esc(g.embed)}" data-id="${esc(g.slug)}" data-title="${esc(g.title)}" data-thumb="${esc(g.thumb)}" style="--ar:${g.w}/${g.h}">
+  <section class="player${portrait ? ' portrait' : ''}" data-player data-orient="${g.own ? 'any' : portrait ? 'portrait' : 'landscape'}" data-src="${esc(g.embed)}" data-id="${esc(g.slug)}" data-title="${esc(g.title)}" data-thumb="${esc(g.thumb)}" style="--ar:${g.w}/${g.h}">
     <div class="stage">
       <img class="stage-bg" src="${esc(g.thumb)}" alt="" aria-hidden="true" fetchpriority="high">
       <div class="stage-ui">
