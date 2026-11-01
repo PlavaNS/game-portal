@@ -4293,5 +4293,57 @@
     "It depends on the game. Funny Shooter 2 has a silly, cartoon tone, but many others involve zombies, demons or combat, so read each game's description before letting a child play."
    ]
   ]
+ },
+ "car-crash-games": {
+  "picks": [
+   {
+    "slug": "car-smash-simulator-crash-and-tune",
+    "title": "Car Smash Simulator: Crash & Tune",
+    "line": "An open-world crash sandbox with giant hammers, hydraulic crushers and mega ramps, plus full car tuning. The best place to start if you want everything in one game."
+   },
+   {
+    "slug": "realistic-car-crash-king",
+    "title": "Realistic Car Crash King",
+    "line": "A pure crash-test simulator: pick a car, push it to insane speeds and watch every rollover and impact in detail."
+   },
+   {
+    "slug": "beam-drive-car-crash-test-simulator",
+    "title": "Beam Drive Car Crash Test Simulator",
+    "line": "Realistic soft-body car damage and high-speed crashes that also run well on phones."
+   },
+   {
+    "slug": "demolition-derby-life",
+    "title": "Demolition Derby Life",
+    "line": "A derby where you smash rivals, upgrade your car between rounds and try to be the last car still driving."
+   },
+   {
+    "slug": "car-crash-sandbox",
+    "title": "Car Crash Sandbox",
+    "line": "Launch cars down huge slopes into destructible obstacles and see how much damage one run can do."
+   },
+   {
+    "slug": "bumper-car-demolition-race",
+    "title": "Bumper Car Demolition Race",
+    "line": "A quick, arcade-style bumper car brawl in pixel arenas, good for short sessions."
+   }
+  ],
+  "faq": [
+   [
+    "What is the most realistic car crash game I can play in a browser?",
+    "Car Smash Simulator: Crash & Tune, Beam Drive Car Crash Test Simulator and Realistic Car Crash King all use detailed damage, so doors fly off, hoods crumple and wheels break away in big impacts."
+   ],
+   [
+    "Can I play car crash games on my phone?",
+    "Many of them have on-screen pedals and steering and run in the mobile browser. 3D crash simulators need a recent phone; on older devices the lighter derby games run smoother."
+   ],
+   [
+    "How do I control car crash games on a computer?",
+    "Usually WASD or the arrow keys to drive, Space for the handbrake and Shift for nitro. In Car Smash Simulator, R flips the car, K repairs it and B turns on slow motion."
+   ],
+   [
+    "What is the difference between a crash simulator and a demolition derby?",
+    "A crash simulator is a sandbox where you crash for fun and watch the damage. A demolition derby is a competition where you ram other cars and try to be the last one still running."
+   ]
+  ]
  }
 }

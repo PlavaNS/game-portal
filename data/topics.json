@@ -11,6 +11,17 @@
   ]
  },
  {
+  "slug": "car-crash-games",
+  "h1": "Car Crash Games",
+  "kw": "car crash games",
+  "match": "car crash|crash test|crash simulator|demolition|derby|car smash|car destruction|smash cars|cars smash|car wreck|wreck|beam drive|dismount|dismounting|crash and tune|crash & tune|smashing cars|car crusher",
+  "intro": [
+   "Smash, crash and wreck cars in free car crash games: realistic crash simulators with soft-body damage, demolition derbies, ramp jumps and destruction sandboxes where breaking things is the whole point.",
+   "Every game runs right in your browser on PC and many on mobile. No download and no sign-up: pick a car, find the biggest ramp and see what is left of it."
+  ],
+  "titleOnly": true
+ },
+ {
   "slug": "mahjong",
   "h1": "Mahjong Games",
   "kw": "mahjong online free",
