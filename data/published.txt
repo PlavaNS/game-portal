@@ -686,6 +686,7 @@ brrbrr-patapim
 brutal-battle-royale
 brutal-zombies
 bs-simulator
+bts-budgie-coloring-book
 bts-rabbit-coloring-book
 buba-jump
 bubbla-boing
@@ -1070,12 +1071,14 @@ cobraz-io
 cockroach-tower-defense
 cod-duty-call-fps
 code-breaker-deluxe
+coffe-merge-house
 coffee-color-blocks
 coin-color-sort
 coin-hunt
 coin-sort-puzzle
 coinbound-voodoo-nightmare
 coins-rush-run
+coinzap
 collect-brainrots-on-a-skateboard-online
 collect-leaves-faster-than-anyone
 collect-million-coins
@@ -1187,6 +1190,7 @@ craft-theft-war
 craftsman-land
 crash-control
 crash-glass-boom
+crash-racing-game
 crash-rampage
 crash-skill-racing
 crash-test-simulator-3d
@@ -1301,6 +1305,7 @@ daddy-escape
 daddy-mouse
 daddy-rabbit
 daily-bento-organizer
+dama-stars
 dancing-road
 dark-ages-beat-em-up
 dark-assassin
@@ -1344,6 +1349,7 @@ defend-military-base
 defend-the-castle
 defender-tanks-merge
 defenders-of-the-realm-an-epic-war
+defense-plants
 delete-it-erase-one-part
 delete-part-in-lovestory
 delivery-chaos
@@ -1379,6 +1385,7 @@ dice-merge
 dice-puzzle
 dicey-chickens
 dicey-paws-idle
+difference-find-master-game
 different-fashion-hairstyle
 dig-and-flow-save-water
 dig-it
@@ -1732,6 +1739,7 @@ farm-business-saga
 farm-care-tycoon
 farm-clear-the-jam
 farm-defenders
+farm-escape-puzzle-game
 farm-mart
 farm-nubik-vs-zombies
 farmers-vs-aliens
@@ -1762,6 +1770,7 @@ feeding-a-black-hole
 fever-cubes-drop-number-2048
 fidget-pop-online
 fidget-spinner-creator
+fidget-toy-pop-it-game
 fidget-trading-card-toy
 field-master
 field-of-blooms
@@ -2015,6 +2024,7 @@ gangsta-duel
 gangster-crime-car-simulator-1
 gangster-vegas-driving-simulator-online
 gangsters
+gapshot
 garage-boss
 garden-clicker
 garden-master
@@ -3052,6 +3062,7 @@ mining-rush
 minni-family-home-play-house
 mirrors-and-rays
 miscast
+mischievous-pairs
 misland-online
 misregister
 miss-robins-dream-home
@@ -3267,6 +3278,7 @@ never-by-color
 newbie-s-escape-from-blogger-prison
 nextboot-horror-online
 nextbot-can-you-escape
+nexus-3d
 nexus-override
 night-city-racing
 night-club-security
@@ -3334,6 +3346,7 @@ noobik-arena-99-nights
 noobik-parkour-in-a-cave
 noodle-pull
 not-before-bed-01
+not-your-seafood-salad
 novabrick-rush
 novaguard-sky-defense
 novahelm-tactical-strike
@@ -3445,6 +3458,7 @@ obunga-nextbot-spot-difference
 ocean-dash
 ocean-match-crush
 ocean-pop
+ocean-riches
 octo-stickers-merge-and-stick
 octobeer
 octopus-run
@@ -3515,6 +3529,7 @@ paco-paco
 pager-war
 paint-and-escape
 paint-and-roll
+paint-drive-io
 paint-pop-3d
 paint-quest-kiddo
 paint-race
@@ -3756,6 +3771,7 @@ pregnant-mom-simulator-family-life
 pregnant-mother-simulator
 pretty-tidy-asmr-organizing
 primal-druid-kingdom-of-animals
+primezy
 princess-dental-dentist-games
 princess-dressing-up-game
 princess-escape-2021
@@ -3871,6 +3887,7 @@ rageroll-io
 railroad-magnate
 railway-traffic-jam-untangle-the-trains
 rainbow-ball-runner-2048
+rainbow-color-ball-runner
 rainbow-ice-cream-and-popsicles
 rainbow-obby
 rainbow-s-doctor
@@ -4042,6 +4059,7 @@ rolling-ball-halloween-escape
 rolling-balls-sea-race
 rolling-cheese
 rolling-cube-3d
+rolling-cubes-3d-puzzle
 rolling-donut
 rolling-football
 rolling-in-gears
@@ -4088,6 +4106,7 @@ rune-reactor
 runic-curse
 runner
 runner-coaster-race
+runner-garden-game
 runner-soldiers
 rush-rivals
 russian-car-drift-3d
@@ -4396,6 +4415,7 @@ sniper-shooter-save-the-fish
 sniper-silent-ridge
 sniper-strike
 sniper-vs-99-players
+snow-ball-race
 snow-drifting-3d-champ-2024
 snow-mo-cannon-shooting-game
 snow-plow-inc
@@ -4625,6 +4645,7 @@ stickerball
 stickman-3d-legacy-of-war
 stickman-archer-kick
 stickman-archero-fight
+stickman-archery-ragdoll
 stickman-armed-assassin-3d
 stickman-army-the-resistance
 stickman-attack
@@ -4761,6 +4782,7 @@ super-frog-adventure
 super-fruit-runner-hyper-casual
 super-girl-salon
 super-goin-up
+super-grotto-escape
 super-hitmasters
 super-huggie-bros
 super-kick-boxing
@@ -4791,6 +4813,7 @@ super-zombie-driving
 superbike-hero
 supercar-battle-arena
 supercar-stunts-2023
+supercars-garage
 supercars-zombie-driving
 supercars-zombie-driving-2
 superhero-adventure
@@ -4811,6 +4834,7 @@ survival-race
 survival-rush
 survival-sandbox-for-99-nights
 survival-tycoon-city-of-zombie
+survival-war
 survival-wave-zombie-multiplayer
 survivalist
 survive-lava-for-brainrots
@@ -4903,6 +4927,7 @@ tcg-shop-dino-adventure
 tcg-shop-maps-toys-and-comics
 team-loyalty
 team-men
+tech-match
 telekinesis-attack
 telekinetic-pumpkin
 temple-quest
@@ -5191,6 +5216,7 @@ unstoppable-brawler
 unstoppableshooter
 untangle-threads
 up-jelly-up
+up-shoot-game
 up-up-and-oops
 upgrade-the-cars
 uphill-racer2
@@ -5335,6 +5361,7 @@ wizard-io
 wizard-santa-jump
 wobble-it
 wobble-run
+wolfoo-town-dream
 woms-world-of-master-survivors
 wonder-goal-fun-football-kick
 wonder-vending-machine
@@ -5345,6 +5372,7 @@ wood-chopping-game
 wood-color-block
 wood-hexa-factory
 wood-nuts-master-screw-puzzle
+wood-stair-game
 wooden-blocks-3d-take-it-apart
 wooden-vest
 woods-of-nevia-forest-survival
@@ -5355,7 +5383,9 @@ word-chef
 word-cross
 word-finder
 word-game-2026
+word-master-puzzle
 word-puzzle-connect-words-and-letters
+word-runner-game
 word-search-and-quiz
 word-search-hidden-words
 word-search-offline-puzzle
