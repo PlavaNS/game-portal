@@ -310,6 +310,16 @@ const community = readJSON(path.join(ROOT, 'data/community-games.json'), []).map
 }));
 games.unshift(...community);
 
+// first day each game appeared on our site (data/first-seen.json, kept by CI) -> drives "New games"
+const FIRST_SEEN_FILE = path.join(ROOT, 'data/first-seen.json');
+const firstSeen = readJSON(FIRST_SEEN_FILE, {});
+const TODAY = new Date().toISOString().slice(0, 10);
+for (const g of games) {
+  if (g.own) continue;
+  if (g.community) g.firstSeen = g.added || firstSeen[g.slug] || TODAY;
+  else g.firstSeen = firstSeen[g.slug] || TODAY;
+}
+
 // slugs
 const usedSlugs = new Set([...ours, ...community].map(o => o.slug));
 for (const g of games) {
@@ -332,6 +342,9 @@ for (const g of all) for (const c of g.cats.all) byCat[c]?.push(g);
 byCat.mobile = all.filter(g => g.mobile);
 const activeCats = CATS.filter(c => byCat[c.slug].length >= 8);
 const top = (key, n) => games.filter(g => Number.isFinite(g.r[key])).sort((a, b) => a.r[key] - b.r[key]).slice(0, n);
+// newest on OUR site first (first-seen date), then the network's own 'newest' order
+const fin = x => Number.isFinite(x) ? x : 1e9;
+const newestOnSite = n => games.filter(g => !g.own && g.firstSeen).sort((a, b) => b.firstSeen.localeCompare(a.firstSeen) || fin(a.r.newest) - fin(b.r.newest) || fin(a.r.most) - fin(b.r.most)).slice(0, n);
 
 // keyword collections ("mahjong", "escape room games"...): root-level SEO landing pages
 const topics = readJSON(path.join(ROOT, 'data/topics.json'), []).map(t => {
@@ -487,7 +500,7 @@ function emitContent() {
   <section class="row" data-recent hidden><div class="row-h"><h2>${esc(tr('Continue playing'))}</h2></div><div class="grid"></div></section>
   ${row('🔥 ' + tr('Trending now'), u('/popular/'), top('hot', 18), true)}
   ${row('⭐ ' + tr('Most played'), u('/popular/'), top('most', 18))}
-  ${row('🆕 ' + tr('New games'), u('/new/'), top('newest', 18))}
+  ${row('🆕 ' + tr('New games'), u('/new/'), newestOnSite(18))}
   ${(() => { const indie = all.filter(g => g.community).slice().sort((x, y) => (y.added || '').localeCompare(x.added || '')).slice(0, 12);
     return indie.length ? `<section class="row indie-row"><div class="row-h"><h2>🧑‍💻 ${esc(tr('New from indie developers'))}</h2><a class="btn sg-cta" href="${ur('/submit-game/')}">📤 ${esc(tr('Made a game? Submit it free'))}</a></div><p class="indie-note">${esc(tr('Games sent to us by independent developers. Every one is played and checked by a real person before it goes live.'))}</p><div class="grid">${indie.map(g => card(g)).join('')}</div></section>` : ''; })()}
   ${catTiles}
@@ -544,7 +557,7 @@ function emitContent() {
     });
   }
   listPages('/popular/', [...ours, ...top('most', 300)], { altPath: '/popular/', altLangs: uiLangs(), title: `${tr('Most Played Free Online Games')} | ${cfg.name}`, h1: tr('Most played games'), intro: tr('The games players love most right now. All free, all instant.'), desc: tr('The most played free online games right now. Play instantly in your browser, no download needed.') });
-  listPages('/new/', top('newest', 192), { altPath: '/new/', altLangs: uiLangs(), title: `${tr('New Free Online Games')} | ${cfg.name}`, h1: tr('New games'), intro: tr('Fresh games added to the collection. Check back daily.'), desc: tr('Brand new free online games, added every day. Play instantly on PC and mobile.') });
+  listPages('/new/', newestOnSite(192), { altPath: '/new/', altLangs: uiLangs(), title: `${tr('New Free Online Games')} | ${cfg.name}`, h1: tr('New games'), intro: tr('Fresh games added to the collection. Check back daily.'), desc: tr('Brand new free online games, added every day. Play instantly on PC and mobile.') });
   listPages('/all/', [...all].sort((a, b) => a.title.localeCompare(b.title)), { altPath: '/all/', altLangs: uiLangs(), title: `${tr('All Games A–Z')} | ${cfg.name}`, h1: tr('All games A–Z'), intro: `${tr('Every game on')} ${cfg.name}, ${tr('sorted alphabetically.')}`, desc: `${tr('Browse all')} ${all.length} ${tr('free online games on')} ${cfg.name} ${tr('from A to Z.')}` });
 
   // TOPIC PAGES
@@ -902,6 +915,9 @@ try {
   }
   const next = [...new Set([...published, ...all.filter(g => !g.own && !g.community).map(g => g.slug)])].sort();
   fs.writeFileSync(PUBLISHED_FILE, next.join('\n') + '\n');
+  const seen = { ...firstSeen };
+  for (const g of all) if (!g.own && !seen[g.slug]) seen[g.slug] = g.community ? (g.added || TODAY) : TODAY;
+  fs.writeFileSync(FIRST_SEEN_FILE, JSON.stringify(Object.fromEntries(Object.entries(seen).sort()), null, 0).replace(/,"/g, ',\n"') + '\n');
   console.log(`published.txt: ${next.length} slugs, ${gone} retired games redirected`);
 }
 
