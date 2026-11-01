@@ -117,6 +117,7 @@ agent-sniper-city
 agrarian-magnate
 aidan-in-danger
 aidol-k-pop-adventure
+aim-and-snap-arrow-srike
 aimball
 air-assault-ship-defense
 air-fighter-3d
@@ -174,6 +175,7 @@ angry-gran
 angry-grandmother-run
 angry-pets-3d-boom
 angry-sharks
+angry-zombies-in-sight
 animal-basketball
 animal-blocks
 animal-care-tycoon
@@ -469,6 +471,7 @@ big-wild-bucks-voxel-buck-hunter
 bike-mania-2
 bike-mania-3-on-ice
 bike-race-rush
+bike-racing-adventure
 bike-rivals
 bike-stunt-master-mini-rush
 bike-stunt-racing-legend
@@ -572,6 +575,7 @@ bloxorz-color-block-roll
 blue-and-red-impostor
 blue-chameleon
 blue-tractor
+bluecatch
 blumgi-merge-online
 bmg-crash-test
 bmg-crashday-2025
@@ -612,6 +616,7 @@ boom-cell
 boom-stick-bazooka-2-puzzles
 boombitz-bomb-chips
 boomix
+boomstone
 border-battleground
 border-clash
 boss-level-pumpkin-madness
@@ -819,6 +824,7 @@ butterfly-dash
 butterfly-matching
 buttocks-time
 buttons
+buzzball
 cadillacs-dino-riot
 cafe-honey-heist
 cage-ballers-football
@@ -1093,6 +1099,7 @@ clean-kitty
 clean-the-garden
 clean-up-mini-games
 clearfell-forest-outpost
+clever-crow
 click-and-colors-dinosaurs
 click-and-idle-slimes
 click-click-clicker
@@ -1295,6 +1302,7 @@ crossy-rails
 crow-memory
 crowd-runner
 crowd-runner-3d
+crowd-rush
 crowd-rush-game
 crowdgate
 crown-and-crafts
@@ -1532,6 +1540,7 @@ drago-warrior-tower-defense
 dragon-annihilation
 dragon-block-blast
 dragon-fly
+dragon-funtion
 dragon-hunter
 dragon-merge
 dragon-power
@@ -1713,6 +1722,7 @@ epic-battle-simulator-2
 epic-defense-clash
 epic-duck
 epic-empire-tower-defense
+epic-escape-from-barrys-prison
 epic-join-crowd
 epic-mine
 epic-race-game
@@ -1892,6 +1902,7 @@ fire-ring
 fire-truck-driving-simulator
 fire-truck-driving-simulator-2024
 fire-truck-rescue-driving
+fire-truck-rescue-simulator
 fireball-and-waterball-adventure-3
 fireball-vs-ice-cream
 firefighter-plane-game
@@ -2015,6 +2026,7 @@ fragment
 frame-agent-hidden-object-puzzle
 freaky-monster-rush
 freddys-return-village-escape
+free-kick-challenge-2026
 freekick-hero
 freight
 french-fries-tycoon-farm-to-fryer
@@ -2304,6 +2316,7 @@ guns-vs-magic
 gusano-io-worms-snake-game
 gym-boss
 gym-simulator-online-escape
+haaland-coloring-book
 hair-challenge-online
 hair-do-design
 hair-dye
@@ -2388,6 +2401,7 @@ helifight
 helix-hover
 hellforge-demon-protocol
 hellgate-1993
+help-car-out-traffic-parking
 help-me-tricky-puzzle-games
 help-me-tricky-story
 help-me-tricky-story-of-puzzles
@@ -2467,6 +2481,7 @@ hilltop-hustle
 hisshop
 hit-and-knock-down
 hit-em-up
+hit-lazer-to-goals
 hit-master
 hit-masters-rush
 hit-tank-battle
@@ -2489,6 +2504,7 @@ home-decor-clicker
 home-design-decorate-house
 home-design-match-3
 home-hauler-simulator
+home-makeover-cleaning-game
 home-run-infinity
 home-run-master
 home-rush
@@ -2569,6 +2585,7 @@ idle-cinema-tycoon
 idle-cookie-tycoon
 idle-craft-3d
 idle-crafting-empire-tycoon
+idle-dairy-tycoon
 idle-desert-life
 idle-game-dev-simulator
 idle-gold-miner
@@ -3114,6 +3131,7 @@ merge-mushroom
 merge-number-cube-3d-run-game
 merge-number-up
 merge-plane-tycoon
+merge-plants-defense-zombies
 merge-racer-stunts-car
 merge-rockets-obby
 merge-royal
@@ -3370,6 +3388,7 @@ my-dogy-virtual-pet
 my-first-100-words
 my-golf
 my-gym-manager-idle-tycoon
+my-hungry-fish-game
 my-ice-cream-shop
 my-kitties-catworld
 my-little-farm
@@ -3402,6 +3421,7 @@ nail-stack
 narcos-crime-master
 narutovsbleach
 natural-disaster-survival-obby
+naturix
 naughty-baby-prankster
 naval-base
 nebula-marshal
@@ -3649,6 +3669,7 @@ okay
 ola-solitaire
 on-fire-basketball-shots
 one-bit
+one-bullet-3d-game
 one-level-stickman-jailbreak
 one-line-drawing-mini-games
 one-line-drawling
@@ -4386,6 +4407,7 @@ scientist-and-robot
 scoop-empire
 scp-173-foundation-escape
 scrap-arms-neo
+scrap-brawl
 scratch-raw-stone-gem-master
 screw-and-pin-puzzle-levels
 screw-color-puzzle
@@ -4513,6 +4535,7 @@ sky-slash-ninja-rise
 sky-stunts-rolling-ball-3d
 sky-track-racing
 sky-wars-battle-of-the-islands
+skybop
 skybound-dash-crown-rush
 skyfall-siege
 skyhop
@@ -4649,6 +4672,7 @@ soccer-rebound
 soccer-strike
 soccerlat-3d-football-online
 soda-sandbox
+sodacat
 sofia-wedding-story
 sokoballs
 sokoban-master
@@ -5008,6 +5032,7 @@ super-fruit-runner-hyper-casual
 super-girl-salon
 super-goin-up
 super-grotto-escape
+super-hero-survivor-io
 super-hitmasters
 super-huggie-bros
 super-kick-boxing
@@ -5120,6 +5145,7 @@ tank-arena
 tank-arena-multiplayer
 tank-arena-steel-battle
 tank-craft-2
+tank-craft-merge
 tank-fury-boss-battle-2d
 tank-mayhem
 tank-push
@@ -5293,6 +5319,7 @@ tiny-sports-empire-idle
 tiny-tomb
 tiny-track-rally
 tiny-zomby-the-barricade
+tip-candy-puzzle
 tip-master-wine
 tnt-sandbox
 toca-coloring-book
@@ -5418,6 +5445,7 @@ twerk-eat-and-run
 twining-color-switch-game
 twist-and-roll
 twist-and-tug
+twist-your-path
 twisted-rope-3d
 twisty-planet
 twisty-roads
@@ -5619,10 +5647,12 @@ wobble-run
 wolfoo-2048
 wolfoo-birthday-pixel-art
 wolfoo-maze-adventure
+wolfoo-memory-sequence
 wolfoo-supermarket-sort
 wolfoo-tangram
 wolfoo-time-to-bed
 wolfoo-town-dream
+wolfoo-word-search
 wolfoo-word-wonders
 woms-world-of-master-survivors
 wonder-goal-fun-football-kick
