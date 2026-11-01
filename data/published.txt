@@ -153,6 +153,7 @@ amaze-escape
 amazing-sheriff
 ambulance-driving-simulator
 ambulance-escape-2026
+ambulance-rescue-game
 american-18-wheeler-truck-sim
 american-block-sniper-survival-online
 american-truck-driver-game
@@ -899,6 +900,7 @@ car-stunts-driving
 car-transform-mania-merger-tycoon
 car-wash-diy
 car-wash-idle
+car-wash-simulator-summer-edition
 card-quest
 card-quest-10-minute-adventure
 card-solitaire-word-game
@@ -1029,6 +1031,7 @@ circle-car
 circle-car-crash-3d
 circle-zombie
 circuit-master-2
+circularmatrix
 citadel-fortress-defense
 city-bike-racing-champion
 city-bike-stunt-2
@@ -1258,12 +1261,14 @@ cricket-mania
 cricket-smash-3d
 criss-cross-colors
 crocodile-online-draw-and-guess
+crossmath-challenge
 crosstile
 crosswords-big-collection
 crossy-rails
 crow-memory
 crowd-runner
 crowd-runner-3d
+crowd-rush-game
 crowdgate
 crown-and-crafts
 crown-guard
@@ -1274,6 +1279,7 @@ crush-hour
 crush-yard-tycoon
 crusher-block
 crust-crusher
+crypta
 cryptograms-secret-text
 crystalia
 cs-command-snipers
@@ -1588,6 +1594,7 @@ drone-vs-tractor-challenge
 dronner-3d
 drop-dunks
 dta-6
+duck-drive-truck-race
 duck-family-simulator-animal-games
 duck-hunter
 duck-shootingz
@@ -1658,6 +1665,7 @@ emoji-skill-puzzles
 emoji-solitaire
 empire-tower-defense-zombie-fortress
 endless-car-chase
+endless-car-race-game
 endless-siege
 endless-z-survivor
 english-checkers-online-multiplayer
@@ -1710,6 +1718,7 @@ evil-granny-must-die-ch1
 evil-granny-must-die-ch2
 evil-invader
 evo-city-driving
+evolution-era
 evolution-of-hamster-clicker
 evolution-survival
 evowarriors-fun
@@ -1947,6 +1956,7 @@ formula-apex-rush
 formula-car-race
 formula-car-racing-games-real
 formula-car-stunt
+formula-car-stunt-game
 formula-go
 formula-rush-online
 fortress-clash
@@ -2164,6 +2174,7 @@ gorbo-the-orc-crown-quest
 gorilgo-fps-online-shooter
 gorilla-multiplayer
 gothic-new-era
+grab-io
 graffiti-time
 gram-simulator
 grand-city-driving-2
@@ -2477,6 +2488,7 @@ hurdles
 huskeydoku
 hydro-racing-3d
 hyper-cars-ramp-crash
+i-am-cake-no-cats
 i-am-crazy-bird
 i-can-paint
 i-get-you
@@ -2528,6 +2540,7 @@ impossible-cargo-track
 impossible-jeep-driver
 impossible-parkour-3d
 in-space
+indian-delights-match-3
 indian-taxi-2020
 infini-golf
 infinite-bike-trials
@@ -2544,6 +2557,7 @@ insect-exploration
 intercity-bus-driver-3d
 intergalactic-battleship
 iron-defense
+iron-legion-0-28
 ironwake-tank-combat
 island-mayhem-tiki-blast-3d
 island-monster-offroad
@@ -2889,6 +2903,7 @@ mahjong-lines
 mahjong-master-tile-sort-and-match
 mahjong-pirate-plunder-quest
 mahjong-puzzle-tile-match
+mahjong-solitaire-crush-game
 mahjong-solitaire-world-tour
 mahjong-solitaire-zodiac
 mahjong-street-cafe
@@ -2952,6 +2967,7 @@ math-driving-test
 math-fight-club
 math-meteors
 math-playground
+math-squares
 math-trivia
 mathematics-frenzy
 maths-puzzle
@@ -2965,6 +2981,7 @@ maze-evolution-html
 maze-maker
 mazean-com
 mealmerge
+meccha-chameleon-online
 mech-battle-arena
 mech-frontline-last-stand
 mecha-screw-3d
@@ -3294,6 +3311,7 @@ my-pet-care-salon-obby-dress-up-3d
 my-phone-store
 my-puppy-daycare-salon
 my-resale-cases-and-sales
+my-restaurant
 my-sugar-factory
 my-sweet-candy-outfits
 my-sweetstreet-shop
@@ -3538,6 +3556,7 @@ offroad-jeep-simulation
 offroad-jeep-simulator
 offroad-monster-truck-game
 offroad-mountain-jeep-challenge
+offroad-mud-truck
 offroad-muddy-trucks
 offroad-truck-animal-transporter
 offroad-truck-army-driving
@@ -3838,6 +3857,7 @@ pregnant-mom-simulator-family-life
 pregnant-mother-simulator
 pretty-tidy-asmr-organizing
 primal-druid-kingdom-of-animals
+primes
 primezy
 princess-dental-dentist-games
 princess-dressing-up-game
@@ -3902,6 +3922,7 @@ puzzle-parents-baby-s-path-home
 puzzlebot
 puzzledom-one-line
 puzzlemaster
+pyropairs
 qblock-puzzle
 quackventure
 quarantine-rush
@@ -3911,6 +3932,7 @@ quick-draw-cowboys
 quick-maths
 quizmania-trivia-game
 quizmasters
+rabbit-carrot
 rabbit-punch-rabbit
 rabbit-samurai
 rabbit-samurai-2
@@ -4171,6 +4193,7 @@ run-gun-robots
 run-guys-knockout-royale
 run-rich-3d
 run-the-electricity
+run-witch-run
 runaway-toad
 rune-reactor
 runic-curse
@@ -4503,7 +4526,9 @@ snowball-platformer
 snowboard-knockout-race-game
 snowtail-peaks-3d-bubble-pop-adventure
 snowy-adventures-with-noob-and-pro
+snowzo
 soak-and-squeeze
+soccer-battle-online
 soccer-championship-2023-html5
 soccer-dash
 soccer-drop-game
@@ -4788,6 +4813,7 @@ story-of-alcana
 strategy-of-war-tanks-and-helicopters
 streamer-simulator-phone-challenge
 street-ball-jam
+street-fist
 street-food-cooking-game
 street-freekick-3d
 street-legends
@@ -5166,6 +5192,7 @@ tower-tap
 towers-505
 town-builder-inc
 toy-smash
+toy-soccer-cup
 toytopia
 tps-shooting-zombie-apocalypse
 tracoria-draw-color-and-match
@@ -5312,6 +5339,7 @@ urban-jump
 urban-military-strike
 urban-sniper-multiplayer
 urban-sniper-multiplayer-2
+us-army-truck-driving
 us-truck-game
 usa-luxury-4x4-suv-offroad-driving-simulator
 vacation-overload
@@ -5414,6 +5442,7 @@ wear-the-helmet
 web-swing-obby-aqualand
 wedding-artist2
 wedding-beauty-makeup-salon-indian-designer
+wedding-rush-race
 wednesday-s-battle-monster-symphony
 weight-balance-journey
 weight-puzzle-3d
@@ -5449,6 +5478,7 @@ wizard-io
 wizard-santa-jump
 wobble-it
 wobble-run
+wolfoo-birthday-pixel-art
 wolfoo-town-dream
 woms-world-of-master-survivors
 wonder-goal-fun-football-kick
