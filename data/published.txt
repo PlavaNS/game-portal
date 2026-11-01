@@ -548,6 +548,7 @@ blocks-move-hit-pro
 blocks-move-n-hit
 blocks-puzzle
 blocks-shooter-3d-run-shoot-merge-weapons
+blockstacking
 blocky-adventures
 blocky-challenges
 blocky-combat-swat-original-2026
@@ -605,6 +606,7 @@ boom-cell
 boom-stick-bazooka-2-puzzles
 boombitz-bomb-chips
 border-battleground
+border-clash
 boss-level-pumpkin-madness
 boss-level-shootout
 bottle-avenger-royale
@@ -927,6 +929,7 @@ carrom-club
 carrush
 cars
 cars-challenge
+cars-tycoon
 cars-vs-blocks
 cars-vs-zombies
 cartoon-cat-naughty-kitten
@@ -1515,6 +1518,7 @@ dragon-block-blast
 dragon-fly
 dragon-hunter
 dragon-merge
+dragon-power
 drakkar-strike
 draw-action
 draw-an-obby
@@ -1569,6 +1573,7 @@ dream-room
 dream-supermarket-3d-shop
 dreamblox
 dreamy-home
+dress-makeover
 dress-up-anime-girl
 dress-up-babi-doll
 dress-up-bean
@@ -1659,12 +1664,14 @@ elden-ring-beat-em-up
 electron-dash
 elemental-barrage
 elemental-challenge
+elemental-collapse
 elemental-friends-adventure
 elemental-rescue-adventure
 elements-craft-ultimate
 elip-adventure
 ellie-summer-spa-beauty-salon
 elska-dog-vs-zombies-multiplayer-co-op
+ember-ascent
 ember-boy-and-ripple-girl
 ember-carnival
 emergency-dispatcher-911
@@ -1731,6 +1738,7 @@ evil-granny-must-die-ch1
 evil-granny-must-die-ch2
 evil-invader
 evo-city-driving
+evolution-arena-battle-royale
 evolution-era
 evolution-of-hamster-clicker
 evolution-survival
@@ -1964,6 +1972,7 @@ football-soccer
 football-tricks
 footballer-of-the-year
 ford-f-100-eluminator-slide
+forest-dash
 forest-fortune
 formula-1-driver
 formula-apex-rush
@@ -2431,6 +2440,7 @@ hill-racing
 hill-ride-3d
 hills-of-steel
 hilltop-hustle
+hisshop
 hit-and-knock-down
 hit-em-up
 hit-master
@@ -2600,6 +2610,7 @@ jelly-gobble
 jelly-links
 jelly-matches
 jelly-merge-dooper
+jelly-mix-up
 jelly-mob-rush
 jelly-path
 jelly-pop-defense
@@ -3000,6 +3011,7 @@ mavy-the-fish-mom
 max-speed
 max-the-secret-of-grandpa-s-letter
 maze-bomber-game
+maze-escape-hero
 maze-evolution
 maze-evolution-html
 maze-maker
@@ -3075,6 +3087,7 @@ merge-plane-tycoon
 merge-racer-stunts-car
 merge-rockets-obby
 merge-royal
+merge-royal-2048
 merge-rush-attack
 merge-sesame
 merge-shoot-run
@@ -3314,6 +3327,7 @@ mustang-city-driver-2024
 mutant-mash-merge-garden
 mutant-zone-zombie-merge-fighter
 mx-offroad-mountain-bike
+my-army-base
 my-bakery
 my-castle-merge-and-story
 my-city-hospital
@@ -3400,6 +3414,7 @@ ninja-bamboo-assassin
 ninja-clash-heroes
 ninja-dash-cozy-tactic-puzzle
 ninja-escape-2
+ninja-gorilla-jigsaw-puzzle
 ninja-hero-cats
 ninja-in-cape
 ninja-obby-parkours
@@ -3421,6 +3436,7 @@ nitrovenant-2
 no-i-m-not-a-plankton
 no-shorts
 noillirk
+nokia-3310-snack-game
 nomad-guardians
 none-shall-get-through-save-cappuccina
 nonogram
@@ -3771,6 +3787,7 @@ pirates-tiles-challenge
 pistonio
 pixel-adventure-3d
 pixel-art-color-by-numbers
+pixel-car-memory-quest
 pixel-color-flow
 pixel-color-quest
 pixel-conquest
@@ -3806,6 +3823,7 @@ playful-cup
 playground-man-ragdoll-show
 playground-ragdoll-sandbox
 playmusic
+playpair
 plop
 plug-man-race
 plugjoy
@@ -4077,6 +4095,7 @@ red-stickman-vs-craftmans
 red-stickman-vs-monster-school
 red-stickman-vs-monster-school-2
 redboy-and-bluegirl
+reds-winding-way
 reel-and-slash-ii-beach-legends
 referee-simulator-3d
 reflex-pong
@@ -4084,6 +4103,7 @@ reindeer-escape
 relax-box-asmr-mini-games
 relaxing-games
 relaxing-games-30-in-1
+relaxing-mini-fun-games
 relic-runway
 relic-rush-3d
 repeat-pixel-arts
@@ -4353,6 +4373,7 @@ serial-cheaters
 serpento
 set-the-box
 seven-down
+shadeo
 shadobirds
 shadow-adventure
 shadow-duel
@@ -4531,6 +4552,8 @@ snake-color-race
 snake-of-balls
 snake-of-bullets-collect-and-shoot
 snake-out
+snake-out-puzzle-game
+snake-puzzle-3d-game
 snake-run-eat-and-grow
 snake-simple-retro-game
 snake-tangle
@@ -4599,11 +4622,13 @@ solitaire-emperor-secrets-of-fate
 solitaire-klondike-treasure-island
 solitaire-match-puzzle
 solitaire-picture-puzzles
+solitaire-quest
 solitaire-spider-and-klondike
 solitaire-stars
 solitaire-the-collection
 solitaire-the-eternal-deck
 solitaire-tile-match
+solitaire-treasures
 solitaire-tripeaks
 solve-the-maze
 somewhere
@@ -4788,6 +4813,7 @@ stick-vs-zombies-epic-battle
 stick-war-tower-mighty-defense
 stick-wars-3d
 stickboy-epic-swordsman
+stickboy-war
 stickboys-hook
 stickboys-xmas
 sticker-art-book-puzzle
@@ -5124,6 +5150,7 @@ the-escape-series
 the-fill
 the-flowers-merge-and-sell-bouquets
 the-goopies-slime-puzzle
+the-greedy-crow
 the-green-mission-inside-a-cave
 the-high-climb
 the-hustler
@@ -5365,6 +5392,7 @@ ultraman-monster-island-adventure-2
 unblock-ball-slide-puzzle-2
 unboxing-brainrots
 uncle-hit-punch-the-dummy
+undead-walking-3d
 undercrown
 underground-heroes
 underwater-2d
@@ -5537,6 +5565,8 @@ wobble-it
 wobble-run
 wolfoo-2048
 wolfoo-birthday-pixel-art
+wolfoo-maze-adventure
+wolfoo-tangram
 wolfoo-town-dream
 woms-world-of-master-survivors
 wonder-goal-fun-football-kick
