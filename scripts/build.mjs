@@ -592,7 +592,7 @@ function emitContent() {
       h1: (catTr(c.slug) || {}).h1 || c.h1, intro: catIntro(c.slug),
       desc: trunc(`${tr('Play')} ${byCat[c.slug].length}+ ${tr('free')} ${((catTr(c.slug) || {}).h1 || c.h1).toLowerCase()} ${tr('online.')} ${catIntro(c.slug)}`, 158),
       altPath: `/c/${c.slug}/`, altLangs: LANGS.filter(l => (CATTR[l.code] || {})[c.slug]).map(l => l.code),
-      guide: (LANG === 'en' ? CAT_GUIDES[c.slug] : (catTr(c.slug) || {}).guide) ? { lead: (LANG === 'en' ? CAT_GUIDES[c.slug] : catTr(c.slug).guide).lead.replace('{n}', (Math.floor(byCat[c.slug].length / 10) * 10 || byCat[c.slug].length).toLocaleString('en-US')), faq: (LANG === 'en' ? CAT_GUIDES[c.slug] : catTr(c.slug).guide).faq,
+      guide: (LANG === 'en' ? CAT_GUIDES[c.slug] : (catTr(c.slug) || {}).guide) ? { lead: (LANG === 'en' ? CAT_GUIDES[c.slug] : catTr(c.slug).guide).lead.replace('{n}', (Math.floor(byCat[c.slug].length / 10) * 10 || byCat[c.slug].length).toLocaleString(LANG === 'en' ? 'en-US' : LANG)), faq: (LANG === 'en' ? CAT_GUIDES[c.slug] : catTr(c.slug).guide).faq,
         picks: byCat[c.slug].filter(g => !g.own && !g.community && Number.isFinite(g.r?.most)).sort((a, b) => a.r.most - b.r.most).slice(0, 6) } : null,
     });
   }
