@@ -88,6 +88,7 @@ a-long-way-home
 a-mimicry-of-life
 a-mole-in-a-hole
 a-mother-s-grief
+a-survival-legend
 abandoned-mansion
 aberiel-church-jigsaws
 about-a-frog
@@ -100,6 +101,7 @@ advance-car-parking-driver-simulator
 advanced-air-combat-simulator
 advanced-car-parking-3d-simulator
 advanture-of-tommy
+adventruse-hail-game
 adventure-crazy-ramp-bike-stunt-game
 adventure-home
 adventure-rush
@@ -186,6 +188,7 @@ animal-hair-salon
 animal-hospital
 animal-impossible-track-rush
 animal-kart
+animal-klotski
 animal-merge
 animal-pair-card-match
 animal-racing-2
@@ -213,6 +216,7 @@ ants-ate-my-pixels
 ants-clear-all-color-block-puzzle
 aod-art-of-defense
 apex-combat
+apex-racer
 apocalypse-rush
 aqua-fish-dental-care
 aqua-sort-water-color-puzzle
@@ -436,6 +440,7 @@ beach-bowling-3d
 beach-defense-merge-tower
 beach-volley-clash
 beach-volleyball-3d
+bead-route-challenge
 beadhouse
 beam-drive-car-crash-test-simulator
 bean-party-obby
@@ -550,6 +555,7 @@ block-sort-colormania
 block-sort-pirate-treasure
 block-sort-puzzle
 block-team-deathmatch
+block-tree
 block-vs-block-ii
 block-zero
 blockapolypse-zombie-shooter
@@ -887,6 +893,7 @@ car-crash-test-abandoned-city
 car-crash-tricks-simulator-crazy-stunts
 car-dealership
 car-destruction-king
+car-drive-simulator
 car-driving-master
 car-driving-school-game
 car-driving-simulator-3d
@@ -1101,6 +1108,7 @@ classic-car-driving-game
 classic-car-parking-2025
 classic-number-puzzle
 clawler-fight
+clay-craft-tycoon
 clean-kitty
 clean-the-garden
 clean-up-mini-games
@@ -1178,6 +1186,7 @@ colored-water-and-pin
 colored-water-and-pin-33546
 colorful-cubes
 colorful-greedy-snake
+colorify-color-by-number
 coloring-book
 coloring-book-color-by-number
 coloring-book-for-kids-game
@@ -1470,6 +1479,7 @@ diggy
 digit-shooter-1
 digital-circus-2026
 digital-circus-parkour-game
+dilivery-challenge
 diner-in-the-storm
 dino-dash
 dino-egg-shooter
@@ -1537,6 +1547,7 @@ dop2-delete-part-in-love-story
 dop2-draw-love
 dora-candy-land
 dot-and-dot
+dot-dodge
 dotto-botto
 double-boy-jump
 double-heist-rob-the-robbers
@@ -1578,6 +1589,7 @@ draw-one-line-bridge-puzzle
 draw-one-line-drawing-puzzle
 draw-one-part-brain-puzzle
 draw-or-delete-lovestory
+draw-paint-spray-game
 draw-path-to-finish
 draw-path-to-home
 draw-pixels-heroes-face
@@ -1603,6 +1615,7 @@ dream-castle
 dream-football-game
 dream-home
 dream-home-merge-story
+dream-puppy-spot-the-differences
 dream-room
 dream-supermarket-3d-shop
 dreamblox
@@ -2013,6 +2026,7 @@ footballer-of-the-year
 ford-f-100-eluminator-slide
 forest-dash
 forest-fortune
+forest-monster-breaker
 formula-1-driver
 formula-apex-rush
 formula-car-circuit-racing
@@ -2431,6 +2445,7 @@ heroes-inc
 heroes-of-arena
 heroes-of-the-dungeons-match-3-rpg
 heroes-vs-monsters-idle-rpg
+heroic-barrage-easy
 heroic-knight
 heros-vs-monster
 hex-a-mong
@@ -2646,6 +2661,7 @@ intercity-bus-driver-3d
 intergalactic-battleship
 iron-defense
 iron-legion-0-28
+iron-man-repulsor-rush
 ironwake-tank-combat
 island-mayhem-tiki-blast-3d
 island-monster-offroad
@@ -2900,6 +2916,7 @@ line-control
 line-of-defense
 lineo
 lipuzz-water-sort-puzzle
+liquid-color-sort
 liquid-sort
 liquid-sort-puzzle
 little-big-fighters
@@ -3245,9 +3262,11 @@ mix-and-paint-3d
 mix-monsters-fun-merge
 mixed-world
 mixed-world-weekend
+mob-escape
 mob-runner-master
 mochi-mochi-tower
 mochi-rescue
+model-dress-up-3d
 model-wedding-girl-games
 modern-fps-strike-zombie-gun-war-ops
 modern-sniper-gun-game-sniper-3d
@@ -3874,6 +3893,7 @@ pixel-dino-run
 pixel-feast
 pixel-flow
 pixel-gun-apocalypse-4-zombie-invazion
+pixel-gun-apocalypse-6-remastered
 pixel-gun-apocalypse-9
 pixel-hero-survivor
 pixel-jam-bus-puzzle
@@ -4056,6 +4076,7 @@ puzzle-fight
 puzzle-match-kit
 puzzle-parents-baby-s-path-home
 puzzlebot
+puzzlebubble
 puzzledom-one-line
 puzzlemaster
 pyropairs
@@ -4217,6 +4238,7 @@ ridge-racer-2d
 rift-of-hell-demons-war
 rim-rebels-3v3
 ring-fall-puzzle
+ring-master-hats
 ringo-starfish
 rings-and-dot
 rings-untie
@@ -4741,6 +4763,7 @@ space-blast
 space-break
 space-cleaner
 space-craft-ship-war
+space-defense-guard-heroes
 space-destroyer
 space-obby
 space-painters-deluxe
@@ -4756,6 +4779,7 @@ space-war-symphony
 spaceball-jump
 spaceman-escape-adventure
 sparkzap
+sparrowelimination
 spartan-fruits
 speakerman-revenge
 special-ops-go
@@ -4764,6 +4788,7 @@ speed-box-game
 speed-car-race-madness
 speed-chaos-crazy-race
 speed-evolution
+speed-master-cars
 speed-per-click-obby
 speed-pool-king
 speed-rush-simulator
@@ -5386,6 +5411,7 @@ tractor-farming-farmer-life-game
 tractor-simulator-farming-game
 tractor-trial
 traffic-craft-rider
+traffic-escapee
 traffic-g
 traffic-go
 traffic-jam-escape-3d
@@ -5514,6 +5540,7 @@ unno-game
 uno-online
 unravel-eggs-puzzle
 unreal-descent-2-race
+unroll-ball-slide-puzzle
 unscrew-odyssey
 unstack-tower
 unstoppable-brawler
@@ -5586,6 +5613,7 @@ wall-of-danger-dash
 wall-painter
 wall-rush-3d
 wander-wild
+wanted
 war-groups
 war-machine
 war-of-islands-mine-and-craft
@@ -5660,6 +5688,7 @@ wild-west-mafia-redemption-gun
 wild-west-zombie-clash
 wild-wolf-simulator-animal-games
 wildkin-isles
+win-magic-and-devil
 window-jump-guy
 winged-wheels-2
 wingy-wheels
@@ -5683,6 +5712,7 @@ wolfoo-time-to-bed
 wolfoo-town-dream
 wolfoo-word-search
 wolfoo-word-wonders
+wolfoos-kindergarten
 woms-world-of-master-survivors
 wonder-goal-fun-football-kick
 wonder-vending-machine
