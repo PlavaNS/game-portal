@@ -551,7 +551,7 @@ function emitContent() {
   <div class="grid">${slice.map((g, i) => card(g, i < 8)).join('')}</div>
   ${pager(u(basePath), p, pages)}${p === 1 && guide ? `
   <section class="topic-guide">
-    <h2>Most played ${esc(h1.toLowerCase())}</h2>
+    <h2>${esc(tr('Most played'))}: ${esc(h1)}</h2>
     <ul class="picks">${guide.picks.map(g => `<li><a href="${gHref(g)}">${esc(g.title)}</a>${g.short ? ` — ${esc(trunc(g.short, 110))}` : ''}</li>`).join('')}</ul>
     <h2>${esc(tr('FAQ'))}</h2>${guide.faq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
   </section>` : ''}`;
@@ -574,7 +574,7 @@ function emitContent() {
       h1: (catTr(c.slug) || {}).h1 || c.h1, intro: catIntro(c.slug),
       desc: trunc(`${tr('Play')} ${byCat[c.slug].length}+ ${tr('free')} ${((catTr(c.slug) || {}).h1 || c.h1).toLowerCase()} ${tr('online.')} ${catIntro(c.slug)}`, 158),
       altPath: `/c/${c.slug}/`, altLangs: LANGS.filter(l => (CATTR[l.code] || {})[c.slug]).map(l => l.code),
-      guide: LANG === 'en' && CAT_GUIDES[c.slug] ? { lead: CAT_GUIDES[c.slug].lead.replace('{n}', (Math.floor(byCat[c.slug].length / 10) * 10 || byCat[c.slug].length).toLocaleString('en-US')), faq: CAT_GUIDES[c.slug].faq,
+      guide: (LANG === 'en' ? CAT_GUIDES[c.slug] : (catTr(c.slug) || {}).guide) ? { lead: (LANG === 'en' ? CAT_GUIDES[c.slug] : catTr(c.slug).guide).lead.replace('{n}', (Math.floor(byCat[c.slug].length / 10) * 10 || byCat[c.slug].length).toLocaleString('en-US')), faq: (LANG === 'en' ? CAT_GUIDES[c.slug] : catTr(c.slug).guide).faq,
         picks: byCat[c.slug].filter(g => !g.own && !g.community && Number.isFinite(g.r?.most)).sort((a, b) => a.r.most - b.r.most).slice(0, 6) } : null,
     });
   }

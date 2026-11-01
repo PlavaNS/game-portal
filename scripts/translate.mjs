@@ -106,6 +106,28 @@ ${JSON.stringify(part.map(x => ({ key: x.key, ...(x.name ? { name: x.name } : {}
   console.log(`landing pages: ${Object.keys(cat).length}/${cats.cats.length + cats.topics.length}`);
 }
 
+// ---- 2b. category guides (question-style lead + FAQ, data/cat-guides.json) ----
+{
+  const CG = read('data/cat-guides.json', {});
+  const todo = Object.entries(CG).filter(([slug]) => cat[slug] && !cat[slug].guide);
+  for (let i = 0; i < todo.length; i += 3) {
+    const part = todo.slice(i, i + 3);
+    const out = await ask(`Translate these category page texts of a free online games site into ${L.label}.
+"lead" is one paragraph, "faq" is a list of [question, answer] pairs. Keep the placeholder {n} exactly as it is (it becomes a number).
+Keep the same shape and the same number of FAQ pairs. Do not translate game names or the site name "I Love Web Games".
+Reply with a JSON object keyed by the category key.
+
+${JSON.stringify(Object.fromEntries(part), null, 1)}`, 4000);
+    if (out) for (const [slug, src] of part) {
+      const o = out[slug];
+      if (o && typeof o.lead === 'string' && o.lead.includes('{n}') && Array.isArray(o.faq) && o.faq.length === src.faq.length && o.faq.every(p => Array.isArray(p) && p.length === 2))
+        cat[slug].guide = { lead: o.lead.trim(), faq: o.faq };
+    }
+  }
+  save(F_CAT, cat);
+  console.log(`category guides: ${Object.values(cat).filter(x => x && x.guide && x.lead !== undefined || (x && x.guide && x.guide.lead)).length}`);
+}
+
 // ---- 3. game pages, the ones Google already shows first ----
 {
   const prio = (() => { try { return fs.readFileSync(path.join(ROOT, 'data/priority-slugs.txt'), 'utf8').split('\n').filter(l => l && !l.startsWith('#')).join(',').split(',').map(x => x.trim()).filter(Boolean); } catch { return []; } })();
