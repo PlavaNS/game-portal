@@ -265,6 +265,7 @@ arrow-parking
 arrow-patrol
 arrow-pop
 arrow-rescue
+arrow-shift-logic-tree
 arrow-survival-15-seconds
 arrowgami-arrow-puzzle
 arrows-dream-home-design
@@ -343,6 +344,7 @@ baby-taylor-stomach-care
 baby-taylor-tea-party-day
 backflip-master-parkour-stunts
 backgammon
+backroom-exit
 backrooms-exit-protocol-0
 backrooms-slender-horror
 backslash-slash
@@ -366,6 +368,7 @@ ball-run-2048-space
 ball-sort-puzzle
 ballerina-cappuccina-loves-tung-tung-sahur
 ballon-race-3d
+balloon-escape
 balloon-pop-pop-and-blast
 balloon-smash
 balloons-pop
@@ -410,6 +413,7 @@ basketball-stars
 basketball-street
 basketball-strike
 basketball-tap
+batrix
 battalion-commander-1917
 battalion-commander-2
 battboy-adventure
@@ -623,6 +627,7 @@ bonk-royale
 bonkhalla
 boo-brew
 boo-chains
+boom-blast-puzzle-game
 boom-cell
 boom-stick-bazooka-2-puzzles
 boombitz-bomb-chips
@@ -909,6 +914,7 @@ car-escape
 car-escape-parking
 car-evolution-driving
 car-evolution-game
+car-evolution-pro-math-gates
 car-games-car-racing-game
 car-madness-3d
 car-makeup
@@ -1140,6 +1146,7 @@ code-breaker-deluxe
 coffe-merge-house
 coffee-color-blocks
 coin-color-sort
+coin-drop-3d
 coin-hunt
 coin-sort-puzzle
 coinbound-voodoo-nightmare
@@ -1165,6 +1172,7 @@ color-dots-challenge
 color-fall
 color-hole
 color-lines
+color-loom-puzzle
 color-match-rush
 color-mosaic
 color-parking-drifter
@@ -1374,6 +1382,8 @@ cute-family-shopping
 cute-farm-match-puzzle
 cute-little-dragon-creator
 cute-pony-hidden-stars
+cute-pony-memory-quest
+cute-pony-puzzle-quest
 cute-princess-dress-up
 cute-shapes
 cutter-woodsman-game
@@ -1944,6 +1954,7 @@ fishdom-online
 fisher-clicker
 fishing-catch-the-moment
 fishing-frenzy
+fishing-hunting-game
 fishing-island
 fishing-online
 fishtopia
@@ -2036,6 +2047,7 @@ formula-car-stunt
 formula-car-stunt-game
 formula-go
 formula-rush-online
+formwise
 fortress-clash
 fortress-of-the-sinister
 foxy-eco-sort
@@ -2078,12 +2090,14 @@ fruit-chopper
 fruit-cutter-fun
 fruit-drop-3d
 fruit-fusion
+fruit-immortal
 fruit-lane-cafe
 fruit-madness
 fruit-mahjong
 fruit-match-3-championship
 fruit-merge-juice-jumble
 fruit-merge-mania
+fruit-merger
 fruit-names
 fruit-samurai
 fruit-slasher
@@ -2109,6 +2123,7 @@ fun-toy-pals
 fun-with-flags-ultimate-quiz-game
 funny-angela-haircut
 funny-bone-surgery
+funny-cars
 funny-cars-reload
 funny-cubes-2048
 funny-dentist-surgery
@@ -2496,6 +2511,7 @@ highway-car-shooting-3d-action-game-2025
 highway-driver-3d
 highway-of-the-dead
 highway-racers
+highway-rush
 highway-rush-overdrive
 highway-traffic-racer-3d
 hill-climb-2022
@@ -3027,6 +3043,7 @@ mahjong-tower-puzzles
 mahjong-unlimited
 make-a-dress
 make-the-glass-happy
+make-your-meal-cooking-game
 makeover-mayhem
 makeup-artist-fashion-salon
 makeup-fruits
@@ -3074,12 +3091,15 @@ match-nonstop
 match-story-animals
 match-story-weapons
 match-them-up
+matching-pair-game
 matching-tiles-3d
 math-battle
 math-crosswords
 math-driving-test
 math-fight-club
+math-game-3d
 math-meteors
+math-multiply-two
 math-playground
 math-squares
 math-trivia
@@ -3422,6 +3442,7 @@ my-clearn-robot
 my-cute-virtual-pet
 my-dentist
 my-dogy-virtual-pet
+my-doll-house-decor-life
 my-first-100-words
 my-golf
 my-gym-manager-idle-tycoon
@@ -3517,6 +3538,7 @@ ninja-samurai-runner-online
 ninja-survival-simulator
 ninja-vs-ragdolls-sharp-knife-throw
 ninjas-blade
+ninjas-return
 nitro-ball
 nitro-cars-highway-racer
 nitro-kick
@@ -3955,6 +3977,7 @@ polybounce-tycoon
 polygon-flight-simulator
 pondhero
 pongoal
+pony-color-fun
 poofruits-merge-the-fruit
 pool-8
 pool-blast-merge-balls
@@ -4067,6 +4090,7 @@ push-the-crazy-crowd-stickman-clash-3d
 push-the-frog
 push-to-go
 pushplush
+put-the-candy
 putt-party
 puzzle-box-brain-fun
 puzzle-box-connect
@@ -4196,6 +4220,7 @@ red-stickman-vs-monster-school
 red-stickman-vs-monster-school-2
 redboy-and-bluegirl
 reds-winding-way
+reefrescue
 reel-and-slash-ii-beach-legends
 referee-simulator-3d
 reflex-pong
@@ -4365,6 +4390,7 @@ runner
 runner-coaster-race
 runner-garden-game
 runner-soldiers
+running-roadball
 rush-rivals
 russian-car-drift-3d
 russian-drift-overtaking-in-the-city
@@ -5434,6 +5460,7 @@ trap-the-bear
 trash-baron
 trash-master
 trash-sort
+trashtide
 treadbreaker
 treasure-quest
 treasurebound
@@ -5574,6 +5601,7 @@ vector-parkour
 vector-strike
 vega-mix-2-adventure
 vegan-quest
+vegetable-spelling-puzzle
 veggie-harvest
 vehice-rush-master
 vehicle-driving-master
@@ -5653,6 +5681,7 @@ watermelon-stack-3d
 wayfarers-return
 we-are-in-a-simulation-simulator
 we-not-survive
+weapon-run
 weapon-run-3d-gun-shooter
 weapon-run-battle
 weapon-survivor
@@ -5703,6 +5732,7 @@ wobble-it
 wobble-run
 wolfoo-2048
 wolfoo-birthday-pixel-art
+wolfoo-escape
 wolfoo-maze-adventure
 wolfoo-memory-sequence
 wolfoo-spot-the-difference
