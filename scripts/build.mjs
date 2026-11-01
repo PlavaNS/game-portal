@@ -657,6 +657,7 @@ function emitContent() {
       <button class="icon" data-fs aria-label="${esc(tr('Full screen'))}" title="${esc(tr('Full screen'))}">⛶</button>
     </div>
   </section>
+  <section class="play-next"><h2>▶ ${esc(tr('Play next'))}</h2><div class="grid next">${sim.slice(0, 6).map(s => card(s)).join('')}</div></section>
   <div class="game-cols">
     <article class="about">
       <h2>${esc(tr('About'))} ${esc(g.title)}</h2>
@@ -673,6 +674,10 @@ function emitContent() {
         ${g.studio ? `<dt>${esc(tr('Developer'))}</dt><dd>${g.studioUrl ? `<a href="${esc(g.studioUrl)}" rel="noopener" target="_blank">${esc(g.studio)}</a>` : esc(g.studio)}</dd>` : ''}
         ${g.pgSlug ? `<dt>${esc(tr('Also on'))}</dt><dd><a href="https://playgama.com/game/${encodeURIComponent(g.pgSlug)}?clid=${encodeURIComponent(cfg.playgamaClid)}" rel="sponsored noopener" target="_blank">Playgama ↗</a></dd>` : ''}
       </dl>
+      ${g.own ? (() => { const code = `<iframe src="${abs(`/embed/${g.slug}/`)}" width="960" height="600" style="width:100%;max-width:960px;aspect-ratio:${portrait ? '9/16' : '16/10'};height:auto;border:0;border-radius:12px" allow="fullscreen; autoplay; gamepad" allowfullscreen loading="lazy" title="${esc(g.title)}"></iframe>\n<p><a href="${pageUrl}">Play ${esc(g.title)}</a> and more free games at <a href="${abs('/')}">I Love Web Games</a></p>`;
+        return `<h2>${esc(tr('Embed this game'))}</h2><p>${esc(tr('Put this game on your own website or blog for free. Copy the code below and paste it into your page.'))}</p>
+      <textarea class="embed-code" readonly rows="4" onclick="this.select()">${esc(code)}</textarea>
+      <button class="btn ghost embed-copy" type="button" onclick="var t=this.previousElementSibling;t.select();navigator.clipboard&&navigator.clipboard.writeText(t.value);this.textContent='✓ ${esc(tr('Copied'))}'">📋 ${esc(tr('Copy code'))}</button>`; })() : ''}
       <h2>${esc(tr('FAQ'))}</h2>${GD ? (GD.faq || []).map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('') : ''}
       <h3>${esc(tr('Is this game free to play?'))}</h3><p>${esc(tr('Yes. It is completely free here. The game is supported by short ads.'))}</p>
       <h3>${esc(tr('Can I play this game on my phone?'))}</h3><p>${g.mobile ? tr('Yes. It runs in the browser on Android phones, iPhones and tablets as well as on PC and Mac — tap “Play now” and the game opens full screen.') : `${esc(g.title)} is made for computers and plays best with a keyboard and mouse. For phones, check out our <a href="${u('/c/mobile/')}">mobile games</a>.`}</p>
@@ -696,6 +701,16 @@ function emitContent() {
       jsonld: [ld, crumbs([['Home', abs('/')], [main.h1, abs(`/c/${main.slug}/`)], [g.title, pageUrl]])],
     }));
     addUrl(`/games/${g.slug}/`, g.own ? 0.9 : 0.6, { img: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)), title: g.title });
+  }
+  // EMBED PAGES for our own games: what other sites put in their iframe (game + a small branded bar linking back to us)
+  if (LANG === 'en') for (const g of ours) {
+    const src = g.embed.startsWith('http') ? g.embed : g.embed;
+    write(`embed/${g.slug}/index.html`, `<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,follow"><link rel="canonical" href="${esc(abs(`/games/${g.slug}/`))}"><title>${esc(g.title)} | ${esc(cfg.name)}</title>
+<style>html,body{margin:0;height:100%;background:#0f1020;font-family:system-ui,Arial,sans-serif}body{display:flex;flex-direction:column}iframe{flex:1;width:100%;border:0;display:block}.b{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:6px 10px;background:#0f1020;color:#c9cbe0;font-size:13px}.b a{color:#fff;text-decoration:none;font-weight:700}.b a span{color:#ff5c8a}.b .m{color:#ffd23f;font-weight:700}</style></head>
+<body><iframe src="${esc(src)}" allow="fullscreen; autoplay; gamepad" allowfullscreen title="${esc(g.title)}"></iframe>
+<div class="b"><a href="${esc(abs(`/games/${g.slug}/`))}?utm_source=embed" target="_blank" rel="noopener">${esc(g.title)}</a><a class="m" href="${esc(abs('/'))}?utm_source=embed" target="_blank" rel="noopener">More free games at <span>♥</span> I Love Web Games ›</a></div></body></html>
+`);
   }
 
   // SEARCH

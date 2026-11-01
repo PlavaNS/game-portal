@@ -229,3 +229,10 @@ body.noscroll{overflow:hidden}
 .gotw-text p{margin:0;color:#d4d7ff}.gotw-by{font-size:14px;opacity:.85}.gotw-by a{color:#ffd23f}
 .gotw-cta{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:8px}.gotw-submit{font-size:14px;color:#ffd23f}
 @media (max-width:760px){.gotw{grid-template-columns:1fr}.gotw-text h2{font-size:22px}}
+/* Play next row right under the player */
+.play-next{margin:14px 0 22px}.play-next h2{font-size:18px;margin:0 0 10px}
+.grid.next{grid-template-columns:repeat(6,minmax(0,1fr))}
+@media (max-width:900px){.grid.next{grid-template-columns:repeat(3,minmax(0,1fr))}}
+/* Embed this game */
+.embed-code{width:100%;box-sizing:border-box;font:12px/1.4 ui-monospace,Menlo,monospace;background:#0b0c18;color:#c9cbe0;border:1px solid var(--line);border-radius:10px;padding:10px;resize:vertical}
+.embed-copy{margin:8px 0 18px}
