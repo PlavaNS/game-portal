@@ -494,9 +494,22 @@ function emitContent() {
       <a class="btn big" href="${gHref(o)}">▶ ${esc(tr('Play now — free'))}</a>
     </div>
   </section>` : '';
+    const gotwCfg = readJSON(path.join(ROOT, 'data/game-of-week.json'), null);
+    const gw = gotwCfg && all.find(g => g.slug === gotwCfg.slug);
+    const gotw = gw ? `<section class="gotw">
+    <a class="gotw-media" href="${gHref(gw)}" style="--t:url('${esc(gw.thumb)}')"><img src="${esc(gw.thumb)}" alt="${esc(gw.title)}" loading="lazy"></a>
+    <div class="gotw-text">
+      <p class="eyebrow">🏆 ${esc(tr('Indie Game of the Week'))}</p>
+      <h2><a href="${gHref(gw)}">${esc(gw.title)}</a></h2>
+      <p class="gotw-by">${esc(tr('by'))} ${gw.studioUrl ? `<a href="${esc(gw.studioUrl)}" rel="noopener" target="_blank">${esc(gw.studio)}</a>` : esc(gw.studio)}</p>
+      <p>${esc(LANG === 'en' && gotwCfg.why ? gotwCfg.why : gw.short)}</p>
+      <div class="gotw-cta"><a class="btn" href="${gHref(gw)}">▶ ${esc(tr('Play now — free'))}</a><a class="gotw-submit" href="${ur('/submit-game/')}">${esc(tr('Made a game? Submit it'))} ›</a></div>
+    </div>
+  </section>` : '';
     const catTiles = `<section class="row"><div class="row-h"><h2>${esc(tr('Categories'))}</h2></div><div class="cats">${activeCats.filter(c => catOK(c.slug)).map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
     const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${all.length.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p><p class="dev-cta">${esc(tr('Made a web game?'))} <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> ${esc(tr('and reach new players for free.'))}</p></header>
   ${hero}
+  ${gotw}
   <section class="row" data-recent hidden><div class="row-h"><h2>${esc(tr('Continue playing'))}</h2></div><div class="grid"></div></section>
   ${row('🔥 ' + tr('Trending now'), u('/popular/'), top('hot', 18), true)}
   ${row('⭐ ' + tr('Most played'), u('/popular/'), top('most', 18))}

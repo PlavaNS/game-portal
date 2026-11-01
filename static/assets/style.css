@@ -218,3 +218,14 @@ body.noscroll{overflow:hidden}
 .card.fit span,.card.fit .badge{z-index:1}
 .stage-thumb.wide{width:auto;max-width:min(380px,80vw);height:192px;object-fit:contain;background:#0006}
 @media (max-width:760px){.stage-thumb.wide{height:112px}}
+/* Indie Game of the Week */
+.gotw{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.3fr);border:1px solid #ffd23f66;border-radius:18px;overflow:hidden;margin:-8px 0 26px;background:linear-gradient(135deg,#2a2410,#14163a 70%)}
+.gotw-media{position:relative;display:block;aspect-ratio:16/9;overflow:hidden}
+.gotw-media::before{content:"";position:absolute;inset:-12px;background:var(--t) center/cover no-repeat;filter:blur(14px) brightness(.55)}
+.gotw-media img{position:relative;width:100%;height:100%;object-fit:contain}
+.gotw-text{padding:20px 24px;display:flex;flex-direction:column;justify-content:center;gap:6px}
+.gotw-text .eyebrow{color:#ffd23f;font-weight:800;letter-spacing:.04em;margin:0}
+.gotw-text h2{margin:0;font-size:28px;line-height:1.1}.gotw-text h2 a{color:inherit;text-decoration:none}
+.gotw-text p{margin:0;color:#d4d7ff}.gotw-by{font-size:14px;opacity:.85}.gotw-by a{color:#ffd23f}
+.gotw-cta{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-top:8px}.gotw-submit{font-size:14px;color:#ffd23f}
+@media (max-width:760px){.gotw{grid-template-columns:1fr}.gotw-text h2{font-size:22px}}
