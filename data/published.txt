@@ -108,6 +108,7 @@ adventure-time-bullet-jake
 adventure-time-finn-love
 africa-jeep-race
 african-cheetah-hunting-simulator
+african-princesses-style-island
 age-evolution-run
 age-of-apes
 age-of-heroes
@@ -218,6 +219,7 @@ aqua-sort-water-color-puzzle
 aquapark-shark
 aquapark-surfer-race
 aquarium-of-surprises
+aquava
 arcade-thief-runner
 archer-2023
 archer-clash
@@ -309,6 +311,7 @@ axe-run
 babel-tower
 baby-bear
 baby-brainrots-multiplayer-with-friends
+baby-cat-daycare
 baby-chicco-adventures
 baby-dino-planet
 baby-hazel-at-beach
@@ -450,6 +453,7 @@ bee-rise
 bee-swarm
 beep-out
 ben-10-alien
+ben-10-alien-onslaught
 ben-10-run
 ben10-omnirush
 best-buds
@@ -478,6 +482,7 @@ bike-stunt-racing-legend
 bike-stunts-2024
 biking-extreme-3d
 bikkings-brothers-to-valhalla
+billiard-challenge
 billiard-hustlers
 billiards-3d-russian-pyramid
 binary-balls
@@ -653,6 +658,7 @@ box-playground-punch-it
 box-press-puzzle
 box-roller
 box-tap-sort
+boxbash
 boxes-fright-night
 boxes-wizard-2
 boxing-gang-stars
@@ -1157,6 +1163,7 @@ color-parking-drifter
 color-pixels-coloring-by-numbers
 color-race-obby
 color-roll-3d
+color-screw-rescue-puzzle
 color-shot-throw-the-ball
 color-snake-3d-online
 color-snake-run
@@ -1194,6 +1201,7 @@ connect-pipe-color-puzzle-game
 connect-puzzle-image
 connect-words-2026
 connecting-flowers-garden-merge
+connectline
 constella-single-line-puzzle
 construction-set-3d-builder
 construction-simulator-lite
@@ -1356,6 +1364,7 @@ cute-animal-puzzle-game
 cute-family-shopping
 cute-farm-match-puzzle
 cute-little-dragon-creator
+cute-pony-hidden-stars
 cute-princess-dress-up
 cute-shapes
 cutter-woodsman-game
@@ -1993,6 +2002,7 @@ football-kickoff
 football-leauge
 football-legends
 football-legends-sliding-puzzle
+football-marble-shooter
 football-masters
 football-panda
 football-pinball
@@ -2005,6 +2015,7 @@ forest-dash
 forest-fortune
 formula-1-driver
 formula-apex-rush
+formula-car-circuit-racing
 formula-car-race
 formula-car-racing-games-real
 formula-car-stunt
@@ -2317,6 +2328,7 @@ gusano-io-worms-snake-game
 gym-boss
 gym-simulator-online-escape
 haaland-coloring-book
+haaland-funny-face
 hair-challenge-online
 hair-do-design
 hair-dye
@@ -2466,6 +2478,7 @@ high-pizza
 high-school-girls-classroom-life
 highway-car-racer
 highway-car-shooting-3d-action-game-2025
+highway-driver-3d
 highway-of-the-dead
 highway-racers
 highway-rush-overdrive
@@ -2524,6 +2537,7 @@ hoop-world
 hoops-and-fruits
 hoops-the-game
 hop-ballz-3d
+hop-hop
 hopeless-island-survival-hero
 horizon-flight-into-the-light
 horizon-highway-driving
@@ -2680,6 +2694,7 @@ jigsaw-puzzles
 jigsaw-solitaire-puzzle
 jigsaw-sort
 jigsolitaire-puzzle
+jigzoquest
 jim-s-world-adventure-games
 jingle-jetpack
 jixora-jigsaw-solitaire-puzzle
@@ -3031,6 +3046,7 @@ master-of-break-an-eggs
 master-of-numbers
 master-of-riding-a-pet
 masterpiece-unharmed
+masterscavenger
 match-3-forest-crew
 match-3d-puzzle-mania
 match-4
@@ -3087,6 +3103,7 @@ melodys-adventure
 melodys-adventure-2
 melon-maker-fruit-game
 mem-brawl-merge-simulator
+meme-tiles
 memoplay
 memory-cards
 memorya
@@ -3370,6 +3387,7 @@ mushroom-hunting-forest-search
 mushroom-runners
 mushroomtarzan
 music-line-2-christmas
+music-night-battle-rhythm-game
 music-note
 music-tools
 musketeers-gunpowder-vs-steel
@@ -3449,6 +3467,7 @@ nextboot-horror-online
 nextbot-can-you-escape
 nexus-3d
 nexus-override
+nibblix
 night-city-racing
 night-club-security
 night-lake
@@ -3529,6 +3548,7 @@ nubik-dungeon
 nubik-in-the-monster-world
 nubik-vs-herobrin-s-army
 nullify-merge-math
+nullpulse-runner
 number-merge-10
 number-quest
 number-run-3d-casual-game
@@ -3776,6 +3796,7 @@ pc-cafe-simulator-3d
 pearl-paws
 pedro-double-cross
 peel-the-potato
+peggle-flash
 pelucaneitor
 penalty-challenge
 penalty-kick
@@ -3902,6 +3923,7 @@ police-car-parking-2026
 police-car-parking-game
 police-car-stunt-challenge
 police-chase-gate-runner
+police-chase-run
 police-chase-simulator
 police-drift-escape
 police-gangster-chase
@@ -4623,6 +4645,7 @@ snake-warz
 snake-way
 snake-wiggle-master
 snakearmydefense
+snakerush
 snakes
 snaky-jam
 sneaker-factory
@@ -4764,6 +4787,7 @@ spinner-clicker-2d
 spinning-cat-clicker
 spinning-oia-oia-cat-bricker
 spinwhisker
+spiny-ninja
 spiral-blitz
 splash-rivals
 splatcha
@@ -4850,6 +4874,7 @@ steal-car-duel
 steal-meme-and-go
 steal-memerot-zoo-tycoon
 steal-my-egg
+steal-simulator
 steals-eggs-from-animals
 stealth-robbery-of-a-house-together
 stealth-silent-squid
@@ -4887,6 +4912,7 @@ sticker-book-puzzle-color-by-number
 sticker-jam-peel-off-and-match
 stickerball
 stickman-3d-legacy-of-war
+stickman-archer-assassin
 stickman-archer-kick
 stickman-archero-fight
 stickman-archery-ragdoll
@@ -5283,6 +5309,7 @@ tidewell
 tidy-bot
 tidy-up-satisfeel-asmr
 tidy-up-the-dollhouse
+tidydeck-sort-puzzle
 tie-dye-game
 tiger-coloring-book
 tiger-tank
@@ -5587,6 +5614,7 @@ water-city-racers
 water-me-please
 water-race-game
 water-sort-master-color-puzzle
+water-sort-solve-puzzles
 watermelon-falling-animals
 watermelon-fruit-2048
 watermelon-game
@@ -5648,6 +5676,7 @@ wolfoo-2048
 wolfoo-birthday-pixel-art
 wolfoo-maze-adventure
 wolfoo-memory-sequence
+wolfoo-spot-the-difference
 wolfoo-supermarket-sort
 wolfoo-tangram
 wolfoo-time-to-bed
@@ -5818,6 +5847,7 @@ zoo-elephant-simulator-city-attack
 zoo-mahjongg-deluxe
 zoo-run
 zoological-zeppelin
+zoolympics
 zuma-boom-2
 zumba-mania
 zumba-quest
