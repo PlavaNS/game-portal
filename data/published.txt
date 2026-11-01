@@ -290,6 +290,7 @@ assemble-factory-puzzle
 astro-digger
 astro-merge
 astro-shooter
+athlio
 attack-and-dash
 attack-hole
 attack-super-hole
@@ -335,6 +336,7 @@ backrooms-exit-protocol-0
 backrooms-slender-horror
 backslash-slash
 backyard-car-parking
+bad-cat-prankster-moms-return
 bad-cat-simulator-pet-game
 badabump
 badland
@@ -432,6 +434,7 @@ beam-drive-car-crash-test-simulator
 bean-party-obby
 bean-tower
 bear-adventure-online-game
+bear-go-home
 bearshift
 beastforge-rival
 beautiful-toenail-salon
@@ -469,6 +472,7 @@ bike-stunt-master-mini-rush
 bike-stunt-racing-legend
 bike-stunts-2024
 biking-extreme-3d
+bikkings-brothers-to-valhalla
 billiard-hustlers
 billiards-3d-russian-pyramid
 binary-balls
@@ -912,6 +916,7 @@ car-transform-mania-merger-tycoon
 car-wash-diy
 car-wash-idle
 car-wash-simulator-summer-edition
+car-word-hunt
 card-quest
 card-quest-10-minute-adventure
 card-solitaire-word-game
@@ -1021,6 +1026,7 @@ chicken-merge-2
 chicken-yeet
 chickz-stack
 children-doctor-dentist-2-surgery-game
+chinchilla-trails
 chips-bakery-simulator
 choco-ball-draw-line-and-happy-girl
 choo-choo-charles-revenge
@@ -1330,6 +1336,8 @@ cut-in-half
 cut-it-3d
 cut-it-all-3d
 cut-it-voxel-crusher
+cut-rope-2026
+cute-animal-puzzle-game
 cute-family-shopping
 cute-farm-match-puzzle
 cute-little-dragon-creator
@@ -1597,6 +1605,7 @@ drill-the-snake
 drink-drive-survive
 drive-ahead-sports
 drive-and-crash-sandbox
+drive-and-dodge-car-racing-3d
 drive-and-park-master
 drive-car
 drive-chained-car-3d
@@ -1679,6 +1688,7 @@ emergency-rush-city-ambulance-rescue
 emilys-hotel-solitaire
 emoji-guess
 emoji-guess-master
+emoji-line-puzzle
 emoji-math-quiz
 emoji-memory-find-a-pair
 emoji-skill-puzzles
@@ -1998,6 +2008,7 @@ frame-agent-hidden-object-puzzle
 freaky-monster-rush
 freddys-return-village-escape
 freekick-hero
+freight
 french-fries-tycoon-farm-to-fryer
 fresh-drop-triple-match
 friday-night-funkin-vs-garcello
@@ -2372,6 +2383,7 @@ help-police
 help-tricky-story-a-complicated-story
 hero-city
 hero-defense-king
+hero-monster-battle-game
 hero-rescue
 hero-rescue-puzzle
 hero-sheep
@@ -2707,6 +2719,7 @@ kiki-world-kawaii-doll-decor
 killer-assassin
 killer-io
 killmaster-secret-agent
+kim-jong-un-backrooms
 kind-shelter-animal-care-and-treatment
 kinder-garden
 kindergarten-kids-learning-games
@@ -2783,6 +2796,7 @@ lady-pool
 lady-rescue
 ladybug-jigsaw-puzzle-collection
 lamborghiniparking3
+landing-hero
 lane-clash
 lantern-alley-match-3
 lantern-canals
@@ -2931,6 +2945,7 @@ magnet-master-3d
 magnet-sort
 mahjong-3
 mahjong-3d-match
+mahjong-bird-tiles
 mahjong-chef
 mahjong-classic
 mahjong-connect-classic
@@ -3041,6 +3056,7 @@ melodys-adventure
 melodys-adventure-2
 melon-maker-fruit-game
 mem-brawl-merge-simulator
+memoplay
 memory-cards
 memorya
 memorybot
@@ -3276,6 +3292,7 @@ motorcarvolleyball
 motorcycle-racer-road-mayhem
 motorcycle-stunts-drive
 mountain-bike-challenge
+mountain-bike-xtreme
 mountain-tank
 mouse-survivor
 moutain-jeep-drive
@@ -3640,6 +3657,7 @@ orbadrone-robot-escape
 orbit-pals
 orbit-shift
 orc-breach
+order-of-operation-challenge
 organizer-master
 origin
 outer-planet
@@ -3716,6 +3734,7 @@ pathfinder
 pawky
 paws-and-pals-diner
 paws-and-paths
+paws-up
 pc-cafe-simulator-3d
 pearl-paws
 pedro-double-cross
@@ -4479,6 +4498,7 @@ sky-track-racing
 sky-wars-battle-of-the-islands
 skybound-dash-crown-rush
 skyfall-siege
+skyhop
 skyslime-adventures
 slalom-hero
 slalom-ski-simulator
@@ -4571,6 +4591,7 @@ sneaky-fits
 sneaky-spikes
 sniper-attack2
 sniper-clash-3d
+sniper-corps
 sniper-for-brainrots
 sniper-hero-urban-strike
 sniper-king-2d-the-dark-city
@@ -4634,6 +4655,7 @@ solve-the-maze
 somewhere
 sonik-run
 sorcerers-refuge
+sort-color-water-puzzle
 sort-games-challenge
 sort-it-out-category-sort
 sort-master
@@ -4939,6 +4961,7 @@ sunfield-vegetable-farm
 sunny-bay-heroes
 sunny-farm-animal-simulator
 sunny-farm-match-3
+sunny-spell
 supa-tic-tac-toe
 super-ball-blast
 super-basketball
@@ -5023,6 +5046,7 @@ survivalist
 survive-lava-for-brainrots
 survive-the-disasters-obby
 survive-the-glass-bridge
+survivor-war-island-game
 sushi-bros
 sustainable
 sustainable-3
@@ -5105,6 +5129,7 @@ tasty-out-arrow-puzzle
 tavern-cardsharp
 taxi-driver-las-vegas
 taxi-driver-simulator
+taxi-driver-ultimate
 taxi-parking-driving
 taxi-rush
 taxi-simulator-3d
@@ -5157,6 +5182,7 @@ the-hustler
 the-ironic-zombie
 the-island-of-momo
 the-kitchen-spot-the-differences
+the-last-adventure
 the-last-company
 the-last-shot
 the-long-way-home
@@ -5211,6 +5237,7 @@ tidy-bot
 tidy-up-satisfeel-asmr
 tidy-up-the-dollhouse
 tie-dye-game
+tiger-coloring-book
 tiger-tank
 tile-farm-story
 tile-harvest-3d
@@ -5324,6 +5351,7 @@ tricky-puzzle-brain-test
 tricky-queue-logic-puzzle
 tricky-story-friendly-help
 trimino
+trio-twist-puzzle
 troll-rider
 truck-coloring
 truck-cross-country
@@ -5585,6 +5613,7 @@ woods-of-nevia-forest-survival
 woody-block-puzzles
 woof-foow
 word-associations-solitaire
+word-blossom
 word-chef
 word-cross
 word-finder
@@ -5668,6 +5697,7 @@ zigzag-snow-mountain
 zip-me-up-halloween
 zip-zap
 zodiac-runner
+zombi-defense
 zombie-apocalypse-bunker-survival-z
 zombie-apocalypse-now-survival
 zombie-apocalypse-tunnel-survival
