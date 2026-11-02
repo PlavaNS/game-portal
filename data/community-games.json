@@ -148,57 +148,6 @@
     "orientation": "landscape"
   },
   {
-    "slug": "impossible-tic-tac-toe",
-    "title": "Impossible Tic Tac Toe",
-    "studio": "KoiArcade",
-    "studioUrl": "https://koiarcade.com",
-    "added": "2026-10-30",
-    "short": "Tic tac toe against an AI that never loses, a robot that cheats, or a friend on the same device.",
-    "description": "Impossible Tic Tac Toe takes the classic game and adds a twist. In Impossible mode you face an AI that plays perfectly and never loses, so a draw is a victory. In Rigged mode Rigby the robot cheats, and you have to work out how. Or play 2 Player mode with a friend on the same device. There are bigger boards too, from the classic 3x3 up to 6x6 and an Ultimate mode with nine boards in one. Free, quick and playable on any device.",
-    "instructions": "Tap or click a square to place your X and get three in a row. Switch between Impossible, Rigged and 2 Player with the tabs, choose the board size, and pick who moves first.",
-    "category": "puzzle",
-    "extraCats": [
-      "two-player",
-      "kids",
-      "mobile"
-    ],
-    "tags": [
-      "Tic Tac Toe",
-      "Classic",
-      "Board Game",
-      "Two Player",
-      "Logic"
-    ],
-    "embed": "https://koiarcade.com/play/impossible-tic-tac-toe/",
-    "thumb": "https://koiarcade.com/img/games/impossible-tic-tac-toe-wide.png",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "chess4d",
-    "title": "Chess4D",
-    "studio": "Minh Tieu",
-    "studioUrl": "https://chess4d.net/",
-    "added": "2026-10-30",
-    "short": "Chess in four dimensions: pieces move across X, Y, Z and W on a compact 4x4x2x2 board.",
-    "description": "Chess4D takes chess into extra dimensions, free in your browser. In 4D chess the pieces move across X, Y, Z and W on a compact 4x4x2x2 board, and legal moves are highlighted so you can learn just by clicking. Pick a 20-piece learning army or a 32-piece battle army, play a friend on the same device or the practice computer. There is also standard chess on a 3D board and an experimental 5D time-travel mode with guided lessons. Works on desktop and mobile with no download.",
-    "instructions": "Click a piece, then click one of the highlighted squares to move it. Choose local two-player or the practice computer, and switch between 4D, 3D and 5D chess from the menu.",
-    "category": "puzzle",
-    "extraCats": [
-      "two-player",
-      "3d"
-    ],
-    "tags": [
-      "Chess",
-      "Board Game",
-      "Strategy",
-      "Two Player",
-      "Brain"
-    ],
-    "embed": "https://chess4d.net/4d-chess",
-    "thumb": "https://chess4d.net/chess/screenshots/4d-chess.png",
-    "orientation": "landscape"
-  },
-  {
     "slug": "louvers",
     "title": "Louvers",
     "studio": "Sundryard",
@@ -222,30 +171,5 @@
     "embed": "https://sundryard.com/louvers/play/",
     "thumb": "https://ilovewebgames.com/assets/community/louvers.jpg?v=1",
     "orientation": "landscape"
-  },
-  {
-    "slug": "arrow-out",
-    "title": "Arrow Out",
-    "studio": "Arrow Out",
-    "studioUrl": "https://arrout.com/",
-    "added": "2026-11-01",
-    "short": "A calm arrow-exit puzzle: tap an arrow and it slides off the board if its lane is clear. 100 levels, no timer.",
-    "description": "Arrow Out is a calm puzzle game about untangling a board full of arrows. Each arrow points one way, and when you tap it, the whole arrow slides off the board, but only if the lane in front of it is clear. Tap one that is blocked and you lose a heart. Work out the right order to clear every arrow across 100 levels, from First Moves and Foundations to Nesting, Density, Chains, Expert and the Finale. There is no timer, a hint marks a safe arrow when you are stuck, and you can hold an arrow to preview its lane before you commit.",
-    "instructions": "Tap an arrow to send it off the board. It only moves if the lane ahead is clear; a blocked tap shakes and costs a heart. Hold an arrow to see its lane, use the hint button to mark a safe move, and clear every arrow to finish the level. Zoom in and out with the buttons at the bottom.",
-    "category": "puzzle",
-    "extraCats": [
-      "mobile",
-      "hypercasual"
-    ],
-    "tags": [
-      "Puzzle",
-      "Logic",
-      "Brain",
-      "Relaxing",
-      "Arrows"
-    ],
-    "embed": "https://arrout.com/?utm_source=ilovewebgames&utm_medium=referral&utm_campaign=promo_d1&utm_content=ilovewebgames",
-    "thumb": "https://arrout.com/og.png",
-    "orientation": "portrait"
   }
 ]

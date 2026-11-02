@@ -29,6 +29,7 @@
 2-minute-football-qb-legend
 2-minutes-to-escape
 2-player-games-mini-games
+2-player-games-princess-design-party
 2026-2027-cars-drag-puzzle
 2048
 2048-3d-merge-cubes
@@ -94,6 +95,7 @@ abandoned-mansion
 aberiel-church-jigsaws
 about-a-frog
 abyss-muncher
+abyssborn
 ace-brawl-battle-3d
 ace-car-racing
 acox
@@ -265,6 +267,7 @@ arrow-exit-puzzle
 arrow-fever
 arrow-free-3d
 arrow-jam
+arrow-out
 arrow-parking
 arrow-patrol
 arrow-pop
@@ -436,6 +439,7 @@ battle-simluator-counter-stickman
 battle-simulator-police-prison
 battle-simulator-sandbox
 battle-simulator-stickman-zombie
+battle-wheels
 battlebox
 battledudes-io
 battleground-chicken-winner
@@ -489,10 +493,12 @@ big-boom-building-smash
 big-donuts-mania
 big-shark
 big-smash
+big-space-adventure
 big-wheels
 big-wild-bucks-voxel-buck-hunter
 bike-mania-2
 bike-mania-3-on-ice
+bike-master
 bike-race-rush
 bike-racing-adventure
 bike-rivals
@@ -509,6 +515,7 @@ binary-drop
 bingo-mania
 biozombie-outbreak
 bird-game-clicker
+bird-obstacle-flappy
 bird-quest-adventure-flappy
 bird-sort-puzzles
 bird-tile-trio
@@ -767,6 +774,7 @@ bubble-shooter-mega
 bubble-shooter-party
 bubble-shooter-pet-match-3
 bubble-shooter-tap-and-pop
+bubble-shooter-vale
 bubble-smash
 bubble-stars-boxes-sirius-and-najia
 bubble-tea-cocktail-maker-mix-drinks
@@ -1066,6 +1074,7 @@ chess-online-multiplayer
 chess-online-playing
 chess-royale
 chess-tactics
+chess4d
 chessvola-puzzles
 chibi-anime-princess-doll
 chicken-and-crow-shoot
@@ -1165,6 +1174,7 @@ clue-hunter
 clutter-master
 cobraz-io
 cockroach-tower-defense
+cocktail-run
 cocoon-crossing
 cod-duty-call-fps
 code-breaker-deluxe
@@ -1327,6 +1337,7 @@ crazy-knife
 crazy-m1neworld
 crazy-mafia-drift-car
 crazy-merge-room
+crazy-moto
 crazy-motorcycle
 crazy-obstacle-blitz-going-ball-3d
 crazy-pixel-apocalypse-4-ui-2026
@@ -1457,6 +1468,7 @@ deadly-descent
 deadly-zombie-virus
 deadshift-halloween-night
 death-run
+death-sentence
 deck-of-deception
 deconstruct-cube-create-hotel
 decorate-my-dream-castle-home-design
@@ -1474,6 +1486,7 @@ defend-military-base
 defend-the-castle
 defender-tanks-merge
 defenders-of-the-realm-an-epic-war
+defense-base-2
 defense-plants
 delete-it-erase-one-part
 delete-part-in-lovestory
@@ -1505,6 +1518,7 @@ devil-die
 diamant-match-3-sky-story
 diamond-painting-by-number
 diamond-sort-picture-puzzle
+diana-s-city-fashion-beauty
 dice-math
 dice-merge
 dice-puzzle
@@ -1722,12 +1736,14 @@ dune-surfer-3d
 dungeon-descent
 dungeon-master-cult-and-craft
 dungeon-shop-rush
+dungeon-solitaire
 dungeonsquest
 dunjun
 dunk-up-basketball
 dunkers-fight
 dunkin-beanz
 duo-match-3d
+duo-summerbombs
 duohex
 durak
 dusk-warz
@@ -2604,6 +2620,7 @@ hole-digger-in-russia
 hole-eats-all-eat-them-all
 hole-feast
 hole-io-2
+hole-upper-for-2-players
 holecraft-io
 holemart
 holey-battle-royale
@@ -2673,6 +2690,7 @@ i-am-cake-no-cats
 i-am-crazy-bird
 i-can-paint
 i-get-you
+i-scream-icecream
 i-want-ice-cream
 i-want-to-be-king
 ice-and-fire-twins
@@ -2723,6 +2741,7 @@ impossible-car-stunt-tracks
 impossible-cargo-track
 impossible-jeep-driver
 impossible-parkour-3d
+impossible-tic-tac-toe
 in-space
 indian-delights-match-3
 indian-taxi-2020
@@ -2773,6 +2792,7 @@ jelly-path
 jelly-pop-defense
 jelly-run-in-2048
 jelly-sandbox-playground
+jennifer-dress-up-challenge
 jenny-s-math-puzzle
 jewel-blocks
 jewel-box-block-puzzle
@@ -2815,6 +2835,7 @@ jump-ball-2021
 jump-fight-game
 jump-in-rhythm-to-the-hit-cat-disco
 jump-to-the-rhythm-of-songs-musical-ball
+jump-up-game
 jump-will-jump
 jumper
 jumper-jam
@@ -3002,6 +3023,7 @@ limo-city-taxi-driver
 line-color-2d
 line-control
 line-of-defense
+line-to-goal-draw-the-path
 lineo
 lion-safari-jigsaw-puzzles
 lipuzz-water-sort-puzzle
@@ -3593,11 +3615,13 @@ neon-velocity
 nest-heist
 netherton-volleyball
 never-by-color
+never-fall-pinball
 newbie-s-escape-from-blogger-prison
 nextboot-horror-online
 nextbot-can-you-escape
 nexus-3d
 nexus-override
+nexusorbiter
 nibblix
 night-city-racing
 night-club-security
@@ -3905,6 +3929,7 @@ park-tycoon
 parking-bike-3d-game
 parking-boom
 parking-journey-car-puzzle
+parking-master-school
 parking-master-urban-challenges
 parking-puzzle-escape-challenge-kids
 parking-puzzle-game
@@ -3961,6 +3986,7 @@ perimeter-legate-edition
 pet-card-sort
 pet-maze-escape
 pet-riders
+pet-salon-cute-doctor
 petdoku-cozy-puzzle-games
 pets-and-paints-logic-puzzle
 pga3-survival
@@ -4112,6 +4138,7 @@ popcorn-race-3d
 popcorn-thief
 popdify
 popit-vs-spinner
+popit-world
 popping-candies
 poppytile
 popsortica
@@ -4242,6 +4269,7 @@ ragdoll-arena-2-player
 ragdoll-battle-royale-throw-down-the-enemy
 ragdoll-crash-test-throw-and-break
 ragdoll-duel-2p
+ragdoll-escape-endless-fall
 ragdoll-football
 ragdoll-football-online
 ragdoll-fury
@@ -4352,6 +4380,7 @@ rescue-skibd-rope-cut-puzzle
 rescue-the-princess
 residence-of-evil-quarantine
 resize-stickman
+resource-empire
 restore-lab
 retro-basketball
 retro-run
@@ -5255,6 +5284,7 @@ super-pork
 super-rocket-buddy
 super-runcraft
 super-santa-adventures
+super-saving-football
 super-sergeant-2
 super-shark-world
 super-slashman
@@ -5482,6 +5512,7 @@ this-is-blast
 thorn-and-blast
 thousand-suns
 three-cups-game
+thronehold-kids
 throttle-rivals
 throw-an-egg
 throw-best
@@ -5852,6 +5883,7 @@ whirly
 whiskers-adventures
 who-says-pigs-can-t-fly
 wiggle-escape-snake-puzzle
+wiggly-worm-race
 wiggly-worm-snake-puzzle
 wild-animal-hospital-vet-doctor
 wild-camp
@@ -5925,6 +5957,7 @@ word-solitaire
 word-string
 wordaire-word-solitaire
 wordeck-associations
+wordforge
 words-and-bubbles
 words-story
 words-with-prof-wisely
@@ -6041,6 +6074,7 @@ zombie-space-episode-ii
 zombie-strike-2
 zombie-survival-2
 zombie-survival-last-stand
+zombie-swarm
 zombie-terminator
 zombie-vacation
 zombie-vacation-2
