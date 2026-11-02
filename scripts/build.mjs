@@ -471,7 +471,11 @@ ${cfg.adsenseClient && !cfg.ownConsent ? '' : `<div class="consent" hidden data-
 </html>`;
 }
 
-const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.community ? ' fit' : ''}${g.mobile ? '' : ' dm'}" href="${gHref(g)}"${g.community ? ` style="--t:url('${esc(g.thumb)}')"` : ''}><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${g.own ? '<b class="badge">Our game</b>' : ''}</a>`;
+// NEW ribbon for 7 days after a game first appeared on the site
+const NEW_DAYS = 7;
+const isNew = g => !g.own && g.firstSeen && g.firstSeen !== TODAY_UNKNOWN && (Date.now() - Date.parse(g.firstSeen)) < NEW_DAYS * 864e5 && g.firstSeen > '2026-10-01';
+const TODAY_UNKNOWN = null;
+const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.community ? ' fit' : ''}${g.mobile ? '' : ' dm'}" href="${gHref(g)}"${g.community ? ` style="--t:url('${esc(g.thumb)}')"` : ''}><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${g.own ? '<b class="badge">Our game</b>' : isNew(g) ? '<b class="badge new">NEW</b>' : ''}</a>`;
 const row = (title, href, list, eager = false) => list.length ? `<section class="row"><div class="row-h"><h2>${esc(title)}</h2>${href ? `<a href="${href}">See all ›</a>` : ''}</div><div class="grid">${list.map(g => card(g, eager)).join('')}</div></section>` : '';
 const crumbs = items => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: url })) });
 

@@ -268,3 +268,4 @@ table.cmp tbody th{white-space:nowrap}
 :root[data-theme=light] .consent{box-shadow:0 10px 40px #1a1d4033}
 :root[data-theme=light] .hero,:root[data-theme=light] .gotw,:root[data-theme=light] .stage,:root[data-theme=light] .overlay{color:#eef0ff}
 :root[data-theme=light] .welcome h1 span{color:#c47f00}
+.badge.new{left:auto;right:-26px;top:9px;transform:rotate(45deg);width:90px;text-align:center;padding:3px 0;background:linear-gradient(135deg,#ff8a00,#ff3d6e);color:#fff;font-size:10px;letter-spacing:.08em;box-shadow:0 2px 8px #0006;border-radius:0}
