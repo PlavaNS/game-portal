@@ -1,6 +1,6 @@
 :root{
   --bg:#0f1020;--bg2:#171932;--card:#1e2142;--line:#2b2f5a;--text:#eef0ff;--muted:#a3a8d6;
-  --accent:#ff3d6e;--accent2:#ffd34d;--good:#3ddc97;--radius:14px;--side:220px;--top:60px;
+  --accent:#ff3d6e;--topbg:#0f1020ee;--accent2:#ffd34d;--good:#3ddc97;--radius:14px;--side:220px;--top:60px;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -17,12 +17,14 @@ img{max-width:100%;display:block}
 .btn.ghost{background:transparent;border:1px solid var(--line)}
 
 /* header */
-.top{position:sticky;top:0;z-index:30;height:var(--top);display:flex;align-items:center;gap:12px;padding:0 16px;background:#0f1020ee;backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.top{position:sticky;top:0;z-index:30;height:var(--top);display:grid;grid-template-columns:1fr minmax(0,640px) 1fr;align-items:center;gap:16px;padding:0 16px;background:var(--topbg);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
 .logo{display:flex;align-items:center;gap:9px;text-decoration:none;font-weight:800;font-size:19px;letter-spacing:-.2px;white-space:nowrap}
 .logo svg{width:32px;height:32px}
 .menu-btn{display:none;background:none;border:0;color:var(--text);font-size:22px;cursor:pointer;padding:6px}
-.search{margin-left:auto;flex:0 1 380px}
-.search input{width:100%;background:var(--bg2);border:1px solid var(--line);color:var(--text);border-radius:999px;padding:9px 16px;font-size:15px;outline:none}
+.search{width:100%}
+.top-l{display:flex;align-items:center;gap:8px;min-width:0}
+.top-r{display:flex;align-items:center;gap:10px;justify-content:flex-end}
+.search input{width:100%;background:var(--bg2);border:1px solid var(--line);color:var(--text);border-radius:999px;padding:10px 20px;font-size:15px;outline:none}
 .search input:focus{border-color:var(--accent)}
 .search.big{margin:0 0 16px;max-width:640px}
 .search.big input{padding:14px 20px;font-size:17px}
@@ -134,7 +136,7 @@ body.noscroll{overflow:hidden}
   body.menu-open .side{transform:none}
   main{padding:14px 12px 30px}
   .logo span{display:none}
-  .search{flex:1}
+  .top{grid-template-columns:auto minmax(0,1fr) auto;gap:8px;padding:0 10px}
   .grid{grid-template-columns:repeat(auto-fill,minmax(118px,1fr));gap:8px}
   .card{border-radius:11px}
   .stage{height:62vw;min-height:240px}
@@ -244,3 +246,25 @@ table.cmp{border-collapse:collapse;width:100%;font-size:.92rem;min-width:640px}
 table.cmp th,table.cmp td{border:1px solid rgba(127,127,160,.3);padding:.5rem .6rem;text-align:left;vertical-align:top}
 table.cmp thead th{background:rgba(255,45,85,.12)}
 table.cmp tbody th{white-space:nowrap}
+
+/* pulsing logo heart */
+@keyframes beat{0%,100%{transform:scale(1)}12%{transform:scale(1.14)}24%{transform:scale(.98)}36%{transform:scale(1.1)}50%{transform:scale(1)}}
+.logo svg{animation:beat 1.6s ease-in-out infinite;transform-origin:50% 55%}
+@media (prefers-reduced-motion:reduce){.logo svg{animation:none}}
+/* theme toggle */
+.theme-btn{flex:none;width:38px;height:38px;border-radius:999px;border:1px solid var(--line);background:var(--bg2);color:var(--text);font-size:17px;line-height:1;cursor:pointer;display:grid;place-items:center;padding:0}
+.theme-btn:hover{border-color:var(--accent)}
+.theme-btn .t-light{display:none}
+:root[data-theme=light] .theme-btn .t-light{display:inline}
+:root[data-theme=light] .theme-btn .t-dark{display:none}
+/* light mode */
+:root[data-theme=light]{--bg:#f6f7fc;--bg2:#ffffff;--card:#e9ebf6;--line:#d8dbec;--text:#16182e;--muted:#5b6080;--topbg:#f6f7fcee;color-scheme:light}
+:root[data-theme=light] .text a,:root[data-theme=light] .about a,:root[data-theme=light] .consent a{color:#d81b4f}
+:root[data-theme=light] .about p{color:#33365a}
+:root[data-theme=light] .card:hover,:root[data-theme=light] .card:focus-visible{box-shadow:0 10px 26px #1a1d4033}
+:root[data-theme=light] .indie-badge{color:#9a6a00}
+:root[data-theme=light] .indie-row{background:linear-gradient(180deg,#ffd23f22,transparent)}
+:root[data-theme=light] .sg-net{background:#fff}
+:root[data-theme=light] .consent{box-shadow:0 10px 40px #1a1d4033}
+:root[data-theme=light] .hero,:root[data-theme=light] .gotw,:root[data-theme=light] .stage,:root[data-theme=light] .overlay{color:#eef0ff}
+:root[data-theme=light] .welcome h1 span{color:#c47f00}

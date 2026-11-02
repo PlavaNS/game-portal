@@ -145,3 +145,15 @@
     });
   }
 })();
+
+// light / dark mode toggle (choice remembered in this browser)
+(function () {
+  var root = document.documentElement, meta = document.querySelector('meta[name="theme-color"]');
+  function apply(t) { if (t === 'light') root.dataset.theme = 'light'; else delete root.dataset.theme; if (meta) meta.content = t === 'light' ? '#f6f7fc' : '#0f1020'; }
+  apply(root.dataset.theme === 'light' ? 'light' : 'dark');
+  document.addEventListener('click', function (e) {
+    var b = e.target.closest && e.target.closest('[data-theme-toggle]'); if (!b) return;
+    var t = root.dataset.theme === 'light' ? 'dark' : 'light'; apply(t);
+    try { localStorage.setItem('theme', t); } catch (err) {}
+  });
+})();

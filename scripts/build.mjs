@@ -399,6 +399,7 @@ function layout({ title, desc, canonical, body, jsonld = [], ogImage, noindex = 
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<script>try{if(localStorage.getItem('theme')==='light')document.documentElement.dataset.theme='light'}catch(e){}</script>
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 <link rel="canonical" href="${esc(canonical)}">
@@ -431,12 +432,13 @@ ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replac
 <body class="${bodyClass}">
 <a class="skip" href="#main">${esc(tr('Skip to content'))}</a>
 <header class="top">
-  <button class="menu-btn" aria-label="${esc(tr('Open categories'))}" aria-expanded="false" data-menu>☰</button>
-  <a class="logo" href="${u('/')}">${ICON_SVG}<span>${esc(cfg.name)}</span></a>
+  <div class="top-l"><button class="menu-btn" aria-label="${esc(tr('Open categories'))}" aria-expanded="false" data-menu>☰</button>
+  <a class="logo" href="${u('/')}">${ICON_SVG}<span>${esc(cfg.name)}</span></a></div>
   <form class="search" action="${u('/search/')}" role="search">
-    <input type="search" name="q" placeholder="${esc(tr('Search games'))}" aria-label="${esc(tr('Search games'))}" autocomplete="off">
+    <input type="search" name="q" placeholder="&#128269; ${esc(tr('Search games'))}" aria-label="${esc(tr('Search games'))}" autocomplete="off">
   </form>
-  <a class="sg-btn" href="${ur('/submit-game/')}" title="${esc(tr('Submit your game'))}"><i>&#128228;</i><span>${esc(tr('Submit your game'))}</span></a>
+  <div class="top-r"><button class="theme-btn" type="button" data-theme-toggle aria-label="Switch light / dark mode" title="Light / dark mode"><span class="t-dark">&#127769;</span><span class="t-light">&#9728;&#65039;</span></button>
+  <a class="sg-btn" href="${ur('/submit-game/')}" title="${esc(tr('Submit your game'))}"><i>&#128228;</i><span>${esc(tr('Submit your game'))}</span></a></div>
 </header>
 <div class="wrap">
 <nav class="side" aria-label="${esc(tr('Categories'))}">
@@ -526,7 +528,7 @@ function emitContent() {
     </div>
   </section>` : '';
     const catTiles = `<section class="row"><div class="row-h"><h2>${esc(tr('Categories'))}</h2></div><div class="cats">${activeCats.filter(c => catOK(c.slug)).map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
-    const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${all.length.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p><p class="dev-cta">${esc(tr('Made a web game?'))} <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> ${esc(tr('and reach new players for free.'))} · <a href="${ur('/publish-html5-game/')}">${esc(tr('Where to publish your HTML5 game'))}</a></p></header>
+    const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${all.length.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
   ${hero}
   ${gotw}
   <section class="row" data-recent hidden><div class="row-h"><h2>${esc(tr('Continue playing'))}</h2></div><div class="grid"></div></section>
