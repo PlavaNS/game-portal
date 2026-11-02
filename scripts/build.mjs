@@ -407,7 +407,7 @@ ${alt}
 <meta name="robots" content="${noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large,max-snippet:-1'}">
 ${preload ? `<link rel="preload" as="image" href="${esc(preload)}" fetchpriority="high">` : ''}
 ${cfg.ga4 ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(cfg.ga4)}"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','${esc(cfg.ga4)}');</script>` : ''}
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{var c=JSON.parse(localStorage.getItem('consent')||'null');if(c&&c.v==='all')gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'})}catch(e){}gtag('js',new Date());gtag('config','${esc(cfg.ga4)}');</script>` : ''}
 ${cfg.ahrefsAnalytics ? `<script src="https://analytics.ahrefs.com/analytics.js" data-key="${esc(cfg.ahrefsAnalytics)}" async></script>` : ''}
 ${cfg.adsenseClient ? `<meta name="google-adsense-account" content="${esc(cfg.adsenseClient)}">\n<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${esc(cfg.adsenseClient)}" crossorigin="anonymous"></script>` : ''}
 <meta name="application-name" content="${esc(cfg.name)}">
@@ -461,7 +461,7 @@ ${body}
   <p class="foot-topics">${topics.filter(t => LANG === 'en' || (CATTR[LANG] || {})['topic:' + t.slug]).slice(0, 14).map(t => `<a href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join(' · ')}</p>
   <p class="muted">© ${YEAR} ${esc(cfg.name)} by ${esc(cfg.studio)}. All games are the property of their respective developers and are provided through official distribution partners.</p>
 </footer>
-${cfg.adsenseClient ? '' : `<div class="consent" hidden data-consent>
+${cfg.adsenseClient && !cfg.ownConsent ? '' : `<div class="consent" hidden data-consent>
   <p>We and our game partners use cookies to run the site, show ads inside games and measure performance. You can accept or reject non-essential cookies. <a href="${u('/privacy/')}">Privacy Policy</a></p>
   <div><button class="btn ghost" data-consent-reject>Reject</button><button class="btn" data-consent-accept>Accept</button></div>
 </div>`}

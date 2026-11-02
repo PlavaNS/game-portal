@@ -19,8 +19,14 @@
   // cookie consent
   const box = $('[data-consent]');
   const choice = store.get('consent', null);
-  if (box && !choice) box.hidden = false;
-  const setConsent = v => { store.set('consent', { v, t: Date.now() }); if (box) box.hidden = true; };
+  // ask in Europe only (EEA/UK/CH rules); everyone else keeps the defaults
+  let inEurope = true; try { inEurope = /^(Europe|Atlantic\/(Reykjavik|Canary|Madeira|Azores|Faroe))/.test(Intl.DateTimeFormat().resolvedOptions().timeZone || ''); } catch (e) {}
+  if (box && !choice && inEurope) box.hidden = false;
+  const setConsent = v => {
+    store.set('consent', { v, t: Date.now() }); if (box) box.hidden = true;
+    const g = v === 'all' ? 'granted' : 'denied';
+    try { if (window.gtag) window.gtag('consent', 'update', { ad_storage: g, ad_user_data: g, ad_personalization: g, analytics_storage: g }); } catch (e) {}
+  };
   $('[data-consent-accept]')?.addEventListener('click', () => setConsent('all'));
   $('[data-consent-reject]')?.addEventListener('click', () => setConsent('essential'));
   $$('[data-consent-open]').forEach(a => a.addEventListener('click', e => {
