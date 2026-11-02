@@ -377,7 +377,7 @@ const mostPlayed = n => { const seen = new Set(); const out = [];
 // newest on OUR site first (first-seen date), then the network's own 'newest' order
 const fin = x => Number.isFinite(x) ? x : 1e9;
 const newestOnSite = n => games.filter(g => !g.own && g.firstSeen).sort((a, b) => b.firstSeen.localeCompare(a.firstSeen) || fin(a.r.newest) - fin(b.r.newest) || fin(a.r.most) - fin(b.r.most)).slice(0, n);
-NEW_SET = new Set(newestOnSite(48).filter(g => (Date.now() - Date.parse(g.firstSeen)) < NEW_DAYS * 864e5 && g.firstSeen > '2026-10-01').map(g => g.slug));
+NEW_SET = new Set(newestOnSite(48).filter(g => (Date.now() - Date.parse(g.firstSeen)) < 7 * 864e5 && g.firstSeen > '2026-10-01').map(g => g.slug));
 
 // keyword collections ("mahjong", "escape room games"...): root-level SEO landing pages
 const topics = readJSON(path.join(ROOT, 'data/topics.json'), []).map(t => {
