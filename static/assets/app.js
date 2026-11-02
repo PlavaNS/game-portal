@@ -63,6 +63,17 @@
     if (!matchMedia('(prefers-reduced-motion: reduce)').matches && !(navigator.connection && navigator.connection.saveData)) io.observe(v);
   });
 
+  // trailer plays on hover for cards that have one (our own games); off on touch, slow connections and reduced motion
+  if (matchMedia('(hover: hover)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches && !(navigator.connection && navigator.connection.saveData)) {
+    $$('.card[data-video]').forEach(c => {
+      let v, t;
+      c.addEventListener('mouseenter', () => { t = setTimeout(() => {
+        if (!v) { v = document.createElement('video'); v.src = c.dataset.video; v.muted = true; v.loop = true; v.playsInline = true; v.preload = 'none'; c.appendChild(v); }
+        v.play().then(() => c.classList.add('playing')).catch(() => {}); }, 350); });
+      c.addEventListener('mouseleave', () => { clearTimeout(t); if (v) { v.pause(); v.currentTime = 0; c.classList.remove('playing'); } });
+    });
+  }
+
   // game player
   const p = $('[data-player]');
   if (p) {
@@ -122,6 +133,25 @@
     const paint = () => { const on = favs().some(g => g.id === info.id); like.classList.toggle('on', on); like.textContent = on ? '♥' : '♡'; };
     like.addEventListener('click', () => { const f = favs(); store.set('favs', f.some(g => g.id === info.id) ? f.filter(g => g.id !== info.id) : [info, ...f]); paint(); });
     paint();
+    // thumbs up / down: one vote per game per browser, counted by the same anonymous counter
+    const vote = $('[data-vote]', p);
+    if (vote) {
+      const key = 'vote:' + vote.dataset.slug;
+      const paintV = () => { const v = store.get(key, null); $('[data-up]', vote).classList.toggle('on', v === 'up'); $('[data-down]', vote).classList.toggle('on', v === 'down'); };
+      const bump = (sel, d) => { const b = $(sel + ' b', vote); b.textContent = Math.max(0, (+b.textContent || 0) + d); };
+      vote.addEventListener('click', e => {
+        const btn = e.target.closest('[data-up],[data-down]'); if (!btn) return;
+        const kind = btn.hasAttribute('data-up') ? 'up' : 'down';
+        if (store.get(key, null)) return; // already voted
+        store.set(key, kind); count(kind, vote.dataset.slug); bump('[data-' + kind + ']', 1); paintV();
+      });
+      try { // live counts (the page is rebuilt once a day)
+        const K = 'sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k';
+        fetch('https://pxjlcbjwdalctlyeljql.supabase.co/rest/v1/rpc/game_vote_counts', { method: 'POST', headers: { apikey: K, Authorization: 'Bearer ' + K, 'Content-Type': 'application/json' }, body: JSON.stringify({ s: vote.dataset.slug }) })
+          .then(r => r.json()).then(rows => { const r = rows && rows[0]; if (!r) return; $('[data-up] b', vote).textContent = r.up; $('[data-down] b', vote).textContent = r.down; }).catch(() => {});
+      } catch {}
+      paintV();
+    }
     $('[data-share]', p).addEventListener('click', async () => {
       const data = { title: info.title, text: `Play ${info.title} for free`, url: location.href };
       if (navigator.share) { try { await navigator.share(data); } catch {} }

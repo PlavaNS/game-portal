@@ -349,6 +349,19 @@ try {
   if (r.ok) for (const x of await r.json()) if (SITE_COUNTS[x.kind]) SITE_COUNTS[x.kind][x.slug] = Number(x.n) || 0;
   console.log(`site counts: ${Object.keys(SITE_COUNTS.cat).length} categories, ${Object.keys(SITE_COUNTS.play).length} games played`);
 } catch (e) { console.log('site counts unavailable:', e.message); }
+// thumbs up / down from the same counter (all time)
+const VOTES = {};
+try {
+  const K = 'sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k';
+  const r = await fetch('https://pxjlcbjwdalctlyeljql.supabase.co/rest/v1/rpc/game_votes', { method: 'POST', headers: { apikey: K, Authorization: 'Bearer ' + K, 'Content-Type': 'application/json' }, body: '{}', signal: AbortSignal.timeout(15000) });
+  if (r.ok) for (const x of await r.json()) VOTES[x.slug] = { up: Number(x.up) || 0, down: Number(x.down) || 0 };
+  console.log(`votes: ${Object.keys(VOTES).length} games rated`);
+} catch (e) { console.log('votes unavailable:', e.message); }
+const voteScore = g => { const v = VOTES[g.slug]; return v && v.up + v.down >= 3 ? v.up / (v.up + v.down) : -1; };
+// HOT = the 12 most started games on our site this month (at least 3 starts); TOP RATED = at least 3 votes and 80%+ thumbs up
+const HOT = new Set(Object.entries(SITE_COUNTS.play).filter(([, n]) => n >= 3).sort((a, b) => b[1] - a[1]).slice(0, 12).map(([s]) => s));
+const isHot = g => !g.own && HOT.has(g.slug);
+const isTopRated = g => voteScore(g) >= 0.8;
 // menu order: our own category views once there is enough data, until then the GA snapshot in data/cat-order.json
 const ownCatViews = Object.values(SITE_COUNTS.cat).reduce((a, b) => a + b, 0);
 const CAT_ORDER = ownCatViews >= 30 ? SITE_COUNTS.cat : ((readJSON(path.join(ROOT, 'data/cat-order.json'), {}).views) || {});
@@ -364,6 +377,7 @@ const mostPlayed = n => { const seen = new Set(); const out = [];
 // newest on OUR site first (first-seen date), then the network's own 'newest' order
 const fin = x => Number.isFinite(x) ? x : 1e9;
 const newestOnSite = n => games.filter(g => !g.own && g.firstSeen).sort((a, b) => b.firstSeen.localeCompare(a.firstSeen) || fin(a.r.newest) - fin(b.r.newest) || fin(a.r.most) - fin(b.r.most)).slice(0, n);
+NEW_SET = new Set(newestOnSite(48).filter(g => (Date.now() - Date.parse(g.firstSeen)) < NEW_DAYS * 864e5 && g.firstSeen > '2026-10-01').map(g => g.slug));
 
 // keyword collections ("mahjong", "escape room games"...): root-level SEO landing pages
 const topics = readJSON(path.join(ROOT, 'data/topics.json'), []).map(t => {
@@ -473,10 +487,19 @@ ${cfg.adsenseClient && !cfg.ownConsent ? '' : `<div class="consent" hidden data-
 
 // NEW ribbon for 7 days after a game first appeared on the site
 const NEW_DAYS = 7;
-const isNew = g => !g.own && g.firstSeen && g.firstSeen !== TODAY_UNKNOWN && (Date.now() - Date.parse(g.firstSeen)) < NEW_DAYS * 864e5 && g.firstSeen > '2026-10-01';
-const TODAY_UNKNOWN = null;
-const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.community ? ' fit' : ''}${g.mobile ? '' : ' dm'}" href="${gHref(g)}"${g.community ? ` style="--t:url('${esc(g.thumb)}')"` : ''}><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${g.own ? '<b class="badge">Our game</b>' : isNew(g) ? '<b class="badge new">NEW</b>' : ''}</a>`;
+let NEW_SET = new Set(); // filled once games are loaded: the 48 newest, if they arrived within NEW_DAYS
+const isNew = g => !g.own && NEW_SET.has(g.slug);
+const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.video ? ' has-video' : ''}${g.community ? ' fit' : ''}${g.mobile ? '' : ' dm'}"${g.video ? ` data-video="${esc(g.video)}"` : ''} href="${gHref(g)}"${g.community ? ` style="--t:url('${esc(g.thumb)}')"` : ''}><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${g.own ? '<b class="badge">Our game</b>' : isHot(g) ? '<b class="badge hot">🔥 HOT</b>' : isTopRated(g) ? '<b class="badge top">👍 TOP RATED</b>' : isNew(g) ? '<b class="badge new">NEW</b>' : ''}</a>`;
 const row = (title, href, list, eager = false) => list.length ? `<section class="row"><div class="row-h"><h2>${esc(title)}</h2>${href ? `<a href="${href}">See all ›</a>` : ''}</div><div class="grid">${list.map(g => card(g, eager)).join('')}</div></section>` : '';
+// homepage category showcase: a colourful tile (name, count, 3 real covers fanned out) + the 5 most played games of that category + "more"
+const CAT_HUE = { action: 350, shooting: 25, racing: 200, puzzle: 265, 'clicker-idle': 45, arcade: 320, adventure: 130, sports: 95, 'two-player': 180, multiplayer: 215, girls: 335, hypercasual: 55, stickman: 0, zombie: 110, '3d': 240, cooking: 20, kids: 150, mobile: 190 };
+const catRow = c => {
+  const list = byCat[c.slug].filter(g => !g.community && !g.own);
+  const pick = list.slice().sort((a, b) => (SITE_COUNTS.play[b.slug] || 0) - (SITE_COUNTS.play[a.slug] || 0) || fin(a.r.most) - fin(b.r.most)).slice(0, 5);
+  const fan = list.slice().sort((a, b) => fin(a.r.best) - fin(b.r.best)).slice(0, 3);
+  const name = (catTr(c.slug) || {}).name || c.name, h = CAT_HUE[c.slug] ?? 260;
+  return `<div class="cat-row"><a class="cat-tile" href="${cHref(c.slug)}" style="--h:${h}"><span class="ct-fan">${fan.map(g => `<img src="${esc(g.thumb)}" alt="" loading="lazy" decoding="async">`).join('')}</span><span class="ct-text"><i>${CAT_ICON[c.slug] || '🎮'}</i><b>${esc(name)}</b><small>${byCat[c.slug].length.toLocaleString(LANG === 'en' ? 'en-US' : LANG)} ${esc(tr('games'))}</small></span></a><div class="cat-games">${pick.map(g => card(g)).join('')}</div><a class="cat-more" href="${cHref(c.slug)}" aria-label="${esc(tr('More'))} ${esc(name)}">›</a></div>`;
+};
 const crumbs = items => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: url })) });
 
 function pager(baseHref, page, pages) {
@@ -538,13 +561,14 @@ function emitContent() {
   <section class="row" data-recent hidden><div class="row-h"><h2>${esc(tr('Continue playing'))}</h2></div><div class="grid"></div></section>
   ${row('🔥 ' + tr('Trending now'), u('/popular/'), top('hot', 18), true)}
   ${row('⭐ ' + tr('Most played'), u('/popular/'), mostPlayed(18))}
+  ${(() => { const tr8 = all.filter(g => !g.own && isTopRated(g)).sort((a, b) => voteScore(b) - voteScore(a) || (VOTES[b.slug].up - VOTES[a.slug].up)).slice(0, 12); return tr8.length >= 6 ? row('👍 ' + tr('Top rated by players'), null, tr8) : ''; })()}
   ${row('🆕 ' + tr('New games'), u('/new/'), newestOnSite(18))}
   ${(() => { const indie = all.filter(g => g.community).slice().sort((x, y) => (y.added || '').localeCompare(x.added || '')).slice(0, 12);
     return indie.length ? `<section class="row indie-row"><div class="row-h"><h2>🧑‍💻 ${esc(tr('New from indie developers'))}</h2><a class="btn sg-cta" href="${ur('/submit-game/')}">📤 ${esc(tr('Made a game? Submit it free'))}</a></div><p class="indie-note">${esc(tr('Games sent to us by independent developers. Every one is played and checked by a real person before it goes live.'))} <a href="${ur('/publish-html5-game/')}">${esc(tr('Where to publish your HTML5 game'))} ›</a></p><div class="grid">${indie.map(g => card(g)).join('')}</div></section>` : ''; })()}
-  ${catTiles}
   <section class="row"><div class="row-h"><h2>${esc(tr('Popular collections'))}</h2></div><p class="chips">${topics.filter(t => catOK('topic:' + t.slug)).map(t => `<a class="chip" href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join('')}</p></section>
   ${row('🏆 ' + tr('Best games'), null, top('best', 18))}
-  ${activeCats.filter(c => catOK(c.slug)).map(c => row(`${CAT_ICON[c.slug] || ''} ${(catTr(c.slug) || {}).h1 || c.h1}`, cHref(c.slug), byCat[c.slug].slice(0, 12))).join('\n')}
+  <section class="row"><div class="row-h"><h2>${esc(tr('Browse by category'))}</h2><a href="${u('/all/')}">${esc(tr('All games'))} ›</a></div>
+  <div class="cat-rows">${activeCats.filter(c => catOK(c.slug)).map(c => catRow(c)).join('\n')}</div></section>
   <section class="seo-text"><h2>${esc(tr('Free online games on'))} ${esc(cfg.name)}</h2><p>${esc(cfg.name)} ${esc(tr('is a hand-picked collection of'))} ${all.length.toLocaleString('en')} ${esc(tr('free browser games. Every game runs instantly on your computer, tablet or phone, with no downloads, no installs and no account. Play action, puzzle, racing, sports, clicker and 2 player games, and come back every day for new titles.'))}</p></section>`;
     write('index.html', layout({
       title: `${cfg.name} — ${tr('Free Online Games, Play Instantly')}`,
@@ -676,6 +700,7 @@ function emitContent() {
     <div class="bar">
       <strong>${esc(g.title)}</strong>
       <span class="spacer"></span>
+      <span class="vote" data-vote data-slug="${esc(g.slug)}"><button class="icon up" data-up aria-label="${esc(tr('I like this game'))}" title="${esc(tr('Like'))}">👍 <b>${(VOTES[g.slug] || {}).up || 0}</b></button><button class="icon down" data-down aria-label="${esc(tr('Not for me'))}" title="${esc(tr('Dislike'))}">👎 <b>${(VOTES[g.slug] || {}).down || 0}</b></button></span>
       <button class="icon" data-like aria-label="${esc(tr('Add to favorites'))}" title="${esc(tr('Favorite'))}">♡</button>
       <button class="icon" data-share aria-label="${esc(tr('Share'))}" title="${esc(tr('Share'))}">↗</button>
       <button class="icon" data-fs aria-label="${esc(tr('Full screen'))}" title="${esc(tr('Full screen'))}">⛶</button>
