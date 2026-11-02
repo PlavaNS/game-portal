@@ -355,7 +355,7 @@ const CAT_ORDER = ownCatViews >= 30 ? SITE_COUNTS.cat : ((readJSON(path.join(ROO
 // menu order: most visited category pages first (GA data in data/cat-order.json), then by number of games
 const activeCats = CATS.filter(c => byCat[c.slug].length >= 8)
   .sort((a, b) => (CAT_ORDER[b.slug] || 0) - (CAT_ORDER[a.slug] || 0) || byCat[b.slug].length - byCat[a.slug].length);
-const top = (key, n) => games.filter(g => Number.isFinite(g.r[key])).sort((a, b) => a.r[key] - b.r[key]).slice(0, n);
+const top = (key, n) => games.filter(g => !g.community && Number.isFinite(g.r[key])).sort((a, b) => a.r[key] - b.r[key]).slice(0, n);
 // Most played = games most started on OUR site (at least 2 plays in 28 days), then the networks' own ranking
 const mostPlayed = n => { const seen = new Set(); const out = [];
   for (const g of games.filter(g => (SITE_COUNTS.play[g.slug] || 0) >= 2).sort((a, b) => SITE_COUNTS.play[b.slug] - SITE_COUNTS.play[a.slug])) { seen.add(g.slug); out.push(g); }
