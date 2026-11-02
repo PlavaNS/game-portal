@@ -875,6 +875,7 @@ ${sgFaqHtml}
 {
   const ext = (href, t) => `<a href="${href}" rel="noopener" target="_blank">${t}</a>`;
   const rows = [
+    [cfg.name, 'We take nothing. Your own ads keep running, or your network pays you its share', 'No', 'A real person plays every game, usually within a few days', 'Paid by your own ads or network'],
     ['Poki', '100% of revenue from players you bring, 50% from players Poki brings', 'Yes, web-exclusive (5 years by default). A non-exclusive one-time license fee also exists', 'Hand-picked; they offer a deal if the game fits', 'Set in your agreement'],
     ['CrazyGames', 'Ad revenue share after Full Launch (percentage not published)', 'No', 'Open submission &rarr; Basic Launch (no monetization) &rarr; Full Launch for selected games', '&euro;100, monthly, PayPal or wire'],
     ['Playgama', '50% on playgama.com and its partner network', 'No', 'Sandbox with real players first, then review', '$100, PayPal, Wise, crypto or bank'],
@@ -884,7 +885,6 @@ ${sgFaqHtml}
     ['itch.io', 'You choose; default 90% of sales to you', 'No', 'None, upload a zip with index.html', 'Sales and tips only, no ad revenue'],
     ['Game Jolt', 'Marketplace cut of up to 10%, you can set it lower', 'No', 'None, upload a zip', 'Sales only, no ad revenue'],
     ['Newgrounds', 'No ad revenue share at the moment; cash prizes for monthly awards and jams', 'No', 'Community voting', '&mdash;'],
-    [cfg.name, 'We take nothing. Your own ads keep running, or your network pays you its share', 'No', 'A real person plays every game, usually within a few days', 'Paid by your own ads or network'],
   ];
   const table = `<div class="tbl-wrap"><table class="cmp"><thead><tr><th>Portal</th><th>What you earn</th><th>Exclusive?</th><th>How you get in</th><th>Payout</th></tr></thead><tbody>${rows.map(r => `<tr><th scope="row">${r[0]}</th><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td><td>${r[4]}</td></tr>`).join('')}</tbody></table></div>`;
   const faq = [
@@ -902,6 +902,8 @@ ${sgFaqHtml}
 <h2>The short version</h2>
 ${table}
 <h2>Portal by portal</h2>
+<h3>${esc(cfg.name)}</h3>
+<p>That's us, so we put ourselves first, but judge for yourself. We are a curated portal: a real person plays every game, and accepted games get their own page with credit and a link back to your site. We take no share. Either we embed your own build from your own URL, so your ads keep running, or we embed your Playgama, GameMonetize or GamePix version and the network pays you your usual share for every play here. It's free and non-exclusive, so it stacks with everything above except a Poki exclusive. <a href="${ur('/submit-game/')}">Submit your game</a>.</p>
 <h3>Poki</h3>
 <p>The biggest audience and the best terms for strong games: you keep 100% of revenue from players you bring yourself (for example people who search your game's name) and 50% of revenue from players Poki brings. The catch is that it is a web-exclusive deal, 5 years by default, so no other websites. Steam, mobile stores and consoles stay open. Poki picks games by hand and expects at least 30 FPS, a responsive 16:9 layout and a game that works for at least 85% of players on each platform. If you don't want exclusivity, they can offer a one-time license fee instead.</p>
 <h3>CrazyGames</h3>
@@ -920,8 +922,6 @@ ${table}
 <p>Similar to itch.io: free upload, a strong indie community, and a marketplace cut of up to 10% that you can lower.</p>
 <h3>Newgrounds</h3>
 <p>One of the oldest web game communities and still a great place for honest feedback. There is no ad revenue share for creators right now; money comes from monthly awards, contests and jams.</p>
-<h3>${esc(cfg.name)}</h3>
-<p>That's us. We are a smaller, curated portal: a real person plays every game, and accepted games get their own page with credit and a link back to your site. We take no share. Either we embed your own build from your own URL, so your ads keep running, or we embed your Playgama, GameMonetize or GamePix version and the network pays you your usual share for every play here. It's free and non-exclusive, so it stacks with everything above except a Poki exclusive. <a href="${ur('/submit-game/')}">Submit your game</a>.</p>
 <h2>A sensible order</h2>
 <ol>
 <li><strong>Get feedback first.</strong> Put the game on itch.io or Newgrounds and fix what players complain about. The first two minutes decide almost everything on every portal.</li>
