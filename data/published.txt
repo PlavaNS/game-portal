@@ -228,6 +228,7 @@ ants-clear-all-color-block-puzzle
 aod-art-of-defense
 apex-combat
 apex-racer
+apexcircuit
 apocalypse-rush
 aqua-fish-dental-care
 aqua-sort-water-color-puzzle
@@ -302,6 +303,7 @@ ashfall-industries
 asmr-beauty-japanese-spa
 asmr-beauty-superstar
 asmr-cat-doctor-clinic
+asmr-fun-relaxing-games
 asmr-keyboard-escape-classic
 asmr-obby-slicer
 asmr-pet-treatment
@@ -335,6 +337,7 @@ baby-bear
 baby-brainrots-multiplayer-with-friends
 baby-cat-daycare
 baby-chicco-adventures
+baby-daycare-game
 baby-dino-planet
 baby-hazel-at-beach
 baby-hazel-bathroom-hygiene
@@ -501,6 +504,7 @@ bicycle-stunt-racing-game-3d
 bicycle-stunts-racing-2023
 big-boom-building-smash
 big-donuts-mania
+big-farming-fun
 big-shark
 big-smash
 big-space-adventure
@@ -749,6 +753,7 @@ bricks-balls-breaker
 bricks-breaker
 bricks-breaker-deluxe
 bricks-buster
+bridal-makeup-salon-game
 bridal-race-3d
 bridge
 bridge-bounce-jump-challenge
@@ -884,6 +889,7 @@ cafe-honey-heist
 cage-ballers-football
 cake-maker-girls-cooking-games
 cake-master-shop
+cake-protector
 cake-ready
 cake-shop-cafe-pastries-and-waffles-cooking-game
 cake-slice-match
@@ -929,6 +935,7 @@ capyballra-capybara-ball-collector
 capybara-hexasort
 capybara-let-s-go-zombie-rush
 capybas
+car-battle
 car-care-repair-dudu-mechanic
 car-cargo-ship-simulator-game
 car-carrier-truck-highway-master
@@ -959,6 +966,7 @@ car-escape-parking
 car-evolution-driving
 car-evolution-game
 car-evolution-pro-math-gates
+car-factory-for-kids
 car-games-car-racing-game
 car-jump-game
 car-madness-3d
@@ -1045,6 +1053,7 @@ cat-vs-granny-cat-simulator
 catch-a-fish-obby
 catch-cats
 catch-it-santa-the-toy-rescuer
+catch-penguins
 catch-the-bear
 catch-the-cat
 catch-the-roober
@@ -1302,6 +1311,7 @@ cork-and-cauldron
 corner-bakery
 corona-virus-crazy-doctor-simulator
 correct-math
+cosmetic-box-cake-maker-2025
 cosmetic-run
 cosmic-dash
 cosplay-gamer-girls
@@ -1439,6 +1449,7 @@ cut-in-half
 cut-it-3d
 cut-it-all-3d
 cut-it-voxel-crusher
+cut-my-candy
 cut-rope-2026
 cute-animal-puzzle-game
 cute-animal-world
@@ -1469,6 +1480,7 @@ dark-ages-beat-em-up
 dark-assassin
 dark-boy
 dark-city-multiplayer
+dark-sector-kids
 dark-war
 dark-world
 darkhood
@@ -1531,6 +1543,7 @@ deorbit-space-survivors
 derby-car-smash-challenge
 derby-car-war-arena
 derby-racing
+desert-animals-coloring-book
 desert-city-stunt
 desert-gunship
 design-with-me-cute-tie-dye-tops
@@ -1616,6 +1629,7 @@ dont-be-angry-with-match-man
 donut-art-puzzle-diamond-game
 donutosaur-2
 doodle-boba-bubble-tea
+doodle-cats
 doodle-guard-draw-to-save
 doodle-halloween-momo-cat-academy
 doodle-halloween-momo-cat-sea-magic
@@ -2188,6 +2202,7 @@ frostport
 frosty-ball
 frosty-rush
 fruit-box-sort
+fruit-bubble-pop
 fruit-chopper
 fruit-cutter-fun
 fruit-drop-3d
@@ -2465,6 +2480,7 @@ gun-shooting-game
 gun-strike-runner
 gun-trigger
 gungame-paintball-wars
+gunman
 gunner-pursuit
 guns-n-glory-heroes
 guns-n-glory-zombies
@@ -3351,6 +3367,7 @@ merge-number-up
 merge-plane-tycoon
 merge-plants-defense-zombies
 merge-racer-stunts-car
+merge-rainbow-fighting
 merge-rockets-obby
 merge-royal
 merge-royal-2048
@@ -3876,6 +3893,7 @@ obby-way
 obby-weapon-rush
 obbytycoon-money-tycoon
 obunga-nextbot-spot-difference
+ocean-blast-block-puzzle
 ocean-dash
 ocean-match-crush
 ocean-match-puzzle
@@ -4053,6 +4071,7 @@ perfect-landing-plane-pilot
 perfect-piano-magic
 perfect-snipe-online
 perfect-tongue
+perfect-turn-game
 perfect-wax-3d
 perimeter-legate-edition
 pet-card-sort
@@ -4061,6 +4080,7 @@ pet-riders
 pet-salon-cute-doctor
 petdoku-cozy-puzzle-games
 pets-and-paints-logic-puzzle
+pets-roll-clicker
 pga3-survival
 phone-case-diy
 phone-case-diy-2
@@ -4574,6 +4594,7 @@ roshambo
 rossroads
 rotate-cups
 rotate-to-escape
+rotating-bones-3d
 rotating-pomni
 rotcalypse-idle
 rough-ball
@@ -4616,6 +4637,7 @@ safety-sheriff-labrador
 saguaro
 same-room-same-day
 samurai-brawling
+samurai-dash
 samurai-survivor
 sand-fall
 sand-route-puzzle
@@ -4915,6 +4937,7 @@ snake-out-puzzle-game
 snake-puzzle-3d-game
 snake-run-eat-and-grow
 snake-simple-retro-game
+snake-sort-game
 snake-sorting
 snake-tangle
 snake-train-zone
@@ -5058,6 +5081,7 @@ speedmatch-competition
 speen
 spellbound-orbs
 spider-bubu
+spider-escape-link
 spider-evolution
 spider-evolution-runner-game
 spider-robot-transformation
@@ -5252,6 +5276,7 @@ stickman-rush
 stickman-shooter-2
 stickman-simulator-final-battle
 stickman-skybow
+stickman-sniper-shoot
 stickman-sports-badminton
 stickman-street-fighting
 stickman-street-fighting-3d
@@ -5315,6 +5340,7 @@ sudoku-block-puzzle
 sudoku-master
 sudoku-number-games
 sudoku-online
+sudoku-puzzle
 suger-rush
 sum-sum
 summer-fashion-makeover
@@ -5567,6 +5593,7 @@ the-last-company
 the-last-shot
 the-long-way-home
 the-lost-joystick
+the-lost-labyrinth
 the-machinegg
 the-mad-cow
 the-malevolent-mansion-of-evil
@@ -5677,6 +5704,7 @@ tornado-67
 tornado-fury-of-the-elements
 torture-the-trollface
 toss-the-ring
+touch-draw-game
 tower-blocks-deluxe-3d
 tower-colour-crash
 tower-crush
@@ -5853,6 +5881,7 @@ urban-echo
 urban-farm-simulator-game
 urban-jump
 urban-military-strike
+urban-siege-line
 urban-sniper-multiplayer
 urban-sniper-multiplayer-2
 us-army-truck-driving
@@ -6041,6 +6070,7 @@ word-cross
 word-finder
 word-game-2026
 word-jam-association-puzzle
+word-ladder
 word-master-puzzle
 word-online-hunt
 word-puzzle-connect-words-and-letters
