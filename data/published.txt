@@ -608,6 +608,7 @@ bmg-ragdoll-car-race
 boat-attack
 boat-merge
 boat-merge-and-race
+boat-viking-war
 boat-war-mayhem
 bob-save-stuart
 boba-blast
@@ -944,6 +945,7 @@ car-park-simulator
 car-parking-driving-game
 car-parking-game-parking-jam
 car-parking-master-3d
+car-parking-order
 car-parking-simulator-3
 car-racing
 car-real-simulator
@@ -996,6 +998,7 @@ castel-wars-middle-ages
 castle-claw
 castle-crashers-stolen-sun
 cat-and-granny
+cat-block-puzzle
 cat-boba-tea-food-asmr-master
 cat-box-merge
 cat-chaos-simulator
@@ -1133,6 +1136,7 @@ city-tuk-tuk-simulator-racing-game-3d
 clash-to-survival
 classic-car-driving-game
 classic-car-parking-2025
+classic-match3
 classic-number-puzzle
 clawler-fight
 clay-craft-tycoon
@@ -1223,6 +1227,7 @@ coloring-by-numbers-pixel-room
 colors-and-forms
 colortrail-3d
 colorturntable
+combat-guardian-under-attack
 combat-strike-zombie-survival-multiplayer
 combat-zombie-warfare
 combine-pickaxes
@@ -1247,6 +1252,7 @@ constructor-bricks
 container-auction
 containment-protocol-roguelike-deckbuilder
 contra-jungle-breach
+contrast
 cook-soups-3-in-a-bowl
 cookie-maker-for-kids
 cooking-city
@@ -1400,6 +1406,7 @@ cut-it-all-3d
 cut-it-voxel-crusher
 cut-rope-2026
 cute-animal-puzzle-game
+cute-animal-world
 cute-family-shopping
 cute-farm-match-puzzle
 cute-little-dragon-creator
@@ -1602,6 +1609,7 @@ dragon-merge
 dragon-merge-master-3d
 dragon-power
 drakkar-strike
+draw-a-road
 draw-action
 draw-an-obby
 draw-and-drop
@@ -1733,6 +1741,7 @@ eat-donuts
 eat-the-whole-supermarket
 eat-to-evolve-2
 eatable-birds
+eating-simulator-physics-food
 echo-rift
 echolocation-shooter
 eco-block-puzzle
@@ -1974,6 +1983,7 @@ fireball-and-waterball-adventure-3
 fireball-vs-ice-cream
 firefighter-plane-game
 fireline-merge-defense
+firestack
 fish-and-trip
 fish-eat-grow-mega
 fish-factory
@@ -2026,6 +2036,7 @@ flip-gun-3d-ragdoll-shooter
 flip-master
 flip-shoot-control
 flip-trickster-parkour-simulator
+fliplines-game
 flippee-ball
 flipper-dunk-3d
 flippin-coins
@@ -2392,6 +2403,7 @@ gun-evolution-game
 gun-festival-shoot
 gun-merge-mr-bullet
 gun-shooter
+gun-shooting-game
 gun-strike-runner
 gun-trigger
 gungame-paintball-wars
@@ -2991,6 +3003,7 @@ line-color-2d
 line-control
 line-of-defense
 lineo
+lion-safari-jigsaw-puzzles
 lipuzz-water-sort-puzzle
 liquid-color-sort
 liquid-sort
@@ -3137,6 +3150,7 @@ masquerades-vs-impostors
 master-checkers
 master-checkers-multiplayer
 master-craft
+master-jigsaw-puzzle-game
 master-of-3-tiles
 master-of-break-an-eggs
 master-of-numbers
@@ -3174,6 +3188,7 @@ mathtest22
 mavy-the-fish-mom
 max-speed
 max-the-secret-of-grandpa-s-letter
+maya-brick-breaker-3
 maze-bomber-game
 maze-escape-hero
 maze-evolution
@@ -3183,6 +3198,7 @@ mazean-com
 mealmerge
 meccha-chameleon-online
 mech-battle-arena
+mech-core-survivor
 mech-frontline-last-stand
 mecha-screw-3d
 mechangelion-robot-fight
@@ -3266,6 +3282,7 @@ merge-wall-last-stand
 mergemaster-dragonets
 mergemma
 mergetopia
+mergetrainlastrail
 mermaid-coloring-book-glitter
 metal-animals
 metal-shooter-brother-squad
@@ -3417,6 +3434,7 @@ monster-trucks-sky-stunts
 monster-versus-human
 monster-wheels-apocalypse
 monster-wheels-turbo-rush
+monsters-impact-3
 monsters-wheels-2
 monsters-wheels-special
 moon-chess
@@ -3773,6 +3791,7 @@ ocean-riches
 octo-stickers-merge-and-stick
 octobeer
 octopus-run
+odd-kicked-out-quick
 oddly-sorted-color-sort
 off-road-hill-climbing-race
 off-road-motocross
@@ -3887,6 +3906,7 @@ parking-bike-3d-game
 parking-boom
 parking-journey-car-puzzle
 parking-master-urban-challenges
+parking-puzzle-escape-challenge-kids
 parking-puzzle-game
 parking-skills
 parking-solution
@@ -3907,6 +3927,7 @@ patchwise
 path-control
 path-puzzle
 pathfinder
+pattern-puzzle-3d
 pawky
 paws-and-pals-diner
 paws-and-paths
@@ -4284,6 +4305,7 @@ realistic-monster-truck-offroad-simulator
 realistic-sim-car-park-2019
 realistic-tanks-poopy-war
 reaper-s-graveyard-shift
+rebelrun
 rebound-rascals
 reckless-roller-fun-park
 recoil
@@ -4638,6 +4660,7 @@ shoot-some-fish
 shoot-the-blocks
 shoot-the-bubble
 shoot-the-turtle
+shoot-the-villain
 shoot-your-nightmare-double-trouble
 shooterz-io
 shooting-blocky-combat-swat-gungame-survival
@@ -5059,6 +5082,7 @@ stick-war-tower-mighty-defense
 stick-wars-3d
 stickboy-defender
 stickboy-epic-swordsman
+stickboy-hook
 stickboy-war
 stickboys-hook
 stickboys-xmas
@@ -5128,6 +5152,7 @@ stickman-warriors-superhero-fight
 stickman3d-shooter
 stickninja-mission
 stock-car-hero
+stone-shooter
 stonks
 storky-survivors
 storm-dash
@@ -5320,6 +5345,7 @@ talking-veggies-meme-merge
 tall-and-rush
 tall-grass
 tall-io
+tall-man-runner-game
 tall-noob-man
 tangle-master-3d
 tangle-tails
@@ -5348,6 +5374,7 @@ tanks-2d-battle-with-ratte
 tanks-2d-war-and-heroes
 tanks-battle-royale
 tanks-blitz
+tanks-for-the-nation
 tap-3d-wood-block-away
 tap-away-block-puzzle-3d
 tap-gallery
@@ -5816,6 +5843,7 @@ wednesday-s-battle-monster-symphony
 weight-balance-journey
 weight-puzzle-3d
 western-fight
+whats-that-picture-3d
 wheelchair-parkour-no-limits
 wheelie-bike-for-2-players
 where-are-the-puffies
@@ -5884,6 +5912,7 @@ word-chef
 word-cross
 word-finder
 word-game-2026
+word-jam-association-puzzle
 word-master-puzzle
 word-online-hunt
 word-puzzle-connect-words-and-letters
@@ -6028,6 +6057,7 @@ zomly
 zone-breaker
 zoo-elephant-simulator-city-attack
 zoo-mahjongg-deluxe
+zoo-restaurant
 zoo-run
 zoological-zeppelin
 zoolympics
