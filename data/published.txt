@@ -302,12 +302,14 @@ assassins-hunt
 assault-on-squid-island
 assault-zone
 assemble-factory-puzzle
+astro-chickens
 astro-digger
 astro-merge
 astro-shooter
 athlio
 attack-and-dash
 attack-hole
+attack-hole-game
 attack-super-hole
 aura-clicker
 aura-farm-rng
@@ -408,6 +410,7 @@ basketball-arcade
 basketball-beans
 basketball-goat
 basketball-io
+basketball-league
 basketball-life-3d
 basketball-master-2
 basketball-master-kids
@@ -479,6 +482,7 @@ bff-christmas-cookie-challenge
 bffs-golden-hour
 bffs-unique-halloween-costumes
 bicycle-mountain-xtreme
+bicycle-stunt-racing-game-3d
 bicycle-stunts-racing-2023
 big-boom-building-smash
 big-donuts-mania
@@ -731,6 +735,7 @@ bridge-dash
 bridge-fun-race
 bridge-race
 bridge-wars
+bridges-3d
 brikzo
 broom
 broomcraft-mystic-evasion
@@ -821,6 +826,7 @@ burger-life
 burger-restaurant-simulator-3d
 burn-rate
 burrow
+burstblitz
 bus-and-subway-rush
 bus-color-jam
 bus-crash-stunts-2
@@ -878,6 +884,7 @@ candy-pop-mania
 candy-shop-3d-match-puzzle
 candy-sort
 candy-sweet
+candycurrent
 canjump
 cannon-ball-3d-big-boom-obby
 cannon-balls
@@ -1572,6 +1579,7 @@ dop2-draw-love
 dora-candy-land
 dot-and-dot
 dot-dodge
+dotdrift
 dotto-botto
 double-boy-jump
 double-heist-rob-the-robbers
@@ -1707,6 +1715,7 @@ dunjun
 dunk-up-basketball
 dunkers-fight
 dunkin-beanz
+duo-match-3d
 duohex
 durak
 dusk-warz
@@ -1829,6 +1838,7 @@ extreme-balancer
 extreme-ball-balancer-3d
 extreme-car-driving-simulator
 extreme-car-parking-3d
+extreme-car-racing
 extreme-drift-racing
 extreme-formula-racing
 extreme-gear-shift-racing
@@ -1878,6 +1888,7 @@ farm-escape-puzzle-game
 farm-mart
 farm-nubik-vs-zombies
 farmers-vs-aliens
+farming-mini-puzzle
 farming-simulation-game
 farming-tractor-game
 fashion-battle-dress
@@ -1938,6 +1949,7 @@ find-the-correct-shadow
 find-the-dog
 find-the-frog-hidden-objects
 find-the-key
+find-the-lost-letter-3d
 find-the-needle
 find-the-pets
 find-the-rule
@@ -1988,6 +2000,7 @@ flag-memory-match
 flag-merging-game-puzzle-game
 flag-painting-game
 flag-puzzle-jam-collect-flags
+flaggy-reveal
 flames-and-fortune
 flamit
 flap-hero
@@ -2023,6 +2036,7 @@ flume-v2
 fly-airplane-3d
 fly-car-stunt-5
 flying-grimace
+flying-injection-virus-game
 fnf-fps
 fnf-music-3d
 fnf-music-clash
@@ -2264,6 +2278,7 @@ go-octopus-find-pearl
 go-up
 go-up-samurai
 goal-io
+goalpost-shuffle
 goalshot
 goblin-clan
 goblin-defense-merge
@@ -2465,6 +2480,7 @@ heist-idle
 helicopter-rescue-games-3d
 helifight
 helix-hover
+helix-rush
 hellforge-demon-protocol
 hellgate-1993
 help-car-out-traffic-parking
@@ -2516,6 +2532,7 @@ hidden-basketball
 hidden-object-clues-and-mysteries
 hidden-object-my-hotel
 hidden-object-street-of-secrets
+hidden-object-time-travel
 hidden-objects-home-sweet-home
 hidden-objects-island
 hidden-objects-island-secrets
@@ -2706,6 +2723,7 @@ intergalactic-battleship
 iron-defense
 iron-legion-0-28
 iron-man-repulsor-rush
+iron-pink
 ironwake-tank-combat
 island-mayhem-tiki-blast-3d
 island-monster-offroad
@@ -2722,6 +2740,7 @@ jelly-bottle-sort
 jelly-bros-red-and-blue
 jelly-color-sort-3d
 jelly-drop-merge-and-sell
+jelly-garden-game
 jelly-gobble
 jelly-links
 jelly-matches
@@ -3041,6 +3060,7 @@ magic-circus-match-3
 magic-coloring-book-for-little-artists
 magic-finger-3d
 magic-kingdom-hex-match
+magic-knife
 magic-pet-salon
 magic-potion-school-for-witch
 magic-story-of-solitaire
@@ -3118,6 +3138,7 @@ match-challenge
 match-master
 match-mystery
 match-nonstop
+match-picture-to-words-3d
 match-story-animals
 match-story-weapons
 match-them-up
@@ -3365,6 +3386,7 @@ monster-school-challenges
 monster-slayer-idle-clicker
 monster-slayer-merge-and-survive
 monster-spaceship-shooter
+monster-stomper
 monster-survivors-game
 monster-tile-party
 monster-truck-crush
@@ -3739,6 +3761,7 @@ oddly-sorted-color-sort
 off-road-hill-climbing-race
 off-road-motocross
 off-road-overdrive
+off-the-hook-ring-puzzle
 office-escape-to-date
 offroad-4x4-driving-simulator
 offroad-cargo-truck-2024
@@ -3925,6 +3948,7 @@ pill-soccer
 pilot-life-flight-game-3d
 pim-path
 pimple-treatment-makeover-salon
+pin-out-rescue-game
 pin-puzzle-love-story
 pin-puzzle-save-the-sheep
 pin-rescue
@@ -4575,6 +4599,7 @@ shark-rampage
 shawarma-kiosk-anomaly-game
 sheep-commotion
 sheep-escape-farm-sorting-challenge
+sheep-saga
 sheep-sheep-duck
 sheep-simulator-animal-games
 sheep-sort
@@ -4905,6 +4930,7 @@ sportbike-drive
 sportix
 sports-escape-mania
 sports-minibattles
+spot-the-difference-mystic-mermaids
 spotless
 spra-racing-cars-speed
 spray-paint-coloring-games
@@ -5120,6 +5146,7 @@ subway-surfers-zurich
 subway-winter-vacation
 suck-it-all
 sudoku-block-puzzle
+sudoku-master
 sudoku-number-games
 sudoku-online
 suger-rush
@@ -5494,6 +5521,7 @@ tractor-farm-farming-simulator
 tractor-farming-farmer-life-game
 tractor-simulator-farming-game
 tractor-trial
+trading-fidget-master
 traffic-craft-rider
 traffic-escapee
 traffic-g
@@ -5523,6 +5551,7 @@ treadbreaker
 treasure-quest
 treasurebound
 treat-catch
+treatsy
 trench-tycoon-toy-army-defense
 trend-family-merge-arena
 tri-peaks-emerland-solitaire
@@ -5657,6 +5686,7 @@ valley-rushing-classic
 vampire-survival
 van-rush
 vangers-hd
+variety-mecha
 vector-parkour
 vector-strike
 vega-mix-2-adventure
