@@ -406,6 +406,7 @@ basket-sport-stars
 basketball-allstars
 basketball-arcade
 basketball-beans
+basketball-goat
 basketball-io
 basketball-life-3d
 basketball-master-2
@@ -863,6 +864,7 @@ call-of-tanks
 camel-destroyer
 candle-run-game
 candlebound-coven
+candy-ball-blast
 candy-cats
 candy-clicker-2
 candy-cutter-saga
@@ -1310,6 +1312,7 @@ crazy-mafia-drift-car
 crazy-merge-room
 crazy-motorcycle
 crazy-obstacle-blitz-going-ball-3d
+crazy-pixel-apocalypse-4-ui-2026
 crazy-plane-shooter
 crazy-plinko
 crazy-room-3d
@@ -1508,6 +1511,7 @@ dino-huntress
 dino-meat-hunt-new-adventure
 dino-merge-island
 dino-robot-fighting-war
+dino-run-game
 dino-simulator-city-attack
 dino-squad-battle-mission
 dinos-rush
@@ -1583,6 +1587,7 @@ dragon-fly
 dragon-funtion
 dragon-hunter
 dragon-merge
+dragon-merge-master-3d
 dragon-power
 drakkar-strike
 draw-action
@@ -1638,12 +1643,14 @@ dream-home-merge-story
 dream-puppy-spot-the-differences
 dream-room
 dream-supermarket-3d-shop
+dream-wedding-dress-up
 dreamblox
 dreamy-home
 dress-makeover
 dress-up-anime-girl
 dress-up-babi-doll
 dress-up-bean
+dress-up-outfit-match
 dressup-wheel
 drift-car-driving
 drift-city
@@ -1815,6 +1822,7 @@ evolution-survival
 evowarriors-fun
 exitblocks-color-match-puzzle
 explainable-minesweeper
+explore-hole
 exploring-the-galaxy-1-andora
 extra-hot-chili-3d
 extreme-balancer
@@ -2196,6 +2204,7 @@ gelatino
 gem-clicker
 gem-mahjong
 gemcrash
+gems-sort-puzzle
 geo-metric-run
 geom-etrys
 geometry-arrow
@@ -2440,6 +2449,7 @@ haystack-works
 hazard-pay
 hazmob-fps-online-shooter
 head-ball-hyper-casual-game
+head-football-3d
 head-jump
 head-punch-game
 head-puzzle-shooter
@@ -2467,6 +2477,7 @@ hero-city
 hero-defense-king
 hero-monster-battle-game
 hero-rescue
+hero-rescue-gold-glory
 hero-rescue-puzzle
 hero-sheep
 hero-time
@@ -2667,6 +2678,7 @@ idle-zombie-wave
 idle-zoo
 idle-zoo-tycoon
 igi-commando-mission-cover-the-fire
+important-math-cards
 impossible-bus-stunt-3d
 impossible-car-stunt-game
 impossible-car-stunt-mega-ramp-3d
@@ -2841,6 +2853,7 @@ kitten-never-dies
 kitten-rescue
 kitten-s-way-home-word-associations
 kitty-cat-merge
+kitty-drop-3d
 kitty-grid-puzzle
 kitty-jewel-quest
 kitty-kitty
@@ -3046,6 +3059,7 @@ mahjong-classic
 mahjong-connect-classic
 mahjong-lines
 mahjong-master-tile-sort-and-match
+mahjong-match
 mahjong-pirate-plunder-quest
 mahjong-puzzle-tile-match
 mahjong-solitaire-crush-game
@@ -3117,6 +3131,7 @@ math-game-3d
 math-kids
 math-meteors
 math-multiply-two
+math-pair-pop
 math-playground
 math-squares
 math-trivia
@@ -3489,6 +3504,7 @@ my-sweet-candy-outfits
 my-sweetstreet-shop
 my-town-home-family-playhouse
 my-unicorn-cat-princess-caring
+mycothreememo
 mydream-universe
 mystery-digger
 mystery-dumpling-squishy-slime
@@ -4031,6 +4047,7 @@ pop-us
 popboom
 popcats-merge-the-cats
 popcorn-race-3d
+popcorn-thief
 popdify
 popit-vs-spinner
 popping-candies
@@ -4207,6 +4224,7 @@ real-cars-epic-stunts
 real-city-driving-2
 real-cod-strike
 real-driving-simulator
+real-estate-royal
 real-flight-simulator
 real-motor-race-master
 real-mtb-downhill-3d
@@ -4428,6 +4446,7 @@ same-room-same-day
 samurai-brawling
 samurai-survivor
 sand-fall
+sand-route-puzzle
 sand-sorting-challenge
 sand-tap-sorting-puzzle
 sand-truck
@@ -4458,6 +4477,7 @@ savage-defenders
 save-her-tour
 save-king
 save-kitten
+save-me-game
 save-my-human
 save-my-pet-game
 save-nemo
@@ -4478,6 +4498,7 @@ save-the-pets-draw-to-save
 save-the-planet
 save-the-puppy-remove-the-screws
 save-the-stick-draw-line
+save-water
 save-woman
 save-your-girl
 sawblade-fest-run
@@ -4704,6 +4725,7 @@ snake-2077-glitch-war
 snake-arena
 snake-block-rush
 snake-brawl-merge-arena
+snake-chain-escape
 snake-color-race
 snake-of-balls
 snake-of-bullets-collect-and-shoot
@@ -4830,6 +4852,7 @@ space-tower-defense
 space-war-symphony
 spaceball-jump
 spaceman-escape-adventure
+sparksnap
 sparkzap
 sparrowelimination
 spartan-fruits
@@ -4843,6 +4866,7 @@ speed-evolution
 speed-master-cars
 speed-per-click-obby
 speed-pool-king
+speed-run-game
 speed-rush-simulator
 speeding-ball
 speedmatch-competition
@@ -4856,6 +4880,7 @@ spider-solitaire-pro
 spider-solitaire-silk-horizon
 spike-sphere
 spikes-and-feathers
+spil-clash-3d-ultimate-arena
 spill-and-knock-down
 spin-and-collect
 spin-and-mow
@@ -5134,6 +5159,7 @@ super-friday-squid-challenge
 super-frog-adventure
 super-fruit-runner-hyper-casual
 super-girl-salon
+super-goal-keeper
 super-goin-up
 super-grotto-escape
 super-hero-survivor-io
@@ -5176,6 +5202,7 @@ superhero-dentist-surgery-game-for-kids
 superhero-fighting-game
 superhero-hammar-man
 superhero-transform-change-race
+superior-trial
 supermarket-expert-idle
 supermarket-management-simulator
 supermarket-manager
@@ -5364,6 +5391,7 @@ the-upside-down
 the-warlock-s-prisoner
 the-windows-game
 the-zombie-house
+thecheesiestclicker
 thief-puzzle
 thief-puzzle-long-hand-game
 thief-puzzle-online
@@ -5584,6 +5612,7 @@ ultraman-monster-island-adventure-2
 unblock-ball-slide-puzzle-2
 unboxing-brainrots
 uncle-hit-punch-the-dummy
+uncle-wang-s-happy-life
 undead-walking-3d
 undercrown
 underground-heroes
@@ -5815,6 +5844,7 @@ world-archery-league
 world-cricket-champ
 world-flags-color-puzzle
 world-flags-quiz
+world-in-danger-earth-attack-kids
 world-of-alice-animal-habitat
 world-of-alice-daily-routine
 world-of-alice-footprints
