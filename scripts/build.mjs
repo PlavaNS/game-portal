@@ -863,11 +863,89 @@ ${form}
 <ol><li>You fill in the form above (or email <a href="mailto:${esc(cfg.contactEmail)}?subject=${subj}&amp;body=${body}">${esc(cfg.contactEmail)}</a> if you prefer).</li><li>We play it and check quality, performance and content, usually within a few days.</li><li>If it fits, we publish it with a link and credit back to you, and reply with the link to the live game page.</li></ol>
 <h2>Questions developers ask</h2>
 ${sgFaqHtml}
+<h2>Where else should you publish?</h2>
+<p>We are non-exclusive, so put your game everywhere it fits. Our <a href="${ur('/publish-html5-game/')}">guide to HTML5 game portals</a> compares revenue share, exclusivity and payouts on Poki, CrazyGames, Playgama, GamePix, GameMonetize, itch.io and more.</p>
 <h2>Good to know</h2>
 <p>We do not host files: the game stays on your server or your distribution platform, and you can ask us to remove it at any time. Games from other people that you do not own will not be accepted.</p>
 <p class="muted">We only use the details you send here to review your game and reply to you. Nothing is shared with third parties. See our <a href="${ur('/privacy/')}">privacy policy</a>.</p>`,
     `Submit your HTML5 game to ${cfg.name}: free and non-exclusive, you earn from every play, and you get a link back to your site. Reviewed by a real person in a few days.`,
     [sgLd], 0.8);
+}
+// DEV GUIDE: where to publish an HTML5 game (facts checked Nov 2026, sources linked on the page)
+{
+  const ext = (href, t) => `<a href="${href}" rel="noopener" target="_blank">${t}</a>`;
+  const rows = [
+    ['Poki', '100% of revenue from players you bring, 50% from players Poki brings', 'Yes, web-exclusive (5 years by default). A non-exclusive one-time license fee also exists', 'Hand-picked; they offer a deal if the game fits', 'Set in your agreement'],
+    ['CrazyGames', 'Ad revenue share after Full Launch (percentage not published)', 'No', 'Open submission &rarr; Basic Launch (no monetization) &rarr; Full Launch for selected games', '&euro;100, monthly, PayPal or wire'],
+    ['Playgama', '50% on playgama.com and its partner network', 'No', 'Sandbox with real players first, then review', '$100, PayPal, Wise, crypto or bank'],
+    ['GamePix', '50% of net revenue', 'No', 'SDK integration, then approval', 'Not published'],
+    ['GameMonetize', '45% (90% if you also own the site it plays on)', 'No', 'Manual review by their testers', '$30, PayPal or USDT, Net 30'],
+    ['Y8', '50% of eligible in-game ad revenue', 'Not stated', 'Managed partnership', 'Not published'],
+    ['itch.io', 'You choose; default 90% of sales to you', 'No', 'None, upload a zip with index.html', 'Sales and tips only, no ad revenue'],
+    ['Game Jolt', 'Marketplace cut of up to 10%, you can set it lower', 'No', 'None, upload a zip', 'Sales only, no ad revenue'],
+    ['Newgrounds', 'No ad revenue share at the moment; cash prizes for monthly awards and jams', 'No', 'Community voting', '&mdash;'],
+    [cfg.name, 'We take nothing. Your own ads keep running, or your network pays you its share', 'No', 'A real person plays every game, usually within a few days', 'Paid by your own ads or network'],
+  ];
+  const table = `<div class="tbl-wrap"><table class="cmp"><thead><tr><th>Portal</th><th>What you earn</th><th>Exclusive?</th><th>How you get in</th><th>Payout</th></tr></thead><tbody>${rows.map(r => `<tr><th scope="row">${r[0]}</th><td>${r[1]}</td><td>${r[2]}</td><td>${r[3]}</td><td>${r[4]}</td></tr>`).join('')}</tbody></table></div>`;
+  const faq = [
+    ['Can I publish the same HTML5 game on several portals?', 'Yes, as long as none of your deals is exclusive. CrazyGames, Playgama, GamePix, GameMonetize, itch.io, Game Jolt, Newgrounds and I Love Web Games are all non-exclusive. A Poki web-exclusive deal is the exception: it rules out other websites for the length of the deal (5 years by default), but not Steam, app stores or consoles.'],
+    ['Which portal pays the most?', 'There is no single answer, because earnings depend on traffic, play time and ad shows per play, not just the percentage. Poki gives the best terms for traffic you bring yourself (100%), but only for games they pick and in exchange for web exclusivity. Among non-exclusive networks the published shares sit around 45 to 50%.'],
+    ['Do I need an SDK?', 'For ad revenue, usually yes. Poki, GamePix, GameMonetize and the CrazyGames Full Launch all require their SDK. Playgama works through its own SDK as well. itch.io, Game Jolt and Newgrounds need nothing: you upload a zip with an index.html.'],
+    ['Do portals accept AI-made games?', 'Policies differ and they change. As of late 2026, GameMonetize review notes say it no longer accepts AI-generated games and that repeated low-quality submissions can get an account suspended. Others judge the game itself. Whatever you used to build it, the safest path is a game with real depth, polish and good retention in the first two minutes.'],
+    ['What is the fastest way to get first players?', 'itch.io and Newgrounds give you players and feedback within days. Free curated portals that embed your own build, like I Love Web Games, add a page that ranks on Google and a link back to your site. Networks such as Playgama and CrazyGames bring the biggest numbers, but only after their test phase.'],
+    ['How much does it cost to submit?', 'Nothing. None of the portals in this guide charges a submission or listing fee.'],
+  ];
+  const faqLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) };
+  const artLd = { '@context': 'https://schema.org', '@type': 'Article', headline: 'Where to publish your HTML5 game: portals compared', dateModified: '2026-11-02', author: { '@type': 'Organization', name: cfg.studio }, publisher: { '@type': 'Organization', name: cfg.name, url: cfg.url } };
+  textPage('publish-html5-game', 'Where to Publish Your HTML5 Game', `<p class="lead">You finished a browser game. Now where do you put it so people play it and it earns something? Here are the main HTML5 game portals side by side: what you earn, whether they want exclusivity, and how you get in. Checked in November 2026, with sources linked at the bottom.</p>
+<p class="muted">We run one of these portals ourselves (${esc(cfg.name)}), so we say where we fit and where we don't. Terms change: check each portal's own page before you sign anything.</p>
+<h2>The short version</h2>
+${table}
+<h2>Portal by portal</h2>
+<h3>Poki</h3>
+<p>The biggest audience and the best terms for strong games: you keep 100% of revenue from players you bring yourself (for example people who search your game's name) and 50% of revenue from players Poki brings. The catch is that it is a web-exclusive deal, 5 years by default, so no other websites. Steam, mobile stores and consoles stay open. Poki picks games by hand and expects at least 30 FPS, a responsive 16:9 layout and a game that works for at least 85% of players on each platform. If you don't want exclusivity, they can offer a one-time license fee instead.</p>
+<h3>CrazyGames</h3>
+<p>Open to everyone. Your game starts in Basic Launch, where the SDK is optional and there is no monetization yet; games that perform well move to Full Launch, where the SDK is required and you earn an ad revenue share. The percentage is not in their public docs. Publishing elsewhere is fine as long as you hold the rights. Payouts are monthly once you pass &euro;100, by PayPal or wire.</p>
+<h3>Playgama</h3>
+<p>Non-exclusive, 50% for developers on playgama.com and its partner network. New games first run in a Sandbox with real players and have to hit targets before they go to review. From our own dashboard, the Arcade targets were 100 qualifying plays, at least 5 minutes average play time and at least 0.30 ad shows per play. Payout from $100 by PayPal, Wise, crypto or bank transfer.</p>
+<h3>GamePix</h3>
+<p>Non-exclusive, 50% of net revenue (it was 45% earlier in 2026). You integrate their lightweight SDK, with plugins for plain JavaScript, Construct, GDevelop, Godot, Cocos and Unity, and validate it before you submit.</p>
+<h3>GameMonetize</h3>
+<p>Non-exclusive, 45% for developers, and 90% if you also run the website the game is played on. Minimum payout is $30 by PayPal or USDT, paid Net 30. Every game is reviewed by their testers. As of late 2026 their review notes say they no longer accept AI-generated games, and that repeated low-quality submissions can get an account suspended, so only send polished work.</p>
+<h3>Y8</h3>
+<p>Developers in their managed partnership receive 50% of eligible advertising revenue from in-game ads.</p>
+<h3>itch.io</h3>
+<p>Upload a zip with an index.html and you are live the same day. There are no ads: you earn from sales or pay-what-you-want tips, and you choose itch.io's cut yourself (the default is 10%). Great for feedback, devlogs and jams, and a good home page for your game.</p>
+<h3>Game Jolt</h3>
+<p>Similar to itch.io: free upload, a strong indie community, and a marketplace cut of up to 10% that you can lower.</p>
+<h3>Newgrounds</h3>
+<p>One of the oldest web game communities and still a great place for honest feedback. There is no ad revenue share for creators right now; money comes from monthly awards, contests and jams.</p>
+<h3>${esc(cfg.name)}</h3>
+<p>That's us. We are a smaller, curated portal: a real person plays every game, and accepted games get their own page with credit and a link back to your site. We take no share. Either we embed your own build from your own URL, so your ads keep running, or we embed your Playgama, GameMonetize or GamePix version and the network pays you your usual share for every play here. It's free and non-exclusive, so it stacks with everything above except a Poki exclusive. <a href="${ur('/submit-game/')}">Submit your game</a>.</p>
+<h2>A sensible order</h2>
+<ol>
+<li><strong>Get feedback first.</strong> Put the game on itch.io or Newgrounds and fix what players complain about. The first two minutes decide almost everything on every portal.</li>
+<li><strong>If it is strong, talk to Poki before anything else.</strong> Their deal is exclusive, so it has to come first or not at all.</li>
+<li><strong>Otherwise, spread it.</strong> CrazyGames, Playgama, GamePix and GameMonetize are all non-exclusive, so you can run them side by side.</li>
+<li><strong>Add curated portals that link back.</strong> Every page that embeds your game and links to you is another way players and search engines find you.</li>
+</ol>
+<h2>Questions developers ask</h2>
+${faq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
+<h2>Sources</h2>
+<ul class="muted">
+<li>${ext('https://sdk.poki.com/deals', 'Poki for Developers: deals')}</li>
+<li>${ext('https://docs.crazygames.com/faq/', 'CrazyGames developer FAQ')}</li>
+<li>${ext('https://playgama.com/blog/business-faqs/what-revenue-share-do-html5-game-portals/', 'Playgama: revenue share for HTML5 game portals')}</li>
+<li>${ext('https://partners.gamepix.com/developers', 'GamePix for developers')}</li>
+<li>${ext('https://gamemonetize.com/faq', 'GameMonetize FAQ')}</li>
+<li>${ext('https://www.bountyboard.gg/blog/how-to-monetize-an-html5-game', 'Bountyboard: HTML5 game revenue shares (Y8, GamePix history)')}</li>
+<li>${ext('https://itch.io/updates/introducing-open-revenue-sharing', 'itch.io: open revenue sharing')}</li>
+<li>${ext('https://www.mcvuk.com/development/indie-community-game-jolt-launches-dedicated-marketplace', 'MCV: Game Jolt marketplace revenue split')}</li>
+<li>${ext('https://newgrounds.wiki.gg/wiki/Revenue_Sharing', 'Newgrounds wiki: revenue sharing')}</li>
+</ul>
+<p class="muted">Last checked: November 2026.</p>`,
+    'Where to publish an HTML5 game in 2026: Poki, CrazyGames, Playgama, GamePix, GameMonetize, itch.io, Game Jolt and Newgrounds compared. Revenue share, exclusivity, review and payouts.',
+    [faqLd, artLd], 0.8);
 }
 textPage('contact', 'Contact', `<p>We'd love to hear from you — feedback, bug reports, game suggestions or business inquiries.</p>
 <p>Email: <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a></p>
@@ -918,6 +996,7 @@ ${activeCats.map(c => `- [${c.h1}](${abs(cHref(c.slug).replace(B, ''))})`).join(
 
 ## For game developers
 - [Submit your HTML5 game](${abs('/submit-game/')}): free and non-exclusive. A real person plays every submission; accepted games get their own page with credit and a link back to the developer, and stay embedded from the developer's own URL with their own ads. Games on Playgama, GameMonetize or GamePix earn the developer their network share for every play on the site.
+- [Where to publish your HTML5 game](${abs('/publish-html5-game/')}): Poki, CrazyGames, Playgama, GamePix, GameMonetize, itch.io, Game Jolt and Newgrounds compared side by side: revenue share, exclusivity, review and payouts.
 
 ## Games made by ${cfg.studio}
 ${ownG.map(line).join('\n')}
