@@ -28,6 +28,7 @@
 2-3-4-player-games
 2-minute-football-qb-legend
 2-minutes-to-escape
+2-player-games-design-salon
 2-player-games-mini-games
 2-player-games-princess-design-party
 2026-2027-cars-drag-puzzle
@@ -155,6 +156,7 @@ almost-infinite
 alpha-balls
 alpha-guns
 alphabet-kitchen
+alphabet-mahjong
 alphabet-writing-for-kids
 amaze-escape
 amazing-sheriff
@@ -886,6 +888,7 @@ candy-ball-blast
 candy-cats
 candy-clicker-2
 candy-cutter-saga
+candy-cutter-saga-kids
 candy-egg-blast
 candy-for-capybara
 candy-mahjong-3d
@@ -918,6 +921,7 @@ car-cargo-ship-simulator-game
 car-carrier-truck-highway-master
 car-chase
 car-chase-parking
+car-chasing
 car-collision-master
 car-crash-sandbox
 car-crash-test
@@ -1266,6 +1270,7 @@ contrast
 cook-soups-3-in-a-bowl
 cookie-maker-for-kids
 cooking-city
+cooking-clash
 cooking-fever-happy-chef
 cooking-in-the-city-of-winds
 cooking-korean-lesson
@@ -1380,6 +1385,7 @@ crusher-block
 crust-crusher
 crypta
 cryptograms-secret-text
+crystal-treasures-match-3
 crystalia
 cs-command-snipers
 cs-upgrade-gun
@@ -1426,6 +1432,7 @@ cute-pony-memory-quest
 cute-pony-puzzle-quest
 cute-princess-dress-up
 cute-shapes
+cute-tiles-mahjong
 cutter-woodsman-game
 cyber-arrows-brain-puzzle-game
 cyber-city-driver
@@ -2263,6 +2270,7 @@ geometry-black-ball
 geometry-black-wave
 geometry-goal-dash-2026
 geometry-gunner
+geometry-man-dash-lite
 geometry-maze-maps
 geometry-maze-maps-v2
 geometry-neon-dash-world-2
@@ -2291,6 +2299,7 @@ giant-snowball-rush
 giant-wanted-monster
 girl-bike-accident-love
 girl-dream-house-diy-fun
+girl-explorer-jigsaw-puzzles
 girl-game-organizing-fun
 girl-hair-salon-and-dress-up
 gladiators-merge-and-fight
@@ -2304,6 +2313,7 @@ gloom-gargoyle
 glossy-garage-car-asmr
 glow-halloween-nails-game
 glow-halloween-nails-polish-and-color
+glowfall
 glowit-two-players
 gn-ninja-run
 go-balloons
@@ -2336,7 +2346,9 @@ good-and-evil-dressup
 good-guys-and-bad-boys-zombie-survival-gui
 good-knight-story
 good-slice
+good-sort
 good-sort-master-triple-match
+good-sorting-puzzle-game
 goodnight-my-baby
 goods-master
 goods-sort-3d
@@ -2666,7 +2678,9 @@ hotbath-simulator
 hotel-manager-simulator
 hotfoot-baseball
 hotgear
+house-paint-challenge
 how-many-mice
+huehearts
 hugi-wugi
 hugie-wugie-coloring
 hugie-wugie-runner
@@ -3025,6 +3039,7 @@ line-control
 line-of-defense
 line-to-goal-draw-the-path
 lineo
+lion-prince
 lion-safari-jigsaw-puzzles
 lipuzz-water-sort-puzzle
 liquid-color-sort
@@ -3216,6 +3231,7 @@ maze-escape-hero
 maze-evolution
 maze-evolution-html
 maze-maker
+maze-runner-ball
 mazean-com
 mealmerge
 meccha-chameleon-online
@@ -3445,6 +3461,7 @@ monster-truck-dirt-rally
 monster-truck-driving-stunt-game-sim
 monster-truck-extreme-racing
 monster-truck-jump
+monster-truck-offroad
 monster-truck-offroad-2
 monster-truck-racing-game-truck-race
 monster-truck-simulator-game
@@ -3461,6 +3478,7 @@ monsters-wheels-2
 monsters-wheels-special
 moon-chess
 moon-clash-heroes
+moon-league-sports-season
 moon-potato-clicker
 moonshine-runners-samogonki
 mordecai-and-rigby-easter-holiday
@@ -3630,6 +3648,7 @@ night-order-pick-and-pack
 night-racing-drag
 night-shift-at-block-13
 night-silk-dark-city-fashionistas
+night-torque
 nightmare-2d-shooters
 niko-adventure
 niko-and-dino-run
@@ -3810,6 +3829,7 @@ obbytycoon-money-tycoon
 obunga-nextbot-spot-difference
 ocean-dash
 ocean-match-crush
+ocean-match-puzzle
 ocean-pop
 ocean-riches
 octo-stickers-merge-and-stick
@@ -3874,6 +3894,7 @@ opps
 optical-illusion
 orbadrone-robot-escape
 orbit-pals
+orbit-ring-2
 orbit-shift
 orc-breach
 order-of-operation-challenge
@@ -4057,6 +4078,7 @@ place-it-right
 placik
 plane
 plane-crash-ragdoll-simulator
+plane-escape-puzzle
 planes-dodge-and-go
 planet-404-episode-1
 planet-blast-rockets
@@ -4690,6 +4712,7 @@ shoot-the-blocks
 shoot-the-bubble
 shoot-the-turtle
 shoot-the-villain
+shoot-them-down
 shoot-your-nightmare-double-trouble
 shooterz-io
 shooting-blocky-combat-swat-gungame-survival
@@ -4782,6 +4805,7 @@ slide-the-blocks-build-the-pictures
 slides-and-climbs
 slidey-sliding-cat-puzzle
 sliding-slide
+sliding-tile-puzzle-game
 slime-assembly-endless
 slime-buffet
 slime-clicker
@@ -4836,6 +4860,7 @@ snake-out-puzzle-game
 snake-puzzle-3d-game
 snake-run-eat-and-grow
 snake-simple-retro-game
+snake-sorting
 snake-tangle
 snake-train-zone
 snake-vs-ai
@@ -4861,6 +4886,7 @@ sniper-mission-war
 sniper-rooftop-defense
 sniper-shooter-3d
 sniper-shooter-save-the-fish
+sniper-shooting-game
 sniper-silent-ridge
 sniper-strike
 sniper-vs-99-players
@@ -5006,8 +5032,10 @@ spooky-vending-machine-2
 spore-guard
 sportbike-drive
 sportix
+sportloop
 sports-escape-mania
 sports-minibattles
+sporty-viper
 spot-the-difference-mystic-mermaids
 spotless
 spra-racing-cars-speed
@@ -5237,6 +5265,7 @@ summer-juice-run
 summer-punch-party
 summer-rider-3d
 summer-shore-hustle
+summer-spot-the-differense
 summon-tribe
 sumo-fury
 sunfield-vegetable-farm
@@ -5394,6 +5423,7 @@ tank-push
 tank-sniper-3d
 tank-stars-battle-arena
 tank-stormy
+tank-strike-wasteland-rogue
 tank-war-battle-game
 tank-war-simulator-game
 tankcraft-war-tank-battles
@@ -5588,6 +5618,7 @@ tornado-67
 tornado-fury-of-the-elements
 torture-the-trollface
 toss-the-ring
+tower-blocks-deluxe-3d
 tower-colour-crash
 tower-crush
 tower-necromancer-s
