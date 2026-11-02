@@ -161,6 +161,7 @@ alphabet-mahjong
 alphabet-writing-for-kids
 amaze-escape
 amazing-sheriff
+ambidieztro
 ambulance-driving-simulator
 ambulance-escape-2026
 ambulance-rescue-game
@@ -197,6 +198,7 @@ animal-impossible-track-rush
 animal-kart
 animal-klotski
 animal-merge
+animal-merge-zoo-drop
 animal-pair-card-match
 animal-puzzle-deluxe
 animal-racing-2
@@ -277,6 +279,7 @@ arrow-pop
 arrow-rescue
 arrow-shift-logic-tree
 arrow-survival-15-seconds
+arrow-tap-game
 arrowgami-arrow-puzzle
 arrows-dream-home-design
 arrows-edge
@@ -440,6 +443,7 @@ battle-arena-race-to-win
 battle-hamsters
 battle-of-banners
 battle-of-tank-steel
+battle-of-the-minds
 battle-shot-elite
 battle-simluator-counter-stickman
 battle-simulator-police-prison
@@ -564,6 +568,7 @@ block-builder-jam
 block-combo-blast
 block-craft-3d-school
 block-drop-escape-puzzle
+block-escape-2
 block-ice-puzzle
 block-island-destroyer
 block-master-gem-puzzle
@@ -1375,6 +1380,7 @@ cricket-hero
 cricket-mania
 cricket-smash-3d
 criss-cross-colors
+crittermatch
 crocodile-online-draw-and-guess
 crossmath-challenge
 crosstile
@@ -1578,10 +1584,12 @@ dinoz
 dirt-bike-max-duel
 dirt-bike-racing-adventure
 dirt-bike-trail-rider
+disc-battle-ultimate
 disc-golf-3d-frisbee-for-masters
 disc-golf-game-master
 dispatch-panic
 dive-deep
+divide-puzzle-arcade
 diy-joystick-game
 diy-phone-case-maker
 diy-slime-art
@@ -1974,6 +1982,7 @@ field-of-blooms
 figher-stick-hero
 fight-club-simulator
 fight-trivia
+fight-with-monster
 fighter-car-shooting
 fighter-legends-duo
 fighter-tank
@@ -2025,6 +2034,7 @@ firestack
 fish-and-trip
 fish-eat-grow-mega
 fish-factory
+fish-hunting
 fish-love-game
 fish-rain
 fish-rain-2
@@ -2128,6 +2138,7 @@ ford-f-100-eluminator-slide
 forest-dash
 forest-fortune
 forest-monster-breaker
+forest-survivor-challenge
 formula-1-driver
 formula-apex-rush
 formula-car-circuit-racing
@@ -2186,6 +2197,7 @@ fruit-lane-cafe
 fruit-madness
 fruit-mahjong
 fruit-match-3-championship
+fruit-match-juicy-puzzle-2
 fruit-merge-juice-jumble
 fruit-merge-mania
 fruit-merger
@@ -2502,6 +2514,7 @@ happy-coloring-book
 happy-farm-1-line-puzzle
 happy-fluffy-cubes
 happy-food-link
+happy-fruit-link
 happy-gunman
 happy-hopper
 happy-jelly
@@ -2527,8 +2540,10 @@ hatch-that-egg-tap-and-crack
 hatchfire-dragon-brick-breaker
 haunted-house-idle
 haunted-panic
+haunted-sweets
 haystack-works
 hazard-pay
+hazel-tic-tac-toe
 hazmob-fps-online-shooter
 head-ball-hyper-casual-game
 head-football-3d
@@ -2606,6 +2621,7 @@ hidden-objects-island-secrets
 hidden-objects-recipe-collection
 hidden-paint-3d
 hidden-sniper-camo-hunter-3d
+hidden-turtle
 hide-and-luig
 hide-and-seek-blue-monster
 hide-and-seek-friends
@@ -2798,6 +2814,7 @@ iron-man-repulsor-rush
 iron-pink
 ironwake-tank-combat
 island-mayhem-tiki-blast-3d
+island-merge-war
 island-monster-offroad
 island-puzzle
 island-survival
@@ -3058,6 +3075,7 @@ limo-city-taxi-driver
 line-color-2d
 line-control
 line-of-defense
+line-runners
 line-to-goal-draw-the-path
 lineo
 lion-prince
@@ -3099,6 +3117,7 @@ love-sheep
 love-story-find-the-piece
 lovely-cat-dessert-bakery
 lovely-doll-creator
+lovely-princess
 lovely-virtual-cat
 lovely-virtual-cat-at-restaurant
 lovely-virtual-cat-at-school
@@ -3180,6 +3199,7 @@ make-your-meal-cooking-game
 makeover-mayhem
 makeup-artist-fashion-salon
 makeup-fruits
+makeup-stories-asmr-beauty
 makeup-studio-halloween
 man-runner-2048
 mandala-coloring-book
@@ -3663,6 +3683,7 @@ netherton-volleyball
 never-by-color
 never-fall-pinball
 newbie-s-escape-from-blogger-prison
+nexrun
 nextboot-horror-online
 nextbot-can-you-escape
 nexus-3d
@@ -3931,6 +3952,7 @@ origin
 outer-planet
 outfit-love-queen
 outpost-9
+outpost-siege
 outside
 owl-block
 owl-hunter
@@ -3980,6 +4002,7 @@ parking-boom
 parking-journey-car-puzzle
 parking-master-school
 parking-master-urban-challenges
+parking-puzzle-escape-challenge
 parking-puzzle-escape-challenge-kids
 parking-puzzle-game
 parking-skills
@@ -4344,6 +4367,7 @@ railway-traffic-jam-untangle-the-trains
 rainbow-ball-runner-2048
 rainbow-color-ball-runner
 rainbow-ice-cream-and-popsicles
+rainbow-jump-puzzle
 rainbow-obby
 rainbow-s-doctor
 raised-knight
@@ -4712,6 +4736,7 @@ shaftbound
 shape-ascent-roguelite
 shape-connect
 shape-defense
+shape-factory-fun
 shape-jam
 shape-transform
 shape-transform-race
@@ -4826,6 +4851,7 @@ slenderman-lost-at-school
 slendrina-must-die-the-asylum
 slice-and-soar
 slice-it
+slicestorm
 slicetall
 slide-and-divide
 slide-block-jam
@@ -5014,6 +5040,7 @@ sparkzap
 sparrowelimination
 spartan-fruits
 speakerman-revenge
+special-alien
 special-ops-go
 special-strike-zombies
 spectralseek-kids
@@ -5127,6 +5154,7 @@ starship-ducks
 starship-troopers
 starweave-star-puzzle
 steal-a-bird
+steal-a-fish
 steal-a-pet
 steal-an-egg-3d
 steal-an-egg-farm
@@ -5447,6 +5475,7 @@ tank-arena-multiplayer
 tank-arena-steel-battle
 tank-craft-2
 tank-craft-merge
+tank-force-battle-game
 tank-fury-boss-battle-2d
 tank-mayhem
 tank-push
@@ -5658,6 +5687,8 @@ tower-siege
 tower-tap
 towers-505
 town-builder-inc
+toy-block-blast
+toy-factory-conveyor
 toy-smash
 toy-soccer-cup
 toytopia
@@ -6002,6 +6033,7 @@ wooden-vest
 woods-of-nevia-forest-survival
 woody-block-puzzles
 woof-foow
+wool-sort-yarn-color-puzzle
 word-associations-solitaire
 word-blossom
 word-chef
