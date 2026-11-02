@@ -206,6 +206,7 @@ anime-avatar-maker-anime-doll
 anime-couple-dress-up
 anime-girl-fashion-make-up
 anime-girl-high-school-simulator
+anime-idol-academy
 anime-mom-family-life-simulator
 anna-s-story-dress-up-diy
 annoying-boss-game
@@ -629,6 +630,7 @@ bomber-friends
 bomber-man
 bomber-quest
 bombstrike-urban-blast
+bonbon-kids
 bone-throne
 bonecrypt
 bonk-islands
@@ -861,6 +863,7 @@ cake-maker-girls-cooking-games
 cake-master-shop
 cake-ready
 cake-shop-cafe-pastries-and-waffles-cooking-game
+cake-slice-match
 cake-sort
 cake-stack
 call-of-bravery-shooter
@@ -931,6 +934,7 @@ car-evolution-driving
 car-evolution-game
 car-evolution-pro-math-gates
 car-games-car-racing-game
+car-jump-game
 car-madness-3d
 car-makeup
 car-mechanic-simulator-2025
@@ -2008,6 +2012,7 @@ flappy-alien
 flappy-halloween-game
 flappy-twist
 flappyball
+flapthe-bird
 flashcolor
 fleet-merge
 flex-escape
@@ -2037,6 +2042,7 @@ fly-airplane-3d
 fly-car-stunt-5
 flying-grimace
 flying-injection-virus-game
+flying-robot-transform-car-games
 fnf-fps
 fnf-music-3d
 fnf-music-clash
@@ -2105,6 +2111,7 @@ friday-night-funkin-vs-garcello
 friends-pug
 fristailo-granny
 frog-byte
+frog-leap-3d
 froggy-tower
 frogtastic-marble-adventure
 frogtress
@@ -2142,6 +2149,7 @@ fruits-into-baskets
 fruits-shooter-pop-master
 fruits-slice-challenge
 fruitsland-escape-from-the-amusement-park
+fruity-craft-merge
 frutiger-friends-io
 full-space-shooter
 fun-draw-race-3d
@@ -2733,6 +2741,7 @@ it-clicker
 it-lurks
 jack-o-gunner
 jade-toss-arrow-challenge
+jail-drop-3d
 javelin-battle
 jeep-drive-prisoner-transport-sim
 jelly-block-puzzle
@@ -2743,6 +2752,7 @@ jelly-drop-merge-and-sell
 jelly-garden-game
 jelly-gobble
 jelly-links
+jelly-match-game
 jelly-matches
 jelly-merge-dooper
 jelly-mix-up
@@ -2838,6 +2848,7 @@ kick-the-zombie-ragdoll-sandbox
 kickoff-academy-football-tycoon
 kids-flurry-educational-puzzle-game
 kids-good-habits
+kids-kitchen-cozy-cooking
 kids-transport
 kiki-world-kawaii-doll-decor
 killer-assassin
@@ -2950,6 +2961,7 @@ leaf-blower-autumn-yard
 leaf-blower-tycoon
 leaf-blower-yards
 leaf-clean-up
+league-of-football
 leap-and-avoid-2
 left-4-die
 leftover-screw
@@ -3492,6 +3504,7 @@ musketeers-gunpowder-vs-steel
 mustang-city-driver-2024
 mutant-mash-merge-garden
 mutant-zone-zombie-merge-fighter
+mutantblood
 mx-offroad-mountain-bike
 my-army-base
 my-bakery
@@ -3604,9 +3617,11 @@ nitro-cars-highway-racer
 nitro-kick
 nitro-racing-gear
 nitro-speed-car-racing
+nitrohit
 nitrovenant-2
 no-i-m-not-a-plankton
 no-shorts
+no-stress-game-challenges
 noescape
 noillirk
 nokia-3310-snack-game
@@ -3651,6 +3666,7 @@ nubik-vs-herobrin-s-army
 nullify-merge-math
 nullpulse-runner
 number-merge-10
+number-merge-master
 number-quest
 number-run-3d-casual-game
 number-sums
@@ -4041,6 +4057,7 @@ polygon-flight-simulator
 pondhero
 pongoal
 pony-color-fun
+pony-my-little-race
 poofruits-merge-the-fruit
 pool-8
 pool-blast-merge-balls
@@ -4125,6 +4142,7 @@ pro-obunga-vs-creepender
 professional-archerist
 project-survival
 project-void
+promatch-3
 protect-my-dog
 pudding-monsters
 pull-him-out-online
@@ -4154,6 +4172,7 @@ push-the-crazy-crowd-stickman-clash-3d
 push-the-frog
 push-to-go
 pushplush
+put-out-the-fire
 put-the-candy
 putt-party
 puzzle-box-brain-fun
@@ -4167,11 +4186,13 @@ puzzlebot
 puzzlebubble
 puzzledom-one-line
 puzzlemaster
+pyramid
 pyropairs
 qblock-puzzle
 quackventure
 quarantine-rush
 quarterback
+queen-rescue-game
 queens
 quick-draw-cowboys
 quick-maths
@@ -4234,6 +4255,7 @@ ramp-race
 ramp-racing
 ramp-rider-mega-bike-racing
 ramp-truck-mayhem
+ranch-empire
 randomation-racing-speed-trial-demolition
 rapid-apex-rush
 rasgullas
@@ -4593,6 +4615,7 @@ shape-transform
 shape-transform-race
 shape-transform-shifting-rush
 shape-transforming-shifting-run
+shapenest
 shark-attack
 shark-io
 shark-rampage
@@ -4607,6 +4630,7 @@ sheepdoku
 sheeps-herd-them-all
 shifted-realms
 shikaku-puzzle
+shinobi-swarm
 shoe-race
 shoes-outlet-game
 shoot-and-sprint-warfare
@@ -4679,6 +4703,7 @@ sky-wars-battle-of-the-islands
 skybop
 skybound-dash-crown-rush
 skyfall-siege
+skygarden-siege
 skyhop
 skyslime-adventures
 slalom-hero
@@ -4884,6 +4909,7 @@ spartan-fruits
 speakerman-revenge
 special-ops-go
 special-strike-zombies
+spectralseek-kids
 speed-box-game
 speed-car-race-madness
 speed-chaos-crazy-race
@@ -5031,6 +5057,7 @@ stick-ninja-survival
 stick-vs-zombies-epic-battle
 stick-war-tower-mighty-defense
 stick-wars-3d
+stickboy-defender
 stickboy-epic-swordsman
 stickboy-war
 stickboys-hook
@@ -5328,6 +5355,7 @@ tap-hunters
 tap-tap-reloaded
 tap-the-crop
 tap-think-save-the-kitten
+tapping-on-fruit
 tarantula-clicker
 target-gun-game-fps-shooting
 targetter-game
@@ -5552,6 +5580,7 @@ treasure-quest
 treasurebound
 treat-catch
 treatsy
+treattraill
 trench-tycoon-toy-army-defense
 trend-family-merge-arena
 tri-peaks-emerland-solitaire
@@ -5911,6 +5940,7 @@ yenemy
 yeti-run
 yoga-master-flex-running
 yolk-ops-egg-arena
+yolk-patrol-easy
 your-idle-farm
 your-majesty-build-and-conquer
 your-obby-escape
