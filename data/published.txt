@@ -671,6 +671,7 @@ bottle-color-match-challenge
 bottle-flip-game
 bounce-ball-hook
 bounce-ball-timer
+bounce-blast
 bounce-dunk-basketball
 bounce-dunk-frvr
 bounce-td
@@ -3029,6 +3030,7 @@ leaf-blower-yards
 leaf-clean-up
 league-of-football
 leap-and-avoid-2
+learn-to-play-pitch
 left-4-die
 leftover-screw
 leg-soccer
@@ -5768,6 +5770,7 @@ two-ball-3d-dark
 two-bike-stunts
 two-cups
 two-impostor-squid-challenge
+two-minute-drill
 two-punk-racing-2
 uber-sim-transport-2020
 ugi-bugi

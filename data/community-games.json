@@ -50,56 +50,6 @@
     ]
   },
   {
-    "slug": "bounce-blast",
-    "title": "Bounce Blast",
-    "studio": "mengyuxuan",
-    "studioUrl": "https://tantanbaoji.com/",
-    "added": "2026-10-29",
-    "short": "A free brick breaker where you aim one growing volley of balls, bank shots off the walls and clear the board before it reaches the line.",
-    "description": "Bounce Blast is a free ball-bounce brick breaker you play right in your browser. Drag to aim, release a growing volley of balls and watch one good angle turn into a chain reaction. Bank shots off the walls to slip behind the numbered bricks, grab the plus pickups for more balls, hit blast bricks to damage their neighbours, and save Energy Blast for the moment a row is about to cross the bottom line. Rounds are short, it works with mouse, touch or keyboard, and your best score is kept on your own device.",
-    "instructions": "Drag inside the playfield to aim, then release to launch all of your balls at once. On a keyboard use the arrow keys to aim and Space to fire. Numbers on the bricks show how many hits they still need, plus pickups add balls to your volley, and Energy Blast clears the lowest row when bricks get close to the bottom line.",
-    "category": "arcade",
-    "extraCats": [
-      "puzzle",
-      "hypercasual"
-    ],
-    "tags": [
-      "Arcade",
-      "Brick Breaker",
-      "Balls",
-      "Bricks",
-      "Casual",
-      "Skill",
-      "Aim"
-    ],
-    "embed": "https://tantanbaoji.com/#game-area",
-    "thumb": "https://tantanbaoji.com/og-image.png",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "learn-to-play-pitch",
-    "title": "Learn to Play Pitch",
-    "studio": "Roland B.",
-    "studioUrl": "https://www.learntoplaypitch.com",
-    "added": "2026-10-30",
-    "short": "Learn 4-point Pitch, the classic American trick-taking card game, with hints that explain every play.",
-    "description": "Learn to Play Pitch is a free card game trainer for 4-point Pitch, also known as Setback, the classic American trick-taking game. Bid, name trump and play six-card hands against computer opponents you can make easier or harder. Hints explain why each bid and each card wins or loses the four points: High, Low, Jack and Game. It is the easiest way to learn the game before your next family card night, with no download and no sign-up.",
-    "instructions": "Click or tap a card to play it. Each hand, bid how many of the four points you think you can take, name trump if you win the bid, then follow suit or play trump. Read the hints to see why each play works, and reach the target score first to win.",
-    "category": "puzzle",
-    "extraCats": [
-      "mobile"
-    ],
-    "tags": [
-      "Card",
-      "Strategy",
-      "Classic",
-      "Board Game"
-    ],
-    "embed": "https://www.learntoplaypitch.com",
-    "thumb": "https://www.learntoplaypitch.com/images/pitch-social.png",
-    "orientation": "landscape"
-  },
-  {
     "slug": "stonkrider",
     "title": "StonkRider",
     "studio": "Sam Carter",
@@ -122,29 +72,6 @@
     ],
     "embed": "https://stonkrider.fun",
     "thumb": "https://stonkrider.fun/opengraph-image?5dab52d4083ce02e",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "two-minute-drill",
-    "title": "Two Minute Drill",
-    "studio": "NapsterLong",
-    "studioUrl": "https://play2minutedrill.com/",
-    "added": "2026-10-30",
-    "short": "An American football decision game: call the plays, manage the clock and close out the game.",
-    "description": "Two Minute Drill is a free American football game about the most tense part of any game: the final two minutes. You call the plays, manage your timeouts and the clock, and try to score before time runs out. Eight original scenarios rotate through a shared daily challenge, and a practice mode lets you preview plays and undo choices so you can learn what works. It plays well on desktop and mobile without signing up.",
-    "instructions": "Choose a play for each down, watch the result and manage the clock and your timeouts. Score before the clock hits zero to win the drill. Use practice mode to preview plays and undo choices, then try the daily drill.",
-    "category": "sports",
-    "extraCats": [
-      "mobile"
-    ],
-    "tags": [
-      "Football",
-      "Sports",
-      "Strategy",
-      "Daily"
-    ],
-    "embed": "https://play2minutedrill.com/embed/",
-    "thumb": "https://play2minutedrill.com/assets/social-card.png",
     "orientation": "landscape"
   },
   {
