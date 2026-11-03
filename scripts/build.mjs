@@ -560,6 +560,8 @@ function emitContent() {
   ${gotw}
   <section class="row" data-recent hidden><div class="row-h"><h2>${esc(tr('Continue playing'))}</h2></div><div class="grid"></div></section>
   ${row('🔥 ' + tr('Trending now'), u('/popular/'), top('hot', 18), true)}
+  <section class="row"><div class="row-h"><h2>${esc(tr('Browse by category'))}</h2><a href="${u('/all/')}">${esc(tr('All games'))} ›</a></div>
+  <div class="cat-rows">${activeCats.filter(c => catOK(c.slug)).map(c => catRow(c)).join('\n')}</div></section>
   ${row('⭐ ' + tr('Most played'), u('/popular/'), mostPlayed(18))}
   ${(() => { const tr8 = all.filter(g => !g.own && isTopRated(g)).sort((a, b) => voteScore(b) - voteScore(a) || (VOTES[b.slug].up - VOTES[a.slug].up)).slice(0, 12); return tr8.length >= 6 ? row('👍 ' + tr('Top rated by players'), null, tr8) : ''; })()}
   ${row('🆕 ' + tr('New games'), u('/new/'), newestOnSite(18))}
@@ -567,8 +569,6 @@ function emitContent() {
     return indie.length ? `<section class="row indie-row"><div class="row-h"><h2>🧑‍💻 ${esc(tr('New from indie developers'))}</h2><a class="btn sg-cta" href="${ur('/submit-game/')}">📤 ${esc(tr('Made a game? Submit it free'))}</a></div><p class="indie-note">${esc(tr('Games sent to us by independent developers. Every one is played and checked by a real person before it goes live.'))} <a href="${ur('/publish-html5-game/')}">${esc(tr('Where to publish your HTML5 game'))} ›</a></p><div class="grid">${indie.map(g => card(g)).join('')}</div></section>` : ''; })()}
   <section class="row"><div class="row-h"><h2>${esc(tr('Popular collections'))}</h2></div><p class="chips">${topics.filter(t => catOK('topic:' + t.slug)).map(t => `<a class="chip" href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join('')}</p></section>
   ${row('🏆 ' + tr('Best games'), null, top('best', 18))}
-  <section class="row"><div class="row-h"><h2>${esc(tr('Browse by category'))}</h2><a href="${u('/all/')}">${esc(tr('All games'))} ›</a></div>
-  <div class="cat-rows">${activeCats.filter(c => catOK(c.slug)).map(c => catRow(c)).join('\n')}</div></section>
   <section class="seo-text"><h2>${esc(tr('Free online games on'))} ${esc(cfg.name)}</h2><p>${esc(cfg.name)} ${esc(tr('is a hand-picked collection of'))} ${all.length.toLocaleString('en')} ${esc(tr('free browser games. Every game runs instantly on your computer, tablet or phone, with no downloads, no installs and no account. Play action, puzzle, racing, sports, clicker and 2 player games, and come back every day for new titles.'))}</p></section>`;
     write('index.html', layout({
       title: `${cfg.name} — ${tr('Free Online Games, Play Instantly')}`,
