@@ -14,7 +14,7 @@
   if (mb) mb.addEventListener('click', () => { const o = document.body.classList.toggle('menu-open'); mb.setAttribute('aria-expanded', o); });
   document.addEventListener('click', e => { if (document.body.classList.contains('menu-open') && !e.target.closest('.side,[data-menu]')) document.body.classList.remove('menu-open'); });
   const here = location.pathname.replace(/\/\d+\/$/, '/');
-  $$('.side a').forEach(a => { if (a.getAttribute('href') === here) a.setAttribute('aria-current', 'page'); });
+  $$('.topnav a').forEach(a => { if (a.getAttribute('href') === here) a.setAttribute('aria-current', 'page'); });
 
   // cookie consent
   const box = $('[data-consent]');

@@ -446,24 +446,15 @@ ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replac
 <body class="${bodyClass}">
 <a class="skip" href="#main">${esc(tr('Skip to content'))}</a>
 <header class="top">
-  <div class="top-l"><button class="menu-btn" aria-label="${esc(tr('Open categories'))}" aria-expanded="false" data-menu>☰</button>
-  <a class="logo" href="${u('/')}">${ICON_SVG}<span>${esc(cfg.name)}</span></a></div>
+  <div class="top-l"><a class="logo" href="${u('/')}">${ICON_SVG}<span>${esc(cfg.name)}</span></a></div>
   <form class="search" action="${u('/search/')}" role="search">
     <input type="search" name="q" placeholder="&#128269; ${esc(tr('Search games'))}" aria-label="${esc(tr('Search games'))}" autocomplete="off">
   </form>
   <div class="top-r"><button class="theme-btn" type="button" data-theme-toggle aria-label="Switch light / dark mode" title="Light / dark mode"><span class="t-dark">&#127769;</span><span class="t-light">&#9728;&#65039;</span></button>
   <a class="sg-btn" href="${ur('/submit-game/')}" title="${esc(tr('Submit your game'))}"><i>&#128228;</i><span>${esc(tr('Submit your game'))}</span></a></div>
 </header>
+<nav class="topnav" aria-label="${esc(tr('Browse'))}"><a href="${u('/')}">🏠 ${esc(tr('Home'))}</a><a href="${u('/new/')}">🆕 ${esc(tr('New games'))}</a><a href="${u('/popular/')}">🔥 ${esc(tr('Most played'))}</a><a href="${ur('/our-games/')}">🫧 ${esc(tr('Our games'))}</a><span class="sep"></span>${activeCats.map(c => `<a href="${cHref(c.slug)}">${CAT_ICON[c.slug] || '🎮'} ${esc((catTr(c.slug) || {}).name || c.name)}</a>`).join('')}</nav>
 <div class="wrap">
-<nav class="side" aria-label="${esc(tr('Categories'))}">
-  <a href="${u('/')}"><i>🏠</i>${esc(tr('Home'))}</a>
-  <a href="${u('/new/')}"><i>🆕</i>${esc(tr('New games'))}</a>
-  <a href="${u('/popular/')}"><i>🔥</i>${esc(tr('Most played'))}</a>
-  <a href="${ur('/our-games/')}"><i>🫧</i>${esc(tr('Our games'))}</a>
-  <a href="${ur('/submit-game/')}"><i>&#128228;</i>${esc(tr('Submit your game'))}</a>
-  <hr>
-  ${activeCats.map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}</a>`).join('\n  ')}
-</nav>
 <main id="main">
 ${body}
 </main>

@@ -1,6 +1,6 @@
 :root{
   --bg:#0f1020;--bg2:#171932;--card:#1e2142;--line:#2b2f5a;--text:#eef0ff;--muted:#a3a8d6;
-  --accent:#ff3d6e;--topbg:#0f1020ee;--accent2:#ffd34d;--good:#3ddc97;--radius:14px;--side:220px;--top:60px;
+  --accent:#ff3d6e;--topbg:#0f1020ee;--accent2:#ffd34d;--good:#3ddc97;--radius:14px;--side:0px;--top:60px;
   color-scheme:dark;
 }
 *{box-sizing:border-box}
@@ -30,7 +30,7 @@ img{max-width:100%;display:block}
 .search.big input{padding:14px 20px;font-size:17px}
 
 /* layout */
-.wrap{display:flex}
+.wrap{display:block}
 .side{position:sticky;top:var(--top);height:calc(100vh - var(--top));overflow:auto;flex:0 0 var(--side);padding:12px 10px 40px;border-right:1px solid var(--line);scrollbar-width:thin}
 .side a{display:flex;align-items:center;gap:10px;padding:8px 12px;border-radius:10px;text-decoration:none;color:var(--muted);font-weight:600;font-size:14px}
 .side a:hover,.side a[aria-current]{background:var(--card);color:var(--text)}
@@ -311,3 +311,12 @@ table.cmp tbody th{white-space:nowrap}
 @media (max-width:1100px){.cat-row{grid-template-columns:200px minmax(0,1fr) 32px}.cat-games{grid-template-columns:repeat(4,minmax(0,1fr))}.cat-games .card:nth-child(5){display:none}.ct-fan{display:none}}
 @media (max-width:860px){.cat-row{grid-template-columns:1fr;gap:8px}.cat-tile{min-height:96px;flex-direction:row;align-items:center}.ct-text{padding:12px 14px;background:none;display:flex;align-items:center;gap:10px}.ct-text i{margin:0}.ct-text b{font-size:17px}.ct-fan{display:block;right:-30px;top:-18px;transform:scale(.7)}.cat-games{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.cat-games .card:nth-child(n+4){display:none}.cat-more{display:none}}
 :root[data-theme=light] .cat-more{background:#fff}
+
+/* one menu: a slim scrollable strip under the header (the left sidebar is gone) */
+.topnav{position:sticky;top:var(--top);z-index:29;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding:6px 16px;background:var(--topbg);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch}
+.topnav::-webkit-scrollbar{display:none}
+.topnav a{flex:none;padding:6px 12px;border-radius:999px;text-decoration:none;color:var(--muted);font-weight:600;font-size:13.5px;white-space:nowrap}
+.topnav a:hover,.topnav a[aria-current]{background:var(--card);color:var(--text)}
+.topnav .sep{flex:none;width:1px;background:var(--line);margin:4px 6px}
+.side,.menu-btn{display:none!important}
+main{max-width:1500px;margin:0 auto}
