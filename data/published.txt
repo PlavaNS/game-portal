@@ -397,6 +397,7 @@ ball-jump-switch-the-colors
 ball-packing-master-puzzle-fill-box
 ball-path-through-obstacles
 ball-run-2048-space
+ball-sort-2d
 ball-sort-game
 ball-sort-master-3d
 ball-sort-puzzle
@@ -692,6 +693,7 @@ boo-brew
 boo-chains
 boom-blast-puzzle-game
 boom-cell
+boom-chain
 boom-stick-bazooka-2-puzzles
 boombitz-bomb-chips
 boomix
@@ -852,6 +854,7 @@ build-a-go-kart
 build-a-keycap-pyramid
 build-a-road
 build-a-rollercoaster-simulator
+build-a-skyscraper
 build-an-aquapark
 build-an-island
 build-and-defend-your-base
@@ -868,6 +871,7 @@ bullet-army-run
 bullet-factory
 bullet-loop
 bullet-man-3d-online
+bullet-man-master-3d
 bullet-storm
 bullet-swarm-runner
 bullets-master
@@ -1090,6 +1094,7 @@ catch-a-fish-obby
 catch-cats
 catch-it-santa-the-toy-rescuer
 catch-penguins
+catch-reindeer
 catch-the-bear
 catch-the-cat
 catch-the-roober
@@ -1127,6 +1132,7 @@ check-wednesday-phone
 checkmate
 cheerleader-magazine-dressup
 cheese-collector-rat-runner
+cheese-tower
 chef-tycoon
 chernobyl-zombie-hell
 chess-3d
@@ -1281,6 +1287,7 @@ color-loom-puzzle
 color-match-rush
 color-mosaic
 color-parking-drifter
+color-pixel-flow
 color-pixels-coloring-by-numbers
 color-race-obby
 color-ring-sorting-match
@@ -1427,6 +1434,7 @@ crazy-plane-shooter
 crazy-plinko
 crazy-room-3d
 crazy-runner-boy
+crazy-sea-battle
 crazy-sheep
 crazy-supercars-stunt-2022
 crazy-three-puzzle
@@ -1487,6 +1495,7 @@ cube-match-logic
 cube-merge-game
 cube-quiz
 cube-rivals
+cube-rush-3d-survive-the-rush
 cube-shooter
 cube-smash
 cube-snake-2048
@@ -1526,6 +1535,7 @@ cute-tiles-mahjong
 cutter-woodsman-game
 cyber-arrows-brain-puzzle-game
 cyber-city-driver
+cyber-dash-2
 cyber-truck-drive-simulator
 cyberpunk-block-puzzle
 cycle-racing-game
@@ -1557,6 +1567,7 @@ dd-bubble-up
 ddzombiescoming
 dead-city-zombie-survival
 dead-end-depot
+dead-jungle-game
 dead-land-survival
 dead-lands-driver-open-world
 dead-paradise
@@ -1580,6 +1591,7 @@ deep-worm
 deeper-crystal-descent
 deepglow
 deepstone-idle-miner-clicker
+defence-wall
 defend-military-base
 defend-the-castle
 defender-tanks-merge
@@ -1910,6 +1922,7 @@ emoji-line-puzzle
 emoji-math-quiz
 emoji-memory-find-a-pair
 emoji-skill-puzzles
+emoji-sliding-down
 emoji-solitaire
 empire-estate-pro
 empire-tower-defense-zombie-fortress
@@ -2060,6 +2073,7 @@ fat-2-fit-online
 fat-duck-frenzy
 fat-hedgehog-boris
 fat-or-thin
+fatty-bird
 favorite-puzzles
 feather-dash
 feed-my-monster
@@ -2398,6 +2412,7 @@ gears-of-war-platformer
 geek-escape-run-for-survival
 gelatino
 gem-clicker
+gem-legends
 gem-mahjong
 gemcrash
 gems-sort-puzzle
@@ -2428,6 +2443,7 @@ get-10
 get-10-ultimate
 get-a-screw-puzzle
 get-on-top-touch
+get-rich-in
 get-tall-and-fall
 getting-over-it
 ghost-guard
@@ -2629,6 +2645,7 @@ hand-over-hand
 handless-millionaire
 hangman-2-4-players
 happy-birthday-party-game
+happy-cat
 happy-color-sort-puzzle
 happy-coloring-book
 happy-corals
@@ -3012,6 +3029,7 @@ joy-tiles-easy
 joyful-ball
 juice-sort-puzzle
 juice-tycoon
+juicy-crush-saga
 juicy-run
 juicyjong
 jumen
@@ -3520,6 +3538,7 @@ merge-to-agi
 merge-wall-last-stand
 mergemaster-dragonets
 mergemma
+merges-numbers
 mergetopia
 mergetrainlastrail
 mermaid-coloring-book-glitter
@@ -3953,6 +3972,7 @@ number-quest
 number-run-3d-casual-game
 number-sums
 numbers-match-2448
+numeral-crawl-easy
 numicolor
 nummerge-clash
 numorapuzzle
@@ -4047,6 +4067,7 @@ obby-warriors-of-the-sword
 obby-way
 obby-weapon-rush
 obbytycoon-money-tycoon
+object-73-survival-clicker
 obunga-nextbot-spot-difference
 ocean-blast-block-puzzle
 ocean-dash
@@ -4966,6 +4987,7 @@ sheeps-herd-them-all
 shifted-realms
 shikaku-puzzle
 shinobi-swarm
+shoe-outlet
 shoe-race
 shoes-outlet-game
 shoot-and-sprint-warfare
@@ -5539,6 +5561,7 @@ subby-quest
 subway-clash-3d
 subway-princess-run
 subway-santa-princess-runner
+subway-spider-kid-game
 subway-surfer-bali
 subway-surfer-seoul
 subway-surfers-cambridge
@@ -5570,6 +5593,7 @@ sunny-farm-animal-simulator
 sunny-farm-match-3
 sunny-spell
 supa-tic-tac-toe
+super-alien-rabbit
 super-ball-blast
 super-basketball
 super-bike-racing
@@ -5773,6 +5797,7 @@ tcg-shop-maps-toys-and-comics
 team-loyalty
 team-men
 tech-match
+techtiles
 telekinesis-attack
 telekinetic-pumpkin
 temple-quest
@@ -6227,6 +6252,7 @@ water-race-game
 water-sort-master-color-puzzle
 water-sort-puzzle-3
 water-sort-solve-puzzles
+watermeleon-drop-puzzle
 watermelon-falling-animals
 watermelon-fruit-2048
 watermelon-game
@@ -6259,6 +6285,7 @@ wheelchair-parkour-no-limits
 wheelie-bike-for-2-players
 where-are-the-puffies
 where-is-my-cat-the-adventure
+whimsy-workshop-easy
 whirly
 whiskers-adventures
 who-says-pigs-can-t-fly
@@ -6269,6 +6296,7 @@ wild-animal-hospital-vet-doctor
 wild-camp
 wild-fusion
 wild-horse-simulator-racing-games
+wild-island-quest
 wild-love
 wild-manager
 wild-west-gun-game
@@ -6336,6 +6364,7 @@ word-search-and-quiz
 word-search-hidden-words
 word-search-offline-puzzle
 word-search-universe-animals
+word-shards
 word-shuffle
 word-solitaire
 word-string
@@ -6375,6 +6404,7 @@ worms
 worms-zone
 wrecking-ball-tycoon
 wrench-and-roll
+wrong-side-driving-car-game
 ww2-call-of-sniper
 ww2-modern-war-tanks-1942
 xmas-rooftop-battles
