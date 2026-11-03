@@ -387,6 +387,7 @@ baggage-out
 baker-city-family-bakery
 ball-attack
 ball-bounce-try-it
+ball-chain-blast
 ball-connect
 ball-io
 ball-jump-switch-the-colors
@@ -427,6 +428,7 @@ basement
 basket-ball-for-two-player
 basket-battle
 basket-champs
+basket-fill-ball-puzzle
 basket-random
 basket-sort-puzzle
 basket-sport-stars
@@ -501,6 +503,7 @@ beep-out
 ben-10-alien
 ben-10-alien-onslaught
 ben-10-run
+ben-5-difference
 ben10-omnirush
 best-buds
 besties-chinese-new-year-celebration
@@ -592,6 +595,7 @@ block-ice-puzzle
 block-island-destroyer
 block-master-gem-puzzle
 block-match-3d
+block-party-blast
 block-party-obby-robby-mini-games
 block-push-game
 block-puzzle-brain-blast
@@ -616,6 +620,7 @@ blockgunner
 blockibo-color-blocks
 blockivo
 blocks-adventure-jungle-saga
+blocks-and-car
 blocks-merge
 blocks-move-hit-pro
 blocks-move-n-hit
@@ -803,6 +808,7 @@ bubble-merge-2048
 bubble-merge-2d
 bubble-pop-legend
 bubble-rush
+bubble-shooter-challenge
 bubble-shooter-classic-online
 bubble-shooter-island-quest
 bubble-shooter-mega
@@ -1413,6 +1419,7 @@ crazy-sheep
 crazy-supercars-stunt-2022
 crazy-three-puzzle
 crazy-truck-stunt-i-o
+creamlink-kids
 create-your-robot
 create-youre-obby-skin
 creative-puzzle
@@ -1422,9 +1429,11 @@ cricket-championship
 cricket-hero
 cricket-mania
 cricket-smash-3d
+crime-scene-cleaner-mobile-3d
 criss-cross-colors
 crittermatch
 crocodile-online-draw-and-guess
+croplink
 crossmath-challenge
 crosstile
 crosswords-big-collection
@@ -1434,6 +1443,7 @@ crowd-runner
 crowd-runner-3d
 crowd-rush
 crowd-rush-game
+crowd-titan
 crowdgate
 crown-and-crafts
 crown-guard
@@ -1461,6 +1471,7 @@ cube-drop-puzzle
 cube-drop-puzzle-match-color
 cube-island-3d
 cube-match-logic
+cube-merge-game
 cube-quiz
 cube-rivals
 cube-shooter
@@ -2021,6 +2032,7 @@ fast-and-wild-in-sky
 fast-ball-jump
 fast-car-top-speed
 fast-connect-one-line-blitz
+fast-food-cooking
 faster-car-race
 fastlane-revenge-online
 fastlane-road-to-revenge
@@ -2081,6 +2093,7 @@ find-your-gender
 finger-soccer-footbal-game
 finger-soccer-tournament
 finnie-escape
+fire-balls-shoot-3d
 fire-boy-run-adventure
 fire-girl-and-water-boy-candy-forest
 fire-hose
@@ -2232,6 +2245,7 @@ fragment
 frame-agent-hidden-object-puzzle
 freaky-monster-rush
 freddys-return-village-escape
+free-fall-game
 free-kick-challenge-2026
 freekick-hero
 freight
@@ -2289,6 +2303,7 @@ full-space-shooter
 fun-arrow-fall
 fun-draw-race-3d
 fun-fishing
+fun-jigsaw-puzzle
 fun-jigsaw-puzzle-game
 fun-race-car-3d
 fun-ragdoll-challenge-mini-games-collection
@@ -2965,6 +2980,7 @@ johnny-trigger-3d-online
 join-clash-3d
 join-clash-epic-battle
 join-the-gang-and-fight
+joy-tiles-easy
 joyful-ball
 juice-sort-puzzle
 juice-tycoon
@@ -3181,6 +3197,7 @@ lipuzz-water-sort-puzzle
 liquid-color-sort
 liquid-sort
 liquid-sort-puzzle
+lisa-s-world-paper-doll-story
 little-big-fighters
 little-city-merge
 little-cute-summer-fairies-puzzle
@@ -3343,6 +3360,7 @@ match-3-forest-crew
 match-3d-puzzle-mania
 match-4
 match-challenge
+match-colors-game
 match-master
 match-mystery
 match-nonstop
@@ -3833,6 +3851,7 @@ ninja-escape-2
 ninja-gorilla-jigsaw-puzzle
 ninja-hero-cats
 ninja-in-cape
+ninja-jump-kids
 ninja-obby-parkours
 ninja-obby-speed-run
 ninja-on-the-run
@@ -3841,6 +3860,7 @@ ninja-platformer-rage
 ninja-rabbit
 ninja-samurai-runner-online
 ninja-survival-simulator
+ninja-toy-match
 ninja-vs-ragdolls-sharp-knife-throw
 ninjas-blade
 ninjas-return
@@ -4185,6 +4205,7 @@ perfect-turn-game
 perfect-wax-3d
 perimeter-legate-edition
 pet-card-sort
+pet-clinic
 pet-doctor-caring-game
 pet-maze-escape
 pet-riders
@@ -4254,6 +4275,7 @@ pixel-shooter-puzzle
 pixel-tower
 pixelblock
 pixzombies
+pizza-craft-game
 pizza-delivery-drive-and-deliver-hot
 pizza-maker-food-cooking-games
 place-it-right
@@ -4465,6 +4487,7 @@ race-on-cars-in-moscow
 race-rocket-arena-car-extreme
 race-through-traffic
 racing-ball-3d
+racing-cars-puzzle-time
 racing-crash-jigsaw
 racing-destruction-and-chase
 racing-horizon
@@ -4750,6 +4773,7 @@ russian-drift-overtaking-in-the-city
 rustlings-online
 ruthless-merciless-cards
 safari-merge
+safarirun
 safe-box-crack
 safety-sheriff-labrador
 saguaro
@@ -5167,6 +5191,7 @@ sorting-ball-quiz
 sorting-cute-animals
 sorting-games-toy-sort
 sorting-nuts-and-bolts-by-color-home-repair
+sorting-nuts-puzzle-game
 sorty-bolty
 spa-with-daddy
 space-blast
@@ -5283,6 +5308,7 @@ squid-stacky-maze
 squid-sugar-cooking
 squidgame-io
 squidly-game-123-stop
+squirel-steps
 squishy-clicker
 squishy-sheep
 stack-colors
@@ -5297,10 +5323,12 @@ stacky-bird
 stacky-dash
 stacky-dash-nail
 stacky-hero-master-game
+stacky-maze-game
 stage-show-designer
 stair-ball
 stair-race-3d
 staircase-to-heaven
+stairs-races-for-2-players
 stairs-trivia
 stalker-2033-the-path-of-the-survivor
 stampede-evolution
@@ -5608,6 +5636,7 @@ sweet-screw-factory
 sweet-solve
 sweet-supermarket-simulator
 sweetflip
+sweetstack
 swerve-rush
 swiftslow
 swim-or-die
@@ -5792,6 +5821,7 @@ ticktock-puzzle-challenge
 tictoc-urban-outfits
 tidal-kart
 tide-and-powder
+tidematch
 tideroll-block-puzzle
 tidewell
 tidy-bot
@@ -5871,6 +5901,7 @@ tower-siege
 tower-tap
 towers-505
 town-builder-inc
+toxic-arena-biological-threat
 toy-block-blast
 toy-factory-conveyor
 toy-smash
@@ -6005,6 +6036,7 @@ ultimate-pk
 ultimate-robo-duel-3d
 ultimate-stunt-car-challenge
 ultra-crash-car-simulator-2026
+ultra-shot
 ultraman-monster-island-adventure-2
 unblock-ball-slide-puzzle-2
 unboxing-brainrots
