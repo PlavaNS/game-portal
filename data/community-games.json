@@ -98,5 +98,60 @@
     "embed": "https://sundryard.com/louvers/play/",
     "thumb": "https://ilovewebgames.com/assets/community/louvers.jpg?v=1",
     "orientation": "landscape"
+  },
+  {
+    "slug": "snowball-fight-online",
+    "title": "Snowball Fight Online",
+    "studio": "Panda Games",
+    "studioUrl": "https://snowfight.pandagames.io/",
+    "added": "2026-11-03",
+    "short": "Fast 3D snowball battles in your browser: free-for-all or team battle, power-ups, skins and a daily leaderboard.",
+    "description": "Snowball Fight Online drops you into a snowy 3D arena where everyone is throwing. Pick free-for-all, where the last snowballer standing wins, or a 10-vs-10 team battle, and jump into a room that is already running. Walk with WASD, aim with the mouse and throw; snowballs run out, so stand still for a moment to pack more. Glowing items on the ground give power-ups you fire with Q or E. There are several maps in rotation, including a Halloween graveyard, 12 characters to unlock, emotes, a chat and a daily and weekly leaderboard. It plays instantly in the browser with no download and no account, and you can save your progress to pick it up in another browser.",
+    "instructions": "Move with W A S D or the arrow keys. Point the mouse at a target and click to throw a snowball. Stand still for a moment to pack more snow when you run out. Walk over glowing items to pick up power-ups and press Q or E to use them. Keys 1 to 6 are emotes, Enter opens the chat, M mutes.",
+    "category": "action",
+    "extraCats": [
+      "multiplayer",
+      "3d",
+      "shooting"
+    ],
+    "tags": [
+      "Snowball",
+      "Battle",
+      "Multiplayer",
+      "3D",
+      "Arena",
+      "Winter",
+      "Christmas"
+    ],
+    "embed": "https://snowfight.pandagames.io/play/",
+    "thumb": "https://snowfight.pandagames.io/og-image.jpg",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "lemonade-tycoon",
+    "title": "Lemonade Tycoon",
+    "studio": "Panda Games",
+    "studioUrl": "https://lemonadetycoon.pandagames.io/",
+    "added": "2026-11-03",
+    "short": "Run a lemonade stand in a sunny 3D park, tune the recipe to the weather and grow it into a citywide chain.",
+    "description": "Lemonade Tycoon is a relaxed 3D idle tycoon game. You start with one little cart in a city park, mix your lemonade (ice, lemon and sugar) to match the day's weather, set the price and watch the customers line up. Every day brings a new forecast and sometimes a park event that sends extra crowds your way. Earnings go into upgrades for the stand, promotions and eventually new shops across the city. Daily tasks, a login reward streak and a chest for finishing all tasks give you a reason to come back, and the stand keeps selling while you are away. It runs in the browser with no download and no sign-up, and your progress is saved.",
+    "instructions": "Click Open now to start the day. Use the Recipe button to adjust ice, lemon and sugar for the weather, Upgrades to improve the stand, Promote to bring in more customers and City to open new shops. Check the Daily tab for today's tasks and rewards.",
+    "category": "clicker-idle",
+    "extraCats": [
+      "casual",
+      "kids"
+    ],
+    "tags": [
+      "Tycoon",
+      "Idle",
+      "Lemonade",
+      "Business",
+      "Management",
+      "3D",
+      "Relaxing"
+    ],
+    "embed": "https://lemonadetycoon.pandagames.io/play/",
+    "thumb": "https://ilovewebgames.com/assets/community/lemonade-tycoon.jpg?v=1",
+    "orientation": "landscape"
   }
 ]
