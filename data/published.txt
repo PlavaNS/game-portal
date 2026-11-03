@@ -239,6 +239,7 @@ ant-swarm-io
 anti-spider-run
 anti-stress-planet-games
 anti-terrorist-shooting-game
+antistress-relaxation-toys
 antistress-relaxation-toys-mini-games
 ants-ate-my-pixels
 ants-clear-all-color-block-puzzle
@@ -688,6 +689,7 @@ blue-chameleon
 blue-tractor
 bluecatch
 blumgi-merge-online
+blush-fashion-girl-room
 bmg-crash-test
 bmg-crashday-2025
 bmg-ragdoll-car-race
@@ -831,6 +833,7 @@ bridge
 bridge-bounce-jump-challenge
 bridge-builder-3d
 bridge-builders
+bridge-cleaner-runner-game
 bridge-dash
 bridge-fun-race
 bridge-race
@@ -861,6 +864,7 @@ bubble-merge-2048
 bubble-merge-2d
 bubble-pop-legend
 bubble-rush
+bubble-shooter-blast-mania
 bubble-shooter-challenge
 bubble-shooter-classic-online
 bubble-shooter-island-quest
@@ -870,6 +874,7 @@ bubble-shooter-pet-match-3
 bubble-shooter-squirrel-rescue
 bubble-shooter-tap-and-pop
 bubble-shooter-vale
+bubble-shooting-pro-fun
 bubble-smash
 bubble-sorting-game
 bubble-stars-boxes-sirius-and-najia
@@ -880,6 +885,7 @@ bubble-war
 bubble-word-jam
 bubbles-blast
 bubbles-clicker
+bubblestack
 bucket-ball
 bucket-brigade
 bucket-crusher-asmr
@@ -1351,6 +1357,7 @@ color-pop-mania
 color-race-obby
 color-ring-sorting-match
 color-roll-3d
+color-screw-3d
 color-screw-rescue-puzzle
 color-shot-throw-the-ball
 color-snake-3d-online
@@ -1362,6 +1369,7 @@ color-sorting-rooms
 color-the-room
 color-tower-2-drop-the-boxes-3d
 color-water-sort-3d
+colordock
 colored-water-and-pin
 colored-water-and-pin-33546
 colorful-cubes
@@ -1622,6 +1630,7 @@ daddy-escape
 daddy-mouse
 daddy-rabbit
 daily-bento-organizer
+daily-street-racing-3d
 dama-stars
 dancing-road
 dangerous-turn
@@ -1790,6 +1799,7 @@ don-t-touch-the-red
 don-t-whack-your-boss
 dont-be-angry-with-match-man
 dont-break-my-heart
+dont-get-crashed-by-67
 dont-panic-dude
 donut-art-puzzle-diamond-game
 donut-ready-business-tycoon-game
@@ -1966,6 +1976,7 @@ durak
 dusk-warz
 dye-it-right-color-picker
 e-rickshaw-simulator
+earth-dunk-physics-arcade-game
 easter-funny-makeup
 easter-match-3-saga
 easy-apple-coloring-book
@@ -2146,6 +2157,7 @@ farm-care-tycoon
 farm-clear-the-jam
 farm-defenders
 farm-escape-puzzle-game
+farm-fresh-fix
 farm-mart
 farm-nubik-vs-zombies
 farm-vegetable-link
@@ -2200,6 +2212,7 @@ figure-skating-on-ice
 fill-line-cover-every-cell
 fill-line-one-line-puzzle-game
 fill-the-glass-puzzle
+fill-the-glass-with-juice
 fill-the-heart
 fill-the-hopper
 fill-the-lines
@@ -2591,6 +2604,7 @@ glam-doll-salon-makeup-and-dressup-game
 glam-dressup-girls-games
 glam-guru-puzzle-collection
 glauron-dragon-tales
+gliding-over-dunes
 glim-and-glo
 glimmer
 global-football-manager-2026-2027
@@ -2847,6 +2861,7 @@ help-police
 help-tricky-story-a-complicated-story
 hero-city
 hero-defense-king
+hero-jump-city-nights
 hero-monster-battle-game
 hero-rescue
 hero-rescue-gold-glory
@@ -2986,6 +3001,7 @@ horizon-racer
 horror-sniper-clown-ghost
 horse-racing
 horse-simulator-3d
+hose-money-robber
 hospital-doctor
 hospital-inc
 hospital-surgeon-doctor-game
@@ -3000,6 +3016,7 @@ hotfoot-baseball
 hotgear
 house-paint-challenge
 hover-shift-craft-racer
+how-high
 how-many-mice
 huehearts
 hugi-wugi
@@ -3372,6 +3389,7 @@ leg-soccer
 legends-arena
 legions-way-of-war
 legiontide-army-runner
+lemonade-seller-simulator
 let-me-in
 let-s-kill-jeff-the-killer-jeff-s-revenge-2020
 lets-kill-evil-nun
@@ -4038,6 +4056,7 @@ neko-s-adventure
 nekomi-recuse
 neo-traffic-rider-championship
 neon-billard-pool
+neon-blaster
 neon-circuit
 neon-circuit-rush
 neon-city-drift-racing
@@ -4496,6 +4515,7 @@ pin-puzzle-love-story
 pin-puzzle-save-the-sheep
 pin-rescue
 pinata-color-smash
+pinball-3026
 pinball-boy-adventure
 pinball-football-kids
 ping-pong-3d
@@ -4737,6 +4757,7 @@ puzzlemaster
 pyramid
 pyropairs
 qblock-puzzle
+quack-quest
 quackventure
 quarantine-rush
 quarterback
@@ -5055,6 +5076,7 @@ runner
 runner-coaster-race
 runner-garden-game
 runner-soldiers
+running-from-a-hungry-tiger
 running-roadball
 rush-rivals
 russian-car-drift-3d
@@ -5166,6 +5188,7 @@ screw-master-3d-pin-puzzle
 screw-master-nuts-and-pin-jam
 screw-match
 screw-nuts-snap-puzzle
+screw-out-3d-relax-unwind
 screw-out-jam-puzzle
 screw-sort-3d
 sea-kings
@@ -5451,12 +5474,14 @@ soccer-battle-online
 soccer-championship-2023-html5
 soccer-dash
 soccer-drop-game
+soccer-duel
 soccer-hero
 soccer-heroes
 soccer-legends-2026
 soccer-mini-3d
 soccer-random
 soccer-rebound
+soccer-simulator
 soccer-strike
 soccer-trainer
 soccerlat-3d-football-online
@@ -5724,6 +5749,7 @@ sticker-art-book-puzzle
 sticker-book-puzzle-color-by-number
 sticker-jam-peel-off-and-match
 stickerball
+stickhero-love-stickgirl
 stickman-3d-legacy-of-war
 stickman-archer-assassin
 stickman-archer-bow-fight
@@ -5992,6 +6018,7 @@ swiftslow
 swim-or-die
 swimming-pool-romance
 swing-obby-for-brainrots
+swipe-box-physics-arcade-game
 swipe-swoosh
 swipy-basketball
 switch-colors
@@ -6213,6 +6240,7 @@ tiles-collect-3-fruits
 tiles-hop-edm-rush
 tiles-layer
 tilt-and-tumble
+tilt-it-addictive-arcade-skill-game
 timber-squirrel
 timber-truck-city-cargo-driver
 time-of-adventure-finno-and-jacky
@@ -6455,6 +6483,7 @@ urban-echo
 urban-farm-simulator-game
 urban-jump
 urban-military-strike
+urban-riot-blaster
 urban-siege-line
 urban-sniper-multiplayer
 urban-sniper-multiplayer-2
@@ -6547,6 +6576,7 @@ wars-tanks-2022
 wash-master
 washing-toilets
 wasteland-hunter-puzzle-rpg
+water-ball-sorting-puzzle
 water-city-racers
 water-me-please
 water-race-game
