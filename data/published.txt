@@ -64,6 +64,7 @@
 3d-formula-racing-pro-edition
 3d-fps-target-shooting
 3d-laane-runner
+3d-mini-curling
 3d-police-car-parking
 3d-pool-mania
 3d-pyramid-maze
@@ -99,6 +100,7 @@ abandoned-mansion
 aberiel-church-jigsaws
 about-a-frog
 abyss-muncher
+abyss-sweeper
 abyssborn
 ace-brawl-battle-3d
 ace-car-racing
@@ -203,6 +205,7 @@ animal-basketball
 animal-blocks
 animal-boxing
 animal-bubble-blast
+animal-bubble-pixel
 animal-care-tycoon
 animal-clinic-anomaly
 animal-daycare-game
@@ -459,6 +462,7 @@ bandana-blitz
 bandits-bane
 bank-robbery-puzzle
 bank-robbery-puzzle-shooter
+bank-robbery-sneak-master
 bank-tycoon-simulator-money-empire
 baolings-mystery-dumpling-unbox
 barber-shop-hair-salon-sim
@@ -548,6 +552,7 @@ ben-10-run
 ben-5-difference
 ben-car-adventure
 ben10-omnirush
+berry-bury-berry
 best-buds
 best-sweet-candy-shop
 besties-chinese-new-year-celebration
@@ -756,6 +761,7 @@ bottle-bottle
 bottle-breakshot
 bottle-color-match-challenge
 bottle-flip-game
+bottle-storm-elite-beach
 bounce-ball-hook
 bounce-ball-timer
 bounce-blast
@@ -1151,6 +1157,7 @@ cat-box-merge
 cat-chaos-simulator
 cat-city
 cat-clicker
+cat-doctor-save-my-cat
 cat-escape
 cat-escape-hide-and-seek
 cat-from-hell-cat-simulator
@@ -1362,6 +1369,7 @@ color-brick-battle
 color-bridge-builder-puzzle
 color-bubble-shooter
 color-by-numbers-anti-stress-drawings
+color-circle
 color-coin-merge
 color-connect-3d
 color-cube-puzzle
@@ -1659,6 +1667,7 @@ daily-bento-organizer
 daily-street-racing-3d
 dama-stars
 dancing-road
+danger-road-game
 dangerous-turn
 dark-ages-beat-em-up
 dark-assassin
@@ -2908,6 +2917,7 @@ helix-hover
 helix-rush
 hellforge-demon-protocol
 hellgate-1993
+hello-cat-2026
 help-car-out-traffic-parking
 help-me-tricky-puzzle-games
 help-me-tricky-story
@@ -3153,6 +3163,7 @@ idle-warrior-tales
 idle-zombie-wave
 idle-zoo
 idle-zoo-tycoon
+idlle-cat-merge
 igi-commando-mission-cover-the-fire
 important-math-cards
 impossible-bus-stunt-3d
@@ -3490,6 +3501,7 @@ liquid-sort-deluxe
 liquid-sort-puzzle
 lisa-s-world-paper-doll-story
 little-big-fighters
+little-cat-doctor-2026
 little-city-merge
 little-cute-summer-fairies-puzzle
 little-dentist-for-kids-3
@@ -3943,6 +3955,7 @@ monster-makeup-3d
 monster-man-rush
 monster-match-mania
 monster-merge-legends-alive
+monster-rampage-city
 monster-rush-evolution
 monster-school-challenges
 monster-slayer-idle-clicker
@@ -4148,6 +4161,7 @@ neon-square-rush
 neon-striker
 neon-switch
 neon-velocity
+neon-void-galactic-war
 neonroll
 nest-heist
 netherton-volleyball
@@ -4687,6 +4701,7 @@ police-car-parking-2026
 police-car-parking-game
 police-car-stunt-challenge
 police-chase-car-crash-3d
+police-chase-car-simulator
 police-chase-gate-runner
 police-chase-run
 police-chase-simulator
@@ -4698,6 +4713,7 @@ police-mom-simulator
 police-stunt-cars
 police-transport-game
 poligon-war-zombie-apocalypse
+poly-jumper
 polybounce-tycoon
 polygon-flight-simulator
 pondhero
@@ -4857,6 +4873,7 @@ queens
 quick-draw-cowboys
 quick-math
 quick-maths
+quicksolve
 quizmania-trivia-game
 quizmasters
 rabbit-carrot
@@ -5132,6 +5149,7 @@ ropeman-3d
 roshambo
 rossroads
 rotate-cups
+rotate-ring-game
 rotate-to-escape
 rotating-bones-3d
 rotating-pomni
@@ -5303,6 +5321,7 @@ seven-down
 shadeo
 shadobirds
 shadow-adventure
+shadow-combat
 shadow-duel
 shadow-escape
 shadow-fights
@@ -5633,6 +5652,7 @@ sorty-bolty
 spa-with-daddy
 space-adventure-game
 space-aim-kids
+space-arena
 space-blast
 space-break
 space-cleaner
@@ -6145,6 +6165,7 @@ tactical-response-team
 tag-valley
 taiga-expedition
 tailoff-io-snake-dragon-arena
+talkback-cat
 talking-veggies-meme-merge
 tall-and-rush
 tall-grass
@@ -6198,6 +6219,8 @@ target-gun-game-fps-shooting
 target-hit-shooting-range
 targetter-game
 tasty-out-arrow-puzzle
+tastyfarm
+tatu-bounce
 tavern-cardsharp
 taxi-driver-las-vegas
 taxi-driver-simulator
@@ -6330,6 +6353,7 @@ tidydeck-sort-puzzle
 tie-dye-game
 tiger-coloring-book
 tiger-tank
+tile-2-match
 tile-farm-story
 tile-harvest-3d
 tile-hill-descent
@@ -6395,6 +6419,7 @@ tornado-67
 tornado-fury-of-the-elements
 torture-the-trollface
 toss-the-ring
+total-sweep
 touch-candy
 touch-draw-game
 tower-blocks-deluxe-3d
@@ -6424,6 +6449,7 @@ tracoria-draw-color-and-match
 tractor-drift-3d
 tractor-farm-farming-simulator
 tractor-farming-farmer-life-game
+tractor-farming-simulation-3d
 tractor-simulator-farming-game
 tractor-trial
 trading-fidget-master
@@ -6633,6 +6659,7 @@ vehicle-parking-master-3d
 vehicle-stunt-mayhem
 vehicle-stunts-sky-sim
 vehicle-transport-police-simulator
+velocity-breaker
 velopter
 vexon
 viaducts
@@ -6820,6 +6847,7 @@ word-safari
 word-search-and-quiz
 word-search-hidden-words
 word-search-offline-puzzle
+word-search-universe-2
 word-search-universe-animals
 word-search-universe-easter
 word-shards
@@ -6863,6 +6891,7 @@ worms
 worms-zone
 wrecking-ball-tycoon
 wrench-and-roll
+wrestling-revolution-arena
 wrong-side-driving-car-game
 ww2-call-of-sniper
 ww2-modern-war-tanks-1942
@@ -6925,6 +6954,7 @@ zombie-check-survival-shelter
 zombie-city-polygon-survival
 zombie-colosseum
 zombie-defence
+zombie-defense-last-stand
 zombie-derby-2
 zombie-drift-steel-rage
 zombie-grave-yard
