@@ -197,6 +197,7 @@ angry-sharks
 angry-zombies-in-sight
 animal-basketball
 animal-blocks
+animal-boxing
 animal-care-tycoon
 animal-clinic-anomaly
 animal-daycare-game
@@ -294,6 +295,7 @@ arrow-rescue
 arrow-rope-maze
 arrow-shift-logic-tree
 arrow-survival-15-seconds
+arrow-swipe-game
 arrow-tap-game
 arrowgami-arrow-puzzle
 arrows-dream-home-design
@@ -561,6 +563,7 @@ bikkings-brothers-to-valhalla
 billiard-challenge
 billiard-hustlers
 billiards-3d-russian-pyramid
+billy-the-kid-2
 binary-balls
 binary-drop
 bingo-mania
@@ -1258,6 +1261,7 @@ cliff-boi-trap-adventure
 climate-activist
 clock-head
 close-ads
+cloud-hopper
 cloudburg-sky-farm
 cloudline-connect
 clown-fiesta
@@ -1496,6 +1500,7 @@ crowd-rush-game
 crowd-titan
 crowdgate
 crown-and-crafts
+crown-crusher
 crown-guard
 cruel-fable
 crumb-bandit
@@ -1553,6 +1558,7 @@ cut-my-candy
 cut-rope-2026
 cute-animal-puzzle-game
 cute-animal-world
+cute-craft-lab
 cute-family-shopping
 cute-farm-match-puzzle
 cute-little-dragon-creator
@@ -1581,6 +1587,7 @@ dark-ages-beat-em-up
 dark-assassin
 dark-boy
 dark-city-multiplayer
+dark-runner
 dark-sector-kids
 dark-war
 dark-world
@@ -1768,6 +1775,7 @@ double-heist-rob-the-robbers
 downhill-car-ride-crash-test
 downhill-christmas-dash
 dr-psycho-hospital-escape
+dracula-run
 draft-arena-battle-cards
 drag-me-ow
 drago-warrior-tower-defense
@@ -2080,6 +2088,7 @@ fantasy-soccer-manager
 fantasy-star-pinball
 far-island-tactical-warfare
 far-orion-new-worlds
+farm-animal-sort-puzzle
 farm-around
 farm-business-saga
 farm-care-tycoon
@@ -2168,6 +2177,7 @@ find-the-vampire
 find-visitors-99-nights
 find-your-gender
 finding-redpanda
+findthedifferent
 finger-soccer-footbal-game
 finger-soccer-tournament
 finnie-escape
@@ -2208,6 +2218,7 @@ fishing-hunting-game
 fishing-island
 fishing-online
 fishtopia
+fishy-feast
 fit-in-the-wall
 fit-master-3d
 fitness-club-tycoon
@@ -2565,10 +2576,12 @@ good-sort-master-triple-match
 good-sorting-puzzle-game
 goodnight-my-baby
 goods-master
+goods-sort
 goods-sort-3d
 goods-sort-3d-triple-puzzle
 goods-sort-match-puzzle
 goods-sorting-shopping-master
+goods-sorting-shopping-master-2
 goods-triple-sort
 gooey-lab
 gorbo-the-orc-crown-quest
@@ -2603,6 +2616,7 @@ grave-necromancer-mortician
 graveyard-wars-two-player
 gravity-football
 gravity-shift-sky-racers-gt
+gravity-shift-space-edition
 gravity-speed-run
 gravix
 grayscale
@@ -2652,6 +2666,7 @@ gun-festival-shoot
 gun-merge-mr-bullet
 gun-shooter
 gun-shooting-game
+gun-shooting-games-sniper-3d
 gun-strike-runner
 gun-trigger
 gungame-paintball-wars
@@ -2944,6 +2959,7 @@ hydrasword
 hydro-racing-3d
 hyper-cars-ramp-crash
 hyper-wave-trial
+hypnotic-zombie-escape-endless-jump
 i-am-cake-no-cats
 i-am-crazy-bird
 i-can-paint
@@ -3781,6 +3797,7 @@ moon-league-sports-season
 moon-potato-clicker
 moonshine-runners-samogonki
 mordecai-and-rigby-easter-holiday
+morph-racers
 morphit
 mortal-brothers-survival-friends
 mosaicat
@@ -4064,6 +4081,7 @@ nut-sort-build-the-city
 nutcracker-new-years-adventures
 nuts-and-bolts-game-wood-puzzle
 nuts-bolts-sort
+nuts-color-sorting-game
 nuts-puzzle-sort-by-color
 nutty-rush
 nutty-rush-kart
@@ -4396,6 +4414,7 @@ pixel-art-color-by-numbers
 pixel-car-memory-quest
 pixel-color-flow
 pixel-color-quest
+pixel-commando
 pixel-conquest
 pixel-dash-neon-run
 pixel-destroyer
@@ -4464,6 +4483,7 @@ police-chase-run
 police-chase-simulator
 police-drift-escape
 police-gangster-chase
+police-here
 police-mom-simulator
 police-stunt-cars
 police-transport-game
@@ -4577,6 +4597,7 @@ pumpkin-dungeon-of-doom
 pumpkin-fright-night
 pumpkin-ninja
 pumpkin-wheel
+punch-champions
 punch-superhero
 punch-the-wall
 punch-through
@@ -5085,6 +5106,7 @@ sheep-simulator-animal-games
 sheep-sort
 sheepdoku
 sheeps-herd-them-all
+shell-strikers-1
 shifted-realms
 shikaku-puzzle
 shinobi-swarm
@@ -5372,6 +5394,7 @@ space-destroyer
 space-obby
 space-painters-deluxe
 space-rolling-balls-race
+space-rover
 space-rovers
 space-shooter-boss
 space-strike-galaxy-shooter
@@ -5414,6 +5437,7 @@ spider-evolution-runner-game
 spider-robot-transformation
 spider-solitaire-pro
 spider-solitaire-silk-horizon
+spike-rush
 spike-sphere
 spikes-and-feathers
 spil-clash-3d-ultimate-arena
@@ -5578,6 +5602,7 @@ stickman-archer-kick
 stickman-archero-fight
 stickman-archery-ragdoll
 stickman-armed-assassin-3d
+stickman-army-2
 stickman-army-the-resistance
 stickman-attack
 stickman-blast-puzzle
@@ -5592,6 +5617,7 @@ stickman-epic-battle
 stickman-epic-fall
 stickman-escape-plane-and-ship
 stickman-fighter-mega-brawl
+stickman-fighter-training
 stickman-fighting
 stickman-fights
 stickman-ghost-online
@@ -6029,6 +6055,7 @@ tiger-coloring-book
 tiger-tank
 tile-farm-story
 tile-harvest-3d
+tile-hill-descent
 tile-jumper-3d
 tile-match
 tile-match-camp
@@ -6166,6 +6193,7 @@ tricky-story-friendly-help
 trimino
 trio-twist-puzzle
 triple-car-jam
+triple-combo
 trivia-mind-game
 troll-rider
 truck-coloring
@@ -6247,6 +6275,7 @@ unbolck-me
 unboxing-brainrots
 uncle-hit-punch-the-dummy
 uncle-wang-s-happy-life
+undead-shooter
 undead-walking-3d
 undercrown
 underground-heroes
@@ -6287,6 +6316,7 @@ urban-traffic-commander-kids
 us-army-truck-driving
 us-truck-game
 usa-luxury-4x4-suv-offroad-driving-simulator
+usarobo-crystal-shooter
 v-shoot
 vacation-overload
 val-d-agri-race
