@@ -136,30 +136,72 @@
     like.addEventListener('click', () => { const f = favs(); store.set('favs', f.some(g => g.id === info.id) ? f.filter(g => g.id !== info.id) : [info, ...f]); paint(); });
     paint();
     // thumbs up / down: one vote per game per browser, counted by the same anonymous counter
-    const vote = $('[data-vote]', p);
-    if (vote) {
-      const key = 'vote:' + vote.dataset.slug;
-      const paintV = () => { const v = store.get(key, null); $('[data-up]', vote).classList.toggle('on', v === 'up'); $('[data-down]', vote).classList.toggle('on', v === 'down'); };
-      const bump = (sel, d) => { const b = $(sel + ' b', vote); b.textContent = Math.max(0, (+b.textContent || 0) + d); };
-      vote.addEventListener('click', e => {
-        const btn = e.target.closest('[data-up],[data-down]'); if (!btn) return;
-        const kind = btn.hasAttribute('data-up') ? 'up' : 'down';
-        if (store.get(key, null)) return; // already voted
-        store.set(key, kind); count(kind, vote.dataset.slug); bump('[data-' + kind + ']', 1); paintV();
-      });
-      try { // live counts (the page is rebuilt once a day)
-        const K = 'sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k';
-        fetch('https://pxjlcbjwdalctlyeljql.supabase.co/rest/v1/rpc/game_vote_counts', { method: 'POST', headers: { apikey: K, Authorization: 'Bearer ' + K, 'Content-Type': 'application/json' }, body: JSON.stringify({ s: vote.dataset.slug }) })
-          .then(r => r.json()).then(rows => { const r = rows && rows[0]; if (!r) return; $('[data-up] b', vote).textContent = r.up; $('[data-down] b', vote).textContent = r.down; }).catch(() => {});
-      } catch {}
-      paintV();
-    }
     $('[data-share]', p).addEventListener('click', async () => {
       const data = { title: info.title, text: `Play ${info.title} for free`, url: location.href };
       if (navigator.share) { try { await navigator.share(data); } catch {} }
       else { try { await navigator.clipboard.writeText(location.href); $('[data-share]', p).textContent = '✓'; } catch {} }
     });
   }
+
+  // thumbs up / down: a page can hold more than one block (player bar + the rating box)
+  const voteBlocks = $$('[data-vote]');
+  if (voteBlocks.length) {
+    const slug = voteBlocks[0].dataset.slug, key = 'vote:' + slug;
+    let up = +($('[data-up] b', voteBlocks[0]) || {}).textContent || 0;
+    let down = +($('[data-down] b', voteBlocks[0]) || {}).textContent || 0;
+    const paint = () => {
+      const n = up + down, pct = n ? Math.round(up / n * 100) : null, mine = store.get(key, null);
+      voteBlocks.forEach(v => {
+        const ub = $('[data-up]', v), db = $('[data-down]', v), sc = $('[data-pct]', v);
+        if (ub) { $('b', ub).textContent = up; ub.classList.toggle('on', mine === 'up'); }
+        if (db) { $('b', db).textContent = down; db.classList.toggle('on', mine === 'down'); }
+        if (sc) {
+          if (pct === null) sc.hidden = true;
+          else { sc.hidden = false; $('[data-pct-n]', v).textContent = pct + '%'; $('[data-pct-c]', v).textContent = n; }
+        }
+        const q = $('.rate-q', v);
+        if (q && mine && q.dataset.thanks) q.textContent = q.dataset.thanks;
+      });
+    };
+    voteBlocks.forEach(v => v.addEventListener('click', e => {
+      const btn = e.target.closest('[data-up],[data-down]'); if (!btn) return;
+      if (store.get(key, null)) return; // one vote per browser
+      const kind = btn.hasAttribute('data-up') ? 'up' : 'down';
+      store.set(key, kind); count(kind, slug);
+      if (kind === 'up') up++; else down++;
+      paint();
+    }));
+    try { // live counts, because the page itself is rebuilt only once a day
+      const K = 'sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k';
+      fetch('https://pxjlcbjwdalctlyeljql.supabase.co/rest/v1/rpc/game_vote_counts', { method: 'POST', headers: { apikey: K, Authorization: 'Bearer ' + K, 'Content-Type': 'application/json' }, body: JSON.stringify({ s: slug }) })
+        .then(r => r.json()).then(rows => { const r = rows && rows[0]; if (!r) return; up = +r.up || 0; down = +r.down || 0; paint(); }).catch(() => {});
+    } catch {}
+    paint();
+  }
+
+  // leaving a comment under a game: it is stored, then shown only after it has been read
+  const cf = $('[data-comment]');
+  if (cf) cf.addEventListener('submit', async e => {
+    e.preventDefault();
+    const el = cf.elements;
+    if (el.website.value) return;                       // honeypot: only a bot fills this in
+    const name = el.name.value.trim(), body = el.body.value.trim();
+    if (name.length < 2 || body.length < 3) return;
+    const btn = $('button', cf); btn.disabled = true; btn.textContent = '…';
+    let ok = false;
+    try {
+      const K = 'sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k';
+      const r = await fetch('https://pxjlcbjwdalctlyeljql.supabase.co/rest/v1/game_comments', {
+        method: 'POST',
+        headers: { apikey: K, Authorization: 'Bearer ' + K, 'Content-Type': 'application/json', Prefer: 'return=minimal' },
+        body: JSON.stringify({ slug: cf.dataset.slug, name, body }),
+      });
+      ok = r.ok;
+    } catch {}
+    cf.innerHTML = ok
+      ? '<p class="talk-ok">Thanks. Your comment will show up here once it has been read, usually within a day.</p>'
+      : '<p class="talk-ok bad">That did not go through. Please try again in a minute.</p>';
+  });
 
   // search page
   const si = $('[data-search-input]');

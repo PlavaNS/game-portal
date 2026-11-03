@@ -481,3 +481,63 @@ body.menu-open .drawer{transform:none;visibility:visible}
 :root[data-theme=light] .as-cols a{color:#c47f00}
 @media (max-width:1000px){.as-cols{grid-template-columns:1fr 1fr}}
 @media (max-width:640px){.as-cols{grid-template-columns:1fr}.as-head h2{font-size:20px}}
+
+/* rating: the box under the player, and the small pill on a card */
+.rate{display:flex;align-items:center;gap:18px;flex-wrap:wrap;justify-content:space-between;background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:16px 0 0}
+.rate-score{display:flex;align-items:baseline;gap:9px}
+.rate-score[hidden]{display:none}
+.rate-score b{font-size:26px;line-height:1;color:var(--accent2)}
+.rate-score small{color:var(--muted);font-size:13px}
+.rate-ask{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.rate-q{color:var(--muted);font-size:14px;font-weight:600}
+.rate .btn.ghost{padding:8px 14px;font-size:14px}
+.rate .btn.up.on{border-color:#3ddc97;color:#3ddc97}
+.rate .btn.down.on{border-color:#ff5c8a;color:#ff5c8a}
+.rate-pill{position:absolute;left:8px;top:8px;z-index:2;background:#000000b3;color:#fff;border-radius:999px;padding:3px 9px;font-size:11.5px;font-weight:800;letter-spacing:.01em;backdrop-filter:blur(3px)}
+:root[data-theme=light] .rate{background:#fff}
+:root[data-theme=light] .rate-score b{color:#c47f00}
+:root[data-theme=light] .rate-pill{background:#16182ecc}
+@media (max-width:640px){.rate{padding:12px 13px;gap:10px}.rate-score b{font-size:22px}.rate-q{width:100%}}
+
+/* comments under a game */
+.talk{margin:30px 0 10px}
+.talk h2{margin:0 0 12px}
+.talk-form{display:grid;gap:9px;background:var(--bg2);border:1px solid var(--line);border-radius:16px;padding:14px}
+.talk-form input[type=text],.talk-form textarea{width:100%;box-sizing:border-box;background:var(--card);border:1px solid var(--line);border-radius:10px;padding:10px 12px;color:var(--text);font:inherit;font-size:14px}
+.talk-form input[type=text]:focus,.talk-form textarea:focus{outline:0;border-color:var(--accent)}
+.talk-form textarea{resize:vertical;min-height:72px}
+.talk-form .hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}
+.talk-send{display:flex;align-items:center;gap:12px;flex-wrap:wrap}
+.talk-note{color:var(--muted);font-size:12.5px}
+.talk-ok{margin:0;color:var(--text);font-size:14px;font-weight:600}
+.talk-ok.bad{color:#ff5c8a}
+.talk-list{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:12px}
+.talk-list li{background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:12px 14px}
+.talk-h{display:flex;align-items:baseline;gap:10px}
+.talk-h b{font-size:14px}
+.talk-h time{color:var(--muted);font-size:12px}
+.talk-list p{margin:5px 0 0;font-size:14px;line-height:1.55;overflow-wrap:anywhere}
+.talk-empty{margin:14px 0 0;font-size:14px}
+:root[data-theme=light] .talk-form,:root[data-theme=light] .talk-list li{background:#fff}
+:root[data-theme=light] .talk-form input[type=text],:root[data-theme=light] .talk-form textarea{background:#f7f8fd}
+
+/* game of the day */
+.gotd{display:grid;grid-template-columns:260px 1fr;gap:20px;align-items:center;background:linear-gradient(110deg,#1b1340,#2a1a5e 55%,#3a1d4f);border:1px solid var(--line);border-radius:22px;padding:16px;margin:0 0 22px;overflow:hidden}
+.gotd-media{display:block;border-radius:16px;overflow:hidden;aspect-ratio:4/3;background:#0006}
+.gotd-media img{width:100%;height:100%;object-fit:cover;transition:transform .25s}
+.gotd:hover .gotd-media img{transform:scale(1.04)}
+.gotd-text .eyebrow{margin:0 0 4px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:#ffd23f}
+.gotd-text .eyebrow time{color:#ffffffa6;font-weight:700;letter-spacing:.02em;text-transform:none}
+.gotd-text h2{margin:0 0 6px;font-size:28px;line-height:1.1}
+.gotd-text h2 a{color:#fff;text-decoration:none}
+.gotd-text h2 a:hover{color:#ffd23f}
+.gotd-desc{margin:0 0 14px;color:#ffffffc4;font-size:14.5px;line-height:1.55;max-width:70ch}
+.gotd-cta{display:flex;align-items:center;gap:14px;flex-wrap:wrap;margin:0}
+.gotd-note{color:#ffffff8c;font-size:13px}
+:root[data-theme=light] .gotd{background:linear-gradient(110deg,#efe9ff,#f6edff 55%,#ffeef7);border-color:#e2def5}
+:root[data-theme=light] .gotd-text .eyebrow{color:#8a5b00}
+:root[data-theme=light] .gotd-text .eyebrow time{color:#5b5f80}
+:root[data-theme=light] .gotd-text h2 a{color:#16182e}
+:root[data-theme=light] .gotd-desc{color:#41456a}
+:root[data-theme=light] .gotd-note{color:#6b6f90}
+@media (max-width:760px){.gotd{grid-template-columns:1fr;gap:14px;padding:13px;border-radius:18px}.gotd-text h2{font-size:22px}}

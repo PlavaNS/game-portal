@@ -368,7 +368,19 @@ try {
   if (r.ok) for (const x of await r.json()) VOTES[x.slug] = { up: Number(x.up) || 0, down: Number(x.down) || 0 };
   console.log(`votes: ${Object.keys(VOTES).length} games rated`);
 } catch (e) { console.log('votes unavailable:', e.message); }
+// comments visitors left under the games: only the ones scripts/moderate-comments.mjs has cleared
+const COMMENTS = {};
+try {
+  const okMap = readJSON(path.join(ROOT, 'data/comments-ok.json'), {});
+  const K = 'sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k';
+  const r = await fetch('https://pxjlcbjwdalctlyeljql.supabase.co/rest/v1/game_comments?select=id,slug,name,body,created_at&order=created_at.desc&limit=5000', { headers: { apikey: K, Authorization: 'Bearer ' + K }, signal: AbortSignal.timeout(15000) });
+  if (r.ok) for (const c of await r.json()) { if (okMap[String(c.id)] === true) (COMMENTS[c.slug] = COMMENTS[c.slug] || []).push(c); }
+  console.log(`comments: ${Object.values(COMMENTS).reduce((a, b) => a + b.length, 0)} shown on ${Object.keys(COMMENTS).length} games`);
+} catch (e) { console.log('comments unavailable:', e.message); }
+
 const voteScore = g => { const v = VOTES[g.slug]; return v && v.up + v.down >= 3 ? v.up / (v.up + v.down) : -1; };
+const voteCount = g => { const v = VOTES[g.slug]; return v ? v.up + v.down : 0; };
+const votePct = g => { const v = VOTES[g.slug], n = voteCount(g); return n ? Math.round(v.up / n * 100) : null; };
 // HOT = the 12 most started games on our site this month (at least 3 starts); TOP RATED = at least 3 votes and 80%+ thumbs up
 const HOT = new Set(Object.entries(SITE_COUNTS.play).filter(([, n]) => n >= 3).sort((a, b) => b[1] - a[1]).slice(0, 12).map(([s]) => s));
 const isHot = g => !g.own && HOT.has(g.slug);
@@ -511,7 +523,7 @@ ${cfg.adsenseClient && !cfg.ownConsent ? '' : `<div class="consent" hidden data-
 
 // NEW ribbon for 7 days after a game first appeared on the site
 const isNew = g => !g.own && NEW_SET.has(g.slug);
-const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.video ? ' has-video' : ''}${g.community ? ' fit' : ''}${g.mobile ? '' : ' dm'}"${g.video ? ` data-video="${esc(g.video)}"` : ''} href="${gHref(g)}"${g.community ? ` style="--t:url('${esc(g.thumb)}')"` : ''}><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${g.own ? '<b class="badge">Our game</b>' : isHot(g) ? '<b class="badge hot">🔥 HOT</b>' : isTopRated(g) ? '<b class="badge top">👍 TOP RATED</b>' : isNew(g) ? '<b class="badge new">NEW</b>' : ''}</a>`;
+const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.video ? ' has-video' : ''}${g.community ? ' fit' : ''}${g.mobile ? '' : ' dm'}"${g.video ? ` data-video="${esc(g.video)}"` : ''} href="${gHref(g)}"${g.community ? ` style="--t:url('${esc(g.thumb)}')"` : ''}><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${voteCount(g) >= 5 ? `<b class="rate-pill">👍 ${votePct(g)}%</b>` : ''}${g.own ? '<b class="badge">Our game</b>' : isHot(g) ? '<b class="badge hot">🔥 HOT</b>' : isTopRated(g) ? '<b class="badge top">👍 TOP RATED</b>' : isNew(g) ? '<b class="badge new">NEW</b>' : ''}</a>`;
 const grid = (list, eager = false) => list.length ? `<section class="row"><div class="grid">${list.map(g => card(g, eager)).join('')}</div></section>` : '';
 const row = (title, href, list, eager = false) => list.length ? `<section class="row"><div class="row-h"><h2>${esc(title)}</h2>${href ? `<a href="${href}">See all ›</a>` : ''}</div><div class="grid">${list.map(g => card(g, eager)).join('')}</div></section>` : '';
 // homepage category showcase: a colourful tile (name, count, 3 real covers fanned out) + the 5 most played games of that category + "more"
@@ -575,6 +587,27 @@ function emitContent() {
     const gotwCfg = readJSON(path.join(ROOT, 'data/game-of-week.json'), null);
     const gw = gotwCfg && all.find(g => g.slug === gotwCfg.slug);
     const gotw = gw ? feat('week', `🏆 ${esc(tr('Indie Game of the Week'))}`, gw, (LANG === 'en' && gotwCfg.why ? gotwCfg.why : gw.short), `${esc(tr('by'))} ${gw.studioUrl ? `<a href="${esc(gw.studioUrl)}" rel="noopener" target="_blank">${esc(gw.studio)}</a>` : esc(gw.studio)}`) : '';
+    const dfmt = d => { try { return new Date(d).toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { day: 'numeric', month: 'short', year: 'numeric' }); } catch { return d; } };
+    // Game of the day: a different one every day, worked out from the date so it needs no state
+    // and never lands on the same game twice in a row through the list.
+    const gotd = (() => {
+      // never headline a game that leans on someone else's character or brand
+      const BRANDY = /\b(cuphead|mario|luigi|sonic|pokemon|pokémon|pikachu|minecraft|roblox|among ?us|squid ?game|huggy|poppy playtime|fnaf|five nights|granny|subway surf|temple run|gta|grand theft|fortnite|spider ?man|batman|superman|barbie|frozen|elsa|anna|hello kitty|naruto|dragon ?ball|goku|ben ?10|paw patrol|peppa|tom and jerry|angry birds|flappy|slither|zelda|pac ?-?man|tetris|sponge ?bob|mickey|disney|marvel|avengers|star wars|harry potter|minions|skibidi|rainbow friends|geometry dash|stumble guys|brawl stars|clash royale|fall guys|friday night funkin|undertale|terraria|doom|halo|zombie tsunami|talking tom|angela)\b/i;
+      const pool = mostPlayed(300).filter(x => !x.own && !x.community && x !== gw && !BRANDY.test(x.title));
+      if (!pool.length) return '';
+      const g = pool[(Math.floor(Date.now() / 864e5) * 7919) % pool.length];
+      const d = (g.short || g.description || '').replace(/\s+/g, ' ').trim();
+      const day = new Date().toISOString().slice(0, 10);
+      return `<section class="gotd">
+    <a class="gotd-media" href="${gHref(g)}"><img src="${esc(g.cover || g.thumb)}" alt="${esc(g.title)}" width="512" height="384" fetchpriority="high" decoding="async"></a>
+    <div class="gotd-text">
+      <p class="eyebrow">\u{1F3AF} ${esc(tr('Game of the day'))} <time datetime="${day}">${esc(dfmt(day))}</time></p>
+      <h2><a href="${gHref(g)}">${esc(g.title)}</a></h2>
+      ${d ? `<p class="gotd-desc">${esc(d.length > 190 ? d.slice(0, 187) + '\u2026' : d)}</p>` : ''}
+      <p class="gotd-cta"><a class="btn" href="${gHref(g)}">\u25B6 ${esc(tr('Play now \u2014 free'))}</a><span class="gotd-note">${esc(tr('A new one here every day.'))}</span></p>
+    </div>
+  </section>`;
+    })();
     const catTiles = `<section class="row"><div class="row-h"><h2>${esc(tr('Categories'))}</h2></div><div class="cats">${activeCats.filter(c => catOK(c.slug)).map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
     const bannerFan = list => list.slice(0, 4).map(g => `<img src="${esc(g.thumb)}" alt="" loading="lazy" decoding="async">`).join('');
     const banner = (cls, href, title, sub, list) => `<a class="banner ${cls}" href="${href}"><span class="bn-text"><b>${esc(title)}</b><small>${esc(sub)}</small></span><span class="bn-fan">${bannerFan(list)}</span></a>`;
@@ -587,7 +620,6 @@ function emitContent() {
     const newsItems = [...all.filter(g => g.community), ...newestOnSite(12)]
       .filter((g, i, a) => a.findIndex(x => x.slug === g.slug) === i)
       .sort((a, b) => (b.firstSeen || '').localeCompare(a.firstSeen || '')).slice(0, 5);
-    const dfmt = d => { try { return new Date(d).toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { day: 'numeric', month: 'short', year: 'numeric' }); } catch { return d; } };
     const bnNews = newsItems.length ? banner('bn-news', u('/new/'), tr('News & Updates'), tr('The latest games added to the site'), newsItems) : '';
     const news = newsItems.length ? `${bnNews}<section class="row news">
     ${newsItems.map(g => `<article class="news-item"><a class="news-thumb" href="${gHref(g)}" style="--t:url('${esc(g.thumb)}')"><img src="${esc(g.thumb)}" alt="${esc(g.title)}" loading="lazy"></a>
@@ -601,6 +633,7 @@ function emitContent() {
     ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), '🧸'], [tr('Casual games'), cHref('casual'), '✨'])}
   </div>`;
     const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${all.length.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
+  ${gotd}
   <div class="feats">${hero}${gotw}</div>
   ${bnOwn}
   ${grid(ours)}
@@ -766,6 +799,12 @@ function emitContent() {
       <button class="icon" data-fs aria-label="${esc(tr('Full screen'))}" title="${esc(tr('Full screen'))}">⛶</button>
     </div>
   </section>
+  <section class="rate" data-vote data-slug="${esc(g.slug)}">
+    <div class="rate-score" data-pct${voteCount(g) ? '' : ' hidden'}><b data-pct-n>${votePct(g) === null ? '' : votePct(g) + '%'}</b><small>${esc(tr('liked it'))} · <span data-pct-c>${voteCount(g)}</span> ${esc(tr('votes'))}</small></div>
+    <div class="rate-ask"><span class="rate-q">${esc(tr('Did you enjoy this game?'))}</span>
+      <button class="btn ghost up" type="button" data-up>👍 ${esc(tr('Yes'))} <b>${(VOTES[g.slug] || {}).up || 0}</b></button>
+      <button class="btn ghost down" type="button" data-down>👎 ${esc(tr('No'))} <b>${(VOTES[g.slug] || {}).down || 0}</b></button></div>
+  </section>
   <section class="play-next"><h2>▶ ${esc(tr('Play next'))}</h2><div class="grid next">${sim.slice(0, 6).map(s => card(s)).join('')}</div></section>
   <div class="game-cols">
     <article class="about">
@@ -792,6 +831,19 @@ function emitContent() {
       <h3>${esc(tr('Can I play this game on my phone?'))}</h3><p>${g.mobile ? tr('Yes. It runs in the browser on Android phones, iPhones and tablets as well as on PC and Mac — tap “Play now” and the game opens full screen.') : `${esc(g.title)} is made for computers and plays best with a keyboard and mouse. For phones, check out our <a href="${u('/c/mobile/')}">mobile games</a>.`}</p>
       <h3>${esc(tr('Do I need to download or sign up?'))}</h3><p>${esc(tr('No. There is nothing to install and no account needed. The game loads instantly in your browser.'))}</p>
       <p class="muted">${g.own ? `Made by ${g.studioUrl ? `<a href="${esc(g.studioUrl)}" rel="noopener" target="_blank">${esc(g.studio)}</a>` : esc(g.studio)} — the team behind ${esc(cfg.name)}.${g.promo && LANG === 'en' ? ` ${g.promo}` : ''}` : `${esc(tr('Like this game? Try more'))} <a href="${cHref(main.slug)}">${esc(((catTr(main.slug) || {}).h1 || main.h1).toLowerCase())}</a> or browse the <a href="${u('/popular/')}">most played games</a> on ${esc(cfg.name)}.`}</p>
+      ${(() => { const cs = COMMENTS[g.slug] || [];
+        return `<section class="talk" id="comments">
+        <h2>\u{1F4AC} ${esc(tr('Comments'))}${cs.length ? ` (${cs.length})` : ''}</h2>
+        <form class="talk-form" data-comment data-slug="${esc(g.slug)}">
+          <input type="text" name="name" maxlength="24" placeholder="${esc(tr('Your name'))}" aria-label="${esc(tr('Your name'))}" required>
+          <textarea name="body" maxlength="800" rows="3" placeholder="${esc(tr('What did you think of this game?'))}" aria-label="${esc(tr('Your comment'))}" required></textarea>
+          <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <div class="talk-send"><button class="btn" type="submit">${esc(tr('Post comment'))}</button>
+          <span class="talk-note">${esc(tr('Every comment is read before it appears. No links, and keep it friendly.'))}</span></div>
+        </form>
+        ${cs.length ? `<ol class="talk-list">${cs.map(c => `<li><div class="talk-h"><b>${esc(c.name)}</b><time datetime="${esc(String(c.created_at).slice(0, 10))}">${esc(String(c.created_at).slice(0, 10))}</time></div><p>${esc(c.body)}</p></li>`).join('')}</ol>`
+          : `<p class="muted talk-empty">${esc(tr('No comments yet. Be the first to say something about this game.'))}</p>`}
+      </section>`; })()}
       <p class="dev-cta">${esc(tr('Made a game like this?'))} <a href="${ur('/submit-game/')}">${esc(tr('Submit your HTML5 game'))}</a> ${esc(tr('— free, non-exclusive, and we link back to your site.'))}</p>
     </article>
     <aside class="similar"><h2>${esc(tr('Similar games'))}</h2><div class="grid small">${sim.map(s => card(s)).join('')}</div></aside>
@@ -802,6 +854,8 @@ function emitContent() {
       applicationCategory: 'Game', operatingSystem: 'Any', playMode: g.cats.all.includes('two-player') || g.cats.all.includes('multiplayer') ? 'MultiPlayer' : 'SinglePlayer',
       offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/InStock' },
       ...(g.studio ? { author: { '@type': 'Organization', name: g.studio } } : {}),
+      // stars in Google results: thumbs up/down from our own visitors, mapped onto 1-5, never shown without real votes
+      ...(voteCount(g) >= 3 ? { aggregateRating: { '@type': 'AggregateRating', ratingValue: (1 + 4 * (VOTES[g.slug].up / voteCount(g))).toFixed(1), bestRating: '5', worstRating: '1', ratingCount: voteCount(g) } } : {}),
     };
     write(`games/${g.slug}/index.html`, layout({
       title: pageTitle, desc, canonical: pageUrl, body, bodyClass: 'game-page', preload: g.thumb,

@@ -53,13 +53,17 @@ jobs:
         run: node scripts/write-faq.mjs || echo "FAQ step failed, keeping the previous one"
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.ILOVEWEBGAMES }}
+      - name: Check the comments visitors left
+        run: node scripts/moderate-comments.mjs || echo "comment moderation failed, nothing new will be shown"
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.ILOVEWEBGAMES }}
       - name: Commit guides
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add data/guides.json data/faq.json
+          git add data/guides.json data/faq.json data/comments-ok.json
           git diff --cached --quiet && { echo "no changes"; exit 0; }
-          git commit -m "SEO: Claude-written guides and FAQ"
+          git commit -m "SEO: Claude-written guides and FAQ, checked comments"
           git stash --include-untracked || true
           ok=0; for i in 1 2 3; do git pull --rebase && git push && { ok=1; break; }; sleep 5; done
           [ "$ok" = 1 ] || { echo "push failed"; exit 1; }
