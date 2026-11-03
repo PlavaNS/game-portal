@@ -462,7 +462,7 @@ ${bodyClass.includes('home') ? '' : `<section class="row cat-grid-wrap"><div cla
 </div>
 <footer class="foot">
   <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.slogan)} ${esc(cfg.tagline)}</p>
-  <p><a href="${ur('/about/')}">${esc(tr('About'))}</a> · <a href="${ur('/contact/')}">${esc(tr('Contact'))}</a> &middot; <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> · <a href="${ur('/publish-html5-game/')}">Where to publish your HTML5 game</a> · <a href="${ur('/privacy/')}">${esc(tr('Privacy Policy'))}</a> · <a href="${ur('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
+  <p><a href="${ur('/about/')}">${esc(tr('About'))}</a> · <a href="${ur('/contact/')}">${esc(tr('Contact'))}</a> · <a href="${ur('/faq/')}">FAQ</a> &middot; <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> · <a href="${ur('/publish-html5-game/')}">Where to publish your HTML5 game</a> · <a href="${ur('/privacy/')}">${esc(tr('Privacy Policy'))}</a> · <a href="${ur('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
   ${langsHere.length > 1 ? `<p class="foot-langs">${langsHere.map(l => l === LANG ? `<strong>${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</strong>` : `<a href="${esc(absIn(l, altPath))}" hreflang="${esc(l)}">${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</a>`).join(' · ')}</p>` : ''}
   <p class="foot-topics">${topics.filter(t => LANG === 'en' || (CATTR[LANG] || {})['topic:' + t.slug]).slice(0, 14).map(t => `<a href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join(' · ')}</p>
   <p class="muted">© ${YEAR} ${esc(cfg.name)} by ${esc(cfg.studio)}. All games are the property of their respective developers and are provided through official distribution partners.</p>
@@ -480,6 +480,7 @@ ${cfg.adsenseClient && !cfg.ownConsent ? '' : `<div class="consent" hidden data-
 // NEW ribbon for 7 days after a game first appeared on the site
 const isNew = g => !g.own && NEW_SET.has(g.slug);
 const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.video ? ' has-video' : ''}${g.community ? ' fit' : ''}${g.mobile ? '' : ' dm'}"${g.video ? ` data-video="${esc(g.video)}"` : ''} href="${gHref(g)}"${g.community ? ` style="--t:url('${esc(g.thumb)}')"` : ''}><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${g.own ? '<b class="badge">Our game</b>' : isHot(g) ? '<b class="badge hot">🔥 HOT</b>' : isTopRated(g) ? '<b class="badge top">👍 TOP RATED</b>' : isNew(g) ? '<b class="badge new">NEW</b>' : ''}</a>`;
+const grid = (list, eager = false) => list.length ? `<section class="row"><div class="grid">${list.map(g => card(g, eager)).join('')}</div></section>` : '';
 const row = (title, href, list, eager = false) => list.length ? `<section class="row"><div class="row-h"><h2>${esc(title)}</h2>${href ? `<a href="${href}">See all ›</a>` : ''}</div><div class="grid">${list.map(g => card(g, eager)).join('')}</div></section>` : '';
 // homepage category showcase: a colourful tile (name, count, 3 real covers fanned out) + the 5 most played games of that category + "more"
 const CAT_HUE = { action: 350, shooting: 25, racing: 200, puzzle: 265, 'clicker-idle': 45, arcade: 320, adventure: 130, sports: 95, 'two-player': 180, multiplayer: 215, girls: 335, hypercasual: 55, stickman: 0, zombie: 110, '3d': 240, cooking: 20, kids: 150, mobile: 190 };
@@ -545,22 +546,44 @@ function emitContent() {
     const catTiles = `<section class="row"><div class="row-h"><h2>${esc(tr('Categories'))}</h2></div><div class="cats">${activeCats.filter(c => catOK(c.slug)).map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
     const bannerFan = list => list.slice(0, 4).map(g => `<img src="${esc(g.thumb)}" alt="" loading="lazy" decoding="async">`).join('');
     const banner = (cls, href, title, sub, list) => `<a class="banner ${cls}" href="${href}"><span class="bn-text"><b>${esc(title)}</b><small>${esc(sub)}</small></span><span class="bn-fan">${bannerFan(list)}</span></a>`;
-    const bnOwn = banner('bn-own', ur('/our-games/'), tr('Our games'), `${ours.length} ${tr('games by')} ${cfg.studio}`, ours);
+    const bnOwn = banner('bn-own', ur('/our-games/'), tr('Our games'), `${ours.length} ${tr('games made by')} ${cfg.studio}`, ours);
+    const bnTrend = banner('bn-trend', u('/popular/'), tr('Trending now'), tr('The games everyone is opening today'), top('hot', 4));
+    const bnPop = banner('bn-pop', u('/popular/'), tr('Popular games'), tr('Played the most on our site'), mostPlayed(4));
     const bnNew = banner('bn-new', u('/new/'), tr('New games'), tr('Added in the last few days'), newestOnSite(4));
-    const bnPop = banner('bn-pop', u('/popular/'), tr('Popular games'), tr('What everyone is playing right now'), mostPlayed(4));
+    const bnCats = banner('bn-cats', u('/all/'), tr('Browse by category'), `${activeCats.length} ${tr('categories')} · ${all.length.toLocaleString(LANG === 'en' ? 'en-US' : LANG)} ${tr('games')}`, activeCats.slice(0, 4).map(c => byCat[c.slug][0]).filter(Boolean));
+    const duo = (cls, title, a, b) => `<div class="duo ${cls}"><div class="duo-h"><b>${esc(title)}</b></div><div class="duo-opts"><a href="${a[1]}"><i>${a[2]}</i><span>${esc(a[0])}</span><em>${esc(tr('Explore'))}</em></a><a href="${b[1]}"><i>${b[2]}</i><span>${esc(b[0])}</span><em>${esc(tr('Explore'))}</em></a></div></div>`;
+    const newsItems = [...all.filter(g => g.community), ...newestOnSite(12)]
+      .filter((g, i, a) => a.findIndex(x => x.slug === g.slug) === i)
+      .sort((a, b) => (b.firstSeen || '').localeCompare(a.firstSeen || '')).slice(0, 5);
+    const dfmt = d => { try { return new Date(d).toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { day: 'numeric', month: 'short', year: 'numeric' }); } catch { return d; } };
+    const news = newsItems.length ? `<section class="row news"><div class="row-h"><h2>📰 ${esc(tr('News & Updates'))}</h2><a href="${u('/new/')}">${esc(tr('New games'))} ›</a></div>
+    ${newsItems.map(g => `<article class="news-item"><a class="news-thumb" href="${gHref(g)}" style="--t:url('${esc(g.thumb)}')"><img src="${esc(g.thumb)}" alt="${esc(g.title)}" loading="lazy"></a>
+      <div class="news-text"><p class="news-h">${isNew(g) ? `<b class="news-tag">${esc(tr('NEW'))}</b>` : ''} <strong>${g.community ? esc(tr('New indie game')) : esc(tr('New game'))}: ${esc(g.title)}</strong></p>
+      <p class="news-date">${esc(dfmt(g.firstSeen))}${g.community && g.studio ? ` · ${esc(tr('by'))} ${esc(g.studio)}` : ''}</p>
+      ${(() => { const d = (g.short || g.description || '').replace(/\s+/g, ' ').trim(); return d ? `<p class="news-desc">${esc(d.length > 160 ? d.slice(0, 157) + '…' : d)}</p>` : ''; })()}</div>
+      <a class="btn ghost news-cta" href="${gHref(g)}">${esc(tr('Play now'))}</a></article>`).join('')}
+  </section>` : '';
+    const duos = `<div class="duos">
+    ${duo('duo-friends', tr('Play online with friends'), [tr('2 player games'), cHref('two-player'), '🎮'], [tr('Online multiplayer'), cHref('multiplayer'), '🌐'])}
+    ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), '🧸'], [tr('Casual games'), cHref('casual'), '✨'])}
+  </div>`;
     const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${all.length.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
   <div class="feats">${hero}${gotw}</div>
-  ${row('🔥 ' + tr('Trending now'), u('/popular/'), top('hot', 18), true)}
-  <section class="row"><div class="row-h"><h2>${esc(tr('Browse by category'))}</h2><a href="${u('/all/')}">${esc(tr('All games'))} ›</a></div>
-  <div class="cat-rows">${activeCats.filter(c => catOK(c.slug)).map(c => catRow(c)).join('\n')}</div></section>
+  ${bnOwn}
+  ${grid(ours)}
+  ${bnTrend}
+  ${grid(top('hot', 18), true)}
   ${bnPop}
-  ${row('⭐ ' + tr('Most played'), u('/popular/'), mostPlayed(18))}
-  ${(() => { const tr8 = all.filter(g => !g.own && isTopRated(g)).sort((a, b) => voteScore(b) - voteScore(a) || (VOTES[b.slug].up - VOTES[a.slug].up)).slice(0, 12); return tr8.length >= 6 ? row('👍 ' + tr('Top rated by players'), null, tr8) : ''; })()}
+  ${grid(mostPlayed(18))}
   ${bnNew}
-  ${row('🆕 ' + tr('New games'), u('/new/'), newestOnSite(18))}
+  ${grid(newestOnSite(18))}
+  ${(() => { const tr8 = all.filter(g => !g.own && isTopRated(g)).sort((a, b) => voteScore(b) - voteScore(a) || (VOTES[b.slug].up - VOTES[a.slug].up)).slice(0, 12); return tr8.length >= 6 ? row('👍 ' + tr('Top rated by players'), null, tr8) : ''; })()}
+  ${bnCats}
+  <section class="row"><div class="cat-rows">${activeCats.filter(c => catOK(c.slug)).map(c => catRow(c)).join('\n')}</div></section>
+  ${news}
+  ${duos}
   ${(() => { const indie = all.filter(g => g.community).slice().sort((x, y) => (y.added || '').localeCompare(x.added || '')).slice(0, 12);
     return indie.length ? `<section class="row indie-row"><div class="row-h"><h2>🧑‍💻 ${esc(tr('New from indie developers'))}</h2><a class="btn sg-cta" href="${ur('/submit-game/')}">📤 ${esc(tr('Made a game? Submit it free'))}</a></div><p class="indie-note">${esc(tr('Games sent to us by independent developers. Every one is played and checked by a real person before it goes live.'))} <a href="${ur('/publish-html5-game/')}">${esc(tr('Where to publish your HTML5 game'))} ›</a></p><div class="grid">${indie.map(g => card(g)).join('')}</div></section>` : ''; })()}
-  ${bnOwn}
   <section class="row"><div class="row-h"><h2>${esc(tr('Popular collections'))}</h2></div><p class="chips">${topics.filter(t => catOK('topic:' + t.slug)).map(t => `<a class="chip" href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join('')}</p></section>
   <section class="seo-text"><h2>${esc(tr('Free online games on'))} ${esc(cfg.name)}</h2><p>${esc(cfg.name)} ${esc(tr('is a hand-picked collection of'))} ${all.length.toLocaleString('en')} ${esc(tr('free browser games. Every game runs instantly on your computer, tablet or phone, with no downloads, no installs and no account. Play action, puzzle, racing, sports, clicker and 2 player games, and come back every day for new titles.'))}</p></section>`;
     write('index.html', layout({
@@ -971,6 +994,28 @@ ${faq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
     'Where to publish an HTML5 game in 2026: Poki, CrazyGames, Playgama, GamePix, GameMonetize, itch.io, Game Jolt and Newgrounds compared. Revenue share, exclusivity, review and payouts.',
     [faqLd, artLd], 0.8);
 }
+{
+  const qs = [
+    ['Is everything really free?', `Yes. Every game on ${cfg.name} is free to play, with no payment and no trial. The games are paid for by short ads inside them, which is what supports the developers who made them and keeps the site running.`],
+    ['Do I need an account?', `No. There is no sign-up, no login and no newsletter. Click a game and it starts. Your recently played games, your favourites and your light or dark theme are remembered in your own browser and never leave your device.`],
+    ['Do I have to download or install anything?', `No. Every game runs inside the browser you are reading this in. There is nothing to install, no plugin, no launcher and no app.`],
+    ['Do the games work on a phone or tablet?', `Most of them do. Games that are made for touch are marked and collected in the Mobile category. On a phone, a game opens full screen, and games made for a wide screen ask you to turn the phone sideways. A few older games need a keyboard and mouse, and those say so on their page.`],
+    ['Is it safe for children?', `We only publish family-friendly games: no adult content, no gambling and no hate. Games aimed at younger players are in the Kids category. The games show ads from our distribution partners, and those partners apply child-appropriate ad rules. If you ever see something that does not belong here, email us and we will take it down.`],
+    ['How do I save my progress?', `Most games save your progress in your browser, so it is there when you come back on the same device and the same browser. Clearing your browser data or playing in private mode will lose it. A few games let you export a save file, and that is explained on the game page.`],
+    ['A game will not load. What can I do?', `Refresh the page first; most problems are a slow or interrupted load. If that does not help, try another browser, and switch off any ad blocker for this site, because many games will not start when their ad script is blocked. If it still will not run, email us the game link and we will look at it.`],
+    ['Where do the games come from?', `Some are made by us (${cfg.studio}). Others come from official distribution partners (Playgama, GameMonetize, GamePix) under licence, and the rest are sent to us directly by independent developers. We never copy a game from another portal.`],
+    ['Can I submit my own game?', `Yes, and it is free. Send it through the submit form. A real person plays every game that comes in, and if it fits, it gets its own page that credits you and links back to your site. Nothing is exclusive and you can have it removed at any time.`],
+    ['I am the developer and I want my game removed.', `Email us from the address on your game or studio page with the link, and we will take the page down. We do not host anyone's files: the game is loaded from your own server or from your distribution platform.`],
+    ['Can I put your games on my own website?', `Our own games, yes: every one of our game pages has an Embed this game box with ready-made code. Games from other developers are not ours to licence, so ask their developer or take them from the same network they are on.`],
+    ['How do I report a bug or suggest a game?', `Email ${cfg.contactEmail}. We read everything, and game suggestions from players are one of the main ways new games end up here.`],
+  ];
+  const faqHtml = qs.map(([q, a]) => `<h2>${esc(q)}</h2><p>${esc(a)}</p>`).join('');
+  const ld = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: qs.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) };
+  textPage('faq', 'Frequently Asked Questions', `<p class="lead">Everything players ask us about ${esc(cfg.name)}: what it costs, what you need, and what to do when something does not work.</p>
+${faqHtml}
+<h2>Still stuck?</h2><p>Email <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a> and a real person will answer.</p>`,
+    `Answers about ${cfg.name}: the games are free, there is no account and no download, they work on phones, and here is what to do if a game will not load.`, [ld], 0.6);
+}
 textPage('contact', 'Contact', `<p>We'd love to hear from you — feedback, bug reports, game suggestions or business inquiries.</p>
 <p>Email: <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a></p>
 <h2>Game developers</h2><p>Made a great HTML5 game? <a href="${ur('/submit-game/')}">Submit it here</a> and we'll take a look.</p>
@@ -1030,6 +1075,7 @@ ${indieG.map(line).join('\n')}
 
 ## About
 - [About](${abs('/about/')})
+- [FAQ](${abs('/faq/')}): free to play, no account, no download, works on phones
 - [Contact](${abs('/contact/')}): ${cfg.contactEmail}
 `);
 }
