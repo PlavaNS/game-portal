@@ -234,6 +234,7 @@ ant-moving-simulator
 ant-picnic
 ant-swarm-io
 anti-spider-run
+anti-stress-planet-games
 anti-terrorist-shooting-game
 ants-ate-my-pixels
 ants-clear-all-color-block-puzzle
@@ -332,6 +333,7 @@ assassins-hunt
 assault-on-squid-island
 assault-zone
 assemble-factory-puzzle
+asteroid-dodge
 astro-chickens
 astro-digger
 astro-merge
@@ -351,6 +353,7 @@ avocado-yard-ragdoll-sandbox
 awareness-game-the-robot-bar
 awesome-tanks-3-game
 axe-run
+ayla-world-avatar-city
 babel-tower
 baby-bear
 baby-brainrots-multiplayer-with-friends
@@ -404,6 +407,7 @@ ball-break-the-hoops
 ball-chain-blast
 ball-color-smash
 ball-connect
+ball-escape-puzzle
 ball-io
 ball-jump-switch-the-colors
 ball-packing-master-puzzle-fill-box
@@ -775,6 +779,7 @@ brain-line-connect
 brain-master-iq-challenge-2
 brain-puzzle-tricky-choices
 brain-test-iq-challenge
+brain-train-puzzle-game
 brain-tricks-brain-games
 brainrots-dress-up-and-interior-design
 brainrots-merge
@@ -794,6 +799,7 @@ break-the-wall-prison-escape
 breakblock
 breakout-neon-drift
 breakoutrun
+breakthrough-team
 breinrot-bog
 bribes-and-stamps
 brick-breaker-ball
@@ -1098,6 +1104,7 @@ cat-block-puzzle
 cat-boba-tea-food-asmr-master
 cat-box-merge
 cat-chaos-simulator
+cat-city
 cat-clicker
 cat-escape
 cat-escape-hide-and-seek
@@ -1317,6 +1324,7 @@ color-mosaic
 color-parking-drifter
 color-pixel-flow
 color-pixels-coloring-by-numbers
+color-pop-mania
 color-race-obby
 color-ring-sorting-match
 color-roll-3d
@@ -1490,6 +1498,7 @@ crocodile-online-draw-and-guess
 croplink
 crossmath-challenge
 crosstile
+crosswalk-chaos
 crosswords-big-collection
 crossy-rails
 crow-memory
@@ -1967,6 +1976,7 @@ emoji-line-puzzle
 emoji-math-quiz
 emoji-memory-find-a-pair
 emoji-merge-madness
+emoji-merge-pop-frenzy
 emoji-skill-puzzles
 emoji-sliding-down
 emoji-solitaire
@@ -2596,6 +2606,7 @@ grand-city-driving-2
 grand-city-missions
 grand-city-stunts
 grand-escape
+grand-hotel-mania
 grand-nitro-formula
 grand-prix-hero
 grand-zombie-swarm
@@ -2911,6 +2922,7 @@ hoops-the-game
 hop-ballz-3d
 hop-hop
 hopeless-island-survival-hero
+hopnova
 hopping-boy
 hoppy-stacky
 horizon-flight-into-the-light
@@ -3309,6 +3321,7 @@ life-of-a-tree
 lifecode
 lift-defender-zombie-carnage
 lift-the-girl
+light-house-save-the-ship
 light-it-rush
 light-stream
 lighthouse-mage-idle-defense
@@ -3410,6 +3423,7 @@ magic-castle-invasion-idle-rpg
 magic-circus-match-3
 magic-coloring-book-for-little-artists
 magic-finger-3d
+magic-jewels-castle
 magic-kingdom-hex-match
 magic-knife
 magic-pet-salon
@@ -3533,6 +3547,7 @@ maze-evolution-html
 maze-maker
 maze-runner-ball
 mazean-com
+mazes-draw-the-path
 mealmerge
 meccha-chameleon-online
 mech-battle-arena
@@ -3594,6 +3609,7 @@ merge-cubes
 merge-dragons
 merge-elementals-castle-defense
 merge-emoji-arena
+merge-factory-idle
 merge-for-renovation
 merge-fruit-characters
 merge-fruit-monster-defense-tower-defense
@@ -4054,6 +4070,7 @@ noobik-parkour-in-a-cave
 noodle-pull
 not-before-bed-01
 not-your-seafood-salad
+nothing-2-lose
 novabrick-rush
 novaguard-sky-defense
 novahelm-tactical-strike
@@ -4223,6 +4240,7 @@ one-man-army-battle-game
 one-shot-duel-snipe-hide
 one2one
 onet-animals
+onet-puzzle
 onet-puzzle-tile-match-game
 onigiri-demons-wrath
 online-car-destruction-simulator-3d
@@ -4422,6 +4440,7 @@ pixel-differences
 pixel-dino-run
 pixel-feast
 pixel-flow
+pixel-flow-2
 pixel-gun-apocalypse-4-zombie-invazion
 pixel-gun-apocalypse-6-remastered
 pixel-gun-apocalypse-9
@@ -4503,6 +4522,7 @@ poop-away
 poopy-shooting-survival
 pop-and-splat-squishy-merge
 pop-balloon
+pop-frenzy-cannon-blast
 pop-it
 pop-it-3d-fidget
 pop-it-bubble-game
@@ -4761,6 +4781,7 @@ reel-and-slash-ii-beach-legends
 referee-simulator-3d
 reflex-grid
 reflex-pong
+reflex-shot
 reindeer-escape
 relax-box-asmr-mini-games
 relaxing-games
@@ -4935,6 +4956,7 @@ run-rich-3d
 run-the-electricity
 run-witch-run
 runaway-toad
+runboy
 rune-reactor
 runettes
 runic-curse
@@ -5134,6 +5156,7 @@ shot-trigger
 shotwildwest
 shred-the-meme
 shrinkzone-io
+sid-and-ginny-y2k-glam-clash
 sidefire
 siege-clash
 sift-renegade-brawl
@@ -5361,6 +5384,7 @@ solitaire-the-eternal-deck
 solitaire-tile-match
 solitaire-treasures
 solitaire-tripeaks
+solve-or-suffer
 solve-the-maze
 somewhere
 sonik-run
@@ -5453,6 +5477,7 @@ spiny-ninja
 spiral-blitz
 splash-rivals
 splatcha
+split
 sponge-challenge
 sponge-strike-clean-and-smash
 spookily-stylish-duo
@@ -5503,6 +5528,7 @@ squid-poopy-sniper
 squid-sniper-game
 squid-stacky-maze
 squid-sugar-cooking
+squid-survival-run-challenge
 squidgame-io
 squidly-game-123-stop
 squirel-steps
@@ -5558,6 +5584,7 @@ stealth-silent-squid
 stealthy-heist
 steel-advance
 steel-directive-city-zero
+stellar-assault
 stellar-bastion
 stellar-connections
 stellar-pulse
@@ -5804,6 +5831,7 @@ superhero-dentist-surgery-game-for-kids
 superhero-fighting-game
 superhero-hammar-man
 superhero-nail-saloon
+superhero-nails-makeover
 superhero-transform-change-race
 superior-trial
 supermarket-empire
@@ -5986,6 +6014,7 @@ the-hustler
 the-ironic-zombie
 the-island-of-momo
 the-kitchen-spot-the-differences
+the-last-15-minutes
 the-last-adventure
 the-last-company
 the-last-shot
@@ -6516,6 +6545,7 @@ word-mosaic
 word-online-hunt
 word-puzzle-connect-words-and-letters
 word-runner-game
+word-safari
 word-search-and-quiz
 word-search-hidden-words
 word-search-offline-puzzle
@@ -6525,6 +6555,7 @@ word-shards
 word-shuffle
 word-solitaire
 word-string
+word-up-challenge
 wordaire-word-solitaire
 wordeck-associations
 wordforge
