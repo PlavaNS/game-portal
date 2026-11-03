@@ -377,7 +377,7 @@ const mostPlayed = n => { const seen = new Set(); const out = [];
 // newest on OUR site first (first-seen date), then the network's own 'newest' order
 const fin = x => Number.isFinite(x) ? x : 1e9;
 const newestOnSite = n => games.filter(g => !g.own && g.firstSeen).sort((a, b) => b.firstSeen.localeCompare(a.firstSeen) || fin(a.r.newest) - fin(b.r.newest) || fin(a.r.most) - fin(b.r.most)).slice(0, n);
-NEW_SET = new Set(newestOnSite(48).filter(g => (Date.now() - Date.parse(g.firstSeen)) < 7 * 864e5 && g.firstSeen > '2026-10-01').map(g => g.slug));
+const NEW_SET = new Set(newestOnSite(48).filter(g => (Date.now() - Date.parse(g.firstSeen)) < 7 * 864e5 && g.firstSeen > '2026-10-01').map(g => g.slug));
 
 // keyword collections ("mahjong", "escape room games"...): root-level SEO landing pages
 const topics = readJSON(path.join(ROOT, 'data/topics.json'), []).map(t => {
@@ -486,8 +486,6 @@ ${cfg.adsenseClient && !cfg.ownConsent ? '' : `<div class="consent" hidden data-
 }
 
 // NEW ribbon for 7 days after a game first appeared on the site
-const NEW_DAYS = 7;
-let NEW_SET = new Set(); // filled once games are loaded: the 48 newest, if they arrived within NEW_DAYS
 const isNew = g => !g.own && NEW_SET.has(g.slug);
 const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.video ? ' has-video' : ''}${g.community ? ' fit' : ''}${g.mobile ? '' : ' dm'}"${g.video ? ` data-video="${esc(g.video)}"` : ''} href="${gHref(g)}"${g.community ? ` style="--t:url('${esc(g.thumb)}')"` : ''}><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${g.own ? '<b class="badge">Our game</b>' : isHot(g) ? '<b class="badge hot">🔥 HOT</b>' : isTopRated(g) ? '<b class="badge top">👍 TOP RATED</b>' : isNew(g) ? '<b class="badge new">NEW</b>' : ''}</a>`;
 const row = (title, href, list, eager = false) => list.length ? `<section class="row"><div class="row-h"><h2>${esc(title)}</h2>${href ? `<a href="${href}">See all ›</a>` : ''}</div><div class="grid">${list.map(g => card(g, eager)).join('')}</div></section>` : '';
