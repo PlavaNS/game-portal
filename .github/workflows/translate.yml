@@ -7,8 +7,8 @@ on:
   workflow_dispatch:
     inputs:
       langs:
-        description: 'Language codes, comma separated (es,pt,de,fr)'
-        default: 'es,pt,de,fr'
+        description: 'Language codes, comma separated (es,pt,de,fr,zh)'
+        default: 'es,pt,de,fr,zh'
         required: true
       games:
         description: 'Game pages per language this run'
