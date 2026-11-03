@@ -4,6 +4,8 @@ name: Translate the site (Claude API)
 # Interface text and the landing pages are always brought up to date; "games" says how many
 # game pages to add on top (Search Console pages first). Running it again adds more.
 on:
+  schedule:
+    - cron: '41 1 * * *'   # every day 02:41 Belgrade: 400 more game pages per language
   workflow_dispatch:
     inputs:
       langs:
@@ -12,7 +14,7 @@ on:
         required: true
       games:
         description: 'Game pages per language this run'
-        default: '0'
+        default: '400'
         required: true
       conc:
         description: 'Parallel requests to the Claude API'
@@ -49,21 +51,25 @@ jobs:
       - name: Translate
         timeout-minutes: 300
         run: |
-          for lang in $(echo "${{ inputs.langs }}" | tr ',' ' '); do
+          # on the daily schedule there are no inputs, so fall back to the standing values
+          LANGS="${{ inputs.langs }}"; [ -z "$LANGS" ] && LANGS="es,pt,de,fr,zh"
+          GAMES="${{ inputs.games }}"; [ -z "$GAMES" ] && GAMES="400"
+          echo "langs=$LANGS games=$GAMES"
+          for lang in $(echo "$LANGS" | tr ',' ' '); do
             echo "::group::$lang"
-            node scripts/translate.mjs "$lang" "${{ inputs.games }}" || echo "$lang failed, continuing"
+            node scripts/translate.mjs "$lang" "$GAMES" || echo "$lang failed, continuing"
             echo "::endgroup::"
           done
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.ILOVEWEBGAMES }}
-          TRANSLATE_CONC: ${{ inputs.conc }}
+          TRANSLATE_CONC: ${{ inputs.conc || '6' }}
       - name: Commit translations
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
           git add data/i18n
           git diff --cached --quiet && { echo "no changes"; exit 0; }
-          git commit -m "Translations: ${{ inputs.langs }} (+${{ inputs.games }} game pages each)"
+          git commit -m "Translations: more pages (daily pass)"
           git stash --include-untracked || true
           ok=0; for i in 1 2 3; do git pull --rebase && git push && { ok=1; break; }; sleep 5; done
           [ "$ok" = 1 ] || { echo "push failed"; exit 1; }
