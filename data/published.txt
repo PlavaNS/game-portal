@@ -323,6 +323,7 @@ assemble-factory-puzzle
 astro-chickens
 astro-digger
 astro-merge
+astro-racing
 astro-shooter
 athlio
 attack-and-dash
@@ -398,6 +399,7 @@ ballblastpals
 ballerina-cappuccina-loves-tung-tung-sahur
 ballon-race-3d
 balloon-escape
+balloon-pop-master
 balloon-pop-pop-and-blast
 balloon-smash
 balloons-pop
@@ -526,6 +528,7 @@ bike-master
 bike-race-rush
 bike-racing-adventure
 bike-rivals
+bike-rush-xtreme
 bike-stunt-game
 bike-stunt-master-mini-rush
 bike-stunt-racing-legend
@@ -1317,6 +1320,7 @@ contrast
 contrast-kids
 cook-soups-3-in-a-bowl
 cookie-maker-for-kids
+cookie-party-pop
 cooking-city
 cooking-clash
 cooking-fever-happy-chef
@@ -1653,6 +1657,7 @@ doges-battle-royale
 dogfight
 doggydoku
 dogs-vs-aliens
+doll-dress-up-game
 doll-queen-designer
 domino-battle
 domino-camp
@@ -1978,6 +1983,7 @@ fall-fu-panda
 fall-germ
 fall-guyz
 fall-race-season-2
+fallfur
 falling-blocks-2048-2d
 falling-dummy
 fallingman-io
@@ -2044,6 +2050,7 @@ fighter-tank
 fighting-vehicles-arena
 figure-skating-on-ice
 fill-line-cover-every-cell
+fill-line-one-line-puzzle-game
 fill-the-glass-puzzle
 fill-the-heart
 fill-the-hopper
@@ -2089,6 +2096,7 @@ firefighter-plane-game
 fireline-merge-defense
 firestack
 fish-and-trip
+fish-aquarium-game
 fish-eat-grow-mega
 fish-factory
 fish-hunting
@@ -2124,6 +2132,7 @@ flaggy-reveal
 flames-and-fortune
 flamit
 flap-hero
+flap-up-game
 flappy-alien
 flappy-halloween-game
 flappy-twist
@@ -2685,6 +2694,7 @@ hexfall-io
 hexholm
 hexlands
 hi-fi-snake-groove-driven-arcade-challenge
+hidden-aquatic
 hidden-basketball
 hidden-object-clues-and-mysteries
 hidden-object-my-hotel
@@ -2821,11 +2831,13 @@ i-want-ice-cream
 i-want-to-be-king
 ice-and-fire-twins
 ice-ball-run
+ice-blast-buddies
 ice-cream-inc
 ice-cream-sorting
 ice-cream-vendor
 ice-dash
 ice-man-3d
+ice-pet-match
 ice-scream-horror-adventure
 ice-slide
 icing-on-doll-cake-creative-bakery
@@ -2958,6 +2970,7 @@ juice-sort-puzzle
 juice-tycoon
 juicy-run
 juicyjong
+jumen
 jump-and-fly
 jump-ball-2021
 jump-fight-game
@@ -3318,6 +3331,7 @@ master-blender
 master-checkers
 master-checkers-multiplayer
 master-craft
+master-hole-battle
 master-jigsaw-puzzle-game
 master-of-3-tiles
 master-of-break-an-eggs
@@ -3696,6 +3710,7 @@ mummy-land
 munch-mob
 murder-mafia
 muscle-clicker-2
+muscle-race-game
 muscle-run-io
 muscle-rush-3d
 museum-night-shift
@@ -4161,6 +4176,7 @@ people-blaster
 people-playground-ragdoll-arena
 percys-froggy-frenzy
 perfect-car-parking
+perfect-jump-puzzle-game
 perfect-landing-plane-pilot
 perfect-piano-magic
 perfect-snipe-online
@@ -4849,6 +4865,7 @@ shadeo
 shadobirds
 shadow-adventure
 shadow-duel
+shadow-escape
 shadow-fights
 shadow-fist-kung-fu
 shadow-forge
@@ -5115,6 +5132,7 @@ sokoballs
 sokoban-master
 sokoban-puzzle-game
 sol-coalition-force
+soldier-shooting
 soldiers-runner
 solitaire-8-collection
 solitaire-card-sort-puzzle
@@ -5234,6 +5252,7 @@ spotless
 spra-racing-cars-speed
 spray-paint-coloring-games
 spring-magic-enchanted-wardrobe
+springle-puzzle
 sprint-club-nitro
 sprinter-heroes
 sprunky-game-mini-fun
@@ -5458,6 +5477,7 @@ sudoku-master
 sudoku-number-games
 sudoku-online
 sudoku-puzzle
+sudoku-puzzle-master
 suger-rush
 sum-sum
 summer-fashion-makeover
@@ -5583,11 +5603,13 @@ sweet-bite-idle-game
 sweet-cake-shop-game
 sweet-candy-match-3-game
 sweet-merge-cafe
+sweet-merge-puzzle
 sweet-screw-factory
 sweet-solve
 sweet-supermarket-simulator
 sweetflip
 swerve-rush
+swiftslow
 swim-or-die
 swimming-pool-romance
 swing-obby-for-brainrots
@@ -5693,6 +5715,7 @@ tetradice-merge-and-blast-blocks
 the-adventure-of-finn-and-bonnie
 the-adventures-of-big-joe
 the-aesthetic-world-of-obby
+the-best-memory
 the-biggest-number
 the-black-and-white
 the-cargo
@@ -5796,6 +5819,7 @@ tile-tumble-fun-4-in-1
 tile-valley
 tiles-collect-3-fruits
 tiles-hop-edm-rush
+tiles-layer
 tilt-and-tumble
 timber-squirrel
 timber-truck-city-cargo-driver
@@ -5968,6 +5992,7 @@ uber-sim-transport-2020
 ugi-bugi
 ultimate-bike-stunt-racing
 ultimate-billiard-3d-game
+ultimate-bus-simulator-game
 ultimate-car-driving-simulator-3d
 ultimate-car-parking-sim
 ultimate-evolution
@@ -5979,6 +6004,7 @@ ultimate-obby-parkour-adventure-online
 ultimate-pk
 ultimate-robo-duel-3d
 ultimate-stunt-car-challenge
+ultra-crash-car-simulator-2026
 ultraman-monster-island-adventure-2
 unblock-ball-slide-puzzle-2
 unboxing-brainrots
@@ -5996,6 +6022,7 @@ unite-words
 universal-multiplayer-shooter
 unno-game
 uno-online
+unravel
 unravel-eggs-puzzle
 unreal-descent-2-race
 unroll-ball-slide-puzzle
@@ -6107,6 +6134,7 @@ water-city-racers
 water-me-please
 water-race-game
 water-sort-master-color-puzzle
+water-sort-puzzle-3
 water-sort-solve-puzzles
 watermelon-falling-animals
 watermelon-fruit-2048
@@ -6131,6 +6159,7 @@ wedding-artist2
 wedding-beauty-makeup-salon-indian-designer
 wedding-rush-race
 wednesday-s-battle-monster-symphony
+weight-adjust-game
 weight-balance-journey
 weight-puzzle-3d
 western-fight
@@ -6240,6 +6269,7 @@ world-of-alice-occupations
 world-of-alice-the-bones
 world-of-military-tanks
 world-soccer-game-championship
+world-tour
 world-war-camp-company
 world-war-iii
 world-war-zombie
