@@ -236,6 +236,7 @@ ant-swarm-io
 anti-spider-run
 anti-stress-planet-games
 anti-terrorist-shooting-game
+antistress-relaxation-toys-mini-games
 ants-ate-my-pixels
 ants-clear-all-color-block-puzzle
 aod-art-of-defense
@@ -531,6 +532,7 @@ ben-5-difference
 ben-car-adventure
 ben10-omnirush
 best-buds
+best-sweet-candy-shop
 besties-chinese-new-year-celebration
 besties-halloween-fashionista
 besties-on-wednesday
@@ -578,6 +580,7 @@ bird-patrol
 bird-quest-adventure-flappy
 bird-sort-puzzles
 bird-tile-trio
+birdflying
 birds-jump-2
 birdy-trip
 biryani-cooking-indian-super-chef-food-game
@@ -821,6 +824,7 @@ bridge-builders
 bridge-dash
 bridge-fun-race
 bridge-race
+bridge-rush-draw-bridge-puzzle-game
 bridge-wars
 bridges-3d
 brikzo
@@ -863,6 +867,7 @@ bubble-tower
 bubble-trouble
 bubble-war
 bubble-word-jam
+bubbles-blast
 bubbles-clicker
 bucket-ball
 bucket-brigade
@@ -951,6 +956,7 @@ buzzball
 cadillacs-dino-riot
 cafe-honey-heist
 cage-ballers-football
+cake-art-3d
 cake-maker-girls-cooking-games
 cake-master-shop
 cake-protector
@@ -1118,6 +1124,7 @@ cat-puzzle-draw-to-kitten
 cat-rescue
 cat-robot-transform-war
 cat-snack-defense
+cat-tic-tac-toe
 cat-vs-granny-cat-simulator
 catch-a-fish-obby
 catch-cats
@@ -1136,6 +1143,7 @@ category-match
 category-match-puzzle
 catoom-bomb-barrel
 catrobot-idle-td-battle-cat
+cats-and-candies
 cats-block-puzzle
 cats-go
 catwalk-beauty
@@ -1405,7 +1413,9 @@ cosmetic-box-cake-maker-2025
 cosmetic-run
 cosmic-dash
 cosmic-hunt
+cosmo-merge
 cosplay-gamer-girls
+count-master-3d
 count-masters
 counter-battle-strike-swat-multiplayer
 counter-craft-2-zombies
@@ -2089,6 +2099,7 @@ falling-blocks-2048-2d
 falling-dummy
 fallingman-io
 fallingman-io-winter-seasons
+family-dash
 family-pet-dog-games
 family-simulator-beach-games
 family-squid-challenge
@@ -2222,6 +2233,7 @@ fish-tank-caretaker-simulator
 fishdom
 fishdom-online
 fisher-clicker
+fishflip
 fishing-catch-the-moment
 fishing-frenzy
 fishing-hunting-game
@@ -2434,6 +2446,7 @@ funny-kitty-care
 funny-nose-surgery
 funny-pet-haircut
 funny-prank-sounds
+funny-puzzle-cats
 funny-ragdoll-wrestlers
 funny-rescue-carpenter
 funny-rescue-gardener
@@ -2452,6 +2465,7 @@ fuse-fury
 fusesmash
 galactic-pixel-storm
 galala
+galaxy-blaster-defend-the-galaxy
 galaxy-bricks
 galaxy-bricks-breaker
 galaxy-pop
@@ -2504,6 +2518,7 @@ geometry-maze-maps
 geometry-maze-maps-v2
 geometry-neon-dash-world-2
 geometry-open-world
+geometry-snake
 geometry-vibes
 geometry-vibes-2-online
 geometry-vibes-3d
@@ -3221,6 +3236,7 @@ kitten-s-way-home-word-associations
 kitty-cat-merge
 kitty-drop-3d
 kitty-grid-puzzle
+kitty-house-escapist
 kitty-jewel-quest
 kitty-kitty
 kitty-knight-survive-till-new-year
@@ -3340,6 +3356,7 @@ lion-safari-jigsaw-puzzles
 lipuzz-water-sort-puzzle
 liquid-color-sort
 liquid-sort
+liquid-sort-deluxe
 liquid-sort-puzzle
 lisa-s-world-paper-doll-story
 little-big-fighters
@@ -3362,6 +3379,7 @@ lollipop-escape-mania-kids
 lone-sniper
 long-drive-to-horizons-sim
 long-neck-runner-game
+longdog
 looper-fruit-hit
 loopix
 loopvival
@@ -3546,6 +3564,7 @@ maze-evolution
 maze-evolution-html
 maze-maker
 maze-runner-ball
+maze-survivor-platform-adventure-game
 mazean-com
 mazes-draw-the-path
 mealmerge
@@ -3598,6 +3617,7 @@ merge-balls-shooter-2048-connect-fruits
 merge-battler
 merge-beast-arena
 merge-beasts
+merge-blocks
 merge-brick
 merge-builders
 merge-cars-defense
@@ -3977,6 +3997,7 @@ neon-shot
 neon-snake
 neon-square-rush
 neon-velocity
+neonroll
 nest-heist
 netherton-volleyball
 never-by-color
@@ -4260,6 +4281,7 @@ orbit-pals
 orbit-ring-2
 orbit-rush-3d
 orbit-shift
+orbit-tap-rush-one-tap-game
 orc-breach
 order-of-operation-challenge
 organizer-master
@@ -4803,6 +4825,7 @@ rescue-the-princess
 residence-of-evil-quarantine
 resize-stickman
 resource-empire
+restaurant-rush
 restore-lab
 retro-basketball
 retro-run
@@ -4915,6 +4938,7 @@ romantic-match-tactics
 roof-rails-color-stack-3d
 roof-rush-3d
 rooftop-run
+rooftop-runner
 rooftop-shooters
 room-45
 room-makeover-design-and-aesthetic
@@ -5132,6 +5156,7 @@ shell-strikers-1
 shifted-realms
 shikaku-puzzle
 shinobi-swarm
+ship-and-fish
 shoe-outlet
 shoe-race
 shoes-outlet-game
@@ -5454,6 +5479,7 @@ speeding-ball
 speedmatch-competition
 speen
 spellbound-orbs
+spherix
 spider-bubu
 spider-escape-link
 spider-evolution
@@ -5494,6 +5520,7 @@ sports-escape-mania
 sports-minibattles
 sporty-viper
 spot-the-difference-mystic-mermaids
+spot-the-difference-wild-west
 spotless
 spra-racing-cars-speed
 spray-paint-coloring-games
@@ -6165,8 +6192,10 @@ toy-smash
 toy-soccer-cup
 toytopia
 tps-shooting-zombie-apocalypse
+trace-craft
 tracing-games
 tracoria-draw-color-and-match
+tractor-drift-3d
 tractor-farm-farming-simulator
 tractor-farming-farmer-life-game
 tractor-simulator-farming-game
@@ -6694,6 +6723,7 @@ zombie-world
 zombie-world-survival
 zombies-4-weapon-merge
 zombies-ate-my-castle
+zombies-rush
 zombies-vs-special-forces
 zombiracer-speed-on-earth
 zombotron-re-boot
