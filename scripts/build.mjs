@@ -556,7 +556,8 @@ function emitContent() {
       .filter((g, i, a) => a.findIndex(x => x.slug === g.slug) === i)
       .sort((a, b) => (b.firstSeen || '').localeCompare(a.firstSeen || '')).slice(0, 5);
     const dfmt = d => { try { return new Date(d).toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { day: 'numeric', month: 'short', year: 'numeric' }); } catch { return d; } };
-    const news = newsItems.length ? `<section class="row news"><div class="row-h"><h2>📰 ${esc(tr('News & Updates'))}</h2><a href="${u('/new/')}">${esc(tr('New games'))} ›</a></div>
+    const bnNews = newsItems.length ? banner('bn-news', u('/new/'), tr('News & Updates'), tr('The latest games added to the site'), newsItems) : '';
+    const news = newsItems.length ? `${bnNews}<section class="row news">
     ${newsItems.map(g => `<article class="news-item"><a class="news-thumb" href="${gHref(g)}" style="--t:url('${esc(g.thumb)}')"><img src="${esc(g.thumb)}" alt="${esc(g.title)}" loading="lazy"></a>
       <div class="news-text"><p class="news-h">${isNew(g) ? `<b class="news-tag">${esc(tr('NEW'))}</b>` : ''} <strong>${g.community ? esc(tr('New indie game')) : esc(tr('New game'))}: ${esc(g.title)}</strong></p>
       <p class="news-date">${esc(dfmt(g.firstSeen))}${g.community && g.studio ? ` · ${esc(tr('by'))} ${esc(g.studio)}` : ''}</p>
