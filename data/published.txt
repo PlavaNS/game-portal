@@ -192,6 +192,7 @@ animal-basketball
 animal-blocks
 animal-care-tycoon
 animal-clinic-anomaly
+animal-daycare-game
 animal-evolution-simulator
 animal-hair-salon
 animal-hospital
@@ -275,6 +276,7 @@ arrow-exit-puzzle
 arrow-fever
 arrow-free-3d
 arrow-jam
+arrow-jamescape
 arrow-out
 arrow-parking
 arrow-patrol
@@ -391,6 +393,7 @@ ball-path-through-obstacles
 ball-run-2048-space
 ball-sort-master-3d
 ball-sort-puzzle
+ballblastpals
 ballerina-cappuccina-loves-tung-tung-sahur
 ballon-race-3d
 balloon-escape
@@ -1031,6 +1034,7 @@ cars-challenge
 cars-tycoon
 cars-vs-blocks
 cars-vs-zombies
+cartoon-airplanes-jigsaw-puzzles
 cartoon-cat-naughty-kitten
 cartoon-traffic-racing-paper-derby
 carvivor-ops
@@ -1349,6 +1353,7 @@ cozy-jigsaw-puzzles
 cozy-puzzles
 cozy-sort-theme-collect
 crab-shooter
+crack-n-pop
 craft-magic-world-escape
 craft-number
 craft-the-war
@@ -1385,6 +1390,7 @@ crazy-kick-ball
 crazy-knife
 crazy-m1neworld
 crazy-mafia-drift-car
+crazy-mechanic
 crazy-merge-room
 crazy-moto
 crazy-motorcycle
@@ -2172,6 +2178,7 @@ football-marble-shooter
 football-masters
 football-panda
 football-pinball
+football-puzzle-goal
 football-rumble
 football-soccer
 football-tricks
@@ -2249,6 +2256,7 @@ fruit-names
 fruit-samurai
 fruit-slasher
 fruit-slicer
+fruit-slicer-fun
 fruit-smash-master
 fruitbattle
 fruite-swipe
@@ -2349,6 +2357,7 @@ geometry-maze-maps-v2
 geometry-neon-dash-world-2
 geometry-open-world
 geometry-vibes
+geometry-vibes-2-online
 geometry-vibes-3d
 geometry-vibes-monster
 geometry-vibes-x-arrow
@@ -2429,6 +2438,7 @@ goods-master
 goods-sort-3d
 goods-sort-3d-triple-puzzle
 goods-sort-match-puzzle
+goods-triple-sort
 gooey-lab
 gorbo-the-orc-crown-quest
 gorilgo-fps-online-shooter
@@ -2491,6 +2501,7 @@ gt-rush-2026
 gt-truck-racer
 guard-the-baby
 guardians-of-tower
+guardz-io
 guess-drawing
 guess-monster-voice
 guess-which-game
@@ -2779,6 +2790,7 @@ hungry-squirrel
 hungry-warrior-fight
 hunters-and-props
 hunting-master
+huntman
 hurdles
 huskeydoku
 hydro-racing-3d
@@ -2955,6 +2967,7 @@ junkyard-builder-3d
 junkyard-keeper
 just-golf
 k-challenge-456
+k-pop-makeover-idol
 k-pop-stars-inspired-look
 kaido
 kaiju-run-dzilla-enemies
@@ -3282,6 +3295,7 @@ masked-forces
 masked-special-forces
 maskinery-idle
 masquerades-vs-impostors
+master-blender
 master-checkers
 master-checkers-multiplayer
 master-craft
@@ -3647,6 +3661,7 @@ mr-reckless-car-chase-simulator
 mr-santa-run-2
 mr-shooter
 mr-stickman
+mr-tomato-vs-zombies
 mr-tung-shoot-zombie
 mtb-downhill-extreme
 mud-offroad-monster-truck-game
@@ -3666,6 +3681,7 @@ mushroom-fight-for-the-kingdom
 mushroom-hunting-forest-search
 mushroom-runners
 mushroomtarzan
+music-battle-game
 music-line-2-christmas
 music-night-battle-rhythm-game
 music-note
@@ -3704,6 +3720,7 @@ my-phone-store
 my-puppy-daycare-salon
 my-resale-cases-and-sales
 my-restaurant
+my-school-life-adventure
 my-sugar-factory
 my-sweet-candy-outfits
 my-sweetstreet-shop
@@ -3732,6 +3749,7 @@ needfor-race
 needle-quest-haystack-secrets
 needle-rush
 neko-s-adventure
+nekomi-recuse
 neo-traffic-rider-championship
 neon-billard-pool
 neon-circuit-rush
@@ -4128,6 +4146,7 @@ perfect-turn-game
 perfect-wax-3d
 perimeter-legate-edition
 pet-card-sort
+pet-doctor-caring-game
 pet-maze-escape
 pet-riders
 pet-salon-cute-doctor
@@ -4526,6 +4545,7 @@ repo-and-repo
 requiemnoire
 rescue-fairy-castle
 rescue-my-love
+rescue-rush-wildfire
 rescue-sharp-turn
 rescue-skibd-rope-cut-puzzle
 rescue-the-princess
@@ -4793,6 +4813,7 @@ sea-restore
 seafloor-racing
 season-change
 season-wiping-window
+seaweed-aqua
 secret-parkour
 sector-nine-lockdown
 sell-lemons-idle
@@ -5188,6 +5209,7 @@ spot-the-difference-mystic-mermaids
 spotless
 spra-racing-cars-speed
 spray-paint-coloring-games
+spring-magic-enchanted-wardrobe
 sprint-club-nitro
 sprinter-heroes
 sprunky-game-mini-fun
@@ -5283,6 +5305,7 @@ stick-man-battle-fighting
 stick-master-teleport
 stick-new-year-in-prison
 stick-ninja-survival
+stick-roll-arena
 stick-vs-zombies-epic-battle
 stick-war-tower-mighty-defense
 stick-wars-3d
@@ -5491,6 +5514,7 @@ superhero-adventure
 superhero-dentist-surgery-game-for-kids
 superhero-fighting-game
 superhero-hammar-man
+superhero-nail-saloon
 superhero-transform-change-race
 superior-trial
 supermarket-expert-idle
@@ -5528,6 +5552,7 @@ swat-cats
 swat-ops-body-camera
 sway-tower-builder
 sweet-baby-taylor-summer-travel
+sweet-bite-idle-game
 sweet-cake-shop-game
 sweet-candy-match-3-game
 sweet-merge-cafe
@@ -5592,6 +5617,7 @@ tanks-2d-war-and-heroes
 tanks-battle-royale
 tanks-blitz
 tanks-for-the-nation
+tanks-of-liberty-online
 tap-3d-wood-block-away
 tap-away-block-puzzle-3d
 tap-gallery
@@ -5602,6 +5628,7 @@ tap-think-save-the-kitten
 tapping-on-fruit
 tarantula-clicker
 target-gun-game-fps-shooting
+target-hit-shooting-range
 targetter-game
 tasty-out-arrow-puzzle
 tavern-cardsharp
@@ -5739,6 +5766,7 @@ tile-sort-color-columns
 tile-stack
 tile-stack-mahjong
 tile-valley
+tiles-collect-3-fruits
 tiles-hop-edm-rush
 tilt-and-tumble
 timber-squirrel
@@ -5767,6 +5795,7 @@ toca-life-adventure
 tom-and-angela-insta-fashion
 tom-jigsaw-puzzle
 tom-runner
+tomato-bounce
 tomb-of-the-dash-game
 toolbox-sort
 toon-blast-puzzle
@@ -5852,6 +5881,7 @@ tricky-story-friendly-help
 trimino
 trio-twist-puzzle
 triple-car-jam
+trivia-mind-game
 troll-rider
 truck-coloring
 truck-cross-country
@@ -6169,6 +6199,7 @@ words-with-prof-wisely
 world-archery-league
 world-cricket-champ
 world-flags-color-puzzle
+world-flags-pop
 world-flags-quiz
 world-in-danger-earth-attack-kids
 world-of-alice-animal-habitat
