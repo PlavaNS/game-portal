@@ -308,6 +308,7 @@ asmr-beauty-japanese-spa
 asmr-beauty-superstar
 asmr-cat-doctor-clinic
 asmr-fun-relaxing-games
+asmr-image-match-puzzle
 asmr-keyboard-escape-classic
 asmr-obby-slicer
 asmr-pet-treatment
@@ -477,6 +478,7 @@ beach-bowling-3d
 beach-defense-merge-tower
 beach-volley-clash
 beach-volleyball-3d
+bead-mosaic-fun
 bead-route-challenge
 beadhouse
 beam-drive-car-crash-test-simulator
@@ -588,6 +590,7 @@ block-island-destroyer
 block-master-gem-puzzle
 block-match-3d
 block-party-obby-robby-mini-games
+block-push-game
 block-puzzle-brain-blast
 block-puzzle-cats
 block-puzzle-chuzzle-classic
@@ -1282,6 +1285,7 @@ coloring-book-color-by-number
 coloring-book-for-kids-game
 coloring-by-numbers-pixel-room
 colors-and-forms
+colors-matching
 colortrail-3d
 colorturntable
 combat-guardian-under-attack
@@ -1333,6 +1337,7 @@ correct-math
 cosmetic-box-cake-maker-2025
 cosmetic-run
 cosmic-dash
+cosmic-hunt
 cosplay-gamer-girls
 count-masters
 counter-battle-strike-swat-multiplayer
@@ -1439,6 +1444,7 @@ crust-crusher
 crustrun
 crypta
 cryptograms-secret-text
+crystal-cave-sort
 crystal-treasures-match-3
 crystalia
 cs-command-snipers
@@ -1474,6 +1480,7 @@ cut-grass-for-brainrots
 cut-in-half
 cut-it-3d
 cut-it-all-3d
+cut-it-all-challenge
 cut-it-voxel-crusher
 cut-my-candy
 cut-rope-2026
@@ -1992,6 +1999,7 @@ farm-defenders
 farm-escape-puzzle-game
 farm-mart
 farm-nubik-vs-zombies
+farm-vegetable-link
 farmers-vs-aliens
 farming-mini-puzzle
 farming-simulation-game
@@ -2054,6 +2062,7 @@ find-part-in-love-story
 find-the-correct-shadow
 find-the-dog
 find-the-frog-hidden-objects
+find-the-fun
 find-the-key
 find-the-lost-letter-3d
 find-the-needle
@@ -2164,6 +2173,7 @@ food-tower-defense
 foodhead-fighters
 foot-bomb
 foot-chinko
+foot-doctor-hospital-game
 football-champ-3d
 football-crash
 football-crash-2
@@ -2267,6 +2277,7 @@ fruitsland-escape-from-the-amusement-park
 fruity-craft-merge
 frutiger-friends-io
 full-space-shooter
+fun-arrow-fall
 fun-draw-race-3d
 fun-fishing
 fun-jigsaw-puzzle-game
@@ -2323,10 +2334,12 @@ gangster-crime-car-simulator-1
 gangster-kabali-game
 gangster-vegas-driving-simulator-online
 gangsters
+gapglide
 gapshot
 garage-boss
 garden-clicker
 garden-master
+garden-match-kids
 garden-pals-idle
 garden-snakes
 garfield-rush
@@ -2442,6 +2455,7 @@ goods-triple-sort
 gooey-lab
 gorbo-the-orc-crown-quest
 gorilgo-fps-online-shooter
+gorilla-monster-fight
 gorilla-multiplayer
 gothic-new-era
 grab-io
@@ -2569,6 +2583,7 @@ hangman-2-4-players
 happy-birthday-party-game
 happy-color-sort-puzzle
 happy-coloring-book
+happy-corals
 happy-farm-1-line-puzzle
 happy-fluffy-cubes
 happy-food-link
@@ -2649,11 +2664,13 @@ hex-a-mong
 hex-block-puzzle-master
 hex-connect
 hex-hamlet
+hex-merge-puzzle
 hex-mine-2d
 hex-mine-3d
 hex-triple-match
 hexa-block-puzzle
 hexa-bloom
+hexa-candy-match-3
 hexa-color-sort
 hexa-jump-asmr
 hexa-master-3d-sort-puzzle
@@ -3156,6 +3173,7 @@ little-city-merge
 little-cute-summer-fairies-puzzle
 little-dentist-for-kids-3
 little-pumpkin-online-game
+little-rodeo-fun
 live-eating-simulator
 live-round
 liverpool-vs-real-2022
@@ -3265,6 +3283,7 @@ mahjong-unlimited
 make-a-dress
 make-the-glass-happy
 make-your-meal-cooking-game
+makeover-glow-up-match
 makeover-mayhem
 makeup-artist-fashion-salon
 makeup-fruits
@@ -3319,6 +3338,7 @@ match-story-weapons
 match-ten-number-puzzle
 match-them-up
 matching-pair-game
+matching-pair-puzzle
 matching-tiles-3d
 math-battle
 math-crosswords
@@ -3615,6 +3635,7 @@ mosquito-fight-number-battle
 mother-simulator-beach-party-games
 mother-simulator-husband-wife-games
 moto-3d-racing-challenge
+moto-adventure
 moto-bike-extra
 moto-extreme-halloween-land
 moto-flow
@@ -3646,6 +3667,7 @@ moving-balls-going-sphere
 moving-magnet
 mowmentum
 mr-and-mrs-santa-christmas-adventure
+mr-bean-hidden-stars
 mr-bouncemaster
 mr-bouncemasters-2
 mr-bullet-3d-online
@@ -4106,6 +4128,7 @@ parmesan-partisan
 parmesan-partisan-deluxe
 party-games-mini-shooter-battle
 party-stickman-4-player
+pass-the-gate
 pastry-evolution-game
 patagonians
 patch-garden
@@ -4711,6 +4734,7 @@ russian-drift-overtaking-in-the-city
 rustlings-online
 ruthless-merciless-cards
 safari-merge
+safe-box-crack
 safety-sheriff-labrador
 saguaro
 same-room-same-day
@@ -5247,6 +5271,7 @@ stack-master
 stack-sort
 stack-swipe
 stack-the-blocks
+stack-tide
 stack-up
 stackitaire
 stacky-bird
@@ -5415,6 +5440,7 @@ stunt-extreme
 stunt-planes
 stunt-rider
 stunt-witch-3
+style-star-match
 subby-quest
 subway-clash-3d
 subway-princess-run
@@ -5540,6 +5566,7 @@ survive-the-disasters-obby
 survive-the-glass-bridge
 survivor-war-island-game
 sushi-bros
+sushiboom
 sustainable
 sustainable-3
 swamp-attack-online
@@ -5765,6 +5792,7 @@ tile-pop-block-blast
 tile-sort-color-columns
 tile-stack
 tile-stack-mahjong
+tile-tumble-fun-4-in-1
 tile-valley
 tiles-collect-3-fruits
 tiles-hop-edm-rush
@@ -6180,6 +6208,7 @@ word-game-2026
 word-jam-association-puzzle
 word-ladder
 word-master-puzzle
+word-mosaic
 word-online-hunt
 word-puzzle-connect-words-and-letters
 word-runner-game
@@ -6187,6 +6216,7 @@ word-search-and-quiz
 word-search-hidden-words
 word-search-offline-puzzle
 word-search-universe-animals
+word-shuffle
 word-solitaire
 word-string
 wordaire-word-solitaire
