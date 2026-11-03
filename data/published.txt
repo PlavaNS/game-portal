@@ -11,6 +11,7 @@
 1-speed-per-step-obby-mode
 1-speed-superhero-obby
 1-strength-for-escape
+1-wings-escape
 1-zombie-survival
 100-doors-escape-from-prison
 100-doors-escape-mysteries
@@ -129,6 +130,7 @@ aidol-k-pop-adventure
 aim-and-snap-arrow-srike
 aimball
 air-assault-ship-defense
+air-battles
 air-fighter-3d
 air-force-commando-online-game
 air-space-shooter
@@ -229,6 +231,7 @@ ant-colony
 ant-colony-idle
 ant-moving-simulator
 ant-picnic
+ant-swarm-io
 anti-spider-run
 anti-terrorist-shooting-game
 ants-ate-my-pixels
@@ -277,6 +280,7 @@ army-truck-simulator-2024
 army-vehicle-transporting
 arrow-cube-3d
 arrow-escape-3d
+arrow-escape-puzzle
 arrow-exit-puzzle
 arrow-fever
 arrow-free-3d
@@ -965,6 +969,7 @@ candy-mahjong-3d
 candy-match-move
 candy-match-pop
 candy-match-saga-2
+candy-merge-sort
 candy-pop-mania
 candy-shop-3d-match-puzzle
 candy-sort
@@ -1291,6 +1296,7 @@ color-brain-test-games
 color-brawls
 color-brick-battle
 color-bridge-builder-puzzle
+color-bubble-shooter
 color-by-numbers-anti-stress-drawings
 color-coin-merge
 color-connect-3d
@@ -1343,6 +1349,7 @@ commando
 commando-force-2
 commando-gun-shooting
 commit
+comparing-numbers-quick-math-game
 computer-valley
 connect-associations
 connect-hero
@@ -1453,11 +1460,13 @@ crazy-pixel-apocalypse-4-ui-2026
 crazy-plane-shooter
 crazy-plinko
 crazy-room-3d
+crazy-runner
 crazy-runner-boy
 crazy-sea-battle
 crazy-sheep
 crazy-supercars-stunt-2022
 crazy-three-puzzle
+crazy-traffick-racing-2026
 crazy-truck-stunt-i-o
 creamlink-kids
 create-your-robot
@@ -1719,6 +1728,7 @@ doll-dress-up-game
 doll-queen-designer
 domino-battle
 domino-camp
+don-t-die-kitty
 don-t-look-down-kitty
 don-t-open-that-door-seriosly
 don-t-splash
@@ -1820,6 +1830,7 @@ drawing-online
 drawrider
 dream-castle
 dream-football-game
+dream-head-soccer-game
 dream-home
 dream-home-merge-story
 dream-puppy-spot-the-differences
@@ -2141,6 +2152,7 @@ find-a-legendary-needle
 find-a-pair-3d
 find-capybara-valley-of-monsters
 find-match-3d
+find-number-biggest-and-smallest
 find-out-hidden-object
 find-part-in-love-story
 find-the-correct-shadow
@@ -2235,6 +2247,7 @@ fliplines-game
 flippee-ball
 flipper-dunk-3d
 flippin-coins
+flippy-hero-jump-game
 flock-fence
 floppy-pipe
 flow-blast-shooter
@@ -2300,6 +2313,7 @@ formula-rush-online
 formwise
 fortress-clash
 fortress-of-the-sinister
+fours-colors
 foxy-eco-sort
 foxytruck
 fps-gun-shooting-game-3d
@@ -2434,6 +2448,7 @@ gangsters
 gapglide
 gapshot
 garage-boss
+garden-brain-learn-grow
 garden-clicker
 garden-master
 garden-match-kids
@@ -2540,6 +2555,7 @@ golf-cars-simulator
 golf-invaders
 golf-king-3d
 golf-orbit
+goo-turf
 good-and-evil-dressup
 good-guys-and-bad-boys-zombie-survival-gui
 good-knight-story
@@ -2927,6 +2943,7 @@ hyber-dash
 hydrasword
 hydro-racing-3d
 hyper-cars-ramp-crash
+hyper-wave-trial
 i-am-cake-no-cats
 i-am-crazy-bird
 i-can-paint
@@ -3030,6 +3047,7 @@ jelly-gobble
 jelly-links
 jelly-match-game
 jelly-matches
+jelly-merge-2026
 jelly-merge-dooper
 jelly-mix-up
 jelly-mob-rush
@@ -3383,6 +3401,7 @@ magic-potion-school-for-witch
 magic-story-of-solitaire
 magic-tri-peaks-solitaire
 magic-water-sort
+magic-water-sort-color-puzzle
 magical-unicorn-grooming-world-pony-care
 magikmon
 magline-moto
@@ -3690,6 +3709,7 @@ model-wedding-girl-games
 modern-fps-strike-zombie-gun-war-ops
 modern-sniper-gun-game-sniper-3d
 modern-strike-shooting-game
+modified-hill-climb-2d
 mole-dig-clicker
 mole-in-the-hole
 mole-kingdom-defense
@@ -3895,6 +3915,7 @@ mystical-blade-3d
 nail-salon
 nail-salon-manicure-fashion-girl
 nail-stack
+nail-stack-run-challenge
 narcos-crime-master
 narutovsbleach
 natural-disaster-survival-obby
@@ -3957,6 +3978,7 @@ ninja-escape-2
 ninja-gorilla-jigsaw-puzzle
 ninja-hero-cats
 ninja-in-cape
+ninja-jump-fighting
 ninja-jump-kids
 ninja-obby-parkours
 ninja-obby-speed-run
@@ -3979,6 +4001,7 @@ nitro-speed-car-racing
 nitrohit
 nitrovenant-2
 no-i-m-not-a-plankton
+no-one-survives-1-minute
 no-shorts
 no-stress-game-challenges
 noescape
@@ -4374,6 +4397,7 @@ pixel-car-memory-quest
 pixel-color-flow
 pixel-color-quest
 pixel-conquest
+pixel-dash-neon-run
 pixel-destroyer
 pixel-differences
 pixel-dino-run
@@ -4398,6 +4422,7 @@ placik
 plane
 plane-crash-ragdoll-simulator
 plane-escape-puzzle
+plane-runner-3d
 planes-dodge-and-go
 planet-404-episode-1
 planet-blast-rockets
@@ -4524,6 +4549,7 @@ princess-ready-for-christmas
 princesses-at-horror-school
 princesses-of-quadrobics
 prison-architect-cage-break-tycoon
+prison-ball
 prison-break-architect-tycoon
 prison-escape-online
 prison-escape-push-the-guards
@@ -4989,6 +5015,7 @@ schoolboy-escape-from-parents
 schoolboy-escape-runaway
 schoolboy-runaway-room-escape
 scientist-and-robot
+sciwhy
 sciwhy-easy
 scoop-empire
 scp-173-foundation-escape
@@ -5163,6 +5190,7 @@ slide-and-divide
 slide-block-jam
 slide-blocks-3d
 slide-the-blocks-build-the-pictures
+slide-to-ride
 slides-and-climbs
 slidey-sliding-cat-puzzle
 sliding-slide
@@ -5333,6 +5361,7 @@ sorting-nuts-and-bolts-by-color-home-repair
 sorting-nuts-puzzle-game
 sorty-bolty
 spa-with-daddy
+space-adventure-game
 space-aim-kids
 space-blast
 space-break
@@ -5353,6 +5382,7 @@ space-tower-defense
 space-war-symphony
 spaceball-jump
 spaceman-escape-adventure
+spacepuzzler
 sparksnap
 sparkzap
 sparrowelimination
@@ -5431,6 +5461,7 @@ square-bird
 square-crusher
 square-fling
 square-hero-bird
+square-sling
 square-sort
 squeeze-n-slide
 squicky
@@ -5518,6 +5549,7 @@ stick-duel-battle
 stick-duel-battle-hero
 stick-duel-medieval-wars
 stick-duel-the-war
+stick-fight-arena
 stick-fighter-3d
 stick-fruit-arcade-game
 stick-hero-tower-defense
@@ -6024,6 +6056,7 @@ time-stop
 time-travel-tower-rush-td
 timer-cannon
 tiny-arena
+tiny-army
 tiny-chick
 tiny-cinema
 tiny-delivery
@@ -6050,6 +6083,7 @@ top-shootout-the-pirate-ship
 top-shootout-the-saloon
 topbike-racing-and-moto-3d-bike-2023
 topsy-turvy
+torn-pieces
 tornado-67
 tornado-fury-of-the-elements
 torture-the-trollface
@@ -6058,6 +6092,7 @@ touch-draw-game
 tower-blocks-deluxe-3d
 tower-colour-crash
 tower-crush
+tower-defender
 tower-necromancer-s
 tower-of-asmr
 tower-platformer-3d
@@ -6068,6 +6103,7 @@ town-builder-inc
 toxic-arena-biological-threat
 toy-block-blast
 toy-box-blast
+toy-factory
 toy-factory-conveyor
 toy-smash
 toy-soccer-cup
@@ -6310,6 +6346,7 @@ wall-painter
 wall-rush-3d
 wander-wild
 wanted
+war-commander
 war-groups
 war-machine
 war-of-islands-mine-and-craft
@@ -6403,6 +6440,7 @@ witch-s-shop-potion-brewing
 witchy
 wizard-io
 wizard-santa-jump
+wizzard-adventure
 wobble-it
 wobble-run
 wolfoo-2048
