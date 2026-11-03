@@ -120,6 +120,9 @@ const CATS = [
 ];
 const CAT_BY = Object.fromEntries(CATS.map(c => [c.slug, c]));
 const CAT_ICON = { action: '⚔️', shooting: '🎯', racing: '🏎️', puzzle: '🧩', 'clicker-idle': '👆', arcade: '🕹️', adventure: '🗺️', sports: '⚽', 'two-player': '👥', multiplayer: '🌐', girls: '👗', hypercasual: '✨', stickman: '🕴️', zombie: '🧟', '3d': '🧊', cooking: '🍳', kids: '🧸', mobile: '📱' };
+// one emoji per collection, matched on the slug; anything unmatched gets the tag glyph
+const TAG_ICON = [[/bored|relax/, '😌'], [/car-crash|crash|demolition/, '💥'], [/mahjong|tile/, '🀄'], [/solitaire|card/, '🃏'], [/chess|board/, '♟️'], [/word|typing/, '🔤'], [/sudoku|number|math|2048/, '🔢'], [/match-3|merge|jewel|gem/, '💎'], [/bubble/, '🫧'], [/hidden-object/, '🔎'], [/escape/, '🚪'], [/idle|tycoon|clicker/, '💰'], [/parking/, '🅿️'], [/truck|bus/, '🚚'], [/motorcycle|bike|moto/, '🏍️'], [/drift|racing|race/, '🏁'], [/soccer|football/, '⚽'], [/basketball/, '🏀'], [/golf|pool|billiard/, '🎱'], [/sniper|gun|shoot/, '🎯'], [/tank|war|army|military/, '🪖'], [/tower-defense|defense/, '🏰'], [/ninja|fight|box/, '🥋'], [/monster-truck/, '🛻'], [/fishing|fish/, '🎣'], [/color|draw|paint/, '🎨'], [/dress-up|makeup|fashion/, '👗'], [/cook|restaurant|food|cafe/, '🍳'], [/animal|pet|cat|dog/, '🐾'], [/jigsaw|puzzle/, '🧩'], [/snake/, '🐍'], [/parkour|obby|platform/, '🏃'], [/horror|scary|ghost/, '👻'], [/2-player|two-player/, '👥'], [/io-games|\bio\b/, '🌐'], [/stickman/, '🕴️'], [/zombie/, '🧟'], [/multiplayer/, '🎮'], [/girls/, '🎀'], [/kids|preschool|learning/, '🧸'], [/brain|logic|memory/, '🧠'], [/block|sort|stack/, '🧱'], [/simulator|sim/, '🕹️'], [/space|planet|galaxy/, '🚀'], [/archery|bow/, '🏹'], [/farm|garden|grow/, '🌱'], [/halloween|pumpkin/, '🎃'], [/christmas|winter|snow/, '❄️'], [/pirate/, '🏴‍☠️'], [/thanksgiving|autumn/, '🍂'], [/witch|wizard|magic|dragon/, '🪄'], [/build|craft|sandbox/, '🔨'], [/candy|cake|sweet/, '🍬'], [/robot/, '🤖'], [/police|thief|steal/, '🚓'], [/doctor|hospital/, '🩺'], [/mining|miner/, '⛏️'], [/boat|ship/, '⛵'], [/plane|airplane|flight/, '✈️'], [/ragdoll/, '🤸'], [/bee|insect/, '🐝'], [/evolution/, '🧬'], [/open-world/, '🗺️'], [/clean/, '🧽'], [/black-hole/, '🕳️'], [/brainrot/, '🤪'], [/3d/, '🧊'], [/screw/, '🔩'], [/home-design|decorat/, '🛋️'], [/flag|geography/, '🌍'], [/dinosaur/, '🦖'], [/running|run/, '🏃'], [/physics/, '⚙️'], [/princess/, '👑'], [/bubble-shooter/, '🎈']];
+const tagIcon = slug => (TAG_ICON.find(([re]) => re.test(slug)) || [, '🏷️'])[1];
 const CAT_INTRO = {
   action: 'Fight, dodge and battle your way through fast-paced action games. Every game runs right in your browser on PC, tablet and phone.',
   shooting: 'Aim, fire and take down your targets. From sniper missions to tank battles, these free shooting games load instantly with no download.',
@@ -349,6 +352,14 @@ try {
   if (r.ok) for (const x of await r.json()) if (SITE_COUNTS[x.kind]) SITE_COUNTS[x.kind][x.slug] = Number(x.n) || 0;
   console.log(`site counts: ${Object.keys(SITE_COUNTS.cat).length} categories, ${Object.keys(SITE_COUNTS.play).length} games played`);
 } catch (e) { console.log('site counts unavailable:', e.message); }
+// what visitors actually type into our search box (last 28 days, at least 2 times)
+const SEARCHES = [];
+try {
+  const K = 'sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k';
+  const r = await fetch('https://pxjlcbjwdalctlyeljql.supabase.co/rest/v1/rpc/top_searches', { method: 'POST', headers: { apikey: K, Authorization: 'Bearer ' + K, 'Content-Type': 'application/json' }, body: JSON.stringify({ days: 28, lim: 24 }), signal: AbortSignal.timeout(15000) });
+  if (r.ok) for (const x of await r.json()) SEARCHES.push({ q: String(x.slug).replace(/-/g, ' '), n: Number(x.n) || 0 });
+  console.log(`top searches: ${SEARCHES.length}`);
+} catch (e) { console.log('top searches unavailable:', e.message); }
 // thumbs up / down from the same counter (all time)
 const VOTES = {};
 try {
@@ -462,7 +473,7 @@ ${bodyClass.includes('home') ? '' : `<section class="row cat-grid-wrap"><div cla
 </div>
 <footer class="foot">
   <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.slogan)} ${esc(cfg.tagline)}</p>
-  <p><a href="${ur('/about/')}">${esc(tr('About'))}</a> · <a href="${ur('/contact/')}">${esc(tr('Contact'))}</a> · <a href="${ur('/faq/')}">FAQ</a> &middot; <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> · <a href="${ur('/publish-html5-game/')}">Where to publish your HTML5 game</a> · <a href="${ur('/privacy/')}">${esc(tr('Privacy Policy'))}</a> · <a href="${ur('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
+  <p><a href="${ur('/about/')}">${esc(tr('About'))}</a> · <a href="${ur('/contact/')}">${esc(tr('Contact'))}</a> · <a href="${ur('/faq/')}">FAQ</a> · <a href="${u('/tags/')}">${esc(tr('All tags'))}</a> &middot; <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> · <a href="${ur('/publish-html5-game/')}">Where to publish your HTML5 game</a> · <a href="${ur('/privacy/')}">${esc(tr('Privacy Policy'))}</a> · <a href="${ur('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
   ${langsHere.length > 1 ? `<p class="foot-langs">${langsHere.map(l => l === LANG ? `<strong>${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</strong>` : `<a href="${esc(absIn(l, altPath))}" hreflang="${esc(l)}">${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</a>`).join(' · ')}</p>` : ''}
   <p class="foot-topics">${topics.filter(t => LANG === 'en' || (CATTR[LANG] || {})['topic:' + t.slug]).slice(0, 14).map(t => `<a href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join(' · ')}</p>
   <p class="muted">© ${YEAR} ${esc(cfg.name)} by ${esc(cfg.studio)}. All games are the property of their respective developers and are provided through official distribution partners.</p>
@@ -585,7 +596,8 @@ function emitContent() {
   ${duos}
   ${(() => { const indie = all.filter(g => g.community).slice().sort((x, y) => (y.added || '').localeCompare(x.added || '')).slice(0, 12);
     return indie.length ? `<section class="row indie-row"><div class="row-h"><h2>🧑‍💻 ${esc(tr('New from indie developers'))}</h2><a class="btn sg-cta" href="${ur('/submit-game/')}">📤 ${esc(tr('Made a game? Submit it free'))}</a></div><p class="indie-note">${esc(tr('Games sent to us by independent developers. Every one is played and checked by a real person before it goes live.'))} <a href="${ur('/publish-html5-game/')}">${esc(tr('Where to publish your HTML5 game'))} ›</a></p><div class="grid">${indie.map(g => card(g)).join('')}</div></section>` : ''; })()}
-  <section class="row"><div class="row-h"><h2>${esc(tr('Popular collections'))}</h2></div><p class="chips">${topics.filter(t => catOK('topic:' + t.slug)).map(t => `<a class="chip" href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join('')}</p></section>
+  <section class="row tagbox"><div class="tagbox-in"><b class="tagbox-h">${esc(tr('Top tags'))}</b>${topics.filter(t => catOK('topic:' + t.slug)).slice(0, 44).map(t => `<a class="tag" href="${tHref(t.slug)}"><i>${tagIcon(t.slug)}</i>${esc(((catTr('topic:' + t.slug) || {}).h1 || t.h1).replace(/ Games$/i, ''))}</a>`).join('')}<a class="tag tag-all" href="${u('/tags/')}">${esc(tr('All tags'))}</a></div></section>
+  ${SEARCHES.length >= 8 ? `<section class="row tagbox searchbox"><div class="tagbox-in"><b class="tagbox-h">🔍 ${esc(tr('Top searches'))}</b>${SEARCHES.slice(0, 22).map(x => `<a class="tag" href="${u('/search/')}?q=${encodeURIComponent(x.q)}"><i>🔎</i>${esc(x.q)}</a>`).join('')}</div></section>` : ''}
   <section class="seo-text"><h2>${esc(tr('Free online games on'))} ${esc(cfg.name)}</h2><p>${esc(cfg.name)} ${esc(tr('is a hand-picked collection of'))} ${all.length.toLocaleString('en')} ${esc(tr('free browser games. Every game runs instantly on your computer, tablet or phone, with no downloads, no installs and no account. Play action, puzzle, racing, sports, clicker and 2 player games, and come back every day for new titles.'))}</p></section>`;
     write('index.html', layout({
       title: `${cfg.name} — ${tr('Free Online Games, Play Instantly')}`,
@@ -1017,6 +1029,15 @@ ${faq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
 ${faqHtml}
 <h2>Still stuck?</h2><p>Email <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a> and a real person will answer.</p>`,
     `Answers about ${cfg.name}: the games are free, there is no account and no download, they work on phones, and here is what to do if a game will not load.`, [ld], 0.6);
+}
+{
+  const ok = c => LANG === 'en' || !!catTr(c);
+  const list = topics.filter(t => ok('topic:' + t.slug));
+  textPage('tags', 'All Tags & Collections', `<p class="lead">Every themed collection on ${esc(cfg.name)}, from car crash games to jigsaw puzzles. Each one is a hand-picked page of games on that theme.</p>
+<div class="tagbox-in tagbox-page">${list.map(t => `<a class="tag" href="${tHref(t.slug)}"><i>${tagIcon(t.slug)}</i>${esc(((catTr('topic:' + t.slug) || {}).h1 || t.h1).replace(/ Games$/i, ''))}</a>`).join('')}</div>
+<h2>${esc(tr('Browse by category'))}</h2>
+<div class="cat-grid">${activeCats.map(c => catTile(c)).join('')}</div>`,
+    `All ${list.length} game collections on ${cfg.name}: car crash, mahjong, hidden object, idle and tycoon, 2 player, horror and more.`, [], 0.6);
 }
 textPage('contact', 'Contact', `<p>We'd love to hear from you — feedback, bug reports, game suggestions or business inquiries.</p>
 <p>Email: <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a></p>

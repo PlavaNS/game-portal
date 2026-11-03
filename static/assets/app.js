@@ -161,6 +161,12 @@
 
   // search page
   const si = $('[data-search-input]');
+  if (si) { // remember the term (not who typed it) so the site can show what people look for
+    let last = '', timer;
+    const remember = () => { const q = si.value.toLowerCase().replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 40);
+      if (q.length >= 3 && q !== last) { last = q; count('search', q); } };
+    si.addEventListener('input', () => { clearTimeout(timer); timer = setTimeout(remember, 2500); });
+  }
   if (si) {
     const out = $('[data-search-results]'), cnt = $('[data-search-count]');
     const q0 = new URLSearchParams(location.search).get('q') || '';

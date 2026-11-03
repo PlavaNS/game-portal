@@ -411,3 +411,39 @@ main{max-width:1500px;margin:0 auto}
 :root[data-theme=light] .feat-week .eyebrow{color:#a06b00}
 :root[data-theme=light] .feat-week .feat-by a{color:#a06b00}
 :root[data-theme=light] .news-tag{background:#0f9b6c;color:#fff}
+
+/* more air between the blocks */
+.row{margin-bottom:40px}
+.banner{margin:0 0 22px}
+.feats{margin:0 0 34px;gap:18px}
+.duos{margin:8px 0 40px;gap:18px}
+.news-item{margin:0 0 14px}
+.news-item:last-child{margin-bottom:0}
+.cat-rows{gap:20px}
+.welcome{margin:6px 0 24px}
+.row + .banner{margin-top:8px}
+@media (min-width:1200px){
+  .row{margin-bottom:48px}
+  .banner{margin-bottom:26px}
+  .grid{gap:16px}
+  .cat-games{gap:16px}
+  .cat-rows{gap:24px}
+  main{padding:26px 32px 56px}
+}
+@media (max-width:860px){.row{margin-bottom:28px}.banner{margin-bottom:16px}.feats{margin-bottom:22px}.duos{margin-bottom:28px}}
+
+/* top tags / top searches */
+.tagbox{background:var(--bg2);border:1px solid var(--line);border-radius:20px;padding:16px 18px}
+.tagbox-in{display:flex;flex-wrap:wrap;gap:9px;align-items:center}
+.tagbox-h{font-size:14px;font-weight:800;color:var(--muted);margin-right:4px;letter-spacing:.02em}
+.tag{display:inline-flex;align-items:center;gap:7px;padding:8px 14px;border-radius:999px;border:1px solid var(--line);background:var(--card);color:var(--text);text-decoration:none;font-size:13.5px;font-weight:600;transition:.15s}
+.tag:hover{border-color:var(--accent);color:var(--accent);transform:translateY(-1px)}
+.tag i{font-style:normal;font-size:15px;line-height:1}
+.tag-all{background:var(--accent);border-color:var(--accent);color:#fff}
+.tag-all:hover{color:#fff;filter:brightness(1.1)}
+.searchbox .tag{font-weight:500}
+.tagbox-page{margin:0 0 26px}
+:root[data-theme=light] .tagbox{background:#fff}
+:root[data-theme=light] .tag{background:#f3f4fb}
+@media (max-width:860px){.tagbox{padding:12px 12px;border-radius:16px}.tag{padding:7px 11px;font-size:12.5px;gap:5px}}
+:root[data-theme=light] .tag-all{background:var(--accent);border-color:var(--accent);color:#fff}
