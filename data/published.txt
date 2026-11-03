@@ -123,6 +123,7 @@ age-of-tanks-warriors-td-war
 agent-j
 agent-sniper-city
 agrarian-magnate
+aichessgame
 aidan-in-danger
 aidol-k-pop-adventure
 aim-and-snap-arrow-srike
@@ -139,6 +140,7 @@ airplane-pilot-simulator
 airport-clash-3d
 airport-controller
 airport-security-3d
+airsteps
 akagram
 alchemist-lab-jewel-crush
 alchemy-elixir-of-life
@@ -329,6 +331,7 @@ astro-merge
 astro-racing
 astro-shooter
 athlio
+atm-robbery-escape-game
 attack-and-dash
 attack-hole
 attack-hole-game
@@ -390,6 +393,7 @@ baggage-out
 baker-city-family-bakery
 ball-attack
 ball-bounce-try-it
+ball-break-the-hoops
 ball-chain-blast
 ball-connect
 ball-io
@@ -658,6 +662,7 @@ bmg-crash-test
 bmg-crashday-2025
 bmg-ragdoll-car-race
 boat-attack
+boat-bear
 boat-merge
 boat-merge-and-race
 boat-viking-war
@@ -1258,6 +1263,7 @@ coffee-color-blocks
 coin-color-sort
 coin-drop-3d
 coin-hunt
+coin-master-runner
 coin-sort-puzzle
 coinbound-voodoo-nightmare
 coins-rush-run
@@ -1277,6 +1283,7 @@ color-brawls
 color-brick-battle
 color-by-numbers-anti-stress-drawings
 color-coin-merge
+color-connect-3d
 color-cube-puzzle
 color-dash-chameleon-runner
 color-dots-challenge
@@ -1346,6 +1353,7 @@ contrast-kids
 cook-soups-3-in-a-bowl
 cookie-maker-for-kids
 cookie-party-pop
+cooking-alike
 cooking-city
 cooking-clash
 cooking-fever-happy-chef
@@ -1706,6 +1714,7 @@ don-t-touch-the-red
 don-t-whack-your-boss
 dont-be-angry-with-match-man
 dont-break-my-heart
+dont-panic-dude
 donut-art-puzzle-diamond-game
 donut-ready-business-tycoon-game
 donutosaur-2
@@ -1946,6 +1955,7 @@ epic-robot-combat-simulator
 epic-sword-battle-fight-in-the-ragdoll-arena
 epicrolla
 equal-cut
+eramind
 erase-one-part
 erase-the-extra-element
 escape-ancient-egypt
@@ -2059,6 +2069,7 @@ fashion-girl-cosplay-sailor-challenge
 fashion-princess-dress-up-for-girls
 fashion-sewing-clothes
 fashion-show-dressup
+fashion-valkyries-saga-of-style
 fast-and-wild-in-sky
 fast-ball-jump
 fast-car-top-speed
@@ -2124,9 +2135,11 @@ find-the-rule
 find-the-vampire
 find-visitors-99-nights
 find-your-gender
+finding-redpanda
 finger-soccer-footbal-game
 finger-soccer-tournament
 finnie-escape
+fintoss
 fire-balls-shoot-3d
 fire-boy-run-adventure
 fire-girl-and-water-boy-candy-forest
@@ -2325,6 +2338,7 @@ fruit-slasher
 fruit-slicer
 fruit-slicer-fun
 fruit-smash-master
+fruit-tower-drop
 fruitbattle
 fruite-swipe
 fruits-into-baskets
@@ -2376,6 +2390,7 @@ funny-walk-fail-run
 furious-gt-drift
 furious-speed
 furry-kung-fu
+fuse-fury
 fusesmash
 galactic-pixel-storm
 galala
@@ -2557,6 +2572,7 @@ green-slaughter
 greenpeak
 grid-hole-master
 grid-odyssey-nonograms
+grid3
 grill-match-sort-food
 grimace-bullet-blender
 grimace-penalty
@@ -3264,6 +3280,7 @@ logo-quiz-master
 lollipop-escape-mania-kids
 lone-sniper
 long-drive-to-horizons-sim
+long-neck-runner-game
 looper-fruit-hit
 loopix
 loopvival
@@ -3604,6 +3621,7 @@ mini-grand-thef-city
 mini-pool-3d
 mini-shape-shifting
 mini-shooters
+mini-sky-helicopter
 mini-springs
 mini-stilts
 mini-switcher
@@ -3856,8 +3874,10 @@ neko-s-adventure
 nekomi-recuse
 neo-traffic-rider-championship
 neon-billard-pool
+neon-circuit
 neon-circuit-rush
 neon-city-drift-racing
+neon-dash-survive-the-dash
 neon-goal
 neon-jumper
 neon-maze
@@ -3966,6 +3986,7 @@ nubik-in-the-monster-world
 nubik-vs-herobrin-s-army
 nullify-merge-math
 nullpulse-runner
+number-bee
 number-merge-10
 number-merge-master
 number-quest
@@ -4767,6 +4788,7 @@ roller-for-brainrots
 roller-ski-queen
 rolling-balancer-ball
 rolling-ball-halloween-escape
+rolling-ball-race
 rolling-balls-sea-race
 rolling-cheese
 rolling-cube-3d
@@ -4774,6 +4796,7 @@ rolling-cubes-3d-puzzle
 rolling-donut
 rolling-football
 rolling-in-gears
+rolling-speed-ball
 romantic-match-tactics
 roof-rails-color-stack-3d
 rooftop-run
@@ -5157,6 +5180,7 @@ snake-sorting
 snake-tangle
 snake-train-zone
 snake-vs-ai
+snake-war-game
 snake-warz
 snake-way
 snake-wiggle-master
@@ -5176,6 +5200,7 @@ sniper-hero-urban-strike
 sniper-king-2d-the-dark-city
 sniper-master
 sniper-mission-war
+sniper-pixel-shooting
 sniper-rooftop-defense
 sniper-shooter-3d
 sniper-shooter-save-the-fish
@@ -5397,6 +5422,7 @@ stairs-races-for-2-players
 stairs-trivia
 stalker-2033-the-path-of-the-survivor
 stamp-it-puzzle-game
+stamp-the-parcel
 stampede-evolution
 stand-on-the-right-color-robby
 star-rank-heroes
@@ -5406,6 +5432,7 @@ starship-ducks
 starship-troopers
 starweave-star-puzzle
 steal-a-bird
+steal-a-destruction-egg
 steal-a-fish
 steal-a-pet
 steal-an-egg-3d
@@ -5461,6 +5488,7 @@ sticker-jam-peel-off-and-match
 stickerball
 stickman-3d-legacy-of-war
 stickman-archer-assassin
+stickman-archer-bow-fight
 stickman-archer-kick
 stickman-archero-fight
 stickman-archery-ragdoll
@@ -5521,6 +5549,7 @@ stickman-warriors
 stickman-warriors-superhero-fight
 stickman3d-shooter
 stickninja-mission
+stickyconnect
 stock-car-hero
 stone-shooter
 stonks
@@ -5576,6 +5605,7 @@ sudoku-number-games
 sudoku-online
 sudoku-puzzle
 sudoku-puzzle-master
+sugar-smash
 suger-rush
 sum-sum
 summer-fashion-makeover
@@ -6117,6 +6147,7 @@ ultimate-pk
 ultimate-robo-duel-3d
 ultimate-stunt-car-challenge
 ultra-crash-car-simulator-2026
+ultra-kick-goal-crazy
 ultra-shot
 ultraman-monster-island-adventure-2
 unblock-ball-slide-puzzle-2
@@ -6513,6 +6544,7 @@ zoo-elephant-simulator-city-attack
 zoo-mahjongg-deluxe
 zoo-restaurant
 zoo-run
+zoologic
 zoological-zeppelin
 zoolympics
 zuma-boom-2
