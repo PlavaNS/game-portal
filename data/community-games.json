@@ -153,5 +153,32 @@
     "embed": "https://lemonadetycoon.pandagames.io/play/",
     "thumb": "https://ilovewebgames.com/assets/community/lemonade-tycoon.jpg?v=1",
     "orientation": "landscape"
+  },
+  {
+    "slug": "hisorty",
+    "title": "Hisorty",
+    "studio": "Damian Krajnak",
+    "studioUrl": "https://hisorty.app/",
+    "added": "2026-11-03",
+    "short": "Slot historical events onto a timeline, from the Battle of Cannae to the Berlin Wall, and see how far your sense of history takes you.",
+    "description": "Hisorty is a history game built around one simple move: you are handed a card with a real historical event on it, painted in its own illustration, and you have to drop it into the right spot on a timeline of events already on the table. Guess right and the card locks into place with its year revealed; guess wrong and you lose a life. The daily puzzle gives everyone the same six events to put in order, and Endless mode keeps dealing cards until your three lives run out, so the run is as long as your knowledge holds. It plays with a mouse or a finger, and there is nothing to install.",
+    "instructions": "Pick Play for today's puzzle or Endless for an unlimited run. Drag the card at the top onto the timeline, to the left or right of the events already placed, depending on whether you think it happened earlier or later. Place it correctly to keep going; three mistakes end an Endless run.",
+    "category": "puzzle",
+    "extraCats": [
+      "casual",
+      "kids"
+    ],
+    "tags": [
+      "History",
+      "Trivia",
+      "Timeline",
+      "Educational",
+      "Cards",
+      "Endless",
+      "Daily"
+    ],
+    "embed": "https://hisorty.app/",
+    "thumb": "https://ilovewebgames.com/assets/community/hisorty.jpg?v=1",
+    "orientation": "landscape"
   }
 ]
