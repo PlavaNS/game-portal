@@ -41,6 +41,7 @@
 2048-knights
 2048-merge-blocks
 2048-merge-runner
+2048-premium
 2048-rush-multiplayer
 2048-shoot-merge-number-3d
 2048-x2-legends
@@ -115,6 +116,7 @@ adventure-squad
 adventure-time-bullet-jake
 adventure-time-finn-love
 africa-jeep-race
+african-animals-jigsaw-puzzles
 african-cheetah-hunting-simulator
 african-princesses-style-island
 age-evolution-run
@@ -166,6 +168,7 @@ alphabet-kitchen
 alphabet-mahjong
 alphabet-merge-challenge
 alphabet-writing-for-kids
+amandas-perfect-date
 amaze-escape
 amazing-sheriff
 ambidieztro
@@ -1004,6 +1007,7 @@ candy-ball-blast
 candy-boom-links
 candy-cats
 candy-clicker-2
+candy-crunch-sugar-escape
 candy-cutter-saga
 candy-cutter-saga-kids
 candy-egg-blast
@@ -1025,6 +1029,7 @@ canjump
 cannon-ball-3d-big-boom-obby
 cannon-balls
 cannon-blast-3d
+cannon-defenses
 cannon-shooter-game
 cannon-shot-online
 canyon-drifter
@@ -1190,6 +1195,7 @@ cerkio
 chain-cube-2048-3d-merge-game
 chainle
 chainsaw-3d
+challenge-the-football
 challenge-the-zombies
 chameleon-sniper
 change-part-in-love-story
@@ -1489,6 +1495,7 @@ crakko
 crash-control
 crash-glass-boom
 crash-lab-launch-the-dummy
+crash-plan
 crash-racing-game
 crash-rampage
 crash-skill-racing
@@ -1733,6 +1740,7 @@ dessert-diy
 dessert-maker
 destruction-simulator
 destructive-car-crash-simulator
+destructive-merger
 detective-max-mystery-the-disappearance-of-mr-winters
 devil-die
 diamant-match-3-sky-story
@@ -1786,6 +1794,7 @@ dinoz
 dirt-bike-max-duel
 dirt-bike-racing-adventure
 dirt-bike-trail-rider
+dirt-bikes-rally
 disc-battle-ultimate
 disc-golf-3d-frisbee-for-masters
 disc-golf-game-master
@@ -1927,6 +1936,7 @@ dream-room
 dream-supermarket-3d-shop
 dream-wedding-dress-up
 dreamblox
+dreamy-blast-puzzle
 dreamy-home
 dress-makeover
 dress-up-anime-girl
@@ -1948,6 +1958,7 @@ drifting-car-master
 drifting-mania
 drifting-supercars-racing-3d
 drifty-master
+drifty-race-challenge
 drifty-road-rush
 drill-the-snake
 drink-drive-survive
@@ -2058,6 +2069,8 @@ empire-estate-pro
 empire-tower-defense-zombie-fortress
 endless-car-chase
 endless-car-race-game
+endless-golf
+endless-idle-rpg
 endless-path-twist-and-turn
 endless-siege
 endless-space-pilot-2d
@@ -2504,6 +2517,7 @@ fun-draw-race-3d
 fun-fishing
 fun-jigsaw-puzzle
 fun-jigsaw-puzzle-game
+fun-memory
 fun-race-car-3d
 fun-ragdoll-challenge-mini-games-collection
 fun-sorting-through-the-shelves
@@ -2661,6 +2675,7 @@ go-up
 go-up-samurai
 go-up-tap-zigzag-box-challenge
 goal-io
+goal-the-answer
 goalkings
 goalpost-shuffle
 goalshot
@@ -3262,6 +3277,7 @@ jumpero
 jumping-bottle-3d
 jumpninja
 jumprotor
+jumpster
 jumpy-rabbits
 jungle-bricks-breaker
 jungle-climber
@@ -3646,6 +3662,7 @@ match-3d-puzzle-mania
 match-4
 match-challenge
 match-colors-game
+match-dot-puzzle-game
 match-master
 match-mystery
 match-nonstop
@@ -3720,6 +3737,7 @@ memoplay
 memorize-and-repeat-the-shape
 memory
 memory-cards
+memory-master
 memorya
 memorybot
 meow-block-color-collect
@@ -4103,6 +4121,7 @@ natural-disaster-survival-obby
 naturix
 naughty-baby-prankster
 naval-base
+nebula-bubble-pop
 nebula-marshal
 neck-stack-rush
 need-for-drift
@@ -4465,6 +4484,7 @@ pantrydle
 paper-ball-adventure-go
 paper-craft-wars
 paper-doll-diary-chibi-dolls
+paper-doll-dress-up
 paper-fighter-3d
 paper-flight-2
 paper-fold
@@ -4484,6 +4504,7 @@ parking-master-urban-challenges
 parking-puzzle-escape-challenge
 parking-puzzle-escape-challenge-kids
 parking-puzzle-game
+parking-skill-game
 parking-skills
 parking-solution
 parkour-obby-jump-to-victory
@@ -4812,6 +4833,7 @@ pushplush
 put-out-the-fire
 put-the-candy
 putt-party
+puzzle-arc
 puzzle-box-brain-fun
 puzzle-box-connect
 puzzle-candle
@@ -4922,6 +4944,7 @@ real-mtb-downhill-3d
 real-parking-game
 real-savior-kids
 real-truck-fire-drive-sim
+real-world-cricket-game
 realistic-car-crash-king
 realistic-car-destruction-sandbox
 realistic-lion-hunting-animal-2024
@@ -5148,6 +5171,7 @@ runner-coaster-race
 runner-garden-game
 runner-soldiers
 running-from-a-hungry-tiger
+running-man-2026
 running-roadball
 rush-rivals
 russian-car-drift-3d
@@ -5539,6 +5563,7 @@ snow-slider-3d
 snow-track-racing-3d
 snowball-dash
 snowball-platformer
+snowboard-game
 snowboard-knockout-race-game
 snowtail-peaks-3d-bubble-pop-adventure
 snowy-adventures-with-noob-and-pro
@@ -5744,6 +5769,7 @@ stack-sort
 stack-swipe
 stack-the-blocks
 stack-tide
+stack-tower-pro
 stack-up
 stackitaire
 stacky-bird
@@ -5791,6 +5817,7 @@ steel-directive-city-zero
 stellar-assault
 stellar-bastion
 stellar-connections
+stellar-dash
 stellar-pulse
 stellar-shot-gravity-puzzle
 stellar-style-spectacle-fashion
@@ -5849,6 +5876,7 @@ stickman-epic
 stickman-epic-battle
 stickman-epic-fall
 stickman-escape-plane-and-ship
+stickman-fighter-3d
 stickman-fighter-mega-brawl
 stickman-fighter-training
 stickman-fighting
@@ -5878,6 +5906,7 @@ stickman-rescue-draw-2-save
 stickman-restaurant-rush-game
 stickman-rush
 stickman-shooter-2
+stickman-shooting-survival
 stickman-simulator-final-battle
 stickman-skybow
 stickman-sniper-shoot
@@ -5907,6 +5936,7 @@ story-of-alcana
 strategy-of-war-tanks-and-helicopters
 streamer-simulator-phone-challenge
 street-ball-jam
+street-fight-beat-em-up
 street-fist
 street-food-cooking-game
 street-freekick-3d
@@ -6883,6 +6913,7 @@ zip-zap
 ziply
 zodiac-runner
 zombi-defense
+zombie-apocalypse-2
 zombie-apocalypse-bunker-survival-z
 zombie-apocalypse-now-survival
 zombie-apocalypse-tunnel-survival
