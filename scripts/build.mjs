@@ -996,7 +996,8 @@ ${faq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
     [faqLd, artLd], 0.8);
 }
 {
-  const qs = [
+  // written by the Claude API (scripts/write-faq.mjs); the list below is the fallback
+  const qs = readJSON(path.join(ROOT, 'data/faq.json'), null) || [
     ['Is everything really free?', `Yes. Every game on ${cfg.name} is free to play, with no payment and no trial. The games are paid for by short ads inside them, which is what supports the developers who made them and keeps the site running.`],
     ['Do I need an account?', `No. There is no sign-up, no login and no newsletter. Click a game and it starts. Your recently played games, your favourites and your light or dark theme are remembered in your own browser and never leave your device.`],
     ['Do I have to download or install anything?', `No. Every game runs inside the browser you are reading this in. There is nothing to install, no plugin, no launcher and no app.`],
