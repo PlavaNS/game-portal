@@ -157,7 +157,7 @@
         if (db) { $('b', db).textContent = down; db.classList.toggle('on', mine === 'down'); }
         if (sc) {
           if (pct === null) sc.hidden = true;
-          else { sc.hidden = false; $('[data-pct-n]', v).textContent = pct + '%'; $('[data-pct-c]', v).textContent = n; }
+          else { sc.hidden = false; $('[data-pct-n]', v).textContent = pct + '%'; const c = $('[data-pct-c]', v); c.textContent = n + ' ' + (n === 1 ? (c.dataset.one || 'vote') : (c.dataset.many || 'votes')); }
         }
         const q = $('.rate-q', v);
         if (q && mine && q.dataset.thanks) q.textContent = q.dataset.thanks;

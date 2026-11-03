@@ -800,7 +800,7 @@ function emitContent() {
     </div>
   </section>
   <section class="rate" data-vote data-slug="${esc(g.slug)}">
-    <div class="rate-score" data-pct${voteCount(g) ? '' : ' hidden'}><b data-pct-n>${votePct(g) === null ? '' : votePct(g) + '%'}</b><small>${esc(tr('liked it'))} · <span data-pct-c>${voteCount(g)}</span> ${esc(tr('votes'))}</small></div>
+    <div class="rate-score" data-pct${voteCount(g) ? '' : ' hidden'}><b data-pct-n>${votePct(g) === null ? '' : votePct(g) + '%'}</b><small>${esc(tr('liked it'))} · <span data-pct-c data-one="${esc(tr('vote'))}" data-many="${esc(tr('votes'))}">${voteCount(g)} ${esc(voteCount(g) === 1 ? tr('vote') : tr('votes'))}</span></small></div>
     <div class="rate-ask"><span class="rate-q">${esc(tr('Did you enjoy this game?'))}</span>
       <button class="btn ghost up" type="button" data-up>👍 ${esc(tr('Yes'))} <b>${(VOTES[g.slug] || {}).up || 0}</b></button>
       <button class="btn ghost down" type="button" data-down>👎 ${esc(tr('No'))} <b>${(VOTES[g.slug] || {}).down || 0}</b></button></div>
