@@ -177,6 +177,7 @@ american-block-sniper-survival-online
 american-truck-driver-game
 amigurumi-cozy-stitches
 ammo-rush-master
+amusement-park-tycoon-game
 ancient-aztec-coloring
 ancient-caculate
 ancient-dragons-princess
@@ -315,6 +316,7 @@ arrows-out
 arrows-out-3d
 arrows-puzzle-escape-tap-arrows
 arrowshift-classic
+arrowtix-train-your-brain
 arsenal-online
 art-master-puzzle
 art-n-ball
@@ -619,6 +621,7 @@ blind-boat-shooting-master
 blind-box-master
 blindbat
 blob-man-run
+blob-merge
 blob-twist-color-puzzle
 block-blast
 block-blast-jewel-puzzle
@@ -998,11 +1001,13 @@ candy-cutter-saga-kids
 candy-egg-blast
 candy-for-capybara
 candy-mahjong-3d
+candy-maker-game
 candy-match-move
 candy-match-pop
 candy-match-saga-2
 candy-merge-sort
 candy-pop-mania
+candy-rain
 candy-shop-3d-match-puzzle
 candy-sort
 candy-sweet
@@ -1165,6 +1170,7 @@ catrobot-idle-td-battle-cat
 cats-and-candies
 cats-block-puzzle
 cats-go
+catstretch
 catwalk-beauty
 cave-escape
 cave-miner
@@ -1239,6 +1245,7 @@ chubby-finn
 chute
 circle-car
 circle-car-crash-3d
+circle-dash-ball-game
 circle-zombie
 circuit-master-2
 circularmatrix
@@ -1366,6 +1373,7 @@ color-sort-party
 color-sort-puzzle-milk-tea-sorting
 color-sorting
 color-sorting-rooms
+color-spin-puzzle
 color-the-room
 color-tower-2-drop-the-boxes-3d
 color-water-sort-3d
@@ -1898,6 +1906,7 @@ dream-football-game
 dream-head-soccer-game
 dream-home
 dream-home-merge-story
+dream-kitchen
 dream-puppy-spot-the-differences
 dream-restaurant-tycoon
 dream-room
@@ -2227,11 +2236,13 @@ find-capybara-valley-of-monsters
 find-match-3d
 find-number-biggest-and-smallest
 find-out-hidden-object
+find-pair-attention-memory
 find-part-in-love-story
 find-the-correct-shadow
 find-the-dog
 find-the-frog-hidden-objects
 find-the-fun
+find-the-intruder
 find-the-key
 find-the-lost-letter-3d
 find-the-missing-number
@@ -2437,6 +2448,7 @@ fruit-box-sort
 fruit-bubble-pop
 fruit-chopper
 fruit-cutter-fun
+fruit-drop
 fruit-drop-3d
 fruit-fusion
 fruit-immortal
@@ -2511,6 +2523,7 @@ furious-speed
 furry-kung-fu
 fuse-fury
 fusesmash
+gaint-run-color-switch
 galactic-pixel-storm
 galala
 galaxy-blaster-defend-the-galaxy
@@ -2599,6 +2612,7 @@ girl-dream-house-diy-fun
 girl-explorer-jigsaw-puzzles
 girl-game-organizing-fun
 girl-hair-salon-and-dress-up
+girl-money-rush-game
 gladiators-merge-and-fight
 glam-doll-salon-makeup-and-dressup-game
 glam-dressup-girls-games
@@ -2697,6 +2711,7 @@ gravity-football
 gravity-shift-sky-racers-gt
 gravity-shift-space-edition
 gravity-speed-run
+gravity-well
 gravix
 grayscale
 grazing-giraffe
@@ -2888,6 +2903,7 @@ hexa-block-puzzle
 hexa-bloom
 hexa-candy-match-3
 hexa-color-sort
+hexa-color-stack-game
 hexa-jump-asmr
 hexa-master-3d-sort-puzzle
 hexa-sort
@@ -2983,6 +2999,7 @@ hook-king-runner
 hook-master-mafia-city
 hook-pin-jam
 hook-wars
+hooked
 hooked-panya-fishing
 hoop-kings
 hoop-stars
@@ -3680,6 +3697,7 @@ merge-2048
 merge-a-mansion
 merge-a-rocket
 merge-adventure
+merge-animals
 merge-balls-shooter-2048-connect-fruits
 merge-battler
 merge-beast-arena
@@ -4055,6 +4073,7 @@ needle-rush
 neko-s-adventure
 nekomi-recuse
 neo-traffic-rider-championship
+neon-assault
 neon-billard-pool
 neon-blaster
 neon-circuit
@@ -4068,6 +4087,7 @@ neon-nexus-3d
 neon-shot
 neon-snake
 neon-square-rush
+neon-striker
 neon-switch
 neon-velocity
 neonroll
@@ -4190,6 +4210,7 @@ numicolor
 nummerge-clash
 numorapuzzle
 nut-and-bolt
+nut-bolt-screw-puzzle-game
 nut-sort-build-the-city
 nutcracker-new-years-adventures
 nuts-and-bolts-game-wood-puzzle
@@ -4531,6 +4552,7 @@ pirates-tiles-challenge
 pistonio
 pixel-adventure-3d
 pixel-art-color-by-numbers
+pixel-art-stealer
 pixel-car-memory-quest
 pixel-color-flow
 pixel-color-quest
@@ -4694,6 +4716,7 @@ princess-nail-art
 princess-ready-for-christmas
 princesses-at-horror-school
 princesses-of-quadrobics
+prism-pulse
 prison-architect-cage-break-tycoon
 prison-ball
 prison-break-architect-tycoon
@@ -5424,6 +5447,7 @@ snake-simple-retro-game
 snake-sort-game
 snake-sorting
 snake-tangle
+snake-to-eat
 snake-train-zone
 snake-vs-ai
 snake-war-game
@@ -5590,6 +5614,7 @@ spider-solitaire-silk-horizon
 spike-rush
 spike-sphere
 spikes-and-feathers
+spikes-everywhere-game
 spil-clash-3d-ultimate-arena
 spill-and-knock-down
 spin-and-collect
@@ -5612,6 +5637,7 @@ spooky-halloween-makeover
 spooky-racing
 spooky-vending-machine-2
 spore-guard
+sport-cars-puzzle-challenge
 sport-sort-puzzle
 sportbike-drive
 sportix
@@ -5874,6 +5900,7 @@ sudoku-online
 sudoku-puzzle
 sudoku-puzzle-master
 sugar-rush-tower
+sugar-rusher
 sugar-smash
 suger-rush
 sum-sum
@@ -6305,6 +6332,7 @@ toy-soccer-cup
 toytopia
 tps-shooting-zombie-apocalypse
 trace-craft
+trace-learn
 tracing-games
 tracoria-draw-color-and-match
 tractor-drift-3d
@@ -6382,6 +6410,7 @@ truck-simulator-power-slider
 truck-slam
 truck-space-2
 truck-transport-simulator
+true-or-false-game-26
 try-again
 try-to-count-the-boxes-brain-training
 trz-battleship
@@ -6538,6 +6567,7 @@ volley-clash
 volzo
 vossk
 voxel-atelier
+voxel-crusher
 voxel-master
 voxel-playground-ragdoll-noob
 voxelbomb
