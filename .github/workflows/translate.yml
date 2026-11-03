@@ -5,7 +5,7 @@ name: Translate the site (Claude API)
 # game pages to add on top (Search Console pages first). Running it again adds more.
 on:
   schedule:
-    - cron: '41 1 * * *'   # every day 02:41 Belgrade: 400 more game pages per language
+    - cron: '41 1 * * *'   # every day 02:41 Belgrade: 150 more game pages per language (~5.4 USD a night)
   workflow_dispatch:
     inputs:
       langs:
@@ -14,7 +14,7 @@ on:
         required: true
       games:
         description: 'Game pages per language this run'
-        default: '400'
+        default: '150'
         required: true
       conc:
         description: 'Parallel requests to the Claude API'
@@ -53,7 +53,7 @@ jobs:
         run: |
           # on the daily schedule there are no inputs, so fall back to the standing values
           LANGS="${{ inputs.langs }}"; [ -z "$LANGS" ] && LANGS="es,pt,de,fr,zh"
-          GAMES="${{ inputs.games }}"; [ -z "$GAMES" ] && GAMES="400"
+          GAMES="${{ inputs.games }}"; [ -z "$GAMES" ] && GAMES="150"
           echo "langs=$LANGS games=$GAMES"
           for lang in $(echo "$LANGS" | tr ',' ' '); do
             echo "::group::$lang"
