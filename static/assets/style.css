@@ -239,7 +239,7 @@ body.noscroll{overflow:hidden}
 .embed-code{width:100%;box-sizing:border-box;font:12px/1.4 ui-monospace,Menlo,monospace;background:#0b0c18;color:#c9cbe0;border:1px solid var(--line);border-radius:10px;padding:10px;resize:vertical}
 .embed-copy{margin:8px 0 18px}
 /* mobile overlay: small close handle at the top centre so it does not cover game buttons in the corners */
-.overlay .close{top:calc(4px + env(safe-area-inset-top));right:auto;left:50%;transform:translateX(-50%);width:auto;height:28px;padding:0 14px;font-size:14px;background:#0009;opacity:.75}
+.overlay .close{top:calc(6px + env(safe-area-inset-top));right:6px;left:auto;transform:none;width:30px;height:30px;padding:0;font-size:15px;line-height:1;background:#0008;opacity:.6}
 .rotate-hint{position:absolute;left:50%;bottom:calc(18px + env(safe-area-inset-bottom));transform:translateX(-50%);z-index:3;background:#000c;color:#fff;font:600 14px/1.3 system-ui,sans-serif;padding:10px 16px;border-radius:999px;border:1px solid #fff3;white-space:nowrap;pointer-events:none}
 .tbl-wrap{overflow-x:auto;margin:1rem 0}
 table.cmp{border-collapse:collapse;width:100%;font-size:.92rem;min-width:640px}

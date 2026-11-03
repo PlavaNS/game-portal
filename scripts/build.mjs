@@ -491,9 +491,11 @@ const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.vide
 const row = (title, href, list, eager = false) => list.length ? `<section class="row"><div class="row-h"><h2>${esc(title)}</h2>${href ? `<a href="${href}">See all ›</a>` : ''}</div><div class="grid">${list.map(g => card(g, eager)).join('')}</div></section>` : '';
 // homepage category showcase: a colourful tile (name, count, 3 real covers fanned out) + the 5 most played games of that category + "more"
 const CAT_HUE = { action: 350, shooting: 25, racing: 200, puzzle: 265, 'clicker-idle': 45, arcade: 320, adventure: 130, sports: 95, 'two-player': 180, multiplayer: 215, girls: 335, hypercasual: 55, stickman: 0, zombie: 110, '3d': 240, cooking: 20, kids: 150, mobile: 190 };
+const catRowUsed = new Set(); // each game shows in one category row only
 const catRow = c => {
   const list = byCat[c.slug].filter(g => !g.community && !g.own);
-  const pick = list.slice().sort((a, b) => (SITE_COUNTS.play[b.slug] || 0) - (SITE_COUNTS.play[a.slug] || 0) || fin(a.r.most) - fin(b.r.most)).slice(0, 5);
+  const pick = list.slice().sort((a, b) => (SITE_COUNTS.play[b.slug] || 0) - (SITE_COUNTS.play[a.slug] || 0) || fin(a.r.most) - fin(b.r.most)).filter(g => !catRowUsed.has(g.slug)).slice(0, 5);
+  pick.forEach(g => catRowUsed.add(g.slug));
   const fan = list.slice().sort((a, b) => fin(a.r.best) - fin(b.r.best)).slice(0, 3);
   const name = (catTr(c.slug) || {}).name || c.name, h = CAT_HUE[c.slug] ?? 260;
   return `<div class="cat-row"><a class="cat-tile" href="${cHref(c.slug)}" style="--h:${h}"><span class="ct-fan">${fan.map(g => `<img src="${esc(g.thumb)}" alt="" loading="lazy" decoding="async">`).join('')}</span><span class="ct-text"><i>${CAT_ICON[c.slug] || '🎮'}</i><b>${esc(name)}</b><small>${byCat[c.slug].length.toLocaleString(LANG === 'en' ? 'en-US' : LANG)} ${esc(tr('games'))}</small></span></a><div class="cat-games">${pick.map(g => card(g)).join('')}</div><a class="cat-more" href="${cHref(c.slug)}" aria-label="${esc(tr('More'))} ${esc(name)}">›</a></div>`;

@@ -97,7 +97,7 @@
       if (mobile()) {
         const ov = document.createElement('div');
         ov.className = 'overlay';
-        ov.innerHTML = '<button class="close" aria-label="Close game">✕ Close</button>';
+        ov.innerHTML = '<button class="close" aria-label="Close game">✕</button>';
         ov.appendChild(frame());
         document.body.appendChild(ov); document.body.classList.add('noscroll');
         history.pushState({ ov: 1 }, '');
