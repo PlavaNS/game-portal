@@ -536,6 +536,7 @@ bingo-mania
 biozombie-outbreak
 bird-game-clicker
 bird-obstacle-flappy
+bird-patrol
 bird-quest-adventure-flappy
 bird-sort-puzzles
 bird-tile-trio
@@ -785,6 +786,7 @@ bubbla-boing
 bubble-boom
 bubble-crash
 bubble-foxy
+bubble-fruit-shooter-2d
 bubble-gum
 bubble-invasion-3d
 bubble-mania
@@ -1038,6 +1040,7 @@ castel-wars
 castel-wars-middle-ages
 castle-claw
 castle-crashers-stolen-sun
+castle-wars-legacy
 cat-and-granny
 cat-block-puzzle
 cat-boba-tea-food-asmr-master
@@ -1122,6 +1125,7 @@ chicken-merge-2
 chicken-yeet
 chickz-stack
 children-doctor-dentist-2-surgery-game
+chillpaths
 chinchilla-trails
 chips-bakery-simulator
 choco-ball-draw-line-and-happy-girl
@@ -1164,6 +1168,7 @@ city-chase-escape-police
 city-constructor
 city-delivery-rider-simulator
 city-driver-destroy-car
+city-gas-station-simulator
 city-husle
 city-minibus-driver
 city-of-vice-driving
@@ -1301,6 +1306,7 @@ container-auction
 containment-protocol-roguelike-deckbuilder
 contra-jungle-breach
 contrast
+contrast-kids
 cook-soups-3-in-a-bowl
 cookie-maker-for-kids
 cooking-city
@@ -1334,6 +1340,7 @@ counter-terror-battle-simulator
 courageous-sniper
 cow-cow-run
 cow-rescue
+cowboy-dash-game
 cowboy-survival-zombie
 cowboys-duel
 cozy-coloring
@@ -1343,6 +1350,7 @@ cozy-puzzles
 cozy-sort-theme-collect
 crab-shooter
 craft-magic-world-escape
+craft-number
 craft-the-war
 craft-theft-war
 craftsman-land
@@ -1422,6 +1430,7 @@ crush-yard-tycoon
 crusher-block
 crust-courier-pizza-bike-rush
 crust-crusher
+crustrun
 crypta
 cryptograms-secret-text
 crystal-treasures-match-3
@@ -1569,6 +1578,7 @@ diamond-paint-art
 diamond-painting-by-number
 diamond-sort-picture-puzzle
 diana-s-city-fashion-beauty
+dice-and-flag
 dice-math
 dice-merge
 dice-puzzle
@@ -1644,6 +1654,7 @@ donut-art-puzzle-diamond-game
 donutosaur-2
 doodle-boba-bubble-tea
 doodle-cats
+doodle-dino-run
 doodle-guard-draw-to-save
 doodle-halloween-momo-cat-academy
 doodle-halloween-momo-cat-sea-magic
@@ -1672,6 +1683,7 @@ drag-me-ow
 drago-warrior-tower-defense
 dragon-annihilation
 dragon-block-blast
+dragon-draw-joust
 dragon-fly
 dragon-funtion
 dragon-hunter
@@ -1905,6 +1917,7 @@ euro-truck-parking
 euro-truck-parking-game
 evade
 even-odd-dice
+everwild-survival
 evil-granny-city-terror
 evil-granny-must-die-ch1
 evil-granny-must-die-ch2
@@ -2384,6 +2397,7 @@ go-octopus-find-pearl
 go-up
 go-up-samurai
 goal-io
+goalkings
 goalpost-shuffle
 goalshot
 goblin-clan
@@ -2666,6 +2680,7 @@ hide-n-seek
 hide-the-monster-choose-pose
 high-pizza
 high-school-girls-classroom-life
+high-school-teacher-games-life
 highway-car-racer
 highway-car-shooting-3d-action-game-2025
 highway-driver-3d
@@ -2926,6 +2941,7 @@ jumper-jam
 jumpero
 jumping-bottle-3d
 jumpninja
+jumprotor
 jumpy-rabbits
 jungle-bricks-breaker
 jungle-climber
@@ -3175,6 +3191,7 @@ lumina-robot
 luna-and-the-magic-maze
 lunarleap
 machine-eater
+mackup-runner-game
 mad-city-matrix
 mad-day-2-special
 mad-day-special
@@ -3365,6 +3382,7 @@ merge-balls-shooter-2048-connect-fruits
 merge-battler
 merge-beast-arena
 merge-beasts
+merge-brick
 merge-builders
 merge-cars-defense
 merge-cars-tycoon
@@ -3452,6 +3470,7 @@ mineworld-horror-the-mansion
 mini-asmr-relaxing-game-relax
 mini-boxing
 mini-boxing-final-round
+mini-camping-adventure
 mini-car-racing
 mini-car-racing-master-3d
 mini-car-room-parkour
@@ -3477,6 +3496,7 @@ mini-tennis
 mini-tennis-3d
 minibattles-2-3-4-5-6-player-games
 minicat-fisher
+minimarin
 minimarket-67-7-store-tycoon
 minimight-fantasy-rpg
 minimissions
@@ -4026,6 +4046,7 @@ paletto
 palkovil-the-way-home
 panda-adventure
 panda-adventure-2026
+panda-dash-auto-shooting
 panda-fight
 panda-go
 panda-hair-do
@@ -4261,6 +4282,7 @@ pop-them
 pop-us
 popboom
 popcats-merge-the-cats
+popcorn-brust
 popcorn-race-3d
 popcorn-thief
 popdify
@@ -4743,6 +4765,7 @@ scary-house-clown-evil
 scary-math
 scary-rooms-idle-horror
 school-bus-simulation
+school-bus-simulator-3d
 school-escape-obby
 school-of-basketball
 school-stories-teacher-sim
@@ -5505,8 +5528,10 @@ swat-cats
 swat-ops-body-camera
 sway-tower-builder
 sweet-baby-taylor-summer-travel
+sweet-cake-shop-game
 sweet-candy-match-3-game
 sweet-merge-cafe
+sweet-screw-factory
 sweet-solve
 sweet-supermarket-simulator
 sweetflip
@@ -5538,6 +5563,7 @@ tall-man-runner-game
 tall-noob-man
 tangle-master-3d
 tangle-tails
+tangled-hook-twister
 tangled-rope-fun
 tangram-puzzle-2
 tangram-triangle
@@ -5727,6 +5753,7 @@ tiny-arena
 tiny-chick
 tiny-cinema
 tiny-delivery
+tiny-metal-shooter
 tiny-sports-empire-idle
 tiny-tomb
 tiny-track-rally
@@ -5960,6 +5987,7 @@ vehicle-masters
 vehicle-parking-master-3d
 vehicle-stunts-sky-sim
 vehicle-transport-police-simulator
+velopter
 vexon
 viaducts
 vials-asmr-sand-sort-puzzle
@@ -6242,6 +6270,7 @@ zombie-raft
 zombie-rage-merge-3d
 zombie-raid
 zombie-reform
+zombie-road-drive
 zombie-royale-io
 zombie-shooter-3d
 zombie-shooter-evil-outbreak
@@ -6259,6 +6288,7 @@ zombie-virus-fps
 zombie-vs-gorilla
 zombie-wave-arena
 zombie-world
+zombie-world-survival
 zombies-4-weapon-merge
 zombies-ate-my-castle
 zombies-vs-special-forces
