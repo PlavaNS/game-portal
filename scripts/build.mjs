@@ -463,8 +463,29 @@ ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replac
     <input type="search" name="q" placeholder="&#128269; ${esc(tr('Search games'))}" aria-label="${esc(tr('Search games'))}" autocomplete="off">
   </form>
   <div class="top-r"><button class="theme-btn" type="button" data-theme-toggle aria-label="Switch light / dark mode" title="Light / dark mode"><span class="t-dark">&#127769;</span><span class="t-light">&#9728;&#65039;</span></button>
-  <a class="sg-btn" href="${ur('/submit-game/')}" title="${esc(tr('Submit your game'))}"><i>&#128228;</i><span>${esc(tr('Submit your game'))}</span></a></div>
+  <a class="sg-btn" href="${ur('/submit-game/')}" title="${esc(tr('Submit your game'))}"><i>&#128228;</i><span>${esc(tr('Submit your game'))}</span></a>
+  <button class="burger" type="button" data-menu aria-label="${esc(tr('Menu'))}" aria-expanded="false"><span></span><span></span><span></span></button></div>
 </header>
+<div class="drawer-bg" data-menu-close hidden></div>
+<aside class="drawer" id="menu" aria-label="${esc(tr('Menu'))}" hidden>
+  <div class="drawer-top"><b>${esc(tr('Menu'))}</b><button class="icon" type="button" data-menu-close aria-label="${esc(tr('Close'))}">&#10005;</button></div>
+  <nav class="drawer-nav">
+    <a href="${u('/')}"><i>&#127968;</i>${esc(tr('Home'))}</a>
+    <a href="${u('/new/')}"><i>&#127381;</i>${esc(tr('New games'))}</a>
+    <a href="${u('/popular/')}"><i>&#128293;</i>${esc(tr('Most played'))}</a>
+    <a href="${ur('/our-games/')}"><i>&#129955;</i>${esc(tr('Our games'))}</a>
+    <a href="${u('/all/')}"><i>&#127918;</i>${esc(tr('All games'))}</a>
+    <a href="${u('/tags/')}"><i>&#127991;&#65039;</i>${esc(tr('All tags'))}</a>
+    <hr>
+    ${activeCats.map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length.toLocaleString(LANG === 'en' ? 'en-US' : LANG)}</small></a>`).join('\n    ')}
+    <hr>
+    <a href="${ur('/submit-game/')}"><i>&#128228;</i>${esc(tr('Submit your game'))}</a>
+    <a href="${ur('/publish-html5-game/')}"><i>&#128218;</i>${esc(tr('Where to publish your HTML5 game'))}</a>
+    <a href="${ur('/faq/')}"><i>&#10067;</i>FAQ</a>
+    <a href="${ur('/about/')}"><i>&#8505;&#65039;</i>${esc(tr('About'))}</a>
+    <a href="${ur('/contact/')}"><i>&#9993;&#65039;</i>${esc(tr('Contact'))}</a>
+  </nav>
+</aside>
 <div class="wrap">
 <main id="main">
 ${body}
@@ -472,7 +493,7 @@ ${bodyClass.includes('home') ? '' : `<section class="row cat-grid-wrap"><div cla
 </main>
 </div>
 <footer class="foot">
-  <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.slogan)} ${esc(cfg.tagline)}</p>
+  <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.slogan)} ${all.length.toLocaleString('en-US')}+ ${esc(tr('free web games — no downloads, no sign-up.'))}</p>
   <p><a href="${ur('/about/')}">${esc(tr('About'))}</a> · <a href="${ur('/contact/')}">${esc(tr('Contact'))}</a> · <a href="${ur('/faq/')}">FAQ</a> · <a href="${u('/tags/')}">${esc(tr('All tags'))}</a> &middot; <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> · <a href="${ur('/publish-html5-game/')}">Where to publish your HTML5 game</a> · <a href="${ur('/privacy/')}">${esc(tr('Privacy Policy'))}</a> · <a href="${ur('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
   ${langsHere.length > 1 ? `<p class="foot-langs">${langsHere.map(l => l === LANG ? `<strong>${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</strong>` : `<a href="${esc(absIn(l, altPath))}" hreflang="${esc(l)}">${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</a>`).join(' · ')}</p>` : ''}
   <p class="foot-topics">${topics.filter(t => LANG === 'en' || (CATTR[LANG] || {})['topic:' + t.slug]).slice(0, 14).map(t => `<a href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join(' · ')}</p>
@@ -598,7 +619,17 @@ function emitContent() {
     return indie.length ? `<section class="row indie-row"><div class="row-h"><h2>🧑‍💻 ${esc(tr('New from indie developers'))}</h2><a class="btn sg-cta" href="${ur('/submit-game/')}">📤 ${esc(tr('Made a game? Submit it free'))}</a></div><p class="indie-note">${esc(tr('Games sent to us by independent developers. Every one is played and checked by a real person before it goes live.'))} <a href="${ur('/publish-html5-game/')}">${esc(tr('Where to publish your HTML5 game'))} ›</a></p><div class="grid">${indie.map(g => card(g)).join('')}</div></section>` : ''; })()}
   <section class="row tagbox"><div class="tagbox-in"><b class="tagbox-h">${esc(tr('Top tags'))}</b>${topics.filter(t => catOK('topic:' + t.slug)).slice(0, 44).map(t => `<a class="tag" href="${tHref(t.slug)}"><i>${tagIcon(t.slug)}</i>${esc(((catTr('topic:' + t.slug) || {}).h1 || t.h1).replace(/ Games$/i, ''))}</a>`).join('')}<a class="tag tag-all" href="${u('/tags/')}">${esc(tr('All tags'))}</a></div></section>
   ${SEARCHES.length >= 8 ? `<section class="row tagbox searchbox"><div class="tagbox-in"><b class="tagbox-h">🔍 ${esc(tr('Top searches'))}</b>${SEARCHES.slice(0, 22).map(x => `<a class="tag" href="${u('/search/')}?q=${encodeURIComponent(x.q)}"><i>🔎</i>${esc(x.q)}</a>`).join('')}</div></section>` : ''}
-  <section class="seo-text"><h2>${esc(tr('Free online games on'))} ${esc(cfg.name)}</h2><p>${esc(cfg.name)} ${esc(tr('is a hand-picked collection of'))} ${all.length.toLocaleString('en')} ${esc(tr('free browser games. Every game runs instantly on your computer, tablet or phone, with no downloads, no installs and no account. Play action, puzzle, racing, sports, clicker and 2 player games, and come back every day for new titles.'))}</p></section>`;
+  <section class="seo-text about-site">
+    <div class="as-head">${ICON_SVG}<div><h2>${esc(tr('Play free online games on'))} ${esc(cfg.name)}</h2><p class="as-sub">${esc(tr('Hand-picked browser games, playable the second you click. No downloads, no sign-up.'))}</p></div></div>
+    <div class="as-cols">
+      <div><h3>${all.length.toLocaleString('en-US')}+ ${esc(tr('free games, in one place'))}</h3><p>${esc(cfg.name)} ${esc(tr('is a curated collection of free HTML5 and WebGL games that run straight in your browser, on a computer, a tablet or a phone. There is nothing to install and no account to make: you click a game and it starts.'))}</p></div>
+      <div><h3>${esc(tr('Every kind of game'))}</h3><p>${activeCats.slice(0, 8).map(c => `<a href="${cHref(c.slug)}">${esc((catTr(c.slug) || {}).name || c.name)}</a>`).join(', ')} ${esc(tr('and more, plus themed collections like'))} ${topics.slice(0, 4).map(t => `<a href="${tHref(t.slug)}">${esc(((catTr('topic:' + t.slug) || {}).h1 || t.h1).replace(/ Games$/i, ''))}</a>`).join(', ')}. ${esc(tr('Browse the full list on the'))} <a href="${u('/tags/')}">${esc(tr('tags page'))}</a>.</p></div>
+      <div><h3>${esc(tr('New games every day'))}</h3><p>${esc(tr('The catalogue refreshes itself daily from our distribution partners, and independent developers send us games directly. Everything new lands on the'))} <a href="${u('/new/')}">${esc(tr('New games'))}</a> ${esc(tr('page, and the busiest titles end up in'))} <a href="${u('/popular/')}">${esc(tr('Most played'))}</a>.</p></div>
+      <div><h3>${esc(tr('Made by a real studio'))}</h3><p>${esc(tr('The site is run by'))} ${esc(cfg.studio)}, ${esc(tr('an escape room and game studio from Novi Sad, Serbia. We build our own games too'))} &mdash; <a href="${ur('/our-games/')}">${ours.map(o => esc(o.title)).join(', ')}</a> &mdash; ${esc(tr('and a real person plays every game sent in by a developer before it goes live.'))}</p></div>
+      <div><h3>${esc(tr('Are the games safe?'))}</h3><p>${esc(tr('We only publish family-friendly games: no adult content, no gambling, no hate. Games for younger players sit in'))} <a href="${cHref('kids')}">${esc(tr('Kids'))}</a>. ${esc(tr('Short ads inside the games are what keeps everything free. More answers on the'))} <a href="${ur('/faq/')}">FAQ</a>.</p></div>
+      <div><h3>${esc(tr('Made a game?'))}</h3><p>${esc(tr('Send it to us: free, non-exclusive, your own build stays on your own server, and your page credits you and links back.'))} <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> ${esc(tr('or read our guide on'))} <a href="${ur('/publish-html5-game/')}">${esc(tr('where to publish an HTML5 game'))}</a>.</p></div>
+    </div>
+  </section>`;
     write('index.html', layout({
       title: `${cfg.name} — ${tr('Free Online Games, Play Instantly')}`,
       desc: `${tr(cfg.slogan)} ${tr('Play')} ${all.length.toLocaleString('en')}+ ${tr('free online games: action, puzzle, racing, 2 player, clicker and more. No downloads, works on PC & mobile.')}`,

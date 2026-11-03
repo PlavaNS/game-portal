@@ -10,9 +10,11 @@
   const card = g => `<a class="card" href="${B}/games/${g.id}/"><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" loading="lazy"><span>${esc(g.title)}</span></a>`;
 
   // mobile menu
-  const mb = $('[data-menu]');
-  if (mb) mb.addEventListener('click', () => { const o = document.body.classList.toggle('menu-open'); mb.setAttribute('aria-expanded', o); });
-  document.addEventListener('click', e => { if (document.body.classList.contains('menu-open') && !e.target.closest('.side,[data-menu]')) document.body.classList.remove('menu-open'); });
+  const mb = $('[data-menu]'), drawer = $('.drawer'), dbg = $('.drawer-bg');
+  const setMenu = o => { document.body.classList.toggle('menu-open', o); if (mb) mb.setAttribute('aria-expanded', o); if (drawer) drawer.hidden = !o; if (dbg) dbg.hidden = !o; };
+  if (mb) mb.addEventListener('click', () => setMenu(!document.body.classList.contains('menu-open')));
+  $$('[data-menu-close]').forEach(x => x.addEventListener('click', () => setMenu(false)));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') setMenu(false); });
   const here = location.pathname.replace(/\/\d+\/$/, '/');
   
 
