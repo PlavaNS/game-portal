@@ -366,8 +366,9 @@ const isTopRated = g => voteScore(g) >= 0.8;
 const ownCatViews = Object.values(SITE_COUNTS.cat).reduce((a, b) => a + b, 0);
 const CAT_ORDER = ownCatViews >= 30 ? SITE_COUNTS.cat : ((readJSON(path.join(ROOT, 'data/cat-order.json'), {}).views) || {});
 // menu order: most visited category pages first (GA data in data/cat-order.json), then by number of games
+// Marko (03.11.2026): categories listed alphabetically, not by popularity
 const activeCats = CATS.filter(c => byCat[c.slug].length >= 8)
-  .sort((a, b) => (CAT_ORDER[b.slug] || 0) - (CAT_ORDER[a.slug] || 0) || byCat[b.slug].length - byCat[a.slug].length);
+  .sort((a, b) => a.name.localeCompare(b.name, 'en'));
 const top = (key, n) => games.filter(g => !g.community && Number.isFinite(g.r[key])).sort((a, b) => a.r[key] - b.r[key]).slice(0, n);
 // Most played = games most started on OUR site (at least 2 plays in 28 days), then the networks' own ranking
 const mostPlayed = n => { const seen = new Set(); const out = [];
@@ -527,42 +528,39 @@ function emitContent() {
   // HOME
   {
     const o = ours.find(g => g.slug === cfg.heroGame) || ours[0];
-    const hero = o ? `<section class="hero">
-    <div class="hero-media">
-      ${o.video ? `<video src="${esc(o.video)}" poster="${esc(o.cover)}" muted loop playsinline preload="none" data-hover-play></video>` : `<img src="${esc(o.cover)}" alt="${esc(o.title)}">`}
+    const feat = (kind, eyebrow, g, why, byHtml) => `<article class="feat feat-${kind}">
+    <a class="feat-media" href="${gHref(g)}" style="--t:url('${esc(g.thumb)}')">${g.video ? `<video src="${esc(g.video)}" poster="${esc(g.cover || g.thumb)}" muted loop playsinline preload="none" data-hover-play></video>` : `<img src="${esc(g.cover || g.thumb)}" alt="${esc(g.title)}" loading="lazy">`}</a>
+    <div class="feat-text">
+      <p class="eyebrow">${eyebrow}</p>
+      <h2><a href="${gHref(g)}">${esc(g.title)}</a></h2>
+      <p class="feat-by">${byHtml}</p>
+      <p class="feat-desc">${esc(why)}</p>
+      <a class="btn" href="${gHref(g)}">▶ ${esc(tr('Play now — free'))}</a>
     </div>
-    <div class="hero-text">
-      <p class="eyebrow">🫧 ${esc(tr('Our game'))} · ${esc(tr('by'))} ${esc(o.studio)}</p>
-      <h2>${esc(o.title)}</h2>
-      <p>${esc(o.short)}</p>
-      <a class="btn big" href="${gHref(o)}">▶ ${esc(tr('Play now — free'))}</a>
-    </div>
-  </section>` : '';
+  </article>`;
+    const hero = o ? feat('own', `🫧 ${esc(tr('Our game'))}`, o, o.short, `${esc(tr('by'))} ${esc(o.studio)}`) : '';
     const gotwCfg = readJSON(path.join(ROOT, 'data/game-of-week.json'), null);
     const gw = gotwCfg && all.find(g => g.slug === gotwCfg.slug);
-    const gotw = gw ? `<section class="gotw">
-    <a class="gotw-media" href="${gHref(gw)}" style="--t:url('${esc(gw.thumb)}')"><img src="${esc(gw.thumb)}" alt="${esc(gw.title)}" loading="lazy"></a>
-    <div class="gotw-text">
-      <p class="eyebrow">🏆 ${esc(tr('Indie Game of the Week'))}</p>
-      <h2><a href="${gHref(gw)}">${esc(gw.title)}</a></h2>
-      <p class="gotw-by">${esc(tr('by'))} ${gw.studioUrl ? `<a href="${esc(gw.studioUrl)}" rel="noopener" target="_blank">${esc(gw.studio)}</a>` : esc(gw.studio)}</p>
-      <p>${esc(LANG === 'en' && gotwCfg.why ? gotwCfg.why : gw.short)}</p>
-      <div class="gotw-cta"><a class="btn" href="${gHref(gw)}">▶ ${esc(tr('Play now — free'))}</a><a class="gotw-submit" href="${ur('/submit-game/')}">${esc(tr('Made a game? Submit it'))} ›</a></div>
-    </div>
-  </section>` : '';
+    const gotw = gw ? feat('week', `🏆 ${esc(tr('Indie Game of the Week'))}`, gw, (LANG === 'en' && gotwCfg.why ? gotwCfg.why : gw.short), `${esc(tr('by'))} ${gw.studioUrl ? `<a href="${esc(gw.studioUrl)}" rel="noopener" target="_blank">${esc(gw.studio)}</a>` : esc(gw.studio)}`) : '';
     const catTiles = `<section class="row"><div class="row-h"><h2>${esc(tr('Categories'))}</h2></div><div class="cats">${activeCats.filter(c => catOK(c.slug)).map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
+    const bannerFan = list => list.slice(0, 4).map(g => `<img src="${esc(g.thumb)}" alt="" loading="lazy" decoding="async">`).join('');
+    const banner = (cls, href, title, sub, list) => `<a class="banner ${cls}" href="${href}"><span class="bn-text"><b>${esc(title)}</b><small>${esc(sub)}</small></span><span class="bn-fan">${bannerFan(list)}</span></a>`;
+    const bnOwn = banner('bn-own', ur('/our-games/'), tr('Our games'), `${ours.length} ${tr('games by')} ${cfg.studio}`, ours);
+    const bnNew = banner('bn-new', u('/new/'), tr('New games'), tr('Added in the last few days'), newestOnSite(4));
+    const bnPop = banner('bn-pop', u('/popular/'), tr('Popular games'), tr('What everyone is playing right now'), mostPlayed(4));
     const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${all.length.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
-  ${hero}
-  ${gotw}
-  <section class="row" data-recent hidden><div class="row-h"><h2>${esc(tr('Continue playing'))}</h2></div><div class="grid"></div></section>
+  <div class="feats">${hero}${gotw}</div>
   ${row('🔥 ' + tr('Trending now'), u('/popular/'), top('hot', 18), true)}
   <section class="row"><div class="row-h"><h2>${esc(tr('Browse by category'))}</h2><a href="${u('/all/')}">${esc(tr('All games'))} ›</a></div>
   <div class="cat-rows">${activeCats.filter(c => catOK(c.slug)).map(c => catRow(c)).join('\n')}</div></section>
+  ${bnPop}
   ${row('⭐ ' + tr('Most played'), u('/popular/'), mostPlayed(18))}
   ${(() => { const tr8 = all.filter(g => !g.own && isTopRated(g)).sort((a, b) => voteScore(b) - voteScore(a) || (VOTES[b.slug].up - VOTES[a.slug].up)).slice(0, 12); return tr8.length >= 6 ? row('👍 ' + tr('Top rated by players'), null, tr8) : ''; })()}
+  ${bnNew}
   ${row('🆕 ' + tr('New games'), u('/new/'), newestOnSite(18))}
   ${(() => { const indie = all.filter(g => g.community).slice().sort((x, y) => (y.added || '').localeCompare(x.added || '')).slice(0, 12);
     return indie.length ? `<section class="row indie-row"><div class="row-h"><h2>🧑‍💻 ${esc(tr('New from indie developers'))}</h2><a class="btn sg-cta" href="${ur('/submit-game/')}">📤 ${esc(tr('Made a game? Submit it free'))}</a></div><p class="indie-note">${esc(tr('Games sent to us by independent developers. Every one is played and checked by a real person before it goes live.'))} <a href="${ur('/publish-html5-game/')}">${esc(tr('Where to publish your HTML5 game'))} ›</a></p><div class="grid">${indie.map(g => card(g)).join('')}</div></section>` : ''; })()}
+  ${bnOwn}
   <section class="row"><div class="row-h"><h2>${esc(tr('Popular collections'))}</h2></div><p class="chips">${topics.filter(t => catOK('topic:' + t.slug)).map(t => `<a class="chip" href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join('')}</p></section>
   <section class="seo-text"><h2>${esc(tr('Free online games on'))} ${esc(cfg.name)}</h2><p>${esc(cfg.name)} ${esc(tr('is a hand-picked collection of'))} ${all.length.toLocaleString('en')} ${esc(tr('free browser games. Every game runs instantly on your computer, tablet or phone, with no downloads, no installs and no account. Play action, puzzle, racing, sports, clicker and 2 player games, and come back every day for new titles.'))}</p></section>`;
     write('index.html', layout({

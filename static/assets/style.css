@@ -309,7 +309,7 @@ table.cmp tbody th{white-space:nowrap}
 .cat-more{display:flex;align-items:center;justify-content:center;border-radius:14px;background:var(--card);border:1px solid var(--line);color:var(--muted);font-size:30px;text-decoration:none;transition:.15s}
 .cat-more:hover{color:var(--text);border-color:var(--accent)}
 @media (max-width:1100px){.cat-row{grid-template-columns:200px minmax(0,1fr) 32px}.cat-games{grid-template-columns:repeat(4,minmax(0,1fr))}.cat-games .card:nth-child(5){display:none}.ct-fan{display:none}}
-@media (max-width:860px){.cat-row{grid-template-columns:1fr;gap:8px}.cat-tile{min-height:96px;flex-direction:row;align-items:center}.ct-text{padding:12px 14px;background:none;display:flex;align-items:center;gap:10px}.ct-text i{margin:0}.ct-text b{font-size:17px}.ct-fan{display:block;right:-30px;top:-18px;transform:scale(.7)}.cat-games{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.cat-games .card:nth-child(n+4){display:none}.cat-more{display:none}}
+@media (max-width:860px){.cat-row{grid-template-columns:1fr;gap:8px}.cat-tile{min-height:96px;flex-direction:row;align-items:center}.ct-text{padding:12px 14px;background:none;display:flex;align-items:center;gap:10px}.ct-text i{margin:0}.ct-text b{font-size:17px}.cat-row .ct-fan{display:none}.cat-games{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.cat-games .card:nth-child(n+4){display:none}.cat-more{display:none}}
 :root[data-theme=light] .cat-more{background:#fff}
 
 main{max-width:1500px;margin:0 auto}
@@ -326,3 +326,47 @@ main{max-width:1500px;margin:0 auto}
   .gotw-media{max-height:360px}
   .gotw-media img{width:100%;height:100%;object-fit:cover}
 }
+
+/* two equal feature cards (our game + indie game of the week) */
+.feats{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:0 0 20px}
+.feat{display:flex;flex-direction:column;border:1px solid var(--line);border-radius:18px;overflow:hidden;background:var(--bg2)}
+.feat-own{border-color:#ff3d6e55;background:linear-gradient(160deg,#2a1030,var(--bg2) 60%)}
+.feat-week{border-color:#ffd23f55;background:linear-gradient(160deg,#2a2410,var(--bg2) 60%)}
+.feat-media{display:block;aspect-ratio:16/9;max-height:215px;background:var(--card) var(--t) center/cover;position:relative;overflow:hidden}
+.feat-media img,.feat-media video{width:100%;height:100%;object-fit:contain;position:relative;z-index:1;backdrop-filter:blur(14px)}
+.feat-text{padding:12px 16px 14px;display:flex;flex-direction:column;gap:6px}
+.feat-text .eyebrow{margin:0;font-size:12px;font-weight:800;letter-spacing:.05em;text-transform:uppercase}
+.feat-own .eyebrow{color:#ff8fab}.feat-week .eyebrow{color:#ffd23f}
+.feat-text h2{margin:0;font-size:22px;line-height:1.1}
+.feat-text h2 a{text-decoration:none}
+.feat-by{margin:0;font-size:13px;color:var(--muted)}
+.feat-week .feat-by a{color:#ffd23f}
+.feat-desc{margin:0;color:var(--muted);font-size:14px;line-height:1.45;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.feat .btn{align-self:flex-start;margin-top:4px}
+@media (max-width:860px){.feats{grid-template-columns:1fr;gap:12px}.feat-text h2{font-size:21px}}
+
+/* wide banners: our games / new / popular */
+.banners{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin:0 0 26px}
+.banner{margin:0 0 18px}
+.banner{position:relative;display:flex;align-items:center;min-height:118px;padding:16px 18px;border-radius:18px;overflow:hidden;text-decoration:none;color:#fff;box-shadow:inset 0 0 0 1px #ffffff22;transition:transform .15s,box-shadow .15s}
+.banner:hover{transform:translateY(-2px)}
+.bn-own{background:linear-gradient(110deg,#ff2d55,#ff8a00)}
+.bn-new{background:linear-gradient(110deg,#1a7bff,#00c6ff)}
+.bn-pop{background:linear-gradient(110deg,#8a2be2,#ff2d9b)}
+.bn-text{position:relative;z-index:2;max-width:58%}
+.bn-text b{display:block;font-size:22px;line-height:1.1;letter-spacing:-.3px;text-shadow:0 2px 10px #0006}
+.bn-text small{display:block;margin-top:4px;font-size:12.5px;opacity:.92;font-weight:600}
+.bn-fan{position:absolute;right:-6px;top:0;bottom:0;width:58%;pointer-events:none}
+.bn-fan img{position:absolute;top:50%;width:104px;height:78px;object-fit:cover;border-radius:10px;border:2px solid #ffffff40;box-shadow:0 8px 22px #0006}
+.bn-fan img:nth-child(1){right:4px;transform:translateY(-50%) rotate(9deg);z-index:4}
+.bn-fan img:nth-child(2){right:58px;transform:translateY(-52%) rotate(2deg);z-index:3;opacity:.95}
+.bn-fan img:nth-child(3){right:112px;transform:translateY(-48%) rotate(-6deg);z-index:2;opacity:.85}
+.bn-fan img:nth-child(4){right:166px;transform:translateY(-50%) rotate(-13deg);z-index:1;opacity:.7}
+@media (max-width:1100px){.banners{grid-template-columns:1fr 1fr}}
+@media (max-width:700px){.banners{grid-template-columns:1fr;gap:10px}.banner{min-height:92px;margin-bottom:14px}.bn-text b{font-size:19px}.bn-fan img{width:84px;height:63px}.bn-fan img:nth-child(3),.bn-fan img:nth-child(4){display:none}}
+
+.row + .banner,.banner{display:flex}
+.banner .bn-text{max-width:46%}
+.banner .bn-fan{width:50%}
+@media (min-width:1100px){.bn-fan img{width:126px;height:94px}
+  .bn-fan img:nth-child(1){right:10px}.bn-fan img:nth-child(2){right:76px}.bn-fan img:nth-child(3){right:142px}.bn-fan img:nth-child(4){right:208px}}
