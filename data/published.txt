@@ -202,6 +202,7 @@ animal-care-tycoon
 animal-clinic-anomaly
 animal-daycare-game
 animal-evolution-simulator
+animal-finding
 animal-hair-salon
 animal-hospital
 animal-impossible-track-rush
@@ -281,6 +282,7 @@ army-guns-collector
 army-run-3d
 army-truck-simulator-2024
 army-vehicle-transporting
+arrow-count-master
 arrow-cube-3d
 arrow-escape-3d
 arrow-escape-puzzle
@@ -358,6 +360,7 @@ ayla-world-avatar-city
 babel-tower
 baby-bear
 baby-brainrots-multiplayer-with-friends
+baby-care-mommay-game
 baby-cat-daycare
 baby-chicco-adventures
 baby-daycare-game
@@ -423,6 +426,7 @@ ballcrazesortgame
 ballerina-cappuccina-loves-tung-tung-sahur
 ballon-race-3d
 balloon-escape
+balloon-pop-addition-3d-game
 balloon-pop-master
 balloon-pop-pop-and-blast
 balloon-smash
@@ -857,6 +861,7 @@ bubble-shooter-island-quest
 bubble-shooter-mega
 bubble-shooter-party
 bubble-shooter-pet-match-3
+bubble-shooter-squirrel-rescue
 bubble-shooter-tap-and-pop
 bubble-shooter-vale
 bubble-smash
@@ -1416,6 +1421,7 @@ cosmic-hunt
 cosmo-merge
 cosplay-gamer-girls
 count-master-3d
+count-master-rush
 count-masters
 counter-battle-strike-swat-multiplayer
 counter-craft-2-zombies
@@ -1445,6 +1451,7 @@ craftsman-land
 crakko
 crash-control
 crash-glass-boom
+crash-lab-launch-the-dummy
 crash-racing-game
 crash-rampage
 crash-skill-racing
@@ -1467,10 +1474,12 @@ crazy-difficult-game
 crazy-downhill-ragdoll-fall-down
 crazy-driver
 crazy-emoji-blast
+crazy-fast-food-crash
 crazy-flying-car
 crazy-golf-iii
 crazy-kick-ball
 crazy-knife
+crazy-lumberjack-cut-them-all
 crazy-m1neworld
 crazy-mafia-drift-car
 crazy-mechanic
@@ -1501,6 +1510,7 @@ cricket-hero
 cricket-mania
 cricket-smash-3d
 crime-scene-cleaner-mobile-3d
+crimson-escape
 criss-cross-colors
 crittermatch
 croco-juggler
@@ -1533,6 +1543,7 @@ crustrun
 crypta
 cryptograms-secret-text
 crystal-cave-sort
+crystal-craash
 crystal-treasures-match-3
 crystalia
 cs-command-snipers
@@ -2257,6 +2268,7 @@ flaggy-reveal
 flames-and-fortune
 flamit
 flap-hero
+flap-mania-tap-to-survive
 flap-up-game
 flappy-alien
 flappy-halloween-game
@@ -2292,6 +2304,7 @@ fluffy-jump
 flume-v2
 fly-airplane-3d
 fly-car-stunt-5
+fly-vs-giant
 flying-grimace
 flying-injection-virus-game
 flying-robot-transform-car-games
@@ -2403,6 +2416,7 @@ fruit-merge-juice-jumble
 fruit-merge-mania
 fruit-merger
 fruit-names
+fruit-pop-fiesta
 fruit-samurai
 fruit-slasher
 fruit-slicer
@@ -2500,8 +2514,10 @@ gears-of-war-platformer
 geek-escape-run-for-survival
 gelatino
 gem-clicker
+gem-drop
 gem-legends
 gem-mahjong
+gem-sort-puzzle
 gemcrash
 gems-sort-puzzle
 geo-metric-run
@@ -2860,6 +2876,7 @@ hidden-objects-recipe-collection
 hidden-paint-3d
 hidden-sniper-camo-hunter-3d
 hidden-turtle
+hidden-word-puzzle
 hide-and-luig
 hide-and-seek-blue-monster
 hide-and-seek-friends
@@ -2984,6 +3001,7 @@ huskeydoku
 hyber-dash
 hydrasword
 hydro-racing-3d
+hyper-cakes
 hyper-cars-ramp-crash
 hyper-wave-trial
 hypnotic-zombie-escape-endless-jump
@@ -3027,6 +3045,7 @@ idle-magic-academy-tycoon
 idle-noob-lumberjack
 idle-pong
 idle-pop-merge
+idle-sprint-race-3d
 idle-supermarket-tycoon
 idle-tower-defense
 idle-train-empire-tycoon
@@ -3046,6 +3065,7 @@ impossible-jeep-driver
 impossible-parkour-3d
 impossible-tic-tac-toe
 in-space
+incoword
 indian-delights-match-3
 indian-taxi-2020
 infini-golf
@@ -3244,6 +3264,7 @@ kiwi-adventure-game
 klondike-solitaire-treasures
 knee-surgery-clicker
 knife-battle
+knife-ring-io
 knife-run-game
 knife-slice-3d
 knife-storm
@@ -3511,6 +3532,7 @@ masked-special-forces
 maskinery-idle
 masquerades-vs-impostors
 master-blender
+master-car-destruction
 master-checkers
 master-checkers-multiplayer
 master-craft
@@ -4523,6 +4545,7 @@ police-chase-gate-runner
 police-chase-run
 police-chase-simulator
 police-drift-escape
+police-escape-jumper
 police-gangster-chase
 police-here
 police-mom-simulator
@@ -4616,6 +4639,7 @@ prison-break-architect-tycoon
 prison-escape-online
 prison-escape-push-the-guards
 prison-survive-break-escape
+prison-twins
 prisoners-run
 pro-football-eleven-2027
 pro-golfer-game
@@ -5008,6 +5032,7 @@ sand-route-puzzle
 sand-sorting-challenge
 sand-tap-sorting-puzzle
 sand-truck
+sandgems
 sandlab
 sands-of-anubis
 sandwich-runner
@@ -6012,6 +6037,7 @@ tentrix-block
 terminal-nine
 terminator-robot-uprising
 terrablox
+terrifying-zombies-tower-defense-1-game
 terrifying-zombies-tower-defense-ii
 tetra-challenge
 tetradice-merge-and-blast-blocks
@@ -6285,6 +6311,7 @@ tung-tung-sahur-hidden-bedug
 tung-tung-sahur-lol-face
 tung-tung-super-sahur
 tunnel-escape
+tunnel-heist
 turbo-boat-runner-3d
 turbo-crash-test
 turbo-drive-mode-blitz
@@ -6339,6 +6366,7 @@ undercrown
 underground-heroes
 underwater-2d
 underwater-bicycle-racing
+underwater-blast
 underwater-survival-deep-dive
 unfamiliar-object
 unicorn-chef-mermaid-cake
@@ -6464,6 +6492,7 @@ water-me-please
 water-race-game
 water-sort-master-color-puzzle
 water-sort-puzzle-3
+water-sort-puzzle-master
 water-sort-solve-puzzles
 watermeleon-drop-puzzle
 watermelon-falling-animals
@@ -6564,6 +6593,7 @@ wool-sort-yarn-color-puzzle
 word-associations-solitaire
 word-blossom
 word-chef
+word-connect-train-brain
 word-cross
 word-finder
 word-game-2026
@@ -6659,9 +6689,11 @@ zappy
 zaruvane-the-amber-oasis
 zasteroid
 zen-garden-match
+zen-orbs-geometric-flow
 zestful-match
 zigzag-snow-adventure
 zigzag-snow-mountain
+zingaliens
 zip-me-up-halloween
 zip-zap
 ziply
