@@ -218,10 +218,12 @@ animal-shape-puzzle
 animal-shifting-transform-run
 animal-transform-race
 animal-word-search-quest
+animalistic-transform-run
 animals-battle
 animals-vs-zombies
 anime-avatar-maker-anime-doll
 anime-couple-dress-up
+anime-dress-up-doll-dress-up
 anime-girl-fashion-make-up
 anime-girl-high-school-simulator
 anime-idol-academy
@@ -264,6 +266,7 @@ archer-trial-by-fate
 archers-io
 archery-hero
 archery-king
+archery-master-bow-and-arrow
 archery-master-castle-battle
 archery-shooting
 architects-of-tomorrow
@@ -421,6 +424,7 @@ ball-sort-2d
 ball-sort-game
 ball-sort-master-3d
 ball-sort-puzzle
+ball-throw-heroes-3d
 ballblastpals
 ballcrazesortgame
 ballerina-cappuccina-loves-tung-tung-sahur
@@ -1046,11 +1050,13 @@ car-evolution-game
 car-evolution-pro-math-gates
 car-factory-for-kids
 car-games-car-racing-game
+car-jam-escape
 car-jump-game
 car-madness-3d
 car-makeup
 car-mechanic-simulator-2025
 car-modding-contest
+car-move-game
 car-obby-3d
 car-park-simulator
 car-parking-driving-game
@@ -1218,6 +1224,7 @@ christmas-night-of-horror
 christmas-sledge-rider-3d
 chroma-trek
 chromapath
+chromaspin
 chrome-dino-game-original
 chu-choo-cake
 chubby-duck-jump
@@ -1489,6 +1496,7 @@ crazy-mechanic
 crazy-merge-room
 crazy-moto
 crazy-motorcycle
+crazy-neon-square-rush
 crazy-obstacle-blitz-going-ball-3d
 crazy-pixel-apocalypse-4-ui-2026
 crazy-plane-shooter
@@ -1693,6 +1701,7 @@ desert-city-stunt
 desert-gunship
 design-with-me-cute-tie-dye-tops
 desolate-isle-survival
+dessert-diy
 dessert-maker
 destruction-simulator
 destructive-car-crash-simulator
@@ -1718,6 +1727,7 @@ dig-out-of-prison
 dig-to-the-core
 dig-to-the-weirdest-world
 diggy
+digit-doom
 digit-shooter-1
 digital-circus-2026
 digital-circus-parkour-game
@@ -2223,6 +2233,7 @@ findthedifferent
 finger-soccer-footbal-game
 finger-soccer-tournament
 finnie-escape
+finsemble
 fintoss
 fire-balls-shoot-3d
 fire-boy-run-adventure
@@ -3042,6 +3053,7 @@ idle-airport-tycoon
 idle-bank
 idle-chicken-farm
 idle-cinema-tycoon
+idle-city
 idle-cookie-tycoon
 idle-craft-3d
 idle-crafting-empire-tycoon
@@ -3409,6 +3421,7 @@ log-splash
 logic-storm-animals-puzzle
 logical-ball-escape
 logo-quiz-master
+lol-football-funny-face
 lollipop-escape-mania-kids
 lone-sniper
 long-drive-to-horizons-sim
@@ -3702,6 +3715,7 @@ merges-numbers
 mergetopia
 mergetrainlastrail
 mermaid-coloring-book-glitter
+mermaid-rescue
 metal-animals
 metal-shooter-brother-squad
 mexico-rex-2
@@ -3766,6 +3780,7 @@ mini-shape-shifting
 mini-shooters
 mini-sky-helicopter
 mini-springs
+mini-stadium
 mini-stilts
 mini-switcher
 mini-tennis
@@ -4002,6 +4017,7 @@ mystery-dumpling-squishy-slime
 mystery-of-the-old-house-hidden-objects
 mystery-squishy-dumpling-blind-box
 mystical-blade-3d
+mythiq
 nail-salon
 nail-salon-manicure-fashion-girl
 nail-stack
@@ -4033,6 +4049,7 @@ neon-nexus-3d
 neon-shot
 neon-snake
 neon-square-rush
+neon-switch
 neon-velocity
 neonroll
 nest-heist
@@ -4294,6 +4311,7 @@ on-fire-basketball-shots
 one-bit
 one-bullet-3d-game
 one-level-stickman-jailbreak
+one-line-dot-game
 one-line-drawing-mini-games
 one-line-drawling
 one-man-army-battle-game
@@ -4350,6 +4368,7 @@ paint-tiles-puzzle
 paint-with-diamonds
 paintball-gun-pixel-3d
 paintwars-shoot
+pairscape
 paletto
 palkovil-the-way-home
 panda-adventure
@@ -4428,6 +4447,7 @@ pencil-jam
 penguin-adventure-2
 penguin-splash
 people-blaster
+people-drop-away-game
 people-playground-ragdoll-arena
 percys-froggy-frenzy
 perfect-car-parking
@@ -4511,6 +4531,7 @@ pixel-jam-bus-puzzle
 pixel-paint-sort
 pixel-protocol
 pixel-shooter-puzzle
+pixel-smash-ball
 pixel-tower
 pixelblock
 pixzombies
@@ -4879,6 +4900,7 @@ reversi-classic
 revoxel-3d-voxel-rpg-shooter
 rewarp
 rich-mom-family-simulator-luxury-life
+ricochet-arena
 ricochet-paint-aim
 ricopop
 ricoshield
@@ -5008,6 +5030,7 @@ royal-jelly-jam
 royal-jewels-match
 royal-smash-puzzle-game
 rpg-idle-clicker
+rpg-soldier-shooter
 rubber-doodle
 rule-out-the-dangerous-circle
 ruler-survival-game
@@ -5435,6 +5458,7 @@ soccer-mini-3d
 soccer-random
 soccer-rebound
 soccer-strike
+soccer-trainer
 soccerlat-3d-football-online
 soda-sandbox
 sodacat
@@ -5509,6 +5533,7 @@ sparksnap
 sparkzap
 sparrowelimination
 spartan-fruits
+spatial-inverse-gravity-puzzle-adventure
 spatial-puzzle
 speakerman-revenge
 special-alien
@@ -6026,6 +6051,7 @@ tap-away-block-puzzle-3d
 tap-basket
 tap-gallery
 tap-hunters
+tap-me
 tap-tap-reloaded
 tap-the-crop
 tap-think-save-the-kitten
@@ -6147,6 +6173,7 @@ throw-fast
 throw-sword
 tic-tac-toe-html5
 tic-tac-toe-mania
+tic-tac-toe-match-three
 tic-tac-toe-multiplayer-x-o
 tick-tack-what
 ticktock-egg-run
@@ -6173,6 +6200,7 @@ tile-match-camp
 tile-match-explorer
 tile-match-guard-baby
 tile-match-puzzle
+tile-match-puzzle-game
 tile-matcher-triple-fun
 tile-pair-jam-mahjong-master
 tile-pop-block-blast
@@ -6206,6 +6234,7 @@ tiny-zomby-the-barricade
 tip-candy-puzzle
 tip-master-wine
 tnt-sandbox
+to-fu-girl
 toca-coloring-book
 toca-hidden-stars
 toca-life-adventure
@@ -6608,6 +6637,7 @@ wolfoos-kindergarten
 woms-world-of-master-survivors
 wonder-goal-fun-football-kick
 wonder-vending-machine
+wondergrid
 wood-blocks-jam
 wood-bolts-nuts-screw-pin-puzzle
 wood-builder-tycoon
