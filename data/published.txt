@@ -159,6 +159,7 @@ alpha-balls
 alpha-guns
 alphabet-kitchen
 alphabet-mahjong
+alphabet-merge-challenge
 alphabet-writing-for-kids
 amaze-escape
 amazing-sheriff
@@ -282,6 +283,7 @@ arrow-parking
 arrow-patrol
 arrow-pop
 arrow-rescue
+arrow-rope-maze
 arrow-shift-logic-tree
 arrow-survival-15-seconds
 arrow-tap-game
@@ -410,6 +412,7 @@ balls-catch-game
 balls-pixel-art
 balls-ricochet
 balls-vs-lasers
+ballz-shooter
 banana-farm
 banana-quest
 bananacat-clicker
@@ -504,6 +507,7 @@ ben-10-alien
 ben-10-alien-onslaught
 ben-10-run
 ben-5-difference
+ben-car-adventure
 ben10-omnirush
 best-buds
 besties-chinese-new-year-celebration
@@ -704,6 +708,7 @@ bounce-ball-timer
 bounce-blast
 bounce-dunk-basketball
 bounce-dunk-frvr
+bounce-heroes
 bounce-td
 bounce-up
 bouncepop-quest
@@ -729,6 +734,7 @@ box-tap-sort
 boxbash
 boxes-fright-night
 boxes-wizard-2
+boxhead-highway-runner-game
 boxing-gang-stars
 boxing-hero-2077
 boxing-stars
@@ -1181,6 +1187,7 @@ city-car-stunt-3
 city-car-stunt-4
 city-cash-race
 city-chase-escape-police
+city-coach-driving-games-3d
 city-constructor
 city-delivery-rider-simulator
 city-driver-destroy-car
@@ -1607,6 +1614,7 @@ diamond-painting-by-number
 diamond-sort-picture-puzzle
 diana-s-city-fashion-beauty
 dice-and-flag
+dice-helix-drop
 dice-math
 dice-merge
 dice-puzzle
@@ -1680,6 +1688,7 @@ don-t-touch-the-red
 don-t-whack-your-boss
 dont-be-angry-with-match-man
 donut-art-puzzle-diamond-game
+donut-ready-business-tycoon-game
 donutosaur-2
 doodle-boba-bubble-tea
 doodle-cats
@@ -2300,6 +2309,7 @@ fruitsland-escape-from-the-amusement-park
 fruity-craft-merge
 frutiger-friends-io
 full-space-shooter
+fumeburst
 fun-arrow-fall
 fun-draw-race-3d
 fun-fishing
@@ -2806,6 +2816,7 @@ horror-sniper-clown-ghost
 horse-simulator-3d
 hospital-doctor
 hospital-surgeon-doctor-game
+hot-air-balloon-balloon-game
 hot-barrel-cats
 hot-diggity-dogs
 hot-girl-shooter
@@ -2835,6 +2846,7 @@ hunting-master
 huntman
 hurdles
 huskeydoku
+hyber-dash
 hydro-racing-3d
 hyper-cars-ramp-crash
 i-am-cake-no-cats
@@ -2960,6 +2972,7 @@ jewel-magic
 jhoney-revenge
 jiffy
 jig-snap-puzzles
+jigglesaw
 jigmerge-puzzles
 jigrot
 jigsaw-collections
@@ -3005,6 +3018,7 @@ jungle-bricks-breaker
 jungle-climber
 jungle-fury-mutant-rhino-mayhem
 jungle-game
+jungle-jeep-simulator
 jungle-mart
 jungle-mart-idle-game
 jungle-suv-offroad-adventure
@@ -3329,6 +3343,7 @@ marble-color-sort
 marble-factory
 marble-maze
 marblemaze2
+maritime-conflict
 maritime-sniper
 marnyl-silence-the-haters
 mars-colony
@@ -4048,6 +4063,7 @@ offroad-monster-truck-game
 offroad-mountain-jeep-challenge
 offroad-mud-truck
 offroad-muddy-trucks
+offroad-prado-parking
 offroad-truck-animal-transporter
 offroad-truck-army-driving
 offroad-truck-driving-game
@@ -4164,6 +4180,7 @@ parmesan-partisan-deluxe
 party-games-mini-shooter-battle
 party-stickman-4-player
 pass-the-gate
+passenger-airplane-flight-3d
 pastry-evolution-game
 patagonians
 patch-garden
@@ -4172,6 +4189,7 @@ path-control
 path-puzzle
 pathfinder
 pattern-puzzle-3d
+paty-path
 pawky
 paws-and-pals-diner
 paws-and-paths
@@ -4551,6 +4569,7 @@ real-cars-epic-stunts
 real-city-driving-2
 real-cod-strike
 real-driving-simulator
+real-estate-kids
 real-estate-royal
 real-flight-simulator
 real-motor-race-master
@@ -4752,6 +4771,7 @@ rumbox-designer
 run-and-jump-jumbo-runner
 run-clicker-tap-muscle-up
 run-fish-run
+run-forrest-run
 run-from-67
 run-giant-3d
 run-gun-robots
@@ -4842,6 +4862,7 @@ say-cheese
 scale-kid-run-and-jump-up
 scale-the-depths
 scale-the-wheels
+scars
 scary-baby-in-yellow
 scary-granny-horror-maze-escape
 scary-halloween-adventure
@@ -5042,8 +5063,10 @@ slime-jump-crown-quest
 slime-loop
 slime-merge-unlock-all-forms
 slime-planet-eater
+slime-sticky
 slimes-evolution
 sling-chicken
+sling-drift-racing-games
 slinger
 slingshot-shooting-game
 slinky
@@ -5194,6 +5217,7 @@ sorting-nuts-and-bolts-by-color-home-repair
 sorting-nuts-puzzle-game
 sorty-bolty
 spa-with-daddy
+space-aim-kids
 space-blast
 space-break
 space-cleaner
@@ -5483,6 +5507,7 @@ strykon
 stumble-boys-party-royale
 stunsteval-siderollers
 stunt-boxes
+stunt-car-crash-3d
 stunt-extreme
 stunt-planes
 stunt-rider
@@ -5532,6 +5557,7 @@ super-buddy-archer
 super-buddy-kick-2
 super-candy-jewels
 super-car-driving-3d-simulator
+super-car-parking
 super-car-soccer-arena
 super-car-wash-3d
 super-chains
@@ -5741,6 +5767,7 @@ terrablox
 terrifying-zombies-tower-defense-ii
 tetra-challenge
 tetradice-merge-and-blast-blocks
+tetromino-attack
 the-adventure-of-finn-and-bonnie
 the-adventures-of-big-joe
 the-aesthetic-world-of-obby
@@ -6069,6 +6096,7 @@ up-shoot-game
 up-up-and-oops
 upgrade-the-cars
 uphill-racer2
+urban-car-drift-game
 urban-derby-stunt-and-drift
 urban-echo
 urban-farm-simulator-game
@@ -6077,6 +6105,7 @@ urban-military-strike
 urban-siege-line
 urban-sniper-multiplayer
 urban-sniper-multiplayer-2
+urban-traffic-commander-kids
 us-army-truck-driving
 us-truck-game
 usa-luxury-4x4-suv-offroad-driving-simulator
@@ -6114,6 +6143,7 @@ vikings-an-archer-s-journey
 villadash-hero-rescue
 village-of-colors
 violent-shooter
+virus-destroyer
 vizavi
 vlinder-garden-dress-princess
 vlinder-girl-fashion-story
