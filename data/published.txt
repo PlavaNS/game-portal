@@ -396,6 +396,7 @@ ball-attack
 ball-bounce-try-it
 ball-break-the-hoops
 ball-chain-blast
+ball-color-smash
 ball-connect
 ball-io
 ball-jump-switch-the-colors
@@ -534,6 +535,7 @@ big-bob-s-burger-truck
 big-boom-building-smash
 big-donuts-mania
 big-farming-fun
+big-rolling-ball
 big-shark
 big-smash
 big-space-adventure
@@ -632,6 +634,7 @@ block-zero
 blockapolypse-zombie-shooter
 blockgunner
 blockibo-color-blocks
+blockify
 blockivo
 blocks-adventure-jungle-saga
 blocks-and-car
@@ -738,6 +741,7 @@ bow-or-die
 bowling-hero-multiplayer
 bowling-stars
 bowmaster-tower-attack
+box-brothers
 box-it-up
 box-journey
 box-playground-punch-it
@@ -1392,6 +1396,7 @@ counter-sniper-1-6-egypt
 counter-terror-battle-simulator
 courageous-sniper
 cow-cow-run
+cow-jam-farm-puzzle
 cow-rescue
 cowboy-dash-game
 cowboy-survival-zombie
@@ -1895,6 +1900,8 @@ dusk-warz
 dye-it-right-color-picker
 e-rickshaw-simulator
 easter-funny-makeup
+easter-match-3-saga
+easy-easter-coloring-eggs
 easy-halloween-coloring-quest
 easy-obby-parkour
 eat-blobs-simulator
@@ -1940,6 +1947,7 @@ emoji-guess-master
 emoji-line-puzzle
 emoji-math-quiz
 emoji-memory-find-a-pair
+emoji-merge-madness
 emoji-skill-puzzles
 emoji-sliding-down
 emoji-solitaire
@@ -1947,6 +1955,7 @@ empire-estate-pro
 empire-tower-defense-zombie-fortress
 endless-car-chase
 endless-car-race-game
+endless-path-twist-and-turn
 endless-siege
 endless-space-pilot-2d
 endless-z-survivor
@@ -2278,6 +2287,7 @@ forest-dash
 forest-fortune
 forest-monster-breaker
 forest-survivor-challenge
+forest-wing
 formula-1-driver
 formula-apex-rush
 formula-car-circuit-racing
@@ -2309,6 +2319,7 @@ freekick-hero
 freight
 french-fries-tycoon-farm-to-fryer
 fresh-drop-triple-match
+friday-night-funkin-pixelcrate
 friday-night-funkin-vs-garcello
 friends-pug
 fristailo-granny
@@ -2541,6 +2552,7 @@ goods-master
 goods-sort-3d
 goods-sort-3d-triple-puzzle
 goods-sort-match-puzzle
+goods-sorting-shopping-master
 goods-triple-sort
 gooey-lab
 gorbo-the-orc-crown-quest
@@ -2874,8 +2886,10 @@ horizon-flight-into-the-light
 horizon-highway-driving
 horizon-racer
 horror-sniper-clown-ghost
+horse-racing
 horse-simulator-3d
 hospital-doctor
+hospital-inc
 hospital-surgeon-doctor-game
 hot-air-balloon-balloon-game
 hot-barrel-cats
@@ -2910,6 +2924,7 @@ huntman
 hurdles
 huskeydoku
 hyber-dash
+hydrasword
 hydro-racing-3d
 hyper-cars-ramp-crash
 i-am-cake-no-cats
@@ -3070,6 +3085,7 @@ jump-ball-2021
 jump-fight-game
 jump-in-rhythm-to-the-hit-cat-disco
 jump-to-the-rhythm-of-songs-musical-ball
+jump-up-3d
 jump-up-game
 jump-will-jump
 jumper
@@ -3162,6 +3178,7 @@ kitty-grid-puzzle
 kitty-jewel-quest
 kitty-kitty
 kitty-knight-survive-till-new-year
+kiwi-adventure-game
 klondike-solitaire-treasures
 knee-surgery-clicker
 knife-battle
@@ -3826,6 +3843,7 @@ music-battle-game
 music-line-2-christmas
 music-night-battle-rhythm-game
 music-note
+music-tile-game
 music-tools
 musketeers-gunpowder-vs-steel
 mustang-city-driver-2024
@@ -4181,6 +4199,7 @@ optical-illusion
 orbadrone-robot-escape
 orbit-pals
 orbit-ring-2
+orbit-rush-3d
 orbit-shift
 orc-breach
 order-of-operation-challenge
@@ -4693,6 +4712,7 @@ reds-winding-way
 reefrescue
 reel-and-slash-ii-beach-legends
 referee-simulator-3d
+reflex-grid
 reflex-pong
 reindeer-escape
 relax-box-asmr-mini-games
@@ -4769,6 +4789,7 @@ robby-mini-games
 robby-superhero-obby
 robby-the-lava-tsunami
 robby-the-speed-maze
+robe-challenge
 robo-butcher
 robostrike-3d
 robot-astro-party
@@ -4824,6 +4845,7 @@ rolling-in-gears
 rolling-speed-ball
 romantic-match-tactics
 roof-rails-color-stack-3d
+roof-rush-3d
 rooftop-run
 rooftop-shooters
 room-45
@@ -4852,6 +4874,7 @@ royal-smash-puzzle-game
 rpg-idle-clicker
 rubber-doodle
 rule-out-the-dangerous-circle
+ruler-survival-game
 rumbox-designer
 run-and-jump-jumbo-runner
 run-clicker-tap-muscle-up
@@ -4866,6 +4889,7 @@ run-the-electricity
 run-witch-run
 runaway-toad
 rune-reactor
+runettes
 runic-curse
 runner
 runner-coaster-race
@@ -4952,6 +4976,7 @@ scary-baby-in-yellow
 scary-granny-horror-maze-escape
 scary-halloween-adventure
 scary-house-clown-evil
+scary-joker-game
 scary-match-3
 scary-math
 scary-rooms-idle-horror
@@ -5112,6 +5137,7 @@ sky-wars-battle-of-the-islands
 skybop
 skybound-dash-crown-rush
 skyfall-siege
+skyfury
 skygarden-siege
 skyhop
 skyslime-adventures
@@ -5479,6 +5505,7 @@ steel-advance
 steel-directive-city-zero
 stellar-bastion
 stellar-connections
+stellar-pulse
 stellar-shot-gravity-puzzle
 stellar-style-spectacle-fashion
 stick-archer-champion
@@ -5830,6 +5857,7 @@ tanks-for-the-nation
 tanks-of-liberty-online
 tap-3d-wood-block-away
 tap-away-block-puzzle-3d
+tap-basket
 tap-gallery
 tap-hunters
 tap-tap-reloaded
@@ -6164,6 +6192,7 @@ ultimate-billiard-3d-game
 ultimate-bus-simulator-game
 ultimate-car-driving-simulator-3d
 ultimate-car-parking-sim
+ultimate-chess
 ultimate-evolution
 ultimate-flying-car
 ultimate-horse-simulator
@@ -6507,6 +6536,7 @@ zigzag-snow-adventure
 zigzag-snow-mountain
 zip-me-up-halloween
 zip-zap
+ziply
 zodiac-runner
 zombi-defense
 zombie-apocalypse-bunker-survival-z
