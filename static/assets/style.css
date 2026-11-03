@@ -298,13 +298,13 @@ table.cmp tbody th{white-space:nowrap}
 .cat-tile:hover{transform:translateY(-2px);box-shadow:0 12px 30px hsl(var(--h) 80% 40% / .45)}
 .ct-text{position:relative;z-index:4;padding:16px 14px}
 .ct-text i{font-style:normal;font-size:26px;display:block;margin-bottom:6px;line-height:1}
-.ct-text b{display:block;font-size:19px;line-height:1.15;letter-spacing:.01em;text-shadow:0 2px 8px #0006}
+.ct-text b{display:block;font-size:18px;line-height:1.15;letter-spacing:.06em;text-transform:uppercase;text-shadow:0 2px 8px #0006}
 .ct-text small{display:block;font-size:12px;opacity:.9;margin-top:3px;font-weight:600}
-.cat-games{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:12px}
+.cat-games{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:12px;align-content:start}
 .cat-more{display:flex;align-items:center;justify-content:center;border-radius:14px;background:var(--card);border:1px solid var(--line);color:var(--muted);font-size:30px;text-decoration:none;transition:.15s}
 .cat-more:hover{color:var(--text);border-color:var(--accent)}
-@media (max-width:1100px){.cat-row{grid-template-columns:200px minmax(0,1fr) 32px}.cat-games{grid-template-columns:repeat(4,minmax(0,1fr))}.cat-games .card:nth-child(5){display:none}}
-@media (max-width:860px){.cat-row{grid-template-columns:1fr;gap:8px}.cat-tile{min-height:96px;flex-direction:row;align-items:center}.ct-text{padding:12px 14px;background:none;display:flex;align-items:center;gap:10px}.ct-text i{margin:0}.ct-text b{font-size:17px}.cat-row .cat-games{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.cat-games .card:nth-child(n+4){display:none}.cat-more{display:none}}
+@media (max-width:1100px){.cat-row{grid-template-columns:200px minmax(0,1fr) 32px}.cat-games{grid-template-columns:repeat(4,minmax(0,1fr))}}
+@media (max-width:860px){.cat-row{grid-template-columns:1fr;gap:8px}.cat-tile{min-height:96px;flex-direction:row;align-items:center}.ct-text{padding:12px 14px;background:none;display:flex;align-items:center;gap:10px}.ct-text i{margin:0}.ct-text b{font-size:15px}.cat-row .cat-games{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.cat-games .card:nth-child(n+10){display:none}.cat-more{display:none}}
 :root[data-theme=light] .cat-more{background:#fff}
 
 main{max-width:1500px;margin:0 auto}
@@ -553,3 +553,7 @@ body.menu-open .drawer{transform:none;visibility:visible}
   .gotd-desc{display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;margin-bottom:12px}
   .gotd-cta{gap:10px}
 }
+
+/* category rows: the coloured tile runs the full height of the two rows of games */
+.cat-row{align-items:stretch}
+@media (max-width:860px){.cat-tile{min-height:88px}}

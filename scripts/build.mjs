@@ -531,7 +531,7 @@ const CAT_HUE = { action: 350, shooting: 25, racing: 200, puzzle: 265, 'clicker-
 const catRowUsed = new Set(); // each game shows in one category row only
 const catRow = c => {
   const list = byCat[c.slug].filter(g => !g.community && !g.own);
-  const pick = list.slice().sort((a, b) => (SITE_COUNTS.play[b.slug] || 0) - (SITE_COUNTS.play[a.slug] || 0) || fin(a.r.most) - fin(b.r.most)).filter(g => !catRowUsed.has(g.slug)).slice(0, 5);
+  const pick = list.slice().sort((a, b) => (SITE_COUNTS.play[b.slug] || 0) - (SITE_COUNTS.play[a.slug] || 0) || fin(a.r.most) - fin(b.r.most)).filter(g => !catRowUsed.has(g.slug)).slice(0, 12);
   pick.forEach(g => catRowUsed.add(g.slug));
   const name = (catTr(c.slug) || {}).name || c.name;
   return `<div class="cat-row">${catTile(c)}<div class="cat-games">${pick.map(g => card(g)).join('')}</div><a class="cat-more" href="${cHref(c.slug)}" aria-label="${esc(tr('More'))} ${esc(name)}">›</a></div>`;
