@@ -108957,5 +108957,25 @@
         "Click or tap a snake to move it toward the exit. The controls are simple, so most of the challenge comes from planning the order of your moves."
       ]
     ]
+  },
+  "balls-of-glory": {
+    "intro": "Balls of Glory is an endless 3D runner where two squishy balls tied together must fit through the holes in each wall. Stretch, squeeze and steer them in time, and watch out for the mini games and boss walls.",
+    "tips": [
+      "Look at the holes in each wall as early as you can and start moving both balls before the wall gets close.",
+      "Keep track of which ball needs to go where, so you can plan the stretch or squeeze in one smooth move instead of correcting at the last second.",
+      "Use a power-up that smashes walls when you are low on room to fit both balls through, since it works on regular walls too.",
+      "On the fifth wall of each world, take the mini game seriously, because it is a separate challenge and not a wall you can simply pass through.",
+      "After a miss, check the slow-motion replay to see whether your balls were too far apart or too close together, and adjust your next move."
+    ],
+    "faq": [
+      [
+        "How many hits can I take before the game ends?",
+        "You can take three hits. After the third hit the game is over, but you can revive once."
+      ],
+      [
+        "What happens when I miss a hole?",
+        "You get a slow-motion replay, a plaster and comments from a live commentator, and the run continues."
+      ]
+    ]
   }
 }
