@@ -59,6 +59,7 @@
 3d-dots
 3d-football-mania
 3d-formula-racing
+3d-formula-racing-pro-edition
 3d-fps-target-shooting
 3d-laane-runner
 3d-police-car-parking
@@ -222,6 +223,7 @@ ant-colony
 ant-colony-idle
 ant-moving-simulator
 ant-picnic
+anti-spider-run
 anti-terrorist-shooting-game
 ants-ate-my-pixels
 ants-clear-all-color-block-puzzle
@@ -345,6 +347,7 @@ baby-hazel-bed-time
 baby-hazel-birthday-party
 baby-hazel-fun-time
 baby-injection
+baby-merge-puzzle-master
 baby-monster-jump
 baby-panda-care
 baby-panda-train-driver
@@ -386,6 +389,7 @@ ball-jump-switch-the-colors
 ball-packing-master-puzzle-fill-box
 ball-path-through-obstacles
 ball-run-2048-space
+ball-sort-master-3d
 ball-sort-puzzle
 ballerina-cappuccina-loves-tung-tung-sahur
 ballon-race-3d
@@ -502,6 +506,7 @@ bffs-unique-halloween-costumes
 bicycle-mountain-xtreme
 bicycle-stunt-racing-game-3d
 bicycle-stunts-racing-2023
+big-bob-s-burger-truck
 big-boom-building-smash
 big-donuts-mania
 big-farming-fun
@@ -534,6 +539,7 @@ bird-obstacle-flappy
 bird-quest-adventure-flappy
 bird-sort-puzzles
 bird-tile-trio
+birds-jump-2
 birdy-trip
 biryani-cooking-indian-super-chef-food-game
 bitbanda
@@ -1010,6 +1016,7 @@ cardivo-adventure
 cards-in-fool
 career-rush
 cargo-path-puzzle
+cargo-sort-color-puzzle
 cargo-truck-game
 cargo-truck-simulator-2025
 cargomatchmaster
@@ -1169,6 +1176,7 @@ city-taxi-driving
 city-taxi-driving-simulator
 city-tuk-tuk-rickshaw-game-auto-games
 city-tuk-tuk-simulator-racing-game-3d
+clankmates
 clash-to-survival
 classic-car-driving-game
 classic-car-parking-2025
@@ -1215,6 +1223,7 @@ coin-sort-puzzle
 coinbound-voodoo-nightmare
 coins-rush-run
 coinzap
+cold-iron-last-extraction
 collect-brainrots-on-a-skateboard-online
 collect-leaves-faster-than-anyone
 collect-million-coins
@@ -1315,6 +1324,7 @@ cosmetic-box-cake-maker-2025
 cosmetic-run
 cosmic-dash
 cosplay-gamer-girls
+count-masters
 counter-battle-strike-swat-multiplayer
 counter-craft-2-zombies
 counter-craft-3-zombies
@@ -1410,6 +1420,7 @@ crumple-rumble
 crush-hour
 crush-yard-tycoon
 crusher-block
+crust-courier-pizza-bike-rush
 crust-crusher
 crypta
 cryptograms-secret-text
@@ -1554,6 +1565,7 @@ destructive-car-crash-simulator
 detective-max-mystery-the-disappearance-of-mr-winters
 devil-die
 diamant-match-3-sky-story
+diamond-paint-art
 diamond-painting-by-number
 diamond-sort-picture-puzzle
 diana-s-city-fashion-beauty
@@ -1566,6 +1578,7 @@ difference-find-master-game
 different-fashion-hairstyle
 dig-and-flow-save-water
 dig-it
+dig-to-the-core
 dig-to-the-weirdest-world
 diggy
 digit-shooter-1
@@ -1623,6 +1636,7 @@ domino-camp
 don-t-look-down-kitty
 don-t-open-that-door-seriosly
 don-t-splash
+don-t-touch-the-dots
 don-t-touch-the-red
 don-t-whack-your-boss
 dont-be-angry-with-match-man
@@ -2029,6 +2043,7 @@ find-the-rule
 find-the-vampire
 find-visitors-99-nights
 find-your-gender
+finger-soccer-footbal-game
 finger-soccer-tournament
 finnie-escape
 fire-boy-run-adventure
@@ -2196,6 +2211,7 @@ from-nerd-to-school-popular
 from-zombie-to-glam-a-spooky
 frontline-assault-battleground-fire-max-shooting
 frontline-commando-shooting-gun-games
+frontline-strike
 froozy
 frost-land-snow-survival
 frostport
@@ -2486,6 +2502,7 @@ guns-n-glory-heroes
 guns-n-glory-zombies
 guns-vs-magic
 gunship-strike-helicopter-game
+gunslayer
 gusano-io-worms-snake-game
 gym-boss
 gym-simulator-online-escape
@@ -2822,6 +2839,7 @@ inkway
 inner-city-drive
 insect-clicker
 insect-exploration
+interceptor-police-pursuit
 intercity-bus-driver-3d
 intergalactic-battleship
 iron-defense
@@ -2948,6 +2966,7 @@ kickoff-academy-football-tycoon
 kids-flurry-educational-puzzle-game
 kids-good-habits
 kids-kitchen-cozy-cooking
+kids-math-easy
 kids-transport
 kidz-coloring-book
 kiki-world-kawaii-doll-decor
@@ -3024,16 +3043,19 @@ krillion-game
 kuli
 kung-fu-little-animals
 l-y-eggs
+labbuster
 lacoria-castle-defense
 ladder-master
 ladder-rush-race
 ladder-to-brainhot-climb-obby
+ladderrex
 lady-pool
 lady-rescue
 ladybug-jigsaw-puzzle-collection
 lamborghiniparking3
 landing-hero
 lane-clash
+lane-shooter
 lantern-alley-match-3
 lantern-canals
 lantern-wayfarner
@@ -3137,6 +3159,7 @@ lovely-princess
 lovely-virtual-cat
 lovely-virtual-cat-at-restaurant
 lovely-virtual-cat-at-school
+lovim-fishing-simulator-3d
 low-poly-smash-cars
 lows-adventures-3
 luchaball
@@ -3230,6 +3253,7 @@ marblemaze2
 maritime-sniper
 marnyl-silence-the-haters
 mars-colony
+marshmallow-world
 martian-builder-tycoon
 marvelous-girl-skate
 mary-run
@@ -3301,6 +3325,7 @@ mechangelion-robot-fight
 mechanic-simulator-car-repair
 mechaspider-cyber-strike
 medieval-battle-2p
+mega-block-survivors
 mega-car-stunts
 mega-crowd
 mega-fall-ragdoll-simulator
@@ -3325,6 +3350,7 @@ memory
 memory-cards
 memorya
 memorybot
+meow-block-color-collect
 meow-captcha
 meow-pair-pop
 meow-squad-zombie-defense
@@ -3500,6 +3526,7 @@ monopoly-online
 monster-bounce-game
 monster-cafe-idle-tycoon
 monster-cafe-idle-tycoon-127052
+monster-cafe-idle-tycoon-38309
 monster-card-shop
 monster-chef
 monster-dinosaur-rampage-city-attack
@@ -3556,6 +3583,7 @@ mother-simulator-husband-wife-games
 moto-3d-racing-challenge
 moto-bike-extra
 moto-extreme-halloween-land
+moto-flow
 moto-maniac-3
 moto-obby
 moto-stuntman
@@ -3681,6 +3709,7 @@ nebula-marshal
 neck-stack-rush
 need-for-drift
 needfor-race
+needle-quest-haystack-secrets
 needle-rush
 neko-s-adventure
 neo-traffic-rider-championship
@@ -3715,6 +3744,7 @@ night-racing-drag
 night-shift-at-block-13
 night-silk-dark-city-fashionistas
 night-torque
+night-train-conductor
 nightmare-2d-shooters
 niko-adventure
 niko-and-dino-run
@@ -3967,6 +3997,7 @@ orc-breach
 order-of-operation-challenge
 organizer-master
 origin
+outbreak-ops
 outer-planet
 outfit-love-queen
 outpost-9
@@ -4011,6 +4042,7 @@ paper-fold
 paper-panzer
 paper-stick-figures
 paperly-paper-plane-adventure
+parcel-pulse-toy-factory
 park-draw-game
 park-sort
 park-the-cars
@@ -4184,6 +4216,7 @@ police-car-chaser
 police-car-parking-2026
 police-car-parking-game
 police-car-stunt-challenge
+police-chase-car-crash-3d
 police-chase-gate-runner
 police-chase-run
 police-chase-simulator
@@ -4303,6 +4336,7 @@ pumpkin-wheel
 punch-superhero
 punch-the-wall
 punch-through
+punchmaster
 puppet-killer
 puppy-pet-vet-care
 purr-magic-merge-balls
@@ -4542,6 +4576,7 @@ robot-chopter-online
 robot-fighting-adventure
 robot-police-iron-panther
 robot-scrapyard-arena
+robot-strike-fps-shooter
 robot-terminator-t-rex
 robot-unicorn-dash
 robot-wars
@@ -4552,6 +4587,7 @@ robotu-rebellion
 rocket-bloom
 rocket-car-football-championship
 rocket-clash-3d
+rocket-islands
 rocket-rush
 rocketcar-cup
 rocketsquare
@@ -4754,12 +4790,15 @@ shadow-samurai-ninja
 shadow-stick-lightning-ninja
 shadow-stick-ninja
 shadow-strike
+shadow-war-idle
 shaftbound
 shape-ascent-roguelite
 shape-connect
 shape-defense
 shape-factory-fun
+shape-fear-and-fun
 shape-jam
+shape-switch
 shape-transform
 shape-transform-race
 shape-transform-shifting-rush
@@ -4846,6 +4885,7 @@ sky-golf
 sky-hop-3d
 sky-islands-obby
 sky-kingdoms-castle-siege
+sky-racer-simulator
 sky-rush
 sky-slash-ninja-rise
 sky-stunts-rolling-ball-3d
@@ -4889,8 +4929,11 @@ slime-clicker
 slime-color
 slime-heroes
 slime-jelly-bouncer
+slime-jump-crown-quest
 slime-loop
+slime-merge-unlock-all-forms
 slime-planet-eater
+slimes-evolution
 sling-chicken
 slinger
 slingshot-shooting-game
@@ -4914,6 +4957,7 @@ smash-the-blocks-puzzle-challenge
 smash-yard
 smashers-io
 smashsite-io
+smashy-bird-3d
 smod-sandbox-in-backrooms
 snack-and-warp
 snack-sort
@@ -5064,6 +5108,7 @@ sparrowelimination
 spartan-fruits
 speakerman-revenge
 special-alien
+special-forces-x
 special-ops-go
 special-strike-zombies
 spectralseek-kids
@@ -5461,6 +5506,7 @@ swat-ops-body-camera
 sway-tower-builder
 sweet-baby-taylor-summer-travel
 sweet-candy-match-3-game
+sweet-merge-cafe
 sweet-solve
 sweet-supermarket-simulator
 sweetflip
@@ -5641,7 +5687,9 @@ tick-tack-what
 ticktock-egg-run
 ticktock-puzzle-challenge
 tictoc-urban-outfits
+tidal-kart
 tide-and-powder
+tideroll-block-puzzle
 tidewell
 tidy-bot
 tidy-up-satisfeel-asmr
@@ -5870,6 +5918,7 @@ unscrew-odyssey
 unstack-tower
 unstoppable-brawler
 unstoppableshooter
+untangle-snake-frenzy
 untangle-threads
 up-jelly-up
 up-shoot-game
@@ -5887,6 +5936,7 @@ urban-sniper-multiplayer-2
 us-army-truck-driving
 us-truck-game
 usa-luxury-4x4-suv-offroad-driving-simulator
+v-shoot
 vacation-overload
 val-d-agri-race
 valentine-nail-salon
