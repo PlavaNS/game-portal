@@ -618,6 +618,7 @@ blob-twist-color-puzzle
 block-blast
 block-blast-jewel-puzzle
 block-blast-mania
+block-blast-puzzle
 block-bloom
 block-breaker-game
 block-builder-jam
@@ -656,6 +657,7 @@ blockify
 blockivo
 blocks-adventure-jungle-saga
 blocks-and-car
+blocks-match-3
 blocks-merge
 blocks-move-hit-pro
 blocks-move-n-hit
@@ -1263,6 +1265,7 @@ classic-car-driving-game
 classic-car-parking-2025
 classic-match3
 classic-number-puzzle
+classic-solitaire-master
 clawler-fight
 clay-craft-tycoon
 clean-kitty
@@ -1602,6 +1605,7 @@ cutter-woodsman-game
 cyber-arrows-brain-puzzle-game
 cyber-city-driver
 cyber-dash-2
+cyber-snake-2077-ultimate
 cyber-truck-drive-simulator
 cyberpunk-block-puzzle
 cycle-racing-game
@@ -1630,6 +1634,7 @@ daruma-matching
 dash-hero
 dash-masters
 dashmash-io
+day-care-simulator
 dd-bubble-up
 ddzombiescoming
 dead-city-zombie-survival
@@ -1709,6 +1714,7 @@ difference-find-master-game
 different-fashion-hairstyle
 dig-and-flow-save-water
 dig-it
+dig-out-of-prison
 dig-to-the-core
 dig-to-the-weirdest-world
 diggy
@@ -1808,6 +1814,7 @@ dr-psycho-hospital-escape
 dracula-run
 draft-arena-battle-cards
 drag-me-ow
+drag-n-drop-word-match
 drago-warrior-tower-defense
 dragon-annihilation
 dragon-block-blast
@@ -1918,6 +1925,7 @@ drone-dash-time-challenges
 drone-vs-tractor-challenge
 dronner-3d
 drop-dunks
+drop-merge-fruit-characters
 dta-6
 duck-dash-pro
 duck-drive-truck-race
@@ -1950,6 +1958,7 @@ dye-it-right-color-picker
 e-rickshaw-simulator
 easter-funny-makeup
 easter-match-3-saga
+easy-apple-coloring-book
 easy-easter-coloring-eggs
 easy-halloween-coloring-quest
 easy-obby-parkour
@@ -2202,6 +2211,7 @@ find-the-frog-hidden-objects
 find-the-fun
 find-the-key
 find-the-lost-letter-3d
+find-the-missing-number
 find-the-needle
 find-the-pets
 find-the-rule
@@ -2572,6 +2582,7 @@ glam-guru-puzzle-collection
 glauron-dragon-tales
 glim-and-glo
 glimmer
+global-football-manager-2026-2027
 gloom-gargoyle
 glossy-garage-car-asmr
 glow-halloween-nails-game
@@ -2586,6 +2597,7 @@ go-monkey-and-banana
 go-octopus-find-pearl
 go-up
 go-up-samurai
+go-up-tap-zigzag-box-challenge
 goal-io
 goalkings
 goalpost-shuffle
@@ -3321,6 +3333,7 @@ larkmoor-merge-garden-mystery
 laser-nodes
 laser-slasher
 laser-survivor
+lasso-ranch
 last-archer
 last-chair
 last-day-on-earth-survival
@@ -3572,6 +3585,7 @@ math-pair-pop
 math-playground
 math-squares
 math-trivia
+mathematic-for-kids
 mathematics-frenzy
 maths-puzzle
 mathtaless
@@ -3680,6 +3694,7 @@ merge-shoot-run
 merge-the-coins-ussr
 merge-the-presidents
 merge-to-agi
+merge-tower-defense
 merge-wall-last-stand
 mergemaster-dragonets
 mergemma
@@ -4130,6 +4145,8 @@ number-merge-10
 number-merge-master
 number-quest
 number-run-3d-casual-game
+number-shoot-game
+number-slide
 number-sums
 numbers-match-2448
 numeral-crawl-easy
@@ -4416,6 +4433,7 @@ percys-froggy-frenzy
 perfect-car-parking
 perfect-jump-puzzle-game
 perfect-landing-plane-pilot
+perfect-match
 perfect-piano-magic
 perfect-snipe-online
 perfect-tongue
@@ -4555,6 +4573,7 @@ poligon-war-zombie-apocalypse
 polybounce-tycoon
 polygon-flight-simulator
 pondhero
+pongfu
 pongoal
 pony-color-fun
 pony-my-little-race
@@ -4599,6 +4618,7 @@ poppytile
 popsortica
 popsy-blocks
 popular-hair-salon-game
+popverse-bubble-shooter
 port-bike-stunt
 portal
 portal-hop
@@ -5017,6 +5037,7 @@ rush-rivals
 russian-car-drift-3d
 russian-drift-overtaking-in-the-city
 rustlings-online
+rusty-park
 ruthless-merciless-cards
 safari-merge
 safarirun
@@ -5079,6 +5100,7 @@ save-the-noob
 save-the-pets
 save-the-pets-draw-to-save
 save-the-planet
+save-the-princess-1
 save-the-puppy-remove-the-screws
 save-the-stick-draw-line
 save-water
@@ -5229,6 +5251,7 @@ six-seven-count-fast
 size-up-giant-fighter-game
 skate-1-speed
 skate-boy
+skate-duo-runner
 skate-hooligans
 skateboard-city
 skating-hero
@@ -5312,11 +5335,13 @@ slope-bike
 slope-city
 slope-racing
 slope-racing-3d
+slovolom
 slow-mo-blade-rush
 slow-time-ninja
 slowmo-sniper
 slpoing-path
 smart-looter
+smartphone-legends
 smash-and-break
 smash-and-merge-balls
 smash-and-speed
@@ -5684,6 +5709,7 @@ stickman-armed-assassin-3d
 stickman-army-2
 stickman-army-the-resistance
 stickman-attack
+stickman-blast
 stickman-blast-puzzle
 stickman-bow-clash
 stickman-broken-bones-io
@@ -5703,6 +5729,7 @@ stickman-ghost-online
 stickman-gun-battle-simulator
 stickman-gun-rush
 stickman-gun-shooter-3d
+stickman-hit-3d
 stickman-hooks
 stickman-in-space
 stickman-io
@@ -5808,6 +5835,7 @@ summer-spot-the-differense
 summer-triple-mahjong
 summon-tribe
 sumo-fury
+sumo-wrestling-battle
 sunfield-vegetable-farm
 sunny-bay-heroes
 sunny-farm-animal-simulator
@@ -6048,6 +6076,7 @@ the-aesthetic-world-of-obby
 the-best-memory
 the-biggest-number
 the-black-and-white
+the-block-escape
 the-cargo
 the-cow-of-the-apocalypse
 the-depth-of-the-limbo
@@ -6253,6 +6282,7 @@ trash-baron
 trash-master
 trash-sort
 trashtide
+travel-mahjong-deluxe
 treadbreaker
 treasure-quest
 treasurebound
@@ -6370,6 +6400,7 @@ underwater-blast
 underwater-survival-deep-dive
 unfamiliar-object
 unicorn-chef-mermaid-cake
+unipairs
 unite-words
 universal-multiplayer-shooter
 unno-game
@@ -6490,6 +6521,7 @@ wasteland-hunter-puzzle-rpg
 water-city-racers
 water-me-please
 water-race-game
+water-sort-brain-puzzle
 water-sort-master-color-puzzle
 water-sort-puzzle-3
 water-sort-puzzle-master
@@ -6691,6 +6723,7 @@ zasteroid
 zen-garden-match
 zen-orbs-geometric-flow
 zestful-match
+zigzag-puzzle
 zigzag-snow-adventure
 zigzag-snow-mountain
 zingaliens
