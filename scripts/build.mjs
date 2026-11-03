@@ -537,10 +537,8 @@ const catRow = c => {
   return `<div class="cat-row">${catTile(c)}<div class="cat-games">${pick.map(g => card(g)).join('')}</div><a class="cat-more" href="${cHref(c.slug)}" aria-label="${esc(tr('More'))} ${esc(name)}">›</a></div>`;
 };
 const catTile = c => {
-  const list = byCat[c.slug].filter(g => !g.community && !g.own);
-  const fan = list.slice().sort((a, b) => fin(a.r.best) - fin(b.r.best)).slice(0, 3);
   const name = (catTr(c.slug) || {}).name || c.name, h = CAT_HUE[c.slug] ?? 260;
-  return `<a class="cat-tile" href="${cHref(c.slug)}" style="--h:${h}"><span class="ct-fan">${fan.map(g => `<img src="${esc(g.thumb)}" alt="" loading="lazy" decoding="async">`).join('')}</span><span class="ct-text"><i>${CAT_ICON[c.slug] || '🎮'}</i><b>${esc(name)}</b><small>${byCat[c.slug].length.toLocaleString(LANG === 'en' ? 'en-US' : LANG)} ${esc(tr('games'))}</small></span></a>`;
+  return `<a class="cat-tile" href="${cHref(c.slug)}" style="--h:${h}"><span class="ct-text"><i>${CAT_ICON[c.slug] || '🎮'}</i><b>${esc(name)}</b><small>${byCat[c.slug].length.toLocaleString(LANG === 'en' ? 'en-US' : LANG)} ${esc(tr('games'))}</small></span></a>`;
 };
 const crumbs = items => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: url })) });
 
@@ -612,8 +610,8 @@ function emitContent() {
   </section>`;
     })();
     const catTiles = `<section class="row"><div class="row-h"><h2>${esc(tr('Categories'))}</h2></div><div class="cats">${activeCats.filter(c => catOK(c.slug)).map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
-    const bannerFan = list => list.slice(0, 4).map(g => `<img src="${esc(g.thumb)}" alt="" loading="lazy" decoding="async">`).join('');
-    const banner = (cls, href, title, sub, list) => `<a class="banner ${cls}" href="${href}"><span class="bn-text"><b>${esc(title)}</b><small>${esc(sub)}</small></span><span class="bn-fan">${bannerFan(list)}</span></a>`;
+    // section heading: a plain coloured bar with the title in the middle, nothing else in it
+    const banner = (cls, href, title, sub) => `<a class="banner ${cls}" href="${href}"><span class="bn-text"><b>${esc(title)}</b><small>${esc(sub)}</small></span></a>`;
     const bnOwn = banner('bn-own', ur('/our-games/'), tr('Our games'), `${ours.length} ${tr('games made by')} ${cfg.studio}`, ours);
     const bnTrend = banner('bn-trend', u('/popular/'), tr('Trending now'), tr('The games everyone is opening today'), top('hot', 4));
     const bnPop = banner('bn-pop', u('/popular/'), tr('Popular games'), tr('Played the most on our site'), mostPlayed(4));
