@@ -199,6 +199,7 @@ angry-zombies-in-sight
 animal-basketball
 animal-blocks
 animal-boxing
+animal-bubble-blast
 animal-care-tycoon
 animal-clinic-anomaly
 animal-daycare-game
@@ -363,6 +364,7 @@ awareness-game-the-robot-bar
 awesome-tanks-3-game
 axe-run
 ayla-world-avatar-city
+ayla-world-princess-life
 babel-tower
 baby-bear
 baby-brainrots-multiplayer-with-friends
@@ -411,6 +413,7 @@ badlands-hero
 bag-defense
 baggage-out
 baker-city-family-bakery
+ball-and-maze
 ball-attack
 ball-bounce-try-it
 ball-break-the-hoops
@@ -580,6 +583,7 @@ bikkings-brothers-to-valhalla
 billiard-challenge
 billiard-hustlers
 billiards-3d-russian-pyramid
+billionaire-lumber-empire-idle-tycoon
 billy-the-kid-2
 binary-balls
 binary-drop
@@ -608,6 +612,7 @@ blade-and-bedlam
 blade-and-bedlam-33861
 blade-hit
 blade-merge
+blade-thrower-master
 blast-jam
 blast-master
 blast-master2
@@ -1010,6 +1015,7 @@ candy-pop-mania
 candy-rain
 candy-shop-3d-match-puzzle
 candy-sort
+candy-super-pop
 candy-sweet
 candycurrent
 canjump
@@ -1120,6 +1126,7 @@ cars-vs-blocks
 cars-vs-zombies
 cartoon-airplanes-jigsaw-puzzles
 cartoon-cat-naughty-kitten
+cartoon-mahjong
 cartoon-traffic-racing-paper-derby
 carvivor-ops
 case-opener-case-clicker-simulator
@@ -1734,6 +1741,7 @@ dice-helix-drop
 dice-math
 dice-merge
 dice-puzzle
+dicecraft
 dicey-chickens
 dicey-paws-idle
 difference-find-master-game
@@ -1794,6 +1802,7 @@ doges-battle-royale
 dogfight
 doggydoku
 dogs-vs-aliens
+doll-designer-game
 doll-dress-up-game
 doll-queen-designer
 domino-battle
@@ -1829,6 +1838,7 @@ dop-puzzle-erase-master
 dop2-delete-part-in-love-story
 dop2-draw-love
 dora-candy-land
+dora-puzzle-challenge
 dot-and-dot
 dot-dodge
 dotanimals
@@ -2440,6 +2450,7 @@ frontline-assault-battleground-fire-max-shooting
 frontline-commando-shooting-gun-games
 frontline-strike
 froozy
+frost-fashion
 frost-land-snow-survival
 frostport
 frosty-ball
@@ -2468,6 +2479,7 @@ fruit-slasher
 fruit-slicer
 fruit-slicer-fun
 fruit-smash-master
+fruit-sword
 fruit-tower-drop
 fruitbattle
 fruite-swipe
@@ -2776,6 +2788,7 @@ gym-boss
 gym-simulator-online-escape
 haaland-coloring-book
 haaland-funny-face
+hail-control
 hair-challenge-online
 hair-do-design
 hair-dye
@@ -2995,6 +3008,7 @@ homeowner-3d
 homo-evolution
 honey-line
 hook-arena-3d
+hook-jump-up
 hook-king-runner
 hook-master-mafia-city
 hook-pin-jam
@@ -3359,6 +3373,7 @@ l-y-eggs
 labbuster
 lacoria-castle-defense
 ladder-master
+ladder-rush-build-race
 ladder-rush-race
 ladder-to-brainhot-climb-obby
 ladderrex
@@ -3454,6 +3469,7 @@ locked-in-grandma-s-basement-2-revenge-horror-escape
 log-flyer-grandpa-takes-off
 log-splash
 logic-storm-animals-puzzle
+logic-vault
 logical-ball-escape
 logo-quiz-master
 lol-football-funny-face
@@ -3522,6 +3538,7 @@ magic-block-sort
 magic-castle-invasion-idle-rpg
 magic-circus-match-3
 magic-coloring-book-for-little-artists
+magic-dot-rush
 magic-finger-3d
 magic-jewels-castle
 magic-kingdom-hex-match
@@ -3698,6 +3715,7 @@ merge-a-mansion
 merge-a-rocket
 merge-adventure
 merge-animals
+merge-animals-defence
 merge-balls-shooter-2048-connect-fruits
 merge-battler
 merge-beast-arena
@@ -3790,6 +3808,7 @@ mineguy-unblockable
 miner-builder
 miner-dig-it-all
 miner-jam
+miner-rush-game
 minetap-merge-clicker
 mineworld-horror-the-mansion
 mini-asmr-relaxing-game-relax
@@ -4312,6 +4331,7 @@ ocean-pop
 ocean-riches
 octo-stickers-merge-and-stick
 octobeer
+octopus-jumping-world
 octopus-run
 odd-kicked-out-quick
 oddly-sorted-color-sort
@@ -4693,6 +4713,8 @@ pow
 power-ball-soccer
 power-crusher
 power-puncher
+power-shift-arena
+power-water-clean-rush
 prado-car-driving
 prado-parking-game
 prasino
@@ -5044,6 +5066,7 @@ rolling-donut
 rolling-football
 rolling-in-gears
 rolling-speed-ball
+romantic-k-pop-transformation
 romantic-match-tactics
 roof-rails-color-stack-3d
 roof-rush-3d
@@ -5329,6 +5352,7 @@ sketchy-levels
 ski-challenge-3d
 ski-king-2022
 skibronx-runner
+skiing-downhill
 skill-driver-game
 skincare-makeover-makeup-game
 skip-love
@@ -5532,6 +5556,7 @@ solitaire-the-eternal-deck
 solitaire-tile-match
 solitaire-treasures
 solitaire-tripeaks
+solitaire-world
 solve-or-suffer
 solve-the-maze
 somewhere
@@ -6176,6 +6201,7 @@ the-hustler
 the-ironic-zombie
 the-island-of-momo
 the-kitchen-spot-the-differences
+the-kulka
 the-last-15-minutes
 the-last-adventure
 the-last-company
@@ -6310,6 +6336,7 @@ tornado-67
 tornado-fury-of-the-elements
 torture-the-trollface
 toss-the-ring
+touch-candy
 touch-draw-game
 tower-blocks-deluxe-3d
 tower-colour-crash
@@ -6458,6 +6485,7 @@ ultimate-bus-simulator-game
 ultimate-car-driving-simulator-3d
 ultimate-car-parking-sim
 ultimate-chess
+ultimate-dart-wheel
 ultimate-evolution
 ultimate-flying-car
 ultimate-horse-simulator
@@ -6543,6 +6571,7 @@ vehicle-driving-master
 vehicle-driving-master-game
 vehicle-masters
 vehicle-parking-master-3d
+vehicle-stunt-mayhem
 vehicle-stunts-sky-sim
 vehicle-transport-police-simulator
 velopter
@@ -6662,6 +6691,7 @@ wild-horse-simulator-racing-games
 wild-island-quest
 wild-love
 wild-manager
+wild-west-gold-rush
 wild-west-gun-game
 wild-west-mafia-redemption-gun
 wild-west-zombie-clash
