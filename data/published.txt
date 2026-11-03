@@ -154,6 +154,7 @@ alien-shooting-survival
 alien-wreckage
 aliens-hunter
 aliens-need-redheads
+all-dot-connect-puzzle-game
 all-golf
 allpeopletug
 almost-infinite
@@ -406,6 +407,7 @@ ball-sort-game
 ball-sort-master-3d
 ball-sort-puzzle
 ballblastpals
+ballcrazesortgame
 ballerina-cappuccina-loves-tung-tung-sahur
 ballon-race-3d
 balloon-escape
@@ -420,6 +422,7 @@ balls-pixel-art
 balls-ricochet
 balls-vs-lasers
 ballz-shooter
+bamboo-panda
 banana-farm
 banana-quest
 bananacat-clicker
@@ -785,6 +788,7 @@ bribes-and-stamps
 brick-breaker-ball
 brick-breaker-chipi-chipi-chapa-chapa-cat
 brick-breaker-classic-arcade-fun
+brick-cat-chipi-chapa
 brick-out-candy
 brick-slide
 bricks-balls-breaker
@@ -814,6 +818,7 @@ bts-budgie-coloring-book
 bts-rabbit-coloring-book
 buba-jump
 bubbla-boing
+bubble-blast
 bubble-boom
 bubble-crash
 bubble-foxy
@@ -1281,6 +1286,7 @@ color-blast-puzzle
 color-brain-test-games
 color-brawls
 color-brick-battle
+color-bridge-builder-puzzle
 color-by-numbers-anti-stress-drawings
 color-coin-merge
 color-connect-3d
@@ -1291,6 +1297,7 @@ color-fall
 color-hole
 color-lines
 color-loom-puzzle
+color-madness-spot-the-differences
 color-match-rush
 color-mosaic
 color-parking-drifter
@@ -1460,6 +1467,7 @@ cricket-smash-3d
 crime-scene-cleaner-mobile-3d
 criss-cross-colors
 crittermatch
+croco-juggler
 crocodile-online-draw-and-guess
 croplink
 crossmath-challenge
@@ -1737,6 +1745,7 @@ dop2-draw-love
 dora-candy-land
 dot-and-dot
 dot-dodge
+dotanimals
 dotdrift
 dotto-botto
 double-boy-jump
@@ -1856,6 +1865,7 @@ drone-vs-tractor-challenge
 dronner-3d
 drop-dunks
 dta-6
+duck-dash-pro
 duck-drive-truck-race
 duck-family-simulator-animal-games
 duck-hunter
@@ -1938,6 +1948,7 @@ empire-tower-defense-zombie-fortress
 endless-car-chase
 endless-car-race-game
 endless-siege
+endless-space-pilot-2d
 endless-z-survivor
 english-checkers-online-multiplayer
 epic-basketball
@@ -2329,6 +2340,7 @@ fruit-madness
 fruit-mahjong
 fruit-match-3-championship
 fruit-match-juicy-puzzle-2
+fruit-merge-arena
 fruit-merge-juice-jumble
 fruit-merge-mania
 fruit-merger
@@ -2856,6 +2868,8 @@ hoops-the-game
 hop-ballz-3d
 hop-hop
 hopeless-island-survival-hero
+hopping-boy
+hoppy-stacky
 horizon-flight-into-the-light
 horizon-highway-driving
 horizon-racer
@@ -2873,6 +2887,7 @@ hotel-manager-simulator
 hotfoot-baseball
 hotgear
 house-paint-challenge
+hover-shift-craft-racer
 how-many-mice
 huehearts
 hugi-wugi
@@ -3009,6 +3024,7 @@ jelly-run-in-2048
 jelly-sandbox-playground
 jennifer-dress-up-challenge
 jenny-s-math-puzzle
+jetspire
 jewel-blocks
 jewel-box-block-puzzle
 jewel-coloring
@@ -3107,6 +3123,7 @@ kids-kitchen-cozy-cooking
 kids-math-easy
 kids-transport
 kidz-coloring-book
+kigali-drift-king
 kiki-world-kawaii-doll-decor
 killer-assassin
 killer-io
@@ -3451,6 +3468,7 @@ math-squares
 math-trivia
 mathematics-frenzy
 maths-puzzle
+mathtaless
 mathtest22
 mavy-the-fish-mom
 max-speed
@@ -3689,6 +3707,7 @@ monster-haul
 monster-heroes-of-myths
 monster-live
 monster-makeup-3d
+monster-man-rush
 monster-match-mania
 monster-merge-legends-alive
 monster-rush-evolution
@@ -3931,6 +3950,7 @@ ninja-samurai-runner-online
 ninja-survival-simulator
 ninja-toy-match
 ninja-vs-ragdolls-sharp-knife-throw
+ninja-warrior-game
 ninjas-blade
 ninjas-return
 nitro-ball
@@ -3986,6 +4006,7 @@ nubik-in-the-monster-world
 nubik-vs-herobrin-s-army
 nullify-merge-math
 nullpulse-runner
+num-blast
 number-bee
 number-merge-10
 number-merge-master
@@ -4378,6 +4399,7 @@ plumby
 pocket-drift
 pocket-league-3d
 pocket-mart
+pocket-stress-relief-games
 pocket-tile
 pocket-tyrant
 pocket-universe
@@ -4556,6 +4578,7 @@ rabbit-punch-rabbit
 rabbit-samurai
 rabbit-samurai-2
 rabbit-shooter
+rabbit-skater-game
 raccoon-bubble-shooter
 raccoon-retail
 race-on-cars-in-moscow
@@ -4605,6 +4628,7 @@ rainbow-s-doctor
 raised-knight
 rally-point-3
 rally-race-pro-3-0-car-racing
+rambo-legend-game
 ramp-car-game
 ramp-car-stunts-impossible
 ramp-race
@@ -4765,6 +4789,7 @@ robotex
 robots-battle-mech-arena
 robots-world-battle
 robotu-rebellion
+rock-slide
 rocket-bloom
 rocket-car-football-championship
 rocket-clash-3d
@@ -4939,6 +4964,7 @@ schoolboy-escape-from-parents
 schoolboy-escape-runaway
 schoolboy-runaway-room-escape
 scientist-and-robot
+sciwhy-easy
 scoop-empire
 scp-173-foundation-escape
 scrap-arms-neo
@@ -5605,6 +5631,7 @@ sudoku-number-games
 sudoku-online
 sudoku-puzzle
 sudoku-puzzle-master
+sugar-rush-tower
 sugar-smash
 suger-rush
 sum-sum
@@ -6151,6 +6178,7 @@ ultra-kick-goal-crazy
 ultra-shot
 ultraman-monster-island-adventure-2
 unblock-ball-slide-puzzle-2
+unbolck-me
 unboxing-brainrots
 uncle-hit-punch-the-dummy
 uncle-wang-s-happy-life
@@ -6395,6 +6423,7 @@ word-search-and-quiz
 word-search-hidden-words
 word-search-offline-puzzle
 word-search-universe-animals
+word-search-universe-easter
 word-shards
 word-shuffle
 word-solitaire
@@ -6495,6 +6524,7 @@ zombie-derby-2
 zombie-drift-steel-rage
 zombie-grave-yard
 zombie-hell-shooter
+zombie-highway-car-game
 zombie-horde-build-and-survive
 zombie-hunter-survival
 zombie-incursion-world
