@@ -173,6 +173,7 @@ american-truck-driver-game
 amigurumi-cozy-stitches
 ammo-rush-master
 ancient-aztec-coloring
+ancient-caculate
 ancient-dragons-princess
 and-zwnj-single-stroke-trail
 angela-all-season-fashion
@@ -396,6 +397,7 @@ ball-jump-switch-the-colors
 ball-packing-master-puzzle-fill-box
 ball-path-through-obstacles
 ball-run-2048-space
+ball-sort-game
 ball-sort-master-3d
 ball-sort-puzzle
 ballblastpals
@@ -628,6 +630,7 @@ blocks-and-car
 blocks-merge
 blocks-move-hit-pro
 blocks-move-n-hit
+blocks-of-color
 blocks-puzzle
 blocks-shooter-3d-run-shoot-merge-weapons
 blockstacking
@@ -769,6 +772,7 @@ break-the-car-completely
 break-the-wall-prison-escape
 breakblock
 breakout-neon-drift
+breakoutrun
 breinrot-bog
 bribes-and-stamps
 brick-breaker-ball
@@ -1149,6 +1153,7 @@ chickz-stack
 children-doctor-dentist-2-surgery-game
 chillpaths
 chinchilla-trails
+chinese-and-asian-cooking-game
 chips-bakery-simulator
 choco-ball-draw-line-and-happy-girl
 choo-choo-charles-revenge
@@ -1473,6 +1478,7 @@ cs-upgrade-gun
 cubble-on-top
 cubby-soccer-league
 cube-arena-2048-merge-numbers
+cube-blocks-game
 cube-crushers
 cube-drop-puzzle
 cube-drop-puzzle-match-color
@@ -1687,6 +1693,7 @@ don-t-touch-the-dots
 don-t-touch-the-red
 don-t-whack-your-boss
 dont-be-angry-with-match-man
+dont-break-my-heart
 donut-art-puzzle-diamond-game
 donut-ready-business-tycoon-game
 donutosaur-2
@@ -1904,6 +1911,7 @@ emoji-math-quiz
 emoji-memory-find-a-pair
 emoji-skill-puzzles
 emoji-solitaire
+empire-estate-pro
 empire-tower-defense-zombie-fortress
 endless-car-chase
 endless-car-race-game
@@ -1941,6 +1949,7 @@ escape-strange-girl-s-house
 escape-strange-girl-s-house-2
 escape-the-giant-cat
 escape-the-giant-school-3d
+escape-the-lava
 escape-the-monster
 escape-tsunami-and-save-brainrots
 escape-waves-for-lucky-blocks
@@ -2041,6 +2050,7 @@ fast-and-wild-in-sky
 fast-ball-jump
 fast-car-top-speed
 fast-connect-one-line-blitz
+fast-decode
 fast-food-cooking
 faster-car-race
 fastlane-revenge-online
@@ -2051,6 +2061,7 @@ fat-duck-frenzy
 fat-hedgehog-boris
 fat-or-thin
 favorite-puzzles
+feather-dash
 feed-my-monster
 feed-them-all
 feeding-a-black-hole
@@ -2381,6 +2392,7 @@ gas-station-24-simulator
 gas-station-simulator
 gas-station-stick-simulator
 gear-fight
+gear-race-car-game
 gears-of-war-beat-em-up
 gears-of-war-platformer
 geek-escape-run-for-survival
@@ -2410,6 +2422,7 @@ geometry-vibes-monster
 geometry-vibes-x-arrow
 geometry-vibes-x-ball
 geometryrush
+geosmarty
 geovex-daily-geography-challenge
 get-10
 get-10-ultimate
@@ -2520,6 +2533,7 @@ graveyard-wars-two-player
 gravity-football
 gravity-shift-sky-racers-gt
 gravity-speed-run
+gravix
 grayscale
 grazing-giraffe
 green-man-smash
@@ -2842,6 +2856,7 @@ hungry-snail
 hungry-squirrel
 hungry-warrior-fight
 hunters-and-props
+hunting-frog
 hunting-master
 huntman
 hurdles
@@ -4620,6 +4635,7 @@ relaxing-games-30-in-1
 relaxing-mini-fun-games
 relic-runway
 relic-rush-3d
+renumber-kids
 repeat-pixel-arts
 repel-the-monster
 repo-and-repo
@@ -4867,6 +4883,7 @@ scary-baby-in-yellow
 scary-granny-horror-maze-escape
 scary-halloween-adventure
 scary-house-clown-evil
+scary-match-3
 scary-math
 scary-rooms-idle-horror
 school-bus-simulation
@@ -5241,6 +5258,7 @@ sparksnap
 sparkzap
 sparrowelimination
 spartan-fruits
+spatial-puzzle
 speakerman-revenge
 special-alien
 special-forces-x
@@ -5290,6 +5308,7 @@ spooky-halloween-makeover
 spooky-racing
 spooky-vending-machine-2
 spore-guard
+sport-sort-puzzle
 sportbike-drive
 sportix
 sportloop
@@ -5355,6 +5374,7 @@ staircase-to-heaven
 stairs-races-for-2-players
 stairs-trivia
 stalker-2033-the-path-of-the-survivor
+stamp-it-puzzle-game
 stampede-evolution
 stand-on-the-right-color-robby
 star-rank-heroes
@@ -5383,6 +5403,7 @@ stealthy-heist
 steel-advance
 steel-directive-city-zero
 stellar-bastion
+stellar-connections
 stellar-shot-gravity-puzzle
 stellar-style-spectacle-fashion
 stick-archer-champion
@@ -5396,6 +5417,7 @@ stick-duel-battle-hero
 stick-duel-medieval-wars
 stick-duel-the-war
 stick-fighter-3d
+stick-fruit-arcade-game
 stick-hero-tower-defense
 stick-man-battle-fighting
 stick-master-teleport
@@ -5567,6 +5589,7 @@ super-cute-cat
 super-doctor-body-examination
 super-drive
 super-droid-adventure
+super-ducks-world
 super-friday-squid-challenge
 super-frog-adventure
 super-fruit-runner-hyper-casual
@@ -5617,6 +5640,7 @@ superhero-hammar-man
 superhero-nail-saloon
 superhero-transform-change-race
 superior-trial
+supermarket-empire
 supermarket-expert-idle
 supermarket-management-simulator
 supermarket-manager
@@ -5662,6 +5686,7 @@ sweet-screw-factory
 sweet-solve
 sweet-supermarket-simulator
 sweetflip
+sweets-merge
 sweetstack
 swerve-rush
 swiftslow
@@ -5796,6 +5821,7 @@ the-kitchen-spot-the-differences
 the-last-adventure
 the-last-company
 the-last-shot
+the-lava-escape
 the-long-way-home
 the-lost-joystick
 the-lost-labyrinth
@@ -5817,6 +5843,7 @@ the-sort-agency
 the-space-mover
 the-specimen-zero
 the-superhero-league
+the-survival-alliens
 the-tall-man
 the-trendy-mermaid
 the-unleashed-hunter
@@ -5930,6 +5957,7 @@ towers-505
 town-builder-inc
 toxic-arena-biological-threat
 toy-block-blast
+toy-box-blast
 toy-factory-conveyor
 toy-smash
 toy-soccer-cup
@@ -5946,6 +5974,7 @@ traffic-craft-rider
 traffic-escapee
 traffic-g
 traffic-go
+traffic-io-control
 traffic-jam-escape-3d
 traffic-jam-escape-car-puzzle
 traffic-jam-hop-on
@@ -6340,6 +6369,7 @@ worm-and-apple
 worm-hunt-snake-game-io-zone
 worm-path
 worm-puzzle-snake-apple
+worm-stack
 wormpocalypse
 worms
 worms-zone
