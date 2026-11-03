@@ -781,6 +781,7 @@ box-journey
 box-playground-punch-it
 box-press-puzzle
 box-roller
+box-rush
 box-tap-sort
 boxbash
 boxes-fright-night
@@ -828,6 +829,7 @@ bribes-and-stamps
 brick-breaker-ball
 brick-breaker-chipi-chipi-chapa-chapa-cat
 brick-breaker-classic-arcade-fun
+brick-breaker-puzzle-game
 brick-cat-chipi-chapa
 brick-out-candy
 brick-slide
@@ -926,6 +928,7 @@ build-your-zombie-horde
 buildemup
 bullet-army-run
 bullet-factory
+bullet-guide-wick
 bullet-loop
 bullet-man-3d-online
 bullet-man-master-3d
@@ -1345,6 +1348,7 @@ collection-shuffle
 collisiox
 colonora-colony-survival
 color-ball-escape
+color-battle-filler
 color-blast-puzzle
 color-brain-test-games
 color-brawls
@@ -2057,6 +2061,7 @@ endless-car-race-game
 endless-path-twist-and-turn
 endless-siege
 endless-space-pilot-2d
+endless-tunnel-run
 endless-z-survivor
 english-checkers-online-multiplayer
 epic-basketball
@@ -2254,6 +2259,7 @@ find-the-frog-hidden-objects
 find-the-fun
 find-the-intruder
 find-the-key
+find-the-kitten-spot-the-cat
 find-the-lost-letter-3d
 find-the-missing-number
 find-the-needle
@@ -2314,6 +2320,7 @@ fiva-26-soccer
 fix-pizza-food-sorting
 fix-the-hoof
 flag-coloring-puzzle
+flag-football-game
 flag-learn
 flag-memory-match
 flag-merging-game-puzzle-game
@@ -2360,6 +2367,7 @@ flume-v2
 fly-airplane-3d
 fly-car-stunt-5
 fly-vs-giant
+flying-baby-billi
 flying-grimace
 flying-injection-virus-game
 flying-robot-transform-car-games
@@ -2507,6 +2515,7 @@ funny-angela-haircut
 funny-bone-surgery
 funny-cars
 funny-cars-reload
+funny-celebrity-face-moments
 funny-cubes-2048
 funny-dentist-surgery
 funny-ear-surgery
@@ -2535,6 +2544,7 @@ furious-speed
 furry-kung-fu
 fuse-fury
 fusesmash
+fuzzle-stacker
 gaint-run-color-switch
 galactic-pixel-storm
 galala
@@ -2566,6 +2576,7 @@ garfield-rush
 gas-station-24-simulator
 gas-station-simulator
 gas-station-stick-simulator
+gate-rusher-2-game
 gear-fight
 gear-race-car-game
 gears-of-war-beat-em-up
@@ -2770,6 +2781,7 @@ gun-craft-and-fight
 gun-evolution-game
 gun-festival-shoot
 gun-merge-mr-bullet
+gun-mob-stickman-run
 gun-shooter
 gun-shooting-game
 gun-shooting-games-sniper-3d
@@ -3176,6 +3188,7 @@ jelly-block-puzzle
 jelly-bottle-sort
 jelly-bros-red-and-blue
 jelly-color-sort-3d
+jelly-cube-adventure
 jelly-drop-merge-and-sell
 jelly-garden-game
 jelly-gobble
@@ -3190,8 +3203,10 @@ jelly-path
 jelly-pop-defense
 jelly-run-in-2048
 jelly-sandbox-playground
+jelly-shift-shape-control
 jennifer-dress-up-challenge
 jenny-s-math-puzzle
+jetpack-race-arena
 jetspire
 jewel-blocks
 jewel-box-block-puzzle
@@ -3255,6 +3270,7 @@ jungle-game
 jungle-jeep-simulator
 jungle-mart
 jungle-mart-idle-game
+jungle-runner-animal-dash
 jungle-suv-offroad-adventure
 jungle-tube-sort
 junkyard-builder-3d
@@ -3332,6 +3348,7 @@ kitty-house-escapist
 kitty-jewel-quest
 kitty-kitty
 kitty-knight-survive-till-new-year
+kittymatch
 kiwi-adventure-game
 klondike-solitaire-treasures
 knee-surgery-clicker
@@ -3426,6 +3443,7 @@ let-me-in
 let-s-kill-jeff-the-killer-jeff-s-revenge-2020
 lets-kill-evil-nun
 letter-ball
+letter-boom-blast-rush
 letter-layout-coloring
 letterhold
 level-once-again
@@ -3581,6 +3599,7 @@ makeover-glow-up-match
 makeover-mayhem
 makeup-artist-fashion-salon
 makeup-fruits
+makeup-match-memory-beauty
 makeup-stories-asmr-beauty
 makeup-studio-halloween
 man-runner-2048
@@ -4033,6 +4052,7 @@ mutantblood
 mx-offroad-mountain-bike
 my-army-base
 my-bakery
+my-ball-escape
 my-castle-merge-and-story
 my-city-hospital
 my-clearn-robot
@@ -4114,6 +4134,7 @@ nest-heist
 netherton-volleyball
 never-by-color
 never-fall-pinball
+new-mahjong-2026
 newbie-s-escape-from-blogger-prison
 nexrun
 nextboot-horror-online
@@ -4547,6 +4568,7 @@ piece-of-cake-merge-and-bake
 piecealive
 pier-and-lighthouse-merge-story
 pig-bros-adventure
+pigcatch
 pill-soccer
 pilot-life-flight-game-3d
 pim-path
@@ -4558,6 +4580,7 @@ pin-rescue
 pinata-color-smash
 pinball-3026
 pinball-boy-adventure
+pinball-cube-crusher
 pinball-football-kids
 ping-pong-3d
 ping-pong-battle-table-tennis
@@ -4605,6 +4628,7 @@ placik
 plane
 plane-crash-ragdoll-simulator
 plane-escape-puzzle
+plane-fly-zone
 plane-runner-3d
 planes-dodge-and-go
 planet-404-episode-1
@@ -4809,6 +4833,7 @@ quarterback
 queen-rescue-game
 queens
 quick-draw-cowboys
+quick-math
 quick-maths
 quizmania-trivia-game
 quizmasters
@@ -5314,6 +5339,7 @@ shooting-range
 shooting-zombie-fps-xtreme-good-vs-bad-boys
 shop-cashier-simulator-3d
 shopping-simulator
+short-path-race
 shortcut-race-3d
 shortcut-run
 shot-trigger
@@ -5872,6 +5898,7 @@ stickyconnect
 stock-car-hero
 stone-shooter
 stonks
+stop-the-lock
 storky-survivors
 storm-dash
 storm-fighter007
@@ -5904,6 +5931,7 @@ stunt-extreme
 stunt-planes
 stunt-rider
 stunt-witch-3
+style-senpai-anime-dress-up
 style-star-match
 subby-quest
 subway-clash-3d
@@ -6193,6 +6221,7 @@ the-elevator-clicker
 the-escape-series
 the-fill
 the-flowers-merge-and-sell-bouquets
+the-garbaggio-hotel
 the-goopies-slime-puzzle
 the-greedy-crow
 the-green-mission-inside-a-cave
@@ -6582,6 +6611,7 @@ viking-guard-game
 vikings
 vikings-an-archer-s-journey
 villadash-hero-rescue
+village-defense-battle
 village-of-colors
 violent-shooter
 virus-destroyer
@@ -6841,6 +6871,7 @@ zappy
 zaruvane-the-amber-oasis
 zasteroid
 zen-garden-match
+zen-jigsaw-master
 zen-orbs-geometric-flow
 zestful-match
 zigzag-puzzle
