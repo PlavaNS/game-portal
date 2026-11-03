@@ -312,11 +312,17 @@ table.cmp tbody th{white-space:nowrap}
 @media (max-width:860px){.cat-row{grid-template-columns:1fr;gap:8px}.cat-tile{min-height:96px;flex-direction:row;align-items:center}.ct-text{padding:12px 14px;background:none;display:flex;align-items:center;gap:10px}.ct-text i{margin:0}.ct-text b{font-size:17px}.ct-fan{display:block;right:-30px;top:-18px;transform:scale(.7)}.cat-games{grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.cat-games .card:nth-child(n+4){display:none}.cat-more{display:none}}
 :root[data-theme=light] .cat-more{background:#fff}
 
-/* one menu: a slim scrollable strip under the header (the left sidebar is gone) */
-.topnav{position:sticky;top:var(--top);z-index:29;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;padding:6px 16px;background:var(--topbg);backdrop-filter:blur(10px);border-bottom:1px solid var(--line);-webkit-overflow-scrolling:touch}
-.topnav::-webkit-scrollbar{display:none}
-.topnav a{flex:none;padding:6px 12px;border-radius:999px;text-decoration:none;color:var(--muted);font-weight:600;font-size:13.5px;white-space:nowrap}
-.topnav a:hover,.topnav a[aria-current]{background:var(--card);color:var(--text)}
-.topnav .sep{flex:none;width:1px;background:var(--line);margin:4px 6px}
-.side,.menu-btn{display:none!important}
 main{max-width:1500px;margin:0 auto}
+
+/* category tiles at the bottom of every page (except home, which has the full rows) */
+.cat-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px}
+.cat-grid .cat-tile{min-height:120px}
+.cat-grid .ct-fan{transform:scale(.8);right:-28px;top:-14px}
+@media (max-width:860px){.cat-grid{grid-template-columns:repeat(2,1fr);gap:8px}.cat-grid .cat-tile{min-height:84px}.cat-grid .ct-fan{display:none}.cat-grid .ct-text b{font-size:15px}}
+/* full-width layout: keep the hero and game-of-the-week from towering over the page */
+@media (min-width:1100px){
+  .hero{grid-template-columns:1.6fr 1fr}
+  .hero-media{aspect-ratio:auto;max-height:420px}
+  .gotw-media{max-height:360px}
+  .gotw-media img{width:100%;height:100%;object-fit:cover}
+}

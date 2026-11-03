@@ -453,10 +453,10 @@ ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replac
   <div class="top-r"><button class="theme-btn" type="button" data-theme-toggle aria-label="Switch light / dark mode" title="Light / dark mode"><span class="t-dark">&#127769;</span><span class="t-light">&#9728;&#65039;</span></button>
   <a class="sg-btn" href="${ur('/submit-game/')}" title="${esc(tr('Submit your game'))}"><i>&#128228;</i><span>${esc(tr('Submit your game'))}</span></a></div>
 </header>
-<nav class="topnav" aria-label="${esc(tr('Browse'))}"><a href="${u('/')}">🏠 ${esc(tr('Home'))}</a><a href="${u('/new/')}">🆕 ${esc(tr('New games'))}</a><a href="${u('/popular/')}">🔥 ${esc(tr('Most played'))}</a><a href="${ur('/our-games/')}">🫧 ${esc(tr('Our games'))}</a><span class="sep"></span>${activeCats.map(c => `<a href="${cHref(c.slug)}">${CAT_ICON[c.slug] || '🎮'} ${esc((catTr(c.slug) || {}).name || c.name)}</a>`).join('')}</nav>
 <div class="wrap">
 <main id="main">
 ${body}
+${bodyClass.includes('home') ? '' : `<section class="row cat-grid-wrap"><div class="row-h"><h2>${esc(tr('Browse by category'))}</h2><a href="${u('/all/')}">${esc(tr('All games'))} ›</a></div><div class="cat-grid">${activeCats.map(c => catTile(c)).join('')}</div></section>`}
 </main>
 </div>
 <footer class="foot">
@@ -487,9 +487,14 @@ const catRow = c => {
   const list = byCat[c.slug].filter(g => !g.community && !g.own);
   const pick = list.slice().sort((a, b) => (SITE_COUNTS.play[b.slug] || 0) - (SITE_COUNTS.play[a.slug] || 0) || fin(a.r.most) - fin(b.r.most)).filter(g => !catRowUsed.has(g.slug)).slice(0, 5);
   pick.forEach(g => catRowUsed.add(g.slug));
+  const name = (catTr(c.slug) || {}).name || c.name;
+  return `<div class="cat-row">${catTile(c)}<div class="cat-games">${pick.map(g => card(g)).join('')}</div><a class="cat-more" href="${cHref(c.slug)}" aria-label="${esc(tr('More'))} ${esc(name)}">›</a></div>`;
+};
+const catTile = c => {
+  const list = byCat[c.slug].filter(g => !g.community && !g.own);
   const fan = list.slice().sort((a, b) => fin(a.r.best) - fin(b.r.best)).slice(0, 3);
   const name = (catTr(c.slug) || {}).name || c.name, h = CAT_HUE[c.slug] ?? 260;
-  return `<div class="cat-row"><a class="cat-tile" href="${cHref(c.slug)}" style="--h:${h}"><span class="ct-fan">${fan.map(g => `<img src="${esc(g.thumb)}" alt="" loading="lazy" decoding="async">`).join('')}</span><span class="ct-text"><i>${CAT_ICON[c.slug] || '🎮'}</i><b>${esc(name)}</b><small>${byCat[c.slug].length.toLocaleString(LANG === 'en' ? 'en-US' : LANG)} ${esc(tr('games'))}</small></span></a><div class="cat-games">${pick.map(g => card(g)).join('')}</div><a class="cat-more" href="${cHref(c.slug)}" aria-label="${esc(tr('More'))} ${esc(name)}">›</a></div>`;
+  return `<a class="cat-tile" href="${cHref(c.slug)}" style="--h:${h}"><span class="ct-fan">${fan.map(g => `<img src="${esc(g.thumb)}" alt="" loading="lazy" decoding="async">`).join('')}</span><span class="ct-text"><i>${CAT_ICON[c.slug] || '🎮'}</i><b>${esc(name)}</b><small>${byCat[c.slug].length.toLocaleString(LANG === 'en' ? 'en-US' : LANG)} ${esc(tr('games'))}</small></span></a>`;
 };
 const crumbs = items => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: url })) });
 
@@ -559,12 +564,11 @@ function emitContent() {
   ${(() => { const indie = all.filter(g => g.community).slice().sort((x, y) => (y.added || '').localeCompare(x.added || '')).slice(0, 12);
     return indie.length ? `<section class="row indie-row"><div class="row-h"><h2>🧑‍💻 ${esc(tr('New from indie developers'))}</h2><a class="btn sg-cta" href="${ur('/submit-game/')}">📤 ${esc(tr('Made a game? Submit it free'))}</a></div><p class="indie-note">${esc(tr('Games sent to us by independent developers. Every one is played and checked by a real person before it goes live.'))} <a href="${ur('/publish-html5-game/')}">${esc(tr('Where to publish your HTML5 game'))} ›</a></p><div class="grid">${indie.map(g => card(g)).join('')}</div></section>` : ''; })()}
   <section class="row"><div class="row-h"><h2>${esc(tr('Popular collections'))}</h2></div><p class="chips">${topics.filter(t => catOK('topic:' + t.slug)).map(t => `<a class="chip" href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join('')}</p></section>
-  ${row('🏆 ' + tr('Best games'), null, top('best', 18))}
   <section class="seo-text"><h2>${esc(tr('Free online games on'))} ${esc(cfg.name)}</h2><p>${esc(cfg.name)} ${esc(tr('is a hand-picked collection of'))} ${all.length.toLocaleString('en')} ${esc(tr('free browser games. Every game runs instantly on your computer, tablet or phone, with no downloads, no installs and no account. Play action, puzzle, racing, sports, clicker and 2 player games, and come back every day for new titles.'))}</p></section>`;
     write('index.html', layout({
       title: `${cfg.name} — ${tr('Free Online Games, Play Instantly')}`,
       desc: `${tr(cfg.slogan)} ${tr('Play')} ${all.length.toLocaleString('en')}+ ${tr('free online games: action, puzzle, racing, 2 player, clicker and more. No downloads, works on PC & mobile.')}`,
-      canonical: abs('/'), body, altPath: '/', altLangs: LANGS.filter(l => Object.keys(UI[l.code] || {}).length >= 20).map(l => l.code),
+      canonical: abs('/'), body, bodyClass: 'home', altPath: '/', altLangs: LANGS.filter(l => Object.keys(UI[l.code] || {}).length >= 20).map(l => l.code),
       jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.name, alternateName: cfg.name.replace(/\s+/g, ''), url: abs('/'), potentialAction: { '@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
         { '@context': 'https://schema.org', '@type': 'Organization', '@id': abs('/#organization'), name: cfg.name, alternateName: cfg.shortName, url: abs('/'),
           logo: { '@type': 'ImageObject', url: abs('/assets/icon-512.png'), width: 512, height: 512 }, image: abs('/assets/og.png'),
