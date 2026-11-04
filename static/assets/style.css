@@ -660,3 +660,4 @@ body.menu-open .drawer{transform:none;visibility:visible}
 .trio-month .eyebrow{background:#0f766e}
 .foot-badge{margin:14px 0 10px;display:flex;justify-content:center}
 .foot-badge img{height:40px;width:148px;border-radius:8px}
+:root[data-theme=light] .foot-badge img{border:1px solid #dfe3f0}
