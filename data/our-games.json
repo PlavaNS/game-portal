@@ -73,8 +73,8 @@
     ],
     "embed": "/play/forever-dunk/",
     "gmEmbedUrl": null,
-    "thumb": "/assets/our/forever-dunk-thumb.jpg",
-    "cover": "/assets/our/forever-dunk-cover.jpg",
+    "thumb": "/assets/our/forever-dunk-thumb.jpg?v=2",
+    "cover": "/assets/our/forever-dunk-cover.jpg?v=2",
     "video": "/assets/our/forever-dunk-trailer.mp4",
     "screens": [
       "/assets/our/forever-dunk-neon.jpg",
@@ -101,8 +101,8 @@
     ],
     "embed": "/play/ball-ball-away/",
     "gmEmbedUrl": null,
-    "thumb": "/assets/our/ball-ball-away-thumb.jpg",
-    "cover": "/assets/our/ball-ball-away-cover.jpg",
+    "thumb": "/assets/our/ball-ball-away-thumb.jpg?v=2",
+    "cover": "/assets/our/ball-ball-away-cover.jpg?v=2",
     "video": "/assets/our/ball-ball-away-trailer.mp4",
     "screens": [
       "/assets/our/ball-ball-away-sunset.jpg",
