@@ -136,6 +136,7 @@ aim-and-snap-arrow-srike
 aimball
 air-assault-ship-defense
 air-battles
+air-combat-jet-fighter
 air-fighter-3d
 air-force-commando-online-game
 air-space-shooter
@@ -359,6 +360,7 @@ astro-racing
 astro-shooter
 athlio
 atm-robbery-escape-game
+atomlinker
 attack-and-dash
 attack-hole
 attack-hole-game
@@ -366,6 +368,7 @@ attack-super-hole
 aura-clicker
 aura-farm-rng
 aura-farmer-presidents
+auric-core
 avatar-make-up
 avocado-yard-ragdoll-sandbox
 awareness-game-the-robot-bar
@@ -653,6 +656,7 @@ block-escape-2
 block-ice-puzzle
 block-island-destroyer
 block-master-gem-puzzle
+block-master-polygonal-puzzle
 block-match-3d
 block-party-blast
 block-party-obby-robby-mini-games
@@ -675,6 +679,7 @@ block-tree
 block-vs-block-ii
 block-zero
 blockapolypse-zombie-shooter
+blocker-fit-guy
 blockgunner
 blockibo-color-blocks
 blockify
@@ -695,6 +700,7 @@ blocky-combat-swat-original-2026
 blocky-dude-gangster-auto-city
 blocky-gun-paintball-3
 blocky-guns
+blocky-leap
 blocky-set-3d-brick-constructions
 blocky-shooter-game
 blocky-zombie-shooting
@@ -787,6 +793,7 @@ bow-or-die
 bowling-hero-multiplayer
 bowling-stars
 bowmaster-tower-attack
+bowmasters2
 box-brothers
 box-it-up
 box-journey
@@ -1091,6 +1098,7 @@ car-madness-3d
 car-makeup
 car-mechanic-simulator-2025
 car-modding-contest
+car-modified-master
 car-move-game
 car-obby-3d
 car-park-simulator
@@ -1391,6 +1399,7 @@ color-madness-spot-the-differences
 color-match-rush
 color-mosaic
 color-parking-drifter
+color-path-game
 color-pixel-flow
 color-pixels-coloring-by-numbers
 color-pop-mania
@@ -1428,6 +1437,7 @@ combat-guardian-under-attack
 combat-strike-zombie-survival-multiplayer
 combat-zombie-warfare
 combine-pickaxes
+combo-color-unlocker
 command-strike-fps-offline
 commando
 commando-force-2
@@ -1650,6 +1660,7 @@ cut-my-candy
 cut-rope-2026
 cute-animal-puzzle-game
 cute-animal-world
+cute-animals-memory
 cute-craft-lab
 cute-family-shopping
 cute-farm-match-puzzle
@@ -1683,6 +1694,7 @@ dark-assassin
 dark-boy
 dark-city-multiplayer
 dark-runner
+dark-sector
 dark-sector-kids
 dark-war
 dark-world
@@ -1752,6 +1764,7 @@ derby-racing
 desert-animals-coloring-book
 desert-city-stunt
 desert-gunship
+desert-rover-survival
 design-with-me-cute-tie-dye-tops
 desolate-isle-survival
 dessert-diy
@@ -1976,6 +1989,7 @@ driftbound-race-in-the-grip-of-drift
 drifting-car-master
 drifting-mania
 drifting-supercars-racing-3d
+driftsea
 drifty-master
 drifty-race-challenge
 drifty-road-rush
@@ -2010,6 +2024,7 @@ duckling-rush-io
 duckys-colorful-life
 duel-of-builders
 duelers
+dummy-speed-bridger
 dumpling-clicker
 dumplings-who-will-you-get
 dune-surfer-3d
@@ -2767,6 +2782,7 @@ grass-land
 grass-rush-adventure
 grave-blast
 grave-necromancer-mortician
+gravesky
 graveyard-wars-two-player
 gravity-football
 gravity-shift-sky-racers-gt
@@ -2867,6 +2883,7 @@ halloween-stickman-2
 halloween-survivor
 halloween-tile-tumble
 hammer-strike
+hammer-strike-destruction-zone
 hamster-escape-prison
 hand-daily
 hand-over-hand
@@ -2973,6 +2990,7 @@ hexa-master-3d-sort-puzzle
 hexa-sort
 hexa-sort-3d
 hexa-sort-master
+hexa-tiles-puzzle-game
 hexa-two
 hexa-village-sort-and-match
 hexa-word
@@ -3297,6 +3315,7 @@ jump-and-fly
 jump-ball-2021
 jump-fight-game
 jump-in-rhythm-to-the-hit-cat-disco
+jump-masters
 jump-to-the-rhythm-of-songs-musical-ball
 jump-up-3d
 jump-up-game
@@ -3927,6 +3946,7 @@ mischievous-pairs
 misland-online
 misregister
 miss-robins-dream-home
+missile-dude-rpg
 mister-bullet-arcade-shooter
 mix-and-paint-3d
 mix-monsters-fun-merge
@@ -4057,6 +4077,7 @@ moving-balls-going-sphere
 moving-magnet
 mowmentum
 mr-and-mrs-santa-christmas-adventure
+mr-bean-3d-jigsaw
 mr-bean-hidden-stars
 mr-bouncemaster
 mr-bouncemasters-2
@@ -4192,6 +4213,7 @@ neonroll
 nest-heist
 netherton-volleyball
 never-by-color
+never-fall
 never-fall-pinball
 new-mahjong-2026
 newbie-s-escape-from-blogger-prison
@@ -4624,6 +4646,7 @@ piano-master
 pickaxe-crusher-idle
 picky-parking
 pics-2-word
+picture-and-word-match
 picture-jam-factory
 picture-shift
 pictures-by-numbers-nubik-and-mobs-mine
@@ -4642,6 +4665,7 @@ pin-puzzle-save-the-sheep
 pin-rescue
 pinata-color-smash
 pinball-3026
+pinball-block-shooter
 pinball-boy-adventure
 pinball-cube-crusher
 pinball-football-kids
@@ -4903,6 +4927,7 @@ quick-draw-cowboys
 quick-math
 quick-maths
 quicksolve
+quiz-runner-io
 quizmania-trivia-game
 quizmasters
 rabbit-carrot
@@ -5000,6 +5025,7 @@ realistic-tanks-poopy-war
 reaper-s-graveyard-shift
 rebelrun
 rebound-rascals
+reckless-getaway-2-car-chase
 reckless-roller-fun-park
 recoil
 recoils
@@ -5293,6 +5319,7 @@ save-the-stick-draw-line
 save-water
 save-woman
 save-your-girl
+saw-pop-master
 sawblade-fest-run
 say-cheese
 scale-kid-run-and-jump-up
@@ -5502,6 +5529,7 @@ slide-the-blocks-build-the-pictures
 slide-to-ride
 slides-and-climbs
 slidey-sliding-cat-puzzle
+sliding-puzzle
 sliding-slide
 sliding-tile-puzzle-game
 slime-assembly-endless
@@ -6422,6 +6450,7 @@ tiny-army
 tiny-chick
 tiny-cinema
 tiny-delivery
+tiny-dolls-dream-world
 tiny-metal-shooter
 tiny-sports-empire-idle
 tiny-tomb
@@ -6580,6 +6609,7 @@ turbo-racer-extreme
 turbo-stunt-racing
 turbo-team-racing
 turnline-relaxing-puzzle
+turret-defend-apocalypse
 twerk-eat-and-run
 twining-color-switch-game
 twist-and-roll
