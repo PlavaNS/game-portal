@@ -510,7 +510,7 @@ ${bodyClass.includes('home') ? '' : `<section class="row cat-grid-wrap"><div cla
 </div>
 <footer class="foot">
   <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.slogan)} ${all.length.toLocaleString('en-US')}+ ${esc(tr('free web games — no downloads, no sign-up.'))}</p>
-  <p><a href="${ur('/about/')}">${esc(tr('About'))}</a> · <a href="${ur('/contact/')}">${esc(tr('Contact'))}</a> · <a href="${ur('/faq/')}">FAQ</a> · <a href="${u('/tags/')}">${esc(tr('All tags'))}</a> &middot; <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> · <a href="${ur('/publish-html5-game/')}">Where to publish your HTML5 game</a> · <a href="${ur('/privacy/')}">${esc(tr('Privacy Policy'))}</a> · <a href="${ur('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
+  <p><a href="${ur('/about/')}">${esc(tr('About'))}</a> · <a href="${ur('/contact/')}">${esc(tr('Contact'))}</a> · <a href="${ur('/faq/')}">FAQ</a> · <a href="${u('/tags/')}">${esc(tr('All tags'))}</a> &middot; <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> · <a href="${ur('/badge/')}">Badges for developers</a> · <a href="${ur('/publish-html5-game/')}">Where to publish your HTML5 game</a> · <a href="${ur('/privacy/')}">${esc(tr('Privacy Policy'))}</a> · <a href="${ur('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
   ${langsHere.length > 1 ? `<p class="foot-langs">${langsHere.map(l => l === LANG ? `<strong>${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</strong>` : `<a href="${esc(absIn(l, altPath))}" hreflang="${esc(l)}">${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</a>`).join(' · ')}</p>` : ''}
   <p class="foot-topics">${topics.filter(t => LANG === 'en' || (CATTR[LANG] || {})['topic:' + t.slug]).slice(0, 14).map(t => `<a href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join(' · ')}</p>
   <p class="foot-badge"><a href="https://twelve.tools" target="_blank" rel="noopener"><img src="https://twelve.tools/badge0-white.svg" alt="Featured on Twelve Tools" width="148" height="40" loading="lazy" decoding="async"></a><a href="https://fazier.com" target="_blank" rel="noopener"><img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&amp;theme=light" alt="Launched on Fazier" width="105" height="45" loading="lazy" decoding="async"></a></p>
@@ -924,6 +924,19 @@ const today = new Date().toISOString().slice(0, 10);
 textPage('our-games', 'Our Games', `<p class="lead">Games made by ${esc(cfg.studio)}, the team behind ${esc(cfg.name)} and a real escape room studio from Novi Sad, Serbia. Free, no download, no sign-up.</p>
 <div class="grid">${ours.map(o => card(o)).join('')}</div>
 ${ours.map(o => `<h2><a href="${u(`/games/${o.slug}/`)}">${esc(o.title)}</a></h2><p>${esc(o.short || '')}</p>`).join('')}`, `Free browser games made by ${cfg.studio}: ${ours.map(o => o.title).join(', ')}.`);
+
+textPage('badge', 'Badges for developers', `<p class="lead">Your game is on ${esc(cfg.name)}. If you want to show it on your own site, here are two badges you can use. They are free, you do not have to ask, and there is nothing to install.</p>
+<p>Copy the code, paste it in your footer or on your press page, and it links back to your game page here.</p>
+<h2>Featured badge</h2>
+<p class="bdg-prev"><img src="${B}/assets/featured-badge.svg" alt="Play it on ${esc(cfg.name)}" width="230" height="56"></p>
+<pre class="bdg-code"><code>&lt;a href="${abs('/')}" target="_blank" rel="noopener"&gt;&lt;img src="${abs('/assets/featured-badge.svg')}" alt="Play it on ${esc(cfg.name)}" width="230" height="56"&gt;&lt;/a&gt;</code></pre>
+<p class="muted">Swap the link for your own game page here if you prefer, for example <code>${abs('/games/your-game/')}</code>.</p>
+<h2>Indie Game of the Week badge</h2>
+<p>Only for games we picked as Indie Game of the Week. If that is yours, you earned it.</p>
+<p class="bdg-prev"><img src="${B}/assets/game-of-the-week-badge.svg" alt="Indie Game of the Week on ${esc(cfg.name)}" width="250" height="56"></p>
+<pre class="bdg-code"><code>&lt;a href="${abs('/')}" target="_blank" rel="noopener"&gt;&lt;img src="${abs('/assets/game-of-the-week-badge.svg')}" alt="Indie Game of the Week on ${esc(cfg.name)}" width="250" height="56"&gt;&lt;/a&gt;</code></pre>
+<h2>Not on the site yet?</h2>
+<p><a href="${ur('/submit-game/')}">Send us your game</a>. It is free and non-exclusive, a real person plays every submission, and accepted games get their own page with credit and a link back to you.</p>`, `Free badges for developers whose games are on ${cfg.name}: copy the code and link back from your own site.`);
 
 textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games website made by <strong>${esc(cfg.studio)}</strong>, an independent game studio from Novi Sad, Serbia. We build our own browser games (like <a href="${u('/games/bubble-wrap/')}">Bubble Wrap</a>) and hand-pick the best free HTML5 games from trusted distribution partners, so you can play instantly on any device.</p>
 <h2>Who runs this site</h2>
