@@ -661,6 +661,9 @@ function emitContent() {
   ${bnCats}
   <section class="row"><div class="cat-rows">${activeCats.filter(c => catOK(c.slug)).map(c => catRow(c)).join('\n')}</div></section>
   ${news}
+  <section class="rnd"><div class="rnd-in"><b>\u{1F3B2} ${esc(tr('Play a random game'))}</b>
+    <p>${esc(tr('Not sure what to play? Let us pick one for you.'))}</p>
+    <button class="btn big" type="button" data-random>\u{1F500} ${esc(tr('Hit the button'))}</button></div></section>
   ${duos}
   ${(() => { const indie = all.filter(g => g.community).slice().sort((x, y) => (y.added || '').localeCompare(x.added || '')).slice(0, 12);
     return indie.length ? `<section class="row indie-row"><div class="row-h"><h2>🧑‍💻 ${esc(tr('New from indie developers'))}</h2><a class="btn sg-cta" href="${ur('/submit-game/')}">📤 ${esc(tr('Made a game? Submit it free'))}</a></div><p class="indie-note">${esc(tr('Games sent to us by independent developers. Every one is played and checked by a real person before it goes live.'))} <a href="${ur('/publish-html5-game/')}">${esc(tr('Where to publish your HTML5 game'))} ›</a></p><div class="grid">${indie.map(g => card(g)).join('')}</div></section>` : ''; })()}

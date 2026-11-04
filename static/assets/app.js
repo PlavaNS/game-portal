@@ -203,6 +203,22 @@
       : '<p class="talk-ok bad">That did not go through. Please try again in a minute.</p>';
   });
 
+  // "play a random game": pick one out of the whole catalogue
+  const rnd = $('[data-random]');
+  if (rnd) rnd.addEventListener('click', async () => {
+    const old = rnd.textContent;
+    rnd.disabled = true; rnd.textContent = '\u2026';
+    try {
+      const base = location.pathname.startsWith('/') && document.documentElement.lang !== 'en' ? '/' : '/';
+      const r = await fetch(base + 'search.json', { cache: 'force-cache' });
+      const list = await r.json();
+      const g = list[Math.floor(Math.random() * list.length)];
+      location.href = '/games/' + g[0] + '/';
+    } catch {
+      rnd.disabled = false; rnd.textContent = old;
+    }
+  });
+
   // search page
   const si = $('[data-search-input]');
   if (si) { // remember the term (not who typed it) so the site can show what people look for

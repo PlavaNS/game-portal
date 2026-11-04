@@ -613,3 +613,15 @@ body.menu-open .drawer{transform:none;visibility:visible}
 .gotd-text .eyebrow time{color:#ffffffb8;font-weight:700;letter-spacing:.02em;text-transform:none}
 :root[data-theme=light] .feat-text .eyebrow,:root[data-theme=light] .gotd-text .eyebrow{background:#16182e;color:#fff!important}
 :root[data-theme=light] .gotd-text .eyebrow time{color:#ffffffb8}
+
+/* play a random game */
+.rnd{margin:30px 0}
+.rnd-in{display:flex;flex-direction:column;align-items:center;text-align:center;gap:8px;padding:26px 18px;border-radius:20px;
+  background:linear-gradient(135deg,#2a1140,#44164a 55%,#5a1740);border:1px solid var(--line)}
+.rnd-in b{font-size:24px;line-height:1.15}
+.rnd-in p{margin:0 0 6px;color:#ffffffb8;font-size:14px}
+.rnd .btn.big{font-size:16px;padding:13px 26px}
+:root[data-theme=light] .rnd-in{background:linear-gradient(135deg,#ffe9f1,#fff0f6 55%,#ffeaf3);border-color:#f0d8e6}
+:root[data-theme=light] .rnd-in b{color:#16182e}
+:root[data-theme=light] .rnd-in p{color:#5b6080}
+@media (max-width:640px){.rnd-in{padding:20px 14px;border-radius:16px}.rnd-in b{font-size:20px}}
