@@ -180,5 +180,58 @@
     "embed": "https://hisorty.app/",
     "thumb": "https://ilovewebgames.com/assets/community/hisorty.jpg?v=1",
     "orientation": "landscape"
+  },
+  {
+    "slug": "guessnow",
+    "title": "guessNow",
+    "studio": "Antoni Kowalski",
+    "studioUrl": "https://guessnow.fun/",
+    "added": "2026-11-04",
+    "short": "A real photograph from the archives slowly comes into focus and you slide to the year it was taken, before your health runs out.",
+    "description": "guessNow is a history game built on real photographs. A picture appears out of focus and sharpens as the seconds pass, so every moment you wait costs you points but gives you another clue: a uniform, a car, a shop sign. You drag a slider to the year you think it was taken and confirm. Miss by two years and it barely stings; miss by forty and a chunk of your 300 health is gone. Adaptive Climb keeps dealing photographs and raising the difficulty for as long as you survive, and there is a daily set of five if you only want a quick round. Every photo comes with the full story behind it once you have answered.",
+    "instructions": "Pick Adaptive Climb for an endless run or Daily Challenge for today's five photographs. Watch the picture sharpen, drag the slider to the year you think it was taken and press Confirm. The closer you are, the less health you lose; three bad misses and the run is over.",
+    "category": "puzzle",
+    "extraCats": [
+      "casual"
+    ],
+    "tags": [
+      "History",
+      "Trivia",
+      "Photos",
+      "Guessing",
+      "Endless",
+      "Daily",
+      "Knowledge"
+    ],
+    "embed": "https://guessnow.fun/",
+    "thumb": "https://ilovewebgames.com/assets/community/guessnow.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "world-destroyer",
+    "title": "World Destroyer",
+    "studio": "Gamey Studio",
+    "studioUrl": "https://pickthewheel.com/world-destroyer/",
+    "added": "2026-11-04",
+    "short": "Flatten a toy city against the clock with TNT, missiles and a very happy dinosaur, chaining the blasts so one sets off the next.",
+    "description": "World Destroyer drops you on an isometric toy city with a short timer and a handful of tools: TNT, missiles, fire, and later a tornado, a dragon, a robot and a UFO. The trick is not to use them one at a time but to set off chain reactions, hitting a fuel tank so the explosion rolls into the next block and the next. Each city has its own briefing, its own defences to knock out first, and three stars to earn, so a level you scraped through once is worth replaying for the clean run. Ten cities unlock one after another, and new tools arrive as you go.",
+    "instructions": "Pick a tool from the bar at the bottom, then tap or click where you want it on the city. Hit fuel tanks and AA guns first so the blasts spread for you. Clear enough of the city before the timer runs out to earn stars and open the next one.",
+    "category": "arcade",
+    "extraCats": [
+      "puzzle",
+      "mobile"
+    ],
+    "tags": [
+      "Destruction",
+      "Chain Reaction",
+      "Strategy",
+      "Levels",
+      "Isometric",
+      "Dinosaur",
+      "Timed"
+    ],
+    "embed": "https://pickthewheel.com/world-destroyer/",
+    "thumb": "https://ilovewebgames.com/assets/community/world-destroyer.jpg?v=1",
+    "orientation": "portrait"
   }
 ]
