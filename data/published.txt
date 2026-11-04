@@ -111,6 +111,7 @@ aberiel-church-jigsaws
 about-a-frog
 abyss-muncher
 abyss-sweeper
+abyssal-echoes
 abyssborn
 ace-brawl-battle-3d
 ace-car-racing
@@ -158,6 +159,7 @@ airplane-battle9
 airplane-factory-tycoon
 airplane-flight-manager-game
 airplane-pilot-simulator
+airplane-simulator-game
 airport-clash-3d
 airport-controller
 airport-security-3d
@@ -174,6 +176,7 @@ alien-memory
 alien-quarantine
 alien-shooter
 alien-shooting-survival
+alien-space-shooter-game
 alien-wreckage
 aliens-hunter
 aliens-need-redheads
@@ -246,10 +249,12 @@ animal-puzzle-deluxe
 animal-racing-2
 animal-racing-idle-park
 animal-royal
+animal-runner-safari-game
 animal-shape-puzzle
 animal-shifting-transform-run
 animal-transform-race
 animal-word-search-quest
+animal-world
 animalistic-transform-run
 animals-battle
 animals-vs-zombies
@@ -298,6 +303,7 @@ aquarium-of-surprises
 aquava
 arcade-breakout
 arcade-thief-runner
+arcanoid-shooter-defence
 arcanoid-side-guns
 archer-2023
 archer-clash
@@ -1231,10 +1237,12 @@ cardivo-adventure
 cards-in-fool
 career-run-ramp-game
 career-rush
+cargo-bike-and-car-game
 cargo-path-puzzle
 cargo-sort-color-puzzle
 cargo-truck-game
 cargo-truck-simulator-2025
+cargo-truck-transport-game
 cargomatchmaster
 carletto-halloween-dreams
 carmania-io
@@ -1285,6 +1293,7 @@ cat-robot-transform-war
 cat-snack-defense
 cat-tic-tac-toe
 cat-vs-granny-cat-simulator
+cat-with-a-gun-clicker-evolution
 catch-a-fish-obby
 catch-cats
 catch-insect
@@ -1421,6 +1430,7 @@ city-cash-race
 city-chase-escape-police
 city-coach-driving-games-3d
 city-constructor
+city-defense
 city-delivery-rider-simulator
 city-driver-destroy-car
 city-gas-station-simulator
@@ -1747,6 +1757,7 @@ crosswords-big-collection
 crossy-rails
 crossy-zombie-game
 crow-memory
+crowd-battle-gun-rush
 crowd-runner
 crowd-runner-3d
 crowd-rush
@@ -1840,6 +1851,7 @@ cyber-truck-drive-simulator
 cyberpunk-block-puzzle
 cycle-racing-game
 d-copter-reloaded
+d-race-x
 daddy-escape
 daddy-mouse
 daddy-rabbit
@@ -2448,6 +2460,7 @@ farm-house-crash-match-game
 farm-land-farming-life-game
 farm-mart
 farm-nubik-vs-zombies
+farm-simulator-township-game
 farm-vegetable-link
 farmers-vs-aliens
 farming-mini-puzzle
@@ -2458,6 +2471,7 @@ fashion-battle-queen
 fashion-foot-shop
 fashion-foot-shop-game
 fashion-girl-cosplay-sailor-challenge
+fashion-makeup-and-dress-up-game
 fashion-princess-dress-up-for-girls
 fashion-sewing-clothes
 fashion-show-dressup
@@ -2516,6 +2530,7 @@ final-freeway
 final-freeway-2r
 find-a-legendary-needle
 find-a-pair-3d
+find-ball
 find-capybara-valley-of-monsters
 find-match-3d
 find-n-match
@@ -2598,6 +2613,7 @@ flag-learn
 flag-memory-match
 flag-merging-game-puzzle-game
 flag-merging-puzzle-game
+flag-paint-puzzle-game
 flag-painting-game
 flag-puzzle-jam-collect-flags
 flaggy-reveal
@@ -2842,6 +2858,7 @@ funny-rescue-zookeeper
 funny-shooter-2
 funny-shooter-destroy-all-enemies
 funny-snake-2
+funny-sounds
 funny-tattoo-shop-2
 funny-throat-surgery
 funny-volleyball
@@ -2937,6 +2954,7 @@ get-tall-and-fall
 getting-over-it
 ghost-guard
 ghost-runaway
+ghost-shift
 ghost-sniper
 ghost-walker
 ghostly-night-harvest
@@ -3348,6 +3366,7 @@ hit-master
 hit-masters-rush
 hit-tank-battle
 hlbina
+hoard-master-online
 hobo-speedster
 hockey-brawl
 hockey-hero
@@ -3589,6 +3608,7 @@ jelly-sandbox-playground
 jelly-shift-shape-control
 jennifer-dress-up-challenge
 jenny-s-math-puzzle
+jetflash-skyport-trials
 jetpack-race-arena
 jetspire
 jewel-blaster
@@ -4497,6 +4517,7 @@ mr-stickman
 mr-tomato-vs-zombies
 mr-tung-shoot-zombie
 mtb-downhill-extreme
+mud-offroad-jeep-game
 mud-offroad-monster-truck-game
 mud-trails-4x4-jeep-game
 mud-truck-driving
@@ -4563,6 +4584,7 @@ my-sugar-factory
 my-supermarket-simulator-3d
 my-sweet-candy-outfits
 my-sweetstreet-shop
+my-tiny-market
 my-town-home-family-playhouse
 my-unicorn-cat-princess-caring
 mycothreememo
@@ -4654,6 +4676,7 @@ nightfall-horde
 nightmare-2d-shooters
 niko-adventure
 niko-and-dino-run
+nine-cards-of-winter
 nine-to-wonderland-card-duel-rpg
 ninja-adventure-game
 ninja-arashi
@@ -4686,6 +4709,7 @@ nitro-racing-gear
 nitro-speed-car-racing
 nitrohit
 nitrovenant-2
+nivra
 no-i-m-not-a-plankton
 no-one-survives-1-minute
 no-shorts
@@ -4851,6 +4875,7 @@ obunga-nextbot-spot-difference
 ocean-blast-block-puzzle
 ocean-catcher-fun
 ocean-dash
+ocean-drift
 ocean-match-crush
 ocean-match-puzzle
 ocean-pop
@@ -5163,6 +5188,7 @@ planet-404-episode-1
 planet-blast-rockets
 planet-destroy-idle
 planet-escape
+planet-hero
 planko
 plant-girl-defense-zombie
 plant-squad
@@ -5468,6 +5494,7 @@ ranch-empire
 randomation-racing-speed-trial-demolition
 rapid-apex-rush
 rasgullas
+rat-purrsuit
 rat-s-house-nonogram
 raven-estate
 rc-racing
@@ -5547,6 +5574,7 @@ repel-the-monster
 repo-and-repo
 requiemnoire
 rescue
+rescue-casual-pin-puzzle
 rescue-fairy-castle
 rescue-my-love
 rescue-rush-wildfire
@@ -6087,6 +6115,7 @@ slow-time-ninja
 slowmo-sniper
 slpoing-path
 smart-basketball
+smart-dots-reloaded
 smart-looter
 smartphone-legends
 smash-and-break
@@ -6201,6 +6230,7 @@ sodacat
 sofia-wedding-story
 sokoballs
 sokoban-master
+sokoban-push-the-box
 sokoban-puzzle-game
 sol-coalition-force
 soldier-shooting
@@ -7077,6 +7107,7 @@ tower-blocks-deluxe-3d
 tower-breaker
 tower-colour-crash
 tower-crush
+tower-defence-1
 tower-defender
 tower-necromancer-s
 tower-of-asmr
