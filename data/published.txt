@@ -158,6 +158,7 @@ alderun
 alex-whiskers
 alien-bubbles
 alien-catcher
+alien-memory
 alien-quarantine
 alien-shooter
 alien-shooting-survival
@@ -262,6 +263,7 @@ apex-racer
 apexcircuit
 apocalypse-rush
 aqua-fish-dental-care
+aqua-logics-puzzle-new
 aqua-sort-water-color-puzzle
 aquapark-shark
 aquapark-surfer-race
@@ -1308,6 +1310,7 @@ chute
 circle-car
 circle-car-crash-3d
 circle-dash-ball-game
+circle-rush-trolley-run
 circle-zombie
 circuit-master-2
 circularmatrix
@@ -1443,6 +1446,7 @@ color-sort-puzzle-milk-tea-sorting
 color-sorting
 color-sorting-rooms
 color-spin-puzzle
+color-switch-dash
 color-the-room
 color-tower-2-drop-the-boxes-3d
 color-water-sort-3d
@@ -1466,6 +1470,7 @@ combat-strike-zombie-survival-multiplayer
 combat-zombie-warfare
 combine-pickaxes
 combo-color-unlocker
+combo-crush
 command-strike-fps-offline
 commando
 commando-force-2
@@ -1573,6 +1578,7 @@ crazy-cone-sweeper
 crazy-difficult-game
 crazy-downhill-ragdoll-fall-down
 crazy-driver
+crazy-drone-pizza-delivery
 crazy-emoji-blast
 crazy-fast-food-crash
 crazy-flying-car
@@ -1759,6 +1765,7 @@ death-sentence
 deck-of-deception
 deconstruct-cube-create-hotel
 decorate-my-dream-castle-home-design
+deep-digger-tycoon
 deep-drill
 deep-drill-run
 deep-freeze-fishing
@@ -1930,6 +1937,7 @@ dr-psycho-hospital-escape
 dracula-run
 draft-arena-battle-cards
 drag-me-ow
+drag-n-drop-games-color-match
 drag-n-drop-word-match
 drago-warrior-tower-defense
 dragon-annihilation
@@ -2181,6 +2189,7 @@ escape-the-giant-cat
 escape-the-giant-school-3d
 escape-the-lava
 escape-the-monster
+escape-the-police
 escape-tsunami-and-save-brainrots
 escape-waves-for-lucky-blocks
 escape-wednesday
@@ -2280,6 +2289,7 @@ fashion-girl-cosplay-sailor-challenge
 fashion-princess-dress-up-for-girls
 fashion-sewing-clothes
 fashion-show-dressup
+fashion-show-makeup
 fashion-valkyries-saga-of-style
 fast-and-wild-in-sky
 fast-ball-jump
@@ -2572,7 +2582,9 @@ fruit-samurai
 fruit-slasher
 fruit-slicer
 fruit-slicer-fun
+fruit-slicings
 fruit-smash-master
+fruit-sort-logic
 fruit-sword
 fruit-tower-drop
 fruitbattle
@@ -2860,6 +2872,7 @@ guardians-of-tower
 guardz-io
 guess-drawing
 guess-monster-voice
+guess-the-fruit-world-quiz
 guess-which-game
 guilty-sniper
 gun-and-guys
@@ -3141,12 +3154,14 @@ hoppy-stacky
 horizon-flight-into-the-light
 horizon-highway-driving
 horizon-racer
+horror-eye
 horror-sniper-clown-ghost
 horrorland-defense
 horse-racing
 horse-simulator-3d
 hose-money-robber
 hospital-doctor
+hospital-doctor-emergency
 hospital-inc
 hospital-surgeon-doctor-game
 hot-air-balloon-balloon-game
@@ -3524,6 +3539,7 @@ lanternbloom
 lanternborne
 lanternward
 larkmoor-merge-garden-mystery
+laser-dodge-arena
 laser-nodes
 laser-slasher
 laser-survivor
@@ -3958,6 +3974,7 @@ miner-builder
 miner-dig-it-all
 miner-jam
 miner-rush-game
+minesweeper-find-bombs
 minetap-merge-clicker
 mineworld-horror-the-mansion
 mini-asmr-relaxing-game-relax
@@ -4285,6 +4302,7 @@ nexus-3d
 nexus-override
 nexusorbiter
 nibblix
+niche-shift
 night-city-racing
 night-club-security
 night-lake
@@ -5050,6 +5068,7 @@ rainbow-color-ball-runner
 rainbow-ice-cream-and-popsicles
 rainbow-jump-puzzle
 rainbow-monster-hideout-3d
+rainbow-monster-survival
 rainbow-obby
 rainbow-s-doctor
 raised-knight
@@ -5302,6 +5321,7 @@ run-from-67
 run-giant-3d
 run-gun-robots
 run-guys-knockout-royale
+run-pet-surfer
 run-rich-3d
 run-the-electricity
 run-witch-run
@@ -5332,6 +5352,7 @@ same-room-same-day
 samurai-brawling
 samurai-dash
 samurai-survivor
+samuroof
 sand-fall
 sand-route-puzzle
 sand-sorting-challenge
@@ -5434,6 +5455,7 @@ screw-out-jam-puzzle
 screw-sort-3d
 sea-kings
 sea-legends-match-3
+sea-port-controller
 sea-restore
 seafloor-racing
 season-change
@@ -5469,6 +5491,7 @@ shape-defense
 shape-factory-fun
 shape-fear-and-fun
 shape-jam
+shape-shift-survival
 shape-switch
 shape-transform
 shape-transform-race
@@ -5617,6 +5640,7 @@ slime-merge-unlock-all-forms
 slime-planet-eater
 slime-run
 slime-sticky
+slimeadventure
 slimes-evolution
 sling-chicken
 sling-drift-racing-games
@@ -6375,6 +6399,7 @@ taxi-driver-ultimate
 taxi-parking-driving
 taxi-rush
 taxi-simulator-3d
+taylor-dress-studio-preppy-wild-west
 tb-world
 tcg-shop-dino-adventure
 tcg-shop-maps-toys-and-comics
@@ -6425,6 +6450,7 @@ the-garbaggio-hotel
 the-goopies-slime-puzzle
 the-greedy-crow
 the-green-mission-inside-a-cave
+the-hardest-game-in-world-and-ever
 the-high-climb
 the-hustler
 the-ironic-zombie
@@ -6527,6 +6553,7 @@ tilt-and-tumble
 tilt-it-addictive-arcade-skill-game
 timber-squirrel
 timber-truck-city-cargo-driver
+time-fracture
 time-of-adventure-finno-and-jacky
 time-of-adventure-ice-king
 time-puzzle
@@ -6794,6 +6821,7 @@ valentines-day-couple
 valentines-mahjong-deluxe
 valley-rushing-classic
 vampire-survival
+vampires-edge
 van-rush
 vangers-hd
 variety-mecha
@@ -6827,6 +6855,7 @@ virus-destroyer
 vizavi
 vlinder-garden-dress-princess
 vlinder-girl-fashion-story
+void-drop-3d
 void-rescue
 void-roller
 void-shot
@@ -7077,6 +7106,7 @@ yummy-cupcake
 yummy-hotdog
 yummy-shelf
 yummy-toast
+yummy-toast-2
 yummy-waffle-ice-cream
 z-machine
 z-stick-duel-fighting
