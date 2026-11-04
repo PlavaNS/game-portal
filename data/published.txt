@@ -293,6 +293,7 @@ aquapark-shark
 aquapark-surfer-race
 aquarium-of-surprises
 aquava
+arcade-breakout
 arcade-thief-runner
 arcanoid-side-guns
 archer-2023
@@ -323,6 +324,7 @@ army-commander
 army-commando
 army-force-war
 army-guns-collector
+army-playground-3d
 army-run-3d
 army-truck-simulator-2024
 army-vehicle-transporting
@@ -584,6 +586,7 @@ bear-go-home
 bearshift
 beastforge-rival
 beat-shooter-3d
+beaten-barry-prison-face-lol
 beautiful-toenail-salon
 beauty-salon-and-makeover-game
 bedroom-defense
@@ -659,6 +662,7 @@ birdy-mad-throw
 birdy-trip
 biryani-cooking-indian-super-chef-food-game
 bitbanda
+black-friday-dress-up-selfie
 black-friday-store-manager
 black-hole-attack
 black-hole-eat-the-universe
@@ -770,6 +774,7 @@ blush-fashion-girl-room
 bmg-crash-test
 bmg-crashday-2025
 bmg-ragdoll-car-race
+board-score-master-game
 boat-attack
 boat-bear
 boat-merge
@@ -1293,6 +1298,7 @@ cats-block-puzzle
 cats-go
 catstretch
 catwalk-beauty
+cave-crusade
 cave-escape
 cave-miner
 cavern-of-gears
@@ -2180,6 +2186,7 @@ drivex-city
 drone-dash-time-challenges
 drone-vs-tractor-challenge
 dronner-3d
+drop-ball
 drop-dunks
 drop-merge-fruit-characters
 dta-6
@@ -2509,6 +2516,7 @@ find-the-pets
 find-the-rule
 find-the-vampire
 find-visitors-99-nights
+find-word-puzzle-game
 find-your-gender
 finding-redpanda
 findthedifferent
@@ -2696,6 +2704,7 @@ freaky-monster-rush
 freddys-return-village-escape
 free-fall-game
 free-kick-challenge-2026
+freecell-classic
 freekick-hero
 freight
 french-fries-tycoon-farm-to-fryer
@@ -3282,6 +3291,7 @@ high-pizza
 high-school-girls-classroom-life
 high-school-teacher-games-life
 highway-car-racer
+highway-car-racer-game
 highway-car-racing-game
 highway-car-shooting-3d-action-game-2025
 highway-driver-3d
@@ -3353,6 +3363,7 @@ hoops-the-game
 hop-ballz-3d
 hop-hop
 hop-masters
+hop-music-ball-game
 hopeless-island-survival-hero
 hopnova
 hopping-boy
@@ -3400,6 +3411,7 @@ hungry-rabbit
 hungry-snail
 hungry-squirrel
 hungry-warrior-fight
+hunter-and-survivor
 hunter-underwater-spearfishing
 hunters-and-props
 hunting-frog
@@ -3710,6 +3722,7 @@ knee-case-simulator
 knee-surgery-clicker
 knife-battle
 knife-hit-challenege-game
+knife-madness
 knife-ring-io
 knife-run-game
 knife-slice-3d
@@ -3938,6 +3951,7 @@ magic-kingdom-hex-match
 magic-knife
 magic-pet-salon
 magic-potion-school-for-witch
+magic-princess
 magic-story-of-solitaire
 magic-tri-peaks-solitaire
 magic-water-sort
@@ -4096,6 +4110,7 @@ mega-ramp-car-stunt-racing
 mega-ramp-car-stunts-gt-racing
 mega-ramp-stunt-moto-fun-and-run-3d-game
 mega-ramp-stunt-racing-3d
+mega-ramps-bike-stunt-game
 mega-sweet-fruits-popper
 mellow-escape
 melodys-adventure
@@ -4292,6 +4307,7 @@ mochi-mochi-tower
 mochi-rescue
 model-dress-up-3d
 model-wedding-girl-games
+modern-bus-simulator-games
 modern-fps-strike-zombie-gun-war-ops
 modern-sniper-gun-game-sniper-3d
 modern-strike-shooting-game
@@ -4386,6 +4402,7 @@ moto-3d-racing-challenge
 moto-adventure
 moto-bike-extra
 moto-bike-extreme-hill-stunts
+moto-bike-highway-racing-game
 moto-extreme-halloween-land
 moto-flow
 moto-maniac-3
@@ -4413,6 +4430,7 @@ mouse-survivor
 moutain-jeep-drive
 mouth-shift-3d
 move-emoji
+movebox3d
 movie-star-daily-routine
 moving-balls-going-sphere
 moving-magnet
@@ -4808,6 +4826,7 @@ off-road-overdrive
 off-the-hook-ring-puzzle
 office-escape-to-date
 offroad-4x4-driving-simulator
+offroad-4x4-jeep-game
 offroad-cargo-truck-2024
 offroad-dirt-rally-racing
 offroad-driving-truck-transport
@@ -4983,6 +5002,7 @@ penalty-shooters-3
 penalty-superstar
 pencil-jam
 penguin-adventure-2
+penguin-run-adventure-game
 penguin-splash
 pentablocks
 people-blaster
@@ -5404,6 +5424,7 @@ rat-s-house-nonogram
 raven-estate
 rc-racing
 real-airplane-simulator
+real-bull-fighting-game
 real-car-highway-racing-game
 real-car-parking-and-stunt
 real-car-parking-game
@@ -5476,6 +5497,7 @@ repeat-pixel-arts
 repel-the-monster
 repo-and-repo
 requiemnoire
+rescue
 rescue-fairy-castle
 rescue-my-love
 rescue-rush-wildfire
@@ -5642,6 +5664,7 @@ rule-out-the-dangerous-circle
 ruler-survival-game
 rumbox-designer
 run-and-jump-jumbo-runner
+run-cat-run
 run-clicker-tap-muscle-up
 run-fish-run
 run-forrest-run
@@ -5738,6 +5761,7 @@ save-the-fruit-draw-to-save
 save-the-galaxy
 save-the-girl
 save-the-girl-epic
+save-the-girl-pin-pull
 save-the-kingdom
 save-the-kitten
 save-the-monkey
@@ -5766,6 +5790,7 @@ scary-joker-game
 scary-match-3
 scary-math
 scary-rooms-idle-horror
+school-bus-driving-game
 school-bus-simulation
 school-bus-simulator-3d
 school-escape-obby
@@ -6148,6 +6173,7 @@ somewhere
 sonik-run
 sorcerers-refuge
 sort-color-water-puzzle
+sort-game-toy-sort
 sort-games-challenge
 sort-it-out-category-sort
 sort-master
@@ -6394,6 +6420,7 @@ stick-new-year-in-prison
 stick-ninja-survival
 stick-roll-arena
 stick-vs-zombies-epic-battle
+stick-war-saga
 stick-war-tower-mighty-defense
 stick-wars-3d
 stickboy-defender
@@ -7246,6 +7273,7 @@ vexon
 viaducts
 vials-asmr-sand-sort-puzzle
 viking-guard-game
+viking-war
 vikings
 vikings-an-archer-s-journey
 villadash-hero-rescue
@@ -7358,6 +7386,7 @@ whimsy-workshop-easy
 whirly
 whiskers-adventures
 who-says-pigs-can-t-fly
+whot-the-ultimate-nigerian-card-game
 wiggle-escape-snake-puzzle
 wiggly-worm-race
 wiggly-worm-snake-puzzle
@@ -7604,6 +7633,7 @@ zombie-vacation-2
 zombie-virus-fps
 zombie-vs-gorilla
 zombie-wave-arena
+zombie-waves-2
 zombie-world
 zombie-world-survival
 zombies-4-weapon-merge
