@@ -588,7 +588,6 @@ function emitContent() {
       <a class="btn" href="${gHref(g)}">\u25B6 ${esc(tr('Play now \u2014 free'))}</a>
     </div>
   </article>`; };
-    const hero = o ? feat('own', `🫧 ${esc(tr('Our game'))}`, o, o.short, `${esc(tr('by'))} ${esc(o.studio)}`) : '';
     const gotwCfg = readJSON(path.join(ROOT, 'data/game-of-week.json'), null);
     const gw = gotwCfg && all.find(g => g.slug === gotwCfg.slug);
     const gotw = gw ? feat('week', `🏆 ${esc(tr('Indie Game of the Week'))}`, gw, (LANG === 'en' && gotwCfg.why ? gotwCfg.why : gw.short), `${esc(tr('by'))} ${gw.studioUrl ? `<a href="${esc(gw.studioUrl)}" rel="noopener" target="_blank">${esc(gw.studio)}</a>` : esc(gw.studio)}`) : '';
@@ -596,22 +595,35 @@ function emitContent() {
     // Game of the day: a different one every day, worked out from the date so it needs no state
     // and never lands on the same game twice in a row through the list.
     let gotdImg = '';
+    // never headline a game that leans on someone else's character or brand
+    const BRANDY = /\b(cuphead|mario|luigi|sonic|pokemon|pokémon|pikachu|minecraft|roblox|among ?us|squid ?game|huggy|poppy playtime|fnaf|five nights|granny|subway surf|temple run|gta|grand theft|fortnite|spider ?man|batman|superman|barbie|frozen|elsa|anna|hello kitty|naruto|dragon ?ball|goku|ben ?10|paw patrol|peppa|tom and jerry|angry birds|flappy|slither|zelda|pac ?-?man|tetris|sponge ?bob|mickey|disney|marvel|avengers|star wars|harry potter|minions|skibidi|rainbow friends|geometry dash|stumble guys|brawl stars|clash royale|fall guys|friday night funkin|undertale|terraria|doom|halo|zombie tsunami|talking tom|angela)\b/i;
+    // and nothing scary: this sits at the top of a family homepage
+    const SCARY = /(siren ?head|\bscp\b|slender|\bmomo\b|ice ?scream|creepy|horror|scary|haunted|evil nun|backrooms|jumpscare|nightmare|\bgore\b|killer|murder)/i;
+    // nothing with guns or fighting in the homepage slot either
+    const ROUGH = /(shoot|sniper|gun|war\b|army|military|combat|kill|blood|fight|battle royale|clash|strike|assault|weapon)/i;
+    const safe = x => !BRANDY.test(x.title) && !SCARY.test(x.title) && !ROUGH.test(x.title)
+      && !SCARY.test((x.tags || []).join(' ')) && !(x.cats.all || []).some(c => /horror|scary|shooting|zombie/.test(c));
+    let gotdSlug = '';
     const gotd = (() => {
-      // never headline a game that leans on someone else's character or brand
-      const BRANDY = /\b(cuphead|mario|luigi|sonic|pokemon|pokémon|pikachu|minecraft|roblox|among ?us|squid ?game|huggy|poppy playtime|fnaf|five nights|granny|subway surf|temple run|gta|grand theft|fortnite|spider ?man|batman|superman|barbie|frozen|elsa|anna|hello kitty|naruto|dragon ?ball|goku|ben ?10|paw patrol|peppa|tom and jerry|angry birds|flappy|slither|zelda|pac ?-?man|tetris|sponge ?bob|mickey|disney|marvel|avengers|star wars|harry potter|minions|skibidi|rainbow friends|geometry dash|stumble guys|brawl stars|clash royale|fall guys|friday night funkin|undertale|terraria|doom|halo|zombie tsunami|talking tom|angela)\b/i;
-      // and nothing scary: this sits at the top of a family homepage
-      const SCARY = /(siren ?head|\bscp\b|slender|\bmomo\b|ice ?scream|creepy|horror|scary|haunted|evil nun|backrooms|jumpscare|nightmare|\bgore\b|killer|murder)/i;
-      // nothing with guns or fighting in the homepage slot either
-      const ROUGH = /(shoot|sniper|gun|war\b|army|military|combat|kill|blood|fight|battle royale|clash|strike|assault|weapon)/i;
-      const safe = x => !BRANDY.test(x.title) && !SCARY.test(x.title) && !ROUGH.test(x.title)
-        && !SCARY.test((x.tags || []).join(' ')) && !(x.cats.all || []).some(c => /horror|scary|shooting|zombie/.test(c));
       const pool = mostPlayed(300).filter(x => !x.own && !x.community && x !== gw && safe(x));
       if (!pool.length) return '';
       const g = pool[(Math.floor(Date.now() / 864e5) * 7919) % pool.length];
       gotdImg = g.cover || g.thumb;
+      gotdSlug = g.slug;
       const d = (g.short || g.description || '').replace(/\s+/g, ' ').trim();
       const day = new Date().toISOString().slice(0, 10);
       return feat('day', `\u{1F3AF} ${esc(tr('Game of the day'))} <time datetime="${day}">${esc(dfmt(day))}</time>`, g, d, '', true);
+    })();
+    // Game of the month: the most played game here this month, with the best rated of those first
+    const gotm = (() => {
+      const pool = mostPlayed(80).filter(x => !x.own && !x.community && x.slug !== gotdSlug && x !== gw && safe(x));
+      if (!pool.length) return '';
+      const rated = pool.filter(x => voteCount(x) >= 5).sort((a, b) => voteScore(b) - voteScore(a));
+      const g = rated[0] || pool[0];
+      const d = (g.short || g.description || '').replace(/\s+/g, ' ').trim();
+      const now = new Date(), mon = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
+      let label = mon; try { label = now.toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { month: 'long', year: 'numeric' }); } catch {}
+      return feat('month', `\u{1F4C5} ${esc(tr('Game of the Month'))} <time datetime="${mon}">${esc(label)}</time>`, g, d, '');
     })();
     const catTiles = `<section class="row"><div class="row-h"><h2>${esc(tr('Categories'))}</h2></div><div class="cats">${activeCats.filter(c => catOK(c.slug)).map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
     // section heading: a plain coloured bar with the title in the middle, nothing else in it
@@ -641,7 +653,7 @@ function emitContent() {
   </div>`;
     const body = `<section class="trio">
   <header class="welcome trio-head"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${all.length.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
-  ${gotd}${hero}${gotw}</section>
+  ${gotd}${gotw}${gotm}</section>
   ${bnOwn}
   ${grid(ours)}
   ${bnTrend}
