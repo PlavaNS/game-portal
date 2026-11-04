@@ -577,16 +577,17 @@ function emitContent() {
   // HOME
   {
     const o = ours.find(g => g.slug === cfg.heroGame) || ours[0];
-    const feat = (kind, eyebrow, g, why, byHtml) => `<article class="feat feat-${kind}">
-    <a class="feat-media" href="${gHref(g)}" style="--t:url('${esc(g.thumb)}')">${g.video ? `<video src="${esc(g.video)}" poster="${esc(g.cover || g.thumb)}" muted loop playsinline preload="none" data-hover-play></video>` : `<img src="${esc(g.cover || g.thumb)}" alt="${esc(g.title)}" loading="lazy">`}</a>
-    <div class="feat-text">
+    const feat = (kind, eyebrow, g, why, byHtml, eager = false) => { const d = String(why || '').replace(/\s+/g, ' ').trim();
+      return `<article class="trio-item trio-${kind}">
+    <a class="trio-media" href="${gHref(g)}">${g.video ? `<video src="${esc(g.video)}" poster="${esc(g.cover || g.thumb)}" muted loop playsinline preload="none" data-hover-play></video>` : `<img src="${esc(g.cover || g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">`}</a>
+    <div class="trio-text">
       <p class="eyebrow">${eyebrow}</p>
       <h2><a href="${gHref(g)}">${esc(g.title)}</a></h2>
-      <p class="feat-by">${byHtml}</p>
-      <p class="feat-desc">${esc(why)}</p>
-      <a class="btn" href="${gHref(g)}">▶ ${esc(tr('Play now — free'))}</a>
+      ${byHtml ? `<p class="trio-by">${byHtml}</p>` : ''}
+      ${d ? `<p class="trio-desc">${esc(d.length > 128 ? d.slice(0, 125).replace(/\s+\S*$/, '') + '\u2026' : d)}</p>` : ''}
+      <a class="btn" href="${gHref(g)}">\u25B6 ${esc(tr('Play now \u2014 free'))}</a>
     </div>
-  </article>`;
+  </article>`; };
     const hero = o ? feat('own', `🫧 ${esc(tr('Our game'))}`, o, o.short, `${esc(tr('by'))} ${esc(o.studio)}`) : '';
     const gotwCfg = readJSON(path.join(ROOT, 'data/game-of-week.json'), null);
     const gw = gotwCfg && all.find(g => g.slug === gotwCfg.slug);
@@ -610,15 +611,7 @@ function emitContent() {
       gotdImg = g.cover || g.thumb;
       const d = (g.short || g.description || '').replace(/\s+/g, ' ').trim();
       const day = new Date().toISOString().slice(0, 10);
-      return `<section class="gotd">
-    <a class="gotd-media" href="${gHref(g)}"><img src="${esc(g.cover || g.thumb)}" alt="${esc(g.title)}" width="512" height="384" fetchpriority="high" decoding="async"></a>
-    <div class="gotd-text">
-      <p class="eyebrow">\u{1F3AF} ${esc(tr('Game of the day'))} <time datetime="${day}">${esc(dfmt(day))}</time></p>
-      <h2><a href="${gHref(g)}">${esc(g.title)}</a></h2>
-      ${d ? `<p class="gotd-desc">${esc(d.length > 190 ? d.slice(0, 187) + '\u2026' : d)}</p>` : ''}
-      <p class="gotd-cta"><a class="btn" href="${gHref(g)}">\u25B6 ${esc(tr('Play now \u2014 free'))}</a><span class="gotd-note">${esc(tr('A new one here every day.'))}</span></p>
-    </div>
-  </section>`;
+      return feat('day', `\u{1F3AF} ${esc(tr('Game of the day'))} <time datetime="${day}">${esc(dfmt(day))}</time>`, g, d, '', true);
     })();
     const catTiles = `<section class="row"><div class="row-h"><h2>${esc(tr('Categories'))}</h2></div><div class="cats">${activeCats.filter(c => catOK(c.slug)).map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
     // section heading: a plain coloured bar with the title in the middle, nothing else in it
@@ -647,8 +640,7 @@ function emitContent() {
     ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), 'kids'], [tr('Casual games'), cHref('casual'), 'hypercasual'])}
   </div>`;
     const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${all.length.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
-  ${gotd}
-  <div class="feats">${hero}${gotw}</div>
+  <section class="trio">${gotd}${hero}${gotw}</section>
   ${bnOwn}
   ${grid(ours)}
   ${bnTrend}
