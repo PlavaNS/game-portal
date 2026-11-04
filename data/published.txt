@@ -40,9 +40,11 @@
 2048-checkers
 2048-classic-puzzle-challenge
 2048-cube-runner-3d-merge
+2048-cube-runner-ultimate
 2048-knights
 2048-merge-blocks
 2048-merge-runner
+2048-neon-game
 2048-premium
 2048-rush-multiplayer
 2048-shoot-merge-number-3d
@@ -117,6 +119,7 @@ advanture-of-tommy
 adventruse-hail-game
 adventure-crazy-ramp-bike-stunt-game
 adventure-home
+adventure-park-master
 adventure-rush
 adventure-squad
 adventure-time-bullet-jake
@@ -761,6 +764,7 @@ bomber-man
 bomber-quest
 bombstrike-urban-blast
 bonbon-kids
+bone-doctor-shoulder-case
 bone-throne
 bonecrypt
 bonk-islands
@@ -771,6 +775,7 @@ boo-chains
 boom-blast-puzzle-game
 boom-cell
 boom-chain
+boom-duello
 boom-stick-bazooka-2-puzzles
 boombitz-bomb-chips
 boomix
@@ -1094,6 +1099,7 @@ car-carrier-truck-highway-master
 car-chase
 car-chase-parking
 car-chasing
+car-climb-mountain
 car-collision-master
 car-crash-sandbox
 car-crash-test
@@ -1603,6 +1609,7 @@ crazy-knife
 crazy-lumberjack-cut-them-all
 crazy-m1neworld
 crazy-mafia-drift-car
+crazy-math-quick-test
 crazy-mechanic
 crazy-merge-room
 crazy-moto
@@ -1856,6 +1863,7 @@ dig-to-the-core
 dig-to-the-weirdest-world
 diggy
 digit-doom
+digit-hunter
 digit-shooter-1
 digital-circus-2026
 digital-circus-parkour-game
@@ -1870,6 +1878,7 @@ dino-meat-hunt-new-adventure
 dino-merge-island
 dino-robot-fighting-war
 dino-run-game
+dino-runner-birthday
 dino-simulator-city-attack
 dino-squad-battle-mission
 dinohop
@@ -2064,6 +2073,7 @@ drive-ahead-sports
 drive-and-crash-sandbox
 drive-and-dodge-car-racing-3d
 drive-and-park-master
+drive-and-park-puzzle-game
 drive-car
 drive-chained-car-3d
 drive-crazy
@@ -2079,6 +2089,7 @@ dronner-3d
 drop-dunks
 drop-merge-fruit-characters
 dta-6
+dual-control-racing-stunt-3d
 duck-dash-pro
 duck-drive-truck-race
 duck-family-simulator-animal-games
@@ -2169,6 +2180,7 @@ empire-estate-pro
 empire-tower-defense-zombie-fortress
 endless-car-chase
 endless-car-race-game
+endless-cube-runner
 endless-golf
 endless-idle-rpg
 endless-path-twist-and-turn
@@ -2532,6 +2544,7 @@ forest-dash
 forest-fortune
 forest-monster-breaker
 forest-survivor-challenge
+forest-survivor-rougelike
 forest-wing
 formula-1-driver
 formula-apex-rush
@@ -2767,6 +2780,7 @@ giant-crusher-destroy-and-grow
 giant-rush
 giant-snowball-rush
 giant-wanted-monster
+gift-puzzle-saga
 girl-bike-accident-love
 girl-dream-house-diy-fun
 girl-explorer-jigsaw-puzzles
@@ -3023,6 +3037,7 @@ hazmob-fps-online-shooter
 head-ball-hyper-casual-game
 head-basketball-arena
 head-football-3d
+head-football-game
 head-jump
 head-punch-game
 head-puzzle-shooter
@@ -3293,6 +3308,7 @@ idle-magic-academy-tycoon
 idle-noob-lumberjack
 idle-pong
 idle-pop-merge
+idle-restaurant-game
 idle-sprint-race-3d
 idle-supermarket-tycoon
 idle-tower-defense
@@ -3369,6 +3385,7 @@ jelly-paint-wars
 jelly-path
 jelly-pop-defense
 jelly-run-in-2048
+jelly-runner-platform
 jelly-sandbox-playground
 jelly-shift-shape-control
 jennifer-dress-up-challenge
@@ -4197,6 +4214,7 @@ mountain-bike-challenge
 mountain-bike-xtreme
 mountain-run
 mountain-tank
+mountain-truck-simulator-3d
 mouse-survivor
 moutain-jeep-drive
 mouth-shift-3d
@@ -4208,6 +4226,7 @@ mowmentum
 mr-and-mrs-santa-christmas-adventure
 mr-bean-3d-jigsaw
 mr-bean-hidden-stars
+mr-been-puzzle-time
 mr-bouncemaster
 mr-bouncemasters-2
 mr-bullet-3d-online
@@ -4335,6 +4354,8 @@ neon-goal
 neon-jumper
 neon-maze
 neon-nexus-3d
+neon-overdrive
+neon-saga-tic-tac-toe-69-level-war
 neon-shot
 neon-snake
 neon-space-defender
@@ -4875,6 +4896,7 @@ playpair
 plop
 plug-man-race
 plugjoy
+plumber-world-pipe-puzzle
 plumby
 pocket-drift
 pocket-league-3d
@@ -5158,6 +5180,7 @@ real-car-pro-racing
 real-cars-epic-stunts
 real-city-driving-2
 real-cod-strike
+real-cosmos
 real-driving-simulator
 real-estate-kids
 real-estate-royal
@@ -5391,6 +5414,7 @@ run-gun-robots
 run-guys-knockout-royale
 run-pet-surfer
 run-rich-3d
+run-rich-path-3d
 run-snowball-run
 run-the-electricity
 run-witch-run
@@ -5889,6 +5913,7 @@ space-cleaner
 space-craft-ship-war
 space-defense-guard-heroes
 space-destroyer
+space-diamond-miner
 space-io
 space-obby
 space-painters-deluxe
@@ -6422,6 +6447,7 @@ talking-veggies-meme-merge
 tall-and-rush
 tall-grass
 tall-io
+tall-man-run-3d
 tall-man-runner-game
 tall-noob-man
 tangle-master-3d
@@ -6462,6 +6488,7 @@ tap-basket
 tap-gallery
 tap-hunters
 tap-me
+tap-out-gallery
 tap-tap-reloaded
 tap-the-crop
 tap-think-save-the-kitten
@@ -7061,6 +7088,7 @@ winged-wheels-2
 wingy-wheels
 winter-clash-3d
 winter-cold-wind
+winter-fairytale-jigsaw-puzzles
 winter-tale-secrets-and-mergings
 witch-s-shop-potion-brewing
 witchy
@@ -7104,6 +7132,7 @@ word-associations-solitaire
 word-blossom
 word-chef
 word-connect-train-brain
+word-cooking-puzzle
 word-cross
 word-finder
 word-game-2026
@@ -7163,6 +7192,7 @@ worms-zone
 wrecking-ball-tycoon
 wrench-and-roll
 wrestling-revolution-arena
+wrodscapes
 wrong-side-driving-car-game
 ww2-call-of-sniper
 ww2-modern-war-tanks-1942
