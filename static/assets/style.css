@@ -562,3 +562,28 @@ body.menu-open .drawer{transform:none;visibility:visible}
 .card span,.stage-ui,.stage-ui h1,.feat-media,.gotd-media,.news-thumb{color:#fff}
 .card span{text-shadow:0 1px 4px #000a}
 :root[data-theme=light] .card span,:root[data-theme=light] .stage-ui,:root[data-theme=light] .stage-ui h1{color:#fff}
+
+/* a drawing of our own on every category tile, and more air around the rows */
+.cat-tile{justify-content:flex-end;min-height:230px}
+.ct-art{position:absolute;left:50%;top:46%;transform:translate(-50%,-50%);width:70%;max-width:190px;height:auto;pointer-events:none;
+  filter:drop-shadow(0 6px 16px #0003)}
+.ct-text{width:100%;box-sizing:border-box;padding:18px 14px 18px;background:linear-gradient(transparent,hsl(var(--h) 60% 12% / .55) 55%)}
+.cat-rows{gap:24px}
+.cat-grid{gap:16px}
+.row{margin-bottom:30px}
+@media (max-width:860px){
+  .cat-tile{min-height:104px;flex-direction:row;align-items:center;justify-content:flex-start}
+  .ct-art{left:auto;right:6px;top:50%;transform:translateY(-50%);width:96px}
+  .ct-text{width:auto;text-align:left;padding:14px 110px 14px 16px;background:none;display:block}
+  .ct-text b{font-size:16px}
+  .ct-text small{margin-top:2px}
+  .cat-rows{gap:20px}
+}
+@media (max-width:560px){.ct-art{width:84px}.ct-text{padding-right:96px}}
+
+/* the wide tiles in the category grid read better with the drawing beside the name */
+.cat-grid .cat-tile{flex-direction:row;align-items:center;justify-content:flex-start;min-height:118px}
+.cat-grid .ct-art{left:auto;right:4px;top:50%;transform:translateY(-50%);width:104px}
+.cat-grid .ct-text{width:auto;text-align:left;padding:14px 112px 14px 16px;background:none}
+.cat-grid .ct-text b{font-size:17px}
+@media (max-width:560px){.cat-grid .ct-art{width:88px}.cat-grid .ct-text{padding-right:96px}}

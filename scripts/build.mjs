@@ -538,7 +538,7 @@ const catRow = c => {
 };
 const catTile = c => {
   const name = (catTr(c.slug) || {}).name || c.name, h = CAT_HUE[c.slug] ?? 260;
-  return `<a class="cat-tile" href="${cHref(c.slug)}" style="--h:${h}"><span class="ct-text"><i>${CAT_ICON[c.slug] || '🎮'}</i><b>${esc(name)}</b><small>${byCat[c.slug].length.toLocaleString(LANG === 'en' ? 'en-US' : LANG)} ${esc(tr('games'))}</small></span></a>`;
+  return `<a class="cat-tile" href="${cHref(c.slug)}" style="--h:${h}"><img class="ct-art" src="${B}/assets/cat/${c.slug}.svg" alt="" width="200" height="200" loading="lazy" decoding="async"><span class="ct-text"><b>${esc(name)}</b><small>${byCat[c.slug].length.toLocaleString(LANG === 'en' ? 'en-US' : LANG)} ${esc(tr('games'))}</small></span></a>`;
 };
 const crumbs = items => ({ '@context': 'https://schema.org', '@type': 'BreadcrumbList', itemListElement: items.map(([name, url], i) => ({ '@type': 'ListItem', position: i + 1, name, item: url })) });
 
