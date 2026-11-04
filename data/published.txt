@@ -26,6 +26,7 @@
 15-halloween-games
 1942-pacific-front
 1945-air-force-airplane
+1945-air-force-space-shooter
 1line-one-line-with-only-one-touch
 2-3-4-player-games
 2-minute-football-qb-legend
@@ -141,6 +142,7 @@ aidan-in-danger
 aidol-k-pop-adventure
 aim-and-snap-arrow-srike
 aimball
+aimistry
 air-assault-ship-defense
 air-battles
 air-combat-jet-fighter
@@ -196,6 +198,7 @@ american-truck-driver-game
 amigurumi-cozy-stitches
 ammo-rush-master
 amusement-park-tycoon-game
+an-origami-dolphin
 ancient-aztec-coloring
 ancient-caculate
 ancient-dragons-princess
@@ -268,6 +271,7 @@ anti-stress-planet-games
 anti-terrorist-shooting-game
 antistress-relaxation-toys
 antistress-relaxation-toys-mini-games
+antistress-relaxing-game
 ants-ate-my-pixels
 ants-clear-all-color-block-puzzle
 ants-io
@@ -1172,6 +1176,7 @@ car-parking-order
 car-parking-simulator-3
 car-parkour-challenge
 car-racing
+car-racing-3d-extreme-dodge
 car-real-simulator
 car-rush-game
 car-rush-super
@@ -1201,6 +1206,7 @@ card-sort-challenge
 card-sort-solitaire
 cardivo-adventure
 cards-in-fool
+career-run-ramp-game
 career-rush
 cargo-path-puzzle
 cargo-sort-color-puzzle
@@ -1602,6 +1608,7 @@ counter-craft-3-zombies
 counter-craft-zombies
 counter-sniper-1-6-egypt
 counter-terror-battle-simulator
+counterflow
 counting-for-kids
 couple-wedding-race-game
 courageous-sniper
@@ -1841,6 +1848,7 @@ dead-land-survival
 dead-lands-driver-open-world
 dead-paradise
 dead-seek
+dead-survival-zombie-shooter
 deadly-catch
 deadly-descent
 deadly-hunters-run
@@ -2008,6 +2016,7 @@ doodle-dino-run
 doodle-guard-draw-to-save
 doodle-halloween-momo-cat-academy
 doodle-halloween-momo-cat-sea-magic
+doodle-jump-4
 doodle-rpg-survivor
 doom-eternal-platformer
 doomfront-iron-breach
@@ -2024,6 +2033,7 @@ dot-and-dot
 dot-dodge
 dotanimals
 dotdrift
+dots-and-boxes-2
 dotto-botto
 double-boy-jump
 double-heist-rob-the-robbers
@@ -2550,6 +2560,7 @@ flap-up-game
 flappy-alien
 flappy-bacchan
 flappy-birds-smash
+flappy-blitz-intercept
 flappy-halloween-game
 flappy-twist
 flappyball
@@ -2708,6 +2719,7 @@ fruit-merger
 fruit-names
 fruit-pop-fiesta
 fruit-samurai
+fruit-shotter
 fruit-slasher
 fruit-slicer
 fruit-slicer-fun
@@ -2898,6 +2910,7 @@ glowit-two-players
 gn-ninja-run
 go-balloons
 go-find-the-cake
+go-golf
 go-kart-racing-game
 go-monkey-and-banana
 go-octopus-find-pearl
@@ -3089,6 +3102,7 @@ hammer-strike
 hammer-strike-destruction-zone
 hamster-escape-prison
 hand-daily
+hand-or-money
 hand-over-hand
 handless-millionaire
 hangman-2-4-players
@@ -3120,6 +3134,7 @@ hard-push-game
 hard-puzzle
 hard-puzzle-color-lines
 hard-working-man
+harvest-glam
 harvest-haulers
 harvest-rush
 hatch-or-steal-online
@@ -3560,6 +3575,7 @@ jump-will-jump
 jumper
 jumper-jam
 jumpero
+jumping-birds
 jumping-bottle-3d
 jumpninja
 jumprotor
@@ -3583,6 +3599,7 @@ k-pop-demon-hunters-nail-studio
 k-pop-hunters-valentine-style
 k-pop-makeover-idol
 k-pop-stars-inspired-look
+k-wedding-dream
 kaido
 kaiju-run-dzilla-enemies
 kaiten-sushi
@@ -3925,6 +3942,7 @@ make-the-glass-happy
 make-your-meal-cooking-game
 makeover-glow-up-match
 makeover-mayhem
+makeover-run-3d
 makeup-artist-fashion-salon
 makeup-fruits
 makeup-match-memory-beauty
@@ -3945,6 +3963,7 @@ maritime-conflict
 maritime-sniper
 marnyl-silence-the-haters
 mars-colony
+marshmallow-rush
 marshmallow-world
 martian-builder-tycoon
 marvelous-girl-skate
@@ -4635,6 +4654,7 @@ nut-bolt-screw-puzzle-game
 nut-sort-build-the-city
 nutcracker-new-years-adventures
 nuts-and-bolts-game-wood-puzzle
+nuts-bolts-screw-puzzle
 nuts-bolts-sort
 nuts-color-sorting-game
 nuts-puzzle-sort-by-color
@@ -4772,6 +4792,7 @@ oil-tanker-truck-parking-game
 oink-escape
 okay
 ola-solitaire
+ole-bunny
 on-fire-basketball-shots
 one-bit
 one-bullet-3d-game
@@ -4985,6 +5006,7 @@ ping-pong-ball-game
 ping-pong-battle-table-tennis
 ping-pong-table-tennis
 pinny-go-home
+pipe-connect-puzzle-game
 pipe-out-game
 pirate-block-craft-monster-shooter
 pirate-cannon-a-mega-battle
@@ -5156,6 +5178,7 @@ pregnant-mother-simulator
 president-2048
 pretty-tidy-asmr-organizing
 primal-druid-kingdom-of-animals
+prime-ball-adventure-game
 prime-sudoku
 primes
 primezy
@@ -5245,6 +5268,7 @@ pyropairs
 qblock-puzzle
 quack-quest
 quackventure
+quad-bike-racing-game
 quarantine-rush
 quarterback
 queen-bee-run
@@ -5333,6 +5357,7 @@ rat-s-house-nonogram
 raven-estate
 rc-racing
 real-airplane-simulator
+real-car-highway-racing-game
 real-car-parking-and-stunt
 real-car-parking-game
 real-car-pro-racing
@@ -5781,6 +5806,7 @@ shell-strikers-1
 shifted-realms
 shikaku-puzzle
 shinobi-swarm
+shiny-dodge
 ship-and-fish
 shoe-outlet
 shoe-race
@@ -6245,6 +6271,7 @@ stage-show-designer
 stair-ball
 stair-ball-hyper-casual
 stair-race-3d
+stair-rush
 staircase-to-heaven
 stairs-races-for-2-players
 stairs-trivia
@@ -7261,6 +7288,7 @@ weight-adjust-game
 weight-balance-journey
 weight-puzzle-3d
 western-fight
+whack-a-mole-pixel-version
 whats-that-picture-3d
 wheelchair-parkour-no-limits
 wheelie-bike-for-2-players
@@ -7290,6 +7318,7 @@ win-magic-and-devil
 window-jump-guy
 winged-wheels-2
 wingy-wheels
+winter-battle
 winter-clash-3d
 winter-cold-wind
 winter-fairytale-jigsaw-puzzles
@@ -7355,6 +7384,7 @@ word-puzzle-connect-words-and-letters
 word-puzzle-master-game
 word-runner-game
 word-safari
+word-search-2025
 word-search-and-quiz
 word-search-hidden-words
 word-search-offline-puzzle
