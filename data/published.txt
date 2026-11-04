@@ -153,6 +153,7 @@ air-force-commando-online-game
 air-space-shooter
 air-warfare
 air-wars
+aircraft-space-turret
 airplane-battle9
 airplane-factory-tycoon
 airplane-flight-manager-game
@@ -168,6 +169,7 @@ alderun
 alex-whiskers
 alien-bubbles
 alien-catcher
+alien-forest-jump
 alien-memory
 alien-quarantine
 alien-shooter
@@ -282,6 +284,7 @@ ants-io
 aod-art-of-defense
 apex-combat
 apex-racer
+apex-rush
 apexcircuit
 apocalypse-rush
 aqua-fish-dental-care
@@ -349,6 +352,7 @@ arrow-survival-15-seconds
 arrow-swipe-game
 arrow-tap-game
 arrowgami-arrow-puzzle
+arrows-cube
 arrows-dream-home-design
 arrows-edge
 arrows-escape
@@ -405,6 +409,7 @@ aura-clicker
 aura-farm-rng
 aura-farmer-presidents
 auric-core
+autumn-glam-gala
 avatar-make-up
 avatar-world-secrets
 avocado-yard-ragdoll-sandbox
@@ -582,6 +587,7 @@ beam-drive-car-crash-test-simulator
 bean-party-obby
 bean-tower
 bear-adventure-online-game
+bear-ball-master-honey-king
 bear-go-home
 bearshift
 beastforge-rival
@@ -956,6 +962,7 @@ bubble-foxy
 bubble-fruit-shooter-2d
 bubble-gum
 bubble-invasion-3d
+bubble-man-runner-game
 bubble-man-running-game
 bubble-mania
 bubble-merge-2048
@@ -1176,6 +1183,7 @@ car-factory-for-kids
 car-games-car-racing-game
 car-jam-escape
 car-jump-game
+car-line-rider
 car-madness-3d
 car-makeup
 car-mechanic-simulator-2025
@@ -1307,6 +1315,7 @@ cavern-of-gears
 cavern-run-endless-runner-game
 celebrities-get-ready-for-christmas
 celebrity-lol-funny-face
+celebrity-thanksgiving-prep
 cerkio
 chain-cube-2048-3d-merge-game
 chain-n-gain
@@ -1478,6 +1487,7 @@ coffee-color-blocks
 coffee-tycoon
 coin-color-sort
 coin-drop-3d
+coin-flick-soccer
 coin-hunt
 coin-master-runner
 coin-sort-puzzle
@@ -2008,6 +2018,7 @@ do-not-feed-the-monkeys
 doctor-kids-3
 doctor-teeth
 doctor-teeth-2
+dog-racing-master-game
 dog-runaway
 doges-battle-royale
 dogfight
@@ -2080,6 +2091,7 @@ dragon-hunter
 dragon-merge
 dragon-merge-master-3d
 dragon-power
+dragon-warrior-tower-defense
 drakkar-strike
 draw-a-perfect-circle
 draw-a-road
@@ -2357,6 +2369,7 @@ euro-truck-parking
 euro-truck-parking-game
 evade
 even-odd-dice
+eventide
 everwild-survival
 evil-granny-city-terror
 evil-granny-must-die-ch1
@@ -2747,6 +2760,7 @@ fruit-chopper
 fruit-cutter-fun
 fruit-drop
 fruit-drop-3d
+fruit-drop-puzzle-game
 fruit-fusion
 fruit-goals-match
 fruit-immortal
@@ -2781,6 +2795,7 @@ fruitsland-escape-from-the-amusement-park
 fruity-craft-merge
 fruity-shoot-gift-frenzy
 frutiger-friends-io
+fuji-leapers
 full-space-shooter
 fumeburst
 fun-arrow-fall
@@ -2834,6 +2849,7 @@ funny-walk-fail-run
 furious-gt-drift
 furious-speed
 furry-kung-fu
+furry-wedding-proposal
 fuse-fury
 fusesmash
 fuzzle-stacker
@@ -2981,6 +2997,7 @@ gold-miner-tower-defense
 gold-rush-builder
 golden-boot-2022
 golden-fish
+goldrush
 golf-battle
 golf-cars-simulator
 golf-invaders
@@ -3241,6 +3258,7 @@ heroes-beware
 heroes-inc
 heroes-of-arena
 heroes-of-the-dungeons-match-3-rpg
+heroes-shop-battlers
 heroes-vs-monsters-idle-rpg
 heroic-barrage-easy
 heroic-knight
@@ -3260,6 +3278,7 @@ hexa-color-sort
 hexa-color-stack-game
 hexa-jump-asmr
 hexa-master-3d-sort-puzzle
+hexa-merge-2048-puzzle
 hexa-sort
 hexa-sort-3d
 hexa-sort-master
@@ -3379,6 +3398,7 @@ hopeless-island-survival-hero
 hopnova
 hopping-boy
 hoppy-stacky
+horde-zombie-war
 horizon-flight-into-the-light
 horizon-highway-driving
 horizon-racer
@@ -3571,6 +3591,7 @@ jennifer-dress-up-challenge
 jenny-s-math-puzzle
 jetpack-race-arena
 jetspire
+jewel-blaster
 jewel-blocks
 jewel-box-block-puzzle
 jewel-coloring
@@ -4018,6 +4039,7 @@ maple-lake
 marble-color-sort
 marble-factory
 marble-maze
+marble-maze-game
 marblemaze2
 maritime-conflict
 maritime-sniper
@@ -4030,6 +4052,7 @@ marvelous-girl-skate
 mary-run
 masha-and-bear-cooking-dash
 masha-and-the-bear-jigsaw-puzzles-for-kids
+mashup-hero
 mask-evolution-3d
 mask-of-six-moons
 masked-forces
@@ -4584,6 +4607,7 @@ neon-goal
 neon-hockey-2
 neon-jumper
 neon-maze
+neon-mini-golf
 neon-nexus-3d
 neon-overdrive
 neon-ping-pong
@@ -5220,6 +5244,7 @@ pop-the-ball
 pop-the-balloons-bounce
 pop-the-band
 pop-the-fruits
+pop-the-lock-game
 pop-them
 pop-us
 popboom
@@ -5330,6 +5355,7 @@ push-the-box
 push-the-crazy-crowd-stickman-clash-3d
 push-the-frog
 push-to-go
+pusha-pusha
 pushball
 pusher-monsters
 pushplush
@@ -5380,6 +5406,7 @@ raccoon-retail
 race-on-cars-in-moscow
 race-rocket-arena-car-extreme
 race-through-traffic
+race-traffic-crazy
 racing-ball-3d
 racing-cars-puzzle-time
 racing-crash-jigsaw
@@ -5418,6 +5445,7 @@ rage-road-online
 rageroll-io
 railroad-magnate
 railway-traffic-jam-untangle-the-trains
+railways-train-simulator-game
 rainbow-ball-runner-2048
 rainbow-color-ball-runner
 rainbow-ice-cream-and-popsicles
@@ -5616,6 +5644,7 @@ rocket-bloom
 rocket-car-chase-game
 rocket-car-football-championship
 rocket-clash-3d
+rocket-fest
 rocket-islands
 rocket-rush
 rocketcar-cup
@@ -6754,6 +6783,7 @@ sweets-merge
 sweetstack
 swerve-rush
 swiftslow
+swim-good
 swim-or-die
 swimming-pool-romance
 swing-obby-for-brainrots
@@ -7075,6 +7105,7 @@ tractor-farm-farming-simulator
 tractor-farming-3d
 tractor-farming-farmer-life-game
 tractor-farming-simulation-3d
+tractor-parking-and-driving-game
 tractor-simulator-farming-game
 tractor-trial
 trading-fidget-master
@@ -7443,6 +7474,7 @@ winter-cold-wind
 winter-fairytale-jigsaw-puzzles
 winter-hexa-stack
 winter-tale-secrets-and-mergings
+winter-tile-connect
 witch-s-shop-potion-brewing
 witchy
 wizard-io
