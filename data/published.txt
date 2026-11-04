@@ -70,6 +70,7 @@
 3d-formula-racing
 3d-formula-racing-pro-edition
 3d-fps-target-shooting
+3d-halloween-jigsaw
 3d-kid-sliding-puzzle
 3d-laane-runner
 3d-maze-control
@@ -901,6 +902,7 @@ brain-jam
 brain-line-connect
 brain-master-iq-challenge-2
 brain-puzzle-tricky-choices
+brain-puzzle-tricky-quest
 brain-test-iq-challenge
 brain-train-puzzle-game
 brain-tricks-brain-games
@@ -1129,6 +1131,7 @@ candy-mahjong-3d
 candy-maker-game
 candy-match-move
 candy-match-pop
+candy-match-puzzle-challenge
 candy-match-saga-2
 candy-merge-sort
 candy-pop-mania
@@ -1160,6 +1163,7 @@ capybara-winter-curse
 capybas
 car-battle
 car-care-repair-dudu-mechanic
+car-cargo-ship-game
 car-cargo-ship-simulator-game
 car-carrier-truck-highway-master
 car-chase
@@ -1229,6 +1233,7 @@ car-stunt-racing-stylized
 car-stunt-ramp-challenge
 car-stunts-driving
 car-transform-mania-merger-tycoon
+car-wash-and-repair-game
 car-wash-diy
 car-wash-idle
 car-wash-simulator-game
@@ -1433,6 +1438,7 @@ city-car-driving-simulator
 city-car-pick-and-drop-game
 city-car-stunt-3
 city-car-stunt-4
+city-cargo-truck-driving-game
 city-cash-race
 city-chase-escape-police
 city-coach-driving-games-3d
@@ -1770,6 +1776,7 @@ crow-memory
 crowd-battle-gun-rush
 crowd-runner
 crowd-runner-3d
+crowd-runners-3d
 crowd-rush
 crowd-rush-game
 crowd-titan
@@ -2025,6 +2032,7 @@ dirt-bike-max-duel
 dirt-bike-racing-adventure
 dirt-bike-trail-rider
 dirt-bikes-rally
+dirt-bus-simulation-game
 disc-battle-ultimate
 disc-golf-3d-frisbee-for-masters
 disc-golf-game-master
@@ -2311,6 +2319,7 @@ elska-dog-vs-zombies-multiplayer-co-op
 ember-ascent
 ember-boy-and-ripple-girl
 ember-carnival
+emergency-ambulance-driving-game
 emergency-dispatcher-911
 emergency-rush-city-ambulance-rescue
 emilys-hotel-solitaire
@@ -2587,6 +2596,7 @@ fire-truck-rescue-simulator
 fireball-and-waterball-adventure-3
 fireball-vs-ice-cream
 fireboom
+firedash-2d
 firefighter-plane-game
 fireline-merge-defense
 firestack
@@ -2599,6 +2609,7 @@ fish-hunting-frenzy-shooter-game
 fish-love-game
 fish-rain
 fish-rain-2
+fish-royale-io
 fish-shooting-fish-hunter
 fish-sort-puzzle
 fish-stab-getting-big
@@ -2642,6 +2653,7 @@ flappy-bacchan
 flappy-birds-smash
 flappy-blitz-intercept
 flappy-halloween-game
+flappy-halloween-run
 flappy-twist
 flappyball
 flapthe-bird
@@ -2663,8 +2675,10 @@ flippee-ball
 flipper-dunk-3d
 flippin-coins
 flippy-hero-jump-game
+flipxy-the-bat
 float-boat
 flock-fence
+floof-my-pet-house
 floppy-pipe
 flow-blast-shooter
 flower-fairy-adventure-story
@@ -2730,6 +2744,7 @@ formula-1-driver
 formula-apex-rush
 formula-car-circuit-racing
 formula-car-race
+formula-car-racing-games
 formula-car-racing-games-real
 formula-car-stunt
 formula-car-stunt-game
@@ -3173,6 +3188,7 @@ half-life-2-beat-em-up
 half-life-2-platformer
 halloweem-pumpkin-adventure
 halloween-2024-fps-shooter
+halloween-bubble-shooting-game
 halloween-dentist-for-kids-2
 halloween-fighters
 halloween-final-episode
@@ -3183,6 +3199,7 @@ halloween-horror-massacre
 halloween-is-coming-episode-10
 halloween-makeup-me
 halloween-mania
+halloween-match-trio
 halloween-merge
 halloween-merge-mania
 halloween-monster-traffic
@@ -3710,6 +3727,7 @@ junkyard-keeper
 just-golf
 k-challenge-456
 k-pop-demon-hunters-nail-studio
+k-pop-hunter-halloween-fashion
 k-pop-hunters-valentine-style
 k-pop-makeover-idol
 k-pop-stars-inspired-look
@@ -3919,6 +3937,7 @@ line-to-goal-draw-the-path
 lineo
 link-flow
 link-me-to-the-factory
+lion-family-sim-online
 lion-prince
 lion-safari-jigsaw-puzzles
 lipuzz-water-sort-puzzle
@@ -3989,6 +4008,7 @@ lumina-robot
 lumina-weaver
 luna-and-the-magic-maze
 lunarleap
+machine-city-balls
 machine-eater
 mackup-runner-game
 mad-city-matrix
@@ -4282,6 +4302,7 @@ mergetopia
 mergetrainlastrail
 mermaid-coloring-book-glitter
 mermaid-rescue
+mermaids-tail-rush
 merrykins-coloring
 metal-animals
 metal-shooter-brother-squad
@@ -4393,6 +4414,7 @@ modern-fps-strike-zombie-gun-war-ops
 modern-sniper-gun-game-sniper-3d
 modern-strike-shooting-game
 modified-hill-climb-2d
+mojo-emoji
 mole-dig-clicker
 mole-in-the-hole
 mole-kingdom-defense
@@ -4451,6 +4473,7 @@ monster-truck-extreme-racing
 monster-truck-jump
 monster-truck-offroad
 monster-truck-offroad-2
+monster-truck-racing-game
 monster-truck-racing-game-truck-race
 monster-truck-simulator-game
 monster-truck-stunt-game-racing-games
@@ -4769,6 +4792,7 @@ noobcraft-house-escape
 noobik-arena-99-nights
 noobik-parkour-in-a-cave
 noodle-pull
+nostalgic-playstation1-quiz
 not-before-bed-01
 not-your-seafood-salad
 nothing-2-lose
@@ -4801,6 +4825,7 @@ nut-and-bolt
 nut-bolt-puzzle-game
 nut-bolt-screw-puzzle-game
 nut-sort-build-the-city
+nut-sort-color-puzzle-game
 nutcracker-new-years-adventures
 nuts-and-bolts-game-wood-puzzle
 nuts-bolts-screw-puzzle
@@ -4919,6 +4944,7 @@ offroad-4x4-jeep-game
 offroad-cargo-truck-2024
 offroad-dirt-rally-racing
 offroad-driving-truck-transport
+offroad-jeep-driving-game
 offroad-jeep-driving-mountain-climb
 offroad-jeep-game-2026
 offroad-jeep-game-suv-driving
@@ -5065,6 +5091,7 @@ party-games-mini-shooter-battle
 party-stickman-4-player
 pass-the-gate
 passenger-airplane-flight-3d
+passenger-city-taxi-game
 pastry-evolution-game
 patagonians
 patch-garden
@@ -5524,6 +5551,7 @@ rat-purrsuit
 rat-s-house-nonogram
 raven-estate
 rc-racing
+real-advanced-monster-truck-simulator
 real-airplane-simulator
 real-bull-fighting-game
 real-car-highway-racing-game
@@ -6242,6 +6270,7 @@ soccer-championship-2023-html5
 soccer-dash
 soccer-drop-game
 soccer-duel
+soccer-guantone-mobile
 soccer-hero
 soccer-heroes
 soccer-legends-2026
@@ -7033,6 +7062,7 @@ this-is-blast
 thorn-and-blast
 thousand-suns
 three-cups-game
+three-points
 thronehold-kids
 throttle-rivals
 throw-an-egg
