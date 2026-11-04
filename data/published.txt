@@ -648,6 +648,7 @@ blindbat
 blob-man-run
 blob-merge
 blob-twist-color-puzzle
+block-21
 block-blast
 block-blast-jewel-puzzle
 block-blast-mania
@@ -706,6 +707,7 @@ blocky-combat-swat-original-2026
 blocky-dude-gangster-auto-city
 blocky-gun-paintball-3
 blocky-guns
+blocky-hill-tower-game
 blocky-leap
 blocky-set-3d-brick-constructions
 blocky-shooter-game
@@ -833,6 +835,7 @@ brain-train-puzzle-game
 brain-tricks-brain-games
 brainrots-dress-up-and-interior-design
 brainrots-merge
+branches-game
 braveward
 brawl-simulator-3d
 brazen-ball
@@ -847,6 +850,7 @@ break-the-candy
 break-the-car-completely
 break-the-wall-prison-escape
 breakblock
+breakfast-cooking-game
 breakout-neon-drift
 breakoutrun
 breakthrough-team
@@ -873,6 +877,7 @@ bridge-cleaner-runner-game
 bridge-dash
 bridge-fun-race
 bridge-race
+bridge-race-3d
 bridge-rush-draw-bridge-puzzle-game
 bridge-wars
 bridges-3d
@@ -1052,6 +1057,7 @@ candy-shop-3d-match-puzzle
 candy-sort
 candy-super-pop
 candy-sweet
+candy-tap-world
 candycurrent
 canjump
 cannon-ball-3d-big-boom-obby
@@ -1082,6 +1088,7 @@ car-crash-sandbox
 car-crash-test
 car-crash-test-abandoned-city
 car-crash-tricks-simulator-crazy-stunts
+car-crossey-bridge-game
 car-dealership
 car-destruction-king
 car-drive-simulator
@@ -1138,6 +1145,7 @@ car-stunts-driving
 car-transform-mania-merger-tycoon
 car-wash-diy
 car-wash-idle
+car-wash-simulator-game
 car-wash-simulator-summer-edition
 car-word-hunt
 card-quest
@@ -1430,6 +1438,7 @@ color-shot-throw-the-ball
 color-snake-3d-online
 color-snake-run
 color-sort-party
+color-sort-puzzle-game
 color-sort-puzzle-milk-tea-sorting
 color-sorting
 color-sorting-rooms
@@ -1588,6 +1597,7 @@ crazy-runner-boy
 crazy-sea-battle
 crazy-sheep
 crazy-supercars-stunt-2022
+crazy-table-tennis
 crazy-three-puzzle
 crazy-traffick-racing-2026
 crazy-truck-stunt-i-o
@@ -2593,6 +2603,7 @@ funny-bone-surgery
 funny-cars
 funny-cars-reload
 funny-celebrity-face-moments
+funny-crazy-watermelon
 funny-cubes-2048
 funny-dentist-surgery
 funny-ear-surgery
@@ -2917,6 +2928,7 @@ hand-over-hand
 handless-millionaire
 hangman-2-4-players
 happy-birthday-party-game
+happy-bucket-challenge
 happy-cat
 happy-color-sort-puzzle
 happy-coloring-book
@@ -2950,6 +2962,7 @@ hatch-surprise-pets
 hatch-that-egg-tap-and-crack
 hatchfire-dragon-brick-breaker
 haunted-house-idle
+haunted-inn
 haunted-panic
 haunted-sweets
 haystack-works
@@ -3114,6 +3127,7 @@ hook-wars
 hooked
 hooked-panya-fishing
 hoop-kings
+hoop-pair
 hoop-stars
 hoop-world
 hoops-and-fruits
@@ -3521,6 +3535,7 @@ last-garage-zombie-road
 last-knight-kings-throne
 last-night
 last-play-ragdoll-sandbox
+last-quiver
 last-shift
 last-to-leave-circle-obby
 last-train-escape
@@ -3592,6 +3607,7 @@ loaf-clicker
 locked-in-grandma-s-basement-2-revenge-horror-escape
 log-flyer-grandpa-takes-off
 log-splash
+logic-pro-neon-edition
 logic-storm-animals-puzzle
 logic-vault
 logical-ball-escape
@@ -3689,6 +3705,7 @@ mahjong-lines
 mahjong-master-tile-sort-and-match
 mahjong-match
 mahjong-pirate-plunder-quest
+mahjong-puzzle-game
 mahjong-puzzle-tile-match
 mahjong-solitaire-crush-game
 mahjong-solitaire-world-tour
@@ -3874,6 +3891,7 @@ merge-home-ball-2048
 merge-items-build-city
 merge-mania
 merge-mine-idle-clicker
+merge-monster-fight
 merge-monsters
 merge-mushroom
 merge-number-cube-3d-run-game
@@ -4017,6 +4035,7 @@ money-factory-earn-a-billion
 money-factory-tycoon-idle-game
 money-fest
 money-maker
+money-pong
 money-rush
 money-rush-game
 monkeysweeper-mines-puzzles
@@ -4197,6 +4216,7 @@ my-resale-cases-and-sales
 my-restaurant
 my-school-life-adventure
 my-sugar-factory
+my-supermarket-simulator-3d
 my-sweet-candy-outfits
 my-sweetstreet-shop
 my-town-home-family-playhouse
@@ -4248,6 +4268,7 @@ neon-square-rush
 neon-striker
 neon-switch
 neon-velocity
+neon-viper
 neon-void-galactic-war
 neonroll
 nest-heist
@@ -4267,6 +4288,7 @@ nibblix
 night-city-racing
 night-club-security
 night-lake
+night-loot-run
 night-order-pick-and-pack
 night-racing-drag
 night-shift-at-block-13
@@ -4994,6 +5016,7 @@ racing-destruction-and-chase
 racing-horizon
 racing-island
 racing-online
+racing-portal
 racing-project-kit
 radial-3d
 ragdoll-arena
@@ -5330,6 +5353,7 @@ santa-stunt-racer-christmas-delivery
 santa-vs-zomby
 santa-wood-cutter
 santabalt
+sapotago
 satisdom
 satisfying-ball-clicker
 satispuzzle-perfect-tidy
@@ -5768,6 +5792,7 @@ space-cleaner
 space-craft-ship-war
 space-defense-guard-heroes
 space-destroyer
+space-io
 space-obby
 space-painters-deluxe
 space-rolling-balls-race
@@ -5834,6 +5859,7 @@ spinwhisker
 spiny-ninja
 spiral-blitz
 splash-rivals
+splashy-sub
 splatcha
 split
 sponge-challenge
@@ -5920,6 +5946,7 @@ stamp-it-puzzle-game
 stamp-the-parcel
 stampede-evolution
 stand-on-the-right-color-robby
+star-breakout
 star-rank-heroes
 star-runner-cosmic-escape
 star-wing
@@ -6006,6 +6033,7 @@ stickman-broken-bones-io
 stickman-bros-in-fruit-island-2
 stickman-clicker
 stickman-crowd-runner-3d
+stickman-dismounting-2026
 stickman-duel-battle
 stickman-epic
 stickman-epic-battle
@@ -6473,6 +6501,7 @@ tie-dye-game
 tiger-coloring-book
 tiger-tank
 tile-2-match
+tile-connect-pair-match-puzzle
 tile-farm-story
 tile-harvest-3d
 tile-hill-descent
@@ -6828,6 +6857,7 @@ war-of-tanks-3d
 war-robot-earth-survival
 war-robots-battle-mech-arena
 war-robots-battles
+war-space-defender
 war-truck-weapon-transport
 war-v-path-of-the-survivor
 warehouse-wobble-3d
@@ -7042,6 +7072,7 @@ your-obby-size
 your-queen-destiny
 your-silver-wife
 yummy-churros-ice-cream
+yummy-churros-ice-cream-2
 yummy-cupcake
 yummy-hotdog
 yummy-shelf
