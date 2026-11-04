@@ -26,6 +26,7 @@
 15-halloween-games
 1942-pacific-front
 1945-air-force-airplane
+1line-one-line-with-only-one-touch
 2-3-4-player-games
 2-minute-football-qb-legend
 2-minutes-to-escape
@@ -142,6 +143,7 @@ air-force-commando-online-game
 air-space-shooter
 air-warfare
 air-wars
+airplane-battle9
 airplane-factory-tycoon
 airplane-flight-manager-game
 airplane-pilot-simulator
@@ -243,6 +245,7 @@ annoying-boss-game
 annoying-cousins-punch-game
 ant-colony
 ant-colony-idle
+ant-food-guider
 ant-moving-simulator
 ant-picnic
 ant-swarm-io
@@ -431,6 +434,7 @@ ball-break-the-hoops
 ball-chain-blast
 ball-color-smash
 ball-connect
+ball-dispensor-puzzle
 ball-escape-puzzle
 ball-io
 ball-jump-switch-the-colors
@@ -441,6 +445,7 @@ ball-sort-2d
 ball-sort-game
 ball-sort-master-3d
 ball-sort-puzzle
+ball-throw-goalie
 ball-throw-heroes-3d
 ballblastpals
 ballcrazesortgame
@@ -772,6 +777,7 @@ bottle-color-match-challenge
 bottle-flip-game
 bottle-storm-elite-beach
 bounce-ball-hook
+bounce-ball-ring-challenge
 bounce-ball-timer
 bounce-blast
 bounce-dunk-basketball
@@ -896,6 +902,7 @@ bubble-rush
 bubble-shooter-blast-mania
 bubble-shooter-challenge
 bubble-shooter-classic-online
+bubble-shooter-crystal-hunt
 bubble-shooter-island-quest
 bubble-shooter-mega
 bubble-shooter-party
@@ -1173,8 +1180,10 @@ cat-city
 cat-clicker
 cat-doctor-save-my-cat
 cat-escape
+cat-escape-2026
 cat-escape-hide-and-seek
 cat-from-hell-cat-simulator
+cat-girl-skater
 cat-hotel-24-7
 cat-life-simulator-devil-cat
 cat-lovescapes
@@ -1214,8 +1223,10 @@ cavern-of-gears
 cavern-run-endless-runner-game
 cerkio
 chain-cube-2048-3d-merge-game
+chain-n-gain
 chainle
 chainsaw-3d
+challenge-the-basketball
 challenge-the-football
 challenge-the-zombies
 chameleon-sniper
@@ -1256,6 +1267,7 @@ chicken-merge-2
 chicken-yeet
 chickz-stack
 children-doctor-dentist-2-surgery-game
+chill-tic-tac-toe
 chillpaths
 chinchilla-trails
 chinese-and-asian-cooking-game
@@ -1337,6 +1349,7 @@ click-and-idle-slimes
 click-click-clicker
 click-kitty-idle
 click-that-button
+click-to-control-chaos
 clickdom
 clicker-knights-vs-dragons
 cliff-boi-trap-adventure
@@ -1377,6 +1390,7 @@ collection-shuffle
 collisiox
 colonora-colony-survival
 color-ball-escape
+color-ball-rush
 color-battle-filler
 color-blast-puzzle
 color-brain-test-games
@@ -1429,6 +1443,7 @@ coloring-book
 coloring-book-color-by-number
 coloring-book-for-kids-game
 coloring-by-numbers-pixel-room
+coloring-games-color-paint
 colors-and-forms
 colors-matching
 colortrail-3d
@@ -1477,6 +1492,7 @@ cooking-match
 cooking-shawarma-idle-game
 cool-escape-obby-man
 cool-tuning-paint-the-car
+coookie-clicker
 copy-the-drawing
 core-rush
 cork-and-cauldron
@@ -1593,6 +1609,7 @@ crosstile
 crosswalk-chaos
 crosswords-big-collection
 crossy-rails
+crossy-zombie-game
 crow-memory
 crowd-runner
 crowd-runner-3d
@@ -1645,6 +1662,7 @@ cubegate
 cubetopia-parkour
 cubic-coil
 cuddle-crane
+cuesoccer
 cup-quest
 cuphead-rush
 curve-free-kick
@@ -2298,6 +2316,7 @@ find-a-legendary-needle
 find-a-pair-3d
 find-capybara-valley-of-monsters
 find-match-3d
+find-n-match
 find-number-biggest-and-smallest
 find-out-hidden-object
 find-pair-attention-memory
@@ -2882,6 +2901,7 @@ halloween-stickman
 halloween-stickman-2
 halloween-survivor
 halloween-tile-tumble
+hamada-yed7ak
 hammer-strike
 hammer-strike-destruction-zone
 hamster-escape-prison
@@ -2908,6 +2928,7 @@ happy-unicorn-magic-leaps
 happy-valentines-day-coloring
 happy-valentines-day-spot-the-difference
 happy-zoo-mahjong-triple-match
+harbor-breakout
 harbor-dispatch
 hard-crash-zombie-rush
 hard-flap
@@ -3525,6 +3546,7 @@ light-it-rush
 light-stream
 lighthouse-mage-idle-defense
 ligmar-online
+lil-cowboy-treasure-hunt
 lilliput-war
 limited-defense
 limo-city-taxi-driver
@@ -3670,6 +3692,7 @@ makeover-mayhem
 makeup-artist-fashion-salon
 makeup-fruits
 makeup-match-memory-beauty
+makeup-run-challenge
 makeup-stories-asmr-beauty
 makeup-studio-halloween
 man-runner-2048
@@ -4835,6 +4858,7 @@ precision-parking-city-driver
 precision-parking-pro
 pregnant-mom-simulator-family-life
 pregnant-mother-simulator
+president-2048
 pretty-tidy-asmr-organizing
 primal-druid-kingdom-of-animals
 primes
@@ -5497,6 +5521,7 @@ sky-slash-ninja-rise
 sky-stunts-rolling-ball-3d
 sky-track-racing
 sky-wars-battle-of-the-islands
+skyatoms
 skybop
 skybound-dash-crown-rush
 skyfall-siege
@@ -5743,6 +5768,7 @@ special-alien
 special-forces-x
 special-ops-go
 special-strike-zombies
+spectral-seek
 spectralseek-kids
 speed-box-game
 speed-car-race-madness
@@ -5870,6 +5896,7 @@ stampede-evolution
 stand-on-the-right-color-robby
 star-rank-heroes
 star-wing
+stardom-alt-girls-fashion-duel
 starpoly
 starship-ducks
 starship-troopers
@@ -5991,6 +6018,7 @@ stickman-simulator-final-battle
 stickman-skybow
 stickman-sniper-shoot
 stickman-sports-badminton
+stickman-stack-race
 stickman-street-fighting
 stickman-street-fighting-3d
 stickman-team-force
@@ -6057,6 +6085,7 @@ subway-surfers-zurich
 subway-winter-vacation
 suck-it-all
 sudoku-block-puzzle
+sudoku-for-bro
 sudoku-master
 sudoku-number-games
 sudoku-online
@@ -6164,6 +6193,7 @@ supernova-the-charon-protocol
 superstar-family-dress-up-game
 superstar-kitty-fashion-award
 supra-drift-2
+surprise-blume-doll-unbox
 survev-io
 survival-for-100-dollars
 survival-island
