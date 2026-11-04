@@ -233,6 +233,7 @@ animal-merge-zoo-drop
 animal-pair-card-match
 animal-puzzle-deluxe
 animal-racing-2
+animal-racing-idle-park
 animal-royal
 animal-shape-puzzle
 animal-shifting-transform-run
@@ -1569,6 +1570,8 @@ counter-craft-3-zombies
 counter-craft-zombies
 counter-sniper-1-6-egypt
 counter-terror-battle-simulator
+counting-for-kids
+couple-wedding-race-game
 courageous-sniper
 cover-shooting-gun-game
 cow-cow-run
@@ -1794,6 +1797,7 @@ dd-bubble-up
 ddzombiescoming
 dead-city-zombie-survival
 dead-end-depot
+dead-frequency
 dead-jungle-game
 dead-land-survival
 dead-lands-driver-open-world
@@ -1801,6 +1805,7 @@ dead-paradise
 dead-seek
 deadly-catch
 deadly-descent
+deadly-hunters-run
 deadly-zombie-virus
 deadshift-halloween-night
 death-run
@@ -1936,6 +1941,7 @@ dogfight
 doggydoku
 dogs-vs-aliens
 doll-designer-game
+doll-doll
 doll-dress-up-game
 doll-queen-designer
 domino-battle
@@ -2020,6 +2026,7 @@ draw-couple
 draw-cute-animals
 draw-dance-battle
 draw-flag-asmr-painting-games
+draw-half-game
 draw-joust
 draw-line-stickman
 draw-one-line-bridge-puzzle
@@ -2064,6 +2071,7 @@ dreamblox
 dreamy-blast-puzzle
 dreamy-home
 dress-makeover
+dress-to-impress-new-years-party
 dress-up-anime-girl
 dress-up-babi-doll
 dress-up-bean
@@ -2124,6 +2132,7 @@ dumpling-clicker
 dumplings-who-will-you-get
 dune-surfer-3d
 dungeon-descent
+dungeon-fighter-3d
 dungeon-master-cult-and-craft
 dungeon-shop-rush
 dungeon-solitaire
@@ -2238,6 +2247,7 @@ escape-from-the-toys-factory
 escape-from-wave-for-brainrots
 escape-from-whisker-street
 escape-maze
+escape-maze-rush
 escape-police-for-brainrots
 escape-school-duel
 escape-strange-girl-s-house
@@ -2562,6 +2572,7 @@ football-soccer
 football-tricks
 footballer-of-the-year
 ford-f-100-eluminator-slide
+forest-archer
 forest-dash
 forest-fortune
 forest-monster-breaker
@@ -2851,6 +2862,7 @@ going-right
 going-rolling-ball
 going-up
 going-up-rooftop
+gold-miner-classic
 gold-miner-tower-defense
 gold-rush-builder
 golden-boot-2022
@@ -3155,6 +3167,7 @@ hidden-word-puzzle
 hide-and-luig
 hide-and-seek-blue-monster
 hide-and-seek-friends
+hide-and-seek-game
 hide-and-seek-horror-escape
 hide-and-seek-transform-props
 hide-from-school
@@ -3261,6 +3274,7 @@ hotel-manager-simulator
 hotfoot-baseball
 hotgear
 hotline-miami
+house-build-puzzle-game
 house-paint-challenge
 hover-shift-craft-racer
 how-high
@@ -3330,6 +3344,7 @@ idle-crafting-empire-tycoon
 idle-dairy-tycoon
 idle-defense-grid
 idle-desert-life
+idle-factory-game-tycoon
 idle-game-dev-simulator
 idle-gold-miner
 idle-gravity-breakout
@@ -3343,6 +3358,7 @@ idle-pop-merge
 idle-restaurant-game
 idle-sprint-race-3d
 idle-supermarket-tycoon
+idle-tomato-clicker
 idle-tower-defense
 idle-train-empire-tycoon
 idle-vlogger-simulator
@@ -3576,6 +3592,7 @@ kitty-knight-survive-till-new-year
 kittymatch
 kiwi-adventure-game
 klondike-solitaire-treasures
+knee-case-simulator
 knee-surgery-clicker
 knife-battle
 knife-hit-challenege-game
@@ -3729,6 +3746,7 @@ lol-football-funny-face
 lollipop-escape-mania-kids
 lone-sniper
 long-drive-to-horizons-sim
+long-hair-rush-challenge
 long-neck-runner-game
 longdog
 looper-fruit-hit
@@ -3786,6 +3804,7 @@ madness-driver-vertigo-city
 madness-online
 madness-ward-number-6
 mafia-billiard-tricks
+mafia-sniper-crime-shooting
 mag-roller
 magic-15-puzzle
 magic-action-gun-game
@@ -4013,6 +4032,7 @@ merge-home-ball-2048
 merge-items-build-city
 merge-mania
 merge-mine-idle-clicker
+merge-miners-3d-puzzle
 merge-monster-fight
 merge-monsters
 merge-mushroom
@@ -4085,6 +4105,7 @@ miner-rush-game
 minesweeper-find-bombs
 minetap-merge-clicker
 mineworld-horror-the-mansion
+mini-art-puzzle-game
 mini-asmr-relaxing-game-relax
 mini-boxing
 mini-boxing-final-round
@@ -4412,6 +4433,7 @@ never-fall
 never-fall-pinball
 new-mahjong-2026
 new-year-puzzles
+new-years-eve-makeup
 newbie-s-escape-from-blogger-prison
 nexrun
 nextboot-horror-online
@@ -5068,6 +5090,7 @@ prison-ball
 prison-break-architect-tycoon
 prison-escape-online
 prison-escape-push-the-guards
+prison-escape-puzzle-master
 prison-master-escape-journey
 prison-survive-break-escape
 prison-twins
@@ -5078,6 +5101,7 @@ pro-obunga-vs-creepender
 professional-archerist
 project-survival
 project-void
+prom-run
 promatch-3
 protect-my-dog
 pudding-monsters
@@ -5228,6 +5252,7 @@ real-cosmos
 real-driving-simulator
 real-estate-kids
 real-estate-royal
+real-estate-tycoon
 real-flight-simulator
 real-motor-race-master
 real-mtb-downhill-3d
@@ -5507,6 +5532,7 @@ santa-dungeon-of-doom
 santa-gift-delivery-christmas-game
 santa-gift-matching
 santa-holiday-adventure-game
+santa-matching-game
 santa-snow-runner
 santa-soosiz
 santa-stunt-racer-christmas-delivery
@@ -5873,6 +5899,7 @@ sniper-silent-ridge
 sniper-strike
 sniper-vs-99-players
 snow-ball-race
+snow-battel-arena
 snow-drifting-3d-champ-2024
 snow-mo-cannon-shooting-game
 snow-plow-inc
@@ -6813,9 +6840,11 @@ train-drift
 train-master
 train-puzzle
 tralala-test
+transition
 transport-army-vehicle-truck-driving
 transport-run
 transport-tycoon-deluxe-open-ttd
+trap-cursor
 trap-the-bear
 trash-baron
 trash-master
@@ -7155,6 +7184,7 @@ wizard-santa-jump
 wizzard-adventure
 wobble-it
 wobble-run
+wolf-simulator-forest-hunt-3d
 wolfoo-2048
 wolfoo-birthday-pixel-art
 wolfoo-escape
