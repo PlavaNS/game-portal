@@ -41,6 +41,7 @@
 2048-classic-puzzle-challenge
 2048-cube-runner-3d-merge
 2048-cube-runner-ultimate
+2048-flappy
 2048-knights
 2048-merge-blocks
 2048-merge-runner
@@ -330,6 +331,7 @@ arrow-tap-game
 arrowgami-arrow-puzzle
 arrows-dream-home-design
 arrows-edge
+arrows-escape
 arrows-escape-tap-puzzle
 arrows-idle
 arrows-make-it-cozy
@@ -377,11 +379,13 @@ attack-and-dash
 attack-hole
 attack-hole-game
 attack-super-hole
+attractive
 aura-clicker
 aura-farm-rng
 aura-farmer-presidents
 auric-core
 avatar-make-up
+avatar-world-secrets
 avocado-yard-ragdoll-sandbox
 awareness-game-the-robot-bar
 awesome-tanks-3-game
@@ -557,6 +561,7 @@ bear-adventure-online-game
 bear-go-home
 bearshift
 beastforge-rival
+beat-shooter-3d
 beautiful-toenail-salon
 beauty-salon-and-makeover-game
 bedroom-defense
@@ -918,6 +923,7 @@ bubble-mania
 bubble-merge-2048
 bubble-merge-2d
 bubble-pet-game
+bubble-pop-fairyland
 bubble-pop-legend
 bubble-rush
 bubble-shooter-blast-mania
@@ -1251,6 +1257,7 @@ cave-escape
 cave-miner
 cavern-of-gears
 cavern-run-endless-runner-game
+celebrity-lol-funny-face
 cerkio
 chain-cube-2048-3d-merge-game
 chain-n-gain
@@ -1260,6 +1267,7 @@ challenge-the-basketball
 challenge-the-football
 challenge-the-zombies
 chameleon-sniper
+change-brick
 change-part-in-love-story
 chaos-arena
 chaos-road-combat-car-racing
@@ -1313,6 +1321,7 @@ christmas-gift-unlock
 christmas-land-adventure
 christmas-nail-salon
 christmas-night-of-horror
+christmas-ornaments-jigsaw-puzzles
 christmas-sledge-rider-3d
 chroma-trek
 chromapath
@@ -1365,6 +1374,7 @@ clankmates
 clash-to-survival
 classic-car-driving-game
 classic-car-parking-2025
+classic-falling-ball-game
 classic-match3
 classic-number-puzzle
 classic-solitaire-master
@@ -2119,6 +2129,7 @@ duo-summerbombs
 duohex
 durak
 dusk-warz
+dwarf-treasures
 dye-it-right-color-picker
 e-rickshaw-simulator
 earth-dunk-physics-arcade-game
@@ -2499,6 +2510,7 @@ flows
 flufflings-pocket-pets
 fluffy-jump
 flume-v2
+fly-2048
 fly-airplane-3d
 fly-car-stunt-5
 fly-vs-giant
@@ -2606,6 +2618,7 @@ fruit-cutter-fun
 fruit-drop
 fruit-drop-3d
 fruit-fusion
+fruit-goals-match
 fruit-immortal
 fruit-jam-master
 fruit-lane-cafe
@@ -2786,6 +2799,7 @@ girl-dream-house-diy-fun
 girl-explorer-jigsaw-puzzles
 girl-game-organizing-fun
 girl-hair-salon-and-dress-up
+girl-mini-games-relaxing-fun
 girl-money-rush-game
 gladiators-merge-and-fight
 glam-doll-salon-makeup-and-dressup-game
@@ -2820,6 +2834,7 @@ goblin-clan
 goblin-defense-merge
 god-of-entropy
 god-of-light
+going-balls-3d
 going-right
 going-rolling-ball
 going-up
@@ -3230,6 +3245,7 @@ hotbath-simulator
 hotel-manager-simulator
 hotfoot-baseball
 hotgear
+hotline-miami
 house-paint-challenge
 hover-shift-craft-racer
 how-high
@@ -3336,6 +3352,7 @@ indian-taxi-2020
 infini-golf
 infinite-bike-trials
 infinite-heroes
+infinite-line-runner-game
 infinity-sky
 injection-invasion
 ink-shop-dress-and-tattoo-games
@@ -4124,6 +4141,7 @@ money-factory-tycoon-idle-game
 money-fest
 money-maker
 money-pong
+money-run-fest
 money-rush
 money-rush-game
 monkeysweeper-mines-puzzles
@@ -4321,6 +4339,7 @@ mystery-of-the-old-house-hidden-objects
 mystery-squishy-dumpling-blind-box
 mystical-blade-3d
 mythiq
+nail-run-bridge-game
 nail-salon
 nail-salon-manicure-fashion-girl
 nail-stack
@@ -4717,6 +4736,7 @@ paper-panzer
 paper-stick-figures
 paperly-paper-plane-adventure
 parcel-pulse-toy-factory
+parent-run-game
 park-draw-game
 park-sort
 park-the-cars
@@ -4915,6 +4935,7 @@ police-car-chase-prison-escape-game
 police-car-chaser
 police-car-parking-2026
 police-car-parking-game
+police-car-simulator-game
 police-car-stunt-challenge
 police-chase-car-crash-3d
 police-chase-car-simulator
@@ -5118,6 +5139,7 @@ racing-crash-jigsaw
 racing-destruction-and-chase
 racing-horizon
 racing-island
+racing-master-3d
 racing-online
 racing-portal
 racing-project-kit
@@ -5714,6 +5736,7 @@ slice-it
 slicestorm
 slicetall
 slide-and-divide
+slide-battle
 slide-block-jam
 slide-blocks-3d
 slide-the-blocks-build-the-pictures
@@ -5786,6 +5809,7 @@ snake-of-bullets-collect-and-shoot
 snake-out
 snake-out-puzzle-game
 snake-puzzle-3d-game
+snake-remix
 snake-run-eat-and-grow
 snake-simple-retro-game
 snake-sort-game
@@ -5928,6 +5952,7 @@ space-survivors-bug-swarm
 space-tower-defense
 space-war-symphony
 spaceball-jump
+spacebattle
 spaceman-escape-adventure
 spacepuzzler
 sparksnap
@@ -6392,6 +6417,7 @@ survivalist
 survive-lava-for-brainrots
 survive-the-disasters-obby
 survive-the-glass-bridge
+survivor-io-battle
 survivor-war-island-game
 sushi-bros
 sushiboom
@@ -6521,6 +6547,7 @@ temple-quest
 temple-racing
 temple-runner
 ten-link-number-games
+tenkyu
 tenkyu-ball
 tennis-hero
 tennis-master
@@ -6883,6 +6910,7 @@ uncle-wang-s-happy-life
 undead-shooter
 undead-walking-3d
 undercrown
+underdogs-puzzle-odyssey
 underground-heroes
 underwater-2d
 underwater-bicycle-racing
@@ -7040,6 +7068,7 @@ watermelon-stack-3d
 wayfarers-return
 we-are-in-a-simulation-simulator
 we-not-survive
+weapon-merge-run
 weapon-run
 weapon-run-3d-gun-shooter
 weapon-run-battle
@@ -7111,6 +7140,7 @@ wolfoo-word-search
 wolfoo-word-wonders
 wolfoos-kindergarten
 woms-world-of-master-survivors
+wonder-coloring
 wonder-goal-fun-football-kick
 wonder-vending-machine
 wondergrid
