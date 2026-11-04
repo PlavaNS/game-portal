@@ -255,6 +255,7 @@ anipo
 anna-s-story-dress-up-diy
 annoying-boss-game
 annoying-cousins-punch-game
+annoying-uncle-punch-the-meme
 anomaly-content-record
 ant-colony
 ant-colony-idle
@@ -283,6 +284,7 @@ aquapark-surfer-race
 aquarium-of-surprises
 aquava
 arcade-thief-runner
+arcanoid-side-guns
 archer-2023
 archer-clash
 archer-defense
@@ -1225,6 +1227,7 @@ castel-wars
 castel-wars-middle-ages
 castle-claw
 castle-crashers-stolen-sun
+castle-island-clicker-game
 castle-wars-legacy
 cat-and-granny
 cat-block-puzzle
@@ -1339,6 +1342,7 @@ christmas-bubble-shooter-game
 christmas-drive
 christmas-gift-jump
 christmas-gift-unlock
+christmas-girls-dress-up
 christmas-land-adventure
 christmas-nail-salon
 christmas-night-of-horror
@@ -1439,6 +1443,7 @@ cod-duty-call-fps
 code-breaker-deluxe
 coffe-merge-house
 coffee-color-blocks
+coffee-tycoon
 coin-color-sort
 coin-drop-3d
 coin-hunt
@@ -1577,6 +1582,7 @@ correct-math
 cosmetic-box-cake-maker-2025
 cosmetic-run
 cosmic-dash
+cosmic-glider
 cosmic-hunt
 cosmo-merge
 cosmos-404
@@ -1634,6 +1640,7 @@ crazy-bus-station
 crazy-car-drive-road-challenge
 crazy-car-driving-3d-simulator
 crazy-cart
+crazy-christmas-fun-2
 crazy-cone-sweeper
 crazy-difficult-game
 crazy-downhill-ragdoll-fall-down
@@ -1953,6 +1960,7 @@ divide-puzzle-arcade
 diy-joystick-game
 diy-phone-case-maker
 diy-slime-art
+diy-ugly-christmas-sweater
 dna-evolution-3d
 do-not-enter-this-game-at-night
 do-not-feed-the-monkeys
@@ -2174,6 +2182,7 @@ dusk-warz
 dwarf-treasures
 dye-it-right-color-picker
 e-rickshaw-simulator
+ear-doctor-care-game
 earth-dunk-physics-arcade-game
 easter-funny-makeup
 easter-match-3-saga
@@ -2263,6 +2272,8 @@ eramind
 erase-one-part
 erase-the-extra-element
 escape-ancient-egypt
+escape-from-dictatorship-runner-game
+escape-from-hell-crazy-runner-game
 escape-from-school-3d
 escape-from-squid-island
 escape-from-the-crypt
@@ -2377,6 +2388,7 @@ farming-mini-puzzle
 farming-simulation-game
 farming-tractor-game
 fashion-battle-dress
+fashion-battle-queen
 fashion-foot-shop
 fashion-foot-shop-game
 fashion-girl-cosplay-sailor-challenge
@@ -2384,6 +2396,7 @@ fashion-princess-dress-up-for-girls
 fashion-sewing-clothes
 fashion-show-dressup
 fashion-show-makeup
+fashion-stylist-salon-makeover
 fashion-valkyries-saga-of-style
 fast-and-wild-in-sky
 fast-ball-jump
@@ -2515,6 +2528,7 @@ flag-football-game
 flag-learn
 flag-memory-match
 flag-merging-game-puzzle-game
+flag-merging-puzzle-game
 flag-painting-game
 flag-puzzle-jam-collect-flags
 flaggy-reveal
@@ -2784,6 +2798,7 @@ garden-master
 garden-match-kids
 garden-pals-idle
 garden-snakes
+garden-war
 garfield-rush
 gas-station-24-simulator
 gas-station-simulator
@@ -2953,6 +2968,7 @@ grave-necromancer-mortician
 gravesky
 graveyard-wars-two-player
 gravity-football
+gravity-pulse
 gravity-shift-sky-racers-gt
 gravity-shift-space-edition
 gravity-speed-run
@@ -3661,6 +3677,7 @@ koenigsegg-jesko-absolut-puzzle
 koenigsegg-jesko-absolut-slide
 kofi-adventure
 kpop-hunter-coloring
+kpop-studio-music-beats
 krillion-game
 kuli
 kung-fu-little-animals
@@ -3924,6 +3941,7 @@ masked-forces
 masked-special-forces
 maskinery-idle
 masquerades-vs-impostors
+master-archer-2025
 master-blender
 master-car-destruction
 master-checkers
@@ -4024,6 +4042,7 @@ memorize-and-repeat-the-shape
 memory
 memory-cards
 memory-emoji
+memory-lane
 memory-master
 memorya
 memorybot
@@ -4189,6 +4208,7 @@ misland-online
 misregister
 miss-robins-dream-home
 missile-dude-rpg
+mission-santa-deliver-the-gifts
 mister-bullet-arcade-shooter
 mix-and-paint-3d
 mix-monsters-fun-merge
@@ -4890,6 +4910,7 @@ perfect-landing-plane-pilot
 perfect-match
 perfect-piano-magic
 perfect-snipe-online
+perfect-tidy
 perfect-tongue
 perfect-turn-game
 perfect-wax-3d
@@ -4938,6 +4959,7 @@ pinball-boy-adventure
 pinball-cube-crusher
 pinball-football-kids
 ping-pong-3d
+ping-pong-ball-game
 ping-pong-battle-table-tennis
 ping-pong-table-tennis
 pinny-go-home
@@ -5139,6 +5161,7 @@ prison-master-escape-journey
 prison-survive-break-escape
 prison-twins
 prisoners-run
+pro-builder-3d
 pro-football-eleven-2027
 pro-golfer-game
 pro-obunga-vs-creepender
@@ -5543,6 +5566,7 @@ runner
 runner-coaster-race
 runner-garden-game
 runner-soldiers
+runner-tomato-hyper-casual
 running-from-a-hungry-tiger
 running-man-2026
 running-roadball
@@ -5575,17 +5599,21 @@ sandwich-runner-game
 santa-and-the-chaser
 santa-city-run
 santa-claus-xmas-run
+santa-collecting-gifts
 santa-dungeon-of-doom
+santa-gift-collect-game
 santa-gift-delivery-christmas-game
 santa-gift-matching
 santa-holiday-adventure-game
 santa-matching-game
+santa-on-fire
 santa-snow-runner
 santa-soosiz
 santa-stunt-racer-christmas-delivery
 santa-vs-zomby
 santa-wood-cutter
 santabalt
+santas-snowy-sprint
 sapotago
 satisdom
 satisfying-ball-clicker
@@ -5655,6 +5683,7 @@ scp-173-foundation-escape
 scrap-arms-neo
 scrap-brawl
 scratch-raw-stone-gem-master
+scratch-to-win-game
 screw-and-pin-puzzle-levels
 screw-color-puzzle
 screw-jam-puzzle
@@ -5823,6 +5852,7 @@ slap-king
 slap-kings-fun-and-run-3d-game
 slap-master
 slap-master-3d
+slash-blitz-master
 slash-knight
 slasty-candy-tower
 sledding-hills
