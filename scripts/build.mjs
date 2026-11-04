@@ -698,6 +698,9 @@ function emitContent() {
           contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: cfg.contactEmail, availableLanguage: ['English'] },
           foundingDate: '2026', areaServed: 'Worldwide',
           sameAs: ['https://plavans.itch.io', 'https://www.escaperoom.co.rs/en', 'https://ballsofglory.app'],
+          founder: { '@type': 'Person', name: 'Marko Plav\u0161i\u0107', jobTitle: 'Game designer and escape room owner',
+            description: 'Owner of Door 404 escape room in Novi Sad since 2016; graduate engineer in entrepreneurial management; designs escape games and publishes Android and web games.',
+            sameAs: ['https://www.linkedin.com/in/marko-plav%C5%A1i%C4%87-6629709b/', 'https://plavans.itch.io'] },
           parentOrganization: { '@type': 'Organization', name: cfg.studio, url: 'https://www.escaperoom.co.rs/en', address: { '@type': 'PostalAddress', addressLocality: 'Novi Sad', addressCountry: 'RS' } } }],
     }));
     addUrl('/', 1.0);
@@ -921,6 +924,13 @@ textPage('our-games', 'Our Games', `<p class="lead">Games made by ${esc(cfg.stud
 ${ours.map(o => `<h2><a href="${u(`/games/${o.slug}/`)}">${esc(o.title)}</a></h2><p>${esc(o.short || '')}</p>`).join('')}`, `Free browser games made by ${cfg.studio}: ${ours.map(o => o.title).join(', ')}.`);
 
 textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games website made by <strong>${esc(cfg.studio)}</strong>, an independent game studio from Novi Sad, Serbia. We build our own browser games (like <a href="${u('/games/bubble-wrap/')}">Bubble Wrap</a>) and hand-pick the best free HTML5 games from trusted distribution partners, so you can play instantly on any device.</p>
+<h2>Who runs this site</h2>
+<p>My name is Marko Plav\u0161i\u0107. I am a graduate engineer in entrepreneurial management, and since 2016 I have owned and run <a href="https://www.escaperoom.co.rs/en" rel="noopener" target="_blank">Door 404</a>, an escape room in Novi Sad, Serbia.</p>
+<p>Designing an escape room is the same work as designing a game: you build a set of puzzles, watch real people try them, and rewrite whatever does not work. I have been doing that since 2016, and it is why every game here gets played by a person before it goes up.</p>
+<p>Alongside the escape room I design escape games and outdoor adventures, I have published Android and web games, I wrote a book, and I have run the SEO and Google Ads for my own businesses since 2016 (Google Ads certified, 2016). Before all that I spent six years in banking, as a credit analyst and then a portfolio office manager. And I have been a gamer my whole life, which is the real reason this site exists.</p>
+<p>You can check who I am on <a href="https://www.linkedin.com/in/marko-plav%C5%A1i%C4%87-6629709b/" rel="noopener" target="_blank">LinkedIn</a>, or write to me at <a href="${u('/contact/')}">contact@ilovewebgames.com</a>.</p>
+<h2>How a game gets on this site</h2>
+<p>Two ways. Either we take it from a distribution partner (Playgama, GameMonetize, GamePix), or a developer sends it to us through the <a href="${ur('/submit-game/')}">submit form</a>. Either way a real person opens it, plays it and checks that it runs, loads in an iframe and is family-friendly. Games that copy someone else's characters, games with no depth, and games that are not in English get turned down. When we accept one, it gets its own page that credits the developer and links back to their site, and we take no share of what the developer earns.</p>
 <h2>What makes us different</h2><ul><li><strong>Curated, not cluttered.</strong> We skip low-quality knock-offs and games that copy famous brands.</li><li><strong>Instant play.</strong> No downloads, no account, no installs.</li><li><strong>Fast on phones.</strong> The site is lightweight and works on slow connections.</li></ul>
 <p>The games are free for you because they show short ads, which support the developers who make them and keep this site running.</p>
 <p>Questions or ideas? <a href="${u('/contact/')}">Get in touch</a>.</p>`, `About ${cfg.name}: free online games by ${cfg.studio}.`);
