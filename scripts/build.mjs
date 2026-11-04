@@ -464,6 +464,10 @@ ${cfg.adsenseClient ? `<meta name="google-adsense-account" content="${esc(cfg.ad
 <link rel="icon" href="${ur('/favicon.svg')}" type="image/svg+xml">
 <link rel="manifest" href="${ur('/manifest.webmanifest')}">
 <link rel="preconnect" href="https://img.gamemonetize.com" crossorigin>
+<link rel="preconnect" href="https://static.playgama.com" crossorigin>
+<link rel="preconnect" href="https://img.gamepix.com" crossorigin>
+<link rel="dns-prefetch" href="https://static.playgama.com">
+<link rel="dns-prefetch" href="https://img.gamepix.com">
 <link rel="stylesheet" href="${ur('/assets/style.css')}?v=${BUILD_ID}">
 ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replace(/</g, '\\u003c')}</script>`).join('\n')}
 </head>
@@ -523,9 +527,11 @@ ${cfg.adsenseClient && !cfg.ownConsent ? '' : `<div class="consent" hidden data-
 
 // NEW ribbon for 7 days after a game first appeared on the site
 const isNew = g => !g.own && NEW_SET.has(g.slug);
-const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.video ? ' has-video' : ''}${g.community ? ' fit' : ''}${g.mobile ? '' : ' dm'}"${g.video ? ` data-video="${esc(g.video)}"` : ''} href="${gHref(g)}"${g.community ? ` style="--t:url('${esc(g.thumb)}')"` : ''}><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${voteCount(g) >= 5 ? `<b class="rate-pill">👍 ${votePct(g)}%</b>` : ''}${g.own ? '<b class="badge">Our game</b>' : isHot(g) ? '<b class="badge hot">🔥 HOT</b>' : isTopRated(g) ? '<b class="badge top">👍 TOP RATED</b>' : isNew(g) ? '<b class="badge new">NEW</b>' : ''}</a>`;
-const grid = (list, eager = false) => list.length ? `<section class="row"><div class="grid">${list.map(g => card(g, eager)).join('')}</div></section>` : '';
-const row = (title, href, list, eager = false) => list.length ? `<section class="row"><div class="row-h"><h2>${esc(title)}</h2>${href ? `<a href="${href}">See all ›</a>` : ''}</div><div class="grid">${list.map(g => card(g, eager)).join('')}</div></section>` : '';
+// the partner image servers can resize for us: a card is about 170px wide, so 320 is plenty
+const small = u => String(u || '').replace(/([?&])width=\d+/, '$1width=320').replace(/([?&])w=\d+/, '$1w=320');
+const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.video ? ' has-video' : ''}${g.community ? ' fit' : ''}${g.mobile ? '' : ' dm'}"${g.video ? ` data-video="${esc(g.video)}"` : ''} href="${gHref(g)}"${g.community ? ` style="--t:url('${esc(g.thumb)}')"` : ''}><img src="${esc(small(g.thumb))}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${voteCount(g) >= 5 ? `<b class="rate-pill">👍 ${votePct(g)}%</b>` : ''}${g.own ? '<b class="badge">Our game</b>' : isHot(g) ? '<b class="badge hot">🔥 HOT</b>' : isTopRated(g) ? '<b class="badge top">👍 TOP RATED</b>' : isNew(g) ? '<b class="badge new">NEW</b>' : ''}</a>`;
+const grid = (list, eager = false) => list.length ? `<section class="row"><div class="grid">${list.map((g, i) => card(g, eager && i < 4)).join('')}</div></section>` : '';
+const row = (title, href, list, eager = false) => list.length ? `<section class="row"><div class="row-h"><h2>${esc(title)}</h2>${href ? `<a href="${href}">See all ›</a>` : ''}</div><div class="grid">${list.map((g, i) => card(g, eager && i < 4)).join('')}</div></section>` : '';
 // homepage category showcase: a colourful tile (name, count, 3 real covers fanned out) + the 5 most played games of that category + "more"
 const CAT_HUE = { action: 350, shooting: 25, racing: 200, puzzle: 265, 'clicker-idle': 45, arcade: 320, adventure: 130, sports: 95, 'two-player': 180, multiplayer: 215, girls: 335, hypercasual: 55, stickman: 0, zombie: 110, '3d': 240, cooking: 20, kids: 150, mobile: 190 };
 const catRowUsed = new Set(); // each game shows in one category row only
@@ -588,6 +594,7 @@ function emitContent() {
     const dfmt = d => { try { return new Date(d).toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { day: 'numeric', month: 'short', year: 'numeric' }); } catch { return d; } };
     // Game of the day: a different one every day, worked out from the date so it needs no state
     // and never lands on the same game twice in a row through the list.
+    let gotdImg = '';
     const gotd = (() => {
       // never headline a game that leans on someone else's character or brand
       const BRANDY = /\b(cuphead|mario|luigi|sonic|pokemon|pokémon|pikachu|minecraft|roblox|among ?us|squid ?game|huggy|poppy playtime|fnaf|five nights|granny|subway surf|temple run|gta|grand theft|fortnite|spider ?man|batman|superman|barbie|frozen|elsa|anna|hello kitty|naruto|dragon ?ball|goku|ben ?10|paw patrol|peppa|tom and jerry|angry birds|flappy|slither|zelda|pac ?-?man|tetris|sponge ?bob|mickey|disney|marvel|avengers|star wars|harry potter|minions|skibidi|rainbow friends|geometry dash|stumble guys|brawl stars|clash royale|fall guys|friday night funkin|undertale|terraria|doom|halo|zombie tsunami|talking tom|angela)\b/i;
@@ -600,6 +607,7 @@ function emitContent() {
       const pool = mostPlayed(300).filter(x => !x.own && !x.community && x !== gw && safe(x));
       if (!pool.length) return '';
       const g = pool[(Math.floor(Date.now() / 864e5) * 7919) % pool.length];
+      gotdImg = g.cover || g.thumb;
       const d = (g.short || g.description || '').replace(/\s+/g, ' ').trim();
       const day = new Date().toISOString().slice(0, 10);
       return `<section class="gotd">
@@ -672,7 +680,7 @@ function emitContent() {
     write('index.html', layout({
       title: `${cfg.name} — ${tr('Free Online Games, Play Instantly')}`,
       desc: `${tr(cfg.slogan)} ${tr('Play')} ${all.length.toLocaleString('en')}+ ${tr('free online games: action, puzzle, racing, 2 player, clicker and more. No downloads, works on PC & mobile.')}`,
-      canonical: abs('/'), body, bodyClass: 'home', altPath: '/', altLangs: LANGS.filter(l => Object.keys(UI[l.code] || {}).length >= 20).map(l => l.code),
+      canonical: abs('/'), body, bodyClass: 'home', preload: gotdImg, altPath: '/', altLangs: LANGS.filter(l => Object.keys(UI[l.code] || {}).length >= 20).map(l => l.code),
       jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.name, alternateName: cfg.name.replace(/\s+/g, ''), url: abs('/'), potentialAction: { '@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
         { '@context': 'https://schema.org', '@type': 'Organization', '@id': abs('/#organization'), name: cfg.name, alternateName: cfg.shortName, url: abs('/'),
           logo: { '@type': 'ImageObject', url: abs('/assets/icon-512.png'), width: 512, height: 512 }, image: abs('/assets/og.png'),
@@ -790,7 +798,7 @@ function emitContent() {
     <div class="stage">
       <img class="stage-bg" src="${esc(g.thumb)}" alt="" aria-hidden="true" fetchpriority="high">
       <div class="stage-ui">
-        <img class="stage-thumb${g.community ? ' wide' : ''}" src="${esc(g.thumb)}" alt="${esc(g.title)}" width="256" height="192">
+        <img class="stage-thumb${g.community ? ' wide' : ''}" src="${esc(small(g.thumb))}" alt="${esc(g.title)}" width="256" height="192">
         <h1>${esc(g.title)}</h1>${g.community ? `
         <p class="indie-badge">🧑‍💻 ${esc(tr('Indie game by'))} ${esc(g.studio)}</p>` : ''}
         <button class="btn big" data-play>▶ ${esc(tr('Play now'))}</button>${g.mobile ? '' : `\n      <p class="desk-note">💻 ${esc(tr('Best played on a computer with a keyboard'))}</p>`}
