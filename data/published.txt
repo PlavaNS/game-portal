@@ -270,6 +270,7 @@ antistress-relaxation-toys
 antistress-relaxation-toys-mini-games
 ants-ate-my-pixels
 ants-clear-all-color-block-puzzle
+ants-io
 aod-art-of-defense
 apex-combat
 apex-racer
@@ -449,6 +450,7 @@ badlands-hero
 bag-defense
 baggage-out
 baker-city-family-bakery
+balanceduel
 ball-and-maze
 ball-attack
 ball-bounce-try-it
@@ -1280,6 +1282,7 @@ cave-escape
 cave-miner
 cavern-of-gears
 cavern-run-endless-runner-game
+celebrities-get-ready-for-christmas
 celebrity-lol-funny-face
 cerkio
 chain-cube-2048-3d-merge-game
@@ -1343,10 +1346,13 @@ christmas-drive
 christmas-gift-jump
 christmas-gift-unlock
 christmas-girls-dress-up
+christmas-hexa-puzzle
 christmas-land-adventure
 christmas-nail-salon
 christmas-night-of-horror
+christmas-onet-connect
 christmas-ornaments-jigsaw-puzzles
+christmas-puzzle-with-santa
 christmas-sledge-rider-3d
 chroma-trek
 chromapath
@@ -1740,6 +1746,7 @@ cube-drop-puzzle-match-color
 cube-island-3d
 cube-match-logic
 cube-merge-game
+cube-play
 cube-quiz
 cube-rivals
 cube-rush-3d-survive-the-rush
@@ -1788,6 +1795,7 @@ cutter-woodsman-game
 cyber-arrows-brain-puzzle-game
 cyber-city-driver
 cyber-dash-2
+cyber-smash
 cyber-snake-2077-ultimate
 cyber-truck-drive-simulator
 cyberpunk-block-puzzle
@@ -2118,6 +2126,7 @@ drift-master-3d
 drift-race-in-the-open-world
 drift-rider
 drift-tycoon
+drift-x-driving-car-game
 driftbound-race-in-the-grip-of-drift
 drifting-car-master
 drifting-mania
@@ -2142,6 +2151,7 @@ drive-zone
 driver-club-highway-racing
 drivers-washing-clean
 driverz-ed
+drivex-city
 drone-dash-time-challenges
 drone-vs-tractor-challenge
 dronner-3d
@@ -2562,6 +2572,7 @@ flippee-ball
 flipper-dunk-3d
 flippin-coins
 flippy-hero-jump-game
+float-boat
 flock-fence
 floppy-pipe
 flow-blast-shooter
@@ -2804,6 +2815,7 @@ gas-station-24-simulator
 gas-station-simulator
 gas-station-stick-simulator
 gas-station-survival
+gasspark
 gate-rusher-2-game
 gear-fight
 gear-race-car-game
@@ -2939,6 +2951,7 @@ gorbo-the-orc-crown-quest
 gorilgo-fps-online-shooter
 gorilla-monster-fight
 gorilla-multiplayer
+gothic-knife
 gothic-new-era
 grab-io
 graffiti-time
@@ -3383,6 +3396,7 @@ icy-purple-head-2
 icymatch
 idle-airport-tycoon
 idle-bank
+idle-cave-story
 idle-chicken-farm
 idle-chop-miner
 idle-cinema-tycoon
@@ -3517,6 +3531,7 @@ jigzoquest
 jim-s-world-adventure-games
 jingle-drop-challenge
 jingle-jetpack
+jingle-juggle-merge
 jixora-jigsaw-solitaire-puzzle
 john-is-a-lifeguard
 johnny-jump-challenge
@@ -3526,6 +3541,7 @@ join-clash-epic-battle
 join-the-gang-and-fight
 joy-tiles-easy
 joyful-ball
+juice-machine
 juice-sort-puzzle
 juice-tycoon
 juicy-crush-saga
@@ -4121,6 +4137,7 @@ mermaid-rescue
 merrykins-coloring
 metal-animals
 metal-shooter-brother-squad
+metastack
 mexico-rex-2
 mfps-military-combat
 mice-hunt
@@ -4471,6 +4488,7 @@ neon-city-drift-racing
 neon-dash-survive-the-dash
 neon-directive
 neon-goal
+neon-hockey-2
 neon-jumper
 neon-maze
 neon-nexus-3d
@@ -4620,6 +4638,7 @@ nuts-and-bolts-game-wood-puzzle
 nuts-bolts-sort
 nuts-color-sorting-game
 nuts-puzzle-sort-by-color
+nutsforwinter
 nutty-rush
 nutty-rush-kart
 o-m-i-n-o
@@ -4749,6 +4768,7 @@ offshore-jeep-race-3d
 oil-rig-driller
 oil-tanker-game
 oil-tanker-simulator
+oil-tanker-truck-parking-game
 oink-escape
 okay
 ola-solitaire
@@ -4849,6 +4869,7 @@ park-the-cars
 park-tycoon
 parking-bike-3d-game
 parking-boom
+parking-jam-2025
 parking-journey-car-puzzle
 parking-master-school
 parking-master-urban-challenges
@@ -4930,6 +4951,7 @@ phone-case-diy-2
 physics-box-2
 physics-sandbox
 piano-hexa-fall
+piano-kids-music-and-songs
 piano-kids-music-songs
 piano-master
 pickaxe-crusher-idle
@@ -5150,6 +5172,7 @@ princess-nail-art
 princess-ready-for-christmas
 princesses-at-horror-school
 princesses-of-quadrobics
+prism-match-3d
 prism-pulse
 prison-architect-cage-break-tycoon
 prison-ball
@@ -5557,6 +5580,7 @@ run-rich-path-3d
 run-snowball-run
 run-the-electricity
 run-witch-run
+runaway-fish-runner-game
 runaway-toad
 runboy
 rune-reactor
@@ -6374,6 +6398,7 @@ stickman-warriors
 stickman-warriors-superhero-fight
 stickman3d-shooter
 stickninja-mission
+sticky-planet
 stickyconnect
 stock-car-hero
 stone-shooter
@@ -6396,6 +6421,7 @@ street-mayhem-beat-em-up
 street-mayhem-driver
 street-race-master
 street-racer-2d
+street-war
 streetracer-realistic-destruction
 streets-of-rage
 streets-of-rage-neon-district
@@ -6727,6 +6753,7 @@ the-greedy-crow
 the-green-mission-inside-a-cave
 the-hardest-game-in-world-and-ever
 the-high-climb
+the-horde
 the-hustler
 the-ironic-zombie
 the-island-of-momo
@@ -7096,6 +7123,7 @@ urban-sniper-multiplayer
 urban-sniper-multiplayer-2
 urban-traffic-commander-kids
 us-army-truck-driving
+us-coach-bus-simulator-game
 us-truck-game
 usa-luxury-4x4-suv-offroad-driving-simulator
 usarobo-crystal-shooter
@@ -7199,6 +7227,7 @@ water-city-racers
 water-me-please
 water-race-game
 water-sort-brain-puzzle
+water-sort-master
 water-sort-master-color-puzzle
 water-sort-puzzle-3
 water-sort-puzzle-master
@@ -7264,6 +7293,7 @@ wingy-wheels
 winter-clash-3d
 winter-cold-wind
 winter-fairytale-jigsaw-puzzles
+winter-hexa-stack
 winter-tale-secrets-and-mergings
 witch-s-shop-potion-brewing
 witchy
