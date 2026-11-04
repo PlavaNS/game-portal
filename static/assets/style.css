@@ -557,3 +557,8 @@ body.menu-open .drawer{transform:none;visibility:visible}
 /* category rows: the coloured tile runs the full height of the two rows of games */
 .cat-row{align-items:stretch}
 @media (max-width:860px){.cat-tile{min-height:88px}}
+
+/* text that sits on top of a picture stays white in both themes (Marko, 04.11.2026) */
+.card span,.stage-ui,.stage-ui h1,.feat-media,.gotd-media,.news-thumb{color:#fff}
+.card span{text-shadow:0 1px 4px #000a}
+:root[data-theme=light] .card span,:root[data-theme=light] .stage-ui,:root[data-theme=light] .stage-ui h1{color:#fff}
