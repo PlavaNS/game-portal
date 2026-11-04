@@ -587,3 +587,20 @@ body.menu-open .drawer{transform:none;visibility:visible}
 .cat-grid .ct-text{width:auto;text-align:left;padding:14px 112px 14px 16px;background:none}
 .cat-grid .ct-text b{font-size:17px}
 @media (max-width:560px){.cat-grid .ct-art{width:88px}.cat-grid .ct-text{padding-right:96px}}
+
+/* drawings on the section headings and on the two-choice cards */
+.banner{min-height:96px}
+.bn-art{position:absolute;top:50%;transform:translateY(-50%);width:84px;height:auto;pointer-events:none}
+.bn-art.r{right:18px}
+.bn-art.l{left:18px;transform:translateY(-50%) scaleX(-1);opacity:.42}
+.duo-opts a{position:relative;overflow:hidden}
+.duo-art{position:absolute;right:-14px;bottom:-16px;width:66px;height:auto;opacity:.36;pointer-events:none}
+.duo-opts span,.duo-opts em{position:relative;z-index:1}
+@media (max-width:860px){
+  .banner{min-height:84px;padding:14px 92px}
+  .bn-art{width:62px}
+  .bn-art.r{right:10px}
+  .bn-art.l{left:10px;opacity:.34}
+  .duo-art{width:56px;right:-12px;bottom:-14px}
+}
+@media (max-width:420px){.bn-art{width:52px}.banner{padding:13px 70px}}

@@ -611,13 +611,15 @@ function emitContent() {
     })();
     const catTiles = `<section class="row"><div class="row-h"><h2>${esc(tr('Categories'))}</h2></div><div class="cats">${activeCats.filter(c => catOK(c.slug)).map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
     // section heading: a plain coloured bar with the title in the middle, nothing else in it
-    const banner = (cls, href, title, sub) => `<a class="banner ${cls}" href="${href}"><span class="bn-text"><b>${esc(title)}</b><small>${esc(sub)}</small></span></a>`;
+    const banner = (cls, href, title, sub) => { const art = `${B}/assets/sec/${cls.replace('bn-', '')}.svg`;
+      return `<a class="banner ${cls}" href="${href}"><img class="bn-art l" src="${art}" alt="" width="160" height="160" loading="lazy" decoding="async"><span class="bn-text"><b>${esc(title)}</b><small>${esc(sub)}</small></span><img class="bn-art r" src="${art}" alt="" width="160" height="160" loading="lazy" decoding="async"></a>`; };
     const bnOwn = banner('bn-own', ur('/our-games/'), tr('Our games'), `${ours.length} ${tr('games made by')} ${cfg.studio}`, ours);
     const bnTrend = banner('bn-trend', u('/popular/'), tr('Trending now'), tr('The games everyone is opening today'), top('hot', 4));
     const bnPop = banner('bn-pop', u('/popular/'), tr('Popular games'), tr('Played the most on our site'), mostPlayed(4));
     const bnNew = banner('bn-new', u('/new/'), tr('New games'), tr('Added in the last few days'), newestOnSite(4));
     const bnCats = banner('bn-cats', u('/all/'), tr('Browse by category'), `${activeCats.length} ${tr('categories')} · ${all.length.toLocaleString(LANG === 'en' ? 'en-US' : LANG)} ${tr('games')}`, activeCats.slice(0, 4).map(c => byCat[c.slug][0]).filter(Boolean));
-    const duo = (cls, title, a, b) => `<div class="duo ${cls}"><div class="duo-h"><b>${esc(title)}</b></div><div class="duo-opts"><a href="${a[1]}"><i>${a[2]}</i><span>${esc(a[0])}</span><em>${esc(tr('Explore'))}</em></a><a href="${b[1]}"><i>${b[2]}</i><span>${esc(b[0])}</span><em>${esc(tr('Explore'))}</em></a></div></div>`;
+    const duoArt = slug => `<img class="duo-art" src="${B}/assets/cat/${slug}.svg" alt="" width="200" height="200" loading="lazy" decoding="async">`;
+    const duo = (cls, title, a, b) => `<div class="duo ${cls}"><div class="duo-h"><b>${esc(title)}</b></div><div class="duo-opts"><a href="${a[1]}">${duoArt(a[2])}<span>${esc(a[0])}</span><em>${esc(tr('Explore'))}</em></a><a href="${b[1]}">${duoArt(b[2])}<span>${esc(b[0])}</span><em>${esc(tr('Explore'))}</em></a></div></div>`;
     const newsItems = [...all.filter(g => g.community), ...newestOnSite(12)]
       .filter((g, i, a) => a.findIndex(x => x.slug === g.slug) === i)
       .sort((a, b) => (b.firstSeen || '').localeCompare(a.firstSeen || '')).slice(0, 5);
@@ -630,8 +632,8 @@ function emitContent() {
       <a class="btn ghost news-cta" href="${gHref(g)}">${esc(tr('Play now'))}</a></article>`).join('')}
   </section>` : '';
     const duos = `<div class="duos">
-    ${duo('duo-friends', tr('Play online with friends'), [tr('2 player games'), cHref('two-player'), '🎮'], [tr('Online multiplayer'), cHref('multiplayer'), '🌐'])}
-    ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), '🧸'], [tr('Casual games'), cHref('casual'), '✨'])}
+    ${duo('duo-friends', tr('Play online with friends'), [tr('2 player games'), cHref('two-player'), 'two-player'], [tr('Online multiplayer'), cHref('multiplayer'), 'multiplayer'])}
+    ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), 'kids'], [tr('Casual games'), cHref('casual'), 'hypercasual'])}
   </div>`;
     const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${all.length.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
   ${gotd}
