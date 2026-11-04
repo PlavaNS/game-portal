@@ -665,3 +665,5 @@ body.menu-open .drawer{transform:none;visibility:visible}
 .bdg-prev{margin:14px 0;padding:18px;border:1px solid var(--line);border-radius:14px;background:var(--bg2);display:flex;justify-content:center}
 .bdg-code{overflow-x:auto;background:var(--bg2);border:1px solid var(--line);border-radius:12px;padding:14px;font-size:12.5px;line-height:1.5}
 .bdg-code code{white-space:pre-wrap;word-break:break-all}
+.foot-studio{margin:16px 0 8px;display:flex;justify-content:center}
+.foot-studio img{height:56px;width:160px}
