@@ -562,6 +562,7 @@ ben-10-run
 ben-5-difference
 ben-car-adventure
 ben10-omnirush
+bendy-circle
 berry-bury-berry
 best-buds
 best-sweet-candy-shop
@@ -897,6 +898,7 @@ bubble-invasion-3d
 bubble-mania
 bubble-merge-2048
 bubble-merge-2d
+bubble-pet-game
 bubble-pop-legend
 bubble-rush
 bubble-shooter-blast-mania
@@ -907,6 +909,7 @@ bubble-shooter-island-quest
 bubble-shooter-mega
 bubble-shooter-party
 bubble-shooter-pet-match-3
+bubble-shooter-pro-2026
 bubble-shooter-squirrel-rescue
 bubble-shooter-tap-and-pop
 bubble-shooter-vale
@@ -952,6 +955,7 @@ build-the-bridge
 build-your-dream-car
 build-your-zombie-horde
 buildemup
+bull-time-shooter
 bullet-army-run
 bullet-factory
 bullet-guide-wick
@@ -1705,6 +1709,7 @@ daily-bento-organizer
 daily-street-racing-3d
 dama-stars
 dancing-road
+dandys-world-memory
 danger-road-game
 dangerous-turn
 dark-ages-beat-em-up
@@ -1869,6 +1874,7 @@ doll-dress-up-game
 doll-queen-designer
 domino-battle
 domino-camp
+domino-smashfall
 don-t-die-kitty
 don-t-look-down-kitty
 don-t-open-that-door-seriosly
@@ -2144,6 +2150,7 @@ epic-racing-descent-on-cars
 epic-robot-combat-simulator
 epic-sword-battle-fight-in-the-ragdoll-arena
 epicrolla
+epicshooter3d
 equal-cut
 eramind
 erase-one-part
@@ -3121,6 +3128,7 @@ horizon-flight-into-the-light
 horizon-highway-driving
 horizon-racer
 horror-sniper-clown-ghost
+horrorland-defense
 horse-racing
 horse-simulator-3d
 hose-money-robber
@@ -3158,6 +3166,7 @@ hunters-and-props
 hunting-frog
 hunting-master
 huntman
+hurdle-hero
 hurdles
 huskeydoku
 hyber-dash
@@ -3254,6 +3263,7 @@ iron-defense
 iron-legion-0-28
 iron-man-repulsor-rush
 iron-pink
+iron-smash
 ironwake-tank-combat
 island-mayhem-tiki-blast-3d
 island-merge-war
@@ -3316,6 +3326,7 @@ jigsaw-sort
 jigsolitaire-puzzle
 jigzoquest
 jim-s-world-adventure-games
+jingle-drop-challenge
 jingle-jetpack
 jixora-jigsaw-solitaire-puzzle
 john-is-a-lifeguard
@@ -3363,6 +3374,7 @@ junkyard-builder-3d
 junkyard-keeper
 just-golf
 k-challenge-456
+k-pop-hunters-valentine-style
 k-pop-makeover-idol
 k-pop-stars-inspired-look
 kaido
@@ -3472,6 +3484,7 @@ kobadoo-shapes
 koenigsegg-jesko-absolut-puzzle
 koenigsegg-jesko-absolut-slide
 kofi-adventure
+kpop-hunter-coloring
 krillion-game
 kuli
 kung-fu-little-animals
@@ -3538,6 +3551,7 @@ letter-layout-coloring
 letterhold
 level-once-again
 life-of-a-tree
+lifebuoy-planing
 lifecode
 lift-defender-zombie-carnage
 lift-the-girl
@@ -3616,6 +3630,7 @@ lucky-dice
 lucy-makeup-and-dress-up
 ludo-classic
 ludo-world
+luggage-collect-game
 lumbering-at-sea
 lumberjack-simulator-3d
 lumen-descent
@@ -3761,6 +3776,7 @@ math-meteors
 math-multiply-two
 math-pair-pop
 math-playground
+math-speedrunner
 math-squares
 math-trivia
 mathematic-for-kids
@@ -4213,6 +4229,7 @@ needle-rush
 neko-s-adventure
 nekomi-recuse
 neo-traffic-rider-championship
+neon-abyss-defender
 neon-assault
 neon-billard-pool
 neon-blaster
@@ -4256,6 +4273,7 @@ night-shift-at-block-13
 night-silk-dark-city-fashionistas
 night-torque
 night-train-conductor
+nightfall-horde
 nightmare-2d-shooters
 niko-adventure
 niko-and-dino-run
@@ -4509,6 +4527,7 @@ onigiri-demons-wrath
 online-car-destruction-simulator-3d
 online-cats-multiplayer-park
 online-strike-assault
+online-taxi-simulator
 only-jump-rpg
 only-up-obby-tower-climb
 only-up-or-lava
@@ -4635,6 +4654,7 @@ penalty-superstar
 pencil-jam
 penguin-adventure-2
 penguin-splash
+pentablocks
 people-blaster
 people-drop-away-game
 people-playground-ragdoll-arena
@@ -4822,6 +4842,7 @@ pop-tap
 pop-the-ball
 pop-the-balloons-bounce
 pop-the-band
+pop-the-fruits
 pop-them
 pop-us
 popboom
@@ -4955,6 +4976,7 @@ quiz-runner-io
 quizmania-trivia-game
 quizmasters
 rabbit-carrot
+rabbit-portal
 rabbit-punch-rabbit
 rabbit-samurai
 rabbit-samurai-2
@@ -5004,6 +5026,7 @@ rainbow-ball-runner-2048
 rainbow-color-ball-runner
 rainbow-ice-cream-and-popsicles
 rainbow-jump-puzzle
+rainbow-monster-hideout-3d
 rainbow-obby
 rainbow-s-doctor
 raised-knight
@@ -5189,6 +5212,7 @@ rodha
 rogue-runner
 roll-away-3d
 roll-ball-hole-puzzle
+roll-dice-mob-control
 roll-king
 roll-kingdoms
 roll-rush
@@ -5567,6 +5591,7 @@ slime-jump-crown-quest
 slime-loop
 slime-merge-unlock-all-forms
 slime-planet-eater
+slime-run
 slime-sticky
 slimes-evolution
 sling-chicken
@@ -5584,6 +5609,7 @@ slow-mo-blade-rush
 slow-time-ninja
 slowmo-sniper
 slpoing-path
+smart-basketball
 smart-looter
 smartphone-legends
 smash-and-break
@@ -5895,8 +5921,10 @@ stamp-the-parcel
 stampede-evolution
 stand-on-the-right-color-robby
 star-rank-heroes
+star-runner-cosmic-escape
 star-wing
 stardom-alt-girls-fashion-duel
+starforge-boss-rush
 starpoly
 starship-ducks
 starship-troopers
@@ -6050,6 +6078,7 @@ street-food-cooking-game
 street-freekick-3d
 street-legends
 street-mayhem-beat-em-up
+street-mayhem-driver
 street-race-master
 street-racer-2d
 streetracer-realistic-destruction
@@ -6596,6 +6625,7 @@ trimino
 trio-twist-puzzle
 triple-car-jam
 triple-combo
+trishift
 trivia-mind-game
 troll-rider
 truck-coloring
