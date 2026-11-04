@@ -189,6 +189,7 @@ ambidieztro
 ambulance-driving-simulator
 ambulance-escape-2026
 ambulance-rescue-game
+ambulance-rescue-hospital-game
 american-18-wheeler-truck-sim
 american-block-sniper-survival-online
 american-truck-driver-game
@@ -317,6 +318,7 @@ arrow-count-master
 arrow-cube-3d
 arrow-escape-3d
 arrow-escape-puzzle
+arrow-escape-puzzle-game
 arrow-exit-puzzle
 arrow-fever
 arrow-free-3d
@@ -393,6 +395,7 @@ avatar-world-secrets
 avocado-yard-ragdoll-sandbox
 awareness-game-the-robot-bar
 awesome-tanks-3-game
+axe-champ-simulator
 axe-run
 ayla-world-avatar-city
 ayla-world-princess-life
@@ -636,6 +639,7 @@ bird-sort-puzzles
 bird-tile-trio
 birdflying
 birds-jump-2
+birds-sort-color-match-puzzle
 birdy-mad-throw
 birdy-trip
 biryani-cooking-indian-super-chef-food-game
@@ -644,6 +648,7 @@ black-friday-store-manager
 black-hole-attack
 black-hole-eat-the-universe
 black-hole-fill-3d
+black-hole-io-3d-game
 black-hole-swallow-master
 black-sphere
 blackriver-mystery-hidden-objects
@@ -797,6 +802,7 @@ border-battleground
 border-clash
 boss-level-pumpkin-madness
 boss-level-shootout
+boss-office-life-simulator
 bottle-avenger-royale
 bottle-battle
 bottle-bottle
@@ -1107,6 +1113,7 @@ capy-market
 capyballra-capybara-ball-collector
 capybara-hexasort
 capybara-let-s-go-zombie-rush
+capybara-mukbang-asmr
 capybara-winter-curse
 capybas
 car-battle
@@ -1328,6 +1335,7 @@ choo-choo-charles-revenge
 chop-up
 christmas-brain-teasers
 christmas-bridge-runner
+christmas-bubble-shooter-game
 christmas-drive
 christmas-gift-jump
 christmas-gift-unlock
@@ -1452,6 +1460,7 @@ color-ball-escape
 color-ball-rush
 color-battle-filler
 color-blast-puzzle
+color-box-ship
 color-brain-test-games
 color-brawls
 color-brick-battle
@@ -1570,6 +1579,7 @@ cosmetic-run
 cosmic-dash
 cosmic-hunt
 cosmo-merge
+cosmos-404
 cosplay-gamer-girls
 count-master-3d
 count-master-rush
@@ -1918,6 +1928,7 @@ dino-run-game
 dino-runner-birthday
 dino-simulator-city-attack
 dino-squad-battle-mission
+dino-t-rex-3d-run
 dinohop
 dinos-rush
 dinosaur-bone-game
@@ -2356,6 +2367,8 @@ farm-clear-the-jam
 farm-defenders
 farm-escape-puzzle-game
 farm-fresh-fix
+farm-house-crash-match-game
+farm-land-farming-life-game
 farm-mart
 farm-nubik-vs-zombies
 farm-vegetable-link
@@ -2617,6 +2630,7 @@ fractal-combat-x
 fragbyte
 fragen
 fragment
+fragments-of-wonder
 frame-agent-hidden-object-puzzle
 freaky-monster-rush
 freddys-return-village-escape
@@ -2997,6 +3011,7 @@ gun-shooting-game
 gun-shooting-games-sniper-3d
 gun-strike-runner
 gun-trigger
+gun-upgrade-rush
 gungame-paintball-wars
 gunman
 gunner-pursuit
@@ -3532,6 +3547,7 @@ junkyard-builder-3d
 junkyard-keeper
 just-golf
 k-challenge-456
+k-pop-demon-hunters-nail-studio
 k-pop-hunters-valentine-style
 k-pop-makeover-idol
 k-pop-stars-inspired-look
@@ -3686,6 +3702,7 @@ last-quiver
 last-shift
 last-to-leave-circle-obby
 last-train-escape
+last-z-survival-shooter
 latto-latto
 launch-jack
 launch-the-dummy
@@ -3715,6 +3732,7 @@ level-once-again
 life-of-a-tree
 lifebuoy-planing
 lifecode
+lift-brake-simulator
 lift-defender-zombie-carnage
 lift-the-girl
 light-house-save-the-ship
@@ -3954,6 +3972,7 @@ math-squares
 math-trivia
 mathematic-for-kids
 mathematics-frenzy
+mathmates-3d-brain-quest
 maths-puzzle
 mathtaless
 mathtest22
@@ -4271,6 +4290,7 @@ mother-simulator-husband-wife-games
 moto-3d-racing-challenge
 moto-adventure
 moto-bike-extra
+moto-bike-extreme-hill-stunts
 moto-extreme-halloween-land
 moto-flow
 moto-maniac-3
@@ -4572,6 +4592,7 @@ numicolor
 nummerge-clash
 numorapuzzle
 nut-and-bolt
+nut-bolt-puzzle-game
 nut-bolt-screw-puzzle-game
 nut-sort-build-the-city
 nutcracker-new-years-adventures
@@ -4793,6 +4814,7 @@ paper-ball-adventure-go
 paper-craft-wars
 paper-doll-diary-chibi-dolls
 paper-doll-dress-up
+paper-dolls-diy-diary
 paper-fighter-3d
 paper-flight-2
 paper-fold
@@ -5232,6 +5254,7 @@ ragdoll-runner-run-but-don-t-break
 ragdoll-rush-3d-sky-race
 ragdoll-show-throw-break-and-destroy
 ragdoll-survivor
+ragdoll-swordsman
 ragdoll-teleport-arena
 rage-maze-master
 rage-road-online
@@ -5451,6 +5474,7 @@ rolling-ball-halloween-escape
 rolling-ball-race
 rolling-balls-sea-race
 rolling-cheese
+rolling-color-ball-game
 rolling-cube-3d
 rolling-cubes-3d-puzzle
 rolling-donut
@@ -5550,6 +5574,7 @@ sandwich-runner
 sandwich-runner-game
 santa-and-the-chaser
 santa-city-run
+santa-claus-xmas-run
 santa-dungeon-of-doom
 santa-gift-delivery-christmas-game
 santa-gift-matching
@@ -5645,6 +5670,7 @@ sea-legends-match-3
 sea-port-controller
 sea-restore
 seafloor-racing
+search-the-needle
 season-change
 season-wiping-window
 seaweed-aqua
@@ -5920,6 +5946,7 @@ sniper-rush-target-blitz
 sniper-shooter-3d
 sniper-shooter-save-the-fish
 sniper-shooting-game
+sniper-shooting-offline-games
 sniper-silent-ridge
 sniper-strike
 sniper-vs-99-players
@@ -6162,6 +6189,7 @@ stacky-hero-master-game
 stacky-maze-game
 stage-show-designer
 stair-ball
+stair-ball-hyper-casual
 stair-race-3d
 staircase-to-heaven
 stairs-races-for-2-players
@@ -6498,6 +6526,7 @@ survivalist
 survive-lava-for-brainrots
 survive-the-disasters-obby
 survive-the-glass-bridge
+survive-the-night
 survivor-io-battle
 survivor-war-island-game
 sushi-bros
@@ -7232,6 +7261,7 @@ wonder-coloring
 wonder-goal-fun-football-kick
 wonder-vending-machine
 wondergrid
+wood-block-brain-puzzle
 wood-blocks-jam
 wood-bolts-nuts-screw-pin-puzzle
 wood-builder-tycoon
@@ -7258,9 +7288,11 @@ word-game-2026
 word-jam-association-puzzle
 word-ladder
 word-master-puzzle
+word-match-3d
 word-mosaic
 word-online-hunt
 word-puzzle-connect-words-and-letters
+word-puzzle-master-game
 word-runner-game
 word-safari
 word-search-and-quiz
