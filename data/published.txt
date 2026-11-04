@@ -31,6 +31,7 @@
 2-minute-football-qb-legend
 2-minutes-to-escape
 2-player-games-design-salon
+2-player-games-kids-kitchen
 2-player-games-mini-games
 2-player-games-princess-design-party
 2026-2027-cars-drag-puzzle
@@ -65,6 +66,7 @@
 3d-formula-racing-pro-edition
 3d-fps-target-shooting
 3d-laane-runner
+3d-maze-control
 3d-mini-curling
 3d-police-car-parking
 3d-pool-mania
@@ -264,6 +266,7 @@ apex-racer
 apexcircuit
 apocalypse-rush
 aqua-fish-dental-care
+aqua-fish-rush
 aqua-logics-puzzle-new
 aqua-sort-water-color-puzzle
 aquapark-shark
@@ -953,6 +956,7 @@ build-a-keycap-pyramid
 build-a-road
 build-a-rollercoaster-simulator
 build-a-skyscraper
+build-a-tower
 build-an-aquapark
 build-an-island
 build-and-defend-your-base
@@ -1130,6 +1134,7 @@ car-parking-game-parking-jam
 car-parking-master-3d
 car-parking-order
 car-parking-simulator-3
+car-parkour-challenge
 car-racing
 car-real-simulator
 car-rush-game
@@ -1508,6 +1513,7 @@ cooking-clash
 cooking-fever-happy-chef
 cooking-in-the-city-of-winds
 cooking-korean-lesson
+cooking-korean-lessons
 cooking-letters-word-search
 cooking-lunch-at-school
 cooking-match
@@ -1648,6 +1654,7 @@ cruel-fable
 crumb-bandit
 crumple-rumble
 crush-hour
+crush-the-blocks
 crush-yard-tycoon
 crusher-block
 crust-courier-pizza-bike-rush
@@ -1690,6 +1697,7 @@ cuesoccer
 cup-quest
 cuphead-rush
 curve-free-kick
+curve-master-football
 cut-art-master
 cut-cut-game
 cut-grass-for-brainrots
@@ -1813,6 +1821,7 @@ design-with-me-cute-tie-dye-tops
 desolate-isle-survival
 dessert-diy
 dessert-maker
+destroy-godzillas-3d-shooter
 destruction-simulator
 destructive-car-crash-simulator
 destructive-merger
@@ -1955,6 +1964,7 @@ dragon-merge
 dragon-merge-master-3d
 dragon-power
 drakkar-strike
+draw-a-perfect-circle
 draw-a-road
 draw-action
 draw-an-obby
@@ -2186,6 +2196,7 @@ escape-from-the-portal
 escape-from-the-toys-factory
 escape-from-wave-for-brainrots
 escape-from-whisker-street
+escape-maze
 escape-police-for-brainrots
 escape-school-duel
 escape-strange-girl-s-house
@@ -2266,6 +2277,7 @@ family-dash
 family-pet-dog-games
 family-simulator-beach-games
 family-squid-challenge
+fantastic-cubic-dash
 fantasticlandia
 fantasy-fish-world-mahjong
 fantasy-soccer-manager
@@ -2572,6 +2584,7 @@ fruit-drop
 fruit-drop-3d
 fruit-fusion
 fruit-immortal
+fruit-jam-master
 fruit-lane-cafe
 fruit-madness
 fruit-mahjong
@@ -2625,10 +2638,12 @@ funny-crazy-watermelon
 funny-cubes-2048
 funny-dentist-surgery
 funny-ear-surgery
+funny-eye-surgery-2
 funny-finds-hidden-object-game
 funny-food-duel
 funny-gummy-characters
 funny-hair-salon
+funny-hair-salons
 funny-haircut-2
 funny-kitty-care
 funny-nose-surgery
@@ -2644,6 +2659,7 @@ funny-rescue-zookeeper
 funny-shooter-2
 funny-shooter-destroy-all-enemies
 funny-snake-2
+funny-tattoo-shop-2
 funny-throat-surgery
 funny-volleyball
 funny-walk-fail-run
@@ -2684,9 +2700,11 @@ garfield-rush
 gas-station-24-simulator
 gas-station-simulator
 gas-station-stick-simulator
+gas-station-survival
 gate-rusher-2-game
 gear-fight
 gear-race-car-game
+gear-shift-race
 gears-of-war-beat-em-up
 gears-of-war-platformer
 geek-escape-run-for-survival
@@ -2940,6 +2958,7 @@ halloween-stickman
 halloween-stickman-2
 halloween-survivor
 halloween-tile-tumble
+ham
 hamada-yed7ak
 hammer-strike
 hammer-strike-destruction-zone
@@ -3702,6 +3721,7 @@ madness-online
 madness-ward-number-6
 mafia-billiard-tricks
 mag-roller
+magic-15-puzzle
 magic-action-gun-game
 magic-aim
 magic-block-sort
@@ -3812,6 +3832,7 @@ match-them-up
 matching-pair-game
 matching-pair-puzzle
 matching-tiles-3d
+math-advanced
 math-battle
 math-crosswords
 math-driving-test
@@ -3848,6 +3869,7 @@ meccha-chameleon-online
 mech-battle-arena
 mech-core-survivor
 mech-frontline-last-stand
+mecha-allstars-battle-royale
 mecha-screw-3d
 mechangelion-robot-fight
 mechanic-simulator-car-repair
@@ -3971,6 +3993,7 @@ millionaire-life
 milord-we-have-a-zombie-problem
 mimi-fish-market
 mind-games-for-2-3-4-player
+mind-math
 mindblow
 mine-and-rush-survival
 mine-block-breaker
@@ -4524,6 +4547,7 @@ obbytycoon-money-tycoon
 object-73-survival-clicker
 obunga-nextbot-spot-difference
 ocean-blast-block-puzzle
+ocean-catcher-fun
 ocean-dash
 ocean-match-crush
 ocean-match-puzzle
@@ -5262,6 +5286,7 @@ robotex
 robots-battle-mech-arena
 robots-world-battle
 robotu-rebellion
+rock-paper-scissors-adventure
 rock-slide
 rocket-bloom
 rocket-car-football-championship
@@ -5304,6 +5329,7 @@ rooftop-run
 rooftop-runner
 rooftop-shooters
 room-45
+room-chaos
 room-makeover-design-and-aesthetic
 rooster-ranch
 roots-and-wheels
@@ -6338,6 +6364,7 @@ sweet-merge-puzzle
 sweet-screw-factory
 sweet-solve
 sweet-supermarket-simulator
+sweet-triple-mahjong
 sweetflip
 sweets-merge
 sweetstack
@@ -6773,6 +6800,7 @@ uber-sim-transport-2020
 ugi-bugi
 ultimate-bike-stunt-racing
 ultimate-billiard-3d-game
+ultimate-block-puzzle
 ultimate-bus-simulator-game
 ultimate-car-driving-simulator-3d
 ultimate-car-parking-sim
@@ -7147,6 +7175,7 @@ zasteroid
 zen-garden-match
 zen-jigsaw-master
 zen-orbs-geometric-flow
+zero-g-wind-escape
 zestful-match
 zigzag-puzzle
 zigzag-snow-adventure
@@ -7198,6 +7227,7 @@ zombie-road-drive
 zombie-royale-io
 zombie-shooter-3d
 zombie-shooter-evil-outbreak
+zombie-shooter-sniper-game
 zombie-siege
 zombie-sniper
 zombie-space-episode-ii
