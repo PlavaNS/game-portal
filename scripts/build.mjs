@@ -639,8 +639,9 @@ function emitContent() {
     ${duo('duo-friends', tr('Play online with friends'), [tr('2 player games'), cHref('two-player'), 'two-player'], [tr('Online multiplayer'), cHref('multiplayer'), 'multiplayer'])}
     ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), 'kids'], [tr('Casual games'), cHref('casual'), 'hypercasual'])}
   </div>`;
-    const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${all.length.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
-  <section class="trio">${gotd}${hero}${gotw}</section>
+    const body = `<section class="trio">
+  <header class="welcome trio-head"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${all.length.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
+  ${gotd}${hero}${gotw}</section>
   ${bnOwn}
   ${grid(ours)}
   ${bnTrend}

@@ -651,3 +651,7 @@ body.menu-open .drawer{transform:none;visibility:visible}
   .trio-item+.trio-item{border-left:0;border-top:1px solid var(--line)}
   .trio-text h2{font-size:19px}
 }
+.trio-head{grid-column:1/-1;margin:0;padding:20px 22px 18px;text-align:center;border-bottom:1px solid var(--line)}
+.trio-head h1{font-size:23px}
+.trio-head p{font-size:14px}
+@media (max-width:860px){.trio-head{padding:16px 14px 14px}.trio-head h1{font-size:18px}.trio-head p{font-size:13px}}
