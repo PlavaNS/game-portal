@@ -12,6 +12,7 @@
 1-speed-superhero-obby
 1-strength-for-escape
 1-wings-escape
+1-wings-keyboard-speed
 1-zombie-survival
 100-doors-escape-from-prison
 100-doors-escape-mysteries
@@ -115,6 +116,7 @@ abyssal-echoes
 abyssborn
 ace-brawl-battle-3d
 ace-car-racing
+ace-drift-3d
 acox
 advance-car-game-parking
 advance-car-parking-driver-simulator
@@ -238,6 +240,7 @@ animal-daycare-game
 animal-evolution-simulator
 animal-finding
 animal-hair-salon
+animal-helicopter-rescue-game
 animal-hospital
 animal-impossible-track-rush
 animal-kart
@@ -873,6 +876,7 @@ bowmasters2
 box-brothers
 box-it-up
 box-journey
+box-magician
 box-playground-punch-it
 box-press-puzzle
 box-roller
@@ -980,6 +984,7 @@ bubble-rush
 bubble-shooter-aura
 bubble-shooter-blast-mania
 bubble-shooter-challenge
+bubble-shooter-clash-blast-online
 bubble-shooter-classic-online
 bubble-shooter-crystal-hunt
 bubble-shooter-island-quest
@@ -1076,6 +1081,7 @@ bus-mania-parking-puzzle
 bus-master-road-journey
 bus-n-ball-jam
 bus-out-bus-away-traffic-jam
+bus-park-3d
 bus-parking-out
 bus-rush
 bus-school-park-driver
@@ -1325,6 +1331,7 @@ cavern-run-endless-runner-game
 celebrities-get-ready-for-christmas
 celebrity-lol-funny-face
 celebrity-thanksgiving-prep
+cellf-defense
 cerkio
 chain-cube-2048-3d-merge-game
 chain-n-gain
@@ -1532,6 +1539,7 @@ color-dash-chameleon-runner
 color-dots-challenge
 color-fall
 color-hole
+color-jam-3d
 color-lines
 color-loom-puzzle
 color-madness-spot-the-differences
@@ -1591,6 +1599,7 @@ commando-gun-shooting
 commit
 comparing-numbers-quick-math-game
 computer-valley
+confusionsinmath-5-8
 connect-associations
 connect-hero
 connect-monsters
@@ -1722,6 +1731,7 @@ crazy-pixel-apocalypse-4-ui-2026
 crazy-plane-shooter
 crazy-plinko
 crazy-revolution-police-runner-hyper-casual
+crazy-rocket-man
 crazy-room-3d
 crazy-runner
 crazy-runner-boy
@@ -1811,6 +1821,7 @@ cube-zone-master
 cubegate
 cubetopia-parkour
 cubic-coil
+cubic-rush1
 cuddle-crane
 cuesoccer
 cup-quest
@@ -2257,6 +2268,7 @@ dye-it-right-color-picker
 e-rickshaw-simulator
 ear-doctor-care-game
 earth-dunk-physics-arcade-game
+easiest-maths
 easter-funny-makeup
 easter-match-3-saga
 easy-apple-coloring-book
@@ -2340,6 +2352,7 @@ epic-mine
 epic-race-game
 epic-racing-descent-on-cars
 epic-robot-combat-simulator
+epic-runner-parkour-game
 epic-sword-battle-fight-in-the-ragdoll-arena
 epicrolla
 epicshooter3d
@@ -2381,6 +2394,7 @@ euro-truck-parking
 euro-truck-parking-game
 evade
 even-odd-dice
+event-horizon-black-hole-idle
 eventide
 everwild-survival
 evil-granny-city-terror
@@ -2581,6 +2595,7 @@ fish-aquarium-game
 fish-eat-grow-mega
 fish-factory
 fish-hunting
+fish-hunting-frenzy-shooter-game
 fish-love-game
 fish-rain
 fish-rain-2
@@ -2917,6 +2932,7 @@ gem-clicker
 gem-drop
 gem-legends
 gem-mahjong
+gem-runner
 gem-sort-puzzle
 gemcrash
 gems-sort-puzzle
@@ -3424,6 +3440,7 @@ horizon-racer
 horror-eye
 horror-sniper-clown-ghost
 horrorland-defense
+horse-kart-runner-game
 horse-racing
 horse-simulator-3d
 hose-money-robber
@@ -3635,6 +3652,7 @@ jigsaw-puzzle-game
 jigsaw-puzzles
 jigsaw-solitaire-puzzle
 jigsaw-sort
+jigsawadventure
 jigsolitaire-deluxe
 jigsolitaire-puzzle
 jigzoquest
@@ -3649,6 +3667,7 @@ johnny-trigger-3d-online
 join-clash-3d
 join-clash-epic-battle
 join-the-gang-and-fight
+joker-ritual
 joy-tiles-easy
 joyful-ball
 juice-machine
@@ -3898,6 +3917,7 @@ line-of-defense
 line-runners
 line-to-goal-draw-the-path
 lineo
+link-flow
 link-me-to-the-factory
 lion-prince
 lion-safari-jigsaw-puzzles
@@ -3993,6 +4013,7 @@ mag-roller
 magic-15-puzzle
 magic-action-gun-game
 magic-aim
+magic-beauty-makeup
 magic-block-sort
 magic-castle-invasion-idle-rpg
 magic-circus-match-3
@@ -4137,6 +4158,7 @@ max-speed
 max-the-secret-of-grandpa-s-letter
 maya-brick-breaker-3
 maze-bomber-game
+maze-boom
 maze-escape-challenge
 maze-escape-hero
 maze-evolution
@@ -4401,6 +4423,7 @@ monster-cafe-idle-tycoon-127052
 monster-cafe-idle-tycoon-38309
 monster-card-shop
 monster-chef
+monster-city
 monster-dinosaur-rampage-city-attack
 monster-egg
 monster-escape-logic-puzzle-adventure
@@ -4964,6 +4987,7 @@ outfit-love-queen
 outpost-9
 outpost-siege
 outside
+overlook-tank-war
 overstuffed
 owl-block
 owl-hunter
@@ -5007,6 +5031,7 @@ paper-dolls-diy-diary
 paper-fighter-3d
 paper-flight-2
 paper-fold
+paper-life
 paper-panzer
 paper-stick-figures
 paperly-paper-plane-adventure
@@ -5136,6 +5161,7 @@ ping-pong-ball-game
 ping-pong-battle-table-tennis
 ping-pong-table-tennis
 pinny-go-home
+pipe-connect-puzzle
 pipe-connect-puzzle-game
 pipe-out-game
 pirate-block-craft-monster-shooter
@@ -5903,6 +5929,7 @@ sea-legends-match-3
 sea-port-controller
 sea-restore
 seafloor-racing
+seafloor-racing-3d
 search-the-needle
 season-change
 season-wiping-window
@@ -6864,6 +6891,7 @@ tank-stormy
 tank-strike-wasteland-rogue
 tank-war-battle-game
 tank-war-simulator-game
+tank-wrestle
 tankcraft-war-tank-battles
 tankhit
 tanknarok
@@ -6874,6 +6902,7 @@ tanks-battle-royale
 tanks-blitz
 tanks-for-the-nation
 tanks-of-liberty-online
+tanks-of-war-halloween
 tap-3d-wood-block-away
 tap-away-block-puzzle-3d
 tap-basket
@@ -6881,6 +6910,7 @@ tap-gallery
 tap-hunters
 tap-me
 tap-out-gallery
+tap-react-plus
 tap-tap-reloaded
 tap-the-crop
 tap-think-save-the-kitten
@@ -6936,6 +6966,7 @@ the-best-memory
 the-biggest-number
 the-black-and-white
 the-block-escape
+the-bunny-vs-the-gardener
 the-cargo
 the-cow-of-the-apocalypse
 the-depth-of-the-limbo
@@ -7256,6 +7287,7 @@ two-cups
 two-dot-connect-game
 two-impostor-squid-challenge
 two-minute-drill
+two-player-red-hands-game
 two-punk-racing-2
 uber-sim-transport-2020
 ugi-bugi
@@ -7269,6 +7301,7 @@ ultimate-chess
 ultimate-dart-wheel
 ultimate-evolution
 ultimate-flying-car
+ultimate-flying-eagle-game
 ultimate-horse-simulator
 ultimate-knockout-race
 ultimate-lawn-mowing-simulator-mower-master
@@ -7364,6 +7397,7 @@ velopter
 vexon
 viaducts
 vials-asmr-sand-sort-puzzle
+victory-over-the-monster
 viking-guard-game
 viking-war
 vikings
@@ -7463,6 +7497,7 @@ web-swing-obby-aqualand
 wedding-artist2
 wedding-beauty-makeup-salon-indian-designer
 wedding-rush-race
+wednesday-halloween-cave
 wednesday-s-battle-monster-symphony
 weight-adjust-game
 weight-balance-journey
