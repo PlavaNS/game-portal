@@ -171,6 +171,7 @@ allpeopletug
 almost-infinite
 alpha-balls
 alpha-guns
+alphabet-count-rush
 alphabet-kitchen
 alphabet-mahjong
 alphabet-merge-challenge
@@ -796,6 +797,7 @@ bouncing-egg
 bouncing-eggs
 bouncy-arrow
 bouncy-ball
+bouncy-ball-jump
 bouncy-dunk
 bouncy-motors
 bound-to-defend
@@ -917,6 +919,7 @@ bubble-shooter-mega
 bubble-shooter-party
 bubble-shooter-pet-match-3
 bubble-shooter-pro-2026
+bubble-shooter-relaxing-puzzle
 bubble-shooter-squirrel-rescue
 bubble-shooter-tap-and-pop
 bubble-shooter-vale
@@ -1450,6 +1453,7 @@ color-switch-dash
 color-the-room
 color-tower-2-drop-the-boxes-3d
 color-water-sort-3d
+color-wood-animal-jam
 colordock
 colored-water-and-pin
 colored-water-and-pin-33546
@@ -1859,6 +1863,7 @@ dinosaur-boom-boom
 dinosaur-city-hunting-destroy
 dinosaur-dig
 dinosaur-game
+dinosaur-merge-quest
 dinosaur-rampage
 dinosaur-shifting-run
 dinoz
@@ -2603,6 +2608,7 @@ fun-fishing
 fun-jigsaw-puzzle
 fun-jigsaw-puzzle-game
 fun-memory
+fun-mini-games-for-kids
 fun-race-car-3d
 fun-ragdoll-challenge-mini-games-collection
 fun-sorting-through-the-shelves
@@ -2623,9 +2629,11 @@ funny-finds-hidden-object-game
 funny-food-duel
 funny-gummy-characters
 funny-hair-salon
+funny-haircut-2
 funny-kitty-care
 funny-nose-surgery
 funny-pet-haircut
+funny-pet-haircut-2
 funny-prank-sounds
 funny-puzzle-cats
 funny-ragdoll-wrestlers
@@ -2974,6 +2982,7 @@ hatch-or-steal-online
 hatch-surprise-pets
 hatch-that-egg-tap-and-crack
 hatchfire-dragon-brick-breaker
+hatchling-heroes-arena
 haunted-house-idle
 haunted-inn
 haunted-panic
@@ -3089,6 +3098,7 @@ highway-rush
 highway-rush-overdrive
 highway-traffic-racer-3d
 hill-climb-2022
+hill-climb-racing-adventure
 hill-climb-racings-2
 hill-climb-truck-transform-adventure
 hill-climber
@@ -3191,6 +3201,7 @@ hungry-rabbit
 hungry-snail
 hungry-squirrel
 hungry-warrior-fight
+hunter-underwater-spearfishing
 hunters-and-props
 hunting-frog
 hunting-master
@@ -3238,6 +3249,7 @@ idle-cookie-tycoon
 idle-craft-3d
 idle-crafting-empire-tycoon
 idle-dairy-tycoon
+idle-defense-grid
 idle-desert-life
 idle-game-dev-simulator
 idle-gold-miner
@@ -3596,6 +3608,7 @@ lilliput-war
 limited-defense
 limo-city-taxi-driver
 line-color-2d
+line-color-puzzle-game
 line-control
 line-of-defense
 line-runners
@@ -3863,6 +3876,7 @@ memoplay
 memorize-and-repeat-the-shape
 memory
 memory-cards
+memory-emoji
 memory-master
 memorya
 memorybot
@@ -4182,6 +4196,7 @@ mummy-land
 munch-mob
 murder-mafia
 muscle-clicker-2
+muscle-master-quest
 muscle-race-game
 muscle-run-io
 muscle-rush-3d
@@ -4206,6 +4221,7 @@ my-army-base
 my-bakery
 my-ball-escape
 my-castle-merge-and-story
+my-cat-restaurant
 my-city-hospital
 my-clearn-robot
 my-cute-virtual-pet
@@ -4274,6 +4290,7 @@ neon-circuit
 neon-circuit-rush
 neon-city-drift-racing
 neon-dash-survive-the-dash
+neon-directive
 neon-goal
 neon-jumper
 neon-maze
@@ -4764,6 +4781,7 @@ pirates-merge-war-path
 pirates-tiles-challenge
 pistonio
 pixel-adventure-3d
+pixel-amphibian
 pixel-art-color-by-numbers
 pixel-art-stealer
 pixel-car-memory-quest
@@ -4915,6 +4933,7 @@ power-water-clean-rush
 prado-car-driving
 prado-parking-game
 prasino
+precision-car-parking-3d
 precision-parking-city-driver
 precision-parking-pro
 pregnant-mom-simulator-family-life
@@ -4942,6 +4961,7 @@ prison-ball
 prison-break-architect-tycoon
 prison-escape-online
 prison-escape-push-the-guards
+prison-master-escape-journey
 prison-survive-break-escape
 prison-twins
 prisoners-run
@@ -5491,6 +5511,7 @@ shape-defense
 shape-factory-fun
 shape-fear-and-fun
 shape-jam
+shape-merge-run
 shape-shift-survival
 shape-switch
 shape-transform
@@ -5722,6 +5743,7 @@ sniper-master
 sniper-mission-war
 sniper-pixel-shooting
 sniper-rooftop-defense
+sniper-rush-target-blitz
 sniper-shooter-3d
 sniper-shooter-save-the-fish
 sniper-shooting-game
@@ -5872,6 +5894,7 @@ spikes-and-feathers
 spikes-everywhere-game
 spil-clash-3d-ultimate-arena
 spill-and-knock-down
+spill-the-wine
 spin-and-collect
 spin-and-mow
 spin-color
@@ -5977,6 +6000,7 @@ star-wing
 stardom-alt-girls-fashion-duel
 starforge-boss-rush
 starpoly
+starry-bridge-physics-puzzle
 starship-ducks
 starship-troopers
 starweave-star-puzzle
@@ -6020,6 +6044,7 @@ stick-duel-the-war
 stick-fight-arena
 stick-fighter-3d
 stick-fruit-arcade-game
+stick-hero-battle
 stick-hero-tower-defense
 stick-man-battle-fighting
 stick-master-teleport
@@ -6163,8 +6188,10 @@ subway-surfers-cambridge
 subway-surfers-havana-2021
 subway-surfers-in-berlin
 subway-surfers-zurich
+subway-walker
 subway-winter-vacation
 suck-it-all
+sudoku-9x9
 sudoku-block-puzzle
 sudoku-for-bro
 sudoku-master
@@ -6607,6 +6634,7 @@ tower-of-asmr
 tower-platformer-3d
 tower-siege
 tower-tap
+tower-war
 towers-505
 town-builder-inc
 toxic-arena-biological-threat
@@ -6715,6 +6743,7 @@ tung-sahur-io
 tung-tung-sahur-hidden-bedug
 tung-tung-sahur-lol-face
 tung-tung-super-sahur
+tunnel-drift
 tunnel-escape
 tunnel-heist
 turbo-boat-runner-3d
@@ -7104,6 +7133,7 @@ yummy-churros-ice-cream
 yummy-churros-ice-cream-2
 yummy-cupcake
 yummy-hotdog
+yummy-hotdog-2
 yummy-shelf
 yummy-toast
 yummy-toast-2
