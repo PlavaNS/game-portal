@@ -69,12 +69,14 @@
 3d-formula-racing
 3d-formula-racing-pro-edition
 3d-fps-target-shooting
+3d-kid-sliding-puzzle
 3d-laane-runner
 3d-maze-control
 3d-mini-curling
 3d-police-car-parking
 3d-pool-mania
 3d-pyramid-maze
+3d-sniper-shooting-game
 3d-super-rolling-ball-race
 3d-triple-match
 4-clues-1-word
@@ -218,11 +220,13 @@ angry-grandmother-run
 angry-pets-3d-boom
 angry-sharks
 angry-zombies-in-sight
+angry-zombies-war-game
 animal-basketball
 animal-blocks
 animal-boxing
 animal-bubble-blast
 animal-bubble-pixel
+animal-bus-traffic-jam
 animal-care-tycoon
 animal-clinic-anomaly
 animal-daycare-game
@@ -284,6 +288,7 @@ aqua-fish-dental-care
 aqua-fish-rush
 aqua-logics-puzzle-new
 aqua-sort-water-color-puzzle
+aqualogics-puzzles-game
 aquapark-shark
 aquapark-surfer-race
 aquarium-of-surprises
@@ -616,6 +621,7 @@ big-rolling-ball
 big-shark
 big-smash
 big-space-adventure
+big-supermarket-simulator
 big-wheels
 big-wild-bucks-voxel-buck-hunter
 bike-mania-2
@@ -710,6 +716,7 @@ block-puzzle-chuzzle-classic
 block-puzzle-jewel
 block-puzzle-jewel-block
 block-puzzle-king
+block-puzzle-legend
 block-puzzle-prize-mania
 block-puzzle-tropical-story
 block-sculptor
@@ -1949,6 +1956,7 @@ dino-egg-shooter
 dino-funny-digging
 dino-hide-n-shoot
 dino-huntress
+dino-idle-park
 dino-meat-hunt-new-adventure
 dino-merge-island
 dino-robot-fighting-war
@@ -1964,6 +1972,7 @@ dinosaur-boom-boom
 dinosaur-city-hunting-destroy
 dinosaur-dig
 dinosaur-game
+dinosaur-games-for-toddlers
 dinosaur-merge-quest
 dinosaur-rampage
 dinosaur-shifting-run
@@ -2197,6 +2206,7 @@ dungeon-solitaire
 dungeonsquest
 dunjun
 dunk-up-basketball
+dunkchallenge
 dunkeon-dino
 dunkers-fight
 dunkin-beanz
@@ -2681,6 +2691,7 @@ fragen
 fragment
 fragments-of-wonder
 frame-agent-hidden-object-puzzle
+frank-in-geometry-maps
 freaky-monster-rush
 freddys-return-village-escape
 free-fall-game
@@ -2926,6 +2937,7 @@ go-balloons
 go-find-the-cake
 go-golf
 go-kart-racing-game
+go-mafalda
 go-monkey-and-banana
 go-octopus-find-pearl
 go-up
@@ -3175,6 +3187,7 @@ head-puzzle-shooter
 head-soccer-2023
 head-the-ball
 head-volleyball-sport-game
+health-protection
 heart-box
 heart-calcopus
 heaven-and-hell-idle
@@ -3195,6 +3208,7 @@ help-me-tricky-story
 help-me-tricky-story-of-puzzles
 help-police
 help-tricky-story-a-complicated-story
+hen-bubble-go-up-game
 hero-city
 hero-defense-king
 hero-jump-city-nights
@@ -3557,6 +3571,7 @@ jigsaw-puzzle-game
 jigsaw-puzzles
 jigsaw-solitaire-puzzle
 jigsaw-sort
+jigsolitaire-deluxe
 jigsolitaire-puzzle
 jigzoquest
 jim-s-world-adventure-games
@@ -3783,6 +3798,7 @@ learn-to-play-pitch
 left-4-die
 leftover-screw
 leg-soccer
+legend-dream-football-game
 legends-arena
 legions-way-of-war
 legiontide-army-runner
@@ -4097,6 +4113,7 @@ memory-lane
 memory-master
 memorya
 memorybot
+men-vs-gorillas
 meow-block-color-collect
 meow-captcha
 meow-pair-pop
@@ -4175,6 +4192,7 @@ metal-shooter-brother-squad
 metastack
 mexico-rex-2
 mfps-military-combat
+miami-city-crime-simulator-game
 mice-hunt
 mice-rush
 micro-gt-racing
@@ -4340,6 +4358,7 @@ monster-truck-simulator-game
 monster-truck-stunt-game-racing-games
 monster-truck-stunt-racer
 monster-truck-supra-race
+monster-truck-zombies-game
 monster-trucks-kids-racing
 monster-trucks-sky-stunts
 monster-versus-human
@@ -4612,6 +4631,7 @@ no-i-m-not-a-plankton
 no-one-survives-1-minute
 no-shorts
 no-stress-game-challenges
+no-wifi-mini-games-2025
 noescape
 noillirk
 nokia-3310-snack-game
@@ -4992,6 +5012,7 @@ pets-roll-clicker
 pga3-survival
 phone-case-diy
 phone-case-diy-2
+phone-case-diy-kpop-fans
 physics-box-2
 physics-sandbox
 piano-hexa-fall
@@ -5186,6 +5207,7 @@ potion-kitchen
 potion-siege
 pow
 power-ball-soccer
+power-boat-racing-game
 power-crusher
 power-puncher
 power-shift-arena
@@ -5281,6 +5303,7 @@ puzzle-box-connect
 puzzle-candle
 puzzle-drive
 puzzle-fight
+puzzle-legends-game-of-heroes
 puzzle-match-kit
 puzzle-parents-baby-s-path-home
 puzzlebot
@@ -5500,6 +5523,7 @@ road-designer
 road-fury-racing
 road-gunner-3d
 road-madness
+road-of-fury-4
 road-race-3d
 road-racer-2
 road-rage
@@ -5923,6 +5947,7 @@ skyfury
 skygarden-siege
 skyhop
 skyslime-adventures
+skytap-dash
 slalom-hero
 slalom-ski-simulator
 slap-battle-arena-online
@@ -6103,6 +6128,7 @@ soldier-shooting
 soldiers-runner
 solitaire-8-collection
 solitaire-card-sort-puzzle
+solitaire-card-sorting
 solitaire-emperor-secrets-of-fate
 solitaire-klondike-treasure-island
 solitaire-match-puzzle
@@ -6485,6 +6511,7 @@ stretch-guy
 strike-bullet
 strike-force-action-platformer
 strike-galaxy-attack
+strike-the-can-game
 strykio
 strykon
 stumble-boys-party-royale
@@ -6600,6 +6627,7 @@ super-willie-world
 super-wings
 super-world-adventure
 super-zombie-driving
+super-zombie-shooter-2
 superbike-hero
 supercar-battle-arena
 supercar-stunts-2023
@@ -6918,6 +6946,7 @@ time-of-adventure-ice-king
 time-puzzle
 time-stop
 time-travel-tower-rush-td
+timely-delivery
 timer-cannon
 tiny-arena
 tiny-army
@@ -6975,6 +7004,7 @@ toy-block-blast
 toy-box-blast
 toy-factory
 toy-factory-conveyor
+toy-rumble-3d
 toy-smash
 toy-soccer-cup
 toytopia
