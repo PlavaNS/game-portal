@@ -593,7 +593,10 @@ function emitContent() {
       const BRANDY = /\b(cuphead|mario|luigi|sonic|pokemon|pokémon|pikachu|minecraft|roblox|among ?us|squid ?game|huggy|poppy playtime|fnaf|five nights|granny|subway surf|temple run|gta|grand theft|fortnite|spider ?man|batman|superman|barbie|frozen|elsa|anna|hello kitty|naruto|dragon ?ball|goku|ben ?10|paw patrol|peppa|tom and jerry|angry birds|flappy|slither|zelda|pac ?-?man|tetris|sponge ?bob|mickey|disney|marvel|avengers|star wars|harry potter|minions|skibidi|rainbow friends|geometry dash|stumble guys|brawl stars|clash royale|fall guys|friday night funkin|undertale|terraria|doom|halo|zombie tsunami|talking tom|angela)\b/i;
       // and nothing scary: this sits at the top of a family homepage
       const SCARY = /(siren ?head|\bscp\b|slender|\bmomo\b|ice ?scream|creepy|horror|scary|haunted|evil nun|backrooms|jumpscare|nightmare|\bgore\b|killer|murder)/i;
-      const safe = x => !BRANDY.test(x.title) && !SCARY.test(x.title) && !SCARY.test((x.tags || []).join(' ')) && !(x.cats.all || []).some(c => /horror|scary/.test(c));
+      // nothing with guns or fighting in the homepage slot either
+      const ROUGH = /(shoot|sniper|gun|war\b|army|military|combat|kill|blood|fight|battle royale|clash|strike|assault|weapon)/i;
+      const safe = x => !BRANDY.test(x.title) && !SCARY.test(x.title) && !ROUGH.test(x.title)
+        && !SCARY.test((x.tags || []).join(' ')) && !(x.cats.all || []).some(c => /horror|scary|shooting|zombie/.test(c));
       const pool = mostPlayed(300).filter(x => !x.own && !x.community && x !== gw && safe(x));
       if (!pool.length) return '';
       const g = pool[(Math.floor(Date.now() / 864e5) * 7919) % pool.length];
