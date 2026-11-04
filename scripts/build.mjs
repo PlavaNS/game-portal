@@ -617,10 +617,12 @@ function emitContent() {
     })();
     // Game of the month: the most played game here this month, with the best rated of those first
     const gotm = (() => {
-      const pool = mostPlayed(80).filter(x => !x.own && !x.community && x.slug !== gotdSlug && x !== gw && safe(x));
+      const pool = games.filter(x => !x.own && !x.community && x.slug !== gotdSlug && x !== gw && safe(x));
       if (!pool.length) return '';
-      const rated = pool.filter(x => voteCount(x) >= 5).sort((a, b) => voteScore(b) - voteScore(a));
-      const g = rated[0] || pool[0];
+      // Marko (04.11.2026): the month's pick is simply the game with the most thumbs up from our players
+      const ups = x => (VOTES[x.slug] || { up: 0 }).up;
+      const liked = pool.filter(x => ups(x) > 0).sort((a, b) => ups(b) - ups(a) || voteScore(b) - voteScore(a));
+      const g = liked[0] || mostPlayed(80).filter(x => !x.own && !x.community && x.slug !== gotdSlug && x !== gw && safe(x))[0] || pool[0];
       const d = (g.short || g.description || '').replace(/\s+/g, ' ').trim();
       const now = new Date(), mon = `${now.getFullYear()}-${String(now.getMonth() + 1).padStart(2, '0')}`;
       let label = mon; try { label = now.toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { month: 'long', year: 'numeric' }); } catch {}
