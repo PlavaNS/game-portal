@@ -78,6 +78,7 @@
 4-in-a-blow
 456-impostor
 456-survival-squid-challenge
+4x4-fury-offroad-jeep
 5-nights-at-tung-tung-hotel-horror-3d
 6x6-offroad-jeep
 8-ball-pool-2d
@@ -321,6 +322,7 @@ arrows-idle
 arrows-make-it-cozy
 arrows-out
 arrows-out-3d
+arrows-puzzle-escape
 arrows-puzzle-escape-tap-arrows
 arrowshift-classic
 arrowtix-train-your-brain
@@ -605,6 +607,7 @@ bird-sort-puzzles
 bird-tile-trio
 birdflying
 birds-jump-2
+birdy-mad-throw
 birdy-trip
 biryani-cooking-indian-super-chef-food-game
 bitbanda
@@ -1007,6 +1010,7 @@ call-of-modern-world-war
 call-of-ops-3-zombies
 call-of-tanks
 camel-destroyer
+camp-arrange
 candle-run-game
 candlebound-coven
 candy-ball-blast
@@ -1121,6 +1125,7 @@ card-quest
 card-quest-10-minute-adventure
 card-solitaire-word-game
 card-sort-challenge
+card-sort-solitaire
 cardivo-adventure
 cards-in-fool
 career-rush
@@ -1140,6 +1145,7 @@ cars-vs-blocks
 cars-vs-zombies
 cartoon-airplanes-jigsaw-puzzles
 cartoon-cat-naughty-kitten
+cartoon-cat-scary
 cartoon-mahjong
 cartoon-traffic-racing-paper-derby
 carvivor-ops
@@ -1260,6 +1266,7 @@ christmas-sledge-rider-3d
 chroma-trek
 chromapath
 chromaspin
+chromatic-coil
 chrome-dino-game-original
 chu-choo-cake
 chubby-duck-jump
@@ -1316,6 +1323,7 @@ clean-the-garden
 clean-up-mini-games
 clearfell-forest-outpost
 clever-crow
+clever-match
 click-and-colors-dinosaurs
 click-and-idle-slimes
 click-click-clicker
@@ -1481,6 +1489,7 @@ counter-craft-zombies
 counter-sniper-1-6-egypt
 counter-terror-battle-simulator
 courageous-sniper
+cover-shooting-gun-game
 cow-cow-run
 cow-jam-farm-puzzle
 cow-rescue
@@ -1938,6 +1947,7 @@ dream-football-game
 dream-head-soccer-game
 dream-home
 dream-home-merge-story
+dream-kids-monster-blaster
 dream-kitchen
 dream-puppy-spot-the-differences
 dream-restaurant-tycoon
@@ -2010,6 +2020,7 @@ dungeon-solitaire
 dungeonsquest
 dunjun
 dunk-up-basketball
+dunkeon-dino
 dunkers-fight
 dunkin-beanz
 duo-match-3d
@@ -2173,6 +2184,7 @@ fair-blocks
 fairies-heart-style
 fake-hunter
 fake-ninjas
+fall-ball-idle
 fall-beans-game
 fall-boys-ultimate-knockout
 fall-bros
@@ -2328,6 +2340,7 @@ fishdom
 fishdom-online
 fisher-clicker
 fishflip
+fishing-baron-real-fishing
 fishing-catch-the-moment
 fishing-frenzy
 fishing-hunting-game
@@ -2637,6 +2650,7 @@ geometry-vibes-x-ball
 geometryrush
 geosmarty
 geovex-daily-geography-challenge
+germaway
 get-10
 get-10-ultimate
 get-a-screw-puzzle
@@ -2978,6 +2992,7 @@ hidden-objects-island
 hidden-objects-island-secrets
 hidden-objects-recipe-collection
 hidden-paint-3d
+hidden-shop-hunt
 hidden-sniper-camo-hunter-3d
 hidden-turtle
 hidden-word-puzzle
@@ -3118,11 +3133,13 @@ i-am-crazy-bird
 i-can-paint
 i-get-you
 i-scream-icecream
+i-show-running-2d
 i-want-ice-cream
 i-want-to-be-king
 ice-and-fire-twins
 ice-ball-run
 ice-blast-buddies
+ice-cream-asmr-diy-games
 ice-cream-inc
 ice-cream-sorting
 ice-cream-vendor
@@ -3137,6 +3154,7 @@ icymatch
 idle-airport-tycoon
 idle-bank
 idle-chicken-farm
+idle-chop-miner
 idle-cinema-tycoon
 idle-city
 idle-cookie-tycoon
@@ -3225,6 +3243,7 @@ jelly-merge-2026
 jelly-merge-dooper
 jelly-mix-up
 jelly-mob-rush
+jelly-paint-wars
 jelly-path
 jelly-pop-defense
 jelly-run-in-2048
@@ -3318,6 +3337,7 @@ katana-upgrade
 katana-zero-borrowed-seconds
 keep-her-alive
 keepie-uppie-paddle-pong
+kendel-7-days-7-styles
 key-and-shield-2
 keyboard-escape-1-speed-sweets
 keyboard-escape-classic
@@ -3349,6 +3369,7 @@ kinetic-puzzle
 king-boxing-2024
 king-dungeon
 king-of-ball
+king-of-boxer
 king-of-crabs
 king-of-fishing
 king-of-mahjong-connecting-tiles
@@ -3380,6 +3401,7 @@ kiwi-adventure-game
 klondike-solitaire-treasures
 knee-surgery-clicker
 knife-battle
+knife-hit-challenege-game
 knife-ring-io
 knife-run-game
 knife-slice-3d
@@ -3448,6 +3470,7 @@ last-night
 last-play-ragdoll-sandbox
 last-shift
 last-to-leave-circle-obby
+last-train-escape
 latto-latto
 launch-jack
 launch-the-dummy
@@ -3836,6 +3859,7 @@ mike-lost-in-desert-hidden-object
 miki-oath
 military-strike
 military-vehicle-driving-simulation
+million-coin-vault
 millionaire-factory
 millionaire-life
 milord-we-have-a-zombie-problem
@@ -4022,6 +4046,7 @@ motorcycle-racer-road-mayhem
 motorcycle-stunts-drive
 mountain-bike-challenge
 mountain-bike-xtreme
+mountain-run
 mountain-tank
 mouse-survivor
 moutain-jeep-drive
@@ -4157,6 +4182,7 @@ neon-maze
 neon-nexus-3d
 neon-shot
 neon-snake
+neon-space-defender
 neon-square-rush
 neon-striker
 neon-switch
@@ -4463,10 +4489,12 @@ outfit-love-queen
 outpost-9
 outpost-siege
 outside
+overstuffed
 owl-block
 owl-hunter
 oxy-arena
 pacific-ocean-adventure
+package-deliver-game
 paco-paco
 pager-war
 paint-and-escape
@@ -4845,6 +4873,7 @@ push-the-box
 push-the-crazy-crowd-stickman-clash-3d
 push-the-frog
 push-to-go
+pusher-monsters
 pushplush
 put-out-the-fire
 put-the-candy
@@ -5545,6 +5574,7 @@ snake-train-zone
 snake-vs-ai
 snake-war-game
 snake-warz
+snake-warz-eat-and-survive
 snake-way
 snake-wiggle-master
 snakearmydefense
@@ -5715,6 +5745,7 @@ spil-clash-3d-ultimate-arena
 spill-and-knock-down
 spin-and-collect
 spin-and-mow
+spin-color
 spinhue
 spinner-clicker-2d
 spinning-cat-clicker
@@ -5741,6 +5772,7 @@ sportloop
 sports-escape-mania
 sports-minibattles
 sporty-viper
+spot-differences-bird-adventure
 spot-the-difference-mystic-mermaids
 spot-the-difference-wild-west
 spotless
@@ -6601,6 +6633,7 @@ unfamiliar-object
 unicorn-chef-mermaid-cake
 unipairs
 unite-words
+unity-mini-games-hub-relax
 universal-multiplayer-shooter
 unno-game
 uno-online
@@ -6712,6 +6745,7 @@ warfare-1942-online-shooter
 warfare-area
 warfare-area-3
 warlock-king-castle-defense
+warm-paws-merge-and-cat
 warrior-bee-apocalypse
 warrior-clash
 warrior-way
