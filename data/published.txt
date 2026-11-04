@@ -369,6 +369,7 @@ asmr-cat-doctor-clinic
 asmr-fun-relaxing-games
 asmr-image-match-puzzle
 asmr-keyboard-escape-classic
+asmr-mini-puzzle-games-2024
 asmr-obby-slicer
 asmr-pet-treatment
 asmr-spa
@@ -1216,6 +1217,7 @@ cargomatchmaster
 carletto-halloween-dreams
 carmania-io
 carrom-club
+carrom-pro
 carrush
 cars
 cars-challenge
@@ -1388,6 +1390,7 @@ city-car-driver-mega-real-sim
 city-car-driver-street-racing-2
 city-car-driving-game
 city-car-driving-simulator
+city-car-pick-and-drop-game
 city-car-stunt-3
 city-car-stunt-4
 city-cash-race
@@ -1594,6 +1597,7 @@ correct-math
 cosmetic-box-cake-maker-2025
 cosmetic-run
 cosmic-dash
+cosmic-defender
 cosmic-glider
 cosmic-hunt
 cosmo-merge
@@ -1622,6 +1626,7 @@ cowboys-duel
 cozy-coloring
 cozy-idle-village
 cozy-jigsaw-puzzles
+cozy-pizzeria
 cozy-puzzles
 cozy-sort-theme-collect
 crab-shooter
@@ -2075,6 +2080,7 @@ draw-bridge-puzzle-challenge
 draw-couple
 draw-cute-animals
 draw-dance-battle
+draw-dot-picture-game
 draw-flag-asmr-painting-games
 draw-half-game
 draw-joust
@@ -2210,6 +2216,7 @@ easy-apple-coloring-book
 easy-easter-coloring-eggs
 easy-halloween-coloring-quest
 easy-obby-parkour
+easy-picture-colouring-game
 eat-blobs-simulator
 eat-donuts
 eat-the-whole-supermarket
@@ -2258,6 +2265,7 @@ emoji-merge-pop-frenzy
 emoji-skill-puzzles
 emoji-sliding-down
 emoji-solitaire
+emotional-support-duck
 empire-estate-pro
 empire-tower-defense-zombie-fortress
 endless-ball-ride-game
@@ -2365,6 +2373,7 @@ fair-blocks
 fairies-heart-style
 fake-hunter
 fake-ninjas
+fall-aesthetics
 fall-ball-idle
 fall-beans-game
 fall-boys-ultimate-knockout
@@ -2418,6 +2427,7 @@ fashion-show-dressup
 fashion-show-makeup
 fashion-stylist-salon-makeover
 fashion-valkyries-saga-of-style
+fashionista-christmas-eve-party
 fast-and-wild-in-sky
 fast-ball-jump
 fast-car-top-speed
@@ -2587,6 +2597,7 @@ float-boat
 flock-fence
 floppy-pipe
 flow-blast-shooter
+flower-fairy-adventure-story
 flower-magnet
 flower-merge-triple-puzzle
 flows
@@ -2607,6 +2618,7 @@ fnf-music-clash
 fnf-red-light-green-light
 fnf-trick-or-die
 food-conveyor
+food-game-grill-sort
 food-gang-run
 food-run-and-battle
 food-sort-3d
@@ -2655,6 +2667,7 @@ formula-rush-online
 formwise
 fortress-clash
 fortress-of-the-sinister
+found-it-hidden-object-game
 fours-colors
 foxy-eco-sort
 foxytruck
@@ -2699,6 +2712,7 @@ frosty-ball
 frosty-rush
 fruit-box-sort
 fruit-bubble-pop
+fruit-catchere
 fruit-chopper
 fruit-cutter-fun
 fruit-drop
@@ -3254,6 +3268,7 @@ high-pizza
 high-school-girls-classroom-life
 high-school-teacher-games-life
 highway-car-racer
+highway-car-racing-game
 highway-car-shooting-3d-action-game-2025
 highway-driver-3d
 highway-of-the-dead
@@ -3528,6 +3543,7 @@ jewel-gem-puzzle
 jewel-loop-color-sort
 jewel-magic
 jewel-match-puzzle
+jewelry-match-puzzle-game
 jhoney-revenge
 jiffy
 jig-snap-puzzles
@@ -4201,6 +4217,7 @@ minetap-merge-clicker
 mineworld-horror-the-mansion
 mini-art-puzzle-game
 mini-asmr-relaxing-game-relax
+mini-asmr-relaxing-games
 mini-boxing
 mini-boxing-final-round
 mini-camping-adventure
@@ -4219,6 +4236,7 @@ mini-games-relax-collection
 mini-golf-3d
 mini-golf-battle
 mini-grand-thef-city
+mini-no-wifi-games-2024
 mini-pool-3d
 mini-shape-shifting
 mini-shooters
@@ -4283,6 +4301,7 @@ money-rush-game
 monkeysweeper-mines-puzzles
 mononinja
 monopoly-online
+monster-boom-boom
 monster-bounce-game
 monster-cafe-idle-tycoon
 monster-cafe-idle-tycoon-127052
@@ -4290,6 +4309,7 @@ monster-cafe-idle-tycoon-38309
 monster-card-shop
 monster-chef
 monster-dinosaur-rampage-city-attack
+monster-egg
 monster-escape-logic-puzzle-adventure
 monster-go
 monster-haul
@@ -4512,6 +4532,8 @@ neon-jumper
 neon-maze
 neon-nexus-3d
 neon-overdrive
+neon-ping-pong
+neon-pulse-arena
 neon-saga-tic-tac-toe-69-level-war
 neon-shot
 neon-snake
@@ -4638,6 +4660,7 @@ num-blast
 number-bee
 number-merge-10
 number-merge-master
+number-merger
 number-quest
 number-run-3d-casual-game
 number-shoot-game
@@ -5241,6 +5264,7 @@ puppy-pet-vet-care
 purr-magic-merge-balls
 purrfect-match
 purrrification
+push-gold
 push-noob
 push-the-box
 push-the-crazy-crowd-stickman-clash-3d
@@ -5370,6 +5394,7 @@ real-estate-kids
 real-estate-royal
 real-estate-tycoon
 real-flight-simulator
+real-grand-truck-simulator-game
 real-motor-race-master
 real-mtb-downhill-3d
 real-parking-game
@@ -5407,6 +5432,7 @@ red-moon
 red-stickman-vs-craftmans
 red-stickman-vs-monster-school
 red-stickman-vs-monster-school-2
+red-up-survival-offline-game
 redboy-and-bluegirl
 reds-winding-way
 reefrescue
@@ -5783,6 +5809,7 @@ shape-factory-fun
 shape-fear-and-fun
 shape-jam
 shape-merge-run
+shape-puzzle
 shape-shift-survival
 shape-switch
 shape-transform
@@ -5791,6 +5818,7 @@ shape-transform-shifting-rush
 shape-transforming-shifting-run
 shapenest
 shark-attack
+shark-boy
 shark-io
 shark-rampage
 shawarma-kiosk-anomaly-game
@@ -5980,6 +6008,7 @@ snake-2048
 snake-2048-io
 snake-2077-glitch-war
 snake-arena
+snake-battle
 snake-block-rush
 snake-brawl-merge-arena
 snake-chain-escape
@@ -6929,6 +6958,7 @@ total-sweep
 touch-candy
 touch-draw-game
 tower-blocks-deluxe-3d
+tower-breaker
 tower-colour-crash
 tower-crush
 tower-defender
