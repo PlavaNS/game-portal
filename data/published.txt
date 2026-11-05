@@ -452,6 +452,7 @@ assault-zone
 assemble-factory-puzzle
 asteroid-dodge
 astra-runner-3d
+astral-escape
 astro-adventure-tour-max
 astro-chickens
 astro-digger
@@ -497,6 +498,7 @@ baby-hazel-bathroom-hygiene
 baby-hazel-bed-time
 baby-hazel-birthday-party
 baby-hazel-fun-time
+baby-hospital-dentist-caring
 baby-injection
 baby-merge-puzzle-master
 baby-monster-jump
@@ -691,6 +693,7 @@ beep-out
 ben-10-alien
 ben-10-alien-onslaught
 ben-10-run
+ben-10-tappy-plane
 ben-5-difference
 ben-car-adventure
 ben10-omnirush
@@ -1139,6 +1142,7 @@ bubble-tower
 bubble-trouble
 bubble-war
 bubble-word-jam
+bubblehead-ball
 bubbles-blast
 bubbles-clicker
 bubblestack
@@ -1236,6 +1240,7 @@ bus-school-park-driver
 bus-simulator-3d-bus-coach
 bus-simulator-game-2026
 bus-stop-hero
+bus-transport-footbal-players
 bushman-bamboo
 business-go
 busy-bites-tycoon
@@ -1269,6 +1274,7 @@ can-you-catch
 candle-run-game
 candlebound-coven
 candy-ball-blast
+candy-balls
 candy-boom-links
 candy-cats
 candy-chain-master
@@ -1276,6 +1282,7 @@ candy-clicker-2
 candy-crunch-sugar-escape
 candy-cutter-saga
 candy-cutter-saga-kids
+candy-doll-dress-up
 candy-egg-blast
 candy-for-capybara
 candy-mahjong-3d
@@ -1350,6 +1357,7 @@ car-eats-car-volcanic-adventure
 car-eats-car-winter-adventure
 car-escape
 car-escape-parking
+car-escape-puzzle
 car-evolution-driving
 car-evolution-game
 car-evolution-pro-math-gates
@@ -2263,6 +2271,7 @@ dice-math
 dice-merge
 dice-puzzle
 dice-puzzles
+dice-puzzles-new-year
 dicecraft
 dicey-chickens
 dicey-paws-idle
@@ -2426,6 +2435,7 @@ dragon-merge-master-3d
 dragon-power
 dragon-warrior-tower-defense
 drakkar-strike
+draw-2-save-stick-man-puzzle
 draw-a-perfect-circle
 draw-a-road
 draw-action
@@ -2470,6 +2480,7 @@ draw-the-perfect-shape
 draw-the-railball-physics
 draw-the-road
 draw-the-snake
+draw-to-crush
 draw-to-goal-soccer-game
 draw-to-help
 draw-to-smash
@@ -2661,6 +2672,7 @@ emoji-math-quiz
 emoji-memory-find-a-pair
 emoji-merge-madness
 emoji-merge-pop-frenzy
+emoji-puzzle-connect
 emoji-skill-puzzles
 emoji-sliding-down
 emoji-solitaire
@@ -2911,6 +2923,7 @@ find-a-legendary-needle
 find-a-pair-3d
 find-ball
 find-capybara-valley-of-monsters
+find-it-out-colorful-book
 find-match-3d
 find-n-match
 find-number-biggest-and-smallest
@@ -3691,6 +3704,7 @@ happy-valentines-day-spot-the-difference
 happy-zoo-mahjong-triple-match
 harbor-breakout
 harbor-dispatch
+harbor-tycoon
 hard-crash-zombie-rush
 hard-flap
 hard-path
@@ -3764,6 +3778,7 @@ hero-rescue-puzzle
 hero-sheep
 hero-time
 hero-transform-run
+heroes-assemble
 heroes-beware
 heroes-inc
 heroes-of-arena
@@ -3911,6 +3926,7 @@ hook-wars
 hooked
 hooked-panya-fishing
 hoop-kings
+hoop-master-basketball-trivia-challenge
 hoop-pair
 hoop-stars
 hoop-world
@@ -4258,6 +4274,7 @@ kaiten-sushi
 kaku-shikaku-logic-puzzle
 kalulu-tanhulu-asmr-mukbang
 kamal-click-and-dance
+karate-fighter
 katana-flash
 katana-fruits-cutting-fun
 katana-upgrade
@@ -5256,6 +5273,7 @@ my-dogy-virtual-pet
 my-doll-house-decor-life
 my-dreamy-room-home-design
 my-dress-up-darling
+my-fashion-nail-shop
 my-first-100-words
 my-golf
 my-gym-manager-idle-tycoon
@@ -5657,6 +5675,7 @@ om-nom-run-03
 on-fire-basketball-shots
 one-bit
 one-bullet-3d-game
+one-dot-target
 one-level-stickman-jailbreak
 one-line-dot-game
 one-line-drawing-mini-games
@@ -5798,6 +5817,7 @@ party-stickman-4-player
 pass-the-ball-3d
 pass-the-gate
 passenger-airplane-flight-3d
+passenger-bus-driving-2025
 passenger-city-taxi-game
 passing-master-3d
 pastry-evolution-game
@@ -5827,6 +5847,7 @@ penalty-kick
 penalty-kick-target
 penalty-kick-wiz
 penalty-shooter
+penalty-shooters
 penalty-shooters-3
 penalty-superstar
 pencil-jam
@@ -5920,6 +5941,7 @@ pinball-3026
 pinball-block-shooter
 pinball-boy-adventure
 pinball-cube-crusher
+pinball-football-html5
 pinball-football-kids
 ping-pong-3d
 ping-pong-ball-game
@@ -6778,6 +6800,7 @@ screw-nuts-snap-puzzle
 screw-out-3d-relax-unwind
 screw-out-jam-puzzle
 screw-pin-jam-puzzle
+screw-puzzle-diy
 screw-sort-3d
 screw-sort-puzzle-pin-jam-3d
 scrib-dies-a-lot
@@ -7091,6 +7114,7 @@ snake-warz-eat-and-survive
 snake-way
 snake-wiggle-master
 snakearmydefense
+snakebit
 snakegamepro
 snakerush
 snakes
@@ -7882,9 +7906,11 @@ tank-strike-wasteland-rogue
 tank-war-battle-game
 tank-war-simulator-game
 tank-wrestle
+tank-z
 tankcraft-war-tank-battles
 tankhit
 tanknarok
+tanks
 tanks-1944
 tanks-2d-battle-with-ratte
 tanks-2d-war-and-heroes
@@ -8158,7 +8184,9 @@ toca-avatar-my-house
 toca-coloring-book
 toca-hidden-stars
 toca-life-adventure
+toca-teens-cozy-couture
 toco-teens-halloween-party
+toka-boka-home-clean-up-design
 token-strike
 tokyo-treats
 tom-and-angela-insta-fashion
@@ -8189,6 +8217,7 @@ tower-colour-crash
 tower-crush
 tower-defence-1
 tower-defender
+tower-defense-2
 tower-necromancer-s
 tower-of-asmr
 tower-platformer-3d
@@ -8633,6 +8662,7 @@ who-says-pigs-can-t-fly
 who-will-win-create-a-battle
 whot-the-ultimate-nigerian-card-game
 wicked-whirl
+wickey-adventure
 wiggle-escape-snake-puzzle
 wiggly-worm-race
 wiggly-worm-snake-puzzle
