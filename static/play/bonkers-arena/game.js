@@ -497,15 +497,27 @@
   function mySkin() { return skinFor({ skin: save.skin, col: save.color }); }
   function myColor() { return mySkin().c; }
 
-  function startOnline(party) {
+  // Free hosting puts the server to sleep when nobody plays; the first player wakes it up (about a minute).
+  async function wakeServer() {
+    const t0 = Date.now();
+    for (let i = 0; ; i++) {
+      try { const r = await fetch(API + '/health', { signal: AbortSignal.timeout(8000), cache: 'no-store' }); if (r.ok) return true; } catch (e) {}
+      if (mode !== 'online' || Date.now() - t0 > 90000) return false;
+      $('centerMsg').innerHTML = `<small>Waking up the server… ${Math.round((Date.now() - t0) / 1000)}s</small><small class="goal">The first player of the day waits about a minute</small>`;
+      await new Promise(r => setTimeout(r, 3000));
+    }
+  }
+  async function startOnline(party) {
     A.init(); A.startMusic();
-    let ws;
-    try { ws = new WebSocket(SERVER); } catch (e) { toast('Could not reach the game server.'); return; }
-    N = { ws, id: 0, names: {}, lv: Sim.ONLINE, bumpers: [], snaps: [], ph: 'wait', cd: 0, lastSend: 0, inRound: false, resultShown: false, leaving: false, lastBeep: 99 };
-    mode = 'online'; paused = false;
-    parts.length = 0; texts.length = 0; $('feed').innerHTML = '';
+    mode = 'online'; paused = false; N = null;
     hideScreens(); $('hud').hidden = false; $('windPill').hidden = true;
     $('centerMsg').innerHTML = '<small>Connecting…</small>';
+    if (!(await wakeServer())) { if (mode === 'online') { toast('The game server is not answering. Try again in a minute.'); goHome(); } return; }
+    if (mode !== 'online') return;
+    let ws;
+    try { ws = new WebSocket(SERVER); } catch (e) { toast('Could not reach the game server.'); goHome(); return; }
+    N = { ws, id: 0, names: {}, lv: Sim.ONLINE, bumpers: [], snaps: [], ph: 'wait', cd: 0, lastSend: 0, inRound: false, resultShown: false, leaving: false, lastBeep: 99 };
+    parts.length = 0; texts.length = 0; $('feed').innerHTML = '';
     ws.onopen = () => ws.send(JSON.stringify({ t: 'join', name: playerName(), skin: save.skin, col: save.color, uid: save.uid, color: myColor(), party: party || null }));
     ws.onmessage = m => onNet(JSON.parse(m.data));
     ws.onclose = () => { if (N && !N.leaving) { toast('Lost connection to the game server.'); goHome(); } };
@@ -628,7 +640,8 @@
     clock += dt;
     let view, follow = null;
     A.setSong(mode === 'menu' ? 'menu' : 'battle');
-    if (mode === 'menu') {
+    if (mode === 'menu' || (mode === 'online' && !N)) {
+      // menu, or online while the server is still waking up: the demo arena plays in the background
       A.setIntensity(false);
       Sim.step(demo.w, dt, {}); demo.w.events.length = 0;
       if (demo.w.over || demo.w.balls.filter(b => b.alive).length < 3) newDemo();

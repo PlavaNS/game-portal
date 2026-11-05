@@ -1,0 +1,16 @@
+# Render Blueprint: the Bonkers Arena online server (free plan; sleeps when nobody plays, wakes on the first player).
+# Render: New + > Blueprint > pick this repository.
+services:
+  - type: web
+    name: bonkers-arena-door404
+    runtime: node
+    plan: free
+    rootDir: server/bonkers-arena
+    buildCommand: npm install --omit=dev
+    startCommand: node server.js
+    healthCheckPath: /health
+    envVars:
+      - key: PUBLIC_DIR
+        value: ../../static/play/bonkers-arena
+      - key: DATA_DIR
+        value: /tmp/bonkers-data
