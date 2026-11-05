@@ -655,9 +655,7 @@ body.menu-open .drawer{transform:none;visibility:visible}
 .trio-head p{font-size:14px}
 @media (max-width:860px){.trio-head{padding:16px 14px 14px}.trio-head h1{font-size:18px}.trio-head p{font-size:13px}}
 /* each pick gets its own label colour instead of the same dark pill */
-.trio-day .eyebrow{background:#d81b4f}
-.trio-week .eyebrow{background:#7c3aed}
-.trio-month .eyebrow{background:#0f766e}
+.trio-day .eyebrow,.trio-week .eyebrow,.trio-month .eyebrow{background:#0f766e}
 .foot-badge{margin:14px 0 10px;display:flex;justify-content:center;align-items:center;gap:14px;flex-wrap:wrap}
 .foot-badge img{height:40px;width:auto;border-radius:8px}
 :root[data-theme=light] .foot-badge img{border:1px solid #dfe3f0}
