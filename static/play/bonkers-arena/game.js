@@ -606,9 +606,9 @@
     }
     // camera (zooms in during the slow-motion finish)
     let tz, tx = 0, ty = 0;
-    if (follow) { tz = Math.min(W, H) / (560 + follow.r * 7); tx = follow.x; ty = follow.y; }
+    if (follow) { tz = Math.min(W, H) / (420 + follow.r * 6); tx = follow.x; ty = follow.y; }
     else tz = Math.min(W, H) / (view.R * 2.3);
-    tz = Math.min(.85, tz);
+    tz = Math.min(1.1, tz);
     if (clock < slowUntil) tz *= 1.45;
     cam.z += (tz - cam.z) * Math.min(1, dt * 3);
     cam.x += (tx - cam.x) * Math.min(1, dt * 5); cam.y += (ty - cam.y) * Math.min(1, dt * 5);
@@ -680,7 +680,8 @@
     $('topBtn').hidden = !onlineAvailable();
     document.querySelector('.home-dock').dataset.count = onlineAvailable() ? 3 : 2;
     const best = save.best;
-    $('playBtn').querySelector('.pb-sub').textContent = best && best.score ? `Best ${best.score} · wave ${best.wave}` : 'Endless · how far can you go?';
+    const sub = $('playBtn').querySelector('.pb-sub');
+    sub.hidden = !(best && best.score); sub.textContent = sub.hidden ? '' : `Best ${best.score} · wave ${best.wave}`;
     $('seasonChip').hidden = !seasonOn();
     $('seasonChip').textContent = `${SEASON.name} · ${seasonDays()} days left`;
     $('heroSkin').textContent = skinOf(save.skin).n;
