@@ -4,8 +4,8 @@
 
   // Arena features: friction (ice), bumpers, hole (water in the middle), wind, boss.
   const LEVELS = [
-    { id: 15, name: 'Cloud Nine', theme: 'light', bots: 3, skill: 0.25, time: 90, rMax: 380, rMin: 150 },
-    { id: 16, name: 'Sunrise', theme: 'sunrise', bots: 5, skill: 0.45, time: 100, rMax: 480, rMin: 170, bumpers: 3 },
+    { id: 15, scene: 'sky', name: 'Cloud Nine', theme: 'light', bots: 3, skill: 0.25, time: 90, rMax: 380, rMin: 150 },
+    { id: 16, scene: 'sunrise', name: 'Sunrise', theme: 'sunrise', bots: 5, skill: 0.45, time: 100, rMax: 480, rMin: 170, bumpers: 3 },
     { id: 1, scene: 'galaxy', name: 'Neon Ring', theme: 'cyber', bots: 3, skill: 0.25, time: 90, rMax: 380, rMin: 150 },
     { id: 2, scene: 'comets', name: 'Grid Rush', theme: 'cyber', bots: 5, skill: 0.35, time: 90, rMax: 440, rMin: 150, blockers: [{ k: 'pillar', x: 0, y: -190, w: 30 }, { k: 'pillar', x: 165, y: 95, w: 30 }, { k: 'pillar', x: -165, y: 95, w: 30 }] },
     { id: 3, scene: 'moon', name: 'Frost Byte', theme: 'frost', bots: 5, skill: 0.4, time: 90, rMax: 440, rMin: 150, friction: 0.45 },

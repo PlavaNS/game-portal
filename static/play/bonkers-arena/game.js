@@ -309,6 +309,7 @@
     for (const b of w.balls) { const c = skinFor(b).c; fx(b.x, b.y, 'beam', c, 220, .9); fx(b.x, b.y, 'ring', c, 60, .6); }
     A.play('wave');
     A.playTrack('battle', (TRACK_OF[lv.theme] || [0])[run.wave % 2]);
+    A.ambient(Art.THEMES[lv.theme] && Art.THEMES[lv.theme].light ? 'wind' : 'space');
     P.levelStarted(run.wave);
   }
 
@@ -318,7 +319,8 @@
       L.cd -= dt;
       const sec = Math.ceil(L.cd - .6);
       if (sec !== L.lastBeep) { L.lastBeep = sec; A.play('beep', sec <= 0); }
-      $('centerMsg').innerHTML = sec > 0 ? `WAVE ${run.wave}<small>${esc(L.lv.name)}${L.lv.boss ? ' · TITAN IS HERE' : ''} · ${L.lv.bots + (L.lv.boss ? 1 : 0)} rivals</small>` : 'GO!';
+      const msg = sec > 0 ? `WAVE ${run.wave}<small>${esc(L.lv.name)}${L.lv.boss ? ' · TITAN IS HERE' : ''} · ${L.lv.bots + (L.lv.boss ? 1 : 0)} rivals</small>` : 'GO!';
+      if (msg !== L.msg) { L.msg = msg; $('centerMsg').innerHTML = msg; }
       if (L.cd <= 0) $('centerMsg').textContent = '';
       return;
     }
@@ -432,6 +434,7 @@
   function ordinal(n) { return n + (n === 1 ? 'st' : n === 2 ? 'nd' : n === 3 ? 'rd' : 'th'); }
 
   function goHome() {
+    A.ambient('');
     if (N) { N.leaving = true; N.ws.close(); N = null; }
     mode = 'menu'; paused = false; L = null; run = null; slowUntil = 0;
     $('hud').hidden = true; $('centerMsg').textContent = '';
@@ -606,7 +609,7 @@
     }
     // camera (zooms in during the slow-motion finish)
     let tz, tx = 0, ty = 0;
-    if (follow) { tz = Math.min(W, H) / (420 + follow.r * 6); tx = follow.x; ty = follow.y; }
+    if (follow) { tz = Math.min(W, H) / (420 + follow.r * 6); tx = follow.x + (follow.vx || 0) * .1; ty = follow.y + (follow.vy || 0) * .1; }
     else tz = Math.min(W, H) / (view.R * 2.3);
     tz = Math.min(1.1, tz);
     if (clock < slowUntil) tz *= 1.45;
@@ -668,8 +671,6 @@
     const best = save.best;
     const sub = $('playBtn').querySelector('.pb-sub');
     sub.hidden = !(best && best.score); sub.textContent = sub.hidden ? '' : `Best ${best.score} · wave ${best.wave}`;
-    $('seasonChip').hidden = !seasonOn();
-    $('seasonChip').textContent = `${SEASON.name} · ${seasonDays()} days left`;
     refreshCoins(); refreshBadge(); syncToggles();
   }
 

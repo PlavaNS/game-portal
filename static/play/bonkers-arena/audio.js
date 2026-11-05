@@ -238,6 +238,31 @@
   function playTrack(group, i) { player.want = group; player.idx[group] = i % SONGS[group].length; player.restart = true; }
   function setIntensity(on) { player.intense = on; }
 
+  // ---------- ambience: a soft bed under the music (wind high in the sky, a low hum in space) ----------
+  let amb = null, ambKind = '';
+  function ambient(kind) {
+    if (!ctx || kind === ambKind) return;
+    ambKind = kind;
+    if (amb) { const old = amb; amb = null; old.g.gain.setTargetAtTime(0.0001, ctx.currentTime, .6); setTimeout(() => old.nodes.forEach(n => { try { n.stop(); } catch (e) {} }), 2500); }
+    if (!kind) return;
+    const g = ctx.createGain(); g.gain.setValueAtTime(0.0001, ctx.currentTime); g.connect(musicBus);
+    const nodes = [];
+    if (kind === 'wind') {
+      const s = ctx.createBufferSource(); s.buffer = noiseBuf; s.loop = true;
+      const f = ctx.createBiquadFilter(); f.type = 'bandpass'; f.frequency.value = 500; f.Q.value = .6;
+      const lfo = ctx.createOscillator(), lg = ctx.createGain(); lfo.frequency.value = .11; lg.gain.value = 260; lfo.connect(lg); lg.connect(f.frequency);
+      s.connect(f); f.connect(g); s.start(); lfo.start(); nodes.push(s, lfo);
+      g.gain.exponentialRampToValueAtTime(.09, ctx.currentTime + 2);
+    } else {
+      const o = ctx.createOscillator(), o2 = ctx.createOscillator(); o.type = 'sine'; o.frequency.value = 48; o2.type = 'sine'; o2.frequency.value = 72.5;
+      const lfo = ctx.createOscillator(), lg = ctx.createGain(); lfo.frequency.value = .07; lg.gain.value = .5; lfo.connect(lg);
+      const m = ctx.createGain(); m.gain.value = .5; lg.connect(m.gain);
+      o.connect(m); o2.connect(m); m.connect(g); o.start(); o2.start(); lfo.start(); nodes.push(o, o2, lfo);
+      g.gain.exponentialRampToValueAtTime(.12, ctx.currentTime + 2);
+    }
+    amb = { g, nodes };
+  }
+
   // ---------- sound effects ----------
   const sfx = {
     bonk(pow) {
@@ -350,5 +375,5 @@
   function setMusic(on) { state.music = on; if (musicBus) musicBus.gain.value = on ? MUSIC_VOL : 0; }
   function play(name, arg) { if (ctx && state.sfx) sfx[name](arg); }
 
-  root.Audio2 = { init, play, voice, startMusic, setSong, playTrack, setIntensity, setSfx, setMusic, setHostMute, state, SONGS };
+  root.Audio2 = { init, play, voice, startMusic, setSong, playTrack, setIntensity, ambient, setSfx, setMusic, setHostMute, state, SONGS };
 })(this);

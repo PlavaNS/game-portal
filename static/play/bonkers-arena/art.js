@@ -54,8 +54,8 @@
     frost: { bg: ['#10304d', '#020812'], floor: ['#1d3a5e', '#0a1a30'], grid: 'rgba(170,235,255,.15)', rim: '#9fe8ff', rim2: '#ffffff', accent: '#46e6ff', star: '200,240,255' },
     synth: { bg: ['#2b0f45', '#06020e'], floor: ['#2c1552', '#110726'], grid: 'rgba(255,79,216,.15)', rim: '#ff4fd8', rim2: '#ffcc3d', accent: '#46e6ff', star: '255,150,230' },
     inferno: { bg: ['#3d1008', '#0a0302'], floor: ['#2e130f', '#120605'], grid: 'rgba(255,120,50,.15)', rim: '#ff6a2a', rim2: '#ffcc3d', accent: '#ffcc3d', star: '255,180,120' },
-    light: { bg: ['#f6f8ff', '#c8d2ea'], floor: ['#ffffff', '#e8eefa'], grid: 'rgba(40,80,160,.13)', rim: '#2b9bff', rim2: '#ff4fa8', accent: '#9b5cff', star: '90,110,170', light: true },
-    sunrise: { bg: ['#fff6ea', '#f2c4a2'], floor: ['#fffaf3', '#fde6cf'], grid: 'rgba(210,110,40,.15)', rim: '#ff7a1a', rim2: '#ff4fa8', accent: '#ffb000', star: '200,120,80', light: true },
+    light: { bg: ['#4fb3ff', '#cfeeff'], floor: ['#ffffff', '#e8eefa'], grid: 'rgba(40,80,160,.13)', rim: '#2b9bff', rim2: '#ff4fa8', accent: '#9b5cff', star: '90,110,170', light: true },
+    sunrise: { bg: ['#5a3d8a', '#ffb070'], floor: ['#fffaf3', '#fde6cf'], grid: 'rgba(210,110,40,.15)', rim: '#ff7a1a', rim2: '#ff4fa8', accent: '#ffb000', star: '200,120,80', light: true },
     aurora: { bg: ['#06302e', '#02060a'], floor: ['#0f3a3a', '#061618'], grid: 'rgba(61,255,184,.14)', rim: '#3dffb8', rim2: '#b77dff', accent: '#b77dff', star: '160,255,220' },
   };
 
@@ -497,6 +497,42 @@
     c.restore();
   }
 
+  // ---------- daytime sky behind the light arenas ----------
+  const CLOUDS = Array.from({ length: 14 }, (_, i) => ({ x: (i * 0.37 % 1), y: 0.08 + (i * 0.61 % 1) * .8, s: .6 + (i * 0.23 % 1) * 1.1, sp: .4 + (i * 0.53 % 1) * .8, puffs: Array.from({ length: 5 }, (__, k) => ({ dx: (k - 2) * .55 + ((i + k) * .31 % 1 - .5) * .3, dy: -((k * 0.47 + i) % 1) * .45, r: .55 + ((i * 7 + k) * 0.29 % 1) * .4 })) }));
+  const BIRDS = Array.from({ length: 5 }, (_, i) => ({ y: .12 + i * .09, sp: .05 + i * .012, ph: i * 1.3 }));
+  function drawSky(c, scene, th, W, H, cam, clock) {
+    const M = Math.max(W, H), sunrise = scene === 'sunrise';
+    const sx = sunrise ? W * .5 : W * .82, sy = sunrise ? H * .78 : H * .16, sr = sunrise ? M * .16 : M * .07;
+    c.save();
+    // sun with soft rays
+    const halo = c.createRadialGradient(sx, sy, sr * .5, sx, sy, sr * (sunrise ? 3.2 : 4));
+    halo.addColorStop(0, sunrise ? 'rgba(255,200,120,.75)' : 'rgba(255,255,220,.7)'); halo.addColorStop(.5, sunrise ? 'rgba(255,140,90,.25)' : 'rgba(255,255,220,.12)'); halo.addColorStop(1, 'rgba(255,255,255,0)');
+    c.fillStyle = halo; c.fillRect(0, 0, W, H);
+    c.save(); c.translate(sx, sy); c.rotate(clock * .02);
+    for (let i = 0; i < 12; i++) { c.rotate(Math.PI / 6); const g = c.createLinearGradient(0, 0, 0, -sr * 5); g.addColorStop(0, 'rgba(255,255,255,.16)'); g.addColorStop(1, 'rgba(255,255,255,0)'); c.fillStyle = g; c.beginPath(); c.moveTo(-sr * .25, 0); c.lineTo(sr * .25, 0); c.lineTo(sr * .9, -sr * 5); c.lineTo(-sr * .9, -sr * 5); c.fill(); }
+    c.restore();
+    const sun = c.createRadialGradient(sx - sr * .2, sy - sr * .2, 0, sx, sy, sr);
+    sun.addColorStop(0, '#fffbe8'); sun.addColorStop(.8, sunrise ? '#ffd27a' : '#fff1a8'); sun.addColorStop(1, sunrise ? '#ff9a3b' : '#ffe27a');
+    ellipse(c, sx, sy, sr, sr, 0, sun);
+    // clouds drifting past, lit from the sun's side
+    const lit = sunrise ? '#ffe3c4' : '#ffffff', shade = sunrise ? 'rgba(120,70,140,.35)' : 'rgba(90,140,200,.3)';
+    for (const cl of CLOUDS) {
+      const base = cl.s * M * .09, x = ((cl.x * W * 1.6 + clock * cl.sp * 14 - cam.x * .05 * cl.s) % (W * 1.6 + base * 6) + W * 1.6 + base * 6) % (W * 1.6 + base * 6) - base * 3;
+      const y = cl.y * H - cam.y * .04 * cl.s;
+      c.globalAlpha = .55 + cl.s * .25;
+      for (const p of cl.puffs) ellipse(c, x + p.dx * base * 1.6 + 4, y + p.dy * base + base * .25, p.r * base * 1.05, p.r * base * .85, 0, shade);
+      for (const p of cl.puffs) ellipse(c, x + p.dx * base * 1.6, y + p.dy * base, p.r * base, p.r * base * .8, 0, lit);
+    }
+    c.globalAlpha = 1;
+    // a few birds far away
+    c.strokeStyle = sunrise ? 'rgba(80,40,80,.55)' : 'rgba(40,70,120,.5)'; c.lineWidth = 2; c.lineCap = 'round';
+    for (const b of BIRDS) {
+      const x = ((b.ph * 300 + clock * b.sp * 160) % (W + 80) + W + 80) % (W + 80) - 40, y = b.y * H + Math.sin(clock * .7 + b.ph) * 8, f = Math.sin(clock * 6 + b.ph) * 4;
+      c.beginPath(); c.moveTo(x - 9, y + f); c.quadraticCurveTo(x - 4, y - 3, x, y); c.quadraticCurveTo(x + 4, y - 3, x + 9, y + f); c.stroke();
+    }
+    c.restore();
+  }
+
   // ---------- floor features ----------
   function drawFloorFx(c, view, th, clock, R) {
     const lv = view.lv;
@@ -577,6 +613,13 @@
     const th = THEMES[view.lv.theme] || THEMES.cyber, { W, H, cam, clock } = env;
     ADD = th.light ? 'source-over' : 'lighter';
     ctx.setTransform(env.DPR, 0, 0, env.DPR, 0, 0);
+    if (th.light) {
+      // daytime: the sky, with the arena floating high above the clouds
+      const sky = ctx.createLinearGradient(0, 0, 0, H);
+      sky.addColorStop(0, th.bg[0]); sky.addColorStop(1, th.bg[1]);
+      ctx.fillStyle = sky; ctx.fillRect(0, 0, W, H);
+      drawSky(ctx, view.lv.scene, th, W, H, cam, clock);
+    } else {
     const bg = ctx.createRadialGradient(W / 2, H / 2, 0, W / 2, H / 2, Math.max(W, H) * .75);
     bg.addColorStop(0, th.bg[0]); bg.addColorStop(1, th.bg[1]);
     ctx.fillStyle = bg; ctx.fillRect(0, 0, W, H);
@@ -598,17 +641,19 @@
       ctx.fillRect(x, y, s.s, s.s);
     }
     drawScene(ctx, view.lv.scene, th, W, H, cam, clock);
+    }
     const sx = env.reduce ? 0 : (Math.random() - .5) * env.shake, sy = env.reduce ? 0 : (Math.random() - .5) * env.shake;
     ctx.save(); ctx.translate(W / 2 + sx, H / 2 + sy); ctx.scale(cam.z, cam.z); ctx.translate(-cam.x, -cam.y);
     const R = view.R, lv = view.lv, hole = lv.hole || 0;
 
     // arena glow + floor
+    if (th.light) { ellipse(ctx, 24, 40, R * 1.02, R * 1.02, 0, 'rgba(30,50,110,.22)'); }
     ctx.save(); ctx.shadowColor = th.rim; ctx.shadowBlur = 50 * cam.z;
     // a glass platform: the space scenery shows faintly through the floor
-    ctx.globalAlpha = lv.scene ? .72 : 1; ctx.beginPath(); ctx.arc(0, 0, R, 0, TAU); ctx.fillStyle = th.floor[1]; ctx.fill(); ctx.restore();
+    ctx.globalAlpha = th.light ? .38 : lv.scene ? .72 : 1; ctx.beginPath(); ctx.arc(0, 0, R, 0, TAU); ctx.fillStyle = th.floor[1]; ctx.fill(); ctx.restore();
     const fl = floorFor(lv);
     ctx.save(); ctx.beginPath(); ctx.arc(0, 0, R, 0, TAU); ctx.clip();
-    ctx.globalAlpha = lv.scene ? .8 : 1; ctx.drawImage(fl.cv, -fl.S / 2, -fl.S / 2); ctx.globalAlpha = 1;
+    ctx.globalAlpha = th.light ? .5 : lv.scene ? .8 : 1; ctx.drawImage(fl.cv, -fl.S / 2, -fl.S / 2); ctx.globalAlpha = 1;
     // a band of light sweeping across the floor now and then
     const sweep = ((clock * 160) % (R * 6)) - R * 1.5;
     if (sweep < R * 1.5) {
@@ -723,7 +768,10 @@
         for (let i = 3; i >= 1; i--) drawBall(ctx, b.x - b.vx / sp * b.r * .8 * i, b.y - b.vy / sp * b.r * .8 * i, b.r * (1 - i * .06), sk, { face: b.face, expr: 'n', t: clock, alpha: .32 - i * .08, glow: false, rim: false });
       }
       // one shell only, and only when the dash is charged
+      const spd = Math.hypot(b.vx || 0, b.vy || 0), st = b.falling ? 0 : Math.min(.16, spd / 4200);
+      ctx.save(); ctx.translate(b.x, b.y); ctx.rotate(Math.atan2(b.vy || 0, b.vx || 0)); ctx.scale(1 + st, 1 - st); ctx.rotate(-Math.atan2(b.vy || 0, b.vx || 0)); ctx.translate(-b.x, -b.y);
       drawBall(ctx, b.x, b.y, b.r * s, sk, { face: b.face, expr: exprOf(b), t: clock, alpha: b.falling ? .4 + s * .6 : 1, glow: false, rim: !b.falling && b.dashCd <= 0 && !b.pu });
+      ctx.restore();
       if (!b.falling && b.pu) drawPuAura(ctx, b, clock);
       if (!b.falling && view.freezeBy && view.freezeBy !== b.id) {
         ctx.save(); ctx.globalAlpha = .35; ellipse(ctx, b.x, b.y, b.r, b.r, 0, '#bfefff'); ctx.restore();
