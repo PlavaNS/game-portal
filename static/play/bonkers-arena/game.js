@@ -38,13 +38,12 @@
   const KO_STYLE = { fire: ['#ff6a2a', '#ffcc3d', '#ffffff'], zap: ['#ffffff', '#46e6ff', '#ff4fd8'], rainbow: ['#ff4fd8', '#ffcc3d', '#7dff9b', '#46e6ff', '#b77dff'], aurora: ['#3dffb8', '#b77dff', '#ffffff'], stars: ['#ffffff', '#c9c2ff'], gold: ['#ffe680', '#ffffff'], ice: ['#d8f6ff', '#ffffff'], smoke: ['#dfe6ff', '#8a93b8'] };
   function koBurst(x, y, killer, victim) {
     const s = skinFor(killer), cols = KO_STYLE[s.trail] || [s.c, '#ffffff'];
-    fx(x, y, 'flash', cols[0], 170, .45);
-    fx(x, y, 'beam', cols[0], 320, .9);
-    fx(x, y, 'ring', cols[0], 230, .6);
-    fx(x, y, 'ring', '#ffffff', 140, .4);
-    burst(x, y, 46, cols, 700, 3.5, .9, 'spark');
-    burst(x, y, 16, [skinFor(victim).c, '#ffffff'], 520, 7, 1, 'shard');
-    if (s.trail === 'rainbow' || s.trail === 'gold') burst(x, y, 30, cols, 500, 6, 1.4, 'conf');
+    fx(x, y, 'flash', cols[0], 80, .35);
+    fx(x, y, 'beam', cols[0], 160, .7);
+    fx(x, y, 'ring', cols[0], 110, .5);
+    burst(x, y, 24, cols, 380, 2.5, .6, 'spark');
+    burst(x, y, 8, [skinFor(victim).c, '#ffffff'], 300, 4.5, .7, 'shard');
+    if (s.trail === 'rainbow' || s.trail === 'gold') burst(x, y, 16, cols, 300, 4, 1, 'conf');
   }
 
   // ---------- input ----------
@@ -118,15 +117,15 @@
     for (const ev of events) {
       if (ev.e === 'bonk') {
         const p = ev.pow, ca = colorOf(view, ev.a), cb = colorOf(view, ev.b);
-        fx(ev.x, ev.y, 'flash', '#ffffff', 40 + p * 110, .25 + p * .15);
-        fx(ev.x, ev.y, 'ring', p > .6 ? '#ffcc3d' : '#ffffff', 50 + p * 160, .35 + p * .2);
-        burst(ev.x, ev.y, 10 + (p * 30 | 0), ['#ffffff', ca, cb, '#ffcc3d'], 380 + p * 420, 2.5 + p * 1.5, .4 + p * .25, 'spark');
-        if (p > .4) burst(ev.x, ev.y, 4 + (p * 10 | 0), [ca, cb], 300 + p * 300, 4 + p * 4, .7, 'shard');
+        fx(ev.x, ev.y, 'flash', '#ffffff', 22 + p * 50, .2 + p * .1);
+        fx(ev.x, ev.y, 'ring', p > .6 ? '#ffcc3d' : '#ffffff', 28 + p * 70, .3 + p * .15);
+        burst(ev.x, ev.y, 6 + (p * 14 | 0), ['#ffffff', ca, cb, '#ffcc3d'], 220 + p * 220, 2 + p, .3 + p * .15, 'spark');
+        if (p > .5) burst(ev.x, ev.y, 2 + (p * 5 | 0), [ca, cb], 200 + p * 150, 3 + p * 2, .5, 'shard');
         const mine = ev.a === meId || ev.b === meId;
         if (mine || near(ev.x, ev.y)) A.play('bonk', mine ? p : p * .4);
         if (mine) {
-          shake = Math.max(shake, 5 + p * 16);
-          if (p > .6) { hitstop = Math.max(hitstop, .07); screenFlash('#ffcc3d', .18 + p * .12); }
+          shake = Math.max(shake, 3 + p * 8);
+          if (p > .7) { hitstop = Math.max(hitstop, .05); screenFlash('#ffcc3d', .08 + p * .06); }
         }
       } else if (ev.e === 'eat') {
         fx(ev.x, ev.y, 'glow', PELLET_COLORS[ev.k], 22, .3);
@@ -134,16 +133,16 @@
         if (ev.id === meId) { A.play('eat', ev.k); quest('eat', 1); }
       } else if (ev.e === 'dash') {
         const c = colorOf(view, ev.id);
-        fx(ev.x, ev.y, 'ring', c, 70, .35); fx(ev.x, ev.y, 'glow', c, 50, .3);
+        fx(ev.x, ev.y, 'ring', c, 40, .3); fx(ev.x, ev.y, 'glow', c, 28, .25);
         if (ev.id === meId) { A.play('dash'); quest('dash', 1); shake = Math.max(shake, 4); }
       } else if (ev.e === 'bump' || ev.e === 'block') {
-        fx(ev.x, ev.y, 'flash', '#ff4fd8', 60, .25);
-        burst(ev.x, ev.y, 12, ['#ff4fd8', '#ffffff', '#46e6ff'], 420, 2.5, .35, 'spark');
+        fx(ev.x, ev.y, 'flash', '#ff4fd8', 30, .2);
+        burst(ev.x, ev.y, 6, ['#ff4fd8', '#ffffff', '#46e6ff'], 260, 2, .3, 'spark');
         if (near(ev.x, ev.y)) A.play('bump');
       } else if (ev.e === 'pu') {
         const c = PU_COLORS[ev.type];
-        fx(ev.x, ev.y, 'beam', c, 220, .7); fx(ev.x, ev.y, 'ring', c, 120, .5); fx(ev.x, ev.y, 'flash', c, 90, .35);
-        burst(ev.x, ev.y, 26, [c, '#ffffff'], 420, 3, .6, 'spark');
+        fx(ev.x, ev.y, 'beam', c, 120, .5); fx(ev.x, ev.y, 'ring', c, 60, .4); fx(ev.x, ev.y, 'flash', c, 45, .3);
+        burst(ev.x, ev.y, 12, [c, '#ffffff'], 260, 2.2, .45, 'spark');
         if (ev.id === meId) { A.play('coin'); floatText(ev.x, ev.y - 24, PU_NAME[ev.type] + '!', PU_COLORS[ev.type], 28); quest('pu', 1); }
       } else if (ev.e === 'out') {
         const victim = nameOf(view, ev.id), by = ev.by ? nameOf(view, ev.by) : null;
@@ -151,22 +150,22 @@
         if (ev.by) {
           Art.happy(ev.by, clock);
           const v = view.balls.find(x => x.id === ev.id), k = view.balls.find(x => x.id === ev.by);
-          if (v && k) { koBurst(v.x, v.y, k, v); if (near(v.x, v.y)) shake = Math.max(shake, 8); }
+          if (v && k) { koBurst(v.x, v.y, k, v); if (near(v.x, v.y)) shake = Math.max(shake, 5); }
         }
         if (ev.by === meId) {
           const b = view.balls.find(x => x.id === meId), v = view.balls.find(x => x.id === ev.id);
-          if (v) floatText(v.x, v.y - v.r - 10, 'KO!', '#ff4fd8', 54);
-          if (b) floatText(b.x, b.y - b.r - 30, '+5', '#ffcc3d', 28);
-          screenFlash(colorOf(view, meId), .3); shake = Math.max(shake, 18);
+          if (v) floatText(v.x, v.y - v.r - 10, 'KO!', '#ff4fd8', 34);
+          if (b) floatText(b.x, b.y - b.r - 30, '+5', '#ffcc3d', 22);
+          screenFlash(colorOf(view, meId), .12); shake = Math.max(shake, 9);
           A.play('coin'); quest('bonk', 1);
         }
       } else if (ev.e === 'splash') {
         const col = colorOf(view, ev.id);
-        fx(ev.x, ev.y, 'implode', col, ev.r * 4, .6);
-        fx(ev.x, ev.y, 'flash', col, ev.r * 3.5, .5);
-        burst(ev.x, ev.y, 30, [col, '#ffffff'], 460, 3, .8, 'spark');
+        fx(ev.x, ev.y, 'implode', col, ev.r * 2.5, .5);
+        fx(ev.x, ev.y, 'flash', col, ev.r * 1.8, .4);
+        burst(ev.x, ev.y, 16, [col, '#ffffff'], 280, 2.2, .6, 'spark');
         if (ev.id === meId || near(ev.x, ev.y)) A.play('splash');
-        if (ev.id === meId) { shake = Math.max(shake, 16); screenFlash('#ff4d6a', .35); }
+        if (ev.id === meId) { shake = Math.max(shake, 10); screenFlash('#ff4d6a', .15); }
       }
     }
   }

@@ -153,7 +153,7 @@
         const svx = p.vx - p.spin * (qy - p.cy), svy = p.vy + p.spin * (qx - p.cx);
         const vn = (b.vx - svx) * nx + (b.vy - svy) * ny;
         if (vn < 0) {
-          b.vx -= 1.7 * vn * nx; b.vy -= 1.7 * vn * ny;
+          b.vx -= 1.4 * vn * nx; b.vy -= 1.4 * vn * ny;
           if (-vn > 140) w.events.push({ e: 'block', x: qx + nx * p.w, y: qy + ny * p.w, pow: Math.min(1, -vn / 600) });
         }
       }
@@ -320,8 +320,8 @@
         const nx = dx / d, ny = dy / d;
         b.x = bu.x + nx * m; b.y = bu.y + ny * m;
         const vn = b.vx * nx + b.vy * ny;
-        const kick = 380 * Math.pow(START_R / b.r, 0.3);
-        b.vx += nx * (Math.max(0, -vn) * 1.6 + kick); b.vy += ny * (Math.max(0, -vn) * 1.6 + kick);
+        const kick = 280 * Math.pow(START_R / b.r, 0.3);
+        b.vx += nx * (Math.max(0, -vn) * 1.3 + kick); b.vy += ny * (Math.max(0, -vn) * 1.3 + kick);
         bu.pulse = 1;
         w.events.push({ e: 'bump', x: bu.x + nx * bu.r, y: bu.y + ny * bu.r });
       }
@@ -343,11 +343,11 @@
         b.x += nx * ov * ma / (ma + mb); b.y += ny * ov * ma / (ma + mb);
         const rel = (b.vx - a.vx) * nx + (b.vy - a.vy) * ny;
         if (rel >= 0) continue;
-        const J = -1.6 * rel / (1 / ma + 1 / mb);
-        const pa = (a.dashT > 0 ? 1.8 : 1) * (a.pu === 'mega' ? 2.2 : 1), pb = (b.dashT > 0 ? 1.8 : 1) * (b.pu === 'mega' ? 2.2 : 1);
+        const J = -1.3 * rel / (1 / ma + 1 / mb);
+        const pa = (a.dashT > 0 ? 1.5 : 1) * (a.pu === 'mega' ? 1.8 : 1), pb = (b.dashT > 0 ? 1.5 : 1) * (b.pu === 'mega' ? 1.8 : 1);
         a.vx -= J / ma * nx * pb; a.vy -= J / ma * ny * pb;
         b.vx += J / mb * nx * pa; b.vy += J / mb * ny * pa;
-        const ka = 60 * pb * Math.min(2, b.r / a.r), kb = 60 * pa * Math.min(2, a.r / b.r);
+        const ka = 35 * pb * Math.min(2, b.r / a.r), kb = 35 * pa * Math.min(2, a.r / b.r);
         b.vx += nx * kb; b.vy += ny * kb; a.vx -= nx * ka; a.vy -= ny * ka;
         a.hitBy = b.id; a.hitAt = w.t; b.hitBy = a.id; b.hitAt = w.t;
         const pow = Math.min(1, -rel / 500 * Math.max(pa, pb));
