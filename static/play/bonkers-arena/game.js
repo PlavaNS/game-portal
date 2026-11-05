@@ -6,7 +6,7 @@
   const { TIERS, SKINS, SEASON, skinOf, skinFor, drawBall, PELLET_COLORS, PU_COLORS } = window.Art;
 
   // ---------- save (stored through the portal SDK) ----------
-  const save = { uid: '', name: '', coins: 0, skin: 0, color: -1, owned: [0], best: null, v: 2, sfx: true, music: true, daily: null, streak: null };
+  const save = { uid: '', name: '', coins: 0, skin: 0, color: -1, owned: [0], best: null, v: 2, sfx: true, music: true, voice: true, daily: null, streak: null };
   function store() { P.save(save); }
 
   // ---------- canvas ----------
@@ -819,10 +819,12 @@
   function syncToggles() {
     for (const id of ['sfxBtn', 'sfxBtn2']) $(id).setAttribute('aria-pressed', save.sfx);
     for (const id of ['musicBtn', 'musicBtn2']) $(id).setAttribute('aria-pressed', save.music);
-    A.setSfx(save.sfx); A.setMusic(save.music);
+    for (const id of ['voiceBtn', 'voiceBtn2']) $(id).setAttribute('aria-pressed', save.voice);
+    A.setSfx(save.sfx); A.setMusic(save.music); A.setVoice(save.voice);
   }
   for (const id of ['sfxBtn', 'sfxBtn2']) $(id).onclick = () => { A.init(); save.sfx = !save.sfx; store(); syncToggles(); A.play('click'); };
   for (const id of ['musicBtn', 'musicBtn2']) $(id).onclick = () => { A.init(); A.startMusic(); save.music = !save.music; store(); syncToggles(); };
+  for (const id of ['voiceBtn', 'voiceBtn2']) $(id).onclick = () => { A.init(); save.voice = !save.voice; store(); syncToggles(); A.play('click'); };
 
   $('playBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); playerName(); startRun(); };
   $('onlineBtn').onclick = () => { A.init(); A.play('click'); playerName(); startOnline(null); };

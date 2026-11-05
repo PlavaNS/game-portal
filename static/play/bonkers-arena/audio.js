@@ -1,7 +1,7 @@
 // Bonkers Arena — synthwave music and neon sound effects, all generated with Web Audio.
 (function (root) {
   let ctx = null, out = null, sfxBus = null, musicBus = null, delayIn = null, noiseBuf = null;
-  const state = { sfx: true, music: true };
+  const state = { sfx: true, music: true, voice: true };
   const MUSIC_VOL = 0.18;
 
   function init() {
@@ -399,20 +399,21 @@
   }
   function announce(key, prio) {
     const buf = lines[key];
-    if (!ctx || !state.sfx || !buf) return;
+    if (!ctx || !state.sfx || !state.voice || !buf) return;
     prio = prio || 1;
     const now = ctx.currentTime;
     if (talking && talking.end > now && talking.prio > prio) return;
     if (talking && talking.end > now) try { talking.src.stop(); } catch (e) {}
     const src = ctx.createBufferSource(), g = ctx.createGain();
-    src.buffer = buf; g.gain.value = 1.1; src.connect(g); g.connect(out); src.start(now);
+    src.buffer = buf; g.gain.value = .55; src.connect(g); g.connect(out); src.start(now);
     talking = { src, prio, end: now + buf.duration };
-    if (musicBus && state.music) { musicBus.gain.setTargetAtTime(MUSIC_VOL * .45, now, .05); musicBus.gain.setTargetAtTime(MUSIC_VOL, now + buf.duration, .25); }
+    if (musicBus && state.music) { musicBus.gain.setTargetAtTime(MUSIC_VOL * .65, now, .05); musicBus.gain.setTargetAtTime(MUSIC_VOL, now + buf.duration, .25); }
   }
 
+  function setVoice(on) { state.voice = on; if (!on && talking) try { talking.src.stop(); } catch (e) {} }
   function setSfx(on) { state.sfx = on; if (sfxBus) sfxBus.gain.value = on ? 1 : 0; }
   function setMusic(on) { state.music = on; if (musicBus) musicBus.gain.value = on ? MUSIC_VOL : 0; }
   function play(name, arg) { if (ctx && state.sfx) sfx[name](arg); }
 
-  root.Audio2 = { init, play, voice, announce, startMusic, setSong, playTrack, setIntensity, ambient, setSfx, setMusic, setHostMute, state, SONGS };
+  root.Audio2 = { init, play, voice, announce, setVoice, startMusic, setSong, playTrack, setIntensity, ambient, setSfx, setMusic, setHostMute, state, SONGS };
 })(this);
