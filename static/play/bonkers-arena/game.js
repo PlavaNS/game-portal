@@ -606,9 +606,9 @@
     }
     // camera (zooms in during the slow-motion finish)
     let tz, tx = 0, ty = 0;
-    if (follow) { tz = Math.min(W, H) / (420 + follow.r * 6); tx = follow.x; ty = follow.y; }
+    if (follow) { tz = Math.min(W, H) / (560 + follow.r * 7); tx = follow.x; ty = follow.y; }
     else tz = Math.min(W, H) / (view.R * 2.3);
-    tz = Math.min(1.1, tz);
+    tz = Math.min(.85, tz);
     if (clock < slowUntil) tz *= 1.45;
     cam.z += (tz - cam.z) * Math.min(1, dt * 3);
     cam.x += (tx - cam.x) * Math.min(1, dt * 5); cam.y += (ty - cam.y) * Math.min(1, dt * 5);
