@@ -308,6 +308,7 @@ apex-racer
 apex-rush
 apexcircuit
 apocalypse-rush
+apple-worm-2
 aqua-escape
 aqua-fish-dental-care
 aqua-fish-rush
@@ -985,6 +986,7 @@ bricks-balls-breaker
 bricks-breaker
 bricks-breaker-deluxe
 bricks-buster
+bricks-of-wrath
 bridal-makeup-salon-game
 bridal-race-3d
 bridge
@@ -1008,6 +1010,7 @@ brush-cat-challenge
 brutal-battle-royale
 brutal-zombies
 bs-simulator
+btc-clicker
 bts-budgie-coloring-book
 bts-cute-kitty-coloring
 bts-rabbit-coloring-book
@@ -1028,6 +1031,7 @@ bubble-merge-2d
 bubble-pet-game
 bubble-pop-fairyland
 bubble-pop-legend
+bubble-popper
 bubble-rush
 bubble-shooter-aura
 bubble-shooter-blast-mania
@@ -1062,6 +1066,7 @@ bucket-brigade
 bucket-crusher-asmr
 bucket-sort-3d
 buddy-and-friends-hill-climb
+buddy-kick-archer
 budgie-spot-the-difference
 bug-crunch
 bug-war
@@ -1116,6 +1121,7 @@ burger-bay
 burger-game-burger-shop
 burger-life
 burger-restaurant-simulator-3d
+burger-rush-restaurant
 burn-rate
 burrow
 burstblitz
@@ -1279,6 +1285,7 @@ car-rush-game
 car-rush-super
 car-sale-business-tycoon-game
 car-sales-empire-simulator
+car-simulator-3d
 car-sky-stunts
 car-smash-obby-3d
 car-smash-simulator-crash-and-tune
@@ -1552,6 +1559,7 @@ clever-match
 click-and-colors-dinosaurs
 click-and-idle-slimes
 click-click-clicker
+click-crates
 click-kitty-idle
 click-that-button
 click-to-control-chaos
@@ -1561,6 +1569,7 @@ cliff-boi-trap-adventure
 cliff-crash
 climate-activist
 clock-head
+cloneup-stack-yourself
 clonium
 close-ads
 cloud-hopper
@@ -1728,6 +1737,7 @@ corona-virus-crazy-doctor-simulator
 correct-math
 cosmetic-box-cake-maker-2025
 cosmetic-run
+cosmic-clicker
 cosmic-dash
 cosmic-defender
 cosmic-glider
@@ -1839,6 +1849,7 @@ creamlink-kids
 create-your-robot
 create-youre-obby-skin
 creative-puzzle
+creep-crushers
 creepy-spa-for-little-monsters
 criatures-defense
 cricket-championship
@@ -2003,6 +2014,7 @@ dead-lands-driver-open-world
 dead-paradise
 dead-seek
 dead-survival-zombie-shooter
+dead-zone15165
 deadly-catch
 deadly-descent
 deadly-hunters-run
@@ -2426,6 +2438,7 @@ elements-craft-ultimate
 elip-adventure
 ellie-summer-spa-beauty-salon
 elska-dog-vs-zombies-multiplayer-co-op
+elvis-funny-face
 ember-ascent
 ember-boy-and-ripple-girl
 ember-carnival
@@ -2447,6 +2460,7 @@ emotional-support-duck
 empire-estate-pro
 empire-tower-defense-zombie-fortress
 enchanted-mahjong-saga
+end-charge-alpha
 endless-ball-ride-game
 endless-car-chase
 endless-car-race-game
@@ -2716,6 +2730,7 @@ fireball-dodge
 fireball-vs-ice-cream
 fireboom
 firedash-2d
+fireegg
 firefighter-plane-game
 fireline-merge-defense
 firestack
@@ -2774,6 +2789,7 @@ flappy-bacchan
 flappy-birds-game-ai
 flappy-birds-smash
 flappy-blitz-intercept
+flappy-climate
 flappy-halloween-game
 flappy-halloween-run
 flappy-twist
@@ -3128,6 +3144,7 @@ ghost-shift
 ghost-sniper
 ghost-walker
 ghostly-night-harvest
+ghostrick-the-sacred-war
 ghoul-fusion
 giant-crusher-destroy-and-grow
 giant-rush
@@ -3299,6 +3316,7 @@ gun-clone
 gun-craft-and-fight
 gun-evolution-game
 gun-festival-shoot
+gun-match-screw
 gun-merge-mr-bullet
 gun-mob-stickman-run
 gun-shooter
@@ -3438,6 +3456,7 @@ help-me-tricky-puzzle-games
 help-me-tricky-story
 help-me-tricky-story-of-puzzles
 help-police
+help-sprunky
 help-tricky-story-a-complicated-story
 hen-bubble-go-up-game
 hero-city
@@ -4109,6 +4128,7 @@ line-to-goal-draw-the-path
 lineo
 link-flow
 link-me-to-the-factory
+linking-battle
 lion-family-sim-online
 lion-prince
 lion-safari-jigsaw-puzzles
@@ -4544,6 +4564,7 @@ miner-dig-it-all
 miner-jam
 miner-rush-game
 minesweeper-find-bombs
+minesweeper-infinite
 minetap-merge-clicker
 mineworld-horror-the-mansion
 mini-art-puzzle-game
@@ -4651,6 +4672,7 @@ monster-evolution-demon-dna
 monster-go
 monster-haul
 monster-heroes-of-myths
+monster-jeep-coloring
 monster-live
 monster-makeup-3d
 monster-man-rush
@@ -5562,6 +5584,7 @@ pop-tap
 pop-the-ball
 pop-the-balloons-bounce
 pop-the-band
+pop-the-bubbles-relaxing
 pop-the-fruits
 pop-the-lock-game
 pop-them
@@ -5606,6 +5629,7 @@ precision-parking-pro
 pregnant-mom-simulator-family-life
 pregnant-mother-simulator
 president-2048
+pretty-sheep-run
 pretty-tidy-asmr-organizing
 primal-druid-kingdom-of-animals
 prime-ball-adventure-game
@@ -5902,6 +5926,7 @@ retrohero-the-last-stand
 reversi-classic
 revoxel-3d-voxel-rpg-shooter
 rewarp
+rgb-shooter
 rich-mom-family-simulator-luxury-life
 ricochet-arena
 ricochet-paint-aim
@@ -6210,6 +6235,7 @@ screw-jam-puzzle
 screw-master-3d-pin-puzzle
 screw-master-nuts-and-pin-jam
 screw-match
+screw-nuts-bolts-wood-solve
 screw-nuts-snap-puzzle
 screw-out-3d-relax-unwind
 screw-out-jam-puzzle
@@ -6269,6 +6295,7 @@ shark-attack
 shark-boy
 shark-io
 shark-rampage
+sharpshot-trials
 shawarma-kiosk-anomaly-game
 sheep-commotion
 sheep-escape-farm-sorting-challenge
@@ -7738,6 +7765,7 @@ vega-mix-2-adventure
 vegan-quest
 vegetable-spelling-puzzle
 veggie-harvest
+veggie-slice
 vehice-rush-master
 vehicle-driving-master
 vehicle-driving-master-game
@@ -7825,6 +7853,7 @@ water-city-racers
 water-me-please
 water-race-game
 water-sort-brain-puzzle
+water-sort-legend
 water-sort-master
 water-sort-master-color-puzzle
 water-sort-puzzle-3
@@ -7855,6 +7884,7 @@ wedding-artist2
 wedding-beauty-makeup-salon-indian-designer
 wedding-rush-race
 wednesday-halloween-cave
+wednesday-light-academia
 wednesday-s-battle-monster-symphony
 weight-adjust-game
 weight-balance-journey
