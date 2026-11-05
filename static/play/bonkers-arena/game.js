@@ -265,11 +265,17 @@
   let paused = false;          // player opened the pause menu
   let hostPaused = false;      // the portal asked the game to pause (ad, hidden tab)
   let L = null;                // level session
+  let demo = null;             // menu background world
   let N = null;                // online session
   let slowUntil = 0;           // slow motion after a winning knock-out
 
 
 
+  function newDemo() {
+    const lv = Object.assign({}, Sim.LEVELS.find(l => l.name === 'Grid Rush'), { bots: 7, time: 9999 });
+    const w = Sim.createWorld(lv); Sim.fillBots(w, 8);
+    demo = { w };
+  }
   function viewOf(w, meId) {
     for (const b of w.balls) b.me = b.id === meId;
     return { lv: w.lv, R: w.R, t: w.t, balls: w.balls.filter(b => b.alive), pellets: w.pellets, bumpers: w.bumpers, powerups: w.powerups, freezeBy: w.freezeT > 0 ? w.freezeBy : 0, windA: w.windA, tiles: w.tiles, sinks: Sim.sinks(w), meteors: w.meteors, ev: w.ev };
@@ -591,11 +597,9 @@
     A.setSong(mode === 'menu' ? 'menu' : 'battle');
     if (mode === 'menu') {
       A.setIntensity(false);
-      const sp = $('home').hidden ? { top: H * .3, bottom: H * .6 } : document.querySelector('.home-spacer').getBoundingClientRect();
-      Art.menuScene(ctx, { W, H, DPR, clock, reduce: reduceMotion, band: { top: sp.top, bottom: sp.bottom } }, mySkin());
-      drawRain(dt);
-      requestAnimationFrame(frame);
-      return;
+      Sim.step(demo.w, dt, {}); demo.w.events.length = 0;
+      if (demo.w.over || demo.w.balls.filter(b => b.alive).length < 3) newDemo();
+      view = viewOf(demo.w, -1);
     } else if (mode === 'level') {
       if (!paused && !hostPaused) updateLevel(dt);
       view = viewOf(L.w, L.me.id);
@@ -845,6 +849,7 @@
     P.onAudio(on => A.setHostMute(!on));
     P.onPause(p => { hostPaused = p; A.setHostMute(p || !P.audioAllowed); });
     store();
+    newDemo();
     renderHome();
     showScreen('home');
     requestAnimationFrame(t => { frame(t); P.gameReady(); });
