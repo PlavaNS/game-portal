@@ -2638,6 +2638,7 @@ edgefire-2
 egg-clicker
 egg-escape-tycoon
 egg-hill-climb
+egg-raid-nest-heist
 egg-shooter-2
 egg-thief
 egging-on
@@ -3172,6 +3173,7 @@ free-fall-game
 free-kick-challenge-2026
 freecell-classic
 freekick-hero
+freestyle-asmr-makeup-artist
 freight
 french-fries-tycoon-farm-to-fryer
 frenzy-demine
@@ -3193,6 +3195,7 @@ from-nerd-to-school-popular
 from-zombie-to-glam-a-spooky
 frontline-assault-battleground-fire-max-shooting
 frontline-commando-shooting-gun-games
+frontline-conquest
 frontline-strike
 froozy
 frost-fashion
@@ -3213,6 +3216,7 @@ fruit-drop-puzzle-game
 fruit-fusion
 fruit-goals-match
 fruit-immortal
+fruit-jam-color-sort
 fruit-jam-master
 fruit-lane-cafe
 fruit-madness
@@ -3478,6 +3482,7 @@ goblin-clan
 goblin-defense-merge
 god-of-entropy
 god-of-light
+god-of-war-titan-revolt
 going-balls-3d
 going-right
 going-rolling-ball
@@ -5623,6 +5628,7 @@ ocean-blast-match-3
 ocean-catcher-fun
 ocean-dash
 ocean-drift
+ocean-land-fish-game
 ocean-match-crush
 ocean-match-puzzle
 ocean-orbs
@@ -5783,6 +5789,7 @@ paperly-paper-plane-adventure
 parcel-pulse-toy-factory
 parent-run-game
 park-draw-game
+park-perfect-car-simulator
 park-sort
 park-the-cars
 park-them-all
@@ -8235,6 +8242,7 @@ toy-factory-conveyor
 toy-rumble-3d
 toy-smash
 toy-soccer-cup
+toy-traffic-escape
 toytopia
 tps-shooting-zombie-apocalypse
 trace-craft
