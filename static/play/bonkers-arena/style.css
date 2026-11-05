@@ -322,3 +322,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--amber); out
 .res-star { position: absolute; bottom: -8px; width: 6px; height: 6px; border-radius: 50%; pointer-events: none; opacity: 0; animation: resstar 3s linear forwards; }
 @keyframes resstar { 0% { transform: translateY(0) scale(.6); opacity: 0; } 15% { opacity: .9; } 100% { transform: translateY(-420px) scale(1.2); opacity: 0; } }
 #result .result-title.win { text-shadow: 0 0 10px #ffcc3d, 0 0 26px #ffcc3d, 0 0 60px rgba(255, 204, 61, .5); }
+
+/* continue a saved run */
+.link-btn { border: 0; background: none; color: var(--muted); font: 600 14px var(--body); letter-spacing: .04em; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; margin-top: -4px; }
+.screen.home .made-by { margin-top: 6px; padding: 5px 12px; font-size: 10px; opacity: .85; transform: scale(.9); }

@@ -288,16 +288,20 @@
   let run = null, koStreak = 0;
   const PRAISE = ['great', 'awesome', 'amazing', 'perfect', 'wow', 'champ', 'super'];
 
-  function startRun() {
-    run = { wave: 0, score: 0, kos: 0, coins: 0, mods: {}, continued: false };
+  // A run is saved at the start of every wave, so you can carry on from that wave later or after falling.
+  function startRun(fresh) {
+    if (!fresh && save.run) { run = Object.assign({ wave: 1, score: 0, kos: 0, coins: 0, mods: {}, continued: false }, save.run); run.wave--; }
+    else run = { wave: 0, score: 0, kos: 0, coins: 0, mods: {}, continued: false };
     nextWave();
   }
+  function retryWave() { startRun(false); }
 
   // battle song for each arena look (indexes into the battle playlist)
   const TRACK_OF = { light: [1, 4], mint: [4, 1], lilac: [1, 2], sunrise: [4, 2], dusk: [3, 5], cyber: [0, 3], frost: [4, 1], synth: [2, 0], inferno: [5, 3], aurora: [1, 4] };
   function nextWave() {
     A.init(); A.startMusic();
     run.wave++;
+    save.run = { wave: run.wave, score: run.score, kos: run.kos, coins: run.coins, mods: run.mods, continued: run.continued }; store();
     const lv = Sim.makeWave(run.wave);
     const w = Sim.createWorld(lv);
     const me = Sim.setupLevel(w, playerName(), save.skin, myColor(), run.mods);
@@ -399,7 +403,7 @@
       stats: [['KOs', run.kos], ['Score', run.score], ['Coins', '+' + run.coins]], coins: run.coins,
       best: record ? { text: 'New personal best!', now: 1, of: 1 } : best.score <= 0 ? null : { text: `${Math.max(0, best.score - run.score)} points to your best (${best.score}, wave ${best.wave})`, now: run.score, of: best.score },
       note: record ? 'Your best run so far.' : '',
-      main: canContinue ? 'Continue · watch ad' : null, retry: 'Play again',
+      main: canContinue ? 'Continue · watch ad' : null, retry: run.wave > 1 ? `Retry wave ${run.wave}` : 'Play again',
       actions: {
         main: async () => {
           $('resMain').disabled = true;
@@ -408,7 +412,7 @@
           if (!earned) return;
           run.continued = true; run.wave--; nextWave();
         },
-        retry: startRun, home: goHome,
+        retry: retryWave, home: goHome,
       },
     });
   }
@@ -484,7 +488,8 @@
   }
   $('pauseBtn').onclick = () => { A.play('click'); togglePause(); };
   $('resumeBtn').onclick = () => { A.play('click'); togglePause(); };
-  $('restartBtn').onclick = () => { A.play('click'); startRun(); };
+  // 'Start over' in the pause menu restarts the current wave (online: reconnects)
+  $('restartBtn').onclick = () => { A.play('click'); paused = false; retryWave(); };
   $('quitBtn').onclick = () => { A.play('click'); goHome(); };
 
   // ---------- online ----------
@@ -718,8 +723,11 @@
     $('nameInput').value = save.name;
     $('onlineBtn').hidden = $('friendsBtn').hidden = !onlineAvailable();
     const best = save.best;
-    const sub = $('playBtn').querySelector('.pb-sub');
-    sub.hidden = !(best && best.score); sub.textContent = sub.hidden ? '' : `Best ${best.score} · wave ${best.wave}`;
+    const sub = $('playBtn').querySelector('.pb-sub'), saved = save.run && save.run.wave > 1 ? save.run : null;
+    $('playBtn').querySelector('.pb-main').textContent = saved ? 'CONTINUE' : 'PLAY';
+    sub.hidden = !saved && !(best && best.score);
+    sub.textContent = saved ? `Wave ${saved.wave} · score ${saved.score}` : sub.hidden ? '' : `Best ${best.score} · wave ${best.wave}`;
+    $('newGameBtn').hidden = !saved;
     refreshCoins(); refreshBadge(); syncToggles();
   }
 
@@ -867,7 +875,8 @@
   for (const id of ['musicBtn', 'musicBtn2']) $(id).onclick = () => { A.init(); A.startMusic(); save.music = !save.music; store(); syncToggles(); };
   for (const id of ['voiceBtn', 'voiceBtn2']) $(id).onclick = () => { A.init(); save.voice = !save.voice; store(); syncToggles(); A.play('click'); };
 
-  $('playBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); playerName(); startRun(); };
+  $('playBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); playerName(); startRun(false); };
+  $('newGameBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); playerName(); save.run = null; store(); startRun(true); };
   $('onlineBtn').onclick = () => { A.init(); A.play('click'); playerName(); startOnline(null); };
 
   // ---------- play with friends: an invite code puts everyone who uses it in one team ----------
