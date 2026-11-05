@@ -191,9 +191,51 @@
   let hostMuted = false;
   function setHostMute(m) { hostMuted = m; if (out) out.gain.value = m ? 0 : .9; }
 
+  // ---------- creature voices ----------
+  // Tiny synthesized critter voices: a buzzy source shaped by two vowel filters, with a pitch curve.
+  // base = the orb's own pitch (small orbs squeak, big ones grumble), so every orb sounds like itself.
+  const VOWEL = { a: [850, 1250], e: [520, 1900], i: [330, 2400], o: [520, 900], u: [340, 760] };
+  let voicesNow = 0;
+  function syllable(t, f0, f1, dur, vowel, vol) {
+    const o = ctx.createOscillator(), o2 = ctx.createOscillator(), lfo = ctx.createOscillator(), lg = ctx.createGain();
+    o.type = 'sawtooth'; o2.type = 'triangle';
+    o.frequency.setValueAtTime(f0, t); o.frequency.exponentialRampToValueAtTime(f1, t + dur);
+    o2.frequency.setValueAtTime(f0 * 2, t); o2.frequency.exponentialRampToValueAtTime(f1 * 2, t + dur);
+    lfo.frequency.value = 28; lg.gain.value = f0 * .03; lfo.connect(lg); lg.connect(o.frequency); lg.connect(o2.frequency);
+    const [F1, F2] = VOWEL[vowel];
+    const b1 = ctx.createBiquadFilter(), b2 = ctx.createBiquadFilter();
+    b1.type = b2.type = 'bandpass'; b1.frequency.value = F1; b2.frequency.value = F2; b1.Q.value = 5; b2.Q.value = 7;
+    const g = ctx.createGain();
+    g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(vol, t + .015);
+    g.gain.setValueAtTime(vol, t + dur * .6); g.gain.exponentialRampToValueAtTime(0.0001, t + dur);
+    const mix = ctx.createGain(); mix.gain.value = .5;
+    o.connect(b1); o.connect(b2); o2.connect(mix); mix.connect(b1);
+    b1.connect(g); b2.connect(g); g.connect(sfxBus);
+    for (const n of [o, o2, lfo]) { n.start(t); n.stop(t + dur + .05); }
+  }
+  const pick = a => a[(Math.random() * a.length) | 0];
+  const VOICES = {
+    hup: (t, f, v) => syllable(t, f * .9, f * 1.35, .12, pick(['u', 'a']), v),
+    oof: (t, f, v) => syllable(t, f * 1.1, f * .7, .16, pick(['o', 'u']), v),
+    eep: (t, f, v) => syllable(t, f * 1.4, f * 1.9, .1, 'i', v),
+    dizzy: (t, f, v) => { for (let i = 0; i < 3; i++) syllable(t + i * .09, f * (1.1 - i * .12), f * (1.25 - i * .12), .08, pick(['u', 'o']), v * .8); },
+    scream: (t, f, v) => syllable(t, f * 1.5, f * .45, .7, pick(['a', 'i', 'e']), v),
+    giggle: (t, f, v) => { for (let i = 0; i < 3; i++) syllable(t + i * .085, f * (1.3 + (i % 2) * .15), f * (1.45 + (i % 2) * .15), .065, pick(['e', 'i']), v * .85); },
+    ooh: (t, f, v) => syllable(t, f * .9, f * 1.5, .3, 'o', v),
+    yay: (t, f, v) => { syllable(t, f * 1.1, f * 1.6, .14, 'a', v); syllable(t + .16, f * 1.5, f * 1.9, .22, 'e', v); },
+    nom: (t, f, v) => syllable(t, f, f * .9, .07, 'o', v * .6),
+    chatter: (t, f, v) => { const n = 2 + (Math.random() * 3 | 0); for (let i = 0; i < n; i++) { const p = f * (.85 + Math.random() * .4); syllable(t + i * .11, p, p * (.9 + Math.random() * .3), .08, pick(['a', 'e', 'i', 'o', 'u']), v * .7); } },
+  };
+  // vol 0..1 relative; skipped when too many voices overlap, so it never turns into noise
+  function voice(kind, base, vol) {
+    if (!ctx || !state.sfx || voicesNow >= 3) return;
+    voicesNow++; setTimeout(() => voicesNow--, 300);
+    VOICES[kind](ctx.currentTime + .01, base, .13 * (vol == null ? 1 : vol));
+  }
+
   function setSfx(on) { state.sfx = on; if (sfxBus) sfxBus.gain.value = on ? 1 : 0; }
   function setMusic(on) { state.music = on; if (musicBus) musicBus.gain.value = on ? MUSIC_VOL : 0; }
   function play(name, arg) { if (ctx && state.sfx) sfx[name](arg); }
 
-  root.Audio2 = { init, play, startMusic, setSong, setIntensity, setSfx, setMusic, setHostMute, state, SONGS };
+  root.Audio2 = { init, play, voice, startMusic, setSong, setIntensity, setSfx, setMusic, setHostMute, state, SONGS };
 })(this);

@@ -111,6 +111,24 @@
   function near(x, y) { const [sx, sy] = toScreen(x, y); return sx > -80 && sx < W + 80 && sy > -80 && sy < H + 80; }
   const PU_NAME = { shield: 'SHIELD', magnet: 'MAGNET', mega: 'MEGA HIT', boost: 'BOOST', freeze: 'FREEZE' };
 
+  // each orb has its own voice: small orbs squeak, big ones and the Titan grumble
+  function pitchOf(b) { return (b.skin === 99 ? 190 : 470 + ((b.id * 137) % 330)) * Math.pow(Sim.START_R / b.r, .35); }
+  function say(view, id, kind, meId, chance) {
+    if (chance != null && Math.random() > chance) return;
+    const b = view.balls.find(x => x.id === id);
+    if (!b) return;
+    const mine = id === meId;
+    if (!mine && !near(b.x, b.y)) return;
+    A.voice(kind, pitchOf(b), mine ? 1 : .5);
+  }
+  let chatterAt = 3;
+  function idleChatter(view) {
+    if (clock < chatterAt) return;
+    chatterAt = clock + 2.5 + Math.random() * 3;
+    const list = view.balls.filter(b => !b.falling && near(b.x, b.y));
+    if (list.length) { const b = list[(Math.random() * list.length) | 0]; A.voice('chatter', pitchOf(b), .35); }
+  }
+
   function colorOf(view, id) { const b = view.balls.find(x => x.id === id); return b ? skinFor(b).c : '#ffffff'; }
 
   function handleEvents(view, events, meId) {
@@ -123,6 +141,10 @@
         if (p > .5) burst(ev.x, ev.y, 2 + (p * 5 | 0), [ca, cb], 200 + p * 150, 3 + p * 2, .5, 'shard');
         const mine = ev.a === meId || ev.b === meId;
         if (mine || near(ev.x, ev.y)) A.play('bonk', mine ? p : p * .4);
+        if (p > .35) {
+          const ba = view.balls.find(x => x.id === ev.a), bb = view.balls.find(x => x.id === ev.b);
+          if (ba && bb) { const loser = ba.r < bb.r ? ba : bb; say(view, loser.id, p > .7 ? 'dizzy' : (Math.random() < .5 ? 'oof' : 'eep'), meId); }
+        }
         if (mine) {
           shake = Math.max(shake, 3 + p * 8);
           if (p > .7) { hitstop = Math.max(hitstop, .05); screenFlash('#ffcc3d', .08 + p * .06); }
@@ -130,10 +152,11 @@
       } else if (ev.e === 'eat') {
         fx(ev.x, ev.y, 'glow', PELLET_COLORS[ev.k], 22, .3);
         burst(ev.x, ev.y, 4, PELLET_COLORS[ev.k], 160, 1.8, .3, 'spark');
-        if (ev.id === meId) { A.play('eat', ev.k); quest('eat', 1); }
+        if (ev.id === meId) { A.play('eat', ev.k); quest('eat', 1); say(view, meId, 'nom', meId, .2); }
       } else if (ev.e === 'dash') {
         const c = colorOf(view, ev.id);
         fx(ev.x, ev.y, 'ring', c, 40, .3); fx(ev.x, ev.y, 'glow', c, 28, .25);
+        say(view, ev.id, 'hup', meId, ev.id === meId ? 1 : .5);
         if (ev.id === meId) { A.play('dash'); quest('dash', 1); shake = Math.max(shake, 4); }
       } else if (ev.e === 'bump' || ev.e === 'block') {
         fx(ev.x, ev.y, 'flash', '#ff4fd8', 30, .2);
@@ -144,9 +167,12 @@
         fx(ev.x, ev.y, 'beam', c, 120, .5); fx(ev.x, ev.y, 'ring', c, 60, .4); fx(ev.x, ev.y, 'flash', c, 45, .3);
         burst(ev.x, ev.y, 12, [c, '#ffffff'], 260, 2.2, .45, 'spark');
         if (ev.id === meId) { A.play('coin'); floatText(ev.x, ev.y - 24, PU_NAME[ev.type] + '!', PU_COLORS[ev.type], 28); quest('pu', 1); }
+        say(view, ev.id, 'ooh', meId);
       } else if (ev.e === 'out') {
         const victim = nameOf(view, ev.id), by = ev.by ? nameOf(view, ev.by) : null;
         feed(by ? `${by} bonked ${victim} into the void!` : `${victim} fell into the void!`);
+        say(view, ev.id, 'scream', meId);
+        if (ev.by) { const v = view; setTimeout(() => say(v, ev.by, 'giggle', meId), 350); }
         if (ev.by) {
           Art.happy(ev.by, clock);
           const v = view.balls.find(x => x.id === ev.id), k = view.balls.find(x => x.id === ev.by);
@@ -240,7 +266,7 @@
       if (won) {
         slowUntil = clock + 1.6;
         burst(L.me.x, L.me.y, 70, ['#46e6ff', '#ff4fd8', '#ffcc3d', '#7dff9b'], 460, 6, 1.8, 'conf');
-        A.play('win'); quest('win', 1);
+        A.play('win'); quest('win', 1); A.voice('yay', pitchOf(L.me), 1);
       } else A.play('lose');
     }
   }
@@ -408,7 +434,7 @@
     const coins = bonks * 5 + (place === 1 ? 25 : place <= 3 ? 10 : 2);
     save.coins += coins; refreshCoins();
     quest('online', 1);
-    if (place === 1) { quest('win', 1); A.play('win'); } else A.play('lose');
+    if (place === 1) { quest('win', 1); A.play('win'); A.voice('yay', 600, 1); } else A.play('lose');
     store();
     showResult({
       title: place === 1 ? 'Champion!' : `${ordinal(place)} place!`, win: place === 1,
@@ -483,6 +509,7 @@
     } else windBits.length = 0;
     shake *= Math.exp(-8 * dt);
     flash.a *= Math.exp(-7 * dt);
+    if (mode !== 'menu' && !paused) idleChatter(view);
     if (mode === 'menu' && !$('home').hidden) heroBall();
     Art.render(ctx, view, { W, H, DPR, cam, clock, shake, reduce: reduceMotion, parts, texts, windBits, dashCd: Sim.DASH_CD, flash: reduceMotion ? null : flash });
     requestAnimationFrame(frame);
