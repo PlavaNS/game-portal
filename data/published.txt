@@ -82,6 +82,7 @@
 3d-pool-mania
 3d-puzzle
 3d-pyramid-maze
+3d-racing-typing-game
 3d-sniper-shooting-game
 3d-super-rolling-ball-race
 3d-tower-defense
@@ -182,6 +183,7 @@ alderun
 alex-whiskers
 alien-bubbles
 alien-catcher
+alien-clicker-invaders
 alien-forest-jump
 alien-memory
 alien-quarantine
@@ -482,6 +484,7 @@ baby-taylor-memory-quest
 baby-taylor-puppy-daycare
 baby-taylor-stomach-care
 baby-taylor-tea-party-day
+back-to-school-uniforms-edition
 backflip-master-parkour-stunts
 backgammon
 backroom-exit
@@ -556,6 +559,7 @@ barrel-roller-stack-and-run-3d
 barry-prison-parkour-escape
 baseball-for-clowns
 basement
+basic-economics-multiple-choice
 basic-physics-single-choice
 basket-ball-for-two-player
 basket-battle
@@ -661,6 +665,7 @@ bicycle-stunt-racing-game-3d
 bicycle-stunts-racing-2023
 big-bob-s-burger-truck
 big-boom-building-smash
+big-catch-fishing
 big-donuts-mania
 big-farming-fun
 big-rolling-ball
@@ -1679,6 +1684,7 @@ comparing-numbers-quick-math-game
 computer-valley
 confusionsinmath-5-8
 connect-associations
+connect-em-all
 connect-hero
 connect-monsters
 connect-pipe-color-puzzle-game
@@ -1710,6 +1716,7 @@ cooking-lunch-at-school
 cooking-match
 cooking-shawarma-idle-game
 cool-escape-obby-man
+cool-girl-aesthetics
 cool-tuning-paint-the-car
 coookie-clicker
 copy-the-drawing
@@ -1942,6 +1949,7 @@ cute-princess-dress-up
 cute-shapes
 cute-tiles-mahjong
 cutepanckake
+cuteslicesball
 cutter-woodsman-game
 cyber-arrows-brain-puzzle-game
 cyber-city-driver
@@ -2199,12 +2207,14 @@ double-boy-jump
 double-heist-rob-the-robbers
 downhill-car-ride-crash-test
 downhill-christmas-dash
+dr-parking-2
 dr-psycho-hospital-escape
 dracula-run
 draft-arena-battle-cards
 drag-me-ow
 drag-n-drop-games-color-match
 drag-n-drop-word-match
+drag-race-x
 drago-warrior-tower-defense
 dragon-annihilation
 dragon-block-blast
@@ -2362,6 +2372,7 @@ dunkchallenge
 dunkeon-dino
 dunkers-fight
 dunkin-beanz
+duo-adventures-legacy-of-traps
 duo-match-3d
 duo-summerbombs
 duohex
@@ -2376,6 +2387,7 @@ earth-dunk-physics-arcade-game
 easiest-maths
 easter-funny-makeup
 easter-match-3-saga
+eastern-star-vs-city-style-icon
 easy-apple-coloring-book
 easy-easter-coloring-eggs
 easy-halloween-coloring-quest
@@ -2391,6 +2403,7 @@ echo-rift
 echolocation-shooter
 eco-block-puzzle
 eco-ninja
+edge-racing
 edgefire
 edgefire-2
 egg-clicker
@@ -2515,6 +2528,7 @@ evolution-arena-battle-royale
 evolution-era
 evolution-of-hamster-clicker
 evolution-survival
+evolve-numbers
 evowarriors-fun
 exitblocks-color-match-puzzle
 explainable-minesweeper
@@ -3101,6 +3115,7 @@ germaway
 get-10
 get-10-ultimate
 get-a-screw-puzzle
+get-off-my-farm
 get-on-board
 get-on-top-touch
 get-rich-in
@@ -3273,6 +3288,7 @@ guess-drawing
 guess-monster-voice
 guess-the-fruit-world-quiz
 guess-which-game
+guess-words-fast
 guilty-sniper
 gun-and-guys
 gun-and-roll
@@ -3519,6 +3535,7 @@ hill-climb-racing-adventure
 hill-climb-racings-2
 hill-climb-truck-transform-adventure
 hill-climber
+hill-racer-2d
 hill-racing
 hill-ride-3d
 hills-of-steel
@@ -4073,6 +4090,7 @@ lifecode
 lift-brake-simulator
 lift-defender-zombie-carnage
 lift-the-girl
+liftbreak
 light-house-save-the-ship
 light-it-rush
 light-stream
@@ -4307,6 +4325,7 @@ match-4
 match-challenge
 match-colors-game
 match-dot-puzzle-game
+match-factory
 match-master
 match-mystery
 match-nonstop
@@ -4339,6 +4358,7 @@ mathematic-for-kids
 mathematics-frenzy
 mathmates-3d-brain-quest
 maths-for-standard-ii
+maths-for-standard-v
 maths-puzzle
 maths-quiz-with-negative-numbers
 mathtaless
@@ -4416,6 +4436,7 @@ merge-a-rocket
 merge-adventure
 merge-animals
 merge-animals-defence
+merge-animals-game
 merge-archers-bow-and-arrow
 merge-balls-shooter-2048-connect-fruits
 merge-battler
@@ -4733,6 +4754,7 @@ mr-bullet-3d-online
 mr-drifter-car-chase-simulator
 mr-dude-king-of-the-hill
 mr-fight
+mr-hero
 mr-noob-jailbreak
 mr-one-punch-action-fighting-game
 mr-orange-flappy-jump
@@ -5354,6 +5376,7 @@ pga-toons
 pga1
 pga3-survival
 pga3-zombie
+pga4
 phone-case-diy
 phone-case-diy-2
 phone-case-diy-kpop-fans
@@ -5439,6 +5462,7 @@ pixel-shooter-puzzle
 pixel-smash-ball
 pixel-snake
 pixel-tower
+pixel-wings
 pixelblock
 pixelparkour
 pixzombies
@@ -5874,6 +5898,7 @@ retro-run
 retro-sniper
 retro-speed
 retro-x-racer
+retrohero-the-last-stand
 reversi-classic
 revoxel-3d-voxel-rpg-shooter
 rewarp
@@ -6293,6 +6318,7 @@ sigma-boy-musical-clicker
 signal-survival-block-arena
 sila
 silent-fear
+simple-flappy-ball
 simple-fruit-memory
 simple-merge
 simple-words
@@ -6328,6 +6354,7 @@ sky-ace-stunt-plane-islands
 sky-ball-adventure-3d
 sky-balls-3d
 sky-blocks-falling
+sky-bus-mega-ramp-drive
 sky-city-riders
 sky-flight
 sky-fling
@@ -6982,6 +7009,7 @@ sudoku-number-games
 sudoku-online
 sudoku-puzzle
 sudoku-puzzle-master
+sudoku-vault
 sugar-blast-snowy-pop
 sugar-rush-tower
 sugar-rusher
@@ -7216,6 +7244,7 @@ tap-tap-reloaded
 tap-the-crop
 tap-think-save-the-kitten
 tapping-on-fruit
+tapsync-blocks
 tarantula-clicker
 target-gun-game-fps-shooting
 target-hit-shooting-range
@@ -7744,6 +7773,7 @@ volley-beans
 volley-clash
 volzo
 vossk
+vowels-vs-consonants
 voxel-atelier
 voxel-crusher
 voxel-master
