@@ -291,7 +291,7 @@
   }
 
   // battle song for each arena look (indexes into the battle playlist)
-  const TRACK_OF = { light: [1, 4], sunrise: [4, 2], cyber: [0, 3], frost: [4, 1], synth: [2, 0], inferno: [5, 3], aurora: [1, 4] };
+  const TRACK_OF = { light: [1, 4], mint: [4, 1], lilac: [1, 2], sunrise: [4, 2], dusk: [3, 5], cyber: [0, 3], frost: [4, 1], synth: [2, 0], inferno: [5, 3], aurora: [1, 4] };
   function nextWave() {
     A.init(); A.startMusic();
     run.wave++;
@@ -309,7 +309,7 @@
     for (const b of w.balls) { const c = skinFor(b).c; fx(b.x, b.y, 'beam', c, 220, .9); fx(b.x, b.y, 'ring', c, 60, .6); }
     A.play('wave');
     A.playTrack('battle', (TRACK_OF[lv.theme] || [0])[run.wave % 2]);
-    A.ambient(Art.THEMES[lv.theme] && Art.THEMES[lv.theme].light ? 'wind' : 'space');
+    A.ambient(Art.THEMES[lv.theme] && Art.THEMES[lv.theme].sky ? 'wind' : 'space');
     P.levelStarted(run.wave);
   }
 

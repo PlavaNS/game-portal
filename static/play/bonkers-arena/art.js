@@ -54,8 +54,11 @@
     frost: { bg: ['#10304d', '#020812'], floor: ['#1d3a5e', '#0a1a30'], grid: 'rgba(170,235,255,.15)', rim: '#9fe8ff', rim2: '#ffffff', accent: '#46e6ff', star: '200,240,255' },
     synth: { bg: ['#2b0f45', '#06020e'], floor: ['#2c1552', '#110726'], grid: 'rgba(255,79,216,.15)', rim: '#ff4fd8', rim2: '#ffcc3d', accent: '#46e6ff', star: '255,150,230' },
     inferno: { bg: ['#3d1008', '#0a0302'], floor: ['#2e130f', '#120605'], grid: 'rgba(255,120,50,.15)', rim: '#ff6a2a', rim2: '#ffcc3d', accent: '#ffcc3d', star: '255,180,120' },
-    light: { bg: ['#4fb3ff', '#cfeeff'], floor: ['#ffffff', '#e8eefa'], grid: 'rgba(40,80,160,.13)', rim: '#2b9bff', rim2: '#ff4fa8', accent: '#9b5cff', star: '90,110,170', light: true },
-    sunrise: { bg: ['#5a3d8a', '#ffb070'], floor: ['#fffaf3', '#fde6cf'], grid: 'rgba(210,110,40,.15)', rim: '#ff7a1a', rim2: '#ff4fa8', accent: '#ffb000', star: '200,120,80', light: true },
+    mint: { bg: ['#3fc9c0', '#d8fff3'], floor: ['#ffffff', '#e3faf2'], grid: 'rgba(20,130,110,.14)', rim: '#10b59a', rim2: '#ff4fa8', accent: '#7d5cff', star: '60,140,130', light: true, sky: true },
+    lilac: { bg: ['#8f7dff', '#f1e6ff'], floor: ['#ffffff', '#efe8ff'], grid: 'rgba(110,70,200,.14)', rim: '#8a5cff', rim2: '#ff4fa8', accent: '#2bb8ff', star: '120,90,190', light: true, sky: true },
+    dusk: { bg: ['#1d1648', '#e0707a'], floor: ['#3b2f72', '#241a4f'], grid: 'rgba(255,170,130,.18)', rim: '#ff8a5c', rim2: '#ffd27a', accent: '#ff4fa8', star: '255,210,230', sky: true },
+    light: { bg: ['#4fb3ff', '#cfeeff'], floor: ['#ffffff', '#e8eefa'], grid: 'rgba(40,80,160,.13)', rim: '#2b9bff', rim2: '#ff4fa8', accent: '#9b5cff', star: '90,110,170', light: true, sky: true },
+    sunrise: { bg: ['#5a3d8a', '#ffb070'], floor: ['#fffaf3', '#fde6cf'], grid: 'rgba(210,110,40,.15)', rim: '#ff7a1a', rim2: '#ff4fa8', accent: '#ffb000', star: '200,120,80', light: true, sky: true },
     aurora: { bg: ['#06302e', '#02060a'], floor: ['#0f3a3a', '#061618'], grid: 'rgba(61,255,184,.14)', rim: '#3dffb8', rim2: '#b77dff', accent: '#b77dff', star: '160,255,220' },
   };
 
@@ -501,9 +504,11 @@
   const CLOUDS = Array.from({ length: 14 }, (_, i) => ({ x: (i * 0.37 % 1), y: 0.08 + (i * 0.61 % 1) * .8, s: .6 + (i * 0.23 % 1) * 1.1, sp: .4 + (i * 0.53 % 1) * .8, puffs: Array.from({ length: 5 }, (__, k) => ({ dx: (k - 2) * .55 + ((i + k) * .31 % 1 - .5) * .3, dy: -((k * 0.47 + i) % 1) * .45, r: .55 + ((i * 7 + k) * 0.29 % 1) * .4 })) }));
   const BIRDS = Array.from({ length: 5 }, (_, i) => ({ y: .12 + i * .09, sp: .05 + i * .012, ph: i * 1.3 }));
   function drawSky(c, scene, th, W, H, cam, clock) {
-    const M = Math.max(W, H), sunrise = scene === 'sunrise';
-    const sx = sunrise ? W * .5 : W * .82, sy = sunrise ? H * .78 : H * .16, sr = sunrise ? M * .16 : M * .07;
+    const M = Math.max(W, H), dusk = scene === 'dusk', sunrise = scene === 'sunrise' || dusk;
+    const sx = sunrise ? W * .5 : W * .82, sy = dusk ? H * .98 : sunrise ? H * .78 : H * .16, sr = sunrise ? M * .16 : M * .07;
     c.save();
+    // dusk: the first stars come out
+    if (dusk) for (const st of STARS) { const x = ((st.x - cam.x * .05) % W + W) % W, y = ((st.y - cam.y * .05) % (H * .6) + H * .6) % (H * .6); c.fillStyle = `rgba(255,240,250,${st.a * (.5 + .5 * Math.sin(clock * 2 + st.x))})`; c.fillRect(x, y, st.s, st.s); }
     // sun with soft rays
     const halo = c.createRadialGradient(sx, sy, sr * .5, sx, sy, sr * (sunrise ? 3.2 : 4));
     halo.addColorStop(0, sunrise ? 'rgba(255,200,120,.75)' : 'rgba(255,255,220,.7)'); halo.addColorStop(.5, sunrise ? 'rgba(255,140,90,.25)' : 'rgba(255,255,220,.12)'); halo.addColorStop(1, 'rgba(255,255,255,0)');
@@ -515,7 +520,7 @@
     sun.addColorStop(0, '#fffbe8'); sun.addColorStop(.8, sunrise ? '#ffd27a' : '#fff1a8'); sun.addColorStop(1, sunrise ? '#ff9a3b' : '#ffe27a');
     ellipse(c, sx, sy, sr, sr, 0, sun);
     // clouds drifting past, lit from the sun's side
-    const lit = sunrise ? '#ffe3c4' : '#ffffff', shade = sunrise ? 'rgba(120,70,140,.35)' : 'rgba(90,140,200,.3)';
+    const lit = dusk ? '#c98aa8' : sunrise ? '#ffe3c4' : th.bg[1], shade = dusk ? 'rgba(40,20,70,.45)' : sunrise ? 'rgba(120,70,140,.35)' : 'rgba(90,140,200,.3)';
     for (const cl of CLOUDS) {
       const base = cl.s * M * .09, x = ((cl.x * W * 1.6 + clock * cl.sp * 14 - cam.x * .05 * cl.s) % (W * 1.6 + base * 6) + W * 1.6 + base * 6) % (W * 1.6 + base * 6) - base * 3;
       const y = cl.y * H - cam.y * .04 * cl.s;
@@ -525,7 +530,7 @@
     }
     c.globalAlpha = 1;
     // a few birds far away
-    c.strokeStyle = sunrise ? 'rgba(80,40,80,.55)' : 'rgba(40,70,120,.5)'; c.lineWidth = 2; c.lineCap = 'round';
+    c.strokeStyle = dusk ? 'rgba(30,15,50,.7)' : sunrise ? 'rgba(80,40,80,.55)' : 'rgba(40,70,120,.5)'; c.lineWidth = 2; c.lineCap = 'round';
     for (const b of BIRDS) {
       const x = ((b.ph * 300 + clock * b.sp * 160) % (W + 80) + W + 80) % (W + 80) - 40, y = b.y * H + Math.sin(clock * .7 + b.ph) * 8, f = Math.sin(clock * 6 + b.ph) * 4;
       c.beginPath(); c.moveTo(x - 9, y + f); c.quadraticCurveTo(x - 4, y - 3, x, y); c.quadraticCurveTo(x + 4, y - 3, x + 9, y + f); c.stroke();
@@ -613,7 +618,7 @@
     const th = THEMES[view.lv.theme] || THEMES.cyber, { W, H, cam, clock } = env;
     ADD = th.light ? 'source-over' : 'lighter';
     ctx.setTransform(env.DPR, 0, 0, env.DPR, 0, 0);
-    if (th.light) {
+    if (th.sky) {
       // daytime: the sky, with the arena floating high above the clouds
       const sky = ctx.createLinearGradient(0, 0, 0, H);
       sky.addColorStop(0, th.bg[0]); sky.addColorStop(1, th.bg[1]);

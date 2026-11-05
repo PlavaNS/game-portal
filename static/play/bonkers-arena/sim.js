@@ -538,13 +538,17 @@
   // ---------- endless mode ----------
   // Wave n uses an arena from LEVELS (first in a fixed order, later at random); every 5th wave brings the Titan.
   // indexes into LEVELS: the white Cloud Nine comes first, the warm light Sunrise later
-  const WAVE_ORDER = [0, 2, 3, 13, 4, 14, 1, 5, 9, 15, 7, 6, 8, 10, 11, 12];
+  const WAVE_ORDER = [0, 2, 3, 1, 4, 13, 14, 5, 9, 15, 7, 6, 8, 10, 11, 12];
   function makeWave(n) {
-    const tpl = n <= WAVE_ORDER.length ? LEVELS[WAVE_ORDER[n - 1]] : LEVELS[(Math.random() * LEVELS.length) | 0];
+    const NIGHT = LEVELS.filter(l => l.theme !== 'light' && l.theme !== 'sunrise');
+    const tpl = n <= WAVE_ORDER.length ? LEVELS[WAVE_ORDER[n - 1]] : NIGHT[(Math.random() * NIGHT.length) | 0];
     const boss = n % 5 === 0;
+    // the look goes from bright daylight to night: white sky, mint, lilac, sunrise, dusk, then the dark neon arenas
+    const DAY = ['light', 'mint', 'lilac', 'sunrise', 'dusk'];
     const bots = Math.min(2 + n, 14) - (boss ? 1 : 0);
     const rMax = Math.round(Math.max(tpl.rMax, 300 + bots * 26) * 1.35);
-    return Object.assign({}, tpl, { id: n, wave: n, bots, boss, skill: Math.min(0.05 + 0.06 * n, 0.9), time: 40 + Math.min(n * 3, 35), events: n >= 3, rMax, rMin: Math.max(tpl.rMin, rMax * (n < 4 ? 0.6 : 0.45)) });
+    const look = n <= DAY.length ? { theme: DAY[n - 1], scene: { light: 'sky', mint: 'sky', lilac: 'sky', sunrise: 'sunrise', dusk: 'dusk' }[DAY[n - 1]] } : {};
+    return Object.assign({}, tpl, look, { id: n, wave: n, bots, boss, skill: Math.min(0.05 + 0.06 * n, 0.9), time: 35 + Math.min(n * 2.5, 30), events: n >= 3, rMax, rMin: Math.max(tpl.rMin, rMax * (n < 4 ? 0.6 : 0.45)) });
   }
 
   // Perks picked between waves; each can be taken up to 3 times.

@@ -265,12 +265,18 @@
 
   // ---------- sound effects ----------
   const sfx = {
+    // a round, rubbery "boing": soft thump + springy wobble + tiny pop; harder hits sound lower and fuller
     bonk(pow) {
-      const t = ctx.currentTime, v = .25 + pow * .3;
-      osc('sine', 180, 48, t, .22, v, sfxBus);
-      osc('sine', 95, 38, t, .3, v * .7, sfxBus);
-      osc('square', 900 + Math.random() * 300, 260, t, .09, v * .25, sfxBus, { lp: 3000 });
-      noise(t, .06, 5000, 2000, 1, v * .3, 'highpass', sfxBus);
+      const t = ctx.currentTime, v = .22 + pow * .26, k = 1 + (Math.random() - .5) * .16, f0 = (560 - pow * 180) * k;
+      osc('sine', 210 * k, 80, t, .16, v * (.45 + pow * .5), sfxBus, { rel: .12 });
+      const o = ctx.createOscillator(), g = ctx.createGain(), lfo = ctx.createOscillator(), lg = ctx.createGain();
+      o.type = 'triangle'; o.frequency.setValueAtTime(f0, t); o.frequency.exponentialRampToValueAtTime(f0 * .62, t + .26);
+      lfo.frequency.value = 19; lg.gain.setValueAtTime(f0 * .09, t); lg.gain.exponentialRampToValueAtTime(1, t + .26);
+      lfo.connect(lg); lg.connect(o.frequency);
+      g.gain.setValueAtTime(0.0001, t); g.gain.exponentialRampToValueAtTime(v * .55, t + .008); g.gain.exponentialRampToValueAtTime(0.0001, t + .3);
+      const f = ctx.createBiquadFilter(); f.type = 'lowpass'; f.frequency.value = 2400;
+      o.connect(f); f.connect(g); g.connect(sfxBus); o.start(t); lfo.start(t); o.stop(t + .32); lfo.stop(t + .32);
+      noise(t, .025, 2200, 1400, 1.5, v * .22, 'bandpass', sfxBus);
     },
     eat(k) { const f = [1046, 1175, 1319, 1568][k || 0]; osc('triangle', f, f * 1.5, ctx.currentTime, .07, .07, sfxBus); },
     dash() { const t = ctx.currentTime; noise(t, .26, 400, 3200, 2, .22, 'bandpass', sfxBus); osc('sawtooth', 180, 720, t, .16, .05, sfxBus, { lp: 2000 }); },
