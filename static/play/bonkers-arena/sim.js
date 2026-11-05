@@ -108,7 +108,7 @@
       const name = BOT_NAMES.find(nm => !used.has(nm)) || ('Bot ' + (++i));
       used.add(name);
       const col = order[n++ % order.length];
-      addBall(w, { name, skin: (Math.random() * 16) | 0, col });
+      addBall(w, { name, skin: 0, col });
     }
   }
 

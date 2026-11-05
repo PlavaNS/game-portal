@@ -2,7 +2,7 @@
 (function (root) {
   let ctx = null, out = null, sfxBus = null, musicBus = null, delayIn = null, noiseBuf = null;
   const state = { sfx: true, music: true };
-  const MUSIC_VOL = 0.3;
+  const MUSIC_VOL = 0.18;
 
   function init() {
     if (ctx) { if (ctx.state === 'suspended') ctx.resume(); return; }
@@ -59,7 +59,7 @@
   const I = {
     kick(t) { osc('sine', 130, 40, t, .32, .34, musicBus, { rel: .28 }); },
     snare(t) { noise(t, .26, 1600, 900, .7, .11, 'bandpass', musicBus); osc('triangle', 190, 130, t, .1, .06, musicBus); },
-    hat(t, open) { noise(t, open ? .14 : .04, 8000, 6500, 1, open ? .028 : .018, 'highpass', musicBus); },
+    hat(t, open) { noise(t, open ? .12 : .035, 8000, 6500, 1, open ? .016 : .01, 'highpass', musicBus); },
     bass(t, n, dur) {
       const o = ctx.createOscillator(), f = ctx.createBiquadFilter(), g = ctx.createGain();
       o.type = 'sawtooth'; o.frequency.value = hz(n);
@@ -68,9 +68,9 @@
       o.connect(f); f.connect(g); g.connect(musicBus); o.start(t); o.stop(t + dur + .05);
     },
     pad(t, notes, dur) {
-      for (const n of notes) for (const dt of [-10, 10]) osc('sawtooth', hz(n + 12), 0, t, dur, .02, musicBus, { a: .6, rel: .7, lp: 950, detune: dt });
+      for (const n of notes) for (const dt of [-8, 8]) osc('triangle', hz(n + 12), 0, t, dur, .022, musicBus, { a: .8, rel: .9, lp: 800, detune: dt });
     },
-    arp(t, n, dur) { osc('triangle', hz(n + 24), 0, t, dur, .022, musicBus, { lp: 1800, rel: dur * .8, send: true }); },
+    arp(t, n, dur) { osc('sine', hz(n + 24), 0, t, dur, .018, musicBus, { lp: 1500, rel: dur * .8, send: true }); },
     lead(t, n, dur, kind) {
       if (kind === 'bell') {
         osc('sine', hz(n + 24), 0, t, dur * 1.6, .03, musicBus, { a: .005, rel: dur * 1.4, send: true });
@@ -78,8 +78,8 @@
         return;
       }
       if (kind === 'pluck') { osc('triangle', hz(n + 12), 0, t, Math.min(dur, .3), .045, musicBus, { a: .004, lp: 1500, rel: .25, send: true }); return; }
-      osc('sawtooth', hz(n + 12), 0, t, dur, .03, musicBus, { a: .04, lp: 1700, rel: dur * .5, send: true });
-      osc('triangle', hz(n + 12), 0, t, dur, .03, musicBus, { a: .04, lp: 2200, rel: dur * .5, detune: 7 });
+      osc('triangle', hz(n + 12), 0, t, dur, .04, musicBus, { a: .05, lp: 1400, rel: dur * .6, send: true });
+      osc('sine', hz(n + 12), 0, t, dur, .03, musicBus, { a: .05, rel: dur * .6, detune: 5 });
     },
   };
 
@@ -267,6 +267,12 @@
       osc('sine', 60, 40, t + .7, .5, .25, sfxBus);
     },
     // wave cleared: bright fanfare chord
+    // firework: a soft thump, then a sparkly crackle
+    firework() {
+      const t = ctx.currentTime;
+      noise(t, .25, 900, 120, .8, .12, 'lowpass', sfxBus);
+      for (let i = 0; i < 6; i++) noise(t + .08 + Math.random() * .35, .05, 6000, 4000, 2, .05, 'bandpass', sfxBus);
+    },
     clear() {
       const t = ctx.currentTime;
       [64, 68, 71, 76].forEach((n, i) => osc('sawtooth', hz(n + 12), 0, t + i * .08, .5, .055, sfxBus, { lp: 3500, send: true }));

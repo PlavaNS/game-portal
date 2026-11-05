@@ -57,7 +57,7 @@
   </div>
 
   <nav class="home-dock">
-    <button class="dock-btn" id="shopBtn"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M8.5 10.5h.01M15.5 10.5h.01" stroke-width="3"/><path d="M9 15c1.7 1.3 4.3 1.3 6 0"/></svg>Skins</button>
+    <button class="dock-btn" id="shopBtn"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M8.5 10.5h.01M15.5 10.5h.01" stroke-width="3"/><path d="M9 15c1.7 1.3 4.3 1.3 6 0"/></svg>Balls</button>
     <button class="dock-btn" id="dailyBtn"><svg viewBox="0 0 24 24"><rect x="4" y="9" width="16" height="11" rx="2"/><path d="M3 9h18M12 9v11M12 9c-2-4-6-4-6-1s6 1 6 1zm0 0c2-4 6-4 6-1s-6 1-6 1z"/></svg>Daily<span class="badge" id="dailyBadge" hidden></span></button>
     <button class="dock-btn" id="topBtn"><svg viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/></svg>Top</button>
   </nav>
@@ -75,14 +75,13 @@
 <!-- Shop -->
 <section class="screen" id="shop" hidden>
   <div class="card wide">
-    <div class="card-head"><button class="icon-btn" data-go="home" aria-label="Back">←</button><h2>Skins</h2><span class="coins-inline"><span class="coin"></span><span class="coinCount">0</span></span></div>
-    <div class="section-label">Your colour</div>
+    <div class="card-head"><button class="icon-btn" data-go="home" aria-label="Back">←</button><h2>Balls</h2><span class="coins-inline"><span class="coin"></span><span class="coinCount">0</span></span></div>
+    <div class="section-label">Classic colour</div>
     <div class="color-row" id="colorRow"></div>
     <div class="season-head" id="seasonHead"></div>
     <div class="skin-grid" id="seasonGrid"></div>
-    <div class="section-label">All skins</div>
-    <div class="skin-grid" id="skinGrid"></div>
-    <p class="hint">Skins with a trail leave light behind them when they move. Earn coins by bonking, winning and daily quests.</p>
+    <div id="typeList"></div>
+    <p class="hint">Rare: a new look. Epic: a new look and a special trail. Legendary: a living look, a trail and its own knock-out burst. Earn coins by bonking, clearing waves and daily quests.</p>
   </div>
 </section>
 

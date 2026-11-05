@@ -3,10 +3,10 @@
   const TAU = Math.PI * 2;
   const $ = id => document.getElementById(id);
   const A = window.Audio2, P = window.Platform, D = window.Daily;
-  const { SKINS, SEASON, skinOf, skinFor, drawBall, PELLET_COLORS, PU_COLORS } = window.Art;
+  const { TIERS, SKINS, SEASON, skinOf, skinFor, drawBall, PELLET_COLORS, PU_COLORS } = window.Art;
 
   // ---------- save (stored through the portal SDK) ----------
-  const save = { uid: '', name: '', coins: 0, skin: 0, color: -1, owned: [0, 1, 2, 3], best: null, sfx: true, music: true, daily: null, streak: null };
+  const save = { uid: '', name: '', coins: 0, skin: 0, color: -1, owned: [0], best: null, v: 2, sfx: true, music: true, daily: null, streak: null };
   function store() { P.save(save); }
 
   // ---------- canvas ----------
@@ -28,6 +28,34 @@
     for (let i = 0; i < n; i++) {
       const a = Math.random() * TAU, s = speed * (.4 + Math.random() * .8);
       parts.push({ x, y, vx: Math.cos(a) * s, vy: Math.sin(a) * s, life, max: life, c: Array.isArray(col) ? col[i % col.length] : col, s: size * (.6 + Math.random() * .7), k: kind || 'dot', rot: Math.random() * TAU });
+    }
+  }
+  // screen-wide confetti that flutters down, and fireworks around a spot in the arena
+  const rain = [], CONF = ['#46e6ff', '#ff4fd8', '#ffcc3d', '#7dff9b', '#ffffff', '#b77dff', '#ff8a1f'];
+  function confettiRain(n) {
+    if (reduceMotion) n = n / 4 | 0;
+    for (let i = 0; i < n; i++) rain.push({ x: Math.random() * W, y: -20 - Math.random() * H * .7, vx: (Math.random() - .5) * 70, vy: 110 + Math.random() * 150, rot: Math.random() * TAU, vr: (Math.random() - .5) * 9, s: 4 + Math.random() * 5, c: CONF[i % CONF.length], wob: Math.random() * TAU, round: Math.random() < .3 });
+  }
+  function fireworks(x, y, n) {
+    for (let k = 0; k < n; k++) setTimeout(() => {
+      const a = Math.random() * TAU, d = 90 + Math.random() * 170, px = x + Math.cos(a) * d, py = y + Math.sin(a) * d - 60, col = CONF[(Math.random() * 6) | 0];
+      fx(px, py, 'flash', col, 70, .35); fx(px, py, 'ring', col, 90, .5);
+      burst(px, py, 34, [col, '#ffffff'], 380, 2.6, 1, 'spark');
+      burst(px, py, 10, [col, CONF[(Math.random() * 7) | 0]], 260, 4, 1.3, 'conf');
+      A.play('firework');
+    }, 200 + k * 280);
+  }
+  function celebrate(x, y, n) { confettiRain(n); fireworks(x, y, 5); }
+  function drawRain(dt) {
+    if (!rain.length) return;
+    ctx.setTransform(DPR, 0, 0, DPR, 0, 0);
+    for (let i = rain.length - 1; i >= 0; i--) {
+      const p = rain[i];
+      p.wob += dt * 6; p.rot += p.vr * dt; p.x += (p.vx + Math.sin(p.wob) * 40) * dt; p.y += p.vy * dt;
+      if (p.y > H + 30) { rain.splice(i, 1); continue; }
+      ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(p.rot); ctx.scale(Math.cos(p.wob), 1); ctx.fillStyle = p.c;
+      if (p.round) { ctx.beginPath(); ctx.arc(0, 0, p.s * .6, 0, TAU); ctx.fill(); } else ctx.fillRect(-p.s, -p.s * .4, p.s * 2, p.s * .8);
+      ctx.restore();
     }
   }
   function floatText(x, y, txt, col, size) { texts.push({ x, y, txt, col, size, life: 1.1, max: 1.1 }); }
@@ -310,7 +338,7 @@
     } else if (ended) {
       L.shown = true;
       slowUntil = clock + 1.6;
-      burst(L.me.x, L.me.y, 50, ['#46e6ff', '#ff4fd8', '#ffcc3d', '#7dff9b'], 380, 5, 1.6, 'conf');
+      celebrate(L.me.x, L.me.y, 140);
       A.play('clear'); quest('win', 1); A.voice('yay', pitchOf(L.me), 1);
       const bonus = 100 + run.wave * 20;
       run.score += bonus; floatText(L.me.x, L.me.y - L.me.r - 30, `+${bonus}`, '#7dff9b', 30);
@@ -355,6 +383,7 @@
     const record = run.score > best.score;
     if (record) save.best = { score: run.score, wave: run.wave };
     store();
+    if (record && run.score > 0) { confettiRain(180); A.play('clear'); }
     const canContinue = !run.continued && P.rewardedSupported;
     showResult({
       title: record && run.score > 0 ? 'New record!' : 'Game over', win: record && run.score > 0,
@@ -429,7 +458,7 @@
 
   // the player's look: chosen skin, optionally in a chosen colour (save.color = index in Sim.COLORS, -1 = the skin's own)
   function mySkin() { return skinFor({ skin: save.skin, col: save.color }); }
-  function myColor() { const s = mySkin(); return s.holo ? '#ffffff' : s.c; }
+  function myColor() { return mySkin().c; }
 
   function startOnline() {
     A.init(); A.startMusic();
@@ -598,6 +627,7 @@
     if (mode !== 'menu' && !paused) idleChatter(view);
     if (mode === 'menu' && !$('home').hidden) heroBall();
     Art.render(ctx, view, { W, H, DPR, cam, clock, shake, reduce: reduceMotion, parts, texts, windBits, dashCd: Sim.DASH_CD, flash: reduceMotion ? null : flash });
+    drawRain(dt);
     requestAnimationFrame(frame);
   }
 
@@ -634,13 +664,13 @@
     const c = $('heroBall').getContext('2d');
     c.clearRect(0, 0, 320, 260);
     const face = Math.sin(clock * .7) * 1.2 + Math.sin(clock * 1.9) * .3;
-    const blink = (clock % 3.7) < .12, bob = Math.sin(clock * 2.2) * 6;
+    const bob = Math.sin(clock * 2.2) * 6;
     // floor glow under the orb
     const s = mySkin(), g = c.createRadialGradient(160, 228, 0, 160, 228, 110);
     g.addColorStop(0, s.holo ? 'rgba(255,255,255,.35)' : s.c + '66'); g.addColorStop(1, 'rgba(0,0,0,0)');
     c.fillStyle = g; c.fillRect(0, 150, 320, 110);
     c.fillStyle = 'rgba(0,0,0,.45)'; c.beginPath(); c.ellipse(160, 226, 62 - bob, 12, 0, 0, Math.PI * 2); c.fill();
-    drawBall(c, 160, 132 + bob, 72, s, { face, expr: (clock % 9) > 8.2 ? 'happy' : 'n', blink, t: clock });
+    drawBall(c, 160, 132 + bob, 72, s, { face, expr: 'n', t: clock });
   }
 
   function renderHome() {
@@ -660,13 +690,13 @@
   function skinButton(s, i) {
     const owned = save.owned.includes(i);
     const b = document.createElement('button');
-    b.className = 'skin' + (save.skin === i ? ' on' : '') + (owned ? '' : ' locked') + (!owned && save.coins < s.price ? ' poor' : '');
+    b.className = 'skin tier-' + s.tier + (save.skin === i ? ' on' : '') + (owned ? '' : ' locked') + (!owned && save.coins < s.price ? ' poor' : '');
     b.id = 'skin-' + i;
     const cv2 = document.createElement('canvas'); cv2.width = 144; cv2.height = 144;
     drawBall(cv2.getContext('2d'), 72, 76, 44, save.skin === i ? mySkin() : s, { front: true, t: 0 });
     b.appendChild(cv2);
     const nm = document.createElement('span'); nm.textContent = s.n; b.appendChild(nm);
-    if (s.trail && s.trail !== 'glow') { const tr = document.createElement('span'); tr.className = 'trail-tag'; tr.textContent = s.trail + ' trail'; b.appendChild(tr); }
+    if (s.tier !== 'free') { const tg = document.createElement('span'); tg.className = 'tier-tag'; tg.textContent = s.season ? 'Season' : TIERS[s.tier].n; b.appendChild(tg); }
     const pr = document.createElement('span'); pr.className = 'price' + (owned ? ' owned' : '');
     pr.innerHTML = owned ? (save.skin === i ? 'Selected' : 'Owned') : `<span class="coin"></span>${s.price}`;
     b.appendChild(pr);
@@ -682,24 +712,29 @@
   function renderColors() {
     const row = $('colorRow'); row.innerHTML = '';
     [-1].concat(Sim.COLORS.map((_, i) => i)).forEach(i => {
+      // colours are for the Classic ball; picking one switches to Classic
       const b = document.createElement('button');
-      b.className = 'swatch' + (save.color === i ? ' on' : '') + (i < 0 ? ' orig' : '');
+      b.className = 'swatch' + (save.skin === 0 && save.color === i ? ' on' : '');
       b.id = 'color-' + (i < 0 ? 'orig' : i);
       b.setAttribute('aria-label', i < 0 ? 'Skin colour' : 'Colour ' + (i + 1));
       if (i >= 0) b.style.setProperty('--sw', Sim.COLORS[i]);
-      else { const s = skinOf(save.skin); b.style.setProperty('--sw', s.holo ? '#ffffff' : s.c); }
-      b.onclick = () => { save.color = i; store(); A.play('click'); renderShop(); };
+      else b.style.setProperty('--sw', SKINS[0].c);
+      b.onclick = () => { save.color = i; save.skin = 0; store(); A.play('click'); renderShop(); };
       row.appendChild(b);
     });
   }
 
   function renderShop() {
     renderColors();
-    const grid = $('skinGrid'), sg = $('seasonGrid'); grid.innerHTML = ''; sg.innerHTML = '';
-    SKINS.forEach((s, i) => {
-      if (s.season) { if (seasonOn() || save.owned.includes(i)) sg.appendChild(skinButton(s, i)); }
-      else grid.appendChild(skinButton(s, i));
-    });
+    const list = $('typeList'), sg = $('seasonGrid'); list.innerHTML = ''; sg.innerHTML = '';
+    for (const tier of ['rare', 'epic', 'legend']) {
+      const head = document.createElement('div'); head.className = 'section-label tier-label';
+      head.innerHTML = `<b>${TIERS[tier].n}</b><span class="coin"></span>${TIERS[tier].price}`;
+      const grid = document.createElement('div'); grid.className = 'skin-grid';
+      SKINS.forEach((s, i) => { if (s.tier === tier && !s.season) grid.appendChild(skinButton(s, i)); });
+      list.append(head, grid);
+    }
+    SKINS.forEach((s, i) => { if (s.season && (seasonOn() || save.owned.includes(i))) sg.appendChild(skinButton(s, i)); });
     $('seasonHead').hidden = !seasonOn();
     $('seasonHead').innerHTML = `<b>${esc(SEASON.name)}</b><span>Only until the season ends · ${seasonDays()} days left</span>`;
     sg.hidden = !sg.children.length;
@@ -795,6 +830,14 @@
     await P.init();
     const saved = await P.load();
     if (saved) Object.assign(save, saved);
+    // old saves had skins; they became ball types, so coins spent on old skins come back
+    if (!saved || saved.v !== 2) {
+      const OLD = [0, 0, 0, 0, 60, 80, 100, 120, 150, 180, 220, 260, 300, 400, 500, 700, 300, 350, 450];
+      const back = (save.owned || []).reduce((s, i) => s + (OLD[i] || 0), 0);
+      save.coins += back; save.owned = [0]; save.skin = 0; save.v = 2;
+      if (back) setTimeout(() => toast(`Skins are now ball types. ${back} coins refunded!`), 1500);
+      store();
+    }
     if (!save.uid) save.uid = Math.random().toString(36).slice(2, 12) + Date.now().toString(36);
     if (!save.name) save.name = randomName();
     // portal pause and sound requests (ads, hidden tab)
