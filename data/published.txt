@@ -553,6 +553,7 @@ ballerina-cappuccina-loves-tung-tung-sahur
 ballfall
 ballon-race-3d
 balloon-blitz
+balloon-boom
 balloon-buddies-flat-edition
 balloon-escape
 balloon-heroes-run-and-rise
@@ -769,6 +770,7 @@ blade-and-bedlam-33861
 blade-forge-3d
 blade-hit
 blade-merge
+blade-n-vines
 blade-thrower-master
 blast-jam
 blast-master
@@ -844,6 +846,7 @@ blocks-move-n-hit
 blocks-of-color
 blocks-puzzle
 blocks-shooter-3d-run-shoot-merge-weapons
+blocks-stack-rush
 blockstacking
 blocky-adventures
 blocky-challenges
@@ -952,6 +955,7 @@ bouncing-balls
 bouncing-bug
 bouncing-egg
 bouncing-eggs
+bouncingball
 bouncy-arrow
 bouncy-ball
 bouncy-ball-jump
@@ -1131,6 +1135,7 @@ buggz-pop
 build-a-burger
 build-a-go-kart
 build-a-keycap-pyramid
+build-a-queen-2025
 build-a-road
 build-a-rollercoaster-simulator
 build-a-skyscraper
@@ -1298,6 +1303,7 @@ car-crash-test
 car-crash-test-abandoned-city
 car-crash-tricks-simulator-crazy-stunts
 car-crossey-bridge-game
+car-dealer-idle
 car-dealership
 car-destruction-king
 car-drive-simulator
@@ -1769,6 +1775,7 @@ command-strike-fps-offline
 commando
 commando-force-2
 commando-gun-shooting
+commando-shooting
 commit
 comparing-numbers-quick-math-game
 computer-valley
@@ -1921,6 +1928,7 @@ crazy-moto
 crazy-motorcycle
 crazy-neon-square-rush
 crazy-obstacle-blitz-going-ball-3d
+crazy-parking-jam-car-jam-game
 crazy-pixel-apocalypse-4-ui-2026
 crazy-plane-shooter
 crazy-plinko
@@ -2014,6 +2022,7 @@ cube-shooter
 cube-smash
 cube-snake-2048
 cube-sort
+cube-speed-dash
 cube-surf-online
 cube-surfer-fun-and-run-3d-game
 cube-to-hole-puzzle
@@ -2248,6 +2257,7 @@ dirt-bike-racing-adventure
 dirt-bike-trail-rider
 dirt-bikes-rally
 dirt-bus-simulation-game
+dirty-home-cleaning-fix
 disc-battle-ultimate
 disc-golf-3d-frisbee-for-masters
 disc-golf-game-master
@@ -2331,6 +2341,7 @@ dots-and-boxes-2
 dotto-botto
 double-boy-jump
 double-heist-rob-the-robbers
+downhill-ball
 downhill-car-ride-crash-test
 downhill-christmas-dash
 downhill-snowboard
@@ -2491,6 +2502,7 @@ duck-shootingz
 duck-you
 duckling-rush-io
 duckys-colorful-life
+dudu-engineering-truck
 duel-of-builders
 duelers
 dummy-speed-bridger
@@ -2688,6 +2700,7 @@ extreme-drift-racing
 extreme-formula-racing
 extreme-gear-shift-racing
 extreme-highway-traffic-racer
+extreme-mega-ramp-car-stunts
 extreme-monster-truck
 extreme-motorcycle-simulator
 extreme-police-chase
@@ -3121,6 +3134,7 @@ fruit-merge-mania
 fruit-merger
 fruit-names
 fruit-pop-fiesta
+fruit-pop-it
 fruit-samurai
 fruit-shotter
 fruit-slasher
@@ -3285,6 +3299,7 @@ geometry-vibes-monster
 geometry-vibes-x-arrow
 geometry-vibes-x-ball
 geometry-waves
+geometryjump
 geometryrush
 geosmarty
 geovex-daily-geography-challenge
@@ -4002,6 +4017,7 @@ jelly-block-puzzle
 jelly-bottle-sort
 jelly-bros-red-and-blue
 jelly-color-sort-3d
+jelly-connect
 jelly-cube-adventure
 jelly-drop-merge-and-sell
 jelly-garden-game
@@ -4305,6 +4321,7 @@ leftover-screw
 leg-soccer
 legend-dream-football-game
 legends-arena
+legends-john-wicked
 legions-way-of-war
 legiontide-army-runner
 lemonade-seller-simulator
@@ -4731,6 +4748,7 @@ merge-happy-planets
 merge-home-ball-2048
 merge-items-build-city
 merge-mania
+merge-master-weapons-craft
 merge-mine-idle-clicker
 merge-miners-3d-puzzle
 merge-monster-fight
@@ -5647,6 +5665,7 @@ penalty-shooter
 penalty-shooters-3
 penalty-superstar
 pencil-jam
+pengu-pengu
 penguin-adventure-2
 penguin-run-adventure-game
 penguin-splash
@@ -6113,6 +6132,7 @@ railway-traffic-jam-untangle-the-trains
 railways-train-simulator-game
 rainbow-ball-runner-2048
 rainbow-color-ball-runner
+rainbow-frontline
 rainbow-ice-cream-and-popsicles
 rainbow-jump-puzzle
 rainbow-monster-hideout-3d
@@ -6687,6 +6707,7 @@ sigma-boy-musical-clicker
 signal-survival-block-arena
 sila
 silent-fear
+silent-shuriken
 simple-flappy-ball
 simple-fruit-memory
 simple-merge
@@ -6768,6 +6789,7 @@ slender-zombie-time
 slenderman-lost-at-school
 slendrina-must-die-the-asylum
 slice-and-soar
+slice-and-solve
 slice-it
 slicestorm
 slicetall
@@ -7249,6 +7271,7 @@ stick-master-teleport
 stick-new-year-in-prison
 stick-ninja-survival
 stick-roll-arena
+stick-up
 stick-vs-zombies-epic-battle
 stick-war-saga
 stick-war-tower-mighty-defense
@@ -7429,6 +7452,7 @@ summer-fashion-makeover
 summer-juice-run
 summer-punch-party
 summer-rider-3d
+summer-runway-challenge
 summer-shore-hustle
 summer-spot-the-differense
 summer-triple-mahjong
@@ -7532,6 +7556,7 @@ supernova-the-charon-protocol
 superstar-family-dress-up-game
 superstar-kitty-fashion-award
 supra-drift-2
+surprise-birthday-party
 surprise-blume-doll-unbox
 survev-io
 survival-for-100-dollars
@@ -7700,6 +7725,7 @@ temple-quest
 temple-racing
 temple-runner
 temple-targets
+templeescape
 ten-link-number-games
 tenkyu
 tenkyu-ball
@@ -8124,6 +8150,7 @@ ultimate-stunt-car-challenge
 ultra-crash-car-simulator-2026
 ultra-kick-goal-crazy
 ultra-shot
+ultrahero-vs-monsters-royale-battle
 ultraman-monster-island-adventure-2
 unblock-ball-slide-puzzle-2
 unbolck-me
@@ -8466,6 +8493,7 @@ words-story
 words-with-prof-wisely
 world-archery-league
 world-cricket-champ
+world-flag-quiz
 world-flags-color-puzzle
 world-flags-pop
 world-flags-quiz
@@ -8497,6 +8525,7 @@ wrestling-revolution-arena
 wrodscapes
 wrong-side-driving-car-game
 ww2-call-of-sniper
+ww2-frontline-defense
 ww2-modern-war-tanks-1942
 xmas-rooftop-battles
 xo-with-buddy
@@ -8598,6 +8627,7 @@ zombie-royale-io
 zombie-shooter-3d
 zombie-shooter-evil-outbreak
 zombie-shooter-sniper-game
+zombie-shooting-king
 zombie-siege
 zombie-sniper
 zombie-space-episode-ii
