@@ -307,6 +307,7 @@ annoying-uncle-punch-the-meme
 anomaly-content-record
 ant-colony
 ant-colony-idle
+ant-color-blast
 ant-food-guider
 ant-moving-simulator
 ant-picnic
@@ -633,6 +634,7 @@ battle-simulator-police-prison
 battle-simulator-sandbox
 battle-simulator-stickman-zombie
 battle-swat-vs-mercenary-zombie-survival
+battle-tung-tung-sahur-2player
 battle-wheels
 battlebox
 battlecross
@@ -1156,6 +1158,7 @@ build-your-dream-car
 build-your-zombie-horde
 buildemup
 buildtower
+buildup-3d
 bull-time-shooter
 bullet-army-run
 bullet-factory
@@ -1572,6 +1575,7 @@ chubby-duck-jump
 chubby-duck-offroad
 chubby-finn
 chute
+cimb-masters
 cinema-empire-idle-tycoon
 circle-car
 circle-car-crash-3d
@@ -2609,6 +2613,7 @@ emoji-solitaire
 emotional-support-duck
 empire-estate-pro
 empire-tower-defense-zombie-fortress
+enchanted-easter-adventure
 enchanted-mahjong-saga
 end-charge-alpha
 endless-ball-ride-game
@@ -2955,6 +2960,7 @@ flappy-blitz-intercept
 flappy-climate
 flappy-halloween-game
 flappy-halloween-run
+flappy-smoker
 flappy-twist
 flappyball
 flapthe-bird
@@ -3034,6 +3040,7 @@ football-kickoff
 football-leauge
 football-legends
 football-legends-sliding-puzzle
+football-manager-simulator
 football-marble-shooter
 football-masters
 football-panda
@@ -3528,6 +3535,7 @@ gun-trigger
 gun-upgrade-rush
 gungame-paintball-wars
 gunman
+gunmytungtungsahur-2player
 gunner-pursuit
 guns-n-glory-heroes
 guns-n-glory-zombies
@@ -3760,6 +3768,7 @@ highway-car-racing-game
 highway-car-shooting-3d-action-game-2025
 highway-driver-3d
 highway-of-the-dead
+highway-racer-3d
 highway-racers
 highway-rush
 highway-rush-overdrive
@@ -3957,6 +3966,7 @@ idle-gravity-breakout
 idle-hotel-empire-tycoon
 idle-influencer-simulator
 idle-island-build-and-survive
+idle-landmark-builder
 idle-magic-academy-tycoon
 idle-noob-lumberjack
 idle-pong
@@ -4118,6 +4128,7 @@ jump-fight-game
 jump-hero
 jump-in-rhythm-to-the-hit-cat-disco
 jump-masters
+jump-redball
 jump-to-the-rhythm-of-songs-musical-ball
 jump-up-3d
 jump-up-game
@@ -4242,6 +4253,7 @@ knee-surgery-clicker
 knife-battle
 knife-hit-challenege-game
 knife-madness
+knife-master-agility-arcade
 knife-ring-io
 knife-run-game
 knife-slice-3d
@@ -4455,12 +4467,14 @@ lovely-virtual-cat-at-restaurant
 lovely-virtual-cat-at-school
 lovim-fishing-simulator-3d
 low-poly-smash-cars
+lowercase-loops
 lows-adventures-3
 luchaball
 lucky-clash
 lucky-dice
 lucy-makeup-and-dress-up
 ludo-classic
+ludo-king-offline-ludo-game
 ludo-world
 luggage-collect-game
 lumbering-at-sea
@@ -5126,6 +5140,7 @@ my-cute-virtual-pet
 my-dentist
 my-dogy-virtual-pet
 my-doll-house-decor-life
+my-dreamy-room-home-design
 my-dress-up-darling
 my-first-100-words
 my-golf
@@ -5470,8 +5485,10 @@ ocean-dash
 ocean-drift
 ocean-match-crush
 ocean-match-puzzle
+ocean-orbs
 ocean-pop
 ocean-riches
+ocean-small-hospital-doctor
 octo-stickers-merge-and-stick
 octobeer
 octopus-jumping-world
@@ -6730,6 +6747,7 @@ signal-survival-block-arena
 sila
 silent-fear
 silent-shuriken
+silly-quiz
 simple-flappy-ball
 simple-fruit-memory
 simple-merge
@@ -6877,7 +6895,9 @@ smashers-io
 smashmetal-car-wrek-wars
 smashsite-io
 smashy-bird-3d
+smithing-master
 smod-sandbox-in-backrooms
+smoothie-sorting
 snack-and-warp
 snack-sort
 snack-stack
@@ -7437,6 +7457,7 @@ stunt-rider
 stunt-sprint
 stunt-witch-3
 stupid-arrow
+style-icons-2024-rewind-edition
 style-senpai-anime-dress-up
 style-star-match
 stylish-hip-hop-girl
@@ -7649,6 +7670,7 @@ sword-play-chop-enemies-to-pieces
 sword-play-ninja-slice-runner
 sword-smash
 sworded-io-spin-and-rub
+swordsman-adventure
 syntagma
 t-rex-n-y-online
 tac-tac-way
@@ -7810,6 +7832,7 @@ the-kulka
 the-last-15-minutes
 the-last-adventure
 the-last-company
+the-last-light-of-lyra
 the-last-shot
 the-lava-escape
 the-long-drive
@@ -7939,6 +7962,7 @@ tiny-metal-shooter
 tiny-sports-empire-idle
 tiny-tomb
 tiny-track-rally
+tiny-word-grid
 tiny-zomby-the-barricade
 tinygamebox
 tip-candy-puzzle
@@ -8121,6 +8145,7 @@ tung-tung-sahur-big-stick
 tung-tung-sahur-funny-face
 tung-tung-sahur-hidden-bedug
 tung-tung-sahur-lol-face
+tung-tung-sahur-zombie
 tung-tung-super-sahur
 tung-tung-tung-tung-sahur
 tung-tungball-and-labububall
@@ -8139,6 +8164,7 @@ turbo-team-racing
 turnline-relaxing-puzzle
 turret-defend-apocalypse
 twerk-eat-and-run
+twilight-trek
 twining-color-switch-game
 twist-and-roll
 twist-and-tug
@@ -8296,6 +8322,7 @@ volley-clash
 volleyball-fun-coloring
 volzo
 vossk
+vovan-velocity
 vowels-vs-consonants
 voxel-atelier
 voxel-crusher
@@ -8371,6 +8398,7 @@ weapon-merge-run
 weapon-run
 weapon-run-3d-gun-shooter
 weapon-run-battle
+weapon-shooter
 weapon-survivor
 weapon-upgrade
 weapons-merge-hero
@@ -8522,6 +8550,7 @@ words-search-puzzle-game
 words-story
 words-with-prof-wisely
 world-archery-league
+world-conqueror
 world-cricket-champ
 world-flag-quiz
 world-flags-color-puzzle
@@ -8644,6 +8673,7 @@ zombie-mission-10
 zombie-mission-11
 zombie-mission-5
 zombie-mission-6
+zombie-monster-survivors
 zombie-parade-defense
 zombie-parade-defense-2
 zombie-parade-defense-3
