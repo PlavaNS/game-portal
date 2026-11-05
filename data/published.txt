@@ -313,6 +313,7 @@ arcade-empire-tycoon
 arcade-thief-runner
 arcanoid-shooter-defence
 arcanoid-side-guns
+arcanoid-space-defense
 archer-2023
 archer-clash
 archer-defense
@@ -504,6 +505,7 @@ ball-sort-2d
 ball-sort-game
 ball-sort-master-3d
 ball-sort-puzzle
+ball-sort-puzzle-free
 ball-throw-goalie
 ball-throw-heroes-3d
 ballblastpals
@@ -1152,6 +1154,7 @@ candy-egg-blast
 candy-for-capybara
 candy-mahjong-3d
 candy-maker-game
+candy-match-3-kit-2025
 candy-match-move
 candy-match-pop
 candy-match-puzzle-challenge
@@ -1363,6 +1366,7 @@ cavern-of-gears
 cavern-run-endless-runner-game
 celebrities-get-ready-for-christmas
 celebrity-lol-funny-face
+celebrity-selen-all-around-the-fashion
 celebrity-thanksgiving-prep
 cellf-defense
 cerkio
@@ -1497,6 +1501,7 @@ clash-master-running-game
 clash-to-survival
 classic-car-driving-game
 classic-car-parking-2025
+classic-checkers-forest
 classic-falling-ball-game
 classic-match3
 classic-number-puzzle
@@ -1560,6 +1565,7 @@ collect-the-gift
 collection-shuffle
 collisiox
 colonora-colony-survival
+color-3d-bump-it-up
 color-auction-studio
 color-ball-escape
 color-ball-rush
@@ -2261,6 +2267,7 @@ drifty-road-rush
 drill-the-snake
 drink-drive-survive
 drive-ahead-sports
+drive-and-avoid
 drive-and-crash-sandbox
 drive-and-dodge-car-racing-3d
 drive-and-park-master
@@ -2513,6 +2520,7 @@ family-simulator-beach-games
 family-squid-challenge
 fantastic-cubic-dash
 fantasticlandia
+fantasy-brothers
 fantasy-fish-world-mahjong
 fantasy-soccer-manager
 fantasy-star-pinball
@@ -2541,6 +2549,7 @@ fashion-battle-queen
 fashion-foot-shop
 fashion-foot-shop-game
 fashion-girl-cosplay-sailor-challenge
+fashion-heroes-academy
 fashion-makeup-and-dress-up-game
 fashion-princess-dress-up-for-girls
 fashion-sewing-clothes
@@ -2641,6 +2650,7 @@ fire-truck-driving-simulator-2024
 fire-truck-rescue-driving
 fire-truck-rescue-simulator
 fireball-and-waterball-adventure-3
+fireball-dodge
 fireball-vs-ice-cream
 fireboom
 firedash-2d
@@ -2676,6 +2686,7 @@ fishtopia
 fishy-feast
 fit-in-the-wall
 fit-master-3d
+fit-runner
 fitness-club-tycoon
 fiva-26-soccer
 fix-pizza-food-sorting
@@ -2803,6 +2814,7 @@ formwise
 fortress-clash
 fortress-of-the-sinister
 found-it-hidden-object-game
+four-in-a-row
 fours-colors
 foxy-eco-sort
 foxytruck
@@ -3354,6 +3366,7 @@ help-tricky-story-a-complicated-story
 hen-bubble-go-up-game
 hero-city
 hero-defense-king
+hero-inc
 hero-jump-city-nights
 hero-monster-battle-game
 hero-rescue
@@ -3622,6 +3635,7 @@ idle-noob-lumberjack
 idle-pong
 idle-pop-merge
 idle-restaurant-game
+idle-space-miner-tycoon
 idle-sprint-race-3d
 idle-supermarket-tycoon
 idle-tomato-clicker
@@ -3910,6 +3924,7 @@ kobadoo-shapes
 koenigsegg-jesko-absolut-puzzle
 koenigsegg-jesko-absolut-slide
 kofi-adventure
+koko-loco-block-blast
 kpop-hunter-coloring
 kpop-studio-music-beats
 krillion-game
@@ -4015,6 +4030,7 @@ liquid-sort-deluxe
 liquid-sort-puzzle
 lisa-s-world-paper-doll-story
 little-big-fighters
+little-bubu-fillz
 little-cat-doctor-2026
 little-city-merge
 little-cute-summer-fairies-puzzle
@@ -4109,6 +4125,7 @@ magic-castle-invasion-idle-rpg
 magic-circus-match-3
 magic-coloring-book-for-little-artists
 magic-dot-rush
+magic-farm-clicker
 magic-finger-3d
 magic-jewels-castle
 magic-kingdom-hex-match
@@ -4274,6 +4291,7 @@ mechaspider-cyber-strike
 medieval-battle-2p
 mega-block-survivors
 mega-car-stunt-game
+mega-car-stunt-ramps-games
 mega-car-stunts
 mega-crowd
 mega-escape-car-parking-puzzle
@@ -4822,6 +4840,7 @@ ninja-obby-speed-run
 ninja-on-the-run
 ninja-parkour-multiplayer
 ninja-platformer-rage
+ninja-poof
 ninja-rabbit
 ninja-samurai-runner-online
 ninja-survival-simulator
@@ -5152,6 +5171,7 @@ park-draw-game
 park-sort
 park-the-cars
 park-tycoon
+parking
 parking-bike-3d-game
 parking-boom
 parking-jam-2025
@@ -5277,6 +5297,7 @@ ping-pong-ball-game
 ping-pong-battle-table-tennis
 ping-pong-table-tennis
 pinny-go-home
+pinpoint
 pipe-connect-puzzle
 pipe-connect-puzzle-game
 pipe-out-game
@@ -5909,6 +5930,7 @@ run-snowball-run
 run-the-electricity
 run-witch-run
 runaway-fish-runner-game
+runaway-the-truck
 runaway-toad
 runboy
 rune-reactor
@@ -6158,6 +6180,7 @@ simulator-gt-motorsport
 single-dad-simulator-family-life
 sink-hole
 sink-or-float
+sins-and-desires
 sir-shiba-monster-island
 siren-head-3-game
 siren-head-nightmare-scary-survival
@@ -6439,6 +6462,7 @@ spa-with-daddy
 space-adventure-game
 space-aim-kids
 space-arena
+space-ark-shooter
 space-asteroids-war
 space-bike
 space-blast
@@ -6561,6 +6585,7 @@ square-fling
 square-hero-bird
 square-sling
 square-sort
+square-sort-mania
 squeeze-n-slide
 squicky
 squid-7-challenge
@@ -7147,6 +7172,7 @@ the-mad-cow
 the-malevolent-mansion-of-evil
 the-man-from-the-window
 the-matrix-merge
+the-maze
 the-panda-brother
 the-pirate-sea-the-smuggler-s-way
 the-pyramid-adventure
@@ -7340,6 +7366,7 @@ train-drift
 train-master
 train-puzzle
 tralala-test
+transform-battle
 transition
 transport-army-vehicle-truck-driving
 transport-run
@@ -7381,6 +7408,7 @@ triple-combo
 trishift
 trivia-mind-game
 troll-rider
+tropical-tidy
 truck-coloring
 truck-cross-country
 truck-cross-country-game
@@ -7727,6 +7755,7 @@ wood-bolts-nuts-screw-pin-puzzle
 wood-builder-tycoon
 wood-chopping-game
 wood-color-block
+wood-cutter-clicker
 wood-hexa-factory
 wood-nuts-master-screw-puzzle
 wood-stair-game
@@ -7770,6 +7799,7 @@ word-up-challenge
 wordaire-word-solitaire
 wordeck-associations
 wordforge
+wordly
 words-and-bubbles
 words-search-puzzle-game
 words-story
