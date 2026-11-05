@@ -333,7 +333,7 @@
   const STARS = Array.from({ length: 140 }, () => ({ x: Math.random() * 3000 - 1500, y: Math.random() * 3000 - 1500, s: Math.random() * 1.8 + .4, a: Math.random() * .6 + .2 }));
   const trails = new Map();
   const happyUntil = new Map();
-  function happy(id, now) { happyUntil.set(id, now + .9); }
+  function happy(id, now, dur) { happyUntil.set(id, now + (dur || .9)); }
 
   function exprOf(b, t) {
     if (b.falling) return 'fall';
@@ -529,18 +529,7 @@
     }
   }
 
-  function drawEmote(c, b, k, z) {
-    const s = 1 / Math.max(.7, z), y = b.y - b.r - 58 * s, bw = 46 * s;
-    c.save();
-    c.fillStyle = 'rgba(8,10,28,.88)'; c.strokeStyle = 'rgba(255,255,255,.85)'; c.lineWidth = 2 * s;
-    c.beginPath(); c.roundRect(b.x - bw / 2, y - bw / 2, bw, bw, 12 * s); c.fill(); c.stroke();
-    c.beginPath(); c.moveTo(b.x - 7 * s, y + bw / 2 - 1); c.lineTo(b.x, y + bw / 2 + 9 * s); c.lineTo(b.x + 7 * s, y + bw / 2 - 1); c.fill();
-    c.font = `${28 * s}px system-ui, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif`; c.textAlign = 'center'; c.textBaseline = 'middle';
-    c.fillText(k, b.x, y + 1);
-    c.restore();
-  }
-
-  // env: { W, H, DPR, cam, clock, shake, reduce, parts, texts, windBits, dashCd, emotes }
+  // env: { W, H, DPR, cam, clock, shake, reduce, parts, texts, windBits, dashCd }
   function render(ctx, view, env) {
     const th = THEMES[view.lv.theme] || THEMES.cyber, { W, H, cam, clock } = env;
     ctx.setTransform(env.DPR, 0, 0, env.DPR, 0, 0);
@@ -707,8 +696,6 @@
       ctx.lineWidth = fs * .3; ctx.strokeStyle = 'rgba(3,5,13,.85)'; ctx.strokeText(b.name, b.x, ny);
       ctx.fillStyle = b.me ? '#ffffff' : rimColor(sk, clock); ctx.fillText(b.name, b.x, ny);
       if (b.me) { ctx.fillStyle = '#ffcc3d'; ctx.beginPath(); ctx.moveTo(b.x - 7, ny - fs - 2); ctx.lineTo(b.x + 7, ny - fs - 2); ctx.lineTo(b.x, ny - fs + 7); ctx.closePath(); ctx.fill(); }
-      const em = env.emotes && env.emotes.get(b.id);
-      if (em && em.until > clock) drawEmote(ctx, b, em.k, cam.z);
     }
     // particles
     ctx.save(); ctx.globalCompositeOperation = 'lighter';

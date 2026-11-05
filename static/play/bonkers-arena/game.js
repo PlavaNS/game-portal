@@ -82,7 +82,6 @@
     if (mode === 'menu') return;
     if (e.code === 'Space') { e.preventDefault(); input.dash = true; return; }
     if (e.code === 'Escape' || e.code === 'KeyP') { togglePause(); return; }
-    if (/^Digit[1-4]$/.test(e.code)) { myEmote(+e.code[5] - 1); return; }
     input.keys[e.code] = true;
   });
   addEventListener('keyup', e => { input.keys[e.code] = false; });
@@ -144,7 +143,7 @@
         if (mine || near(ev.x, ev.y)) A.play('bonk', mine ? p : p * .4);
         if (p > .35) {
           const ba = view.balls.find(x => x.id === ev.a), bb = view.balls.find(x => x.id === ev.b);
-          if (ba && bb) { const loser = ba.r < bb.r ? ba : bb; say(view, loser.id, p > .7 ? 'dizzy' : (Math.random() < .5 ? 'oof' : 'eep'), meId); if (p > .6 && loser.id !== meId && Math.random() < .25) emote(loser.id, 1); }
+          if (ba && bb) { const loser = ba.r < bb.r ? ba : bb; say(view, loser.id, p > .7 ? 'dizzy' : (Math.random() < .5 ? 'oof' : 'eep'), meId); }
         }
         if (mine) {
           shake = Math.max(shake, 3 + p * 8);
@@ -173,9 +172,10 @@
         const victim = nameOf(view, ev.id), by = ev.by ? nameOf(view, ev.by) : null;
         feed(by ? `${by} bonked ${victim} into the void!` : `${victim} fell into the void!`);
         say(view, ev.id, 'scream', meId);
-        if (ev.by) { const v = view; setTimeout(() => say(v, ev.by, 'giggle', meId), 350); if (ev.by !== meId && Math.random() < .45) emote(ev.by, Math.random() < .7 ? 0 : 3); }
+        if (ev.by === meId) { const b = view.balls.find(x => x.id === meId); if (b) setTimeout(() => A.voice('laugh', pitchOf(b), 1, true), 300); }
+        else if (ev.by) { const v = view; setTimeout(() => say(v, ev.by, 'giggle', meId), 350); }
         if (ev.by) {
-          Art.happy(ev.by, clock);
+          Art.happy(ev.by, clock, ev.by === meId ? 1.6 : .9);
           const v = view.balls.find(x => x.id === ev.id), k = view.balls.find(x => x.id === ev.by);
           if (v && k) { koBurst(v.x, v.y, k, v); if (near(v.x, v.y)) shake = Math.max(shake, 5); }
         }
@@ -227,24 +227,6 @@
     const cm = $('centerMsg'); cm.innerHTML = `${txt}<small>watch out!</small>`;
     clearTimeout(bannerTimer); bannerTimer = setTimeout(() => { if (cm.textContent.startsWith(txt)) cm.textContent = ''; }, 1800);
   }
-
-  // ---------- emotes ----------
-  const EMOTES = ['😂', '😡', '👋', '😎'], EMOTE_VOICE = ['giggle', 'oof', 'ooh', 'yay'];
-  const emotes = new Map();
-  let myEmoteAt = -9;
-  function emote(id, k) {
-    emotes.set(id, { k: EMOTES[k], until: clock + 2.2 });
-    const v = mode === 'level' && L ? viewOf(L.w, L.me.id) : mode === 'online' && N ? netView() : null;
-    if (v) say(v, id, EMOTE_VOICE[k], mode === 'level' ? L.me.id : N.id);
-  }
-  function myEmote(k) {
-    if (mode === 'menu' || clock - myEmoteAt < 1.5) return;
-    myEmoteAt = clock;
-    if (mode === 'level') emote(L.me.id, k);
-    else if (N && N.ws.readyState === 1) N.ws.send(JSON.stringify({ t: 'emote', k }));
-    for (const b of $('emotes').children) { b.classList.add('cool'); setTimeout(() => b.classList.remove('cool'), 1500); }
-  }
-  for (const b of $('emotes').children) b.addEventListener('pointerdown', e => { e.preventDefault(); e.stopPropagation(); myEmote(+b.dataset.k); });
 
   let toastTimer = 0;
   function toast(msg) { const t = $('toast'); t.textContent = msg; t.hidden = false; clearTimeout(toastTimer); toastTimer = setTimeout(() => { t.hidden = true; }, 3200); }
@@ -299,8 +281,6 @@
     for (const b of w.balls) { const c = skinFor(b).c; fx(b.x, b.y, 'beam', c, 220, .9); fx(b.x, b.y, 'ring', c, 60, .6); }
     A.play('wave');
     A.playTrack('battle', (TRACK_OF[lv.theme] || [0])[run.wave % 2]);
-    emotes.clear();
-    for (const b of w.balls) if (b !== me && Math.random() < .25) setTimeout(() => { if (L && L.w === w) emote(b.id, 2); }, 3600 + Math.random() * 1500);
     P.levelStarted(run.wave);
   }
 
@@ -469,7 +449,6 @@
   function onNet(msg) {
     if (!N) return;
     if (msg.t === 'welcome') N.id = msg.id;
-    else if (msg.t === 'emote') emote(msg.id, msg.k);
     else if (msg.t === 'roster') { N.names = {}; for (const [id, name, skin, , col] of msg.list) N.names[id] = { name, skin, col }; }
     else if (msg.t === 'round') {
       N.lv = msg.lv; N.bumpers = msg.lv.bumpers.map(([x, y, r]) => ({ x, y, r, pulse: 0 }));
@@ -618,7 +597,7 @@
     flash.a *= Math.exp(-7 * dt);
     if (mode !== 'menu' && !paused) idleChatter(view);
     if (mode === 'menu' && !$('home').hidden) heroBall();
-    Art.render(ctx, view, { W, H, DPR, cam, clock, shake, reduce: reduceMotion, parts, texts, windBits, dashCd: Sim.DASH_CD, flash: reduceMotion ? null : flash, emotes });
+    Art.render(ctx, view, { W, H, DPR, cam, clock, shake, reduce: reduceMotion, parts, texts, windBits, dashCd: Sim.DASH_CD, flash: reduceMotion ? null : flash });
     requestAnimationFrame(frame);
   }
 

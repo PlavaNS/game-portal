@@ -318,14 +318,24 @@
     dizzy: (t, f, v) => { for (let i = 0; i < 3; i++) syllable(t + i * .09, f * (1.1 - i * .12), f * (1.25 - i * .12), .08, pick(['u', 'o']), v * .8); },
     scream: (t, f, v) => syllable(t, f * 1.5, f * .45, .7, pick(['a', 'i', 'e']), v),
     giggle: (t, f, v) => { for (let i = 0; i < 3; i++) syllable(t + i * .085, f * (1.3 + (i % 2) * .15), f * (1.45 + (i % 2) * .15), .065, pick(['e', 'i']), v * .85); },
+    // a cute little laugh: a breathy "hee-hee-hee-hee" that tumbles down, then one happy squeak
+    laugh: (t, f, v) => {
+      const n = 4 + (Math.random() * 2 | 0), top = 1.75 + Math.random() * .2;
+      for (let i = 0; i < n; i++) {
+        const p = f * (top - i * .1), tt = t + i * .105;
+        noise(tt, .035, 3200, 2600, 1.2, v * .35, 'bandpass', sfxBus);
+        syllable(tt + .012, p, p * 1.12, .07, i % 2 ? 'e' : 'i', v * (1 - i * .08));
+      }
+      syllable(t + n * .105 + .04, f * 1.5, f * 2.05, .12, 'i', v * .8);
+    },
     ooh: (t, f, v) => syllable(t, f * .9, f * 1.5, .3, 'o', v),
     yay: (t, f, v) => { syllable(t, f * 1.1, f * 1.6, .14, 'a', v); syllable(t + .16, f * 1.5, f * 1.9, .22, 'e', v); },
     nom: (t, f, v) => syllable(t, f, f * .9, .07, 'o', v * .6),
     chatter: (t, f, v) => { const n = 2 + (Math.random() * 3 | 0); for (let i = 0; i < n; i++) { const p = f * (.85 + Math.random() * .4); syllable(t + i * .11, p, p * (.9 + Math.random() * .3), .08, pick(['a', 'e', 'i', 'o', 'u']), v * .7); } },
   };
   // vol 0..1 relative; skipped when too many voices overlap, so it never turns into noise
-  function voice(kind, base, vol) {
-    if (!ctx || !state.sfx || voicesNow >= 3) return;
+  function voice(kind, base, vol, force) {
+    if (!ctx || !state.sfx || (voicesNow >= 3 && !force)) return;
     voicesNow++; setTimeout(() => voicesNow--, 300);
     VOICES[kind](ctx.currentTime + .01, base, .13 * (vol == null ? 1 : vol));
   }
