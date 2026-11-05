@@ -183,6 +183,7 @@ airplane-simulator-game
 airport-clash-3d
 airport-controller
 airport-security-3d
+airport-simulator-plane-tycoon
 airsteps
 akagram
 alchemist-lab-jewel-crush
@@ -1244,6 +1245,7 @@ candy-maker-game
 candy-match-3-kit-2025
 candy-match-move
 candy-match-pop
+candy-match-puzzle
 candy-match-puzzle-challenge
 candy-match-saga-2
 candy-merge-sort
@@ -1677,6 +1679,7 @@ collect-leaves-faster-than-anyone
 collect-million-coins
 collect-the-gift
 collection-shuffle
+college-basketball-games-today
 collisiox
 colonora-colony-survival
 color-3d-bump-it-up
@@ -2082,6 +2085,7 @@ dark-city-multiplayer
 dark-runner
 dark-sector
 dark-sector-kids
+dark-sprint
 dark-war
 dark-world
 darkhood
@@ -2417,6 +2421,7 @@ dress-up-bean
 dress-up-game-princess-doll-2
 dress-up-match-3
 dress-up-outfit-match
+dress-up-thumbelina
 dressup-wheel
 drift-car-driving
 drift-city
@@ -2934,6 +2939,7 @@ fliplines-game
 flippee-ball
 flipper-dunk-3d
 flippin-coins
+flippin-fingers
 flippy-hero-jump-game
 flipthegun
 flipxy-the-bat
@@ -3299,6 +3305,7 @@ girl-game-organizing-fun
 girl-hair-salon-and-dress-up
 girl-mini-games-relaxing-fun
 girl-money-rush-game
+girls-fashion-nail-salon
 girls-pajama-party
 gladiators-merge-and-fight
 glam-doll-salon-makeup-and-dressup-game
@@ -3528,6 +3535,7 @@ hand-daily
 hand-or-money
 hand-over-hand
 handless-millionaire
+hangertheguy
 hangman-2-4-players
 happy-birthday-party-game
 happy-bucket-challenge
@@ -3609,6 +3617,7 @@ help-me-tricky-story-of-puzzles
 help-police
 help-sprunky
 help-tricky-story-a-complicated-story
+helptheduck
 hen-bubble-go-up-game
 hero-city
 hero-defense-king
@@ -3691,6 +3700,7 @@ hide-from-school
 hide-heist
 hide-n-seek
 hide-the-monster-choose-pose
+high-heel-design
 high-pizza
 high-school-girls-classroom-life
 high-school-teacher-games-life
@@ -3847,6 +3857,7 @@ hyper-wave-trial
 hypnotic-zombie-escape-endless-jump
 i-am-cake-no-cats
 i-am-crazy-bird
+i-am-security
 i-can-paint
 i-get-you
 i-scream-icecream
@@ -3947,6 +3958,7 @@ interactive-jigsaw-puzzle-game
 interceptor-police-pursuit
 intercity-bus-driver-3d
 intergalactic-battleship
+invaders-destruction
 iron-defense
 iron-legion
 iron-legion-0-28
@@ -4258,6 +4270,7 @@ lastwar-survival
 latto-latto
 launch-jack
 launch-the-dummy
+lava-chase
 lava-cre
 lazy-orcs
 lazzy-birds
@@ -4308,6 +4321,7 @@ line-control
 line-of-defense
 line-puzzle-3d
 line-runners
+line-shape-puzzle
 line-to-goal-draw-the-path
 lineo
 link-flow
@@ -4443,6 +4457,7 @@ magic-kingdom-hex-match
 magic-knife
 magic-mahjong
 magic-pet-salon
+magic-piano-music
 magic-potion-school-for-witch
 magic-princess
 magic-story-of-solitaire
@@ -4715,6 +4730,7 @@ merge-rush-attack
 merge-sesame
 merge-shoot-run
 merge-the-coins-ussr
+merge-the-planets-2048
 merge-the-presidents
 merge-to-agi
 merge-tower-defense
@@ -4775,6 +4791,7 @@ miner-builder
 miner-dig-it-all
 miner-jam
 miner-rush-game
+minerrush
 minesweeper-find-bombs
 minesweeper-infinite
 minetap-merge-clicker
@@ -5151,6 +5168,7 @@ neon-viper
 neon-void-galactic-war
 neonroll
 nest-heist
+nest-quest
 netherton-volleyball
 never-by-color
 never-fall
@@ -5619,7 +5637,9 @@ people-drop-away-game
 people-playground-ragdoll-arena
 people-tower
 percys-froggy-frenzy
+perfect-asmr-cleaning
 perfect-car-parking
+perfect-job-run
 perfect-jump-puzzle-game
 perfect-landing-plane-pilot
 perfect-match
@@ -5912,6 +5932,7 @@ princess-halloween-boutique
 princess-kawaii-swimwear
 princess-nail-art
 princess-ready-for-christmas
+princess-rescue-fruit-connect
 princess-run-3d
 princesses-at-horror-school
 princesses-of-quadrobics
@@ -6187,6 +6208,7 @@ rescue-sharp-turn
 rescue-skibd-rope-cut-puzzle
 rescue-the-princess
 residence-of-evil-quarantine
+residents-evil-tariff-war
 resize-stickman
 resource-empire
 restaurant-rush
@@ -6607,9 +6629,11 @@ shikaku-puzzle
 shinobi-swarm
 shiny-dodge
 ship-and-fish
+shish-fruit
 shoe-outlet
 shoe-race
 shoes-outlet-game
+shoguns-reckoning
 shoot-and-sprint-warfare
 shoot-some-fish
 shoot-the-blocks
@@ -6910,6 +6934,7 @@ solitaire-card-sort-puzzle
 solitaire-card-sorting
 solitaire-emperor-secrets-of-fate
 solitaire-freecell-frenzy
+solitaire-girls-2
 solitaire-klondike-treasure-island
 solitaire-match-puzzle
 solitaire-picture-puzzles
@@ -6984,6 +7009,7 @@ space-traveler
 space-war-symphony
 spaceball-jump
 spacebattle
+spacefrontier
 spaceman-escape-adventure
 spacepuzzler
 sparksnap
@@ -7144,6 +7170,7 @@ stardom-alt-girls-fashion-duel
 starforge-boss-rush
 starpoly
 starry-bridge-physics-puzzle
+starship
 starship-ducks
 starship-troopers
 starweave-star-puzzle
@@ -7521,6 +7548,7 @@ sweet-cake-shop-game
 sweet-candy-match-3-game
 sweet-merge-cafe
 sweet-merge-puzzle
+sweet-monster-pull-out-pin
 sweet-paper-doll-dress-up-diy
 sweet-screw-factory
 sweet-solve
@@ -7837,6 +7865,7 @@ tiny-track-rally
 tiny-zomby-the-barricade
 tip-candy-puzzle
 tip-master-wine
+titan-wall-breaker
 tnt-sandbox
 to-fu-girl
 toca-avatar-my-house
@@ -8079,6 +8108,7 @@ undercrown
 underdogs-puzzle-odyssey
 underground-heroes
 underwater-2d
+underwater-aim
 underwater-bicycle-racing
 underwater-blast
 underwater-survival-deep-dive
