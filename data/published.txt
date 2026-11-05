@@ -12,6 +12,7 @@
 1-speed-per-step-obby-mode
 1-speed-superhero-obby
 1-strength-for-escape
+1-tongue-escape
 1-wings-escape
 1-wings-keyboard-speed
 1-zombie-survival
@@ -160,6 +161,7 @@ aichessgame
 aidan-in-danger
 aidol-k-pop-adventure
 aim-and-snap-arrow-srike
+aim-master
 aimball
 aimistry
 air-assault-ship-defense
@@ -533,6 +535,7 @@ ball-throw-heroes-3d
 ballblastpals
 ballcrazesortgame
 ballerina-cappuccina-loves-tung-tung-sahur
+ballfall
 ballon-race-3d
 balloon-buddies-flat-edition
 balloon-escape
@@ -1135,6 +1138,7 @@ burger-restaurant-simulator-3d
 burger-rush-restaurant
 burn-rate
 burrow
+burrow-balls
 burst-it-right
 burstblitz
 bus-and-subway-rush
@@ -1607,6 +1611,7 @@ coffe-merge-house
 coffee-business-tycoon-game
 coffee-color-blocks
 coffee-tycoon
+coin-collector
 coin-color-sort
 coin-drop-3d
 coin-flick-soccer
@@ -1946,6 +1951,7 @@ cube-to-hole-puzzle
 cube-trap
 cube-twin
 cube-zone-master
+cubeblast
 cubegate
 cubetopia-parkour
 cubic-coil
@@ -2027,6 +2033,7 @@ dash-hero
 dash-masters
 dashmash-io
 day-care-simulator
+dazzling-divas-makeup
 dd-bubble-up
 ddzombiescoming
 dead-city-zombie-survival
@@ -2063,6 +2070,7 @@ deeper-crystal-descent
 deepglow
 deepstone-idle-miner-clicker
 deer-hunting-jungle-game
+defeat-the-witch
 defence-wall
 defend-military-base
 defend-the-castle
@@ -2337,6 +2345,7 @@ dress-to-impress-new-years-party
 dress-up-anime-girl
 dress-up-babi-doll
 dress-up-bean
+dress-up-game-princess-doll-2
 dress-up-match-3
 dress-up-outfit-match
 dressup-wheel
@@ -2369,6 +2378,7 @@ drive-and-park-puzzle-game
 drive-car
 drive-chained-car-3d
 drive-crazy
+drive-io
 drive-pro-3d
 drive-quest
 drive-zone
@@ -2593,6 +2603,7 @@ extreme-quad-bike-racing
 extreme-rider-3d
 extreme-space-rush
 extreme-thumb-wars
+eye-art-magic-eye-makeup
 f-e-a-r-silent-facility
 face-breaker
 fail-run-online
@@ -2706,6 +2717,7 @@ fill-the-heart
 fill-the-hopper
 fill-the-lines
 fillblox
+fin-flinger
 final-christmas-run
 final-fight-harbor-justice
 final-freeway
@@ -3700,6 +3712,7 @@ hungry-cars
 hungry-cats
 hungry-crab
 hungry-rabbit
+hungry-shark-evolution-2
 hungry-snail
 hungry-squirrel
 hungry-warrior-fight
@@ -3982,6 +3995,7 @@ kick-the-chicken
 kick-the-santa-christmas-buddy
 kick-the-zombie-ragdoll-sandbox
 kickoff-academy-football-tycoon
+kids-amusement-park
 kids-flurry-educational-puzzle-game
 kids-good-habits
 kids-kitchen-cozy-cooking
@@ -4233,6 +4247,7 @@ love-archer-hero
 love-sheep
 love-story-find-the-piece
 lovely-cat-dessert-bakery
+lovely-cat-pet-life
 lovely-doll-creator
 lovely-princess
 lovely-virtual-cat
@@ -4352,6 +4367,7 @@ marble-factory
 marble-maze
 marble-maze-game
 marble-snap-color-puzzle-game
+marble-spiral
 marble-zuma-shooter
 marblemaze2
 maritime-conflict
@@ -4394,6 +4410,7 @@ match-challenge
 match-colors-game
 match-dot-puzzle-game
 match-factory
+match-fighter
 match-master
 match-mystery
 match-nonstop
@@ -4874,6 +4891,7 @@ mutant-mash-merge-garden
 mutant-zone-zombie-merge-fighter
 mutantblood
 mx-offroad-mountain-bike
+my-arcade-center
 my-army-base
 my-bakery
 my-ball-escape
@@ -5090,10 +5108,12 @@ nubik-courier-an-open-world
 nubik-dungeon
 nubik-in-the-monster-world
 nubik-vs-herobrin-s-army
+nugget-valley
 nullify-merge-math
 nullpulse-runner
 num-blast
 number-bee
+number-master-run-and-merge
 number-merge-10
 number-merge-master
 number-merger
@@ -5473,6 +5493,7 @@ piano-kids-music-and-songs
 piano-kids-music-songs
 piano-master
 pic-pie-wonders
+pick-and-patch
 pickaxe-crusher-idle
 pickle-ball-clash
 picky-parking
@@ -5959,6 +5980,7 @@ reflex-pong
 reflex-shot
 reindeer-escape
 relax-box-asmr-mini-games
+relax-land-mini-challenge-game
 relaxing-games
 relaxing-games-30-in-1
 relaxing-mini-fun-games
@@ -5968,6 +5990,7 @@ renumber-kids
 repeat-pixel-arts
 repel-the-monster
 repo-and-repo
+repo-androids-for-two
 requiemnoire
 rescue
 rescue-casual-pin-puzzle
@@ -6425,6 +6448,7 @@ simple-words
 simulator-gt-motorsport
 single-dad-simulator-family-life
 single-line-drawing-puzzle
+single-mom-baby-care-prank-game
 sink-hole
 sink-or-float
 sins-and-desires
@@ -6578,6 +6602,7 @@ snake-brawl-merge-arena
 snake-chain-escape
 snake-color-race
 snake-game-2025
+snake-nokia-classic
 snake-of-balls
 snake-of-bullets-collect-and-shoot
 snake-out
@@ -6637,6 +6662,7 @@ snow-track-racing-3d
 snowball-dash
 snowball-platformer
 snowboard-game
+snowboard-game-party
 snowboard-knockout-race-game
 snowtail-peaks-3d-bubble-pop-adventure
 snowy-adventures-with-noob-and-pro
@@ -7375,6 +7401,7 @@ tcg-shop-dino-adventure
 tcg-shop-maps-toys-and-comics
 team-loyalty
 team-men
+tec-tak-toe-pro
 tech-match
 techtiles
 telekinesis-attack
@@ -7428,6 +7455,7 @@ the-genius-crow
 the-goopies-slime-puzzle
 the-greedy-crow
 the-green-mission-inside-a-cave
+the-gungame
 the-hardest-game-in-world-and-ever
 the-high-climb
 the-horde
@@ -7490,6 +7518,7 @@ throw-an-egg
 throw-best
 throw-fast
 throw-sword
+tic-tac-toe-html
 tic-tac-toe-html5
 tic-tac-toe-mania
 tic-tac-toe-match-three
@@ -7722,6 +7751,7 @@ tug-the-table-classic
 tuk-tuk-auto-rikshaw
 tumble-boat
 tumble-tower-survival
+tung-sahur-bots-chase-room
 tung-sahur-io
 tung-tung-sahur-funny-face
 tung-tung-sahur-hidden-bedug
@@ -8066,6 +8096,7 @@ woody-cross
 woof-foow
 wool-sort-yarn-color-puzzle
 word-associations-solitaire
+word-blocks
 word-blossom
 word-chef
 word-connect-train-brain
@@ -8077,6 +8108,7 @@ word-jam-association-puzzle
 word-ladder
 word-master-puzzle
 word-match-3d
+word-maze
 word-mosaic
 word-online-hunt
 word-puzzle-connect-words-and-letters
@@ -8262,6 +8294,7 @@ zombies-rush
 zombies-vs-special-forces
 zombiracer-speed-on-earth
 zombotron-re-boot
+zombsmis
 zomly
 zone-breaker
 zoo-elephant-simulator-city-attack
