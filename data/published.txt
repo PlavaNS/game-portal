@@ -344,6 +344,7 @@ army-commander
 army-commando
 army-force-war
 army-guns-collector
+army-of-soldiers
 army-playground-3d
 army-run-3d
 army-truck-driving-game
@@ -802,6 +803,7 @@ blocky-zombie-shooting
 blondie-in-the-real-world
 bloom
 bloom-crush
+bloons-battles
 bloop
 blow-king
 bloxdhop
@@ -949,6 +951,7 @@ break-the-car-completely
 break-the-wall-prison-escape
 breakblock
 breakfast-cooking-game
+breakit
 breakout-neon-drift
 breakoutrun
 breakthrough-team
@@ -1375,6 +1378,7 @@ cave-miner
 cavern-of-gears
 cavern-run-endless-runner-game
 celebrities-get-ready-for-christmas
+celebrity-e-girl-vibes
 celebrity-lol-funny-face
 celebrity-selen-all-around-the-fashion
 celebrity-thanksgiving-prep
@@ -1594,6 +1598,7 @@ color-by-numbers-anti-stress-drawings
 color-circle
 color-coin-merge
 color-connect-3d
+color-connect-master
 color-cube-puzzle
 color-dash-chameleon-runner
 color-dots-challenge
@@ -2125,6 +2130,7 @@ doll-designer-game
 doll-doll
 doll-dress-up-game
 doll-queen-designer
+dolphin-dress-up
 domino-battle
 domino-camp
 domino-smashfall
@@ -2162,6 +2168,7 @@ dop2-delete-part-in-love-story
 dop2-draw-love
 dora-candy-land
 dora-puzzle-challenge
+doroppuboru-13
 dot-and-dot
 dot-dodge
 dotanimals
@@ -2692,6 +2699,7 @@ fish-sort-puzzle
 fish-stab-getting-big
 fish-tank-aquarium-game
 fish-tank-caretaker-simulator
+fishdo
 fishdom
 fishdom-online
 fisher-clicker
@@ -2817,6 +2825,7 @@ ford-f-100-eluminator-slide
 forest-archer
 forest-dash
 forest-fortune
+forest-glade-mysteries
 forest-monster-breaker
 forest-survivor-challenge
 forest-survivor-rougelike
@@ -2883,6 +2892,7 @@ frosty-ball
 frosty-rush
 fruit-box-sort
 fruit-bubble-pop
+fruit-catcher-apple
 fruit-catchere
 fruit-chopper
 fruit-cutter-fun
@@ -3422,6 +3432,7 @@ hexa-candy-match-3
 hexa-color-sort
 hexa-color-stack-game
 hexa-jump-asmr
+hexa-master
 hexa-master-3d-sort-puzzle
 hexa-merge-2048-puzzle
 hexa-sort
@@ -3702,6 +3713,7 @@ inkway
 inner-city-drive
 insect-clicker
 insect-exploration
+interactive-jigsaw-puzzle-game
 interceptor-police-pursuit
 intercity-bus-driver-3d
 intergalactic-battleship
@@ -3832,6 +3844,7 @@ junkyard-builder-3d
 junkyard-keeper
 just-golf
 k-challenge-456
+k-pop-demon-hunter-fashion
 k-pop-demon-hunters-nail-studio
 k-pop-halloween-dress-up
 k-pop-hunter-halloween-fashion
@@ -4253,6 +4266,7 @@ master-of-3-tiles
 master-of-break-an-eggs
 master-of-numbers
 master-of-riding-a-pet
+masterdash
 masterpiece-unharmed
 masterscavenger
 match-3-forest-crew
@@ -4658,6 +4672,7 @@ motor-stunt-simulator-3d
 motorbike-drive
 motorcarvolleyball
 motorcycle-racer-road-mayhem
+motorcycle-stunt-racing-2025
 motorcycle-stunts-drive
 mountain-bike-challenge
 mountain-bike-xtreme
@@ -4946,6 +4961,7 @@ number-bee
 number-merge-10
 number-merge-master
 number-merger
+number-nexus
 number-quest
 number-run-3d-casual-game
 number-shoot-game
@@ -5200,6 +5216,7 @@ paper-flight-2
 paper-fold
 paper-life
 paper-panzer
+paper-princess-doll-dress-up
 paper-stick-figures
 paperly-paper-plane-adventure
 parcel-pulse-toy-factory
@@ -5294,7 +5311,9 @@ pet-salon-cute-doctor
 petdoku-cozy-puzzle-games
 pets-and-paints-logic-puzzle
 pets-roll-clicker
+pga-toons
 pga3-survival
+pga3-zombie
 phone-case-diy
 phone-case-diy-2
 phone-case-diy-kpop-fans
@@ -5625,6 +5644,7 @@ quick-draw-cowboys
 quick-math
 quick-maths
 quicksolve
+quiz-education
 quiz-runner-io
 quizmania-trivia-game
 quizmasters
@@ -6083,6 +6103,7 @@ scale-the-depths
 scale-the-wheels
 scars
 scary-baby-in-yellow
+scary-baby-pink-horror-game
 scary-granny-horror-maze-escape
 scary-halloween-adventure
 scary-house-clown-evil
@@ -6130,6 +6151,7 @@ season-change
 season-wiping-window
 seaweed-aqua
 secret-parkour
+secret-reef-merge
 sector-nine-lockdown
 sell-lemons-idle
 serial-cheaters
@@ -6152,6 +6174,7 @@ shadow-stick-lightning-ninja
 shadow-stick-ninja
 shadow-strike
 shadow-war-idle
+shadowcurse
 shaftbound
 shape-ascent-roguelite
 shape-connect
@@ -6307,6 +6330,7 @@ slide-to-ride
 slides-and-climbs
 slidex
 slidey-sliding-cat-puzzle
+sliding-number-puzzle-classic-brain-teaser
 sliding-puzzle
 sliding-slide
 sliding-tile-puzzle-game
@@ -6531,6 +6555,7 @@ space-rover
 space-rovers
 space-shooter-boss
 space-shooter-war
+space-stairwell
 space-strike-galaxy-shooter
 space-survivor
 space-survivor-shooting
@@ -7050,6 +7075,7 @@ sweet-cake-shop-game
 sweet-candy-match-3-game
 sweet-merge-cafe
 sweet-merge-puzzle
+sweet-paper-doll-dress-up-diy
 sweet-screw-factory
 sweet-solve
 sweet-supermarket-simulator
@@ -7188,6 +7214,7 @@ the-best-memory
 the-biggest-number
 the-black-and-white
 the-block-escape
+the-brick
 the-bunny-vs-the-gardener
 the-cargo
 the-cargo-2
@@ -7286,6 +7313,7 @@ tidy-up-the-dollhouse
 tidydeck-sort-puzzle
 tidywhim-clearroom
 tie-dye-game
+tied-up
 tiger-coloring-book
 tiger-tank
 tile-2-match
@@ -7349,6 +7377,7 @@ tom-jigsaw-puzzle
 tom-runner
 tomato-bounce
 tomb-of-the-dash-game
+tomb-of-the-mask-color-maze
 toolbox-sort
 toon-blast-puzzle
 top-shootout
@@ -7751,6 +7780,7 @@ wheelchair-parkour-no-limits
 wheelie-bike-for-2-players
 where-are-the-puffies
 where-is-my-cat-the-adventure
+whimsy-workshop
 whimsy-workshop-easy
 whirly
 whiskers-adventures
