@@ -103,7 +103,7 @@
     ],
     "embed": "/play/bubble-wrap/",
     "gmEmbedUrl": null,
-    "thumb": "/assets/our/bubble-wrap-thumb.jpg",
+    "thumb": "/assets/our/bubble-wrap-thumb-v2.jpg",
     "cover": "/assets/our/bubble-wrap-cover.jpg",
     "video": "/assets/our/bubble-wrap-trailer.mp4",
     "screens": [
@@ -133,7 +133,7 @@
     "gmEmbedUrl": null,
     "thumb": "/assets/our/wall-of-riddles-thumb-v2.jpg",
     "cover": "/assets/our/wall-of-riddles-cover-v2.jpg",
-    "video": null,
+    "video": "/assets/our/wall-of-riddles-trailer.mp4",
     "screens": [
       "/assets/our/wall-of-riddles-1.jpg",
       "/assets/our/wall-of-riddles-2.jpg"
@@ -160,13 +160,14 @@
     ],
     "embed": "/play/bonkers-arena/",
     "gmEmbedUrl": null,
-    "thumb": "/assets/our/bonkers-arena-thumb-v2.jpg",
+    "thumb": "/assets/our/bonkers-arena-thumb-v3.jpg",
     "cover": "/assets/our/bonkers-arena-cover-v2.jpg",
     "screens": [
       "/assets/our/bonkers-arena-menu.jpg",
       "/assets/our/bonkers-arena-wave.jpg",
       "/assets/our/bonkers-arena-boost.jpg"
     ],
-    "orientation": "landscape"
+    "orientation": "landscape",
+    "video": "/assets/our/bonkers-arena-trailer.mp4"
   }
 ]

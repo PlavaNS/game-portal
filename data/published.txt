@@ -60,6 +60,7 @@
 21-rush-ultimate-card-game
 2244-number-match
 248-scribble
+2d-fantasy-tower-defence
 2d-nitro-race
 2d-platformer-coin
 2player-tanks-of-war
@@ -280,6 +281,7 @@ animal-merge
 animal-merge-zoo-drop
 animal-pair-card-match
 animal-puzzle-deluxe
+animal-puzzle-kids
 animal-racing-2
 animal-racing-idle-park
 animal-royal
@@ -1096,6 +1098,7 @@ bts-princess-coloring-book
 bts-rabbit-coloring-book
 buba-jump
 bubbla-boing
+bubble-ball-shooter
 bubble-blast
 bubble-boom
 bubble-crash
@@ -1445,6 +1448,7 @@ cartoon-cat-naughty-kitten
 cartoon-cat-scary
 cartoon-mahjong
 cartoon-traffic-racing-paper-derby
+carve-cookie-candy
 carvivor-ops
 carvscops
 case-opener-case-clicker-simulator
@@ -1675,6 +1679,7 @@ classic-match3
 classic-number-puzzle
 classic-solitaire-master
 classify
+classy-pricness-dressup-and-makeup
 clawler-fight
 clay-craft-tycoon
 clean-health-center
@@ -1837,6 +1842,7 @@ connect-associations
 connect-em-all
 connect-hero
 connect-monsters
+connect-one-line
 connect-pipe-color-puzzle-game
 connect-puzzle-image
 connect-words-2026
@@ -1945,6 +1951,7 @@ crash-test-simulator-3d
 crash-tower-3d
 crashdown-voxel-destruction
 crashy-chasy
+crazy-animals
 crazy-aunty-slap-and-punch
 crazy-bar-brawl
 crazy-bob
@@ -2430,6 +2437,7 @@ dragon-draw-joust
 dragon-fly
 dragon-funtion
 dragon-hunter
+dragon-island-idle-3d
 dragon-merge
 dragon-merge-master-3d
 dragon-power
@@ -2517,6 +2525,7 @@ dress-up-game-princess-doll-2
 dress-up-girls-2025
 dress-up-match-3
 dress-up-outfit-match
+dress-up-party-boy
 dress-up-thumbelina
 dressup-wheel
 drift-car-driving
@@ -2689,6 +2698,7 @@ endless-ball-ride-game
 endless-car-chase
 endless-car-race-game
 endless-cube-runner
+endless-cyberpunk-runner
 endless-fall
 endless-golf
 endless-idle-rpg
@@ -2699,6 +2709,7 @@ endless-tunnel-run
 endless-z-survivor
 english-checkers
 english-checkers-online-multiplayer
+english-training-book
 epic-basketball
 epic-battle-simulator
 epic-battle-simulator-2
@@ -3292,6 +3303,7 @@ funny-hair-salon
 funny-hair-salons
 funny-haircut-2
 funny-kitty-care
+funny-mouse-coloring-time
 funny-nose-surgery
 funny-pet-haircut
 funny-pet-haircut-2
@@ -3885,6 +3897,7 @@ hilltop-hustle
 hipsters-vs-rockers
 hisshop
 hit-and-knock-down
+hit-and-run-solo-leveling
 hit-em-up
 hit-knock-down-2
 hit-lazer-to-goals
@@ -4535,6 +4548,7 @@ little-pumpkin-online-game
 little-rodeo-fun
 live-eating-simulator
 live-round
+live-star-doll-dress-up
 liverpool-vs-real-2022
 loaf-clicker
 locked-in-grandma-s-basement-2-revenge-horror-escape
@@ -4590,6 +4604,7 @@ lows-adventures-3
 luchaball
 lucky-clash
 lucky-dice
+lucy-all-season-fashioninsta
 lucy-makeup-and-dress-up
 ludo-classic
 ludo-king-offline-ludo-game
@@ -4897,6 +4912,7 @@ merge-factory-idle
 merge-for-renovation
 merge-fruit-characters
 merge-fruit-monster-defense-tower-defense
+merge-fruits-2048-new-in-2d
 merge-fruits-fold-the-watermelon
 merge-furry-monsters
 merge-game-puzzle-fusion
@@ -5001,6 +5017,7 @@ mini-car-racing
 mini-car-racing-master-3d
 mini-car-room-parkour
 mini-car-simulator
+mini-chef-overcooked
 mini-chess
 mini-chess-3d
 mini-dice-chess
@@ -5162,6 +5179,7 @@ mother-simulator-husband-wife-games
 moto-3d-racing-challenge
 moto-adventure
 moto-attack
+moto-attack-bike-racing
 moto-bike-extra
 moto-bike-extreme-hill-stunts
 moto-bike-highway-racing-game
@@ -5240,6 +5258,7 @@ mummy-candy
 mummy-land
 munch-mob
 murder-mafia
+muscle-bridge-race-3d
 muscle-clicker-2
 muscle-master-quest
 muscle-race-game
@@ -5687,6 +5706,7 @@ one-line-dot-game
 one-line-drawing-mini-games
 one-line-drawling
 one-man-army-battle-game
+one-plus-two
 one-shot-duel-snipe-hide
 one2one
 onet-animals
@@ -6034,6 +6054,7 @@ playpair
 plop
 plug-man-race
 plugjoy
+plumber-and-pipes
 plumber-world-pipe-puzzle
 plumby
 pocket-drift
@@ -6605,6 +6626,7 @@ rooftop-shooters
 room-45
 room-chaos
 room-makeover-design-and-aesthetic
+room-sort-floor-plan
 rooster-ranch
 roots-and-wheels
 rope-bowing-puzzle
@@ -7361,6 +7383,7 @@ sportloop
 sports-escape-mania
 sports-minibattles
 sporty-viper
+spot-6-differences
 spot-differences-bird-adventure
 spot-the-difference-diffsy-1
 spot-the-difference-mystic-mermaids
@@ -7703,6 +7726,7 @@ sunfield-vegetable-farm
 sunny-bay-heroes
 sunny-farm-animal-simulator
 sunny-farm-match-3
+sunny-fields
 sunny-spell
 supa-tic-tac-toe
 super-alien-rabbit
@@ -8027,6 +8051,7 @@ the-genius-crow
 the-goopies-slime-puzzle
 the-greedy-crow
 the-green-mission-inside-a-cave
+the-grid
 the-gungame
 the-hardest-game-in-world-and-ever
 the-hidden-booty
@@ -8187,10 +8212,12 @@ titan-s-journey
 titan-wall-breaker
 tnt-sandbox
 to-fu-girl
+toca-avatar-my-hospital
 toca-avatar-my-house
 toca-coloring-book
 toca-hidden-stars
 toca-life-adventure
+toca-life-world
 toca-teens-cozy-couture
 toco-teens-halloween-party
 toka-boka-home-clean-up-design
@@ -8390,6 +8417,7 @@ turbo-racer-extreme
 turbo-stunt-racing
 turbo-tables
 turbo-team-racing
+turkish-draughts
 turnline-relaxing-puzzle
 turret-defend-apocalypse
 twerk-eat-and-run
@@ -8400,6 +8428,7 @@ twist-and-roll
 twist-and-tug
 twist-your-path
 twisted-auto-metal
+twisted-form-rope-puzzle
 twisted-rope-3d
 twisty-planet
 twisty-roads
@@ -8666,6 +8695,7 @@ whimsy-workshop
 whimsy-workshop-easy
 whirly
 whiskers-adventures
+who-am-i-guess-who
 who-says-pigs-can-t-fly
 who-will-win-create-a-battle
 whot-the-ultimate-nigerian-card-game

@@ -304,10 +304,8 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--amber); out
 .dock-btn svg { stroke: #7ff5ff; filter: drop-shadow(0 0 6px rgba(127, 245, 255, .6)); }
 .round-btn { border-color: rgba(25, 180, 207, .5); }
 .coin-pill { border-color: rgba(255, 204, 61, .5); }
-.made-by { display: flex; align-items: center; gap: 10px; padding: 8px 16px; border-radius: 999px; background: linear-gradient(135deg, #0a87a3, #04667f); color: #fff; box-shadow: 0 6px 20px rgba(0, 0, 0, .4), 0 0 18px rgba(25, 180, 207, .35); font: 600 11px var(--body); letter-spacing: .22em; }
-.made-by svg { width: 18px; height: 24px; }
-.made-by b { display: flex; flex-direction: column; font: 500 13px/1 var(--body); letter-spacing: .12em; }
-.made-by b i { font-style: normal; font-size: 11px; letter-spacing: .3em; }
+.made-by { display: block; line-height: 0; border-radius: 12px; box-shadow: 0 6px 20px rgba(0, 0, 0, .4), 0 0 18px rgba(25, 180, 207, .35); }
+.made-by img { width: 136px; height: 48px; display: block; border-radius: 12px; }
 .card { border-color: rgba(25, 180, 207, .5); box-shadow: 0 0 0 1px rgba(10, 135, 163, .2), 0 0 40px rgba(25, 180, 207, .18), 0 30px 60px rgba(0, 0, 0, .6); }
 .btn.big { border-color: var(--d404-light); background: linear-gradient(135deg, rgba(25, 180, 207, .55), rgba(4, 102, 127, .45)); box-shadow: 0 0 16px rgba(25, 180, 207, .45), inset 0 0 14px rgba(25, 180, 207, .25); text-shadow: 0 0 8px rgba(127, 245, 255, .9); }
 
@@ -325,4 +323,4 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--amber); out
 
 /* continue a saved run */
 .link-btn { border: 0; background: none; color: var(--muted); font: 600 14px var(--body); letter-spacing: .04em; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; margin-top: -4px; }
-.screen.home .made-by { margin-top: 6px; padding: 5px 12px; font-size: 10px; opacity: .85; transform: scale(.9); }
+.screen.home .made-by { margin-top: 6px; opacity: .92; }
