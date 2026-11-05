@@ -140,5 +140,33 @@
     ],
     "orientation": "landscape",
     "promo": "Enjoyed it? Take your whole team on a bigger mission: <a href=\"https://www.escaperoom.co.rs/online-escape-room\">Better World Alliance</a>, our online escape game for 2–6 players, each on their own device (€4.99 per team)."
+  },
+  {
+    "slug": "bonkers-arena",
+    "title": "Bonkers Arena",
+    "studio": "Door 404",
+    "studioUrl": "https://www.escaperoom.co.rs/en",
+    "short": "Bonk glowing orbs off a shrinking neon platform into the void. Dash, grab power-ups and be the last orb standing.",
+    "description": "Bonkers Arena is a neon arena brawler where every orb has eyes and a temper. You start small on a floating platform with up to eleven rivals, eat energy cubes to grow heavier and bonk the others off the edge into the void. The platform shrinks all round, so sooner or later everyone has to fight. Dash into a rival at the right moment for a mega hit, grab power-ups like Shield, Magnet, Mega Hit, Boost and Freeze, and watch out for sweepers, sliding bars, pillars, bumpers, black holes, solar wind and slippery ice. Eleven levels end with the Titan boss and the Final Circuit, every win is worth up to three stars, and a slow-motion finish shows your last knock-out. Earn coins to unlock nineteen skins with fire, lightning, rainbow and aurora trails, finish three daily quests and keep a seven-day login streak for bonus coins.",
+    "instructions": "On a computer, steer your orb with the mouse (it rolls toward the cursor) or with W A S D / the arrow keys, and click or press Space to dash. On a phone, use the joystick in the bottom-left corner and tap DASH. Eat the small cubes to grow; bigger orbs are heavier and harder to push. Knock other orbs off the edge or into the black hole and stay on the platform yourself. Hexagon pick-ups give power-ups for a few seconds. The last orb on the platform wins the level.",
+    "category": "arcade",
+    "tags": [
+      "Arena",
+      "Physics",
+      "Neon",
+      "Power-ups",
+      "Casual",
+      "Arcade"
+    ],
+    "embed": "/play/bonkers-arena/",
+    "gmEmbedUrl": null,
+    "thumb": "/assets/our/bonkers-arena-thumb.jpg",
+    "cover": "/assets/our/bonkers-arena-cover.jpg",
+    "screens": [
+      "/assets/our/bonkers-arena-menu.jpg",
+      "/assets/our/bonkers-arena-action.jpg",
+      "/assets/our/bonkers-arena-skins.jpg"
+    ],
+    "orientation": "landscape"
   }
 ]

@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<script src="playgama-bridge.js"></script>
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Bonkers Arena</title>
+<meta name="description" content="Neon multiplayer arena: bonk other orbs into the void, grab power-ups, climb the leaderboard and collect skins.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,500;0,700;1,700&family=Rajdhani:wght@600;700&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ccircle cx=%2250%22 cy=%2250%22 r=%2244%22 fill=%22%230c1230%22 stroke=%22%2346e6ff%22 stroke-width=%228%22/%3E%3Ccircle cx=%2236%22 cy=%2246%22 r=%227%22 fill=%22%23ffffff%22/%3E%3Ccircle cx=%2264%22 cy=%2246%22 r=%227%22 fill=%22%23ffffff%22/%3E%3C/svg%3E">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!--BODY-->
+<canvas id="c"></canvas>
+
+<div id="hud" hidden>
+  <div class="hud-tl">
+    <button class="icon-btn" id="pauseBtn" aria-label="Pause">II</button>
+    <span class="pill"><i>TIME</i><span id="time">2:00</span></span>
+    <span class="pill"><i>LEFT</i><span id="alive">0</span></span>
+    <span class="pill" id="windPill" hidden><i id="windArrow">➜</i>SOLAR WIND</span>
+    <span class="pill pu-pill" id="puPill" hidden></span>
+  </div>
+  <div class="board" id="board"></div>
+  <div class="feed" id="feed"></div>
+  <div class="center-msg" id="centerMsg"></div>
+  <div id="joy" aria-label="Move"><div id="joyKnob"></div></div>
+  <button id="dash" aria-label="Dash">DASH</button>
+</div>
+
+<!-- Home -->
+<section class="screen home" id="home" hidden>
+  <div class="home-top">
+    <div class="home-icons">
+      <button class="round-btn" id="sfxBtn" aria-pressed="true" aria-label="Sounds"><svg viewBox="0 0 24 24"><path d="M4 9h4l5-4v14l-5-4H4z"/><path class="on" d="M16 8.5a5 5 0 0 1 0 7M18.5 6a8.5 8.5 0 0 1 0 12"/></svg></button>
+      <button class="round-btn" id="musicBtn" aria-pressed="true" aria-label="Music"><svg viewBox="0 0 24 24"><path d="M9 18V5l11-2v13"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/></svg></button>
+    </div>
+    <div class="coin-pill"><span class="coin"></span><span class="coinCount">0</span></div>
+  </div>
+
+  <div class="home-main">
+    <div class="season-chip" id="seasonChip"></div>
+    <h1 class="logo"><span class="l1">Bonkers</span><span class="l2">Arena</span></h1>
+    <button class="hero" id="heroBtn" aria-label="Change skin">
+      <canvas id="heroBall" width="320" height="260" aria-hidden="true"></canvas>
+      <span class="hero-name" id="heroSkin">Cyan</span>
+      <span class="hero-hint">tap to change skin</span>
+    </button>
+    <div class="name-row">
+      <input id="nameInput" maxlength="14" autocomplete="off" spellcheck="false" aria-label="Your name">
+      <button class="round-btn dice" id="diceBtn" aria-label="Random name">🎲</button>
+    </div>
+    <button class="play-btn" id="levelsBtn"><span class="pb-main">PLAY</span><span class="pb-sub">11 levels · solo</span></button>
+    <button class="online-btn" id="onlineBtn"><span class="live-dot"></span>PLAY ONLINE<span class="pb-sub">12 players per arena</span></button>
+  </div>
+
+  <nav class="home-dock">
+    <button class="dock-btn" id="shopBtn"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><path d="M8.5 10.5h.01M15.5 10.5h.01" stroke-width="3"/><path d="M9 15c1.7 1.3 4.3 1.3 6 0"/></svg>Skins</button>
+    <button class="dock-btn" id="dailyBtn"><svg viewBox="0 0 24 24"><rect x="4" y="9" width="16" height="11" rx="2"/><path d="M3 9h18M12 9v11M12 9c-2-4-6-4-6-1s6 1 6 1zm0 0c2-4 6-4 6-1s-6 1-6 1z"/></svg>Daily<span class="badge" id="dailyBadge" hidden></span></button>
+    <button class="dock-btn" id="topBtn"><svg viewBox="0 0 24 24"><path d="M8 21h8M12 17v4M7 4h10v5a5 5 0 0 1-10 0z"/><path d="M7 6H4v2a3 3 0 0 0 3 3M17 6h3v2a3 3 0 0 1-3 3"/></svg>Top</button>
+  </nav>
+</section>
+
+<!-- Levels -->
+<section class="screen" id="levels" hidden>
+  <div class="card wide">
+    <div class="card-head"><button class="icon-btn" data-go="home" aria-label="Back">←</button><h2>Levels</h2><span class="stars-total" id="starsTotal">★ 0/30</span></div>
+    <button class="season-level" id="seasonLevel"></button>
+    <div class="level-grid" id="levelGrid"></div>
+  </div>
+</section>
+
+<!-- Shop -->
+<section class="screen" id="shop" hidden>
+  <div class="card wide">
+    <div class="card-head"><button class="icon-btn" data-go="home" aria-label="Back">←</button><h2>Skins</h2><span class="coins-inline"><span class="coin"></span><span class="coinCount">0</span></span></div>
+    <div class="season-head" id="seasonHead"></div>
+    <div class="skin-grid" id="seasonGrid"></div>
+    <div class="section-label">All skins</div>
+    <div class="skin-grid" id="skinGrid"></div>
+    <p class="hint">Skins with a trail leave light behind them when they move. Earn coins by bonking, winning and daily quests.</p>
+  </div>
+</section>
+
+<!-- Daily -->
+<section class="screen" id="daily" hidden>
+  <div class="card wide">
+    <div class="card-head"><button class="icon-btn" data-go="home" aria-label="Back">←</button><h2>Daily</h2><span class="coins-inline"><span class="coin"></span><span class="coinCount">0</span></span></div>
+    <div class="section-label">Login streak</div>
+    <div class="streak" id="streakRow"></div>
+    <div class="btn-row streak-btns">
+      <button class="btn amber" id="streakClaim">Claim</button>
+      <button class="btn cyan" id="streakDouble" hidden>Watch ad · ×2</button>
+    </div>
+    <div class="section-label">Today’s quests</div>
+    <div class="quests" id="questList"></div>
+    <p class="hint">New quests every day at midnight.</p>
+  </div>
+</section>
+
+<!-- Top players -->
+<section class="screen" id="top" hidden>
+  <div class="card">
+    <div class="card-head"><button class="icon-btn" data-go="home" aria-label="Back">←</button><h2>Top players</h2></div>
+    <div class="tabs" role="tablist">
+      <button class="tab on" id="tabDay" role="tab" aria-selected="true">Today</button>
+      <button class="tab" id="tabWeek" role="tab" aria-selected="false">This week</button>
+    </div>
+    <ol class="toplist" id="topList"></ol>
+    <p class="hint">Points come from online rounds: a better place, every bonk and every win count.</p>
+  </div>
+</section>
+
+<!-- Result -->
+<section class="screen" id="result" hidden>
+  <div class="card">
+    <p class="result-title" id="resTitle">You won!</p>
+    <div class="stars" id="resStars"></div>
+    <div class="stats">
+      <div>Place<b id="resPlace">#1</b></div>
+      <div>Bonks<b id="resBonks">0</b></div>
+      <div>Coins<b id="resCoins">+0</b></div>
+    </div>
+    <p class="hint" id="resNote"></p>
+    <div class="btn-col">
+      <button class="btn amber" id="resDouble" hidden>Watch ad · double coins</button>
+      <button class="btn big" id="resMain">Next level</button>
+      <button class="btn cyan" id="resRetry">Try again</button>
+      <button class="btn ghost" id="resHome">Home</button>
+    </div>
+  </div>
+</section>
+
+<!-- Pause -->
+<section class="screen" id="pause" hidden>
+  <div class="card">
+    <p class="result-title">Paused</p>
+    <div class="toggles">
+      <button class="chip" id="sfxBtn2" aria-pressed="true">Sounds</button>
+      <button class="chip" id="musicBtn2" aria-pressed="true">Music</button>
+    </div>
+    <div class="btn-col">
+      <button class="btn big" id="resumeBtn">Resume</button>
+      <button class="btn cyan" id="restartBtn">Restart</button>
+      <button class="btn ghost" id="quitBtn">Home</button>
+    </div>
+  </div>
+</section>
+
+<div class="toast" id="toast" hidden></div>
+<!--/BODY-->
+<script>window.BONK_OFFLINE = true; // no online server for the site build yet</script>
+<script src="sim.js"></script>
+<script src="art.js"></script>
+<script src="audio.js"></script>
+<script src="daily.js"></script>
+<script src="platform.js"></script>
+<script src="game.js"></script>
+</body>
+</html>

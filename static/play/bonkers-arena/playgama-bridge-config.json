@@ -1,0 +1,11 @@
+{
+    "advertisement": {
+        "interstitial": {
+            "placements": [{ "id": "round_end" }]
+        },
+        "rewarded": {
+            "placementFallback": "double_coins",
+            "placements": [{ "id": "double_coins" }, { "id": "daily_bonus" }]
+        }
+    }
+}
