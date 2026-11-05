@@ -322,7 +322,9 @@
       L.cd -= dt;
       const sec = Math.ceil(L.cd - .6);
       if (sec !== L.lastBeep) { L.lastBeep = sec; A.play('beep', sec <= 0); A.announce(sec > 0 ? ['', 'one', 'two', 'three'][sec] : L.lv.boss ? 'boss' : 'go', 3); }
-      const msg = sec > 0 ? `WAVE ${run.wave}<small>${esc(L.lv.name)}${L.lv.boss ? ' · TITAN IS HERE' : ''} · ${L.lv.bots + (L.lv.boss ? 1 : 0)} rivals</small>` : 'GO!';
+      // the goal, said plainly: stay on until the clock runs out, or be the last ball standing
+      const goal = `Survive ${Math.round(L.lv.time)}s or bonk them all off`;
+      const msg = sec > 0 ? `WAVE ${run.wave}<small>${esc(L.lv.name)}${L.lv.boss ? ' · TITAN IS HERE' : ''}</small><small class="goal">${goal}</small>` : 'GO!';
       if (msg !== L.msg) { L.msg = msg; $('centerMsg').innerHTML = msg; }
       if (L.cd <= 0) $('centerMsg').textContent = '';
       return;

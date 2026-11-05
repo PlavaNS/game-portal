@@ -278,3 +278,6 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--amber); out
 @media (prefers-reduced-motion: reduce) { .screen.home .logo, .play-btn { animation: none; } }
 .toplist .wv { color: var(--muted); font-size: 13px; font-family: var(--display); }
 .toplist .nm small { color: var(--muted); font-size: 11px; letter-spacing: .08em; }
+
+/* the wave goal under the wave title */
+.center-msg small.goal { display: inline-block; margin-top: 12px; padding: 8px 16px; border-radius: 999px; background: rgba(8, 10, 28, .82); font-size: .22em; letter-spacing: .08em; color: #ffcc3d; text-shadow: 0 0 8px rgba(255, 204, 61, .6); }
