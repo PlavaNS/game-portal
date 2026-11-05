@@ -394,9 +394,11 @@
     submitRun(run.score, run.wave).then(r => { if (r && L === sess && !$('result').hidden) $('resNote').textContent += ` · World rank #${r.rank} of ${r.players}`; });
     const canContinue = !run.continued && P.rewardedSupported;
     showResult({
-      title: record && run.score > 0 ? 'New record!' : 'Game over', win: record && run.score > 0,
-      stats: [['Wave', run.wave], ['KOs', run.kos], ['Score', run.score]], coins: run.coins,
-      note: record ? `Your best run so far. Coins earned: ${run.coins}.` : `Best: ${best.score} (wave ${best.wave}) · coins earned: ${run.coins}`,
+      title: record && run.score > 0 ? 'New record!' : run.wave >= 10 ? 'What a run!' : run.wave >= 5 ? 'So close!' : 'Game over', win: record && run.score > 0,
+      wave: run.wave,
+      stats: [['KOs', run.kos], ['Score', run.score], ['Coins', '+' + run.coins]], coins: run.coins,
+      best: record ? { text: 'New personal best!', now: 1, of: 1 } : best.score <= 0 ? null : { text: `${Math.max(0, best.score - run.score)} points to your best (${best.score}, wave ${best.wave})`, now: run.score, of: best.score },
+      note: record ? 'Your best run so far.' : '',
       main: canContinue ? 'Continue · watch ad' : null, retry: 'Play again',
       actions: {
         main: async () => {
@@ -415,6 +417,17 @@
   function showResult(o) {
     $('resTitle').textContent = o.title; $('resTitle').classList.toggle('win', o.win);
     $('resStats').innerHTML = o.stats.map(([k, v]) => `<div>${esc(k)}<b>${esc(v)}</b></div>`).join('');
+    // the player's own ball on the result card, with how far they got
+    const rc = $('resBall').getContext('2d'); rc.clearRect(0, 0, 220, 150);
+    const sk = mySkin(), g = rc.createRadialGradient(110, 128, 0, 110, 128, 90); g.addColorStop(0, sk.c + '55'); g.addColorStop(1, 'rgba(0,0,0,0)');
+    rc.fillStyle = g; rc.fillRect(0, 60, 220, 90);
+    rc.fillStyle = 'rgba(0,0,0,.45)'; rc.beginPath(); rc.ellipse(110, 126, 46, 9, 0, 0, Math.PI * 2); rc.fill();
+    drawBall(rc, 110, 78, 50, sk, { front: true, t: clock, expr: o.win ? 'n' : 'fall' });
+    $('resWave').textContent = o.wave ? `Wave ${o.wave}` : (o.place ? `Team #${o.place}` : '');
+    $('resWave').hidden = !$('resWave').textContent;
+    const rb = $('resBest'); rb.hidden = !o.best;
+    if (o.best) { const pct = Math.min(100, Math.round(o.best.now / Math.max(1, o.best.of) * 100)); $('resBestText').textContent = o.best.text; $('resBestBar').style.width = pct + '%'; $('resBestBar').style.background = pct >= 100 ? 'var(--amber)' : 'var(--cyan)'; }
+    resultStars(o.win);
     $('resNote').textContent = o.note;
     lastReward = o.coins;
     $('resDouble').hidden = !P.rewardedSupported || o.coins <= 0;
@@ -423,6 +436,21 @@
     resultAction = o.actions;
     showScreen('result');
     P.breakAd();
+  }
+  // little stars drift up behind the ball while the result is shown
+  let starTimer = 0;
+  function resultStars(win) {
+    clearInterval(starTimer);
+    const card = $('result').querySelector('.card');
+    for (const s of card.querySelectorAll('.res-star')) s.remove();
+    if (reduceMotion) return;
+    starTimer = setInterval(() => {
+      if ($('result').hidden) { clearInterval(starTimer); return; }
+      const s = document.createElement('i'); s.className = 'res-star';
+      s.style.left = (8 + Math.random() * 84) + '%'; s.style.animationDuration = (2.5 + Math.random() * 2) + 's';
+      s.style.background = win ? ['#ffcc3d', '#fff', '#46e6ff'][Math.random() * 3 | 0] : ['#46e6ff', '#b77dff'][Math.random() * 2 | 0];
+      card.appendChild(s); setTimeout(() => s.remove(), 4600);
+    }, win ? 180 : 420);
   }
   $('resMain').onclick = () => { A.play('click'); resultAction.main(); };
   $('resRetry').onclick = () => { A.play('click'); resultAction.retry(); };
@@ -562,8 +590,8 @@
     if (place === 1) { quest('win', 1); A.play('win'); A.voice('yay', 600, 1); } else A.play('lose');
     store();
     showResult({
-      title: won ? 'Your team won!' : winner ? `Team ${winner.n} won` : 'Round over', win: won,
-      stats: [['Team place', '#' + place], ['Bonks', bonks], ['Coins', '+' + coins]], coins, note: 'The next round starts in a few seconds.',
+      title: won ? 'Your team won!' : winner ? `Team ${winner.n} won` : 'Round over', win: won, place,
+      stats: [['Bonks', bonks], ['Coins', '+' + coins]], coins, note: 'The next round starts in a few seconds.',
       main: 'Keep playing', retry: null,
       actions: { main: hideScreens, retry: hideScreens, home: goHome },
     });

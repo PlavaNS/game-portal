@@ -565,8 +565,9 @@
     const DAY = ['light', 'mint', 'lilac', 'sunrise', 'dusk'];
     const bots = Math.min(2 + n, 14) - (boss ? 1 : 0);
     const rMax = Math.round(Math.max(tpl.rMax, 300 + bots * 26) * 1.35);
+    const pal = (Math.random() * 6) | 0;
     const look = n <= DAY.length ? { theme: DAY[n - 1], scene: { light: 'sky', mint: 'sky', lilac: 'sky', sunrise: 'sunrise', dusk: 'dusk' }[DAY[n - 1]] } : {};
-    return Object.assign({}, tpl, look, { id: n, wave: n, bots, boss, skill: Math.min(0.05 + 0.06 * n, 0.9), time: 35 + Math.min(n * 2.5, 30), events: n >= 3, rMax, rMin: Math.max(tpl.rMin, rMax * (n < 4 ? 0.6 : 0.45)) });
+    return Object.assign({}, tpl, look, { id: n, wave: n, pal, bots, boss, skill: Math.min(0.05 + 0.06 * n, 0.9), time: 35 + Math.min(n * 2.5, 30), events: n >= 3, rMax, rMin: Math.max(tpl.rMin, rMax * (n < 4 ? 0.6 : 0.45)) });
   }
 
   // Perks picked between waves; each can be taken up to 3 times.

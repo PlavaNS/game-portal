@@ -288,3 +288,37 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--amber); out
 #partyInput { text-transform: uppercase; letter-spacing: .25em; }
 #party .card-head h2 { font-size: 21px; min-width: 0; }
 #party .card { overflow: hidden; }
+
+/* ---------- Door 404 look: petrol teal, clean white type, the door ---------- */
+:root { --d404: #0a87a3; --d404-deep: #04667f; --d404-light: #19b4cf; }
+.play-btn { background: linear-gradient(135deg, #19b4cf 0%, #0a87a3 55%, #04667f 100%); box-shadow: 0 0 0 2px rgba(255, 255, 255, .22) inset, 0 0 28px rgba(25, 180, 207, .55), 0 8px 0 #03485a; }
+.play-btn:hover { box-shadow: 0 0 0 2px rgba(255, 255, 255, .35) inset, 0 0 44px rgba(25, 180, 207, .85), 0 8px 0 #03485a; }
+.play-btn:active { box-shadow: 0 0 0 2px rgba(255, 255, 255, .25) inset, 0 0 30px rgba(25, 180, 207, .65), 0 3px 0 #03485a; }
+@keyframes playglow { 50% { box-shadow: 0 0 0 2px rgba(255, 255, 255, .3) inset, 0 0 46px rgba(25, 180, 207, .85), 0 8px 0 #03485a; } }
+.play-btn .pb-main { text-shadow: 0 2px 0 rgba(0, 0, 0, .25), 0 0 14px rgba(127, 245, 255, .7); letter-spacing: .22em; }
+.online-btn { border-color: rgba(127, 245, 255, .8); background: linear-gradient(180deg, rgba(10, 135, 163, .35), rgba(4, 102, 127, .2)); }
+.friends-btn { border-color: rgba(255, 255, 255, .55); background: linear-gradient(180deg, rgba(255, 255, 255, .12), rgba(255, 255, 255, .04)); }
+.screen.home .logo .l1 { text-shadow: 0 0 6px #fff, 0 0 18px var(--d404-light), 0 0 42px var(--d404), 0 0 80px rgba(10, 135, 163, .7); }
+.screen.home .logo .l2 { text-shadow: 0 0 6px #fff, 0 0 18px #7ff5ff, 0 0 42px var(--d404-light); }
+.dock-btn { border-color: rgba(25, 180, 207, .45); background: linear-gradient(180deg, rgba(10, 135, 163, .32), rgba(6, 10, 28, .8)); color: #e8fbff; }
+.dock-btn svg { stroke: #7ff5ff; filter: drop-shadow(0 0 6px rgba(127, 245, 255, .6)); }
+.round-btn { border-color: rgba(25, 180, 207, .5); }
+.coin-pill { border-color: rgba(255, 204, 61, .5); }
+.made-by { display: flex; align-items: center; gap: 10px; padding: 8px 16px; border-radius: 999px; background: linear-gradient(135deg, #0a87a3, #04667f); color: #fff; box-shadow: 0 6px 20px rgba(0, 0, 0, .4), 0 0 18px rgba(25, 180, 207, .35); font: 600 11px var(--body); letter-spacing: .22em; }
+.made-by svg { width: 18px; height: 24px; }
+.made-by b { display: flex; flex-direction: column; font: 500 13px/1 var(--body); letter-spacing: .12em; }
+.made-by b i { font-style: normal; font-size: 11px; letter-spacing: .3em; }
+.card { border-color: rgba(25, 180, 207, .5); box-shadow: 0 0 0 1px rgba(10, 135, 163, .2), 0 0 40px rgba(25, 180, 207, .18), 0 30px 60px rgba(0, 0, 0, .6); }
+.btn.big { border-color: var(--d404-light); background: linear-gradient(135deg, rgba(25, 180, 207, .55), rgba(4, 102, 127, .45)); box-shadow: 0 0 16px rgba(25, 180, 207, .45), inset 0 0 14px rgba(25, 180, 207, .25); text-shadow: 0 0 8px rgba(127, 245, 255, .9); }
+
+/* ---------- result card: the ball, the wave, the way to your best ---------- */
+#result .card { position: relative; overflow: hidden; }
+.res-hero { position: relative; display: flex; flex-direction: column; align-items: center; margin: -6px 0 2px; }
+.res-hero canvas { width: 220px; height: 150px; }
+.res-wave { position: absolute; bottom: 10px; left: 50%; transform: translateX(-50%); padding: 5px 14px; border-radius: 999px; background: linear-gradient(135deg, #19b4cf, #04667f); color: #fff; font: 700 15px var(--display); letter-spacing: .14em; text-transform: uppercase; box-shadow: 0 4px 14px rgba(0, 0, 0, .4); }
+.res-best { margin: 8px 0 2px; font-size: 13px; color: var(--muted); }
+.res-best .bar { height: 7px; margin-top: 6px; }
+.res-best .bar span { display: block; height: 100%; border-radius: 4px; transition: width .6s ease-out; box-shadow: 0 0 10px currentColor; }
+.res-star { position: absolute; bottom: -8px; width: 6px; height: 6px; border-radius: 50%; pointer-events: none; opacity: 0; animation: resstar 3s linear forwards; }
+@keyframes resstar { 0% { transform: translateY(0) scale(.6); opacity: 0; } 15% { opacity: .9; } 100% { transform: translateY(-420px) scale(1.2); opacity: 0; } }
+#result .result-title.win { text-shadow: 0 0 10px #ffcc3d, 0 0 26px #ffcc3d, 0 0 60px rgba(255, 204, 61, .5); }

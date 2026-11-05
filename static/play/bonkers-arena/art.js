@@ -66,6 +66,25 @@
 
   // glows add up on dark arenas; on the light arenas that would turn white, so they paint normally there
   let ADD = 'lighter';
+  // Colour palettes: each wave wears one at random, so no two runs look the same. The first is Door 404's teal.
+  const PALETTES = [
+    { rim: '#19b4cf', accent: '#7ff5ff', rim2: '#ffffff', grid: '10,135,163' },
+    { rim: '#ff4fd8', accent: '#46e6ff', rim2: '#ffcc3d', grid: '255,79,216' },
+    { rim: '#7dff9b', accent: '#ffcc3d', rim2: '#ffffff', grid: '125,255,155' },
+    { rim: '#ff8a1f', accent: '#ff4fa8', rim2: '#ffe27a', grid: '255,138,31' },
+    { rim: '#b77dff', accent: '#3dffb8', rim2: '#ffffff', grid: '183,125,255' },
+    { rim: '#ff4d6a', accent: '#ffd400', rim2: '#ffffff', grid: '255,77,106' },
+  ];
+  const themeCache = new Map();
+  // the arena's colours: its theme (floor, sky or space) dressed in the wave's palette
+  function themeOf(lv) {
+    const base = THEMES[lv.theme] || THEMES.cyber;
+    if (lv.pal == null) return base;
+    const key = lv.theme + ':' + lv.pal;
+    if (!themeCache.has(key)) { const p = PALETTES[lv.pal % PALETTES.length]; themeCache.set(key, Object.assign({}, base, { rim: p.rim, accent: p.accent, rim2: p.rim2, grid: `rgba(${p.grid},${base.light ? .14 : .13})` })); }
+    return themeCache.get(key);
+  }
+
   function ellipse(c, x, y, rx, ry, rot, fill) { c.beginPath(); c.ellipse(x, y, rx, ry, rot || 0, 0, TAU); c.fillStyle = fill; c.fill(); }
   // blend a hex colour toward white (k>0) or black (k<0)
   function tone(hex, k) { const n = parseInt(hex.slice(1), 16), t = k > 0 ? 255 : 0, f = Math.abs(k); const m = v => Math.round(v + (t - v) * f); return `rgb(${m(n >> 16)},${m((n >> 8) & 255)},${m(n & 255)})`; }
@@ -356,9 +375,9 @@
   // ---------- arena ----------
   const floorCache = new Map();
   function floorFor(lv) {
-    const key = lv.theme + ':' + lv.rMax;
+    const key = lv.theme + ':' + (lv.pal == null ? '' : lv.pal) + ':' + lv.rMax;
     if (floorCache.has(key)) return floorCache.get(key);
-    const th = THEMES[lv.theme] || THEMES.cyber, R = lv.rMax, S = Math.ceil(R * 2 + 20);
+    const th = themeOf(lv), R = lv.rMax, S = Math.ceil(R * 2 + 20);
     const cv = document.createElement('canvas'); cv.width = S; cv.height = S;
     const c = cv.getContext('2d'); c.translate(S / 2, S / 2);
     const g = c.createRadialGradient(-R * .25, -R * .3, 0, 0, 0, R);
@@ -617,7 +636,7 @@
 
   // env: { W, H, DPR, cam, clock, shake, reduce, parts, texts, windBits, dashCd }
   function render(ctx, view, env) {
-    const th = THEMES[view.lv.theme] || THEMES.cyber, { W, H, cam, clock } = env;
+    const th = themeOf(view.lv), { W, H, cam, clock } = env;
     ADD = th.light ? 'source-over' : 'lighter';
     ctx.setTransform(env.DPR, 0, 0, env.DPR, 0, 0);
     if (th.sky) {
