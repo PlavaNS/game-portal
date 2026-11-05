@@ -375,7 +375,172 @@
     }
   }
 
-  // env: { W, H, DPR, cam, clock, shake, reduce, parts, texts, windBits, dashCd }
+  // ---------- space scenery behind each arena (screen space, slow parallax) ----------
+  const GALAXY = Array.from({ length: 260 }, (_, i) => ({ arm: i % 3, d: Math.pow(Math.random(), .7), j: Math.random() - .5, s: Math.random() * 1.6 + .5 }));
+  const CRATERS = Array.from({ length: 9 }, () => ({ a: Math.random() * TAU, d: Math.random() * .75, r: .06 + Math.random() * .12 }));
+  function drawScene(c, scene, th, W, H, cam, clock) {
+    const M = Math.max(W, H), px = -cam.x * .04, py = -cam.y * .04;
+    c.save();
+    if (scene === 'planet') {
+      const x = W * .84 + px, y = H * .8 + py, r = M * .2;
+      const g = c.createRadialGradient(x - r * .4, y - r * .4, r * .1, x, y, r);
+      g.addColorStop(0, hexA(th.accent, .55)); g.addColorStop(.7, hexA(th.rim, .22)); g.addColorStop(1, 'rgba(5,6,20,.9)');
+      c.globalAlpha = .9; ellipse(c, x, y, r, r, 0, g);
+      for (let i = 0; i < 5; i++) { c.globalAlpha = .12; ellipse(c, x, y - r * .5 + i * r * .25, r * .95, r * .05, 0, '#ffffff'); }
+      c.globalAlpha = .55; c.strokeStyle = hexA(th.rim2 === '#ffffff' ? th.rim : th.rim2, .8); c.lineWidth = r * .06;
+      c.beginPath(); c.ellipse(x, y, r * 1.75, r * .38, -.35, 0, TAU); c.stroke();
+      c.lineWidth = r * .02; c.beginPath(); c.ellipse(x, y, r * 1.95, r * .44, -.35, 0, TAU); c.stroke();
+    } else if (scene === 'blackhole') {
+      const x = W * .18 + px, y = H * .22 + py, r = M * .07;
+      c.globalCompositeOperation = 'lighter';
+      for (let i = 0; i < 4; i++) {
+        c.strokeStyle = hexA(i % 2 ? th.accent : '#ff9a3b', .35 - i * .06); c.lineWidth = r * (.5 - i * .08);
+        c.beginPath(); c.ellipse(x, y, r * (2.4 + i * .5), r * (.55 + i * .1), -.3, clock * .3 + i, clock * .3 + i + 5); c.stroke();
+      }
+      const halo = c.createRadialGradient(x, y, r * .9, x, y, r * 2.2);
+      halo.addColorStop(0, hexA('#ffcc3d', .5)); halo.addColorStop(1, 'rgba(0,0,0,0)');
+      c.fillStyle = halo; c.fillRect(x - r * 2.2, y - r * 2.2, r * 4.4, r * 4.4);
+      c.globalCompositeOperation = 'source-over';
+      ellipse(c, x, y, r, r, 0, '#000000');
+    } else if (scene === 'galaxy') {
+      const x = W * .2 + px, y = H * .3 + py, r = M * .28;
+      c.globalCompositeOperation = 'lighter';
+      const core = c.createRadialGradient(x, y, 0, x, y, r * .3);
+      core.addColorStop(0, hexA(th.rim2 === '#ffffff' ? '#ffe6ff' : th.rim2, .45)); core.addColorStop(1, 'rgba(0,0,0,0)');
+      c.fillStyle = core; c.fillRect(x - r * .3, y - r * .3, r * .6, r * .6);
+      for (const p of GALAXY) {
+        const a = p.arm * TAU / 3 + p.d * 4.2 + clock * .03 + p.j * .5, d = p.d * r;
+        c.globalAlpha = .55 * (1 - p.d * .6); c.fillStyle = p.arm === 1 ? th.accent : th.rim;
+        c.fillRect(x + Math.cos(a) * d, y + Math.sin(a) * d * .45, p.s, p.s);
+      }
+    } else if (scene === 'sun') {
+      const x = W * .92 + px, y = H * .1 + py, r = M * .17, pulse = 1 + Math.sin(clock * .8) * .03;
+      c.globalCompositeOperation = 'lighter';
+      const co = c.createRadialGradient(x, y, r * .6, x, y, r * 2.4 * pulse);
+      co.addColorStop(0, hexA('#ffb347', .45)); co.addColorStop(.4, hexA(th.rim, .18)); co.addColorStop(1, 'rgba(0,0,0,0)');
+      c.fillStyle = co; c.fillRect(x - r * 2.5, y - r * 2.5, r * 5, r * 5);
+      const body = c.createRadialGradient(x - r * .2, y + r * .2, 0, x, y, r);
+      body.addColorStop(0, '#fff3c4'); body.addColorStop(.6, '#ffb347'); body.addColorStop(1, '#ff5a1f');
+      c.globalCompositeOperation = 'source-over'; c.globalAlpha = .85; ellipse(c, x, y, r, r, 0, body);
+      c.globalCompositeOperation = 'lighter'; c.strokeStyle = hexA('#ffcc3d', .35); c.lineWidth = 4;
+      for (let i = 0; i < 4; i++) { const a = 1.6 + i * .5 + Math.sin(clock * .4 + i) * .2; c.beginPath(); c.arc(x + Math.cos(a) * r, y + Math.sin(a) * r, r * (.18 + .06 * Math.sin(clock + i)), a + 1.6, a + 4.6); c.stroke(); }
+    } else if (scene === 'moon') {
+      const x = W * .14 + px, y = H * .82 + py, r = M * .16;
+      const g = c.createRadialGradient(x + r * .35, y - r * .35, r * .1, x, y, r);
+      g.addColorStop(0, '#d9e6ff'); g.addColorStop(.75, '#6c7aa3'); g.addColorStop(1, '#1b2242');
+      c.globalAlpha = .75; ellipse(c, x, y, r, r, 0, g);
+      for (const k of CRATERS) { c.globalAlpha = .25; ellipse(c, x + Math.cos(k.a) * k.d * r, y + Math.sin(k.a) * k.d * r, k.r * r, k.r * r * .85, 0, '#2a335a'); }
+      const ex = W * .86 + px * 1.5, ey = H * .14 + py * 1.5, er = M * .035;
+      const eg = c.createRadialGradient(ex - er * .3, ey - er * .3, 0, ex, ey, er);
+      eg.addColorStop(0, '#9ff3ff'); eg.addColorStop(.6, '#2b7bff'); eg.addColorStop(1, '#08183d');
+      c.globalAlpha = .9; ellipse(c, ex, ey, er, er, 0, eg);
+    }
+    // shooting stars / comets cross every few seconds in every scene; many more in the comet arenas
+    c.globalAlpha = 1; c.globalCompositeOperation = 'lighter';
+    const n = scene === 'comets' ? 5 : 1;
+    for (let i = 0; i < n; i++) {
+      const per = scene === 'comets' ? 5 + i * 1.3 : 9, ph = ((clock + i * 2.7) % per) / per;
+      if (ph > .35) continue;
+      const k = ph / .35, seed = Math.floor((clock + i * 2.7) / per) * 7.1 + i;
+      const sx0 = (Math.sin(seed) * .5 + .5) * W, sy0 = -40 + (Math.cos(seed * 1.3) * .5 + .5) * H * .3;
+      const ang = .5 + Math.sin(seed * 2) * .25, len = scene === 'comets' ? M * .16 : M * .1;
+      const hx = sx0 + Math.cos(ang) * k * M * .6, hy = sy0 + Math.sin(ang) * k * M * .6;
+      const tg = c.createLinearGradient(hx, hy, hx - Math.cos(ang) * len, hy - Math.sin(ang) * len);
+      tg.addColorStop(0, hexA(i % 2 ? th.accent : '#ffffff', .8)); tg.addColorStop(1, 'rgba(0,0,0,0)');
+      c.strokeStyle = tg; c.lineWidth = scene === 'comets' ? 4 : 2; c.lineCap = 'round';
+      c.beginPath(); c.moveTo(hx, hy); c.lineTo(hx - Math.cos(ang) * len, hy - Math.sin(ang) * len); c.stroke();
+      c.drawImage(glowSprite(i % 2 ? th.accent : th.rim), hx - 12, hy - 12, 24, 24);
+    }
+    c.restore();
+  }
+
+  // ---------- floor features ----------
+  function drawFloorFx(c, view, th, clock, R) {
+    const lv = view.lv;
+    c.save(); c.beginPath(); c.arc(0, 0, R, 0, TAU); c.clip();
+    // conveyor belts: chevrons rolling the way they push
+    for (const bt of lv.belts || []) {
+      c.save(); c.translate(bt.x, bt.y); c.rotate(bt.ang);
+      c.fillStyle = 'rgba(4,6,16,.75)'; c.fillRect(-bt.len, -bt.w, bt.len * 2, bt.w * 2);
+      c.strokeStyle = hexA(th.rim, .7); c.lineWidth = 3; c.strokeRect(-bt.len, -bt.w, bt.len * 2, bt.w * 2);
+      c.globalCompositeOperation = 'lighter'; c.strokeStyle = hexA(th.accent, .5); c.lineWidth = 6; c.lineCap = 'round'; c.lineJoin = 'round';
+      const gap = 56, off = (clock * bt.speed * .35) % gap;
+      for (let x = -bt.len - gap + off; x < bt.len; x += gap) {
+        if (x < -bt.len + 6) continue;
+        c.beginPath(); c.moveTo(x - 12, -bt.w * .55); c.lineTo(x + 6, 0); c.lineTo(x - 12, bt.w * .55); c.stroke();
+      }
+      c.restore();
+    }
+    // crumbling tiles
+    if (lv.crumble) {
+      const T = Sim.TILE;
+      c.strokeStyle = hexA(th.rim, .12); c.lineWidth = 1.5; c.beginPath();
+      for (let v = -Math.ceil(R / T) * T; v <= R; v += T) { c.moveTo(v, -R); c.lineTo(v, R); c.moveTo(-R, v); c.lineTo(R, v); }
+      c.stroke();
+      for (const tl of (view.tiles ? view.tiles.values() : [])) {
+        const x = tl.i * T, y = tl.j * T;
+        if (tl.gone) {
+          const back = Math.max(0, Math.min(1, (tl.back - (view.t || 0)) / 7));
+          c.fillStyle = '#010104'; c.fillRect(x + 2, y + 2, T - 4, T - 4);
+          c.strokeStyle = hexA(th.rim, .3 + (1 - back) * .5); c.lineWidth = 2; c.strokeRect(x + 3, y + 3, T - 6, T - 6);
+        } else {
+          const k = Math.min(1, tl.dmg / 1.6);
+          c.fillStyle = `rgba(255,70,40,${k * .28})`; c.fillRect(x + 1, y + 1, T - 2, T - 2);
+          c.strokeStyle = `rgba(255,200,150,${.25 + k * .6})`; c.lineWidth = 2; c.beginPath();
+          const cx = x + T / 2, cy = y + T / 2, n = 2 + Math.floor(k * 4);
+          for (let i = 0; i < n; i++) { const a = i * 2.1 + tl.i, d = T * (.2 + .25 * k); c.moveTo(cx, cy); c.lineTo(cx + Math.cos(a) * d, cy + Math.sin(a) * d); c.lineTo(cx + Math.cos(a + .4) * d * 1.6, cy + Math.sin(a + .4) * d * 1.6); }
+          c.stroke();
+        }
+      }
+    }
+    // sinkholes: a red warning, then a hole in the floor
+    for (const sk of view.sinks || []) {
+      if (!sk.open) {
+        const pulse = .5 + .5 * Math.sin(clock * 14);
+        ellipse(c, sk.x, sk.y, sk.r, sk.r, 0, `rgba(255,60,80,${.12 + sk.k * .2})`);
+        c.setLineDash([8, 8]); c.lineDashOffset = -clock * 30; c.strokeStyle = `rgba(255,90,110,${.5 + pulse * .5})`; c.lineWidth = 3;
+        c.beginPath(); c.arc(sk.x, sk.y, sk.r * (1.15 - sk.k * .15), 0, TAU); c.stroke(); c.setLineDash([]);
+      } else {
+        const g = c.createRadialGradient(sk.x, sk.y, 0, sk.x, sk.y, sk.r);
+        g.addColorStop(0, '#000000'); g.addColorStop(.8, '#03020a'); g.addColorStop(1, hexA(th.accent, .6));
+        ellipse(c, sk.x, sk.y, sk.r, sk.r, 0, g);
+        c.strokeStyle = th.accent; c.lineWidth = 3; c.beginPath(); c.arc(sk.x, sk.y, sk.r, 0, TAU); c.stroke();
+      }
+    }
+    c.restore();
+  }
+
+  function drawMeteors(c, view, clock) {
+    for (const m of view.meteors || []) {
+      const k = Math.min(1, m.t / 1.3);
+      c.strokeStyle = `rgba(255,120,60,${.4 + .5 * Math.abs(Math.sin(clock * 12))})`; c.lineWidth = 3;
+      c.beginPath(); c.arc(m.x, m.y, 105 * (1 - k * .3), 0, TAU); c.stroke();
+      c.beginPath(); c.moveTo(m.x - 16, m.y); c.lineTo(m.x + 16, m.y); c.moveTo(m.x, m.y - 16); c.lineTo(m.x, m.y + 16); c.stroke();
+      ellipse(c, m.x, m.y, 105 * k, 105 * k, 0, 'rgba(255,90,40,.12)');
+      // the rock itself, coming down from the top left
+      const hx = m.x - 420 * (1 - k), hy = m.y - 620 * (1 - k);
+      c.save(); c.globalCompositeOperation = 'lighter';
+      const tg = c.createLinearGradient(hx, hy, hx - 120, hy - 180);
+      tg.addColorStop(0, 'rgba(255,200,90,.9)'); tg.addColorStop(1, 'rgba(255,60,20,0)');
+      c.strokeStyle = tg; c.lineWidth = 16; c.lineCap = 'round'; c.beginPath(); c.moveTo(hx, hy); c.lineTo(hx - 120, hy - 180); c.stroke();
+      c.drawImage(glowSprite('#ff8a3b'), hx - 34, hy - 34, 68, 68);
+      c.restore();
+      ellipse(c, hx, hy, 15, 15, 0, '#ffe2b0');
+    }
+  }
+
+  function drawEmote(c, b, k, z) {
+    const s = 1 / Math.max(.7, z), y = b.y - b.r - 58 * s, bw = 46 * s;
+    c.save();
+    c.fillStyle = 'rgba(8,10,28,.88)'; c.strokeStyle = 'rgba(255,255,255,.85)'; c.lineWidth = 2 * s;
+    c.beginPath(); c.roundRect(b.x - bw / 2, y - bw / 2, bw, bw, 12 * s); c.fill(); c.stroke();
+    c.beginPath(); c.moveTo(b.x - 7 * s, y + bw / 2 - 1); c.lineTo(b.x, y + bw / 2 + 9 * s); c.lineTo(b.x + 7 * s, y + bw / 2 - 1); c.fill();
+    c.font = `${28 * s}px system-ui, "Apple Color Emoji", "Segoe UI Emoji", "Noto Color Emoji", sans-serif`; c.textAlign = 'center'; c.textBaseline = 'middle';
+    c.fillText(k, b.x, y + 1);
+    c.restore();
+  }
+
+  // env: { W, H, DPR, cam, clock, shake, reduce, parts, texts, windBits, dashCd, emotes }
   function render(ctx, view, env) {
     const th = THEMES[view.lv.theme] || THEMES.cyber, { W, H, cam, clock } = env;
     ctx.setTransform(env.DPR, 0, 0, env.DPR, 0, 0);
@@ -399,16 +564,18 @@
       ctx.fillStyle = `rgba(${th.star},${s.a * (.6 + .4 * Math.sin(clock * 2 + s.x))})`;
       ctx.fillRect(x, y, s.s, s.s);
     }
+    drawScene(ctx, view.lv.scene, th, W, H, cam, clock);
     const sx = env.reduce ? 0 : (Math.random() - .5) * env.shake, sy = env.reduce ? 0 : (Math.random() - .5) * env.shake;
     ctx.save(); ctx.translate(W / 2 + sx, H / 2 + sy); ctx.scale(cam.z, cam.z); ctx.translate(-cam.x, -cam.y);
     const R = view.R, lv = view.lv, hole = lv.hole || 0;
 
     // arena glow + floor
     ctx.save(); ctx.shadowColor = th.rim; ctx.shadowBlur = 50 * cam.z;
-    ctx.beginPath(); ctx.arc(0, 0, R, 0, TAU); ctx.fillStyle = th.floor[1]; ctx.fill(); ctx.restore();
+    // a glass platform: the space scenery shows faintly through the floor
+    ctx.globalAlpha = lv.scene ? .72 : 1; ctx.beginPath(); ctx.arc(0, 0, R, 0, TAU); ctx.fillStyle = th.floor[1]; ctx.fill(); ctx.restore();
     const fl = floorFor(lv);
     ctx.save(); ctx.beginPath(); ctx.arc(0, 0, R, 0, TAU); ctx.clip();
-    ctx.drawImage(fl.cv, -fl.S / 2, -fl.S / 2);
+    ctx.globalAlpha = lv.scene ? .8 : 1; ctx.drawImage(fl.cv, -fl.S / 2, -fl.S / 2); ctx.globalAlpha = 1;
     // a band of light sweeping across the floor now and then
     const sweep = ((clock * 160) % (R * 6)) - R * 1.5;
     if (sweep < R * 1.5) {
@@ -454,6 +621,7 @@
       ctx.save(); ctx.shadowColor = th.accent; ctx.shadowBlur = 18; ctx.strokeStyle = th.accent; ctx.lineWidth = 5;
       ctx.beginPath(); ctx.arc(0, 0, hole + 3, 0, TAU); ctx.stroke(); ctx.restore();
     }
+    drawFloorFx(ctx, view, th, clock, R);
     // pellets
     ctx.save(); ctx.globalCompositeOperation = 'lighter';
     for (const p of view.pellets) {
@@ -477,6 +645,13 @@
     }
     for (const bl of lv.blockers || []) drawBlocker(ctx, Sim.blockerPose(bl, view.t || 0, R), bl, th, clock);
     for (const p of view.powerups || []) drawPowerup(ctx, p, clock);
+    drawMeteors(ctx, view, clock);
+    // blackout: the floor goes dark, only the orbs keep shining
+    const ev = view.ev;
+    if (ev && ev.k === 'blackout') {
+      const a = .85 * Math.max(0, Math.min(1, ev.t / .6, (6 - ev.t) / .6));
+      ctx.fillStyle = `rgba(0,0,4,${a})`; ctx.beginPath(); ctx.arc(0, 0, R + 40, 0, TAU); ctx.fill();
+    }
     // trails
     const list = view.balls.slice().sort((a, b) => a.r - b.r);
     const seen = new Set();
@@ -495,6 +670,15 @@
     }
     ctx.restore();
     for (const id of trails.keys()) if (!seen.has(id)) trails.delete(id);
+    // the Titan charging its slam: shows how far the shockwave reaches
+    for (const b of list) {
+      if (!b.slamT || b.falling) continue;
+      const k = 1 - b.slamT / 1.1;
+      ellipse(ctx, b.x, b.y, 260, 260, 0, `rgba(255,59,59,${.06 + k * .14})`);
+      ctx.strokeStyle = `rgba(255,90,70,${.5 + .5 * Math.abs(Math.sin(clock * 16))})`; ctx.lineWidth = 4;
+      ctx.beginPath(); ctx.arc(b.x, b.y, 260, 0, TAU); ctx.stroke();
+      ctx.lineWidth = 3; ctx.beginPath(); ctx.arc(b.x, b.y, b.r + (260 - b.r) * k, 0, TAU); ctx.stroke();
+    }
     // orbs
     for (const b of list) {
       const s = b.falling ? Math.max(0, 1 - b.falling / .55) : 1;
@@ -523,6 +707,8 @@
       ctx.lineWidth = fs * .3; ctx.strokeStyle = 'rgba(3,5,13,.85)'; ctx.strokeText(b.name, b.x, ny);
       ctx.fillStyle = b.me ? '#ffffff' : rimColor(sk, clock); ctx.fillText(b.name, b.x, ny);
       if (b.me) { ctx.fillStyle = '#ffcc3d'; ctx.beginPath(); ctx.moveTo(b.x - 7, ny - fs - 2); ctx.lineTo(b.x + 7, ny - fs - 2); ctx.lineTo(b.x, ny - fs + 7); ctx.closePath(); ctx.fill(); }
+      const em = env.emotes && env.emotes.get(b.id);
+      if (em && em.until > clock) drawEmote(ctx, b, em.k, cam.z);
     }
     // particles
     ctx.save(); ctx.globalCompositeOperation = 'lighter';
@@ -568,6 +754,18 @@
       ctx.save(); ctx.globalCompositeOperation = 'lighter'; ctx.strokeStyle = hexA(th.rim, .45); ctx.lineWidth = 2; ctx.lineCap = 'round';
       const wa = view.windA;
       for (const w of env.windBits) { ctx.beginPath(); ctx.moveTo(w.x, w.y); ctx.lineTo(w.x - Math.cos(wa) * 34, w.y - Math.sin(wa) * 34); ctx.stroke(); }
+      ctx.restore();
+    }
+    // gravity shift: arrows show which way everything is about to slide
+    if (ev && ev.k === 'gravity') {
+      const warn = ev.t < 1.5, a = ev.a, on = warn ? (Math.sin(clock * 18) > 0 ? .9 : .25) : .45;
+      ctx.save(); ctx.translate(W / 2, H / 2); ctx.rotate(a); ctx.globalCompositeOperation = 'lighter';
+      ctx.strokeStyle = hexA(th.accent, on); ctx.lineWidth = 5; ctx.lineCap = 'round'; ctx.lineJoin = 'round';
+      const M = Math.max(W, H), off = warn ? 0 : (clock * 220) % 140;
+      for (let x = -M; x < M; x += 140) for (let y = -M * .6; y < M * .6; y += 170) {
+        const xx = x + off + (Math.abs(y / 170) % 2) * 70;
+        ctx.beginPath(); ctx.moveTo(xx - 14, y - 18); ctx.lineTo(xx + 6, y); ctx.lineTo(xx - 14, y + 18); ctx.stroke();
+      }
       ctx.restore();
     }
     // full-screen flash on big hits

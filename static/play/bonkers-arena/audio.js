@@ -207,7 +207,7 @@
   function schedule() {
     while (player.next < ctx.currentTime + .15) {
       // switch group at the start of a bar; the new group continues with its next song
-      if (player.step === 0 && player.want !== player.group) { player.group = player.want; player.sec = 0; player.bar = 0; }
+      if (player.step === 0 && (player.want !== player.group || player.restart)) { player.group = player.want; player.sec = 0; player.bar = 0; player.restart = false; }
       const S = SONGS[player.group][player.idx[player.group]];
       const sec = S.sections[player.sec];
       const sp = 60 / (S.bpm * (player.intense && player.group === 'battle' ? 1.06 : 1)) / 4;
@@ -234,6 +234,8 @@
     if (name !== player.want && player.group === player.want && player.sec > 0) player.idx[player.want] = (player.idx[player.want] + 1) % SONGS[player.want].length;
     player.want = name;
   }
+  // each arena has its own battle song; it starts at the next bar
+  function playTrack(group, i) { player.want = group; player.idx[group] = i % SONGS[group].length; player.restart = true; }
   function setIntensity(on) { player.intense = on; }
 
   // ---------- sound effects ----------
@@ -332,5 +334,5 @@
   function setMusic(on) { state.music = on; if (musicBus) musicBus.gain.value = on ? MUSIC_VOL : 0; }
   function play(name, arg) { if (ctx && state.sfx) sfx[name](arg); }
 
-  root.Audio2 = { init, play, voice, startMusic, setSong, setIntensity, setSfx, setMusic, setHostMute, state, SONGS };
+  root.Audio2 = { init, play, voice, startMusic, setSong, playTrack, setIntensity, setSfx, setMusic, setHostMute, state, SONGS };
 })(this);

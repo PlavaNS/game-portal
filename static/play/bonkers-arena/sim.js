@@ -4,17 +4,20 @@
 
   // Arena features: friction (ice), bumpers, hole (water in the middle), wind, boss.
   const LEVELS = [
-    { id: 1, name: 'Neon Ring', theme: 'cyber', bots: 3, skill: 0.25, time: 90, rMax: 380, rMin: 150 },
-    { id: 2, name: 'Grid Rush', theme: 'cyber', bots: 5, skill: 0.35, time: 90, rMax: 440, rMin: 150, blockers: [{ k: 'pillar', x: 0, y: -190, w: 30 }, { k: 'pillar', x: 165, y: 95, w: 30 }, { k: 'pillar', x: -165, y: 95, w: 30 }] },
-    { id: 3, name: 'Frost Byte', theme: 'frost', bots: 5, skill: 0.4, time: 90, rMax: 440, rMin: 150, friction: 0.45 },
-    { id: 4, name: 'Pinball Core', theme: 'synth', bots: 6, skill: 0.45, time: 100, rMax: 480, rMin: 160, bumpers: 4 },
-    { id: 5, name: 'Black Hole', theme: 'inferno', bots: 6, skill: 0.5, time: 100, rMax: 500, rMin: 220, hole: 90, blockers: [{ k: 'slide', x: 0, y: -280, len: 70, w: 13, ang: 0, amp: 120, speed: 1.1 }, { k: 'slide', x: 0, y: 280, len: 70, w: 13, ang: 0, amp: 120, speed: -1.1 }] },
-    { id: 6, name: 'Solar Wind', theme: 'cyber', bots: 7, skill: 0.55, time: 100, rMax: 500, rMin: 160, wind: 110, blockers: [{ k: 'wall', x: -230, y: -80, x2: -150, y2: -200, w: 12 }, { k: 'wall', x: 230, y: 80, x2: 150, y2: 200, w: 12 }] },
-    { id: 7, name: 'Cryo Bumpers', theme: 'frost', bots: 7, skill: 0.6, time: 110, rMax: 520, rMin: 170, friction: 0.5, bumpers: 5, blockers: [{ k: 'sweep', x: 0, y: 0, len: 110, w: 14, speed: 0.9 }] },
-    { id: 8, name: 'Titan', theme: 'synth', bots: 5, skill: 0.6, time: 110, rMax: 520, rMin: 170, boss: true, blockers: [{ k: 'sweep', x: 0, y: 0, len: 150, w: 15, speed: 0.7 }] },
-    { id: 9, name: 'Overload', theme: 'synth', bots: 8, skill: 0.7, time: 110, rMax: 560, rMin: 230, bumpers: 4, hole: 90, wind: 80, blockers: [{ k: 'pillar', x: 0, y: -330, w: 28 }, { k: 'pillar', x: 0, y: 330, w: 28 }] },
-    { id: 10, name: 'Final Circuit', theme: 'inferno', bots: 11, skill: 0.8, time: 120, rMax: 620, rMin: 180, bumpers: 3, wind: 60, blockers: [{ k: 'sweep', x: 0, y: 0, len: 140, w: 15, speed: 1.0 }, { k: 'slide', x: -380, y: 0, len: 60, w: 12, ang: Math.PI / 2, amp: 140, speed: 1.3 }, { k: 'slide', x: 380, y: 0, len: 60, w: 12, ang: Math.PI / 2, amp: 140, speed: -1.3 }] },
-    { id: 11, name: 'Aurora Rift', theme: 'aurora', bots: 9, skill: 0.75, time: 110, rMax: 580, rMin: 210, bumpers: 2, hole: 70, wind: 50, season: 1, blockers: [{ k: 'slide', x: -300, y: 0, len: 60, w: 12, ang: Math.PI / 2, amp: 120, speed: 1 }, { k: 'slide', x: 300, y: 0, len: 60, w: 12, ang: Math.PI / 2, amp: 120, speed: -1 }] },
+    { id: 1, scene: 'galaxy', name: 'Neon Ring', theme: 'cyber', bots: 3, skill: 0.25, time: 90, rMax: 380, rMin: 150 },
+    { id: 2, scene: 'comets', name: 'Grid Rush', theme: 'cyber', bots: 5, skill: 0.35, time: 90, rMax: 440, rMin: 150, blockers: [{ k: 'pillar', x: 0, y: -190, w: 30 }, { k: 'pillar', x: 165, y: 95, w: 30 }, { k: 'pillar', x: -165, y: 95, w: 30 }] },
+    { id: 3, scene: 'moon', name: 'Frost Byte', theme: 'frost', bots: 5, skill: 0.4, time: 90, rMax: 440, rMin: 150, friction: 0.45 },
+    { id: 4, scene: 'planet', name: 'Pinball Core', theme: 'synth', bots: 6, skill: 0.45, time: 100, rMax: 480, rMin: 160, bumpers: 4 },
+    { id: 5, scene: 'blackhole', name: 'Black Hole', theme: 'inferno', bots: 6, skill: 0.5, time: 100, rMax: 500, rMin: 220, hole: 90, blockers: [{ k: 'slide', x: 0, y: -280, len: 70, w: 13, ang: 0, amp: 120, speed: 1.1 }, { k: 'slide', x: 0, y: 280, len: 70, w: 13, ang: 0, amp: 120, speed: -1.1 }] },
+    { id: 6, scene: 'sun', name: 'Solar Wind', theme: 'cyber', bots: 7, skill: 0.55, time: 100, rMax: 500, rMin: 160, wind: 110, blockers: [{ k: 'wall', x: -230, y: -80, x2: -150, y2: -200, w: 12 }, { k: 'wall', x: 230, y: 80, x2: 150, y2: 200, w: 12 }] },
+    { id: 7, scene: 'moon', name: 'Cryo Bumpers', theme: 'frost', bots: 7, skill: 0.6, time: 110, rMax: 520, rMin: 170, friction: 0.5, bumpers: 5, blockers: [{ k: 'sweep', x: 0, y: 0, len: 110, w: 14, speed: 0.9 }] },
+    { id: 8, scene: 'planet', name: 'Titan', theme: 'synth', bots: 5, skill: 0.6, time: 110, rMax: 520, rMin: 170, boss: true, blockers: [{ k: 'sweep', x: 0, y: 0, len: 150, w: 15, speed: 0.7 }] },
+    { id: 9, scene: 'comets', name: 'Overload', theme: 'synth', bots: 8, skill: 0.7, time: 110, rMax: 560, rMin: 230, bumpers: 4, hole: 90, wind: 80, blockers: [{ k: 'pillar', x: 0, y: -330, w: 28 }, { k: 'pillar', x: 0, y: 330, w: 28 }] },
+    { id: 10, scene: 'blackhole', name: 'Final Circuit', theme: 'inferno', bots: 11, skill: 0.8, time: 120, rMax: 620, rMin: 180, bumpers: 3, wind: 60, blockers: [{ k: 'sweep', x: 0, y: 0, len: 140, w: 15, speed: 1.0 }, { k: 'slide', x: -380, y: 0, len: 60, w: 12, ang: Math.PI / 2, amp: 140, speed: 1.3 }, { k: 'slide', x: 380, y: 0, len: 60, w: 12, ang: Math.PI / 2, amp: 140, speed: -1.3 }] },
+    { id: 11, scene: 'galaxy', name: 'Aurora Rift', theme: 'aurora', bots: 9, skill: 0.75, time: 110, rMax: 580, rMin: 210, bumpers: 2, hole: 70, wind: 50, season: 1, blockers: [{ k: 'slide', x: -300, y: 0, len: 60, w: 12, ang: Math.PI / 2, amp: 120, speed: 1 }, { k: 'slide', x: 300, y: 0, len: 60, w: 12, ang: Math.PI / 2, amp: 120, speed: -1 }] },
+    { id: 12, scene: 'planet', name: 'Cargo Belts', theme: 'synth', bots: 6, skill: 0.5, time: 100, rMax: 500, rMin: 200, belts: [{ x: 0, y: -120, ang: 0, len: 300, w: 46, speed: 520 }, { x: 0, y: 120, ang: Math.PI, len: 300, w: 46, speed: 520 }] },
+    { id: 13, scene: 'moon', name: 'Sinkhole Moon', theme: 'frost', bots: 6, skill: 0.55, time: 100, rMax: 520, rMin: 200, friction: 0.7, sinks: 3 },
+    { id: 14, scene: 'sun', name: 'Crumble Core', theme: 'inferno', bots: 7, skill: 0.6, time: 100, rMax: 540, rMin: 200, crumble: true },
   ];
   const ONLINE = { id: 0, name: 'Online Arena', theme: 'cyber', bots: 0, skill: 0.55, time: 120, rMax: 620, rMin: 160, bumpers: 3 };
 
@@ -30,7 +33,8 @@
   function rnd(a, b) { return a + Math.random() * (b - a); }
 
   function createWorld(level) {
-    const w = { lv: level, t: 0, R: level.rMax, balls: [], pellets: [], bumpers: [], events: [], nextId: 1, over: false, alive: 0, windA: rnd(0, TAU), powerups: [], puTimer: 6, freezeBy: 0, freezeT: 0 };
+    const w = { lv: level, t: 0, R: level.rMax, balls: [], pellets: [], bumpers: [], events: [], nextId: 1, over: false, alive: 0, windA: rnd(0, TAU), powerups: [], puTimer: 6, freezeBy: 0, freezeT: 0,
+      tiles: level.crumble ? new Map() : null, meteors: [], ev: null, evT: rnd(8, 12), lastEv: '' };
     const n = level.bumpers || 0;
     for (let i = 0; i < n; i++) {
       const a = i / n * TAU + 0.4, d = level.rMax * 0.42;
@@ -66,7 +70,7 @@
       x, y, vx: 0, vy: 0, r, tr: r, face: Math.atan2(-y, -x),
       alive: true, falling: 0, dashCd: 0, dashT: 0, dizzy: 0,
       hitBy: 0, hitAt: -9, bonks: 0, place: 0,
-      skill: o.skill == null ? w.lv.skill : o.skill, boss: !!o.boss,
+      skill: o.skill == null ? w.lv.skill : o.skill, boss: !!o.boss, slamCd: 5, slamT: 0,
       pu: '', puT: 0, mods,
       ai: { t: 0, a: 0, p: 0, prey: 0, rescue: false },
     };
@@ -162,6 +166,114 @@
     }
   }
 
+  // ---------- floors: belts, sinkholes, crumbling tiles ----------
+  function hash(a, b) { const v = Math.sin(a * 12.9898 + b * 78.233) * 43758.5453; return v - Math.floor(v); }
+  function rAt(lv, t) { return lv.rMax - (lv.rMax - lv.rMin) * Math.min(1, t / lv.time); }
+  // Sinkholes open one after another; where and when depends only on time, so every screen agrees.
+  const SINK = { cycle: 7, warn: 1.6, open: 3.2, r: 60 };
+  function sinkState(w, k) {
+    const lv = w.lv, off = k * SINK.cycle / lv.sinks, tt = w.t + off, c = Math.floor(tt / SINK.cycle), ph = tt - c * SINK.cycle;
+    if (w.t < 3 || ph >= SINK.warn + SINK.open) return null;
+    const hole = lv.hole || 0, R0 = rAt(lv, c * SINK.cycle - off), a = hash(k + 1, c) * TAU, d = hole + 90 + hash(k + 7, c) * Math.max(0, R0 * 0.8 - hole - 90);
+    return { x: Math.cos(a) * d, y: Math.sin(a) * d, r: SINK.r, open: ph >= SINK.warn, k: ph < SINK.warn ? ph / SINK.warn : 1 };
+  }
+  function sinks(w) { const out = []; for (let k = 0; k < (w.lv.sinks || 0); k++) { const s = sinkState(w, k); if (s) out.push(s); } return out; }
+  const TILE = 84;
+  function tileKey(x, y) { return Math.floor(x / TILE) + ',' + Math.floor(y / TILE); }
+  // true where the floor is gone; with warn, also where it is about to go (bots stay away)
+  function voidAt(w, x, y, warn) {
+    for (const s of sinks(w)) if ((s.open || warn) && Math.hypot(x - s.x, y - s.y) < s.r) return true;
+    if (w.tiles) { const tl = w.tiles.get(tileKey(x, y)); if (tl && (tl.gone || (warn && tl.dmg > 1))) return true; }
+    return false;
+  }
+  function stepFloors(w, dt) {
+    for (const bt of w.lv.belts || []) {
+      const dx = Math.cos(bt.ang), dy = Math.sin(bt.ang);
+      for (const b of w.balls) {
+        if (!b.alive || b.falling) continue;
+        const rx = b.x - bt.x, ry = b.y - bt.y, along = rx * dx + ry * dy, side = -rx * dy + ry * dx;
+        if (Math.abs(along) < bt.len && Math.abs(side) < bt.w) { b.vx += dx * bt.speed * dt * 1.6; b.vy += dy * bt.speed * dt * 1.6; }
+      }
+    }
+    if (!w.tiles) return;
+    // tiles crack under orbs that stand still and fall away, then grow back
+    const hit = new Set();
+    if (w.t > 3) for (const b of w.balls) {
+      if (!b.alive || b.falling) continue;
+      const key = tileKey(b.x, b.y);
+      if (hit.has(key)) continue; hit.add(key);
+      let tl = w.tiles.get(key);
+      if (!tl) { const [i, j] = key.split(',').map(Number); tl = { i, j, dmg: 0, gone: false, back: 0 }; w.tiles.set(key, tl); }
+      if (tl.gone) continue;
+      tl.dmg += dt;
+      if (tl.dmg >= 1.6) { tl.gone = true; tl.back = w.t + 7; w.events.push({ e: 'crumble', x: (tl.i + .5) * TILE, y: (tl.j + .5) * TILE }); }
+    }
+    for (const [key, tl] of w.tiles) {
+      if (tl.gone) { if (w.t > tl.back) w.tiles.delete(key); }
+      else if (!hit.has(key)) { tl.dmg -= dt * 0.4; if (tl.dmg <= 0) w.tiles.delete(key); }
+    }
+  }
+
+  // ---------- the Titan slams the floor: a shockwave that throws everyone near it ----------
+  function push(w, src, x, y, reach, power) {
+    for (const o of w.balls) {
+      if (o === src || !o.alive || o.falling) continue;
+      const dx = o.x - x, dy = o.y - y, d = Math.hypot(dx, dy);
+      if (d > reach || d === 0) continue;
+      const f = power * (1 - d / reach) + power * 0.25, m = Math.pow(START_R / o.r, 0.3) * (o.pu === 'shield' ? 0.4 : 1);
+      o.vx += dx / d * f * m; o.vy += dy / d * f * m;
+      if (o.pu !== 'shield') o.dizzy = 0.6;
+      if (src) { o.hitBy = src.id; o.hitAt = w.t; }
+    }
+  }
+  function stepBoss(w, b, dt) {
+    if (b.slamT > 0) {
+      b.slamT -= dt; b.vx *= 0.9; b.vy *= 0.9;
+      if (b.slamT <= 0) { push(w, b, b.x, b.y, 260, 520); b.slamCd = rnd(5, 7); w.events.push({ e: 'slam', id: b.id, x: b.x, y: b.y, r: 260 }); }
+      return;
+    }
+    b.slamCd -= dt;
+    if (b.slamCd <= 0 && w.balls.some(o => o !== b && o.alive && !o.falling && Math.hypot(o.x - b.x, o.y - b.y) < 220)) {
+      b.slamT = 1.1; w.events.push({ e: 'slamwarn', id: b.id });
+    }
+  }
+
+  // ---------- arena events: meteor shower, gravity shift, blackout ----------
+  const EV_TIME = { meteors: 5.5, gravity: 6.5, blackout: 6 };
+  function stepEvents(w, dt) {
+    for (let i = w.meteors.length - 1; i >= 0; i--) {
+      const m = w.meteors[i]; m.t += dt;
+      if (m.t >= 1.3) { push(w, null, m.x, m.y, 105, 560); w.events.push({ e: 'meteor', x: m.x, y: m.y }); w.meteors.splice(i, 1); }
+    }
+    if (!w.lv.events) return;
+    if (!w.ev) {
+      w.evT -= dt;
+      if (w.evT > 0) return;
+      const kinds = ['meteors', 'gravity', 'blackout'].filter(k => k !== w.lastEv);
+      const k = kinds[(Math.random() * kinds.length) | 0];
+      w.ev = { k, t: 0, a: rnd(0, TAU), next: 0 }; w.lastEv = k;
+      w.events.push({ e: 'arena', k });
+      return;
+    }
+    const ev = w.ev; ev.t += dt;
+    if (ev.k === 'meteors' && ev.t < 4.2) {
+      ev.next -= dt;
+      if (ev.next <= 0) {
+        ev.next = 0.4;
+        const st = w.balls.filter(b => b.alive && !b.falling), tg = st[(Math.random() * st.length) | 0];
+        let x, y;
+        if (tg && Math.random() < 0.6) { const a = rnd(0, TAU), d = rnd(0, 110); x = tg.x + Math.cos(a) * d; y = tg.y + Math.sin(a) * d; }
+        else { const a = rnd(0, TAU), d = Math.sqrt(Math.random()) * w.R * 0.85; x = Math.cos(a) * d; y = Math.sin(a) * d; }
+        w.meteors.push({ x, y, t: 0 });
+      }
+    }
+    if (ev.k === 'gravity' && ev.t > 1.5) {
+      const g = 230;
+      for (const b of w.balls) if (b.alive && !b.falling) { b.vx += Math.cos(ev.a) * g * dt; b.vy += Math.sin(ev.a) * g * dt; }
+    }
+    if (ev.t >= EV_TIME[ev.k]) { w.ev = null; w.evT = rnd(11, 16); }
+  }
+
   function byId(w, id) { for (const b of w.balls) if (b.id === id) return b; return null; }
 
   function dash(w, b) {
@@ -207,6 +319,21 @@
       const edgeNow = danger ? w.R - Math.hypot(b.x, b.y) - b.r : Math.hypot(b.x, b.y) - hole - b.r;
       if (edgeNow < 25 && b.dashCd === 0 && Math.random() < s) ai.rescue = true;
       return;
+    }
+    // keep off holes in the floor, cracked tiles and spots where a meteor is about to land
+    if (w.lv.sinks || w.tiles || w.meteors.length) {
+      const bad = (x, y) => voidAt(w, x, y, true) || w.meteors.some(m => Math.hypot(m.x - x, m.y - y) < 115);
+      if (bad(fx, fy) || bad(b.x, b.y)) {
+        let bestA = ai.a, bestD = -1;
+        for (let i = 0; i < 12; i++) {
+          const a = i * TAU / 12, x = b.x + Math.cos(a) * 110, y = b.y + Math.sin(a) * 110;
+          if (bad(x, y) || Math.hypot(x, y) > w.R - b.r - 40) continue;
+          const d = Math.min(...w.meteors.map(m => Math.hypot(m.x - x, m.y - y)), 999) + Math.random() * 30 * (1 - s);
+          if (d > bestD) { bestD = d; bestA = a; }
+        }
+        ai.a = bestA; ai.p = 1; ai.t = Math.min(ai.t, 0.15);
+        return;
+      }
     }
     // grab a nearby power-up
     let pbest = null, pd = 200 + s * 120;
@@ -295,6 +422,7 @@
           if (b.ai.rescue) { b.face = a; d = true; b.ai.rescue = false; }
         }
         if (b.dizzy > 0) p *= 0.3;
+        if (b.slamT > 0) p = 0;
         const acc = accelOf(w, b) * p;
         b.vx += Math.cos(a) * acc * dt; b.vy += Math.sin(a) * acc * dt;
         if (p > 0.05) b.face = a;
@@ -309,7 +437,8 @@
         if (b.falling > 0.55) { b.alive = false; w.events.push({ e: 'splash', x: b.x, y: b.y, r: b.r, id: b.id }); }
       } else {
         const dc = Math.hypot(b.x, b.y);
-        if (dc > w.R + b.r * 0.15 || (hole && dc < hole - b.r * 0.15)) knockOut(w, b);
+        if (dc > w.R + b.r * 0.15 || (hole && dc < hole - b.r * 0.15) || voidAt(w, b.x, b.y)) knockOut(w, b);
+        else if (b.boss) stepBoss(w, b, dt);
       }
     }
 
@@ -331,6 +460,8 @@
     }
 
     collideBlockers(w);
+    stepFloors(w, dt);
+    stepEvents(w, dt);
 
     // ball vs ball
     const bs = w.balls;
@@ -370,7 +501,7 @@
     }
     for (let i = w.pellets.length - 1; i >= 0; i--) {
       const p = w.pellets[i], dc = Math.hypot(p.x, p.y);
-      if (dc > w.R - 10 || (hole && dc < hole + 10)) { w.pellets.splice(i, 1); continue; }
+      if (dc > w.R - 10 || (hole && dc < hole + 10) || voidAt(w, p.x, p.y)) { w.pellets.splice(i, 1); continue; }
       for (const b of bs) {
         if (!b.alive || b.falling) continue;
         if (Math.hypot(p.x - b.x, p.y - b.y) < b.r + 4) {
@@ -395,13 +526,13 @@
 
   // ---------- endless mode ----------
   // Wave n uses an arena from LEVELS (first in a fixed order, later at random); every 5th wave brings the Titan.
-  const WAVE_ORDER = [0, 1, 2, 3, 7, 4, 5, 6, 8, 9, 10];
+  const WAVE_ORDER = [0, 1, 2, 11, 3, 12, 4, 7, 13, 5, 6, 8, 9, 10];
   function makeWave(n) {
     const tpl = n <= WAVE_ORDER.length ? LEVELS[WAVE_ORDER[n - 1]] : LEVELS[(Math.random() * LEVELS.length) | 0];
     const boss = n % 5 === 0;
     const bots = Math.min(2 + n, 14) - (boss ? 1 : 0);
-    const rMax = Math.max(tpl.rMax, 300 + bots * 26);
-    return Object.assign({}, tpl, { id: n, wave: n, bots, boss, skill: Math.min(0.05 + 0.06 * n, 0.9), time: 40 + Math.min(n * 3, 35), rMax, rMin: Math.max(tpl.rMin, rMax * (n < 4 ? 0.6 : 0.45)) });
+    const rMax = Math.round(Math.max(tpl.rMax, 300 + bots * 26) * 1.18);
+    return Object.assign({}, tpl, { id: n, wave: n, bots, boss, skill: Math.min(0.05 + 0.06 * n, 0.9), time: 40 + Math.min(n * 3, 35), events: n >= 3, rMax, rMin: Math.max(tpl.rMin, rMax * (n < 4 ? 0.6 : 0.45)) });
   }
 
   // Perks picked between waves; each can be taken up to 3 times.
@@ -423,6 +554,6 @@
     return me.bonks >= need ? 3 : me.bonks >= Math.ceil(need / 2) ? 2 : 1;
   }
 
-  const api = { LEVELS, ONLINE, makeWave, PERKS, BOT_NAMES, COLORS, START_R, DASH_CD, PU_TYPES, PU_TIME, blockerPose, createWorld, addBall, fillBots, setupLevel, step, byId, starsFor };
+  const api = { sinks, TILE, LEVELS, ONLINE, makeWave, PERKS, BOT_NAMES, COLORS, START_R, DASH_CD, PU_TYPES, PU_TIME, blockerPose, createWorld, addBall, fillBots, setupLevel, step, byId, starsFor };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Sim = api;
 })(this);
