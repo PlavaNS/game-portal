@@ -217,6 +217,7 @@ alphabet-writing-for-kids
 amandas-perfect-date
 amaze-escape
 amaze-mission
+amazing-paper-doll-diary
 amazing-sheriff
 ambidieztro
 ambulance-driving-simulator
@@ -256,6 +257,7 @@ animal-boxing
 animal-bubble-blast
 animal-bubble-pixel
 animal-bus-traffic-jam
+animal-cards-memory
 animal-care-tycoon
 animal-clinic-anomaly
 animal-daycare-game
@@ -284,6 +286,7 @@ animalistic-transform-run
 animals-battle
 animals-vs-zombies
 anime-avatar-maker-anime-doll
+anime-couple-avatar-maker
 anime-couple-dress-up
 anime-doll-diy-cosplay-girl
 anime-dress-up-doll-dress-up
@@ -1051,6 +1054,7 @@ bubble-merge-2048
 bubble-merge-2d
 bubble-pet-game
 bubble-pop-fairyland
+bubble-pop-frenzy
 bubble-pop-legend
 bubble-popper
 bubble-rush
@@ -1221,6 +1225,7 @@ candy-match-pop
 candy-match-puzzle-challenge
 candy-match-saga-2
 candy-merge-sort
+candy-monster-raffi
 candy-pop-mania
 candy-quest
 candy-rain
@@ -1524,6 +1529,7 @@ chubby-duck-jump
 chubby-duck-offroad
 chubby-finn
 chute
+cinema-empire-idle-tycoon
 circle-car
 circle-car-crash-3d
 circle-dash-ball-game
@@ -1741,6 +1747,7 @@ connecting-flowers-garden-merge
 connectline
 constella-single-line-puzzle
 construction-set-3d-builder
+construction-simulator
 construction-simulator-lite
 constructor-bricks
 container-auction
@@ -2802,6 +2809,7 @@ fish-factory
 fish-hunting
 fish-hunting-frenzy-shooter-game
 fish-love-game
+fish-master
 fish-merge
 fish-rain
 fish-rain-2
@@ -3032,6 +3040,7 @@ fruit-match-juicy-puzzle-2
 fruit-merge-2048-juicy-puzzle
 fruit-merge-arena
 fruit-merge-juice-jumble
+fruit-merge-juicy-drop-game
 fruit-merge-mania
 fruit-merger
 fruit-names
@@ -3067,6 +3076,7 @@ fun-jigsaw-puzzle
 fun-jigsaw-puzzle-game
 fun-memory
 fun-mini-games-for-kids
+fun-mini-games-for-princess
 fun-race-car-3d
 fun-ragdoll-challenge-mini-games-collection
 fun-sorting-through-the-shelves
@@ -3163,6 +3173,7 @@ geek-escape-run-for-survival
 gelatino
 gem-clicker
 gem-clicker-pro
+gem-dojo
 gem-drop
 gem-legends
 gem-mahjong
@@ -3181,11 +3192,13 @@ geometry-black-ball
 geometry-black-wave
 geometry-goal-dash-2026
 geometry-gunner
+geometry-jump-dash
 geometry-man-dash-lite
 geometry-maze-maps
 geometry-maze-maps-v2
 geometry-neon-dash-world-2
 geometry-open-world
+geometry-rash
 geometry-snake
 geometry-vibes
 geometry-vibes-2-online
@@ -3341,6 +3354,7 @@ gravity-well
 gravix
 grayscale
 grazing-giraffe
+great-zigzag-game-3d
 green-man-smash
 green-slaughter
 greenpeak
@@ -3577,6 +3591,7 @@ hexa-two
 hexa-village-sort-and-match
 hexa-word
 hexamatch
+hexapuzzlenew
 hexasort
 hexfall-io
 hexholm
@@ -3694,6 +3709,7 @@ hopeless-island-survival-hero
 hopnova
 hopping-boy
 hoppy-stacky
+hoppyrushy
 horde-zombie-war
 horizon-flight-into-the-light
 horizon-highway-driving
@@ -4410,6 +4426,7 @@ marnyl-silence-the-haters
 mars-colony
 marshmallow-rush
 marshmallow-world
+martial-artist
 martian-builder-tycoon
 marvelous-girl-skate
 mary-run
@@ -4736,6 +4753,7 @@ modern-fps-strike-zombie-gun-war-ops
 modern-sniper-gun-game-sniper-3d
 modern-strike-shooting-game
 modified-hill-climb-2d
+moe-kittens-cat-avatar-maker
 mojicon-meadow-rescue
 mojo-emoji
 mole-dig-clicker
@@ -5592,6 +5610,7 @@ pixel-dash-neon-run
 pixel-destroyer
 pixel-differences
 pixel-dino-run
+pixel-draw
 pixel-feast
 pixel-flow
 pixel-flow-2
@@ -6380,6 +6399,7 @@ screw-nuts-snap-puzzle
 screw-out-3d-relax-unwind
 screw-out-jam-puzzle
 screw-sort-3d
+screw-sort-puzzle-pin-jam-3d
 sea-kings
 sea-legends-match-3
 sea-port-controller
@@ -6639,6 +6659,7 @@ snail-clicker
 snail-odyssey-hardest-game
 snail-squash
 snaily-braver-europe-adventure
+snake-2025
 snake-2048
 snake-2048-io
 snake-2077-glitch-war
@@ -6943,6 +6964,7 @@ squidgame-io
 squidly-game-123-stop
 squirel-steps
 squirrels-draw-your-level
+squishmallow-coloring-book
 squishy-clicker
 squishy-sheep
 stack-colors
@@ -7168,6 +7190,7 @@ stunt-extreme
 stunt-planes
 stunt-rider
 stunt-witch-3
+stupid-arrow
 style-senpai-anime-dress-up
 style-star-match
 subby-quest
@@ -7260,6 +7283,7 @@ super-onion-boy
 super-onion-boy-2
 super-pop-it
 super-pork
+super-robot-chogokin
 super-rocket-buddy
 super-runcraft
 super-santa-adventures
@@ -7357,6 +7381,7 @@ swiftslow
 swim-good
 swim-or-die
 swimming-pool-romance
+swing-hero
 swing-obby-for-brainrots
 swipe-box-physics-arcade-game
 swipe-swoosh
@@ -7513,6 +7538,7 @@ the-hardest-game-in-world-and-ever
 the-high-climb
 the-horde
 the-hustler
+the-ink-shop-tattoo-art-asmr
 the-ironic-zombie
 the-island-of-momo
 the-kitchen-spot-the-differences
@@ -7816,6 +7842,7 @@ tung-tung-sahur-hidden-bedug
 tung-tung-sahur-lol-face
 tung-tung-super-sahur
 tung-tung-tung-tung-sahur
+tung-tungball-and-labububall
 tunnel-drift
 tunnel-escape
 tunnel-heist
@@ -7975,6 +8002,7 @@ void-roller
 void-shot
 volley-beans
 volley-clash
+volleyball-fun-coloring
 volzo
 vossk
 vowels-vs-consonants
@@ -8076,6 +8104,7 @@ wheelchair-parkour-no-limits
 wheelie-bike-for-2-players
 where-are-the-puffies
 where-is-my-cat-the-adventure
+where-is-my-water
 whimsy-workshop
 whimsy-workshop-easy
 whirly
@@ -8356,6 +8385,7 @@ zombotron-re-boot
 zombsmis
 zomly
 zone-breaker
+zoo-anomaly-simulation
 zoo-elephant-simulator-city-attack
 zoo-line
 zoo-mahjongg-deluxe
