@@ -284,6 +284,7 @@ animal-royal
 animal-runner-safari-game
 animal-shape-puzzle
 animal-shifting-transform-run
+animal-sort-cute-game-puzzle
 animal-transform-race
 animal-word-search-quest
 animal-world
@@ -449,6 +450,7 @@ assault-zone
 assemble-factory-puzzle
 asteroid-dodge
 astra-runner-3d
+astro-adventure-tour-max
 astro-chickens
 astro-digger
 astro-merge
@@ -1186,6 +1188,7 @@ bump-i
 bumper-car-demolition-race
 bun-boss
 bunge-jungle
+bunnies-get-ready-for-easter
 bunny-boy-online
 bunny-escape
 bunny-jumpy
@@ -2196,6 +2199,7 @@ defend-the-castle
 defender-tanks-merge
 defenders-of-the-realm-an-epic-war
 defense-base-2
+defense-designer
 defense-plants
 defense-tower-2025
 delete-it-erase-one-part
@@ -2317,6 +2321,7 @@ doctor-teeth-2
 dog-and-cat-sweet
 dog-racing-master-game
 dog-runaway
+dogecoin-clicker
 doges-battle-royale
 dogfight
 doggydoku
@@ -3213,6 +3218,7 @@ fumeburst
 fun-arrow-fall
 fun-draw-race-3d
 fun-farm-for-kids
+fun-farm-wonderland
 fun-fishing
 fun-jigsaw-puzzle
 fun-jigsaw-puzzle-game
@@ -3500,6 +3506,7 @@ grave-blast
 grave-necromancer-mortician
 gravesky
 graveyard-wars-two-player
+gravity-climb-girl
 gravity-football
 gravity-pulse
 gravity-shift-sky-racers-gt
@@ -3512,6 +3519,7 @@ grayscale
 grazing-giraffe
 great-zigzag-game-3d
 green-man-smash
+green-portal
 green-slaughter
 greenpeak
 grenade-simulator
@@ -3924,6 +3932,7 @@ hugie-wugie-runner
 hula-hoops-rush
 human-leap-evolution
 human-playground
+human-stickman-gun
 human-vehicle-run
 humans-playground-sandbox
 hummer-lady-queen
@@ -3981,6 +3990,7 @@ icing-on-doll-cake-creative-bakery
 iconic-halloween-costumes
 icy-purple-head-2
 icymatch
+identify-quick
 idle-airport-tycoon
 idle-bank
 idle-bathroom-empire-tycoon
@@ -4273,6 +4283,7 @@ kingmoon
 kings-defense-roguelike
 kitchen-king-rush
 kitchen-sorting
+kitkat-fun-puzzle
 kitten-connections
 kitten-never-dies
 kitten-rescue
@@ -4384,6 +4395,7 @@ leaf-blower-yards
 leaf-clean-up
 league-of-football
 leap-and-avoid-2
+learn-maths-mcqs
 learn-to-play-pitch
 left-4-die
 leftover-screw
@@ -4402,6 +4414,7 @@ letter-ball
 letter-boom-blast-rush
 letter-layout-coloring
 letterhold
+level-demon-2
 level-once-again
 level-rotator
 liars-bar
@@ -4955,6 +4968,7 @@ mischievous-pairs
 misland-online
 misregister
 miss-robins-dream-home
+missile-attack
 missile-dude-rpg
 mission-santa-deliver-the-gifts
 mister-bullet-arcade-shooter
@@ -5053,6 +5067,7 @@ monster-versus-human
 monster-wheels-apocalypse
 monster-wheels-turbo-rush
 monsters-impact-3
+monsters-of-easter-eggs
 monsters-wheels-2
 monsters-wheels-special
 moon-chess
@@ -5106,6 +5121,7 @@ mouse-survivor
 moutain-jeep-drive
 mouth-shift-3d
 move-emoji
+move-n-hit-space
 move-the-tower
 movebox3d
 movie-star-daily-routine
@@ -5227,6 +5243,7 @@ mystery-digger
 mystery-dumpling-squishy-slime
 mystery-of-the-old-house-hidden-objects
 mystery-squishy-dumpling-blind-box
+mystic-flower-match
 mystical-blade-3d
 mythinsects-tower-defense
 mythiq
@@ -5667,10 +5684,12 @@ panda-dash-auto-shooting
 panda-fight
 panda-go
 panda-hair-do
+panda-kitchen-idle-tycoon
 panda-lu-treehouse
 panda-run-1
 panellka-build-a-tower
 pantrydle
+paper-ball
 paper-ball-adventure-go
 paper-craft-wars
 paper-doll-diary-chibi-dolls
@@ -5698,6 +5717,7 @@ parking-bike-3d-game
 parking-boom
 parking-driver
 parking-jam-2025
+parking-jam-space
 parking-journey-car-puzzle
 parking-master-school
 parking-master-urban-challenges
@@ -6752,6 +6772,7 @@ shape-transforming-shifting-run
 shape-whiz
 shapehavoc3d
 shapenest
+shapes-using-dots
 shark-attack
 shark-boy
 shark-io
@@ -6981,6 +7002,7 @@ snake-block-rush
 snake-brawl-merge-arena
 snake-chain-escape
 snake-color-race
+snake-eat-food-game
 snake-game-2025
 snake-nokia-classic
 snake-of-balls
@@ -7526,6 +7548,7 @@ stunt-extreme
 stunt-planes
 stunt-rider
 stunt-sprint
+stunt-witch-2
 stunt-witch-3
 stupid-arrow
 style-icons-2024-rewind-edition
@@ -8031,6 +8054,8 @@ time-stop
 time-travel-tower-rush-td
 timely-delivery
 timer-cannon
+times-got-color
+tincha-junior
 tiny-arena
 tiny-army
 tiny-billiard
@@ -8205,6 +8230,7 @@ truck-parking-game
 truck-parking-trailer-challenge
 truck-simulation
 truck-simulator-arcade-championship
+truck-simulator-extreme-park
 truck-simulator-power-slider
 truck-slam
 truck-space-2
@@ -8230,6 +8256,7 @@ tung-tung-sahur-coloring-book
 tung-tung-sahur-funny-face
 tung-tung-sahur-hidden-bedug
 tung-tung-sahur-lol-face
+tung-tung-sahur-midnight-terror
 tung-tung-sahur-trap-maze
 tung-tung-sahur-zombie
 tung-tung-super-sahur
@@ -8380,6 +8407,7 @@ vehicle-stunts-sky-sim
 vehicle-transport-police-simulator
 vehiclefactory
 velocity-breaker
+velocity-puck
 velopter
 vemon-run-3d
 vexon
@@ -8729,6 +8757,7 @@ zigzag-snow-mountain
 zingaliens
 zip-me-up-halloween
 zip-zap
+zipline-people-rescue
 ziply
 zippy-bird
 zippy-bird-game
@@ -8744,6 +8773,7 @@ zombie-can-t-jump
 zombie-catchers
 zombie-check-survival-shelter
 zombie-city-polygon-survival
+zombie-city-rescue
 zombie-colosseum
 zombie-defence
 zombie-defense-last-stand
