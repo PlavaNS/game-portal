@@ -470,6 +470,7 @@ aura-farm-rng
 aura-farmer-presidents
 auric-core
 autumn-glam-gala
+avatar-life-my-town
 avatar-make-up
 avatar-maker-for-girl
 avatar-world-secrets
@@ -1668,6 +1669,7 @@ click-and-colors-dinosaurs
 click-and-idle-slimes
 click-click-clicker
 click-crates
+click-energy
 click-kitty-idle
 click-that-button
 click-to-control-chaos
@@ -1700,6 +1702,7 @@ code-runner-binary-confusion
 coffe-merge-house
 coffee-business-tycoon-game
 coffee-color-blocks
+coffee-craze-sorting-game
 coffee-tycoon
 coin-collector
 coin-color-sort
@@ -1746,6 +1749,7 @@ color-dots-challenge
 color-fall
 color-fan-color-by-number
 color-hole
+color-hoop-sort-puzzle
 color-jam-3d
 color-lines
 color-loom-puzzle
@@ -2435,6 +2439,7 @@ draw-flag-asmr-painting-games
 draw-half-game
 draw-joust
 draw-line-stickman
+draw-logic-puzzle
 draw-one-line-bridge-puzzle
 draw-one-line-drawing-puzzle
 draw-one-part-brain-puzzle
@@ -2710,6 +2715,7 @@ escape-the-police
 escape-tsunami-and-save-brainrots
 escape-waves-for-lucky-blocks
 escape-wednesday
+escape-your-birthday-horror-escape
 escaping-arrows
 esther-the-penguin-return-to-antartica
 eternal-dance
@@ -2805,6 +2811,7 @@ farm-clear-the-jam
 farm-defenders
 farm-defense
 farm-escape-puzzle-game
+farm-frenzy
 farm-fresh-fix
 farm-house-crash-match-game
 farm-land-farming-life-game
@@ -2855,6 +2862,7 @@ feeding-a-black-hole
 fever-cubes-drop-number-2048
 fide-the-hole
 fidget-pop-online
+fidget-pop-run
 fidget-spinner-creator
 fidget-toy-pop-it-game
 fidget-trading-card-toy
@@ -2936,6 +2944,7 @@ fireline-merge-defense
 firestack
 fish-and-trip
 fish-aquarium-game
+fish-divider
 fish-eat-grow-mega
 fish-evolution-3d
 fish-factory
@@ -3501,6 +3510,7 @@ grass-cutting-mowing-game
 grass-defense
 grass-flip
 grass-land
+grass-ranch
 grass-rush-adventure
 grave-blast
 grave-necromancer-mortician
@@ -3563,6 +3573,7 @@ gun-and-roll
 gun-baron
 gun-blast
 gun-bounce-idle
+gun-build-n-run
 gun-clone
 gun-craft-and-fight
 gun-evolution-game
@@ -3940,6 +3951,7 @@ hungry-ants
 hungry-cars
 hungry-cats
 hungry-crab
+hungry-fish-saga
 hungry-rabbit
 hungry-shark-evolution-2
 hungry-snail
@@ -4116,6 +4128,7 @@ jennifer-dress-up-challenge
 jenny-s-math-puzzle
 jet-escape
 jetflash-skyport-trials
+jetpack-hero-ascenso-infinito
 jetpack-race-arena
 jetspire
 jewel-blaster
@@ -4189,6 +4202,7 @@ jumpninja
 jumprotor
 jumpster
 jumpy-rabbits
+jumpycat
 jungle-bricks-breaker
 jungle-climber
 jungle-fury-mutant-rhino-mayhem
@@ -4712,6 +4726,7 @@ math-fight-club
 math-game-3d
 math-is-easy
 math-kids
+math-landing-basic-operations
 math-mania
 math-meteors
 math-multiply-two
@@ -4820,6 +4835,7 @@ merge-cats-2048
 merge-cats-idle-army
 merge-combo
 merge-cubes
+merge-diamonds-treasure
 merge-dragons
 merge-elementals-castle-defense
 merge-emoji-arena
@@ -5046,6 +5062,7 @@ monster-spaceship-shooter
 monster-stomper
 monster-survivors-game
 monster-tile-party
+monster-truck-beginning
 monster-truck-crush
 monster-truck-dirt-rally
 monster-truck-driving-stunt-game-sim
@@ -5149,6 +5166,7 @@ mr-reckless-car-chase-simulator
 mr-santa-run-2
 mr-shinchan-crayon-solving
 mr-shooter
+mr-sniper-hunter-frenzy
 mr-stickman
 mr-tomato-vs-zombies
 mr-tung-shoot-zombie
@@ -5431,6 +5449,7 @@ number-merge-master
 number-merger
 number-nexus
 number-order
+number-puzzle-war-game
 number-quest
 number-run-3d-casual-game
 number-shoot-game
@@ -5846,6 +5865,7 @@ pier-and-lighthouse-merge-story
 piercing-skies
 pig-bros-adventure
 pigcatch
+piggy-corn
 piggy-vs-watermelon
 piggys-forest-panic
 pill-soccer
@@ -6641,6 +6661,7 @@ save-kitten
 save-me-game
 save-my-human
 save-my-pet-game
+save-my-pet-puzzle
 save-nemo
 save-pilot-ryan
 save-the-baby-home-rush
@@ -7838,6 +7859,7 @@ tap-think-save-the-kitten
 tap-to-color-painting-book
 tap-to-fish
 tapping-on-fruit
+tappy-tower
 tapsync-blocks
 tarantula-clicker
 tarcat
@@ -7897,6 +7919,7 @@ the-adventure-of-finn-and-bonnie
 the-adventures-of-big-joe
 the-aesthetic-world-of-obby
 the-best-memory
+the-best-warrior
 the-biggest-number
 the-black-and-white
 the-block-escape
@@ -7904,6 +7927,7 @@ the-brick
 the-bunny-vs-the-gardener
 the-cargo
 the-cargo-2
+the-cave-escape
 the-cow-of-the-apocalypse
 the-depth-of-the-limbo
 the-dwarf-planet
@@ -7949,6 +7973,7 @@ the-maze
 the-pain-of-nextbot
 the-panda-brother
 the-pirate-sea-the-smuggler-s-way
+the-puzzle-box-challenge
 the-pyramid-adventure
 the-queen-s-jewels
 the-rings
@@ -7998,6 +8023,7 @@ tic-tac-toe-mania
 tic-tac-toe-match-three
 tic-tac-toe-multiplayer-x-o
 tic-tac-toe-with-ai-and-multiplayer
+tic-tak-to
 tick-tack-what
 ticktock-challenge
 ticktock-egg-run
@@ -8278,6 +8304,7 @@ turbo-team-racing
 turnline-relaxing-puzzle
 turret-defend-apocalypse
 twerk-eat-and-run
+twerk-it-body-race-3d
 twilight-trek
 twining-color-switch-game
 twist-and-roll
@@ -8497,6 +8524,7 @@ water-sort-master-color-puzzle
 water-sort-puzzle-3
 water-sort-puzzle-master
 water-sort-solve-puzzles
+waterdown
 watermeleon-drop-puzzle
 watermelon-falling-animals
 watermelon-fruit-2048
@@ -8627,6 +8655,7 @@ word-chef
 word-connect-train-brain
 word-cooking-puzzle
 word-cross
+word-dropping
 word-finder
 word-game-2026
 word-it-up
@@ -8779,6 +8808,7 @@ zombie-defence
 zombie-defense-last-stand
 zombie-derby-2
 zombie-drift-steel-rage
+zombie-fist
 zombie-grave-yard
 zombie-hell-shooter
 zombie-highway-car-game
