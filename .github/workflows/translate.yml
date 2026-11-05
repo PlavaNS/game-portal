@@ -20,6 +20,10 @@ on:
         description: 'Parallel requests to the Claude API'
         default: '6'
         required: false
+      force:
+        description: 'Run even if a pass already ran today (costs money twice)'
+        default: 'false'
+        required: false
 
 permissions:
   contents: write
@@ -51,6 +55,13 @@ jobs:
       - name: Translate
         timeout-minutes: 300
         run: |
+          # One paid pass per day. The nightly schedule does it; a manual run on the
+          # same day would double the API cost, so it is skipped unless force=true.
+          if [ "${{ inputs.force }}" != "true" ] && grep -q "^$(date -u +%Y-%m-%d) " data/i18n/cost.log 2>/dev/null; then
+            echo "A translation pass already ran today - skipping so the credit is not spent twice."
+            echo "### Translation skipped: a pass already ran today (use force=true to override)" >> $GITHUB_STEP_SUMMARY
+            exit 0
+          fi
           # on the daily schedule there are no inputs, so fall back to the standing values
           LANGS="${{ inputs.langs }}"; [ -z "$LANGS" ] && LANGS="es,pt,de,fr,zh"
           GAMES="${{ inputs.games }}"; [ -z "$GAMES" ] && GAMES="150"
