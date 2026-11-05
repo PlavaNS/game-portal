@@ -120,6 +120,7 @@ a-survival-legend
 abandoned-mansion
 aberiel-church-jigsaws
 about-a-frog
+abysma-dungeon-story
 abyss-muncher
 abyss-sweeper
 abyssal-echoes
@@ -670,6 +671,7 @@ besties-on-wednesday
 betweenmarine
 bff-christmas-cookie-challenge
 bffs-golden-hour
+bffs-k-pop-fangirls
 bffs-unique-halloween-costumes
 bicycle-mountain-xtreme
 bicycle-stunt-racing-game-3d
@@ -727,6 +729,7 @@ birdy-trip
 biryani-cooking-indian-super-chef-food-game
 bitbanda
 black-and-white-2
+black-ball
 black-friday-dress-up-selfie
 black-friday-mystery-sale
 black-friday-store-manager
@@ -741,6 +744,7 @@ blackriver-mystery-hidden-objects
 blacktop-police-chase
 blade-and-bedlam
 blade-and-bedlam-33861
+blade-forge-3d
 blade-hit
 blade-merge
 blade-thrower-master
@@ -778,6 +782,7 @@ block-magic-puzzle-game
 block-master-gem-puzzle
 block-master-polygonal-puzzle
 block-match-3d
+block-merge-city
 block-party-blast
 block-party-obby-robby-mini-games
 block-push-game
@@ -1378,6 +1383,7 @@ cat-escape
 cat-escape-2026
 cat-escape-hide-and-seek
 cat-from-hell-cat-simulator
+cat-girl-dress-up
 cat-girl-skater
 cat-hotel-24-7
 cat-life-simulator-devil-cat
@@ -1388,6 +1394,7 @@ cat-puzzle-draw-to-kitten
 cat-rescue
 cat-robot-transform-war
 cat-snack-defense
+cat-suika
 cat-tic-tac-toe
 cat-vs-granny-cat-simulator
 cat-with-a-gun-clicker-evolution
@@ -1884,6 +1891,7 @@ cricket-smash-3d
 crime-scene-cleaner-mobile-3d
 crimson-escape
 criss-cross-colors
+critter-mahjong-solitaire
 crittermatch
 croco-juggler
 crocodile-online-draw-and-guess
@@ -2007,6 +2015,7 @@ daddy-mouse
 daddy-rabbit
 daily-bento-organizer
 daily-street-racing-3d
+dalgona-master
 dama-stars
 dance-on-hotsteps-mobile
 dancing-road
@@ -2180,6 +2189,7 @@ dispatch-panic
 dive-deep
 divide-puzzle-arcade
 diy-clothing
+diy-doll-factory
 diy-joystick-game
 diy-phone-case-maker
 diy-slime-art
@@ -2397,6 +2407,7 @@ dual-control-racing-stunt-3d
 dualight-a-reflected-game
 duck-dash-pro
 duck-drive-truck-race
+duck-duck
 duck-family-simulator-animal-games
 duck-hunter
 duck-shootingz
@@ -2458,6 +2469,7 @@ edgefire-2
 egg-clicker
 egg-escape-tycoon
 egg-hill-climb
+egg-shooter-2
 egg-thief
 egging-on
 eggmental
@@ -2840,6 +2852,7 @@ fleet-merge
 flex-escape
 flick-n-goal
 flick-shot-soccer
+flightbird
 flip-8
 flip-bird
 flip-bottle
@@ -3139,6 +3152,7 @@ gears-of-war-platformer
 geek-escape-run-for-survival
 gelatino
 gem-clicker
+gem-clicker-pro
 gem-drop
 gem-legends
 gem-mahjong
@@ -3350,6 +3364,7 @@ guardz-io
 guess-drawing
 guess-monster-voice
 guess-the-fruit-world-quiz
+guess-tiles
 guess-which-game
 guess-words-fast
 guilty-sniper
@@ -4274,6 +4289,7 @@ machine-city-balls
 machine-eater
 macho-man-go
 mackup-runner-game
+mad-car-arena
 mad-city-matrix
 mad-day-2-special
 mad-day-special
@@ -4432,6 +4448,7 @@ math-fight-club
 math-game-3d
 math-is-easy
 math-kids
+math-mania
 math-meteors
 math-multiply-two
 math-pair-pop
@@ -4946,6 +4963,7 @@ nail-salon
 nail-salon-manicure-fashion-girl
 nail-stack
 nail-stack-run-challenge
+name-breakdown-roast-or-boast
 narcos-crime-master
 narutovsbleach
 natural-disaster-survival-obby
@@ -5230,6 +5248,7 @@ obby-way
 obby-weapon-rush
 obbytycoon-money-tycoon
 object-73-survival-clicker
+obstacube
 obunga-nextbot-spot-difference
 ocean-blast-block-puzzle
 ocean-blast-match-3
@@ -5621,6 +5640,7 @@ police-car-parking-2026
 police-car-parking-game
 police-car-simulator-game
 police-car-stunt-challenge
+police-chase-2
 police-chase-car-crash-3d
 police-chase-car-simulator
 police-chase-gate-runner
@@ -5754,6 +5774,7 @@ pro-builder-3d
 pro-football-eleven-2027
 pro-golfer-game
 pro-obunga-vs-creepender
+pro-pong-game
 pro-sliding-puzzle
 professional-archerist
 project-survival
@@ -5829,6 +5850,7 @@ quick-math
 quick-maths
 quicksolve
 quiz-education
+quiz-guess-the-country
 quiz-runner-io
 quizmania-trivia-game
 quizmasters
@@ -6288,6 +6310,7 @@ save-woman
 save-your-girl
 saw-pop-master
 sawblade-fest-run
+saws-key
 say-cheese
 scale-kid-run-and-jump-up
 scale-the-depths
@@ -6717,6 +6740,7 @@ solitaire-world
 solo-quiz-ing
 solve-or-suffer
 solve-the-maze
+something-below-the-sea
 something-below-the-sea-hard-version
 somewhere
 sonik-run
@@ -7377,6 +7401,7 @@ tap-react-plus
 tap-tap-reloaded
 tap-the-crop
 tap-think-save-the-kitten
+tap-to-color-painting-book
 tapping-on-fruit
 tapsync-blocks
 tarantula-clicker
@@ -7478,6 +7503,7 @@ the-malevolent-mansion-of-evil
 the-man-from-the-window
 the-matrix-merge
 the-maze
+the-pain-of-nextbot
 the-panda-brother
 the-pirate-sea-the-smuggler-s-way
 the-pyramid-adventure
@@ -7518,6 +7544,7 @@ throw-an-egg
 throw-best
 throw-fast
 throw-sword
+tic-tac-toe-2025
 tic-tac-toe-html
 tic-tac-toe-html5
 tic-tac-toe-mania
@@ -7657,6 +7684,7 @@ tractor-parking-and-driving-game
 tractor-simulator-farming-game
 tractor-trial
 trading-fidget-master
+traffc-cross
 traffic-craft-rider
 traffic-escapee
 traffic-g
@@ -8106,6 +8134,7 @@ word-finder
 word-game-2026
 word-jam-association-puzzle
 word-ladder
+word-maker
 word-master-puzzle
 word-match-3d
 word-maze
@@ -8298,6 +8327,7 @@ zombsmis
 zomly
 zone-breaker
 zoo-elephant-simulator-city-attack
+zoo-line
 zoo-mahjongg-deluxe
 zoo-restaurant
 zoo-run
