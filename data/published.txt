@@ -153,6 +153,7 @@ age-of-tanks-warriors-td-war
 agent-j
 agent-sniper-city
 ageof2048
+ageofbattle
 agrarian-magnate
 aha-world-dream-town
 aichessgame
@@ -184,6 +185,7 @@ alchemist-lab-jewel-crush
 alchemy-elixir-of-life
 alderun
 alex-whiskers
+alfa-romeo-coloring
 alien-bubbles
 alien-catcher
 alien-clicker-invaders
@@ -1061,6 +1063,7 @@ bubble-sorting-game
 bubble-sorting-infinite-remastered
 bubble-stars-boxes-sirius-and-najia
 bubble-tea-cocktail-maker-mix-drinks
+bubble-tea-mixing-game
 bubble-tower
 bubble-trouble
 bubble-war
@@ -1102,6 +1105,7 @@ build-the-bridge
 build-your-dream-car
 build-your-zombie-horde
 buildemup
+buildtower
 bull-time-shooter
 bullet-army-run
 bullet-factory
@@ -1348,6 +1352,7 @@ cartoon-cat-scary
 cartoon-mahjong
 cartoon-traffic-racing-paper-derby
 carvivor-ops
+carvscops
 case-opener-case-clicker-simulator
 cash-climb-rush
 castel-war-3d
@@ -1829,6 +1834,7 @@ crazy-emoji-blast
 crazy-fast-food-crash
 crazy-flappy-bat
 crazy-flying-car
+crazy-goat-simulator-animal-games
 crazy-golf-iii
 crazy-kick-ball
 crazy-knife
@@ -1894,6 +1900,7 @@ crowd-rush-game
 crowd-titan
 crowdgate
 crown-and-crafts
+crown-cannon
 crown-crusher
 crown-guard
 cruel-fable
@@ -1935,6 +1942,7 @@ cube-snake-2048
 cube-sort
 cube-surf-online
 cube-surfer-fun-and-run-3d-game
+cube-to-hole-puzzle
 cube-trap
 cube-twin
 cube-zone-master
@@ -1977,6 +1985,7 @@ cute-tiles-mahjong
 cutepanckake
 cuteslicesball
 cutter-woodsman-game
+cuttinggrass
 cyber-arrows-brain-puzzle-game
 cyber-city-driver
 cyber-dash-2
@@ -2234,6 +2243,7 @@ double-boy-jump
 double-heist-rob-the-robbers
 downhill-car-ride-crash-test
 downhill-christmas-dash
+downhill-snowboard
 dr-parking-2
 dr-psycho-hospital-escape
 dracula-run
@@ -2867,6 +2877,7 @@ food-jam
 food-run-and-battle
 food-sort-3d
 food-tower-defense
+food-truck-chef-cooking
 foodhead-fighters
 foodies-2048
 foot-bomb
@@ -2927,6 +2938,7 @@ fps-sniper-shooting-production-facility
 fractal-combat-x
 fragbyte
 fragen
+fragile-balance
 fragment
 fragments-of-wonder
 frame-agent-hidden-object-puzzle
@@ -3444,6 +3456,7 @@ haunted-inn
 haunted-panic
 haunted-sweets
 haystack-works
+hazard-heights
 hazard-pay
 hazel-tic-tac-toe
 hazmob-fps-online-shooter
@@ -3714,6 +3727,7 @@ i-scream-icecream
 i-show-running-2d
 i-want-ice-cream
 i-want-to-be-king
+ibiza-foam-party
 ice-and-fire-twins
 ice-ball-run
 ice-blast-buddies
@@ -3847,6 +3861,7 @@ jelly-shift-shape-control
 jellymerge
 jennifer-dress-up-challenge
 jenny-s-math-puzzle
+jet-escape
 jetflash-skyport-trials
 jetpack-race-arena
 jetspire
@@ -3961,6 +3976,7 @@ keyboard-rush
 kick-a-lucky-block-tsunami-waves
 kick-and-run
 kick-lucky-blocks-online
+kick-pong-table-soccer
 kick-the-ball-and-shoot
 kick-the-chicken
 kick-the-santa-christmas-buddy
@@ -4105,6 +4121,7 @@ lastwar-survival
 latto-latto
 launch-jack
 launch-the-dummy
+lava-cre
 lazy-orcs
 lazzy-birds
 leaf-blower-autumn-yard
@@ -4173,6 +4190,7 @@ little-cat-doctor-2026
 little-city-merge
 little-cute-summer-fairies-puzzle
 little-dentist-for-kids-3
+little-hero-knight
 little-lily-halloween-prep
 little-monster-shop
 little-princess-dress-up
@@ -4487,6 +4505,7 @@ merge-adventure
 merge-animals
 merge-animals-defence
 merge-animals-game
+merge-ant-insect-fusion
 merge-archers-bow-and-arrow
 merge-balls-shooter-2048-connect-fruits
 merge-battler
@@ -4553,6 +4572,7 @@ metal-animals
 metal-match
 metal-shooter-brother-squad
 metastack
+meteor-escape
 mexico-rex-2
 mfps-military-combat
 miami-city-crime-simulator-game
@@ -4574,6 +4594,7 @@ millionaire-factory
 millionaire-life
 milord-we-have-a-zombie-problem
 mimi-fish-market
+mind-gambit
 mind-games-for-2-3-4-player
 mind-math
 mindblow
@@ -4814,6 +4835,7 @@ mr-racer-car-racing
 mr-racer-stunt-mania
 mr-reckless-car-chase-simulator
 mr-santa-run-2
+mr-shinchan-crayon-solving
 mr-shooter
 mr-stickman
 mr-tomato-vs-zombies
@@ -4859,6 +4881,7 @@ my-castle-merge-and-story
 my-cat-restaurant
 my-city-hospital
 my-clearn-robot
+my-cute-restaurant
 my-cute-virtual-pet
 my-dentist
 my-dogy-virtual-pet
@@ -5100,6 +5123,7 @@ nuts-puzzle-sort-by-color
 nutsforwinter
 nutty-rush
 nutty-rush-kart
+nyfw-street-style
 o-m-i-n-o
 obbie-zombie-land
 obbloxgun-io-3d-fps-shooter
@@ -5273,6 +5297,7 @@ orbit-ring-2
 orbit-rush-3d
 orbit-shift
 orbit-tap-rush-one-tap-game
+orbital
 orc-breach
 order-of-operation-challenge
 organizer-master
@@ -5322,6 +5347,7 @@ pantrydle
 paper-ball-adventure-go
 paper-craft-wars
 paper-doll-diary-chibi-dolls
+paper-doll-diary-dress-up-diy
 paper-doll-dress-up
 paper-doll-makeover-dress-up
 paper-dolls-diy-diary
@@ -5600,6 +5626,7 @@ poofruits-merge-the-fruit
 pool-8
 pool-blast-merge-balls
 pool-float-party
+pool-flow
 pool-shoot-tournament
 poop-away
 poopy-shooting-survival
@@ -6335,6 +6362,7 @@ shape-transform
 shape-transform-race
 shape-transform-shifting-rush
 shape-transforming-shifting-run
+shapehavoc3d
 shapenest
 shark-attack
 shark-boy
@@ -7326,6 +7354,7 @@ tap-think-save-the-kitten
 tapping-on-fruit
 tapsync-blocks
 tarantula-clicker
+tarcat
 target-gun-game-fps-shooting
 target-hit-shooting-range
 targetter-game
@@ -7353,6 +7382,7 @@ telekinetic-pumpkin
 temple-quest
 temple-racing
 temple-runner
+temple-targets
 ten-link-number-games
 tenkyu
 tenkyu-ball
@@ -7433,6 +7463,7 @@ the-secret-of-the-toy-factory
 the-sort-agency
 the-space-mover
 the-specimen-zero
+the-stone-miner
 the-superhero-league
 the-survival-alliens
 the-tall-man
@@ -7658,6 +7689,7 @@ trimino
 trio-twist-puzzle
 triple-car-jam
 triple-combo
+triple-treat-toss
 trishift
 trivia-mind-game
 troll-rider
@@ -8067,6 +8099,7 @@ word-up-challenge
 wordaire-word-solitaire
 wordeck-associations
 wordforge
+wordix
 wordly
 words-and-bubbles
 words-search-puzzle-game
@@ -8122,6 +8155,7 @@ yoga-master-flex-running
 yolk-ops-egg-arena
 yolk-patrol
 yolk-patrol-easy
+yoshi-mood
 your-idle-farm
 your-majesty-build-and-conquer
 your-obby-escape
@@ -8213,6 +8247,7 @@ zombie-survival-2
 zombie-survival-last-stand
 zombie-swarm
 zombie-terminator
+zombie-tycoon
 zombie-vacation
 zombie-vacation-2
 zombie-virus-fps
