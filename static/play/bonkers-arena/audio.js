@@ -19,6 +19,7 @@
     const fb = ctx.createGain(); fb.gain.value = .38;
     const dl = ctx.createBiquadFilter(); dl.type = 'lowpass'; dl.frequency.value = 2200;
     delayIn.connect(d); d.connect(dl); dl.connect(fb); fb.connect(d); dl.connect(musicBus);
+    loadVoice();
     noiseBuf = ctx.createBuffer(1, ctx.sampleRate, ctx.sampleRate);
     const nd = noiseBuf.getChannelData(0);
     for (let i = 0; i < nd.length; i++) nd[i] = Math.random() * 2 - 1;
@@ -288,7 +289,13 @@
     },
     bump() { const t = ctx.currentTime; osc('square', 880, 880, t, .07, .05, sfxBus, { lp: 4000 }); osc('square', 1320, 1320, t + .05, .12, .05, sfxBus, { lp: 4000 }); },
     click() { osc('triangle', 1500, 1000, ctx.currentTime, .035, .08, sfxBus); },
-    beep(go) { osc('square', go ? 1318 : 659, 0, ctx.currentTime, go ? .4 : .14, .07, sfxBus, { lp: 3000 }); },
+    // countdown: a soft glassy chime for 3-2-1, then a bright rising chord for GO
+    beep(go) {
+      const t = ctx.currentTime;
+      if (!go) { for (const [m, v] of [[1, .09], [2, .03], [3.01, .015]]) osc('sine', 880 * m, 0, t, .5, v, sfxBus, { a: .004, rel: .45 }); return; }
+      [72, 76, 79, 84].forEach((n, i) => { osc('sine', hz(n), 0, t + i * .045, .7, .07, sfxBus, { a: .004, rel: .6 }); osc('triangle', hz(n + 12), 0, t + i * .045, .4, .02, sfxBus, { a: .004, rel: .35 }); });
+      noise(t, .5, 9000, 5000, .7, .03, 'highpass', sfxBus);
+    },
     coin() { const t = ctx.currentTime; osc('square', 1568, 0, t, .07, .04, sfxBus); osc('square', 2093, 0, t + .07, .18, .04, sfxBus); },
     // new wave: rising whoosh and three climbing notes
     wave() {
@@ -377,9 +384,35 @@
     VOICES[kind](ctx.currentTime + .01, base, .13 * (vol == null ? 1 : vol));
   }
 
+  // ---------- announcer ----------
+  // One line at a time; a new line only cuts in when it matters at least as much. Music dips while she talks.
+  const lines = {};
+  let talking = null;
+  async function loadVoice() {
+    for (const [k, url] of Object.entries(window.VOICE || {})) {
+      try {
+        const bin = atob(url.slice(url.indexOf(',') + 1)), bytes = new Uint8Array(bin.length);
+        for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
+        lines[k] = await ctx.decodeAudioData(bytes.buffer);
+      } catch (e) { console.error('Voice line failed to load:', k, e); }
+    }
+  }
+  function announce(key, prio) {
+    const buf = lines[key];
+    if (!ctx || !state.sfx || !buf) return;
+    prio = prio || 1;
+    const now = ctx.currentTime;
+    if (talking && talking.end > now && talking.prio > prio) return;
+    if (talking && talking.end > now) try { talking.src.stop(); } catch (e) {}
+    const src = ctx.createBufferSource(), g = ctx.createGain();
+    src.buffer = buf; g.gain.value = 1.1; src.connect(g); g.connect(out); src.start(now);
+    talking = { src, prio, end: now + buf.duration };
+    if (musicBus && state.music) { musicBus.gain.setTargetAtTime(MUSIC_VOL * .45, now, .05); musicBus.gain.setTargetAtTime(MUSIC_VOL, now + buf.duration, .25); }
+  }
+
   function setSfx(on) { state.sfx = on; if (sfxBus) sfxBus.gain.value = on ? 1 : 0; }
   function setMusic(on) { state.music = on; if (musicBus) musicBus.gain.value = on ? MUSIC_VOL : 0; }
   function play(name, arg) { if (ctx && state.sfx) sfx[name](arg); }
 
-  root.Audio2 = { init, play, voice, startMusic, setSong, playTrack, setIntensity, ambient, setSfx, setMusic, setHostMute, state, SONGS };
+  root.Audio2 = { init, play, voice, announce, startMusic, setSong, playTrack, setIntensity, ambient, setSfx, setMusic, setHostMute, state, SONGS };
 })(this);

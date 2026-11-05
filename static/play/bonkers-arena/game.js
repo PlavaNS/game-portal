@@ -194,7 +194,7 @@
         const c = PU_COLORS[ev.type];
         fx(ev.x, ev.y, 'beam', c, 120, .5); fx(ev.x, ev.y, 'ring', c, 60, .4); fx(ev.x, ev.y, 'flash', c, 45, .3);
         burst(ev.x, ev.y, 12, [c, '#ffffff'], 260, 2.2, .45, 'spark');
-        if (ev.id === meId) { A.play('coin'); floatText(ev.x, ev.y - 24, PU_NAME[ev.type] + '!', PU_COLORS[ev.type], 28); quest('pu', 1); }
+        if (ev.id === meId) { A.play('coin'); floatText(ev.x, ev.y - 24, PU_NAME[ev.type] + '!', PU_COLORS[ev.type], 28); quest('pu', 1); A.announce(ev.type, 1); }
         say(view, ev.id, 'ooh', meId);
       } else if (ev.e === 'out') {
         const victim = nameOf(view, ev.id), by = ev.by ? nameOf(view, ev.by) : null;
@@ -213,6 +213,7 @@
           if (b) floatText(b.x, b.y - b.r - 30, '+5', '#ffcc3d', 22);
           screenFlash(colorOf(view, meId), .12); shake = Math.max(shake, 9);
           A.play('coin'); A.play('ko'); quest('bonk', 1);
+          koStreak++; A.announce(koStreak === 3 ? 'fire' : ['ko', 'ko2', 'ko3'][(Math.random() * 3) | 0], koStreak === 3 ? 2 : 1);
           if (run && mode === 'level') { run.kos++; run.score += 25; }
         }
       } else if (ev.e === 'crumble') {
@@ -230,7 +231,7 @@
         burst(ev.x, ev.y, 14, ['#ff6a2a', '#ffcc3d', '#ffffff'], 380, 3, .5, 'spark'); burst(ev.x, ev.y, 6, ['#6b4a3a', '#ff8a3b'], 260, 5, .7, 'shard');
         if (near(ev.x, ev.y)) { A.play('bonk', .8); shake = Math.max(shake, 8); }
       } else if (ev.e === 'arena') {
-        arenaBanner(ARENA_EV[ev.k]); A.play('wave');
+        arenaBanner(ARENA_EV[ev.k]); A.play('wave'); A.announce(ev.k, 2);
       } else if (ev.e === 'splash') {
         const col = colorOf(view, ev.id);
         fx(ev.x, ev.y, 'implode', col, ev.r * 2.5, .5);
@@ -283,7 +284,7 @@
   function hideScreens() { for (const s of document.querySelectorAll('.screen')) s.hidden = true; }
 
   // ---------- endless run: waves until you fall ----------
-  let run = null;
+  let run = null, koStreak = 0;
 
   function startRun() {
     run = { wave: 0, score: 0, kos: 0, coins: 0, mods: {}, continued: false };
@@ -307,7 +308,7 @@
     $('windPill').hidden = !lv.wind;
     // every orb beams down onto the platform
     for (const b of w.balls) { const c = skinFor(b).c; fx(b.x, b.y, 'beam', c, 220, .9); fx(b.x, b.y, 'ring', c, 60, .6); }
-    A.play('wave');
+    A.play('wave'); koStreak = 0;
     A.playTrack('battle', (TRACK_OF[lv.theme] || [0])[run.wave % 2]);
     A.ambient(Art.THEMES[lv.theme] && Art.THEMES[lv.theme].sky ? 'wind' : 'space');
     P.levelStarted(run.wave);
@@ -318,7 +319,7 @@
     if (L.cd > 0) {
       L.cd -= dt;
       const sec = Math.ceil(L.cd - .6);
-      if (sec !== L.lastBeep) { L.lastBeep = sec; A.play('beep', sec <= 0); }
+      if (sec !== L.lastBeep) { L.lastBeep = sec; A.play('beep', sec <= 0); A.announce(sec > 0 ? ['', 'one', 'two', 'three'][sec] : L.lv.boss ? 'boss' : 'go', 3); }
       const msg = sec > 0 ? `WAVE ${run.wave}<small>${esc(L.lv.name)}${L.lv.boss ? ' · TITAN IS HERE' : ''} · ${L.lv.bots + (L.lv.boss ? 1 : 0)} rivals</small>` : 'GO!';
       if (msg !== L.msg) { L.msg = msg; $('centerMsg').innerHTML = msg; }
       if (L.cd <= 0) $('centerMsg').textContent = '';
@@ -336,12 +337,12 @@
     if (out) {
       L.shown = true;
       const sess = L; setTimeout(() => gameOver(sess), 1400);
-      A.play('over');
+      A.play('over'); A.announce('over', 3);
     } else if (ended) {
       L.shown = true;
       slowUntil = clock + 1.6;
       celebrate(L.me.x, L.me.y, 140);
-      A.play('clear'); quest('win', 1); A.voice('yay', pitchOf(L.me), 1);
+      A.play('clear'); quest('win', 1); A.voice('yay', pitchOf(L.me), 1); A.announce('cleared', 3);
       const bonus = 100 + run.wave * 20;
       run.score += bonus; floatText(L.me.x, L.me.y - L.me.r - 30, `+${bonus}`, '#7dff9b', 30);
       const coins = 10 + run.wave * 2; run.coins += coins; save.coins += coins; store(); refreshCoins();
@@ -385,7 +386,7 @@
     const record = run.score > best.score;
     if (record) save.best = { score: run.score, wave: run.wave };
     store();
-    if (record && run.score > 0) { confettiRain(180); A.play('clear'); }
+    if (record && run.score > 0) { confettiRain(180); A.play('clear'); A.announce('record', 3); }
     const canContinue = !run.continued && P.rewardedSupported;
     showResult({
       title: record && run.score > 0 ? 'New record!' : 'Game over', win: record && run.score > 0,
@@ -534,11 +535,11 @@
     const cm = $('centerMsg');
     if (N.ph === 'wait') {
       const sec = Math.ceil(N.cd);
-      if (sec !== N.lastBeep && sec <= 3) { N.lastBeep = sec; A.play('beep', sec <= 0); }
+      if (sec !== N.lastBeep && sec <= 3) { N.lastBeep = sec; A.play('beep', sec <= 0); if (sec > 0) A.announce(['', 'one', 'two', 'three'][sec], 3); }
       cm.innerHTML = sec > 3 ? `<small>Next round in ${sec}…</small>` : `${Math.max(1, sec)}<small>Online Arena</small>`;
     } else if (N.ph === 'play') {
       if (!N.inRound) cm.innerHTML = '<small>Watching… you play in the next round</small>';
-      else if (N.lastBeep === 1) { A.play('beep', true); N.lastBeep = 0; N.goUntil = now + 700; cm.textContent = 'GO!'; }
+      else if (N.lastBeep === 1) { A.play('beep', true); A.announce('go', 3); N.lastBeep = 0; N.goUntil = now + 700; cm.textContent = 'GO!'; }
       else if (now > (N.goUntil || 0)) cm.textContent = '';
     } else cm.textContent = '';
   }
@@ -562,17 +563,18 @@
 
   // ---------- HUD ----------
   let hudT = 0;
-  function updateHud(view, timeLeft) {
+  function updateHud(view, timeLeft, total) {
     const standing = view.balls.filter(b => !b.falling);
     $('time').textContent = Math.floor(timeLeft / 60) + ':' + String(Math.floor(timeLeft % 60)).padStart(2, '0');
-    $('alive').textContent = standing.length;
+    $('alive').textContent = `${standing.length}/${total}`;
     const sorted = standing.slice().sort((a, b) => b.r - a.r);
     let top = sorted.slice(0, 5);
     const me = sorted.find(b => b.me);
     if (me && !top.includes(me)) top = top.slice(0, 4).concat(me);
     $('board').innerHTML = top.map(b => `<div class="${b.me ? 'me' : ''}"><span class="row-name">${sorted.indexOf(b) + 1}. ${esc(b.name)}</span><span>${Math.round(b.r)}</span></div>`).join('');
     const mb = view.balls.find(b => b.me);
-    $('dash').style.setProperty('--p', mb ? (100 * (1 - mb.dashCd / Sim.DASH_CD)) + '%' : '0%');
+    const charge = mb ? Sim.dashCharge(mb) : 0;
+    $('dash').style.setProperty('--p', (100 * charge) + '%'); $('dash').classList.toggle('full', charge >= 1);
     if (view.lv.wind) $('windArrow').style.transform = `rotate(${view.windA}rad)`;
     $('wavePill').hidden = $('scorePill').hidden = mode !== 'level';
     if (run) { $('waveNum').textContent = run.wave; $('scoreNum').textContent = run.score; }
@@ -600,12 +602,12 @@
       view = viewOf(L.w, L.me.id);
       if (L.me.alive) follow = L.me;
       else follow = view.balls.slice().sort((a, b) => b.r - a.r)[0] || null;
-      if (now - hudT > 120) { updateHud(view, Math.max(0, L.lv.time - L.w.t)); hudT = now; }
+      if (now - hudT > 120) { updateHud(view, Math.max(0, L.lv.time - L.w.t), L.w.balls.length); hudT = now; }
     } else {
       view = netView();
       updateOnline(view);
       follow = view.balls.find(b => b.me) || view.balls.slice().sort((a, b) => b.r - a.r)[0] || null;
-      if (now - hudT > 120) { updateHud(view, Math.max(0, N.lv.time - (view.T || 0))); hudT = now; }
+      if (now - hudT > 120) { updateHud(view, Math.max(0, N.lv.time - (view.T || 0)), Object.keys(N.names).length); hudT = now; }
     }
     // camera (zooms in during the slow-motion finish)
     let tz, tx = 0, ty = 0;

@@ -278,11 +278,15 @@
 
   function byId(w, id) { for (const b of w.balls) if (b.id === id) return b; return null; }
 
+  // The dash charges up over time and can be used any time: it is as strong as it is charged.
+  function dashCharge(b) { return b.dashCd > 0 ? 1 - b.dashCd / (b.dashMax || DASH_CD) : 1; }
   function dash(w, b) {
-    if (b.dashCd > 0 || !b.alive || b.falling) return;
-    const sp = 520 * Math.pow(START_R / b.r, 0.25);
+    const k = dashCharge(b);
+    if (k < 0.08 || !b.alive || b.falling) return;
+    const sp = 520 * Math.pow(START_R / b.r, 0.25) * k;
     b.vx += Math.cos(b.face) * sp; b.vy += Math.sin(b.face) * sp;
-    b.dashCd = (b.pu === 'boost' ? DASH_CD * 0.45 : DASH_CD) * Math.pow(0.8, b.mods.dash); b.dashT = 0.35;
+    b.dashMax = (b.pu === 'boost' ? DASH_CD * 0.45 : DASH_CD) * Math.pow(0.8, b.mods.dash);
+    b.dashCd = b.dashMax; b.dashT = 0.35 * (0.4 + 0.6 * k); b.dashP = k;
     w.events.push({ e: 'dash', id: b.id, x: b.x, y: b.y });
   }
 
@@ -433,7 +437,8 @@
           const ux = Math.cos(a), uy = Math.sin(a), side = -b.vx * uy + b.vy * ux, k = 1 - Math.exp(-5 * p * dt);
           b.vx += uy * side * k; b.vy -= ux * side * k;
         }
-        if (d) dash(w, b);
+        // bots wait for a full dash; players can dash with whatever is charged
+        if (d && (b.human || b.dashCd === 0)) dash(w, b);
         b.vx += wx * dt; b.vy += wy * dt;
       }
       b.vx *= fr; b.vy *= fr;
@@ -485,7 +490,7 @@
         const rel = (b.vx - a.vx) * nx + (b.vy - a.vy) * ny;
         if (rel >= 0) continue;
         const J = -1.3 * rel / (1 / ma + 1 / mb);
-        const pa = (a.dashT > 0 ? 1.5 : 1) * (a.pu === 'mega' ? 1.8 : 1) * (1 + 0.2 * a.mods.power), pb = (b.dashT > 0 ? 1.5 : 1) * (b.pu === 'mega' ? 1.8 : 1) * (1 + 0.2 * b.mods.power);
+        const pa = (a.dashT > 0 ? 1 + 0.5 * (a.dashP || 1) : 1) * (a.pu === 'mega' ? 1.8 : 1) * (1 + 0.2 * a.mods.power), pb = (b.dashT > 0 ? 1 + 0.5 * (b.dashP || 1) : 1) * (b.pu === 'mega' ? 1.8 : 1) * (1 + 0.2 * b.mods.power);
         a.vx -= J / ma * nx * pb; a.vy -= J / ma * ny * pb;
         b.vx += J / mb * nx * pa; b.vy += J / mb * ny * pa;
         const ka = 35 * pb * Math.min(2, b.r / a.r), kb = 35 * pa * Math.min(2, a.r / b.r);
@@ -570,6 +575,6 @@
     return me.bonks >= need ? 3 : me.bonks >= Math.ceil(need / 2) ? 2 : 1;
   }
 
-  const api = { sinks, TILE, LEVELS, ONLINE, makeWave, PERKS, BOT_NAMES, COLORS, START_R, DASH_CD, PU_TYPES, PU_TIME, blockerPose, createWorld, addBall, fillBots, setupLevel, step, byId, starsFor };
+  const api = { dashCharge, sinks, TILE, LEVELS, ONLINE, makeWave, PERKS, BOT_NAMES, COLORS, START_R, DASH_CD, PU_TYPES, PU_TIME, blockerPose, createWorld, addBall, fillBots, setupLevel, step, byId, starsFor };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Sim = api;
 })(this);
