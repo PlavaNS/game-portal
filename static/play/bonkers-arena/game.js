@@ -269,7 +269,7 @@
   let slowUntil = 0;           // slow motion after a winning knock-out
 
   function newDemo() {
-    const lv = Object.assign({}, Sim.LEVELS[1], { bots: 7, time: 9999 });
+    const lv = Object.assign({}, Sim.LEVELS.find(l => l.name === 'Grid Rush'), { bots: 7, time: 9999 });
     const w = Sim.createWorld(lv); Sim.fillBots(w, 8);
     demo = { w };
   }
@@ -291,7 +291,7 @@
   }
 
   // battle song for each arena look (indexes into the battle playlist)
-  const TRACK_OF = { cyber: [0, 3], frost: [4, 1], synth: [2, 0], inferno: [5, 3], aurora: [1, 4] };
+  const TRACK_OF = { light: [1, 4], sunrise: [4, 2], cyber: [0, 3], frost: [4, 1], synth: [2, 0], inferno: [5, 3], aurora: [1, 4] };
   function nextWave() {
     A.init(); A.startMusic();
     run.wave++;
@@ -625,7 +625,6 @@
     shake *= Math.exp(-8 * dt);
     flash.a *= Math.exp(-7 * dt);
     if (mode !== 'menu' && !paused) idleChatter(view);
-    if (mode === 'menu' && !$('home').hidden) heroBall();
     Art.render(ctx, view, { W, H, DPR, cam, clock, shake, reduce: reduceMotion, parts, texts, windBits, dashCd: Sim.DASH_CD, flash: reduceMotion ? null : flash });
     drawRain(dt);
     requestAnimationFrame(frame);
@@ -660,19 +659,6 @@
   const seasonOn = () => Date.now() < seasonEnds;
   const seasonDays = () => Math.max(0, Math.ceil((seasonEnds - Date.now()) / 864e5));
 
-  function heroBall() {
-    const c = $('heroBall').getContext('2d');
-    c.clearRect(0, 0, 320, 260);
-    const face = Math.sin(clock * .7) * 1.2 + Math.sin(clock * 1.9) * .3;
-    const bob = Math.sin(clock * 2.2) * 6;
-    // floor glow under the orb
-    const s = mySkin(), g = c.createRadialGradient(160, 228, 0, 160, 228, 110);
-    g.addColorStop(0, s.holo ? 'rgba(255,255,255,.35)' : s.c + '66'); g.addColorStop(1, 'rgba(0,0,0,0)');
-    c.fillStyle = g; c.fillRect(0, 150, 320, 110);
-    c.fillStyle = 'rgba(0,0,0,.45)'; c.beginPath(); c.ellipse(160, 226, 62 - bob, 12, 0, 0, Math.PI * 2); c.fill();
-    drawBall(c, 160, 132 + bob, 72, s, { face, expr: 'n', t: clock });
-  }
-
   function renderHome() {
     if (D.refresh(save, onlineAvailable())) store();
     $('nameInput').value = save.name;
@@ -684,8 +670,7 @@
     sub.hidden = !(best && best.score); sub.textContent = sub.hidden ? '' : `Best ${best.score} · wave ${best.wave}`;
     $('seasonChip').hidden = !seasonOn();
     $('seasonChip').textContent = `${SEASON.name} · ${seasonDays()} days left`;
-    $('heroSkin').textContent = skinOf(save.skin).n;
-    refreshCoins(); refreshBadge(); heroBall(); syncToggles();
+    refreshCoins(); refreshBadge(); syncToggles();
   }
 
   function skinButton(s, i) {
@@ -818,7 +803,7 @@
 
   $('playBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); playerName(); startRun(); };
   $('onlineBtn').onclick = () => { A.init(); A.play('click'); playerName(); startOnline(); };
-  $('shopBtn').onclick = $('heroBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); renderShop(); showScreen('shop'); };
+  $('shopBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); renderShop(); showScreen('shop'); };
   $('dailyBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); renderDaily(); showScreen('daily'); };
   $('topBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); openTop(); };
   for (const b of document.querySelectorAll('[data-go="home"]')) b.onclick = () => { A.play('click'); renderHome(); showScreen('home'); };

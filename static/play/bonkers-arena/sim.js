@@ -4,6 +4,8 @@
 
   // Arena features: friction (ice), bumpers, hole (water in the middle), wind, boss.
   const LEVELS = [
+    { id: 15, name: 'Cloud Nine', theme: 'light', bots: 3, skill: 0.25, time: 90, rMax: 380, rMin: 150 },
+    { id: 16, name: 'Sunrise', theme: 'sunrise', bots: 5, skill: 0.45, time: 100, rMax: 480, rMin: 170, bumpers: 3 },
     { id: 1, scene: 'galaxy', name: 'Neon Ring', theme: 'cyber', bots: 3, skill: 0.25, time: 90, rMax: 380, rMin: 150 },
     { id: 2, scene: 'comets', name: 'Grid Rush', theme: 'cyber', bots: 5, skill: 0.35, time: 90, rMax: 440, rMin: 150, blockers: [{ k: 'pillar', x: 0, y: -190, w: 30 }, { k: 'pillar', x: 165, y: 95, w: 30 }, { k: 'pillar', x: -165, y: 95, w: 30 }] },
     { id: 3, scene: 'moon', name: 'Frost Byte', theme: 'frost', bots: 5, skill: 0.4, time: 90, rMax: 440, rMin: 150, friction: 0.45 },
@@ -285,7 +287,7 @@
   }
 
   function accelOf(w, b) {
-    let a = 950 / (1 + (b.r - START_R) / 45);
+    let a = 1400 / (1 + (b.r - START_R) / 45);
     if (b.pu === 'boost') a *= 1.6;
     a *= 1 + 0.15 * b.mods.speed;
     if (w.freezeT > 0 && w.freezeBy !== b.id) a *= 0.45;
@@ -386,7 +388,7 @@
     const lv = w.lv;
     w.t += dt;
     w.R = lv.rMax - (lv.rMax - lv.rMin) * Math.min(1, w.t / lv.time);
-    const fr = Math.exp(-(lv.friction ? 1.6 * lv.friction : 1.6) * dt);
+    const fr = Math.exp(-(lv.friction ? 1.6 * lv.friction : 2.4) * dt);
     if (lv.wind) w.windA += dt * 0.12;
     const wx = lv.wind ? Math.cos(w.windA) * lv.wind : 0, wy = lv.wind ? Math.sin(w.windA) * lv.wind : 0;
     const hole = lv.hole || 0;
@@ -426,6 +428,11 @@
         const acc = accelOf(w, b) * p;
         b.vx += Math.cos(a) * acc * dt; b.vy += Math.sin(a) * acc * dt;
         if (p > 0.05) b.face = a;
+        // grip: when steering, sideways sliding fades fast (not right after a hit, not on ice)
+        if (p > 0.1 && b.dashT <= 0 && w.t - b.hitAt > 0.35 && !lv.friction) {
+          const ux = Math.cos(a), uy = Math.sin(a), side = -b.vx * uy + b.vy * ux, k = 1 - Math.exp(-5 * p * dt);
+          b.vx += uy * side * k; b.vy -= ux * side * k;
+        }
         if (d) dash(w, b);
         b.vx += wx * dt; b.vy += wy * dt;
       }
@@ -483,6 +490,10 @@
         b.vx += J / mb * nx * pa; b.vy += J / mb * ny * pa;
         const ka = 35 * pb * Math.min(2, b.r / a.r), kb = 35 * pa * Math.min(2, a.r / b.r);
         b.vx += nx * kb; b.vy += ny * kb; a.vx -= nx * ka; a.vy -= ny * ka;
+        // the hitter stops at the hit instead of flying on past it
+        const fa = a.vx * nx + a.vy * ny, fb = -(b.vx * nx + b.vy * ny);
+        if (fa > 0) { a.vx -= nx * fa * 0.85; a.vy -= ny * fa * 0.85; a.dashT = 0; }
+        if (fb > 0) { b.vx += nx * fb * 0.85; b.vy += ny * fb * 0.85; b.dashT = 0; }
         a.hitBy = b.id; a.hitAt = w.t; b.hitBy = a.id; b.hitAt = w.t;
         const pow = Math.min(1, -rel / 500 * Math.max(pa, pb));
         if (pow > 0.35) { if (a.dashT <= 0 && a.pu !== 'shield') a.dizzy = 0.5; if (b.dashT <= 0 && b.pu !== 'shield') b.dizzy = 0.5; }
@@ -526,7 +537,8 @@
 
   // ---------- endless mode ----------
   // Wave n uses an arena from LEVELS (first in a fixed order, later at random); every 5th wave brings the Titan.
-  const WAVE_ORDER = [0, 1, 2, 11, 3, 12, 4, 7, 13, 5, 6, 8, 9, 10];
+  // indexes into LEVELS: the white Cloud Nine comes first, the warm light Sunrise later
+  const WAVE_ORDER = [0, 2, 3, 13, 4, 14, 1, 5, 9, 15, 7, 6, 8, 10, 11, 12];
   function makeWave(n) {
     const tpl = n <= WAVE_ORDER.length ? LEVELS[WAVE_ORDER[n - 1]] : LEVELS[(Math.random() * LEVELS.length) | 0];
     const boss = n % 5 === 0;
