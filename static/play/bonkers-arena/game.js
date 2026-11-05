@@ -265,15 +265,10 @@
   let paused = false;          // player opened the pause menu
   let hostPaused = false;      // the portal asked the game to pause (ad, hidden tab)
   let L = null;                // level session
-  let demo = null;             // menu background world
   let N = null;                // online session
   let slowUntil = 0;           // slow motion after a winning knock-out
 
-  function newDemo() {
-    const lv = Object.assign({}, Sim.LEVELS.find(l => l.name === 'Grid Rush'), { bots: 7, time: 9999 });
-    const w = Sim.createWorld(lv); Sim.fillBots(w, 8);
-    demo = { w };
-  }
+
 
   function viewOf(w, meId) {
     for (const b of w.balls) b.me = b.id === meId;
@@ -388,6 +383,7 @@
     if (record) save.best = { score: run.score, wave: run.wave };
     store();
     if (record && run.score > 0) { confettiRain(180); A.play('clear'); A.announce('record', 3); }
+    submitRun(run.score, run.wave).then(r => { if (r && L === sess && !$('result').hidden) $('resNote').textContent += ` · World rank #${r.rank} of ${r.players}`; });
     const canContinue = !run.continued && P.rewardedSupported;
     showResult({
       title: record && run.score > 0 ? 'New record!' : 'Game over', win: record && run.score > 0,
@@ -595,9 +591,11 @@
     A.setSong(mode === 'menu' ? 'menu' : 'battle');
     if (mode === 'menu') {
       A.setIntensity(false);
-      Sim.step(demo.w, dt, {}); demo.w.events.length = 0;
-      if (demo.w.over || demo.w.balls.filter(b => b.alive).length < 3) newDemo();
-      view = viewOf(demo.w, -1);
+      const sp = $('home').hidden ? { top: H * .3, bottom: H * .6 } : document.querySelector('.home-spacer').getBoundingClientRect();
+      Art.menuScene(ctx, { W, H, DPR, clock, reduce: reduceMotion, band: { top: sp.top, bottom: sp.bottom } }, mySkin());
+      drawRain(dt);
+      requestAnimationFrame(frame);
+      return;
     } else if (mode === 'level') {
       if (!paused && !hostPaused) updateLevel(dt);
       view = viewOf(L.w, L.me.id);
@@ -669,8 +667,6 @@
     if (D.refresh(save, onlineAvailable())) store();
     $('nameInput').value = save.name;
     $('onlineBtn').hidden = !onlineAvailable();
-    $('topBtn').hidden = !onlineAvailable();
-    document.querySelector('.home-dock').dataset.count = onlineAvailable() ? 3 : 2;
     const best = save.best;
     const sub = $('playBtn').querySelector('.pb-sub');
     sub.hidden = !(best && best.score); sub.textContent = sub.hidden ? '' : `Best ${best.score} · wave ${best.wave}`;
@@ -771,31 +767,45 @@
     if (earned) claimStreak(2);
   };
 
-  let topData = null, topTab = 'day';
+  // ---------- world leaderboard: best endless runs from every player (database shared with our other games) ----------
+  const LB_URL = 'https://pxjlcbjwdalctlyeljql.supabase.co', LB_KEY = 'sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k';
+  async function lbCall(fn, body) {
+    const r = await fetch(`${LB_URL}/rest/v1/rpc/${fn}`, { method: 'POST', headers: { apikey: LB_KEY, 'Content-Type': 'application/json' }, body: JSON.stringify(body) });
+    if (!r.ok) throw new Error(`${fn} failed: ${r.status} ${await r.text()}`);
+    return r.json();
+  }
+  function hexId() { const a = new Uint8Array(16); crypto.getRandomValues(a); return Array.from(a, b => b.toString(16).padStart(2, '0')).join(''); }
+  function lbIds() { if (!save.lbPid) { save.lbPid = hexId(); save.lbSecret = hexId(); store(); } }
+  function country() { const r = (navigator.language || '').split('-')[1]; return r && /^[A-Za-z]{2}$/.test(r) ? r.toUpperCase() : null; }
+  async function submitRun(score, wave) {
+    if (score <= 0) return null;
+    lbIds();
+    const name = (save.name || 'Player').slice(0, 16).padEnd(2, '_');
+    try { return await lbCall('ba_submit', { p_pid: save.lbPid, p_secret: save.lbSecret, p_name: name, p_cc: country(), p_score: score, p_wave: wave }); }
+    catch (e) { console.error('World leaderboard submit failed:', e); return null; }
+  }
+
+  let topData = null, topTab = 'day', topErr = false;
   function renderTop() {
     $('tabDay').classList.toggle('on', topTab === 'day'); $('tabDay').setAttribute('aria-selected', topTab === 'day');
-    $('tabWeek').classList.toggle('on', topTab === 'week'); $('tabWeek').setAttribute('aria-selected', topTab === 'week');
+    $('tabWeek').classList.toggle('on', topTab === 'all'); $('tabWeek').setAttribute('aria-selected', topTab === 'all');
     const list = $('topList');
-    if (!topData) { list.innerHTML = '<li class="empty">Loading…</li>'; return; }
+    if (topErr) { list.innerHTML = '<li class="empty">The world leaderboard is not reachable right now.</li>'; return; }
+    if (!topData || !topData[topTab]) { list.innerHTML = '<li class="empty">Loading…</li>'; return; }
     const rows = topData[topTab];
     list.innerHTML = rows.length
-      ? rows.map(([name, pts], i) => `<li class="${name === save.name ? 'me' : ''}"><span class="rank">${i + 1}</span><span class="nm">${esc(name)}</span><b>${pts}</b></li>`).join('')
-      : '<li class="empty">No one has scored yet. Play an online round and take first place!</li>';
+      ? rows.map(r => `<li class="${r.me ? 'me' : ''}"><span class="rank">${r.pos}</span><span class="nm">${esc(r.name)}${r.cc ? ` <small>${esc(r.cc)}</small>` : ''}</span><span class="wv">W${r.wave}</span><b>${r.score}</b></li>`).join('')
+      : '<li class="empty">No scores yet today. Play and take first place!</li>';
   }
-  async function openTop() {
-    topData = null; renderTop(); showScreen('top');
-    try {
-      const r = await fetch(API + '/api/top');
-      if (!r.ok) throw new Error('HTTP ' + r.status);
-      topData = await r.json();
-    } catch (e) {
-      console.error('Leaderboard failed:', e);
-      $('topList').innerHTML = '<li class="empty">Could not load the leaderboard right now.</li>'; return;
-    }
+  async function loadTop(period) {
+    lbIds();
+    try { topData[period] = await lbCall('ba_top', { p_period: period, p_limit: 50, p_pid: save.lbPid }); topErr = false; }
+    catch (e) { console.error('World leaderboard failed:', e); topErr = true; }
     renderTop();
   }
-  $('tabDay').onclick = () => { topTab = 'day'; renderTop(); };
-  $('tabWeek').onclick = () => { topTab = 'week'; renderTop(); };
+  function openTop() { topData = {}; topErr = false; renderTop(); showScreen('top'); loadTop(topTab); }
+  $('tabDay').onclick = () => { topTab = 'day'; renderTop(); if (!topData[topTab]) loadTop(topTab); };
+  $('tabWeek').onclick = () => { topTab = 'all'; renderTop(); if (!topData[topTab]) loadTop(topTab); };
 
   function syncToggles() {
     for (const id of ['sfxBtn', 'sfxBtn2']) $(id).setAttribute('aria-pressed', save.sfx);
@@ -835,7 +845,6 @@
     P.onAudio(on => A.setHostMute(!on));
     P.onPause(p => { hostPaused = p; A.setHostMute(p || !P.audioAllowed); });
     store();
-    newDemo();
     renderHome();
     showScreen('home');
     requestAnimationFrame(t => { frame(t); P.gameReady(); });

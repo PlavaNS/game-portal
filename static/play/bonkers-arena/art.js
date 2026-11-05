@@ -857,5 +857,77 @@
     }
   }
 
-  root.Art = { TIERS, SKINS, BOSS, SEASON, THEMES, PELLET_COLORS, PU_COLORS, skinOf, skinFor, drawBall, drawPuIcon, render, happy, starPath };
+  // ---------- main menu: a living version of the cover ----------
+  // Two big orbs wind up, charge at each other, clash in a burst of light and bounce apart, over and over.
+  // The left orb is the player's own ball; the right one shows off a different ball type every round.
+  const menuParts = [];
+  let menuRound = -1, menuRival = 0;
+  const RIVALS = [{ kind: 'classic', c: '#ff4fa8' }, 3, 4, 11, 2, 8, 9, 10, 12];
+  function menuScene(ctx, env, mine) {
+    const { W, H, clock } = env, T = 3.4, round = Math.floor(clock / T), ph = (clock % T) / T * T;
+    if (round !== menuRound) { menuRound = round; menuRival = (menuRival + 1) % RIVALS.length; }
+    const rv = RIVALS[menuRival], rival = typeof rv === 'number' ? SKINS[rv] : Object.assign({}, SKINS[0], rv);
+    // background: the arena seen low and close, space behind it, slowly drifting
+    const lv = { theme: 'synth', scene: 'planet', rMax: 900, rMin: 400, time: 100 };
+    const view = { lv, R: 900, t: 1, balls: [], pellets: MENU_PELLETS, bumpers: [], powerups: [], windA: 0 };
+    render(ctx, view, { W, H, DPR: env.DPR, cam: { x: Math.sin(clock * .1) * 60, y: 520 + Math.cos(clock * .13) * 30, z: Math.min(W, H) / 700 }, clock, shake: 0, reduce: true, parts: [], texts: [], windBits: [], dashCd: 2.2, flash: null });
+    ctx.setTransform(env.DPR, 0, 0, env.DPR, 0, 0);
+    const vg = ctx.createRadialGradient(W / 2, H * .5, Math.min(W, H) * .2, W / 2, H * .5, Math.max(W, H) * .75);
+    vg.addColorStop(0, 'rgba(4,2,14,0)'); vg.addColorStop(1, 'rgba(4,2,14,.7)'); ctx.fillStyle = vg; ctx.fillRect(0, 0, W, H);
+    // timing: wind up (0-0.7), charge (0.7-1.25), clash, bounce apart (1.25-2), hover (2-3.4)
+    // the orbs live in the empty band between the title and the buttons (env.band: top and bottom in px)
+    const band = env.band, R = Math.min((band.bottom - band.top) * .36, W * .15, 120), cx = W / 2, cy = (band.top + band.bottom) / 2;
+    const far = Math.min(W * .36, R * 4.2), near = R, back = R * 2.2;
+    let d, impact = 0;
+    const ease = x => x * x * x, out = x => 1 - Math.pow(1 - x, 3);
+    if (ph < .7) d = back + (far - back) * out(ph / .7);
+    else if (ph < 1.25) d = far + (near - far) * ease((ph - .7) / .55);
+    else if (ph < 2) { d = near + (back - near) * out((ph - 1.25) / .75); impact = 1 - (ph - 1.25) / .75; }
+    else d = back + Math.sin((ph - 2) * 3) * R * .06;
+    const charging = ph >= .7 && ph < 1.25, sp = charging ? ease((ph - .7) / .55) : 0;
+    const shake = impact > .6 && !env.reduce ? (impact - .6) * 22 : 0, sx = (Math.random() - .5) * shake, sy = (Math.random() - .5) * shake;
+    const bob = Math.sin(clock * 2.2) * R * .05;
+    ctx.save(); ctx.translate(sx, sy);
+    const orbs = [{ x: cx - d, s: mine, dir: 1 }, { x: cx + d, s: rival, dir: -1 }];
+    // speed streaks while charging
+    if (sp > .05) {
+      ctx.save(); ctx.globalCompositeOperation = 'lighter';
+      for (const o of orbs) for (let i = 0; i < 18; i++) {
+        const y = cy + bob + ((i * 37 % 19) / 19 * 2 - 1) * R * .95, len = R * (1 + (i * 13 % 7) * .45) * sp, x0 = o.x - o.dir * R * .3;
+        const g = ctx.createLinearGradient(x0, 0, x0 - o.dir * len, 0); g.addColorStop(0, hexA(o.s.c, .6 * sp)); g.addColorStop(1, hexA(o.s.c, 0));
+        ctx.strokeStyle = g; ctx.lineWidth = 1.5 + (i % 3); ctx.lineCap = 'round'; ctx.beginPath(); ctx.moveTo(x0, y); ctx.lineTo(x0 - o.dir * len, y); ctx.stroke();
+      }
+      ctx.restore();
+      for (const o of orbs) for (let i = 3; i >= 1; i--) drawBall(ctx, o.x - o.dir * R * .5 * i * sp, cy + bob, R * (1 - i * .04), o.s, { face: o.dir > 0 ? 0 : Math.PI, t: clock, alpha: (.3 - i * .07) * sp, glow: false, rim: false });
+    }
+    for (const o of orbs) {
+      ellipse(ctx, o.x + 5, cy + R * .9, R * .85, R * .2, 0, 'rgba(0,0,0,.45)');
+      drawBall(ctx, o.x, cy + bob, R, o.s, { face: o.dir > 0 ? 0 : Math.PI, t: clock, glow: false, rim: false });
+    }
+    // the clash
+    if (ph >= 1.25 && ph < 1.27 + 1 / 60 && !menuParts.burst) {
+      menuParts.burst = round;
+      for (let i = 0; i < 46; i++) { const a = Math.random() * TAU, s = R * (2 + Math.random() * 6); menuParts.push({ x: cx, y: cy + bob, vx: Math.cos(a) * s, vy: Math.sin(a) * s * .8, life: .5 + Math.random() * .4, max: .9, c: [mine.c, rival.c, '#ffffff', '#ffcc3d'][i % 4] }); }
+    }
+    if (ph < 1.25) menuParts.burst = 0;
+    if (impact > 0) {
+      ctx.save(); ctx.globalCompositeOperation = 'lighter';
+      const k = impact, fl = ctx.createRadialGradient(cx, cy, 0, cx, cy, R * 2.4);
+      fl.addColorStop(0, `rgba(255,255,255,${.9 * k})`); fl.addColorStop(.25, `rgba(255,230,180,${.45 * k})`); fl.addColorStop(1, 'rgba(255,204,61,0)');
+      ctx.fillStyle = fl; ctx.fillRect(cx - R * 2.4, cy - R * 2.4, R * 4.8, R * 4.8);
+      ctx.strokeStyle = `rgba(255,255,255,${.8 * k})`; ctx.lineWidth = 3 + 6 * k; ctx.beginPath(); ctx.arc(cx, cy, R * (2.8 - 2 * k), 0, TAU); ctx.stroke();
+      ctx.restore();
+    }
+    ctx.save(); ctx.globalCompositeOperation = 'lighter';
+    for (let i = menuParts.length - 1; i >= 0; i--) {
+      const p = menuParts[i]; p.life -= 1 / 60; p.x += p.vx / 60; p.y += p.vy / 60; p.vx *= .94; p.vy *= .94;
+      if (p.life <= 0) { menuParts.splice(i, 1); continue; }
+      ctx.globalAlpha = Math.min(1, p.life / p.max * 1.5); ctx.strokeStyle = p.c; ctx.lineWidth = 2.5; ctx.lineCap = 'round';
+      ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(p.x - p.vx * .05, p.y - p.vy * .05); ctx.stroke();
+    }
+    ctx.restore(); ctx.restore();
+  }
+  const MENU_PELLETS = Array.from({ length: 50 }, (_, i) => ({ x: Math.cos(i * 2.4) * (80 + i * 12), y: Math.sin(i * 2.4) * (60 + i * 9) + 400, k: i % 4 }));
+
+  root.Art = { menuScene, TIERS, SKINS, BOSS, SEASON, THEMES, PELLET_COLORS, PU_COLORS, skinOf, skinFor, drawBall, drawPuIcon, render, happy, starPath };
 })(this);
