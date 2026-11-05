@@ -75,6 +75,7 @@
 3d-formula-racing-pro-edition
 3d-fps-target-shooting
 3d-halloween-jigsaw
+3d-jigsaw-puzzle
 3d-kid-sliding-puzzle
 3d-laane-runner
 3d-maze-control
@@ -279,6 +280,7 @@ animals-vs-zombies
 anime-avatar-maker-anime-doll
 anime-couple-dress-up
 anime-dress-up-doll-dress-up
+anime-fashion-world-met-gala-magic
 anime-girl-fashion-make-up
 anime-girl-high-school-simulator
 anime-idol-academy
@@ -1181,6 +1183,7 @@ call-of-ops-3-zombies
 call-of-tanks
 camel-destroyer
 camp-arrange
+can-you-catch
 candle-run-game
 candlebound-coven
 candy-ball-blast
@@ -1594,6 +1597,7 @@ cocktail-run
 cocoon-crossing
 cod-duty-call-fps
 code-breaker-deluxe
+code-runner-binary-confusion
 coffe-merge-house
 coffee-business-tycoon-game
 coffee-color-blocks
@@ -1635,6 +1639,7 @@ color-connect-master
 color-cube-puzzle
 color-dash-chameleon-runner
 color-dash-match-the-color
+color-dodge
 color-dots-challenge
 color-fall
 color-hole
@@ -1669,6 +1674,7 @@ color-the-room
 color-tower-2-drop-the-boxes-3d
 color-water-sort-3d
 color-wood-animal-jam
+color-yarn-sort
 colorblockjam
 colordock
 colored-water-and-pin
@@ -1942,6 +1948,7 @@ cup-quest
 cuphead-rush
 curve-free-kick
 curve-master-football
+curvy-punch-2
 cut-art-master
 cut-cut-game
 cut-grass-for-brainrots
@@ -2267,6 +2274,7 @@ draw-bridge-puzzle-challenge
 draw-couple
 draw-cute-animals
 draw-dance-battle
+draw-deadly-descent
 draw-dot-picture-game
 draw-flag-asmr-painting-games
 draw-half-game
@@ -2366,6 +2374,7 @@ drop-dunks
 drop-merge-fruit-characters
 dta-6
 dual-control-racing-stunt-3d
+dualight-a-reflected-game
 duck-dash-pro
 duck-drive-truck-race
 duck-family-simulator-animal-games
@@ -3136,6 +3145,7 @@ geometry-vibes-3d
 geometry-vibes-monster
 geometry-vibes-x-arrow
 geometry-vibes-x-ball
+geometry-waves
 geometryrush
 geosmarty
 geovex-daily-geography-challenge
@@ -3793,6 +3803,7 @@ interceptor-police-pursuit
 intercity-bus-driver-3d
 intergalactic-battleship
 iron-defense
+iron-legion
 iron-legion-0-28
 iron-man-repulsor-rush
 iron-pink
@@ -3960,9 +3971,11 @@ kids-good-habits
 kids-kitchen-cozy-cooking
 kids-mahjong-connect
 kids-math-easy
+kids-supermarket
 kids-transport
 kidz-coloring-book
 kigali-drift-king
+kiki-world
 kiki-world-kawaii-doll-decor
 killer-assassin
 killer-io
@@ -4093,6 +4106,7 @@ latto-latto
 launch-jack
 launch-the-dummy
 lazy-orcs
+lazzy-birds
 leaf-blower-autumn-yard
 leaf-blower-tycoon
 leaf-blower-yards
@@ -4947,6 +4961,7 @@ new-mahjong-2026
 new-year-puzzles
 new-years-eve-makeup
 newbie-s-escape-from-blogger-prison
+newborn-baby-care
 nexrun
 nextboot-horror-online
 nextbot-can-you-escape
@@ -5249,6 +5264,7 @@ only-up-parkour-2
 open-city-suv-car-stunts
 open-rings
 open-to-offers
+openworld-racing
 opps
 optical-illusion
 orbadrone-robot-escape
@@ -5322,6 +5338,7 @@ parent-run-game
 park-draw-game
 park-sort
 park-the-cars
+park-them-all
 park-tycoon
 parking
 parking-bike-3d-game
@@ -5498,12 +5515,14 @@ pixel-hero-survivor
 pixel-jam-bus-puzzle
 pixel-legyfare-wars
 pixel-paint-sort
+pixel-paintball-wars
 pixel-protocol
 pixel-shooter-puzzle
 pixel-smash-ball
 pixel-snake
 pixel-tower
 pixel-wings
+pixel-zombie-survival-2025
 pixelblock
 pixelparkour
 pixzombies
@@ -5681,6 +5700,7 @@ prison-escape-puzzle-master
 prison-master-escape-journey
 prison-survive-break-escape
 prison-twins
+prisoner-bob
 prisoners-run
 pro-builder-3d
 pro-football-eleven-2027
@@ -5814,6 +5834,7 @@ ragdoll-swordsman
 ragdoll-teleport-arena
 rage-maze-master
 rage-road-online
+rage-swarm
 rageroll-io
 railroad-magnate
 railway-traffic-jam-untangle-the-trains
@@ -6245,6 +6266,7 @@ scientist-and-robot
 sciwhy
 sciwhy-easy
 scoop-empire
+scooter-touchgrind-tricks-3d
 scp-173-foundation-escape
 scrap-arms-neo
 scrap-brawl
@@ -6275,6 +6297,7 @@ seaweed-aqua
 secret-parkour
 secret-reef-merge
 sector-nine-lockdown
+seedfall-defend-the-last-tree
 sell-lemons-idle
 serial-cheaters
 serpento
@@ -6373,6 +6396,7 @@ simple-merge
 simple-words
 simulator-gt-motorsport
 single-dad-simulator-family-life
+single-line-drawing-puzzle
 sink-hole
 sink-or-float
 sins-and-desires
@@ -6814,6 +6838,7 @@ squid-survival-run-challenge
 squidgame-io
 squidly-game-123-stop
 squirel-steps
+squirrels-draw-your-level
 squishy-clicker
 squishy-sheep
 stack-colors
@@ -7102,6 +7127,7 @@ super-car-soccer-arena
 super-car-wash-3d
 super-chains
 super-chop-forest-hero
+super-clicked
 super-count-masters
 super-cute-cat
 super-doctor-body-examination
@@ -7669,6 +7695,7 @@ tung-tung-sahur-funny-face
 tung-tung-sahur-hidden-bedug
 tung-tung-sahur-lol-face
 tung-tung-super-sahur
+tung-tung-tung-tung-sahur
 tunnel-drift
 tunnel-escape
 tunnel-heist
@@ -7912,6 +7939,7 @@ web-swing-obby-aqualand
 wedding-artist2
 wedding-beauty-makeup-salon-indian-designer
 wedding-rush-race
+wednesday-dark-academia
 wednesday-halloween-cave
 wednesday-light-academia
 wednesday-s-battle-monster-symphony
@@ -7920,6 +7948,7 @@ weight-balance-journey
 weight-puzzle-3d
 weird-pet-shop
 western-fight
+whack-a-bug
 whack-a-mole-pixel-version
 whats-in-my-bag
 whats-that-picture-3d
@@ -8020,6 +8049,7 @@ word-mosaic
 word-online-hunt
 word-puzzle-connect-words-and-letters
 word-puzzle-master-game
+word-puzzle-travel
 word-runner-game
 word-safari
 word-search-2025
