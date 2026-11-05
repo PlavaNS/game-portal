@@ -285,6 +285,7 @@
 
   // ---------- endless run: waves until you fall ----------
   let run = null, koStreak = 0;
+  const PRAISE = ['great', 'awesome', 'amazing', 'perfect', 'wow', 'champ', 'super'];
 
   function startRun() {
     run = { wave: 0, score: 0, kos: 0, coins: 0, mods: {}, continued: false };
@@ -342,7 +343,7 @@
       L.shown = true;
       slowUntil = clock + 1.6;
       celebrate(L.me.x, L.me.y, 140);
-      A.play('clear'); quest('win', 1); A.voice('yay', pitchOf(L.me), 1); A.announce('cleared', 3);
+      A.play('clear'); quest('win', 1); A.voice('yay', pitchOf(L.me), 1); A.announce(PRAISE[(Math.random() * PRAISE.length) | 0], 3);
       const bonus = 100 + run.wave * 20;
       run.score += bonus; floatText(L.me.x, L.me.y - L.me.r - 30, `+${bonus}`, '#7dff9b', 30);
       const coins = 10 + run.wave * 2; run.coins += coins; save.coins += coins; store(); refreshCoins();
