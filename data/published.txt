@@ -262,6 +262,7 @@ animal-care-tycoon
 animal-clinic-anomaly
 animal-daycare-game
 animal-evolution-simulator
+animal-explorer-puzzle-game
 animal-finding
 animal-hair-salon
 animal-helicopter-rescue-game
@@ -734,6 +735,7 @@ bird-patrol
 bird-quest-adventure-flappy
 bird-sort-puzzles
 bird-tile-trio
+birddown
 birdflying
 birds-jump-2
 birds-sort-color-match-puzzle
@@ -741,6 +743,7 @@ birdy-mad-throw
 birdy-trip
 biryani-cooking-indian-super-chef-food-game
 bitbanda
+bitcoin-crypto-tycoon
 bitcoin-io
 black-and-pink
 black-and-white-2
@@ -914,6 +917,7 @@ boom-duello
 boom-stick-bazooka-2-puzzles
 boombitz-bomb-chips
 boomix
+boomrocket
 boomstone
 bootiful-princess-match
 border-battleground
@@ -1610,6 +1614,7 @@ classic-falling-ball-game
 classic-match3
 classic-number-puzzle
 classic-solitaire-master
+classify
 clawler-fight
 clay-craft-tycoon
 clean-kitty
@@ -1666,6 +1671,7 @@ coinbound-voodoo-nightmare
 coins-rush-run
 coinzap
 cold-iron-last-extraction
+collect-and-break
 collect-brainrots-on-a-skateboard-online
 collect-leaves-faster-than-anyone
 collect-million-coins
@@ -1780,6 +1786,7 @@ contra-jungle-breach
 contrast
 contrast-kids
 cook-baked-dishes-and-desserts
+cook-it-3d
 cook-soups-3-in-a-bowl
 cookie-maker-for-kids
 cookie-party-pop
@@ -3303,6 +3310,7 @@ glim-and-glo
 glimmer
 global-football-manager-2026-2027
 gloom-gargoyle
+glorious-kingdom
 glossy-garage-car-asmr
 glow-halloween-nails-game
 glow-halloween-nails-polish-and-color
@@ -3859,12 +3867,14 @@ ice-man-3d
 ice-pet-match
 ice-scream-horror-adventure
 ice-slide
+icicle-run
 icing-on-doll-cake-creative-bakery
 iconic-halloween-costumes
 icy-purple-head-2
 icymatch
 idle-airport-tycoon
 idle-bank
+idle-bathroom-empire-tycoon
 idle-cave-story
 idle-chicken-farm
 idle-chop-miner
@@ -3911,6 +3921,7 @@ impossible-car-stunt-game
 impossible-car-stunt-mega-ramp-3d
 impossible-car-stunt-tracks
 impossible-cargo-track
+impossible-cargo-truck-driver-2025
 impossible-jeep-driver
 impossible-parkour-3d
 impossible-tic-tac-toe
@@ -4318,6 +4329,7 @@ little-bugs
 little-cat-doctor-2026
 little-city-merge
 little-cute-summer-fairies-puzzle
+little-dentist-for-kid
 little-dentist-for-kids-3
 little-hero-knight
 little-lily-halloween-prep
@@ -4349,6 +4361,7 @@ long-hair-rush-challenge
 long-nails
 long-neck
 long-neck-runner-game
+long-trailer-truck-transport-sim
 longdog
 looper-fruit-hit
 loopix
@@ -4360,6 +4373,7 @@ lorin-adventure
 lost-adventure
 lost-adventure-new
 lost-bus
+lost-puppy-rescue-and-care
 lost-things
 love-archer-hero
 love-sheep
@@ -4393,6 +4407,7 @@ machine-eater
 macho-man-go
 mackup-runner-game
 mad-car-arena
+mad-car-drive-future-racing
 mad-city-matrix
 mad-day-2-special
 mad-day-special
@@ -4478,6 +4493,7 @@ makeup-run-challenge
 makeup-stories-asmr-beauty
 makeup-studio-halloween
 malatang-master-stack-run-3d
+mallow-pop
 man-runner-2048
 mandala-coloring-book
 mandala-meadow
@@ -5049,6 +5065,7 @@ my-kitties-catworld
 my-little-farm
 my-little-kingdom
 my-little-park-3d
+my-memory-boost
 my-mini-mart-3d
 my-new-poodle-friend
 my-parking-lot
@@ -5057,6 +5074,7 @@ my-perfect-hotel-html5
 my-pet-care-salon-obby-dress-up-3d
 my-phone-store
 my-puppy-daycare-salon
+my-purrfect-cat-hotel
 my-resale-cases-and-sales
 my-restaurant
 my-school-life-adventure
@@ -5495,6 +5513,7 @@ paint-tiles-puzzle
 paint-with-diamonds
 paintball-gun-pixel-3d
 paintwars-shoot
+pair-up-shapes
 pairscape
 paletto
 palkovil-the-way-home
@@ -5686,6 +5705,7 @@ pipe-out-game
 pirate-block-craft-monster-shooter
 pirate-cannon-a-mega-battle
 pirate-dodge
+pirate-treasure-island
 pirates-merge-war-path
 pirates-tiles-challenge
 pistonio
@@ -5824,6 +5844,7 @@ pop-puzzle
 pop-sweet-fruits
 pop-tap
 pop-the-ball
+pop-the-balloons
 pop-the-balloons-bounce
 pop-the-band
 pop-the-bubbles-relaxing
@@ -6380,6 +6401,7 @@ safarirun
 safe-box-crack
 safety-sheriff-labrador
 saguaro
+sailor-chic-vs-pirate-charm
 same-and-different-donut
 same-room-same-day
 samurai-brawling
@@ -6579,6 +6601,7 @@ sheep-sort
 sheepdoku
 sheeps-herd-them-all
 shell-strikers-1
+shell-swap-pro
 shifted-realms
 shikaku-puzzle
 shinobi-swarm
@@ -7084,6 +7107,7 @@ squirrels-draw-your-level
 squishmallow-coloring-book
 squishy-clicker
 squishy-sheep
+squishy-slime-maker
 stack-colors
 stack-master
 stack-maze-challenge
@@ -7152,6 +7176,7 @@ stellar-guardian
 stellar-pulse
 stellar-shot-gravity-puzzle
 stellar-style-spectacle-fashion
+stephigh
 stick-archer-champion
 stick-army
 stick-box-ragdoll-slowmo
@@ -7346,6 +7371,7 @@ sugar-smash
 suger-rush
 suika-game-2
 sum-sum
+summer-beach-girlz
 summer-fashion-makeover
 summer-juice-run
 summer-punch-party
@@ -7824,6 +7850,7 @@ tom-and-angela-insta-fashion
 tom-jigsaw-puzzle
 tom-runner
 tomato-bounce
+tomb-escaper
 tomb-of-the-dash-game
 tomb-of-the-mask-color-maze
 toolbox-sort
@@ -7979,6 +8006,7 @@ tuk-tuk-auto-rikshaw
 tumble-boat
 tumble-tower-survival
 tung-sahur-bots-chase-room
+tung-sahur-coloring
 tung-sahur-io
 tung-tung-sahur-funny-face
 tung-tung-sahur-hidden-bedug
@@ -8063,6 +8091,7 @@ unity-mini-games-hub-relax
 universal-multiplayer-shooter
 unno-game
 uno-online
+uno-party-card
 unravel
 unravel-eggs-puzzle
 unreal-descent-2-race
@@ -8202,6 +8231,7 @@ wasteland-hunter-puzzle-rpg
 water-ball-sorting-puzzle
 water-city-racers
 water-me-please
+water-pour-jam
 water-race-game
 water-sort-brain-puzzle
 water-sort-legend
