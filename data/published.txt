@@ -5,6 +5,7 @@
 1-pickaxe-break-blocks-3d
 1-pickaxe-hit-break-blocks
 1-skipping-stone-throw
+1-smash-monsters-evolution
 1-speed-escape-prison
 1-speed-escape-school
 1-speed-keyboard-escape-halloween-update
@@ -51,6 +52,7 @@
 2048-premium
 2048-rush-multiplayer
 2048-shoot-merge-number-3d
+2048-space-mission
 2048-x2-legends
 2048-x2-merge-blocks
 21-rush-ultimate-card-game
@@ -78,9 +80,11 @@
 3d-mini-curling
 3d-police-car-parking
 3d-pool-mania
+3d-puzzle
 3d-pyramid-maze
 3d-sniper-shooting-game
 3d-super-rolling-ball-race
+3d-tower-defense
 3d-triple-match
 4-clues-1-word
 4-color-card-game
@@ -403,6 +407,7 @@ asmr-cat-doctor-clinic
 asmr-fun-relaxing-games
 asmr-image-match-puzzle
 asmr-keyboard-escape-classic
+asmr-makeover-and-makeup-studio
 asmr-mini-puzzle-games-2024
 asmr-obby-slicer
 asmr-pet-treatment
@@ -520,6 +525,7 @@ ballerina-cappuccina-loves-tung-tung-sahur
 ballon-race-3d
 balloon-buddies-flat-edition
 balloon-escape
+balloon-heroes-run-and-rise
 balloon-pop-addition-3d-game
 balloon-pop-master
 balloon-pop-pop-and-blast
@@ -550,6 +556,7 @@ barrel-roller-stack-and-run-3d
 barry-prison-parkour-escape
 baseball-for-clowns
 basement
+basic-physics-single-choice
 basket-ball-for-two-player
 basket-battle
 basket-champs
@@ -679,6 +686,7 @@ bike-stunts-2024
 biking-extreme-3d
 bikkings-brothers-to-valhalla
 billiard-challenge
+billiard-diamond-challenge
 billiard-hustlers
 billiards-3d-russian-pyramid
 billionaire-lumber-empire-idle-tycoon
@@ -1739,12 +1747,15 @@ cow-jam-farm-puzzle
 cow-rescue
 cowboy-dash-game
 cowboy-runners-dash
+cowboy-shooter
 cowboy-shooter-2
 cowboy-survival-zombie
 cowboys-duel
 cozy-coloring
+cozy-craft-co
 cozy-idle-village
 cozy-jigsaw-puzzles
+cozy-kitchen-merge
 cozy-pizzeria
 cozy-puzzles
 cozy-sort-theme-collect
@@ -1930,6 +1941,7 @@ cute-pony-puzzle-quest
 cute-princess-dress-up
 cute-shapes
 cute-tiles-mahjong
+cutepanckake
 cutter-woodsman-game
 cyber-arrows-brain-puzzle-game
 cyber-city-driver
@@ -2151,6 +2163,7 @@ dont-be-angry-with-match-man
 dont-break-my-heart
 dont-get-crashed-by-67
 dont-panic-dude
+dont-tease-me
 dontmove
 donut-art-puzzle-diamond-game
 donut-ready-business-tycoon-game
@@ -2420,6 +2433,7 @@ emoji-solitaire
 emotional-support-duck
 empire-estate-pro
 empire-tower-defense-zombie-fortress
+enchanted-mahjong-saga
 endless-ball-ride-game
 endless-car-chase
 endless-car-race-game
@@ -2805,6 +2819,7 @@ food-run-and-battle
 food-sort-3d
 food-tower-defense
 foodhead-fighters
+foodies-2048
 foot-bomb
 foot-chinko
 foot-doctor-hospital-game
@@ -2881,6 +2896,7 @@ friday-night-funkin-pixelcrate
 friday-night-funkin-vs-garcello
 friends-pug
 fristailo-granny
+frog-adventure
 frog-byte
 frog-leap-3d
 froggy-hop
@@ -2917,6 +2933,7 @@ fruit-madness
 fruit-mahjong
 fruit-match-3-championship
 fruit-match-juicy-puzzle-2
+fruit-merge-2048-juicy-puzzle
 fruit-merge-arena
 fruit-merge-juice-jumble
 fruit-merge-mania
@@ -3451,6 +3468,7 @@ hexa-tiles-puzzle-game
 hexa-two
 hexa-village-sort-and-match
 hexa-word
+hexamatch
 hexasort
 hexfall-io
 hexholm
@@ -3742,6 +3760,7 @@ it-lurks
 jack-o-gunner
 jade-toss-arrow-challenge
 jail-drop-3d
+jam-escape
 javelin-battle
 jeep-drive-prisoner-transport-sim
 jelly-block-puzzle
@@ -3766,6 +3785,7 @@ jelly-run-in-2048
 jelly-runner-platform
 jelly-sandbox-playground
 jelly-shift-shape-control
+jellymerge
 jennifer-dress-up-challenge
 jenny-s-math-puzzle
 jetflash-skyport-trials
@@ -4089,6 +4109,7 @@ little-cute-summer-fairies-puzzle
 little-dentist-for-kids-3
 little-lily-halloween-prep
 little-monster-shop
+little-princess-dress-up
 little-pumpkin-online-game
 little-rodeo-fun
 live-eating-simulator
@@ -4317,6 +4338,7 @@ math-trivia
 mathematic-for-kids
 mathematics-frenzy
 mathmates-3d-brain-quest
+maths-for-standard-ii
 maths-puzzle
 maths-quiz-with-negative-numbers
 mathtaless
@@ -4729,6 +4751,7 @@ mud-trails-4x4-jeep-game
 mud-truck-driving
 mud-truck-simulator-game
 multi-surgery-hospital-games
+multiplication-master
 mummy-candy
 mummy-land
 munch-mob
@@ -4796,6 +4819,7 @@ my-town-home-family-playhouse
 my-unicorn-cat-princess-caring
 mycothreememo
 mydream-universe
+mysterious-elevator
 mystery-digger
 mystery-dumpling-squishy-slime
 mystery-of-the-old-house-hidden-objects
@@ -5334,6 +5358,8 @@ phone-case-diy
 phone-case-diy-2
 phone-case-diy-kpop-fans
 physics-box-2
+physics-electro-magnetism-quiz
+physics-heat-temperatuie-quiz
 physics-optics-quiz
 physics-sandbox
 physics-semiconductos-quiz
@@ -5341,6 +5367,7 @@ piano-hexa-fall
 piano-kids-music-and-songs
 piano-kids-music-songs
 piano-master
+pic-pie-wonders
 pickaxe-crusher-idle
 pickle-ball-clash
 picky-parking
@@ -5359,6 +5386,7 @@ pill-soccer
 pilot-life-flight-game-3d
 pim-path
 pimple-treatment-makeover-salon
+pin-away-puzzle-tap-it-out
 pin-out-rescue-game
 pin-puzzle-love-story
 pin-puzzle-save-the-sheep
@@ -5922,6 +5950,7 @@ robots-world-battle
 robotu-rebellion
 rock-paper-scissors-adventure
 rock-slide
+rocket-adventure
 rocket-bloom
 rocket-car-chase-game
 rocket-car-football-championship
@@ -6533,6 +6562,7 @@ solitaire-world
 solo-quiz-ing
 solve-or-suffer
 solve-the-maze
+something-below-the-sea-hard-version
 somewhere
 sonik-run
 sorcerers-refuge
@@ -7324,6 +7354,7 @@ tic-tac-toe-html5
 tic-tac-toe-mania
 tic-tac-toe-match-three
 tic-tac-toe-multiplayer-x-o
+tic-tac-toe-with-ai-and-multiplayer
 tick-tack-what
 ticktock-egg-run
 ticktock-puzzle-challenge
@@ -8008,6 +8039,7 @@ zingaliens
 zip-me-up-halloween
 zip-zap
 ziply
+zippy-bird
 zippy-bird-game
 zodiac-runner
 zombi-defense
