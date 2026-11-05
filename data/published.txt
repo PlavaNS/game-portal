@@ -152,6 +152,7 @@ age-evolution-run
 age-of-apes
 age-of-heroes
 age-of-tanks-warriors-td-war
+agent-hunt-shoot
 agent-j
 agent-sniper-city
 ageof2048
@@ -443,6 +444,7 @@ assault-on-squid-island
 assault-zone
 assemble-factory-puzzle
 asteroid-dodge
+astra-runner-3d
 astro-chickens
 astro-digger
 astro-merge
@@ -1066,6 +1068,7 @@ bs-simulator
 btc-clicker
 bts-budgie-coloring-book
 bts-cute-kitty-coloring
+bts-princess-coloring-book
 bts-rabbit-coloring-book
 buba-jump
 bubbla-boing
@@ -1173,6 +1176,7 @@ bun-boss
 bunge-jungle
 bunny-boy-online
 bunny-escape
+bunny-jumpy
 bunny-quest
 bunny-stack-jump
 burger-bay
@@ -1469,6 +1473,7 @@ cats-block-puzzle
 cats-go
 catstretch
 catwalk-beauty
+cave-crawl
 cave-crusade
 cave-escape
 cave-miner
@@ -1536,6 +1541,7 @@ chill-tic-tac-toe
 chillpaths
 chinchilla-trails
 chinese-and-asian-cooking-game
+chinese-food-chef-dudu
 chips-bakery-simulator
 choco-ball-draw-line-and-happy-girl
 choo-choo-charles-revenge
@@ -2235,6 +2241,7 @@ dino-meat-hunt-new-adventure
 dino-merge-island
 dino-robot-fighting-war
 dino-run-game
+dino-run-run
 dino-runner-birthday
 dino-rush
 dino-simulator-city-attack
@@ -2412,6 +2419,7 @@ draw-to-goal-soccer-game
 draw-to-help
 draw-to-smash
 draw-to-smash-zombie
+draw-weapon-fight-party
 draw-with-pencils-coloring-book
 drawer-and-race
 drawer-sort
@@ -2479,6 +2487,7 @@ drive-pro-3d
 drive-quest
 drive-zone
 driver-club-highway-racing
+driver-run-3d
 drivers-washing-clean
 driverz-ed
 drivex-city
@@ -2534,6 +2543,7 @@ e-rickshaw-simulator
 ear-doctor-care-game
 earth-dunk-physics-arcade-game
 easiest-maths
+easter-bunny-coloring-book
 easter-funny-makeup
 easter-match-3-saga
 eastern-star-vs-city-style-icon
@@ -2693,6 +2703,7 @@ explosive-speed
 extra-hot-chili-3d
 extreme-balancer
 extreme-ball-balancer-3d
+extreme-car-city-driving
 extreme-car-driving-simulator
 extreme-car-parking-3d
 extreme-car-racing
@@ -2976,6 +2987,7 @@ floppy-pipe
 florify
 flow-blast-shooter
 flower-fairy-adventure-story
+flower-jam
 flower-magnet
 flower-merge-triple-puzzle
 flowers-vs-zombies
@@ -3272,6 +3284,7 @@ gem-runner
 gem-sort-puzzle
 gemcrash
 gems-sort-puzzle
+gemstone-glam
 geo-champs
 geo-metric-run
 geography-quiz-countries-flags-capitals
@@ -3314,6 +3327,7 @@ get-rich-in
 get-tall-and-fall
 getting-over-it
 ghost-guard
+ghost-jump
 ghost-ninja
 ghost-runaway
 ghost-shift
@@ -3491,6 +3505,7 @@ guess-tiles
 guess-which-game
 guess-words-fast
 guilty-sniper
+gumdrop-blasters
 gummy-blocks-puzzle
 gun-and-guys
 gun-and-roll
@@ -3504,6 +3519,7 @@ gun-festival-shoot
 gun-match-screw
 gun-merge-mr-bullet
 gun-mob-stickman-run
+gun-rush
 gun-shooter
 gun-shooting-game
 gun-shooting-games-sniper-3d
@@ -3709,6 +3725,7 @@ hidden-basketball
 hidden-hero
 hidden-horrors
 hidden-object-clues-and-mysteries
+hidden-object-farm-adventure
 hidden-object-my-hotel
 hidden-object-street-of-secrets
 hidden-object-time-travel
@@ -3720,6 +3737,7 @@ hidden-paint-3d
 hidden-pairs-mahjong
 hidden-shop-hunt
 hidden-sniper-camo-hunter-3d
+hidden-totals
 hidden-turtle
 hidden-word-puzzle
 hide-and-luig
@@ -5571,6 +5589,7 @@ paintball-gun-pixel-3d
 paintwars-shoot
 pair-up-shapes
 pairscape
+pale-pursuit
 paletto
 palkovil-the-way-home
 panda-adventure
@@ -5921,6 +5940,7 @@ popdify
 popit-vs-spinner
 popit-world
 popping-candies
+poppoppop
 poppytile
 popsortica
 popsy-blocks
@@ -5963,6 +5983,7 @@ primes
 primezy
 prince-of-demons-dark-flame
 princess-dental-dentist-games
+princess-doll-dress-up-beauty
 princess-dressing-up-game
 princess-escape-2021
 princess-eye-art-salon
@@ -6355,6 +6376,7 @@ rocketcar-cup
 rocketsquare
 rodha
 rogue-runner
+rogue-seas-adventure
 roll-away-3d
 roll-ball-hole-puzzle
 roll-dice-mob-control
@@ -7265,6 +7287,7 @@ stick-fight-arena
 stick-fighter-3d
 stick-fruit-arcade-game
 stick-hero-battle
+stick-hero-fight
 stick-hero-tower-defense
 stick-man-battle-fighting
 stick-master-teleport
@@ -7416,6 +7439,7 @@ stunt-witch-3
 stupid-arrow
 style-senpai-anime-dress-up
 style-star-match
+stylish-hip-hop-girl
 subby-quest
 subway-clash-3d
 subway-princess-run
@@ -8025,6 +8049,7 @@ trashtide
 travel-mahjong-deluxe
 travel-with-me-asmr-edition
 treadbreaker
+treasure-king-adventure
 treasure-quest
 treasurebound
 treat-catch
@@ -8033,6 +8058,7 @@ treatsy
 treattraill
 trench-tycoon-toy-army-defense
 trend-family-merge-arena
+trendy-casual-day-out
 tri-peaks-emerland-solitaire
 triad-tactics
 trial-xtreme
@@ -8091,6 +8117,7 @@ tumble-tower-survival
 tung-sahur-bots-chase-room
 tung-sahur-coloring
 tung-sahur-io
+tung-tung-sahur-big-stick
 tung-tung-sahur-funny-face
 tung-tung-sahur-hidden-bedug
 tung-tung-sahur-lol-face
@@ -8104,8 +8131,10 @@ turbo-boat-runner-3d
 turbo-crash-test
 turbo-drive-mode-blitz
 turbo-horizon-racing
+turbo-racer-3d
 turbo-racer-extreme
 turbo-stunt-racing
+turbo-tables
 turbo-team-racing
 turnline-relaxing-puzzle
 turret-defend-apocalypse
@@ -8481,6 +8510,7 @@ word-shards
 word-shuffle
 word-solitaire
 word-string
+word-tangle
 word-up-challenge
 wordaire-word-solitaire
 wordeck-associations
