@@ -543,7 +543,7 @@
     const tpl = n <= WAVE_ORDER.length ? LEVELS[WAVE_ORDER[n - 1]] : LEVELS[(Math.random() * LEVELS.length) | 0];
     const boss = n % 5 === 0;
     const bots = Math.min(2 + n, 14) - (boss ? 1 : 0);
-    const rMax = Math.round(Math.max(tpl.rMax, 300 + bots * 26) * 1.18);
+    const rMax = Math.round(Math.max(tpl.rMax, 300 + bots * 26) * 1.35);
     return Object.assign({}, tpl, { id: n, wave: n, bots, boss, skill: Math.min(0.05 + 0.06 * n, 0.9), time: 40 + Math.min(n * 3, 35), events: n >= 3, rMax, rMin: Math.max(tpl.rMin, rMax * (n < 4 ? 0.6 : 0.45)) });
   }
 

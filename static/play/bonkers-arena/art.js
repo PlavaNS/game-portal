@@ -729,17 +729,6 @@
         ctx.save(); ctx.globalAlpha = .35; ellipse(ctx, b.x, b.y, b.r, b.r, 0, '#bfefff'); ctx.restore();
       }
     }
-    // aim sight: where your orb will fly when you dash (bright when the dash is ready)
-    const me = list.find(b => b.me && !b.falling);
-    if (me) {
-      const ux = Math.cos(me.face), uy = Math.sin(me.face), ready = me.dashCd <= 0, col = th.light ? '#1b2b5a' : '#ffffff';
-      ctx.save(); ctx.globalAlpha = ready ? .85 : .3; ctx.fillStyle = col; ctx.strokeStyle = col;
-      for (let d = me.r + 14; d < me.r + 150; d += 16) ellipse(ctx, me.x + ux * d, me.y + uy * d, 2.6, 2.6, 0, col);
-      const tx = me.x + ux * (me.r + 165), ty = me.y + uy * (me.r + 165);
-      ctx.lineWidth = 2.5; ctx.beginPath(); ctx.arc(tx, ty, 10, 0, TAU); ctx.stroke();
-      ctx.beginPath(); ctx.moveTo(tx - 16, ty); ctx.lineTo(tx - 6, ty); ctx.moveTo(tx + 6, ty); ctx.lineTo(tx + 16, ty); ctx.moveTo(tx, ty - 16); ctx.lineTo(tx, ty - 6); ctx.moveTo(tx, ty + 6); ctx.lineTo(tx, ty + 16); ctx.stroke();
-      ctx.restore();
-    }
     // names + dash ring
     ctx.textAlign = 'center'; ctx.lineJoin = 'round';
     for (const b of list) {
