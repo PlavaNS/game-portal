@@ -244,3 +244,20 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--amber); out
   #perks .card { padding: 16px 14px 18px; }
   #perks .result-title { font-size: 30px; margin: 0; }
 }
+/* daily on phones: compact so the streak and all quests fit without scrolling */
+@media (max-width: 560px) {
+  #daily .card { padding: 14px 14px 16px; }
+  #daily .card-head { margin-bottom: 8px; }
+  #daily .card-head h2 { font-size: 22px; }
+  #daily .section-label { margin: 8px 0 6px; }
+  .day { padding: 5px 1px; }
+  .day small { font-size: 10px; white-space: nowrap; letter-spacing: 0; }
+  .day b { font-size: 15px; }
+  .streak-btns { margin-top: 8px; }
+  .quests { gap: 6px; }
+  .quest { padding: 8px 10px; gap: 10px; }
+  .quest .q-text { font-size: 14px; }
+  .quest .q-text small { font-size: 12px; }
+  .quest .btn { width: 76px; padding-block: 8px; }
+  #daily .hint { margin: 8px 0 0; font-size: 13px; }
+}
