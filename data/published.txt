@@ -698,6 +698,7 @@ birdy-mad-throw
 birdy-trip
 biryani-cooking-indian-super-chef-food-game
 bitbanda
+black-and-white-2
 black-friday-dress-up-selfie
 black-friday-mystery-sale
 black-friday-store-manager
@@ -956,6 +957,7 @@ bribes-and-stamps
 brick-breaker-ball
 brick-breaker-chipi-chipi-chapa-chapa-cat
 brick-breaker-classic-arcade-fun
+brick-breaker-gala
 brick-breaker-puzzle-game
 brick-cat-chipi-chapa
 brick-challenge
@@ -1113,6 +1115,7 @@ bus-n-ball-jam
 bus-out-bus-away-traffic-jam
 bus-park-3d
 bus-parking-out
+bus-route
 bus-rush
 bus-school-park-driver
 bus-simulator-3d-bus-coach
@@ -1166,6 +1169,7 @@ candy-match-puzzle-challenge
 candy-match-saga-2
 candy-merge-sort
 candy-pop-mania
+candy-quest
 candy-rain
 candy-shop-3d-match-puzzle
 candy-sort
@@ -1398,6 +1402,7 @@ checkmate
 cheerleader-magazine-dressup
 cheese-collector-rat-runner
 cheese-tower
+cheez-pizza-ready
 chef-tycoon
 chemical-flowtint
 chernobyl-zombie-hell
@@ -1450,6 +1455,7 @@ christmas-sledge-rider-3d
 chroma-trek
 chromapath
 chromaspin
+chromatch
 chromatic-coil
 chrome-dino-game-original
 chu-choo-cake
@@ -1723,6 +1729,7 @@ cow-jam-farm-puzzle
 cow-rescue
 cowboy-dash-game
 cowboy-runners-dash
+cowboy-shooter-2
 cowboy-survival-zombie
 cowboys-duel
 cozy-coloring
@@ -1981,6 +1988,7 @@ deep-digger-tycoon
 deep-drill
 deep-drill-run
 deep-freeze-fishing
+deep-fuel
 deep-in-the-lab-chapter-1
 deep-mine-1-strength
 deep-space-horror-outpost
@@ -2909,6 +2917,7 @@ fruit-tower-drop
 fruitbattle
 fruite-swipe
 fruits-into-baskets
+fruits-mania
 fruits-shooter-pop-master
 fruits-slice-challenge
 fruitsland-escape-from-the-amusement-park
@@ -2978,6 +2987,7 @@ gaint-run-color-switch
 galactic-pixel-storm
 galala
 galaxy-2048
+galaxy-blaster
 galaxy-blaster-defend-the-galaxy
 galaxy-bricks
 galaxy-bricks-breaker
@@ -3532,6 +3542,7 @@ hop-ballz-3d
 hop-hop
 hop-masters
 hop-music-ball-game
+hop-to-rescue
 hopeless-island-survival-hero
 hopnova
 hopping-boy
@@ -3779,6 +3790,7 @@ join-clash-3d
 join-clash-epic-battle
 join-the-gang-and-fight
 joker-ritual
+journey-of-escape
 joy-tiles-easy
 joyful-ball
 juice-machine
@@ -4074,6 +4086,7 @@ lollipop-escape-mania-kids
 lone-sniper
 long-drive-to-horizons-sim
 long-hair-rush-challenge
+long-nails
 long-neck
 long-neck-runner-game
 longdog
@@ -4615,6 +4628,7 @@ mordecai-and-rigby-easter-holiday
 morph-racers
 morphit
 mortal-brothers-survival-friends
+mosaic-master
 mosaicat
 moscow-metro-simulator
 mosquito-bite-3d
@@ -5045,6 +5059,7 @@ obbytycoon-money-tycoon
 object-73-survival-clicker
 obunga-nextbot-spot-difference
 ocean-blast-block-puzzle
+ocean-blast-match-3
 ocean-catcher-fun
 ocean-dash
 ocean-drift
@@ -5094,6 +5109,7 @@ oink-escape
 okay
 ola-solitaire
 ole-bunny
+om-nom-run-03
 on-fire-basketball-shots
 one-bit
 one-bullet-3d-game
@@ -5177,6 +5193,7 @@ paper-ball-adventure-go
 paper-craft-wars
 paper-doll-diary-chibi-dolls
 paper-doll-dress-up
+paper-doll-makeover-dress-up
 paper-dolls-diy-diary
 paper-fighter-3d
 paper-flight-2
@@ -5215,6 +5232,7 @@ parmesan-partisan
 parmesan-partisan-deluxe
 party-games-mini-shooter-battle
 party-stickman-4-player
+pass-the-ball-3d
 pass-the-gate
 passenger-airplane-flight-3d
 passenger-city-taxi-game
@@ -5253,6 +5271,7 @@ pentablocks
 people-blaster
 people-drop-away-game
 people-playground-ragdoll-arena
+people-tower
 percys-froggy-frenzy
 perfect-car-parking
 perfect-jump-puzzle-game
@@ -5684,6 +5703,7 @@ ramp-truck-mayhem
 ranch-empire
 randomation-racing-speed-trial-demolition
 rapid-apex-rush
+rapid-match
 rasgullas
 rat-purrsuit
 rat-s-house-nonogram
@@ -5813,6 +5833,7 @@ rise-zombies
 rivals-fps-online-shooter
 road-chase-shooter-realistic-guns
 road-designer
+road-fighter-endless-car-racing
 road-fury-racing
 road-gunner-3d
 road-madness
@@ -5965,6 +5986,7 @@ runner-garden-game
 runner-soldiers
 runner-tomato-hyper-casual
 running-from-a-hungry-tiger
+running-in-foam
 running-man-2026
 running-roadball
 rush-rivals
@@ -6190,6 +6212,7 @@ shot-trigger
 shotwildwest
 shred-the-meme
 shrinkzone-io
+shuffle-sage
 sid-and-ginny-y2k-glam-clash
 sidefire
 siege-clash
@@ -6341,6 +6364,7 @@ snackrab
 snail-clicker
 snail-odyssey-hardest-game
 snail-squash
+snaily-braver-europe-adventure
 snake-2048
 snake-2048-io
 snake-2077-glitch-war
@@ -6465,6 +6489,7 @@ solve-the-maze
 somewhere
 sonik-run
 sorcerers-refuge
+sort-and-style-back-to-school
 sort-color-water-puzzle
 sort-game-toy-sort
 sort-games-challenge
@@ -6926,6 +6951,7 @@ super-friday-squid-challenge
 super-frog-adventure
 super-fruit-runner-hyper-casual
 super-girl-salon
+super-girls-my-rainy-day-outfits
 super-goal-keeper
 super-goin-up
 super-grotto-escape
@@ -6962,6 +6988,7 @@ super-world-adventure
 super-zombie-driving
 super-zombie-shooter-2
 superbike-hero
+superbrain
 supercar-battle-arena
 supercar-stunts-2023
 supercars-garage
@@ -7364,6 +7391,7 @@ tps-shooting-zombie-apocalypse
 trace-craft
 trace-learn
 tracing-games
+tracky-tracks
 tracoria-draw-color-and-match
 tractor-drift-3d
 tractor-farm-farming-simulator
@@ -7538,6 +7566,7 @@ underwater-blast
 underwater-survival-deep-dive
 unfamiliar-object
 unicorn-chef-mermaid-cake
+unicorn-coloring-challenge
 unipairs
 unite-words
 unity-mini-games-hub-relax
@@ -7716,6 +7745,7 @@ weight-puzzle-3d
 weird-pet-shop
 western-fight
 whack-a-mole-pixel-version
+whats-in-my-bag
 whats-that-picture-3d
 wheelchair-parkour-no-limits
 wheelie-bike-for-2-players
