@@ -26,6 +26,7 @@
 12-minibattles
 12-minibattles-two-players
 12-minutes-to-survive
+13
 15-halloween-games
 1942-pacific-front
 1945-air-force-airplane
@@ -59,6 +60,7 @@
 21-rush-ultimate-card-game
 2244-number-match
 248-scribble
+2d-nitro-race
 2d-platformer-coin
 3-warrior-team-force
 321-diferent-patch
@@ -379,6 +381,7 @@ army-run-3d
 army-truck-driving-game
 army-truck-simulator-2024
 army-vehicle-transporting
+arrow-away-puzzle
 arrow-count-master
 arrow-cube-3d
 arrow-escape-3d
@@ -1100,6 +1103,7 @@ bubble-shooter-clash-blast-online
 bubble-shooter-classic-online
 bubble-shooter-crystal-hunt
 bubble-shooter-island-quest
+bubble-shooter-legend-2
 bubble-shooter-mega
 bubble-shooter-party
 bubble-shooter-pet-match-3
@@ -1639,6 +1643,7 @@ classic-solitaire-master
 classify
 clawler-fight
 clay-craft-tycoon
+clean-health-center
 clean-kitty
 clean-the-garden
 clean-up-mini-games
@@ -1860,6 +1865,7 @@ counter-sniper-1-6-egypt
 counter-terror-battle-simulator
 counterflow
 counting-for-kids
+couple-anime-dresser
 couple-wedding-race-game
 courageous-sniper
 cover-shooting-gun-game
@@ -1906,6 +1912,7 @@ crazy-bob
 crazy-bouncer
 crazy-breakout-mobile
 crazy-buggy-demolition-derby
+crazy-bus-car-jam-parking
 crazy-bus-escape-runner
 crazy-bus-station
 crazy-car-drive-road-challenge
@@ -2007,6 +2014,8 @@ crust-courier-pizza-bike-rush
 crust-crusher
 crustrun
 crypta
+crypto-coin-clash-mania
+crypto-detective-finder
 cryptograms-secret-text
 crystal-cave-sort
 crystal-craash
@@ -2349,6 +2358,7 @@ dot-dodge
 dotanimals
 dotdrift
 dots-and-boxes-2
+dots-master
 dotto-botto
 double-boy-jump
 double-heist-rob-the-robbers
@@ -3174,6 +3184,7 @@ fruitsland-escape-from-the-amusement-park
 fruity-craft-merge
 fruity-shoot-gift-frenzy
 frutiger-friends-io
+fuja-das-cobras
 fuji-leapers
 full-space-shooter
 fumeburst
@@ -3363,6 +3374,7 @@ gladiators-merge-and-fight
 glam-doll-salon-makeup-and-dressup-game
 glam-dressup-girls-games
 glam-guru-puzzle-collection
+glass-quest
 glauron-dragon-tales
 gliding-over-dunes
 glim-and-glo
@@ -4231,6 +4243,7 @@ kingdom-defense
 kingdom-defense-mega
 kingdom-master
 kingdom-tower-defense
+kingdomsrise
 kingmoon
 kings-defense-roguelike
 kitchen-sorting
@@ -4534,6 +4547,7 @@ magic-water-sort
 magic-water-sort-color-puzzle
 magical-cat-castle
 magical-tic-tac-toe
+magical-unicorn-coloring-pages
 magical-unicorn-grooming-world-pony-care
 magikmon
 magline-moto
@@ -4545,6 +4559,7 @@ mahjong-bird-tiles
 mahjong-chef
 mahjong-classic
 mahjong-connect-classic
+mahjong-connect-fish-world
 mahjong-connect-spooky
 mahjong-fruit-3d
 mahjong-lines
@@ -5099,6 +5114,7 @@ mud-trails-4x4-jeep-game
 mud-truck-driving
 mud-truck-simulator-game
 multi-surgery-hospital-games
+multi-theme-clicker-game
 multiplication-master
 mummy-candy
 mummy-land
@@ -5574,6 +5590,7 @@ orc-hero
 order-of-operation-challenge
 organizer-master
 origin
+othello-five
 otr-off-road-driving
 outbreak-ops
 outer-planet
@@ -5774,6 +5791,7 @@ piercing-skies
 pig-bros-adventure
 pigcatch
 piggy-vs-watermelon
+piggys-forest-panic
 pill-soccer
 pilot-life-flight-game-3d
 pim-path
@@ -6302,6 +6320,7 @@ retro-speed
 retro-x-racer
 retrohero-the-last-stand
 reveal-the-animal
+reverse-gravity-shoot
 reversi-classic
 revoxel-3d-voxel-rpg-shooter
 rewarp
@@ -6833,6 +6852,7 @@ slice-and-solve
 slice-it
 slicestorm
 slicetall
+slicey-merge
 slide-and-divide
 slide-battle
 slide-block-jam
@@ -7198,6 +7218,7 @@ square-hero-bird
 square-sling
 square-sort
 square-sort-mania
+squareking-of-summer
 squeeze-n-slide
 squicky
 squid-7-challenge
@@ -7216,6 +7237,7 @@ squid-stacky-maze
 squid-sugar-cooking
 squid-survival-run-challenge
 squidgame-io
+squidgame-multiplayer
 squidly-game-123-stop
 squirel-steps
 squirrels-draw-your-level
@@ -7552,6 +7574,7 @@ super-nitro-racing-3
 super-oliver-world
 super-onion-boy
 super-onion-boy-2
+super-pop-blast
 super-pop-it
 super-pork
 super-robot-chogokin
@@ -7694,6 +7717,7 @@ tangled-rope-fun
 tangram-puzzle-2
 tangram-triangle
 tank-1944
+tank-8bit
 tank-arena
 tank-arena-multiplayer
 tank-arena-steel-battle
@@ -7954,6 +7978,7 @@ timely-delivery
 timer-cannon
 tiny-arena
 tiny-army
+tiny-billiard
 tiny-chick
 tiny-cinema
 tiny-delivery
@@ -7967,6 +7992,7 @@ tiny-zomby-the-barricade
 tinygamebox
 tip-candy-puzzle
 tip-master-wine
+titan-s-journey
 titan-wall-breaker
 tnt-sandbox
 to-fu-girl
@@ -8016,6 +8042,7 @@ town-builder-inc
 toxic-arena-biological-threat
 toy-block-blast
 toy-box-blast
+toy-claw-simulator
 toy-factory
 toy-factory-conveyor
 toy-rumble-3d
@@ -8047,6 +8074,7 @@ traffic-jam-car-puzzle-game
 traffic-jam-escape-3d
 traffic-jam-escape-car-puzzle
 traffic-jam-hop-on
+traffic-parking
 traffic-puzzle-game-linky
 traffic-racer-3d
 traffic-run-game
@@ -8138,6 +8166,7 @@ tug-the-table-classic
 tuk-tuk-auto-rikshaw
 tumble-boat
 tumble-tower-survival
+tung-sahur-and-r-e-p-o
 tung-sahur-bots-chase-room
 tung-sahur-coloring
 tung-sahur-io
@@ -8577,6 +8606,7 @@ worm-puzzle-snake-apple
 worm-stack
 wormpocalypse
 worms
+worms-hungry
 worms-zone
 wrecking-ball-tycoon
 wrench-and-roll
