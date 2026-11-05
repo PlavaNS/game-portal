@@ -62,6 +62,7 @@
 248-scribble
 2d-nitro-race
 2d-platformer-coin
+2player-tanks-of-war
 3-warrior-team-force
 321-diferent-patch
 3d-acrylic-nail-nail-art-game
@@ -217,6 +218,7 @@ alphabet-count-rush
 alphabet-kitchen
 alphabet-mahjong
 alphabet-merge-challenge
+alphabet-run
 alphabet-writing-for-kids
 amandas-perfect-date
 amaze-escape
@@ -597,6 +599,7 @@ baroho
 barrel-roller-stack-and-run-3d
 barry-prison-parkour-escape
 baseball-for-clowns
+baseball-star
 basement
 basic-economics-multiple-choice
 basic-physics-single-choice
@@ -656,6 +659,7 @@ bazooka-boy
 bazooka-survivors
 bblaster
 bbq-sort
+bbq-stack-run
 be-like-a-lucky-block
 beach-bowling-3d
 beach-defense-merge-tower
@@ -2089,6 +2093,7 @@ cuphead-rush
 curve-free-kick
 curve-master-football
 curvy-punch-2
+cut-and-drop-puzzle
 cut-art-master
 cut-cut-game
 cut-grass-for-brainrots
@@ -2257,6 +2262,7 @@ dice-helix-drop
 dice-math
 dice-merge
 dice-puzzle
+dice-puzzles
 dicecraft
 dicey-chickens
 dicey-paws-idle
@@ -2658,6 +2664,7 @@ emoji-merge-pop-frenzy
 emoji-skill-puzzles
 emoji-sliding-down
 emoji-solitaire
+emoji-sort
 emotional-support-duck
 empire-estate-pro
 empire-tower-defense-zombie-fortress
@@ -2922,6 +2929,7 @@ find-the-missing-number
 find-the-needle
 find-the-pets
 find-the-rule
+find-the-set
 find-the-vampire
 find-visitors-99-nights
 find-word-puzzle-game
@@ -3271,6 +3279,7 @@ funny-nose-surgery
 funny-pet-haircut
 funny-pet-haircut-2
 funny-prank-sounds
+funny-pull-the-beard
 funny-puzzle-cats
 funny-ragdoll-wrestlers
 funny-rescue-carpenter
@@ -3383,6 +3392,7 @@ geovex-daily-geography-challenge
 germaway
 get-10
 get-10-ultimate
+get-13-puzzle
 get-a-screw-puzzle
 get-off-my-farm
 get-on-board
@@ -3856,6 +3866,7 @@ hipsters-vs-rockers
 hisshop
 hit-and-knock-down
 hit-em-up
+hit-knock-down-2
 hit-lazer-to-goals
 hit-master
 hit-masters-rush
@@ -4002,6 +4013,7 @@ ice-blast-buddies
 ice-cream-asmr-diy-games
 ice-cream-inc
 ice-cream-sorting
+ice-cream-stack-runner
 ice-cream-toppings
 ice-cream-vendor
 ice-dash
@@ -4202,6 +4214,7 @@ jump-hero
 jump-in-rhythm-to-the-hit-cat-disco
 jump-masters
 jump-redball
+jump-smash-3d
 jump-to-the-rhythm-of-songs-musical-ball
 jump-up-3d
 jump-up-game
@@ -4304,6 +4317,7 @@ kingdom-defender-tower-defense
 kingdom-defense
 kingdom-defense-mega
 kingdom-master
+kingdom-puzzles
 kingdom-tower-defense
 kingdomsrise
 kingmoon
@@ -4512,6 +4526,7 @@ logical-ball-escape
 logo-quiz-master
 lol-dolls-nail-salon
 lol-football-funny-face
+lol-funny-dance
 lol-presidential-face
 lollipop-escape-mania
 lollipop-escape-mania-kids
@@ -4698,6 +4713,7 @@ maskinery-idle
 masquerades-vs-impostors
 master-archer-2025
 master-blender
+master-candy-dash
 master-car-destruction
 master-checkers
 master-checkers-multiplayer
@@ -5100,6 +5116,7 @@ monster-trucks-sky-stunts
 monster-versus-human
 monster-wheels-apocalypse
 monster-wheels-turbo-rush
+monsterella-fantasy-makeup
 monsters-impact-3
 monsters-of-easter-eggs
 monsters-wheels-2
@@ -5708,6 +5725,7 @@ paint-race
 paint-sponges-puzzle
 paint-the-keyboard
 paint-tiles-puzzle
+paint-tomato
 paint-with-diamonds
 paintball-gun-pixel-3d
 paintwars-shoot
@@ -5974,6 +5992,7 @@ planet-blast-rockets
 planet-destroy-idle
 planet-escape
 planet-hero
+planet-hopper
 planetary-plunge
 planko
 plant-girl-defense-zombie
@@ -6262,6 +6281,7 @@ radiation-zone
 ragdoll-arena
 ragdoll-arena-2-player
 ragdoll-battle-royale-throw-down-the-enemy
+ragdoll-break-lets-destroy
 ragdoll-crash-test-throw-and-break
 ragdoll-duel-2p
 ragdoll-escape-endless-fall
@@ -6813,6 +6833,7 @@ shape-transform
 shape-transform-race
 shape-transform-shifting-rush
 shape-transforming-shifting-run
+shape-walls
 shape-whiz
 shapehavoc3d
 shapenest
@@ -7363,6 +7384,7 @@ squishy-slime-maker
 stack-colors
 stack-master
 stack-maze-challenge
+stack-n-sort
 stack-sort
 stack-swipe
 stack-the-blocks
@@ -7638,6 +7660,7 @@ summer-fashion-makeover
 summer-juice-run
 summer-punch-party
 summer-rider-3d
+summer-rose-cone-ice-cream
 summer-runway-challenge
 summer-shore-hustle
 summer-spot-the-differense
@@ -7705,6 +7728,7 @@ super-sergeant-2
 super-shark-world
 super-slashman
 super-slime-black-hole
+super-star-animal-salon
 super-stickman-duelist
 super-stickman-hook
 super-stunt-car-7
@@ -7997,6 +8021,7 @@ the-malevolent-mansion-of-evil
 the-man-from-the-window
 the-matrix-merge
 the-maze
+the-merchant
 the-pain-of-nextbot
 the-panda-brother
 the-pirate-sea-the-smuggler-s-way
@@ -8401,6 +8426,7 @@ universal-multiplayer-shooter
 unno-game
 uno-online
 uno-party-card
+unpuzzle-master-tap-away
 unravel
 unravel-eggs-puzzle
 unreal-descent-2-race
@@ -8478,6 +8504,7 @@ village-of-colors
 violent-shooter
 virtual-neko-kitty-collector
 virus-destroyer
+virus-shoot
 vizavi
 vlinder-garden-dress-princess
 vlinder-girl-fashion-story
@@ -8590,6 +8617,7 @@ weird-pet-shop
 western-fight
 whack-a-bug
 whack-a-mole-pixel-version
+whackamole3d
 whats-in-my-bag
 whats-that-picture-3d
 wheelchair-parkour-no-limits
@@ -8682,6 +8710,7 @@ word-associations-solitaire
 word-blocks
 word-blossom
 word-chef
+word-connect-crossword-puzzle
 word-connect-train-brain
 word-cooking-puzzle
 word-cross
@@ -8826,6 +8855,7 @@ zombie-apocalypse-2
 zombie-apocalypse-bunker-survival-z
 zombie-apocalypse-now-survival
 zombie-apocalypse-tunnel-survival
+zombie-attack-defense
 zombie-barrage
 zombie-bears-night-shooting
 zombie-can-t-jump
