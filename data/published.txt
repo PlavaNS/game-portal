@@ -69,6 +69,7 @@
 3d-chess-arcane-edition
 3d-darts
 3d-dots
+3d-educational-car-adventure
 3d-football-mania
 3d-formula-racing
 3d-formula-racing-pro-edition
@@ -150,6 +151,7 @@ age-of-heroes
 age-of-tanks-warriors-td-war
 agent-j
 agent-sniper-city
+ageof2048
 agrarian-magnate
 aha-world-dream-town
 aichessgame
@@ -509,6 +511,7 @@ ball-break-the-hoops
 ball-chain-blast
 ball-color-smash
 ball-connect
+ball-cup-boom
 ball-dispensor-puzzle
 ball-escape-puzzle
 ball-io
@@ -664,6 +667,7 @@ bffs-unique-halloween-costumes
 bicycle-mountain-xtreme
 bicycle-stunt-racing-game-3d
 bicycle-stunts-racing-2023
+bid-wars-1-auction-simulator
 big-bob-s-burger-truck
 big-boom-building-smash
 big-catch-fishing
@@ -1033,6 +1037,7 @@ bubble-pop-fairyland
 bubble-pop-legend
 bubble-popper
 bubble-rush
+bubble-shoot-merge-box-2048
 bubble-shooter-aura
 bubble-shooter-blast-mania
 bubble-shooter-challenge
@@ -1124,6 +1129,7 @@ burger-restaurant-simulator-3d
 burger-rush-restaurant
 burn-rate
 burrow
+burst-it-right
 burstblitz
 bus-and-subway-rush
 bus-color-jam
@@ -1628,6 +1634,7 @@ color-connect-3d
 color-connect-master
 color-cube-puzzle
 color-dash-chameleon-runner
+color-dash-match-the-color
 color-dots-challenge
 color-fall
 color-hole
@@ -1662,6 +1669,7 @@ color-the-room
 color-tower-2-drop-the-boxes-3d
 color-water-sort-3d
 color-wood-animal-jam
+colorblockjam
 colordock
 colored-water-and-pin
 colored-water-and-pin-33546
@@ -2741,6 +2749,7 @@ fish-factory
 fish-hunting
 fish-hunting-frenzy-shooter-game
 fish-love-game
+fish-merge
 fish-rain
 fish-rain-2
 fish-royale-io
@@ -2823,6 +2832,7 @@ flow-blast-shooter
 flower-fairy-adventure-story
 flower-magnet
 flower-merge-triple-puzzle
+flowers-vs-zombies
 flows
 flufflings-pocket-pets
 fluffy-jump
@@ -2995,6 +3005,7 @@ full-space-shooter
 fumeburst
 fun-arrow-fall
 fun-draw-race-3d
+fun-farm-for-kids
 fun-fishing
 fun-jigsaw-puzzle
 fun-jigsaw-puzzle-game
@@ -3102,6 +3113,7 @@ gem-runner
 gem-sort-puzzle
 gemcrash
 gems-sort-puzzle
+geo-champs
 geo-metric-run
 geography-quiz-countries-flags-capitals
 geom-etrys
@@ -3899,6 +3911,7 @@ jungle-bricks-breaker
 jungle-climber
 jungle-fury-mutant-rhino-mayhem
 jungle-game
+jungle-girl-coloring-pages
 jungle-jeep-simulator
 jungle-mart
 jungle-mart-idle-game
@@ -4123,6 +4136,7 @@ line-color-2d
 line-color-puzzle-game
 line-control
 line-of-defense
+line-puzzle-3d
 line-runners
 line-to-goal-draw-the-path
 lineo
@@ -4211,6 +4225,7 @@ luna-and-the-magic-maze
 lunarleap
 machine-city-balls
 machine-eater
+macho-man-go
 mackup-runner-game
 mad-city-matrix
 mad-day-2-special
@@ -4304,6 +4319,7 @@ marble-color-sort
 marble-factory
 marble-maze
 marble-maze-game
+marble-snap-color-puzzle-game
 marble-zuma-shooter
 marblemaze2
 maritime-conflict
@@ -5399,6 +5415,7 @@ pga1
 pga3-survival
 pga3-zombie
 pga4
+pga5
 phone-case-diy
 phone-case-diy-2
 phone-case-diy-kpop-fans
@@ -5473,11 +5490,13 @@ pixel-dino-run
 pixel-feast
 pixel-flow
 pixel-flow-2
+pixel-gun-apocalypse-2025
 pixel-gun-apocalypse-4-zombie-invazion
 pixel-gun-apocalypse-6-remastered
 pixel-gun-apocalypse-9
 pixel-hero-survivor
 pixel-jam-bus-puzzle
+pixel-legyfare-wars
 pixel-paint-sort
 pixel-protocol
 pixel-shooter-puzzle
@@ -5648,6 +5667,7 @@ princess-halloween-boutique
 princess-kawaii-swimwear
 princess-nail-art
 princess-ready-for-christmas
+princess-run-3d
 princesses-at-horror-school
 princesses-of-quadrobics
 prism-match-3d
@@ -6115,6 +6135,7 @@ russian-is-easy
 rustlings-online
 rusty-park
 ruthless-merciless-cards
+safari-match
 safari-merge
 safarirun
 safe-box-crack
@@ -6209,6 +6230,7 @@ scary-house-clown-evil
 scary-joker-game
 scary-match-3
 scary-math
+scary-maze-7
 scary-rooms-idle-horror
 school-bus-driving-game
 school-bus-simulation
@@ -6478,6 +6500,7 @@ smash-and-merge-balls
 smash-and-speed
 smash-and-steal-an-egg
 smash-master
+smash-sprout
 smash-the-blocks-puzzle-challenge
 smash-yard
 smashers-io
@@ -6749,6 +6772,7 @@ sports-escape-mania
 sports-minibattles
 sporty-viper
 spot-differences-bird-adventure
+spot-the-difference-diffsy-1
 spot-the-difference-mystic-mermaids
 spot-the-difference-wild-west
 spotless
@@ -6855,6 +6879,7 @@ stellar-assault
 stellar-bastion
 stellar-connections
 stellar-dash
+stellar-guardian
 stellar-pulse
 stellar-shot-gravity-puzzle
 stellar-style-spectacle-fashion
@@ -6902,6 +6927,7 @@ stickman-archero-fight
 stickman-archery-ragdoll
 stickman-armed-assassin-3d
 stickman-army-2
+stickman-army-pusher
 stickman-army-the-resistance
 stickman-attack
 stickman-blast
@@ -6953,6 +6979,7 @@ stickman-shooting-survival
 stickman-simulator-final-battle
 stickman-sky-3d
 stickman-skybow
+stickman-slash
 stickman-sniper-shoot
 stickman-sports-badminton
 stickman-stack-race
@@ -7595,6 +7622,7 @@ trick-or-treat-candy-carnival
 trick-paws
 trick-your-brain-puzzle
 tricky-easy-squares
+tricky-planner
 tricky-prank-annoying-quest
 tricky-puzzle-brain-test
 tricky-queue-logic-puzzle
@@ -7776,6 +7804,7 @@ vehicle-stunts-sky-sim
 vehicle-transport-police-simulator
 velocity-breaker
 velopter
+vemon-run-3d
 vexon
 viaducts
 vials-asmr-sand-sort-puzzle
@@ -8061,6 +8090,7 @@ yenemy
 yeti-run
 yoga-master-flex-running
 yolk-ops-egg-arena
+yolk-patrol
 yolk-patrol-easy
 your-idle-farm
 your-majesty-build-and-conquer
