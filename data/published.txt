@@ -571,6 +571,7 @@ balloon-pop-master
 balloon-pop-pop-and-blast
 balloon-shooter-archery-game
 balloon-smash
+balloonpop
 balloons-pop
 balls-animal
 balls-bricks-breaker
@@ -670,6 +671,7 @@ bear-adventure-online-game
 bear-ball-master-honey-king
 bear-go-home
 bearshift
+beast-uncaged-screw-puzzle
 beastforge-rival
 beat-shooter-3d
 beaten-barry-prison-face-lol
@@ -976,6 +978,7 @@ bouncy-dunk
 bouncy-motors
 bound-to-defend
 bow-brawls
+bow-masters-arena
 bow-or-die
 bowling-hero-multiplayer
 bowling-stars
@@ -1047,6 +1050,7 @@ brick-breaker-puzzle-game
 brick-cat-chipi-chapa
 brick-challenge
 brick-out-candy
+brick-rush-3d
 brick-slide
 bricklayer
 bricks-balls-breaker
@@ -1499,9 +1503,11 @@ cave-miner
 cavern-of-gears
 cavern-run-endless-runner-game
 celebrities-get-ready-for-christmas
+celebrity-couple-red-carpet-fashion
 celebrity-e-girl-vibes
 celebrity-lol-funny-face
 celebrity-selen-all-around-the-fashion
+celebrity-spring-manicure-design
 celebrity-thanksgiving-prep
 celebrity-valentino-pink-collections
 cellf-defense
@@ -1567,6 +1573,7 @@ chips-bakery-simulator
 choco-ball-draw-line-and-happy-girl
 choo-choo-charles-revenge
 chop-up
+chopsticks
 christmas-brain-teasers
 christmas-bridge-runner
 christmas-bubble-shooter-game
@@ -2490,6 +2497,7 @@ dress-up-anime-girl
 dress-up-babi-doll
 dress-up-bean
 dress-up-game-princess-doll-2
+dress-up-girls-2025
 dress-up-match-3
 dress-up-outfit-match
 dress-up-thumbelina
@@ -2513,6 +2521,7 @@ drifty-master
 drifty-race-challenge
 drifty-road-rush
 drill-the-snake
+drink-drive
 drink-drive-survive
 drive-ahead-sports
 drive-and-avoid
@@ -3516,6 +3525,7 @@ grave-blast
 grave-necromancer-mortician
 gravesky
 graveyard-wars-two-player
+gravity-box
 gravity-climb-girl
 gravity-football
 gravity-pulse
@@ -3561,6 +3571,7 @@ guardians-of-tower
 guardz-io
 guess-drawing
 guess-monster-voice
+guess-the-flag-quiz
 guess-the-fruit-world-quiz
 guess-tiles
 guess-which-game
@@ -3735,6 +3746,7 @@ hero-city
 hero-defense-king
 hero-inc
 hero-jump-city-nights
+hero-merge
 hero-monster-battle-game
 hero-rescue
 hero-rescue-gold-glory
@@ -4106,6 +4118,7 @@ jelly-bros-red-and-blue
 jelly-color-sort-3d
 jelly-connect
 jelly-cube-adventure
+jelly-dash-3d
 jelly-drop-merge-and-sell
 jelly-garden-game
 jelly-gobble
@@ -4532,6 +4545,7 @@ lovely-princess
 lovely-virtual-cat
 lovely-virtual-cat-at-restaurant
 lovely-virtual-cat-at-school
+lovie-chics-spring-break-fashion
 lovim-fishing-simulator-3d
 low-poly-smash-cars
 lowercase-loops
@@ -4644,6 +4658,7 @@ makeup-match-memory-beauty
 makeup-run-challenge
 makeup-stories-asmr-beauty
 makeup-studio-halloween
+makeup-trends-then-and-now
 malatang-master-stack-run-3d
 mallow-pop
 man-runner-2048
@@ -4802,6 +4817,7 @@ memory-cards
 memory-emoji
 memory-lane
 memory-master
+memory-match-lite
 memorya
 memorybot
 men-vs-gorillas
@@ -4993,6 +5009,7 @@ mix-monsters-fun-merge
 mixed-world
 mixed-world-weekend
 mob-escape
+mob-handler
 mob-runner-master
 mobile-legends-slime-3v3
 mochi-mochi-tower
@@ -5149,6 +5166,7 @@ mr-and-mrs-santa-christmas-adventure
 mr-autofire
 mr-bean-3d-jigsaw
 mr-bean-hidden-stars
+mr-bean-puzzle
 mr-been-puzzle-time
 mr-bouncemaster
 mr-bouncemasters-2
@@ -5360,6 +5378,7 @@ ninja-bamboo-assassin
 ninja-clash-heroes
 ninja-dash-cozy-tactic-puzzle
 ninja-escape-2
+ninja-escape-2d
 ninja-gorilla-jigsaw-puzzle
 ninja-hero-cats
 ninja-in-cape
@@ -5735,6 +5754,7 @@ parking
 parking-bike-3d-game
 parking-boom
 parking-driver
+parking-frenzy
 parking-jam-2025
 parking-jam-space
 parking-journey-car-puzzle
@@ -5904,6 +5924,7 @@ pixel-amphibian
 pixel-art-color-by-numbers
 pixel-art-stealer
 pixel-car-memory-quest
+pixel-cat-simulator-my-pets
 pixel-color-flow
 pixel-color-quest
 pixel-commando
@@ -6152,6 +6173,7 @@ pumpkin-fright-night
 pumpkin-ninja
 pumpkin-wheel
 punch-champions
+punch-king-3d
 punch-superhero
 punch-the-wall
 punch-through
@@ -6556,6 +6578,7 @@ royal-defense
 royal-jelly-jam
 royal-jewels-match
 royal-match-tile-family
+royal-rebellion-punk-magic
 royal-smash-puzzle-game
 rpg-idle-clicker
 rpg-soldier-shooter
@@ -6910,6 +6933,7 @@ sky-track-racing
 sky-wars-battle-of-the-islands
 skyatoms
 skybop
+skybound-adventure
 skybound-dash-crown-rush
 skyfall-siege
 skyfury
@@ -7186,6 +7210,7 @@ space-craft-ship-war
 space-defense-guard-heroes
 space-destroyer
 space-diamond-miner
+space-drift
 space-io
 space-obby
 space-painters-deluxe
@@ -7267,6 +7292,7 @@ splashy-sub
 splatcha
 split
 sponge-challenge
+sponge-jumper
 sponge-strike-clean-and-smash
 spookily-stylish-duo
 spooky-boxing
@@ -7912,6 +7938,7 @@ terrablox
 terraria-playground
 terrifying-zombies-tower-defense-1-game
 terrifying-zombies-tower-defense-ii
+territory-io
 tetra-challenge
 tetradice-merge-and-blast-blocks
 tetromino-attack
@@ -8640,12 +8667,15 @@ wood-color-block
 wood-cutter-clicker
 wood-hexa-factory
 wood-nuts-master-screw-puzzle
+wood-screw
 wood-stair-game
 wooden-blocks-3d-take-it-apart
 wooden-vest
+woodpuz-block-puzzle-games
 woods-of-nevia-forest-survival
 woody-block-puzzles
 woody-cross
+woody-wood-block-puzzle
 woof-foow
 wool-sort-yarn-color-puzzle
 word-associations-solitaire
