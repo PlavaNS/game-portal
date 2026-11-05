@@ -124,7 +124,9 @@
       const cg = c.createConicGradient ? c.createConicGradient(t * 1.2, 0, 0) : null;
       if (cg) { ['#ff4fd8', '#ffcc3d', '#7dff9b', '#46e6ff', '#b77dff', '#ff4fd8'].forEach((h, i) => cg.addColorStop(i / 5, h)); c.strokeStyle = cg; } else c.strokeStyle = col;
     } else c.strokeStyle = col;
-    c.lineWidth = Math.max(2.5, r * .1); c.beginPath(); c.arc(0, 0, r - c.lineWidth / 2, 0, TAU); c.stroke();
+    // the coloured shell shows only when asked (in play: when the dash is charged)
+    if (o.rim !== false) { c.lineWidth = Math.max(2.5, r * .1); c.beginPath(); c.arc(0, 0, r - c.lineWidth / 2, 0, TAU); c.stroke(); }
+    else { c.strokeStyle = 'rgba(160,180,230,.25)'; c.lineWidth = 1.5; c.beginPath(); c.arc(0, 0, r - .75, 0, TAU); c.stroke(); }
     ellipse(c, -r * .36, -r * .46, r * .26, r * .11, -.6, 'rgba(255,255,255,.32)');
     if (s.crown || s.boss) drawHalo(c, r, s, t);
     c.rotate(o.face || 0);
@@ -454,17 +456,11 @@
       if (b.dashT > 0 && !b.falling) {
         // afterimages while dashing
         const sp = Math.hypot(b.vx, b.vy) || 1;
-        for (let i = 3; i >= 1; i--) drawBall(ctx, b.x - b.vx / sp * b.r * .8 * i, b.y - b.vy / sp * b.r * .8 * i, b.r * (1 - i * .06), sk, { face: b.face, expr: 'dash', t: clock, alpha: .32 - i * .08, glow: false });
+        for (let i = 3; i >= 1; i--) drawBall(ctx, b.x - b.vx / sp * b.r * .8 * i, b.y - b.vy / sp * b.r * .8 * i, b.r * (1 - i * .06), sk, { face: b.face, expr: 'dash', t: clock, alpha: .32 - i * .08, glow: false, rim: false });
       }
-      drawBall(ctx, b.x, b.y, b.r * s, sk, { face: b.face, expr: exprOf(b, clock), blink, t: clock, alpha: b.falling ? .4 + s * .6 : 1, glow: false });
-      // one shell at most: the power-up effect, or a ring when the dash is charged
+      // one shell only, and only when the dash is charged
+      drawBall(ctx, b.x, b.y, b.r * s, sk, { face: b.face, expr: exprOf(b, clock), blink, t: clock, alpha: b.falling ? .4 + s * .6 : 1, glow: false, rim: !b.falling && b.dashCd <= 0 && !b.pu });
       if (!b.falling && b.pu) drawPuAura(ctx, b, clock);
-      else if (!b.falling && b.dashCd <= 0) {
-        const col = rimColor(sk, clock);
-        ctx.save(); ctx.strokeStyle = col; ctx.globalAlpha = .25; ctx.lineWidth = 8;
-        ctx.beginPath(); ctx.arc(b.x, b.y, b.r + 7, 0, TAU); ctx.stroke();
-        ctx.globalAlpha = .95; ctx.lineWidth = 2.5; ctx.stroke(); ctx.restore();
-      }
       if (!b.falling && view.freezeBy && view.freezeBy !== b.id) {
         ctx.save(); ctx.globalAlpha = .35; ellipse(ctx, b.x, b.y, b.r, b.r, 0, '#bfefff'); ctx.restore();
       }
