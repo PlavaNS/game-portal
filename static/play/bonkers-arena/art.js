@@ -62,6 +62,8 @@
   };
 
   function ellipse(c, x, y, rx, ry, rot, fill) { c.beginPath(); c.ellipse(x, y, rx, ry, rot || 0, 0, TAU); c.fillStyle = fill; c.fill(); }
+  // blend a hex colour toward white (k>0) or black (k<0)
+  function tone(hex, k) { const n = parseInt(hex.slice(1), 16), t = k > 0 ? 255 : 0, f = Math.abs(k); const m = v => Math.round(v + (t - v) * f); return `rgb(${m(n >> 16)},${m((n >> 8) & 255)},${m(n & 255)})`; }
   function hexA(hex, a) { const n = parseInt(hex.slice(1), 16); return `rgba(${n >> 16},${(n >> 8) & 255},${n & 255},${a})`; }
 
   // ---------- orb ----------
@@ -117,7 +119,9 @@
       c.globalCompositeOperation = 'source-over';
     }
     const body = c.createRadialGradient(-r * .3, -r * .35, r * .05, 0, 0, r);
-    body.addColorStop(0, s.pat === 'smoke' ? '#2b2f3d' : '#2a3566'); body.addColorStop(.72, s.pat === 'smoke' ? '#07080d' : '#0c1230'); body.addColorStop(1, s.holo ? '#3a2a66' : hexA(s.c, .55));
+    // the body itself carries the orb's colour, so every orb is recognisable without a shell
+    const bc = s.holo ? '#b77dff' : s.c;
+    body.addColorStop(0, tone(bc, .45)); body.addColorStop(.55, bc); body.addColorStop(1, tone(bc, -.55));
     c.beginPath(); c.arc(0, 0, r, 0, TAU); c.fillStyle = body; c.fill();
     c.save(); c.clip(); drawPattern(c, r, s, t); c.restore();
     if (s.holo) {
@@ -125,8 +129,8 @@
       if (cg) { ['#ff4fd8', '#ffcc3d', '#7dff9b', '#46e6ff', '#b77dff', '#ff4fd8'].forEach((h, i) => cg.addColorStop(i / 5, h)); c.strokeStyle = cg; } else c.strokeStyle = col;
     } else c.strokeStyle = col;
     // the coloured shell shows only when asked (in play: when the dash is charged)
-    if (o.rim !== false) { c.lineWidth = Math.max(2.5, r * .1); c.beginPath(); c.arc(0, 0, r - c.lineWidth / 2, 0, TAU); c.stroke(); }
-    else { c.strokeStyle = 'rgba(160,180,230,.25)'; c.lineWidth = 1.5; c.beginPath(); c.arc(0, 0, r - .75, 0, TAU); c.stroke(); }
+    if (o.rim !== false) { if (!s.holo) c.strokeStyle = 'rgba(255,255,255,.92)'; c.lineWidth = Math.max(2.5, r * .1); c.beginPath(); c.arc(0, 0, r - c.lineWidth / 2, 0, TAU); c.stroke(); }
+    
     ellipse(c, -r * .36, -r * .46, r * .26, r * .11, -.6, 'rgba(255,255,255,.32)');
     if (s.crown || s.boss) drawHalo(c, r, s, t);
     if (o.front) drawFrontEyes(c, r, s, o);
