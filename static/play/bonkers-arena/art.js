@@ -26,6 +26,8 @@
   for (const s of SKINS) s.price = TIERS[s.tier].price;
   const SEASON = { id: 1, name: 'Season 1: Neon Genesis', ends: '2026-12-31T23:59:59Z' };
   const BOSS = { n: 'Titan', kind: 'magma', c: '#ff3b3b', c2: '#ff9a3b', eye: '#ff3b3b', boss: true, trail: 'fire' };
+  // online team colours
+  const TEAMS = [{ n: 'Red', c: '#ff4d6a' }, { n: 'Blue', c: '#2bb8ff' }, { n: 'Green', c: '#2bff88' }, { n: 'Gold', c: '#ffcc3d' }];
   const PU_COLORS = { shield: '#46e6ff', magnet: '#b77dff', mega: '#ff4d6a', boost: '#7dff9b', freeze: '#bfefff' };
   const skinOf = i => i === 99 ? BOSS : (SKINS[i] || SKINS[0]);
   // only Classic takes a colour (yours from the picker, or a bot's own); other types keep their look
@@ -766,6 +768,8 @@
     for (const b of list) {
       const s = b.falling ? Math.max(0, 1 - b.falling / .55) : 1;
       if (!b.falling) ellipse(ctx, b.x + 3, b.y + b.r * .78, b.r * .85, b.r * .3, 0, 'rgba(0,0,0,.4)');
+      // in team rounds a soft disc in the team colour lies on the floor under each orb
+      if (!b.falling && b.team >= 0 && TEAMS[b.team]) ellipse(ctx, b.x, b.y + b.r * .55, b.r * 1.05, b.r * .42, 0, hexA(TEAMS[b.team].c, .45));
             const sk = skinFor(b);
       if (b.dashT > 0 && !b.falling) {
         // afterimages while dashing
@@ -787,7 +791,7 @@
       ctx.font = `600 ${fs}px "Chakra Petch", "Rajdhani", system-ui, sans-serif`;
       const sk = skinFor(b), ny = b.y - b.r - (sk.boss ? b.r * .45 : 0) - 12;
       ctx.lineWidth = fs * .3; ctx.strokeStyle = 'rgba(3,5,13,.85)'; ctx.strokeText(b.name, b.x, ny);
-      ctx.fillStyle = b.me ? '#ffffff' : rimColor(sk, clock); ctx.fillText(b.name, b.x, ny);
+      ctx.fillStyle = b.me ? '#ffffff' : b.team >= 0 && TEAMS[b.team] ? TEAMS[b.team].c : rimColor(sk, clock); ctx.fillText(b.name, b.x, ny);
       if (b.me) { ctx.fillStyle = '#ffcc3d'; ctx.beginPath(); ctx.moveTo(b.x - 7, ny - fs - 2); ctx.lineTo(b.x + 7, ny - fs - 2); ctx.lineTo(b.x, ny - fs + 7); ctx.closePath(); ctx.fill(); }
     }
     // particles
@@ -857,5 +861,5 @@
     }
   }
 
-  root.Art = { TIERS, SKINS, BOSS, SEASON, THEMES, PELLET_COLORS, PU_COLORS, skinOf, skinFor, drawBall, drawPuIcon, render, happy, starPath };
+  root.Art = { TEAMS, TIERS, SKINS, BOSS, SEASON, THEMES, PELLET_COLORS, PU_COLORS, skinOf, skinFor, drawBall, drawPuIcon, render, happy, starPath };
 })(this);

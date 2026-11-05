@@ -68,7 +68,7 @@
     const mods = Object.assign({ heavy: 0, dash: 0, power: 0, speed: 0, magnet: 0, shield: 0, grow: 0, steady: 0 }, o.mods);
     const r = o.r || START_R + mods.heavy * 4;
     const b = {
-      id: w.nextId++, name: o.name, skin: o.skin | 0, human: !!o.human, col: o.col == null ? -1 : o.col,
+      id: w.nextId++, name: o.name, skin: o.skin | 0, human: !!o.human, col: o.col == null ? -1 : o.col, team: o.team == null ? -1 : o.team,
       x, y, vx: 0, vy: 0, r, tr: r, face: Math.atan2(-y, -x),
       alive: true, falling: 0, dashCd: 0, dashT: 0, dizzy: 0,
       hitBy: 0, hitAt: -9, bonks: 0, place: 0,
@@ -348,7 +348,7 @@
     // hunt a smaller ball
     let best = null, bd = 1e9;
     for (const o of w.balls) {
-      if (o === b || !o.alive || o.falling) continue;
+      if (o === b || !o.alive || o.falling || (b.team >= 0 && o.team === b.team)) continue;
       const d = Math.hypot(o.x - b.x, o.y - b.y);
       if (o.r < b.r * (1.02 + s * 0.15) && d < 220 + s * 200 && d < bd) { bd = d; best = o; }
     }
@@ -368,7 +368,8 @@
     b.falling = 0.0001;
     b.place = w.alive;
     w.alive--;
-    const k = (w.t - b.hitAt < 4) ? byId(w, b.hitBy) : null;
+    let k = (w.t - b.hitAt < 4) ? byId(w, b.hitBy) : null;
+    if (k && b.team >= 0 && k.team === b.team) k = null;
     if (k && k.alive && !k.falling) {
       k.tr = Math.sqrt(k.tr * k.tr + b.r * b.r * 0.55);
       k.bonks++;
@@ -487,6 +488,8 @@
         const ma = a.r * a.r * (a.pu === 'shield' ? 4 : 1) * (1 + 0.3 * a.mods.steady), mb = b.r * b.r * (b.pu === 'shield' ? 4 : 1) * (1 + 0.3 * b.mods.steady);
         a.x -= nx * ov * mb / (ma + mb); a.y -= ny * ov * mb / (ma + mb);
         b.x += nx * ov * ma / (ma + mb); b.y += ny * ov * ma / (ma + mb);
+        // teammates only nudge each other apart: no hits, no knock-outs
+        if (a.team >= 0 && a.team === b.team) continue;
         const rel = (b.vx - a.vx) * nx + (b.vy - a.vy) * ny;
         if (rel >= 0) continue;
         const J = -1.3 * rel / (1 / ma + 1 / mb);
@@ -533,7 +536,17 @@
 
     // end of round
     const standing = bs.filter(b => b.alive && !b.falling);
-    if (standing.length <= 1 || w.t >= lv.time) {
+    if (lv.teams) {
+      // team rounds: the last team with anyone left wins; at the bell, the team with the most balls left (then the most size)
+      const left = new Map();
+      for (const b of standing) { const t = left.get(b.team) || { n: 0, r: 0 }; t.n++; t.r += b.r; left.set(b.team, t); }
+      if (left.size <= 1 || w.t >= lv.time) {
+        const order = [...left.entries()].sort((x, y) => y[1].n - x[1].n || y[1].r - x[1].r).map(e => e[0]);
+        for (const b of bs) { const i = order.indexOf(b.team); b.place = i < 0 ? order.length + 1 : i + 1; }
+        w.over = true; w.winTeam = order.length ? order[0] : -1;
+        w.events.push({ e: 'end', team: w.winTeam });
+      }
+    } else if (standing.length <= 1 || w.t >= lv.time) {
       standing.sort((x, y) => y.r - x.r).forEach((b, i) => { b.place = i + 1; });
       w.over = true;
       w.events.push({ e: 'end', winner: standing[0] ? standing[0].id : 0 });

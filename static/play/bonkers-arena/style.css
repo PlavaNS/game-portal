@@ -281,3 +281,10 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--amber); out
 
 /* the wave goal under the wave title */
 .center-msg small.goal { display: inline-block; margin-top: 12px; padding: 8px 16px; border-radius: 999px; background: rgba(8, 10, 28, .82); font-size: .22em; letter-spacing: .08em; color: #ffcc3d; text-shadow: 0 0 8px rgba(255, 204, 61, .6); }
+
+/* play with friends */
+.friends-btn { border-color: var(--amber); }
+.party-code { font: 700 46px var(--display); letter-spacing: .3em; margin: 6px 0 14px; padding-left: .3em; color: #fff; text-shadow: 0 0 10px var(--amber), 0 0 26px rgba(255, 204, 61, .6); }
+#partyInput { text-transform: uppercase; letter-spacing: .25em; }
+#party .card-head h2 { font-size: 21px; min-width: 0; }
+#party .card { overflow: hidden; }

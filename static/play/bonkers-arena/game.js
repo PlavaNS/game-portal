@@ -469,7 +469,7 @@
   function mySkin() { return skinFor({ skin: save.skin, col: save.color }); }
   function myColor() { return mySkin().c; }
 
-  function startOnline() {
+  function startOnline(party) {
     A.init(); A.startMusic();
     let ws;
     try { ws = new WebSocket(SERVER); } catch (e) { toast('Could not reach the game server.'); return; }
@@ -478,7 +478,7 @@
     parts.length = 0; texts.length = 0; $('feed').innerHTML = '';
     hideScreens(); $('hud').hidden = false; $('windPill').hidden = true;
     $('centerMsg').innerHTML = '<small>Connecting…</small>';
-    ws.onopen = () => ws.send(JSON.stringify({ t: 'join', name: playerName(), skin: save.skin, col: save.color, uid: save.uid, color: myColor() }));
+    ws.onopen = () => ws.send(JSON.stringify({ t: 'join', name: playerName(), skin: save.skin, col: save.color, uid: save.uid, color: myColor(), party: party || null }));
     ws.onmessage = m => onNet(JSON.parse(m.data));
     ws.onclose = () => { if (N && !N.leaving) { toast('Lost connection to the game server.'); goHome(); } };
     ws.onerror = () => { /* onclose follows */ };
@@ -487,7 +487,7 @@
   function onNet(msg) {
     if (!N) return;
     if (msg.t === 'welcome') N.id = msg.id;
-    else if (msg.t === 'roster') { N.names = {}; for (const [id, name, skin, , col] of msg.list) N.names[id] = { name, skin, col }; }
+    else if (msg.t === 'roster') { N.names = {}; for (const [id, name, skin, , col, team] of msg.list) N.names[id] = { name, skin, col, team }; }
     else if (msg.t === 'round') {
       N.lv = msg.lv; N.bumpers = msg.lv.bumpers.map(([x, y, r]) => ({ x, y, r, pulse: 0 }));
       N.resultShown = false; N.snaps.length = 0;
@@ -513,9 +513,9 @@
     const k = a === b ? 1 : (rt - a.at) / (b.at - a.at);
     const prev = {}; for (const r of a.b) prev[r[0]] = r;
     const balls = b.b.map(r => {
-      const p = prev[r[0]] || r, nm = N.names[r[0]] || { name: '???', skin: 0, col: -1 };
+      const p = prev[r[0]] || r, nm = N.names[r[0]] || { name: '???', skin: 0, col: -1, team: -1 };
       return {
-        id: r[0], name: nm.name, skin: nm.skin, col: nm.col, x: p[1] + (r[1] - p[1]) * k, y: p[2] + (r[2] - p[2]) * k,
+        id: r[0], name: nm.name, skin: nm.skin, col: nm.col, team: nm.team == null ? -1 : nm.team, x: p[1] + (r[1] - p[1]) * k, y: p[2] + (r[2] - p[2]) * k,
         vx: (r[1] - p[1]) * 20, vy: (r[2] - p[2]) * 20, r: p[3] + (r[3] - p[3]) * k, face: r[4] / 100,
         dashT: r[5] ? .2 : 0, dashCd: r[6] / 10, falling: r[7] / 100, dizzy: r[8] ? .3 : 0, bonks: r[9],
         pu: Sim.PU_TYPES[r[10]] || '', puT: r[11] / 10, me: r[0] === N.id,
@@ -541,7 +541,9 @@
     if (N.ph === 'wait') {
       const sec = Math.ceil(N.cd);
       if (sec !== N.lastBeep && sec <= 3) { N.lastBeep = sec; A.play('beep', sec <= 0); if (sec > 0) A.announce(['', 'one', 'two', 'three'][sec], 3); }
-      cm.innerHTML = sec > 3 ? `<small>Next round in ${sec}…</small>` : `${Math.max(1, sec)}<small>Online Arena</small>`;
+      const myTeam = N.names[N.id] && Art.TEAMS[N.names[N.id].team];
+      const teamTag = myTeam ? `<small class="goal" style="color:${myTeam.c}">You are team ${myTeam.n}</small>` : '';
+      cm.innerHTML = sec > 3 ? `<small>Next round in ${sec}…</small>${teamTag}` : `${Math.max(1, sec)}<small>Last team standing wins</small>${teamTag}`;
     } else if (N.ph === 'play') {
       if (!N.inRound) cm.innerHTML = '<small>Watching… you play in the next round</small>';
       else if (N.lastBeep === 1) { A.play('beep', true); A.announce('go', 3); N.lastBeep = 0; N.goUntil = now + 700; cm.textContent = 'GO!'; }
@@ -552,15 +554,16 @@
   function onlineResult(res) {
     const mine = res.find(r => r[0] === N.id);
     if (!mine) return;
-    const [, place, bonks] = mine;
-    const coins = bonks * 5 + (place === 1 ? 25 : place <= 3 ? 10 : 2);
+    const [, place, bonks, team, winTeam] = mine;
+    const coins = bonks * 5 + (place === 1 ? 25 : place === 2 ? 10 : 2);
+    const won = team === winTeam, winner = Art.TEAMS[winTeam];
     save.coins += coins; refreshCoins();
     quest('online', 1);
     if (place === 1) { quest('win', 1); A.play('win'); A.voice('yay', 600, 1); } else A.play('lose');
     store();
     showResult({
-      title: place === 1 ? 'Champion!' : `${ordinal(place)} place!`, win: place === 1,
-      stats: [['Place', '#' + place], ['Bonks', bonks], ['Coins', '+' + coins]], coins, note: 'The next round starts in a few seconds.',
+      title: won ? 'Your team won!' : winner ? `Team ${winner.n} won` : 'Round over', win: won,
+      stats: [['Team place', '#' + place], ['Bonks', bonks], ['Coins', '+' + coins]], coins, note: 'The next round starts in a few seconds.',
       main: 'Keep playing', retry: null,
       actions: { main: hideScreens, retry: hideScreens, home: goHome },
     });
@@ -672,7 +675,7 @@
   function renderHome() {
     if (D.refresh(save, onlineAvailable())) store();
     $('nameInput').value = save.name;
-    $('onlineBtn').hidden = !onlineAvailable();
+    $('onlineBtn').hidden = $('friendsBtn').hidden = !onlineAvailable();
     const best = save.best;
     const sub = $('playBtn').querySelector('.pb-sub');
     sub.hidden = !(best && best.score); sub.textContent = sub.hidden ? '' : `Best ${best.score} · wave ${best.wave}`;
@@ -822,7 +825,35 @@
   for (const id of ['musicBtn', 'musicBtn2']) $(id).onclick = () => { A.init(); A.startMusic(); save.music = !save.music; store(); syncToggles(); };
 
   $('playBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); playerName(); startRun(); };
-  $('onlineBtn').onclick = () => { A.init(); A.play('click'); playerName(); startOnline(); };
+  $('onlineBtn').onclick = () => { A.init(); A.play('click'); playerName(); startOnline(null); };
+
+  // ---------- play with friends: an invite code puts everyone who uses it in one team ----------
+  let partyCode = '';
+  const CODE_CHARS = 'ABCDEFGHJKMNPQRSTUVWXYZ23456789';
+  const newCode = () => Array.from(crypto.getRandomValues(new Uint8Array(5)), v => CODE_CHARS[v % CODE_CHARS.length]).join('');
+  const inviteUrl = code => location.href.split(/[?#]/)[0] + '?team=' + code;
+  function openParty(code, invited) {
+    partyCode = code;
+    $('partyCode').textContent = code;
+    $('partyTitle').textContent = invited ? "You're invited!" : 'Play with friends';
+    $('partyNote').textContent = invited ? 'A friend invited you to their team. Tap Play together to join them.' : 'Send the invite to your friends. Everyone who opens it plays in your team, against the other teams.';
+    $('partyInput').value = '';
+    showScreen('party');
+  }
+  $('friendsBtn').onclick = () => { A.init(); A.play('click'); openParty(partyCode || newCode(), false); };
+  $('partyInvite').onclick = async () => {
+    A.play('click');
+    const url = inviteUrl(partyCode), text = `Join my team in Bonkers Arena! Code ${partyCode}`;
+    if (navigator.share) { try { await navigator.share({ title: 'Bonkers Arena', text, url }); return; } catch (e) { if (e.name === 'AbortError') return; } }
+    try { await navigator.clipboard.writeText(url); toast('Invite link copied. Send it to your friends!'); }
+    catch (e) { toast(`Your team code: ${partyCode}`); }
+  };
+  $('partyPlay').onclick = () => { A.init(); A.play('click'); playerName(); startOnline(partyCode); };
+  $('partyJoin').onclick = () => {
+    const code = $('partyInput').value.toUpperCase().replace(/[^A-Z0-9]/g, '');
+    if (code.length !== 5) { toast('A team code has 5 letters and numbers.'); return; }
+    A.init(); A.play('click'); partyCode = code; playerName(); startOnline(code);
+  };
   $('shopBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); renderShop(); showScreen('shop'); };
   $('dailyBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); renderDaily(); showScreen('daily'); };
   $('topBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); openTop(); };
@@ -854,6 +885,9 @@
     newDemo();
     renderHome();
     showScreen('home');
+    // opened from a friend's invite link
+    const invite = (new URLSearchParams(location.search).get('team') || '').toUpperCase();
+    if (/^[A-Z0-9]{5}$/.test(invite) && onlineAvailable()) openParty(invite, true);
     requestAnimationFrame(t => { frame(t); P.gameReady(); });
   }
   boot().catch(e => {
