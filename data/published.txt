@@ -530,6 +530,7 @@ ball-dispensor-puzzle
 ball-escape-puzzle
 ball-io
 ball-jump-switch-the-colors
+ball-jumping
 ball-packing-master-puzzle-fill-box
 ball-path-through-obstacles
 ball-run-2048-space
@@ -679,6 +680,7 @@ betweenmarine
 bff-christmas-cookie-challenge
 bffs-golden-hour
 bffs-k-pop-fangirls
+bffs-kidcore-outfits
 bffs-unique-halloween-costumes
 bicycle-mountain-xtreme
 bicycle-stunt-racing-game-3d
@@ -735,6 +737,7 @@ birdy-mad-throw
 birdy-trip
 biryani-cooking-indian-super-chef-food-game
 bitbanda
+bitcoin-io
 black-and-white-2
 black-ball
 black-friday-dress-up-selfie
@@ -1162,6 +1165,7 @@ bus-driver-simulator-3d
 bus-driving-master-3d
 bus-escape-clear-jam
 bus-jam
+bus-jam-escape
 bus-jam-pick-up-them-all
 bus-jam-sort
 bus-jam-sort-escape
@@ -1198,6 +1202,7 @@ cake-ready
 cake-shop-cafe-pastries-and-waffles-cooking-game
 cake-slice-match
 cake-sort
+cake-sorting-deluxe
 cake-stack
 call-of-bravery-shooter
 call-of-modern-world-war
@@ -1494,6 +1499,7 @@ chicken-merge
 chicken-merge-2
 chicken-yeet
 chickz-stack
+childcare-master-online
 children-doctor-dentist-2-surgery-game
 chill-tic-tac-toe
 chillpaths
@@ -1852,6 +1858,7 @@ crazy-car-drive-road-challenge
 crazy-car-driving-3d-simulator
 crazy-cart
 crazy-christmas-fun-2
+crazy-color-balls-2
 crazy-cone-sweeper
 crazy-difficult-game
 crazy-downhill-ragdoll-fall-down
@@ -2641,6 +2648,7 @@ fair-blocks
 fairies-heart-style
 fake-hunter
 fake-ninjas
+falcon-dogfight
 fall-aesthetics
 fall-ball-idle
 fall-beans-game
@@ -2723,6 +2731,7 @@ feed-my-monster
 feed-them-all
 feeding-a-black-hole
 fever-cubes-drop-number-2048
+fide-the-hole
 fidget-pop-online
 fidget-spinner-creator
 fidget-toy-pop-it-game
@@ -3037,6 +3046,7 @@ fruit-madness
 fruit-mahjong
 fruit-match-3-championship
 fruit-match-juicy-puzzle-2
+fruit-memory-extravaganza
 fruit-merge-2048-juicy-puzzle
 fruit-merge-arena
 fruit-merge-juice-jumble
@@ -3815,6 +3825,7 @@ idle-defense-grid
 idle-desert-life
 idle-factory-game-tycoon
 idle-game-dev-simulator
+idle-game-prison-life
 idle-gold-miner
 idle-gravity-breakout
 idle-hotel-empire-tycoon
@@ -4206,6 +4217,7 @@ letter-boom-blast-rush
 letter-layout-coloring
 letterhold
 level-once-again
+level-rotator
 life-of-a-tree
 lifebuoy-planing
 lifecode
@@ -4262,6 +4274,7 @@ loaf-clicker
 locked-in-grandma-s-basement-2-revenge-horror-escape
 log-flyer-grandpa-takes-off
 log-splash
+logic-islands
 logic-pro-neon-edition
 logic-storm-animals-puzzle
 logic-vault
@@ -4375,6 +4388,7 @@ mahjong-chef
 mahjong-classic
 mahjong-connect-classic
 mahjong-connect-spooky
+mahjong-fruit-3d
 mahjong-lines
 mahjong-master-challenge
 mahjong-master-tile-sort-and-match
@@ -4889,6 +4903,7 @@ moving-balls-going-sphere
 moving-magnet
 mowmentum
 mr-and-mrs-santa-christmas-adventure
+mr-autofire
 mr-bean-3d-jigsaw
 mr-bean-hidden-stars
 mr-been-puzzle-time
@@ -5376,10 +5391,12 @@ orbit-rush-3d
 orbit-shift
 orbit-tap-rush-one-tap-game
 orbital
+orbitdefense
 orc-breach
 order-of-operation-challenge
 organizer-master
 origin
+otr-off-road-driving
 outbreak-ops
 outer-planet
 outfit-love-queen
@@ -5505,6 +5522,7 @@ penguin-adventure-2
 penguin-run-adventure-game
 penguin-splash
 pentablocks
+pentaword
 people-blaster
 people-drop-away-game
 people-playground-ragdoll-arena
@@ -5541,6 +5559,7 @@ pga5
 phone-case-diy
 phone-case-diy-2
 phone-case-diy-kpop-fans
+physical-ball
 physics-box-2
 physics-electro-magnetism-quiz
 physics-heat-temperatuie-quiz
@@ -5843,6 +5862,7 @@ punch-champions
 punch-superhero
 punch-the-wall
 punch-through
+punching-excavator-breakdown
 punchmaster
 puppet-killer
 puppy-pet-vet-care
@@ -5890,6 +5910,7 @@ quick-cards
 quick-draw-cowboys
 quick-math
 quick-maths
+quick-shot
 quicksolve
 quiz-education
 quiz-guess-the-country
@@ -6105,6 +6126,7 @@ rise-up-hero
 rise-zombies
 rivals-fps-online-shooter
 road-chase-shooter-realistic-guns
+road-crosser
 road-designer
 road-fighter-endless-car-racing
 road-fury-racing
@@ -6446,6 +6468,7 @@ shape-jam
 shape-merge-run
 shape-puzzle
 shape-shift-survival
+shape-shifting-race-game
 shape-switch
 shape-transform
 shape-transform-race
@@ -7153,6 +7176,7 @@ stock-car-hero
 stone-shooter
 stonks
 stop-the-lock
+stop-zombies
 storky-survivors
 storm-dash
 storm-fighter007
@@ -7362,6 +7386,7 @@ swat-and-greens-vs-zombies
 swat-cats
 swat-ops-body-camera
 sway-tower-builder
+sweet-and-fruity-makeup
 sweet-baby-taylor-summer-travel
 sweet-bite-idle-game
 sweet-cake-shop-game
@@ -7419,6 +7444,7 @@ tank-1944
 tank-arena
 tank-arena-multiplayer
 tank-arena-steel-battle
+tank-attack-2
 tank-craft-2
 tank-craft-merge
 tank-force-battle-game
@@ -7446,6 +7472,7 @@ tanks-of-war-halloween
 tap-3d-wood-block-away
 tap-away-block-puzzle-3d
 tap-basket
+tap-cute-animals
 tap-gallery
 tap-hunters
 tap-me
@@ -7548,6 +7575,7 @@ the-last-adventure
 the-last-company
 the-last-shot
 the-lava-escape
+the-long-drive
 the-long-way-home
 the-lost-joystick
 the-lost-labyrinth
@@ -7642,6 +7670,7 @@ tile-pop-block-blast
 tile-sort-color-columns
 tile-stack
 tile-stack-mahjong
+tile-stamper
 tile-tumble-fun-4-in-1
 tile-valley
 tiles-collect-3-fruits
@@ -7674,6 +7703,7 @@ tip-candy-puzzle
 tip-master-wine
 tnt-sandbox
 to-fu-girl
+toca-avatar-my-house
 toca-coloring-book
 toca-hidden-stars
 toca-life-adventure
