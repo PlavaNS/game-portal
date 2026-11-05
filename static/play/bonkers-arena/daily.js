@@ -2,7 +2,7 @@
 (function (root) {
   const POOL = [
     { id: 'bonk', text: n => `Bonk ${n} orbs into the void`, ns: [4, 7, 10] },
-    { id: 'win', text: n => `Win ${n} ${n > 1 ? 'rounds' : 'round'}`, ns: [1, 2, 3] },
+    { id: 'win', text: n => `Clear ${n} ${n > 1 ? 'waves' : 'wave'}`, ns: [2, 4, 6] },
     { id: 'eat', text: n => `Collect ${n} energy cubes`, ns: [50, 90, 140] },
     { id: 'pu', text: n => `Grab ${n} power-ups`, ns: [3, 5, 8] },
     { id: 'dash', text: n => `Dash ${n} times`, ns: [20, 35, 50] },

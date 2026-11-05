@@ -18,6 +18,8 @@
 <div id="hud" hidden>
   <div class="hud-tl">
     <button class="icon-btn" id="pauseBtn" aria-label="Pause">II</button>
+    <span class="pill" id="wavePill" hidden><i>WAVE</i><span id="waveNum">1</span></span>
+    <span class="pill" id="scorePill" hidden><i>SCORE</i><span id="scoreNum">0</span></span>
     <span class="pill"><i>TIME</i><span id="time">2:00</span></span>
     <span class="pill"><i>LEFT</i><span id="alive">0</span></span>
     <span class="pill" id="windPill" hidden><i id="windArrow">➜</i>SOLAR WIND</span>
@@ -46,13 +48,11 @@
     <button class="hero" id="heroBtn" aria-label="Change skin">
       <canvas id="heroBall" width="320" height="260" aria-hidden="true"></canvas>
       <span class="hero-name" id="heroSkin">Cyan</span>
-      <span class="hero-hint">tap to change skin</span>
     </button>
     <div class="name-row">
       <input id="nameInput" maxlength="14" autocomplete="off" spellcheck="false" aria-label="Your name">
-      <button class="round-btn dice" id="diceBtn" aria-label="Random name">🎲</button>
     </div>
-    <button class="play-btn" id="levelsBtn"><span class="pb-main">PLAY</span><span class="pb-sub">11 levels · solo</span></button>
+    <button class="play-btn" id="playBtn"><span class="pb-main">PLAY</span><span class="pb-sub">Endless · how far can you go?</span></button>
     <button class="online-btn" id="onlineBtn"><span class="live-dot"></span>PLAY ONLINE<span class="pb-sub">12 players per arena</span></button>
   </div>
 
@@ -63,12 +63,12 @@
   </nav>
 </section>
 
-<!-- Levels -->
-<section class="screen" id="levels" hidden>
+<!-- Perk pick between waves -->
+<section class="screen" id="perks" hidden>
   <div class="card wide">
-    <div class="card-head"><button class="icon-btn" data-go="home" aria-label="Back">←</button><h2>Levels</h2><span class="stars-total" id="starsTotal">★ 0/30</span></div>
-    <button class="season-level" id="seasonLevel"></button>
-    <div class="level-grid" id="levelGrid"></div>
+    <p class="result-title win" id="perkTitle">Wave cleared!</p>
+    <p class="hint" id="perkNote"></p>
+    <div class="perk-grid" id="perkGrid"></div>
   </div>
 </section>
 
@@ -76,6 +76,8 @@
 <section class="screen" id="shop" hidden>
   <div class="card wide">
     <div class="card-head"><button class="icon-btn" data-go="home" aria-label="Back">←</button><h2>Skins</h2><span class="coins-inline"><span class="coin"></span><span class="coinCount">0</span></span></div>
+    <div class="section-label">Your colour</div>
+    <div class="color-row" id="colorRow"></div>
     <div class="season-head" id="seasonHead"></div>
     <div class="skin-grid" id="seasonGrid"></div>
     <div class="section-label">All skins</div>
@@ -117,12 +119,7 @@
 <section class="screen" id="result" hidden>
   <div class="card">
     <p class="result-title" id="resTitle">You won!</p>
-    <div class="stars" id="resStars"></div>
-    <div class="stats">
-      <div>Place<b id="resPlace">#1</b></div>
-      <div>Bonks<b id="resBonks">0</b></div>
-      <div>Coins<b id="resCoins">+0</b></div>
-    </div>
+    <div class="stats" id="resStats"></div>
     <p class="hint" id="resNote"></p>
     <div class="btn-col">
       <button class="btn amber" id="resDouble" hidden>Watch ad · double coins</button>
@@ -143,7 +140,7 @@
     </div>
     <div class="btn-col">
       <button class="btn big" id="resumeBtn">Resume</button>
-      <button class="btn cyan" id="restartBtn">Restart</button>
+      <button class="btn cyan" id="restartBtn">Start over</button>
       <button class="btn ghost" id="quitBtn">Home</button>
     </div>
   </div>

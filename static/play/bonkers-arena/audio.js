@@ -168,6 +168,7 @@
     bonk(pow) {
       const t = ctx.currentTime, v = .25 + pow * .3;
       osc('sine', 180, 48, t, .22, v, sfxBus);
+      osc('sine', 95, 38, t, .3, v * .7, sfxBus);
       osc('square', 900 + Math.random() * 300, 260, t, .09, v * .25, sfxBus, { lp: 3000 });
       noise(t, .06, 5000, 2000, 1, v * .3, 'highpass', sfxBus);
     },
@@ -183,6 +184,27 @@
     click() { osc('triangle', 1500, 1000, ctx.currentTime, .035, .08, sfxBus); },
     beep(go) { osc('square', go ? 1318 : 659, 0, ctx.currentTime, go ? .4 : .14, .07, sfxBus, { lp: 3000 }); },
     coin() { const t = ctx.currentTime; osc('square', 1568, 0, t, .07, .04, sfxBus); osc('square', 2093, 0, t + .07, .18, .04, sfxBus); },
+    // new wave: rising whoosh and three climbing notes
+    wave() {
+      const t = ctx.currentTime;
+      noise(t, .9, 300, 5000, 1.5, .12, 'bandpass', sfxBus);
+      [55, 59, 62].forEach((n, i) => osc('sawtooth', hz(n + 12), 0, t + .25 + i * .14, .3, .05, sfxBus, { lp: 2500, send: true }));
+      osc('sine', 60, 40, t + .7, .5, .25, sfxBus);
+    },
+    // wave cleared: bright fanfare chord
+    clear() {
+      const t = ctx.currentTime;
+      [64, 68, 71, 76].forEach((n, i) => osc('sawtooth', hz(n + 12), 0, t + i * .08, .5, .055, sfxBus, { lp: 3500, send: true }));
+      [64, 68, 71].forEach(n => osc('triangle', hz(n), 0, t + .35, .9, .06, sfxBus, { a: .03 }));
+      noise(t + .35, .5, 6000, 9000, 1, .05, 'highpass', sfxBus);
+    },
+    perk() { const t = ctx.currentTime; [88, 92, 95, 100].forEach((n, i) => osc('triangle', hz(n), 0, t + i * .05, .18, .05, sfxBus)); },
+    over() {
+      const t = ctx.currentTime;
+      [67, 63, 60, 55].forEach((n, i) => osc('sawtooth', hz(n), hz(n) * .96, t + i * .18, .4, .065, sfxBus, { lp: 1600 }));
+      osc('sine', 80, 30, t + .7, .7, .3, sfxBus);
+    },
+    ko() { const t = ctx.currentTime; osc('sine', 140, 32, t, .5, .32, sfxBus); noise(t, .35, 2500, 300, .8, .12, 'lowpass', sfxBus); },
     win() { const t = ctx.currentTime; [64, 67, 71, 76, 79].forEach((n, i) => osc('sawtooth', hz(n + 12), 0, t + i * .1, .4, .07, sfxBus, { lp: 3500, send: true })); },
     lose() { const t = ctx.currentTime; [71, 67, 64, 59].forEach((n, i) => osc('sawtooth', hz(n), hz(n) * .97, t + i * .15, .35, .07, sfxBus, { lp: 1800 })); },
   };

@@ -59,14 +59,15 @@
       x = Math.cos(a) * d; y = Math.sin(a) * d;
       if (!w.balls.some(b => Math.hypot(b.x - x, b.y - y) < 90) && !w.bumpers.some(b => Math.hypot(b.x - x, b.y - y) < 80)) break;
     }
-    const r = o.r || START_R;
+    const mods = Object.assign({ heavy: 0, dash: 0, power: 0, speed: 0, magnet: 0, shield: 0, grow: 0, steady: 0 }, o.mods);
+    const r = o.r || START_R + mods.heavy * 4;
     const b = {
       id: w.nextId++, name: o.name, skin: o.skin | 0, human: !!o.human, col: o.col == null ? -1 : o.col,
       x, y, vx: 0, vy: 0, r, tr: r, face: Math.atan2(-y, -x),
       alive: true, falling: 0, dashCd: 0, dashT: 0, dizzy: 0,
       hitBy: 0, hitAt: -9, bonks: 0, place: 0,
       skill: o.skill == null ? w.lv.skill : o.skill, boss: !!o.boss,
-      pu: '', puT: 0,
+      pu: '', puT: 0, mods,
       ai: { t: 0, a: 0, p: 0, prey: 0, rescue: false },
     };
     w.balls.push(b);
@@ -107,8 +108,9 @@
     }
   }
 
-  function setupLevel(w, playerName, playerSkin, playerColor) {
-    const me = addBall(w, { name: playerName, skin: playerSkin, human: true });
+  function setupLevel(w, playerName, playerSkin, playerColor, mods) {
+    const me = addBall(w, { name: playerName, skin: playerSkin, human: true, mods });
+    if (me.mods.shield) { me.pu = 'shield'; me.puT = 2 + me.mods.shield * 2; }
     me.x = 0; me.y = -(w.lv.hole ? w.lv.hole + 90 : (w.lv.blockers && w.lv.blockers.some(b => b.k === 'sweep') ? 220 : 0));
     if (w.lv.boss) addBall(w, { name: 'Titan', skin: 99, r: 62, boss: true, skill: 0.7 });
     fillBots(w, 1 + w.lv.bots + (w.lv.boss ? 1 : 0), [playerColor]);
@@ -166,13 +168,14 @@
     if (b.dashCd > 0 || !b.alive || b.falling) return;
     const sp = 520 * Math.pow(START_R / b.r, 0.25);
     b.vx += Math.cos(b.face) * sp; b.vy += Math.sin(b.face) * sp;
-    b.dashCd = b.pu === 'boost' ? DASH_CD * 0.45 : DASH_CD; b.dashT = 0.35;
+    b.dashCd = (b.pu === 'boost' ? DASH_CD * 0.45 : DASH_CD) * Math.pow(0.8, b.mods.dash); b.dashT = 0.35;
     w.events.push({ e: 'dash', id: b.id, x: b.x, y: b.y });
   }
 
   function accelOf(w, b) {
     let a = 950 / (1 + (b.r - START_R) / 45);
     if (b.pu === 'boost') a *= 1.6;
+    a *= 1 + 0.15 * b.mods.speed;
     if (w.freezeT > 0 && w.freezeBy !== b.id) a *= 0.45;
     return a;
   }
@@ -338,13 +341,13 @@
         const dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy), m = a.r + b.r;
         if (d >= m || d === 0) continue;
         const nx = dx / d, ny = dy / d, ov = m - d;
-        const ma = a.r * a.r * (a.pu === 'shield' ? 4 : 1), mb = b.r * b.r * (b.pu === 'shield' ? 4 : 1);
+        const ma = a.r * a.r * (a.pu === 'shield' ? 4 : 1) * (1 + 0.3 * a.mods.steady), mb = b.r * b.r * (b.pu === 'shield' ? 4 : 1) * (1 + 0.3 * b.mods.steady);
         a.x -= nx * ov * mb / (ma + mb); a.y -= ny * ov * mb / (ma + mb);
         b.x += nx * ov * ma / (ma + mb); b.y += ny * ov * ma / (ma + mb);
         const rel = (b.vx - a.vx) * nx + (b.vy - a.vy) * ny;
         if (rel >= 0) continue;
         const J = -1.3 * rel / (1 / ma + 1 / mb);
-        const pa = (a.dashT > 0 ? 1.5 : 1) * (a.pu === 'mega' ? 1.8 : 1), pb = (b.dashT > 0 ? 1.5 : 1) * (b.pu === 'mega' ? 1.8 : 1);
+        const pa = (a.dashT > 0 ? 1.5 : 1) * (a.pu === 'mega' ? 1.8 : 1) * (1 + 0.2 * a.mods.power), pb = (b.dashT > 0 ? 1.5 : 1) * (b.pu === 'mega' ? 1.8 : 1) * (1 + 0.2 * b.mods.power);
         a.vx -= J / ma * nx * pb; a.vy -= J / ma * ny * pb;
         b.vx += J / mb * nx * pa; b.vy += J / mb * ny * pa;
         const ka = 35 * pb * Math.min(2, b.r / a.r), kb = 35 * pa * Math.min(2, a.r / b.r);
@@ -358,10 +361,11 @@
 
     // pellets (magnets pull them in)
     for (const b of bs) {
-      if (b.pu !== 'magnet' || !b.alive || b.falling) continue;
+      if ((b.pu !== 'magnet' && !b.mods.magnet) || !b.alive || b.falling) continue;
+      const reach = b.pu === 'magnet' ? 220 : 80 + 40 * b.mods.magnet, pull = b.pu === 'magnet' ? 300 : 180;
       for (const p of w.pellets) {
         const dx = b.x - p.x, dy = b.y - p.y, d = Math.hypot(dx, dy);
-        if (d < 220 && d > 1) { p.x += dx / d * 300 * dt; p.y += dy / d * 300 * dt; }
+        if (d < reach && d > 1) { p.x += dx / d * pull * dt; p.y += dy / d * pull * dt; }
       }
     }
     for (let i = w.pellets.length - 1; i >= 0; i--) {
@@ -370,7 +374,7 @@
       for (const b of bs) {
         if (!b.alive || b.falling) continue;
         if (Math.hypot(p.x - b.x, p.y - b.y) < b.r + 4) {
-          b.tr = Math.sqrt(b.tr * b.tr + PELLET_GAIN);
+          b.tr = Math.sqrt(b.tr * b.tr + PELLET_GAIN * (1 + 0.5 * b.mods.grow));
           w.pellets.splice(i, 1);
           w.events.push({ e: 'eat', id: b.id, x: p.x, y: p.y, k: p.k });
           break;
@@ -389,6 +393,29 @@
     }
   }
 
+  // ---------- endless mode ----------
+  // Wave n uses an arena from LEVELS (first in a fixed order, later at random); every 5th wave brings the Titan.
+  const WAVE_ORDER = [0, 1, 2, 3, 7, 4, 5, 6, 8, 9, 10];
+  function makeWave(n) {
+    const tpl = n <= WAVE_ORDER.length ? LEVELS[WAVE_ORDER[n - 1]] : LEVELS[(Math.random() * LEVELS.length) | 0];
+    const boss = n % 5 === 0;
+    const bots = Math.min(2 + n, 14) - (boss ? 1 : 0);
+    const rMax = Math.max(tpl.rMax, 300 + bots * 26);
+    return Object.assign({}, tpl, { id: n, wave: n, bots, boss, skill: Math.min(0.05 + 0.06 * n, 0.9), time: 40 + Math.min(n * 3, 35), rMax, rMin: Math.max(tpl.rMin, rMax * (n < 4 ? 0.6 : 0.45)) });
+  }
+
+  // Perks picked between waves; each can be taken up to 3 times.
+  const PERKS = {
+    heavy: { name: 'Heavy Core', text: 'Start every wave bigger and heavier.' },
+    dash: { name: 'Quick Dash', text: 'Dash recharges 20% faster.' },
+    power: { name: 'Power Hit', text: 'Your hits push 20% harder.' },
+    speed: { name: 'Turbo', text: 'Roll 15% faster.' },
+    magnet: { name: 'Cube Magnet', text: 'Energy cubes fly to you.' },
+    shield: { name: 'Spawn Shield', text: 'Start every wave with a shield.' },
+    grow: { name: 'Big Appetite', text: 'Cubes make you grow 50% more.' },
+    steady: { name: 'Steady', text: 'Hits push you 30% less.' },
+  };
+
   // Stars for a finished level: win = 1, plus bonks.
   function starsFor(lv, me) {
     if (me.place !== 1) return 0;
@@ -396,6 +423,6 @@
     return me.bonks >= need ? 3 : me.bonks >= Math.ceil(need / 2) ? 2 : 1;
   }
 
-  const api = { LEVELS, ONLINE, BOT_NAMES, COLORS, START_R, DASH_CD, PU_TYPES, PU_TIME, blockerPose, createWorld, addBall, fillBots, setupLevel, step, byId, starsFor };
+  const api = { LEVELS, ONLINE, makeWave, PERKS, BOT_NAMES, COLORS, START_R, DASH_CD, PU_TYPES, PU_TIME, blockerPose, createWorld, addBall, fillBots, setupLevel, step, byId, starsFor };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Sim = api;
 })(this);

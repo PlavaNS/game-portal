@@ -208,3 +208,20 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--amber); out
 .dock-btn .badge { top: -7px; right: -5px; }
 @media (max-height: 700px) { #heroBall { width: 160px; } .hero-hint { display: none; } .screen.home .logo { font-size: 48px; } }
 .hero-name, .hero-hint { text-shadow: 0 0 6px #04060f, 0 0 12px #04060f, 0 0 18px #04060f; position: relative; }
+
+/* perk pick between waves */
+.perk-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin-top: 14px; }
+@media (max-width: 560px) { .perk-grid { grid-template-columns: 1fr; } }
+.perk { border: 1px solid rgba(125, 255, 155, .45); border-radius: 14px; background: rgba(4, 8, 24, .75); color: var(--text); padding: 14px 10px; display: flex; flex-direction: column; align-items: center; gap: 6px; cursor: pointer; box-shadow: 0 0 16px rgba(125, 255, 155, .18); transition: transform .1s, box-shadow .15s; font-family: var(--body); }
+.perk:hover { box-shadow: 0 0 26px rgba(125, 255, 155, .45); transform: translateY(-2px); }
+.perk:active { transform: scale(.97); }
+.perk svg { width: 40px; height: 40px; fill: none; stroke: var(--lime); stroke-width: 1.8; stroke-linecap: round; stroke-linejoin: round; filter: drop-shadow(0 0 6px rgba(125, 255, 155, .7)); }
+.perk b { font: 700 19px var(--display); letter-spacing: .04em; }
+.perk span { color: var(--muted); font-size: 15px; line-height: 1.3; }
+.perk small { color: var(--lime); letter-spacing: 4px; font-size: 13px; }
+
+/* colour picker in the shop */
+.color-row { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 14px; }
+.swatch { width: 36px; height: 36px; border-radius: 50%; cursor: pointer; border: 3px solid var(--sw); background: radial-gradient(circle at 35% 35%, #2a3566, #0c1230 70%); box-shadow: 0 0 10px color-mix(in srgb, var(--sw) 60%, transparent); }
+.swatch.orig { background: conic-gradient(from 0deg, var(--sw) 0 50%, #0c1230 50%); }
+.swatch.on { outline: 2px solid #fff; outline-offset: 3px; }

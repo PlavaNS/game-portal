@@ -6,7 +6,7 @@
   const { SKINS, SEASON, skinOf, skinFor, drawBall, PELLET_COLORS, PU_COLORS } = window.Art;
 
   // ---------- save (stored through the portal SDK) ----------
-  const save = { uid: '', name: '', coins: 0, skin: 0, owned: [0, 1, 2, 3], stars: {}, sfx: true, music: true, daily: null, streak: null };
+  const save = { uid: '', name: '', coins: 0, skin: 0, color: -1, owned: [0, 1, 2, 3], best: null, sfx: true, music: true, daily: null, streak: null };
   function store() { P.save(save); }
 
   // ---------- canvas ----------
@@ -183,7 +183,8 @@
           if (v) floatText(v.x, v.y - v.r - 10, 'KO!', '#ff4fd8', 34);
           if (b) floatText(b.x, b.y - b.r - 30, '+5', '#ffcc3d', 22);
           screenFlash(colorOf(view, meId), .12); shake = Math.max(shake, 9);
-          A.play('coin'); quest('bonk', 1);
+          A.play('coin'); A.play('ko'); quest('bonk', 1);
+          if (run && mode === 'level') { run.kos++; run.score += 25; }
         }
       } else if (ev.e === 'splash') {
         const col = colorOf(view, ev.id);
@@ -228,18 +229,31 @@
   function showScreen(id) { for (const s of document.querySelectorAll('.screen')) s.hidden = s.id !== id; }
   function hideScreens() { for (const s of document.querySelectorAll('.screen')) s.hidden = true; }
 
-  function startLevel(n) {
+  // ---------- endless run: waves until you fall ----------
+  let run = null;
+
+  function startRun() {
+    run = { wave: 0, score: 0, kos: 0, coins: 0, mods: {}, continued: false };
+    nextWave();
+  }
+
+  function nextWave() {
     A.init(); A.startMusic();
-    const lv = Sim.LEVELS[n - 1];
+    run.wave++;
+    const lv = Sim.makeWave(run.wave);
     const w = Sim.createWorld(lv);
-    const me = Sim.setupLevel(w, playerName(), save.skin, myColor());
-    L = { n, lv, w, me, cd: 3.6, shown: false, lastBeep: 4 };
+    const me = Sim.setupLevel(w, playerName(), save.skin, myColor(), run.mods);
+    me.col = save.color;
+    L = { n: run.wave, lv, w, me, cd: 3.4, shown: false, lastBeep: 4 };
     mode = 'level'; paused = false; slowUntil = 0;
     parts.length = 0; texts.length = 0; $('feed').innerHTML = '';
     cam.x = me.x; cam.y = me.y;
     hideScreens(); $('hud').hidden = false;
     $('windPill').hidden = !lv.wind;
-    P.levelStarted(n);
+    // every orb beams down onto the platform
+    for (const b of w.balls) { const c = skinFor(b).c; fx(b.x, b.y, 'beam', c, 220, .9); fx(b.x, b.y, 'ring', c, 60, .6); }
+    A.play('wave');
+    P.levelStarted(run.wave);
   }
 
   function updateLevel(dt) {
@@ -248,7 +262,7 @@
       L.cd -= dt;
       const sec = Math.ceil(L.cd - .6);
       if (sec !== L.lastBeep) { L.lastBeep = sec; A.play('beep', sec <= 0); }
-      $('centerMsg').innerHTML = sec > 0 ? `${sec}<small>Level ${L.n} · ${esc(L.lv.name)}</small>` : 'GO!';
+      $('centerMsg').innerHTML = sec > 0 ? `WAVE ${run.wave}<small>${esc(L.lv.name)}${L.lv.boss ? ' · TITAN IS HERE' : ''} · ${L.lv.bots + (L.lv.boss ? 1 : 0)} rivals</small>` : 'GO!';
       if (L.cd <= 0) $('centerMsg').textContent = '';
       return;
     }
@@ -259,24 +273,83 @@
     handleEvents(viewOf(w, L.me.id), w.events, L.me.id);
     const ended = w.events.some(e => e.e === 'end');
     w.events.length = 0;
-    if (!L.shown && (L.me.place || ended)) {
+    if (L.shown) return;
+    const out = L.me.falling || !L.me.alive;
+    if (out) {
       L.shown = true;
-      const won = L.me.place === 1;
-      const sess = L; setTimeout(() => levelResult(sess, won), won ? 2200 : 1400);
-      if (won) {
-        slowUntil = clock + 1.6;
-        burst(L.me.x, L.me.y, 70, ['#46e6ff', '#ff4fd8', '#ffcc3d', '#7dff9b'], 460, 6, 1.8, 'conf');
-        A.play('win'); quest('win', 1); A.voice('yay', pitchOf(L.me), 1);
-      } else A.play('lose');
+      const sess = L; setTimeout(() => gameOver(sess), 1400);
+      A.play('over');
+    } else if (ended) {
+      L.shown = true;
+      slowUntil = clock + 1.6;
+      burst(L.me.x, L.me.y, 50, ['#46e6ff', '#ff4fd8', '#ffcc3d', '#7dff9b'], 380, 5, 1.6, 'conf');
+      A.play('clear'); quest('win', 1); A.voice('yay', pitchOf(L.me), 1);
+      const bonus = 100 + run.wave * 20;
+      run.score += bonus; floatText(L.me.x, L.me.y - L.me.r - 30, `+${bonus}`, '#7dff9b', 30);
+      const coins = 10 + run.wave * 2; run.coins += coins; save.coins += coins; store(); refreshCoins();
+      P.levelEnded(run.wave, true);
+      const sess = L; setTimeout(() => showPerks(sess), 2200);
     }
+  }
+
+  const PERK_ICON = {
+    heavy: '<circle cx="12" cy="13" r="7"/><path d="M9 6h6"/>',
+    dash: '<path d="M4 12h9M7 7h8M7 17h8M15 7l5 5-5 5"/>',
+    power: '<path d="M13 3 6 14h5l-1 7 7-11h-5z"/>',
+    speed: '<path d="M5 18 12 6l7 12"/><path d="M8 18h8"/>',
+    magnet: '<path d="M6 4v8a6 6 0 0 0 12 0V4M6 8h4M14 8h4"/>',
+    shield: '<path d="M12 3 5 6v6c0 4 3 7 7 9 4-2 7-5 7-9V6z"/>',
+    grow: '<circle cx="9" cy="14" r="4"/><circle cx="16" cy="9" r="5"/>',
+    steady: '<path d="M4 20h16M7 20V10l5-5 5 5v10"/>',
+  };
+  function showPerks(sess) {
+    if (mode !== 'level' || L !== sess) return;
+    if (paused || hostPaused) { setTimeout(() => showPerks(sess), 300); return; }
+    const keys = Object.keys(Sim.PERKS).filter(k => (run.mods[k] || 0) < 3).sort(() => Math.random() - .5).slice(0, 3);
+    $('perkTitle').textContent = `Wave ${run.wave} cleared!`;
+    $('perkNote').textContent = `Score ${run.score} · pick a boost for wave ${run.wave + 1}`;
+    const grid = $('perkGrid'); grid.innerHTML = '';
+    keys.forEach((k, i) => {
+      const p = Sim.PERKS[k], lvl = run.mods[k] || 0;
+      const b = document.createElement('button'); b.className = 'perk'; b.id = 'perk-' + i;
+      b.innerHTML = `<svg viewBox="0 0 24 24">${PERK_ICON[k]}</svg><b>${esc(p.name)}</b><span>${esc(p.text)}</span><small>${'●'.repeat(lvl + 1)}${'○'.repeat(2 - lvl)}</small>`;
+      b.onclick = () => { run.mods[k] = lvl + 1; A.play('perk'); P.breakAd(); nextWave(); };
+      grid.appendChild(b);
+    });
+    showScreen('perks');
+  }
+
+  function gameOver(sess) {
+    if (mode !== 'level' || L !== sess) return;
+    if (paused || hostPaused) { setTimeout(() => gameOver(sess), 300); return; }
+    P.levelEnded(run.wave, false);
+    const best = save.best || { score: 0, wave: 0 };
+    const record = run.score > best.score;
+    if (record) save.best = { score: run.score, wave: run.wave };
+    store();
+    const canContinue = !run.continued && P.rewardedSupported;
+    showResult({
+      title: record && run.score > 0 ? 'New record!' : 'Game over', win: record && run.score > 0,
+      stats: [['Wave', run.wave], ['KOs', run.kos], ['Score', run.score]], coins: run.coins,
+      note: record ? `Your best run so far. Coins earned: ${run.coins}.` : `Best: ${best.score} (wave ${best.wave}) · coins earned: ${run.coins}`,
+      main: canContinue ? 'Continue · watch ad' : null, retry: 'Play again',
+      actions: {
+        main: async () => {
+          $('resMain').disabled = true;
+          const earned = await P.rewardedAd('continue');
+          $('resMain').disabled = false;
+          if (!earned) return;
+          run.continued = true; run.wave--; nextWave();
+        },
+        retry: startRun, home: goHome,
+      },
+    });
   }
 
   let lastReward = 0, resultAction = null;
   function showResult(o) {
     $('resTitle').textContent = o.title; $('resTitle').classList.toggle('win', o.win);
-    $('resStars').hidden = o.stars == null;
-    if (o.stars != null) $('resStars').innerHTML = [0, 1, 2].map(i => `<span class="${i < o.stars ? 'on' : ''}" style="animation-delay:${i * .15}s">★</span>`).join('');
-    $('resPlace').textContent = '#' + o.place; $('resBonks').textContent = o.bonks; $('resCoins').textContent = '+' + o.coins;
+    $('resStats').innerHTML = o.stats.map(([k, v]) => `<div>${esc(k)}<b>${esc(v)}</b></div>`).join('');
     $('resNote').textContent = o.note;
     lastReward = o.coins;
     $('resDouble').hidden = !P.rewardedSupported || o.coins <= 0;
@@ -295,34 +368,15 @@
     $('resDouble').disabled = false;
     if (!earned) return;
     save.coins += lastReward; store(); refreshCoins();
-    $('resCoins').textContent = '+' + lastReward * 2; $('resDouble').hidden = true;
+    $('resDouble').hidden = true;
     A.play('coin'); toast(`+${lastReward} bonus coins!`);
   };
-
-  function levelResult(sess, won) {
-    if (mode !== 'level' || L !== sess) return;
-    if (paused || hostPaused) { setTimeout(() => levelResult(sess, won), 300); return; }
-    const me = L.me, stars = Sim.starsFor(L.lv, me);
-    const prev = save.stars[L.n] || 0;
-    const coins = me.bonks * 5 + (won ? 25 : me.place <= 3 ? 10 : 2) + Math.max(0, stars - prev) * 10;
-    save.coins += coins; save.stars[L.n] = Math.max(prev, stars); store(); refreshCoins();
-    P.levelEnded(L.n, won);
-    const need = Math.max(2, Math.round(L.lv.bots / 2));
-    const next = Sim.LEVELS.find(l => l.id === L.n + 1 && !l.season);
-    showResult({
-      title: won ? 'You won!' : me.place <= 3 ? `${ordinal(me.place)} place!` : 'Knocked out!', win: won,
-      stars, place: me.place, bonks: me.bonks, coins,
-      note: won ? (stars < 3 ? `Win with ${need} bonks for 3 stars.` : 'Perfect! All 3 stars.') : 'Be the last orb on the platform to win the level.',
-      main: won && next ? 'Next level' : null, retry: won ? 'Play again' : 'Try again',
-      actions: { main: () => startLevel(L.n + 1), retry: () => startLevel(L.n), home: goHome },
-    });
-  }
 
   function ordinal(n) { return n + (n === 1 ? 'st' : n === 2 ? 'nd' : n === 3 ? 'rd' : 'th'); }
 
   function goHome() {
     if (N) { N.leaving = true; N.ws.close(); N = null; }
-    mode = 'menu'; paused = false; L = null; slowUntil = 0;
+    mode = 'menu'; paused = false; L = null; run = null; slowUntil = 0;
     $('hud').hidden = true; $('centerMsg').textContent = '';
     renderHome(); showScreen('home');
   }
@@ -336,7 +390,7 @@
   }
   $('pauseBtn').onclick = () => { A.play('click'); togglePause(); };
   $('resumeBtn').onclick = () => { A.play('click'); togglePause(); };
-  $('restartBtn').onclick = () => { A.play('click'); startLevel(L.n); };
+  $('restartBtn').onclick = () => { A.play('click'); startRun(); };
   $('quitBtn').onclick = () => { A.play('click'); goHome(); };
 
   // ---------- online ----------
@@ -345,7 +399,9 @@
   const INTERP = 110;
   const onlineAvailable = () => !window.BONK_OFFLINE && P.canReachServer;
 
-  function myColor() { const s = skinOf(save.skin); return s.holo ? '#ffffff' : s.c; }
+  // the player's look: chosen skin, optionally in a chosen colour (save.color = index in Sim.COLORS, -1 = the skin's own)
+  function mySkin() { return skinFor({ skin: save.skin, col: save.color }); }
+  function myColor() { const s = mySkin(); return s.holo ? '#ffffff' : s.c; }
 
   function startOnline() {
     A.init(); A.startMusic();
@@ -356,7 +412,7 @@
     parts.length = 0; texts.length = 0; $('feed').innerHTML = '';
     hideScreens(); $('hud').hidden = false; $('windPill').hidden = true;
     $('centerMsg').innerHTML = '<small>Connecting…</small>';
-    ws.onopen = () => ws.send(JSON.stringify({ t: 'join', name: playerName(), skin: save.skin, uid: save.uid, color: myColor() }));
+    ws.onopen = () => ws.send(JSON.stringify({ t: 'join', name: playerName(), skin: save.skin, col: save.color, uid: save.uid, color: myColor() }));
     ws.onmessage = m => onNet(JSON.parse(m.data));
     ws.onclose = () => { if (N && !N.leaving) { toast('Lost connection to the game server.'); goHome(); } };
     ws.onerror = () => { /* onclose follows */ };
@@ -438,7 +494,7 @@
     store();
     showResult({
       title: place === 1 ? 'Champion!' : `${ordinal(place)} place!`, win: place === 1,
-      stars: null, place, bonks, coins, note: 'The next round starts in a few seconds.',
+      stats: [['Place', '#' + place], ['Bonks', bonks], ['Coins', '+' + coins]], coins, note: 'The next round starts in a few seconds.',
       main: 'Keep playing', retry: null,
       actions: { main: hideScreens, retry: hideScreens, home: goHome },
     });
@@ -458,6 +514,8 @@
     const mb = view.balls.find(b => b.me);
     $('dash').style.setProperty('--p', mb ? (100 * (1 - mb.dashCd / Sim.DASH_CD)) + '%' : '0%');
     if (view.lv.wind) $('windArrow').style.transform = `rotate(${view.windA}rad)`;
+    $('wavePill').hidden = $('scorePill').hidden = mode !== 'level';
+    if (run) { $('waveNum').textContent = run.wave; $('scoreNum').textContent = run.score; }
     const pill = $('puPill');
     if (mb && mb.pu) { pill.hidden = false; pill.style.setProperty('--pc', PU_COLORS[mb.pu]); pill.innerHTML = `<i>${PU_NAME[mb.pu]}</i>${Math.ceil(mb.puT)}s`; }
     else pill.hidden = true;
@@ -535,7 +593,6 @@
     return r;
   }
   $('nameInput').addEventListener('change', () => playerName());
-  $('diceBtn').onclick = () => { A.init(); A.play('click'); const r = randomName(); $('nameInput').value = r; save.name = r; store(); };
 
   // ---------- menus ----------
   function refreshCoins() { for (const el of document.querySelectorAll('.coinCount')) el.textContent = save.coins; }
@@ -551,7 +608,7 @@
     const face = Math.sin(clock * .7) * 1.2 + Math.sin(clock * 1.9) * .3;
     const blink = (clock % 3.7) < .12, bob = Math.sin(clock * 2.2) * 6;
     // floor glow under the orb
-    const s = skinOf(save.skin), g = c.createRadialGradient(160, 228, 0, 160, 228, 110);
+    const s = mySkin(), g = c.createRadialGradient(160, 228, 0, 160, 228, 110);
     g.addColorStop(0, s.holo ? 'rgba(255,255,255,.35)' : s.c + '66'); g.addColorStop(1, 'rgba(0,0,0,0)');
     c.fillStyle = g; c.fillRect(0, 150, 320, 110);
     c.fillStyle = 'rgba(0,0,0,.45)'; c.beginPath(); c.ellipse(160, 226, 62 - bob, 12, 0, 0, Math.PI * 2); c.fill();
@@ -564,39 +621,12 @@
     $('onlineBtn').hidden = !onlineAvailable();
     $('topBtn').hidden = !onlineAvailable();
     document.querySelector('.home-dock').dataset.count = onlineAvailable() ? 3 : 2;
-    $('levelsBtn').querySelector('.pb-sub').textContent = `${Sim.LEVELS.filter(l => !l.season || seasonOn()).length} levels · solo`;
+    const best = save.best;
+    $('playBtn').querySelector('.pb-sub').textContent = best && best.score ? `Best ${best.score} · wave ${best.wave}` : 'Endless · how far can you go?';
     $('seasonChip').hidden = !seasonOn();
     $('seasonChip').textContent = `${SEASON.name} · ${seasonDays()} days left`;
     $('heroSkin').textContent = skinOf(save.skin).n;
     refreshCoins(); refreshBadge(); heroBall(); syncToggles();
-  }
-
-  function levelOpen(lv) {
-    if (lv.season) return seasonOn() && (save.stars[3] || 0) > 0;
-    return lv.id === 1 || (save.stars[lv.id - 1] || 0) > 0;
-  }
-
-  function renderLevels() {
-    const grid = $('levelGrid'); grid.innerHTML = '';
-    let total = 0, max = 0;
-    for (const lv of Sim.LEVELS) {
-      const st = save.stars[lv.id] || 0;
-      if (lv.season && !seasonOn()) continue;
-      total += st; max += 3;
-      const open = levelOpen(lv);
-      const b = lv.season ? $('seasonLevel') : document.createElement('button');
-      b.className = (lv.season ? 'season-level' : 'lvl') + ` t-${lv.theme}${open ? '' : ' locked'}`;
-      if (!lv.season) b.id = 'lvl-' + lv.id;
-      const starsHtml = `<span class="st">${[0, 1, 2].map(i => `<span class="${i < st ? 'on' : ''}">★</span>`).join('')}</span>`;
-      b.innerHTML = lv.season
-        ? `<span class="sl-tag">Season level</span><b>${esc(lv.name)}</b><small>${open ? 'Black hole, bumpers and wind together' : 'Win level 3 to open it'}</small>${starsHtml}`
-        : `<b>${lv.id}</b><small>${esc(lv.name)}</small>${starsHtml}`;
-      b.setAttribute('aria-label', `Level ${lv.name}${open ? '' : ', locked'}`);
-      b.onclick = () => { A.play('click'); if (!open) { toast(lv.season ? 'Win level 3 to open the season level.' : 'Win the level before to open this one.'); return; } startLevel(lv.id); };
-      if (!lv.season) grid.appendChild(b);
-    }
-    $('seasonLevel').hidden = !seasonOn();
-    $('starsTotal').textContent = `★ ${total}/${max}`;
   }
 
   function skinButton(s, i) {
@@ -605,7 +635,7 @@
     b.className = 'skin' + (save.skin === i ? ' on' : '') + (owned ? '' : ' locked') + (!owned && save.coins < s.price ? ' poor' : '');
     b.id = 'skin-' + i;
     const cv2 = document.createElement('canvas'); cv2.width = 144; cv2.height = 144;
-    drawBall(cv2.getContext('2d'), 72, 78, 44, s, { face: .35, expr: 'n', t: 0 });
+    drawBall(cv2.getContext('2d'), 72, 76, 44, save.skin === i ? mySkin() : s, { front: true, t: 0 });
     b.appendChild(cv2);
     const nm = document.createElement('span'); nm.textContent = s.n; b.appendChild(nm);
     if (s.trail && s.trail !== 'glow') { const tr = document.createElement('span'); tr.className = 'trail-tag'; tr.textContent = s.trail + ' trail'; b.appendChild(tr); }
@@ -621,7 +651,22 @@
     return b;
   }
 
+  function renderColors() {
+    const row = $('colorRow'); row.innerHTML = '';
+    [-1].concat(Sim.COLORS.map((_, i) => i)).forEach(i => {
+      const b = document.createElement('button');
+      b.className = 'swatch' + (save.color === i ? ' on' : '') + (i < 0 ? ' orig' : '');
+      b.id = 'color-' + (i < 0 ? 'orig' : i);
+      b.setAttribute('aria-label', i < 0 ? 'Skin colour' : 'Colour ' + (i + 1));
+      if (i >= 0) b.style.setProperty('--sw', Sim.COLORS[i]);
+      else { const s = skinOf(save.skin); b.style.setProperty('--sw', s.holo ? '#ffffff' : s.c); }
+      b.onclick = () => { save.color = i; store(); A.play('click'); renderShop(); };
+      row.appendChild(b);
+    });
+  }
+
   function renderShop() {
+    renderColors();
     const grid = $('skinGrid'), sg = $('seasonGrid'); grid.innerHTML = ''; sg.innerHTML = '';
     SKINS.forEach((s, i) => {
       if (s.season) { if (seasonOn() || save.owned.includes(i)) sg.appendChild(skinButton(s, i)); }
@@ -707,7 +752,7 @@
   for (const id of ['sfxBtn', 'sfxBtn2']) $(id).onclick = () => { A.init(); save.sfx = !save.sfx; store(); syncToggles(); A.play('click'); };
   for (const id of ['musicBtn', 'musicBtn2']) $(id).onclick = () => { A.init(); A.startMusic(); save.music = !save.music; store(); syncToggles(); };
 
-  $('levelsBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); playerName(); renderLevels(); showScreen('levels'); };
+  $('playBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); playerName(); startRun(); };
   $('onlineBtn').onclick = () => { A.init(); A.play('click'); playerName(); startOnline(); };
   $('shopBtn').onclick = $('heroBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); renderShop(); showScreen('shop'); };
   $('dailyBtn').onclick = () => { A.init(); A.startMusic(); A.play('click'); renderDaily(); showScreen('daily'); };

@@ -146,16 +146,16 @@
     "title": "Bonkers Arena",
     "studio": "Door 404",
     "studioUrl": "https://www.escaperoom.co.rs/en",
-    "short": "Bonk glowing orbs off a shrinking neon platform into the void. Dash, grab power-ups and be the last orb standing.",
-    "description": "Bonkers Arena is a neon arena brawler where every orb has eyes and a temper. You start small on a floating platform with up to eleven rivals, eat energy cubes to grow heavier and bonk the others off the edge into the void. The platform shrinks all round, so sooner or later everyone has to fight. Dash into a rival at the right moment for a mega hit, grab power-ups like Shield, Magnet, Mega Hit, Boost and Freeze, and watch out for sweepers, sliding bars, pillars, bumpers, black holes, solar wind and slippery ice. Eleven levels end with the Titan boss and the Final Circuit, every win is worth up to three stars, and a slow-motion finish shows your last knock-out. Earn coins to unlock nineteen skins with fire, lightning, rainbow and aurora trails, finish three daily quests and keep a seven-day login streak for bonus coins.",
-    "instructions": "On a computer, steer your orb with the mouse (it rolls toward the cursor) or with W A S D / the arrow keys, and click or press Space to dash. On a phone, use the joystick in the bottom-left corner and tap DASH. Eat the small cubes to grow; bigger orbs are heavier and harder to push. Knock other orbs off the edge or into the black hole and stay on the platform yourself. Hexagon pick-ups give power-ups for a few seconds. The last orb on the platform wins the level.",
+    "short": "Bonk glowing orbs off a shrinking neon platform into the void. Survive endless waves, pick boosts and beat your best score.",
+    "description": "Bonkers Arena is an endless neon arena brawler where every orb has eyes, a voice and a temper. Each wave drops you onto a floating platform with more rivals than the last, and the platform shrinks until only the toughest orb is left. Eat energy cubes to grow heavier, dash into rivals at the right moment and bonk them off the edge into the void. Clear a wave and pick one of three boosts that stay for the whole run: Heavy Core, Quick Dash, Power Hit, Turbo, Cube Magnet, Spawn Shield, Big Appetite or Steady. Every fifth wave the giant Titan joins the fight, and the arenas change as you go, with sweepers, sliding bars, pillars, bumpers, black holes, solar wind and slippery ice. Grab power-ups like Shield, Magnet, Mega Hit, Boost and Freeze, chase your best score, finish three daily quests, keep a seven-day login streak and unlock nineteen skins with fire, lightning, rainbow and aurora trails in any colour you like.",
+    "instructions": "On a computer, steer your orb with the mouse (it rolls toward the cursor) or with W A S D / the arrow keys, and click or press Space to dash. On a phone, use the joystick in the bottom-left corner and tap DASH. Eat the small cubes to grow; bigger orbs are heavier and harder to push. Knock other orbs off the edge or into the black hole and stay on the platform yourself. A wave is cleared when you are the last orb left or when the timer runs out and you are still standing. One fall ends the run. Hexagon pick-ups give power-ups for a few seconds; your orb glows with a ring when its dash is ready.",
     "category": "arcade",
     "tags": [
       "Arena",
+      "Endless",
       "Physics",
       "Neon",
       "Power-ups",
-      "Casual",
       "Arcade"
     ],
     "embed": "/play/bonkers-arena/",
@@ -164,8 +164,8 @@
     "cover": "/assets/our/bonkers-arena-cover.jpg",
     "screens": [
       "/assets/our/bonkers-arena-menu.jpg",
-      "/assets/our/bonkers-arena-action.jpg",
-      "/assets/our/bonkers-arena-skins.jpg"
+      "/assets/our/bonkers-arena-wave.jpg",
+      "/assets/our/bonkers-arena-boost.jpg"
     ],
     "orientation": "landscape"
   }

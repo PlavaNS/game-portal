@@ -129,8 +129,8 @@
     else { c.strokeStyle = 'rgba(160,180,230,.25)'; c.lineWidth = 1.5; c.beginPath(); c.arc(0, 0, r - .75, 0, TAU); c.stroke(); }
     ellipse(c, -r * .36, -r * .46, r * .26, r * .11, -.6, 'rgba(255,255,255,.32)');
     if (s.crown || s.boss) drawHalo(c, r, s, t);
-    c.rotate(o.face || 0);
-    drawEyes(c, r, s, o);
+    if (o.front) drawFrontEyes(c, r, s, o);
+    else { c.rotate(o.face || 0); drawEyes(c, r, s, o); }
     c.restore();
   }
 
@@ -145,6 +145,21 @@
       for (let i = 0; i < 3; i++) { const a = t * 2 + i * 2.1; ellipse(c, Math.cos(a) * r * .5, -r * 1.12 + Math.sin(a) * r * .14, r * .05, r * .05, 0, '#fff4c2'); }
     }
     c.restore();
+  }
+
+  // Eyes looking straight at the viewer (shop and menus)
+  function drawFrontEyes(c, r, s, o) {
+    const iris = s.holo ? '#ffffff' : s.c;
+    for (const sx of [-1, 1]) {
+      const x = sx * r * .3, y = -r * .06, rx = r * .19, ry = r * .24;
+      if (o.blink) { c.strokeStyle = '#ffffff'; c.lineWidth = r * .07; c.lineCap = 'round'; c.beginPath(); c.moveTo(x - rx * .8, y); c.lineTo(x + rx * .8, y); c.stroke(); continue; }
+      ellipse(c, x, y, rx * 1.25, ry * 1.2, 0, hexA(s.holo ? '#ffffff' : s.c, .25));
+      ellipse(c, x, y, rx, ry, 0, '#f4fbff');
+      const pr = r * .11, py = y + ry * .18;
+      ellipse(c, x, py, pr * 1.3, pr * 1.3, 0, iris);
+      ellipse(c, x, py, pr, pr, 0, '#050816');
+      ellipse(c, x - pr * .35, py - pr * .45, pr * .38, pr * .38, 0, '#ffffff');
+    }
   }
 
   // Eyes in the orb's own frame: x points where it is heading.
@@ -363,6 +378,16 @@
     const bg = ctx.createRadialGradient(W / 2, H / 2, 0, W / 2, H / 2, Math.max(W, H) * .75);
     bg.addColorStop(0, th.bg[0]); bg.addColorStop(1, th.bg[1]);
     ctx.fillStyle = bg; ctx.fillRect(0, 0, W, H);
+    // nebula clouds in the arena's colours, drifting slowly with the camera
+    ctx.save(); ctx.globalCompositeOperation = 'lighter';
+    const neb = [[th.rim, -.6, -.4], [th.accent, .7, .3], [th.rim2 === '#ffffff' ? th.accent : th.rim2, -.2, .8]];
+    neb.forEach(([col, nx, ny], i) => {
+      const x = W / 2 + nx * W * .5 - cam.x * .08 + Math.sin(clock * .05 + i) * 30, y = H / 2 + ny * H * .5 - cam.y * .08 + Math.cos(clock * .04 + i) * 30;
+      const rad = Math.max(W, H) * .55, g = ctx.createRadialGradient(x, y, 0, x, y, rad);
+      g.addColorStop(0, hexA(col, .14)); g.addColorStop(1, hexA(col, 0));
+      ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    });
+    ctx.restore();
     // parallax stars
     for (const s of STARS) {
       const x = ((s.x - cam.x * .3) * cam.z % (W + 200) + W + 200) % (W + 200) - 100;
@@ -380,6 +405,15 @@
     const fl = floorFor(lv);
     ctx.save(); ctx.beginPath(); ctx.arc(0, 0, R, 0, TAU); ctx.clip();
     ctx.drawImage(fl.cv, -fl.S / 2, -fl.S / 2);
+    // a band of light sweeping across the floor now and then
+    const sweep = ((clock * 160) % (R * 6)) - R * 1.5;
+    if (sweep < R * 1.5) {
+      ctx.globalCompositeOperation = 'lighter';
+      const sg = ctx.createLinearGradient(sweep - 140, sweep - 140, sweep + 140, sweep + 140);
+      sg.addColorStop(0, hexA(th.rim, 0)); sg.addColorStop(.5, hexA(th.rim, .09)); sg.addColorStop(1, hexA(th.rim, 0));
+      ctx.fillStyle = sg; ctx.fillRect(-R, -R, R * 2, R * 2);
+      ctx.globalCompositeOperation = 'source-over';
+    }
     ctx.restore();
     // where the edge will be soon
     if (view.t != null && R > lv.rMin + 2) {
@@ -392,6 +426,16 @@
     ctx.strokeStyle = th.rim; ctx.lineWidth = 7; ctx.beginPath(); ctx.arc(0, 0, R - 3, 0, TAU); ctx.stroke(); ctx.restore();
     ctx.setLineDash([30, 26]); ctx.lineDashOffset = -clock * 40; ctx.strokeStyle = th.rim2; ctx.lineWidth = 2;
     ctx.beginPath(); ctx.arc(0, 0, R - 3, 0, TAU); ctx.stroke(); ctx.setLineDash([]);
+    // sparks drifting up off the edge
+    ctx.save(); ctx.globalCompositeOperation = 'lighter';
+    const spr = glowSprite(th.rim);
+    for (let i = 0; i < 40; i++) {
+      const a = i * TAU / 40 + Math.sin(i * 7.3) * .08, h = (clock * 38 + i * 37) % 80;
+      ctx.globalAlpha = (1 - h / 80) * .8;
+      const sz = 5 + (i % 3) * 2;
+      ctx.drawImage(spr, Math.cos(a) * R - sz, Math.sin(a) * R - h - sz, sz * 2, sz * 2);
+    }
+    ctx.restore();
     // black hole
     if (hole) {
       const hg = ctx.createRadialGradient(0, 0, 0, 0, 0, hole);
