@@ -285,6 +285,7 @@ animal-transform-race
 animal-word-search-quest
 animal-world
 animalistic-transform-run
+animalrush
 animals-battle
 animals-vs-zombies
 anime-avatar-maker-anime-doll
@@ -449,6 +450,7 @@ astro-racing
 astro-shooter
 athlio
 atm-robbery-escape-game
+atom-fall
 atomlinker
 attack-and-dash
 attack-hole
@@ -488,6 +490,7 @@ baby-injection
 baby-merge-puzzle-master
 baby-monster-jump
 baby-panda-care
+baby-panda-dentist-care
 baby-panda-train-driver
 baby-penguin-fishing
 baby-race-galaxy-2
@@ -921,6 +924,7 @@ boomix
 boomrocket
 boomstone
 bootiful-princess-match
+boots-n-bounds
 border-battleground
 border-clash
 boss-level-pumpkin-madness
@@ -1783,6 +1787,7 @@ construction-set-3d-builder
 construction-simulator
 construction-simulator-lite
 constructor-bricks
+contagion-clash
 container-auction
 containment-protocol-roguelike-deckbuilder
 contra-jungle-breach
@@ -1818,6 +1823,7 @@ correct-math
 cosmetic-box-cake-maker-2025
 cosmetic-run
 cosmic-clicker
+cosmic-connector
 cosmic-dash
 cosmic-defender
 cosmic-glider
@@ -2085,6 +2091,7 @@ dark-city-multiplayer
 dark-runner
 dark-sector
 dark-sector-kids
+dark-spirit-run
 dark-sprint
 dark-war
 dark-world
@@ -2251,6 +2258,7 @@ diy-clothing
 diy-doll-factory
 diy-ice-cream-roll-cone
 diy-joystick-game
+diy-paper-doll-diary
 diy-phone-case-maker
 diy-slime-art
 diy-ugly-christmas-sweater
@@ -2269,6 +2277,7 @@ dogs-vs-aliens
 doll-designer-game
 doll-doll
 doll-dress-up-game
+doll-game-diy-fashion-star
 doll-queen-designer
 dolphin-dress-up
 domino-battle
@@ -2294,6 +2303,7 @@ donutosaur-2
 doodle-boba-bubble-tea
 doodle-car-race
 doodle-cats
+doodle-dash
 doodle-dino-run
 doodle-football
 doodle-guard-draw-to-save
@@ -2527,6 +2537,7 @@ eat-to-evolve-2
 eatable-birds
 eating-simulator-physics-food
 echo-rift
+echoes-of-bushido
 echolocation-shooter
 eco-block-puzzle
 eco-ninja
@@ -2715,6 +2726,7 @@ family-simulator-beach-games
 family-squid-challenge
 fantastic-cubic-dash
 fantasticlandia
+fantasy-anime-dress-up
 fantasy-brothers
 fantasy-fish-world-mahjong
 fantasy-soccer-manager
@@ -2861,6 +2873,7 @@ firestack
 fish-and-trip
 fish-aquarium-game
 fish-eat-grow-mega
+fish-evolution-3d
 fish-factory
 fish-hunting
 fish-hunting-frenzy-shooter-game
@@ -2967,6 +2980,7 @@ flying-grimace
 flying-injection-virus-game
 flying-robot-transform-car-games
 fnf-fps
+fnf-girlfriend-multiverse-fashion
 fnf-music-3d
 fnf-music-clash
 fnf-red-light-green-light
@@ -3063,6 +3077,7 @@ frog-byte
 frog-leap-3d
 froggy-hop
 froggy-tower
+frogtap
 frogtastic-marble-adventure
 frogtress
 frogy-ninja-2d
@@ -3082,6 +3097,7 @@ fruit-bubble-pop
 fruit-catcher-apple
 fruit-catchere
 fruit-chopper
+fruit-clash
 fruit-cutter-fun
 fruit-drop
 fruit-drop-3d
@@ -3386,6 +3402,7 @@ gorilla-multiplayer
 gothic-knife
 gothic-new-era
 grab-io
+graduation-makeup-trends
 graffiti-time
 gram-simulator
 grand-city-driving-2
@@ -3793,6 +3810,7 @@ horizon-flight-into-the-light
 horizon-highway-driving
 horizon-racer
 horror-eye
+horror-school-detective-story
 horror-sniper-clown-ghost
 horrorland-defense
 horse-kart-runner-game
@@ -3829,6 +3847,7 @@ human-leap-evolution
 human-playground
 human-vehicle-run
 humans-playground-sandbox
+hummer-lady-queen
 hungry-ants
 hungry-cars
 hungry-cats
@@ -5471,6 +5490,7 @@ one-man-army-battle-game
 one-shot-duel-snipe-hide
 one2one
 onet-animals
+onet-mahjong-connect
 onet-puzzle
 onet-puzzle-tile-match-game
 onigiri-demons-wrath
@@ -5695,6 +5715,7 @@ pictures-by-numbers-nubik-and-mobs-mine
 piece-of-cake-merge-and-bake
 piecealive
 pier-and-lighthouse-merge-story
+piercing-skies
 pig-bros-adventure
 pigcatch
 piggy-vs-watermelon
@@ -6222,6 +6243,7 @@ retro-sniper
 retro-speed
 retro-x-racer
 retrohero-the-last-stand
+reveal-the-animal
 reversi-classic
 revoxel-3d-voxel-rpg-shooter
 rewarp
@@ -6927,6 +6949,7 @@ sokoban-push-the-box
 sokoban-puzzle-game
 sokomatch
 sol-coalition-force
+soldier-run-evolution
 soldier-shooting
 soldiers-runner
 solitaire-8-collection
@@ -6971,6 +6994,7 @@ sortilege-magic-shop-sort
 sorting-ball-puzzle
 sorting-ball-quiz
 sorting-cute-animals
+sorting-fruits-game
 sorting-games-toy-sort
 sorting-nuts-and-bolts-by-color-home-repair
 sorting-nuts-puzzle-game
@@ -7034,6 +7058,7 @@ speed-per-click-obby
 speed-pool-king
 speed-run-game
 speed-rush-simulator
+speedboa-warer-shooting
 speeding-ball
 speedmatch-competition
 speen
@@ -7316,6 +7341,7 @@ stickman-warfare
 stickman-warriors
 stickman-warriors-superhero-fight
 stickman3d-shooter
+stickmanhook
 stickninja-mission
 sticky-planet
 stickyconnect
@@ -7635,6 +7661,7 @@ tap-hunters
 tap-me
 tap-out-gallery
 tap-react-plus
+tap-tap-racing
 tap-tap-reloaded
 tap-the-crop
 tap-think-save-the-kitten
@@ -7863,6 +7890,7 @@ tiny-sports-empire-idle
 tiny-tomb
 tiny-track-rally
 tiny-zomby-the-barricade
+tinygamebox
 tip-candy-puzzle
 tip-master-wine
 titan-wall-breaker
@@ -8060,6 +8088,7 @@ twining-color-switch-game
 twist-and-roll
 twist-and-tug
 twist-your-path
+twisted-auto-metal
 twisted-rope-3d
 twisty-planet
 twisty-roads
@@ -8278,6 +8307,7 @@ watermelon-merge-fruit-drop
 watermelon-merging
 watermelon-run
 watermelon-stack-3d
+wavytrip
 wayfarers-return
 we-are-in-a-simulation-simulator
 we-not-survive
