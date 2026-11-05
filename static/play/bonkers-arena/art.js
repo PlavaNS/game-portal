@@ -456,8 +456,15 @@
         const sp = Math.hypot(b.vx, b.vy) || 1;
         for (let i = 3; i >= 1; i--) drawBall(ctx, b.x - b.vx / sp * b.r * .8 * i, b.y - b.vy / sp * b.r * .8 * i, b.r * (1 - i * .06), sk, { face: b.face, expr: 'dash', t: clock, alpha: .32 - i * .08, glow: false });
       }
-      drawBall(ctx, b.x, b.y, b.r * s, sk, { face: b.face, expr: exprOf(b, clock), blink, t: clock, alpha: b.falling ? .4 + s * .6 : 1 });
+      drawBall(ctx, b.x, b.y, b.r * s, sk, { face: b.face, expr: exprOf(b, clock), blink, t: clock, alpha: b.falling ? .4 + s * .6 : 1, glow: false });
+      // one shell at most: the power-up effect, or a ring when the dash is charged
       if (!b.falling && b.pu) drawPuAura(ctx, b, clock);
+      else if (!b.falling && b.dashCd <= 0) {
+        const col = rimColor(sk, clock);
+        ctx.save(); ctx.strokeStyle = col; ctx.globalAlpha = .25; ctx.lineWidth = 8;
+        ctx.beginPath(); ctx.arc(b.x, b.y, b.r + 7, 0, TAU); ctx.stroke();
+        ctx.globalAlpha = .95; ctx.lineWidth = 2.5; ctx.stroke(); ctx.restore();
+      }
       if (!b.falling && view.freezeBy && view.freezeBy !== b.id) {
         ctx.save(); ctx.globalAlpha = .35; ellipse(ctx, b.x, b.y, b.r, b.r, 0, '#bfefff'); ctx.restore();
       }
@@ -472,10 +479,6 @@
       ctx.lineWidth = fs * .3; ctx.strokeStyle = 'rgba(3,5,13,.85)'; ctx.strokeText(b.name, b.x, ny);
       ctx.fillStyle = b.me ? '#ffffff' : rimColor(sk, clock); ctx.fillText(b.name, b.x, ny);
       if (b.me) { ctx.fillStyle = '#ffcc3d'; ctx.beginPath(); ctx.moveTo(b.x - 7, ny - fs - 2); ctx.lineTo(b.x + 7, ny - fs - 2); ctx.lineTo(b.x, ny - fs + 7); ctx.closePath(); ctx.fill(); }
-      if (b.me && b.dashCd > 0) {
-        ctx.strokeStyle = 'rgba(255,204,61,.9)'; ctx.lineWidth = 4; ctx.beginPath();
-        ctx.arc(b.x, b.y, b.r + 10, -Math.PI / 2, -Math.PI / 2 + TAU * (1 - b.dashCd / env.dashCd)); ctx.stroke();
-      }
     }
     // particles
     ctx.save(); ctx.globalCompositeOperation = 'lighter';
