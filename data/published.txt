@@ -568,6 +568,7 @@ banana-quest
 bananacat-clicker
 bandana-blitz
 bandits-bane
+bank-boom-tung-tung-sahur
 bank-robbery-puzzle
 bank-robbery-puzzle-shooter
 bank-robbery-sneak-master
@@ -738,6 +739,7 @@ birdy-trip
 biryani-cooking-indian-super-chef-food-game
 bitbanda
 bitcoin-io
+black-and-pink
 black-and-white-2
 black-ball
 black-friday-dress-up-selfie
@@ -780,6 +782,7 @@ block-blast-mania
 block-blast-puzzle
 block-bloom
 block-breaker-game
+block-breaker-miner-quest
 block-builder-jam
 block-combo-blast
 block-craft-3d-school
@@ -815,6 +818,7 @@ block-tree
 block-vs-block-ii
 block-zero
 blockapolypse-zombie-shooter
+blockbreaker
 blocker-fit-guy
 blockgunner
 blockibo-color-blocks
@@ -868,6 +872,7 @@ boat-merge-and-race
 boat-viking-war
 boat-war-mayhem
 bob-save-stuart
+bob-the-builder-coloring
 boba-blast
 bobb-s-world
 bobr-turbo-craft-cars
@@ -1793,6 +1798,7 @@ cosmic-dash
 cosmic-defender
 cosmic-glider
 cosmic-hunt
+cosmic-strike-2-0
 cosmo-merge
 cosmos-404
 cosplay-gamer-girls
@@ -1836,6 +1842,7 @@ craft-theft-war
 craftsman-land
 crakko
 crash-control
+crash-core
 crash-glass-boom
 crash-lab-launch-the-dummy
 crash-plan
@@ -2063,6 +2070,7 @@ daruma-matching
 dash-hero
 dash-masters
 dashmash-io
+data-breach
 day-care-simulator
 dazzling-divas-makeup
 dd-bubble-up
@@ -2412,6 +2420,7 @@ drive-car
 drive-chained-car-3d
 drive-crazy
 drive-io
+drive-mad-2
 drive-pro-3d
 drive-quest
 drive-zone
@@ -2434,6 +2443,7 @@ duck-drive-truck-race
 duck-duck
 duck-family-simulator-animal-games
 duck-hunter
+duck-shift
 duck-shootingz
 duck-you
 duckling-rush-io
@@ -2756,6 +2766,7 @@ fill-the-hopper
 fill-the-lines
 fillblox
 fin-flinger
+fin-freedom
 final-christmas-run
 final-fight-harbor-justice
 final-freeway
@@ -3200,6 +3211,7 @@ geometry-arrow-2
 geometry-arrow-wave-rush
 geometry-black-ball
 geometry-black-wave
+geometry-flap
 geometry-goal-dash-2026
 geometry-gunner
 geometry-jump-dash
@@ -3501,6 +3513,7 @@ harbor-breakout
 harbor-dispatch
 hard-crash-zombie-rush
 hard-flap
+hard-path
 hard-push-game
 hard-puzzle
 hard-puzzle-color-lines
@@ -3609,6 +3622,7 @@ hexlands
 hi-fi-snake-groove-driven-arcade-challenge
 hidden-aquatic
 hidden-basketball
+hidden-hero
 hidden-horrors
 hidden-object-clues-and-mysteries
 hidden-object-my-hotel
@@ -4058,6 +4072,7 @@ kids-kitchen-cozy-cooking
 kids-mahjong-connect
 kids-math-easy
 kids-supermarket
+kids-toy-set-mobile
 kids-transport
 kidz-coloring-book
 kigali-drift-king
@@ -4815,6 +4830,7 @@ monster-man-rush
 monster-match-mania
 monster-merge-legends-alive
 monster-rampage-city
+monster-rush-cat
 monster-rush-evolution
 monster-school-challenges
 monster-slayer-idle-clicker
@@ -5006,6 +5022,7 @@ my-unicorn-cat-princess-caring
 mycothreememo
 mydream-universe
 mysterious-elevator
+mysterious-familiars-enchanted-bestiary
 mystery-digger
 mystery-dumpling-squishy-slime
 mystery-of-the-old-house-hidden-objects
@@ -5017,6 +5034,7 @@ nail-salon
 nail-salon-manicure-fashion-girl
 nail-stack
 nail-stack-run-challenge
+nailong-rush-run
 name-breakdown-roast-or-boast
 narcos-crime-master
 narutovsbleach
@@ -5505,6 +5523,7 @@ paws-and-paths
 paws-off-my-clues
 paws-up
 pc-cafe-simulator-3d
+peaceful-gardening
 pearl-paws
 pedro-double-cross
 peel-the-potato
@@ -6137,6 +6156,7 @@ road-race-3d
 road-racer-2
 road-rage
 road-restore
+road-trip-taxi-adventure
 roads-off-fury
 roadster-dash-halloween-night
 roar-of-city
@@ -6212,6 +6232,7 @@ rolling-cube-3d
 rolling-cubes-3d-puzzle
 rolling-donut
 rolling-football
+rolling-going-balls
 rolling-in-gears
 rolling-speed-ball
 rolly-vortex-puzzle-game
@@ -6420,8 +6441,10 @@ screw-nuts-bolts-wood-solve
 screw-nuts-snap-puzzle
 screw-out-3d-relax-unwind
 screw-out-jam-puzzle
+screw-pin-jam-puzzle
 screw-sort-3d
 screw-sort-puzzle-pin-jam-3d
+scrib-dies-a-lot
 sea-kings
 sea-legends-match-3
 sea-port-controller
@@ -6921,6 +6944,7 @@ spinning-oia-oia-cat-bricker
 spinwhisker
 spiny-ninja
 spiral-blitz
+spirit-boy
 spirit-drops-from-dew
 splash-rivals
 splashy-sub
@@ -7266,6 +7290,7 @@ sunny-spell
 supa-tic-tac-toe
 super-alien-rabbit
 super-ball-blast
+super-ball-juggling-remix
 super-basketball
 super-bike-racing
 super-billy-boy
@@ -7482,6 +7507,7 @@ tap-tap-reloaded
 tap-the-crop
 tap-think-save-the-kitten
 tap-to-color-painting-book
+tap-to-fish
 tapping-on-fruit
 tapsync-blocks
 tarantula-clicker
@@ -7518,6 +7544,7 @@ temple-targets
 ten-link-number-games
 tenkyu
 tenkyu-ball
+tennis-dash
 tennis-hero
 tennis-master
 tennis-open-2024
@@ -7808,6 +7835,7 @@ treadbreaker
 treasure-quest
 treasurebound
 treat-catch
+treat-tumble
 treatsy
 treattraill
 trench-tycoon-toy-army-defense
@@ -7821,6 +7849,7 @@ tribal-zuma
 trick-or-treat-candy-carnival
 trick-paws
 trick-your-brain-puzzle
+tricky-arrow-2
 tricky-easy-squares
 tricky-planner
 tricky-prank-annoying-quest
@@ -7930,6 +7959,7 @@ unbolck-me
 unboxing-brainrots
 uncle-hit-punch-the-dummy
 uncle-wang-s-happy-life
+undead-appetite
 undead-shooter
 undead-walking-3d
 undercrown
