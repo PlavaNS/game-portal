@@ -773,10 +773,7 @@
         for (let i = 3; i >= 1; i--) drawBall(ctx, b.x - b.vx / sp * b.r * .8 * i, b.y - b.vy / sp * b.r * .8 * i, b.r * (1 - i * .06), sk, { face: b.face, expr: 'n', t: clock, alpha: .32 - i * .08, glow: false, rim: false });
       }
       // one shell only, and only when the dash is charged
-      const spd = Math.hypot(b.vx || 0, b.vy || 0), st = b.falling ? 0 : Math.min(.16, spd / 4200);
-      ctx.save(); ctx.translate(b.x, b.y); ctx.rotate(Math.atan2(b.vy || 0, b.vx || 0)); ctx.scale(1 + st, 1 - st); ctx.rotate(-Math.atan2(b.vy || 0, b.vx || 0)); ctx.translate(-b.x, -b.y);
       drawBall(ctx, b.x, b.y, b.r * s, sk, { face: b.face, expr: exprOf(b), t: clock, alpha: b.falling ? .4 + s * .6 : 1, glow: false, rim: !b.falling && b.dashCd <= 0 && !b.pu });
-      ctx.restore();
       if (!b.falling && b.pu) drawPuAura(ctx, b, clock);
       if (!b.falling && view.freezeBy && view.freezeBy !== b.id) {
         ctx.save(); ctx.globalAlpha = .35; ellipse(ctx, b.x, b.y, b.r, b.r, 0, '#bfefff'); ctx.restore();
