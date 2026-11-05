@@ -71,7 +71,13 @@
       for (const n of notes) for (const dt of [-10, 10]) osc('sawtooth', hz(n + 12), 0, t, dur, .02, musicBus, { a: .6, rel: .7, lp: 950, detune: dt });
     },
     arp(t, n, dur) { osc('triangle', hz(n + 24), 0, t, dur, .022, musicBus, { lp: 1800, rel: dur * .8, send: true }); },
-    lead(t, n, dur) {
+    lead(t, n, dur, kind) {
+      if (kind === 'bell') {
+        osc('sine', hz(n + 24), 0, t, dur * 1.6, .03, musicBus, { a: .005, rel: dur * 1.4, send: true });
+        osc('sine', hz(n + 36), 0, t, dur * .5, .008, musicBus, { a: .005, rel: dur * .45 });
+        return;
+      }
+      if (kind === 'pluck') { osc('triangle', hz(n + 12), 0, t, Math.min(dur, .3), .045, musicBus, { a: .004, lp: 1500, rel: .25, send: true }); return; }
       osc('sawtooth', hz(n + 12), 0, t, dur, .03, musicBus, { a: .04, lp: 1700, rel: dur * .5, send: true });
       osc('triangle', hz(n + 12), 0, t, dur, .03, musicBus, { a: .04, lp: 2200, rel: dur * .5, detune: 7 });
     },
@@ -80,7 +86,8 @@
   // ---------- songs ----------
   // chord = triad (MIDI) around octave 3; tones for lead/arp = [root, 3rd, 5th, root+12, 3rd+12, 5th+12]
   const C = {
-    Em: [52, 55, 59], C: [48, 52, 55], G: [55, 59, 62], D: [50, 54, 57], Am: [45, 48, 52], B: [47, 51, 54], F: [41, 45, 48], Gm: [43, 47, 50],
+    Em: [52, 55, 59], C: [48, 52, 55], G: [55, 59, 62], D: [50, 54, 57], Am: [45, 48, 52], B: [47, 51, 54], F: [41, 45, 48],
+    Dm: [50, 53, 57], Bb: [46, 50, 53], A: [45, 49, 52], Bm: [47, 50, 54], Cm: [48, 51, 55], Ab: [44, 48, 51], Eb: [51, 55, 58],
   };
   const MOTIFS = [
     [3, null, null, 4, null, 5, null, 4, 3, null, 2, null, 3, null, null, null],
@@ -88,79 +95,145 @@
     [3, null, 3, 4, 5, null, 4, 3, null, 2, null, 3, 4, null, 5, null],
     [3, null, null, null, 4, null, null, null, 5, null, null, 4, null, null, null, null],
     [5, null, null, null, 4, null, 3, null, 4, null, null, null, 2, null, null, null],
+    [0, null, 2, null, 4, null, 3, null, 2, null, null, null, 1, null, null, null],
+    [4, null, null, 5, null, null, 4, null, 3, null, null, null, null, null, null, null],
+    [2, null, 3, null, 4, null, null, null, 5, null, 4, null, 3, null, null, null],
+    [5, null, null, null, null, null, 4, null, null, null, 3, null, null, null, null, null],
+    [3, 4, 5, null, 4, null, 3, null, 2, null, 3, null, null, null, null, null],
   ];
+  const ARPS = { up: [0, 1, 2, 3, 2, 1, 2, 4], wave: [0, 2, 4, 2, 3, 2, 4, 5], climb: [0, 1, 2, 3, 4, 5, 4, 3], wide: [0, 3, 1, 4, 2, 5, 2, 4] };
+
+  // Each song plays once from start to end, then the next song of the same group starts.
+  // Songs differ in tempo, chords, arp pattern, lead voice and groove, so a long run never repeats one tune.
   const SONGS = {
-    menu: {
-      bpm: 86, loopFrom: 1,
-      sections: [
+    menu: [
+      { name: 'Drift', bpm: 86, arp: 'up', leadKind: 'saw', sections: [
         { prog: ['Am', 'F', 'C', 'G'], pad: 1, arp: 1 },
         { prog: ['Am', 'F', 'C', 'G', 'Am', 'F', 'C', 'G'], pad: 1, arp: 1, bass: 'long', kick: 'half', hat: 'off' },
         { prog: ['F', 'G', 'Am', 'Am', 'F', 'G', 'C', 'G'], pad: 1, arp: 1, bass: 'eighths', kick: 'four', hat: 'off', lead: 3 },
         { prog: ['Am', 'F', 'C', 'G', 'Am', 'F', 'C', 'G'], pad: 1, bass: 'long', kick: 'half', lead: 4 },
         { prog: ['F', 'C', 'G', 'G'], pad: 1, arp: 1 },
-      ],
-    },
-    battle: {
-      bpm: 108, loopFrom: 1,
-      sections: [
+      ] },
+      { name: 'Low Tide', bpm: 78, arp: 'wave', leadKind: 'bell', sections: [
+        { prog: ['F', 'C', 'Dm', 'Bb'], pad: 1 },
+        { prog: ['F', 'C', 'Dm', 'Bb', 'F', 'C', 'Dm', 'Bb'], pad: 1, arp: 1, bass: 'long', lead: 8 },
+        { prog: ['Dm', 'Bb', 'F', 'C', 'Dm', 'Bb', 'C', 'C'], pad: 1, arp: 1, bass: 'long', kick: 'half', lead: 6 },
+        { prog: ['F', 'C', 'Dm', 'Bb'], pad: 1, arp: 1 },
+      ] },
+      { name: 'Orbit', bpm: 82, arp: 'climb', leadKind: 'pluck', sections: [
+        { prog: ['Em', 'C', 'G', 'D'], pad: 1, arp: 1 },
+        { prog: ['Em', 'C', 'G', 'D', 'Em', 'C', 'G', 'D'], pad: 1, arp: 1, bass: 'long', kick: 'half', hat: 'off', lead: 5 },
+        { prog: ['C', 'D', 'Em', 'Em', 'C', 'D', 'G', 'D'], pad: 1, bass: 'long', kick: 'half', lead: 7 },
+        { prog: ['Em', 'C', 'G', 'D'], pad: 1, arp: 1 },
+      ] },
+    ],
+    battle: [
+      { name: 'Neon Pulse', bpm: 108, arp: 'up', leadKind: 'saw', sections: [
         { prog: ['Em', 'C', 'G', 'D'], pad: 1, kick: 'four' },
         { prog: ['Em', 'C', 'G', 'D', 'Em', 'C', 'G', 'D'], pad: 1, kick: 'four', hat: 'off', bass: 'eighths', arp: 1 },
         { prog: ['Em', 'C', 'G', 'D', 'Em', 'C', 'G', 'D'], kick: 'four', snare: 1, hat: 'sixteen', bass: 'eighths', lead: 0 },
         { prog: ['C', 'D', 'Em', 'Em', 'Am', 'C', 'D', 'B'], pad: 1, kick: 'four', snare: 1, hat: 'sixteen', bass: 'eighths', lead: 1 },
         { prog: ['Am', 'C', 'D', 'B'], pad: 1, arp: 1, bass: 'long' },
         { prog: ['Em', 'C', 'G', 'D', 'Em', 'C', 'G', 'D'], pad: 1, kick: 'four', snare: 1, hat: 'sixteen', bass: 'eighths', arp: 1, lead: 2 },
-      ],
-    },
+      ] },
+      { name: 'Night Drive', bpm: 102, arp: 'wave', leadKind: 'bell', sections: [
+        { prog: ['Dm', 'Bb', 'F', 'C'], pad: 1, arp: 1 },
+        { prog: ['Dm', 'Bb', 'F', 'C', 'Dm', 'Bb', 'F', 'C'], pad: 1, arp: 1, kick: 'broken', hat: 'off', bass: 'pulse' },
+        { prog: ['Dm', 'Bb', 'F', 'C', 'Dm', 'Bb', 'F', 'C'], pad: 1, kick: 'four', snare: 1, hat: 'sixteen', bass: 'pulse', lead: 5 },
+        { prog: ['Bb', 'C', 'Dm', 'Dm', 'Bb', 'C', 'A', 'A'], pad: 1, arp: 1, kick: 'half', bass: 'long', lead: 8 },
+        { prog: ['Dm', 'Bb', 'F', 'C', 'Dm', 'Bb', 'F', 'C'], pad: 1, arp: 1, kick: 'four', snare: 1, hat: 'sixteen', bass: 'pulse', lead: 7 },
+        { prog: ['Dm', 'Bb', 'C', 'C'], pad: 1 },
+      ] },
+      { name: 'Glass City', bpm: 112, arp: 'climb', leadKind: 'pluck', sections: [
+        { prog: ['Am', 'Em', 'F', 'G'], arp: 1, hat: 'off' },
+        { prog: ['Am', 'Em', 'F', 'G', 'Am', 'Em', 'F', 'G'], pad: 1, arp: 1, kick: 'four', hat: 'off', bass: 'eighths' },
+        { prog: ['Am', 'Em', 'F', 'G', 'Am', 'Em', 'F', 'G'], kick: 'four', snare: 1, hat: 'sixteen', bass: 'eighths', lead: 9 },
+        { prog: ['F', 'G', 'Am', 'Am', 'F', 'G', 'C', 'G'], pad: 1, kick: 'broken', bass: 'pulse', arp: 1 },
+        { prog: ['Am', 'Em', 'F', 'G', 'Am', 'Em', 'F', 'G'], pad: 1, kick: 'four', snare: 1, hat: 'sixteen', bass: 'eighths', arp: 1, lead: 2 },
+      ] },
+      { name: 'Slow Burn', bpm: 96, arp: 'wide', leadKind: 'saw', sections: [
+        { prog: ['Em', 'Bm', 'C', 'D'], pad: 1 },
+        { prog: ['Em', 'Bm', 'C', 'D', 'Em', 'Bm', 'C', 'D'], pad: 1, kick: 'half', snare: 'half', hat: 'off', bass: 'long', lead: 3 },
+        { prog: ['Em', 'Bm', 'C', 'D', 'Em', 'Bm', 'C', 'D'], pad: 1, arp: 1, kick: 'broken', snare: 'half', hat: 'sixteen', bass: 'pulse', lead: 6 },
+        { prog: ['C', 'D', 'Bm', 'Em', 'C', 'D', 'B', 'B'], pad: 1, arp: 1, bass: 'long' },
+        { prog: ['Em', 'Bm', 'C', 'D', 'Em', 'Bm', 'C', 'D'], pad: 1, arp: 1, kick: 'four', snare: 1, hat: 'sixteen', bass: 'eighths', lead: 4 },
+      ] },
+      { name: 'Starfall', bpm: 116, arp: 'up', leadKind: 'bell', sections: [
+        { prog: ['Bm', 'G', 'D', 'A'], pad: 1, arp: 1 },
+        { prog: ['Bm', 'G', 'D', 'A', 'Bm', 'G', 'D', 'A'], pad: 1, arp: 1, kick: 'four', hat: 'off', bass: 'eighths' },
+        { prog: ['Bm', 'G', 'D', 'A', 'Bm', 'G', 'D', 'A'], kick: 'four', snare: 1, hat: 'sixteen', bass: 'eighths', lead: 0 },
+        { prog: ['G', 'A', 'Bm', 'Bm', 'G', 'A', 'D', 'A'], pad: 1, kick: 'half', bass: 'long', lead: 8 },
+        { prog: ['Bm', 'G', 'D', 'A', 'Bm', 'G', 'D', 'A'], pad: 1, arp: 1, kick: 'four', snare: 1, hat: 'sixteen', bass: 'eighths', lead: 9 },
+      ] },
+      { name: 'Deep Space', bpm: 104, arp: 'wave', leadKind: 'pluck', sections: [
+        { prog: ['Cm', 'Ab', 'Eb', 'Bb'], pad: 1 },
+        { prog: ['Cm', 'Ab', 'Eb', 'Bb', 'Cm', 'Ab', 'Eb', 'Bb'], pad: 1, arp: 1, kick: 'broken', hat: 'off', bass: 'pulse' },
+        { prog: ['Cm', 'Ab', 'Eb', 'Bb', 'Cm', 'Ab', 'Eb', 'Bb'], pad: 1, kick: 'four', snare: 1, hat: 'sixteen', bass: 'pulse', lead: 7 },
+        { prog: ['Ab', 'Bb', 'Cm', 'Cm', 'Ab', 'Bb', 'Eb', 'Bb'], pad: 1, arp: 1, bass: 'long', lead: 5 },
+        { prog: ['Cm', 'Ab', 'Eb', 'Bb', 'Cm', 'Ab', 'Eb', 'Bb'], pad: 1, arp: 1, kick: 'four', snare: 1, hat: 'sixteen', bass: 'eighths', lead: 1 },
+      ] },
+    ],
   };
 
-  const player = { song: null, want: 'menu', sec: 0, bar: 0, step: 0, next: 0, timer: null, intense: false };
+  // group = 'menu' or 'battle'; each group remembers which song is next, so every run starts a new tune
+  const player = { group: null, want: 'menu', idx: { menu: 0, battle: Math.floor(Math.random() * SONGS.battle.length) }, sec: 0, bar: 0, step: 0, next: 0, timer: null, intense: false };
 
   function tones(ch) { const c = C[ch]; return [c[0], c[1], c[2], c[0] + 12, c[1] + 12, c[2] + 12]; }
 
   function playStep(t, S, sec, bar, st, sp) {
-    const ch = sec.prog[bar], tn = tones(ch), root = C[ch][0], intense = player.intense && S === SONGS.battle;
+    const ch = sec.prog[bar], tn = tones(ch), root = C[ch][0], intense = player.intense && player.group === 'battle';
     if (sec.kick === 'four' && st % 4 === 0) I.kick(t);
     if (sec.kick === 'half' && st % 8 === 0) I.kick(t);
-    if (sec.snare && (st === 4 || st === 12)) I.snare(t);
+    if (sec.kick === 'broken' && (st === 0 || st === 6 || st === 10)) I.kick(t);
+    if (sec.snare === 1 && (st === 4 || st === 12)) I.snare(t);
+    if (sec.snare === 'half' && st === 8) I.snare(t);
     if (intense && sec.snare && st === 14) I.snare(t);
     if (sec.hat === 'off' && st % 4 === 2) I.hat(t, true);
     if ((sec.hat === 'sixteen' || intense) && st % 2 === 1) I.hat(t, false);
     if (sec.bass === 'eighths' && st % 2 === 0) I.bass(t, root - 12 + (st % 4 === 2 && intense ? 12 : 0), sp * 1.8);
+    if (sec.bass === 'pulse' && [0, 3, 6, 10, 12].includes(st)) I.bass(t, root - 12 + (st === 10 ? 7 : 0), sp * 2.4);
     if (sec.bass === 'long' && st === 0) I.bass(t, root - 12, sp * 15);
     if (sec.pad && st === 0) I.pad(t, C[ch], sp * 16);
-    if (sec.arp || intense) { const pat = [0, 1, 2, 3, 2, 1, 2, 4]; I.arp(t, tn[pat[st % 8]], sp * .9); }
+    if (sec.arp || intense) { const pat = ARPS[S.arp]; I.arp(t, tn[pat[st % 8]], sp * .9); }
     if (sec.lead != null) {
       const m = MOTIFS[sec.lead], v = m[st];
       if (v != null) {
         let len = 1; while (st + len < 16 && m[st + len] == null && len < 3) len++;
-        I.lead(t, tn[v], sp * len * .95);
+        I.lead(t, tn[v], sp * len * .95, S.leadKind);
       }
     }
   }
 
   function schedule() {
-    const S = SONGS[player.song];
     while (player.next < ctx.currentTime + .15) {
-      // switch song at the start of a bar
-      if (player.step === 0 && player.want !== player.song) { player.song = player.want; player.sec = 0; player.bar = 0; return schedule(); }
+      // switch group at the start of a bar; the new group continues with its next song
+      if (player.step === 0 && player.want !== player.group) { player.group = player.want; player.sec = 0; player.bar = 0; }
+      const S = SONGS[player.group][player.idx[player.group]];
       const sec = S.sections[player.sec];
-      const sp = 60 / (S.bpm * (player.intense && S === SONGS.battle ? 1.06 : 1)) / 4;
+      const sp = 60 / (S.bpm * (player.intense && player.group === 'battle' ? 1.06 : 1)) / 4;
       playStep(player.next, S, sec, player.bar, player.step, sp);
       player.next += sp;
       if (++player.step === 16) {
         player.step = 0;
-        if (++player.bar >= sec.prog.length) { player.bar = 0; player.sec++; if (player.sec >= S.sections.length) player.sec = S.loopFrom; }
+        if (++player.bar >= sec.prog.length) {
+          player.bar = 0;
+          if (++player.sec >= S.sections.length) { player.sec = 0; player.idx[player.group] = (player.idx[player.group] + 1) % SONGS[player.group].length; }
+        }
       }
     }
   }
 
   function startMusic() {
     if (!ctx || player.timer) return;
-    player.song = player.want; player.sec = 0; player.bar = 0; player.step = 0;
+    player.group = player.want; player.sec = 0; player.bar = 0; player.step = 0;
     player.next = ctx.currentTime + .08;
     player.timer = setInterval(schedule, 40);
   }
-  function setSong(name) { player.want = name; }
+  function setSong(name) {
+    // leaving a group mid-song: next time it comes back, start its following song
+    if (name !== player.want && player.group === player.want && player.sec > 0) player.idx[player.want] = (player.idx[player.want] + 1) % SONGS[player.want].length;
+    player.want = name;
+  }
   function setIntensity(on) { player.intense = on; }
 
   // ---------- sound effects ----------
