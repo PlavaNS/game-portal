@@ -546,6 +546,7 @@ ballcrazesortgame
 ballerina-cappuccina-loves-tung-tung-sahur
 ballfall
 ballon-race-3d
+balloon-blitz
 balloon-buddies-flat-edition
 balloon-escape
 balloon-heroes-run-and-rise
@@ -700,6 +701,7 @@ big-supermarket-simulator
 big-vowels-fun
 big-wheels
 big-wild-bucks-voxel-buck-hunter
+bighead
 bike-mania-2
 bike-mania-3-on-ice
 bike-master
@@ -936,6 +938,7 @@ bounce-heroes
 bounce-td
 bounce-up
 bouncepop-quest
+bouncing-balls
 bouncing-bug
 bouncing-egg
 bouncing-eggs
@@ -952,6 +955,7 @@ bowling-stars
 bowmaster-tower-attack
 bowmasters2
 box-brothers
+box-hop-duel
 box-it-up
 box-journey
 box-magician
@@ -1912,6 +1916,7 @@ crazy-table-tennis
 crazy-three-puzzle
 crazy-traffick-racing-2026
 crazy-truck-stunt-i-o
+crazymath
 creamlink-kids
 create-your-robot
 create-youre-obby-skin
@@ -2076,6 +2081,7 @@ daruma-matching
 dash-hero
 dash-masters
 dashmash-io
+dashvalley
 data-breach
 day-care-simulator
 dazzling-divas-makeup
@@ -2272,6 +2278,7 @@ doodle-boba-bubble-tea
 doodle-car-race
 doodle-cats
 doodle-dino-run
+doodle-football
 doodle-guard-draw-to-save
 doodle-halloween-momo-cat-academy
 doodle-halloween-momo-cat-sea-magic
@@ -2534,6 +2541,7 @@ ember-boy-and-ripple-girl
 ember-carnival
 emergency-ambulance-driving-game
 emergency-dispatcher-911
+emergency-operator
 emergency-rush-city-ambulance-rescue
 emilys-hotel-solitaire
 emoji-guess
@@ -2589,6 +2597,7 @@ escape-ancient-egypt
 escape-from-dictatorship-runner-game
 escape-from-hell-crazy-runner-game
 escape-from-school-3d
+escape-from-snakes
 escape-from-squid-island
 escape-from-the-crypt
 escape-from-the-portal
@@ -2725,6 +2734,7 @@ fashion-show-dressup
 fashion-show-makeup
 fashion-stylist-salon-makeover
 fashion-valkyries-saga-of-style
+fashion-week-2025
 fashionista-christmas-eve-party
 fast-and-wild-in-sky
 fast-ball-jump
@@ -3260,6 +3270,7 @@ ghostly-night-harvest
 ghostrick-the-sacred-war
 ghoul-fusion
 giant-crusher-destroy-and-grow
+giant-killer
 giant-rush
 giant-snowball-rush
 giant-wanted-monster
@@ -3272,6 +3283,7 @@ girl-game-organizing-fun
 girl-hair-salon-and-dress-up
 girl-mini-games-relaxing-fun
 girl-money-rush-game
+girls-pajama-party
 gladiators-merge-and-fight
 glam-doll-salon-makeup-and-dressup-game
 glam-dressup-girls-games
@@ -3530,6 +3542,7 @@ hard-working-man
 harvest-glam
 harvest-haulers
 harvest-rush
+harvester-cut-grass
 hatch-or-steal-online
 hatch-surprise-pets
 hatch-that-egg-tap-and-crack
@@ -3595,6 +3608,7 @@ heroes-of-arena
 heroes-of-the-dungeons-match-3-rpg
 heroes-shop-battlers
 heroes-vs-monsters-idle-rpg
+heroic-barrage
 heroic-barrage-easy
 heroic-knight
 heros-vs-monster
@@ -3643,6 +3657,7 @@ hidden-objects-island
 hidden-objects-island-secrets
 hidden-objects-recipe-collection
 hidden-paint-3d
+hidden-pairs-mahjong
 hidden-shop-hunt
 hidden-sniper-camo-hunter-3d
 hidden-turtle
@@ -3783,6 +3798,7 @@ hugie-wugie-runner
 hula-hoops-rush
 human-leap-evolution
 human-playground
+human-vehicle-run
 humans-playground-sandbox
 hungry-ants
 hungry-cars
@@ -3993,6 +4009,7 @@ jixora-jigsaw-solitaire-puzzle
 john-is-a-lifeguard
 johnny-jump-challenge
 johnny-trigger-3d-online
+join-blob-clash
 join-clash-3d
 join-clash-epic-battle
 join-the-gang-and-fight
@@ -4758,6 +4775,7 @@ mini-sky-helicopter
 mini-springs
 mini-stadium
 mini-stilts
+mini-supercars-racing-crashing
 mini-switcher
 mini-tennis
 mini-tennis-3d
@@ -5040,6 +5058,7 @@ mystery-dumpling-squishy-slime
 mystery-of-the-old-house-hidden-objects
 mystery-squishy-dumpling-blind-box
 mystical-blade-3d
+mythinsects-tower-defense
 mythiq
 nail-run-bridge-game
 nail-salon
@@ -5423,6 +5442,7 @@ orbit-tap-rush-one-tap-game
 orbital
 orbitdefense
 orc-breach
+orc-hero
 order-of-operation-challenge
 organizer-master
 origin
@@ -5604,6 +5624,7 @@ piano-kids-music-songs
 piano-master
 pic-pie-wonders
 pick-and-patch
+pick-the-number
 pickaxe-crusher-idle
 pickle-ball-clash
 picky-parking
@@ -6017,6 +6038,7 @@ raised-knight
 rally-point-3
 rally-race-pro-3-0-car-racing
 rambo-legend-game
+ramp-bus-stunt-simulator
 ramp-car-game
 ramp-car-stunts-impossible
 ramp-race
@@ -6039,6 +6061,7 @@ real-car-highway-racing-game
 real-car-parking-and-stunt
 real-car-parking-game
 real-car-pro-racing
+real-cargo-truck-driver-2025
 real-cars-epic-stunts
 real-city-driving-2
 real-cod-strike
@@ -6089,6 +6112,7 @@ red-stickman-vs-monster-school
 red-stickman-vs-monster-school-2
 red-up-survival-offline-game
 redboy-and-bluegirl
+redrunner
 reds-winding-way
 reefrescue
 reel-and-slash-ii-beach-legends
@@ -6514,6 +6538,7 @@ shape-transform
 shape-transform-race
 shape-transform-shifting-rush
 shape-transforming-shifting-run
+shape-whiz
 shapehavoc3d
 shapenest
 shark-attack
@@ -6829,6 +6854,7 @@ sokoballs
 sokoban-master
 sokoban-push-the-box
 sokoban-puzzle-game
+sokomatch
 sol-coalition-force
 soldier-shooting
 soldiers-runner
@@ -7495,6 +7521,7 @@ tank-craft-2
 tank-craft-merge
 tank-force-battle-game
 tank-fury-boss-battle-2d
+tank-master
 tank-mayhem
 tank-push
 tank-sniper-3d
@@ -7677,6 +7704,7 @@ throw-an-egg
 throw-best
 throw-fast
 throw-sword
+thung-thung-sahur-night-escape
 thung-thung-sahur-playgrounds-escape
 tic-tac-toe-2025
 tic-tac-toe-html
@@ -7975,6 +8003,7 @@ ultimate-lawn-mowing-simulator-mower-master
 ultimate-obby-parkour-adventure-online
 ultimate-pk
 ultimate-robo-duel-3d
+ultimate-robot-fighting
 ultimate-stunt-car-challenge
 ultra-crash-car-simulator-2026
 ultra-kick-goal-crazy
@@ -8083,6 +8112,7 @@ virus-destroyer
 vizavi
 vlinder-garden-dress-princess
 vlinder-girl-fashion-story
+voice-of-the-soul
 void-drop-3d
 void-rescue
 void-roller
