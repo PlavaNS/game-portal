@@ -146,6 +146,7 @@ age-of-tanks-warriors-td-war
 agent-j
 agent-sniper-city
 agrarian-magnate
+aha-world-dream-town
 aichessgame
 aidan-in-danger
 aidol-k-pop-adventure
@@ -301,6 +302,7 @@ apex-racer
 apex-rush
 apexcircuit
 apocalypse-rush
+aqua-escape
 aqua-fish-dental-care
 aqua-fish-rush
 aqua-logics-puzzle-new
@@ -974,6 +976,7 @@ bridal-makeup-salon-game
 bridal-race-3d
 bridge
 bridge-bounce-jump-challenge
+bridge-builder
 bridge-builder-3d
 bridge-builders
 bridge-cleaner-runner-game
@@ -1031,6 +1034,7 @@ bubble-shooter-vale
 bubble-shooting-pro-fun
 bubble-smash
 bubble-sorting-game
+bubble-sorting-infinite-remastered
 bubble-stars-boxes-sirius-and-najia
 bubble-tea-cocktail-maker-mix-drinks
 bubble-tower
@@ -1284,6 +1288,7 @@ car-wash-simulator-summer-edition
 car-word-hunt
 card-quest
 card-quest-10-minute-adventure
+card-quest-solitaire
 card-solitaire-word-game
 card-sort-challenge
 card-sort-solitaire
@@ -2083,6 +2088,7 @@ dino-merge-island
 dino-robot-fighting-war
 dino-run-game
 dino-runner-birthday
+dino-rush
 dino-simulator-city-attack
 dino-squad-battle-mission
 dino-t-rex-3d-run
@@ -2145,6 +2151,7 @@ dont-be-angry-with-match-man
 dont-break-my-heart
 dont-get-crashed-by-67
 dont-panic-dude
+dontmove
 donut-art-puzzle-diamond-game
 donut-ready-business-tycoon-game
 donutosaur-2
@@ -2868,6 +2875,7 @@ freecell-classic
 freekick-hero
 freight
 french-fries-tycoon-farm-to-fryer
+frenzy-demine
 fresh-drop-triple-match
 friday-night-funkin-pixelcrate
 friday-night-funkin-vs-garcello
@@ -2875,6 +2883,7 @@ friends-pug
 fristailo-granny
 frog-byte
 frog-leap-3d
+froggy-hop
 froggy-tower
 frogtastic-marble-adventure
 frogtress
@@ -4010,6 +4019,7 @@ last-shift
 last-to-leave-circle-obby
 last-train-escape
 last-z-survival-shooter
+lastwar-survival
 latto-latto
 launch-jack
 launch-the-dummy
@@ -4235,6 +4245,7 @@ marble-color-sort
 marble-factory
 marble-maze
 marble-maze-game
+marble-zuma-shooter
 marblemaze2
 maritime-conflict
 maritime-sniper
@@ -4289,6 +4300,7 @@ matching-pair-puzzle
 matching-tiles-3d
 math-advanced
 math-battle
+math-box-balance
 math-crosswords
 math-driving-test
 math-fight-club
@@ -4683,6 +4695,7 @@ mouse-survivor
 moutain-jeep-drive
 mouth-shift-3d
 move-emoji
+move-the-tower
 movebox3d
 movie-star-daily-routine
 moving-balls-going-sphere
@@ -4812,6 +4825,7 @@ nekomi-recuse
 neo-traffic-rider-championship
 neon-abyss-defender
 neon-assault
+neon-ball-slope
 neon-billard-pool
 neon-blaster
 neon-circuit
@@ -5266,6 +5280,7 @@ paty-path
 pawky
 paws-and-pals-diner
 paws-and-paths
+paws-off-my-clues
 paws-up
 pc-cafe-simulator-3d
 pearl-paws
@@ -5312,13 +5327,16 @@ petdoku-cozy-puzzle-games
 pets-and-paints-logic-puzzle
 pets-roll-clicker
 pga-toons
+pga1
 pga3-survival
 pga3-zombie
 phone-case-diy
 phone-case-diy-2
 phone-case-diy-kpop-fans
 physics-box-2
+physics-optics-quiz
 physics-sandbox
+physics-semiconductos-quiz
 piano-hexa-fall
 piano-kids-music-and-songs
 piano-kids-music-songs
@@ -5572,6 +5590,7 @@ pro-builder-3d
 pro-football-eleven-2027
 pro-golfer-game
 pro-obunga-vs-creepender
+pro-sliding-puzzle
 professional-archerist
 project-survival
 project-void
@@ -5581,6 +5600,7 @@ protect-my-dog
 pudding-monsters
 pull-him-out-online
 pull-mermaid-out
+pull-the-pin-fish-rescue
 pull-the-pin-much-money
 pull-the-pin-rescue
 pull-the-thread-puzzle
@@ -6244,6 +6264,7 @@ sigma-boy-musical-clicker
 signal-survival-block-arena
 sila
 silent-fear
+simple-fruit-memory
 simple-merge
 simple-words
 simulator-gt-motorsport
@@ -6398,6 +6419,7 @@ snake-block-rush
 snake-brawl-merge-arena
 snake-chain-escape
 snake-color-race
+snake-game-2025
 snake-of-balls
 snake-of-bullets-collect-and-shoot
 snake-out
@@ -6508,6 +6530,7 @@ solitaire-tile-match
 solitaire-treasures
 solitaire-tripeaks
 solitaire-world
+solo-quiz-ing
 solve-or-suffer
 solve-the-maze
 somewhere
@@ -6557,6 +6580,7 @@ space-shooter-boss
 space-shooter-war
 space-stairwell
 space-strike-galaxy-shooter
+space-surfer
 space-survivor
 space-survivor-shooting
 space-survivors-bug-swarm
@@ -6618,6 +6642,7 @@ spinning-oia-oia-cat-bricker
 spinwhisker
 spiny-ninja
 spiral-blitz
+spirit-drops-from-dew
 splash-rivals
 splashy-sub
 splatcha
@@ -7198,6 +7223,7 @@ tennis-open-2024
 tentrix
 tentrix-blast
 tentrix-block
+terminal-master-bus-tycoon
 terminal-nine
 terminator-robot-uprising
 terrablox
@@ -7463,6 +7489,7 @@ trash-master
 trash-sort
 trashtide
 travel-mahjong-deluxe
+travel-with-me-asmr-edition
 treadbreaker
 treasure-quest
 treasurebound
@@ -7785,6 +7812,7 @@ whimsy-workshop-easy
 whirly
 whiskers-adventures
 who-says-pigs-can-t-fly
+who-will-win-create-a-battle
 whot-the-ultimate-nigerian-card-game
 wiggle-escape-snake-puzzle
 wiggly-worm-race
@@ -7930,6 +7958,7 @@ ww2-call-of-sniper
 ww2-modern-war-tanks-1942
 xmas-rooftop-battles
 xo-with-buddy
+xtreme-good-and-bad-boys-2-2025
 xtreme-motorbikes-rider
 xtreme-offroad-jeep-2019
 yaoguard
@@ -7979,6 +8008,7 @@ zingaliens
 zip-me-up-halloween
 zip-zap
 ziply
+zippy-bird-game
 zodiac-runner
 zombi-defense
 zombie-apocalypse-2
