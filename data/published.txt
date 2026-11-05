@@ -824,6 +824,7 @@ blockgunner
 blockibo-color-blocks
 blockify
 blockivo
+blockpuzzlemagic
 blocks-adventure-jungle-saga
 blocks-and-car
 blocks-match-3
@@ -853,6 +854,7 @@ bloons-battles
 bloop
 blow-king
 bloxdhop
+bloxorz
 bloxorz-color-block-roll
 blue-and-red-impostor
 blue-chameleon
@@ -1327,6 +1329,7 @@ car-rush-game
 car-rush-super
 car-sale-business-tycoon-game
 car-sales-empire-simulator
+car-simulation-drive-master
 car-simulator-3d
 car-sky-stunts
 car-smash-obby-3d
@@ -1417,6 +1420,7 @@ cat-robot-transform-war
 cat-snack-defense
 cat-suika
 cat-tic-tac-toe
+cat-up
 cat-vs-granny-cat-simulator
 cat-with-a-gun-clicker-evolution
 catch-a-fish-obby
@@ -1546,6 +1550,8 @@ circle-car-crash-3d
 circle-dash-ball-game
 circle-rush-trolley-run
 circle-zombie
+circlecrash
+circleleap
 circuit-master-2
 circularmatrix
 citadel-fortress-defense
@@ -2221,6 +2227,7 @@ dive-deep
 divide-puzzle-arcade
 diy-clothing
 diy-doll-factory
+diy-ice-cream-roll-cone
 diy-joystick-game
 diy-phone-case-maker
 diy-slime-art
@@ -3061,6 +3068,7 @@ fruit-memory-extravaganza
 fruit-merge-2048-juicy-puzzle
 fruit-merge-arena
 fruit-merge-juice-jumble
+fruit-merge-juicy-drop-fun
 fruit-merge-juicy-drop-game
 fruit-merge-mania
 fruit-merger
@@ -3414,6 +3422,7 @@ guess-tiles
 guess-which-game
 guess-words-fast
 guilty-sniper
+gummy-blocks-puzzle
 gun-and-guys
 gun-and-roll
 gun-baron
@@ -3606,6 +3615,7 @@ hexa-jump-asmr
 hexa-master
 hexa-master-3d-sort-puzzle
 hexa-merge-2048-puzzle
+hexa-puzzle-master
 hexa-sort
 hexa-sort-3d
 hexa-sort-master
@@ -3761,6 +3771,7 @@ hotfoot-baseball
 hotgear
 hotline-miami
 house-build-puzzle-game
+house-cleaning-asmr
 house-paint-challenge
 hover-shift-craft-racer
 how-high
@@ -4260,6 +4271,7 @@ lineo
 link-flow
 link-me-to-the-factory
 linking-battle
+linkschallengpuzzle
 lion-family-sim-online
 lion-prince
 lion-safari-jigsaw-puzzles
@@ -5487,6 +5499,7 @@ parking-jam-2025
 parking-journey-car-puzzle
 parking-master-school
 parking-master-urban-challenges
+parking-polly-cars
 parking-puzzle-escape-challenge
 parking-puzzle-escape-challenge-kids
 parking-puzzle-game
@@ -5661,6 +5674,7 @@ pixel-jam-bus-puzzle
 pixel-legyfare-wars
 pixel-paint-sort
 pixel-paintball-wars
+pixel-path
 pixel-protocol
 pixel-shooter-puzzle
 pixel-slide-puzzle
@@ -6319,8 +6333,10 @@ safarirun
 safe-box-crack
 safety-sheriff-labrador
 saguaro
+same-and-different-donut
 same-room-same-day
 samurai-brawling
+samurai-cow-man
 samurai-dash
 samurai-survivor
 samuroof
@@ -6358,6 +6374,7 @@ satisdom
 satisfying-ball-clicker
 satispuzzle-perfect-tidy
 satisroom-perfectly-organized
+sauce-silk-spy
 sausage-flip-free
 sausage-life
 sausage-man
@@ -6661,7 +6678,9 @@ slime-jump-crown-quest
 slime-loop
 slime-merge-unlock-all-forms
 slime-planet-eater
+slime-rain
 slime-run
+slime-smile
 slime-sticky
 slimeadventure
 slimes-evolution
@@ -7386,6 +7405,7 @@ survival-on-raft-multiplayer
 survival-race
 survival-rush
 survival-sandbox-for-99-nights
+survival-shooter-game
 survival-tycoon-city-of-zombie
 survival-war
 survival-wave-zombie-multiplayer
@@ -7413,6 +7433,7 @@ swat-ops-body-camera
 sway-tower-builder
 sweet-and-fruity-makeup
 sweet-baby-taylor-summer-travel
+sweet-beasts
 sweet-bite-idle-game
 sweet-cake-shop-game
 sweet-candy-match-3-game
@@ -7589,6 +7610,7 @@ the-greedy-crow
 the-green-mission-inside-a-cave
 the-gungame
 the-hardest-game-in-world-and-ever
+the-hidden-booty
 the-high-climb
 the-horde
 the-hustler
@@ -7633,6 +7655,7 @@ the-tall-man
 the-trendy-mermaid
 the-unleashed-hunter
 the-upside-down
+the-war2727
 the-warlock-s-prisoner
 the-windows-game
 the-zombie-house
@@ -7647,12 +7670,14 @@ thorn-and-blast
 thousand-suns
 three-cups-game
 three-points
+thronehold
 thronehold-kids
 throttle-rivals
 throw-an-egg
 throw-best
 throw-fast
 throw-sword
+thung-thung-sahur-playgrounds-escape
 tic-tac-toe-2025
 tic-tac-toe-html
 tic-tac-toe-html5
@@ -7871,6 +7896,7 @@ truck-cross-country
 truck-cross-country-game
 truck-delivery-simulator
 truck-driving-construction-transport
+truck-driving-simulator-offroad
 truck-factory-for-kids
 truck-jam-puzzle
 truck-loader-5
@@ -8036,6 +8062,7 @@ vehicle-parking-master-3d
 vehicle-stunt-mayhem
 vehicle-stunts-sky-sim
 vehicle-transport-police-simulator
+vehiclefactory
 velocity-breaker
 velopter
 vemon-run-3d
@@ -8172,6 +8199,7 @@ whiskers-adventures
 who-says-pigs-can-t-fly
 who-will-win-create-a-battle
 whot-the-ultimate-nigerian-card-game
+wicked-whirl
 wiggle-escape-snake-puzzle
 wiggly-worm-race
 wiggly-worm-snake-puzzle
@@ -8268,6 +8296,7 @@ word-search-2025
 word-search-and-quiz
 word-search-hidden-words
 word-search-offline-puzzle
+word-search-universe
 word-search-universe-2
 word-search-universe-animals
 word-search-universe-easter
@@ -8440,6 +8469,7 @@ zombies-4-weapon-merge
 zombies-ate-my-castle
 zombies-rush
 zombies-vs-special-forces
+zombies-vs-sunflowers
 zombiracer-speed-on-earth
 zombotron-re-boot
 zombsmis
