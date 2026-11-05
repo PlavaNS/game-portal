@@ -63,6 +63,7 @@
 3d-air-racer
 3d-ball-pool
 3d-block-gladiator-sword-draw
+3d-bullet-bender
 3d-chess-arcane-edition
 3d-darts
 3d-dots
@@ -980,6 +981,7 @@ brutal-battle-royale
 brutal-zombies
 bs-simulator
 bts-budgie-coloring-book
+bts-cute-kitty-coloring
 bts-rabbit-coloring-book
 buba-jump
 bubbla-boing
@@ -1122,6 +1124,7 @@ cadillacs-dino-riot
 cafe-honey-heist
 cage-ballers-football
 cake-art-3d
+cake-link-master
 cake-maker-girls-cooking-games
 cake-master-shop
 cake-protector
@@ -1451,6 +1454,7 @@ circle-zombie
 circuit-master-2
 circularmatrix
 citadel-fortress-defense
+cities-game
 city-auto-rickshaw-game
 city-bike-racing-champion
 city-bike-stunt-2
@@ -1672,6 +1676,7 @@ cool-escape-obby-man
 cool-tuning-paint-the-car
 coookie-clicker
 copy-the-drawing
+coral-adventure
 core-rush
 cork-and-cauldron
 corner-bakery
@@ -1704,6 +1709,7 @@ cow-cow-run
 cow-jam-farm-puzzle
 cow-rescue
 cowboy-dash-game
+cowboy-runners-dash
 cowboy-survival-zombie
 cowboys-duel
 cozy-coloring
@@ -2378,6 +2384,7 @@ endless-ball-ride-game
 endless-car-chase
 endless-car-race-game
 endless-cube-runner
+endless-fall
 endless-golf
 endless-idle-rpg
 endless-path-twist-and-turn
@@ -2459,6 +2466,7 @@ exitblocks-color-match-puzzle
 explainable-minesweeper
 explore-hole
 exploring-the-galaxy-1-andora
+explosive-speed
 extra-hot-chili-3d
 extreme-balancer
 extreme-ball-balancer-3d
@@ -2719,6 +2727,7 @@ float-boat
 flock-fence
 floof-my-pet-house
 floppy-pipe
+florify
 flow-blast-shooter
 flower-fairy-adventure-story
 flower-magnet
@@ -3033,6 +3042,7 @@ ghost-shift
 ghost-sniper
 ghost-walker
 ghostly-night-harvest
+ghoul-fusion
 giant-crusher-destroy-and-grow
 giant-rush
 giant-snowball-rush
@@ -3576,6 +3586,7 @@ ice-blast-buddies
 ice-cream-asmr-diy-games
 ice-cream-inc
 ice-cream-sorting
+ice-cream-toppings
 ice-cream-vendor
 ice-dash
 ice-man-3d
@@ -3642,6 +3653,7 @@ infini-golf
 infinite-bike-trials
 infinite-heroes
 infinite-line-runner-game
+infinity-roll-3d
 infinity-sky
 injection-invasion
 ink-shop-dress-and-tattoo-games
@@ -4027,6 +4039,7 @@ lollipop-escape-mania-kids
 lone-sniper
 long-drive-to-horizons-sim
 long-hair-rush-challenge
+long-neck
 long-neck-runner-game
 longdog
 looper-fruit-hit
@@ -4153,6 +4166,7 @@ mandala-coloring-book
 mandala-meadow
 mansion-design-match-3
 mantis-clicker
+many-bricks-breaker
 maple-lake
 marble-color-sort
 marble-factory
@@ -4303,6 +4317,7 @@ merge-a-rocket
 merge-adventure
 merge-animals
 merge-animals-defence
+merge-archers-bow-and-arrow
 merge-balls-shooter-2048-connect-fruits
 merge-battler
 merge-beast-arena
@@ -4674,6 +4689,7 @@ my-doll-house-decor-life
 my-first-100-words
 my-golf
 my-gym-manager-idle-tycoon
+my-happy-farm-land-simulator
 my-hungry-fish-game
 my-ice-cream-shop
 my-kitties-catworld
@@ -4883,6 +4899,7 @@ number-shoot-game
 number-slide
 number-sums
 numbers-match-2448
+numeral-crawl
 numeral-crawl-easy
 numicolor
 nummerge-clash
@@ -5160,6 +5177,7 @@ party-stickman-4-player
 pass-the-gate
 passenger-airplane-flight-3d
 passenger-city-taxi-game
+passing-master-3d
 pastry-evolution-game
 patagonians
 patch-garden
@@ -5208,6 +5226,7 @@ perfect-wax-3d
 perimeter-legate-edition
 pet-card-sort
 pet-clinic
+pet-doctor-business-tycoon-game
 pet-doctor-caring-game
 pet-maze-escape
 pet-riders
@@ -5238,6 +5257,7 @@ piecealive
 pier-and-lighthouse-merge-story
 pig-bros-adventure
 pigcatch
+piggy-vs-watermelon
 pill-soccer
 pilot-life-flight-game-3d
 pim-path
@@ -5415,6 +5435,7 @@ portal-hop
 posing-puzzle
 potato-shooter
 potion-kitchen
+potion-path
 potion-siege
 pow
 power-ball-soccer
@@ -5427,6 +5448,7 @@ prado-car-driving
 prado-car-parking-game
 prado-parking-game
 prasino
+precise-shooting
 precision-car-parking-3d
 precision-parking-city-driver
 precision-parking-pro
@@ -5863,6 +5885,7 @@ royal-couple-halloween-party
 royal-defense
 royal-jelly-jam
 royal-jewels-match
+royal-match-tile-family
 royal-smash-puzzle-game
 rpg-idle-clicker
 rpg-soldier-shooter
@@ -5902,6 +5925,7 @@ running-roadball
 rush-rivals
 russian-car-drift-3d
 russian-drift-overtaking-in-the-city
+russian-is-easy
 rustlings-online
 rusty-park
 ruthless-merciless-cards
@@ -6415,6 +6439,7 @@ spa-with-daddy
 space-adventure-game
 space-aim-kids
 space-arena
+space-asteroids-war
 space-bike
 space-blast
 space-brawlers-tds
@@ -6431,6 +6456,7 @@ space-rolling-balls-race
 space-rover
 space-rovers
 space-shooter-boss
+space-shooter-war
 space-strike-galaxy-shooter
 space-survivor
 space-survivor-shooting
@@ -6972,6 +6998,7 @@ sworded-io-spin-and-rub
 syntagma
 t-rex-n-y-online
 tac-tac-way
+tactical-conquest
 tactical-response-team
 tag-valley
 taiga-expedition
@@ -7125,6 +7152,7 @@ the-pirate-sea-the-smuggler-s-way
 the-pyramid-adventure
 the-queen-s-jewels
 the-rings
+the-rise-of-zombies
 the-road-home-granny-escape
 the-room
 the-rooms-escape-challenge
@@ -7146,6 +7174,7 @@ thief-puzzle
 thief-puzzle-long-hand-game
 thief-puzzle-online
 thief-steal-a-monster-egg
+thief-stick-puzzle-man-escape
 this-is-blast
 thorn-and-blast
 thousand-suns
@@ -7355,6 +7384,7 @@ troll-rider
 truck-coloring
 truck-cross-country
 truck-cross-country-game
+truck-delivery-simulator
 truck-driving-construction-transport
 truck-factory-for-kids
 truck-jam-puzzle
