@@ -949,6 +949,7 @@ bottle-breakshot
 bottle-color-match-challenge
 bottle-flip-game
 bottle-rush-3d
+bottle-solitaire
 bottle-storm-elite-beach
 bounce-ball-hook
 bounce-ball-ring-challenge
@@ -1258,6 +1259,7 @@ candlebound-coven
 candy-ball-blast
 candy-boom-links
 candy-cats
+candy-chain-master
 candy-clicker-2
 candy-crunch-sugar-escape
 candy-cutter-saga
@@ -1297,6 +1299,7 @@ capture-flag
 capy-cafe
 capy-market
 capyballra-capybara-ball-collector
+capybara-go
 capybara-hexasort
 capybara-let-s-go-zombie-rush
 capybara-mukbang-asmr
@@ -1407,6 +1410,7 @@ cargo-truck-transport-game
 cargomatchmaster
 carletto-halloween-dreams
 carmania-io
+carnival-shooter
 carrom-club
 carrom-pro
 carrot-climber
@@ -1548,10 +1552,12 @@ chicken-yeet
 chickz-stack
 childcare-master-online
 children-doctor-dentist-2-surgery-game
+children-happy-farm-dudu
 chill-tic-tac-toe
 chillpaths
 chinchilla-trails
 chinese-and-asian-cooking-game
+chinese-cuisine-chef
 chinese-food-chef-dudu
 chips-bakery-simulator
 choco-ball-draw-line-and-happy-girl
@@ -1735,6 +1741,7 @@ color-dash-match-the-color
 color-dodge
 color-dots-challenge
 color-fall
+color-fan-color-by-number
 color-hole
 color-jam-3d
 color-lines
@@ -1892,6 +1899,7 @@ cozy-pizzeria
 cozy-puzzles
 cozy-sort-theme-collect
 crab-shooter
+crack-eggs
 crack-n-pop
 craft-magic-world-escape
 craft-number
@@ -1974,6 +1982,7 @@ create-youre-obby-skin
 creative-puzzle
 creep-crushers
 creepy-spa-for-little-monsters
+crescent-solitaire
 criatures-defense
 cricket-championship
 cricket-hero
@@ -3403,6 +3412,7 @@ glowit-two-players
 gluttonous-bean
 gn-ninja-run
 go-balloons
+go-chicken-go
 go-find-the-cake
 go-golf
 go-kart-racing-game
@@ -3678,6 +3688,7 @@ head-soccer-2023
 head-the-ball
 head-volleyball-sport-game
 health-protection
+healthy-hero
 heart-box
 heart-calcopus
 heaven-and-hell-idle
@@ -4260,6 +4271,7 @@ kingdom-tower-defense
 kingdomsrise
 kingmoon
 kings-defense-roguelike
+kitchen-king-rush
 kitchen-sorting
 kitten-connections
 kitten-never-dies
@@ -4802,6 +4814,7 @@ merge-factory-idle
 merge-for-renovation
 merge-fruit-characters
 merge-fruit-monster-defense-tower-defense
+merge-fruits-fold-the-watermelon
 merge-furry-monsters
 merge-game-puzzle-fusion
 merge-grabber-race-to-2048
@@ -4951,6 +4964,7 @@ mixed-world
 mixed-world-weekend
 mob-escape
 mob-runner-master
+mobile-legends-slime-3v3
 mochi-mochi-tower
 mochi-rescue
 model-dress-up-3d
@@ -5205,8 +5219,10 @@ my-town-home-family-playhouse
 my-unicorn-cat-princess-caring
 mycothreememo
 mydream-universe
+mysterious-doors
 mysterious-elevator
 mysterious-familiars-enchanted-bestiary
+mystery-campus-spotter
 mystery-digger
 mystery-dumpling-squishy-slime
 mystery-of-the-old-house-hidden-objects
@@ -5343,6 +5359,7 @@ no-one-survives-1-minute
 no-shorts
 no-stress-game-challenges
 no-wifi-mini-games-2025
+node-fusion-frenzy
 noescape
 noillirk
 nokia-3310-snack-game
@@ -5896,6 +5913,7 @@ planet-blast-rockets
 planet-destroy-idle
 planet-escape
 planet-hero
+planetary-plunge
 planko
 plant-girl-defense-zombie
 plant-squad
@@ -6015,6 +6033,7 @@ power-boat-racing-game
 power-crusher
 power-puncher
 power-shift-arena
+power-slap
 power-water-clean-rush
 prado-car-driving
 prado-car-parking-game
@@ -6177,6 +6196,7 @@ racing-online
 racing-portal
 racing-project-kit
 radial-3d
+radiation-zone
 ragdoll-arena
 ragdoll-arena-2-player
 ragdoll-battle-royale-throw-down-the-enemy
@@ -6210,6 +6230,7 @@ rainbow-ball-runner-2048
 rainbow-color-ball-runner
 rainbow-frontline
 rainbow-ice-cream-and-popsicles
+rainbow-ice-cream-maker
 rainbow-jump-puzzle
 rainbow-monster-hideout-3d
 rainbow-monster-survival
@@ -6335,6 +6356,7 @@ restorake-restore-the-ruins
 restore-lab
 resuce-escape
 retro-basketball
+retro-pong
 retro-run
 retro-sniper
 retro-speed
@@ -6361,6 +6383,7 @@ rift-of-hell-demons-war
 rim-rebels-3v3
 ring-fall-puzzle
 ring-master-hats
+ring-master-legends
 ringo-starfish
 rings-and-dot
 rings-untie
@@ -6938,6 +6961,7 @@ smashsite-io
 smashy-bird-3d
 smithing-master
 smod-sandbox-in-backrooms
+smoke-man-runner-2d
 smoothie-sorting
 snack-and-warp
 snack-sort
@@ -7303,6 +7327,7 @@ stardom-alt-girls-fashion-duel
 starforge-boss-rush
 starpoly
 starry-bridge-physics-puzzle
+starry-style-dorama-of-dream
 starship
 starship-ducks
 starship-troopers
@@ -7362,6 +7387,7 @@ stick-up
 stick-vs-zombies-epic-battle
 stick-war-saga
 stick-war-tower-mighty-defense
+stick-warrior
 stick-wars-3d
 stickboy-defender
 stickboy-epic-swordsman
@@ -7709,6 +7735,7 @@ swimming-pool-romance
 swing-hero
 swing-obby-for-brainrots
 swipe-box-physics-arcade-game
+swipe-runner-quest
 swipe-swoosh
 swipy-basketball
 switch-colors
@@ -7793,6 +7820,7 @@ tarantula-clicker
 tarcat
 target-gun-game-fps-shooting
 target-hit-shooting-range
+target-master-2d
 targetter-game
 tasty-out-arrow-puzzle
 tastyfarm
@@ -7806,6 +7834,7 @@ taxi-parking-driving
 taxi-rush
 taxi-simulator-3d
 taylor-dress-studio-preppy-wild-west
+tb-avataria-life-girl
 tb-world
 tcg-shop-dino-adventure
 tcg-shop-maps-toys-and-comics
@@ -8472,6 +8501,7 @@ wednesday-light-academia
 wednesday-s-battle-monster-symphony
 weight-adjust-game
 weight-balance-journey
+weight-gain-diet-cooking-recipe
 weight-puzzle-3d
 weird-pet-shop
 western-fight
