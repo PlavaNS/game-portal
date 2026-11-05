@@ -583,6 +583,7 @@ battle-simulator-sandbox
 battle-simulator-stickman-zombie
 battle-wheels
 battlebox
+battlecross
 battledudes-io
 battleground-chicken-winner
 battleground-survival-2023
@@ -650,6 +651,7 @@ big-shark
 big-smash
 big-space-adventure
 big-supermarket-simulator
+big-vowels-fun
 big-wheels
 big-wild-bucks-voxel-buck-hunter
 bike-mania-2
@@ -696,6 +698,7 @@ black-hole-eat-the-universe
 black-hole-fill-3d
 black-hole-io-3d-game
 black-hole-swallow-master
+black-pink-halloween-concert
 black-sphere
 blackriver-mystery-hidden-objects
 blacktop-police-chase
@@ -860,6 +863,7 @@ bottle-bottle
 bottle-breakshot
 bottle-color-match-challenge
 bottle-flip-game
+bottle-rush-3d
 bottle-storm-elite-beach
 bounce-ball-hook
 bounce-ball-ring-challenge
@@ -1036,6 +1040,7 @@ buggy-blast
 buggy-racing
 buggy-simulator-sandbox-3d
 buggz-pop
+build-a-burger
 build-a-go-kart
 build-a-keycap-pyramid
 build-a-road
@@ -1089,6 +1094,7 @@ bus-crash-stunts-2
 bus-driver-simulator-3d
 bus-driving-master-3d
 bus-escape-clear-jam
+bus-jam
 bus-jam-pick-up-them-all
 bus-jam-sort
 bus-jam-sort-escape
@@ -1380,6 +1386,7 @@ cheerleader-magazine-dressup
 cheese-collector-rat-runner
 cheese-tower
 chef-tycoon
+chemical-flowtint
 chernobyl-zombie-hell
 chess-3d
 chess-free
@@ -1946,6 +1953,7 @@ deadshift-halloween-night
 death-run
 death-sentence
 deck-of-deception
+decode-the-movie-quote
 deconstruct-cube-create-hotel
 decorate-my-dream-castle-home-design
 deep-digger-tycoon
@@ -2302,6 +2310,7 @@ durak
 dusk-warz
 dwarf-treasures
 dye-it-right-color-picker
+dystopia-rpg
 e-rickshaw-simulator
 ear-doctor-care-game
 earth-dunk-physics-arcade-game
@@ -2428,6 +2437,7 @@ eternal-dance
 euro-2020-2021
 euro-champ-2024
 euro-truck-driving-game
+euro-truck-driving-simulator
 euro-truck-parking
 euro-truck-parking-game
 evade
@@ -2734,6 +2744,7 @@ fnf-trick-or-die
 food-conveyor
 food-game-grill-sort
 food-gang-run
+food-jam
 food-run-and-battle
 food-sort-3d
 food-tower-defense
@@ -2982,6 +2993,7 @@ gem-sort-puzzle
 gemcrash
 gems-sort-puzzle
 geo-metric-run
+geography-quiz-countries-flags-capitals
 geom-etrys
 geometry-arrow
 geometry-arrow-2
@@ -3339,6 +3351,7 @@ hero-rescue-gold-glory
 hero-rescue-puzzle
 hero-sheep
 hero-time
+hero-transform-run
 heroes-beware
 heroes-inc
 heroes-of-arena
@@ -3570,6 +3583,7 @@ ice-pet-match
 ice-scream-horror-adventure
 ice-slide
 icing-on-doll-cake-creative-bakery
+iconic-halloween-costumes
 icy-purple-head-2
 icymatch
 idle-airport-tycoon
@@ -3794,6 +3808,7 @@ kick-a-lucky-block-tsunami-waves
 kick-and-run
 kick-lucky-blocks-online
 kick-the-ball-and-shoot
+kick-the-chicken
 kick-the-santa-christmas-buddy
 kick-the-zombie-ragdoll-sandbox
 kickoff-academy-football-tycoon
@@ -4244,6 +4259,7 @@ mechanic-simulator-car-repair
 mechaspider-cyber-strike
 medieval-battle-2p
 mega-block-survivors
+mega-car-stunt-game
 mega-car-stunts
 mega-crowd
 mega-escape-car-parking-puzzle
@@ -4454,6 +4470,7 @@ mochi-mochi-tower
 mochi-rescue
 model-dress-up-3d
 model-wedding-girl-games
+modern-bus-driving-game
 modern-bus-simulator-games
 modern-fps-strike-zombie-gun-war-ops
 modern-sniper-gun-game-sniper-3d
@@ -5209,6 +5226,7 @@ piano-kids-music-and-songs
 piano-kids-music-songs
 piano-master
 pickaxe-crusher-idle
+pickle-ball-clash
 picky-parking
 pics-2-word
 picture-and-word-match
@@ -5406,6 +5424,7 @@ power-puncher
 power-shift-arena
 power-water-clean-rush
 prado-car-driving
+prado-car-parking-game
 prado-parking-game
 prasino
 precision-car-parking-3d
@@ -5418,6 +5437,7 @@ pretty-tidy-asmr-organizing
 primal-druid-kingdom-of-animals
 prime-ball-adventure-game
 prime-sudoku
+primelink
 primes
 primezy
 prince-of-demons-dark-flame
@@ -5538,6 +5558,7 @@ race-rocket-arena-car-extreme
 race-through-traffic
 race-traffic-crazy
 racing-ball-3d
+racing-bulldozer
 racing-cars-puzzle-time
 racing-crash-jigsaw
 racing-destruction-and-chase
@@ -5691,6 +5712,7 @@ resize-stickman
 resource-empire
 restaurant-rush
 restaurant-tycoon
+restorake-restore-the-ruins
 restore-lab
 resuce-escape
 retro-basketball
@@ -5939,6 +5961,7 @@ save-me-game
 save-my-human
 save-my-pet-game
 save-nemo
+save-pilot-ryan
 save-the-baby-home-rush
 save-the-balloon-road-to-the-stars
 save-the-capybara
@@ -6188,6 +6211,7 @@ slide-blocks-3d
 slide-the-blocks-build-the-pictures
 slide-to-ride
 slides-and-climbs
+slidex
 slidey-sliding-cat-puzzle
 sliding-puzzle
 sliding-slide
@@ -6336,6 +6360,7 @@ soccer-simulator
 soccer-strike
 soccer-trainer
 soccerlat-3d-football-online
+soda-block-jam
 soda-sandbox
 sodacat
 sofia-wedding-story
@@ -6411,6 +6436,7 @@ space-survivor
 space-survivor-shooting
 space-survivors-bug-swarm
 space-tower-defense
+space-traveler
 space-war-symphony
 spaceball-jump
 spacebattle
@@ -6475,6 +6501,7 @@ sponge-challenge
 sponge-strike-clean-and-smash
 spookily-stylish-duo
 spooky-boxing
+spooky-chains
 spooky-halloween-makeover
 spooky-racing
 spooky-vending-machine-2
@@ -7043,6 +7070,7 @@ tentrix-block
 terminal-nine
 terminator-robot-uprising
 terrablox
+terraria-playground
 terrifying-zombies-tower-defense-1-game
 terrifying-zombies-tower-defense-ii
 tetra-challenge
@@ -7204,6 +7232,7 @@ toca-coloring-book
 toca-hidden-stars
 toca-life-adventure
 toco-teens-halloween-party
+token-strike
 tokyo-treats
 tom-and-angela-insta-fashion
 tom-jigsaw-puzzle
@@ -7310,6 +7339,7 @@ tribal-zuma
 trick-or-treat-candy-carnival
 trick-paws
 trick-your-brain-puzzle
+tricky-easy-squares
 tricky-prank-annoying-quest
 tricky-puzzle-brain-test
 tricky-queue-logic-puzzle
@@ -7548,6 +7578,7 @@ warrior-bee-apocalypse
 warrior-clash
 warrior-way
 warriors-vs-evil-spirits
+warroll
 wars-island-commander
 wars-island-management
 wars-ships-io
@@ -7790,6 +7821,7 @@ zen-orbs-geometric-flow
 zero-g-wind-escape
 zestful-match
 zig-zag-color
+zigzag-animal-road
 zigzag-puzzle
 zigzag-snow-adventure
 zigzag-snow-mountain
