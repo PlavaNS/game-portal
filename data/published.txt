@@ -791,6 +791,7 @@ blend-it-perfect
 blind-boat-shooting-master
 blind-box-master
 blindbat
+blob-hero
 blob-man-run
 blob-merge
 blob-twist-color-puzzle
@@ -933,6 +934,7 @@ boombitz-bomb-chips
 boomix
 boomrocket
 boomstone
+boosted-jetpack-hero
 bootiful-princess-match
 boots-n-bounds
 border-battleground
@@ -1042,6 +1044,7 @@ brick-cat-chipi-chapa
 brick-challenge
 brick-out-candy
 brick-slide
+bricklayer
 bricks-balls-breaker
 bricks-breaker
 bricks-breaker-deluxe
@@ -1059,6 +1062,7 @@ bridge-dash
 bridge-fun-race
 bridge-race
 bridge-race-3d
+bridge-race-test-of-precision
 bridge-rush-draw-bridge-puzzle-game
 bridge-wars
 bridges-3d
@@ -1556,6 +1560,7 @@ chop-up
 christmas-brain-teasers
 christmas-bridge-runner
 christmas-bubble-shooter-game
+christmas-cooking-chef
 christmas-drive
 christmas-gift-jump
 christmas-gift-unlock
@@ -2016,6 +2021,7 @@ crustrun
 crypta
 crypto-coin-clash-mania
 crypto-detective-finder
+crypto-ninja-miner
 cryptograms-secret-text
 crystal-cave-sort
 crystal-craash
@@ -2167,6 +2173,7 @@ deep-freeze-fishing
 deep-fuel
 deep-in-the-lab-chapter-1
 deep-mine-1-strength
+deep-sea-catch-fun
 deep-space-horror-outpost
 deep-worm
 deeper-crystal-descent
@@ -2298,6 +2305,7 @@ do-not-feed-the-monkeys
 doctor-kids-3
 doctor-teeth
 doctor-teeth-2
+dog-and-cat-sweet
 dog-racing-master-game
 dog-runaway
 doges-battle-royale
@@ -2374,6 +2382,7 @@ drag-me-ow
 drag-n-drop-games-color-match
 drag-n-drop-word-match
 drag-race-x
+drago-sky-quest
 drago-warrior-tower-defense
 dragon-annihilation
 dragon-block-blast
@@ -2558,6 +2567,7 @@ ear-doctor-care-game
 earth-dunk-physics-arcade-game
 easiest-maths
 easter-bunny-coloring-book
+easter-deer
 easter-funny-makeup
 easter-match-3-saga
 eastern-star-vs-city-style-icon
@@ -2623,6 +2633,7 @@ emoji-solitaire
 emotional-support-duck
 empire-estate-pro
 empire-tower-defense-zombie-fortress
+emralds-forest-shoot
 enchanted-easter-adventure
 enchanted-mahjong-saga
 end-charge-alpha
@@ -2919,6 +2930,7 @@ fish-hunting-frenzy-shooter-game
 fish-love-game
 fish-master
 fish-merge
+fish-pot
 fish-rain
 fish-rain-2
 fish-royale-io
@@ -3030,6 +3042,7 @@ food-conveyor
 food-game-grill-sort
 food-gang-run
 food-jam
+food-merge
 food-run-and-battle
 food-sort-3d
 food-tower-defense
@@ -3483,6 +3496,7 @@ gravity-shift-sky-racers-gt
 gravity-shift-space-edition
 gravity-speed-run
 gravity-well
+gravity-zero
 gravix
 grayscale
 grazing-giraffe
@@ -4378,6 +4392,7 @@ letter-layout-coloring
 letterhold
 level-once-again
 level-rotator
+liars-bar
 life-of-a-tree
 lifebuoy-planing
 lifecode
@@ -5310,6 +5325,7 @@ ninja-samurai-runner-online
 ninja-shadow-kunai
 ninja-survival-simulator
 ninja-toy-match
+ninja-veggie-slice
 ninja-vs-ragdolls-sharp-knife-throw
 ninja-warrior-game
 ninjas-blade
@@ -5380,6 +5396,7 @@ number-merge-10
 number-merge-master
 number-merger
 number-nexus
+number-order
 number-quest
 number-run-3d-casual-game
 number-shoot-game
@@ -5578,6 +5595,7 @@ openworld-racing
 opps
 optical-illusion
 orbadrone-robot-escape
+orbit-loop-revolution
 orbit-pals
 orbit-ring-2
 orbit-rush-3d
@@ -5730,6 +5748,7 @@ people-playground-ragdoll-arena
 people-tower
 percys-froggy-frenzy
 perfect-asmr-cleaning
+perfect-cake-maker
 perfect-car-parking
 perfect-job-run
 perfect-jump-puzzle-game
@@ -5928,6 +5947,7 @@ poly-jumper
 poly-rush
 polybounce-tycoon
 polygon-flight-simulator
+polygun-idle-td
 pondhero
 pongfu
 pongoal
@@ -6264,6 +6284,7 @@ red-and-green-3
 red-blue-forge
 red-boy-and-blue-girl-forest-adventure
 red-coloring-book
+red-escape
 red-flow
 red-hide-ball
 red-light-green-light-io
@@ -7218,6 +7239,7 @@ square-hero-bird
 square-sling
 square-sort
 square-sort-mania
+squareking-of-easter
 squareking-of-summer
 squeeze-n-slide
 squicky
@@ -7411,6 +7433,7 @@ stickman-rush
 stickman-shooter-2
 stickman-shooting-survival
 stickman-simulator-final-battle
+stickman-skate-city
 stickman-sky-3d
 stickman-skybow
 stickman-slash
@@ -7639,6 +7662,7 @@ survival-war
 survival-wave-zombie-multiplayer
 survivalist
 survive-lava-for-brainrots
+survive-squad
 survive-the-disasters-obby
 survive-the-glass-bridge
 survive-the-night
@@ -7669,6 +7693,7 @@ sweet-merge-cafe
 sweet-merge-puzzle
 sweet-monster-pull-out-pin
 sweet-paper-doll-dress-up-diy
+sweet-puzzle-adventure-quest
 sweet-screw-factory
 sweet-solve
 sweet-supermarket-simulator
@@ -7925,6 +7950,7 @@ tick-tack-what
 ticktock-challenge
 ticktock-egg-run
 ticktock-puzzle-challenge
+tictak-toe-play-ai-easy-hard
 tictoc-urban-outfits
 tidal-kart
 tide-and-powder
@@ -8171,11 +8197,14 @@ tung-sahur-bots-chase-room
 tung-sahur-coloring
 tung-sahur-io
 tung-tung-sahur-big-stick
+tung-tung-sahur-coloring-book
 tung-tung-sahur-funny-face
 tung-tung-sahur-hidden-bedug
 tung-tung-sahur-lol-face
+tung-tung-sahur-trap-maze
 tung-tung-sahur-zombie
 tung-tung-super-sahur
+tung-tung-tung-sahur-jigsaw-puzzle
 tung-tung-tung-tung-sahur
 tung-tungball-and-labububall
 tunnel-drift
@@ -8542,6 +8571,7 @@ word-cooking-puzzle
 word-cross
 word-finder
 word-game-2026
+word-it-up
 word-jam-association-puzzle
 word-ladder
 word-maker
