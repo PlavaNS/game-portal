@@ -756,6 +756,11 @@ function emitContent() {
   const slugSet = new Set(all.map(g => g.slug));
   const topicOf = new Map();
   for (const t of topics) for (const g of t.list) if (!topicOf.has(g.id)) topicOf.set(g.id, t);
+  // every collection a game belongs to (not just the first), and tag -> collection, for internal links
+  const topicsOf = new Map();
+  for (const t of topics) for (const g of t.list) { const a = topicsOf.get(g.id); if (a) { if (a.length < 3) a.push(t); } else topicsOf.set(g.id, [t]); }
+  const tagTopics = topics.filter(t => t.match).map(t => ({ t, re: new RegExp('(^|[^a-z0-9])(' + t.match + ')(?=$|[^a-z0-9])', 'i') }));
+  const topicForTag = (tag, g) => (tagTopics.find(x => x.re.test(tag) || x.re.test(g.title)) || {}).t;
   for (const t of topics) {
     if (!catOK('topic:' + t.slug)) continue;
     const TT = catTr('topic:' + t.slug) || {};
@@ -793,8 +798,15 @@ function emitContent() {
     const main = CAT_BY[g.cats.main] || CATS[0];
     const pool = byCat[main.slug];
     const idx = catIndex[main.slug].get(g.id) ?? 0;
-    const similar = [];
-    for (let k = 1; similar.length < 12 && k < pool.length; k++) { const s = pool[(idx + k) % pool.length]; if (s.id !== g.id) similar.push(s); }
+    // rank by shared tags and categories; ties keep the category's own order
+    const myTags = new Set(g.tags.map(t => t.toLowerCase())), myCats = new Set(g.cats.all);
+    const score = s => { let n = 0; for (const t of s.tags) if (myTags.has(t.toLowerCase())) n += 3; for (const c of s.cats.all) if (myCats.has(c)) n += 2; return n; };
+    const similar = pool.filter(s => s.id !== g.id).map((s, i) => ({ s, n: score(s), i })).sort((x, y) => y.n - x.n || x.i - y.i).map(x => x.s).slice(0, 12);
+    if (similar.length < 12) { // thin category: pull the closest games from the rest of the site
+      const have = new Set([g.id, ...similar.map(s => s.id)]);
+      for (const x of all.filter(s => !have.has(s.id) && gameOK(s)).map((s, i) => ({ s, n: score(s), i })).filter(x => x.n > 0).sort((x, y) => y.n - x.n || x.i - y.i)) { if (similar.length >= 12) break; similar.push(x.s); }
+      for (let k = 1; similar.length < 12 && k < pool.length; k++) { const s = pool[(idx + k) % pool.length]; if (s.id !== g.id && !similar.includes(s)) similar.push(s); }
+    }
     if (!g.own && ours.length) similar.splice(1, 0, ours.find(o => o.cats.main === g.cats.main) || ours[0]);
     const sim = similar.slice(0, 12);
 
@@ -805,9 +817,12 @@ function emitContent() {
     const gdesc = gDesc(g), ginstr = gInstr(g);
     const desc = trunc(`${tr('Play')} ${g.title} ${tr('online for free.')} ${GD && GD.intro ? GD.intro + " " : ""}${gdesc}`, 158);
     const pageTitle = GD ? `${g.title} — ${tr('Play Free Online, Tips & FAQ')} | ${cfg.name}` : `${g.title} — ${tr('Play Online for Free')} | ${cfg.name}`;
-    const tp = topicOf.get(g.id);
-    const catLinks = (tp ? `<a class="chip" href="${tHref(tp.slug)}">${esc((catTr('topic:' + tp.slug) || {}).h1 || tp.h1)}</a>` : '') + g.cats.all.filter(c => CAT_BY[c]).map(c => `<a class="chip" href="${cHref(c)}">${esc((catTr(c) || {}).name || CAT_BY[c].name)}</a>`).join('');
-    const tagText = g.tags.slice(0, 8).map(t => `<span class="chip ghost">${esc(t)}</span>`).join('');
+    const tps = (topicsOf.get(g.id) || []).filter(t => catOK('topic:' + t.slug));
+    const catLinks = tps.map(tp => `<a class="chip" href="${tHref(tp.slug)}">${esc((catTr('topic:' + tp.slug) || {}).h1 || tp.h1)}</a>`).join('') + g.cats.all.filter(c => CAT_BY[c]).map(c => `<a class="chip" href="${cHref(c)}">${esc((catTr(c) || {}).name || CAT_BY[c].name)}</a>`).join('');
+    const tagSeen = new Set(tps.map(t => t.slug));
+    const tagText = g.tags.slice(0, 8).map(t => { const tt = topicForTag(t, g);
+      if (tt && catOK('topic:' + tt.slug) && !tagSeen.has(tt.slug)) { tagSeen.add(tt.slug); return `<a class="chip ghost" href="${tHref(tt.slug)}">${esc(t)}</a>`; }
+      return `<span class="chip ghost">${esc(t)}</span>`; }).join('');
     const body = `<nav class="crumbs"><a href="${u('/')}">${esc(tr('Home'))}</a> › <a href="${cHref(main.slug)}">${esc((catTr(main.slug) || {}).h1 || main.h1)}</a> › <span>${esc(g.title)}</span></nav>
   <section class="player${portrait ? ' portrait' : ''}" data-player data-orient="${g.own ? 'any' : portrait ? 'portrait' : 'landscape'}" data-src="${esc(g.embed)}" data-id="${esc(g.slug)}" data-title="${esc(g.title)}" data-thumb="${esc(g.thumb)}" style="--ar:${g.w}/${g.h}">
     <div class="stage">
