@@ -64,6 +64,7 @@
 2d-nitro-race
 2d-platformer-coin
 2player-tanks-of-war
+3-match-puzzle-battle
 3-warrior-team-force
 321-diferent-patch
 3d-acrylic-nail-nail-art-game
@@ -103,6 +104,7 @@
 456-impostor
 456-survival-squid-challenge
 4x4-fury-offroad-jeep
+5-night-at-green-head-monster
 5-nights-at-tung-tung-hotel-horror-3d
 6x6-offroad-jeep
 8-ball-pool-2d
@@ -135,6 +137,7 @@ ace-drift-3d
 acorn-flight
 acox
 add-to-half
+additive-fun-2048
 advance-car-game-parking
 advance-car-parking-driver-simulator
 advanced-air-combat-simulator
@@ -320,6 +323,7 @@ ant-moving-simulator
 ant-picnic
 ant-swarm-io
 anti-spider-run
+anti-stress-mind-relax-games
 anti-stress-planet-games
 anti-terrorist-shooting-game
 antistress-relaxation-toys
@@ -531,6 +535,7 @@ backrooms-slender-horror
 backslash-slash
 backyard-car-parking
 bad-cat-prankster-moms-return
+bad-cat-simulator
 bad-cat-simulator-pet-game
 badabump
 badland
@@ -805,6 +810,7 @@ blend-it-perfect
 blind-boat-shooting-master
 blind-box-master
 blindbat
+blob-dash-endless-runner
 blob-hero
 blob-man-run
 blob-merge
@@ -1010,6 +1016,7 @@ boxhead-highway-runner-game
 boxing-gang-stars
 boxing-hero-2077
 boxing-stars
+boy-ping-pong
 boys-battle-for-the-district
 brain-buster-multiplayer-math-puzzle-game
 brain-challenge
@@ -1080,6 +1087,7 @@ bridge-fun-race
 bridge-race
 bridge-race-3d
 bridge-race-test-of-precision
+bridge-race-wedding-master
 bridge-rush-draw-bridge-puzzle-game
 bridge-wars
 bridges-3d
@@ -1298,6 +1306,7 @@ candy-match-puzzle-challenge
 candy-match-saga-2
 candy-merge-sort
 candy-monster-raffi
+candy-pop-challenge
 candy-pop-mania
 candy-quest
 candy-rain
@@ -1669,6 +1678,7 @@ city-tuk-tuk-rickshaw-game
 city-tuk-tuk-rickshaw-game-auto-games
 city-tuk-tuk-simulator-racing-game-3d
 clankmates
+claritas-dungeon-crawler-rpg-demo
 clash-master-running-game
 clash-to-survival
 classic-car-driving-game
@@ -2277,6 +2287,7 @@ dice-helix-drop
 dice-math
 dice-merge
 dice-puzzle
+dice-puzzle-fruits
 dice-puzzles
 dice-puzzles-new-year
 dicecraft
@@ -2406,12 +2417,14 @@ dop-puzzle-erase-master
 dop2-delete-part-in-love-story
 dop2-draw-love
 dora-candy-land
+dora-match3
 dora-puzzle-challenge
 doroppuboru-13
 dot-and-dot
 dot-dodge
 dotanimals
 dotdrift
+doto
 dots-and-boxes-2
 dots-master
 dotto-botto
@@ -3302,6 +3315,7 @@ funny-gummy-characters
 funny-hair-salon
 funny-hair-salons
 funny-haircut-2
+funny-jd-vance-face
 funny-kitty-care
 funny-mouse-coloring-time
 funny-nose-surgery
@@ -3344,6 +3358,7 @@ galaxy-space-defender
 game-factory
 game-mania
 game-of-warrior
+gamer-case-simulator
 gang-blast
 gang-brawlers
 gang-fall-party
@@ -4247,6 +4262,7 @@ jump-fight-game
 jump-hero
 jump-in-rhythm-to-the-hit-cat-disco
 jump-masters
+jump-race
 jump-redball
 jump-smash-3d
 jump-to-the-rhythm-of-songs-musical-ball
@@ -4913,6 +4929,7 @@ merge-for-renovation
 merge-fruit-characters
 merge-fruit-monster-defense-tower-defense
 merge-fruits-2048-new-in-2d
+merge-fruits-3d
 merge-fruits-fold-the-watermelon
 merge-furry-monsters
 merge-game-puzzle-fusion
@@ -4949,7 +4966,9 @@ merge-wall-last-stand
 merge-weapon-run
 mergemaster-dragonets
 mergemma
+mergemushrooms-2048
 merges-numbers
+mergesweets-2048
 mergetopia
 mergetrainlastrail
 mermaid-coloring-book-glitter
@@ -5096,6 +5115,7 @@ money-factory-earn-a-billion
 money-factory-tycoon-idle-game
 money-fest
 money-maker
+money-ping-pong
 money-pong
 money-run-fest
 money-rush
@@ -5231,6 +5251,7 @@ mr-bullet-3d-online
 mr-drifter-car-chase-simulator
 mr-dude-king-of-the-hill
 mr-fight
+mr-hacker-the-museum-hunt
 mr-hero
 mr-noob-jailbreak
 mr-one-punch-action-fighting-game
@@ -6021,6 +6042,7 @@ pixel-smash-ball
 pixel-snake
 pixel-tower
 pixel-wings
+pixel-wizard
 pixel-zombie-survival-2025
 pixelblock
 pixelparkour
@@ -6649,6 +6671,7 @@ royal-defense
 royal-jelly-jam
 royal-jewels-match
 royal-match-tile-family
+royal-prince-tailor-master-2025
 royal-rebellion-punk-magic
 royal-smash-puzzle-game
 rpg-idle-clicker
@@ -7897,6 +7920,7 @@ sworded-io-spin-and-rub
 swordsman-adventure
 syntagma
 t-rex-n-y-online
+tabla-drum-kit-music
 tac-tac-way
 tactical-conquest
 tactical-response-team
@@ -7931,6 +7955,7 @@ tank-master
 tank-mayhem
 tank-push
 tank-sniper-3d
+tank-soccer-battle-1-2-3-4-player
 tank-stars-battle-arena
 tank-stormy
 tank-strike-wasteland-rogue
@@ -8093,6 +8118,7 @@ the-room
 the-rooms-escape-challenge
 the-secret-of-the-toy-factory
 the-sort-agency
+the-sorting-mart
 the-space-mover
 the-specimen-zero
 the-stone-miner
@@ -8157,6 +8183,7 @@ tiger-tank
 tile-2-match
 tile-connect-pair-match-puzzle
 tile-farm-story
+tile-fruits
 tile-harvest-3d
 tile-hill-descent
 tile-jumper-3d
@@ -8210,6 +8237,7 @@ tip-candy-puzzle
 tip-master-wine
 titan-s-journey
 titan-wall-breaker
+titans-defense-run
 tnt-sandbox
 to-fu-girl
 toca-avatar-my-hospital
@@ -8249,6 +8277,7 @@ tower-blocks-deluxe-3d
 tower-breaker
 tower-colour-crash
 tower-crush
+tower-dance-off
 tower-defence-1
 tower-defender
 tower-defense-2
@@ -8305,6 +8334,7 @@ traffic-trap
 traigon
 trail-rider
 train-artillery-adventure
+train-dispatcher-in-mall
 train-drift
 train-master
 train-puzzle

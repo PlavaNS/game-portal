@@ -62,7 +62,7 @@ main{flex:1;min-width:0;padding:18px 20px 40px}
 .card:hover,.card:focus-visible{transform:translateY(-3px) scale(1.03);box-shadow:0 10px 26px #0008;z-index:2}
 .card:hover span,.card:focus-visible span{opacity:1;transform:none}
 .card.own{outline:2px solid #19b4cf}
-.card.own .badge{background:linear-gradient(135deg,#19b4cf,#03637a);color:#fff}
+.card.own .badge{left:auto;right:-26px;top:9px;transform:rotate(45deg);width:90px;text-align:center;padding:3px 0;background:linear-gradient(135deg,#19b4cf,#03637a);color:#fff;font-size:10px;letter-spacing:.08em;box-shadow:0 2px 8px #0006;border-radius:0}
 .badge{position:absolute;top:7px;left:7px;background:var(--accent2);color:#1a1300;font-size:11px;font-weight:800;padding:2px 8px;border-radius:999px}
 @media (hover:none){.card span{opacity:1;transform:none}}
 .cats{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:10px}
