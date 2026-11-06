@@ -280,6 +280,7 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--amber); out
 .toplist .nm small { color: var(--muted); font-size: 11px; letter-spacing: .08em; }
 
 /* the wave goal under the wave title */
+.center-msg small.goal.mut { display: table; margin: 12px auto 0; color: #7af0ff; text-shadow: 0 0 8px rgba(122, 240, 255, .6); }
 .center-msg small.goal { display: inline-block; margin-top: 12px; padding: 8px 16px; border-radius: 999px; background: rgba(8, 10, 28, .82); font-size: .22em; letter-spacing: .08em; color: #ffcc3d; text-shadow: 0 0 8px rgba(255, 204, 61, .6); }
 
 /* play with friends */

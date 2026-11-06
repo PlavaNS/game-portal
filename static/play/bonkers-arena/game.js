@@ -199,6 +199,12 @@
         burst(ev.x, ev.y, 12, [c, '#ffffff'], 260, 2.2, .45, 'spark');
         if (ev.id === meId) { A.play('coin'); floatText(ev.x, ev.y - 24, PU_NAME[ev.type] + '!', PU_COLORS[ev.type], 28); quest('pu', 1); A.announce(ev.type, 1); }
         say(view, ev.id, 'ooh', meId);
+      } else if (ev.e === 'lava') {
+        fx(ev.x, ev.y, 'ring', '#ff6a2a', 70, .5); fx(ev.x, ev.y, 'burst', '#ffb347', 14, .5);
+        if (ev.id === meId) { A.play('bump'); shake = Math.max(shake, 5); }
+      } else if (ev.e === 'blink') {
+        for (const b of view.balls) if (b.alive) fx(b.x, b.y, 'ring', '#9af0ff', 50, .5);
+        A.play('beep', false);
       } else if (ev.e === 'out') {
         const victim = nameOf(view, ev.id), by = ev.by ? nameOf(view, ev.by) : null;
         feed(by ? `${by} bonked ${victim} into the void!` : `${victim} fell into the void!`);
@@ -331,7 +337,9 @@
       if (sec !== L.lastBeep) { L.lastBeep = sec; A.play('beep', sec <= 0); A.announce(sec > 0 ? ['', 'one', 'two', 'three'][sec] : L.lv.boss ? 'boss' : 'go', 3); }
       // the goal, said plainly: stay on until the clock runs out, or be the last ball standing
       const goal = `Survive ${Math.round(L.lv.time)}s or bonk them all off`;
-      const msg = sec > 0 ? `WAVE ${run.wave}<small>${esc(L.lv.name)}${L.lv.boss ? ' · TITAN IS HERE' : ''}</small><small class="goal">${goal}</small>` : 'GO!';
+      const M = L.lv.mut && Sim.MUTATIONS[L.lv.mut];
+      const mutLine = M ? `<small class="goal mut">${esc(M.name)} · ${esc(M.text)}</small>` : '';
+      const msg = sec > 0 ? `WAVE ${run.wave}<small>${esc(L.lv.name)}${L.lv.boss ? ' · TITAN IS HERE' : ''}</small>${mutLine}<small class="goal">${goal}</small>` : 'GO!';
       if (msg !== L.msg) { L.msg = msg; $('centerMsg').innerHTML = msg; }
       if (L.cd <= 0) $('centerMsg').textContent = '';
       return;
@@ -377,6 +385,10 @@
     bonusScore: { name: 'Score Surge', icon: '<path d="M4 18 10 10l4 4 6-8"/><path d="M14 6h6v6"/>', text: r => `+${100 + r.wave * 25} score right now.`, apply: r => { r.score += 100 + r.wave * 25; } },
     bonusCoins: { name: 'Coin Rain', icon: '<circle cx="12" cy="12" r="7"/><path d="M12 8v8M9.5 10.5h4a1.5 1.5 0 0 1 0 3h-3a1.5 1.5 0 0 0 0 3h4"/>', text: r => `+${20 + r.wave * 3} coins for the shop.`, apply: r => { const c = 20 + r.wave * 3; r.coins += c; save.coins += c; store(); refreshCoins(); } },
     bonusLife: { name: 'Second Wind', icon: '<path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/>', text: () => 'One free retry if you fall.', apply: r => { r.lives = (r.lives || 1) + 1; } },
+    bonusGamble: { name: 'Gamble', icon: '<rect x="4" y="4" width="16" height="16" rx="3"/><circle cx="9" cy="9" r="1.2"/><circle cx="15" cy="15" r="1.2"/><circle cx="15" cy="9" r="1.2"/><circle cx="9" cy="15" r="1.2"/>', text: r => `50/50: double your score (${r.score * 2}) or lose a third.`, apply: r => { r.gamble = Math.random() < .5; r.score = r.gamble ? r.score * 2 : Math.round(r.score * 2 / 3); } },
+    bonusShrink: { name: 'Shrink Ray', icon: '<path d="M4 4l6 6M20 4l-6 6M4 20l6-6M20 20l-6-6"/><circle cx="12" cy="12" r="2"/>', text: () => 'Every rival starts tiny next wave.', apply: r => { r.mods.shrinkNext = 1; } },
+    bonusGhost: { name: 'Ghost Start', icon: '<path d="M6 21V11a6 6 0 0 1 12 0v10l-3-2-3 2-3-2-3 2z"/><circle cx="10" cy="11" r="1"/><circle cx="14" cy="11" r="1"/>', text: () => 'A 12 s shield when the next wave starts.', apply: r => { r.mods.ghostNext = 1; } },
+    bonusBig: { name: 'Big Start', icon: '<circle cx="12" cy="12" r="8"/><path d="M12 8v8M8 12h8"/>', text: () => 'Start the next wave much bigger.', apply: r => { r.mods.bigNext = 1; } },
   };
   function showPerks(sess) {
     if (mode !== 'level' || L !== sess) return;
@@ -386,14 +398,14 @@
     const grid = $('perkGrid'); grid.innerHTML = '';
     // every boost maxed out: late-run rewards instead (points, coins, an extra life)
     const maxed = keys.length === 0;
-    if (maxed) keys = ['bonusScore', 'bonusCoins', 'bonusLife'].filter(k => k !== 'bonusLife' || run.lives < 2);
+    if (maxed) keys = ['bonusScore', 'bonusCoins', 'bonusLife', 'bonusGamble', 'bonusShrink', 'bonusGhost', 'bonusBig'].filter(k => k !== 'bonusLife' || run.lives < 2).sort(() => Math.random() - .5).slice(0, 3);
     $('perkNote').textContent = maxed ? `Score ${run.score} · all boosts maxed! Pick a reward for wave ${run.wave + 1}` : `Score ${run.score} · pick a boost for wave ${run.wave + 1}`;
     keys.forEach((k, i) => {
       const b = document.createElement('button'); b.className = 'perk'; b.id = 'perk-' + i;
       if (maxed) {
         const R = BONUS[k];
         b.innerHTML = `<svg viewBox="0 0 24 24">${R.icon}</svg><b>${esc(R.name)}</b><span>${esc(R.text(run))}</span><small>★</small>`;
-        b.onclick = () => { R.apply(run); A.play('perk'); P.breakAd(); nextWave(); };
+        b.onclick = () => { R.apply(run); A.play('perk'); if (k === 'bonusGamble') toast(run.gamble ? `Lucky! Score doubled to ${run.score}` : `Ouch. Score down to ${run.score}`); P.breakAd(); nextWave(); };
       } else {
         const p = Sim.PERKS[k], lvl = Math.min(2, run.mods[k] || 0);
         b.innerHTML = `<svg viewBox="0 0 24 24">${PERK_ICON[k]}</svg><b>${esc(p.name)}</b><span>${esc(p.text)}</span><small>${'●'.repeat(lvl + 1)}${'○'.repeat(2 - lvl)}</small>`;
