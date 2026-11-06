@@ -44,11 +44,11 @@ jobs:
           SITE_BASE: ${{ vars.SITE_BASE }}
           CNAME: ${{ vars.CNAME }}
       - name: Write guides
-        run: node scripts/write-guides.mjs "${{ inputs.count || '150' }}"
+        run: node scripts/write-guides.mjs "${{ inputs.count || '1000' }}"
         timeout-minutes: 300
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.ILOVEWEBGAMES }}
-          GUIDE_CONC: ${{ inputs.conc || '4' }}
+          GUIDE_CONC: ${{ inputs.conc || '8' }}
       - name: Write the player FAQ
         run: node scripts/write-faq.mjs || echo "FAQ step failed, keeping the previous one"
         env:

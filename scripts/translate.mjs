@@ -132,7 +132,9 @@ ${JSON.stringify(Object.fromEntries(part), null, 1)}`, 4000);
 {
   const prio = (() => { try { return fs.readFileSync(path.join(ROOT, 'data/priority-slugs.txt'), 'utf8').split('\n').filter(l => l && !l.startsWith('#')).join(',').split(',').map(x => x.trim()).filter(Boolean); } catch { return []; } })();
   const rank = new Map(prio.map((s, i) => [s, i]));
-  const todo = games.filter(g => g.slug && !game[g.slug] && (g.description || '').length >= 60)
+  // only pages that already have a guide: a translated feed description alone is a thin page in one more language;
+  // pages translated before their guide existed get done again so the guide comes along
+  const todo = games.filter(g => g.slug && (guides[g.slug] || g.own || g.community) && (g.description || '').length >= 60 && (!game[g.slug] || !game[g.slug].guide))
     .sort((a, b) => (rank.has(a.slug) ? rank.get(a.slug) : 1e9) - (rank.has(b.slug) ? rank.get(b.slug) : 1e9))
     .slice(0, COUNT);
   console.log(`games: ${todo.length} to translate (${Object.keys(game).length} already done)`);

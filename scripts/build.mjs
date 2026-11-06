@@ -901,13 +901,16 @@ function emitContent() {
       // stars in Google results: thumbs up/down from our own visitors, mapped onto 1-5, never shown without real votes
       ...(voteCount(g) >= 3 ? { aggregateRating: { '@type': 'AggregateRating', ratingValue: (1 + 4 * (VOTES[g.slug].up / voteCount(g))).toFixed(1), bestRating: '5', worstRating: '1', ratingCount: voteCount(g) } } : {}),
     };
+    // a feed game whose page still carries only the feed's own text (no guide yet) is the same page twenty other portals have:
+    // keep it for players, but noindex it and leave it out of the sitemap until its guide exists, so Google only sees our own pages
+    const thin = !g.own && !g.community && !GD;
     write(`games/${g.slug}/index.html`, layout({
-      title: pageTitle, desc, canonical: pageUrl, body, bodyClass: 'game-page', preload: g.thumb,
+      title: pageTitle, desc, canonical: pageUrl, body, bodyClass: 'game-page', preload: g.thumb, noindex: thin,
       altPath: `/games/${g.slug}/`, altLangs: langsFor(g).map(l => l.code),
       ogImage: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)),
       jsonld: [ld, crumbs([['Home', abs('/')], [main.h1, abs(`/c/${main.slug}/`)], [g.title, pageUrl]])],
     }));
-    addUrl(`/games/${g.slug}/`, g.own ? 0.9 : 0.6, { img: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)), title: g.title });
+    if (!thin) addUrl(`/games/${g.slug}/`, g.own ? 0.9 : 0.6, { img: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)), title: g.title });
   }
   // EMBED PAGES for our own games: what other sites put in their iframe (game + a small branded bar linking back to us)
   if (LANG === 'en') for (const g of ours) {
