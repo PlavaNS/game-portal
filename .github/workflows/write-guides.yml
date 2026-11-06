@@ -49,6 +49,12 @@ jobs:
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.ILOVEWEBGAMES }}
           GUIDE_CONC: ${{ inputs.conc || '8' }}
+      - name: One natural in-text link per existing guide
+        run: node scripts/relink-guides.mjs 3000 || echo "relink step failed, guides stay as they were"
+        timeout-minutes: 120
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.ILOVEWEBGAMES }}
+          GUIDE_CONC: '8'
       - name: Write the player FAQ
         run: node scripts/write-faq.mjs || echo "FAQ step failed, keeping the previous one"
         env:

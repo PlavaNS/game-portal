@@ -760,6 +760,12 @@ function emitContent() {
   const topicsOf = new Map();
   for (const t of topics) for (const g of t.list) { const a = topicsOf.get(g.id); if (a) { if (a.length < 3) a.push(t); } else topicsOf.set(g.id, [t]); }
   const tagTopics = topics.filter(t => t.match).map(t => ({ t, re: new RegExp('(^|[^a-z0-9])(' + t.match + ')(?=$|[^a-z0-9])', 'i') }));
+  // guides may carry one in-text link written as [[collection-slug|natural anchor words]]: a link when that collection page
+  // exists in this language, plain words otherwise
+  const topicBySlug = new Map(topics.map(t => [t.slug, t]));
+  const unmark = s => String(s || '').replace(/\[\[[a-z0-9-]+\|([^\]]+)\]\]/g, '$1');
+  const linkMarks = s => esc(String(s || '')).replace(/\[\[([a-z0-9-]+)\|([^\]]+)\]\]/g, (m, slug, words) =>
+    topicBySlug.has(slug) && catOK('topic:' + slug) ? `<a href="${tHref(slug)}">${words}</a>` : words);
   const topicForTag = (tag, g) => (tagTopics.find(x => x.re.test(tag) || x.re.test(g.title)) || {}).t;
   for (const t of topics) {
     if (!catOK('topic:' + t.slug)) continue;
@@ -815,7 +821,7 @@ function emitContent() {
     // pages with a guide get a more specific snippet (the guide intro) and a title that promises tips, which app-store results do not offer
     const GD = (tgame(g) || {}).guide || (LANG === 'en' ? GUIDES[g.slug] : null);
     const gdesc = gDesc(g), ginstr = gInstr(g);
-    const desc = trunc(`${tr('Play')} ${g.title} ${tr('online for free.')} ${GD && GD.intro ? GD.intro + " " : ""}${gdesc}`, 158);
+    const desc = trunc(`${tr('Play')} ${g.title} ${tr('online for free.')} ${GD && GD.intro ? unmark(GD.intro) + " " : ""}${gdesc}`, 158);
     const pageTitle = GD ? `${g.title} — ${tr('Play Free Online, Tips & FAQ')} | ${cfg.name}` : `${g.title} — ${tr('Play Online for Free')} | ${cfg.name}`;
     const tps = (topicsOf.get(g.id) || []).filter(t => catOK('topic:' + t.slug));
     const catLinks = tps.map(tp => `<a class="chip" href="${tHref(tp.slug)}">${esc((catTr('topic:' + tp.slug) || {}).h1 || tp.h1)}</a>`).join('') + g.cats.all.filter(c => CAT_BY[c]).map(c => `<a class="chip" href="${cHref(c)}">${esc((catTr(c) || {}).name || CAT_BY[c].name)}</a>`).join('');
@@ -855,7 +861,7 @@ function emitContent() {
       <h2>${esc(tr('About'))} ${esc(g.title)}</h2>
       ${(LANG === 'en' && g.paras && g.paras.length > 1 ? g.paras : [gdesc]).map(p => `<p>${esc(p)}</p>`).join('\n    ')}
       ${ginstr ? `<h2>${esc(tr('How to play'))}</h2><p>${esc(ginstr)}</p>` : ''}
-      ${GD ? `<h2>${esc(tr('Tips and tricks for'))} ${esc(g.title)}</h2>${GD.intro ? `<p>${esc(GD.intro)}</p>` : ''}<ul class="tips">${(GD.tips || []).map(t => `<li>${esc(t)}</li>`).join('')}</ul>` : ''}
+      ${GD ? `<h2>${esc(tr('Tips and tricks for'))} ${esc(g.title)}</h2>${GD.intro ? `<p>${linkMarks(GD.intro)}</p>` : ''}<ul class="tips">${(GD.tips || []).map(t => `<li>${linkMarks(t)}</li>`).join('')}</ul>` : ''}
       <p class="chips">${catLinks}${tagText}</p>
       <h2>${esc(tr('Game info'))}</h2>
       <dl class="info">
@@ -870,7 +876,7 @@ function emitContent() {
         return `<h2>${esc(tr('Embed this game'))}</h2><p>${esc(tr('Put this game on your own website or blog for free. Copy the code below and paste it into your page.'))}</p>
       <textarea class="embed-code" readonly rows="4" onclick="this.select()">${esc(code)}</textarea>
       <button class="btn ghost embed-copy" type="button" onclick="var t=this.previousElementSibling;t.select();navigator.clipboard&&navigator.clipboard.writeText(t.value);this.textContent='✓ ${esc(tr('Copied'))}'">📋 ${esc(tr('Copy code'))}</button>`; })() : ''}
-      <h2>${esc(tr('FAQ'))}</h2>${GD ? (GD.faq || []).map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('') : ''}
+      <h2>${esc(tr('FAQ'))}</h2>${GD ? (GD.faq || []).map(([q, a]) => `<h3>${esc(unmark(q))}</h3><p>${esc(unmark(a))}</p>`).join('') : ''}
       <h3>${esc(tr('Is this game free to play?'))}</h3><p>${esc(tr('Yes. It is completely free here. The game is supported by short ads.'))}</p>
       <h3>${esc(tr('Can I play this game on my phone?'))}</h3><p>${g.mobile ? tr('Yes. It runs in the browser on Android phones, iPhones and tablets as well as on PC and Mac — tap “Play now” and the game opens full screen.') : `${esc(g.title)} is made for computers and plays best with a keyboard and mouse. For phones, check out our <a href="${u('/c/mobile/')}">mobile games</a>.`}</p>
       <h3>${esc(tr('Do I need to download or sign up?'))}</h3><p>${esc(tr('No. There is nothing to install and no account needed. The game loads instantly in your browser.'))}</p>

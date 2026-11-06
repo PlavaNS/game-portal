@@ -19,6 +19,11 @@ const readJSON = (f, d) => { try { return JSON.parse(fs.readFileSync(f, 'utf8'))
 const games = readJSON(path.join(ROOT, '.cache/games.json'), null);
 if (!games) { console.error('No .cache/games.json - run: node scripts/build.mjs'); process.exit(1); }
 const GUIDES_FILE = path.join(ROOT, 'data/guides.json');
+// collection pages a game belongs to (same rule as build.mjs), offered to the model for one natural in-text link
+const TOPICS = readJSON(path.join(ROOT, 'data/topics.json'), []).filter(t => t.match).map(t => ({ slug: t.slug, h1: t.h1, re: new RegExp('(^|[^a-z0-9])(' + t.match + ')(?=$|[^a-z0-9])', 'i') }))
+  .filter(t => games.filter(g => t.re.test(g.title) || t.re.test((g.tags || []).join(' , '))).length >= 8);
+const related = g => TOPICS.filter(t => t.re.test(g.title) || t.re.test((g.tags || []).join(' , '))).slice(0, 3);
+const MARK = /\[\[([a-z0-9-]+)\|([^\]]{3,60})\]\]/g;
 const guides = readJSON(GUIDES_FILE, {});
 
 // pages Google already shows first (data/priority-slugs.txt, from Search Console), then the most played
@@ -50,6 +55,7 @@ Rules:
 - Tips must be practical advice a player can act on (strategy, habits, what to focus on), not a restatement of the description.
 - Plain, friendly English. No hype words ("ultimate", "epic", "amazing"), no emojis, no marketing.
 - Do not mention download, sign-up, price, other websites or the game's developer.
+- If the message lists related collections, put exactly ONE link to one of them inside one tip (not the intro, not the FAQ), written as [[slug|anchor words]]. The anchor is 2-5 natural words that fit the sentence and say what the collection is about (vary the wording; do not just copy the collection title). The sentence must make sense on its own and still be a real tip. If none fits naturally, add no link.
 - FAQ questions must be specific to how this game is played (goal, controls, scoring, difficulty, strategy). Do NOT ask whether the game is free, works on phone, or needs a download.
 Reply with JSON only, no other text, exactly this shape:
 {"intro": "1-2 sentences, max 40 words", "tips": ["4 or 5 tips, each 1-2 sentences"], "faq": [["question", "answer in 1-2 sentences"], ["question", "answer"]]}`;
@@ -58,7 +64,14 @@ function userMsg(g) {
   return `Game title: ${g.title}
 Category: ${g.cat || ''}${g.tags?.length ? `\nTags: ${g.tags.slice(0, 8).join(', ')}` : ''}
 Description: ${String(g.description).slice(0, 2500)}
-Instructions: ${String(g.instructions || '(none)').slice(0, 1200)}`;
+Instructions: ${String(g.instructions || '(none)').slice(0, 1200)}${related(g).length ? `\nRelated collections on the site (slug: title): ${related(g).map(t => `${t.slug}: ${t.h1}`).join('; ')}` : ''}`;
+}
+// keep only markers that point to a collection offered for this game, at most one
+function cleanMarks(x, g) {
+  const ok = new Set(related(g).map(t => t.slug)); let used = 0;
+  const fix = s => s.replace(MARK, (m, slug, words) => (ok.has(slug) && !used++) ? `[[${slug}|${words.trim()}]]` : words);
+  x.tips = x.tips.map(fix); x.intro = x.intro.replace(MARK, '$2'); x.faq = x.faq.map(([q, a]) => [q.replace(MARK, '$2'), a.replace(MARK, '$2')]);
+  return x;
 }
 
 function valid(x) {
@@ -86,7 +99,7 @@ async function write(g, model) {
     const text = (j.content || []).filter(c => c.type === 'text').map(c => c.text).join('');
     const m = text.match(/\{[\s\S]*\}/);
     let x = null; try { x = m && JSON.parse(m[0]); } catch {}
-    if (valid(x)) return { intro: tidy(x.intro), tips: x.tips.slice(0, 5).map(tidy), faq: x.faq.slice(0, 2).map(([q, a]) => [tidy(q), tidy(a)]) };
+    if (valid(x)) return cleanMarks({ intro: tidy(x.intro), tips: x.tips.slice(0, 5).map(tidy), faq: x.faq.slice(0, 2).map(([q, a]) => [tidy(q), tidy(a)]) }, g);
   }
   return null;
 }
