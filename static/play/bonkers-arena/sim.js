@@ -70,7 +70,7 @@
     const b = {
       id: w.nextId++, name: o.name, skin: o.skin | 0, human: !!o.human, col: o.col == null ? -1 : o.col, team: o.team == null ? -1 : o.team,
       x, y, vx: 0, vy: 0, r, tr: r, face: Math.atan2(-y, -x),
-      alive: true, falling: 0, dashCd: 0, dashT: 0, dizzy: 0,
+      alive: true, falling: 0, dashCd: 0, dashT: 0, dizzy: 0, air: 0, padCd: 0, portCd: 0,
       hitBy: 0, hitAt: -9, bonks: 0, place: 0,
       skill: o.skill == null ? w.lv.skill : o.skill, boss: !!o.boss, slamCd: 5, slamT: 0,
       pu: '', puT: 0, mods,
@@ -159,7 +159,7 @@
       if (!p.active) continue;
       if (w.lv.mut === 'ghost' && Math.floor(w.t / 2.5) % 2 === 1) continue;
       for (const b of w.balls) {
-        if (!b.alive || b.falling) continue;
+        if (!b.alive || b.falling || b.air) continue;
         const ex = p.bx - p.ax, ey = p.by - p.ay, l2 = ex * ex + ey * ey;
         const u = l2 ? Math.max(0, Math.min(1, ((b.x - p.ax) * ex + (b.y - p.ay) * ey) / l2)) : 0;
         const qx = p.ax + ex * u, qy = p.ay + ey * u;
@@ -237,11 +237,20 @@
   }
 
   // ---------- the Titan slams the floor: a shockwave that throws everyone near it ----------
+  const AIR_T = 1.0, PAD_R = 34, PORTAL_R = 36;
+  // Throw a ball into the air; it comes down at (x1, y1), which may well be off the platform.
+  function launch(w, b, x1, y1, why) {
+    if (b.air > 0 || b.falling || !b.alive) return;
+    b.air = AIR_T; b.ax0 = b.x; b.ay0 = b.y; b.ax1 = x1; b.ay1 = y1; b.dashT = 0; b.slamT = 0;
+    w.events.push({ e: 'launch', id: b.id, x: b.x, y: b.y, why });
+  }
   function push(w, src, x, y, reach, power) {
     for (const o of w.balls) {
-      if (o === src || !o.alive || o.falling) continue;
+      if (o === src || !o.alive || o.falling || o.air) continue;
       const dx = o.x - x, dy = o.y - y, d = Math.hypot(dx, dy);
       if (d > reach || d === 0) continue;
+      // a meteor landing right on you throws you into the air
+      if (!src && d < o.r + 26 && o.pu !== 'shield') { const a = rnd(0, TAU), dd = rnd(w.R * 0.3, w.R * 1.15); launch(w, o, Math.cos(a) * dd, Math.sin(a) * dd, 'meteor'); continue; }
       const f = power * (1 - d / reach) + power * 0.25, m = Math.pow(START_R / o.r, 0.3) * (o.pu === 'shield' ? 0.4 : 1);
       o.vx += dx / d * f * m; o.vy += dy / d * f * m;
       if (o.pu !== 'shield') o.dizzy = 0.6;
@@ -265,7 +274,7 @@
   function stepEvents(w, dt) {
     for (let i = w.meteors.length - 1; i >= 0; i--) {
       const m = w.meteors[i]; m.t += dt;
-      if (m.t >= 1.3) { push(w, null, m.x, m.y, 105, 560); w.events.push({ e: 'meteor', x: m.x, y: m.y }); w.meteors.splice(i, 1); }
+      if (m.t >= 1.3) { push(w, null, m.x, m.y, 150, 900); w.events.push({ e: 'meteor', x: m.x, y: m.y }); w.meteors.splice(i, 1); }
     }
     if (!w.lv.events) return;
     if (!w.ev) {
@@ -365,20 +374,29 @@
     let pbest = null, pd = 200 + s * 120;
     for (const p of w.powerups) { const d = Math.hypot(p.x - b.x, p.y - b.y); if (d < pd) { pd = d; pbest = p; } }
     if (pbest && Math.random() < 0.4 + s * 0.5) { ai.a = Math.atan2(pbest.y - b.y, pbest.x - b.x); ai.p = 1; return; }
-    // hunt a smaller ball
+    // avoid launch pads unless you mean it
+    if (w.lv.pads) for (const pd of w.lv.pads) { const d = Math.hypot(pd.x - fx, pd.y - fy); if (d < 70) { ai.a = Math.atan2(fy - pd.y, fx - pd.x); ai.p = 1; ai.t = Math.min(ai.t, 0.15); return; } }
+    // hunt: a ball near the edge is a target whatever its size; otherwise a smaller one, the player first
     let best = null, bd = 1e9;
     for (const o of w.balls) {
-      if (o === b || !o.alive || o.falling || (b.team >= 0 && o.team === b.team)) continue;
-      const d = Math.hypot(o.x - b.x, o.y - b.y);
-      if (o.r < b.r * (1.02 + s * 0.15) && d < 220 + s * 200 && d < bd) { bd = d; best = o; }
+      if (o === b || !o.alive || o.falling || o.air || (b.team >= 0 && o.team === b.team)) continue;
+      const d = Math.hypot(o.x - b.x, o.y - b.y), nearEdge = Math.hypot(o.x, o.y) > w.R - o.r - 90;
+      const smaller = o.r < b.r * (1.02 + s * 0.15);
+      if (!smaller && !(nearEdge && o.r < b.r * 1.35)) continue;
+      let score = d - (o.human ? 120 * s : 0) - (nearEdge ? 160 : 0);
+      if (score < bd && d < 260 + s * 260) { bd = score; best = o; }
     }
-    if (best && Math.random() < 0.35 + s * 0.6) {
+    if (best && Math.random() < 0.5 + s * 0.5) {
       ai.prey = best.id;
       // aim so the push sends the prey toward the edge
       const ox = best.x, oy = best.y, od = Math.hypot(ox, oy) || 1;
       const tx = ox - (ox / od) * best.r * s, ty = oy - (oy / od) * best.r * s;
       ai.a = Math.atan2(ty - b.y, tx - b.x) + rnd(-0.5, 0.5) * (1 - s); ai.p = 1; return;
     }
+    // crowded? move away from the pack instead of milling around in it
+    let cx = 0, cy = 0, cn = 0;
+    for (const o of w.balls) if (o !== b && o.alive && !o.falling && Math.hypot(o.x - b.x, o.y - b.y) < 140) { cx += o.x; cy += o.y; cn++; }
+    if (cn >= 3 && Math.random() < 0.6) { ai.a = Math.atan2(b.y - cy / cn, b.x - cx / cn); ai.p = 0.9; return; }
     bd = 1e9; best = null;
     for (const p of w.pellets) { const d = Math.hypot(p.x - b.x, p.y - b.y); if (d < bd) { bd = d; best = p; } }
     if (best) { ai.a = Math.atan2(best.y - b.y, best.x - b.x); ai.p = 0.8; }
@@ -413,9 +431,7 @@
     const lv = w.lv;
     w.t += dt;
     w.R = lv.rMax - (lv.rMax - lv.rMin) * Math.min(1, w.t / lv.time);
-    const fr = Math.exp(-(lv.friction ? 1.6 * lv.friction : lv.mut === 'sticky' ? 7 : 2.4) * dt);
-    // blink: every 5 s everyone jumps somewhere else
-    if (lv.mut === 'blink') { w.blinkT = (w.blinkT || 0) + dt; if (w.blinkT >= 5) { w.blinkT = 0; for (const b of w.balls) if (b.alive && !b.falling) { const a = rnd(0, TAU), d = rnd((lv.hole || 0) + 60, w.R * 0.7); b.x = Math.cos(a) * d; b.y = Math.sin(a) * d; b.vx = b.vy = 0; } w.events.push({ e: 'blink' }); } }
+    const fr = Math.exp(-(lv.friction ? 1.6 * lv.friction : 2.4) * dt);
     if (lv.wind) w.windA += dt * 0.12;
     const wx = lv.wind ? Math.cos(w.windA) * lv.wind : 0, wy = lv.wind ? Math.sin(w.windA) * lv.wind : 0;
     const hole = lv.hole || 0;
@@ -438,7 +454,17 @@
     for (const b of w.balls) {
       if (!b.alive) continue;
       b.dashCd = Math.max(0, b.dashCd - dt); b.dashT = Math.max(0, b.dashT - dt); b.dizzy = Math.max(0, b.dizzy - dt);
+      b.padCd = Math.max(0, b.padCd - dt); b.portCd = Math.max(0, b.portCd - dt);
       if (b.puT > 0) { b.puT -= dt; if (b.puT <= 0) { b.pu = ''; b.puT = 0; } }
+      if (b.air > 0) {
+        // in the air: glide along the arc to the landing spot, nothing touches you
+        b.air -= dt;
+        const k = 1 - Math.max(0, b.air) / AIR_T;
+        b.x = b.ax0 + (b.ax1 - b.ax0) * k; b.y = b.ay0 + (b.ay1 - b.ay0) * k;
+        b.vx = (b.ax1 - b.ax0) / AIR_T * 0.4; b.vy = (b.ay1 - b.ay0) / AIR_T * 0.4;
+        if (b.air <= 0) { b.air = 0; w.events.push({ e: 'land', x: b.x, y: b.y, id: b.id }); }
+        continue;
+      }
       if (!b.falling) {
         let a, p, d = false;
         if (b.human) { const i = inputs && inputs[b.id]; a = i ? i.a : b.face; p = i ? i.p : 0; d = i && i.d; if (lv.mut === 'mirror' && w.t - b.hitAt < 3 && b.hitAt > 0) a += Math.PI; }
@@ -472,12 +498,7 @@
         if (b.falling > 0.55) { b.alive = false; w.events.push({ e: 'splash', x: b.x, y: b.y, r: b.r, id: b.id }); }
       } else {
         const dc = Math.hypot(b.x, b.y);
-        if (lv.mut === 'lava' && dc > w.R - b.r - 2 && dc <= w.R + b.r * 0.15) {
-          // lava edge: the rim throws you back toward the middle
-          const nx = -b.x / dc, ny = -b.y / dc; b.vx = nx * 520; b.vy = ny * 520; b.dizzy = 0.6; b.x = nx * -(w.R - b.r - 3); b.y = ny * -(w.R - b.r - 3);
-          w.events.push({ e: 'lava', x: b.x, y: b.y, id: b.id });
-        }
-        if (dc > w.R + b.r * 0.15 || (hole && dc < hole - b.r * 0.15) || voidAt(w, b.x, b.y)) knockOut(w, b);
+        if (!b.air && dc > w.R + b.r * 0.15 || (hole && dc < hole - b.r * 0.15) || voidAt(w, b.x, b.y)) knockOut(w, b);
         else if (b.boss) stepBoss(w, b, dt);
       }
     }
@@ -486,7 +507,7 @@
     for (const bu of w.bumpers) {
       bu.pulse = Math.max(0, bu.pulse - dt * 4);
       for (const b of w.balls) {
-        if (!b.alive || b.falling) continue;
+        if (!b.alive || b.falling || b.air) continue;
         const dx = b.x - bu.x, dy = b.y - bu.y, d = Math.hypot(dx, dy), m = b.r + bu.r;
         if (d >= m || d === 0) continue;
         const nx = dx / d, ny = dy / d;
@@ -500,15 +521,35 @@
     }
 
     collideBlockers(w);
+    // launch pads: step on one and you fly off to a random spot, maybe past the edge
+    for (const pd of lv.pads || []) for (const b of w.balls) {
+      if (!b.alive || b.falling || b.air || b.padCd > 0 || Math.hypot(b.x - pd.x, b.y - pd.y) > PAD_R) continue;
+      b.padCd = 1.5;
+      const a = rnd(0, TAU), d = rnd(w.R * 0.35, w.R * 1.12);
+      launch(w, b, Math.cos(a) * d, Math.sin(a) * d, 'pad');
+    }
+    // portals: go in one, come out of the other, same speed
+    const pt = lv.portals;
+    if (pt) for (const b of w.balls) {
+      if (!b.alive || b.falling || b.air || b.portCd > 0) continue;
+      for (let i = 0; i < pt.length; i++) {
+        if (Math.hypot(b.x - pt[i].x, b.y - pt[i].y) > PORTAL_R) continue;
+        const o = pt[(i + 1) % pt.length], sp = Math.max(160, Math.hypot(b.vx, b.vy)), ang = Math.atan2(o.y, o.x) + Math.PI;
+        b.x = o.x + Math.cos(ang) * (PORTAL_R + b.r); b.y = o.y + Math.sin(ang) * (PORTAL_R + b.r);
+        b.vx = Math.cos(ang) * sp; b.vy = Math.sin(ang) * sp; b.portCd = 1.2;
+        w.events.push({ e: 'portal', id: b.id, x: pt[i].x, y: pt[i].y, x2: o.x, y2: o.y });
+        break;
+      }
+    }
     stepFloors(w, dt);
     stepEvents(w, dt);
 
     // ball vs ball
     const bs = w.balls;
     for (let i = 0; i < bs.length; i++) {
-      const a = bs[i]; if (!a.alive || a.falling) continue;
+      const a = bs[i]; if (!a.alive || a.falling || a.air) continue;
       for (let j = i + 1; j < bs.length; j++) {
-        const b = bs[j]; if (!b.alive || b.falling) continue;
+        const b = bs[j]; if (!b.alive || b.falling || b.air) continue;
         const dx = b.x - a.x, dy = b.y - a.y, d = Math.hypot(dx, dy), m = a.r + b.r;
         if (d >= m || d === 0) continue;
         const nx = dx / d, ny = dy / d, ov = m - d;
@@ -549,7 +590,7 @@
       const p = w.pellets[i], dc = Math.hypot(p.x, p.y);
       if (dc > w.R - 10 || (hole && dc < hole + 10) || voidAt(w, p.x, p.y)) { w.pellets.splice(i, 1); continue; }
       for (const b of bs) {
-        if (!b.alive || b.falling) continue;
+        if (!b.alive || b.falling || b.air) continue;
         if (Math.hypot(p.x - b.x, p.y - b.y) < b.r + 4) {
           b.tr = Math.sqrt(b.tr * b.tr + PELLET_GAIN * (1 + 0.5 * b.mods.grow));
           w.pellets.splice(i, 1);
@@ -590,10 +631,7 @@
   const NAMES2 = ['Ring', 'Core', 'Rift', 'Drift', 'Forge', 'Grid', 'Crown', 'Spiral', 'Pit', 'Belt', 'Nest', 'Vault', 'Storm', 'Edge', 'Loop', 'Deck', 'Gate', 'Reef'];
   // Mutations change how a wave plays. From wave 12 on, every wave has one (they never repeat two waves in a row).
   const MUTATIONS = {
-    lava: { name: 'Lava Edge', text: 'Touch the edge and you bounce back, dizzy.' },
     giants: { name: 'Giants', text: 'Every rival starts twice as big.' },
-    blink: { name: 'Blink', text: 'Every 5 s everyone teleports.' },
-    sticky: { name: 'Sticky Floor', text: 'Slow floor. Dash is your only speed.' },
     mirror: { name: 'Mirror', text: 'Your controls flip after every hit.' },
     swarm: { name: 'Swarm', text: 'Twice the rivals, all tiny and fast.' },
     twins: { name: 'Twin Titans', text: 'Two Titans. Good luck.' },
@@ -606,7 +644,7 @@
     const scene = { cyber: 'galaxy', frost: 'moon', synth: 'planet', inferno: 'blackhole', aurora: 'comets', dusk: 'dusk' }[theme];
     const lv = { theme, scene, rMax: 520, rMin: 200, name: PICK(NAMES1) + ' ' + PICK(NAMES2) };
     // obstacle set: pick two or three different things
-    const parts = ['pillars', 'walls', 'sweep', 'slides', 'bumpers', 'hole', 'wind', 'belts', 'sinks', 'crumble', 'ice'].sort(() => Math.random() - .5).slice(0, 2 + (Math.random() < .5 ? 1 : 0));
+    const parts = ['pillars', 'walls', 'sweep', 'slides', 'bumpers', 'hole', 'wind', 'belts', 'sinks', 'crumble', 'ice', 'pads', 'portals'].sort(() => Math.random() - .5).slice(0, 2 + (Math.random() < .5 ? 1 : 0));
     const bl = [];
     for (const p of parts) {
       if (p === 'pillars') { const k = 3 + ((Math.random() * 3) | 0); for (let i = 0; i < k; i++) { const a = i / k * TAU + .5; bl.push({ k: 'pillar', x: Math.round(Math.cos(a) * 200), y: Math.round(Math.sin(a) * 200), w: 28 }); } }
@@ -620,10 +658,13 @@
       if (p === 'sinks') lv.sinks = 2 + ((Math.random() * 3) | 0);
       if (p === 'crumble') lv.crumble = true;
       if (p === 'ice') lv.friction = 0.45;
+      if (p === 'pads') lv.pads = padSpots(2 + ((Math.random() * 2) | 0), 150);
+      if (p === 'portals') lv.portals = padSpots(2, 170);
     }
     if (bl.length) lv.blockers = bl;
     return lv;
   }
+  function padSpots(k, d) { const a0 = Math.random() * TAU; return Array.from({ length: k }, (_, i) => ({ x: Math.round(Math.cos(a0 + i / k * TAU) * d), y: Math.round(Math.sin(a0 + i / k * TAU) * d) })); }
   let lastMut = '';
   function makeWave(n) {
     const tpl = n <= WAVE_ORDER.length ? LEVELS[WAVE_ORDER[n - 1]] : genWave(n);
@@ -637,8 +678,10 @@
     const rMax = Math.round(Math.max(tpl.rMax, 300 + bots * 26) * 1.35);
     const pal = (Math.random() * 6) | 0, floor = ['hex', 'grid', 'rings', 'tri', 'dots', 'waves'][(Math.random() * 6) | 0];
     const look = n <= DAY.length ? { theme: DAY[n - 1], scene: { light: 'sky', mint: 'sky', lilac: 'sky', sunrise: 'sunrise', dusk: 'dusk' }[DAY[n - 1]] } : {};
+    const extra = {};
+    if (n >= 4 && n <= WAVE_ORDER.length && !tpl.hole) { const r = Math.random(); if (r < 0.35) extra.pads = padSpots(2, 140); else if (r < 0.7) extra.portals = padSpots(2, 160); }
     const time = 35 + Math.min(n * 2.5, 30);
-    return Object.assign({}, tpl, look, { id: n, wave: n, pal, floor: tpl.crumble ? 'hex' : floor, bots, boss, mut, skill: Math.min(0.05 + 0.06 * n, 0.9), time: mut === 'sudden' ? Math.round(time / 3) : time, events: n >= 3, rMax, rMin: Math.max(tpl.rMin, rMax * (n < 4 ? 0.6 : 0.45)) });
+    return Object.assign({}, tpl, look, extra, { id: n, wave: n, pal, floor: tpl.crumble ? 'hex' : floor, bots, boss, mut, skill: Math.min(0.05 + 0.06 * n, 0.9), time: mut === 'sudden' ? Math.round(time / 3) : time, events: n >= 3, rMax, rMin: Math.max(tpl.rMin, rMax * (n < 4 ? 0.6 : 0.45)) });
   }
 
   // Perks picked between waves; each can be taken up to 3 times.
@@ -660,6 +703,6 @@
     return me.bonks >= need ? 3 : me.bonks >= Math.ceil(need / 2) ? 2 : 1;
   }
 
-  const api = { MUTATIONS, dashCharge, sinks, TILE, HEX, LEVELS, ONLINE, makeWave, PERKS, BOT_NAMES, COLORS, START_R, DASH_CD, PU_TYPES, PU_TIME, blockerPose, createWorld, addBall, fillBots, setupLevel, step, byId, starsFor };
+  const api = { MUTATIONS, PAD_R, PORTAL_R, AIR_T, dashCharge, sinks, TILE, HEX, LEVELS, ONLINE, makeWave, PERKS, BOT_NAMES, COLORS, START_R, DASH_CD, PU_TYPES, PU_TIME, blockerPose, createWorld, addBall, fillBots, setupLevel, step, byId, starsFor };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Sim = api;
 })(this);

@@ -202,7 +202,7 @@
     }
     c.save(); drawBody(c, r, s, t); c.restore();
     // the white ring shows only when asked (in play: when the dash is charged)
-    if (o.rim !== false) { c.strokeStyle = 'rgba(255,255,255,.92)'; c.lineWidth = Math.max(2.5, r * .1); c.beginPath(); c.arc(0, 0, r - c.lineWidth / 2, 0, TAU); c.stroke(); }
+    if (o.rim !== false) { c.strokeStyle = 'rgba(255,79,216,.95)'; c.lineWidth = Math.max(2, r * .07); c.beginPath(); c.arc(0, 0, r - c.lineWidth / 2, 0, TAU); c.stroke(); }
     ellipse(c, -r * .36, -r * .46, r * .26, r * .11, -.6, 'rgba(255,255,255,.32)');
     if (s.boss) drawHalo(c, r, s, t);
     if (o.front) drawFrontEyes(c, r, s, o);
@@ -590,6 +590,23 @@
   function drawFloorFx(c, view, th, clock, R) {
     const lv = view.lv;
     c.save(); c.beginPath(); c.arc(0, 0, R, 0, TAU); c.clip();
+    // launch pads: an orange ring with an arrow pointing up
+    for (const pd of lv.pads || []) {
+      const pr = Sim.PAD_R, pulse = .5 + .5 * Math.sin(clock * 4);
+      c.fillStyle = 'rgba(255,106,42,.22)'; c.beginPath(); c.arc(pd.x, pd.y, pr, 0, TAU); c.fill();
+      c.strokeStyle = '#ff6a2a'; c.lineWidth = 3 + pulse * 2; c.beginPath(); c.arc(pd.x, pd.y, pr - 2, 0, TAU); c.stroke();
+      c.strokeStyle = '#ffcc3d'; c.lineWidth = 4; c.lineCap = 'round'; c.lineJoin = 'round';
+      const y = pd.y + 6 - pulse * 8;
+      c.beginPath(); c.moveTo(pd.x, y + 12); c.lineTo(pd.x, y - 12); c.moveTo(pd.x - 9, y - 3); c.lineTo(pd.x, y - 12); c.lineTo(pd.x + 9, y - 3); c.stroke();
+    }
+    // portals: a swirling ring, one blue, one orange
+    (lv.portals || []).forEach((pt, i) => {
+      const pr = Sim.PORTAL_R, col = i ? '#ff8a3b' : '#46e6ff';
+      c.fillStyle = i ? 'rgba(255,138,59,.18)' : 'rgba(70,230,255,.18)'; c.beginPath(); c.arc(pt.x, pt.y, pr, 0, TAU); c.fill();
+      c.strokeStyle = col; c.lineWidth = 4; c.lineCap = 'round';
+      for (let k = 0; k < 3; k++) { const a = clock * 2.2 * (i ? -1 : 1) + k * TAU / 3; c.beginPath(); c.arc(pt.x, pt.y, pr - 3, a, a + 1.4); c.stroke(); }
+      c.lineWidth = 2; c.beginPath(); c.arc(pt.x, pt.y, pr * .55, -clock * 3, -clock * 3 + 4.2); c.stroke();
+    });
     // conveyor belts: chevrons rolling the way they push
     for (const bt of lv.belts || []) {
       c.save(); c.translate(bt.x, bt.y); c.rotate(bt.ang);
@@ -835,7 +852,9 @@
     // orbs
     for (const b of list) {
       const s = b.falling ? Math.max(0, 1 - b.falling / .55) : 1;
-      if (!b.falling) ellipse(ctx, b.x + 3, b.y + b.r * .78, b.r * .85, b.r * .3, 0, 'rgba(0,0,0,.4)');
+      const airK = b.air ? Math.sin((1 - b.air / Sim.AIR_T) * Math.PI) : 0, lift = airK * 120;
+      if (!b.falling) ellipse(ctx, b.x + 3, b.y + b.r * .78, b.r * .85 * (1 - airK * .4), b.r * .3 * (1 - airK * .4), 0, 'rgba(0,0,0,.4)');
+      if (airK) { ctx.save(); ctx.translate(0, -lift); }
       // in team rounds a soft disc in the team colour lies on the floor under each orb
       if (!b.falling && b.team >= 0 && TEAMS[b.team]) ellipse(ctx, b.x, b.y + b.r * .55, b.r * 1.05, b.r * .42, 0, hexA(TEAMS[b.team].c, .45));
             const sk = skinFor(b);
@@ -850,6 +869,7 @@
       if (!b.falling && view.freezeBy && view.freezeBy !== b.id) {
         ctx.save(); ctx.globalAlpha = .35; ellipse(ctx, b.x, b.y, b.r, b.r, 0, '#bfefff'); ctx.restore();
       }
+      if (airK) ctx.restore();
     }
     // names + dash ring
     ctx.textAlign = 'center'; ctx.lineJoin = 'round';

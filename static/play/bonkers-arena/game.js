@@ -199,12 +199,13 @@
         burst(ev.x, ev.y, 12, [c, '#ffffff'], 260, 2.2, .45, 'spark');
         if (ev.id === meId) { A.play('coin'); floatText(ev.x, ev.y - 24, PU_NAME[ev.type] + '!', PU_COLORS[ev.type], 28); quest('pu', 1); A.announce(ev.type, 1); }
         say(view, ev.id, 'ooh', meId);
-      } else if (ev.e === 'lava') {
-        fx(ev.x, ev.y, 'ring', '#ff6a2a', 70, .5); fx(ev.x, ev.y, 'burst', '#ffb347', 14, .5);
-        if (ev.id === meId) { A.play('bump'); shake = Math.max(shake, 5); }
-      } else if (ev.e === 'blink') {
-        for (const b of view.balls) if (b.alive) fx(b.x, b.y, 'ring', '#9af0ff', 50, .5);
-        A.play('beep', false);
+      } else if (ev.e === 'launch') {
+        fx(ev.x, ev.y, 'ring', ev.why === 'pad' ? '#ff6a2a' : '#ffcc3d', 60, .5); burst(ev.x, ev.y, 10, ['#ffcc3d', '#ffffff'], 300, 3, .5, 'spark');
+        A.play('dash'); if (ev.id === meId) { shake = Math.max(shake, 6); say(view, meId, 'scream', meId, .4); }
+      } else if (ev.e === 'land') {
+        fx(ev.x, ev.y, 'ring', '#ffffff', 50, .4); if (near(ev.x, ev.y)) { A.play('bump'); shake = Math.max(shake, 4); }
+      } else if (ev.e === 'portal') {
+        fx(ev.x, ev.y, 'ring', '#46e6ff', 50, .4); fx(ev.x2, ev.y2, 'ring', '#ff8a3b', 50, .4); A.play('beep', false);
       } else if (ev.e === 'out') {
         const victim = nameOf(view, ev.id), by = ev.by ? nameOf(view, ev.by) : null;
         feed(by ? `${by} bonked ${victim} into the void!` : `${victim} fell into the void!`);
