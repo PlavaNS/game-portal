@@ -662,6 +662,32 @@
     }
   }
 
+  const bgCache = new Map();
+  function spaceBg(th, W, H) {
+    const key = th.rim + th.accent + th.bg[0] + ':' + (W > H ? 'l' : 'p');
+    if (bgCache.has(key)) return bgCache.get(key);
+    const w = 160, h = Math.round(160 * H / W), cv = document.createElement('canvas'); cv.width = w; cv.height = h;
+    const c = cv.getContext('2d');
+    const bg = c.createRadialGradient(w / 2, h / 2, 0, w / 2, h / 2, Math.max(w, h) * .75); bg.addColorStop(0, th.bg[0]); bg.addColorStop(1, th.bg[1]);
+    c.fillStyle = bg; c.fillRect(0, 0, w, h);
+    c.globalCompositeOperation = 'lighter';
+    for (const [col, nx, ny] of [[th.rim, -.6, -.4], [th.accent, .7, .3], [th.rim2 === '#ffffff' ? th.accent : th.rim2, -.2, .8]]) {
+      const x = w / 2 + nx * w * .5, y = h / 2 + ny * h * .5, g = c.createRadialGradient(x, y, 0, x, y, Math.max(w, h) * .55);
+      g.addColorStop(0, hexA(col, .14)); g.addColorStop(1, hexA(col, 0)); c.fillStyle = g; c.fillRect(0, 0, w, h);
+    }
+    bgCache.set(key, cv); return cv;
+  }
+  // pellet glow sprites, one per colour (a fresh gradient per pellet per frame was the single biggest draw cost)
+  const pelletCache = new Map();
+  function pelletSprite(col) {
+    if (pelletCache.has(col)) return pelletCache.get(col);
+    const cv = document.createElement('canvas'); cv.width = cv.height = 40; const c = cv.getContext('2d');
+    const g = c.createRadialGradient(20, 20, 0, 20, 20, 20); g.addColorStop(0, hexA(col, .5)); g.addColorStop(1, hexA(col, 0));
+    c.fillStyle = g; c.fillRect(0, 0, 40, 40);
+    c.translate(20, 20); c.rotate(.785); c.fillStyle = col; c.fillRect(-4.2, -4.2, 8.4, 8.4);
+    pelletCache.set(col, cv); return cv;
+  }
+
   // env: { W, H, DPR, cam, clock, shake, reduce, parts, texts, windBits, dashCd }
   function render(ctx, view, env) {
     const th = themeOf(view.lv), { W, H, cam, clock } = env;
@@ -674,24 +700,15 @@
       ctx.fillStyle = sky; ctx.fillRect(0, 0, W, H);
       drawSky(ctx, view.lv.scene, th, W, H, cam, clock);
     } else {
-    const bg = ctx.createRadialGradient(W / 2, H / 2, 0, W / 2, H / 2, Math.max(W, H) * .75);
-    bg.addColorStop(0, th.bg[0]); bg.addColorStop(1, th.bg[1]);
-    ctx.fillStyle = bg; ctx.fillRect(0, 0, W, H);
-    // nebula clouds in the arena's colours, drifting slowly with the camera
-    ctx.save(); ctx.globalCompositeOperation = ADD;
-    const neb = [[th.rim, -.6, -.4], [th.accent, .7, .3], [th.rim2 === '#ffffff' ? th.accent : th.rim2, -.2, .8]];
-    neb.forEach(([col, nx, ny], i) => {
-      const x = W / 2 + nx * W * .5 - cam.x * .08 + Math.sin(clock * .05 + i) * 30, y = H / 2 + ny * H * .5 - cam.y * .08 + Math.cos(clock * .04 + i) * 30;
-      const rad = Math.max(W, H) * .55, g = ctx.createRadialGradient(x, y, 0, x, y, rad);
-      g.addColorStop(0, hexA(col, .14)); g.addColorStop(1, hexA(col, 0));
-      ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
-    });
-    ctx.restore();
+    // space background + nebulae: painted once into a small cached image and stretched (4 full-screen gradients a frame stuttered on phones)
+    ctx.drawImage(spaceBg(th, W, H), -cam.x * .08 * .25 - 40, -cam.y * .08 * .25 - 40, W + 80, H + 80);
     // parallax stars
-    for (const s of STARS) {
+    ctx.fillStyle = `rgba(${th.star},${.55 + .25 * Math.sin(clock * 2)})`;
+    const nStars = env.lite ? 70 : STARS.length;
+    for (let i = 0; i < nStars; i++) {
+      const s = STARS[i];
       const x = ((s.x - cam.x * .3) * cam.z % (W + 200) + W + 200) % (W + 200) - 100;
       const y = ((s.y - cam.y * .3) * cam.z % (H + 200) + H + 200) % (H + 200) - 100;
-      ctx.fillStyle = `rgba(${th.star},${s.a * (.6 + .4 * Math.sin(clock * 2 + s.x))})`;
       ctx.fillRect(x, y, s.s, s.s);
     }
     drawScene(ctx, view.lv.scene, th, W, H, cam, clock);
@@ -738,8 +755,9 @@
     // sparks drifting up off the edge
     ctx.save(); ctx.globalCompositeOperation = ADD;
     const spr = glowSprite(th.rim);
-    for (let i = 0; i < 40; i++) {
-      const a = i * TAU / 40 + Math.sin(i * 7.3) * .08, h = (clock * 38 + i * 37) % 80;
+    const nSp = env.lite ? 20 : 40;
+    for (let i = 0; i < nSp; i++) {
+      const a = i * TAU / nSp + Math.sin(i * 7.3) * .08, h = (clock * 38 + i * 37) % 80;
       ctx.globalAlpha = (1 - h / 80) * .8;
       const sz = 5 + (i % 3) * 2;
       ctx.drawImage(spr, Math.cos(a) * R - sz, Math.sin(a) * R - h - sz, sz * 2, sz * 2);
@@ -763,11 +781,8 @@
     // pellets
     ctx.save(); ctx.globalCompositeOperation = ADD;
     for (const p of view.pellets) {
-      const col = PELLET_COLORS[p.k], s = 5.5 + Math.sin(clock * 4 + p.x * .05) * 1;
-      const g = ctx.createRadialGradient(p.x, p.y, 0, p.x, p.y, s * 2.6);
-      g.addColorStop(0, hexA(col, .5)); g.addColorStop(1, hexA(col, 0));
-      ctx.fillStyle = g; ctx.fillRect(p.x - s * 2.6, p.y - s * 2.6, s * 5.2, s * 5.2);
-      ctx.save(); ctx.translate(p.x, p.y); ctx.rotate(.785 + clock * .8); ctx.fillStyle = col; ctx.fillRect(-s * .6, -s * .6, s * 1.2, s * 1.2); ctx.restore();
+      const sp = pelletSprite(PELLET_COLORS[p.k]), s = (5.5 + Math.sin(clock * 4 + p.x * .05)) * 2.6;
+      ctx.drawImage(sp, p.x - s, p.y - s, s * 2, s * 2);
     }
     ctx.restore();
     // bumpers
@@ -855,7 +870,7 @@
       if (p.k === 'spark') {
         ctx.strokeStyle = p.c; ctx.lineWidth = p.s; ctx.lineCap = 'round';
         ctx.beginPath(); ctx.moveTo(p.x, p.y); ctx.lineTo(p.x - p.vx * .07, p.y - p.vy * .07); ctx.stroke();
-        const g = p.s * 5; ctx.drawImage(glowSprite(p.c), p.x - g, p.y - g, g * 2, g * 2);
+        if (!env.lite) { const g = p.s * 5; ctx.drawImage(glowSprite(p.c), p.x - g, p.y - g, g * 2, g * 2); }
       }
       else if (p.k === 'glow') { const g = p.s * (1.3 - k * .3); ctx.drawImage(glowSprite(p.c), p.x - g, p.y - g, g * 2, g * 2); }
       else if (p.k === 'flash') { const g = p.s * (1.2 - k * .2); ctx.globalAlpha = k * k; ctx.drawImage(glowSprite(p.c), p.x - g, p.y - g, g * 2, g * 2); }

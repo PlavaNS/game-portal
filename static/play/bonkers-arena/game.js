@@ -12,7 +12,9 @@
   // ---------- canvas ----------
   const cv = $('c'), ctx = cv.getContext('2d');
   let W = 0, H = 0, DPR = 1;
-  function resize() { DPR = Math.min(2, window.devicePixelRatio || 1); W = innerWidth; H = innerHeight; cv.width = W * DPR | 0; cv.height = H * DPR | 0; }
+  // phones render at 1.5x at most: 2x on a 3x phone is four times the pixels of 1x and the GPU stutters under the glow effects
+  const MOBILE = matchMedia('(pointer: coarse)').matches;
+  function resize() { DPR = Math.min(MOBILE ? 1.5 : 2, window.devicePixelRatio || 1); W = innerWidth; H = innerHeight; cv.width = W * DPR | 0; cv.height = H * DPR | 0; }
   addEventListener('resize', resize); resize();
   const reduceMotion = matchMedia('(prefers-reduced-motion: reduce)').matches;
   const cam = { x: 0, y: 0, z: .8 };
@@ -25,6 +27,7 @@
 
   // ---------- particles ----------
   function burst(x, y, n, col, speed, size, life, kind) {
+    if (MOBILE) n = Math.ceil(n * .6);
     for (let i = 0; i < n; i++) {
       const a = Math.random() * TAU, s = speed * (.4 + Math.random() * .8);
       parts.push({ x, y, vx: Math.cos(a) * s, vy: Math.sin(a) * s, life, max: life, c: Array.isArray(col) ? col[i % col.length] : col, s: size * (.6 + Math.random() * .7), k: kind || 'dot', rot: Math.random() * TAU });
@@ -674,7 +677,8 @@
     // effects (slowed down with the game during slow motion)
     const edt = clock < slowUntil ? dt * .35 : dt;
     for (let i = parts.length - 1; i >= 0; i--) { const p = parts[i]; p.life -= edt; p.x += p.vx * edt; p.y += p.vy * edt; p.vx *= .93; p.vy *= .93; if (p.k === 'conf') p.vy += 160 * edt; p.rot += edt * (p.k === 'shard' ? 12 : 6); if (p.life <= 0) parts.splice(i, 1); }
-    if (parts.length > 900) parts.splice(0, parts.length - 900);
+    const CAP = MOBILE ? 320 : 900;
+    if (parts.length > CAP) parts.splice(0, parts.length - CAP);
     for (let i = texts.length - 1; i >= 0; i--) { texts[i].life -= edt; if (texts[i].life <= 0) texts.splice(i, 1); }
     if (view.lv.wind) {
       while (windBits.length < 40) windBits.push({ x: Math.random() * W, y: Math.random() * H });
@@ -684,7 +688,7 @@
     shake *= Math.exp(-8 * dt);
     flash.a *= Math.exp(-7 * dt);
     if (mode !== 'menu' && !paused) idleChatter(view);
-    Art.render(ctx, view, { W, H, DPR, cam, clock, shake, reduce: reduceMotion, parts, texts, windBits, dashCd: Sim.DASH_CD, flash: reduceMotion ? null : flash });
+    Art.render(ctx, view, { W, H, DPR, cam, clock, shake, reduce: reduceMotion, parts, texts, windBits, dashCd: Sim.DASH_CD, flash: reduceMotion ? null : flash, lite: MOBILE });
     drawRain(dt);
     requestAnimationFrame(frame);
   }
