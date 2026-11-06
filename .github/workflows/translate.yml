@@ -64,7 +64,7 @@ jobs:
           fi
           # on the daily schedule there are no inputs, so fall back to the standing values
           LANGS="${{ inputs.langs }}"; [ -z "$LANGS" ] && LANGS="es,pt,de,fr,zh"
-          GAMES="${{ inputs.games }}"; [ -z "$GAMES" ] && GAMES="150"
+          GAMES="${{ inputs.games }}"; [ -z "$GAMES" ] && GAMES="500"
           echo "langs=$LANGS games=$GAMES"
           for lang in $(echo "$LANGS" | tr ',' ' '); do
             echo "::group::$lang"
@@ -74,8 +74,8 @@ jobs:
           # what this pass cost, so it can be read later without digging through the logs
           read USD IN OUT <<< "$(grep -oE 'tokens: input [0-9]+, output [0-9]+' /tmp/translate.log \
             | awk '{i+=$3; o+=$5} END {printf "%.2f %d %d", i/1000000*1 + o/1000000*5, i, o}')"
-          echo "$(date -u +%Y-%m-%d) langs=$LANGS pages_per_lang=$GAMES usd=$USD in=$IN out=$OUT" >> data/i18n/cost.log
-          echo "### Translation pass: \$$USD (langs $LANGS, $GAMES pages each)" >> $GITHUB_STEP_SUMMARY
+          echo "$(date -u +%Y-%m-%d) langs=$LANGS pages_per_lang=$GAMES usd_est_list=$USD in=$IN out=$OUT" >> data/i18n/cost.log
+          echo "### Translation pass: $IN in / $OUT out tokens (langs $LANGS, $GAMES pages each). Rough list-price estimate \$$USD - the real figure is on the Claude console, it runs on Haiku and bills several times less." >> $GITHUB_STEP_SUMMARY
           tail -5 data/i18n/cost.log >> $GITHUB_STEP_SUMMARY
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.ILOVEWEBGAMES }}
