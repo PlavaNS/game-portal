@@ -240,6 +240,9 @@ american-block-sniper-survival-online
 american-truck-driver-game
 amigurumi-cozy-stitches
 ammo-rush-master
+among-dungeon
+among-impostors
+amongus-escape
 amusement-park-tycoon-game
 an-origami-dolphin
 ancient-aztec-coloring
@@ -1037,6 +1040,8 @@ brain-test-iq-challenge
 brain-test-iq-challenge-2
 brain-train-puzzle-game
 brain-tricks-brain-games
+brainrot-bridge-race-3d
+brainrot-shooter
 brainrots-dress-up-and-interior-design
 brainrots-merge
 branches-game
@@ -9046,8 +9051,3 @@ zuma-boom-2
 zumba-mania
 zumba-quest
 zynpavo-rhythm-piano
-among-impostors
-brainrot-shooter
-amongus-escape
-brainrot-bridge-race-3d
-among-dungeon
