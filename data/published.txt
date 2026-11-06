@@ -905,6 +905,7 @@ bloxdhop
 bloxorz
 bloxorz-color-block-roll
 blue-and-red-impostor
+blue-break
 blue-chameleon
 blue-koala-jigsaw-puzzles
 blue-tractor
@@ -2560,6 +2561,7 @@ drift-king-racing-multiplayer
 drift-master-3d
 drift-race-in-the-open-world
 drift-rider
+drift-rush-stunt-park
 drift-tycoon
 drift-x-driving-car-game
 driftbound-race-in-the-grip-of-drift
@@ -3162,6 +3164,8 @@ football-puzzle-goal
 football-rumble
 football-soccer
 football-tricks
+football-wars
+football-world-27
 footballer-of-the-year
 ford-f-100-eluminator-slide
 forest-archer
@@ -3527,6 +3531,7 @@ going-right
 going-rolling-ball
 going-up
 going-up-rooftop
+gokart-rush
 gold-miner-classic
 gold-miner-tower-defense
 gold-rush-builder
@@ -3803,6 +3808,7 @@ hellforge-demon-protocol
 hellgate-1993
 hello-cat-2026
 help-car-out-traffic-parking
+help-me-brain-tricky-story
 help-me-tricky-puzzle-games
 help-me-tricky-story
 help-me-tricky-story-of-puzzles
@@ -3938,6 +3944,7 @@ hoard-master-online
 hobo-speedster
 hockey-brawl
 hockey-hero
+hold-to-grow
 hole-3d-color-block-game
 hole-and-collect
 hole-and-fill-collect-master
@@ -5726,6 +5733,7 @@ oil-rig-driller
 oil-tanker-game
 oil-tanker-simulator
 oil-tanker-truck-parking-game
+oil-tanker-truck-simulator
 oink-escape
 okay
 ola-solitaire
@@ -5898,6 +5906,7 @@ paws-off-my-clues
 paws-up
 pc-cafe-simulator-3d
 peaceful-gardening
+peak-racer
 pearl-paws
 pedro-double-cross
 peel-the-potato
@@ -6552,6 +6561,7 @@ rim-rebels-3v3
 ring-fall-puzzle
 ring-master-hats
 ring-master-legends
+ring-unhook
 ringo-starfish
 rings-and-dot
 rings-untie
@@ -7036,6 +7046,7 @@ sky-invader-impossible-track-game
 sky-islands-obby
 sky-kingdoms-castle-siege
 sky-racer-simulator
+sky-ramp-fury
 sky-rush
 sky-slash-ninja-rise
 sky-stunts-rolling-ball-3d
@@ -7671,6 +7682,7 @@ stone-shooter
 stonks
 stop-the-lock
 stop-zombies
+storky-number-drop
 storky-survivors
 storm-dash
 storm-fighter007
