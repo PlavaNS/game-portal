@@ -294,7 +294,7 @@
   // A run is saved at the start of every wave, so you can carry on from that wave later or after falling.
   function startRun(fresh) {
     if (!fresh && save.run) { run = Object.assign({ wave: 1, score: 0, kos: 0, coins: 0, mods: {}, continued: false }, save.run); run.wave--; }
-    else run = { wave: 0, score: 0, kos: 0, coins: 0, mods: {}, continued: false };
+    else run = { wave: 0, score: 0, kos: 0, coins: 0, mods: {}, continued: false, lives: 1 };
     nextWave();
   }
   function retryWave() { startRun(false); }
@@ -304,7 +304,7 @@
   function nextWave() {
     A.init(); A.startMusic();
     run.wave++;
-    save.run = { wave: run.wave, score: run.score, kos: run.kos, coins: run.coins, mods: run.mods, continued: run.continued }; store();
+    save.run = { wave: run.wave, score: run.score, kos: run.kos, coins: run.coins, mods: run.mods, continued: run.continued, lives: run.lives || 1 }; store();
     const lv = Sim.makeWave(run.wave);
     const w = Sim.createWorld(lv);
     const me = Sim.setupLevel(w, playerName(), save.skin, myColor(), run.mods);
@@ -372,18 +372,33 @@
     grow: '<circle cx="9" cy="14" r="4"/><circle cx="16" cy="9" r="5"/>',
     steady: '<path d="M4 20h16M7 20V10l5-5 5 5v10"/>',
   };
+  // rewards offered once every boost is maxed; the extra life is a free continue (one at a time)
+  const BONUS = {
+    bonusScore: { name: 'Score Surge', icon: '<path d="M4 18 10 10l4 4 6-8"/><path d="M14 6h6v6"/>', text: r => `+${100 + r.wave * 25} score right now.`, apply: r => { r.score += 100 + r.wave * 25; } },
+    bonusCoins: { name: 'Coin Rain', icon: '<circle cx="12" cy="12" r="7"/><path d="M12 8v8M9.5 10.5h4a1.5 1.5 0 0 1 0 3h-3a1.5 1.5 0 0 0 0 3h4"/>', text: r => `+${20 + r.wave * 3} coins for the shop.`, apply: r => { const c = 20 + r.wave * 3; r.coins += c; save.coins += c; store(); refreshCoins(); } },
+    bonusLife: { name: 'Second Wind', icon: '<path d="M12 21s-7-4.5-7-10a4 4 0 0 1 7-2.5A4 4 0 0 1 19 11c0 5.5-7 10-7 10z"/>', text: () => 'One free retry if you fall.', apply: r => { r.lives = (r.lives || 1) + 1; } },
+  };
   function showPerks(sess) {
     if (mode !== 'level' || L !== sess) return;
     if (paused || hostPaused) { setTimeout(() => showPerks(sess), 300); return; }
-    const keys = Object.keys(Sim.PERKS).filter(k => (run.mods[k] || 0) < 3).sort(() => Math.random() - .5).slice(0, 3);
+    let keys = Object.keys(Sim.PERKS).filter(k => (run.mods[k] || 0) < 3).sort(() => Math.random() - .5).slice(0, 3);
     $('perkTitle').textContent = `Wave ${run.wave} cleared!`;
-    $('perkNote').textContent = `Score ${run.score} · pick a boost for wave ${run.wave + 1}`;
     const grid = $('perkGrid'); grid.innerHTML = '';
+    // every boost maxed out: late-run rewards instead (points, coins, an extra life)
+    const maxed = keys.length === 0;
+    if (maxed) keys = ['bonusScore', 'bonusCoins', 'bonusLife'].filter(k => k !== 'bonusLife' || run.lives < 2);
+    $('perkNote').textContent = maxed ? `Score ${run.score} · all boosts maxed! Pick a reward for wave ${run.wave + 1}` : `Score ${run.score} · pick a boost for wave ${run.wave + 1}`;
     keys.forEach((k, i) => {
-      const p = Sim.PERKS[k], lvl = run.mods[k] || 0;
       const b = document.createElement('button'); b.className = 'perk'; b.id = 'perk-' + i;
-      b.innerHTML = `<svg viewBox="0 0 24 24">${PERK_ICON[k]}</svg><b>${esc(p.name)}</b><span>${esc(p.text)}</span><small>${'●'.repeat(lvl + 1)}${'○'.repeat(2 - lvl)}</small>`;
-      b.onclick = () => { run.mods[k] = lvl + 1; A.play('perk'); P.breakAd(); nextWave(); };
+      if (maxed) {
+        const R = BONUS[k];
+        b.innerHTML = `<svg viewBox="0 0 24 24">${R.icon}</svg><b>${esc(R.name)}</b><span>${esc(R.text(run))}</span><small>★</small>`;
+        b.onclick = () => { R.apply(run); A.play('perk'); P.breakAd(); nextWave(); };
+      } else {
+        const p = Sim.PERKS[k], lvl = Math.min(2, run.mods[k] || 0);
+        b.innerHTML = `<svg viewBox="0 0 24 24">${PERK_ICON[k]}</svg><b>${esc(p.name)}</b><span>${esc(p.text)}</span><small>${'●'.repeat(lvl + 1)}${'○'.repeat(2 - lvl)}</small>`;
+        b.onclick = () => { run.mods[k] = lvl + 1; A.play('perk'); P.breakAd(); nextWave(); };
+      }
       grid.appendChild(b);
     });
     showScreen('perks');
@@ -392,6 +407,8 @@
   function gameOver(sess) {
     if (mode !== 'level' || L !== sess) return;
     if (paused || hostPaused) { setTimeout(() => gameOver(sess), 300); return; }
+    // a spare life (Second Wind) replays the wave for free
+    if ((run.lives || 1) > 1) { run.lives--; toast('Second Wind! One more try at this wave.'); A.play('perk'); retryWave(); return; }
     P.levelEnded(run.wave, false);
     const best = save.best || { score: 0, wave: 0 };
     const record = run.score > best.score;
