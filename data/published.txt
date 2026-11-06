@@ -5961,6 +5961,7 @@ pick-and-patch
 pick-the-number
 pickaxe-crusher-idle
 pickle-ball-clash
+pickle-rally
 picky-parking
 pics-2-word
 picture-and-word-match
@@ -8093,6 +8094,7 @@ the-kulka
 the-last-15-minutes
 the-last-adventure
 the-last-company
+the-last-lantern
 the-last-light-of-lyra
 the-last-shot
 the-lava-escape
