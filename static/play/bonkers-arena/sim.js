@@ -124,6 +124,8 @@
     if (w.lv.mut === 'twins') addBall(w, { name: 'Titan II', skin: 99, r: 62, boss: true, skill: 0.7 });
     fillBots(w, 1 + w.lv.bots + (w.lv.boss ? 1 : 0) + (w.lv.mut === 'twins' ? 1 : 0), [playerColor]);
     for (const b of w.balls) if (!b.human && !b.boss) {
+      // fair start: rivals begin as big as the player's Heavy perk makes them
+      if (mods && mods.heavy) { b.r = b.tr = START_R + mods.heavy * 4; }
       if (mods && mods.shrinkNext) { b.r = b.tr = START_R * 0.6; }
       if (w.lv.mut === 'giants') { b.r = b.tr = START_R * 2; }
       if (w.lv.mut === 'swarm') { b.r = b.tr = START_R * 0.7; b.skill = Math.min(0.95, b.skill + 0.2); }
@@ -467,7 +469,7 @@
       }
       if (!b.falling) {
         let a, p, d = false;
-        if (b.human) { const i = inputs && inputs[b.id]; a = i ? i.a : b.face; p = i ? i.p : 0; d = i && i.d; if (lv.mut === 'mirror' && w.t - b.hitAt < 3 && b.hitAt > 0) a += Math.PI; }
+        if (b.human) { const i = inputs && inputs[b.id]; a = i ? i.a : b.face; p = i ? i.p : 0; d = i && i.d; }
         else {
           b.ai.t -= dt;
           if (b.ai.t <= 0) { b.ai.t = 0.45 - b.skill * 0.25 + Math.random() * 0.2; botThink(w, b); }
@@ -632,7 +634,6 @@
   // Mutations change how a wave plays. From wave 12 on, every wave has one (they never repeat two waves in a row).
   const MUTATIONS = {
     giants: { name: 'Giants', text: 'Every rival starts twice as big.' },
-    mirror: { name: 'Mirror', text: 'Your controls flip after every hit.' },
     swarm: { name: 'Swarm', text: 'Twice the rivals, all tiny and fast.' },
     twins: { name: 'Twin Titans', text: 'Two Titans. Good luck.' },
     sudden: { name: 'Sudden Death', text: 'The arena shrinks three times faster.' },
