@@ -196,6 +196,7 @@ airsteps
 akagram
 alchemist-lab-jewel-crush
 alchemy-elixir-of-life
+alchemy-store
 alderun
 alex-whiskers
 alfa-romeo-coloring
