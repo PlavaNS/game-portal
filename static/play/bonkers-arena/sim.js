@@ -180,8 +180,18 @@
     return { x: Math.cos(a) * d, y: Math.sin(a) * d, r: SINK.r, open: ph >= SINK.warn, k: ph < SINK.warn ? ph / SINK.warn : 1 };
   }
   function sinks(w) { const out = []; for (let k = 0; k < (w.lv.sinks || 0); k++) { const s = sinkState(w, k); if (s) out.push(s); } return out; }
-  const TILE = 84;
-  function tileKey(x, y) { return Math.floor(x / TILE) + ',' + Math.floor(y / TILE); }
+  // Crumbling floor is made of hexagonal tiles (flat-top, radius HEX), matching the hex floor pattern.
+  const HEX = 68, TILE = HEX;
+  function hexAt(x, y) {
+    // axial coordinates of the flat-top hex that holds (x, y)
+    const qf = (2 / 3 * x) / HEX, rf = (-1 / 3 * x + Math.sqrt(3) / 3 * y) / HEX;
+    let q = Math.round(qf), r = Math.round(rf), s = Math.round(-qf - rf);
+    const dq = Math.abs(q - qf), dr = Math.abs(r - rf), ds = Math.abs(s - (-qf - rf));
+    if (dq > dr && dq > ds) q = -r - s; else if (dr > ds) r = -q - s;
+    return [q, r];
+  }
+  function hexCenter(q, r) { return [HEX * 1.5 * q, HEX * (Math.sqrt(3) / 2 * q + Math.sqrt(3) * r)]; }
+  function tileKey(x, y) { const [q, r] = hexAt(x, y); return q + ',' + r; }
   // true where the floor is gone; with warn, also where it is about to go (bots stay away)
   function voidAt(w, x, y, warn) {
     for (const s of sinks(w)) if ((s.open || warn) && Math.hypot(x - s.x, y - s.y) < s.r) return true;
@@ -205,10 +215,10 @@
       const key = tileKey(b.x, b.y);
       if (hit.has(key)) continue; hit.add(key);
       let tl = w.tiles.get(key);
-      if (!tl) { const [i, j] = key.split(',').map(Number); tl = { i, j, dmg: 0, gone: false, back: 0 }; w.tiles.set(key, tl); }
+      if (!tl) { const [q, r] = key.split(',').map(Number), [cx, cy] = hexCenter(q, r); tl = { cx, cy, dmg: 0, gone: false, back: 0 }; w.tiles.set(key, tl); }
       if (tl.gone) continue;
       tl.dmg += dt;
-      if (tl.dmg >= 1.6) { tl.gone = true; tl.back = w.t + 7; w.events.push({ e: 'crumble', x: (tl.i + .5) * TILE, y: (tl.j + .5) * TILE }); }
+      if (tl.dmg >= 1.6) { tl.gone = true; tl.back = w.t + 7; w.events.push({ e: 'crumble', x: tl.cx, y: tl.cy }); }
     }
     for (const [key, tl] of w.tiles) {
       if (tl.gone) { if (w.t > tl.back) w.tiles.delete(key); }
@@ -589,6 +599,6 @@
     return me.bonks >= need ? 3 : me.bonks >= Math.ceil(need / 2) ? 2 : 1;
   }
 
-  const api = { dashCharge, sinks, TILE, LEVELS, ONLINE, makeWave, PERKS, BOT_NAMES, COLORS, START_R, DASH_CD, PU_TYPES, PU_TIME, blockerPose, createWorld, addBall, fillBots, setupLevel, step, byId, starsFor };
+  const api = { dashCharge, sinks, TILE, HEX, LEVELS, ONLINE, makeWave, PERKS, BOT_NAMES, COLORS, START_R, DASH_CD, PU_TYPES, PU_TIME, blockerPose, createWorld, addBall, fillBots, setupLevel, step, byId, starsFor };
   if (typeof module !== 'undefined' && module.exports) module.exports = api; else root.Sim = api;
 })(this);

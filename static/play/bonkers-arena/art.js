@@ -578,22 +578,23 @@
     }
     // crumbling tiles
     if (lv.crumble) {
-      const T = Sim.TILE;
-      c.strokeStyle = hexA(th.rim, .12); c.lineWidth = 1.5; c.beginPath();
-      for (let v = -Math.ceil(R / T) * T; v <= R; v += T) { c.moveTo(v, -R); c.lineTo(v, R); c.moveTo(-R, v); c.lineTo(R, v); }
-      c.stroke();
+      const Hx = Sim.HEX, hexPath = (x, y, rad) => { c.beginPath(); for (let k = 0; k < 6; k++) { const a = k * Math.PI / 3; c.lineTo(x + Math.cos(a) * rad, y + Math.sin(a) * rad); } c.closePath(); };
       for (const tl of (view.tiles ? view.tiles.values() : [])) {
-        const x = tl.i * T, y = tl.j * T;
+        const x = tl.cx, y = tl.cy;
         if (tl.gone) {
-          const back = Math.max(0, Math.min(1, (tl.back - (view.t || 0)) / 7));
-          c.fillStyle = '#010104'; c.fillRect(x + 2, y + 2, T - 4, T - 4);
-          c.strokeStyle = hexA(th.rim, .3 + (1 - back) * .5); c.lineWidth = 2; c.strokeRect(x + 3, y + 3, T - 6, T - 6);
+          // a hexagonal hole: dark drop with a glowing broken edge; it fades back in before the floor returns
+          const back = Math.max(0, Math.min(1, (tl.back - (view.t || 0)) / 7)), open = Math.min(1, back * 4);
+          const g = c.createRadialGradient(x, y, 0, x, y, Hx); g.addColorStop(0, '#000000'); g.addColorStop(.7, '#05030c'); g.addColorStop(1, hexA(th.accent, .35));
+          c.globalAlpha = open; hexPath(x, y, Hx - 3); c.fillStyle = g; c.fill();
+          c.strokeStyle = hexA(th.accent, .85); c.lineWidth = 2.5; c.stroke();
+          c.globalAlpha = 1;
         } else {
+          // cracks spread from the centre as the tile weakens, then it glows red hot
           const k = Math.min(1, tl.dmg / 1.6);
-          c.fillStyle = `rgba(255,70,40,${k * .28})`; c.fillRect(x + 1, y + 1, T - 2, T - 2);
-          c.strokeStyle = `rgba(255,200,150,${.25 + k * .6})`; c.lineWidth = 2; c.beginPath();
-          const cx = x + T / 2, cy = y + T / 2, n = 2 + Math.floor(k * 4);
-          for (let i = 0; i < n; i++) { const a = i * 2.1 + tl.i, d = T * (.2 + .25 * k); c.moveTo(cx, cy); c.lineTo(cx + Math.cos(a) * d, cy + Math.sin(a) * d); c.lineTo(cx + Math.cos(a + .4) * d * 1.6, cy + Math.sin(a + .4) * d * 1.6); }
+          hexPath(x, y, Hx - 2); c.fillStyle = `rgba(255,70,40,${k * .3})`; c.fill();
+          c.strokeStyle = `rgba(255,210,170,${.3 + k * .6})`; c.lineWidth = 2; c.lineJoin = 'round'; c.beginPath();
+          const n = 3 + Math.floor(k * 3);
+          for (let i = 0; i < n; i++) { let a = i * (Math.PI * 2 / n) + x * .01, d = Hx * .15; c.moveTo(x + Math.cos(a) * d, y + Math.sin(a) * d); while (d < Hx * (.35 + .6 * k)) { d += Hx * .22; a += (i % 2 ? .3 : -.3); c.lineTo(x + Math.cos(a) * d, y + Math.sin(a) * d); } }
           c.stroke();
         }
       }
