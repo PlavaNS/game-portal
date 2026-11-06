@@ -1,265 +1,291 @@
 [
- {
-  "slug": "knockback",
-  "title": "Knockback",
-  "studio": "Knockback",
-  "added": "2026-10-24",
-  "short": "A free browser party board game: race your pegs home through erupting arenas and Power-Ups.",
-  "description": "Knockback is a free party board game you play right in your browser. Race your pegs home while arenas erupt, black holes swallow pieces and Power-Ups flip the board. Pop the dome, move your pegs and knock rivals back to the start. Jump into a quick match with players worldwide, take on the weekly arena and seasonal events, and play on desktop or mobile. Instant play: no install and no account needed.",
-  "instructions": "Pop the dome to roll, then pick a peg to move. Land on a rival to knock it back to the start, grab Power-Ups to change the board and get all your pegs home first to win. A short how-to video is available when you start.",
-  "category": "multiplayer",
-  "extraCats": [
-   "two-player",
-   "kids"
-  ],
-  "tags": [
-   "Board Game",
-   "Party",
-   "Multiplayer",
-   "Family",
-   "Strategy",
-   "Casual"
-  ],
-  "embed": "https://playknockback.com/?s=il",
-  "thumb": "https://playknockback.com/img/og.jpg",
-  "orientation": "landscape"
- },
- {
-  "slug": "kart-chaos",
-  "title": "Kart Chaos",
-  "studio": "Kart Chaos",
-  "added": "2026-10-24",
-  "short": "A free 3D kart racer: Grand Prix cups, Time Trial ghosts, a Daily Challenge and online rooms with friends.",
-  "description": "Kart Chaos is a free 3D kart racer that runs in the browser on desktop and mobile. Race the Chamo Cup Grand Prix against CPU racers, beat ghosts in Time Trial, take on the Daily Challenge, or open an online room and race your friends. Drift for speed boosts and land ramp tricks. Play with keyboard, gamepad or touch. No download, no sign-up.",
-  "instructions": "Use the arrow keys or WASD to steer and accelerate. Drift through corners to charge speed boosts and land ramp tricks for extra speed. Gamepad and touch controls are supported.",
-  "category": "racing",
-  "tags": [
-   "Racing",
-   "Kart",
-   "Driving",
-   "Drift",
-   "3D",
-   "Multiplayer"
-  ],
-  "embed": "https://kartchaos.com/?ref=ilovewebgames",
-  "thumb": "https://kartchaos.com/og-image.jpg?v=2",
-  "orientation": "landscape",
-  "extraCats": [
-   "multiplayer",
-   "3d"
-  ]
- },
- {
-  "slug": "stonkrider",
-  "title": "StonkRider",
-  "studio": "Sam Carter",
-  "studioUrl": "https://stonkrider.fun",
-  "added": "2026-10-30",
-  "short": "Turn real stock and crypto charts into neon motocross tracks and ride the candles.",
-  "description": "StonkRider is a free bike game that turns real stock and crypto charts into motocross tracks. Pick a ticker like TSLA, GME or BTC-USD and a timeframe, and the candles become hills, ramps and cliffs. Flip off the peaks, chain tricks and grab green-candle orbs for nitro, and try not to crash on the next dip. Every chart rides differently, so there is always a new track. It is just for fun, not financial advice, and needs no account.",
-  "instructions": "Pick a ticker and a timeframe to build your track. Accelerate and lean to ride the chart, flip off peaks to chain tricks and grab green-candle orbs for nitro. Land on your wheels to keep going.",
-  "category": "racing",
-  "extraCats": [
-   "arcade",
-   "mobile"
-  ],
-  "tags": [
-   "Racing",
-   "Bike",
-   "Stunts",
-   "Arcade",
-   "Physics"
-  ],
-  "embed": "https://stonkrider.fun",
-  "thumb": "https://stonkrider.fun/opengraph-image?5dab52d4083ce02e",
-  "orientation": "landscape"
- },
- {
-  "slug": "louvers",
-  "title": "Louvers",
-  "studio": "Sundryard",
-  "studioUrl": "https://sundryard.com/louvers/",
-  "added": "2026-10-31",
-  "short": "A calm logic puzzle: slide each slat left or right until every column lights up and a hidden picture appears.",
-  "description": "Louvers is a relaxing logic puzzle you play right in your browser. The board is made of horizontal slats, each with a few coloured tiles on it. Slide every slat left or right until each column has exactly the tiles it needs and lights up, and the hidden picture appears. There are 33 hand-made levels that start with a short tutorial and get steadily trickier, so it is easy to learn and hard to put down. It works with the mouse, the arrow keys or a touchscreen, with no account and no download.",
-  "instructions": "Drag a slat left or right, or select it and use the arrow keys, to shift its tiles. A column lights up when it holds the right tiles. Light every column to reveal the picture and finish the level, then pick the next one from the Levels menu.",
-  "category": "puzzle",
-  "extraCats": [
-   "mobile",
-   "kids"
-  ],
-  "tags": [
-   "Puzzle",
-   "Logic",
-   "Brain",
-   "Relaxing",
-   "Picture"
-  ],
-  "embed": "https://sundryard.com/louvers/play/",
-  "thumb": "https://ilovewebgames.com/assets/community/louvers.jpg?v=1",
-  "orientation": "landscape"
- },
- {
-  "slug": "snowball-fight-online",
-  "title": "Snowball Fight Online",
-  "studio": "Panda Games",
-  "studioUrl": "https://snowfight.pandagames.io/",
-  "added": "2026-11-03",
-  "short": "Fast 3D snowball battles in your browser: free-for-all or team battle, power-ups, skins and a daily leaderboard.",
-  "description": "Snowball Fight Online drops you into a snowy 3D arena where everyone is throwing. Pick free-for-all, where the last snowballer standing wins, or a 10-vs-10 team battle, and jump into a room that is already running. Walk with WASD, aim with the mouse and throw; snowballs run out, so stand still for a moment to pack more. Glowing items on the ground give power-ups you fire with Q or E. There are several maps in rotation, including a Halloween graveyard, 12 characters to unlock, emotes, a chat and a daily and weekly leaderboard. It plays instantly in the browser with no download and no account, and you can save your progress to pick it up in another browser.",
-  "instructions": "Move with W A S D or the arrow keys. Point the mouse at a target and click to throw a snowball. Stand still for a moment to pack more snow when you run out. Walk over glowing items to pick up power-ups and press Q or E to use them. Keys 1 to 6 are emotes, Enter opens the chat, M mutes.",
-  "category": "action",
-  "extraCats": [
-   "multiplayer",
-   "3d",
-   "shooting"
-  ],
-  "tags": [
-   "Snowball",
-   "Battle",
-   "Multiplayer",
-   "3D",
-   "Arena",
-   "Winter",
-   "Christmas"
-  ],
-  "embed": "https://snowfight.pandagames.io/play/",
-  "thumb": "https://snowfight.pandagames.io/og-image.jpg",
-  "orientation": "landscape"
- },
- {
-  "slug": "lemonade-tycoon",
-  "title": "Lemonade Tycoon",
-  "studio": "Panda Games",
-  "studioUrl": "https://lemonadetycoon.pandagames.io/",
-  "added": "2026-11-03",
-  "short": "Run a lemonade stand in a sunny 3D park, tune the recipe to the weather and grow it into a citywide chain.",
-  "description": "Lemonade Tycoon is a relaxed 3D idle tycoon game. You start with one little cart in a city park, mix your lemonade (ice, lemon and sugar) to match the day's weather, set the price and watch the customers line up. Every day brings a new forecast and sometimes a park event that sends extra crowds your way. Earnings go into upgrades for the stand, promotions and eventually new shops across the city. Daily tasks, a login reward streak and a chest for finishing all tasks give you a reason to come back, and the stand keeps selling while you are away. It runs in the browser with no download and no sign-up, and your progress is saved.",
-  "instructions": "Click Open now to start the day. Use the Recipe button to adjust ice, lemon and sugar for the weather, Upgrades to improve the stand, Promote to bring in more customers and City to open new shops. Check the Daily tab for today's tasks and rewards.",
-  "category": "clicker-idle",
-  "extraCats": [
-   "casual",
-   "kids"
-  ],
-  "tags": [
-   "Tycoon",
-   "Idle",
-   "Lemonade",
-   "Business",
-   "Management",
-   "3D",
-   "Relaxing"
-  ],
-  "embed": "https://lemonadetycoon.pandagames.io/play/",
-  "thumb": "https://ilovewebgames.com/assets/community/lemonade-tycoon.jpg?v=1",
-  "orientation": "landscape"
- },
- {
-  "slug": "hisorty",
-  "title": "Hisorty",
-  "studio": "Damian Krajnak",
-  "studioUrl": "https://hisorty.app/",
-  "added": "2026-11-03",
-  "short": "Slot historical events onto a timeline, from the Battle of Cannae to the Berlin Wall, and see how far your sense of history takes you.",
-  "description": "Hisorty is a history game built around one simple move: you are handed a card with a real historical event on it, painted in its own illustration, and you have to drop it into the right spot on a timeline of events already on the table. Guess right and the card locks into place with its year revealed; guess wrong and you lose a life. The daily puzzle gives everyone the same six events to put in order, and Endless mode keeps dealing cards until your three lives run out, so the run is as long as your knowledge holds. It plays with a mouse or a finger, and there is nothing to install.",
-  "instructions": "Pick Play for today's puzzle or Endless for an unlimited run. Drag the card at the top onto the timeline, to the left or right of the events already placed, depending on whether you think it happened earlier or later. Place it correctly to keep going; three mistakes end an Endless run.",
-  "category": "puzzle",
-  "extraCats": [
-   "casual",
-   "kids"
-  ],
-  "tags": [
-   "History",
-   "Trivia",
-   "Timeline",
-   "Educational",
-   "Cards",
-   "Endless",
-   "Daily"
-  ],
-  "embed": "https://hisorty.app/",
-  "thumb": "https://ilovewebgames.com/assets/community/hisorty.jpg?v=1",
-  "orientation": "landscape"
- },
- {
-  "slug": "guessnow",
-  "title": "guessNow",
-  "studio": "Antoni Kowalski",
-  "studioUrl": "https://guessnow.fun/",
-  "added": "2026-11-04",
-  "short": "A real photograph from the archives slowly comes into focus and you slide to the year it was taken, before your health runs out.",
-  "description": "guessNow is a history game built on real photographs. A picture appears out of focus and sharpens as the seconds pass, so every moment you wait costs you points but gives you another clue: a uniform, a car, a shop sign. You drag a slider to the year you think it was taken and confirm. Miss by two years and it barely stings; miss by forty and a chunk of your 300 health is gone. Adaptive Climb keeps dealing photographs and raising the difficulty for as long as you survive, and there is a daily set of five if you only want a quick round. Every photo comes with the full story behind it once you have answered.",
-  "instructions": "Pick Adaptive Climb for an endless run or Daily Challenge for today's five photographs. Watch the picture sharpen, drag the slider to the year you think it was taken and press Confirm. The closer you are, the less health you lose; three bad misses and the run is over.",
-  "category": "puzzle",
-  "extraCats": [
-   "casual"
-  ],
-  "tags": [
-   "History",
-   "Trivia",
-   "Photos",
-   "Guessing",
-   "Endless",
-   "Daily",
-   "Knowledge"
-  ],
-  "embed": "https://guessnow.fun/",
-  "thumb": "https://ilovewebgames.com/assets/community/guessnow.jpg?v=1",
-  "orientation": "landscape"
- },
- {
-  "slug": "world-destroyer",
-  "title": "World Destroyer",
-  "studio": "Gamey Studio",
-  "studioUrl": "https://pickthewheel.com/world-destroyer/",
-  "added": "2026-11-04",
-  "short": "Flatten a toy city against the clock with TNT, missiles and a very happy dinosaur, chaining the blasts so one sets off the next.",
-  "description": "World Destroyer drops you on an isometric toy city with a short timer and a handful of tools: TNT, missiles, fire, and later a tornado, a dragon, a robot and a UFO. The trick is not to use them one at a time but to set off chain reactions, hitting a fuel tank so the explosion rolls into the next block and the next. Each city has its own briefing, its own defences to knock out first, and three stars to earn, so a level you scraped through once is worth replaying for the clean run. Ten cities unlock one after another, and new tools arrive as you go.",
-  "instructions": "Pick a tool from the bar at the bottom, then tap or click where you want it on the city. Hit fuel tanks and AA guns first so the blasts spread for you. Clear enough of the city before the timer runs out to earn stars and open the next one.",
-  "category": "arcade",
-  "extraCats": [
-   "puzzle",
-   "mobile"
-  ],
-  "tags": [
-   "Destruction",
-   "Chain Reaction",
-   "Strategy",
-   "Levels",
-   "Isometric",
-   "Dinosaur",
-   "Timed"
-  ],
-  "embed": "https://pickthewheel.com/world-destroyer/",
-  "thumb": "https://ilovewebgames.com/assets/community/world-destroyer.jpg?v=1",
-  "orientation": "portrait"
- },
- {
-  "slug": "i-see-you",
-  "title": "I See You",
-  "studio": "Panda Games",
-  "studioUrl": "https://iseeyou.pandagames.io/",
-  "added": "2026-11-05",
-  "short": "Multiplayer horror hide-and-seek in the browser: one ghost starts the hunt, and everyone it catches joins it.",
-  "description": "I See You is a free multiplayer horror hide-and-seek game that runs straight in the browser. One player starts as the ghost; everyone it catches turns and hunts with it, so each round gets more dangerous the longer it runs. As a human you hide under beds, in lockers and behind curtains, hold your breath when something passes, and work on the fuse boxes to restore the power and open an exit before the timer runs out. Three maps are playable - Baiyang Hospital, The Haunted Mansion and The Old Schoolhouse - each with its own layout and story. Jump into a quick match with players from anywhere, or make a private room and send friends the code. No download and no account.",
-  "instructions": "Move with W A S D, hold Shift to sneak and aim with the mouse. F turns the flashlight on, Space or right-click dashes (the ghost lunges). E hides you under a bed or in a locker and R holds your breath while something passes. Find the fuse boxes to restore the power, then run for an exit before time runs out.",
-  "category": "horror",
-  "extraCats": [
-   "multiplayer",
-   "escape-room",
-   "io"
-  ],
-  "tags": [
-   "Horror",
-   "Multiplayer",
-   "Hide and Seek",
-   "Ghost",
-   "Survival",
-   "Co-op",
-   "Scary"
-  ],
-  "embed": "https://iseeyou.pandagames.io/play/",
-  "thumb": "https://ilovewebgames.com/assets/community/i-see-you.jpg?v=1",
-  "orientation": "landscape"
- }
+  {
+    "slug": "knockback",
+    "title": "Knockback",
+    "studio": "Knockback",
+    "added": "2026-10-24",
+    "short": "A free browser party board game: race your pegs home through erupting arenas and Power-Ups.",
+    "description": "Knockback is a free party board game you play right in your browser. Race your pegs home while arenas erupt, black holes swallow pieces and Power-Ups flip the board. Pop the dome, move your pegs and knock rivals back to the start. Jump into a quick match with players worldwide, take on the weekly arena and seasonal events, and play on desktop or mobile. Instant play: no install and no account needed.",
+    "instructions": "Pop the dome to roll, then pick a peg to move. Land on a rival to knock it back to the start, grab Power-Ups to change the board and get all your pegs home first to win. A short how-to video is available when you start.",
+    "category": "multiplayer",
+    "extraCats": [
+      "two-player",
+      "kids"
+    ],
+    "tags": [
+      "Board Game",
+      "Party",
+      "Multiplayer",
+      "Family",
+      "Strategy",
+      "Casual"
+    ],
+    "embed": "https://playknockback.com/?s=il",
+    "thumb": "https://playknockback.com/img/og.jpg",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "kart-chaos",
+    "title": "Kart Chaos",
+    "studio": "Kart Chaos",
+    "added": "2026-10-24",
+    "short": "A free 3D kart racer: Grand Prix cups, Time Trial ghosts, a Daily Challenge and online rooms with friends.",
+    "description": "Kart Chaos is a free 3D kart racer that runs in the browser on desktop and mobile. Race the Chamo Cup Grand Prix against CPU racers, beat ghosts in Time Trial, take on the Daily Challenge, or open an online room and race your friends. Drift for speed boosts and land ramp tricks. Play with keyboard, gamepad or touch. No download, no sign-up.",
+    "instructions": "Use the arrow keys or WASD to steer and accelerate. Drift through corners to charge speed boosts and land ramp tricks for extra speed. Gamepad and touch controls are supported.",
+    "category": "racing",
+    "tags": [
+      "Racing",
+      "Kart",
+      "Driving",
+      "Drift",
+      "3D",
+      "Multiplayer"
+    ],
+    "embed": "https://kartchaos.com/?ref=ilovewebgames",
+    "thumb": "https://kartchaos.com/og-image.jpg?v=2",
+    "orientation": "landscape",
+    "extraCats": [
+      "multiplayer",
+      "3d"
+    ]
+  },
+  {
+    "slug": "stonkrider",
+    "title": "StonkRider",
+    "studio": "Sam Carter",
+    "studioUrl": "https://stonkrider.fun",
+    "added": "2026-10-30",
+    "short": "Turn real stock and crypto charts into neon motocross tracks and ride the candles.",
+    "description": "StonkRider is a free bike game that turns real stock and crypto charts into motocross tracks. Pick a ticker like TSLA, GME or BTC-USD and a timeframe, and the candles become hills, ramps and cliffs. Flip off the peaks, chain tricks and grab green-candle orbs for nitro, and try not to crash on the next dip. Every chart rides differently, so there is always a new track. It is just for fun, not financial advice, and needs no account.",
+    "instructions": "Pick a ticker and a timeframe to build your track. Accelerate and lean to ride the chart, flip off peaks to chain tricks and grab green-candle orbs for nitro. Land on your wheels to keep going.",
+    "category": "racing",
+    "extraCats": [
+      "arcade",
+      "mobile"
+    ],
+    "tags": [
+      "Racing",
+      "Bike",
+      "Stunts",
+      "Arcade",
+      "Physics"
+    ],
+    "embed": "https://stonkrider.fun",
+    "thumb": "https://stonkrider.fun/opengraph-image?5dab52d4083ce02e",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "louvers",
+    "title": "Louvers",
+    "studio": "Sundryard",
+    "studioUrl": "https://sundryard.com/louvers/",
+    "added": "2026-10-31",
+    "short": "A calm logic puzzle: slide each slat left or right until every column lights up and a hidden picture appears.",
+    "description": "Louvers is a relaxing logic puzzle you play right in your browser. The board is made of horizontal slats, each with a few coloured tiles on it. Slide every slat left or right until each column has exactly the tiles it needs and lights up, and the hidden picture appears. There are 33 hand-made levels that start with a short tutorial and get steadily trickier, so it is easy to learn and hard to put down. It works with the mouse, the arrow keys or a touchscreen, with no account and no download.",
+    "instructions": "Drag a slat left or right, or select it and use the arrow keys, to shift its tiles. A column lights up when it holds the right tiles. Light every column to reveal the picture and finish the level, then pick the next one from the Levels menu.",
+    "category": "puzzle",
+    "extraCats": [
+      "mobile",
+      "kids"
+    ],
+    "tags": [
+      "Puzzle",
+      "Logic",
+      "Brain",
+      "Relaxing",
+      "Picture"
+    ],
+    "embed": "https://sundryard.com/louvers/play/",
+    "thumb": "https://ilovewebgames.com/assets/community/louvers.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "snowball-fight-online",
+    "title": "Snowball Fight Online",
+    "studio": "Panda Games",
+    "studioUrl": "https://snowfight.pandagames.io/",
+    "added": "2026-11-03",
+    "short": "Fast 3D snowball battles in your browser: free-for-all or team battle, power-ups, skins and a daily leaderboard.",
+    "description": "Snowball Fight Online drops you into a snowy 3D arena where everyone is throwing. Pick free-for-all, where the last snowballer standing wins, or a 10-vs-10 team battle, and jump into a room that is already running. Walk with WASD, aim with the mouse and throw; snowballs run out, so stand still for a moment to pack more. Glowing items on the ground give power-ups you fire with Q or E. There are several maps in rotation, including a Halloween graveyard, 12 characters to unlock, emotes, a chat and a daily and weekly leaderboard. It plays instantly in the browser with no download and no account, and you can save your progress to pick it up in another browser.",
+    "instructions": "Move with W A S D or the arrow keys. Point the mouse at a target and click to throw a snowball. Stand still for a moment to pack more snow when you run out. Walk over glowing items to pick up power-ups and press Q or E to use them. Keys 1 to 6 are emotes, Enter opens the chat, M mutes.",
+    "category": "action",
+    "extraCats": [
+      "multiplayer",
+      "3d",
+      "shooting"
+    ],
+    "tags": [
+      "Snowball",
+      "Battle",
+      "Multiplayer",
+      "3D",
+      "Arena",
+      "Winter",
+      "Christmas"
+    ],
+    "embed": "https://snowfight.pandagames.io/play/",
+    "thumb": "https://snowfight.pandagames.io/og-image.jpg",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "lemonade-tycoon",
+    "title": "Lemonade Tycoon",
+    "studio": "Panda Games",
+    "studioUrl": "https://lemonadetycoon.pandagames.io/",
+    "added": "2026-11-03",
+    "short": "Run a lemonade stand in a sunny 3D park, tune the recipe to the weather and grow it into a citywide chain.",
+    "description": "Lemonade Tycoon is a relaxed 3D idle tycoon game. You start with one little cart in a city park, mix your lemonade (ice, lemon and sugar) to match the day's weather, set the price and watch the customers line up. Every day brings a new forecast and sometimes a park event that sends extra crowds your way. Earnings go into upgrades for the stand, promotions and eventually new shops across the city. Daily tasks, a login reward streak and a chest for finishing all tasks give you a reason to come back, and the stand keeps selling while you are away. It runs in the browser with no download and no sign-up, and your progress is saved.",
+    "instructions": "Click Open now to start the day. Use the Recipe button to adjust ice, lemon and sugar for the weather, Upgrades to improve the stand, Promote to bring in more customers and City to open new shops. Check the Daily tab for today's tasks and rewards.",
+    "category": "clicker-idle",
+    "extraCats": [
+      "casual",
+      "kids"
+    ],
+    "tags": [
+      "Tycoon",
+      "Idle",
+      "Lemonade",
+      "Business",
+      "Management",
+      "3D",
+      "Relaxing"
+    ],
+    "embed": "https://lemonadetycoon.pandagames.io/play/",
+    "thumb": "https://ilovewebgames.com/assets/community/lemonade-tycoon.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "hisorty",
+    "title": "Hisorty",
+    "studio": "Damian Krajnak",
+    "studioUrl": "https://hisorty.app/",
+    "added": "2026-11-03",
+    "short": "Slot historical events onto a timeline, from the Battle of Cannae to the Berlin Wall, and see how far your sense of history takes you.",
+    "description": "Hisorty is a history game built around one simple move: you are handed a card with a real historical event on it, painted in its own illustration, and you have to drop it into the right spot on a timeline of events already on the table. Guess right and the card locks into place with its year revealed; guess wrong and you lose a life. The daily puzzle gives everyone the same six events to put in order, and Endless mode keeps dealing cards until your three lives run out, so the run is as long as your knowledge holds. It plays with a mouse or a finger, and there is nothing to install.",
+    "instructions": "Pick Play for today's puzzle or Endless for an unlimited run. Drag the card at the top onto the timeline, to the left or right of the events already placed, depending on whether you think it happened earlier or later. Place it correctly to keep going; three mistakes end an Endless run.",
+    "category": "puzzle",
+    "extraCats": [
+      "casual",
+      "kids"
+    ],
+    "tags": [
+      "History",
+      "Trivia",
+      "Timeline",
+      "Educational",
+      "Cards",
+      "Endless",
+      "Daily"
+    ],
+    "embed": "https://hisorty.app/",
+    "thumb": "https://ilovewebgames.com/assets/community/hisorty.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "guessnow",
+    "title": "guessNow",
+    "studio": "Antoni Kowalski",
+    "studioUrl": "https://guessnow.fun/",
+    "added": "2026-11-04",
+    "short": "A real photograph from the archives slowly comes into focus and you slide to the year it was taken, before your health runs out.",
+    "description": "guessNow is a history game built on real photographs. A picture appears out of focus and sharpens as the seconds pass, so every moment you wait costs you points but gives you another clue: a uniform, a car, a shop sign. You drag a slider to the year you think it was taken and confirm. Miss by two years and it barely stings; miss by forty and a chunk of your 300 health is gone. Adaptive Climb keeps dealing photographs and raising the difficulty for as long as you survive, and there is a daily set of five if you only want a quick round. Every photo comes with the full story behind it once you have answered.",
+    "instructions": "Pick Adaptive Climb for an endless run or Daily Challenge for today's five photographs. Watch the picture sharpen, drag the slider to the year you think it was taken and press Confirm. The closer you are, the less health you lose; three bad misses and the run is over.",
+    "category": "puzzle",
+    "extraCats": [
+      "casual"
+    ],
+    "tags": [
+      "History",
+      "Trivia",
+      "Photos",
+      "Guessing",
+      "Endless",
+      "Daily",
+      "Knowledge"
+    ],
+    "embed": "https://guessnow.fun/",
+    "thumb": "https://ilovewebgames.com/assets/community/guessnow.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "world-destroyer",
+    "title": "World Destroyer",
+    "studio": "Gamey Studio",
+    "studioUrl": "https://pickthewheel.com/world-destroyer/",
+    "added": "2026-11-04",
+    "short": "Flatten a toy city against the clock with TNT, missiles and a very happy dinosaur, chaining the blasts so one sets off the next.",
+    "description": "World Destroyer drops you on an isometric toy city with a short timer and a handful of tools: TNT, missiles, fire, and later a tornado, a dragon, a robot and a UFO. The trick is not to use them one at a time but to set off chain reactions, hitting a fuel tank so the explosion rolls into the next block and the next. Each city has its own briefing, its own defences to knock out first, and three stars to earn, so a level you scraped through once is worth replaying for the clean run. Ten cities unlock one after another, and new tools arrive as you go.",
+    "instructions": "Pick a tool from the bar at the bottom, then tap or click where you want it on the city. Hit fuel tanks and AA guns first so the blasts spread for you. Clear enough of the city before the timer runs out to earn stars and open the next one.",
+    "category": "arcade",
+    "extraCats": [
+      "puzzle",
+      "mobile"
+    ],
+    "tags": [
+      "Destruction",
+      "Chain Reaction",
+      "Strategy",
+      "Levels",
+      "Isometric",
+      "Dinosaur",
+      "Timed"
+    ],
+    "embed": "https://pickthewheel.com/world-destroyer/",
+    "thumb": "https://ilovewebgames.com/assets/community/world-destroyer.jpg?v=1",
+    "orientation": "portrait"
+  },
+  {
+    "slug": "i-see-you",
+    "title": "I See You",
+    "studio": "Panda Games",
+    "studioUrl": "https://iseeyou.pandagames.io/",
+    "added": "2026-11-05",
+    "short": "Multiplayer horror hide-and-seek in the browser: one ghost starts the hunt, and everyone it catches joins it.",
+    "description": "I See You is a free multiplayer horror hide-and-seek game that runs straight in the browser. One player starts as the ghost; everyone it catches turns and hunts with it, so each round gets more dangerous the longer it runs. As a human you hide under beds, in lockers and behind curtains, hold your breath when something passes, and work on the fuse boxes to restore the power and open an exit before the timer runs out. Three maps are playable - Baiyang Hospital, The Haunted Mansion and The Old Schoolhouse - each with its own layout and story. Jump into a quick match with players from anywhere, or make a private room and send friends the code. No download and no account.",
+    "instructions": "Move with W A S D, hold Shift to sneak and aim with the mouse. F turns the flashlight on, Space or right-click dashes (the ghost lunges). E hides you under a bed or in a locker and R holds your breath while something passes. Find the fuse boxes to restore the power, then run for an exit before time runs out.",
+    "category": "horror",
+    "extraCats": [
+      "multiplayer",
+      "escape-room",
+      "io"
+    ],
+    "tags": [
+      "Horror",
+      "Multiplayer",
+      "Hide and Seek",
+      "Ghost",
+      "Survival",
+      "Co-op",
+      "Scary"
+    ],
+    "embed": "https://iseeyou.pandagames.io/play/",
+    "thumb": "https://ilovewebgames.com/assets/community/i-see-you.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "merge-numbers-2048",
+    "title": "Merge Numbers 2048",
+    "studio": "ChrisBloomGames",
+    "studioUrl": "https://chrisbloomgames.itch.io/",
+    "added": "2026-11-06",
+    "short": "Slide the board, merge matching tiles and push the numbers all the way to 2048 in a few quiet minutes.",
+    "description": "Merge Numbers 2048 is a free browser version of the number puzzle everyone knows. Swipe or use the arrow keys and the whole board slides; two tiles with the same number touch and become one twice as big. Two becomes four, four becomes eight, and every merge leaves room for the next one. A new tile drops after each move, so the board slowly fills and you have to keep a corner free for your biggest number. Reaching 2048 is the goal, but the real game is beating your own best score, and the board remembers it between sessions. Rounds are short, there is nothing to install and no account to make, and it plays the same with a mouse on a computer or a thumb on a phone.",
+    "instructions": "Swipe or press the arrow keys to slide every tile in that direction. Tiles with the same number merge into one. Keep your largest tile in a corner and work the other rows around it, and the board lasts much longer. The game ends when no move is left.",
+    "category": "puzzle",
+    "extraCats": [
+      "casual",
+      "mobile"
+    ],
+    "tags": [
+      "2048",
+      "Merge",
+      "Numbers",
+      "Brain",
+      "Casual",
+      "Puzzle"
+    ],
+    "embed": "https://playgama.ai/play/unwyovjhqvfsca",
+    "thumb": "https://ilovewebgames.com/assets/community/merge-numbers-2048.jpg?v=1",
+    "orientation": "any"
+  }
 ]
