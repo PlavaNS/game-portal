@@ -375,9 +375,11 @@
   // ---------- arena ----------
   const floorCache = new Map();
   function floorFor(lv) {
-    const key = lv.theme + ':' + (lv.pal == null ? '' : lv.pal) + ':' + lv.rMax;
+    // One floor image per look, drawn once at a fixed size and scaled to the arena, so a new wave never stalls on it.
+    // (Phones choked on a fresh 1800px canvas every wave.)
+    const key = lv.theme + ':' + (lv.pal == null ? '' : lv.pal) + ':' + (lv.floor || 'hex');
     if (floorCache.has(key)) return floorCache.get(key);
-    const th = themeOf(lv), R = lv.rMax, S = Math.ceil(R * 2 + 20);
+    const th = themeOf(lv), R = 620, S = Math.ceil(R * 2 + 20);
     const cv = document.createElement('canvas'); cv.width = S; cv.height = S;
     const c = cv.getContext('2d'); c.translate(S / 2, S / 2);
     const g = c.createRadialGradient(-R * .25, -R * .3, 0, 0, 0, R);
@@ -385,12 +387,37 @@
     c.beginPath(); c.arc(0, 0, R, 0, TAU); c.fillStyle = g; c.fill();
     c.save(); c.clip();
     c.strokeStyle = th.grid; c.lineWidth = 1.5;
-    const s = 34;
-    for (let col = -Math.ceil(R / (s * 1.5)) - 1; col <= Math.ceil(R / (s * 1.5)) + 1; col++)
-      for (let row = -Math.ceil(R / (s * 1.73)) - 1; row <= Math.ceil(R / (s * 1.73)) + 1; row++) {
-        const hx = col * s * 1.5, hy = row * s * 1.732 + (col & 1 ? s * .866 : 0);
-        c.beginPath(); for (let k = 0; k < 6; k++) { const a = k * Math.PI / 3; c.lineTo(hx + Math.cos(a) * s, hy + Math.sin(a) * s); } c.closePath(); c.stroke();
-      }
+    const s = 34, pat = lv.floor || 'hex';
+    if (pat === 'hex') {
+      for (let col = -Math.ceil(R / (s * 1.5)) - 1; col <= Math.ceil(R / (s * 1.5)) + 1; col++)
+        for (let row = -Math.ceil(R / (s * 1.73)) - 1; row <= Math.ceil(R / (s * 1.73)) + 1; row++) {
+          const hx = col * s * 1.5, hy = row * s * 1.732 + (col & 1 ? s * .866 : 0);
+          c.beginPath(); for (let k = 0; k < 6; k++) { const a = k * Math.PI / 3; c.lineTo(hx + Math.cos(a) * s, hy + Math.sin(a) * s); } c.closePath(); c.stroke();
+        }
+    } else if (pat === 'grid') {
+      // tech grid: fine squares with brighter lines every fourth
+      for (let v = -R; v <= R; v += 24) { c.lineWidth = (Math.round(v / 24) % 4 === 0) ? 2 : .8; c.beginPath(); c.moveTo(v, -R); c.lineTo(v, R); c.moveTo(-R, v); c.lineTo(R, v); c.stroke(); }
+    } else if (pat === 'rings') {
+      // target: concentric rings with spokes
+      c.lineWidth = 1.2;
+      for (let r = 50; r < R; r += 50) { c.beginPath(); c.arc(0, 0, r, 0, TAU); c.stroke(); }
+      c.lineWidth = .8;
+      for (let i = 0; i < 24; i++) { const a = i * TAU / 24; c.beginPath(); c.moveTo(Math.cos(a) * 50, Math.sin(a) * 50); c.lineTo(Math.cos(a) * R, Math.sin(a) * R); c.stroke(); }
+    } else if (pat === 'tri') {
+      // triangles: three families of parallel lines
+      c.lineWidth = 1;
+      for (const ang of [0, Math.PI / 3, -Math.PI / 3]) { c.save(); c.rotate(ang); for (let v = -R * 1.2; v <= R * 1.2; v += 40) { c.beginPath(); c.moveTo(-R * 1.2, v); c.lineTo(R * 1.2, v); c.stroke(); } c.restore(); }
+    } else if (pat === 'dots') {
+      // dot matrix with a soft diamond lattice
+      c.lineWidth = .7;
+      for (let v = -R; v <= R; v += 36) { c.beginPath(); c.moveTo(v, -R); c.lineTo(v + R * 2, R); c.moveTo(v, R); c.lineTo(v + R * 2, -R); c.moveTo(v, -R); c.lineTo(v - R * 2, R); c.moveTo(v, R); c.lineTo(v - R * 2, -R); c.stroke(); }
+      c.fillStyle = th.grid.replace(/[\d.]+\)$/, '.5)');
+      for (let x = -R; x <= R; x += 36) for (let y = -R; y <= R; y += 36) { c.beginPath(); c.arc(x, y, 2.2, 0, TAU); c.fill(); }
+    } else if (pat === 'waves') {
+      // flowing lines, like ripples across the platform
+      c.lineWidth = 1.2;
+      for (let y = -R; y <= R; y += 26) { c.beginPath(); for (let x = -R; x <= R; x += 8) c.lineTo(x, y + Math.sin(x / 70 + y / 90) * 9); c.stroke(); }
+    }
     for (let i = 0; i < 40; i++) {
       const a = Math.random() * TAU, d = Math.sqrt(Math.random()) * R;
       ellipse(c, Math.cos(a) * d, Math.sin(a) * d, 2, 2, 0, hexA(i % 2 ? th.rim : th.accent, .35));
@@ -399,7 +426,7 @@
     c.strokeStyle = hexA(th.accent, .35); c.lineWidth = 3;
     c.beginPath(); c.arc(0, 0, 70, 0, TAU); c.stroke();
     c.beginPath(); c.arc(0, 0, 40, 0, TAU); c.stroke();
-    const out = { cv, S }; floorCache.set(key, out); return out;
+    const out = { cv, S, R }; floorCache.set(key, out); return out;
   }
 
   const STARS = Array.from({ length: 140 }, () => ({ x: Math.random() * 3000 - 1500, y: Math.random() * 3000 - 1500, s: Math.random() * 1.8 + .4, a: Math.random() * .6 + .2 }));
@@ -675,12 +702,16 @@
 
     // arena glow + floor
     if (th.light) { ellipse(ctx, 24, 40, R * 1.02, R * 1.02, 0, 'rgba(30,50,110,.22)'); }
-    ctx.save(); ctx.shadowColor = th.rim; ctx.shadowBlur = 50 * cam.z;
+    // the arena's outer glow: a gradient ring instead of a canvas blur (blur over the whole arena stutters on phones)
+    ctx.save();
+    const og = ctx.createRadialGradient(0, 0, R, 0, 0, R + 60); og.addColorStop(0, hexA(th.rim, .45)); og.addColorStop(1, hexA(th.rim, 0));
+    ctx.fillStyle = og; ctx.beginPath(); ctx.arc(0, 0, R + 60, 0, TAU); ctx.fill();
     // a glass platform: the space scenery shows faintly through the floor
     ctx.globalAlpha = th.light ? .38 : lv.scene ? .72 : 1; ctx.beginPath(); ctx.arc(0, 0, R, 0, TAU); ctx.fillStyle = th.floor[1]; ctx.fill(); ctx.restore();
     const fl = floorFor(lv);
     ctx.save(); ctx.beginPath(); ctx.arc(0, 0, R, 0, TAU); ctx.clip();
-    ctx.globalAlpha = th.light ? .5 : lv.scene ? .8 : 1; ctx.drawImage(fl.cv, -fl.S / 2, -fl.S / 2); ctx.globalAlpha = 1;
+    const fk = lv.rMax / fl.R;
+    ctx.globalAlpha = th.light ? .5 : lv.scene ? .8 : 1; ctx.drawImage(fl.cv, -fl.S / 2 * fk, -fl.S / 2 * fk, fl.S * fk, fl.S * fk); ctx.globalAlpha = 1;
     // a band of light sweeping across the floor now and then
     const sweep = ((clock * 160) % (R * 6)) - R * 1.5;
     if (sweep < R * 1.5) {
@@ -698,7 +729,9 @@
       ctx.beginPath(); ctx.arc(0, 0, soon, 0, TAU); ctx.stroke(); ctx.setLineDash([]);
     }
     // rim
-    ctx.save(); ctx.shadowColor = th.rim; ctx.shadowBlur = 24;
+    ctx.save();
+    const ig = ctx.createRadialGradient(0, 0, R - 30, 0, 0, R); ig.addColorStop(0, hexA(th.rim, 0)); ig.addColorStop(1, hexA(th.rim, .35));
+    ctx.fillStyle = ig; ctx.beginPath(); ctx.arc(0, 0, R, 0, TAU); ctx.fill();
     ctx.strokeStyle = th.rim; ctx.lineWidth = 7; ctx.beginPath(); ctx.arc(0, 0, R - 3, 0, TAU); ctx.stroke(); ctx.restore();
     ctx.setLineDash([30, 26]); ctx.lineDashOffset = -clock * 40; ctx.strokeStyle = th.rim2; ctx.lineWidth = 2;
     ctx.beginPath(); ctx.arc(0, 0, R - 3, 0, TAU); ctx.stroke(); ctx.setLineDash([]);

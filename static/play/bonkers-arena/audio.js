@@ -388,8 +388,10 @@
   // One line at a time; a new line only cuts in when it matters at least as much. Music dips while she talks.
   const lines = {};
   let talking = null;
+  // decoded one line at a time between frames, so the first tap never freezes the game
   async function loadVoice() {
     for (const [k, url] of Object.entries(window.VOICE || {})) {
+      await new Promise(r => setTimeout(r, 60));
       try {
         const bin = atob(url.slice(url.indexOf(',') + 1)), bytes = new Uint8Array(bin.length);
         for (let i = 0; i < bin.length; i++) bytes[i] = bin.charCodeAt(i);
