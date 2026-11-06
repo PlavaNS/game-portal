@@ -747,6 +747,7 @@ bike-stunt-master-mini-rush
 bike-stunt-racing-game
 bike-stunt-racing-legend
 bike-stunts-2024
+bikeburg
 biking-extreme-3d
 bikkings-brothers-to-valhalla
 billiard-challenge
@@ -888,6 +889,7 @@ blocky-leap
 blocky-set-3d-brick-constructions
 blocky-shooter-game
 blocky-zombie-shooting
+blok-fishing
 blondie-in-the-real-world
 bloom
 bloom-crush
@@ -1574,6 +1576,7 @@ chess-tactics
 chess4d
 chessvola-puzzles
 chibi-anime-princess-doll
+chibi-chuu
 chicken-and-crow-shoot
 chicken-banana-pen
 chicken-charge-race
@@ -8223,6 +8226,7 @@ timely-delivery
 timer-cannon
 times-got-color
 tincha-junior
+tint-tap
 tiny-arena
 tiny-army
 tiny-billiard
@@ -8303,6 +8307,7 @@ toy-rumble-3d
 toy-smash
 toy-soccer-cup
 toy-traffic-escape
+toybox-pixel-world-sandbox
 toytopia
 tps-shooting-zombie-apocalypse
 trace-craft
