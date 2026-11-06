@@ -5078,26 +5078,6 @@
       ]
     ]
   },
-  "block-bloom": {
-    "intro": "Block Bloom is a colour-matching puzzle where you send shooters into limited firing slots to clear blocks off a moving conveyor belt. Planning which shooter to use and when is the key to winning.",
-    "tips": [
-      "Check which colours are on the conveyor before you tap a shooter, so every shooter you send in has matching blocks to hit.",
-      "Keep an eye on your free slots. A shooter whose colour is not on the belt will sit there and block a slot for nothing.",
-      "Watch the shot counters. A shooter that runs out of ammo disappears and frees its slot again.",
-      "Only shooters with nothing above them can be tapped, so look for the open ones and plan your moves around them.",
-      "Look ahead on the belt. If a colour you can reach is coming, it is often better to wait for it than to fill a slot too early."
-    ],
-    "faq": [
-      [
-        "What is the goal of Block Bloom?",
-        "Clear every block on the conveyor belt to win the level."
-      ],
-      [
-        "What causes a game over?",
-        "If every slot is filled with shooters that have no matching blocks to shoot, the board jams and the game ends."
-      ]
-    ]
-  },
   "stack-up": {
     "intro": "Stack Up is a relaxed single-player puzzle game. You connect stacks of the same color to build longer chains, aiming for stacks of 10 or more while the levels grow steadily harder.",
     "tips": [

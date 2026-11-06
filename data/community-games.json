@@ -273,7 +273,7 @@
     "instructions": "Swipe or press the arrow keys to slide every tile in that direction. Tiles with the same number merge into one. Keep your largest tile in a corner and work the other rows around it, and the board lasts much longer. The game ends when no move is left.",
     "category": "puzzle",
     "extraCats": [
-      "casual",
+      "hypercasual",
       "mobile"
     ],
     "tags": [
@@ -287,5 +287,83 @@
     "embed": "https://merge-numbers-2048-chris.surge.sh/",
     "thumb": "https://ilovewebgames.com/assets/community/merge-numbers-2048.jpg?v=1",
     "orientation": "any"
+  },
+  {
+    "studio": "ChrisBloomGames",
+    "studioUrl": "https://chrisbloomgames.itch.io/",
+    "added": "2026-11-06",
+    "orientation": "any",
+    "slug": "block-bloom",
+    "title": "Block Bloom",
+    "short": "Drag flower blocks onto a garden board and fill rows or columns to make them bloom.",
+    "description": "Block Bloom is a calm block puzzle with a garden theme. Three flower pieces wait beside the board; drag each one into an empty spot, and when a whole row or column fills up it blooms and clears, giving you room again. There is no timer, so the challenge is pure planning: every piece has to fit somewhere, and a board full of awkward gaps ends the round. Clearing several lines with one piece scores best, and the garden level climbs as you go. Soft pastel colors and short rounds make it an easy game to pick up for a few minutes, on a computer or a phone.",
+    "instructions": "Drag a piece from the side onto the board. Fill a complete row or column to clear it. Keep open space for the long pieces and try to clear two lines at once. The game ends when none of the waiting pieces fits.",
+    "category": "puzzle",
+    "extraCats": [
+      "hypercasual",
+      "mobile"
+    ],
+    "tags": [
+      "Block",
+      "Puzzle",
+      "Blocks",
+      "Flowers",
+      "Casual",
+      "Brain"
+    ],
+    "embed": "https://block-bloom-chris.surge.sh/",
+    "thumb": "https://ilovewebgames.com/assets/community/block-bloom.jpg?v=1"
+  },
+  {
+    "studio": "ChrisBloomGames",
+    "studioUrl": "https://chrisbloomgames.itch.io/",
+    "added": "2026-11-06",
+    "orientation": "any",
+    "slug": "water-sort-color-tubes",
+    "title": "Water Sort: Color Tubes",
+    "short": "Pour colored liquid between tubes until every tube holds a single color.",
+    "description": "Water Sort: Color Tubes is a color sorting puzzle. Each tube holds stacked layers of colored liquid, and you can pour the top layer into another tube only if that tube has room and the top colors match, or if it is empty. The goal of every level is one color per tube. The first levels need only a few moves, but extra colors arrive quickly and the empty tubes become precious, so you start thinking several pours ahead. An undo button saves a bad move and you can restart any level. It plays with a mouse or a tap and suits short breaks.",
+    "instructions": "Tap a tube to pick up its top color, then tap another tube to pour. You can pour onto the same color or into an empty tube. Fill each tube with one color to finish the level. Keep an empty tube free as long as you can and use undo when a pour goes wrong.",
+    "category": "puzzle",
+    "extraCats": [
+      "hypercasual",
+      "mobile"
+    ],
+    "tags": [
+      "Sort",
+      "Sorting",
+      "Water",
+      "Colors",
+      "Puzzle",
+      "Brain"
+    ],
+    "embed": "https://water-sort-chris.surge.sh/",
+    "thumb": "https://ilovewebgames.com/assets/community/water-sort-color-tubes.jpg?v=1"
+  },
+  {
+    "studio": "ChrisBloomGames",
+    "studioUrl": "https://chrisbloomgames.itch.io/",
+    "added": "2026-11-06",
+    "orientation": "any",
+    "slug": "snake-trail",
+    "title": "Snake Trail",
+    "short": "Steer the snake to glowing orbs and grow longer without hitting the walls or your tail.",
+    "description": "Snake Trail is a clean take on classic snake. Steer with the arrow keys or a swipe, eat the glowing orbs to grow, and avoid running into your own tail. Every orb makes the snake longer and the board tighter, so a good run is about planning your path, not only quick reactions. Two modes change the game: Walls, where touching the edge ends the run, and Wrap, where the snake passes through one side and comes out the other. The game keeps your best score, rounds last a minute or two, and it works on desktop and on a phone.",
+    "instructions": "Use the arrow keys or swipe to turn. Eat orbs to grow and score. Do not hit your own tail, and in Walls mode do not touch the edge. Switch to Wrap mode to go through the walls. Leave yourself an open lane when the snake gets long.",
+    "category": "arcade",
+    "extraCats": [
+      "hypercasual",
+      "mobile"
+    ],
+    "tags": [
+      "Snake",
+      "Arcade",
+      "Classic",
+      "Retro",
+      "Casual",
+      "Skill"
+    ],
+    "embed": "https://snake-trail-chris.surge.sh/",
+    "thumb": "https://ilovewebgames.com/assets/community/snake-trail.jpg?v=1"
   }
 ]
