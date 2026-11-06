@@ -333,4 +333,11 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--amber); out
   .center-msg { top: 22%; font-size: clamp(30px, 9vw, 56px); }
   .center-msg small { font-size: .32em; }
   .center-msg small.goal { font-size: .26em; padding: 5px 11px; margin-top: 8px; }
+  /* phones: the top-left pills take much less of the screen */
+  .hud-tl { gap: 4px; max-width: 62vw; }
+  .hud-tl .icon-btn { width: 30px; height: 30px; font-size: 15px; border-radius: 8px; box-shadow: none; }
+  .pill { font-size: 12px; padding: 2px 7px; gap: 4px; border-radius: 7px; box-shadow: none; }
+  .pill i { font-size: 8px; letter-spacing: .08em; }
+  .board { font-size: 11px; padding: 5px 8px; min-width: 96px; }
+  .board .row-name { max-width: 64px; }
 }
