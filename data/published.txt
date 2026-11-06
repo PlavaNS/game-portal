@@ -3747,6 +3747,7 @@ hard-working-man
 harvest-glam
 harvest-haulers
 harvest-rush
+harvest-rush-tractor-farm
 harvester-cut-grass
 hatch-or-steal-online
 hatch-surprise-pets
@@ -7207,6 +7208,7 @@ snow-slider-3d
 snow-track-racing-3d
 snowball-dash
 snowball-platformer
+snowball-rush
 snowboard-game
 snowboard-game-party
 snowboard-knockout-race-game
