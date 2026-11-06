@@ -698,7 +698,8 @@
     }
     // camera (zooms in during the slow-motion finish)
     let tz, tx = 0, ty = 0;
-    if (follow) { tz = Math.min(W, H) / (420 + follow.r * 6); tx = follow.x + (follow.vx || 0) * .1; ty = follow.y + (follow.vy || 0) * .1; }
+    // phones see a bit more of the arena (the screen is narrow)
+    if (follow) { tz = Math.min(W, H) / ((MOBILE ? 500 : 420) + follow.r * 6); tx = follow.x + (follow.vx || 0) * .1; ty = follow.y + (follow.vy || 0) * .1; }
     else tz = Math.min(W, H) / (view.R * 2.3);
     tz = Math.min(1.1, tz);
     if (clock < slowUntil) tz *= 1.45;
