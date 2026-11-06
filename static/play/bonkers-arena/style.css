@@ -324,3 +324,12 @@ button:focus-visible, input:focus-visible { outline: 2px solid var(--amber); out
 /* continue a saved run */
 .link-btn { border: 0; background: none; color: var(--muted); font: 600 14px var(--body); letter-spacing: .04em; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; margin-top: -4px; }
 .screen.home .made-by { margin-top: 6px; opacity: .92; }
+
+/* phones: smaller feed messages and event banners so they don't cover the play */
+@media (max-width: 700px), (max-height: 500px) {
+  .feed { max-width: 52vw; gap: 3px; }
+  .feed span { font-size: 11px; padding: 2px 7px; border-left-width: 2px; }
+  .center-msg { top: 22%; font-size: clamp(30px, 9vw, 56px); }
+  .center-msg small { font-size: .32em; }
+  .center-msg small.goal { font-size: .26em; padding: 5px 11px; margin-top: 8px; }
+}
