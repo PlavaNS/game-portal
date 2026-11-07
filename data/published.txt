@@ -4068,6 +4068,7 @@ hyper-wave-trial
 hypnotic-zombie-escape-endless-jump
 i-am-cake-no-cats
 i-am-crazy-bird
+i-am-monkey
 i-am-security
 i-can-paint
 i-get-you
