@@ -3110,6 +3110,7 @@ flower-fairy-adventure-story
 flower-jam
 flower-magnet
 flower-merge-triple-puzzle
+flowers-garden-merge
 flowers-vs-zombies
 flows
 flufflings-pocket-pets
