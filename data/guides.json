@@ -175875,5 +175875,2128 @@
         "You unlock skills during play and can combine them. You then use these skills to test your combat abilities in the tower defense levels."
       ]
     ]
+  },
+  "drift-rush-stunt-park": {
+    "intro": "Drift Rush: Stunt Park is a racing game where you slide toy cars through a sunny city and a desert stunt park. Chain drifts, jumps and cone smashes to build big combos across 24 levels.",
+    "tips": [
+      "Practice in free roam before tackling levels, since it lets you learn how long your car keeps sliding when you hold Space.",
+      "Plan your drifts so they flow into the next corner, because a long chain of slides is what builds your combo fastest.",
+      "Use the giant ramps to launch yourself, and try a spin in the air before landing so you keep the combo going.",
+      "Smash cones on the way through a course instead of avoiding them, since each one adds to the combo you are building.",
+      "Spend your earned coins on car upgrades or a new paint job when you find a car that suits your driving, and look for [[drift-games|more drift games]] if you want to keep sharpening your slides."
+    ],
+    "faq": [
+      [
+        "How do I drift around corners?",
+        "Hold the Space button while steering with A and D or the Arrow keys. Release it when you are ready to straighten out."
+      ],
+      [
+        "What do I use coins for?",
+        "Coins let you unlock the six cars and buy upgrades and paint jobs for them."
+      ]
+    ]
+  },
+  "gokart-rush": {
+    "intro": "Kart Rush is a kart racer with items, drifting and nitro across 12 stages. This guide covers the controls and habits that help you pick up speed and stay ahead.",
+    "tips": [
+      "Drift through corners using the Down key to earn a turbo, and try to chain drifts from one bend to the next.",
+      "Save your nitro for straights or the start of a stage, when a burst of speed will help you pull ahead the most.",
+      "Try a rocket start when the lights turn green so you launch quicker than the other karts.",
+      "Grab question boxes whenever you can, then use the item at the right moment: rockets and thunder work best on the kart just ahead of you. If you enjoy fast, item-heavy races, more [[racing-games|browser racing picks]] are worth a look.",
+      "Use Time Trial with the ghost to practise a stage and learn its corners before you race against other karts."
+    ],
+    "faq": [
+      [
+        "How do I get a turbo boost in Kart Rush?",
+        "Drift through the corners while holding the Down key, and the drifting builds up a turbo for a speed boost."
+      ],
+      [
+        "What are coins used for?",
+        "You win coins during races and spend them in the garage to buy faster karts."
+      ]
+    ]
+  },
+  "oil-tanker-truck-simulator": {
+    "intro": "Oil Tanker Truck Simulator puts you in charge of a heavy tanker. You hook it up, load the oil, and drive it across highways, city roads and hills to the destination.",
+    "tips": [
+      "Ease into the throttle when you pull away, since a heavy tanker builds speed slowly and reacts late to sudden inputs.",
+      "Start braking well before each turn and steer gently, because the description stresses taking your time on every corner.",
+      "Try the different camera angles and pick the one that shows the road ahead and the edges of your load most clearly.",
+      "Use the early missions to learn how the truck responds before moving on, since the missions get harder as you progress. If you enjoy this style of driving, you can find more options in [[truck-and-driving-games|other truck driving games]]."
+    ],
+    "faq": [
+      [
+        "Which keys control the truck?",
+        "W or the Up Arrow accelerates, S or the Down Arrow brakes and reverses, and A or D (or the Left and Right Arrows) steer left and right."
+      ],
+      [
+        "How do I handle turns with a heavy tanker?",
+        "Slow down before the turn, brake smoothly, and steer gently rather than making sharp movements. Taking your time on each corner helps you keep control."
+      ]
+    ]
+  },
+  "blue-break": {
+    "intro": "Blue Break is a first-person surf arcade game where you paddle out, drop into the wave, and race down the line. Weave past surfers and swimmers while keeping an eye out for the shark.",
+    "tips": [
+      "Use speed and braking together: hold on a far point to build speed through open water, then ease off before crowded sections so you have room to react.",
+      "Look ahead rather than at your board, since spotting a gap early gives you time to line up and thread through it smoothly.",
+      "Carve in small, steady steps instead of sharp turns, which helps you slip between surfers and obstacles without losing too much speed.",
+      "Keep checking for the great white shark throughout each run, because it hunts you on every level and can appear while you are focused on the crowd.",
+      "On PC, moving the mouse to the bottom of the screen slows you down quickly, so use it as a reset when a tight gap is coming up."
+    ],
+    "faq": [
+      [
+        "How do I steer on PC and on mobile?",
+        "On PC, move the mouse to steer and hold the click on a far point to speed up. On mobile, touch left or right to carve and hold a far point to speed up."
+      ],
+      [
+        "How do I slow down?",
+        "On PC, move the mouse to the bottom of the screen to slow down. On mobile, touch the bottom center of the screen to brake."
+      ]
+    ]
+  },
+  "help-me-brain-tricky-story": {
+    "intro": "Help Me: Brain Tricky Story is a puzzle game with 31 short, silly cartoon stories. Each stick-figure problem has a clever fix, and you solve it by looking closely and moving objects around.",
+    "tips": [
+      "Tap the scene to zoom in before you try anything, since small clues are easy to miss from the full view.",
+      "Tap every object in the scene, not just the one that seems related to the problem, because the trick often involves something unexpected.",
+      "Drag objects in different directions and combinations, and ask yourself what each item could be used for besides its obvious purpose.",
+      "For physics-based levels with flowing water, watch how things move before you act, then test one small change at a time.",
+      "If you are stuck for a long time, use the Skip or Hint option, or return to the level later from the level menu with fresh thinking. For more puzzles like this, try [[brain-games|more brain teaser games]]."
+    ],
+    "faq": [
+      [
+        "How do I interact with objects in a level?",
+        "Tap or click the scene to zoom in, then tap or click an object to interact with it. To move something, grab and drag it."
+      ],
+      [
+        "What do I do if I cannot solve a level?",
+        "You can watch a short ad to get a Hint, or to Skip the level. The level menu also lets you return to any unlocked level later."
+      ]
+    ]
+  },
+  "hold-to-grow": {
+    "intro": "Hold To Grow is a one-button 3D runner where you hold to get bigger and release to shrink. Change your size in time to smash walls or squeeze through gates along a wooden bridge.",
+    "tips": [
+      "Look ahead for the obstacle type before each one arrives, since brick walls and crates need you big while narrow gates and bars need you small.",
+      "Switch size early rather than at the last moment, so your character has time to reach the right shape before the obstacle hits.",
+      "Think of the bridge as a rhythm: short holds for quick changes, and longer holds only when a wall or crate is directly ahead.",
+      "At the boss, hold to fill the power meter and watch for the gold zone, because releasing there gives the strongest punch down the multiplier runway. If you enjoy timing-based movement, you may also like these [[running-games|running games with quick reflexes]].",
+      "Practice on the early handcrafted levels to learn how each obstacle type responds to your size before endless levels get harder."
+    ],
+    "faq": [
+      [
+        "How do I grow and shrink my character?",
+        "On a computer, hold the left mouse button to grow and release it to shrink. On touch screens, hold your finger on the screen to grow and lift it to shrink."
+      ],
+      [
+        "How do I beat the boss at the end of each level?",
+        "Hold to charge the power meter, then release when the meter is in the gold zone. Releasing there sends the boss down the multiplier runway for more coins."
+      ]
+    ]
+  },
+  "flowers-garden-merge": {
+    "intro": "Flowers: Garden Merge is a calm puzzle where you drop flowers and merge identical ones into new blooms. You earn points as you go and compete with other players on the nectar rankings.",
+    "tips": [
+      "Drop each flower where it will land on a matching flower, since only identical flowers merge into a new one.",
+      "Bigger flowers are worth more points, so keep working your way up from smaller blooms instead of rushing to fill the garden.",
+      "Keep an eye on open space as the garden fills, because a crowded layout gives you fewer places to drop the next flower.",
+      "Practice planning a few drops ahead, and if you enjoy this kind of planning, you can try [[merge-games|other merge puzzles]] to build the same habit."
+    ],
+    "faq": [
+      [
+        "How do I earn more points?",
+        "Each flower gives points, and bigger flowers give more, so merging identical flowers into larger blooms raises your score the most."
+      ],
+      [
+        "How do I check how I compare to other players?",
+        "When the game ends, your position appears in the global nectar collector rankings."
+      ]
+    ]
+  },
+  "bunny-quest": {
+    "intro": "Bunny Quest is a puzzle adventure where you help a bunny reach carrots by dragging tiles to build a path through tricky terrain. Plan each route carefully so your bunny stays clear of grass.",
+    "tips": [
+      "Before you move anything, look at the whole layout and find where the carrots are. Work backward from them to see which tiles you need to uncover and connect.",
+      "Keep grass in mind as you drag tiles into place. A path that looks correct can still lead your bunny into trouble if it runs past grass.",
+      "Uncover the essential blocks first, since they often decide the shape of the whole route. Placing the less important tiles early can box you in.",
+      "If you get stuck, rearrange a few tiles rather than starting from scratch. Small changes to the path are often enough to open a new route.",
+      "If you enjoy planning several steps ahead, you may also like these [[brain-games|games that train your thinking]]."
+    ],
+    "faq": [
+      [
+        "What is the goal of Bunny Quest?",
+        "Your goal is to guide the bunny to the carrots by creating a safe path. You do this by dragging tiles into position and uncovering the blocks you need."
+      ],
+      [
+        "How do I avoid losing my bunny?",
+        "Keep the bunny away from grass when you plan its route. Check each path you build to make sure it runs through clear terrain only."
+      ]
+    ]
+  },
+  "timber-squirrel": {
+    "intro": "Timber Squirrel is a 3D physics puzzle about pushing logs and fallen trees into a lake to make bridges. Your goal is to reach the big pinecone across the water.",
+    "tips": [
+      "Every object keeps drifting after one push, so think about where it will end up before you move it.",
+      "Aim for three stars by finishing each level in fewer moves, which makes it worth replaying levels you solved the slow way.",
+      "Use Undo (Z) freely to test an idea, since stepping back is quicker than restarting a level that has gone wrong.",
+      "Try to plan a full bridge route before you start pushing, so each log supports the path you need to walk across. If you enjoy this kind of thinking, you can explore [[puzzle-games|more logic puzzle games]] on the site.",
+      "Save the hint system (H) for when you are truly stuck, and follow its arrow guidance to see the next useful push."
+    ],
+    "faq": [
+      [
+        "How do I earn three stars on a level?",
+        "Finish the level in fewer moves than the other ratings allow. Fewer moves give a better score."
+      ],
+      [
+        "What happens after I push a log into the water?",
+        "Every object drifts after one push, so its final position may not be where you first expect. Plan the drift before you push."
+      ]
+    ]
+  },
+  "sky-invader-impossible-track-game": {
+    "intro": "This car stunt racer asks you to drive impossible tracks and perform stunts on sky-high ramps at high speed. Here are some habits to help you keep control.",
+    "tips": [
+      "Use the forward and back keys with care, since the description says the game is built around high-speed action on ramps. Easing off before a jump can help you land more steadily.",
+      "Practice left and right movement on flat sections first so you know how far the car moves with each press before you reach a ramp.",
+      "Pause with Esc when you need a moment to plan the next jump or check the track ahead, then press Esc again to continue.",
+      "If a run goes badly on a difficult track, restart from the in-game option rather than pushing through a bad position. A fresh start often beats a damaged run.",
+      "If you enjoy stunt driving on tough courses, you can [[racing-games|browse more racing titles]] to find similar high-speed challenges."
+    ],
+    "faq": [
+      [
+        "How do I steer the car?",
+        "Use W or the Up Arrow to move forward, S or the Down Arrow to move back, and A or the Left Arrow to move left."
+      ],
+      [
+        "How do I pause the game?",
+        "Press the Esc key to pause, and press Esc again to resume gameplay."
+      ]
+    ]
+  },
+  "treat-tumble": {
+    "intro": "Treat Tumble is a match-3 puzzle game where you swap and match candy pieces like gummy bears, chocolate bites, and jelly cubes. Clear obstacles across more than 100 levels and set up combos for bonus points.",
+    "tips": [
+      "Look for moves that create matches of four or more treats, since bigger groups help you clear obstacles faster.",
+      "Plan a move that sets up a second match before you make the first one, so a cascade can do work for you.",
+      "Save power-ups for levels with tough obstacles or crowded boards, where one explosive blast can change the outcome.",
+      "Chain combos when you can, because the instructions point to heavy bonuses for matching in quick succession.",
+      "If you enjoy this style, the [[match-3-games|more swap-and-match puzzles]] collection has similar games to try after you clear a few worlds."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Treat Tumble?",
+        "You swap and match three or more treats to clear obstacles and finish each level. Matching also unlocks sweet surprises as you progress."
+      ],
+      [
+        "How do bonuses work in Treat Tumble?",
+        "Matching three or more treats earns tasty combos, and the instructions say matching well brings heavy bonuses. Look for chances to link matches together."
+      ]
+    ]
+  },
+  "zoo-anomaly-simulation": {
+    "intro": "Zoo Anomaly Simulation is a first-person shooter set in a zoo where animals have mutated. Explore the eerie grounds, grab your weapons, and fight back against giraffes, zebras, elephants and others.",
+    "tips": [
+      "Explore the whole zoo before you commit to a fight so you know where the mutated animals are coming from.",
+      "Grab your weapons as soon as you can, since the game is built around fighting back against the mutated animals.",
+      "Keep an eye on each animal type, such as giraffes, zebras and elephants, and notice how they move so you can react to them.",
+      "Move through the eerie environment steadily rather than rushing in, which helps you avoid getting caught by several animals at once. If you enjoy more animal-themed action, you can browse [[animal-games|more animal action games]] on the site."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Zoo Anomaly Simulation?",
+        "You play as the only person who can stop the chaos caused by mutated animals in a zoo. You do this by fighting back against them in first person."
+      ],
+      [
+        "How do I play the game?",
+        "Use a mouse click or a tap to play. The instructions do not list any other controls."
+      ]
+    ]
+  },
+  "fide-the-hole": {
+    "intro": "Fide The Hole is a physics-based ball puzzle where you complete levels while avoiding obstacles. It continues Physical Maze with updated graphics, new sounds, and almost twice as many levels.",
+    "tips": [
+      "Watch how the physics model behaves on the first level before trying anything complicated, since every later level uses the same rules.",
+      "Look at the whole layout before you act, and plan the route around the obstacles rather than reacting to them as they come.",
+      "Expect the later levels to be harder, so slow down and test your idea in your head before committing to a move.",
+      "Because the game is built to train spatial thinking, try to picture where the ball will go before you make each move, and note which moves worked for next time. If you enjoy this kind of challenge, you can also explore [[brain-games|more brain games]] on the site."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "You need to complete the level while avoiding the obstacles. Finishing levels also gives rewards and unlocks new levels."
+      ],
+      [
+        "How do I control the game?",
+        "You play with a mouse or by using the screen of your smartphone."
+      ]
+    ]
+  },
+  "fruit-merge-juicy-drop-fun": {
+    "intro": "Fruit Merge Juicy Drop Fun is a fruit puzzle where you drop fruits and merge matching ones into higher-level fruits. Each merge builds toward bigger combos as you clear the board.",
+    "tips": [
+      "Keep the largest fruits near the bottom so smaller fruits have room to slide together and merge.",
+      "Plan each drop before you release it, since a fruit placed in the wrong spot can block the matches you need next.",
+      "Try to set up chain reactions, because one merge can create a higher-level fruit that combines again with its neighbors for extra combo fun.",
+      "If you enjoy planning moves like this, you can explore more [[merge-games|merge puzzle games to try]] to practice the same skills."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Fruit Merge Juicy Drop Fun?",
+        "The goal is to drop and merge matching fruits to create higher-level fruits and build juicy combos."
+      ],
+      [
+        "How can I get better combos?",
+        "Look for places where a merge can set off another merge nearby, and keep the board open so new matches can form."
+      ]
+    ]
+  },
+  "geometry-flap": {
+    "intro": "Geometry Flap is a fast reflex game where you guide a shapeshifting arrow through a black-and-white maze of gates and traps. One mistake ends the run, so precise timing matters from the start.",
+    "tips": [
+      "Tap in short, steady bursts instead of holding down, so you can make small height corrections before each gate.",
+      "Watch the next gap while you are still passing the current one, so your reactions start early rather than at the last second.",
+      "Practice the rhythm of your taps on the first few obstacles until the timing feels automatic, since a single error ends the run.",
+      "If you enjoy timing-based arrow games, the [[archery-games|archery game collection]] offers more titles built around precise aiming and timing."
+    ],
+    "faq": [
+      [
+        "What ends a run in Geometry Flap?",
+        "Any single mistake causes an instant crash, so one collision with a gate or trap ends the attempt."
+      ],
+      [
+        "How do I control the arrow?",
+        "Use a mouse click or a tap to flap the arrow upward through the maze."
+      ]
+    ]
+  },
+  "draw-weapon-fight-party": {
+    "intro": "Draw Weapon Fight Party lets you sketch your own weapon and use it in a 3D arena against other opponents. Your drawing style shapes how you fight, so plan each design before you start.",
+    "tips": [
+      "Keep an eye on your remaining ink before you add details, since it limits how much of the weapon you can draw.",
+      "Start with a simple, clear shape. Precise lines often matter more than a complicated design when you are fighting.",
+      "Think about your combat style first, such as a long reach or a compact weapon, and draw to match it.",
+      "Test your weapon in the arena early, then redraw any part that feels awkward instead of starting over from scratch.",
+      "If you enjoy sketching your own gear, try these [[coloring-and-drawing-games|drawing and coloring games]] to practice your line control."
+    ],
+    "faq": [
+      [
+        "How does ink affect my weapon design?",
+        "Ink is limited, so the amount you have left determines how much of the weapon you can draw. Plan the main shape first and save ink for the details that matter most."
+      ],
+      [
+        "Does my drawing style change how I fight?",
+        "Yes. The game says your creativity determines your combat style, so a long, thin weapon will fight differently from a short, heavy one."
+      ]
+    ]
+  },
+  "world-conqueror": {
+    "intro": "World Conqueror is a strategy game where you take on the role of historic leaders, command armies, and make decisions across moments from ancient empires to modern conflicts. Everything is played with mouse clicks or taps.",
+    "tips": [
+      "Read each prompt fully before you click, since every decision can shape how your nation's story unfolds.",
+      "Pay attention to which period you are in, because ancient and modern moments may call for very different choices.",
+      "Think about the long-term result of a decision rather than only the immediate outcome, as the game is built around the fate of nations.",
+      "Take your time between choices. Quick clicking can lead to mistakes when the stakes of a pivotal moment are high.",
+      "If you enjoy strategy games that play out in short sessions, you can [[io-games|browse more .io titles]] to find similar games."
+    ],
+    "faq": [
+      [
+        "What is the main goal of World Conqueror?",
+        "The description says you step into the shoes of historic leaders, command armies, and shape the course of history through pivotal moments. Your decisions determine the fate of nations."
+      ],
+      [
+        "How do I control the game?",
+        "You play by mouse click or tap. There are no other controls mentioned in the instructions."
+      ]
+    ]
+  },
+  "style-icons-2024-rewind-edition": {
+    "intro": "Style Icons: 2024 Rewind Edition is a dress-up game where you style outfits, create makeup looks, and makeover characters for different occasions. You control everything with your mouse on desktop or by tapping on mobile.",
+    "tips": [
+      "Read the occasion before you start, such as a festival, date, or holiday, since the look you pick should suit the event.",
+      "Try a few different makeup styles before settling on one, so you can compare how each combination of looks works together.",
+      "Use a red carpet look as a starting point when you want a bold, glamorous result, then adjust the details to match your own taste.",
+      "Browse the outfit options fully before choosing, so you can plan pieces that complement each other rather than clashing.",
+      "If you enjoy styling characters, check out [[dress-up-games|more games for styling characters]] to try similar makeover challenges."
+    ],
+    "faq": [
+      [
+        "How do I move through the makeover steps?",
+        "Use your mouse on desktop or tap on mobile to pick outfits, makeup, and other options as the game presents them."
+      ],
+      [
+        "Is there a way to win or score points?",
+        "The description focuses on styling challenges rather than a fixed score, so the goal is to create looks you feel suit each occasion."
+      ]
+    ]
+  },
+  "tanks-of-liberty-online": {
+    "intro": "Tanks Of Liberty - Online is a top-down tank shooter inspired by Battle City. You defend your Eagle base across changing battlefields, from urban ruins to dense forests, and earn points to upgrade your tank.",
+    "tips": [
+      "Keep an eye on your Eagle base throughout each mission, since losing it ends the mission no matter how well your tank is doing.",
+      "Spend the points you earn on upgrades early, so your tank handles better and fires more effectively in the harder missions that follow.",
+      "Each mission is generated differently, so do not rely on memorized routes. Check the layout at the start and plan your approach to the base.",
+      "In local co-op, one player can cover the base while the other moves forward to clear enemies, which helps keep the Eagle safe.",
+      "If you enjoy playing with a friend on the same keyboard, you may also like these [[2-player-games|games for two players]]."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Tanks Of Liberty - Online?",
+        "Protect your Eagle base for the whole mission. If it falls, the mission is over."
+      ],
+      [
+        "What are the controls for Player 1?",
+        "Use WASD to move your tank and the Space bar to fire your cannon."
+      ]
+    ]
+  },
+  "sudoku-puzzle": {
+    "intro": "Sudoku Puzzle is a classic number logic game with a grid of 81 squares. Fill the blanks with the numbers 1 to 9 so nothing repeats in any row, column, or region.",
+    "tips": [
+      "Start with the rows, columns, or regions that already have the most numbers filled in, since they leave fewer options for each blank.",
+      "For each empty square, check which numbers are already used in its row, column, and region before you choose one.",
+      "Look for a square where only one number can fit, and fill it in first, because each new number makes the next squares easier to solve.",
+      "If you get stuck, scan a single number, such as 5, across the whole grid and note where it can and cannot go.",
+      "If you enjoy this style of puzzle, you can find more sudoku-style number puzzles in the [[sudoku-and-number-puzzles|sudoku and number puzzles collection]] to keep practicing."
+    ],
+    "faq": [
+      [
+        "What do I need to do to finish a puzzle?",
+        "Fill every blank square with a number from 1 to 9 so that no number repeats in any row, column, or region."
+      ],
+      [
+        "How do I play the game?",
+        "Use a mouse click or a tap to select squares and place numbers."
+      ]
+    ]
+  },
+  "fruit-slicer-fun": {
+    "intro": "Fruit Slicer Fun is a fruit-slicing arcade game where you swipe across fruit with your mouse to cut it. You can choose Arcade, Zen, or Classic mode, each with a different pace and goal.",
+    "tips": [
+      "Use short, smooth swipes that pass over several fruits at once, since slicing fruit combos is how you build your score in Arcade mode.",
+      "Keep an eye on the bombs before every swipe, and change your path early so you never cut one by accident.",
+      "Save your boosters like Double Score, Freeze, or Frenzy for busy moments when many fruits are on screen, so each one earns more points.",
+      "In Classic mode, slow down and track each fruit as it moves, because one dropped fruit or one bomb hit is the main risk to your run.",
+      "If you are still learning the swipe timing, try Zen Mode first and then return to [[fruit-games|more fruit slicing games]] to practice the same skill in other titles."
+    ],
+    "faq": [
+      [
+        "How do I cut the fruit?",
+        "Click and swipe your mouse over the fruits. Each fruit you pass over with the swipe is sliced."
+      ],
+      [
+        "What is the main goal in Arcade mode?",
+        "Aim for a new high score by slicing fruit combos while avoiding bombs. Boosters can help you increase your points."
+      ]
+    ]
+  },
+  "goods-triple-sort": {
+    "intro": "Goods Triple Sort is a puzzle where you sort a messy mix of everyday items, such as milk, cola, and cakes, by grouping identical products together. Clear the shelves by planning each move.",
+    "tips": [
+      "Scan the whole shelf before you move anything so you can spot which products have only one or two copies in sight.",
+      "Plan a few moves ahead, since placing an item early can block a spot you need for a later match.",
+      "Work on one product type at a time to avoid mixing items and making the layout harder to read.",
+      "If you like puzzles that reward planning, you can explore more [[sorting-games|browse more sorting games]] on the site.",
+      "When you feel stuck, step back and check whether a different item would make the next match easier to reach."
+    ],
+    "faq": [
+      [
+        "What is the goal of Goods Triple Sort?",
+        "Your goal is to clear the shelves by matching three identical products together. Each set of three is removed once you place it correctly."
+      ],
+      [
+        "How do I move items?",
+        "Tap or click an item to select it, then drag it to the matching group and release it in the correct spot."
+      ]
+    ]
+  },
+  "super-pop-blast": {
+    "intro": "Super Pop Blast is a brick shooter puzzle with 50 handcrafted levels. You clear every block using a limited number of balls, and you can aim for three stars on each level.",
+    "tips": [
+      "Look over the whole board before you fire, and spot which blocks are easiest to reach. Clearing the stubborn ones early can leave you with fewer problems later.",
+      "Count your remaining balls before each shot. Since the number is limited, a wasted shot can make a level much harder to finish.",
+      "Use the score combo system by planning shots that set up chain clears. A single well-timed shot can often remove several blocks at once.",
+      "If a level feels stuck, stop and rethink the layout rather than firing quickly. Taking a moment to plan usually beats trying random shots.",
+      "Practising your aim in other [[bubble-shooter|bubble shooter games]] can help you judge angles and timing for the levels here."
+    ],
+    "faq": [
+      [
+        "How do I aim and shoot?",
+        "Use a mouse click or tap to play, clicking or tapping where you want to shoot. Aim carefully, since you have a limited number of balls."
+      ],
+      [
+        "What does the combo system reward?",
+        "Combos add to your score when your shots clear blocks in a chain. Plan shots that set up several clears at once to score higher."
+      ]
+    ]
+  },
+  "safe-box-crack": {
+    "intro": "Safe Box Crack is a puzzle game where you play a locksmith who opens safes by spinning dials and decoding mechanisms. Each level adds a new logical challenge, and the game is controlled entirely with the mouse.",
+    "tips": [
+      "Spin the dials slowly and in small steps so you can notice how each safe responds before you commit to a position.",
+      "Keep a mental note of the settings you have already tried so you do not repeat the same guesses on a harder safe.",
+      "Pay attention to the timing of your final unlock, since the game asks you to choose the perfect moment to open the safe.",
+      "Treat each new level as a fresh puzzle and work out its logic before rushing, because difficulty rises steadily. If you enjoy heist-themed challenges, try more [[steal-and-thief-games|thief and heist games]] after you finish a few safes."
+    ],
+    "faq": [
+      [
+        "What is the goal of Safe Box Crack?",
+        "Your goal is to unlock each safe by spinning its dials, decoding its mechanism, and choosing the right moment to open it. Successfully opening a safe lets you move on to the next level."
+      ],
+      [
+        "Do the levels get harder as I play?",
+        "Yes, each level presents a new logical challenge with increasing difficulty. Take your time with early safes so the methods you learn carry over to tougher ones."
+      ]
+    ]
+  },
+  "ice-blast-buddies": {
+    "intro": "Ice Blast Buddies is an icy match-3 puzzle where you chain matching ice shapes against the clock. It suits both kids and adults, and the goal is to build longer chains for a higher score.",
+    "tips": [
+      "Scan the board for matching ice shapes before each move so you can spot where a chain of four or more is possible.",
+      "Time is the key resource here, so avoid long pauses and keep your moves quick and steady.",
+      "Aim for chains longer than three rather than settling for the first simple match, since only longer chains raise your score.",
+      "Watch for shapes that line up after a chain clears, because a cascade can give you an extra match without extra effort.",
+      "If you enjoy this style, you can explore [[match-3-games|more matching challenges like this]] to practise the same skills on different boards."
+    ],
+    "faq": [
+      [
+        "How do I increase my score in Ice Blast Buddies?",
+        "Chain together more than three ice shapes of the same type. Longer chains give you a higher score."
+      ],
+      [
+        "Does time matter in this game?",
+        "Yes, the description calls time the key factor, so you need to make your chains while the clock is still running."
+      ]
+    ]
+  },
+  "number-order": {
+    "intro": "Number Order is a puzzle where you put numbers into the correct sequence by sliding, tapping, or swapping tiles. It starts simple and gets harder as the patterns and time limits increase.",
+    "tips": [
+      "Scan the whole grid before your first move and find where the smallest number sits, since it is often the easiest tile to place first.",
+      "Try to move each tile into its final spot rather than shifting it around, because tiles that are placed well are less likely to get in your way later.",
+      "When the time limit is tight, pause briefly to spot the next tile you need instead of making random swaps that waste seconds.",
+      "If you get stuck, look for a tile that is only one position away from where it belongs and fix that before moving the others.",
+      "If you enjoy number challenges, you might also like [[sudoku-and-number-puzzles|more number logic puzzles]] to keep practicing your sequencing."
+    ],
+    "faq": [
+      [
+        "How do I move the tiles?",
+        "You can slide, tap, or swap tiles, and the game works with a mouse or a touch screen. Choose the method that feels most comfortable and stick with it for quick, accurate moves."
+      ],
+      [
+        "Does the game get harder as I play?",
+        "Yes, the game starts easy and then adds trickier patterns and time limits as you progress. Each new grid or difficulty level tests your speed and logic a bit more."
+      ]
+    ]
+  },
+  "the-best-warrior": {
+    "intro": "The Best Warrior is a clicker adventure where you start as a peasant and build your attack power to become the kingdom's strongest fighter. Every tap counts as you train, battle enemies, and face bosses.",
+    "tips": [
+      "Spend your early clicks on the training dummies to raise attack power before you take on tougher foes.",
+      "Defeat enemies for gold and keep an eye on what skins you can unlock, since they are meant to help you grow faster.",
+      "Use WASD or the arrow keys to position yourself before clicking, so you are in range when you start attacking.",
+      "Check back for timed chest rewards rather than ignoring them, because they can give you a boost between fights. If you enjoy fast combat, you might also like these [[ninja-and-fighting-games|fighting games to explore]].",
+      "Before challenging a boss, keep building your attack power, and return to earlier levels if you need more strength."
+    ],
+    "faq": [
+      [
+        "What is the main goal in The Best Warrior?",
+        "Your goal is to become the greatest warrior in the kingdom by training, defeating enemies, and rising through multiple levels."
+      ],
+      [
+        "How do I attack in The Best Warrior?",
+        "Use left click to attack, and move with WASD or the arrow keys."
+      ]
+    ]
+  },
+  "bubble-shooter-challenge": {
+    "intro": "Bubble Shooter Challenge is a puzzle game where you click or tap to shoot bubbles and clear difficult levels. Special bubbles like bombs, rainbow bubbles, and fire shots help you break up large groups.",
+    "tips": [
+      "Save bombs, rainbow bubbles, and fire shots for dense areas of the board instead of using them on a few loose bubbles, so each one clears more.",
+      "Look at the whole board before you shoot. Pick a shot that opens up a path to a large group you can burst.",
+      "When a level feels stuck, use a booster before you run out of options. Power-ups are there to help with the hardest layouts.",
+      "Try to set up a big burst by clearing a small section first, so the bubbles that remain fall into a cluster you can pop with one shot. If you want more bubble games to practice on, browse [[bubble-shooter|more bubble shooter titles]] on the site."
+    ],
+    "faq": [
+      [
+        "What do the special bubbles do?",
+        "Bombs, rainbow bubbles, and fire shots are described as tools that clear large sections and create massive bursts. Use them when you want to remove many bubbles at once."
+      ],
+      [
+        "When should I use power-ups and boosters?",
+        "Use them on levels that are hard to clear with normal shots. They add strategy, so it helps to think about where they will have the most effect."
+      ]
+    ]
+  },
+  "mini-chef-overcooked": {
+    "intro": "Mini Chef Overcooked is a fast-paced cooking simulation where you run a tiny kitchen and prepare dishes against the clock. You play with simple mouse clicks or taps.",
+    "tips": [
+      "Read each recipe requirement before you start cooking so you know which ingredients you need for the dish.",
+      "Keep your movements steady rather than clicking at random, since fast-paced challenges reward a calm, planned rhythm.",
+      "Work on one dish at a time when possible, so you do not lose track of what is cooking and what is finished.",
+      "Watch how different dishes, such as tomato soup and lemonade, need different ingredients, and group similar preparations together.",
+      "If you enjoy running a busy kitchen, you can find more titles in [[restaurant-and-cafe-games|restaurant and cafe games]]."
+    ],
+    "faq": [
+      [
+        "How do I control the kitchen in Mini Chef Overcooked?",
+        "You play by clicking or tapping with your mouse or finger. Click or tap the kitchen items you need to complete each order."
+      ],
+      [
+        "What kinds of dishes will I need to make?",
+        "The game includes different ingredients and cooking requirements, such as tomato soup and lemonade. Each one needs its own preparation."
+      ]
+    ]
+  },
+  "turkish-draughts": {
+    "intro": "Turkish draughts is a checkers variant on a 64-cell board where pieces move and capture horizontally and vertically, never diagonally. You can play against the computer, a friend on one device, or an online opponent.",
+    "tips": [
+      "Forget diagonal thinking: plan each move along rows and columns, since that is the only way your checkers can travel.",
+      "Your 16 checkers start on the second and third horizontals, so look at how your front row and the row behind it support each other before advancing.",
+      "Try a few games against the artificial intelligence first to learn how captures work in this layout before facing a live opponent.",
+      "Switch to watch or spectator mode to see how stronger players build their lines, then try their ideas yourself. If you enjoy planning several moves ahead, you may also like these [[chess-and-board-games|strategy board games]].",
+      "Use the option to suggest a move on the board when you want to test an idea with another player, and pay attention to how they respond."
+    ],
+    "faq": [
+      [
+        "How do the checkers move in Turkish draughts?",
+        "Checkers move and capture horizontally and vertically only, not diagonally as in most popular forms of checkers."
+      ],
+      [
+        "What are the ways to play this game?",
+        "You can play against artificial intelligence, with another person on the same device, or with an opponent online in multiplayer mode."
+      ]
+    ]
+  },
+  "color-pop-mania": {
+    "intro": "Color Pop Mania is a puzzle game where you tap groups of same-colored blocks to clear them. Each level has a limited number of moves and its own objectives to complete.",
+    "tips": [
+      "Look for the biggest group of one color before each tap, since larger clusters earn more points.",
+      "Before popping a small group, check whether removing it will leave a useful chain reaction for your next few moves.",
+      "Read each level's objective first and decide which colors you need to clear, so you do not waste moves on blocks that do not help.",
+      "Save power-ups for tough spots or large clusters where they can clear the most blocks at once, rather than using them early. If you like planning moves like this, you can explore more [[puzzle-games|brain teasers to sharpen your planning]]."
+    ],
+    "faq": [
+      [
+        "How do I score higher in Color Pop Mania?",
+        "Pop bigger groups of same-colored blocks, because the larger the cluster, the more points you earn. Planning your clicks so you can clear large groups helps you score more."
+      ],
+      [
+        "What should I do if I run out of moves?",
+        "Each level has a limited number of moves, so you need to plan before tapping. Focus on objectives first and use power-ups only where they clear the most blocks."
+      ]
+    ]
+  },
+  "orbit-tap-rush-one-tap-game": {
+    "intro": "Orbit Tap Rush is a fast arcade game where two planets circle a shared orbit and you dodge falling obstacles. Each tap reverses the direction, so quick timing keeps your planets alive.",
+    "tips": [
+      "Watch the pattern of falling obstacles before you tap, and time your reversal for the moment they are about to reach your planets rather than reacting late.",
+      "Keep your eyes on the centre of the orbit so you can judge both planets at once instead of focusing on only one of them.",
+      "Expect the pace to rise as the run goes on, so practise staying calm and steady rather than tapping rapidly out of panic.",
+      "Plan around the Star Power, which appears every 30 seconds; when one shows up, try to collect it so you have a short shield for a tricky stretch. If you enjoy planet-themed dodgers, more [[space-games|cosmic arcade picks]] are worth a look.",
+      "Take short breaks between sessions, since steady focus and fast reactions are what this game tests most."
+    ],
+    "faq": [
+      [
+        "How do I avoid obstacles?",
+        "Tap anywhere on the screen to reverse the orbit direction, timing your tap so your planets move out of the way of falling obstacles."
+      ],
+      [
+        "What does Star Power do?",
+        "A Star Power appears every 30 seconds. Collecting it grants a temporary shield that protects the planet from obstacle collisions for a short time."
+      ]
+    ]
+  },
+  "hypnotic-zombie-escape-endless-jump": {
+    "intro": "Hypnotic Zombie Escape - Endless Jump is a fast arcade platformer where you guide a neon zombie upward through a vertical maze. The pulsing, shifting background is designed to pull your attention away from the platforms.",
+    "tips": [
+      "Keep your eyes on the next platform you need to land on, not on the swirling background around it.",
+      "Plan each jump before you make it so your reflexes have a clear target instead of reacting to the visual noise.",
+      "Stay calm when the screen starts to shift; steady breathing and short glances at the zombie can help you keep your timing.",
+      "If you enjoy climbing and timing jumps, the [[parkour-and-obby-games|platform jumping games]] collection has more titles with similar challenges."
+    ],
+    "faq": [
+      [
+        "What is the goal of the game?",
+        "Your goal is to keep jumping upward through an endless vertical maze of platforms as the zombie climbs higher."
+      ],
+      [
+        "Why is the background so distracting?",
+        "The background is a constantly shifting, pulsating hypnotic illusion meant to make it harder to track the platforms you need to land on."
+      ]
+    ]
+  },
+  "chromaspin": {
+    "intro": "CHROMASPIN is an arcade game where you rotate a four-colored ring to match colored balls coming from the sides. Wrong matches cost lives, and combos raise your score.",
+    "tips": [
+      "Watch the color of each incoming ball before you move the ring, so you can start turning toward the matching section early.",
+      "Keep a steady rhythm instead of spinning wildly, since overshooting a section can cost you a life just as easily as a slow reaction.",
+      "Build combos on purpose by staying accurate, because each correct match in a row multiplies your score more than a single lucky hit.",
+      "Start on Easy to learn how the four sections line up with the balls, then move up to Medium and Hard once you can match consistently. If you enjoy color-focused play, you could also explore [[coloring-and-drawing-games|more color-based games]].",
+      "Protect your three lives early in a run, because losing all of them ends the game and a long combo is hard to recover from once you are down to one."
+    ],
+    "faq": [
+      [
+        "How do I match a ball with the ring?",
+        "Drag to rotate the four-colored ring in the middle so the section that matches the incoming ball's color lines up with where that ball arrives."
+      ],
+      [
+        "What happens when I make a wrong match?",
+        "A wrong match costs you one of your three lives, and the game ends when all three are gone."
+      ]
+    ]
+  },
+  "frost-fashion": {
+    "intro": "Frost: Fashion mixes winter dress-up with hidden object searches in a frozen palace. Style your ice princess, then search the rooms against the clock to uncover every secret.",
+    "tips": [
+      "Before you start searching, scan the full object list so you know what shape, color, or size to look for. This keeps you from wasting time on the wrong items.",
+      "In Dress Up Mode, try mixing outfits, hairstyles, and accessories in small steps. Swapping one piece at a time makes it easier to see which combinations look best together.",
+      "Work through each palace room in a steady pattern, such as left to right, rather than jumping around. This helps you avoid missing objects in the corners.",
+      "Since the timer is part of the challenge, do not stop to admire every detail. Find the easier items first, then return to the harder ones once you have some time left.",
+      "If you enjoy the palace searches, you can find more [[hidden-object-games|hidden object puzzles to try]] after finishing a round."
+    ],
+    "faq": [
+      [
+        "How do I find the hidden items in a palace room?",
+        "Look at the list of objects shown for the room, then tap or click on each item as you spot it in the scene."
+      ],
+      [
+        "Does the game get harder as you go?",
+        "Yes, the challenge grows harder with every level, so the timed searches will require more focus over time."
+      ]
+    ]
+  },
+  "word-safari": {
+    "intro": "Word Safari is a word search game where you hunt for hidden words in a colorful letter grid. Words can run in any direction, and you play by clicking or tapping.",
+    "tips": [
+      "Words can run forwards, backwards, or diagonally, so check each direction before you move on. Reading a row backwards is often where a missed word is hiding.",
+      "Start by scanning the grid for the first letter of a word rather than reading every row. This makes it quicker to spot words you already expect to see.",
+      "Pick a category you know well, such as Animals or Food, and look for words you can picture first. Familiar words are usually easier to find than unfamiliar ones.",
+      "If you feel stuck, look away from the grid for a few seconds and then scan again with fresh eyes. Short breaks help you notice letters you skipped before. If you enjoy this style of puzzle, you can also try more [[word-games|word puzzle games]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I find a word in the grid?",
+        "Click or tap on the letters of a word to select it. The words are hidden in any direction, including backwards and diagonal."
+      ],
+      [
+        "Can I change the category or language while I play?",
+        "Yes, the game has six categories and six languages to choose from. Pick the one that suits you best before you start hunting."
+      ]
+    ]
+  },
+  "wondergrid": {
+    "intro": "WonderGrid is a jigsaw puzzle game where you rebuild landmarks from the Seven Wonders of the World. Each completed picture reveals more of the artwork, and the puzzles grow more complex as you go.",
+    "tips": [
+      "Start with the pieces that show straight or outer edges, since they help you map out the frame of the landmark before you fill in the middle.",
+      "Sort pieces by colour and texture, such as sky, stone, or greenery, so you can search a smaller group when you need a specific fit.",
+      "Look at the finished image often to judge where a piece belongs, especially in areas with repeated patterns like columns or walls.",
+      "Place pieces you are sure about first and build small connected sections, which makes it easier to spot where the remaining pieces go.",
+      "Take breaks between puzzles, since the game is designed for relaxed play and the harder levels reward patience with careful fits. If you want more puzzles like this, try the [[jigsaw-puzzles|browse more jigsaw games]] collection."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "Arrange the scattered pieces on the grid so they fit together and complete the image of the wonder."
+      ],
+      [
+        "Do the puzzles get harder as I progress?",
+        "Yes, the game increases in complexity, and the artwork is more detailed as you move through the levels."
+      ]
+    ]
+  },
+  "the-garbaggio-hotel": {
+    "intro": "The Garbaggio Hotel is a point-and-click clicker where you tap guests for cash, then spend it on new floors and upgrades. Automated income keeps earning while you're away, and prestige resets offer a bigger payoff later.",
+    "tips": [
+      "Tap guests early on to build enough cash for your first upgrades, since the first purchases make every later tap and automated earning faster.",
+      "Compare upgrade costs against how much income each one adds, and prioritize the ones that pay back quickly.",
+      "Check your automated income before you leave, so you know roughly how much the hotel will earn while you're away.",
+      "Don't rush into a Renovation Credits reset. Build up enough wealth first so the bonus you get from it is worth losing your current progress.",
+      "If you like building up a money-making setup like this, [[clicker-games|explore other clicker games]] to see how different ones pace their upgrades."
+    ],
+    "faq": [
+      [
+        "What is the main goal of The Garbaggio Hotel?",
+        "Your goal is to earn as much money as possible by tapping guests, building floors, and buying upgrades that grow your income."
+      ],
+      [
+        "What do Renovation Credits do?",
+        "Renovation Credits are a prestige system you earn after accumulating enough wealth. They make your hotel more profitable, though the game describes the hotel as still somewhat terrible."
+      ]
+    ]
+  },
+  "zen-jigsaw-master": {
+    "intro": "Zen Jigsaw Master is a calm jigsaw game where you rebuild beautiful images one piece at a time. Its dark, minimalist design suits both quick breaks and longer focused sessions.",
+    "tips": [
+      "Start by grouping pieces with similar colors or textures so you can find where they belong faster.",
+      "Begin with the simpler starter puzzles to learn how the pieces fit before moving on to the complex multi-piece challenges.",
+      "Keep your sessions short when you only have a few minutes, and save longer play for puzzles that need more focus.",
+      "Look at the full image often to keep the big picture in mind, which helps you spot the right spot for each piece.",
+      "If you enjoy this style, you can explore more options in [[jigsaw-puzzles|the jigsaw puzzle collection]] for other picture challenges."
+    ],
+    "faq": [
+      [
+        "How do I play Zen Jigsaw Master?",
+        "Use mouse clicks or taps to move the pieces and assemble the picture. The game is designed to be played without extra controls."
+      ],
+      [
+        "Does the game get harder as I progress?",
+        "Yes. It starts with simple starter puzzles and moves toward complex multi-piece challenges, with a balanced difficulty curve."
+      ]
+    ]
+  },
+  "billionaire-lumber-empire-idle-tycoon": {
+    "intro": "Billionaire Lumber Tycoon mixes idle wood harvesting with a fast trading system. You grow passive income with automatic tractors, then use short investment rounds to chase quick profits.",
+    "tips": [
+      "Spend early upgrades on tractor speed and capacity, since your passive income builds up while you do other things.",
+      "Read the news before each trade, because coins react to dynamic news events and a headline can shift prices quickly.",
+      "Use the 15-second investment panel to study recent chart movement first, and only buy when the trend supports your prediction.",
+      "Do not put all your money into one coin. Spreading trades across several coins lowers the damage from one bad move.",
+      "Convert diamonds when the rate is high rather than right away, since rates fluctuate and timing affects what you earn. If you like steady progression, you can also explore [[idle-and-tycoon-games|more idle tycoon titles]]."
+    ],
+    "faq": [
+      [
+        "How do I earn money when I am not actively trading?",
+        "Your automatic tractors harvest wood over time, so your passive income keeps growing. Upgrading their speed and capacity makes that income faster."
+      ],
+      [
+        "What should I focus on when starting a new world?",
+        "Each of the four worlds starts from scratch, so use what you learned about upgrades and trading in earlier worlds. Build passive income first, then add investments once you have a steady base."
+      ]
+    ]
+  },
+  "stellar-dash": {
+    "intro": "Stellar Dash is a fast space arcade game where you steer a spaceship through neon obstacles with one tap. Time your boosts carefully to fly through narrow gaps and push your high score higher.",
+    "tips": [
+      "Use short, steady taps instead of rapid clicking, since each tap gives your ship a boost and too many can carry it into the next obstacle.",
+      "Watch the gap ahead rather than your ship, and start tapping early enough to line up with the opening before you reach it.",
+      "Expect the pace to rise as your score climbs, so take a moment to settle into a rhythm before the obstacles get tighter.",
+      "If you enjoy quick timing and endless dodging, you might also like these [[running-games|endless running challenges]] for more reflex practice."
+    ],
+    "faq": [
+      [
+        "How do I boost my ship?",
+        "On a computer, click the mouse; on a touch screen, tap the screen. Each tap lifts your ship up."
+      ],
+      [
+        "What should I avoid while playing?",
+        "Avoid colliding with the neon obstacles and try to fly through the narrow gaps between them."
+      ]
+    ]
+  },
+  "abyss-sweeper": {
+    "intro": "Abyss Sweeper is a Minesweeper-style puzzle where you pilot a drilling craft through an endless grid of rock and volatile energy. You dig safe tiles for clues, and you harvest mines to keep your fuel topped up.",
+    "tips": [
+      "Dig tiles near the numbers you already trust first, since each revealed clue narrows down where the mines can be.",
+      "Your fuel drains constantly, so do not wait too long to act. Harvesting a mine you have identified is the only way to refuel.",
+      "Mark a mine only when the numbers around it clearly point to it, because harvesting a wrong guess wastes time you can't spare.",
+      "Keep an eye on your hull as you go, and treat each dig as a risk you can afford only when your clues are solid.",
+      "Players who enjoy working out hidden positions from clues may also like these [[brain-games|brain games]] for similar logic practice."
+    ],
+    "faq": [
+      [
+        "How do I refuel my craft?",
+        "Identify a mine's location and harvest it, using a long press or the harvest button, to regain fuel."
+      ],
+      [
+        "What does digging do?",
+        "Tapping clears a safe tile and reveals a numerical clue that tells you how many mines are nearby."
+      ]
+    ]
+  },
+  "2048-premium": {
+    "intro": "2048 Premium is a sliding number puzzle where you merge matching tiles to reach the 2048 tile. It offers 4x4, 5x5, and 6x6 grids, so you can start small and work up.",
+    "tips": [
+      "Start on the standard 4x4 grid to learn how tiles merge before moving to the larger 5x5 or 6x6 boards.",
+      "Keep your highest tile in one corner and build the other tiles in a line along one edge, so the board stays organized.",
+      "Plan each move a step ahead. Before you swipe or press an arrow key, check which tiles will line up after the slide.",
+      "When you get stuck, use the Undo button below the board to step back and try a different route instead of forcing a bad move. If you enjoy this style of thinking, you can find [[brain-games|more brain training games]] to practice on.",
+      "Play in short sessions when you want quick practice, or take longer runs when you want to plan several moves in a row."
+    ],
+    "faq": [
+      [
+        "How do I win 2048 Premium?",
+        "Merge tiles with the same number until you create the 2048 tile. The game also lets you keep going beyond it."
+      ],
+      [
+        "How do I move the tiles on desktop and mobile?",
+        "On desktop, press the Arrow Keys to slide the tiles. On mobile, swipe across the screen in the direction you want the tiles to move."
+      ]
+    ]
+  },
+  "star-runner-cosmic-escape": {
+    "intro": "Star Runner: Cosmic Escape is a space arcade runner where you steer a ship through a glowing starfield. Collect golden stars to finish each level, dodge asteroids, and try to beat the boss asteroid.",
+    "tips": [
+      "Keep your ship moving side to side early on so you can spot asteroids well before they reach you.",
+      "Save your Shield for crowded stretches of asteroids, and use Magnet when golden stars are spread out and hard to reach.",
+      "Focus on collecting golden stars first, since completing each level depends on them, and grab high-scoring items when the path is clear.",
+      "Before the boss asteroid appears, practice steering with the mouse or touch controls until you can react quickly without overcorrecting.",
+      "If you enjoy dodging through star fields, you can find more titles in our [[space-games|space game picks]]."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Star Runner: Cosmic Escape?",
+        "Collect golden stars to complete each level while dodging dangerous asteroids. You also face a massive boss asteroid and can chase high scores."
+      ],
+      [
+        "How do I steer the ship?",
+        "You can move with the mouse or touch, or use the A and D keys or the arrow keys. The instructions also list the M key as a control."
+      ]
+    ]
+  },
+  "3d-mini-curling": {
+    "intro": "3D Mini Curling is a winter sports game where you aim, set your power, and release the stone to outscore your opponent. It is played with a simple click or tap.",
+    "tips": [
+      "Settle your aim before you touch the power setting, so you are not trying to correct two things at once.",
+      "Try a few gentle shots first to get a feel for how much power the stone needs across the ice.",
+      "Before each release, think about where you want the stone to finish, not just where it starts, since the goal is to outscore your opponent.",
+      "If you enjoy cold-weather sports, you can find [[winter-and-snow-games|more winter and snow games]] to try next."
+    ],
+    "faq": [
+      [
+        "How do I win a round of 3D Mini Curling?",
+        "You win by outscoring your opponent. The game is built for one or two players."
+      ],
+      [
+        "What do I do on each turn?",
+        "Aim your shot, adjust your power, and then release the stone. Each of these steps uses a mouse click or tap."
+      ]
+    ]
+  },
+  "sliding-puzzle": {
+    "intro": "Sliding Puzzle is a modern take on the classic 15-puzzle. Slide numbered tiles into the empty space to put them in order, across 3x3, 4x4, and 5x5 grids.",
+    "tips": [
+      "Start on the 3x3 grid to learn how the empty space moves before you try the larger boards.",
+      "Solve one row or column at a time, starting from the edges, so tiles you have placed stay put.",
+      "Plan a few moves ahead before sliding, since moving one tile can push another out of place.",
+      "If you enjoy logic problems like this, you can find more [[brain-games|brain teasers to try]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I move a tile?",
+        "On desktop, click a tile that sits next to the empty space. On mobile, tap or swipe the tile into the empty space."
+      ],
+      [
+        "What does Watch & Solve do?",
+        "Watch & Solve unlocks a smart AI assistant that solves the puzzle for you when you are stuck on a hard level."
+      ]
+    ]
+  },
+  "fruit-sort-logic": {
+    "intro": "Fruit Sort Logic is a relaxing puzzle where you move colorful fruit juices between shelves. Match three identical juices to clear a shelf, and clear every shelf to finish the level.",
+    "tips": [
+      "Before each move, check where the matching juices are sitting. Moving one juice to join its match often sets up a clear faster than moving something at random.",
+      "Space is limited, so try to keep at least one shelf with room for shuffling. A nearly empty shelf gives you more options when the others fill up.",
+      "Avoid spreading one color across many shelves. Gathering a single kind of juice in fewer places makes it easier to reach three in a row.",
+      "Look for shelves that are almost clear and finish those first. Freeing a shelf creates room to work on the trickier ones. If you enjoy this style of play, you can also try more [[sorting-games|similar sorting challenges]] to build the same habit."
+    ],
+    "faq": [
+      [
+        "How do I clear a shelf?",
+        "Move juices between shelves until three identical juices are stacked together on one shelf. That shelf is then cleared."
+      ],
+      [
+        "What should I do when the shelves start to fill up?",
+        "Slow down and plan the next few moves before acting. Since space is limited, a careless move can block the juices you need later."
+      ]
+    ]
+  },
+  "word-cooking-puzzle": {
+    "intro": "Word Cooking Puzzle mixes word connect and word search puzzles with a cooking theme. Solve the puzzles to serve dishes in a busy kitchen, and use the hint system when you get stuck.",
+    "tips": [
+      "Scan for common word endings and prefixes first, since they often reveal several words at once in word puzzles.",
+      "Take a short break when you feel stuck, then return with fresh eyes, as a pause often makes a missed word easier to spot.",
+      "Use the hint system early on a tricky puzzle instead of guessing at random, so you keep your progress moving.",
+      "Play in short sessions, since the game works well as a stress reliever and you can stop at any point without losing focus. If you enjoy word brain teasers, you can also find [[word-games|more word puzzles]] to try next."
+    ],
+    "faq": [
+      [
+        "What is the goal of Word Cooking Puzzle?",
+        "You use your word puzzle and vocabulary skills to solve puzzles so you can serve tasty dishes in the kitchen."
+      ],
+      [
+        "What should I do if a puzzle is too hard?",
+        "Use the hint system to get help when you run into trouble, then continue solving the rest of the puzzle yourself."
+      ]
+    ]
+  },
+  "prison-escape-puzzle-master": {
+    "intro": "Prison Escape Puzzle Master is a 3D strategy puzzle where you plan a route out of prison. You draw your path with the mouse, then watch your player follow it while avoiding guards' searchlights, laser beams, and hurdles.",
+    "tips": [
+      "Before you draw anything, look around the cell and hidden corners to see where the searchlights, laser beams, and hurdles sit. A route that looks short may cross several dangers.",
+      "Collect the valuable tools you find along the way, since the game's description says they help you outsmart the guard. Plan your path so it passes by useful items.",
+      "Draw slowly and check the whole line before you release the mouse button. Small changes in the path can keep you clear of a beam or searchlight.",
+      "Think about each step as a decision, because the game says every move brings you closer to freedom or to failure. Choose the safest route first, even if it is a bit longer.",
+      "If you like planning routes like this, you can also try more [[escape-room-games|escape room challenges]] for similar thinking."
+    ],
+    "faq": [
+      [
+        "How do I start my character moving?",
+        "Hold the left mouse button and drag to draw your path first. Then tap the player to start moving along the track you drew."
+      ],
+      [
+        "What should I avoid during the escape?",
+        "Keep clear of searchlights, laser beams, and hurdles. The game says these can stop your escape if you get too close."
+      ]
+    ]
+  },
+  "farm-house-crash-match-game": {
+    "intro": "Farm House Crash & Match is a puzzle adventure where you swap and match fruits and veggies to finish levels. Help friendly animals rebuild their farm one board at a time.",
+    "tips": [
+      "Before each swap, scan the whole board for moves that create a line of matching fruits or veggies, since a single good swap can clear several pieces at once.",
+      "Work on one area of the board at a time so you do not lose track of which pieces you have already lined up.",
+      "Save your boosters for levels that feel stuck, rather than using them on easy boards where you can finish the puzzle yourself.",
+      "If you enjoy swapping tiles to make matches, more [[match-3-games|tile matching puzzles to try]] share the same core skill of spotting combinations quickly.",
+      "Take a short break when a level feels too hard, then return and look at the board again with fresh eyes."
+    ],
+    "faq": [
+      [
+        "How do I swap pieces?",
+        "Use a mouse click or tap to select a piece and swap it with a neighbouring piece to form a match."
+      ],
+      [
+        "What should I focus on in harder levels?",
+        "Look for swaps that line up several matches at once and use your boosters when the board has no easy moves left."
+      ]
+    ]
+  },
+  "escape-maze-rush": {
+    "intro": "Escape Maze Rush is a fast puzzle-action game where you guide a brave bunny through tricky mazes. Collect the fruit, grab the key, and reach the glowing portal to clear each of the 20 stages.",
+    "tips": [
+      "Scan the whole maze before you move so you can spot the spikes, enemies, and hidden surprises ahead of time.",
+      "Plan a route that picks up every fruit before you go for the key, so you don't have to backtrack through a dangerous area.",
+      "Deal with enemies when you can reach them safely, and avoid walking into spikes while you are trying to change direction quickly.",
+      "Before heading for the portal, check that you have the key and all the fruit, so you don't have to return across the maze.",
+      "If you want more simple, cheerful adventures to try after this, you can explore [[kids-games|games made for younger players]]."
+    ],
+    "faq": [
+      [
+        "What is the main goal in each level?",
+        "Collect all the fruits, grab the key, defeat enemies, and reach the glowing portal to escape the maze."
+      ],
+      [
+        "How do I move the bunny on desktop?",
+        "Use the arrow keys to move the bunny up, down, left, or right through the maze."
+      ]
+    ]
+  },
+  "boss-office-life-simulator": {
+    "intro": "Boss Office Life Simulator puts you in charge of a single office for your first day as the boss. You handle requests, manage staff, and try to save your father's failing company.",
+    "tips": [
+      "Think about your management style before you start, because the description says your approach decides how successful the company becomes. Strict control and a relaxed office lead to different outcomes.",
+      "Use the left mouse click carefully when handling requests, since each click either accepts or refuses one. Read each request before you decide.",
+      "Throw papers at sleeping colleagues when they stop working, since that is the game's way to wake them up. Keep an eye on who is dozing off.",
+      "Try the different levels and actions, such as hiring, firing, and investigating, to see how each one affects the company. Compare what happens when you act strictly versus when you let staff slack off.",
+      "If you enjoy running a business and watching it grow, you might also like [[idle-and-tycoon-games|business management games]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I accept or refuse requests?",
+        "Use a left mouse click to accept or refuse each request that comes to your desk."
+      ],
+      [
+        "How do I wake up my employees?",
+        "Throw papers at your colleagues, which is the game's way to wake them up."
+      ]
+    ]
+  },
+  "winter-battle": {
+    "intro": "Winter Battle is a two-player snow fight between Santa Claus and the Grinch. Catch falling gift boxes, avoid the dangerous ones, and finish with the highest score before time runs out.",
+    "tips": [
+      "Watch each box as it falls and decide early whether to catch it, since the dangerous ones cost you size and points.",
+      "Keep track of the clock so you can make bigger moves in the final stretch when the score matters most.",
+      "Use the push key on your opponent when they are blocking a box you want, but only when the timing lets you reach the box first.",
+      "If you are playing alone, focus on steady, safe catches rather than chasing every box, because a wrong box can undo your progress.",
+      "If you enjoy head-to-head games like this, you can find more with [[2-player-games|games for two players]]."
+    ],
+    "faq": [
+      [
+        "How do I win Winter Battle?",
+        "The player with the highest score at the end of the time wins the round. Collect safe gift boxes and avoid the dangerous ones to build your score."
+      ],
+      [
+        "What happens if I collect the wrong gift box?",
+        "Your size shrinks, which is a setback in the battle. Try to recognize the dangerous boxes as they fall so you can steer clear of them."
+      ]
+    ]
+  },
+  "whot-the-ultimate-nigerian-card-game": {
+    "intro": "WHOT is a classic African card game where you match cards by shape or number to empty your hand first. You can play solo against the computer or challenge friends in real time.",
+    "tips": [
+      "Before each move, check both the shape and the number of the top card, since either one can be matched. A card that matches both is often the safest choice.",
+      "Save your WHOT cards for moments when no normal card fits. They can be played at any time and let you choose any shape, so they are useful for getting out of a tight spot.",
+      "If you cannot play, draw one card and check it right away. If the drawn card works, play it; otherwise, skip your turn without delay.",
+      "Keep an eye on how many cards your opponents are holding compared to yours. Since the goal is to play all your cards first, a steady plan to shed cards matters more than holding onto one good card.",
+      "If you enjoy matching games like this, you can explore more options in [[card-games|other classic card games]]."
+    ],
+    "faq": [
+      [
+        "How do I win a round of WHOT?",
+        "You win by being the first player to play all the cards from your hand. Each player starts with 6 cards."
+      ],
+      [
+        "What should I do if I have no playable card?",
+        "Draw one card from the pile. If the drawn card can be played, you may play it; if not, click SKIP TURN."
+      ]
+    ]
+  },
+  "maze-escape-challenge": {
+    "intro": "Maze Escape Challenge is a fast-paced labyrinth game where you race to reach the exit. Each level brings a new maze, and some add Dark Mode with limited visibility.",
+    "tips": [
+      "Look at the whole maze before you move, and plan a rough route to the exit so you do not waste time on dead ends.",
+      "In Dark Mode, only the small light around your player is visible, so move steadily and remember the walls you have already passed.",
+      "Stars depend on how fast you finish, so replay a maze you have already solved to shave off time and earn a third star.",
+      "You need a set number of stars to unlock higher levels, so do not rush the early mazes just to move on; clean runs help you collect stars faster.",
+      "If you like working out routes through tricky layouts, try [[puzzle-games|more puzzle games]] for similar challenges."
+    ],
+    "faq": [
+      [
+        "How do I move my player?",
+        "On PC, use the W, A, S and D keys or the arrow keys. On touch screens, touch and drag to move the player."
+      ],
+      [
+        "How are stars earned?",
+        "Stars are awarded for finishing a maze quickly, with 1 to 3 stars possible. The faster you reach the exit, the more stars you receive."
+      ]
+    ]
+  },
+  "hunter-and-survivor": {
+    "intro": "Hunter and Survivor is a hide-and-seek chase game where you play either the Hunter, who tracks and catches Survivors, or a Survivor, who gathers keys to escape. Move with WASD or the arrow keys, and attack with J.",
+    "tips": [
+      "As a Survivor, watch the Hunter's position before you move to collect a key, so you do not run into a chase you cannot escape.",
+      "As the Hunter, keep track of how many Survivors are still free and where the keys are, since every second counts toward their escape.",
+      "Use short, controlled movement with WASD or the arrow keys instead of holding one direction, which makes it easier to change course when a chase gets tense.",
+      "Plan your hiding spots ahead of time rather than choosing them in a panic, because the Hunter often catches players who stay in the open too long. If you enjoy fast, pressure-filled chases, you can explore more [[running-games|fast running games]] for similar pacing."
+    ],
+    "faq": [
+      [
+        "How do I win as the Hunter?",
+        "You win by tracking down and catching all the Survivors before they collect enough keys on the map."
+      ],
+      [
+        "How do I win as a Survivor?",
+        "You need to gather all the keys to open a safe escape route while avoiding being caught by the Hunter."
+      ]
+    ]
+  },
+  "overlook-tank-war": {
+    "intro": "Overlook Tank War is a top-down tank shooter where your tank fires automatically while you steer it through waves of enemies. Your goal is to clear the enemy forces and be the last tank standing.",
+    "tips": [
+      "Since your tank shoots on its own, spend your attention on movement and where you stand rather than on aiming.",
+      "Use the battlefield terrain as cover, and keep an eye on the layout before you commit to a route across the arena.",
+      "Avoid staying in one open spot for long; keep moving so enemies have a harder time lining up shots on you.",
+      "Try to draw enemies into positions where your tank can hit them while they are still moving toward you.",
+      "If you enjoy planning tank battles, try more [[tank-and-war-games|tank battle games]] to see how different arenas reward careful positioning."
+    ],
+    "faq": [
+      [
+        "How do I move my tank?",
+        "Use the W, A, S and D keys on your keyboard to drive the tank around the arena."
+      ],
+      [
+        "Do I need to aim or press a button to shoot?",
+        "No. Your tank fires automatically, so you can focus on movement and tactics instead."
+      ]
+    ]
+  },
+  "the-horde": {
+    "intro": "The Horde is a 2D action survival shooter where you hold back endless waves of enemies. Move around, build defenses, upgrade your weapons, and keep going as long as you can.",
+    "tips": [
+      "Since your weapon fires automatically, focus on positioning and movement rather than clicking to shoot.",
+      "Use the build editor early to place defenses that slow enemies down before they reach you.",
+      "Spend upgrades on the weapon that handles your current threat best instead of spreading them out evenly.",
+      "Keep moving so enemies do not crowd you from one side, and keep an escape route open at all times.",
+      "If you enjoy shooting games you can play with others, check out [[multiplayer-games|more games to play with friends]]."
+    ],
+    "faq": [
+      [
+        "What is the main goal in The Horde?",
+        "Your goal is to survive as long as possible while defending against endless hordes of enemies."
+      ],
+      [
+        "Do I have to aim and click to shoot?",
+        "No, shooting is automatic, so you can concentrate on moving and placing your defenses."
+      ]
+    ]
+  },
+  "hidden-horrors": {
+    "intro": "Hidden Horrors is a Halloween hidden object puzzle with 30 levels. Each level asks you to find 6 hidden objects before the timer runs out, with hints available when you get stuck.",
+    "tips": [
+      "Scan the whole scene first and note the shapes that look out of place before you start clicking around.",
+      "Keep an eye on the clock and move on to a different area if you have searched one spot for too long.",
+      "Save your hints for the objects you have looked at several times without spotting them, rather than using one at the start of a level.",
+      "Use a mouse or touchpad steadily so you can check edges and dark corners of each scene carefully.",
+      "If you enjoy searching busy scenes like this, you can find more options in [[hidden-object-games|hidden object games to explore]]."
+    ],
+    "faq": [
+      [
+        "How do I complete a level?",
+        "Find all 6 hidden objects in the scene before time runs out. Each level has its own set of objects to locate."
+      ],
+      [
+        "How many levels are in the game?",
+        "The game has 30 Halloween levels, and each one contains 6 hidden objects to find."
+      ]
+    ]
+  },
+  "firedash-2d": {
+    "intro": "FireDash 2D is a fast survival game where you dodge rising flames and keep moving to stay alive. Quick reactions and well-timed dashes help you last as long as possible.",
+    "tips": [
+      "Keep your eyes moving and check the flames before you commit to a direction, since the rising fire leaves less room to recover from a late move.",
+      "Use the left and right arrow keys for small adjustments and save your bigger dashes for when you clearly see a safe gap.",
+      "Time your dashes rather than dashing constantly, because each dash should carry you toward open space instead of into a new hazard.",
+      "Practice short runs to learn the rhythm of the flames, then try to stretch your survival time a little more each round. If you enjoy fast tapping challenges, you can also explore [[clicker-games|more quick-click games]] on the site."
+    ],
+    "faq": [
+      [
+        "What is the goal of FireDash 2D?",
+        "The goal is to dodge the rising flames and survive for as long as you can."
+      ],
+      [
+        "How do I control my character?",
+        "Use the left and right arrow keys to move, and click or tap to play and dash."
+      ]
+    ]
+  },
+  "maths-quiz-with-negative-numbers": {
+    "intro": "A fast knockout maths quiz where you add and subtract positive and negative numbers under a short timer. One wrong answer ends the game, so accuracy matters as much as speed.",
+    "tips": [
+      "Before calculating, decide the sign of the answer: when two signs are the same the numbers combine, and when they differ you subtract and keep the sign of the larger number.",
+      "Use a number line in your head to check results, moving right for adding and left for subtracting, so you can catch a sign mistake quickly.",
+      "Since each question has a 12-second limit, avoid spending long on one question; read the numbers once, decide, and move on.",
+      "Build your streak slowly at first. A single wrong answer ends the game, so a steady, accurate pace usually beats rushing early on.",
+      "If you enjoy quick reasoning drills, try [[brain-games|more quick thinking games]] to practise focus between quiz sessions."
+    ],
+    "faq": [
+      [
+        "What happens if I get a question wrong?",
+        "The game ends straight away, so your score is based on how many correct answers you gave before that mistake. Try to beat your previous best score on each run."
+      ],
+      [
+        "How much time do I have for each question?",
+        "Each question has a 12-second timer. If you run out of time, the question counts as unsolved and the game ends."
+      ]
+    ]
+  },
+  "tricky-square-roots": {
+    "intro": "Tricky Square Roots is a colorful number puzzle that asks you to connect, match, and identify square roots of numbers from 1 to 10. It works as a light way to practice math while you play.",
+    "tips": [
+      "Learn the square roots of the perfect squares 1, 4, 9, 16, 25, 36, 49, 64, 81 and 100 first, since they make up the core of this puzzle.",
+      "Scan the whole board before each move so you spot matching tiles you can line up in threes.",
+      "Say each square root out loud as you make a match, which helps the answer stick for the next round.",
+      "If you get stuck on a tricky pairing, step back and check the simpler matches first, then come back to the harder one with fresh eyes. If you enjoy number challenges, you can also try [[sudoku-and-number-puzzles|other number puzzle games]] for more practice."
+    ],
+    "faq": [
+      [
+        "What is the goal of Tricky Square Roots?",
+        "The goal is to connect and match square roots on the bright tiles, which means identifying the square roots of numbers from 1 to 10. The game follows a match-3 format."
+      ],
+      [
+        "How can I get better at this game?",
+        "Practice the square roots of numbers from 1 to 10 until they come to mind quickly. Taking your time to scan the board before each move also helps you spot good matches."
+      ]
+    ]
+  },
+  "image-crossword-new": {
+    "intro": "Image Crossword is a word puzzle where pictures turn into letters. Each level shows a series of images, and you spell out the correct words by working out what they stand for.",
+    "tips": [
+      "Study the whole series of images before you click anything, so you can guess the word they might spell together.",
+      "Think about the theme of the level, such as animals, jungle, or football, since the images often share a topic that narrows down the answer.",
+      "If you get stuck on one word, move on and come back to it, because a letter from another word may give you the clue you need.",
+      "Take your time with each image, since the puzzle depends on spotting what each picture turns into rather than rushing through.",
+      "If you enjoy this style of puzzle, you can find more challenges in [[word-games|more word puzzles to try]]."
+    ],
+    "faq": [
+      [
+        "What is the goal of Image Crossword?",
+        "The goal is to decipher the images in each level and spell out the correct words they represent."
+      ],
+      [
+        "How do I play Image Crossword?",
+        "You play with mouse clicks or taps. Click or tap to choose and enter your answers as you work through each level."
+      ]
+    ]
+  },
+  "add-to-half": {
+    "intro": "Add to Half is a fast fraction puzzle where you tap two tiles that add up to exactly one-half before the timer runs out. Each round mixes several fraction tiles on screen, so quick recognition matters.",
+    "tips": [
+      "Convert every tile to a common denominator in your head, such as 2/4, 3/6, or 4/8 for one-half, so you can spot matching pairs faster.",
+      "Start by looking for easy pairs like two 1/4 tiles, then move on to trickier combinations as the fractions get harder.",
+      "Scan for tiles that are already close to one-half, since a small partner fraction will often complete the pair.",
+      "Keep your eyes moving across the whole screen, because tiles float or flip into new positions and you need to catch the right pair before it moves.",
+      "If you enjoy quick number challenges like this, try [[sudoku-and-number-puzzles|more number puzzles like sudoku]] to keep your mental math sharp."
+    ],
+    "faq": [
+      [
+        "How do I know which two fractions to pick?",
+        "Add the two fractions in your head and check whether the total is exactly one-half. Only tap a pair when you are sure it matches."
+      ],
+      [
+        "Does the game get harder as I play?",
+        "Yes, the description says the fractions become more challenging as you progress, moving from simple ones to trickier combinations."
+      ]
+    ]
+  },
+  "nostalgic-playstation1-quiz": {
+    "intro": "Nostalgic Playstation1 Quiz is a one-player puzzle game about PS1 games, characters, and soundtracks. You name the game from images, logos, or trivia clues, using only the mouse.",
+    "tips": [
+      "Look at the logo or artwork first, since logo clues often point to a specific series before you think about the details.",
+      "When a trivia clue mentions a character or soundtrack, think about which franchise that character belongs to, then narrow down the games from that series.",
+      "Don't rush through a question you're unsure about. Take a moment to recall the era's other titles from the same publisher or genre, which can help you eliminate options.",
+      "Since the quiz has hundreds of questions, play in short sessions and note which kinds of clues you miss most, then focus on those games.",
+      "If you enjoy testing your memory, try some [[brain-games|brain teasers for memory]] after a round to keep your mind sharp."
+    ],
+    "faq": [
+      [
+        "What kinds of clues will I see in the questions?",
+        "Questions ask you to guess the game from images, logos, or trivia clues about classic PS1 titles."
+      ],
+      [
+        "Do I need a keyboard to play?",
+        "No. The game is controlled with the mouse only."
+      ]
+    ]
+  },
+  "ghoul-fusion": {
+    "intro": "Ghoul Fusion is a Halloween merge puzzle where pumpkins and other spooky objects fall from the sky. Drag them into place, combine matching pairs, and grow them into bigger icons for a higher score.",
+    "tips": [
+      "Look for matching pairs before you drop anything, since merging two identical objects is the only way to evolve them into larger icons.",
+      "Plan where each falling object lands so that it sits next to its twin, which keeps the board open for the next merge.",
+      "Chain combos when you can, because a merge that sets off another merge is a strong way to build your score.",
+      "Start a new merge chain in an open area of the screen so that your larger icons do not block the falling objects. If you enjoy this kind of puzzle, the [[merge-games|more merge puzzles]] on the site follow similar ideas.",
+      "Use the pause option whenever you need a break, so you can come back with a clearer view of the board."
+    ],
+    "faq": [
+      [
+        "How do I make bigger objects?",
+        "Drag one object onto another identical object to merge them into a larger, more powerful Halloween icon."
+      ],
+      [
+        "How do I get a higher score?",
+        "Chain combos and build large mega-merges, since bigger merges are worth more points."
+      ]
+    ]
+  },
+  "my-happy-farm-land-simulator": {
+    "intro": "My Happy Farm Land Simulator is a 3D farming adventure where you run your own farm, balance resources, and make choices about land, crops, and equipment. You move with the keyboard and click buttons with the mouse.",
+    "tips": [
+      "Decide early whether you want to grow your farm or your crops first, then stick to that plan for a while so your choices build on each other.",
+      "Before you spend money on new land or equipment, check what your current setup is already producing so you know whether an upgrade will actually help.",
+      "Take a short walk around your farm with the movement keys between actions to check what needs attention, rather than clicking blindly and waiting.",
+      "If you enjoy planning ahead and balancing income against spending, you may also like [[idle-and-tycoon-games|browsing more business management games]] for similar decision-making.",
+      "Keep a rough mental note of which choices paid off, since the game rewards timing and smart decisions more than quick clicking."
+    ],
+    "faq": [
+      [
+        "How do I move around my farm?",
+        "Use W, A, S, and D or the arrow keys to move forward, left, back, and right. Movement is in 3D, so you can explore the farm from different sides."
+      ],
+      [
+        "What is the mouse used for?",
+        "Use the mouse to click any button in the game, such as the ones for managing your farm, crops, or equipment."
+      ]
+    ]
+  },
+  "bts-cute-kitty-coloring": {
+    "intro": "BTS Cute Kitty Coloring is a relaxed coloring game where you color adorable kitties with bright colors and unique designs. You play with the mouse and can experiment with shades and styles to make your own artwork.",
+    "tips": [
+      "Pick a small set of colors you like before you start, so the kitty looks coordinated instead of random.",
+      "Try a light shade and a dark shade of the same color on different parts of the kitty to give it depth.",
+      "Experiment with a few different styles on separate kitties, so you can compare what works best for you.",
+      "Take your time and work in small sections, which keeps the coloring neat and easier to finish. If you enjoy drawing more broadly, you can also explore [[coloring-and-drawing-games|other coloring and drawing games]] for new ideas.",
+      "Think of the kitty as a finished piece, and decide on a theme such as warm colors or pastels before you begin."
+    ],
+    "faq": [
+      [
+        "What is the goal of BTS Cute Kitty Coloring?",
+        "The goal is to color adorable kitties and create your own masterpiece. The game is open-ended, so you decide how your artwork looks."
+      ],
+      [
+        "How do you control the coloring in this game?",
+        "The game is played with the mouse. Use it to pick colors and apply them to the kitty."
+      ]
+    ]
+  },
+  "wordly": {
+    "intro": "Wordly is a word puzzle where you tap letters in the correct order to form the target word. Each level gets harder, and you need to think before every tap.",
+    "tips": [
+      "Think before you tap, since each correct answer earns 15 coins but each mistake costs 15.",
+      "You only have five attempts per level, so after a wrong try, look again at the letters before you tap another combination.",
+      "Save the Hint for when you are truly stuck, because it reveals the first letter of the hidden word.",
+      "Use Shuffle when you keep returning to the same arrangement, since a new layout can help you spot the word.",
+      "As words become harder in later levels, try [[word-games|more word games]] to keep your vocabulary sharp."
+    ],
+    "faq": [
+      [
+        "How do I complete a level?",
+        "Tap the letters in the correct order to form the target word. Each level gets a new, slightly harder word."
+      ],
+      [
+        "What happens if I make too many mistakes?",
+        "You have five attempts per level. If you use all five without forming the word, the game is over."
+      ]
+    ]
+  },
+  "draw-with-pencils-coloring-book": {
+    "intro": "Draw with Pencils - Coloring Book! is a relaxed creativity game where you can color ready-made outlines or start from a blank white canvas. A large pencil palette gives you plenty of colors to work with.",
+    "tips": [
+      "Start with a ready-made outline if you want to get comfortable with the pencils before tackling a blank canvas.",
+      "Pick a color, draw a small area, then choose a new shade nearby so your picture gains depth instead of looking flat.",
+      "Plan your color order before you begin, such as light tones first and darker accents last, so you can keep the picture tidy.",
+      "If you enjoy this, you can explore [[coloring-and-drawing-games|more coloring and drawing games]] when you want fresh pictures to fill."
+    ],
+    "faq": [
+      [
+        "How do I start drawing?",
+        "Choose a mode, click a pencil in the palette, then hold the left mouse button and move the cursor across the canvas."
+      ],
+      [
+        "Can I color a picture that already has lines?",
+        "Yes, choose a ready-made picture as your mode and color inside its outlines with any pencil from the palette."
+      ]
+    ]
+  },
+  "build-a-burger": {
+    "intro": "Build a Burger is a runner where you move forward, collect the ingredients listed in a recipe, and grow your burger. Stay alert, because obstacles can knock you off your path.",
+    "tips": [
+      "Check the recipe before each run so you know which ingredient you need next. Keeping that order in mind helps you grab the right items without hesitating.",
+      "Look a little ahead of your burger rather than only at the ingredient directly in front of it. Planning your moves early makes it easier to switch lanes in time.",
+      "Stay focused on the ingredients you still need and avoid chasing extras that do not match the recipe. Missing a single required item can slow your progress.",
+      "Try different recipes when you have time to spare, since each new dish unlocks its own opportunities and bonuses. Experimenting is a good way to discover what works best for you. If you enjoy fast-paced forward movement, you might also like [[running-games|more endless runner games]].",
+      "Make small, gentle movements when steering, whether you swipe on a phone or move the mouse on a computer. Quick, controlled motions help you dodge obstacles without overcorrecting."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Build a Burger?",
+        "Your goal is to run forward, collect the ingredients from the recipe, and upgrade your burger to a bigger size. Each new dish you make unlocks new bonuses."
+      ],
+      [
+        "How do I move my burger on a computer?",
+        "Move the mouse sideways to shift the burger, or use the A and D keys or the left and right arrow keys."
+      ]
+    ]
+  },
+  "lol-presidential-face": {
+    "intro": "LOL Presidential Face is a lighthearted face-editing puzzle where you mix, stretch, and swap presidential features. Everything is played with the mouse, so you can focus on building silly combinations.",
+    "tips": [
+      "Try one feature at a time, such as stretching the nose or swapping the eyes, so you can see exactly how each change affects the overall look.",
+      "Pick a serious or dignified starting face first, then add goofy accessories, since the contrast often produces the funniest results.",
+      "Stretch features gently before going to extremes, because small distortions can look ridiculous while very large ones may just look messy.",
+      "If you enjoy reshaping faces like this, a [[coloring-and-drawing-games|collection of drawing games]] offers more creative ways to play.",
+      "Save your favorite creations and share them with friends, since the game is built around getting a good laugh from the results."
+    ],
+    "faq": [
+      [
+        "How do I change a president's features?",
+        "Use the mouse to drag and distort the face, and swap features between presidents to create new combinations."
+      ],
+      [
+        "Can I add accessories to my creation?",
+        "Yes, you can add goofy accessories to any face you are working on."
+      ]
+    ]
+  },
+  "the-maze": {
+    "intro": "THE MAZE is a fast-paced retro chase game in a glowing neon maze. You need to collect three Stars and reach the green Exit Portal while avoiding the hunters that chase you.",
+    "tips": [
+      "Collect the small pink energy nodes as you go, since gathering all of them raises your score.",
+      "Plan your route before you move so you can find the three Stars and the Exit Portal without doubling back into hunters.",
+      "Watch where the hunters are before every sharp turn, because a corner is where a chase usually goes wrong.",
+      "Treat each level as a route puzzle: pick a path that gets you to the Stars and then the Exit Portal in one go.",
+      "Do not chase the nodes so greedily that you get caught; staying alive keeps your chance to finish the level."
+    ],
+    "faq": [
+      [
+        "What is the main goal in each level?",
+        "Collect all three Stars in the maze, then reach the green Exit Portal before the hunters catch you."
+      ],
+      [
+        "How do I raise my score?",
+        "Collect all the small pink energy nodes spread through the maze, since the rules say this maximizes your score."
+      ]
+    ]
+  },
+  "road-fighter-endless-car-racing": {
+    "intro": "Road Fighter is a fast three-lane racer where you dodge traffic and oil spills while the speed climbs. Collect points to level up and push your way up the leaderboard.",
+    "tips": [
+      "Look ahead for gaps in traffic and plan your lane change early, since the road gets faster as you level up.",
+      "Use the brake when every lane ahead looks crowded, so you have room to choose a safe path rather than swerving at the last moment.",
+      "Treat oil spills as lane blockers: shift to a clear lane well before you reach them instead of trying to react at the last second.",
+      "Accelerate when the road ahead is open to build points quickly, and ease off when a dense cluster of cars is coming up.",
+      "If you like steering through heavy traffic, you may also enjoy these [[car-games|more driving picks]] for similar quick reactions."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Road Fighter?",
+        "Survive as long as you can by dodging cars and oil spills while collecting points. Your score is shown in real time and feeds into the leaderboard."
+      ],
+      [
+        "How do I move my car on desktop?",
+        "Use the left and right arrow keys or A and D to switch lanes. Press the up arrow or W to accelerate and the down arrow or S to brake."
+      ]
+    ]
+  },
+  "om-nom-run-03": {
+    "intro": "Om Nom Run is an endless runner where you guide Om Nom through colorful levels, jumping obstacles and collecting candies. Run as far as you can and try to beat your high score.",
+    "tips": [
+      "Watch the obstacles early and start your jump before they reach Om Nom, since the game gets faster the farther you run.",
+      "Grab candies when it is safe to do so, because they add bonus points to your score.",
+      "Keep your timing steady rather than tapping rapidly, so you do not jump at the wrong moment.",
+      "Your first few runs are a good time to learn the rhythm of the obstacles before you aim for a higher score.",
+      "If you enjoy timing jumps like this, you can find more [[running-games|running games to try next]]."
+    ],
+    "faq": [
+      [
+        "How do I control Om Nom?",
+        "Use one button: click or tap to make Om Nom jump over obstacles. The controls are simple, so most of the challenge is in timing."
+      ],
+      [
+        "How do I earn points?",
+        "Running farther adds to your score, and collecting candies gives you bonus points. Try to beat your high score on each run."
+      ]
+    ]
+  },
+  "forest-glade-mysteries": {
+    "intro": "Forest Glade Mysteries is a match-3 puzzle set in a magical forest full of animals. Each level brings new challenges and a little more of the forest's ancient secrets.",
+    "tips": [
+      "Look at the whole board before each move and check for matches that set up another match, since chains can clear more tiles.",
+      "Keep an eye on the new challenges each level introduces, and adjust your approach when a level plays differently from the last.",
+      "Save the nature powers for the toughest levels, where they are meant to help most.",
+      "Take a steady pace rather than rushing, since each step brings you closer to the forest's mysteries. If you like this style, you can find more [[match-3-games|three-in-a-row puzzle games]] on the site."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Forest Glade Mysteries?",
+        "You progress through levels by solving puzzles while uncovering the mysteries of the forest. Each level introduces new animals and challenges."
+      ],
+      [
+        "Do the magical powers of nature make levels easier?",
+        "Yes, the game describes these powers as a way to help you tackle even the toughest levels. Use them when a level feels stuck."
+      ]
+    ]
+  },
+  "quiz-education": {
+    "intro": "Quiz Education is a clicker-style learning game where you answer quizzes across many subjects. You play with mouse clicks or taps, and your progress and achievements are tracked as you go.",
+    "tips": [
+      "Pick a subject you already find interesting for your first session, so the quizzes feel like a break rather than homework.",
+      "Track your progress regularly and notice which topics you answer slowly or get wrong, then return to those until they feel easier.",
+      "Keep sessions short and focused on one subject at a time, which makes it easier to remember what you learned.",
+      "If you enjoy quizzes that make you think, try a wider selection of [[puzzle-games|brain puzzle games]] to keep your mind working between study sessions.",
+      "Use the achievements as small goals, aiming to unlock a new one each time you finish a set of quizzes."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Quiz Education?",
+        "The goal is to learn new topics by answering quizzes across many subjects. Your progress and achievements are tracked as you play."
+      ],
+      [
+        "How do I control the game?",
+        "You play using mouse clicks or taps. Click or tap to choose answers and move through the quizzes."
+      ]
+    ]
+  },
+  "alien-clicker-invaders": {
+    "intro": "Alien Clicker Invaders is a fast reflex game where you click or tap to defend Earth against endless waves of aliens and large bosses. You can play alone or team up with a friend on a mobile device.",
+    "tips": [
+      "Keep your clicking steady rather than frantic, since waves keep coming and you need to stay accurate as well as quick.",
+      "Spend upgrades on attack strength early, because each new wave gets harder and your damage output decides how fast you clear enemies.",
+      "Save power-ups for the colossal bosses, where a burst of extra strength can matter more than using them on regular invaders.",
+      "If you are playing with a friend on mobile, agree on who handles which threats so you are not both chasing the same alien. If you enjoy co-op play, you can find more options in [[2-player-games|two player games]].",
+      "Watch how each wave ends before deciding on your next upgrade, and adjust your build to the enemy type that is causing the most damage."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Alien Clicker Invaders?",
+        "Your goal is to defend Earth by surviving each new wave of alien invaders and the bosses that appear among them."
+      ],
+      [
+        "What controls do I use?",
+        "You play with mouse clicks on a computer or taps on a mobile device."
+      ]
+    ]
+  },
+  "pop-the-bubbles-relaxing": {
+    "intro": "Pop the Bubbles: Relaxing is a calm puzzle game where you find groups of same-colored bubbles and pop them. It is built for unwinding, with soothing music and endless levels.",
+    "tips": [
+      "Scan the whole board before you press anything and look for the largest group of one color, since popping more bubbles at once earns more points.",
+      "Press once to select a group and press a second time to pop it, so check the group is the one you want before the second press.",
+      "Take your time, because there is no need to rush; the game is designed to be played at a relaxed pace.",
+      "If you enjoy matching colors to clear space, you might also like these [[match-3-games|match 3 puzzle games]] for a similar calm challenge."
+    ],
+    "faq": [
+      [
+        "How do I pop a group of bubbles?",
+        "Find a group of bubbles that share the same color, press once, then press a second time to pop them."
+      ],
+      [
+        "How can I earn more points?",
+        "The more bubbles you pop at one time, the more points you get, so aim for bigger groups."
+      ]
+    ]
+  },
+  "doroppuboru-13": {
+    "intro": "Doroppuboru 13 is a falling-object puzzle game where you position balls and blocks to keep the screen from filling up. It uses simple arrow-key controls and gets faster and harder as you go.",
+    "tips": [
+      "Watch the next falling object and plan where it will land before it reaches the stack, since the game rewards thinking ahead.",
+      "Use the Down Arrow for a quick drop only when a column is clearly safe, because speeding up a piece in the wrong spot can fill the screen faster.",
+      "Rotate or flip objects with the Up Arrow before they settle, so they fit into gaps rather than leaving holes above them.",
+      "Try to organize pieces into clean patterns instead of scattering them, which makes clearing easier once the speed picks up. If you enjoy quick reactions, you can also explore more [[basketball-games|basketball games]] for similar fast-paced play."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Doroppuboru 13?",
+        "Your goal is to stop the screen from filling up with falling objects by clearing them or arranging them in specific patterns."
+      ],
+      [
+        "How do I speed up a falling piece?",
+        "Press the Down Arrow to accelerate the falling object, which works as a quick drop."
+      ]
+    ]
+  },
+  "mind-gambit": {
+    "intro": "Mind Gambit is a Peg Solitaire style puzzle where you jump pegs over one another to remove them. Your goal is to leave just one peg on the board, and there is no timer to hurry you.",
+    "tips": [
+      "Before each jump, look ahead at which pegs can still move, since a single careless jump can leave a peg with no valid partner.",
+      "Try to plan the last few moves first, then work backward to see which earlier jumps lead to a finish with one peg left.",
+      "Pay attention to pegs that are sitting alone with no neighbors to jump over, because they often end up as the leftover peg you cannot remove.",
+      "If a line of play looks stuck, step back and test a different order of jumps rather than pushing ahead with the same plan.",
+      "If you like planning several moves ahead, you can find more [[brain-games|brain training challenges]] to keep practicing this kind of thinking."
+    ],
+    "faq": [
+      [
+        "How do I win Mind Gambit?",
+        "You win by removing pegs with jumps until only one peg remains on the board."
+      ],
+      [
+        "How do I make a move?",
+        "Click on a peg, then click on a valid spot to jump over another peg and remove it. You can use a mouse or touchpad."
+      ]
+    ]
+  },
+  "tec-tak-toe-pro": {
+    "intro": "Tec Tak Toe Pro is a solo tic tac toe game where you play X against a computer opponent. You place your marks on a colourful board and can watch rewarded ads for help during a match.",
+    "tips": [
+      "Always check whether the AI has two marks in a line before you make your own move, and block the third spot if it does.",
+      "Try to claim the centre cell early, since it sits in more winning lines than any other space.",
+      "Save the rewarded ad for a moment when the AI has set up a strong move, because removing its last move can turn a losing position around.",
+      "Look for spots where you can create two winning lines at once, so the AI cannot block both threats in one turn.",
+      "If you enjoy planning moves on a grid, [[sudoku-and-number-puzzles|number puzzle games]] use similar careful thinking ahead."
+    ],
+    "faq": [
+      [
+        "What is the goal of Tec Tak Toe Pro?",
+        "The goal is to outsmart the computer and get three of your X marks in a row before it does."
+      ],
+      [
+        "How do I place my symbol on the board?",
+        "Tap or click an empty cell to place your X in it."
+      ]
+    ]
+  },
+  "word-maze": {
+    "intro": "Word Maze is a word puzzle where you trace paths through a grid of letters to form words and clear each level. Levels get harder as you go, so it rewards careful scanning and steady thinking.",
+    "tips": [
+      "Scan the whole grid for short common endings and beginnings, such as -ing, -ed, or re-, before tracing longer paths.",
+      "Trace a possible word slowly and check each letter before you commit, so you don't waste time on a dead end.",
+      "Keep a rough count of how many hidden words the level seems to contain, and note which ones you have not found yet.",
+      "Save hints for words that have stalled you for a while, since using them early can take away the challenge of working out the pattern yourself. If you enjoy this style of puzzle, you can explore more [[word-games|word puzzles to try next]].",
+      "Take a short break when you get stuck, then come back to the grid, as a fresh look often reveals a word you missed."
+    ],
+    "faq": [
+      [
+        "What is the goal of Word Maze?",
+        "Your goal is to connect letters in the maze to form valid words and find all the hidden words to solve each puzzle and unlock the next level."
+      ],
+      [
+        "How do I select letters?",
+        "Swipe through the letter maze to connect letters, or use a mouse click or tap on the letters in sequence to build a word."
+      ]
+    ]
+  },
+  "blue-koala-jigsaw-puzzles": {
+    "intro": "Blue Koala Jigsaw Puzzles is a relaxing puzzle game with cute, colorful images and Stitch as your guide. You put together dozens of beautiful pictures, one piece at a time.",
+    "tips": [
+      "Start by sorting pieces by color or by the edge shapes, so you can find matches faster.",
+      "Build the border first, then work inward, so you always know where each piece belongs.",
+      "Keep your pieces in one area of the screen as you work, so you don't lose track of the ones you haven't placed yet.",
+      "Look at the full picture often to see which section a piece belongs to, especially when the colors look similar. If you want more piece-fitting challenges, try [[jigsaw-puzzles|other jigsaw puzzle games]] after you finish these."
+    ],
+    "faq": [
+      [
+        "How do I move a puzzle piece?",
+        "Click on a piece and drag it to where you want it to go. Release it to place it on the board."
+      ],
+      [
+        "Who guides you through the puzzles?",
+        "Stitch, the mischievous blue koala-like alien, guides you through the puzzle images."
+      ]
+    ]
+  },
+  "wordix": {
+    "intro": "Wordix is a logic word game where you guess a hidden word within a limited number of attempts. Colored hints show how close each guess is, so every try teaches you something.",
+    "tips": [
+      "Use your first few guesses to test common letters and vowels, since each guess that reveals more letters makes the rest of the puzzle easier to solve.",
+      "Treat gray letters as a clear signal: once a letter is marked gray, drop it from your next guesses so your attempts are not wasted.",
+      "When a letter turns yellow, keep it in your next guess but move it to a different position, which quickly narrows down where it belongs.",
+      "Before pressing Enter, check that your guess is a real word that fits every green, yellow, and gray hint you already have.",
+      "If you enjoy building your vocabulary this way, [[word-games|more word puzzles to try]] can give you extra practice between rounds."
+    ],
+    "faq": [
+      [
+        "How do I submit a guess in Wordix?",
+        "Type your word using the keyboard or tap the virtual keys, then press Enter to submit it. Use Backspace to erase a letter you typed by mistake."
+      ],
+      [
+        "What do the green, yellow, and gray colors mean?",
+        "Green means the letter is correct and in the right position, yellow means it is in the word but in the wrong position, and gray means the letter is not in the word at all."
+      ]
+    ]
+  },
+  "animal-cards-memory": {
+    "intro": "Animal Cards Memory is a memory training game with seven levels that get harder as you progress. It is played with a mouse on a computer or a finger on a touch device.",
+    "tips": [
+      "Start at level one and move up only when you can handle the current level comfortably, so each step builds on the last.",
+      "Take a moment to notice where each animal appears before you select the next card, instead of clicking quickly at random.",
+      "Try to remember the position of pairs you have already seen, since the later levels get harder and rely on that recall.",
+      "Play in short sessions with breaks, which can help you stay focused and keep your memory sharp from one round to the next.",
+      "Once you feel comfortable, try other [[card-games|card games for memory]] to keep practicing the same skill with different challenges."
+    ],
+    "faq": [
+      [
+        "How do I play Animal Cards Memory?",
+        "Use your mouse on a computer or your finger on a touch device to select the cards. The goal is to use your memory to match the animal cards."
+      ],
+      [
+        "How does the difficulty change?",
+        "The game has seven levels, and each one becomes more difficult than the level before it. Higher levels ask more of your memory."
+      ]
+    ]
+  },
+  "logic-islands": {
+    "intro": "Logic Islands is a logic puzzle where you shape islands to match their exact numbers while keeping the walls connected. Six worlds and 240 puzzles add new rules as you go.",
+    "tips": [
+      "Start with the cells next to the largest numbers, since their island size limits where the walls can go. Mark what you are sure of before guessing.",
+      "Use the fill action (double-click or Ctrl-click on PC, double-tap on mobile) to claim connected areas quickly once you know they belong to one island.",
+      "Check that your walls still link together after every few moves. A wall that gets cut off usually means an earlier placement needs to change.",
+      "Press Z to undo a wrong move instead of erasing many cells by hand, and use R to restart a puzzle that has gone too far off track. If you enjoy this kind of reasoning, [[puzzle-games|more logic puzzles]] are worth exploring next."
+    ],
+    "faq": [
+      [
+        "How do I know a puzzle is solved?",
+        "Your islands must match every number exactly and all the wall cells must stay connected. Once both conditions hold, the puzzle is complete."
+      ],
+      [
+        "What do the draw modes do?",
+        "Scroll the mouse wheel or press Space on PC to switch between draw modes. Each mode changes what a click places, so check the active mode before marking cells."
+      ]
+    ]
+  },
+  "meteor-escape": {
+    "intro": "Meteor Escape is a one-player action game where you dodge falling meteors and grab coins while staying alive. Keep moving, stay alert, and try to survive as long as you can.",
+    "tips": [
+      "Stay toward the middle of the screen when you can, so you have room to dodge in either direction.",
+      "Avoid standing still for long. Short, steady moves usually keep you out of the path of falling meteors better than sudden dashes.",
+      "Only chase a coin when the path to it is clear. Grabbing one coin is not worth getting hit by a meteor.",
+      "Watch the gaps between meteors and plan your next move a step ahead instead of reacting at the last second.",
+      "When you want a slower challenge after a few runs, try some [[escape-room-games|escape room puzzles]] for a change of pace."
+    ],
+    "faq": [
+      [
+        "What is the goal of Meteor Escape?",
+        "Dodge the meteors falling from the sky, survive as long as you can, and collect coins along the way."
+      ],
+      [
+        "How do I move on a PC?",
+        "Press A or the left arrow to move left, and D or the right arrow to move right."
+      ]
+    ]
+  },
+  "data-breach": {
+    "intro": "Data Breach is a one-player arcade jumping game where you play a computer virus. Your job is to dodge the scanners the antivirus sends your way.",
+    "tips": [
+      "Use one input only. Pressing Space Bar or left clicking both make you jump, so pick whichever feels more comfortable and stick with it to keep your timing consistent.",
+      "Watch the scanners as they approach rather than reacting at the last moment. Starting your jump a little early gives you more room to clear them.",
+      "Keep your hand resting near the jump key or mouse button. Quick, ready reactions matter more than big movements in a game built around jumping.",
+      "Take short breaks between attempts. Staying relaxed helps you judge the jumps more accurately, which is easy to lose when you rush back in after a mistake.",
+      "Practice the rhythm of the scanners in your first few runs. Noticing how they come in often makes the later part of the game easier to read."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Data Breach?",
+        "You play as a computer virus and must avoid every scanner the antivirus throws at you. Jumping over them is how you stay in the game."
+      ],
+      [
+        "How do I jump?",
+        "Press the Space Bar or left click your mouse. Either input makes your virus jump."
+      ]
+    ]
+  },
+  "survival-shooter-game": {
+    "intro": "Survival Shooter is a top-down arena game where you fight off waves of enemies that grow stronger and faster. Your goal is to last as long as you can while collecting power-ups and upgrades.",
+    "tips": [
+      "Pick up power-ups whenever it is safe to do so, since they help you stay alive as the waves get harder.",
+      "Spend upgrades on what fits your play style, and keep an eye on which weapons work best against the enemies you face most.",
+      "Keep moving rather than standing still, because enemies become more aggressive and crowding can end a run quickly.",
+      "Watch the early waves closely to learn how enemies approach, so you can plan your position before the arena fills up.",
+      "If you enjoy fast arena fights, you can explore more titles in our [[shooting-games|collection of shooting games]]."
+    ],
+    "faq": [
+      [
+        "How do I control my character?",
+        "Use mouse clicks or taps to play, and rely on the responsive twin-stick style controls to move and aim during fights."
+      ],
+      [
+        "How is success measured in this game?",
+        "Your result depends on how long you survive against the endless waves, and you can compare your run on the leaderboard."
+      ]
+    ]
+  },
+  "hidden-pairs-mahjong": {
+    "intro": "Hidden Pairs Mahjong is a solitaire puzzle where you clear the board by matching identical open tiles. Careful observation helps you find pairs while you try to beat the clock.",
+    "tips": [
+      "Scan the whole board for identical open tiles before you tap anything, so you can plan which pairs to clear first.",
+      "Keep an eye on the clock and look for bonus time as you go, since finishing faster helps your score.",
+      "If you are stuck, use the hint button rather than tapping at random, which can waste time.",
+      "Work through the board in a steady pattern, such as one side at a time, so you do not overlook a matching pair. If you enjoy this style, try more [[mahjong|classic tile-matching boards]] to sharpen your scanning."
+    ],
+    "faq": [
+      [
+        "What is the goal of Hidden Pairs Mahjong?",
+        "Your goal is to match and clear all the tiles on the board by selecting identical open tiles. Each level presents a new layout to solve."
+      ],
+      [
+        "How do I remove tiles from the board?",
+        "Tap two identical open tiles to remove them as a pair. Keep doing this until the board is clear."
+      ]
+    ]
+  },
+  "my-memory-boost": {
+    "intro": "My Memory Boost is a card-matching game where you flip cards, remember where each number sits, and match pairs before time runs out. It has several difficulty levels to suit different skill levels.",
+    "tips": [
+      "Remember where each number appears as soon as you see it, because a card you flipped earlier may be the partner of the one you just revealed.",
+      "Focus on speed, since the faster you make each match, the higher your score will be.",
+      "Start with an easier difficulty level to learn how the cards are laid out, then move up once you can match pairs consistently.",
+      "Try to build a mental map of the board row by row, which makes it easier to recall positions when time is short.",
+      "If you enjoy stretching your memory, you can also explore [[brain-games|other brain training games]] for more practice."
+    ],
+    "faq": [
+      [
+        "How do I get a higher score in My Memory Boost?",
+        "The faster you match pairs, the higher your score, so aim to remember card positions and make matches quickly."
+      ],
+      [
+        "What do I need to do to play?",
+        "Tap a card to flip it, then tap another card to find the matching number. Keep going until you have matched all the pairs before time runs out."
+      ]
+    ]
+  },
+  "falcon-dogfight": {
+    "intro": "Falcon Dogfight is a jet combat shooter that mixes realistic fighter handling with fast, arcade-style air battles. You can fly top-tier jets and win fights both up close and from far away.",
+    "tips": [
+      "Learn the pitch, yaw, and roll controls in a calm stretch of sky before you start a fight, so you can turn and climb without thinking.",
+      "Use radar lock early in a fight to track enemies beyond visual range, then switch to close maneuvering only when they get near.",
+      "Watch your speed during dogfights, since a fast, tight turn can leave you open to an enemy's tail bite or let them slip behind you.",
+      "Try different jets such as the F-22 Raptor, Su-27, and Su-33 to find the handling style that suits how you like to fight. If you enjoy flying these machines, you can explore more [[airplane-games|flight combat titles]] for similar handling."
+    ],
+    "faq": [
+      [
+        "How do I win a fight in Falcon Dogfight?",
+        "Win by getting an enemy into your sights or by using radar lock to strike from far away. The game also lets you win from dozens of kilometers out, so long-range play is a real option."
+      ],
+      [
+        "What is the difference between pitch, yaw, and roll on desktop?",
+        "Pitch uses W and S to nose up or down, yaw uses A and D to turn left or right, and roll uses Q and E to tilt the jet. On mobile, you steer with the joystick and fire with the weapon button."
+      ]
+    ]
+  },
+  "human-vehicle-run": {
+    "intro": "Human Vehicle Run is a parkour adventure where you gather stickmen into a growing crowd. The more people you collect, the stronger your vehicle becomes, up to a helicopter.",
+    "tips": [
+      "Collect stickmen whenever you safely can, since your crowd is what powers up your vehicle. A bigger group means a stronger transformation.",
+      "Keep track of how many people you have at each stage, so you know when your vehicle is about to change into something more powerful.",
+      "Use single clicks or taps with steady timing rather than rapid tapping, so you respond to the course instead of reacting too late. If you enjoy [[parkour-and-obby-games|more parkour challenges]], the same timing habits will help there too.",
+      "Watch the path ahead and plan your next move early, especially when the course gets tricky, so you are not caught off guard.",
+      "Play a few short runs to learn how your crowd and vehicle change, then go for longer runs once you know what to expect."
+    ],
+    "faq": [
+      [
+        "How do I control the game?",
+        "You play with mouse clicks or taps. There are no other controls mentioned in the instructions."
+      ],
+      [
+        "What makes my vehicle more powerful?",
+        "Collecting more stickmen grows your crowd. The more people you have, the more powerful your vehicle becomes, until it turns into a helicopter."
+      ]
+    ]
+  },
+  "dark-spirit-run": {
+    "intro": "Dark Spirit Run is a fast-paced dodging game where you control a lone ninja sprinting through a cursed, endless night. Stay alive by reacting quickly to traps, blades, and ghostly spirits.",
+    "tips": [
+      "Use the arrow keys with small, early adjustments rather than sudden large moves, which leave less room to recover from the next hazard.",
+      "Scan ahead for flaming hazards, spinning blades, and spirits, and decide your route before they reach your ninja.",
+      "Stay calm when the pace picks up; panicked inputs are a common reason a run ends after one wrong move.",
+      "Short practice runs help you learn how quickly each type of threat appears, which builds the reflexes you need to go farther. If you enjoy fast obstacle-dodging, you can find more [[parkour-and-obby-games|similar running and obstacle challenges]] to sharpen those skills."
+    ],
+    "faq": [
+      [
+        "What do I use to control the ninja?",
+        "You control the ninja with the arrow keys. Use them to dodge flaming hazards, spinning blades, and ghostly spirits as you run."
+      ],
+      [
+        "What ends a run?",
+        "Any single wrong move ends the run, so one collision with a trap or threat is enough to lose. Focus on staying clear of every hazard."
+      ]
+    ]
+  },
+  "slice-and-solve": {
+    "intro": "Slice & Solve is a fraction puzzle game where you cut objects into equal parts and solve fraction-based puzzles to move through levels. It suits players learning fractions as well as those who want to sharpen their math skills.",
+    "tips": [
+      "Before each cut, check that the parts you are making are truly equal, since the puzzles are built around equal slices.",
+      "Read the puzzle carefully and note what the fraction is asking for, such as the number of parts or how many parts to keep.",
+      "Because difficulty increases, take time to get comfortable with each type of fraction before rushing ahead.",
+      "If a puzzle feels stuck, try drawing the fraction on paper to see how the equal parts relate to the whole.",
+      "If you enjoy number challenges like this, you can find more options in [[sudoku-and-number-puzzles|number puzzles to try]]."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Slice & Solve?",
+        "Your goal is to slice objects into equal parts and solve fraction-based puzzles so you can progress through the levels."
+      ],
+      [
+        "Do the puzzles get harder as you play?",
+        "Yes, the game has increasing difficulty and more clever challenges as you move forward."
+      ]
+    ]
+  },
+  "lava-chase": {
+    "intro": "Lava Chase is a fast browser runner where you fly ahead of a giant molten fireball. Click to fly, shoot enemies, dodge obstacles, and stay out of the lava's reach.",
+    "tips": [
+      "Click in short, steady bursts rather than holding a constant rhythm, so you can react to obstacles that appear suddenly ahead of you.",
+      "Keep your eyes on the path in front of you and avoid looking back, since the lava keeps advancing and checking it wastes reaction time.",
+      "Spend your shots on enemies that are directly in your way, so you keep your aim steady for the threats that could slow you down.",
+      "Grab power-ups when they are safe to reach, but don't push into danger to collect them if the lava is closing in.",
+      "If you like games where movement and momentum drive the challenge, try these [[physics-games|physics-based games to explore]] next."
+    ],
+    "faq": [
+      [
+        "How do I control my character?",
+        "You control your character by clicking to fly. Each click lifts you so you can move through the level."
+      ],
+      [
+        "What should I watch out for while playing?",
+        "Watch for enemies you need to blast, obstacles you must dodge, and the molten fireball rolling right behind you."
+      ]
+    ]
+  },
+  "surprise-birthday-party": {
+    "intro": "Surprise Birthday Party is a casual collection of birthday mini-games. You can cook a cake, dress up, wrap gifts, and arrange a party feast. Everything is played with mouse clicks or taps.",
+    "tips": [
+      "Take each mini-game one at a time and finish it before moving on, so you don't lose track of which party task you are doing.",
+      "Watch what each activity asks for before you click, since the cake, outfits, gifts and feast all reward careful choices rather than speed.",
+      "Keep your clicks slow and deliberate when wrapping gifts or setting up the feast, so small placement mistakes don't pile up.",
+      "If you enjoy getting ready for a celebration, you can explore more styling ideas in our [[dress-up-games|dress up games collection]]."
+    ],
+    "faq": [
+      [
+        "What do I do in Surprise Birthday Party?",
+        "You take part in several birthday mini-games, including cooking a cake, dressing up, wrapping gifts, and arranging a birthday party feast."
+      ],
+      [
+        "How do I control the game?",
+        "You play by clicking the mouse or tapping the screen."
+      ]
+    ]
+  },
+  "lowercase-loops": {
+    "intro": "Lowercase Loops is a browser game for practicing lowercase letters. You trace guided letter paths with your mouse to build handwriting control and letter recognition.",
+    "tips": [
+      "Slow down and keep your movements smooth, since the letter shapes reward steady, precise tracing more than speed.",
+      "Keep your hand loose and move from your arm rather than just your wrist, which helps your curves stay even.",
+      "Pay attention to where each stroke starts and ends, so you build the same letter direction every time you repeat it.",
+      "Repeat the same letter several times before moving on, because that is how the shape becomes muscle memory. If you like brain-focused practice, the [[brain-games|more games for mental focus]] collection has similar challenges."
+    ],
+    "faq": [
+      [
+        "How do I control the drawing?",
+        "Move your mouse over the layout to trace the letter. There is no other control to learn."
+      ],
+      [
+        "Do I have to follow the guided path exactly?",
+        "Yes, the game is built around tracing the guided path, so staying close to it is the main goal. Try to keep your line smooth along the whole shape."
+      ]
+    ]
+  },
+  "squidgame-multiplayer": {
+    "intro": "SquidGame Multiplayer is an action survival game where you compete against 30 rivals in 7-minute minigames. Fail a challenge and you are eliminated, so careful play and quick adjustments matter.",
+    "tips": [
+      "Learn the controls first: use WASD to move and Space to jump, and practice both until they feel automatic so you are not thinking about inputs during a challenge.",
+      "Watch the other players for a few seconds before committing to a route. Their movement often shows where the danger is.",
+      "Adapt quickly when a challenge changes. Staying flexible helps you avoid mistakes that lead to elimination.",
+      "Plan your moves ahead rather than reacting at the last second. If you enjoy timing jumps and movement, you might also like [[parkour-and-obby-games|jump-timing challenge games]] for sharpening those skills."
+    ],
+    "faq": [
+      [
+        "What are the basic controls?",
+        "Use WASD to move and the Space bar to jump."
+      ],
+      [
+        "What happens if I fail a challenge?",
+        "You are eliminated by the Pink Soldiers and are out of the game."
+      ]
+    ]
+  },
+  "pale-pursuit": {
+    "intro": "Pale Pursuit is a fast arcade chase where you run ahead of ghostly figures and leap over spirits and traps. Your only control is clicking to jump, so timing decides everything.",
+    "tips": [
+      "Look ahead to spot the next trap or spirit before it reaches you, and start planning your jump early.",
+      "Click to jump at the right moment rather than tapping constantly, since a jump at the wrong time can be as dangerous as no jump at all.",
+      "Stay calm when the pace speeds up. Keeping a steady rhythm in your head helps you time clicks more accurately.",
+      "Use short practice runs to learn how the traps are spaced, then aim to keep that same timing in longer attempts. If you want more games with this kind of spooky chase, try [[ghost-games|more ghost-themed chase games]]."
+    ],
+    "faq": [
+      [
+        "What is the goal of Pale Pursuit?",
+        "Your goal is to stay alive as long as you can while outrunning the pale shadows that chase you. The game is a survival chase, so the longer you last, the better."
+      ],
+      [
+        "How do I control the character?",
+        "You control the jump by clicking. Every obstacle must be cleared with a well-timed click."
+      ]
+    ]
+  },
+  "dots-master": {
+    "intro": "Dots Master is a color-matching puzzle where you connect dots to clear them within a limited number of moves. Each level sets its own goal across five chapters of challenges.",
+    "tips": [
+      "Before you drag, look for squares and loops that can take in several dots of the same color at once, since one move can clear them all.",
+      "Check the level goal first, whether it asks for colored dots, stars, loops, or tiles, and plan your moves around that target rather than clearing randomly.",
+      "Keep an eye on your remaining moves, because every connection counts against the limit. Choose moves that clear more than one dot when you can.",
+      "Save power-ups like bombs, extra moves, shuffle, and auto-loop for levels where you get stuck, instead of using them on easy early moves.",
+      "If you like puzzles that sharpen focus, you can find more options in [[brain-games|brain training puzzles]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I clear dots in Dots Master?",
+        "Tap and drag to connect matching dots either vertically or horizontally. Forming a square or loop clears all dots of that color in a single move."
+      ],
+      [
+        "What is the goal of each level?",
+        "Each level has its own goal, such as clearing a set number of colored dots, popping stars, making loops, or conquering the tiles. You must reach it within the move limit."
+      ]
+    ]
+  },
+  "fuja-das-cobras": {
+    "intro": "Fuja das Cobras is a fast reflex arcade game where you guide a hero away from snakes. Tap or click to move left or right, and see how long you can survive the endless challenge.",
+    "tips": [
+      "Keep your attention on the snakes closest to the hero, since those are the ones that will reach you first.",
+      "Use small, quick taps to adjust position instead of making big moves, so you stay ready for the next snake.",
+      "Stay relaxed and avoid panic-tapping, because steady timing usually keeps you alive longer than rushing.",
+      "Play in short sessions when you want to improve, and focus on beating your own best score each time. If you enjoy escape-style pressure, you can also explore more [[escape-room-games|puzzle escape challenges]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I move the hero?",
+        "Tap or click anywhere on the screen to move the character left or right. The same controls work with a mouse, keyboard, or touch screen."
+      ],
+      [
+        "What happens when an ad appears during play?",
+        "The game pauses automatically during ads. Tap again to resume once the ad has ended."
+      ]
+    ]
+  },
+  "deep-sea-catch-fun": {
+    "intro": "Deep Sea Catch Fun has a cat diving into the ocean to hook fish. Aim carefully, then tap again when a fish leaps out to secure your catch.",
+    "tips": [
+      "Aim carefully before you drop the anchor, since the hook only gets a fish if you line it up well.",
+      "Keep your eyes on the water after a hook lands, because the fish will jump and you need to be ready to tap again.",
+      "Practice the rhythm of the catch: a quick reaction to the leap matters more than rushing the first tap.",
+      "If you enjoy timing-focused catching, [[fishing-games|more fishing titles to try]] offer similar reflex-based action."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Deep Sea Catch Fun?",
+        "Your goal is to help the cat reel in fish from the deep waters, aiming for the biggest catch you can get."
+      ],
+      [
+        "What do I need to do after hooking a fish?",
+        "Once the fish leaps out of the water, you must tap it again to secure your catch. If you miss this second tap, the fish is not caught."
+      ]
+    ]
+  },
+  "stickman-skate-city": {
+    "intro": "Stickman Skate City is an arcade skateboarding game where you guide a nimble stickman through a large city. Explore freely, clear obstacles, and pull off stunts like 360-degree spins.",
+    "tips": [
+      "Explore the open city for a while before attempting big stunts, so you learn where obstacles and good launch spots are.",
+      "Practice the high-difficulty tricks in quiet areas first, then try them near obstacles once your timing feels consistent.",
+      "Treat each obstacle as a chance to set up a trick rather than only something to avoid.",
+      "Since the controls are one click or tap, focus on timing your inputs carefully instead of rushing them. If you enjoy this style of play, you can browse [[stickman-games|more stick figure games]] for similar challenges."
+    ],
+    "faq": [
+      [
+        "How do I control the stickman?",
+        "You play with a mouse click or a tap. The instructions do not list any other controls, so experiment with when you click to see how your stickman responds."
+      ],
+      [
+        "What makes the stunts difficult?",
+        "The game features 360-degree spins and other high-difficulty stunts. Landing these takes practice and good timing."
+      ]
+    ]
+  },
+  "world-flag-quiz": {
+    "intro": "World Flag Quiz is a quick game where you see a country name and click the matching flag from four options. It is a single mode that tests your knowledge of world flags one country at a time.",
+    "tips": [
+      "Start by ruling out flags with colors that clearly do not belong to the country in the prompt. Narrowing four options to two makes the final choice much easier.",
+      "The wrong options are picked to look similar, so check small details like stripes, emblems, and the placement of shapes instead of relying only on overall color.",
+      "Because the rounds move quickly, try to answer with your first confident recognition rather than second-guessing every choice. Save slower thinking for countries whose flags look alike.",
+      "Pay attention to which flags you miss, and look at those again later to build a stronger memory of them. [[brain-games|Memory-based puzzle games]] can help you practice the same kind of recall."
+    ],
+    "faq": [
+      [
+        "How do I answer a question?",
+        "Read the country name shown and click the one flag you think is correct from the four choices. Only one option is right."
+      ],
+      [
+        "What makes the game harder?",
+        "The three incorrect flags are chosen to test attention to detail, so flags that share colors or layouts with the right answer can be tricky."
+      ]
+    ]
+  },
+  "kingdom-puzzles": {
+    "intro": "Kingdom Puzzles is a logic game played on a grid of colored regions. Place one king in each region so that no two kings share a row, column, or touch each other.",
+    "tips": [
+      "Check each region's shape first. A region that fits within one row or one column tells you exactly where that row or column's king must go.",
+      "After every king you place, mentally cross out its row, its column, and the eight tiles around it. This keeps you from making a placement that breaks the touching rule.",
+      "Each wrong king costs points, so only place a king when you are confident it is the only valid spot in its region. Solving the easy regions first leaves fewer options for the harder ones.",
+      "If you get stuck, look for a row or column where only one region still has open tiles. That region's king is forced into a specific spot and can narrow the rest of the grid. If you enjoy this kind of reasoning, you can explore [[puzzle-games|more logic puzzle games]] on the site."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Kingdom Puzzles?",
+        "Place exactly one king in each colored region so that no two kings share a row or column and no two kings are next to each other. You win the level once every king is placed correctly."
+      ],
+      [
+        "What happens if I place a king in the wrong spot?",
+        "Your points go down with each wrong placement. If your points reach zero, you can skip the level with a 0 score or watch a short ad to retry it."
+      ]
+    ]
+  },
+  "the-merchant": {
+    "intro": "The Merchant is a pixel-style trading game set in desert ports. You build your fortune through trade, governor quests, and ship upgrades, and every choice shapes your path.",
+    "tips": [
+      "Compare prices across the ports you visit before you buy, since you make money by buying where goods are cheap and selling where they are worth more.",
+      "Keep a cash reserve instead of spending everything on one big trade, so a single bad deal cannot leave you bankrupt.",
+      "Take governor quests that fit your planned route, since finishing them supports your goal of upgrading your ship.",
+      "Save for ship upgrades early, because a better ship gives you more room to expand your trading.",
+      "If you enjoy running a business in a game, try [[simulator-games|management and trading sims]] for more games with similar economic decisions."
+    ],
+    "faq": [
+      [
+        "What is the main goal in The Merchant?",
+        "The game asks you to seek fortune and fame through trading and quests, and to upgrade your ship along the way. Your choices decide which path you take."
+      ],
+      [
+        "How do I control the game?",
+        "You play by clicking or tapping on the screen. There are no other controls listed in the instructions."
+      ]
+    ]
   }
 }
