@@ -530,8 +530,14 @@ ${cfg.adsenseClient && !cfg.ownConsent ? '' : `<div class="consent" hidden data-
 // NEW ribbon for 7 days after a game first appeared on the site
 const isNew = g => !g.own && NEW_SET.has(g.slug);
 // the partner image servers can resize for us: a card is about 170px wide, so 320 is plenty
-const small = u => String(u || '').replace(/([?&])width=\d+/, '$1width=320').replace(/([?&])w=\d+/, '$1w=320');
-const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.video ? ' has-video' : ''}${g.community ? ' fit' : ''}${g.mobile ? '' : ' dm'}"${g.video ? ` data-video="${esc(g.video)}"` : ''} href="${gHref(g)}"${g.community ? ` style="--t:url('${esc(g.thumb)}')"` : ''}><img src="${esc(small(g.thumb))}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${voteCount(g) >= 5 ? `<b class="rate-pill">👍 ${votePct(g)}%</b>` : ''}${g.own ? '<b class="badge">Our game</b>' : isHot(g) ? '<b class="badge hot">🔥 HOT</b>' : isTopRated(g) ? '<b class="badge top">👍 TOP RATED</b>' : isNew(g) ? '<b class="badge new">NEW</b>' : ''}</a>`;
+// our own covers also ship a 400px-wide "-s" copy; use it wherever the image is shown small or blurred
+const SMALL_SET = new Set();
+for (const d of ['community', 'our']) {
+  try { for (const f of fs.readdirSync(path.join(ROOT, 'static/assets', d))) if (f.endsWith('-s.jpg')) SMALL_SET.add(`/assets/${d}/${f}`); } catch { }
+}
+const small = u => String(u || '').replace(/([?&])width=\d+/, '$1width=320').replace(/([?&])w=\d+/, '$1w=320')
+  .replace(/\/assets\/(community|our)\/([^/?]+)\.jpg/, (m, d, n) => SMALL_SET.has(`/assets/${d}/${n}-s.jpg`) ? `/assets/${d}/${n}-s.jpg` : m);
+const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.video ? ' has-video' : ''}${g.community ? ' fit' : ''}${g.mobile ? '' : ' dm'}"${g.video ? ` data-video="${esc(g.video)}"` : ''} href="${gHref(g)}"${g.community ? ` style="--t:url('${esc(small(g.thumb))}')"` : ''}><img src="${esc(small(g.thumb))}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${voteCount(g) >= 5 ? `<b class="rate-pill">👍 ${votePct(g)}%</b>` : ''}${g.own ? '<b class="badge">Our game</b>' : isHot(g) ? '<b class="badge hot">🔥 HOT</b>' : isTopRated(g) ? '<b class="badge top">👍 TOP RATED</b>' : isNew(g) ? '<b class="badge new">NEW</b>' : ''}</a>`;
 const grid = (list, eager = false) => list.length ? `<section class="row"><div class="grid">${list.map((g, i) => card(g, eager && i < 4)).join('')}</div></section>` : '';
 const row = (title, href, list, eager = false) => list.length ? `<section class="row"><div class="row-h"><h2>${esc(title)}</h2>${href ? `<a href="${href}">See all ›</a>` : ''}</div><div class="grid">${list.map((g, i) => card(g, eager && i < 4)).join('')}</div></section>` : '';
 // homepage category showcase: a colourful tile (name, count, 3 real covers fanned out) + the 5 most played games of that category + "more"
@@ -645,7 +651,7 @@ function emitContent() {
       .sort((a, b) => (b.firstSeen || '').localeCompare(a.firstSeen || '')).slice(0, 5);
     const bnNews = newsItems.length ? banner('bn-news', u('/new/'), tr('News & Updates'), tr('The latest games added to the site'), newsItems) : '';
     const news = newsItems.length ? `${bnNews}<section class="row news">
-    ${newsItems.map(g => `<article class="news-item"><a class="news-thumb" href="${gHref(g)}" style="--t:url('${esc(g.thumb)}')"><img src="${esc(g.thumb)}" alt="${esc(g.title)}" loading="lazy"></a>
+    ${newsItems.map(g => `<article class="news-item"><a class="news-thumb" href="${gHref(g)}" style="--t:url('${esc(small(g.thumb))}')"><img src="${esc(small(g.thumb))}" alt="${esc(g.title)}" loading="lazy"></a>
       <div class="news-text"><p class="news-h">${isNew(g) ? `<b class="news-tag">${esc(tr('NEW'))}</b>` : ''} <strong>${g.community ? esc(tr('New indie game')) : esc(tr('New game'))}: ${esc(g.title)}</strong></p>
       <p class="news-date">${esc(dfmt(g.firstSeen))}${g.community && g.studio ? ` · ${esc(tr('by'))} ${esc(g.studio)}` : ''}</p>
       ${(() => { const d = (g.short || g.description || '').replace(/\s+/g, ' ').trim(); return d ? `<p class="news-desc">${esc(d.length > 160 ? d.slice(0, 157) + '…' : d)}</p>` : ''; })()}</div>
@@ -832,7 +838,7 @@ function emitContent() {
     const body = `<nav class="crumbs"><a href="${u('/')}">${esc(tr('Home'))}</a> › <a href="${cHref(main.slug)}">${esc((catTr(main.slug) || {}).h1 || main.h1)}</a> › <span>${esc(g.title)}</span></nav>
   <section class="player${portrait ? ' portrait' : ''}" data-player data-orient="${g.own ? 'any' : portrait ? 'portrait' : 'landscape'}" data-src="${esc(g.embed)}" data-id="${esc(g.slug)}" data-title="${esc(g.title)}" data-thumb="${esc(g.thumb)}" style="--ar:${g.w}/${g.h}">
     <div class="stage">
-      <img class="stage-bg" src="${esc(g.thumb)}" alt="" aria-hidden="true" fetchpriority="high">
+      <img class="stage-bg" src="${esc(small(g.thumb))}" alt="" aria-hidden="true" fetchpriority="high">
       <div class="stage-ui">
         <img class="stage-thumb${g.community ? ' wide' : ''}" src="${esc(small(g.thumb))}" alt="${esc(g.title)}" width="256" height="192">
         <h1>${esc(g.title)}</h1>${g.community ? `
