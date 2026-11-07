@@ -514,7 +514,7 @@ ${bodyClass.includes('home') ? '' : `<section class="row cat-grid-wrap"><div cla
   ${langsHere.length > 1 ? `<p class="foot-langs">${langsHere.map(l => l === LANG ? `<strong>${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</strong>` : `<a href="${esc(absIn(l, altPath))}" hreflang="${esc(l)}">${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</a>`).join(' · ')}</p>` : ''}
   <p class="foot-topics">${topics.filter(t => LANG === 'en' || (CATTR[LANG] || {})['topic:' + t.slug]).slice(0, 14).map(t => `<a href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join(' · ')}</p>
   <p class="foot-badge"><a href="https://twelve.tools" target="_blank" rel="noopener"><img src="https://twelve.tools/badge0-white.svg" alt="Featured on Twelve Tools" width="148" height="40" loading="lazy" decoding="async"></a><a href="https://fazier.com" target="_blank" rel="noopener"><img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&amp;theme=light" alt="Launched on Fazier" width="105" height="45" loading="lazy" decoding="async"></a></p>
-  <p class="foot-studio"><a href="https://www.escaperoom.co.rs/en" target="_blank" rel="noopener"><img src="${B}/assets/badge-door404.svg" alt="Made by Door 404" width="160" height="56" loading="lazy" decoding="async"></a></p>
+  <p class="foot-studio"><a href="https://www.escaperoom.co.rs/" target="_blank" rel="noopener"><img src="${B}/assets/badge-door404.svg" alt="Made by Door 404" width="160" height="56" loading="lazy" decoding="async"></a></p>
   <p class="muted">© ${YEAR} ${esc(cfg.name)} by ${esc(cfg.studio)}. All games are the property of their respective developers and are provided through official distribution partners.</p>
 </footer>
 ${cfg.adsenseClient && !cfg.ownConsent ? '' : `<div class="consent" hidden data-consent>
@@ -706,11 +706,11 @@ function emitContent() {
           slogan: cfg.slogan, email: cfg.contactEmail,
           contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: cfg.contactEmail, availableLanguage: ['English'] },
           foundingDate: '2026', areaServed: 'Worldwide',
-          sameAs: ['https://plavans.itch.io', 'https://www.escaperoom.co.rs/en', 'https://ballsofglory.app'],
+          sameAs: ['https://plavans.itch.io', 'https://www.escaperoom.co.rs/', 'https://ballsofglory.app'],
           founder: { '@type': 'Person', name: 'Marko Plav\u0161i\u0107', jobTitle: 'Game designer and escape room owner',
             description: 'Owner of Door 404 escape room in Novi Sad since 2016; graduate engineer in entrepreneurial management; designs escape games and publishes Android and web games.',
             sameAs: ['https://www.linkedin.com/in/marko-plav%C5%A1i%C4%87-6629709b/', 'https://plavans.itch.io'] },
-          parentOrganization: { '@type': 'Organization', name: cfg.studio, url: 'https://www.escaperoom.co.rs/en', address: { '@type': 'PostalAddress', addressLocality: 'Novi Sad', addressCountry: 'RS' } } }],
+          parentOrganization: { '@type': 'Organization', name: cfg.studio, url: 'https://www.escaperoom.co.rs/', address: { '@type': 'PostalAddress', addressLocality: 'Novi Sad', addressCountry: 'RS' } } }],
     }));
     addUrl('/', 1.0);
   }
@@ -971,7 +971,7 @@ textPage('badge', 'Badges for developers', `<p class="lead">Your game is on ${es
 
 textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games website made by <strong>${esc(cfg.studio)}</strong>, an independent game studio from Novi Sad, Serbia. We build our own browser games (like <a href="${u('/games/bubble-wrap/')}">Bubble Wrap</a>) and hand-pick the best free HTML5 games from trusted distribution partners, so you can play instantly on any device.</p>
 <h2>Who runs this site</h2>
-<p>My name is Marko Plav\u0161i\u0107. I am a graduate engineer in entrepreneurial management, and since 2016 I have owned and run <a href="https://www.escaperoom.co.rs/en" rel="noopener" target="_blank">Door 404</a>, an escape room in Novi Sad, Serbia.</p>
+<p>My name is Marko Plav\u0161i\u0107. I am a graduate engineer in entrepreneurial management, and since 2016 I have owned and run <a href="https://www.escaperoom.co.rs/" rel="noopener" target="_blank">Door 404</a>, an escape room in Novi Sad, Serbia.</p>
 <p>Designing an escape room is the same work as designing a game: you build a set of puzzles, watch real people try them, and rewrite whatever does not work. I have been doing that since 2016, and it is why every game here gets played by a person before it goes up.</p>
 <p>Alongside the escape room I design escape games and outdoor adventures, I have published Android and web games, I wrote a book, and I have run the SEO and Google Ads for my own businesses since 2016 (Google Ads certified, 2016). Before all that I spent six years in banking, as a credit analyst and then a portfolio office manager. And I have been a gamer my whole life, which is the real reason this site exists.</p>
 <p>You can check who I am on <a href="https://www.linkedin.com/in/marko-plav%C5%A1i%C4%87-6629709b/" rel="noopener" target="_blank">LinkedIn</a>, or write to me at <a href="${u('/contact/')}">contact@ilovewebgames.com</a>.</p>
