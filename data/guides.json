@@ -177998,5 +177998,712 @@
         "You play by clicking or tapping on the screen. There are no other controls listed in the instructions."
       ]
     ]
+  },
+  "football-world-27": {
+    "intro": "Football World 27 is a 3D 11 versus 11 soccer game with a broadcast camera and real match rules. You can play quick matches, a cup, a league, squad building, club management, or a player career.",
+    "tips": [
+      "Use J to pass before you shoot, and look for a teammate with open space rather than forcing the ball into traffic.",
+      "Save Shift for runs into open space, since sprinting all the time makes it harder to control the ball and react to defenders.",
+      "Practise K for shots and I for lobs in a Quick Match first, so you learn how each one behaves before a cup or league game.",
+      "Open Settings early and change any keys that feel awkward, because every control can be remapped to suit how you play.",
+      "If you like building up play from the back, [[soccer-games|more soccer game picks]] can help you find similar matches to practise your passing."
+    ],
+    "faq": [
+      [
+        "How do I create more scoring chances?",
+        "Pass with J to move the ball into open areas, then use a through ball with L to send a teammate running past the defence. Shoot with K when you have room near the goal."
+      ],
+      [
+        "When should I use a lob instead of a normal shot?",
+        "Use I when a normal shot is blocked or the keeper is off the line, since a lob sends the ball over the defence. Try it in a Quick Match to see how far it travels before using it in a competitive mode."
+      ]
+    ]
+  },
+  "sky-ramp-fury": {
+    "intro": "Sky Ramp Fury is a 3D car stunt game where you launch off giant ramps above the clouds across 16 levels. Your goal is to land stunts, earn stars and coins, and become the ramp champion.",
+    "tips": [
+      "Save your NOS boost with Shift for the longest jumps and the lifts, since it helps you carry speed through the big drops.",
+      "Use the handbrake on Space to tighten your line through spiral tubes and tight turns before you reach a ramp.",
+      "If you fall, press R to return to your last checkpoint right away instead of driving back from the start.",
+      "Check the missions before each level so you can aim for stunts and rewards while you play, not just reaching the end. For more driving games in 3D, browse [[3d-games|more stunt and parking titles]].",
+      "Pick the car that feels most stable for you, since each of the 5 cars handles differently in the air and on landings."
+    ],
+    "faq": [
+      [
+        "How do I win in Sky Ramp Fury?",
+        "You win by completing levels, landing stunts, and finishing missions, which earn you stars and coins. Collecting daily rewards also helps you progress."
+      ],
+      [
+        "What does NOS do and which key activates it?",
+        "NOS is a boost that gives your car extra speed. Press Shift to use it."
+      ]
+    ]
+  },
+  "geometry-maze-maps": {
+    "intro": "Geometry Maze Maps is an arcade game about fast reactions and good timing. You move through abstract landscapes full of geometric obstacles, jumping to safety while chasing a higher score.",
+    "tips": [
+      "Watch a few obstacles ahead before you jump, so you can plan your timing instead of reacting only at the last second.",
+      "Focus on the rhythm of the obstacles. Jumps that feel hard often become easier once you notice the pattern.",
+      "Keep your attention a short distance ahead of your character so you can prepare for the next landing spot.",
+      "Practice short runs to build instinct, then try to beat your previous score by taking a little more risk each time.",
+      "Stay calm after a mistake. Restarting with a clear head usually helps you time the early jumps better."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Geometry Maze Maps?",
+        "Your goal is to get as far as you can through the maze while avoiding geometric obstacles and chasing a higher score."
+      ],
+      [
+        "How do I stay safe from the obstacles?",
+        "Time your jumps carefully and leap to safe ground before an obstacle reaches you. Quick reactions and steady timing matter most."
+      ]
+    ]
+  },
+  "desert-animals-coloring-book": {
+    "intro": "Desert Animals Coloring Book is a coloring activity with over 30 desert animals, from camels and foxes to eagles and meerkats. It is designed for children ages 4 to 10.",
+    "tips": [
+      "Start with the animals your child already knows, such as camels or foxes, and then move on to less familiar ones like meerkats or porcupines.",
+      "Because the pages are single-sided, you can color one page at a time without worrying about the image showing through to the next one.",
+      "Use the large 8.5 x 11 pages to practice filling in bigger areas, and ask your child to name each animal as they color it.",
+      "Save finished pages to put up on the wall, since the single-sided format makes them easy to remove and display.",
+      "If your child enjoys these creatures, try [[animal-games|other animal-themed games]] to keep learning about wildlife going."
+    ],
+    "faq": [
+      [
+        "How many pages are in the coloring book?",
+        "The book includes over 30 unique desert animal pages, featuring animals like camels, lizards, owls, meerkats, and snakes."
+      ],
+      [
+        "Which age group is this coloring book best for?",
+        "It is designed for children ages 4 to 10, and it can help build creativity, fine motor skills, and animal recognition."
+      ]
+    ]
+  },
+  "monster-haul": {
+    "intro": "Monster Haul is a fast pixel-art survival brawler where you move, aim, and blast through endless waves of monsters. Your weapons fire automatically, so your focus goes to positioning and choosing upgrades.",
+    "tips": [
+      "Since weapons fire on their own, spend your attention on moving and aiming with the mouse rather than on pressing fire.",
+      "Pick upgrades that build on each other, such as stacking damage on a weapon you already use, instead of grabbing a new weapon every time.",
+      "Keep moving between waves so you are not caught standing still when a new group of slimes, bats, or bombers arrives.",
+      "Each world is chosen at random, so learn the enemy types you see early and adjust your position for each new layout. If you enjoy this style of fast blasting, you might also like more [[shooting-games|fast action shooters to try]].",
+      "Elites and bosses only appear as you go deeper, so treat the early waves as practice and save your strongest upgrades for the tougher fights ahead."
+    ],
+    "faq": [
+      [
+        "How do I choose an upgrade?",
+        "Press keys 1, 2, or 3 to pick the matching card, or tap a card on mobile. Choose upgrades that help the weapons you are already using."
+      ],
+      [
+        "Do I need to press a button to shoot?",
+        "No. Your weapons auto-fire, so your main job is to move with WASD or the arrow keys and aim with the mouse."
+      ]
+    ]
+  },
+  "happy-corals": {
+    "intro": "Happy Corals is a one-player arcade game about protecting coral reefs. Warm water makes corals lose the algae in their tissue, and your job is to save as many corals as you can.",
+    "tips": [
+      "Focus on the corals that look most at risk first, since bleached corals are more likely to die.",
+      "Think about the cause of bleaching: warm water is the trigger, so keep an eye on which corals are in the hottest areas.",
+      "Try to stay calm and steady with the arrow keys and space bar so you do not miss corals in the middle of a run.",
+      "Because the goal is to save as many corals as possible, avoid chasing one coral at the expense of the rest of the reef.",
+      "If you enjoy ocean themes, you can explore [[animal-games|other animal games]] on the site for more sea life play."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Happy Corals?",
+        "Your goal is to save as many corals as you can from coral bleaching caused by warm water and pollution."
+      ],
+      [
+        "Which controls do I use?",
+        "Use the arrow keys to move and the space bar for the action. On mobile devices, touch controls are available."
+      ]
+    ]
+  },
+  "outbreak-ops": {
+    "intro": "Outbreak Ops is a top-down shooter where you clear infected hordes across compounds, bunkers, streets and labs. You earn coins, unlock stronger weapons and upgrade your gear as missions get harder.",
+    "tips": [
+      "Use Shift to dash out of tight spots before zombies close in, rather than waiting until your health is low.",
+      "Save Space grenades for groups bunched together in corridors or doorways, where one blast can hit several enemies at once.",
+      "Reload with R during quiet moments so you are not caught empty when a new wave arrives.",
+      "Spend coins on gear upgrades you will actually use, such as the weapon type that matches your playstyle, instead of spreading them thinly across everything. For more zombie-themed action, browse [[zombie-games|more zombie shooters]] when you want a different challenge.",
+      "Watch how each boss zombie moves before committing to a long burst of fire, and use your dash to step out of its attack patterns."
+    ],
+    "faq": [
+      [
+        "How do I handle big groups of zombies?",
+        "Keep moving with WASD so enemies cannot surround you, and use grenades on clusters. Narrow spaces help you control how many zombies reach you at once."
+      ],
+      [
+        "Which weapon should I start with?",
+        "Pick the weapon that fits how you like to fight, such as a shotgun for close crowds or a sniper rifle for distant threats. You can switch to other options as you earn coins and unlock new weapons."
+      ]
+    ]
+  },
+  "healthy-hero": {
+    "intro": "Healthy Hero is a fast action game where you guide a hero past gaps and junk food monsters. You jump by clicking or tapping, and you gather fruits and vegetables while steering clear of sugary treats.",
+    "tips": [
+      "Watch the ground ahead rather than your character, so you can time each jump before a gap or monster reaches you.",
+      "Save your double jump for wider gaps or for getting over a monster that is higher up, and use a single jump for short obstacles.",
+      "Grab the fruits and vegetables when you can do it safely, but never risk a fall or a monster hit just to reach one.",
+      "Keep your clicks or taps quick and steady, since the game rewards good timing more than rapid tapping. If you enjoy this style of play, [[clicker-games|more games built around quick clicks]] are worth a look."
+    ],
+    "faq": [
+      [
+        "How do I jump in Healthy Hero?",
+        "On desktop, click the left mouse button, and on mobile, tap the screen. One click or tap gives a single jump."
+      ],
+      [
+        "What is the difference between a single and a double jump?",
+        "A double jump comes from clicking or tapping twice in quick succession. It helps you clear wider gaps and reach higher obstacles."
+      ]
+    ]
+  },
+  "makeup-trends-then-and-now": {
+    "intro": "Makeup Trends: Then And Now is a one-player dress-up game where you help influencer Kiki create looks from the early 2000s through 2024. You can mix eyeshadows, lip colors, hairstyles and accessories to build your own style.",
+    "tips": [
+      "Try the early 2000s and modern looks one after the other so you can see how the trends changed.",
+      "Test a bold eyeshadow with a contrasting lip color, since the game encourages mixing vibrant shades.",
+      "Choose your hairstyle and accessories last, so you can judge how well they match the makeup you already picked.",
+      "Compare the y2k-VSCO and emo-euphoria dark styles side by side to find which direction suits your taste. If you enjoy this kind of play, you can [[makeup-games|browse more makeup games]] for other looks to try."
+    ],
+    "faq": [
+      [
+        "How do I make selections in the game?",
+        "On a desktop, use your mouse to make choices. On a mobile device, tap the screen to play."
+      ],
+      [
+        "Is there a set goal or score to reach?",
+        "The description does not mention a goal or scoring. The game is built around experimenting, so focus on creating looks you like."
+      ]
+    ]
+  },
+  "draw-logic-puzzle": {
+    "intro": "Draw Logic Puzzle is a 2D puzzle game where you solve each level by drawing lines, shapes, and paths. Your drawings become the solution, such as a bridge, a redirected fall, or a safe route to the target.",
+    "tips": [
+      "Look at the whole scene before you draw. Find where the character needs to go and what is in the way, then decide which obstacle your drawing has to solve.",
+      "Start with the simplest idea that could work, such as a short bridge or a single guiding line. Simple solutions are often easier to test and fix than complicated ones.",
+      "Watch how the character moves after each attempt. If it falls or misses the target, note exactly where it went wrong so you can adjust that part of your drawing.",
+      "Try a few different approaches on the harder levels rather than repeating one idea. Puzzles like this often have more than one workable answer.",
+      "If you get stuck, step away and come back with fresh eyes. For more brain teasers of this kind, try [[brain-games|more brain teaser challenges]]."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "Your goal is to draw a solution that guides the character safely to its target. The drawing you make is the answer to the puzzle."
+      ],
+      [
+        "How do I draw in the game?",
+        "You use mouse clicks or taps to play, so you draw by clicking or tapping on the screen. Use the instructions in the game for any details on how lines and shapes are placed."
+      ]
+    ]
+  },
+  "stellar-connections": {
+    "intro": "Stellar Connections is a star-linking puzzle where you join stars to uncover hidden shapes across more than 100 levels. You drag from one star to another, and correct links reveal the required shape.",
+    "tips": [
+      "Study the stars before you start dragging and look for the outline of a familiar shape, such as an animal or object, so you know which stars likely belong together.",
+      "Make connections one at a time and check each new line against the shape you are aiming for, since a wrong link can make the rest of the puzzle harder to read.",
+      "Earn coins steadily and think about when to spend them on power-ups, saving them for stages that stop making progress.",
+      "If you are stuck, try a different star as your starting point, because the same set of stars can often be linked in more than one order. For more star-themed games, browse [[space-games|space-themed browser games]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I make a connection between two stars?",
+        "Press on one star and drag to another star to attempt a link. If the connection is correct, it stays in place and helps reveal the shape."
+      ],
+      [
+        "What do I need to do to clear a level?",
+        "You need to connect the stars correctly to find the required shape shown for that stage."
+      ]
+    ]
+  },
+  "the-block-escape": {
+    "intro": "Block Escape is a 3D puzzle where you clear colorful blocks from the screen. Each block has an arrow, and it only flies off when its path in that direction is clear.",
+    "tips": [
+      "Before tapping anything, look for blocks whose arrows point toward open space, since those are the easiest to remove first.",
+      "Rotate the puzzle with a click and drag to check angles you cannot see at first, because a block may be hidden behind another one from the default view.",
+      "Work outward from the edges of the pile, and leave blocks in the middle for later once the paths around them have opened up.",
+      "If you get stuck, step back and scan the whole board for a block that is blocking several others, then plan around it. A habit of thinking a few moves ahead, as in [[brain-games|brain training puzzles]], helps here."
+    ],
+    "faq": [
+      [
+        "How do I remove a block?",
+        "Tap or left-click the block. It will fly off in the direction its arrow points, but only if nothing is in its way."
+      ],
+      [
+        "What should I do when no blocks can move?",
+        "Rotate the 3D puzzle to look for a path you missed from the current angle. Blocks that seem blocked from one side may be clear from another."
+      ]
+    ]
+  },
+  "total-sweep": {
+    "intro": "Total sweep is a calm tactical puzzler where you aim and shoot balls to break numbered blocks. The blocks shift direction or burst open, so you need to adapt as each cluster changes.",
+    "tips": [
+      "Each hit lowers a block's number by 1, so start with the lowest numbers to clear openings quickly.",
+      "Watch how the blocks shift and where explosive bursts may hit before you fire, since their positions can change your angle.",
+      "Crystals can be spent on a one-time increase of 100 balls, so save them for a tough level where you run short.",
+      "Try to spend your balls on blocks that will clear the most space, rather than spreading shots across the board. If you enjoy this style, [[block-puzzle-games|more block breaking challenges]] are worth a look."
+    ],
+    "faq": [
+      [
+        "How do I remove a block?",
+        "Each ball that touches a block takes 1 away from its number. When the number reaches zero, the block disappears."
+      ],
+      [
+        "What are crystals used for?",
+        "Crystals you collect from destroying blocks can be spent on a one-time increase of 100 balls, and they help strengthen your growing squad."
+      ]
+    ]
+  },
+  "soccer-duel": {
+    "intro": "Soccer Duel is a fast 1v1 tabletop football game where you pick one of 32 national teams and play against the AI, a friend on the same device, or online opponents. Matches are quick and good for short sessions.",
+    "tips": [
+      "Watch where your opponent is positioned before you shoot, and aim for the open space rather than the spot they are already covering.",
+      "Keep your reactions quick in the early minutes so you can learn how the ball moves before you commit to a shot.",
+      "Accurate shooting decides close games, so take a moment to line up your shot instead of rushing it when you have space.",
+      "If you want more to play with a friend, check out [[2-player-games|two-player games to try]] for other head-to-head options.",
+      "Try the penalty shootout after a few normal matches, since it is a short test of your accuracy and nerves."
+    ],
+    "faq": [
+      [
+        "How do I move and shoot in Soccer Duel?",
+        "Use the mouse on a computer to control your characters on the field. On a mobile device, tap the screen with your finger to control them."
+      ],
+      [
+        "What skills matter most for winning?",
+        "Reaction speed, good strategy, and accurate shooting are the key skills in these 1v1 matches. Practise all three to improve your results."
+      ]
+    ]
+  },
+  "logic-vault": {
+    "intro": "Logic Vault is a puzzle game where each level gives you a new brain challenge drawn from seven puzzle types. You need to pick the correct answer quickly and accurately to unlock the next tier of the Vault.",
+    "tips": [
+      "Check which of the seven puzzle types you are facing before you look at the answers, since each type has its own kind of pattern to find.",
+      "For numeric sequences, compare each number with the one before it to find the step, then check that the same step works for the whole row.",
+      "When counting symbols or characters, count slowly from left to right and mark each one you have counted so you do not lose your place.",
+      "Since only a correct answer lets you advance, give each choice a second look before you click or tap, even when you feel sure.",
+      "If you enjoy this kind of mental work, you can find [[puzzle-games|more brain teasers to try]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I move on to the next level in Logic Vault?",
+        "You advance by choosing the correct solution to the current puzzle. Only a correct answer unlocks the next tier of the Vault."
+      ],
+      [
+        "What kinds of puzzles will I see?",
+        "Each level cycles through seven core types: Numeric Sequences, Deduction Scenarios, Simple Matching, Symbol Count, Odd One Out, Quick Arithmetic, and Character Frequency."
+      ]
+    ]
+  },
+  "escape-from-dictatorship-runner-game": {
+    "intro": "Escape from Dictatorship: Runner Game is a 3D running game where you sprint down a crimson highway toward the finish line. Soldiers and red coins appear in random patterns, so you need to react to each run as it happens.",
+    "tips": [
+      "Stay on the single straight route and keep your attention on the road ahead, since soldiers and coins can appear anywhere in a new pattern each level.",
+      "Grab red coins whenever you safely can, because they feed the upgrades for Red Coin Earnings, Starting Health Points, and the +Health Multiplier Gate.",
+      "Do not try to memorize the layout between runs, because every level is randomized and past routes will not help you.",
+      "Watch your health closely and avoid taking hits you can dodge, since the goal is to reach the finish line alive. If you want more fast-paced practice, try [[running-games|more running challenges to test your reflexes]]."
+    ],
+    "faq": [
+      [
+        "How do I make my runs stronger over time?",
+        "Collect red coins during your runs to power up Red Coin Earnings, Starting Health Points, and the +Health Multiplier Gate. Each upgrade helps later runs go better."
+      ],
+      [
+        "What is the main goal of each level?",
+        "You race along one straight path and try to reach the finish line alive. Your health must last until you get there."
+      ]
+    ]
+  },
+  "wood-block-brain-puzzle": {
+    "intro": "Wood Block Brain Puzzle asks you to fill a board with wooden blocks to complete each level. Levels get harder as you go, and the game is played entirely with the mouse.",
+    "tips": [
+      "Look at the shapes of the remaining blocks before you place anything, so you can see which gaps they will fit.",
+      "Keep open spaces connected rather than splitting them into small isolated pockets, since awkward gaps are hard to fill later.",
+      "Use the early, easier levels to learn how each block shape rotates and fits, because the later levels build on that skill.",
+      "Take a short break when you get stuck, then look at the board again with fresh eyes. If you want more of this style, you can browse [[block-puzzle-games|more block puzzles to try]]."
+    ],
+    "faq": [
+      [
+        "How do I pick up and place a block?",
+        "Press and hold the left mouse button to pick up a block, then move it to the spot you want and release to place it."
+      ],
+      [
+        "Do the levels get harder?",
+        "Yes, the game has increasing levels of difficulty, so each new level brings more challenges than the one before."
+      ]
+    ]
+  },
+  "soccer-guantone-mobile": {
+    "intro": "Soccer Guantone Mobile is a fast penalty game where you move the ball, aim your shots, and try to score 12 goals against the sassy goalkeeper Guantone and the Hungry Giant. Timing your taps is the key to winning.",
+    "tips": [
+      "Tap the Shoot button only when the ball is where you want it, since the tap also locks Auto Aim at that exact moment.",
+      "Move left and right with the on-screen buttons before you shoot, so you have time to line up a clear path past the goalkeeper.",
+      "Watch for blocks and time your shots to avoid them rather than rushing every attempt.",
+      "Collect the diamonds when you can, as they are worth picking up on the way to your 12 goals.",
+      "If you enjoy timing-based penalty play, you can find [[soccer-games|more soccer games]] to practice the same skill."
+    ],
+    "faq": [
+      [
+        "How do I aim my shot?",
+        "Tap the Shoot button and the game locks Auto Aim at that moment, so the timing of your tap decides where the shot goes."
+      ],
+      [
+        "What is my goal in the game?",
+        "You need to reach 12 goals to win the cup and earn the bonus points."
+      ]
+    ]
+  },
+  "dystopia-rpg": {
+    "intro": "Dystopia RPG is an 8-bit fantasy adventure where you are trapped inside a phone application after losing a duel. You explore dungeons, fight monsters, collect and trade items, and look for a way to glitch the game and break free.",
+    "tips": [
+      "Use the arrow keys to move and Space to jump, and get comfortable with both before you enter a dungeon so you can dodge enemies while you move.",
+      "Click with the mouse to attack, and try to hit monsters in short bursts instead of constantly swinging so you can see how they react.",
+      "Pick up and keep the items you collect, since trading them is part of the game and may help you deal with tougher fights later. Browse the [[ninja-and-fighting-games|more fighting games]] collection if you enjoy learning combat timing.",
+      "Explore each dungeon fully before moving on, because collected items and what you find along the way are important for getting stronger.",
+      "Keep an eye out for signs of glitches in the game, since breaking free is the final goal and the description points to glitching as the way out."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Dystopia RPG?",
+        "You are trapped inside a phone application and need to explore the dungeons, fight monsters, and glitch the game to break free."
+      ],
+      [
+        "How do I attack and move my character?",
+        "Click the mouse to attack, use the Up, Down, Left, and Right keys to move, and press Space to jump."
+      ]
+    ]
+  },
+  "flag-merging-puzzle-game": {
+    "intro": "Flag Merging Puzzle Game is a timed puzzle where you drag and drop falling flags and merge identical pairs to reach each level's flag goal. Across 75 levels, quick thinking and planning matter more as the challenge grows.",
+    "tips": [
+      "Scan the flags already on the board before placing a new one, so you can spot matching pairs and keep the stack from getting crowded.",
+      "Plan a little ahead: place flags where they will not block a future merge, especially when several identical flags are close to each other.",
+      "Watch the clock as well as the goal. Clearing a few easy pairs early can give you room to work toward the target flags without rushing.",
+      "Spend your coins on the extra starting time upgrade when you find the early levels running short, since more time gives you room to plan each move. If you enjoy learning country flags, [[flag-and-geography-games|more flag and geography games]] are a good next step."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "You must clear the required flag goals before time runs out to advance to the next level. Merging two identical flags clears them."
+      ],
+      [
+        "How do I earn coins?",
+        "You earn coins each time you merge two identical flags to clear them."
+      ]
+    ]
+  },
+  "farm-defense": {
+    "intro": "Farm Defense is a shooting game where you hold off waves of monsters trying to invade your farm. You collect power-ups, pick upgrades between stages, and unlock new heroes as you go further.",
+    "tips": [
+      "Grab the magnet when power-ups are scattered far from your position, so you don't miss the rapid fire or health packs you need.",
+      "Save explosive ammo for groups of enemies bunched together rather than single targets, so each shot does more work.",
+      "Use the traps to slow down enemies that are closing in on you, giving yourself time to focus fire on the most dangerous ones.",
+      "Think about your end-of-stage upgrade choice based on what is hurting you most, whether that is running out of health or being overrun in one spot. If you enjoy holding a line against waves, [[tower-defense-games|more defense strategy games]] are worth a look.",
+      "Press Space to turn around when enemies slip behind you, instead of running in circles while they chase you down."
+    ],
+    "faq": [
+      [
+        "How do I move my character and turn around?",
+        "Use the Arrow Keys or WASD to move. Press Space to turn around when enemies come up behind you."
+      ],
+      [
+        "What should I choose when a stage ends?",
+        "You pick from random upgrades, new weapons, airstrikes, traps, or the magnet. Choose whichever helps with the threats you struggled with most in that stage."
+      ]
+    ]
+  },
+  "the-bunny-vs-the-gardener": {
+    "intro": "The Bunny vs The Gardener is a fast arcade shooter where you steer a bunny with the mouse and fire to defend the garden. You start with 3 lives and face boss battles as your score grows.",
+    "tips": [
+      "Keep your eyes on incoming attacks first and steer the bunny with the mouse before you think about firing.",
+      "Hold the left mouse button to fire, but release it when no target is in front of you so your timing stays sharp.",
+      "Use the points at 30 and 60 as checkpoints, and slow down before each boss battle to plan your dodges.",
+      "Protect your lives carefully, since you only gain one more life when you advance to the next level.",
+      "If you enjoy this kind of dodge-and-fire play, you can compare it with other [[shooting-games|arcade shooting titles]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I move the bunny?",
+        "Move your mouse left and right to steer the bunny. Keep moving to avoid attacks and seeds."
+      ],
+      [
+        "How do I shoot?",
+        "Hold the left mouse button to fire and release it to stop firing."
+      ]
+    ]
+  },
+  "cowboy-shooter-2": {
+    "intro": "Cowboy Shooter 2 is a fast Wild West shooting game where you aim with the mouse, fire with the left button, and try to earn the highest score before time runs out. Every shot counts, so precision matters.",
+    "tips": [
+      "Move the mouse smoothly toward each target instead of jerking it, so you line up your shot faster and waste fewer bullets.",
+      "Don't rush every shot. Pause for a split second to confirm your aim before you press the left mouse button, especially when the tempo picks up.",
+      "Keep an eye on the clock and aim for targets that are easy to hit first, since quick points help you build a strong score early.",
+      "When the weather changes, take a moment to re-check your aim before you fire, because conditions may shift where your shots land. If you enjoy testing your aim in similar games, you can browse more [[gun-games|gun shooting titles to try]].",
+      "On mobile, use the on-screen buttons to aim and shoot, and practice a few rounds so the controls feel as natural as the mouse on PC."
+    ],
+    "faq": [
+      [
+        "How do I shoot in Cowboy Shooter 2?",
+        "Move the mouse to aim at a target, then press the Left Mouse Button to fire. On mobile, use the on-screen aim and shoot buttons instead."
+      ],
+      [
+        "What is the goal of the game?",
+        "Your goal is to earn the highest score you can before the clock runs out. Break bottles and hit targets while the pace gets faster."
+      ]
+    ]
+  },
+  "celebrity-e-girl-vibes": {
+    "intro": "Celebrity E-Girl Vibes is a dress-up game where you style celebrities in edgy street fashion. You control everything with the left mouse button, so each look comes together with simple clicks.",
+    "tips": [
+      "Start with the outfit, then build around it. Oversized hoodies, crop tops, ripped jeans and plaid skirts set the base, so choose pieces that fit together before adding extras.",
+      "Pick one bold feature to lead the look, such as colorful hair or graphic eyeliner, and keep the rest of the styling simpler so the look doesn't feel cluttered.",
+      "Use chokers and statement accessories as finishing touches. A small addition like this can tie a whole outfit into the E-Girl style.",
+      "Match the makeup and nail polish to the hair colors you chose so the look feels coordinated. Vibrant shades work best when they repeat across the whole outfit.",
+      "If you enjoy styling characters, you can explore more options in [[dress-up-games|more dress up games]] to practice different fashion looks."
+    ],
+    "faq": [
+      [
+        "What is the goal of Celebrity E-Girl Vibes?",
+        "The goal is to dress up celebrities in bold E-Girl fashion, combining outfits, hairstyles, makeup, nail polish and accessories into a complete look."
+      ],
+      [
+        "Which mouse button do I use to play?",
+        "You only need the left mouse button. Every choice in the game is made with a left click."
+      ]
+    ]
+  },
+  "super-girls-my-rainy-day-outfits": {
+    "intro": "Dress three princesses in warm clothes and rain boots for a rainy day out. Use simple clicks to build a stylish look with a hat, scarf, and umbrella.",
+    "tips": [
+      "Start with warm base clothes before adding anything else, so the outfit feels like a real rainy-day look.",
+      "Choose rain boots early, since they set the tone for the rest of the outfit and help you match colors.",
+      "Try curls under a hat for the hairstyle, as the game suggests this looks especially good in the rain.",
+      "Keep the accessories balanced by picking one hat, one scarf, and one umbrella that suit the outfit colors. Explore more outfit-making fun in our [[dress-up-games|dress-up games collection]].",
+      "Compare a few different combinations before you settle on one, because small changes to color can make a big difference."
+    ],
+    "faq": [
+      [
+        "What do I need to control the game?",
+        "You only need the left mouse button, which you use to click on items and options."
+      ],
+      [
+        "What should the princesses wear on a rainy day?",
+        "The game asks you to dress them in warmer clothes and rain boots, then add a hat, scarf, and cute umbrella."
+      ]
+    ]
+  },
+  "froggy-hop": {
+    "intro": "Froggy Hop is a one-tap arcade game where you launch a frog, bounce across lily pads, and try to go as far as you can. Timing your jumps and dives is the key to a long run.",
+    "tips": [
+      "Watch the frog's arc before each launch so you can see where it will land. Short, controlled bounces often keep you safer than big jumps.",
+      "Learn the obstacles early. Stones, trees, logs and mud each mean trouble, so plan your route a few pads ahead.",
+      "Use dives on lily pads, turtles and other elements at the right moment to get back into the air. Practice the timing in short runs before pushing for distance.",
+      "Spend your coins on upgrades that suit how you play, and check your daily missions to give each run a clear goal. If you enjoy the bounce physics here, you may also like these [[physics-games|physics-based games]] for similar timing skills."
+    ],
+    "faq": [
+      [
+        "How do I control the frog?",
+        "Use the left mouse button to launch and bounce the frog. A single click at the right moment is all you need."
+      ],
+      [
+        "What should I avoid while hopping?",
+        "Stay away from stones, trees, logs and mud, since these obstacles can end your bounce chain. Keep an eye on the path ahead rather than only the frog."
+      ]
+    ]
+  },
+  "tic-tac-toe-2025": {
+    "intro": "Tic Tac Toe 2025 is a classic strategy puzzle where you place your symbol on the board and try to outthink your opponent. It is played on a grid of squares with X and O.",
+    "tips": [
+      "Take the center square early if it is free, since it sits on more winning lines than any other square.",
+      "Always check whether your opponent has two symbols in a row with an empty square left, and block it before you try anything else.",
+      "Look a move ahead for forks, where one placement creates two separate winning threats at once, and try to set one up.",
+      "If you want more head-to-head challenges, you can explore [[2-player-games|more two player games]] on the site for similar quick matches."
+    ],
+    "faq": [
+      [
+        "How do I place my symbol?",
+        "On desktop, click an empty square with the mouse. On mobile, touch an empty square to place your X or O."
+      ],
+      [
+        "How do I win the game?",
+        "Get three of your symbols in a straight line, horizontally, vertically, or diagonally, before your opponent does."
+      ]
+    ]
+  },
+  "3d-educational-car-adventure": {
+    "intro": "3D Educational Car Adventure is a racing game where kids drive colorful 3D cars through missions that teach traffic signs, basic math, and general knowledge. It is played with mouse clicks or taps.",
+    "tips": [
+      "Read each traffic sign carefully before you move on, since the missions are built around recognizing signs and driving safely.",
+      "Take your time with the math challenges and work out each answer before acting, so the lesson sticks as well as the driving.",
+      "Explore the world at a relaxed pace, because the game rewards curiosity and learning through exploration.",
+      "Try replaying a level after you finish it to reinforce what you learned, especially the general knowledge facts.",
+      "If you enjoy learning while driving, you may also like [[preschool-and-learning-games|learning games for young players]]."
+    ],
+    "faq": [
+      [
+        "What is the goal of the game?",
+        "The goal is to complete playful missions and challenges that teach traffic signs, math, and general knowledge while encouraging safe driving. Each level builds problem-solving skills as you progress."
+      ],
+      [
+        "How do I control the car?",
+        "You play with mouse clicks or taps, which keeps the controls simple for kids. The game is designed to be kid-friendly."
+      ]
+    ]
+  },
+  "minesweeper-infinite": {
+    "intro": "Minesweeper Infinite is a logic puzzle with a new endless field mode. Open cells, read the numbers, and work out where the mines are without hitting one.",
+    "tips": [
+      "Start by choosing the Classic Endless mode, then click one cell to open the field and see the first numbers.",
+      "Read each number as a clue: a 1 means exactly one mine touches that cell, so compare neighboring numbers before you click anything new.",
+      "Clicking a mine ends the game, so only open a cell when the numbers around it prove it is safe.",
+      "Work slowly through one area at a time, since the endless field gives you room to keep going without rushing.",
+      "If you enjoy digging through hazardous ground in other titles, the [[mining-games|digging and tunnelling picks]] collection has more games with a similar feel."
+    ],
+    "faq": [
+      [
+        "What happens if I click a mine?",
+        "The game is over as soon as you open a cell that contains a mine."
+      ],
+      [
+        "How do the numbers help me find mines?",
+        "Each number in an open cell tells you how many mines are in the cells around it. For example, a 1 means one of those surrounding cells holds a mine."
+      ]
+    ]
+  },
+  "hidden-hero": {
+    "intro": "Hidden Hero puts you in control of Lily as she runs from an endless wave of mischievous cats. Stay alive as long as you can and try to climb the leaderboard.",
+    "tips": [
+      "Watch the sky, the trash cans, and the skateboards at the same time, since cats can come from all three directions.",
+      "Tap to hide behind something when cats close in on Lily, and move on quickly so you don't wait in one spot too long.",
+      "Save your power-ups for busy moments when several cats are coming at once instead of using them on quiet stretches.",
+      "Keep your reflexes sharp by reacting to each cat as it appears rather than trying to plan far ahead.",
+      "If you like fast running games with a fun, cute style, you can find more [[games-for-girls|games for girls]] to try next."
+    ],
+    "faq": [
+      [
+        "How do I control Lily?",
+        "Use a mouse click or a finger tap to play, and tap to hide behind something when you need cover from the cats."
+      ],
+      [
+        "What is the goal of the game?",
+        "The goal is to survive for as long as you can while dodging the cats, so you can climb the leaderboard."
+      ]
+    ]
+  },
+  "meme-survivors-backrooms": {
+    "intro": "Meme Survivors: Backrooms is a casual survival game set in endless Backrooms corridors, filled with enemies and characters inspired by internet memes. Your attacks fire on their own, so your job is to move, dodge, and last as long as you can.",
+    "tips": [
+      "Since your attacks happen automatically, spend your attention on movement. Keep a steady path through the corridors instead of standing still while enemies close in.",
+      "Pick the control method you are most comfortable with, whether keyboard, mouse, touchscreen, or gamepad. Smooth movement matters more than speed when you are dodging.",
+      "Collect upgrades whenever they are safe to grab, and favor ones that help you stay alive longer. Survival is the goal, so defensive gains often pay off more than chasing risky pickups.",
+      "Watch where enemies come from in each new stretch of corridor, and steer toward open space before you get cornered. Getting trapped in a dead end is one of the quickest ways to end a run.",
+      "If you enjoy fast-paced action where you focus on dodging and positioning, you might also like [[shooting-games|more action shooting games]] to try next."
+    ],
+    "faq": [
+      [
+        "How do I move my character?",
+        "You can use the WASD keys, the arrow keys, the mouse, a touchscreen, or a gamepad. Movement is the only thing you control directly."
+      ],
+      [
+        "Do I need to aim or fire my attacks?",
+        "No. Attacks happen automatically, so you only need to move, dodge enemies, and collect upgrades."
+      ]
+    ]
+  },
+  "skulls-and-bombs": {
+    "intro": "Skulls And Bombs is a pirate clicker where you tap items to earn points while avoiding skulls and bombs. The game speeds up as it goes, so quick reactions and careful focus both matter.",
+    "tips": [
+      "Treat every tap as a decision: check what the object is before you click, since skulls and bombs are mixed in with the treasure.",
+      "Expect the pace to rise over time, so keep your early rounds calm and steady rather than frantic.",
+      "Do not rush just to build a high score, because one wrong click ends the game instantly and wipes out your progress in that run.",
+      "If you enjoy fast tapping under pressure, you can explore more [[clicker-games|games built around quick taps]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I play Skulls And Bombs?",
+        "Click or tap on the various items to earn points. The main rule is to never click on a skull or a bomb."
+      ],
+      [
+        "What happens if I click a skull or bomb?",
+        "One wrong tap ends the game immediately, so accuracy matters as much as speed."
+      ]
+    ]
+  },
+  "football-manager-simulator": {
+    "intro": "Football Manager Simulator puts you in charge of your own club, where you handle the squad, tactics, and finances while working toward the top division. Money is tight, so every signing and upgrade is a real decision.",
+    "tips": [
+      "Balance your spending early, since you need money for coaching, signing players, and academy scouting. Avoiding big purchases until your income is steady helps you avoid running dry.",
+      "Upgrade your stadium when you can afford it, because it earns you more money from home matches. Treat it as an investment that pays off over the season.",
+      "Look for sponsors as a steady income source. Checking them regularly keeps your cash flow healthy so you can fund other parts of the club.",
+      "Check the League tab often to see where you stand. Knowing your position tells you whether you need to push harder or can afford to play it safer with your budget.",
+      "Use the Academy to scout young talent before committing large sums in the Transfer Market. Developing your own players can be a cheaper route than buying established stars. If you enjoy building a business-style economy, the [[idle-and-tycoon-games|more tycoon-style money games]] collection has similar titles."
+    ],
+    "faq": [
+      [
+        "How do I pick my starting lineup?",
+        "Open the Squad tab to change your starting XI. Choose players based on their fit for your tactics and how they have been developing."
+      ],
+      [
+        "How do I improve my team over time?",
+        "Use the Coaching section to improve your team. Since coaching costs money, plan it alongside your signings and stadium upgrades."
+      ]
+    ]
+  },
+  "gravity-zero": {
+    "intro": "Gravity Zero is a fast arcade game where you drag a basket to catch falling apples and chase the highest score. You can choose Speed Rounds for quick reactions or Survival for steady focus.",
+    "tips": [
+      "In Speed Rounds, stay near the centre of the screen so you can reach apples in either direction without a long move.",
+      "Watch the apples a moment before they land and move early, since the pace keeps rising and late moves cause misses.",
+      "In Survival, every missed apple brings you closer to game over, so prioritise safe catches over chasing risky ones.",
+      "If you enjoy objects falling and reacting to motion, try [[physics-games|more games built on physics]] to build similar timing skills."
+    ],
+    "faq": [
+      [
+        "How do I move the basket on a computer?",
+        "Drag the basket with your mouse, or use the left and right keys on your keyboard."
+      ],
+      [
+        "What changes as a Speed Round goes on?",
+        "The apples fall at an ever-increasing pace, so reaction time matters more the longer you play."
+      ]
+    ]
+  },
+  "tiny-billiard": {
+    "intro": "Tiny Billiard is a quick, colorful mini pool game played with one-touch controls. Clicking or tapping is all you need to take each shot, so you can jump straight into a match.",
+    "tips": [
+      "Keep your early shots simple and focus on making clean, controlled hits before you try anything flashy.",
+      "Try the crazy trick shots once you feel comfortable, since they are a fun way to challenge yourself and build skill.",
+      "Pay attention to how each cue looks and behaves as you unlock them, and pick the one that suits your style of play.",
+      "Play short matches often, since the quick format makes it easy to practice and improve bit by bit. If you enjoy the challenge, you can also explore more [[golf-and-pool-games|pool and billiards games]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I take a shot in Tiny Billiard?",
+        "You play with mouse clicks or taps, and the controls are designed to be one-touch, so each shot is quick to make."
+      ],
+      [
+        "What makes the different cues special?",
+        "Each cue has its own style and effects, so you can unlock several and switch to the one you like best."
+      ]
+    ]
+  },
+  "tincha-junior": {
+    "intro": "Tincha Junior is a gashapon prize-hunting game where you insert coins and spin machines to collect every unique prize. Your aim is to finish the set using as few coins as possible.",
+    "tips": [
+      "Each day has a fixed prize distribution, so note which machines have given you which prizes and plan your next spin around the gaps.",
+      "The CPU blocks machines on every turn, so if your preferred machine is closed, switch to another one instead of wasting coins on a worse choice.",
+      "Remember that every machine holds every prize, so you do not need to hunt for one particular machine to find a missing item.",
+      "The final two prizes are rare treasures, so save enough coins to chase them rather than spending everything on common duplicates early on.",
+      "If you enjoy planning a limited number of moves to beat a score, you may also like these [[clicker-games|quick tap games]] for similar short sessions."
+    ],
+    "faq": [
+      [
+        "How do I know which prize I still need?",
+        "Keep track of the prizes you have already collected each day, since the goal is to gather the full set. Use that list to decide which machine to spin next."
+      ],
+      [
+        "What should I do when the CPU blocks a machine?",
+        "Pick a different machine that still gives you a good chance at a prize you are missing. Blocked turns are meant to test your planning, so adapt rather than force the same choice."
+      ]
+    ]
   }
 }

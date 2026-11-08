@@ -5,46 +5,46 @@
  ],
  [
   "Do I need to make an account?",
-  "No. There is no account, no sign-up and no newsletter. You open a game and play."
+  "No. There is no account and no newsletter, so you can open a game and start playing."
  ],
  [
   "Do I have to download or install anything?",
-  "No. All of the roughly 9,070 games run in your browser and start instantly, with no download and no installs."
+  "No. The games run instantly in your browser, with no download and no install."
  ],
  [
   "Can I play on my phone or tablet?",
-  "Yes, for many games. Lots of them are made for touch and are collected in the Mobile category. Games built for a wide screen ask you to turn the phone sideways, and a few older games need a keyboard and mouse and say so on their page."
+  "Yes, for many games. Those made for touch are collected in the Mobile category, and games built for a wide screen will ask you to turn your phone sideways. A few older games need a keyboard and mouse, and they say so on their page."
  ],
  [
-  "Is it safe for my kids?",
-  "The site is family-friendly only, with no adult content, no gambling and no hate. Games for younger players are in the Kids category."
+  "Is the site safe for children?",
+  "The site only allows family-friendly games: no adult content, no gambling and no hate. Games for younger players are in the Kids category."
  ],
  [
   "Will my progress and favourites be saved?",
-  "Yes, but only in your own browser. Recently played games, favourites and your light or dark choice stay on your device and never leave it, and most games save their own progress the same way. Clearing your browser data or playing in private mode will lose them."
- ],
- [
-  "What are the cookie settings about?",
-  "If you are in Europe, you are asked before any non-essential cookies are used. You can change your choice at any time with \"Cookie settings\" in the footer."
+  "Your recently played games, favourites and light or dark choice are kept in your own browser and never leave your device. Most games also save their own progress the same way. The limitation is that clearing your browser data or using private mode will lose them."
  ],
  [
   "A game will not load. What can I do?",
-  "Some games are hosted by their developers, so one can fail on its own. If a game does not start, email us at contact@ilovewebgames.com with the game's name and we will look into it."
+  "If it still will not start, email us at contact@ilovewebgames.com and tell us which game it was. A real person will read your message."
  ],
  [
   "Where do the games come from?",
-  "Six games are made by Door 404, the Novi Sad studio that runs the site. The rest are licensed from Playgama, GameMonetize and GamePix, or sent in directly by 14 independent developers. We never copy games from other portals."
+  "Six games are made by Door 404, the studio that runs the site. The rest are licensed from the Playgama, GameMonetize and GamePix networks, plus 14 sent in directly by independent developers. We never copy games from other portals."
  ],
  [
-  "I made a game. Can I add it to the site?",
-  "Yes. Submitting is free and non-exclusive at https://ilovewebgames.com/submit-game/, and a real person plays every submission. An accepted game gets its own page that credits you and links back to you, while the game stays on your own server."
+  "How do I submit my own game?",
+  "Go to https://ilovewebgames.com/submit-game/. It is free and non-exclusive, and a real person plays every submission. If it is accepted, your game gets its own page that credits you and links back to you."
  ],
  [
-  "How do I get my game removed?",
-  "Email us at contact@ilovewebgames.com and we will take it down. You can ask for removal at any time."
+  "Can I have my game removed?",
+  "Yes, at any time. Accepted games stay hosted on your own server, so just email us at contact@ilovewebgames.com and we will take it down."
  ],
  [
-  "Can I put a game on my own website?",
-  "You can for the games made by Door 404. Each has an \"Embed this game\" box with ready-made code on its page. Games from other developers are not ours to licence, so we cannot offer embedding for those."
+  "Can I embed a game on my own website?",
+  "Only the site's own games, which have an \"Embed this game\" box with ready-made code on their page. Games from other developers are not ours to licence."
+ ],
+ [
+  "How do I reach a real person?",
+  "Email contact@ilovewebgames.com. The site is run by Door 404, an escape room and game studio from Novi Sad, Serbia."
  ]
 ]
