@@ -4324,6 +4324,7 @@ k-pop-hunters-valentine-style
 k-pop-makeover-idol
 k-pop-stars-inspired-look
 k-wedding-dream
+kaboom-miner
 kaido
 kaiju-run-dzilla-enemies
 kaiten-sushi
@@ -7645,6 +7646,7 @@ stickman-legion
 stickman-mega-boss-battles
 stickman-merge-2
 stickman-miners-wars
+stickman-night-defense
 stickman-night-survive
 stickman-prison-counter-assault
 stickman-prison-warriors
