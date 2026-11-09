@@ -178705,5 +178705,595 @@
         "Pick a different machine that still gives you a good chance at a prize you are missing. Blocked turns are meant to test your planning, so adapt rather than force the same choice."
       ]
     ]
+  },
+  "idle-junkyard-empire": {
+    "intro": "Idle Junkyard Empire is a 3D management game where you grow a small junkyard into a business. You collect salvage, stock shelves, serve customers, and upgrade your yard step by step.",
+    "tips": [
+      "Follow the tutorial pointers at the start so you learn which marked areas to visit first.",
+      "Keep a loop going: collect salvage, stock your shelves, then serve customers, so your yard keeps earning.",
+      "Check the shop and upgrade menus whenever you have money to spend, since expanding is how your business grows.",
+      "Before walking to a far area, look at which shelves or customers need attention so each trip covers more work. If you enjoy steady business-building games, you can also explore [[idle-and-tycoon-games|more idle tycoon games]]."
+    ],
+    "faq": [
+      [
+        "How do I move around the junkyard?",
+        "On desktop, use WASD or the arrow keys. On mobile, use the on-screen joystick."
+      ],
+      [
+        "What should I do first in the game?",
+        "Follow the tutorial pointers and move to the marked areas to collect salvage, stock shelves, and serve customers."
+      ]
+    ]
+  },
+  "pyramid-builders": {
+    "intro": "Pyramid Builders is a first-person clicker where you dig clay, mould bricks and stack them into monuments. You start by hand, then hire a crew to build faster while you work on the next order.",
+    "tips": [
+      "Hire your first workers early, since diggers and moulders multiply your output while you are busy with other jobs.",
+      "Use the rally horn (Q) when your crew is slow on a big push, but keep an eye on your costs so you do not overspend on help.",
+      "Let bricks dry on the rack before you carry them, so the stack you lay is ready to use and you do not waste trips.",
+      "Let the Alien Pact run at night so the work continues while you are away, then check the shop when you return to spend what you earned. If you enjoy this pace, try [[clicker-games|other clicker games to try]] for similar idle progress."
+    ],
+    "faq": [
+      [
+        "How do I start building the first pyramid?",
+        "Hold the left mouse button at the clay pit to dig, then use the shovel and moulding steps to make bricks. Carry them up to the pyramid and lay them one at a time."
+      ],
+      [
+        "What do the catapults do?",
+        "Catapults fling bricks onto the top of the pyramid, which helps you get bricks to the higher levels faster. You buy them from the shop."
+      ]
+    ]
+  },
+  "dream-room-arrangement-of-objects": {
+    "intro": "Dream Room: Arrangement of Objects is a relaxing puzzle about sorting, cleaning and arranging items in a room. Your aim is to place each object in the right spot and arrange furniture so the room feels comfortable.",
+    "tips": [
+      "Before you start dragging, look at the whole room and decide which objects belong together, so you can clear the floor in a sensible order.",
+      "Place larger furniture first, because it sets the layout and makes it easier to see where smaller items fit around it.",
+      "Keep items that go together near each other, such as pieces that belong to the same area of the house, to avoid moving them back and forth.",
+      "If a spot does not feel right, drag the object to another place and compare; the game encourages you to arrange things the way you like. If you enjoy this kind of calm thinking, you can find more [[puzzle-games|logic puzzles to try]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I move an object in the game?",
+        "On a computer, press and hold the left mouse button on the object and drag it to a suitable place. On a smartphone, press your finger on the object and drag it to where it belongs."
+      ],
+      [
+        "What is the goal of the game?",
+        "The goal is to place the items correctly in the room, so everything is in its place and the room feels comfortable."
+      ]
+    ]
+  },
+  "hydro-rush": {
+    "intro": "Hydro Rush is a speedboat racer on moving water, with three rivals across 12 stages. Steer, drift, grab nitro and use items to finish ahead of the pack.",
+    "tips": [
+      "Hold Down while you steer to drift around the buoys, and release it once your boat is pointed at the next straight so you exit the turn fast.",
+      "Save nitro for straights and ramp jumps rather than spending it in tight turns, where a burst can push your boat wide.",
+      "Watch the rivals before firing an item from Up or E, since torpedoes, oil and depth charges work best when the boat ahead is close and in your line.",
+      "Try the Time Trial mode with its ghost to learn the tight corners on each stage, then apply those lines in the career races. If you enjoy more fast-paced titles, you can browse [[racing-games|more fast racing titles]] on the site.",
+      "Spend the coins you earn on engine, hull and nitro upgrades. Pick the upgrade that matches how you race, such as better handling for drift-heavy stages."
+    ],
+    "faq": [
+      [
+        "How do I drift around the buoys?",
+        "Hold the Down arrow or S while steering left or right. Let go when you are lined up for the next section of the course."
+      ],
+      [
+        "What are the items used for?",
+        "Items include torpedoes, oil and depth charges. Press Up or E to use the item you have collected, and aim it at rivals who are close ahead of or behind you."
+      ]
+    ]
+  },
+  "eggcavation": {
+    "intro": "Eggcavation is a first-person clicker where you chip away at a giant egg, plate by plate, and sell the shards for cash. Your goal is to reach the glowing core and hatch it.",
+    "tips": [
+      "Spread your hits across different spots on the shell. Hitting the same place too hard is what makes the egg angry and sends you flying.",
+      "Watch the payout as it climbs. It grows until the egg wakes up, so decide when to back off before it throws you across the room.",
+      "Sell your shards at the terminal once your bucket fills, then spend the cash on a stronger tool such as a bigger pickaxe or a sledgehammer to speed up digging.",
+      "Check your daily missions, the 7-day gift and the Lucky Wheel regularly, since they add extra cash and loot. Progress saves automatically, so you can come back later without losing much. If you enjoy this style, you can find [[clicker-games|more clicker games to try]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I move and dig on desktop?",
+        "Use WASD to move and the mouse to look around. Hold left click to hit, press Q or right-click to use dynamite, and press E to lift."
+      ],
+      [
+        "How do I open the shop and buy items?",
+        "Press 1 to 7 to open the shop and menus, and press 1 to 8 to buy items inside them. Press Esc to pause."
+      ]
+    ]
+  },
+  "ring-unhook": {
+    "intro": "Ring Unhook is a calm rotating-ring puzzle where you spin hooked rings so their gaps line up with the hooks holding them. Work out the right order to free every ring and clear each level.",
+    "tips": [
+      "Before you spin anything, look for which ring is locked, chained, or threaded on a bar, since those must be dealt with in the right order.",
+      "Start with the rings that have the fewest connections, because freeing them often opens the way for the more tangled ones.",
+      "Try to beat the move target on each level to earn all 3 stars, so think through a plan before making moves.",
+      "Save the Hammer and Rocket for levels where you are truly stuck, since they are tools for breaking through tangles rather than everyday moves. If you enjoy this style of challenge, you can find more in [[brain-games|other brain teasers to try]].",
+      "Use Undo freely while you test ideas, and only use Hint when a level has you stuck for a while."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "You need to free every ring from its hooks, locks, chains, or bars to clear the level."
+      ],
+      [
+        "How do I earn 3 stars on a level?",
+        "Beat the move target for that level, which means finishing it in fewer moves than the target."
+      ]
+    ]
+  },
+  "mega-jump": {
+    "intro": "Mega Jump is an arcade jumping game where you climb as high as you can, grabbing coins and boosts while avoiding monsters, traps, and falls. Missing a grab ends the run, so steady, quick decisions matter.",
+    "tips": [
+      "Save your 5 Save Stars for moments when you are falling toward a missed platform, rather than using them early in a run.",
+      "Collect the colored Boost Stars when they are on your path, since each stronger color launches you higher and can carry you to new heights.",
+      "Trickster coins run away as you approach, so do not chase them across dangerous gaps; go for coins that are easy to reach and keep your jumps safe.",
+      "Pick up the Magnet or Umbrella power-ups when you see them, because they make collecting coins much easier and help you keep your focus on the platforms.",
+      "If you enjoy fast reflexes and quick decisions, you can find more [[running-games|fast reaction games to try]] on the site."
+    ],
+    "faq": [
+      [
+        "What happens if I miss a grab?",
+        "The run ends with Game Over, so you need to stay sharp and plan your next move quickly after each jump."
+      ],
+      [
+        "How do I move and jump in Mega Jump?",
+        "Use the arrow keys to move left or right and to land on platforms as you climb higher."
+      ]
+    ]
+  },
+  "police-chase-car-crash-3d": {
+    "intro": "Police Chase: Car Crash 3D is an endless arcade chase where you flee the police through never-repeating traffic. Your goal is to get as far as you can before your car is wrecked or you are busted.",
+    "tips": [
+      "Pass other cars closely to build up nitro, then save it for a moment when you need a burst of speed to break away from patrol cars.",
+      "Watch for roadblocks, spike strips and road works early and steer around them in good time, since braking hard at the last moment often causes a wreck.",
+      "Do not stop next to a police car, because staying still beside one is what gets you busted. Keep moving and look for a gap in traffic to pull away.",
+      "Use the handbrake drift with Space or the drift-style turns to change direction quickly in tight traffic without losing too much speed. Practise it on quieter stretches first.",
+      "If you enjoy high-speed crash chases, you can explore [[car-crash-games|more smash-up driving titles]] to compare how different games handle damage and traffic."
+    ],
+    "faq": [
+      [
+        "How do I take down police cars?",
+        "Ram them with your car. Hitting police cars is how you take them down during a chase."
+      ],
+      [
+        "How do I earn coins for upgrades?",
+        "Coins are collected during runs and spent in the garage on new cars and upgrades. Staying alive longer gives you more chances to collect them."
+      ]
+    ]
+  },
+  "my-dino-museum": {
+    "intro": "My Dino Museum is a 3D game about digging up sealed blocks, cleaning them, and building a giant dinosaur skeleton in your own museum. You move, carry, and brush your way through each trip home.",
+    "tips": [
+      "Heavier blocks are rarer but slow you down, so check how far home is before you grab one.",
+      "Brush blocks at a steady pace by holding E, and stop once the bone is visible so you do not waste time on the dirt around it.",
+      "Stomp along your finished bones to earn coins, then spend them on helpers to speed up the work.",
+      "Place bones in their correct spots as you go, so the skeleton takes shape and you do not have to rearrange it later. If you enjoy dino-themed play, [[dinosaur-games|more dinosaur games to try]] are worth a look."
+    ],
+    "faq": [
+      [
+        "How do I earn coins in My Dino Museum?",
+        "Stomp along your bones to earn coins. Coins can be used to hire helpers and expand your museum."
+      ],
+      [
+        "What does Space do?",
+        "Space makes your character jump. Use it to move around the dig and your museum."
+      ]
+    ]
+  },
+  "chibi-chuu": {
+    "intro": "Chibi Chuu is a merge puzzle where you drop squishy animal chibis and combine pairs into bigger ones. Seven modes each add a different twist to the same core idea.",
+    "tips": [
+      "Aim before you drop: the pile should stay under the dashed line, so place chibis where they can merge with a matching neighbour rather than piling on top of a different one.",
+      "Chain merges to build combos, since merges in a row score more points than single merges made one at a time.",
+      "Save the hammer for a chibi that is blocking a good merge, and use the paw when the pile gets stuck or uneven instead of waiting for it to settle on its own.",
+      "On a computer, use A and D for small aim adjustments and Space to drop, so you can place chibis precisely without dragging the mouse each time.",
+      "If you enjoy stacking and matching cute characters, try these [[animal-games|cute animal puzzle picks]] next for more of the same playful feel."
+    ],
+    "faq": [
+      [
+        "How do I score points in Chibi Chuu?",
+        "Score by merging two matching chibis into the next bigger one, and chain merges together to build a combo for more points."
+      ],
+      [
+        "What do the hammer and the paw do?",
+        "You earn the hammer to pop a single chibi and the paw to shake the pile loose when it gets stuck."
+      ]
+    ]
+  },
+  "apple-worm-greedy-puzzle-snake": {
+    "intro": "Apple Worm is a puzzle where your snake keeps tangling itself as it grows. Plan your route carefully so you reach the apple or the exit without trapping yourself.",
+    "tips": [
+      "Look a few moves ahead before each turn, since the description suggests planning three steps ahead is the key to avoiding a fatal twist.",
+      "Remember that the worm cannot move backward, so check that a turn will not send you into a dead end before you commit to it.",
+      "Use walls and platforms to squeeze through tight gaps, and pay attention to where your body is before you curl into a new space.",
+      "Scan the whole screen for the apple or exit first, then work out a path that leaves you room to keep moving afterward. If you enjoy this kind of route planning, [[brain-games|brain teasers that test planning]] are a good next step."
+    ],
+    "faq": [
+      [
+        "What is the goal of Apple Worm?",
+        "Your goal is to reach the apple or find the exit while keeping your snake from trapping itself. Collecting apples makes the worm greedier, but one wrong turn can end the run."
+      ],
+      [
+        "How do I control the worm?",
+        "Use the arrow keys or the on-screen buttons to steer. You cannot move backward, so each turn has to be planned with the current direction in mind."
+      ]
+    ]
+  },
+  "stickman-night-defense": {
+    "intro": "Stickman Night Defense mixes a factory build phase with first-person wall defense. Build up your ammo during the day, then hold the gate at night with the right weapon.",
+    "tips": [
+      "Spend your coins on the press and ammo storage upgrades early, so you have the rounds you need before the crowds get large.",
+      "Save the sniper for runners hiding behind trees, and use the rifle when enemies bunch up in the open ground.",
+      "Rockets clear groups at the wall and break shields, so switch to them when shielded enemies pile up against the gate.",
+      "Use the repair key (R) to keep the gate standing, since a broken gate is what ends your run. If you like defending a position against waves, [[tower-defense-games|lane-based defense games to try]] cover similar ideas.",
+      "Use the slow-motion (E) and air strike (Q) abilities when you are overwhelmed, and remember that each location has its own power to save for tough nights."
+    ],
+    "faq": [
+      [
+        "How do I switch between weapons?",
+        "Press 1 for the sniper, 2 for the rifle, and 3 for rockets. On mobile, tap the weapon icons."
+      ],
+      [
+        "How does the sniper zoom work?",
+        "Right click toggles the scope on a computer. On mobile, hold FIRE to zoom, slide the same finger to aim, and release to shoot."
+      ]
+    ]
+  },
+  "kaboom-miner": {
+    "intro": "Kaboom Miner is an explosive digging game where you place charges in the rock, blast it apart, and dig toward the center of the Earth. Each crater and treasure earns cash that you spend on stronger explosives and upgrades.",
+    "tips": [
+      "Tap the rock to place each charge and watch the circle, which shows how big the crater will be. Use it to line up overlapping craters before you press BLAST.",
+      "Place your charges so they go off in a chain, and blast next to treasures to collect them. Treasures pay more than plain rock, so aim your charges around them.",
+      "Spend early cash on a deeper drill or more charges per blast before buying bigger explosives. Going deeper unlocks new eras, and the rock gets harder in every zone.",
+      "Hire more miners in the shop, since your crew clears rubble and sells it to earn faster. Their income helps pay for the nukes you will need later.",
+      "Keep an eye on methane pockets, coal dust, old bombs, magma and oil, because they can explode on their own. Plan your next blast with them in mind, and save a nuke for a large crater when you are ready."
+    ],
+    "faq": [
+      [
+        "How do I know how big a crater will be before I blast?",
+        "The circle that appears when you tap the rock shows the crater's size. Check it before you place the next charge."
+      ],
+      [
+        "What is the best way to earn cash faster?",
+        "Blast next to treasures, since they earn more than plain rock. Hiring more miners also speeds up your income."
+      ]
+    ]
+  },
+  "happy-supermarket-3d-simulator": {
+    "intro": "Happy Supermarket 3D Simulator is a 3D tycoon game where you build a small shop into a busy supermarket. You stock shelves, serve customers, ring up their purchases, and spend your daily earnings on upgrades.",
+    "tips": [
+      "Stock the shelves fully before you welcome customers, so shoppers can find what they need without delays.",
+      "Use WASD to walk between the shelves and checkout, and keep an eye on where customers are waiting so no one is left standing too long.",
+      "Scan each customer's items at the checkout as soon as you can, since finishing purchases is how you turn stock into money.",
+      "Save some of your daily sales for expansion, but spend on upgrades that help your store run smoothly, such as better organization.",
+      "If you enjoy growing a business step by step, you can explore more [[idle-and-tycoon-games|tycoon games to play]] with similar management goals."
+    ],
+    "faq": [
+      [
+        "How do I earn money in Happy Supermarket 3D Simulator?",
+        "You earn money from daily sales when you complete customers' purchases at the checkout. Keeping your shelves stocked and your queue moving helps you sell more each day."
+      ],
+      [
+        "What should I spend my profits on first?",
+        "The game lets you use profits to improve and expand your supermarket. Focus on improvements that help you serve customers faster and keep the store organized."
+      ]
+    ]
+  },
+  "hero-evolution-endless-power": {
+    "intro": "Hero Evolution: Endless Power is an action survival game where you play Ratmir, an archer who fights waves of enemies and bosses. Your attacks fire automatically, so most of your focus goes into moving well and building your character.",
+    "tips": [
+      "Watch the ground for red circles and lines, since they mark attacks you need to step out of before they land.",
+      "Keep Space or Shift ready to dash through enemy projectiles when a crowd closes in, rather than waiting until you are surrounded.",
+      "Pick level-up upgrades that support one playstyle, such as a few skills you can build around, instead of spreading choices too thin.",
+      "Check the timer and the shrinking zone during boss fights, and move back inside the zone early so you are not forced into a bad position at the end.",
+      "Spend gold between runs on better gear and skill upgrades, and if you enjoy creature-fighting games, you can also browse [[monster-games|more monster battle games]] for similar challenges."
+    ],
+    "faq": [
+      [
+        "How do I defeat a lord in this game?",
+        "You must defeat the lord before the timer runs out, and you need to stay inside the shrinking zone while you fight. Dodging the red warning shapes on the ground helps you keep your health up during the fight."
+      ],
+      [
+        "What keys do I use for active skills?",
+        "Press keys 1 to 4, or F, to use your active skills. Your attacks happen automatically, so you do not need to press a button to shoot."
+      ]
+    ]
+  },
+  "asmr-tower-1-jump": {
+    "intro": "ASMR Tower: +1 Jump is a climbing game where your jump power grows with every step you take. Move through the tower, upgrade your jump, and get past the ASMR obstacles to reach the finish line.",
+    "tips": [
+      "Keep moving early on, since each step you take adds +1 jump power and that boost carries into your climb.",
+      "Spend the rewards you earn on upgrades that raise your jump before you attempt the taller sections.",
+      "Use the mouse to turn the camera and look ahead at each obstacle so you can plan your jump before you commit.",
+      "Break or crush the crunchy objects when they are within reach, since they give bonus rewards you can put toward upgrades.",
+      "If you like climbing and jumping challenges, you can find more [[parkour-and-obby-games|parkour and obby games]] to try after this one."
+    ],
+    "faq": [
+      [
+        "How do I get more jump power?",
+        "Every step you take gives you +1 jump power, so walking around and moving through the tower is the main way to build it up."
+      ],
+      [
+        "What should I spend my rewards on?",
+        "Buy upgrades that boost your jump, since a higher jump helps you clear taller obstacles and climb higher up the tower."
+      ]
+    ]
+  },
+  "math-mania": {
+    "intro": "Math Mania is a timed reflex game where you decide quickly whether a math equation is correct or wrong. Speed and accuracy both matter as the levels get harder.",
+    "tips": [
+      "Read the left side of each equation first and work out the answer in your head before you respond, instead of waiting until the timer is almost gone.",
+      "Focus on accuracy early on, since correct answers are what raise the difficulty and speed up the game.",
+      "Practice simple addition and subtraction with small numbers, because quick checks on those help you stay fast when equations get more frequent.",
+      "Keep your eyes on the equation and not the timer, so you do not rush and tap the wrong answer by mistake.",
+      "If you enjoy building quick number skills, try [[sudoku-and-number-puzzles|other number puzzles for practice]] to sharpen your mental math between sessions."
+    ],
+    "faq": [
+      [
+        "How do I answer each equation?",
+        "Tap if the equation is correct, or tap the wrong option if it is false. On desktop, click instead of tapping."
+      ],
+      [
+        "What happens as I play longer?",
+        "The game has endless levels, and the speed increases with each level. Difficulty also rises after every few correct answers."
+      ]
+    ]
+  },
+  "finger-soccer-footbal-game": {
+    "intro": "Finger Soccer is a 2D football game built around drag-and-flick controls. You can play alone, challenge a friend offline, or work through tournaments and penalty shootouts.",
+    "tips": [
+      "Spend a few minutes in a practice match testing different drag lengths and flick speeds to learn how they affect the ball before you play for real.",
+      "Watch how the ball bounces off the walls and players so you can plan shots that rebound into the goal.",
+      "When you play 2 Player offline, take turns calmly rather than rushing, since most points come from careful, well-timed flicks.",
+      "In penalty shootouts, pick a side early, flick with consistent force, and vary your target so the goalkeeper cannot predict you.",
+      "Once you feel comfortable with the controls, try other [[soccer-games|football games to compare]] to see which style of play suits you best."
+    ],
+    "faq": [
+      [
+        "How do I control my player in Finger Soccer?",
+        "You drag your finger across the screen and release to flick the ball, so the drag direction and length decide where and how hard it goes."
+      ],
+      [
+        "What is the best way to win a penalty shootout?",
+        "Choose a target quickly, keep your flick smooth, and avoid repeating the same shot, because predictable kicks are easier to save."
+      ]
+    ]
+  },
+  "sudoku-puzzle-master": {
+    "intro": "Sudoku Puzzle Master offers thousands of number puzzles across multiple difficulty levels, so beginners and experienced players can both find a fitting challenge. You fill the grid by selecting cells and entering numbers from 1 to 9.",
+    "tips": [
+      "Start with a lower difficulty level if you are new to Sudoku, then move up once you are comfortable placing numbers without help.",
+      "Use Pencil Notes mode to jot down every number that could fit a cell, so you can spot cells with only one possibility as the grid fills in.",
+      "Work on the cells that have the fewest candidate numbers first, since each correct placement makes the rest of the grid easier to solve.",
+      "Use the Erase button as soon as you spot a wrong number, because a single mistake can block progress in other rows, columns, and boxes.",
+      "If you want more grid-based number challenges after finishing a set, explore [[sudoku-and-number-puzzles|more number puzzles to try]] for similar practice."
+    ],
+    "faq": [
+      [
+        "How do I place a number in the grid?",
+        "Tap a cell to select it, then tap a number from 1 to 9 to fill it in."
+      ],
+      [
+        "What does Pencil Notes mode do?",
+        "It lets you add possible numbers to a cell without committing to them, which helps you track options while you solve."
+      ]
+    ]
+  },
+  "woodpuz-block-puzzle-games": {
+    "intro": "WoodPuz is a collection of block and sorting puzzles. You can drag wooden blocks onto a grid, sort water bottles by color, or align dice to merge them. Each mini-game asks you to plan a little before you move.",
+    "tips": [
+      "In the block games, check where a piece fits before you drop it, so the grid stays open for the pieces still to come.",
+      "In Water Sort, look at the top color of each bottle before pouring, and aim to empty a bottle completely so you can reuse it.",
+      "In Dice Merge, look for lines of three or more matching dice first, since you need at least three aligned to make a merge.",
+      "If you get stuck, step back and try a different mini-game for a few minutes, then return with fresh eyes. For more logic challenges, browse [[puzzle-games|other puzzle games to try]]."
+    ],
+    "faq": [
+      [
+        "How do I score points in Wood Cube?",
+        "Drag the wooden blocks onto the grid to form complete shapes, and points are scored as you do this."
+      ],
+      [
+        "How do I win Water Sort?",
+        "Arrange the water bottles so that each one is completely filled with water of a single color."
+      ]
+    ]
+  },
+  "basket-fill-ball-puzzle": {
+    "intro": "Basket Fill is a sports puzzle game where you draw arrows to guide colorful balls into matching baskets. Across 120 levels, you'll work around portals, magnets, spinning wheels and wall bumpers.",
+    "tips": [
+      "Look at the whole level before drawing anything, and find which ball goes into which basket first.",
+      "Keep your arrows short and simple, so you can adjust them quickly when an obstacle changes the ball's path.",
+      "Try to set up two or more balls so they reach their baskets at about the same time, which is how you build SLAM DUNK combos.",
+      "Save your special balls for levels where their behavior solves a problem, rather than using them on the first try.",
+      "If you enjoy planning routes like this, you may also like these [[puzzle-games|logic puzzle games]]."
+    ],
+    "faq": [
+      [
+        "How do I score a SLAM DUNK combo?",
+        "Score multiple baskets at the same time by getting several balls into their matching baskets simultaneously."
+      ],
+      [
+        "What are the special balls for?",
+        "The five special balls are ghost, heavy, bouncy, split and rainbow, and each one helps you get through obstacles in different ways."
+      ]
+    ]
+  },
+  "orbit-rush-3d": {
+    "intro": "Orbit Rush 3D puts you in control of a ball inside a rotating tunnel. Steer through the gaps in rushing obstacle rings, collect gems, and see how long you can survive as the speed keeps rising.",
+    "tips": [
+      "Watch the gaps well before the rings reach you, so you have time to line up with the opening instead of reacting at the last moment.",
+      "Collect gems whenever they are safe to reach, since they add to your progress and help you build toward a higher score.",
+      "Save the score-doubling power-up for a stretch where you are collecting many gems, so its bonus counts for more.",
+      "Keep the slow-down power-up for the fastest, most crowded moments, when extra time makes the gaps easier to read.",
+      "If you enjoy fast-paced 3D challenges like this, you can find more in the [[3d-games|3D game picks]] collection."
+    ],
+    "faq": [
+      [
+        "What is the goal of Orbit Rush 3D?",
+        "Your goal is to survive as long as you can by dodging obstacle rings and passing through their gaps. The longer you last, the farther you go."
+      ],
+      [
+        "How do I control the ball?",
+        "The game is played with a mouse click or a tap. Use this to keep the ball moving safely through the tunnel."
+      ]
+    ]
+  },
+  "sudoku-for-bro": {
+    "intro": "Sudoku for Bro is a 9×9 number puzzle where you fill every row, column, and 3×3 box with the digits 1 to 9. It offers several difficulty levels, so it suits both new and experienced players.",
+    "tips": [
+      "Start with the rows, columns, or 3×3 boxes that already have the most numbers filled in, since they leave the fewest options.",
+      "Look for cells where only one number can fit, and fill those first before trying harder spots.",
+      "Use the mistake check after you complete a section, so an error doesn't spread through the rest of the grid.",
+      "Pencil your possible numbers mentally or on paper for tricky cells, and cross them off as neighbouring cells get filled. If you want more practice after this, try [[sudoku-and-number-puzzles|more number puzzles to try]]."
+    ],
+    "faq": [
+      [
+        "How do I place a number in a cell?",
+        "Click or tap an empty cell to select it, then press a key from 1 to 9 on your keyboard. Use Backspace or Delete to clear a cell you want to change."
+      ],
+      [
+        "What happens if I get stuck?",
+        "You can use the hint button, but it requires watching an advertisement to receive a correct hint. You can also check your progress for mistakes or solve the puzzle instantly to see the solution."
+      ]
+    ]
+  },
+  "spatial-inverse-gravity-puzzle-adventure": {
+    "intro": "Spatial Inverse is a physics puzzle where you place blocks, bounce pads, and portals on a grid, then start the simulation to guide glowing marbles to their goals. Its 15 levels across 3 sci-fi worlds ask you to rethink direction and momentum.",
+    "tips": [
+      "Before placing anything, watch where the marble would fall or roll with no gadgets at all, so you know which direction it needs to be pushed.",
+      "Test small changes by pressing Space to run the simulation, then stop and adjust one gadget at a time instead of rebuilding the whole layout.",
+      "Right-click a bounce pad to rotate it before you run the level, since its angle decides whether the marble gets launched toward the goal or away from it.",
+      "Use the R key to reset quickly when a plan fails, and remember that a clean restart often shows you the mistake faster than trying to patch a messy setup. For more logic challenges, try these [[brain-games|brain teaser collection]].",
+      "Turn on Fast-Forward with the F key once you trust your setup, so you can watch longer paths play out without waiting in real time."
+    ],
+    "faq": [
+      [
+        "How do I remove a gadget I placed in the wrong spot?",
+        "Right-click the gadget on the grid to remove it. Right-clicking a bounce pad rotates it instead, so use that option when you only need to change its angle."
+      ],
+      [
+        "What does the Space key do during a level?",
+        "Spacebar starts the simulation and stops it again. Use it to check your gadget layout and pause to make changes."
+      ]
+    ]
+  },
+  "deadly-hunters-run": {
+    "intro": "Deadly Hunters Run is an endless runner where you keep little Hunter ahead of a hungry lion. You dodge obstacles, cross chasms on a rope, and pick up strawberries while you race through changing landscapes.",
+    "tips": [
+      "Watch the path ahead rather than your character, so you can start dodging obstacles before they reach you.",
+      "Use the arrow keys or W, A, S and D to switch moves quickly, and avoid pressing too many keys at once when a jump is coming.",
+      "Time your moves over chasms carefully, since the rope crossings are where a missed step is most likely to end your run.",
+      "Grab strawberries when they are safe to reach, but don't let chasing them pull you into a dangerous spot.",
+      "If you want more fast-paced games with similar challenges, try [[running-games|more running games to test your reflexes]]."
+    ],
+    "faq": [
+      [
+        "How do I move Hunter forward and back?",
+        "Press the Up Arrow or W to go forward and the Down Arrow or S to go back."
+      ],
+      [
+        "How do I steer Hunter left and right?",
+        "Use the Left Arrow or A to move left and the Right Arrow or D to move right."
+      ]
+    ]
+  },
+  "image-block-puzzle": {
+    "intro": "Image Block Puzzle splits a picture into a grid of blocks, and you click each block to rotate it until the original image is rebuilt. It comes in 2x2, 3x3, 4x4, and 5x5 sizes.",
+    "tips": [
+      "Start with the 2x2 grid to learn how a single click changes a block before you move on to larger grids.",
+      "Each click turns a block 90 degrees counterclockwise, so a block that needs a clockwise turn takes three clicks. Count the clicks you need before you start clicking.",
+      "Look for blocks with a clear edge, such as the sky, a border, or a straight line, and place those first. They give you a fixed point to build around.",
+      "If you enjoy matching shapes and orientations, [[block-puzzle-games|more block puzzles to try]] can give you similar practice with different layouts."
+    ],
+    "faq": [
+      [
+        "What is the goal of Image Block Puzzle?",
+        "The goal is to rotate the blocks so the original image is put back together correctly."
+      ],
+      [
+        "How do I rotate a block?",
+        "Click or tap a block to turn it 90 degrees counterclockwise."
+      ]
+    ]
+  },
+  "the-rise-of-zombies": {
+    "intro": "The Rise Of Zombies is a real-time strategy game where you lead a growing horde against human survivors. Your goal is to infect humans, grow your army, and wipe out the survivors before they wipe you out.",
+    "tips": [
+      "Plan your attacks around the day-night cycle, since humans shoot more accurately during the day and are weaker and less aggressive at night.",
+      "Keep an eye out for meteors and send your horde to collect them, because they unlock mutations that boost zombie speed and strength.",
+      "Infect survivors on close contact to turn them into allies quickly, so steer your horde through groups of humans rather than around them.",
+      "Pause with P whenever the battle gets busy, so you can review where humans are roaming and reposition your horde calmly. If you enjoy this kind of horde management, you can explore [[zombie-games|more undead titles to try]].",
+      "Use the screen edges to scroll the camera, so you can watch both your growing army and the humans who panic and fight back."
+    ],
+    "faq": [
+      [
+        "How do I direct my zombie horde?",
+        "Click on the map or on a meteor to set your horde's waypoint. The horde will move to that spot."
+      ],
+      [
+        "What happens when a zombie touches a human?",
+        "Zombies infect survivors on close contact, and the survivor instantly becomes an ally in your army."
+      ]
+    ]
+  },
+  "sudoku-vault": {
+    "intro": "Sudoku Vault is a logic puzzle with 4x4, 6x6, and 9x9 boards, each offered at Basic, Normal, Hard, and Expert levels. Pick a board size and difficulty that match your current skill.",
+    "tips": [
+      "Start with a 4x4 or 6x6 board at Basic or Normal to learn how the number pad and cell selection work before moving to larger grids.",
+      "Use the Note button to pencil in the possible numbers for each empty cell, then remove candidates as you rule them out.",
+      "Look for cells with only one possible number first, since filling those usually unlocks new options in the same row, column, or block.",
+      "Tap Check after you have filled in a section, not after every single move. Incorrect numbers are removed and correct ones are locked, so you can see where your reasoning went wrong. If you enjoy this style, more [[sudoku-and-number-puzzles|sudoku and number puzzles]] can give you extra practice."
+    ],
+    "faq": [
+      [
+        "How do I fill in a cell?",
+        "Click or tap an empty cell to select it, then choose a number from the on-screen number pad. Use the Note button if you want to add a pencil mark instead of a final number."
+      ],
+      [
+        "What happens when I press Check?",
+        "Any wrong numbers are removed from the grid and the correct ones are locked in place. Locked cells cannot be changed, so you can rely on them as fixed clues."
+      ]
+    ]
+  },
+  "crypto-detective-finder": {
+    "intro": "Crypto Detective Finder is a crypto-themed clicker where coins flow in from both sides. Your job is to pick out the crypto coins and avoid the rest, testing your focus and reflexes.",
+    "tips": [
+      "Keep your eyes on the centre of the screen so you can spot coins coming from both sides at once.",
+      "Only the crypto coins count, so decide quickly whether each coin is one you should collect and leave the others alone.",
+      "Since accurate taps raise your score, avoid mistakes rather than rushing; a wrong pick can cost you more than a slow one.",
+      "Expect the pace to pick up as the difficulty rises, so settle into a steady rhythm early instead of reacting in a panic later.",
+      "If you enjoy quick reaction games, you can browse more options in [[clicker-games|more fast tapping titles]]."
+    ],
+    "faq": [
+      [
+        "How do I know which coins to collect?",
+        "Only the crypto coins are the ones to collect. Leave all the other coins alone, since tapping them lowers your accuracy."
+      ],
+      [
+        "How is my score calculated?",
+        "The more accurate your taps are, the higher your score. Careful selection matters more than tapping as many coins as you can."
+      ]
+    ]
+  },
+  "big-catch-fishing": {
+    "intro": "Big Catch Fishing is a shooting game where you play as a cute cat dropping a hook into the water. Collect fish on the way down and up, then shoot them to earn coins for upgrades.",
+    "tips": [
+      "Move the hook left and right while it sinks, since that is when you collect fish. Spend a few seconds sweeping across the water rather than dropping straight down.",
+      "Spend your early coins on line speed or line distance so each cast gets back to the surface faster and reaches more fish.",
+      "Upgrade your weapon when you notice fish escaping before you can tap them. Better weapons give you more ways to finish off fish during the shooting phase.",
+      "Try the lights and electric shocks as extra help when fish are spread out or hard to reach. They are meant to help you catch more in each run.",
+      "If you enjoy mixing aiming with fishing, you can browse more fishing titles to try next in [[fishing-games|fishing titles to try]]."
+    ],
+    "faq": [
+      [
+        "How do I collect the most fish with one drop of the hook?",
+        "Tap to drop the hook, then hold and drag it left and right while it sinks. Covering more of the water on the way down gives you more chances to collect fish."
+      ],
+      [
+        "What should I buy first in the shop?",
+        "The shop offers line distance, line speed, weapon upgrades, and lights. Pick the upgrade that fixes the part of your last run that went worst, such as slow returns or fish you could not reach."
+      ]
+    ]
   }
 }
