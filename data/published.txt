@@ -5338,6 +5338,7 @@ my-clearn-robot
 my-cute-restaurant
 my-cute-virtual-pet
 my-dentist
+my-dino-museum
 my-dogy-virtual-pet
 my-doll-house-decor-life
 my-dreamy-room-home-design
@@ -8733,6 +8734,7 @@ weapon-upgrade
 weapons-merge-hero
 weaponsmith-evolution-weapon-merge
 wear-the-helmet
+web-shoot-1
 web-swing-obby-aqualand
 wedding-artist2
 wedding-beauty-makeup-salon-indian-designer
