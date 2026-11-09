@@ -3747,6 +3747,7 @@ happy-hopper
 happy-jelly
 happy-obby-land
 happy-orange-glass
+happy-supermarket-3d-simulator
 happy-swing
 happy-unicorn-magic-leaps
 happy-valentines-day-coloring
@@ -6283,6 +6284,7 @@ pull-the-pin-rescue
 pull-the-thread-puzzle
 pull-up-bar-tricks
 pulse-of-fear
+pulse-wing
 pumper-crazy-defence
 pumpkin-blast
 pumpkin-dungeon-of-doom
