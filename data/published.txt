@@ -343,6 +343,7 @@ apex-rush
 apexcircuit
 apocalypse-rush
 apple-worm-2
+apple-worm-greedy-puzzle-snake
 aqua-escape
 aqua-fish-dental-care
 aqua-fish-rush
@@ -453,6 +454,7 @@ asmr-mini-puzzle-games-2024
 asmr-obby-slicer
 asmr-pet-treatment
 asmr-spa
+asmr-tower-1-jump
 asphalt-legend
 assassin-commando-car-driving
 assassin-ninja-rush
@@ -763,6 +765,7 @@ billy-the-kid-2
 binary-balls
 binary-drop
 bingo-mania
+bioshock-last-light
 biozombie-outbreak
 bird-game-clicker
 bird-in-danger
@@ -1586,6 +1589,7 @@ chess4d
 chessvola-puzzles
 chibi-anime-princess-doll
 chibi-chuu
+chicago-mayhem
 chicken-and-crow-shoot
 chicken-banana-pen
 chicken-charge-race
@@ -2200,6 +2204,7 @@ darling-doll-diy-paper-doll
 dart-duell-timing-champion
 darts-pro
 daruma-matching
+dash-and-slash
 dash-hero
 dash-masters
 dashmash-io
@@ -2536,6 +2541,7 @@ dream-mania-happy-match
 dream-puppy-spot-the-differences
 dream-restaurant-tycoon
 dream-room
+dream-room-arrangement-of-objects
 dream-supermarket-3d-shop
 dream-wedding-dress-up
 dreamblox
@@ -2737,6 +2743,7 @@ endless-z-survivor
 english-checkers
 english-checkers-online-multiplayer
 english-training-book
+eon-planet-evolution
 epic-basketball
 epic-battle-simulator
 epic-battle-simulator-2
@@ -2805,6 +2812,7 @@ evo-city-driving
 evolution-arena-battle-royale
 evolution-era
 evolution-of-hamster-clicker
+evolution-simulator
 evolution-survival
 evolve-numbers
 evowarriors-fun
@@ -3821,6 +3829,7 @@ helptheduck
 hen-bubble-go-up-game
 hero-city
 hero-defense-king
+hero-evolution-endless-power
 hero-inc
 hero-jump-city-nights
 hero-merge
@@ -4064,6 +4073,7 @@ huskeydoku
 hyber-dash
 hydrasword
 hydro-racing-3d
+hydro-rush
 hyper-cakes
 hyper-cars-ramp-crash
 hyper-wave-trial
@@ -4121,6 +4131,7 @@ idle-gravity-breakout
 idle-hotel-empire-tycoon
 idle-influencer-simulator
 idle-island-build-and-survive
+idle-junkyard-empire
 idle-landmark-builder
 idle-magic-academy-tycoon
 idle-noob-lumberjack
@@ -5232,6 +5243,7 @@ moto-flow
 moto-maniac-3
 moto-obby
 moto-race-city
+moto-rush-stadium-sprint
 moto-stuntman
 moto-stunts-driving-racing
 moto-traffic-rider
@@ -6331,6 +6343,7 @@ puzzlebubble
 puzzledom-one-line
 puzzlemaster
 pyramid
+pyramid-builders
 pyropairs
 qblock-puzzle
 quack-quest
@@ -7437,6 +7450,7 @@ sportix
 sportloop
 sports-escape-mania
 sports-minibattles
+sporty-chic-athleisure
 sporty-viper
 spot-6-differences
 spot-differences-bird-adventure
@@ -7785,6 +7799,7 @@ sunny-farm-animal-simulator
 sunny-farm-match-3
 sunny-fields
 sunny-spell
+sunny-wheels-adventure
 supa-tic-tac-toe
 super-alien-rabbit
 super-ball-blast
@@ -8205,6 +8220,7 @@ tidal-kart
 tide-and-powder
 tidematch
 tideroll-block-puzzle
+tidewash
 tidewell
 tidy-bot
 tidy-up-satisfeel-asmr
@@ -8445,6 +8461,7 @@ truck-slam
 truck-space-2
 truck-transport-simulator
 true-or-false-game-26
+trust-issues-lying-signs
 try-again
 try-to-count-the-boxes-brain-training
 trz-battleship
