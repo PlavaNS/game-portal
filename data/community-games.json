@@ -365,30 +365,5 @@
     ],
     "embed": "https://snake-trail-chris.surge.sh/",
     "thumb": "https://ilovewebgames.com/assets/community/snake-trail.jpg?v=1"
-  },
-  {
-    "studio": "Sinan Wong",
-    "studioUrl": "https://vibestead.org/",
-    "added": "2026-11-10",
-    "orientation": "any",
-    "slug": "vibestead",
-    "title": "Vibestead",
-    "short": "Build a cozy village: hire loggers, run the mill, fill orders and grow your town.",
-    "description": "Vibestead is a cozy village management game. Hire workers, watch timber turn into goods on automatic production lines, take orders and deliver them, then spend your earnings on a new home and welcome neighbours into your village. Production keeps running while you are away, and there is always another upgrade to chase. Controls are simple: drag to move the camera, scroll or pinch to zoom, and click equipment to manage it.",
-    "instructions": "Hire loggers on the Workers page. Open Orders and accept an offer to make your first sale. Use your customer gift to build your first home. Drag to move the camera and scroll or pinch to zoom. Press Esc to close a panel.",
-    "category": "simulation",
-    "extraCats": [
-      "casual",
-      "mobile"
-    ],
-    "tags": [
-      "Village",
-      "Management",
-      "Idle",
-      "Casual",
-      "Simulation"
-    ],
-    "embed": "https://vibestead.org/",
-    "thumb": "https://ilovewebgames.com/assets/community/vibestead.jpg?v=1"
   }
 ]
