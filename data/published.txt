@@ -407,6 +407,7 @@ arrow-free-3d
 arrow-jam
 arrow-jamescape
 arrow-out
+arrow-out-puzzle-escape
 arrow-parking
 arrow-patrol
 arrow-pop
@@ -7255,6 +7256,7 @@ snow-track-racing-3d
 snowball-dash
 snowball-platformer
 snowball-rush
+snowbattle-io
 snowboard-game
 snowboard-game-party
 snowboard-knockout-race-game
