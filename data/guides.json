@@ -179295,5 +179295,563 @@
         "The shop offers line distance, line speed, weapon upgrades, and lights. Pick the upgrade that fixes the part of your last run that went worst, such as slow returns or fish you could not reach."
       ]
     ]
+  },
+  "hero-vs-traps": {
+    "intro": "Hero vs Traps is a hypercasual arcade game where you guide a hero through dangerous levels full of moving saws, mechanisms, and bosses. Each stage has its own objective, so read it carefully before you move.",
+    "tips": [
+      "Before you move, watch the saws for a few cycles and note when they pass your path. Advance only when you have a clear safe window.",
+      "Read the objective at the start of each stage. Reaching the exit, surviving the timer, collecting chests, and activating objects each call for a different approach.",
+      "Keep your drag steady and release early when you need to stop. Since the hero follows your pointer, overshooting a turn is a common way to hit a blade.",
+      "Save crystals for the shop when you can. A speed boost helps you cross the most dangerous areas faster, and revival can give you a second chance after a mistake.",
+      "If a boss or locked passage stalls you, step back and study its pattern before trying again. Patience with timing usually beats rushing."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Hero vs Traps?",
+        "Each stage has its own objective, such as reaching the exit, surviving until the timer ends, collecting chests, or activating required objects. Check the goal before each stage starts."
+      ],
+      [
+        "How do I control the hero?",
+        "Hold the left mouse button or touch the screen, then drag in the direction you want. The hero follows your movement and stops when you release."
+      ]
+    ]
+  },
+  "police-department-3d": {
+    "intro": "Police Department 3D is a prison management game where you are the sheriff turning a jail into a profitable business. You build, hire, and balance security against your budget as the prison grows.",
+    "tips": [
+      "Watch security and budget together, since every decision affects both. Spending heavily on new blocks can leave you short if order slips, so keep an eye on both before committing.",
+      "Hire guards before your prison gets crowded. Keeping order is what lets you manage more inmates safely as you expand.",
+      "Earn money through manufacturing and services early on. Income from workshops and canteens is what pays for the bigger builds later.",
+      "Grow in stages rather than all at once. Build and upgrade cells, canteens, and workshops one step at a time so you can see how each change affects your income.",
+      "If you enjoy running a business from the sheriff's chair, more [[idle-and-tycoon-games|idle and tycoon games]] share this build-and-earn style."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Police Department 3D?",
+        "Your goal is to build the largest prison you can, earn as much money as possible, and rise to the top of the sheriff rankings."
+      ],
+      [
+        "How do I move around and take actions?",
+        "On PC, use WASD to walk around the prison and click with the mouse on buildings, inmates, or menus to build and upgrade. On mobile, you move with the joystick."
+      ]
+    ]
+  },
+  "cozy-garden": {
+    "intro": "Cozy Garden is a calm cleaning and decorating game where you restore neglected outdoor spaces. You clear trash, rake leaves, grow flowers, and add decorations as each location slowly changes.",
+    "tips": [
+      "Clear the trash first, since it is usually the quickest way to see what else needs work in an area.",
+      "Follow the on-screen hints closely and use the correct tool for each cleaning task rather than switching tools at random.",
+      "When growing plants, select your seeds and then perform the actions shown, in order, so each plant gets the care it needs.",
+      "Mini-games test memory, attention, and reaction speed, so take a breath before each one and focus on the most important detail on screen.",
+      "If you enjoy slow, calm play, you might also like more [[relaxing-games|games to unwind with]] after finishing a level."
+    ],
+    "faq": [
+      [
+        "How do I unlock new levels?",
+        "Complete the tasks in an available level on the map, and the next levels open up as you progress."
+      ],
+      [
+        "What should I do when I am not sure which tool to use?",
+        "Read the on-screen hint for the current task, since it shows which tool or action each cleaning job calls for."
+      ]
+    ]
+  },
+  "strike-a-pose": {
+    "intro": "Strike a Pose is an arcade runner where you bend and stretch past obstacles on indoor tracks. Timing your moves and collecting gems are the keys to a high score.",
+    "tips": [
+      "Watch the obstacle ahead before you commit to a move, so you can start bending or stretching in time to slip through the tight gaps.",
+      "Make small, controlled drags left or right instead of large swings, since a quick overcorrection can take you into the next obstacle.",
+      "Keep an eye on the gems as you plan your route, and pick up the ones that fit your path without forcing risky moves.",
+      "Try the extreme poses when the timing is comfortable, because they are worth extra points but leave less room for error.",
+      "Practise on short runs first to learn the rhythm of the obstacles, then play longer runs once your reactions feel steady. If you enjoy this style of play, you can browse more [[games-for-girls|picks like this one]]."
+    ],
+    "faq": [
+      [
+        "How do I control my character?",
+        "Hold the mouse button and drag left or right to move. On touch screens, swipe left or right instead."
+      ],
+      [
+        "How do I earn points?",
+        "Collect the shiny gems along the track and score extra points by performing extreme poses."
+      ]
+    ]
+  },
+  "dash-and-slash": {
+    "intro": "Dash & Slash is a fast fighting game where you play a stickman ninja with a sword. Each short arena asks you to plan a path, dodge hazards, and strike enemies in the right order.",
+    "tips": [
+      "Before you launch, look at the whole arena and work out which enemy you will hit first and which one comes next. A clear order keeps your dashes short and your path clean.",
+      "Keep your aim tight on enemies. Since every dash is a single motion, a slightly off direction can send you past a target or into an obstacle.",
+      "Watch the dangerous obstacles before you commit to a dash. If the path to your next target crosses a hazard, adjust the angle or pick a different enemy first.",
+      "Levels are short, so restart quickly if a plan falls apart early. Learning the layout by repetition usually beats trying to improvise a long route.",
+      "If you like quick, precise combat like this, you may enjoy the [[ninja-and-fighting-games|ninja and fighting picks]] collection for more titles with similar pace."
+    ],
+    "faq": [
+      [
+        "How do I start a dash?",
+        "On desktop, hold the left mouse button, point in the direction you want to go, and release to launch into a sword dash. On a phone or tablet, swipe across the screen in that direction."
+      ],
+      [
+        "What should I focus on to clear each arena?",
+        "Focus on planning the order of your strikes and avoiding danger. Aim directly at enemies so each dash lands a hit."
+      ]
+    ]
+  },
+  "deadpack": {
+    "intro": "Deadpack is an auto-battler where your hero fights on its own, so your preparation decides the outcome. You arrange weapons and gear in a limited backpack before each battle.",
+    "tips": [
+      "Before each battle, check which weapon types you have and plan your backpack around them, since the hero attacks automatically and your setup does most of the work.",
+      "Look for two identical items of the same rank and drag one onto the other to merge them into a stronger version, which is often worth more than carrying extra loose gear.",
+      "Use your reserve as a holding area for items you may need later, and move gear into the backpack only when it fits the enemies you expect to face.",
+      "When you level up, choose skills that complement the weapons you already use instead of picking at random, so your build stays focused.",
+      "Spend gold between adventures on expanding your backpack or upgrading weapons, since extra space lets you carry more merge options into the next wave."
+    ],
+    "faq": [
+      [
+        "How do I merge items in Deadpack?",
+        "Drag one item onto another of the same type and rank to combine them into a stronger version. Merging is the main way to increase your power."
+      ],
+      [
+        "Can I control how my hero fights during a battle?",
+        "No, the hero attacks automatically. Your influence comes from choosing what to pack, equip, and merge before the fight begins."
+      ]
+    ]
+  },
+  "splash-rush": {
+    "intro": "Splash Rush is a fast water slide racer where you steer down giant slides, dodge rivals, and glide over parts of the track. Your aim is to finish in the top 3 as you move through its levels.",
+    "tips": [
+      "Steer hard toward the edge of the slide when you want to launch off it, and try it at different points to learn where the jumps send you.",
+      "Hold Space or keep your finger down to open your glider when you spot a gap or shortcut, then release to dive back onto the track.",
+      "Keep an eye on rivals around you and steer early to avoid them, since a clean line usually keeps your speed up.",
+      "Grab coins when they sit on your route, but don't let a detour push you out of the top 3.",
+      "If you enjoy quick races against other players, you can check out [[io-games|more .io titles to try]] for similar fast-paced matches."
+    ],
+    "faq": [
+      [
+        "How do I launch off the slide?",
+        "Steer hard toward the edge of the slide to launch off it. Timing the steer matters, so practice on different parts of the track."
+      ],
+      [
+        "What does the glider do?",
+        "Hold Space or keep your finger down to open the glider, and release it to dive back down. It helps you skip parts of the track."
+      ]
+    ]
+  },
+  "football-wars": {
+    "intro": "Football Wars mixes fast team soccer with weapons and no referee. This guide covers the controls and a few habits that help you score and stay in the match.",
+    "tips": [
+      "Pass with the right mouse button when a teammate is in a better position, since holding the ball too long lets opponents close in.",
+      "Use E to tackle when an opponent is about to reach the ball, and time it before they get past you.",
+      "Save Shift for bursts toward open space or loose balls, because sprinting all the time makes it harder to control your aim and kicks.",
+      "Check the lobby shop, heroes, and battlepass between matches so you know which hero and skins you are working toward, and pick a hero whose style suits how you like to play. If you enjoy the football side, you can also find [[soccer-games|more soccer games to try]].",
+      "Keep your eye on the ball and the goal rather than only on enemies, so you do not get drawn away from where the match is decided."
+    ],
+    "faq": [
+      [
+        "How do I move and aim?",
+        "Move with WASD and look around with the mouse. The left mouse button kicks, and the right mouse button passes."
+      ],
+      [
+        "What does the E key do?",
+        "E tackles an opponent. Use it when you are close enough to challenge for the ball."
+      ]
+    ]
+  },
+  "sunny-wheels-adventure": {
+    "intro": "Sunny Wheels Adventure is a racing game where you drive a small car over off-road courses across 13 levels. Collect coins, unlock new cars, and upgrade your car as you go.",
+    "tips": [
+      "Spend your coins on upgrades to the engine, suspension, and boost, since each one changes how your car handles the rough terrain.",
+      "Use A and D to level the car while it is in the air so it lands nose-first and keeps its speed.",
+      "Save boost for the stretches where you are already accelerating, because it only works while you hold Space and push forward.",
+      "Checkpoints let you recover from a crash, so keep moving at a steady pace rather than rushing into the hardest jumps.",
+      "Try the optional challenges if you want colored rims, and if you enjoy steering small vehicles over rough ground, [[car-games|more driving games with cars]] are worth a look."
+    ],
+    "faq": [
+      [
+        "How do I get back on track after a crash?",
+        "Use the checkpoints in each level to restart from a point closer to where you crashed. Your progress is saved in the same browser."
+      ],
+      [
+        "How do I control the car in the air?",
+        "Press A and D to balance the car while it is airborne. Keeping it level helps you land safely."
+      ]
+    ]
+  },
+  "i-am-monkey": {
+    "intro": "I am Monkey is a zoo arcade game where you play a quick, clever monkey who jumps, runs, and collects items around its enclosure. Complete funny tasks from the wise elephant and deal with the visitors who get in your way.",
+    "tips": [
+      "Use Space to jump onto objects and climb as you move around, so you can reach high spots fast instead of walking everywhere.",
+      "Before you go after visitors, check where they are first. Hitting them with the attack button is quicker when you are already close and facing them.",
+      "Keep an item in hand only when you need it. Dropping and picking things up takes time, so plan which objects you will carry to the next task.",
+      "Visit the elephant to get your next task when you finish the current one, and keep the camera angle set so you can see the enclosure while you run.",
+      "If you like playing as animals, you can compare how other critters handle their habitats in these [[animal-games|animal-themed games]]."
+    ],
+    "faq": [
+      [
+        "How do I get a new task from the elephant?",
+        "Walk up to the elephant and press E on PC, or tap Interact on mobile, to receive a new task."
+      ],
+      [
+        "How do I hit the annoying visitors?",
+        "On PC, left-click with the mouse. On mobile, tap the Attack button."
+      ]
+    ]
+  },
+  "trust-issues-lying-signs": {
+    "intro": "Trust Issues: Lying Signs is a platformer where every sign is a trap, so you have to read the level instead of following instructions. Your goal is to reach the exit across 25 levels full of fake floors, saws, cannons and enemies.",
+    "tips": [
+      "Treat every sign as a suspect. When a sign gives an instruction, pause and look at the layout before acting on it.",
+      "Watch for floors that look solid but may be fake, and test the ground with a small step before committing your full weight.",
+      "Use R to restart quickly after a trap catches you, so you can learn the trick and try again without losing focus.",
+      "If you are stuck, press H for a hint, and use P or Esc to pause and study the obstacles before you move again. For more trap-filled jumping challenges, try the [[parkour-and-obby-games|similar obstacle course platformers]] collection."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Trust Issues: Lying Signs?",
+        "Your goal is to reach the exit door in each of the 25 levels. Signs often point you the wrong way, so think for yourself."
+      ],
+      [
+        "How do I move and jump?",
+        "On PC, use the arrow keys or A and D to move, and Space, W or Up Arrow to jump. On mobile, tap the on-screen arrows to move and the JUMP button to jump."
+      ]
+    ]
+  },
+  "moto-rush-stadium-sprint": {
+    "intro": "Moto Rush: Stadium Sprint is a 3D bike racing game where you race against up to 7 AI riders across 20 levels on sprint tracks. Finish in the top 3 to unlock the next level and earn coins for the Garage.",
+    "tips": [
+      "Hit every checkpoint you can, since passing them refills your nitro and gives you a split time to compare your pace against.",
+      "Brake before the tight corners rather than in them, so you can carry speed out of the turn and pull ahead of riders who brake late.",
+      "Watch the AI riders as they race, defend and fight for position, and look for a gap on the inside of a corner to make your overtake.",
+      "Use the Garage to upgrade to faster, more powerful bikes with your coins, because the top 3 finish needed for each level becomes easier with better equipment. If you want more racing games to try, check out [[motorcycle-and-bike-games|more motorcycle racing picks]].",
+      "Keep your nitro for the straights or after a corner exit so the boost adds the most speed, rather than spending it early on a short section."
+    ],
+    "faq": [
+      [
+        "How do I steer and accelerate my bike?",
+        "Use W or the up arrow to accelerate and press R to brake. Use the steering controls listed in the game to take the corners."
+      ],
+      [
+        "How do I unlock the next level?",
+        "Finish in the top 3 of your current race to unlock the next level. Coins you earn can be spent in the Garage on better bikes."
+      ]
+    ]
+  },
+  "web-shoot-1": {
+    "intro": "Web Shoot +1 is a 3D arcade racer where you build speed, unlock new suits and web-shooters, and compete in speed challenges. Staying fast without slipping back to the start is the core skill.",
+    "tips": [
+      "Keep moving steadily, because speed builds up with every move you make. Stopping often means you fall behind in the race.",
+      "Train your speed before you push into harder challenges, so you have a buffer when things go wrong.",
+      "Use your extra web-shooters to keep your momentum through swings rather than slowing down to reposition.",
+      "Slow down on tricky sections instead of rushing into them, since one wrong move can cost you all your progress.",
+      "If you enjoy obstacle courses, you can find [[parkour-and-obby-games|more obby-style challenges]] to practise timing and movement."
+    ],
+    "faq": [
+      [
+        "What happens if I make a mistake?",
+        "One wrong move can send you back to the start and you may lose your progress. Playing carefully on difficult parts matters as much as going fast."
+      ],
+      [
+        "How do I get faster?",
+        "You gain +1 Speed every time you move, and you can train your speed to raise it further. Unlocking new suits also helps you move through challenges."
+      ]
+    ]
+  },
+  "eon-planet-evolution": {
+    "intro": "EON: Planet Evolution is a clicker about guiding a young lava world through nine eras of life, from the first cells to civilization. You create energy by clicking the planet and grow life through purchases and upgrades.",
+    "tips": [
+      "Watch the temperature gauge and keep it near the white mark, since staying there earns the harmony bonus.",
+      "Save your DNA for traits in the Evolution tab that boost what you earn most, then press \"Make the leap\" once you have enough to move on.",
+      "Use your Eon powers with keys 1 to 8 on desktop or the round buttons on mobile when you need a quick boost, rather than waiting for energy to build up.",
+      "Alternate between clicking for energy and buying life forms in the Life tab, so your income keeps growing while you click.",
+      "If you enjoy this pace, you can explore [[clicker-games|more clicker games]] for similar gameplay."
+    ],
+    "faq": [
+      [
+        "How do I move on to the next era?",
+        "Spend DNA on traits in the Evolution tab, then press \"Make the leap\" to enter the new era."
+      ],
+      [
+        "What does the harmony bonus require?",
+        "Keep the temperature near the white mark on the planet's gauge while you play."
+      ]
+    ]
+  },
+  "miniko-isometric-puzzle": {
+    "intro": "Miniko is an isometric puzzle where you eat all the food without getting trapped. You plan routes using sliding, teleporting, pushing boxes, and dragging tiles.",
+    "tips": [
+      "Before you move, look at where each piece of food sits and which tiles could leave you boxed in. Solving the trap risk first often makes the route clearer.",
+      "Try moves in your head before clicking. Tiles move in straight lines or diagonals, so check each path to the food before committing.",
+      "Use Undo freely when a move closes off a route you still need. It lets you test different orders without restarting the whole level.",
+      "Pay attention to movable tiles and boxes. Dragging or pushing them can open a path, but a badly placed one can also block your own way.",
+      "If you enjoy planning several steps ahead, you might also like these [[brain-games|mind-stretching logic challenges]] for practicing the same kind of thinking."
+    ],
+    "faq": [
+      [
+        "How do I move my character?",
+        "Click or tap a tile to move in a straight line or diagonal. Movable tiles can also be dragged to new positions."
+      ],
+      [
+        "What should I do if I get stuck?",
+        "Press Undo to step back from your last move. Then try a different order so you do not trap yourself again."
+      ]
+    ]
+  },
+  "dark-vs-light": {
+    "intro": "Dark vs Light is a 3D squad battle game where you lead a captain through magical worlds, gathering souls and fighting rival clans. Your goal in each world is to reach the soul target while keeping your captain alive.",
+    "tips": [
+      "Keep your captain safe first, since losing them is what ends the run. Move so that enemies reach your squad before they reach your captain.",
+      "Because your squad attacks nearby enemies on its own, focus on positioning rather than aiming. Steer toward groups of enemies that are close enough for your squad to hit.",
+      "Collect allies as well as souls, because a bigger squad covers more ground and can handle rival clans more easily. Pick up allies whenever the route allows it.",
+      "Save your powers for dangerous moments, such as when a group is closing in on your captain. Use the 1 and 2 keys, or the skill buttons on screen, at the moment they will make the most difference.",
+      "Check your soul count against the world's target as you go, so you know how much more to collect. If you are short, look for souls before pushing deeper into enemy territory. For more fast-paced titles like this, browse [[3d-games|three-dimensional action picks]]."
+    ],
+    "faq": [
+      [
+        "How do I complete a world?",
+        "Gather souls and allies while keeping your captain alive, then reach the world's soul target to advance."
+      ],
+      [
+        "How do I move my squad around the map?",
+        "Use WASD or the arrow keys, or drag the on-screen joystick. Your squad will attack nearby enemies automatically as you move."
+      ]
+    ]
+  },
+  "drink-the-ocean": {
+    "intro": "Drink the Ocean is a first-person blocky simulator where you sip the sea through a straw, turn your drinks into salt, and spend it on upgrades. Watch the water drop until you pull the plug and start a stronger ocean.",
+    "tips": [
+      "Fill your belly before heading to the PRESS, because the press only turns water into salt once your belly is full.",
+      "Spend salt on upgrades in the SHOP pad early, since a bigger belly and extra straws will speed up every later round of drinking.",
+      "Use the number keys 1, 2 and 3 to switch tools quickly so you can change your approach without walking back to the shop.",
+      "Open the duck's gifts with E when you have a moment, since the Sky Duck offers boons you can pick between.",
+      "If you enjoy a steady upgrade loop like this, the [[clicker-games|clicker game picks]] on this site follow a similar pace."
+    ],
+    "faq": [
+      [
+        "How do I turn water into salt?",
+        "Walk to the PRESS once your belly is full and stand under it. The press then squeezes salt out of you."
+      ],
+      [
+        "What do I do when the water is almost gone?",
+        "Drink the ocean down until you reach the plug at the bottom, then pull it. This starts a new ocean with a stronger setup."
+      ]
+    ]
+  },
+  "tower-clash": {
+    "intro": "Tower Clash is a real-time strategy game where you connect blue towers to send squads, capture rival and neutral strongholds, and conquer the battlefield. This guide covers routes, unit control, and the artillery and airstrike tools.",
+    "tips": [
+      "Capture the neutral towers near your network early, since each one you take adds to the buildings you can route troops from.",
+      "Before dragging a new route, check which rival building it will pass near, so your squads do not get picked off on the way.",
+      "Swipe across an old route to remove it when enemy positions change, so your troops are not sent into a losing fight.",
+      "Keep at least one blue building safe at all times, because losing your last one ends your presence on the battlefield.",
+      "Save airstrikes for a stronghold that is holding out against your squads, and use the artillery ring to aim carefully before you fire. For more practice with planning moves, try [[tower-defense-games|similar tower defense titles]]."
+    ],
+    "faq": [
+      [
+        "How do I win a battle in Tower Clash?",
+        "You win by capturing every building on the battlefield, including the neutral towers. Keep at least one blue building under your control so you stay in the fight."
+      ],
+      [
+        "How do I send units to another building?",
+        "On desktop, hold the left mouse button and drag from a blue tower or factory to the target building. On mobile, touch and drag with one finger."
+      ]
+    ]
+  },
+  "pets-roll-clicker": {
+    "intro": "Pets Roll: Clicker is an idle gacha game where you roll eggs to hatch cube-style pets across 11 rarity grades. Your goal is to build a collection of 187 unique pets.",
+    "tips": [
+      "Collect buff multipliers when you can, since they boost your luck for rolls. Try to have one active before you spend time rolling.",
+      "Check your daily quests and bonuses each day, because they are an easy source of extra progress alongside rolling.",
+      "Keep your incubation nests busy so eggs are always hatching while you play. Use the shop to fill any empty nest with a new egg.",
+      "Look through your collection often to see which of the 26 themed collections you are closest to finishing, and aim your rolls and shop purchases toward those pets.",
+      "Read the rebirth prestige details before you use them, so you understand what you gain and what changes before you reset."
+    ],
+    "faq": [
+      [
+        "How do I hatch a pet?",
+        "On desktop, click the Roll button. On mobile, tap the Roll button. Each roll hatches a pet from an egg."
+      ],
+      [
+        "How do I get more luck for rolling?",
+        "Collect buff multipliers, which are meant to boost your luck. Use them as you build up your progress."
+      ]
+    ]
+  },
+  "aimball": {
+    "intro": "AIMBALL is a one-finger 3D basketball shooter with a 60-second clock. Swipe up to shoot, tilt your swipe to aim, and chase the bigger points from long range.",
+    "tips": [
+      "Practise a steady swipe length before you chase power, since a longer swipe adds force and can send the ball past the rim.",
+      "Take the 3-point shots from behind the arc when you are on a streak, because a hit there is worth more than a close shot.",
+      "Keep your run of three baskets going so you go ON FIRE and earn double points on every shot that follows.",
+      "Save your attention for the far spots that appear now and then, since a basket from one of them is worth 6 points.",
+      "Once your timing feels reliable, try other [[basketball-games|basketball shooting games]] to build up your aim."
+    ],
+    "faq": [
+      [
+        "How do I aim my shot?",
+        "Tilt your swipe to the left or right before you release it. On desktop, drag the mouse in the same way."
+      ],
+      [
+        "How much power does a shot get?",
+        "The length of your upward swipe sets the power, so a longer swipe sends the ball farther."
+      ]
+    ]
+  },
+  "chinchilla-trails": {
+    "intro": "Chinchilla Trails is a calm route-building puzzle where you rotate trail tiles to guide a lost chinchilla home. Connect the whole board into one path and collect the snacks along the way.",
+    "tips": [
+      "Before clicking, trace the path from the chinchilla to the house in your head so you can see which tiles need to turn.",
+      "Plan your route so both snack cubes sit on the connected path, since including them is the goal whenever possible.",
+      "Try to hit the perfect-turn target if you want all three stars, and count your rotations as you go to see how close you are.",
+      "There is no move limit, so feel free to experiment with different tile arrangements until the layout clicks. If you enjoy brain teasers like this, you can find [[puzzle-games|more puzzle games to try]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I earn all three stars?",
+        "Connect every tile into one continuous route from the chinchilla to the house, collect the snacks, and reach the perfect-turn target."
+      ],
+      [
+        "Is there a limit on how many moves I can make?",
+        "No. The perfect-turn number is a challenge rather than a move limit, so you can keep experimenting for as long as you need."
+      ]
+    ]
+  },
+  "polygun-idle-td": {
+    "intro": "PolyGy: Idle TD puts you in command of an auto-firing turret that holds off endless waves of geometric enemies. Each foe moves in its own way, so watching their patterns helps you stay ahead.",
+    "tips": [
+      "Spend time on upgrades and unlocks between fights, since getting stronger is what keeps the turret standing as waves grow.",
+      "Study how each enemy type moves before you commit to a position, because the turret is more effective when you know which foes are coming toward it.",
+      "Use power-up cards when you have a choice, and try different combinations to see which ones suit how your turret plays.",
+      "Check your quests, challenges, and daily rewards regularly, as they give you extra progress without requiring you to play longer sessions.",
+      "If you enjoy defending a position against waves, you might also like these [[tower-defense-games|tower defense games]] for similar strategy."
+    ],
+    "faq": [
+      [
+        "How do I control the turret?",
+        "The game is played with mouse clicks or taps. The turret fires automatically, so your focus is on positioning and making good decisions."
+      ],
+      [
+        "How do I get stronger during a run?",
+        "Upgrade and unlock options help your turret improve, and power-up cards add extra boosts. Using both together gives you more options as waves become harder."
+      ]
+    ]
+  },
+  "fishy-feast": {
+    "intro": "Fishy Feast is an underwater survival game where you guide a small cartoon fish through a colorful ocean. Eat smaller fish to grow, avoid the bigger ones, and aim for the highest score you can reach.",
+    "tips": [
+      "Stick to smaller fish early on so you can grow safely before you face the larger predators.",
+      "Keep track of bigger fish near you and steer away before they get close, since one swallow ends the run.",
+      "Try the mouse-follow control for quick, precise turns, especially when several fish are crowding the same area.",
+      "Press Spacebar or Escape to pause when the screen gets busy, then plan your route before continuing. For more underwater action, check out [[fish-games|other fish games to explore]].",
+      "Avoid staying in one spot for long, because moving through open water gives you more room to escape."
+    ],
+    "faq": [
+      [
+        "How do I make my fish grow?",
+        "You grow by eating fish that are smaller than your fish. Bigger fish can end the game if they catch you."
+      ],
+      [
+        "Can I pause the game while I plan my next move?",
+        "Yes, press Spacebar or Escape to pause, and press them again to resume."
+      ]
+    ]
+  },
+  "blocks-match-3": {
+    "intro": "Blocks Match 3 is a timed puzzle where you swap red, green, and blue blocks to make lines of three or more. Clear the board, reach the score goal before the 5-minute timer runs out, and collect stars as you move through levels.",
+    "tips": [
+      "Look for swaps that create lines of four or more before settling for a basic three, since bigger matches help you reach the score goal faster.",
+      "Keep an eye on the 5-minute timer and spend less time on moves that clear only one block, so you have time to finish each level.",
+      "Save your bomb boosters for obstacles that block your path instead of using them early, when a simple match would do the job.",
+      "Use shuffles when the board has no good swaps left rather than making weak moves just to keep going.",
+      "If you like building up your matching skills, you can try more [[match-3-games|match 3 games]] to practice the same kind of thinking on other boards."
+    ],
+    "faq": [
+      [
+        "How do I swap two blocks?",
+        "On a phone, swipe your finger over a block in the direction you want it to move. On a mouse, click the block and drag it in that direction. Either way, it swaps with the adjacent block."
+      ],
+      [
+        "What do I need to do to clear a level?",
+        "Reach the score goal for the level, such as 100 points in the example, and clear the board before the 5-minute timer runs out. Stars are collected along the way."
+      ]
+    ]
+  },
+  "sugar-blast-snowy-pop": {
+    "intro": "Sugar Blast: Snowy Pop is a candy-tapping action game with 125 levels. You blast matching groups of candies while avoiding hidden bombs that cost you lives.",
+    "tips": [
+      "Before you tap, scan the board for groups that run horizontal, vertical, or diagonal, and pick the one that clears the most candies at once.",
+      "Be careful with candies that look like they belong to a group but may hide a bomb. Check the pattern around them before committing to a tap.",
+      "Spend your upgrades early on starting lives if you tend to lose runs to bombs, since a longer buffer gives you more room to recover on harder levels.",
+      "Save your candy bombs for crowded screens where a single strike can clear a lot of the board, rather than using them on small groups.",
+      "If you like planning several moves ahead like this, you might enjoy trying some [[block-puzzle-games|other puzzle games to test]] your planning."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Sugar Blast: Snowy Pop?",
+        "Blast matching groups of candies to earn points and get through the 125 levels. Each level gets tougher as you go."
+      ],
+      [
+        "How do I clear candies?",
+        "Tap a matching group of candies that lie horizontally, vertically, or diagonally, and they will blast away."
+      ]
+    ]
+  },
+  "potion-path": {
+    "intro": "Potion Path is an endless running adventure where a young witch runs, jumps, and slides through enchanted lands. Collect magical food and potion ingredients while dodging enemies to keep your run going.",
+    "tips": [
+      "Watch the path ahead rather than the creature right in front of you, so you can start your jump or slide early.",
+      "Lives are limited, so treat each jump as a decision and avoid jumping when a slide would get you past the same obstacle.",
+      "Grab the magical food and potion ingredients when they are safe to reach, since they add to your score without costing you a life.",
+      "Build a steady rhythm of tapping rather than mashing the screen, which makes it easier to time your moves accurately.",
+      "If you enjoy magic-themed runners, you can find [[witch-and-wizard-games|more witch-themed games to try]] on the site."
+    ],
+    "faq": [
+      [
+        "Which side of the screen do I tap to jump?",
+        "Tap the left side of the screen to jump over obstacles and evil creatures."
+      ],
+      [
+        "How do I slide in Potion Path?",
+        "Tap the right side of the screen to slide under hazards on the path."
+      ]
+    ]
+  },
+  "ww2-frontline-defense": {
+    "intro": "WW2 Frontline Defense is an idle war strategy game where you command machine gunners holding a wall against endless enemy waves. Each wave gets tougher, so your goal is to last as long as you can.",
+    "tips": [
+      "Spend gold on tower upgrades early, since a stronger tower makes every later wave easier to hold.",
+      "Save artillery strikes for the waves that look most dangerous rather than using them on easy enemies.",
+      "Use the x2 income bonus once your defense is steady, so the extra gold builds up while your wall can handle the pressure.",
+      "Only turn on the speed boost when your line is holding well, because faster play leaves less time to react if enemies break through.",
+      "After a defeat, check which upgrades you bought first and change the order next run, as the game lets you start over with a stronger position. If you like holding a line against waves, you might also enjoy [[tower-defense-games|other defense games to try]]."
+    ],
+    "faq": [
+      [
+        "What is the main goal of WW2 Frontline Defense?",
+        "Hold the frontline wall against enemy waves for as long as possible and beat your own score."
+      ],
+      [
+        "How do you earn gold in the game?",
+        "You earn gold for each enemy you kill, and that gold is used to upgrade your tower and buy bonuses."
+      ]
+    ]
+  },
+  "water-sort-legend": {
+    "intro": "Water Sort Legend is a colour-sorting puzzle where you pour coloured water into matching tubes. Each level you beat unlocks the next, and you can use coins to buy helpful boosters.",
+    "tips": [
+      "Before each pour, check which colour sits on top of each tube so you don't block a tube you still need to use.",
+      "Use the Color Helper booster when a level stalls, since it can show you a way forward without you guessing.",
+      "Spend your coins on the Extra Tube booster only when you are truly stuck, so you still have coins for harder levels.",
+      "Try a few moves in your head before you click, because the IQ Estimator score is based on your moves and each pour counts.",
+      "If you enjoy this kind of puzzle, you can find more [[sorting-games|colour sorting games to try]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I pour water from one tube to another?",
+        "Click or tap a tube to select it, then click or tap a second tube to pour, as long as the pour is allowed."
+      ],
+      [
+        "What does the IQ Estimator measure?",
+        "It gives you a smartness score based on the moves you make, so planning each pour carefully is the way to focus on it."
+      ]
+    ]
   }
 }
