@@ -14,6 +14,7 @@
 1-strength-for-escape
 1-tongue-escape
 1-wings-escape
+1-wings-for-eggs
 1-wings-keyboard-speed
 1-zombie-survival
 100-doors-escape-from-prison
