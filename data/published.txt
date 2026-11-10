@@ -1766,6 +1766,7 @@ coin-sort-puzzle
 coinbound-voodoo-nightmare
 coins-rush-run
 coinzap
+cold-impact-rocket-missions
 cold-iron-last-extraction
 collect-and-break
 collect-brainrots-on-a-skateboard-online
@@ -1952,6 +1953,7 @@ cowboy-survival-zombie
 cowboys-duel
 cozy-coloring
 cozy-craft-co
+cozy-garden
 cozy-idle-village
 cozy-jigsaw-puzzles
 cozy-kitchen-merge
@@ -2231,6 +2233,7 @@ deadly-catch
 deadly-descent
 deadly-hunters-run
 deadly-zombie-virus
+deadpack
 deadshift-halloween-night
 death-run
 death-sentence
@@ -2564,6 +2567,7 @@ dress-up-thumbelina
 dressup-wheel
 drift-car-driving
 drift-city
+drift-city-car-driving-games
 drift-city-racing-3d
 drift-idle-drift-earn-upgrade
 drift-king-racing-multiplayer
@@ -2584,6 +2588,7 @@ drifty-road-rush
 drill-the-snake
 drink-drive
 drink-drive-survive
+drink-the-ocean
 drive-ahead-sports
 drive-and-avoid
 drive-and-crash-sandbox
@@ -2605,6 +2610,7 @@ driverz-ed
 drivex-city
 drone-dash-time-challenges
 drone-vs-tractor-challenge
+drone-zero-racing
 dronner-3d
 drop-ball
 drop-dunks
@@ -3254,6 +3260,7 @@ frost-fashion
 frost-land-snow-survival
 frostport
 frosty-ball
+frosty-peak-santas-3d-odyssey
 frosty-rush
 fruit-box-sort
 fruit-bubble-pop
@@ -3513,6 +3520,7 @@ glorious-kingdom
 glossy-garage-car-asmr
 glow-halloween-nails-game
 glow-halloween-nails-polish-and-color
+glow-hop
 glowfall
 glowit-two-players
 gluttonous-bean
@@ -3776,6 +3784,7 @@ hard-puzzle-color-lines
 hard-working-man
 harvest-glam
 harvest-haulers
+harvest-ring
 harvest-rush
 harvest-rush-tractor-farm
 harvester-cut-grass
@@ -3843,6 +3852,7 @@ hero-rescue-puzzle
 hero-sheep
 hero-time
 hero-transform-run
+hero-vs-traps
 heroes-assemble
 heroes-beware
 heroes-inc
@@ -4042,6 +4052,7 @@ house-paint-challenge
 hover-shift-craft-racer
 how-high
 how-many-mice
+how-to-rob-a-bank
 huehearts
 hugi-wugi
 hugie-wugie-coloring
@@ -5523,6 +5534,7 @@ ninjas-blade
 ninjas-return
 nitro-ball
 nitro-cars-highway-racer
+nitro-crush-monster-truck
 nitro-kick
 nitro-racing-gear
 nitro-speed-car-racing
@@ -5670,6 +5682,7 @@ obby-pizza-delivery
 obby-pogo-parkour
 obby-prison-barry-escape
 obby-prison-craft-escape
+obby-prison-escape-push-the-police
 obby-ragdoll-boxing
 obby-rainbow-parkour-two-player
 obby-rainbow-tower
@@ -6149,6 +6162,7 @@ police-chase-car-simulator
 police-chase-gate-runner
 police-chase-run
 police-chase-simulator
+police-department-3d
 police-drift-escape
 police-driving-vehicles-simulator
 police-escape-jumper
@@ -7436,6 +7450,7 @@ spiral-blitz
 spirit-boy
 spirit-drops-from-dew
 splash-rivals
+splash-rush
 splashy-sub
 splatcha
 split
@@ -7572,6 +7587,7 @@ stealth-silent-squid
 stealthy-heist
 steel-advance
 steel-directive-city-zero
+steel-thunder
 stellar-assault
 stellar-bastion
 stellar-cathcer
@@ -7734,6 +7750,7 @@ streetracer-realistic-destruction
 streets-of-rage
 streets-of-rage-neon-district
 stretch-guy
+strike-a-pose
 strike-bullet
 strike-force-action-platformer
 strike-galaxy-attack
@@ -8161,6 +8178,7 @@ the-man-from-the-window
 the-matrix-merge
 the-maze
 the-merchant
+the-outbreak
 the-pain-of-nextbot
 the-panda-brother
 the-pirate-sea-the-smuggler-s-way
@@ -8333,6 +8351,7 @@ touch-candy
 touch-draw-game
 tower-blocks-deluxe-3d
 tower-breaker
+tower-clash
 tower-colour-crash
 tower-crush
 tower-dance-off
@@ -8646,6 +8665,7 @@ velocity-breaker
 velocity-puck
 velopter
 vemon-run-3d
+vet-tycoon-pet-hospital
 vexon
 viaducts
 vials-asmr-sand-sort-puzzle
