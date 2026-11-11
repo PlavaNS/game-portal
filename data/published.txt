@@ -1392,6 +1392,7 @@ car-evolution-game
 car-evolution-pro-math-gates
 car-factory-for-kids
 car-games-car-racing-game
+car-inspection-tycoon
 car-jam-escape
 car-jump-game
 car-line-rider
@@ -1848,6 +1849,7 @@ coloring-book-color-by-number
 coloring-book-for-kids-game
 coloring-by-numbers-pixel-room
 coloring-games-color-paint
+colorpicker
 colors-and-forms
 colors-matching
 colortrail-3d
@@ -2069,6 +2071,7 @@ crossy-zombie-game
 crow-memory
 crowd-battle-gun-rush
 crowd-evolution-3d
+crowd-masters
 crowd-runner
 crowd-runner-3d
 crowd-runners-3d
@@ -4690,6 +4693,7 @@ mackup-runner-game
 mad-car-arena
 mad-car-drive-future-racing
 mad-city-matrix
+mad-city-racings-big-city-openworld
 mad-day-2-special
 mad-day-special
 mad-hatter-rush
@@ -5217,6 +5221,7 @@ monster-truck-offroad-2
 monster-truck-racing-game
 monster-truck-racing-game-truck-race
 monster-truck-simulator-game
+monster-truck-sky-obby
 monster-truck-stunt-game
 monster-truck-stunt-game-racing-games
 monster-truck-stunt-racer
@@ -7392,6 +7397,7 @@ space-survivors-bug-swarm
 space-tower-defense
 space-traveler
 space-war-symphony
+space-worm
 spaceball-jump
 spacebattle
 spacefrontier
@@ -8965,6 +8971,7 @@ wormpocalypse
 worms
 worms-hungry
 worms-zone
+would-it-smash
 wrecking-ball-tycoon
 wrench-and-roll
 wrestling-revolution-arena
