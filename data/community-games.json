@@ -365,5 +365,57 @@
     ],
     "embed": "https://snake-trail-chris.surge.sh/",
     "thumb": "https://ilovewebgames.com/assets/community/snake-trail.jpg?v=1"
+  },
+  {
+    "slug": "jumping-panda",
+    "title": "Jumping Panda",
+    "studio": "Paperclips Studio",
+    "studioUrl": "https://jumpingpanda.io/",
+    "added": "2026-11-11",
+    "short": "Hold to charge, release to jump, and bounce a little panda from platform to platform across a sunny valley.",
+    "description": "Jumping Panda is a one-button jumping game that runs right in your browser. Press and hold to charge a jump, let go to launch the panda, and land on the next platform without falling short or overshooting. A short press makes a small hop and a long hold makes a big leap, so every platform is a small judgement call about distance. The game is split into numbered levels you can pick from a level menu, and the coins you collect can be spent in the shop. Rounds are quick, the controls are a single mouse button or finger, and there is nothing to install and no account to make.",
+    "instructions": "Press and hold the mouse button or your finger to charge the jump, then release to launch. Hold longer for a longer jump and land on the next platform. Pick Play to continue from your current level or Levels to choose one, and spend the coins you collect in the Shop.",
+    "category": "arcade",
+    "extraCats": [
+      "hypercasual",
+      "mobile",
+      "casual"
+    ],
+    "tags": [
+      "Jumping",
+      "Panda",
+      "One Button",
+      "Skill",
+      "Levels",
+      "Casual"
+    ],
+    "embed": "https://jumpingpanda.io/play/",
+    "thumb": "https://ilovewebgames.com/assets/community/jumping-panda.jpg?v=1",
+    "orientation": "any"
+  },
+  {
+    "slug": "zombie-survival-blackout",
+    "title": "Zombie Survival: Blackout",
+    "studio": "Loopiko Games",
+    "studioUrl": "https://playgama.ai/play/kfwir5zlb6dgl7",
+    "added": "2026-11-11",
+    "short": "Survive waves of zombies in a rainy night city: move, let your gun auto-fire, level up and beat the boss that arrives after 60 seconds.",
+    "description": "Zombie Survival: Blackout is a survivor-style action game set in a dark, rainy city. You steer one survivor around an isometric map while the weapon fires on its own, so the whole game is about where you stand: keep moving, stay out of the crowd and collect experience to level up. Each stage has a short countdown to a boss, and coins and XP carry your run forward. Stage 1-1, Residential Blocks, doubles as a tutorial. The game saves an unfinished fight so you can pick it up where you left it, and it plays in the browser with no download.",
+    "instructions": "Move with W A S D or the arrow keys. Your weapon fires automatically at nearby zombies. Keep moving to avoid being surrounded, pick up experience to level up and survive until the boss arrives. Use the pause button to stop the fight at any time.",
+    "category": "action",
+    "extraCats": [
+      "shooting"
+    ],
+    "tags": [
+      "Zombie",
+      "Survival",
+      "Shooter",
+      "Auto-fire",
+      "Action",
+      "Isometric"
+    ],
+    "embed": "https://playgama.ai/play/kfwir5zlb6dgl7",
+    "thumb": "https://ilovewebgames.com/assets/community/zombie-survival-blackout.jpg?v=1",
+    "orientation": "landscape"
   }
 ]
