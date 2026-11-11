@@ -1287,6 +1287,7 @@ cake-master-shop
 cake-protector
 cake-ready
 cake-shop-cafe-pastries-and-waffles-cooking-game
+cake-shop-simulator-bake-and-sell
 cake-slice-match
 cake-sort
 cake-sorting-deluxe
@@ -5069,6 +5070,7 @@ mineguy-unblockable
 miner-builder
 miner-dig-it-all
 miner-jam
+miner-merge
 miner-rush-game
 minerrush
 minesweeper-find-bombs
