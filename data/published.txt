@@ -414,6 +414,7 @@ arrow-patrol
 arrow-pop
 arrow-rescue
 arrow-rope-maze
+arrow-rush-escape
 arrow-shift-logic-tree
 arrow-survival-15-seconds
 arrow-survival-15-seconds-demo
@@ -485,6 +486,7 @@ attractive
 aura-clicker
 aura-farm-rng
 aura-farmer-presidents
+aura-farming-master
 auric-core
 autumn-glam-gala
 avatar-life-my-town
@@ -786,6 +788,7 @@ biryani-cooking-indian-super-chef-food-game
 bitbanda
 bitcoin-crypto-tycoon
 bitcoin-io
+bite-club
 black-and-pink
 black-and-white-2
 black-ball
@@ -887,6 +890,7 @@ blocks-puzzle
 blocks-shooter-3d-run-shoot-merge-weapons
 blocks-stack-rush
 blockstacking
+blockstorm-block-puzzle
 blocky-adventures
 blocky-challenges
 blocky-champions
@@ -1515,6 +1519,7 @@ cat-tic-tac-toe
 cat-up
 cat-vs-granny-cat-simulator
 cat-with-a-gun-clicker-evolution
+catch-a-fish
 catch-a-fish-obby
 catch-cats
 catch-insect
@@ -1694,6 +1699,7 @@ city-rescue-forklift-simulator
 city-ride
 city-taxi-driving
 city-taxi-driving-simulator
+city-tow-master-3d
 city-tuk-tuk-rickshaw-game
 city-tuk-tuk-rickshaw-game-auto-games
 city-tuk-tuk-simulator-racing-game-3d
@@ -3801,6 +3807,7 @@ haunted-house-idle
 haunted-inn
 haunted-panic
 haunted-sweets
+haystack-hunter
 haystack-works
 hazard-heights
 hazard-pay
@@ -4119,6 +4126,7 @@ ice-cream-vendor
 ice-dash
 ice-man-3d
 ice-pet-match
+ice-road-hauler
 ice-scream-horror-adventure
 ice-slide
 icicle-run
@@ -4200,6 +4208,7 @@ inkway
 inner-city-drive
 insect-clicker
 insect-exploration
+insecta
 interactive-jigsaw-puzzle-game
 interceptor-police-pursuit
 intercity-bus-driver-3d
@@ -5605,6 +5614,7 @@ number-bee
 number-master-run-and-merge
 number-merge-10
 number-merge-master
+number-merge-run
 number-merger
 number-nexus
 number-order
@@ -5710,6 +5720,7 @@ obby-sword-hero-adventure
 obby-the-legendary-dragon
 obby-theme-park-world
 obby-throw-an-egg
+obby-throw-food-for-pets
 obby-traps-and-jumps
 obby-ultimate-parkour
 obby-up-parkour-run
@@ -5784,6 +5795,7 @@ on-fire-basketball-shots
 one-bit
 one-bullet-3d-game
 one-dot-target
+one-last-clown
 one-level-stickman-jailbreak
 one-line-dot-game
 one-line-drawing-mini-games
@@ -5806,6 +5818,7 @@ only-up-obby-tower-climb
 only-up-or-lava
 only-up-parkour-2
 open-city-suv-car-stunts
+open-floor-plan
 open-rings
 open-to-offers
 openworld-racing
@@ -6378,6 +6391,7 @@ quad-bike-racing-game
 quarantine-rush
 quarterback
 queen-bee-run
+queen-billboard-battle
 queen-rescue-game
 queens
 quick-cards
@@ -6461,6 +6475,7 @@ rainbow-s-doctor
 raised-knight
 rally-point-3
 rally-race-pro-3-0-car-racing
+rally-trailblazers
 rambo-legend-game
 ramp-bus-stunt-simulator
 ramp-car-game
@@ -6602,7 +6617,9 @@ rider-online-pro
 riders-downhill-racing
 ridge-racer-2d
 rift-of-hell-demons-war
+rift-ops-fractured-frontier
 rim-rebels-3v3
+ring-clash
 ring-fall-puzzle
 ring-master-hats
 ring-master-legends
@@ -6821,6 +6838,7 @@ santa-gift-collect-game
 santa-gift-delivery-christmas-game
 santa-gift-matching
 santa-holiday-adventure-game
+santa-magic-sort
 santa-matching-game
 santa-on-fire
 santa-snow-runner
@@ -7726,6 +7744,7 @@ stickman3d-shooter
 stickmanhook
 stickninja-mission
 sticky-planet
+sticky-scenes
 stickyconnect
 stock-car-hero
 stone-sheet-shears
@@ -8342,6 +8361,7 @@ tomato-bounce
 tomb-escaper
 tomb-of-the-dash-game
 tomb-of-the-mask-color-maze
+tony-archer-escape
 toolbox-sort
 toon-blast-puzzle
 top-shootout
@@ -8352,6 +8372,7 @@ topsy-turvy
 torn-pieces
 tornado-67
 tornado-fury-of-the-elements
+torque-trail
 torture-the-trollface
 toss-the-ring
 total-sweep
@@ -8414,6 +8435,7 @@ traffic-jam-hop-on
 traffic-parking
 traffic-puzzle-game-linky
 traffic-racer-3d
+traffic-rider-neon-rush
 traffic-run-game
 traffic-rush-online
 traffic-trap
@@ -8671,6 +8693,7 @@ vehicle-transport-police-simulator
 vehiclefactory
 velocity-breaker
 velocity-puck
+velocity-rift-world-tour
 velopter
 vemon-run-3d
 vet-tycoon-pet-hospital
@@ -8972,6 +8995,7 @@ worms
 worms-hungry
 worms-zone
 would-it-smash
+would-you-like-to-see-my-ants
 wrecking-ball-tycoon
 wrench-and-roll
 wrestling-revolution-arena
