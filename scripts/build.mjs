@@ -94,7 +94,7 @@ const BLOCK = [
   'gambling', 'poker', 'blackjack', 'roulette', 'bet ', 'drunk', 'beer', 'cigarette', 'weed', 'gore', 'bloody', 'killer clown', 'suicide', 'hitler', 'nazi',
   'unblocked', 'hacked', 'cheat'
 ];
-BLOCK.push('amongus', 'among', 'shadowgun', 'plants vs zombies', 'pvz', 'sprunki', 'brainrot', 'tralalero', 'drunken', 'kiss', 'bet', 'double dragon', 'left dead', 'left 4 dead', 'mortal kombat', 'street fighter', 'tekken', 'resident evil', 'half-life', 'halo');
+BLOCK.push('amongus', 'among', 'shadowgun', 'plants vs zombies', 'pvz', 'sprunki', 'brainrot', 'tralalero', 'drunken', 'kiss', 'bet', 'double dragon', 'left dead', 'left 4 dead', 'mortal kombat', 'street fighter', 'tekken', 'resident evil', 'half-life', 'halo', 'bioshock');
 const BLOCK_RE = new RegExp('(^|[^a-z0-9])(' + [...new Set(BLOCK.map(w => w.trim()))].map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|') + ')(?=$|[^a-z0-9])', 'i');
 const isBlocked = g => BLOCK_RE.test(g.title) || BLOCK_RE.test(g.tags.join(' , '));
 
@@ -792,7 +792,7 @@ function emitContent() {
   </section>` : ''}
   <section class="row" style="margin-top:28px"><div class="row-h"><h2>${esc(tr('More collections'))}</h2></div><p class="chips">${others.map(o => `<a class="chip" href="${tHref(o.slug)}">${esc((catTr('topic:' + o.slug) || {}).h1 || o.h1)}</a>`).join('')}</p></section>`;
     write(`${t.slug}/index.html`, layout({
-      title: `${th1} — ${tr('Play Free Online')} | ${cfg.name}`,
+      title: (LANG === 'en' && t.title) ? `${t.title} | ${cfg.name}` : `${th1} — ${tr('Play Free Online')} | ${cfg.name}`,
       desc: trunc(`${t.list.length}+ ${tr('free')} ${tkw}. ${tintro[0]}`, 158), canonical: abs(`/${t.slug}/`), body,
       altPath: `/${t.slug}/`, altLangs: LANGS.filter(l => (CATTR[l.code] || {})['topic:' + t.slug]).map(l => l.code),
       jsonld: [crumbs([[tr('Home'), abs('/')], [th1, abs(`/${t.slug}/`)]]),
