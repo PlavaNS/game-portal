@@ -180130,5 +180130,424 @@
         "Yes, the game includes a cancel move option, so you can undo a move if you change your mind."
       ]
     ]
+  },
+  "rally-trailblazers": {
+    "intro": "Rally Trailblazers is an off-road rally racer where you race four AI rivals across 40 stages in five worlds. Your goal is to finish in the top 3 while beating the clock.",
+    "tips": [
+      "Checkpoints add extra seconds to your timer, so prioritize clean lines through each one rather than cutting corners that cost you control.",
+      "Use the handbrake drift in tight bends to keep your speed up, and save Boost for straights where you can use it fully.",
+      "On ice and mud, ease off the throttle before corners instead of steering hard mid-slide, which helps you keep control.",
+      "If you fall behind a jump or get stuck on rocks or barrels, press R to respawn at your last checkpoint instead of losing time. For more fast driving games, try these [[racing-games|racing game picks]].",
+      "Finishing in the top 3 unlocks the next stage, and aiming for three stars on each level is worth repeating. Spend coins and gems in the Garage on Acceleration or Handling if you struggle with a particular world."
+    ],
+    "faq": [
+      [
+        "How do I unlock the next stage?",
+        "You need to finish in the top 3 of the current stage to unlock the next one. Each level can earn up to 3 stars."
+      ],
+      [
+        "What do the Boost and Handbrake controls do?",
+        "Shift activates Boost to increase your speed, and Space pulls the handbrake to drift around corners. Use them together to carry speed through turns."
+      ]
+    ]
+  },
+  "drift-city-car-driving-games": {
+    "intro": "Drift City Car Driving Games is a racing game about sliding your car through corners on tracks, snowy highways and city roads. Points and coins depend on how long and wide your drifts are.",
+    "tips": [
+      "Build a combo by linking one slide straight into the next, since chaining drifts raises your multiplier up to x5.",
+      "Focus on drift angle and speed together, because the scoring rewards both rather than just a long slide.",
+      "Save coins for upgrades to Engine, Grip and Drift, which can each go up to 5 levels, and pick the one that suits your driving style.",
+      "Watch the live traffic on the road and ease off when other cars are close, so a good drift does not end in a crash. If you enjoy this style, you can also practise with [[drift-games|more drift challenges]] online.",
+      "Treat the BOSS lap that comes every 10th level as a chance to learn the track layout before pushing for maximum points."
+    ],
+    "faq": [
+      [
+        "How do I control the car?",
+        "Press W to accelerate, S to brake or reverse, and A to steer left. Use the controls to slide the car through each corner."
+      ],
+      [
+        "How is my score calculated?",
+        "Points are based on drift angle and speed, and chaining slides builds a combo up to x5. Longer and wider drifts earn more points and coins."
+      ]
+    ]
+  },
+  "bite-club": {
+    "intro": "BITE CLUB is a first-person clicker where you eat through giant desserts to escape flooded TV sets. You earn money by weighing in and spend it on bigger bellies, a turbo jaw, and better utensils.",
+    "tips": [
+      "Keep eating until your belly is full, since the weigh-in pays by the kilo and a fuller belly means a bigger payout per trip.",
+      "Check the shop with B every time you have money, and prioritise upgrades that help you eat faster so each tunnel goes quicker.",
+      "Keep chewing to build HYPE, and avoid walking away from the eating area for long stretches so the momentum you build is not wasted.",
+      "Look around the set between bites for hidden rooms, since digging them out is part of the goal and can help you collect the 24 studio props.",
+      "If you like steady upgrades and gradual progress, try more [[idle-and-tycoon-games|upgrade-focused idle games]] next."
+    ],
+    "faq": [
+      [
+        "How do I earn money in BITE CLUB?",
+        "Eat until your belly is full, then waddle back to the WEIGH-IN scale to get paid by the kilo."
+      ],
+      [
+        "What do I use the shop for?",
+        "Press B to open the shop, where you can buy bigger bellies, a turbo jaw, and better utensils."
+      ]
+    ]
+  },
+  "torque-trail": {
+    "intro": "Torque Trail is a physics driving game where you control a monster truck through 20 challenges. Cross bridges, climb ramps and reach the finish without flipping your vehicle.",
+    "tips": [
+      "Ease off the throttle before steep ramps and bridges so the truck does not launch and tip over.",
+      "Use reverse and balance with the left arrow or A to bring the truck back upright when it starts to lean.",
+      "Watch your timing on tricky obstacles and pulse the forward control instead of holding it down, so you keep more control.",
+      "If you flip, tap Restart right away and try the same section again, since each course rewards steady throttle and good balance. You can also find [[truck-and-driving-games|more truck driving games]] to practice similar handling.",
+      "Open the settings to adjust audio and effects if the engine sound or visuals distract you while you focus on balance."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "You need to reach the finish line without flipping your truck. Each course adds bridges, ramps and obstacles that test your balance."
+      ],
+      [
+        "How do I keep the truck from flipping?",
+        "Hold the left arrow or A to reverse and balance the truck, and ease off the forward control on steep sections. On mobile, hold the left half of the screen to reverse."
+      ]
+    ]
+  },
+  "sporty-chic-athleisure": {
+    "intro": "Sporty Chic Athleisure is a dress-up game where you style two friends, Lily and Wolf Fang, for sporty looks. You can change outfits, hairstyles, makeup and accessories to build comfortable yet glamorous bows.",
+    "tips": [
+      "Start with the character whose sport matches your taste, since Lily leans toward water sports and Wolf Fang toward land activities. Their different activities suggest different outfit choices.",
+      "Work through outfit, hairstyle, makeup and accessories in order, so each choice builds on the last and the look stays balanced.",
+      "Before adding extra accessories, check that the outfit is comfortable enough for movement, because the game is about looks that work for sport.",
+      "Try a few versions of the same bow and compare them side by side. Small changes to one element can shift a look from casual to glamorous.",
+      "If you enjoy mixing sport and fashion like this, you can explore more [[dress-up-games|dress-up games to try]] for other styling ideas."
+    ],
+    "faq": [
+      [
+        "How do I change a character's look?",
+        "Click with the mouse or tap the screen to pick new outfits, hairstyles, makeup and accessories for your chosen character."
+      ],
+      [
+        "What is the difference between Lily and Wolf Fang's styles?",
+        "Lily loves water sports and looks stylish by the pool, while Wolf Fang prefers land-based activities and combines sports with fashion trends."
+      ]
+    ]
+  },
+  "ring-clash": {
+    "intro": "Ring Clash is a colorful matching puzzle where you connect matching rings on a grid and clear full groups before the timer runs out. Each board changes layout, so planning your moves matters as much as speed.",
+    "tips": [
+      "Scan the whole grid before your first move and look for the color with the most rings you can reach, since clearing bigger groups helps you finish faster.",
+      "Pay attention to the layered obstacles and clear the rings that sit on top of or block other pieces first, so you do not get stuck later.",
+      "Keep an eye on the time-based objective and balance quick moves with planning; rushing into small groups can waste the seconds you need.",
+      "On Very Hard stages, slow down for a few seconds at the start to map out the board, then play with steady focus rather than tapping at random.",
+      "Use the relaxing levels to practice reading the layout, then apply the same habit of checking options before each drag on harder boards. [[brain-games|sharpen your logic with brain games]]"
+    ],
+    "faq": [
+      [
+        "What is the main goal in Ring Clash?",
+        "Connect matching rings on the grid and clear complete groups before the timer reaches zero."
+      ],
+      [
+        "How do I play Ring Clash?",
+        "Tap and drag across matching rings to connect them and clear groups on the board."
+      ]
+    ]
+  },
+  "insecta": {
+    "intro": "Insecta is a Match-3 puzzle game set in a colorful insect kingdom. Match three or more identical bugs in a line to clear the board, score points, and complete level objectives.",
+    "tips": [
+      "Before each swap, check whether a move lines up three or more identical bugs, and pick the one that clears the most.",
+      "Look for swaps that might set off a chain reaction, since the board can refill and create new matches on its own.",
+      "Read each level's objective first, then favor matches that help you reach it instead of matching whatever is easiest.",
+      "Swap combinations that bring different insects together, because combining them is a core part of how the game is played.",
+      "If you enjoy this kind of puzzle, you can explore more [[match-3-games|match three titles to try]] after you finish."
+    ],
+    "faq": [
+      [
+        "What counts as a match in Insecta?",
+        "You need three or more of the same type of bug lined up in one row or column. Matching identical bugs clears them from the board."
+      ],
+      [
+        "How do I get a higher score?",
+        "Focus on chain reactions and combos, since the game is built around them. Keep an eye on the level objective so your points help you finish the level."
+      ]
+    ]
+  },
+  "traffic-rider-neon-rush": {
+    "intro": "Traffic Rider: Neon Rush puts you on a sports bike weaving through busy city highways full of cars and trucks. Use the arrow keys or WASD to accelerate, brake, and steer your way through the traffic.",
+    "tips": [
+      "Ease off the accelerator before a crowded stretch, since high speed leaves you less time to react to vehicles that cut in front of you.",
+      "Use the brake and reverse control early rather than at the last second when a gap closes, so you can slow down smoothly without losing control.",
+      "Pick your line ahead of time by scanning a few vehicles down the road and steering toward open lanes instead of reacting only to the closest car.",
+      "Make small steering adjustments instead of sharp swerves, which helps you stay upright and avoid crashing into the traffic around you.",
+      "If you enjoy handling two-wheelers, explore more [[motorcycle-and-bike-games|motorcycle and bike titles]] to practice the same balance and reaction skills."
+    ],
+    "faq": [
+      [
+        "How do I steer the motorcycle?",
+        "Press the Left or A key to steer left and the Right or D key to steer right. The Up or W key accelerates and the Down or S key brakes or reverses."
+      ],
+      [
+        "What is the main thing to avoid?",
+        "Avoid crashing into the cars and trucks on the road. Staying focused on the traffic ahead helps you dodge vehicles and keep riding."
+      ]
+    ]
+  },
+  "obby-prison-escape-push-the-police": {
+    "intro": "Prison Escape: Push the Guards is a 3D action game where you push police officers off platforms to clear your way to the finish. Each section adds more guards, so positioning matters as much as speed.",
+    "tips": [
+      "Before you push, drag your prisoner so several guards sit in a line, since one shove can knock back a whole group.",
+      "Keep an eye on the platform edge at all times, because a single careless move can end your escape attempt.",
+      "Look for an angle that lets you reach the guards without stepping onto a spot where you could be pushed back yourself.",
+      "Clear the guards near you first so you have a safe path to keep moving toward the finish in later sections.",
+      "If you enjoy platform challenges like this, you might also like [[parkour-and-obby-games|more obstacle course runs]] to practice quick, careful movement."
+    ],
+    "faq": [
+      [
+        "How do I push a guard off the platform?",
+        "On desktop, press Space or hold the left mouse button, drag to move, and release to push. On mobile, touch and drag, then release your finger to push."
+      ],
+      [
+        "What is the best way to deal with big crowds?",
+        "Line up several guards before you attack so one push can knock back the whole group instead of just one officer."
+      ]
+    ]
+  },
+  "storky-number-drop": {
+    "intro": "Storky Number Drop is a merge puzzle where you throw wobbly water bags to combine matching numbers. Each merge doubles the number, so the challenge is to build the biggest one you can.",
+    "tips": [
+      "Before you throw, check which two bags share a number and where they will land, so you can plan merges instead of guessing.",
+      "Aim your throw at a spot that lets the bag flow next to its match, since the bags squash and spread into gaps.",
+      "Keep the board open in the middle where possible, so new bags have room to settle and you can still reach matching pairs.",
+      "If you enjoy combining numbers to reach a target, you might like these [[sudoku-and-number-puzzles|more number puzzles to try]]."
+    ],
+    "faq": [
+      [
+        "What is the goal of Storky Number Drop?",
+        "The goal is to merge bags with the same number, doubling each time, to see how high a number you can reach."
+      ],
+      [
+        "How do I throw a bag on desktop?",
+        "Click a bag in the Pick one box, press and hold the mouse, drag back, and release to throw it."
+      ]
+    ]
+  },
+  "pulse-wing": {
+    "intro": "Pulse Wing is a neon arcade shooter where you steer your ship through waves of meteors, enemy squadrons, and armored bosses. Your ship fires automatically, so you can focus on movement and choices.",
+    "tips": [
+      "Watch for dashed lines and glowing zones before a boss attack lands, and move out of those areas early instead of reacting at the last second.",
+      "Each level-up gives you a choice, so pick skills that work together, such as orbit blades for close enemies or seeker missiles for spread-out targets.",
+      "Save your ultimate for crowded moments or boss waves, when clearing enemies quickly matters most.",
+      "Between runs, spend alloy on plane stats, credits on items, and research cores on the tech tree, and avoid spreading them too thin. If you enjoy space-themed battles like this, you can browse more [[space-games|space shooters to try]].",
+      "Use Esc or P to pause when you need a moment to plan your next move or check your loadout."
+    ],
+    "faq": [
+      [
+        "How do I move my ship?",
+        "Drag with touch or mouse, or use the WASD or arrow keys. Your ship fires on its own, so you only need to control where it goes."
+      ],
+      [
+        "How do I beat the boss at the end of a world?",
+        "Each world's third wave ends with a boss, so clear the first two waves to build up your skills and XP. Then focus on dodging the dashed lines and glowing zones that show where attacks will hit."
+      ]
+    ]
+  },
+  "aura-farming-master": {
+    "intro": "Aura Farming Master is a 3D action game set on neon rooftops at sunset. Earn aura by standing in glowing zones while bots try to knock you off the roof.",
+    "tips": [
+      "Keep moving between glowing zones and stay inside them as much as you can, since aura only comes in while you stand in one.",
+      "Watch the rivals approaching and dash out of their path early, because getting slapped out of a zone stops your farming.",
+      "Practice the Pose timing on the green window so you can hit it reliably. Each successful pose gives a burst of aura that helps build your streak.",
+      "Spend early aura on Farm Speed so you collect faster, then consider Slap Power if you are getting pushed around often. Browse more [[ninja-and-fighting-games|fighting games to try]] if you enjoy quick battles like this.",
+      "Try different modes from the lobby portals to see which one suits you, and keep an eye on the edges of the roof to avoid falling off."
+    ],
+    "faq": [
+      [
+        "How do I earn aura faster?",
+        "Stand in a glowing aura zone, since you earn aura every second you are inside one. Pressing Pose at the right moment in the green window adds a burst on top of that."
+      ],
+      [
+        "How do I keep rivals from taking my aura?",
+        "Walk into rivals to slap them out of the zone and avoid getting caught by them yourself. Using Dash to move quickly helps you get out of their way."
+      ]
+    ]
+  },
+  "colorpicker": {
+    "intro": "ColorPicker is a colour-perception puzzle where you find the one cube whose shade differs from the rest before time runs out. Each correct find builds toward pixel-art pictures in the album.",
+    "tips": [
+      "Scan the board in rows or columns rather than jumping around, so you do not miss the odd cube in the corners.",
+      "A wrong tap costs 3 seconds, so when you are unsure, look for the cube that seems slightly brighter or darker before you commit to a tap.",
+      "Fill the ADD TIME bar steadily on early boards, since a full bar gives +5 seconds and will help you when the colour differences get finer.",
+      "Save HINT for a board that has stumped you for a while, because it removes some of the wrong cubes and narrows the search.",
+      "If you enjoy quick visual challenges like this, the [[brain-games|brain teasers for sharp focus]] collection has more games that test the same kind of concentration."
+    ],
+    "faq": [
+      [
+        "What happens if I tap the wrong cube?",
+        "You lose 3 seconds from the timer, and the board stays the same so you can keep looking for the different cube."
+      ],
+      [
+        "How do I use the cubes I find?",
+        "Each found cube shatters into voxels. On the home screen, hold BUILD to spend them on the album picture."
+      ]
+    ]
+  },
+  "car-inspection-tycoon": {
+    "intro": "Car Inspection Tycoon puts you in charge of a used car inspection shop in a city setting. You check each customer's car with real tools, write an honest report, and use the money to grow your business.",
+    "tips": [
+      "Follow the goal card at the top of the screen so you always know which car or task comes next.",
+      "Work through the full inspection on every car, including paint thickness, the OBD scan, the lift underneath, and the tires, brakes and suspension, since missing a check can lead to a wrong report.",
+      "Spend early earnings on tools and upgrades that speed up your inspections, then put money into staff and new businesses once cash flow is steady.",
+      "Press C to use the hood camera when you need a closer look at the engine bay, and M to check the map before heading to a tow-truck job.",
+      "Once you know the inspection routine, browse [[idle-and-tycoon-games|more shop-running tycoon titles]] for similar management play."
+    ],
+    "faq": [
+      [
+        "How do I earn money in Car Inspection Tycoon?",
+        "You earn cash by inspecting each customer's car correctly and handing over an honest report. Then you spend that money on tools, lifts, staff and businesses."
+      ],
+      [
+        "What is the best way to start the game?",
+        "Read the goal card at the top of the screen and complete the first inspection step by step. Early on, focus on learning each tool before you try to move quickly."
+      ]
+    ]
+  },
+  "blockstorm-block-puzzle": {
+    "intro": "Blockstorm is a block puzzle where you drag pieces onto a board, clear full rows and columns, and try to build the highest score you can. Planning a few moves ahead is the key to a long run.",
+    "tips": [
+      "Before placing a piece, look at the shapes left in the tray and think about where the next set might fit.",
+      "Fill gaps in nearly complete rows and columns first, since clearing lines is how you earn points.",
+      "Try to keep open areas on the board flexible rather than scattering single empty cells that only fit one shape.",
+      "Place large or awkward pieces early while there is still plenty of room, and save smaller pieces to patch holes.",
+      "If you are stuck, the optional rewarded ad can undo a move, which is useful for fixing a mistake you could not recover from otherwise. Use it only when a move really matters. For more practice, try [[block-puzzle-games|more block puzzle challenges]] after you finish a round."
+    ],
+    "faq": [
+      [
+        "What is the goal of Blockstorm?",
+        "Your goal is to score as many points as possible by completing horizontal or vertical lines so they clear from the board. Scores can be compared on the leaderboard."
+      ],
+      [
+        "How do I place a piece?",
+        "Drag a piece from the tray onto empty cells on the board. Each piece needs open cells that match its shape."
+      ]
+    ]
+  },
+  "space-worm": {
+    "intro": "Space Worm is an arcade survival game where a growing worm covered in turrets fights through enemy swarms. Each run builds your strength, and the Soul Shards you earn carry over to future runs.",
+    "tips": [
+      "The worm moves on its own, so spend your attention on turning and aiming rather than trying to control its speed.",
+      "Pick level-up upgrades that add turrets or modules that match how you are playing, since a focused build is easier to keep alive than a scattered one.",
+      "Collect experience and gold when it is safe to do so, because these feed your progress through the run.",
+      "Use the map (Tab) and pause (Enter) to check where enemies and bosses are before you commit to a direction.",
+      "If you like guiding a growing body around a playfield, the [[snake-games|classic snake games]] collection has more titles with that feel."
+    ],
+    "faq": [
+      [
+        "What is the goal of Space Worm?",
+        "Survive enemy swarms, defeat the bosses across four space arenas, and defeat the final boss to continue into endless survival."
+      ],
+      [
+        "How do I steer the worm?",
+        "Use A and D or the left and right arrow keys to turn, move the mouse to aim and steer, or drag the floating joystick on a touchscreen."
+      ]
+    ]
+  },
+  "would-it-smash": {
+    "intro": "Would It Smash? is an arcade clicker where you tap or click a crusher to grind through blocks, collect cash, and upgrade two powerful wheels. Each upgrade helps the machine handle tougher challenges.",
+    "tips": [
+      "Spend upgrades on speed and power together, since a faster crusher only helps if it can also break through tougher blocks.",
+      "Check your tasks regularly, because completing them is one of the ways to keep your machine growing.",
+      "Collect rewards whenever they are available so your cash keeps pace with the upgrades you want next.",
+      "Start challenges only when your crusher is well upgraded, so you are not pushing into a harder round before you are ready.",
+      "If you enjoy steady progress and growing a machine over time, you may also like these [[idle-and-tycoon-games|idle and tycoon games]]."
+    ],
+    "faq": [
+      [
+        "How do I control the crusher on a computer?",
+        "Use the mouse to tap or click the crusher, or use the arrow keys and Space to interact with it."
+      ],
+      [
+        "What do the upgrade buttons do?",
+        "They improve your crusher's speed and power, which helps it smash through blocks and tougher challenges."
+      ]
+    ]
+  },
+  "would-you-like-to-see-my-ants": {
+    "intro": "Someone has mailed you a parcel of ants and asked you to be nice to them. Carry the queen into her chamber and watch a colony grow from the side of the glass, one tunnel at a time.",
+    "tips": [
+      "Mark seeds and springtails for the foragers early, since the colony needs food before it can grow. Check the pantry and nursery as they fill up.",
+      "Use the build menu with B when you want new chambers, and use T for tunnels. Plan your digging so new rooms connect to the nest without cutting off the paths the ants already use.",
+      "Because the ants keep working while you are away, read the short report when you return and adjust your marks and builds based on what happened.",
+      "If an ant is stuck or in the wrong place, follow her for a moment to see what she is doing, or pick her up and set her down somewhere more useful. You can also explore other [[animal-games|animal-themed simulation games]] if you enjoy watching creatures work.",
+      "Use X to cancel an order you no longer need, and L to fill back in a hole you dug by mistake. Press Space to pause when you want to look around without time moving on."
+    ],
+    "faq": [
+      [
+        "How do I get the colony started?",
+        "Unpack the parcel, then carry the queen into her chamber. After that, the colony grows as the ants gather food and you add chambers."
+      ],
+      [
+        "How does the game keep my progress?",
+        "It saves on its own, so your colony will be waiting where you left it the next time you open the game."
+      ]
+    ]
+  },
+  "open-floor-plan": {
+    "intro": "Open Floor Plan is an action game where you climb a tower one floor at a time, smashing the office with a sledgehammer. Clear each floor's workers and safes to reach the lift.",
+    "tips": [
+      "Before you swing, watch for the attack that is coming at you. Parry with RMB or F to block it, then counter while the enemy is open.",
+      "Mix up your attacks. Use stab (wheel up) for quick, precise hits and overhead (wheel down) when you need to hit harder.",
+      "Feint with Q to bait an opponent into a bad move, then attack when they react.",
+      "Use E to throw your hammer at a distant target, and remember you have to pick it back up before you can keep swinging.",
+      "Crack the safes on each floor for gold, then spend it in the Company Store on new outfits and hammers. Pick your lift upgrade with care, since it shapes how you fight on later floors. [[ninja-and-fighting-games|more sword and brawler action]]"
+    ],
+    "faq": [
+      [
+        "How do I get to the next floor?",
+        "Fire every worker on the current floor and crack its safes. Once both are done, the lift opens and you can ride up."
+      ],
+      [
+        "Which control should I use to attack?",
+        "Left mouse button or SPACE swings your hammer, and the swing follows the direction you move the mouse. Use the mouse wheel for stabs and overhead strikes."
+      ]
+    ]
+  },
+  "epicshooter3d": {
+    "intro": "EpicShooter3D is a fast, first-person browser shooter where you move, aim, and shoot in 3D. It is built for quick sessions and friendly competition on the leaderboard.",
+    "tips": [
+      "Keep your character moving with W, A, and S, D instead of standing still, so you are harder to target while you aim.",
+      "Use the mouse to aim and left click to shoot, and get comfortable with small mouse movements for more accurate shots.",
+      "Press Space to jump when you need to change position quickly. Mix jumps with movement so your jumps are not predictable.",
+      "If you need a break or want to reach your mouse cursor outside the game, press ESC to pause and release the cursor. Pausing is a good way to reset before you return to a tough fight.",
+      "Play short, regular sessions if you want to climb the leaderboard, and try to beat your own previous score before you compare yourself with others. For more shooting games to try, browse [[shooting-games|more shooting games to try]]."
+    ],
+    "faq": [
+      [
+        "How do I move and aim in EpicShooter3D on a PC?",
+        "Use W, A, S, and D to move your character and the mouse to look around and aim. Left click fires your shot."
+      ],
+      [
+        "How do the touch controls work on mobile?",
+        "The game detects mobile devices automatically and turns on touch controls. Drag the left joystick to move your character."
+      ]
+    ]
+  },
+  "highway-racer-3d": {
+    "intro": "Highway Racer 3D is a high-speed driving game set on traffic-packed roads. You steer with WASD or the arrow keys and choose from four modes, each with its own type of pressure.",
+    "tips": [
+      "In One Way, keep your eyes moving ahead of your car so you spot gaps in the single-lane traffic before you reach them.",
+      "In Two Way, watch the oncoming cars closely and only overtake when the lane ahead is clear, since staying in control matters more than passing quickly.",
+      "In Time Attack, don't slow down for every obstacle. Aim to keep a steady pace so you cover as much distance as possible before the clock runs out.",
+      "In Time Bomb, keep moving the whole time, because the game asks you to defuse the danger by staying in motion. Stopping or crawling gives the pressure time to build.",
+      "If you enjoy fast lane-weaving, you can [[racing-games|browse more racing games]] to practice quick reactions in other titles."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Highway Racer 3D?",
+        "Your goal is to race through heavy traffic while avoiding crashes. Each mode sets a different challenge, such as covering the longest distance in Time Attack."
+      ],
+      [
+        "Which keys control the car?",
+        "You can use either the WASD keys or the arrow keys to drive."
+      ]
+    ]
   }
 }
