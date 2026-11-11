@@ -179853,5 +179853,282 @@
         "It gives you a smartness score based on the moves you make, so planning each pour carefully is the way to focus on it."
       ]
     ]
+  },
+  "glow-hop": {
+    "intro": "Glow Hop is an endless jumping game where you guide a glowing ball across floating platforms. Land perfect jumps, build combos, collect gems, and chase your highest score.",
+    "tips": [
+      "Aim for the center of each platform, since that is how you land PERFECT jumps and start building combos.",
+      "Keep your steering small and steady with the mouse, arrow keys, A and D, or touch drag, so you don't overshoot the next platform.",
+      "Pick up gems and power-ups when they are safe to reach, but don't risk a fall just to grab them.",
+      "Chain perfect landings to keep your combo going, and if you enjoy steady forward movement, try [[running-games|more running titles]] for similar pacing."
+    ],
+    "faq": [
+      [
+        "How do I get a PERFECT jump?",
+        "Steer so your ball lands near the center of the platform. Landing off-center will not count as a perfect jump."
+      ],
+      [
+        "Can I play with a keyboard or touch screen?",
+        "Yes. You can use the mouse, the Left and Right arrow keys or A and D, or touch and drag left or right on mobile."
+      ]
+    ]
+  },
+  "jumping-panda": {
+    "intro": "Jumping Panda is a one-button jumping game about timing your leaps. Hold to charge, release to launch, and land on the next platform. Pick a level from the menu or continue where you left off.",
+    "tips": [
+      "Start with short taps to learn how far a small hop carries the panda before you try longer holds.",
+      "Before committing to a long hold, look at the gap ahead and decide whether it needs a small hop or a big leap.",
+      "If you keep overshooting, try shorter holds. If you keep falling short, hold a little longer and release at the same point each time.",
+      "Use the Levels menu to return to earlier levels and practise your timing when a later platform feels too hard.",
+      "Check the Shop after collecting coins so you know what you can spend them on before you run out."
+    ],
+    "faq": [
+      [
+        "How do I control how far the panda jumps?",
+        "Press and hold the mouse button or your finger to charge the jump, then release. A longer hold gives a longer jump."
+      ],
+      [
+        "What happens if I fall short or overshoot a platform?",
+        "You miss the next platform, so that jump does not land and you need to try the platform again."
+      ]
+    ]
+  },
+  "drone-zero-racing": {
+    "intro": "Drone Zero Racing is a fast 3D drone race through a rainy neon city at night. You compete against seven rivals across ten floating tracks full of tunnels, jumps and storms.",
+    "tips": [
+      "Use the airbrakes (Q or E) before sharp corners so you keep control instead of drifting wide.",
+      "Aim for boost pads and turbo rings on each track, since they give you speed you can carry through the next section.",
+      "Save your Space turbo for straights or after a clean corner rather than spending it while you are still fighting the turn.",
+      "Try Time Trial and race against your own ghost to learn the tricky sections of each track before you face the rivals. If you enjoy this style, you can also explore more [[racing-games|racing games to practice your cornering]].",
+      "Finishing in the top 3 unlocks new tracks and earns credits, so it is worth racing for a podium finish rather than just completing the lap."
+    ],
+    "faq": [
+      [
+        "How do I unlock new tracks?",
+        "Finish in the top 3 of a race to unlock new tracks. Placing lower will not open them."
+      ],
+      [
+        "What do I spend credits on?",
+        "You can buy drones and upgrades in the hangar. There are 8 drones available to choose from."
+      ]
+    ]
+  },
+  "zombie-survival-blackout": {
+    "intro": "Zombie Survival: Blackout is an isometric action game in a rainy city where your weapon fires automatically. Your movement decides how long you last, so positioning is the main skill to build.",
+    "tips": [
+      "Keep moving in wide loops instead of standing still, since your weapon fires on its own and your position is the part you control.",
+      "Watch the edges of the crowd and step away before zombies can surround you, because being boxed in is the fastest way to lose a run.",
+      "Start with Stage 1-1, Residential Blocks, and treat it as practice for reading the crowd and learning how far your weapon reaches.",
+      "Collect experience whenever it is safe to do so, since leveling up helps you survive the growing pressure until the boss countdown ends.",
+      "If you enjoy clearing hordes while staying mobile, you can browse more [[zombie-games|undead survival picks]] on the site for similar fights."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Zombie Survival: Blackout?",
+        "Survive each stage until the boss arrives, moving around the map and collecting experience to level up along the way."
+      ],
+      [
+        "How do I control my survivor?",
+        "Move with W, A, S and D or the arrow keys. Your weapon fires automatically at nearby zombies, so you do not need to aim or shoot."
+      ]
+    ]
+  },
+  "tidewash": {
+    "intro": "Tidewash is a calm puzzle where the beach shrinks as waves roll in. Drag pieces onto the dry sand to build groups of matching colours before the water reaches them.",
+    "tips": [
+      "Build groups near the middle of the dry sand first, since groups that touch the water are washed away and lost. Keeping them away from the edge gives you more room.",
+      "Watch the wave pattern and plan a few placements ahead, because each new wave pushes the water one row higher and leaves less space.",
+      "Leave lonely pieces alone when you can, since a piece with no matching neighbour turns into driftwood. Try to place pieces so they join a group of three or more.",
+      "In the Magnet world, think about which lanes the colour magnets will pull through before you move, so you can collect every star chip in fewer moves for a better score. If you like this style, you can explore more [[match-3-games|match three puzzles]] to practise the same habit.",
+      "Save your free hint for a level where you are truly stuck, and try a fresh look at the board first. Use Restart if the beach has become too crowded to recover."
+    ],
+    "faq": [
+      [
+        "How do I score points in Tidewash?",
+        "Groups that touch the water are washed away and earn points. A big wash also pushes the tide back, which helps you keep more sand."
+      ],
+      [
+        "What causes the beach to shrink?",
+        "A new wave rolls in every few placements and sits one row higher than before. Over time this reduces the dry sand you have to work with."
+      ]
+    ]
+  },
+  "the-outbreak": {
+    "intro": "The Outbreak is a zombie shooter set in a fallen city. Your weapon fires on its own, so you focus on moving, choosing upgrades, and surviving twelve waves in each of five zones.",
+    "tips": [
+      "Keep moving constantly with WASD or the arrow keys, since your weapon fires automatically and staying in one spot leaves you exposed to the dead.",
+      "Leave the mouse still when you need the game to handle targeting, because it auto-aims at the nearest enemy. Move the mouse only when you want to pick a specific aim.",
+      "Read each upgrade choice with your current position in mind, and pick the ones that help you keep moving and stay alive through the next wave.",
+      "Save your hero ability on E, Q, or Spacebar for crowded moments, and use placed abilities to control areas where enemies gather. If you enjoy survival against the undead, you can find more [[zombie-games|zombie survival games to try]] on the site.",
+      "Treat each wave as a short challenge: after clearing one, take a moment to plan your route and upgrades before the next group arrives."
+    ],
+    "faq": [
+      [
+        "How do I aim in The Outbreak?",
+        "Move the mouse to aim manually. If you leave the mouse still, the game auto-aims at the nearest target for you."
+      ],
+      [
+        "Do I need to press a button to shoot?",
+        "No. Shooting is automatic, so your weapon fires on its own while you focus on moving and choosing upgrades."
+      ]
+    ]
+  },
+  "miner-merge": {
+    "intro": "Miner Merge is an idle puzzle game where you merge minions to upgrade their abilities while your miners turn rocks into precious minerals. This guide covers how to get the most out of each session.",
+    "tips": [
+      "Look for chances to merge minions as soon as they become available, since upgraded abilities are the main way to improve your mining.",
+      "Use the fast forward button when you want rewards to build up quickly, especially when you are waiting on your miners to finish their work.",
+      "Check your progress between sessions, because idle games reward you for time spent away and you can plan your next merges then.",
+      "Think about which minions to merge first rather than merging at random, so your strongest upgrades go toward the abilities that help your miners most. If you enjoy this style, you can find [[merge-games|more puzzle games built around merging]]."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Miner Merge?",
+        "Your goal is to merge minions to upgrade their abilities so your miners can turn rocks into more precious minerals."
+      ],
+      [
+        "Does the fast forward button change how rewards work?",
+        "The fast forward button speeds up the pace of the game, which the game says helps you maximize your rewards over time."
+      ]
+    ]
+  },
+  "evolution-simulator": {
+    "intro": "Evolution Simulator has you guide a tiny Wiggle Worm through the Sunny Meadow, eating and growing into new creatures. This guide covers the level colours, evolution choices, and boss fights.",
+    "tips": [
+      "Read the colour above each creature before you pick a fight. Green is safe to hunt, yellow is a fair fight, and red or skull means you should run away for now.",
+      "Save Space for dodging rather than only attacking. You cannot be hit while dashing, so time your dash to slip through the boss's red circles and lanes.",
+      "When you reach an evolution level, think about your play style before choosing. The fighter hits hard, the tank holds up under damage, and the runner is quick, so pick the one that fits how you like to move. For more creature-focused play, try [[animal-games|more creature adventures to explore]].",
+      "Hunt green and yellow creatures to build up EVO and heal with snacks while you wait for stronger forms. Avoid red ones until you are bigger.",
+      "Spend DNA in the lab on sharper bites and tougher hide after each run, since the game lets you be reborn stronger to try other evolution paths."
+    ],
+    "faq": [
+      [
+        "How do I know which creatures I can safely attack?",
+        "Look at the level colour above each creature. Green means snack and safe to hunt, yellow is a fair fight, and red or skull means they are too strong for now."
+      ],
+      [
+        "How do I get past a boss and move to the next world?",
+        "Beat the giant boss in the arena at the north end of the island's path. Once it is defeated, you can walk through the portal to the next world."
+      ]
+    ]
+  },
+  "arrow-out-puzzle-escape": {
+    "intro": "Arrow Out: Puzzle Escape is a colourful brain puzzle where you tap arrows to slide them off the board. Each arrow can block another, so the order of your moves matters.",
+    "tips": [
+      "Before you tap, look at what sits in front of each arrow's head. Clear the blocking arrow first, because a blocked tap costs a heart.",
+      "Watch your hearts. You start each level with 3, and fewer mistakes earn more stars, so pause to plan before every move.",
+      "Break frozen arrows early by tapping them once, so you can see the whole board and plan their exit path. Bent arrows need their full body path clear, so check the curve before tapping.",
+      "When a locked arrow is in the way, free the arrow that holds the key first. Rocks never move, so look for a route around them before you start sliding.",
+      "If you tap the wrong arrow, use undo right away to take back the mistake. For more practice, try [[puzzle-games|more brain puzzles to explore]] once you clear a chapter."
+    ],
+    "faq": [
+      [
+        "How do I win a level in Arrow Out?",
+        "You win when every arrow has slid out of the board. The fewer mistakes you make, the more stars you earn, up to 3."
+      ],
+      [
+        "What happens when an arrow hits another one?",
+        "The arrow bumps back and you lose 1 heart. Clear the path in front of it first, then tap it again."
+      ]
+    ]
+  },
+  "vet-tycoon-pet-hospital": {
+    "intro": "Vet Tycoon: Pet Hospital is a cozy management game where you run an animal clinic. You carry patients to beds, give them the right medicine, and use the coins they leave to grow your hospital.",
+    "tips": [
+      "Check the icon above each pet before you walk to the cabinet, so you grab soap, a shot or a pill the first time.",
+      "Spend your early coins on beds first, since more beds let more patients be treated at once.",
+      "Hire nurses to treat patients for you, and keep an eye on them so they do not get tired and stop working.",
+      "Golden patients pay up to 10 times more, so when one is waiting, it is worth clearing a bed for it quickly.",
+      "Before you step away, upgrade your wards so they keep earning while you are gone. If you enjoy steady clinic building, you can find more [[idle-and-tycoon-games|idle and tycoon picks]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I get a patient cured?",
+        "Pick up a pet from the waiting area, carry it to a free bed, and bring the medicine shown in the icon above it. Once it gets well, walk to the coin pile to collect its gold."
+      ],
+      [
+        "How do I unlock the Water Clinic?",
+        "Keep growing your main clinic and earning coins until it is booming. Then you can open the Water Clinic, where dolphins, crabs and sea horses are treated in pools."
+      ]
+    ]
+  },
+  "popverse-bubble-shooter": {
+    "intro": "Popverse is a bubble shooter where you aim and fire bubbles to match colors. Special bubbles, chain reactions, and obstacles like Frozen, Stone, and Portal bubbles make each level change up.",
+    "tips": [
+      "Aim for spots where your shot will touch several matching bubbles at once, since clearing a group is usually better than popping a single bubble.",
+      "Pay attention to special bubbles like Bombs, Rainbows, and Lightning, and try to set them up so they trigger explosive combos.",
+      "Plan around obstacles such as Frozen, Stone, and Portal bubbles before you fire, because they can block or redirect your shots.",
+      "Check the board after each shot for chain reactions you can start, and keep a shot ready that can break open a cluster when the board gets crowded.",
+      "If you like fitting shots into tight colour patterns, the [[bubble-shooter|more bubble popping puzzles]] collection has similar games to try next."
+    ],
+    "faq": [
+      [
+        "How do I aim and fire my bubble?",
+        "Click and drag to aim the shooter, then release to fire the bubble."
+      ],
+      [
+        "What is the goal of each level?",
+        "The description does not list exact level goals, but the core idea is to match colors and clear bubbles using combos and chain reactions. Check the level's on-screen objective when it starts."
+      ]
+    ]
+  },
+  "sweet-screw-factory": {
+    "intro": "Sweet Screw Factory is a physics puzzle where you unscrew candy bolts so falling candy blocks slide into the matching colored jars. With 120 levels across six factory worlds, it rewards careful planning.",
+    "tips": [
+      "Before tapping a screw, watch which platform or block it holds, since removing one screw can make a whole structure fall, pivot, or slide.",
+      "When a screw is locked, look for another screw that supports the same piece and try removing that one first to change the order of the physics.",
+      "Try a screw in a simple level to see how the platform reacts, then apply the same idea to harder layouts with trampolines and portals.",
+      "Take a moment to plan the path a block will travel into its matching jar, because a well-timed removal often matters more than a fast one.",
+      "Progress is saved, so you can leave a tough boss puzzle and come back with fresh ideas, and if you enjoy this kind of logic challenge, more [[puzzle-games|brain teasers to try]] are available."
+    ],
+    "faq": [
+      [
+        "How do I win a level?",
+        "You win by guiding each falling candy block into the jar that matches its color. Tap the candy screws in an order that lets physics move the blocks where they need to go."
+      ],
+      [
+        "What makes a screw hard to remove?",
+        "Some screws are locked, so you cannot remove them right away. You will need to clear other screws first to open them up."
+      ]
+    ]
+  },
+  "ghost-shift": {
+    "intro": "Ghost Shift is an endless runner where you switch between Human and Ghost modes to get past obstacles. Each mode treats red and blue barriers differently, so timing your switches is the core skill.",
+    "tips": [
+      "Before every obstacle, check its color against your current mode. Red blocks are deadly in Human mode, while blue barriers are deadly in Ghost mode.",
+      "Switch modes just before an obstacle reaches you, not early. Switching too soon can leave you in the wrong mode when the next barrier arrives.",
+      "Save shields for moments when several obstacles come close together. Their protection is temporary, so use them when you are under the most pressure.",
+      "Collect coins whenever it is safe to do so, since they unlock skins. Grabbing them along your route is a low-risk way to build progress.",
+      "If you enjoy fast, endless runner challenges, you can explore [[running-games|more games like this]] to find similar titles."
+    ],
+    "faq": [
+      [
+        "How do I switch between Human and Ghost modes?",
+        "On desktop, press S or the Down Arrow. On mobile, tap the Switch button on screen."
+      ],
+      [
+        "What makes an obstacle deadly?",
+        "In Human mode, red blocks will kill you, and blue barriers are safe to pass through. In Ghost mode, it is the reverse: blue barriers are deadly and red blocks are safe to phase through."
+      ]
+    ]
+  },
+  "domino-online-multiplayer": {
+    "intro": "Domino Online Multiplayer is a domino game you can play against the computer, against live players, or with a friend on the same screen or through a shared link. You click or tap to make your moves.",
+    "tips": [
+      "Start with a lower difficulty level against the computer to learn how the AI plays, then raise the level as your moves get more reliable.",
+      "Use the hints when you are stuck, and then try to spot the same pattern on your own next time so you rely on them less.",
+      "Look back at the history of moves after a game to see where you lost ground and which choices were the turning points.",
+      "If you enjoy head-to-head board play, try exploring [[2-player-games|more two player games]] for other ways to test your strategy against someone else."
+    ],
+    "faq": [
+      [
+        "How do I place a domino?",
+        "Click or tap the domino you want, then click or tap the spot where you want to play it."
+      ],
+      [
+        "Can I take back a move I regret?",
+        "Yes, the game includes a cancel move option, so you can undo a move if you change your mind."
+      ]
+    ]
   }
 }
