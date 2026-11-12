@@ -93701,8 +93701,8 @@
   }
  },
  "far-orion-new-worlds": {
-  "description": "El año es 2121. La tecnología ha avanzado mucho más allá de nuestras fantasías más salvajes, pero el gran progreso exige grandes sacrificios... ¡Explora otros mundos en busca de tesoros y poder ilimitado! ¡Dirige a un equipo de valientes héroes y lleva a tu mundo a la victoria! Características del juego: - varias docenas de héroes únicos y cartas de batalla - decenas de misiones en cada mundo - sin anuncios molestos - arena PvP - modo torre - clanes y guerras de clanes [Jugabilidad principal e historia] P: ¿De qué trata el juego? ¿Qué tienes que hacer? R: Es un juego de estrategia de acción en el que completas niveles (misiones) y luchas contra enemigos. P: ¿El juego tiene una trama? R: Sí, hay una historia. Está ambientada en la ciencia ficción del año 2121, con tecnología avanzada, pero algo salió mal y los héroes quieren salvar el mundo. P: ¿Cuál es el punto fuerte único del juego? ¿Qué puede enganchar a los jugadores? R: Hay muchos héroes diferentes con un sistema de mejoras, una gran cantidad de misiones, una arena PvP, una clasificación y guerras de clanes. También puedes mejorar las cartas de ataque. P: ¿Cuáles son los elementos de contenido atractivos (armas, vehículos, lugares, habilidades, referencias a franquicias famosas, etc.)? R: Una enorme variedad de héroes, muchas habilidades diferentes e interesantes para estos héroes, una historia atractiva, objetivos claros y mecánicas de juego sencillas. [Mecánicas y progresión] P: ¿Hay jefes y en qué se diferencian? R: Hay jefes a lo largo de la historia, y se diferencian en diseño, tipos de ataque y cantidad de PV. P: ¿Cómo funciona exactamente la progresión? ¿Qué debes hacer para subir de nivel más rápido? R: Para subir de nivel más rápido, tienes que jugar bien para ganar suficiente moneda del juego. El juego es fácil de jugar. P: ¿Hay minijuegos dentro de la historia principal? Por ejemplo, puzzles de 'tres en raya' dentro del juego de estrategia. R: No. [Economía y personalización] P: ¿Cuáles son las monedas y en qué se gastan (estándar: oro, premium: cristales, etc.)? R: El dinero se gasta en mejorar héroes, mejorar cartas y comprar cartas de héroe para desbloquearlos. P: ¿Hay compras dentro del juego? ¿Qué puedes comprar y qué afecta? ¿Gastar dinero acelera el progreso del juego? R: Sí, las microtransacciones acelerarán el progreso del juego, ya que puedes comprar moneda del juego con dinero real",
-  "instructions": "Reúne un escuadrón de héroes y un mazo de cartas y completa misiones. Usa el dinero que recibas para desbloquear nuevos héroes y mejorar tus cartas. ¿Qué héroes debo llevar a la batalla? - Los que se complementan entre sí y son más fuertes juntos, como un sanador y un tanque. ¿Con qué cartas debo luchar? - Con las que puedan reforzar tu escuadrón de héroes, o cartas básicas de curación y daño a los enemigos. ¿Cómo gano oro? - Completando misiones y misiones diarias, y luchando en la torre y en la aren"
+  "description": "El año es 2121. La tecnología ha avanzado mucho más allá de nuestras fantasías más salvajes, pero el gran progreso exige grandes sacrificios... ¡Explora otros mundos en busca de tesoros y poder ilimitado! ¡Dirige a un equipo de valientes héroes y lleva a tu mundo a la victoria! Características del juego: - varias docenas de héroes únicos y cartas de batalla - decenas de misiones en cada mundo - sin anuncios molestos - arena PvP - modo torre - clanes y guerras de clanes [Jugabilidad principal e historia] P: ¿De qué trata el juego? ¿Qué tienes que hacer? R: Es un juego de estrategia de acción en el que completas niveles (misiones) y luchas contra enemigos. P: ¿El juego tiene una trama? R: Sí, hay una historia. Está ambientada en la ciencia ficción del año 2121, con tecnología avanzada, pero algo salió mal y los héroes quieren salvar el mundo. P: ¿Qué hace único al juego? ¿Qué puede enganchar a los jugadores? R: Hay muchos héroes diferentes con un sistema de mejoras, una gran cantidad de misiones, una arena PvP, una clasificación y guerras de clanes. También puedes mejorar las cartas de ataque. P: ¿Qué elementos de contenido atractivos hay (armas, vehículos, ubicaciones, habilidades, referencias a franquicias famosas, etc.)? R: Una enorme variedad de héroes, muchas habilidades diferentes e interesantes para estos héroes, una historia atractiva, objetivos claros y mecánicas de juego sencillas. [Mecánicas y progresión] P: ¿Hay jefes y en qué se diferencian? R: Hay jefes a lo largo de la historia, y se diferencian en diseño, tipos de ataque y cantidad de PV. P: ¿Cómo funciona exactamente la progresión? ¿Qué debes hacer para subir de nivel más rápido? R: Para subir de nivel más rápido, debes jugar bien para ganar suficiente moneda del juego. El juego es fácil de jugar. P: ¿Hay minijuegos dentro de la historia principal? Por ejemplo, rompecabezas de 'tres en línea' dentro del juego de estrategia. R: No. [Economía y personalización] P: ¿Cuáles son las monedas y en qué se gastan (estándar: oro, premium: cristales, etc.)? R: El dinero se gasta en mejorar héroes, mejorar cartas y comprar cartas de héroe para desbloquearlos. P: ¿Hay compras dentro del juego? ¿Qué puedes comprar y qué efecto tiene? ¿Gastar dinero acelera el progreso del juego? R: Sí, las microtransacciones aceleran el progreso del juego, ya que puedes comprar moneda del juego con dinero real.",
+  "instructions": "Reúne un escuadrón de héroes y un mazo de cartas y completa misiones. Usa el dinero que recibes para desbloquear nuevos héroes y mejorar tus cartas. ¿Qué héroes debo llevar a la batalla? - los que se complementan entre sí y son más fuertes juntos, como un sanador y un tanque. ¿Con qué cartas debo luchar? - con las que puedan fortalecer tu escuadrón de héroes, o cartas básicas de curación y daño a los enemigos. ¿Cómo gano oro? - completando misiones y misiones diarias, y luchando en la torre y en la arena"
  },
  "black-sphere": {
   "description": "Frente a ti, en la pantalla, verás un campo de juego con varias celdas redondas. En una de ellas habrá una bola blanca. Una de las celdas se resaltará en un color específico. En la parte superior del campo de juego aparecerá una bola negra. Puedes usar el ratón para moverla a una de las celdas. Esto debe hacerse de forma que la bola negra empuje a la blanca y termine en la celda seleccionada. Si lo consigues, recibirás puntos en el juego Black Sphere y pasarás al siguiente nivel.",
@@ -105053,8 +105053,8 @@
   }
  },
  "plop": {
-  "description": "🍉 ¡Plop! Fruit Merge — Descripción del juego 🍓 🍊 ¡Prepárate para una aventura de puzles jugosa! ¡Bienvenido a Plop! Fruit Merge, un juego de fusión de frutas en HTML5 colorido, divertido y adictivo, lleno de desafíos emocionantes y combinaciones muy satisfactorias! 🎮✨ 🍓 ¡Suelta, fusiona y crece! ¡Suelta frutas adorables en una gran batidora de cristal, combina frutas idénticas y mira cómo se transforman en creaciones más grandes y valiosas! Descubre 11 niveles de frutas emocionantes y crea reacciones en cadena increíbles para conseguir puntuaciones enormes! 🍉💥 🧠 ¡Piensa con inteligencia y planifica con antelación! ¡Cada caída cuenta! Coloca tus frutas estratégicamente, activa combos potentes y evita que tu batidora se desborde. Cuanto más grandes sean las frutas, mayor será el desafío! 🎯🏆 ⚡ ¡Desbloquea habilidades poderosas! Usa potenciadores especiales como ❄️ Hielo, 🌶️ Pimienta y 🌈 Arcoíris para superar situaciones complicadas. ¡Carga tu poderosa habilidad 🌀 BLEND para liberar espacio y mantener la diversión de las fusiones! 📅 ¡Desafíos y misiones diarias! Completa emocionantes desafíos diarios, cumple misiones, recoge frutas coloridas y desbloquea distintos estilos de batidora para personalizar tu experiencia! 🎁⭐ 🏆 ¡Supera tu récord! Desafíate a ti mismo para aguantar más tiempo, descubre frutas más grandes y consigue puntuaciones increíbles. ¿Puedes convertirte en el Fruit Merge Master definitivo? 🥇🔥 🌟 Con gráficos adorables, físicas suaves, fusiones satisfactorias y una rejugabilidad infinita, ¡Plop! Fruit Merge es la aventura de puzles perfecta para jugadores casuales y fans de la fusión de frutas! 🍓🍊🍋🍉 ¡Suéltalo! ¡Fusiónalo! ¡Mézclalo! ¡Gánalo! 🎉🎮",
-  "instructions": "¡Bienvenido a Plop! Fruit Merge! Tu objetivo es sencillo: fusiona frutas iguales, crea frutas más grandes y consigue la puntuación más alta posible! 1. Suelta frutas 🍓 Usa el ratón o los controles táctiles para colocar y soltar frutas en la batidora de cristal. 2. Fusiona frutas iguales 🍊 Cuando dos frutas idénticas se toquen, se fusionarán en una fruta más grande. Sigue combinando frutas iguales para desbloquear los 11 niveles de frutas. 3. Crea reacciones en cadena 🍉 Planifica tus caídas estratégicamente para activar varias fusiones, crear combos emocionantes y ganar más puntos. 4. Usa potenciadores especiales ⚡ Aprovecha los especiales Hielo, Pimienta y Arcoíris para ayudarte a controlar las frutas dentro de tu batidora. 5. Activa BLEND 🌀 Llena tu medidor de BLEND jugando y actívalo para eliminar las frutas más pequeñas, creando más espacio para nuevas combinaciones. 6. Completa los desafíos diarios 🏆 Acepta los objetivos diarios, termina las misiones y desafíate a ti mismo para superar tus récords anteriores. 7. Evita el desbordamiento 🚨 ¡Mantén la pila de frutas bajo control! Si tu batidora b"
+  "description": "🍉 ¡Plop! Fruit Merge — Descripción del juego 🍓 🍊 ¡Prepárate para una jugosa aventura de puzles! ¡Bienvenido a Plop! Fruit Merge, un juego de fusionar frutas en HTML5 colorido, divertido y adictivo, lleno de retos emocionantes y combinaciones muy satisfactorias! 🎮✨ 🍓 ¡Suelta, fusiona y crece! ¡Deja caer frutas adorables en una licuadora de cristal gigante, combina frutas idénticas y mira cómo se transforman en creaciones más grandes y valiosas! ¡Descubre 11 niveles de frutas emocionantes y crea reacciones en cadena increíbles para conseguir puntuaciones enormes! 🍉💥 🧠 ¡Piensa con inteligencia y planifica! ¡Cada caída importa! Coloca tus frutas estratégicamente, activa combos poderosos y evita que tu licuadora se desborde. ¡Cuanto más grandes son las frutas, mayor es el reto! 🎯🏆 ⚡ ¡Desbloquea habilidades poderosas! Usa potenciadores especiales como ❄️ Hielo, 🌶️ Pimienta y 🌈 Arcoíris para superar situaciones complicadas. ¡Carga tu poderosa habilidad 🌀 BLEND para liberar espacio y mantener la diversión de las fusiones! 📅 ¡Retos y misiones diarios! Completa emocionantes retos diarios, cumple misiones, recoge frutas coloridas y desbloquea distintos estilos de licuadora para personalizar tu experiencia! 🎁⭐ 🏆 ¡Supera tu récord! Desafíate a ti mismo a aguantar más tiempo, descubre frutas más grandes y consigue puntuaciones increíbles. ¿Puedes convertirte en el Fruit Merge Master definitivo? 🥇🔥 🌟 Con gráficos adorables, físicas fluidas, fusiones satisfactorias y una rejugabilidad infinita, ¡Plop! Fruit Merge es la aventura de puzles perfecta para jugadores casuales y fans de fusionar frutas! 🍓🍊🍋🍉 ¡Suéltala! ¡Fúndela! ¡Licúala! ¡Gánala! 🎉🎮",
+  "instructions": "¡Bienvenido a Plop! Fruit Merge! Tu objetivo es sencillo: fusiona frutas iguales, crea frutas más grandes y consigue la puntuación más alta posible! 1. Suelta las frutas 🍓 Usa el ratón o los controles táctiles para colocar y soltar las frutas dentro de la licuadora de cristal. 2. Fusiona frutas iguales 🍊 Cuando dos frutas idénticas se toquen, se fusionarán en una fruta más grande. Sigue combinando frutas iguales para desbloquear los 11 niveles de frutas. 3. Crea reacciones en cadena 🍉 Planifica tus caídas estratégicamente para activar varias fusiones, crear combos emocionantes y ganar más puntos. 4. Usa los potenciadores especiales ⚡ Aprovecha los especiales Hielo, Pimienta y Arcoíris para ayudarte a controlar las frutas dentro de tu licuadora. 5. Activa BLEND 🌀 Llena tu medidor de BLEND jugando y actívalo para eliminar las frutas más pequeñas, creando más espacio para nuevas combinaciones. 6. Completa los retos diarios 🏆 Afronta los objetivos diarios, termina las misiones y desafíate a ti mismo para superar tus récords anteriores. 7. Evita el desbordamiento 🚨 ¡Mantén la pila de frutas bajo control! Si tu licuadora b"
  },
  "tile-match": {
   "description": "¡Bienvenido a Tile Match! Prepárate para un juego divertido y emocionante en el que tienes que seguir emparejando fichas antes de que lleguen al fondo. ¡Es el juego perfecto para cualquiera que ame los puzles y el pensamiento rápido! Cómo funciona: las fichas no dejan de caer desde arriba y bajan. Tu tarea es asegurarte de que ninguna ficha toque el borde inferior. Si lo hace, ¡vaya!, el nivel termina y tienes que volver a empezar.",
@@ -110240,8 +110240,8 @@
   }
  },
  "revoxel-3d-voxel-rpg-shooter": {
-  "description": "¡Sumérgete en un RPG de disparos dinámico al estilo voxel con una atmósfera cyberpunk! Te espera una ciudad futurista y oscura dominada por una corporación tecnológica, además de batallas interminables contra robots y monstruos, desarrollo de personajes y acción constante al estilo de un RPG de disparos. Recorre las calles de la metrópolis, descubre una conspiración, mejora tus armas y equipo, extrae recursos y derrota a los jefes. El juego combina disparos llenos de acción, elementos de supervivencia, desarrollo de personajes y una rica historia sobre la lucha por la libertad humana. Características principales: 🔫 RPG de disparos con jugabilidad de acción dinámica 🧱 Estilo voxel único y atmósfera cyberpunk ⚙️ Personalización profunda de armas y equipo 🤖 Batallas contra robots, monstruos y jefes 🧭 Exploración de la ciudad, mazmorras y lugares 💰 Recolección de recursos, fabricación y desarrollo de la base \"[Jugabilidad principal e historia] P: ¿De qué trata el juego y qué haces? R: Es un RPG en el que luchas contra oleadas de enemigos para completar niveles y desbloquear nuevas habilidades, zonas y armas. P: ¿Tiene una historia? R: No hay una narrativa tradicional, pero el objetivo está claro: desbloquear nuevos territorios y derrotar a los jefes. P: ¿Qué hace único a este juego? ¿Por qué les interesaría a los jugadores? R: Hay muy pocos juegos como este, especialmente con un estilo cyberpunk elegante y temática de arquero. Incluye minijuegos integrados, gráficos excelentes, misiones variadas y una profunda personalización y progresión del personaje. P: ¿Cuáles son los elementos más atractivos del juego? R: Los minijuegos internos, una gran variedad de armas, objetivos claros y mecánicas de juego sencillas e intuitivas. [Mecánicas y progresión] P: ¿Hay jefes y en qué se diferencian? R: Sí, pero los jefes son relativamente fáciles. Actúan como guardianes situados en las entradas de nuevas ciudades. P: ¿Cómo funciona el sistema de progresión? ¿Cómo puedes subir de nivel más rápido? R: Subes de nivel derrotando enemigos. También puedes elegir bonificaciones y encontrar mejoras en las cajas. [Economía y personalización] P: ¿Qué monedas hay disponibles y en qué se pueden gastar? R: El dinero sirve para desbloquear nuevos territorios, mejorar tu personaje y comprar nueva ropa. P: ¿Hay compras dentro de la aplicación? ¿Qué se puede comprar y cómo d",
-  "instructions": "Detén a una corporación tecnológica asesina eliminando enemigos y jefes, descubre una conspiración y desarrolla a tu personaje. Mejora tus armas, equipo y habilidades para salvar el mundo del futuro y convertirte en una leyenda de la resistencia. Controles Dispositivos móviles: panel táctil para moverte y botones en pantalla para las acciones y disparar. PC: usa las teclas WASD para moverte y las teclas de juego estándar para las demás acciones."
+  "description": "Sumérgete en un RPG de disparos dinámico de estilo voxel con una atmósfera cyberpunk. Te espera una ciudad futurista oscura dominada por una corporación tecnológica, con batallas interminables contra robots y monstruos, desarrollo de personaje y acción constante al estilo de un RPG de disparos. Recorre las calles de la metrópolis, descubre una conspiración, mejora tus armas y equipo, extrae recursos y derrota a los jefes. El juego combina disparos llenos de acción, elementos de supervivencia, desarrollo de personaje y una rica historia sobre la lucha por la libertad humana. Características principales: 🔫 RPG de disparos con jugabilidad de acción dinámica 🧱 Estilo voxel único y atmósfera cyberpunk ⚙️ Personalización profunda de armas y equipo 🤖 Combates contra robots, monstruos y jefes 🧭 Exploración de la ciudad, mazmorras y localizaciones 💰 Recolección de recursos, fabricación y desarrollo de base \"[Jugabilidad principal e historia] P: ¿De qué trata el juego y qué haces? R: Es un RPG en el que luchas a través de oleadas de enemigos para completar niveles, desbloquear nuevas habilidades, zonas y armas. P: ¿Hay una historia? R: No hay una narrativa tradicional, pero el objetivo está claro: desbloquear nuevos territorios y derrotar a los jefes. P: ¿Qué hace único a este juego? ¿Por qué les interesaría a los jugadores? R: Hay muy pocos juegos como este, sobre todo con un estilo cyberpunk arquero muy elegante. Incluye minijuegos integrados, gráficos excelentes, misiones variadas y una personalización y progresión profundas del personaje. P: ¿Cuáles son los elementos más atractivos del juego? R: Los minijuegos internos, una gran variedad de armas, objetivos claros y mecánicas de juego sencillas e intuitivas. [Mecánicas y progresión] P: ¿Hay jefes y en qué se diferencian? R: Sí, pero los jefes son relativamente fáciles. Actúan como guardianes apostados en las entradas de las nuevas ciudades. P: ¿Cómo funciona el sistema de progresión? ¿Cómo puedes subir de nivel más rápido? R: Subes de nivel derrotando enemigos. También puedes elegir bonificaciones y encontrar mejoras en las cajas. [Economía y personalización] P: ¿Qué monedas hay disponibles y en qué se pueden gastar? R: El dinero se usa para desbloquear nuevos territorios, mejorar tu personaje y comprar ropa nueva. P: ¿Hay compras dentro de la aplicación? ¿Qué puedes comprar y cómo d",
+  "instructions": "Detén a una corporación tecnológica asesina eliminando enemigos y jefes, descubriendo una conspiración y desarrollando tu personaje. Mejora tus armas, equipo y habilidades para salvar el mundo del futuro y convertirte en una leyenda de la resistencia. Controles Dispositivos móviles: panel táctil para moverte y botones en pantalla para las acciones y disparar. PC: usa las teclas WASD para moverte y las teclas de juego estándar para otras acciones."
  },
  "eat-donuts": {
   "description": "Eat Donuts es un divertido y relajante juego de puzle match-3 en el que ayudas a un pingüino tierno a recoger deliciosas rosquillas. En una cuadrícula de 3x3, arrastra los anillos de rosquilla brillantes para intercambiarlos, rotarlos y alinearlos y conseguir combinaciones satisfactorias. Alcanza la puntuación objetivo antes de que se acabe el tiempo, usando potenciadores como martillos y rotadores para combos explosivos. Controles sencillos, gráficos adorables y una jugabilidad adictiva hacen de este el rompecabezas casual perfecto para entrenar la mente.",
@@ -184564,8 +184564,8 @@
   }
  },
  "mega-jump": {
-  "description": "El exitoso juego de saltos para móviles ya se puede jugar gratis en línea en Arkadium. ¡Sin descargas: salta directamente a la acción desde tu navegador! ¡Ponte tus botas de salto y prepárate para volar! Mega Jump es un juego de saltos trepidante y lleno de acción que millones de personas adoran. Sumérgete en un mundo de emociones mientras saltas, esquivas y recoges monedas, subiendo cada vez más alto hacia el cielo. Mega Jump no es un juego de saltos más: como uno de los mejores juegos de saltos gratis disponibles, pone a prueba tu concentración, tu ritmo y tu estilo como ningún otro juego. ¿Quieres flotar como un globo? Hecho. ¿Necesitas recoger todas las monedas a la vista? El Imán de Monedas te cubre las espaldas. ¿Te sientes ardiente? Consigue el impulso Super Nova y sal disparado por los niveles como un cometa. Ojo con los monstruos traicioneros, las trampas astutas y la gravedad, que intentará arrastrarte hacia abajo. Con unos gráficos de dibujos animados espectaculares, fondos preciosos y desafíos que te mantienen en vilo, Mega Jump ofrece diversión sin parar. Desbloquea personajes peculiares, desde valientes héroes hasta adorables criaturitas, y conviértelos en tus campeones del salto. Ya sea persiguiendo monedas o lanzándote al espacio, este juego de saltos convierte cada salto en una aventura, demostrando por qué está considerado uno de los mejores juegos de saltos gratis que puedes jugar. Juega a Mega Jump en línea hoy Si buscas retos más emocionantes y aventuras inolvidables, echa un vistazo a la colección de juegos online gratis de Arkadium, que se pueden jugar al instante sin instalaciones ni descargas. Disfruta de la emoción de los juegos de carreras que te ponen al volante o de los juegos adictivos llenos de acción sin pausa. ¡Disfrútalo!",
-  "instructions": "Tu objetivo es sencillo: salta alto, recoge monedas y llega a nuevas fases. Si fallas una recogida, es Game Over: mantente alerta y haz tu siguiente movimiento rápidamente. Sigue intentando conseguir la puntuación más alta. Usa las teclas de flecha para moverte a la izquierda o a la derecha y saltar sobre las plataformas. Consejos de Mega Jump: Monedas de oro: consigue 100 para obtener un impulso. Monedas x2 y x5: las monedas azules y rojas con centro valen el doble y el quíntuple: ¡ding, ding! Monedas tramposas: ¡ojo!, estas monedas astutas huyen cuando te acercas. Monedas móviles: desliza de un lado a otro para atrapar estos tesoros escurridizos. Estrellas de impulso: las estrellas brillantes te lanzan más arriba. Amarillas, verdes, azules y rojas: cada una más potente que la anterior. Recoge todas las que puedas para obtener impulsos enormes y volar a nuevas alturas. Estrellas de rescate: ¿Caes? Toca tu Estrella de rescate para salir disparado hacia arriba. Empiezas con 5, así que úsalas con sabiduría y no las desperdicies. Potenciadores al rescate Paraguas: desciende suavemente y atrae monedas magnéticamente. Botas de salto: saltos más grandes, rápidos y altos. Imán: atrae monedas como un jefe. Explosión de la suerte: transforma eve"
+  "description": "El exitoso juego de saltos para móviles ya se puede jugar gratis en línea en Arkadium. ¡No hace falta descargar nada; salta directamente a la acción desde tu navegador! ¡Ponte tus botas de salto y prepárate para volar! Mega Jump es un juego de saltos rápido y lleno de acción que millones de personas adoran. Sumérgete en un mundo de emoción mientras saltas, esquivas y recoges monedas, subiendo cada vez más alto hacia el cielo. Mega Jump no es un juego de saltos más; como uno de los mejores juegos de saltos gratis disponibles, pone a prueba tu concentración, tu ritmo y tu estilo como ningún otro juego. ¿Quieres flotar como un globo? Hecho. ¿Necesitas atrapar todas las monedas a la vista? El Coin Magnet te cubre las espaldas. ¿Te sientes con fuego? Agarra un impulso Super Nova y vuela por los niveles como un cometa. Cuidado con los monstruos escurridizos, las trampas traicioneras y la gravedad que intenta arrastrarte hacia abajo. Con impresionantes visuales de dibujos animados, fondos espectaculares y desafíos que te mantienen intrigado, Mega Jump ofrece diversión sin pausa. Desbloquea personajes peculiares, desde valientes héroes hasta adorables criaturitas, y conviértelos en tus campeones del salto. Ya sea que persigas monedas o te lances al espacio, este juego de saltos convierte cada brinco en una aventura, demostrando por qué está considerado entre los mejores juegos de saltos gratis que puedes jugar. ¡Juega a Mega Jump en línea hoy mismo! Si buscas más desafíos que te aceleren el corazón y aventuras inolvidables, echa un vistazo a la colección de juegos online gratis de Arkadium, que se pueden jugar al instante sin instalaciones ni descargas. Disfruta de la emoción de los juegos de carreras que te ponen al volante o de los juegos adictivos llenos de acción sin pausa. ¡Diviértete!",
+  "instructions": "Tu objetivo es sencillo: salta alto, recoge monedas y llega a nuevas etapas. Si fallas una recogida, es Game Over; mantente alerta y haz tu siguiente movimiento rápidamente. Sigue apuntando a la puntuación más alta. Usa las teclas de flecha para moverte a la izquierda o a la derecha y saltar sobre las plataformas. Consejos para Mega Jump: Monedas de oro: Recoge 100 para obtener un impulso. Monedas x2 y x5: Las monedas con el centro azul y rojo valen el doble y el quíntuple: ¡ding, ding! Monedas tramposas: Cuidado; estas monedas astutas huyen cuando te acercas. Monedas móviles: Desliza de un lado a otro para atrapar estos tesoros escurridizos. Estrellas de impulso: Las estrellas brillantes te lanzan más alto. Amarilla, verde, azul y roja: cada una más potente que la anterior. Recoge todas las que puedas para obtener enormes impulsos y volar a nuevas alturas. Estrellas de rescate: ¿Caes? Toca tu Save Star para volver a subir como un cohete. Empiezas con 5, así que úsalas con sabiduría y no las desperdicies. Power-ups al rescate: Paraguas: Flota suavemente hacia abajo y atrae monedas magnéticamente. Botas de salto: Saltos más grandes, rápidos y altos. Imán: Atrae monedas como un jefe. Explosión de suerte: Transforma eve"
  },
  "bullet-man-master-3d": {
   "description": "¡Hola, Bullet Man! Usa tu pistola para perfeccionar tu puntería letal y dispara al mayor número posible de malos. Los obstáculos desafiantes hacen que llegar a tus objetivos sea aún más complicado, así que apunta antes de apretar el gatillo y disparar. Antes de poner el dedo en el gatillo y disparar, tienes que pensar como un francotirador: ¿cuántos enemigos puedes derribar de un solo disparo? Tienes muchos objetivos. ¿Eres tú el francotirador Bullet Man que salvará el día?",
@@ -214037,6 +214037,841 @@
     [
      "¿En qué debo concentrarme mientras juego?",
      "Concéntrate en saltar en el momento adecuado y en esquivar obstáculos, ya que son los principales desafíos que enfrentas mientras avanzas por los niveles."
+    ]
+   ]
+  }
+ },
+ "drone-zero-racing": {
+  "description": "Drone Zero Racing es una carrera de drones en 3D rápida por una ciudad de neón bajo la lluvia, de noche. Compite contra 7 rivales en 10 circuitos flotantes con túneles, saltos y tormentas. Pasa por las placas de impulso, atraviesa los anillos turbo y usa los frenos aerodinámicos en las curvas cerradas. Termina entre los 3 primeros para desbloquear nuevos circuitos, ganar créditos y comprar 8 drones y mejoras en el hangar. Prueba el Contrarreloj y supera tu propio fantasma.",
+  "instructions": "Flechas o WASD para dirigir y acelerar Q E frenos aerodinámicos Espacio turbo V cámara Esc pausa Botones táctiles en móvil",
+  "guide": {
+   "intro": "Drone Zero Racing es una carrera de drones en 3D rápida por una ciudad de neón bajo la lluvia, de noche. Compites contra siete rivales en diez circuitos flotantes llenos de túneles, saltos y tormentas.",
+   "tips": [
+    "Usa los frenos aerodinámicos (Q o E) antes de las curvas cerradas para mantener el control en lugar de derrapar hacia fuera.",
+    "Apunta a las placas de impulso y a los anillos turbo de cada circuito, ya que te dan velocidad que puedes aprovechar en el siguiente tramo.",
+    "Guarda el turbo de Espacio para las rectas o después de una curva bien tomada, en lugar de gastarlo mientras todavía estás luchando con la curva.",
+    "Prueba el Contrarreloj y compite contra tu propio fantasma para aprender los tramos complicados de cada circuito antes de enfrentarte a los rivales. Si te gusta este estilo, también puedes explorar más [[racing-games|juegos de carreras para practicar tus curvas]].",
+    "Terminar entre los 3 primeros desbloquea nuevos circuitos y te da créditos, así que merece la pena luchar por el podio en lugar de simplemente completar la vuelta."
+   ],
+   "faq": [
+    [
+     "¿Cómo desbloqueo nuevos circuitos?",
+     "Termina entre los 3 primeros de una carrera para desbloquear nuevos circuitos. Quedar en una posición inferior no los abrirá."
+    ],
+    [
+     "¿En qué gasto los créditos?",
+     "Puedes comprar drones y mejoras en el hangar. Hay 8 drones disponibles para elegir."
+    ]
+   ]
+  }
+ },
+ "jumping-panda": {
+  "description": "Jumping Panda es un juego de saltos de un solo botón que funciona directamente en tu navegador. Mantén pulsado para cargar un salto y suelta para lanzar al panda, y aterriza en la siguiente plataforma sin quedarte corto ni pasarte. Una pulsación breve da un pequeño brinco y una pulsación larga da un gran salto, así que cada plataforma es una pequeña decisión sobre la distancia. El juego se divide en niveles numerados que puedes elegir desde el menú de niveles, y las monedas que recoges se pueden gastar en la tienda. Las partidas son rápidas, los controles son un solo botón del ratón o tu dedo, y no hay nada que instalar ni cuenta que crear.",
+  "instructions": "Mantén pulsado el botón del ratón o tu dedo para cargar el salto y luego suelta para lanzarlo. Mantén más tiempo para un salto más largo y aterrizar en la siguiente plataforma. Elige Jugar para continuar desde tu nivel actual o Niveles para escoger uno, y gasta las monedas que recojas en la Tienda.",
+  "guide": {
+   "intro": "Jumping Panda es un juego de saltos de un solo botón en el que lo importante es el tiempo de cada salto. Mantén para cargar, suelta para lanzar y aterriza en la siguiente plataforma. Elige un nivel del menú o continúa donde lo dejaste.",
+   "tips": [
+    "Empieza con toques cortos para aprender hasta dónde llega el panda con un pequeño brinco antes de probar pulsaciones más largas.",
+    "Antes de mantener mucho tiempo, mira el hueco que tienes delante y decide si necesita un pequeño brinco o un gran salto.",
+    "Si te pasas una y otra vez, prueba pulsaciones más cortas. Si te quedas corto una y otra vez, mantén un poco más y suelta siempre en el mismo punto.",
+    "Usa el menú de Niveles para volver a niveles anteriores y practicar tu tiempo cuando una plataforma posterior te parezca demasiado difícil.",
+    "Revisa la Tienda después de recoger monedas para saber en qué puedes gastarlas antes de que se te acaben."
+   ],
+   "faq": [
+    [
+     "¿Cómo controlo hasta dónde salta el panda?",
+     "Mantén pulsado el botón del ratón o tu dedo para cargar el salto y luego suelta. Una pulsación más larga da un salto más largo."
+    ],
+    [
+     "¿Qué pasa si me quedo corto o me paso de una plataforma?",
+     "Fallas la siguiente plataforma, así que ese salto no aterriza y tienes que volver a intentar la plataforma."
+    ]
+   ]
+  }
+ },
+ "torque-trail": {
+  "description": "¡Ponte al volante de un potente monster truck y supera 20 desafíos de conducción basados en la física en Torque Trail! Mantén el equilibrio sobre puentes, sube rampas empinadas, cruza obstáculos complicados y mantén tu vehículo erguido hasta la meta. Los controles sencillos de avance y retroceso facilitan empezar, mientras que cada circuito pone a prueba tu timing, tu equilibrio y el control del acelerador. ¡Disfruta de pistas 3D coloridas, ruedas enormes, sonidos de motor y efectos del vehículo personalizables! ¿Eres capaz de completar todos los niveles?",
+  "instructions": "En ordenador Mantén pulsada la flecha derecha o D para avanzar Flecha izquierda o A para retroceder y equilibrar En móvil Mantén pulsada la mitad derecha para avanzar o la mitad izquierda para retroceder Llega a la meta sin volcar Pulsa Reiniciar para volver a intentarlo Ajustes para audio y efectos",
+  "guide": {
+   "intro": "Torque Trail es un juego de conducción basado en la física en el que controlas un monster truck a través de 20 desafíos. Cruza puentes, sube rampas y llega a la meta sin volcar tu vehículo.",
+   "tips": [
+    "Suelta el acelerador antes de las rampas empinadas y los puentes para que el camión no salga disparado y vuelque.",
+    "Usa el retroceso y el equilibrio con la flecha izquierda o la tecla A para devolver el camión a su posición vertical cuando empiece a inclinarse.",
+    "Controla el timing en los obstáculos complicados y pulsa el avance en lugar de mantenerlo pulsado, así tendrás más control.",
+    "Si vuelcas, pulsa Reiniciar de inmediato e intenta de nuevo ese tramo, ya que cada circuito premia un acelerador constante y un buen equilibrio. También puedes encontrar [[truck-and-driving-games|más juegos de camiones]] para practicar un manejo similar.",
+    "Abre los ajustes para modificar el audio y los efectos si el sonido del motor o los gráficos te distraen mientras te concentras en el equilibrio."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo de cada nivel?",
+     "Debes llegar a la línea de meta sin volcar tu camión. Cada circuito añade puentes, rampas y obstáculos que ponen a prueba tu equilibrio."
+    ],
+    [
+     "¿Cómo evito que el camión vuelque?",
+     "Mantén pulsada la flecha izquierda o la tecla A para retroceder y equilibrar el camión, y suelta el avance en los tramos empinados. En móvil, mantén pulsada la mitad izquierda de la pantalla para retroceder."
+    ]
+   ]
+  }
+ },
+ "zombie-survival-blackout": {
+  "description": "Zombie Survival: Blackout es un juego de acción estilo supervivencia ambientado en una ciudad oscura y lluviosa. Diriges a un solo superviviente por un mapa isométrico mientras el arma dispara por sí sola, así que todo el juego gira en torno a dónde te posicionas: sigue en movimiento, mantente alejado de la multitud y recoge experiencia para subir de nivel. Cada fase tiene una cuenta atrás corta hasta un jefe, y las monedas y la XP hacen avanzar tu partida. La fase 1-1, Residential Blocks, sirve como tutorial. El juego guarda una pelea sin terminar para que puedas retomarla donde la dejaste, y se juega en el navegador sin descargas.",
+  "instructions": "Muévete con W A S D o con las teclas de flecha. Tu arma dispara automáticamente a los zombis cercanos. Sigue moviéndote para evitar que te rodeen, recoge experiencia para subir de nivel y aguanta hasta que llegue el jefe. Usa el botón de pausa para detener la pelea en cualquier momento.",
+  "guide": {
+   "intro": "Zombie Survival: Blackout es un juego de acción isométrico en una ciudad lluviosa donde tu arma dispara automáticamente. Tu movimiento decide cuánto aguantas, así que el posicionamiento es la habilidad principal que debes desarrollar.",
+   "tips": [
+    "Mantente en movimiento describiendo círculos amplios en lugar de quedarte quieto, ya que tu arma dispara sola y tu posición es lo que sí controlas.",
+    "Vigila los bordes de la multitud y aléjate antes de que los zombis te rodeen, porque quedar acorralado es la forma más rápida de perder una partida.",
+    "Empieza con la fase 1-1, Residential Blocks, y tómala como práctica para leer la multitud y aprender hasta dónde llega tu arma.",
+    "Recoge experiencia siempre que sea seguro, ya que subir de nivel te ayuda a resistir la presión creciente hasta que termine la cuenta atrás del jefe.",
+    "Si te gusta eliminar hordas mientras te mantienes en movimiento, puedes explorar más [[zombie-games|juegos de supervivencia de no muertos]] en el sitio para encontrar combates similares."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo principal en Zombie Survival: Blackout?",
+     "Sobrevive en cada fase hasta que llegue el jefe, moviéndote por el mapa y recogiendo experiencia para subir de nivel por el camino."
+    ],
+    [
+     "¿Cómo controlo a mi superviviente?",
+     "Muévete con W, A, S y D o con las teclas de flecha. Tu arma dispara automáticamente a los zombis cercanos, así que no necesitas apuntar ni disparar."
+    ]
+   ]
+  }
+ },
+ "drift-city-car-driving-games": {
+  "description": "Drift City Car Driving Games es un juego de derrapes rápidos. Desliza tu coche por circuitos de carreras, autopistas nevadas y calles de la ciudad. Cuanto más largo y amplio sea tu derrape, más puntos y monedas ganarás. CARACTERÍSTICAS - 40 niveles en 4 capítulos: Rookie, Street, Pro y Kings. Cada 10.º nivel es una vuelta de JEFE. - 3 mapas: un circuito de estadio, una autopista de montaña nevada y calles sinuosas de la ciudad. - Puntuación por derrape: los puntos dependen del ángulo del derrape y la velocidad. Encadena deslizamientos para crear un combo de hasta x5. - 9 coches: gana monedas y compra coches nuevos en el garaje. - Mejoras: mejora el Motor, el Agarre y el Derrape, hasta 5 niveles cada uno. - Tráfico en vivo: otros coches circulan por la carretera contigo, así que w",
+  "instructions": "W uarr Acelerar hacia delante S darr Frenar y marcha atrás A larr Izquierda mod",
+  "guide": {
+   "intro": "Drift City Car Driving Games es un juego de carreras que consiste en deslizar tu coche por las curvas de circuitos, autopistas nevadas y calles de la ciudad. Los puntos y las monedas dependen de lo largos y anchos que sean tus derrapes.",
+   "tips": [
+    "Crea un combo enlazando un deslizamiento directamente con el siguiente, ya que encadenar derrapes sube tu multiplicador hasta x5.",
+    "Fíjate en el ángulo del derrape y en la velocidad a la vez, porque la puntuación premia ambas cosas y no solo un deslizamiento largo.",
+    "Guarda monedas para mejorar el Motor, el Agarre y el Derrape, que pueden subir hasta 5 niveles cada uno, y elige la mejora que mejor se adapte a tu estilo de conducción.",
+    "Vigila el tráfico en vivo de la carretera y reduce la velocidad cuando otros coches estén cerca, para que un buen derrape no acabe en choque. Si te gusta este estilo, también puedes practicar con [[drift-games|más desafíos de derrape]] online.",
+    "Aprovecha la vuelta de JEFE que llega cada 10.º nivel para aprender el trazado del circuito antes de ir a por la máxima puntuación."
+   ],
+   "faq": [
+    [
+     "¿Cómo controlo el coche?",
+     "Pulsa W para acelerar, S para frenar o dar marcha atrás, y A para girar a la izquierda. Usa los controles para deslizar el coche en cada curva."
+    ],
+    [
+     "¿Cómo se calcula mi puntuación?",
+     "Los puntos dependen del ángulo del derrape y la velocidad, y encadenar deslizamientos crea un combo de hasta x5. Los derrapes más largos y anchos dan más puntos y monedas."
+    ]
+   ]
+  }
+ },
+ "insecta": {
+  "description": "¡Insecta es una aventura de puzle Match-3 divertida y adictiva, ambientada en un mundo colorido de insectos fascinantes y pequeñas criaturas! Entra en un vibrante reino de insectos donde tu objetivo es unir tres o más bichos idénticos para despejar el tablero, sumar puntos y completar emocionantes objetivos de nivel. Intercambia, une y combina distintos insectos para crear reacciones en cadena espectaculares y combos muy satisfactorios.",
+  "instructions": "Alinea 3 o más del mismo tipo en una fila",
+  "guide": {
+   "intro": "Insecta es un juego de puzle Match-3 ambientado en un colorido reino de insectos. Une tres o más bichos idénticos en línea para despejar el tablero, sumar puntos y completar los objetivos de cada nivel.",
+   "tips": [
+    "Antes de cada intercambio, revisa si el movimiento alinea tres o más bichos idénticos, y elige el que despeje más.",
+    "Busca intercambios que puedan desencadenar una reacción en cadena, ya que el tablero se puede rellenar y crear nuevas combinaciones por sí solo.",
+    "Lee primero el objetivo de cada nivel y prioriza las combinaciones que te acerquen a él, en lugar de unir lo que te resulte más fácil.",
+    "Haz intercambios que reúnan insectos distintos, porque combinarlos es una parte fundamental de cómo se juega.",
+    "Si te gusta este tipo de puzle, puedes explorar más [[match-3-games|juegos de tres en raya para probar]] cuando termines."
+   ],
+   "faq": [
+    [
+     "¿Qué cuenta como combinación en Insecta?",
+     "Necesitas tres o más bichos del mismo tipo alineados en una fila o columna. Al unir bichos idénticos, desaparecen del tablero."
+    ],
+    [
+     "¿Cómo consigo una puntuación más alta?",
+     "Céntrate en las reacciones en cadena y los combos, ya que el juego gira en torno a ellos. Mantén un ojo en el objetivo del nivel para que tus puntos te ayuden a terminarlo."
+    ]
+   ]
+  }
+ },
+ "bite-club": {
+  "description": "BITE CLUB es un programa nocturno de televisión sobre comer que sale mal: un plató entero se inunda de postre gigante y tienes que comerte el camino hacia la salida en primera persona. Cada bocado excava un túnel real a través de gelatina, bizcocho, chocolate y caramelo. Cuando tu barriga esté llena, vuelve con paso torpe a la báscula WEIGH-IN y cobra por kilo. Sigue masticando para acumular HYPE, compra barrigas más grandes, una mandíbula turbo y mejores utensilios, excava salas ocultas, reúne 24 accesorios de estudio y escapa de los 6 platós de televisión.",
+  "instructions": "Escritorio mantén pulsado el botón izquierdo del ratón para comer WASD o las flechas para moverte ratón para mirar Espacio para saltar B para la tienda Móvil el pulgar izquierdo mueve arrastra en el lado derecho para mirar botones EAT y JUMP",
+  "guide": {
+   "intro": "BITE CLUB es un clicker en primera persona en el que comes a través de postres gigantes para escapar de platós de televisión inundados. Ganas dinero pesándote y lo gastas en barrigas más grandes, una mandíbula turbo y mejores utensilios.",
+   "tips": [
+    "Sigue comiendo hasta que tu barriga esté llena, ya que la báscula WEIGH-IN paga por kilo y una barriga más llena significa un pago mayor por cada visita.",
+    "Revisa la tienda con B cada vez que tengas dinero y prioriza las mejoras que te ayuden a comer más rápido para que cada túnel se haga antes.",
+    "Sigue masticando para acumular HYPE y evita alejarte de la zona de comida durante mucho tiempo para que no se pierda el impulso que has conseguido.",
+    "Mira alrededor del plató entre bocados en busca de salas ocultas, ya que excavarlas forma parte del objetivo y puede ayudarte a reunir los 24 accesorios de estudio.",
+    "Si te gustan las mejoras constantes y el progreso gradual, prueba a continuación más [[idle-and-tycoon-games|juegos idle centrados en mejoras]]."
+   ],
+   "faq": [
+    [
+     "¿Cómo gano dinero en BITE CLUB?",
+     "Come hasta que tu barriga esté llena y luego vuelve con paso torpe a la báscula WEIGH-IN para cobrar por kilo."
+    ],
+    [
+     "¿Para qué sirve la tienda?",
+     "Pulsa B para abrir la tienda, donde puedes comprar barrigas más grandes, una mandíbula turbo y mejores utensilios."
+    ]
+   ]
+  }
+ },
+ "rally-trailblazers": {
+  "description": "RALLY TRAILBLAZERS es un rápido juego de carreras de rally todoterreno. Compite contra 4 rivales controlados por la IA en 40 etapas repartidas en 5 mundos: Dunas del Desierto, Bosque Embarrado, Paso Nevado, Cañón Rojo y Rally Nocturno. ¡Vence al reloj: cada punto de control añade segundos extra, así que conduce rápido y mantente en la pista! Derrapa por el barro, mantén el control sobre el hielo, salta las rampas y esquiva rocas y barriles. Termina entre los 3 primeros para desbloquear la siguiente etapa y gana hasta 3 estrellas por nivel. Recoge monedas y gemas, reclama tu Recompensa diaria y visita el Garaje para pintar tu coche y mejorar la Velocidad máxima, la Aceleración, el Manejo y el Turbo. ¿Serás capaz de convertirte en el campeón del rally?",
+  "instructions": "W Flecha arriba Acelerar S Flecha abajo Frenar Marcha atrás A Flecha izquierda Girar a la izquierda D Flecha derecha Girar a la derecha Espacio Freno de mano para derrapar Shift Turbo R Reaparecer en el último punto de control Esc Pausa Móvil: flechas en pantalla para girar, pedal para acelerar, Frenar b",
+  "guide": {
+   "intro": "RALLY TRAILBLAZERS es un juego de carreras de rally todoterreno en el que compites contra cuatro rivales de la IA a lo largo de 40 etapas en cinco mundos. Tu objetivo es terminar entre los 3 primeros mientras vences al reloj.",
+   "tips": [
+    "Los puntos de control añaden segundos extra a tu cronómetro, así que prioriza trazar líneas limpias en cada uno en lugar de cortar curvas que te hagan perder el control.",
+    "Usa el derrape con freno de mano en curvas cerradas para mantener la velocidad, y guarda el Turbo para las rectas, donde puedes aprovecharlo al máximo.",
+    "En el hielo y el barro, suelta el acelerador antes de las curvas en lugar de girar bruscamente a mitad del deslizamiento, lo que te ayuda a mantener el control.",
+    "Si te quedas atrasado en un salto o te atascas en rocas o barriles, pulsa R para reaparecer en tu último punto de control en lugar de perder tiempo. Para más juegos de conducción rápida, prueba esta [[racing-games|selección de juegos de carreras]].",
+    "Terminar entre los 3 primeros desbloquea la siguiente etapa, y vale la pena repetir cada nivel para conseguir tres estrellas. Gasta monedas y gemas en el Garaje en Aceleración o Manejo si te cuesta algún mundo en particular."
+   ],
+   "faq": [
+    [
+     "¿Cómo desbloqueo la siguiente etapa?",
+     "Necesitas terminar entre los 3 primeros de la etapa actual para desbloquear la siguiente. Cada nivel puede darte hasta 3 estrellas."
+    ],
+    [
+     "¿Para qué sirven los controles de Turbo y Freno de mano?",
+     "Shift activa el Turbo para aumentar tu velocidad, y Espacio tira del freno de mano para derrapar en las curvas. Úsalos juntos para mantener la velocidad en los giros."
+    ]
+   ]
+  }
+ },
+ "glow-hop": {
+  "description": "¡Adéntrate en una aventura infinita y llena de color en Glow Hop! Guía tu bola brillante por plataformas flotantes y aterriza saltos perfectos para encadenar combos. Explora mundos vibrantes, recoge gemas y consigue power-ups útiles. Desbloquea skins, estelas, mascotas y mejoras a medida que avanzas. Completa misiones y desafíos diarios, enfréntate a jefes y persigue tu puntuación más alta. Disfruta de los controles de ratón, teclado y táctiles en escritorio y móvil.",
+  "instructions": "Escritorio Mueve el ratón o arrastra a izquierda y derecha para dirigir También puedes usar las flechas izquierda derecha o A D Móvil Toca y arrastra a izquierda o derecha para dirigir Apunta al centro de cada plataforma para aterrizar saltos PERFECTOS Recoge gemas y power-ups y evita caí",
+  "guide": {
+   "intro": "Glow Hop es un juego de saltos infinito en el que guías una bola brillante por plataformas flotantes. Aterriza saltos perfectos, encadena combos, recoge gemas y persigue tu puntuación más alta.",
+   "tips": [
+    "Apunta al centro de cada plataforma, ya que así aterrizas saltos PERFECTOS y empiezas a encadenar combos.",
+    "Mantén el control pequeño y constante con el ratón, las flechas, A y D, o arrastrando en táctil, para no pasarte de la siguiente plataforma.",
+    "Recoge gemas y power-ups cuando puedas alcanzarlos con seguridad, pero no arriesgues una caída solo para cogerlos.",
+    "Encadena aterrizajes perfectos para mantener tu combo, y si disfrutas de un avance constante, prueba [[running-games|más juegos de correr]] con un ritmo parecido."
+   ],
+   "faq": [
+    [
+     "¿Cómo consigo un salto PERFECTO?",
+     "Dirige la bola para que aterrice cerca del centro de la plataforma. Aterrizar descentrado no contará como salto perfecto."
+    ],
+    [
+     "¿Puedo jugar con teclado o pantalla táctil?",
+     "Sí. Puedes usar el ratón, las flechas izquierda y derecha o A y D, o tocar y arrastrar a izquierda o derecha en el móvil."
+    ]
+   ]
+  }
+ },
+ "sporty-chic-athleisure": {
+  "description": "Dos mejores amigas te esperan en el juego: Lily y Wolf Fang. Lily adora los deportes acuáticos y hasta se ve elegante junto a la piscina. Y Wolf Fang prefiere las actividades en tierra y combina el deporte con las tendencias de moda. Conviértete en la estilista personal de las chicas: cambia de atuendo, peinados, maquillaje y accesorios. El deporte y la moda van de la mano: crea looks cómodos y glamurosos, experimenta y demuestra a todos que ser deportista también puede ser muy elegante!",
+  "instructions": "Los controles del juego son familiares y sencillos: haz clic con el ratón o simplemente toca la pantalla para dar vida a un experimento con estilo",
+  "guide": {
+   "intro": "Sporty Chic Athleisure es un juego de vestir en el que das estilo a dos amigas, Lily y Wolf Fang, con looks deportivos. Puedes cambiar de atuendo, peinados, maquillaje y accesorios para crear looks cómodos pero glamurosos.",
+   "tips": [
+    "Empieza con la personaje cuyo deporte se ajuste a tus gustos, ya que Lily se inclina por los deportes acuáticos y Wolf Fang por las actividades en tierra. Sus diferentes actividades sugieren distintas opciones de atuendo.",
+    "Sigue el orden de atuendo, peinado, maquillaje y accesorios, para que cada elección se apoye en la anterior y el look quede equilibrado.",
+    "Antes de añadir accesorios extra, comprueba que el atuendo sea lo bastante cómodo para moverse, porque el juego trata de looks que funcionen para el deporte.",
+    "Prueba varias versiones del mismo look y compáralas una al lado de la otra. Pequeños cambios en un solo elemento pueden convertir un look casual en glamuroso.",
+    "Si te gusta mezclar deporte y moda así, puedes explorar más [[dress-up-games|juegos de vestir para probar]] para otras ideas de estilismo."
+   ],
+   "faq": [
+    [
+     "¿Cómo cambio el look de un personaje?",
+     "Haz clic con el ratón o toca la pantalla para elegir nuevos atuendos, peinados, maquillaje y accesorios para el personaje que hayas escogido."
+    ],
+    [
+     "¿Cuál es la diferencia entre los estilos de Lily y Wolf Fang?",
+     "A Lily le encantan los deportes acuáticos y se ve elegante junto a la piscina, mientras que Wolf Fang prefiere las actividades en tierra y combina el deporte con las tendencias de moda."
+    ]
+   ]
+  }
+ },
+ "ring-clash": {
+  "description": "Ring Clash es un juego de puzle de combinaciones muy colorido en el que conectas anillos iguales en una cuadrícula y eliminas grupos completos antes de que se acabe el tiempo. Los diseños cambiantes, los obstáculos en capas y los objetivos basados en el tiempo convierten cada fase en una emocionante prueba de planificación y rapidez mental. Algunos niveles ofrecen un ritmo relajado, mientras que las fases Muy difícil exigen mucha más concentración. Si quieres poner a prueba tu lógica, Ring Clash te ofrece muchas oportunidades para mejorar tu toma de decisiones con cada nuevo tablero.",
+  "instructions": "Toca y arrastra para jugar",
+  "guide": {
+   "intro": "Ring Clash es un puzle de combinaciones muy colorido en el que conectas anillos iguales en una cuadrícula y eliminas grupos completos antes de que se acabe el tiempo. Cada tablero cambia de diseño, así que planificar tus movimientos es tan importante como la velocidad.",
+   "tips": [
+    "Observa toda la cuadrícula antes de tu primer movimiento y busca el color con más anillos al alcance, ya que eliminar grupos más grandes te ayuda a terminar más rápido.",
+    "Fíjate en los obstáculos en capas y elimina primero los anillos que están encima de otras piezas o que las bloquean, para no quedarte atascado más adelante.",
+    "Vigila el objetivo basado en el tiempo y equilibra los movimientos rápidos con la planificación; lanzarte a por grupos pequeños puede hacerte perder los segundos que necesitas.",
+    "En las fases Muy difícil, tómate unos segundos al principio para estudiar el tablero y juega después con concentración constante en lugar de tocar al azar.",
+    "Usa los niveles relajados para practicar la lectura del diseño y aplica después el mismo hábito de revisar las opciones antes de cada arrastre en los tableros más difíciles. [[brain-games|afila tu lógica con juegos de ingenio]]"
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo principal en Ring Clash?",
+     "Conecta anillos iguales en la cuadrícula y elimina grupos completos antes de que el temporizador llegue a cero."
+    ],
+    [
+     "¿Cómo se juega a Ring Clash?",
+     "Toca y arrastra sobre anillos iguales para conectarlos y eliminar grupos en el tablero."
+    ]
+   ]
+  }
+ },
+ "avocado-yard-ragdoll-sandbox": {
+  "description": "Avocado Yard: Ragdoll Sandbox es un juego gratis de física ragdoll en el que los aguacates flexibles son tus juguetes. Suéltalos en el patio, haz que bailen, corran, salten y den volteretas hacia atrás, apila cajas y tablones, clava cosas, ata cuerdas, instala trampolines, ventiladores, pinchos, cristales, una sierra giratoria y un cañón, y luego agarra, lanza, electrocuta con rayos y vuélalo todo por los aires. Cada golpe es física en tiempo real: los ragdolls se tambalean y salen volando, los barriles rojos desatan reacciones en cadena, los globos se alejan flotando y un agujero negro se traga toda la escena. Ya llega el invierno: baja en trineo por la colina Nevada, derriba muñecos de nieve, convierte los regalos en confeti y viste a tus aguacates de Papá Noel, un elfo, un muñeco de nieve o un aguacate dorado. Abre una nueva puerta del calendario de invierno cada día que juegues. Nuevos amigos frutales se unen al patio: una pesada Sandía que se parte en dos, un Plátano que deja una cáscara resbaladiza y una Naranja rebotona que salpica zumo. La Varita Mágica tiene diez hechizos. Haz crecer un aguacate hasta convertirlo en gigante o encógelo hasta el tamaño de un bolsillo, conviértelo en fantasma, haz que flote, atrápalo en una pompa de jabón, devuelve a la vida un aguacate noqueado, suelta una bola de discoteca, invoca una nube de nieve, lanza fuegos artificiales o convierte cualquier juguete en un regalo. Afronta 54 desafíos, cada uno con una estrella; las estrellas desbloquean juguetes premium como el cohete teledirigido, el agujero negro, el megaaguacate y la megabomba. Nueve mapas cambian las reglas: el Patio, la colina Nevada, el Cementerio, la Casa embrujada, los Tejados nocturnos, una Obra con bola de demolición, un Volcán con suelo de lava, un lago helado resbaladizo y la Luna de baja gravedad. Diez misiones hechas a mano te dan un objetivo claro y un puñado de movimientos, y Rampage es un ataque de puntuación de 60 segundos con clasificación mundial. Vuelve cada día para recibir un regalo diario que crece con una racha de 7 días y tres misiones diarias nuevas que pagan en cuanto las completas. Gasta las pits que ganes en aspectos o en nuevos mapas y juguetes. Los juguetes exclusivos como el jetpack, el coche, la torreta, la bobina Tesla, el tornado, la ametralladora y los portales se desbloquean para siempre con un anuncio corto y opcional. Tu patio se guarda automáticamente. No necesitas descargar nada: juega en el navegador desde PC, tablet y móvil, en inglés, español, alemán o ruso, con controles táctiles, atajos de teclado y un",
+  "instructions": "Construye una escena, juega con la física y completa desafíos para ganar estrellas. - Colocar objetos: elige un juguete de la estantería (Avocado, Watermelon, Banana, Orange, Crate, Rock, Plank, Bomb, Barrel, Anvil, Balloon, Trampoline, Spikes, Fan, Glass, Sled, Snowman, Present y más), y luego toca o haz clic en el campo. - Agarrar: pulsa sobre un objeto, arrastra y suelta para lanzarlo. Un toque rápido sobre un aguacate abre sus movimientos. - Trineo: coloca un trineo junto a un aguacate y se sentará; en la colina Nevada bajará por la pendiente. - Movimientos: elige Movimientos y toca un aguacate para que corra, baile, dé una voltereta hacia atrás, salte, flexione, haga el dab, el floss o una patada, o toca \"Todos bailan\". - Varita: elige un hechizo en la fila sobre la estantería (Grow, Shrink, Ghost, Float, Bubble, Revive, Disco, Snow, Fireworks, Gift), y luego toca un aguacate, un juguete o el campo. Toca una burbuja para reventarla. - Explosión: toca el campo para provocar una explosión. Pistola: pulsa, arrastra hacia el objetivo y suelta. Rayo: toca para invocar un rayo. - Congelar: toca un objeto para fijarlo en su sitio, toca de nuevo",
+  "guide": {
+   "intro": "Avocado Yard es un arenero de física ragdoll en el que colocas juguetes, empujas aguacates y provocas reacciones en cadena. También puedes completar desafíos y misiones para ganar estrellas.",
+   "tips": [
+    "Monta primero una prueba pequeña, como una pila de cajas o una rampa de tablones, y suelta un aguacate encima para ver cómo se comporta la física antes de añadir más piezas.",
+    "Usa Congelar en objetos pesados como yunques o cajas mientras colocas la escena, para que nada se mueva cuando pongas el siguiente elemento.",
+    "En las misiones, planifica tus movimientos antes de empezar, porque cada misión te da un número limitado de acciones y necesitas conseguir las tres estrellas.",
+    "Mantén los barriles rojos y las bombas lejos de las partes de la escena que quieras conservar, porque una sola explosión puede desatar una reacción en cadena por todo el patio.",
+    "En Rampage, céntrate en montajes de gran impacto como barriles, trampolines y explosiones, ya que solo tienes 60 segundos para construir tu puntuación."
+   ],
+   "faq": [
+    [
+     "¿Cómo gano estrellas?",
+     "Ganas una estrella por cada desafío que completes, y las misiones dan hasta tres estrellas según lo bien que las termines. Las estrellas desbloquean juguetes premium como el cohete teledirigido y el agujero negro."
+    ],
+    [
+     "¿Cuál es la forma más rápida de lanzar un aguacate?",
+     "Pulsa sobre el aguacate, arrastra en la dirección que quieras y suelta para lanzarlo. Alinear el arrastre antes de soltar te da más control sobre dónde caerá."
+    ]
+   ]
+  }
+ },
+ "traffic-rider-neon-rush": {
+  "description": "Traffic Rider: Neon Rush es un emocionante juego de carreras de motos en 3D en el que conduces una potente moto deportiva por concurridas autopistas urbanas llenas de coches, camiones y un tráfico desafiante. Vive la conducción a alta velocidad, esquiva vehículos, evita choques y pon a prueba tus habilidades al volante en carreteras llenas de emoción. ¡Mantén la concentración, domina los controles de tu moto y disfruta de la mejor aventura de carreras en el tráfico!",
+  "instructions": "W Flecha arriba Acelerar S Flecha abajo Frenar o retroceder A Flecha izquierda Girar a la izquierda D Flecha derecha Girar a la derecha Usa WASD o las teclas de flechas del teclado para controlar tu motocicleta",
+  "guide": {
+   "intro": "Traffic Rider: Neon Rush te pone al mando de una moto deportiva que se abre paso entre concurridas autopistas urbanas llenas de coches y camiones. Usa las flechas del teclado o WASD para acelerar, frenar y sortear el tráfico.",
+   "tips": [
+    "Suelta el acelerador antes de un tramo con mucho tráfico, ya que a alta velocidad tienes menos tiempo para reaccionar ante los vehículos que se cruzan delante de ti.",
+    "Usa el freno y la marcha atrás con antelación, en lugar de hacerlo en el último segundo cuando se cierra un hueco, así podrás reducir la velocidad con suavidad sin perder el control.",
+    "Elige tu trayectoria con antelación observando unos cuantos vehículos más adelante en la carretera y dirigiéndote hacia los carriles libres, en lugar de reaccionar solo al coche más cercano.",
+    "Haz pequeños ajustes de dirección en lugar de giros bruscos, lo que te ayuda a mantener el equilibrio y a evitar chocar contra el tráfico que te rodea.",
+    "Si te gusta manejar vehículos de dos ruedas, explora más [[motorcycle-and-bike-games|títulos de motos y bicicletas]] para practicar las mismas habilidades de equilibrio y reacción."
+   ],
+   "faq": [
+    [
+     "¿Cómo giro la motocicleta?",
+     "Pulsa la tecla Izquierda o A para girar a la izquierda y la tecla Derecha o D para girar a la derecha. La tecla Arriba o W acelera y la tecla Abajo o S frena o retrocede."
+    ],
+    [
+     "¿Qué es lo más importante que debo evitar?",
+     "Evita chocar contra los coches y camiones de la carretera. Mantener la concentración en el tráfico que tienes delante te ayuda a esquivar vehículos y a seguir conduciendo."
+    ]
+   ]
+  }
+ },
+ "the-outbreak": {
+  "description": "The Outbreak te lanza a una ciudad que ya ha caído. Tu arma dispara sola: tu trabajo es seguir en movimiento, elegir las mejoras adecuadas y sobrevivir a doce oleadas de muertos en cada una de las cinco zonas.",
+  "instructions": "Escritorio Mover mdash WASD o las flechas del teclado Apuntar mdash mueve el ratón Déjalo quieto y el juego apunta automáticamente al enemigo más cercano por ti El disparo es automático mdash tu arma dispara por sí sola Habilidad de héroe mdash E, Q o barra espaciadora Habilidades colocadas",
+  "guide": {
+   "intro": "The Outbreak es un shooter de zombis ambientado en una ciudad caída. Tu arma dispara sola, así que tú te concentras en moverte, elegir mejoras y sobrevivir doce oleadas en cada una de las cinco zonas.",
+   "tips": [
+    "Muévete sin parar con WASD o las flechas del teclado, ya que tu arma dispara automáticamente y quedarte quieto en un mismo sitio te deja expuesto a los muertos.",
+    "Deja el ratón quieto cuando quieras que el juego se encargue de apuntar, porque apunta automáticamente al enemigo más cercano. Mueve el ratón solo cuando quieras elegir un objetivo concreto.",
+    "Lee cada opción de mejora teniendo en cuenta tu posición actual y elige las que te ayuden a seguir en movimiento y a sobrevivir la siguiente oleada.",
+    "Guarda la habilidad de tu héroe en E, Q o la barra espaciadora para los momentos de más presión, y usa las habilidades colocadas para controlar las zonas donde se agrupan los enemigos. Si te gusta sobrevivir contra los no muertos, puedes encontrar más [[zombie-games|juegos de supervivencia zombi para probar]] en la web.",
+    "Trata cada oleada como un reto corto: después de superar una, tómate un momento para planificar tu ruta y tus mejoras antes de que llegue el siguiente grupo."
+   ],
+   "faq": [
+    [
+     "¿Cómo apunto en The Outbreak?",
+     "Mueve el ratón para apuntar manualmente. Si dejas el ratón quieto, el juego apunta automáticamente al objetivo más cercano por ti."
+    ],
+    [
+     "¿Necesito pulsar un botón para disparar?",
+     "No. El disparo es automático, así que tu arma dispara sola mientras tú te concentras en moverte y elegir mejoras."
+    ]
+   ]
+  }
+ },
+ "tidewash": {
+  "description": "Tidewash es un puzle tranquilo con un giro: la playa se encoge. Arrastra las piezas a la arena seca y forma grupos de tres o más del mismo color. Cada pocas colocaciones llega una ola, una fila más arriba. Los grupos que tocan el agua son arrastrados por la marea a cambio de puntos, las piezas solitarias se convierten en madera a la deriva y una gran ola empuja la marea hacia atrás. Sin temporizadores ni vidas: solo tú, la arena y el mar. Tres mundos: - Tide: 28 niveles hechos a mano que enseñan el juego una idea a la vez. - Storm 8x8: la playa grande, con mareas más rápidas, más colores y objetivos más grandes. - Magnet: carriles con imanes de color y recoge todas las fichas estrella con el menor número de movimientos posible. Cada nivel tiene tres estrellas que conseguir: alcanza el objetivo, mantén la playa limpia y termina con eficiencia. Cada nivel de Tide y Magnet está verificado por un solucionador, así que si parece imposible, no lo es. Una pista gratuita por nivel cuando te atasques. El progreso se guarda en tu navegador.",
+  "instructions": "Arrastra una pieza con el ratón o con el tacto desde la bandeja hasta la arena seca Botones Pista Reiniciar Niveles Salir",
+  "guide": {
+   "intro": "Tidewash es un puzle tranquilo en el que la playa se encoge a medida que llegan las olas. Arrastra las piezas a la arena seca para formar grupos de colores iguales antes de que el agua los alcance.",
+   "tips": [
+    "Forma primero los grupos cerca del centro de la arena seca, porque los grupos que tocan el agua son arrastrados y se pierden. Mantenerlos alejados del borde te dará más espacio.",
+    "Fíjate en el patrón de las olas y planifica algunas colocaciones por adelantado, porque cada nueva ola empuja el agua una fila más arriba y deja menos espacio.",
+    "Deja las piezas solitarias en paz cuando puedas, ya que una pieza sin vecina del mismo color se convierte en madera a la deriva. Intenta colocar las piezas para que se unan a un grupo de tres o más.",
+    "En el mundo Magnet, piensa por qué carriles tirarán los imanes de color antes de mover, para recoger todas las fichas estrella en menos movimientos y conseguir una mejor puntuación. Si te gusta este estilo, puedes explorar más [[match-3-games|puzles de combinar tres]] para practicar el mismo hábito.",
+    "Guarda tu pista gratuita para un nivel en el que estés realmente atascado, y prueba antes a mirar el tablero con otros ojos. Usa Reiniciar si la playa se ha llenado demasiado para recuperarse."
+   ],
+   "faq": [
+    [
+     "¿Cómo consigo puntos en Tidewash?",
+     "Los grupos que tocan el agua son arrastrados por la marea y dan puntos. Además, una gran ola empuja la marea hacia atrás, lo que te ayuda a conservar más arena."
+    ],
+    [
+     "¿Qué hace que la playa se encoja?",
+     "Una nueva ola llega cada pocas colocaciones y se sitúa una fila más arriba que antes. Con el tiempo, esto reduce la arena seca con la que puedes trabajar."
+    ]
+   ]
+  }
+ },
+ "storky-number-drop": {
+  "description": "Storky Number Drop es un juego de puzle de fusión muy jugoso, ¡donde cada número es una bolsa de agua temblorosa! Elige una de las tres bolsas, tira hacia atrás de la goma elástica de Storky y suéltala. Si tocas dos bolsas con el mismo número, se funden en una sola bolsa con el doble de valor: 2 + 2 = 4, 4 + 4 = 8, y así sucesivamente. Las bolsas son líquido de verdad: se aplastan, se estiran y fluyen por todos los huecos, pero nunca se superponen. Fácil de aprender, difícil de dejar. ¿Hasta dónde puedes llegar?",
+  "instructions": "MÓVIL Toca una bolsa en el cuadro Elige uno y luego toca la pantalla, arrastra hacia atrás y suelta para lanzar. Arrastra en la dirección contraria para cancelar el lanzamiento. ESCRITORIO Haz clic en una bolsa en el cuadro Elige uno, luego mantén pulsado el ratón, arrastra hacia atrás y suelta para lanzar. Cuanto más lejos",
+  "guide": {
+   "intro": "Storky Number Drop es un puzle de fusión en el que lanzas bolsas de agua temblorosas para combinar números iguales. Cada fusión duplica el número, así que el reto es crear el número más grande que puedas.",
+   "tips": [
+    "Antes de lanzar, mira qué dos bolsas comparten número y dónde van a caer, para planificar las fusiones en lugar de adivinar.",
+    "Apunta tu lanzamiento a un punto que permita que la bolsa fluya junto a su pareja, ya que las bolsas se aplastan y se extienden por los huecos.",
+    "Mantén el centro del tablero despejado siempre que puedas, para que las nuevas bolsas tengan espacio para asentarse y sigas al alcance de las parejas.",
+    "Si disfrutas combinando números para llegar a un objetivo, quizá te interesen [[sudoku-and-number-puzzles|más puzles de números para probar]]."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo de Storky Number Drop?",
+     "El objetivo es fusionar bolsas con el mismo número, duplicándolo cada vez, para ver hasta qué número puedes llegar."
+    ],
+    [
+     "¿Cómo lanzo una bolsa en el ordenador?",
+     "Haz clic en una bolsa del cuadro Elige uno, mantén pulsado el ratón, arrástralo hacia atrás y suéltalo para lanzarla."
+    ]
+   ]
+  }
+ },
+ "miner-merge": {
+  "description": "En Miner Merge, sumérgete en un dinámico reino minero, fusionando mineros para mejorar sus habilidades. Observa cómo tus mineros transforman incansablemente las rocas en preciosos minerales. Aumenta la emoción con el botón de avance rápido, que acelera su ritmo y maximiza las recompensas en esta adictiva aventura idle.",
+  "guide": {
+   "intro": "Miner Merge es un juego de puzles idle en el que fusionas mineros para mejorar sus habilidades mientras tus mineros convierten las rocas en preciosos minerales. Esta guía explica cómo sacarle el máximo partido a cada sesión.",
+   "tips": [
+    "Busca oportunidades para fusionar mineros en cuanto estén disponibles, ya que las habilidades mejoradas son la principal forma de potenciar tu minería.",
+    "Usa el botón de avance rápido cuando quieras que las recompensas se acumulen rápidamente, sobre todo cuando estés esperando a que tus mineros terminen su trabajo.",
+    "Revisa tu progreso entre sesiones, porque los juegos idle te recompensan por el tiempo que pasas fuera y entonces puedes planificar tus próximas fusiones.",
+    "Piensa qué mineros fusionar primero en lugar de hacerlo al azar, para que tus mejoras más fuertes vayan a las habilidades que más ayudan a tus mineros. Si te gusta este estilo, puedes encontrar [[merge-games|más juegos de puzles basados en la fusión]]."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo principal en Miner Merge?",
+     "Tu objetivo es fusionar mineros para mejorar sus habilidades, de modo que tus mineros puedan convertir las rocas en más preciosos minerales."
+    ],
+    [
+     "¿El botón de avance rápido cambia el funcionamiento de las recompensas?",
+     "El botón de avance rápido acelera el ritmo del juego, lo que, según el propio juego, te ayuda a maximizar tus recompensas con el tiempo."
+    ]
+   ]
+  }
+ },
+ "obby-prison-escape-push-the-police": {
+  "description": "Los guardias se acercan. ¿Tu salida? Empuja directo hacia delante. Prison Escape: Push the Guards es un juego de acción en 3D en el que controlas a un prisionero que intenta escapar. Muévete entre multitudes de policías, calcula bien cada empujón y haz caer a los guardias de las plataformas. Cuidado con el borde: un mal movimiento puede acabar con tu intento de fuga. Cada sección pone más guardias entre tú y la meta. Busca un buen ángulo, despeja el camino y sigue avanzando. Las multitudes se convierten en divertidos montones de muñecos cuando aciertas con el empujón adecuado. Recoge monedas, desbloquea armas y personaliza a tu prisionero con nuevos looks y mascotas. Los controles sencillos de arrastrar y soltar hacen que esta fuga sea fácil de aprender, tanto en el ordenador como en el móvil. ¿Podrás superar a la policía y terminar tu huida de la prisión?",
+  "instructions": "Empuja a los guardias para apartarlos de tu camino, elimina a los enemigos necesarios en cada sección y llega a la meta. Mantén a tu prisionero sobre las plataformas y evita caer por el borde. Ordenador: muévete con WASD o con las teclas de flecha. Pulsa la barra espaciadora para empujar. También puedes mantener pulsado el botón izquierdo del ratón, arrastrar para moverte y soltar para empujar. Móvil: toca y arrastra para moverte. Levanta el dedo para empujar. Alinea varios guardias antes de atacar para derribar a un grupo entero. Recoge monedas para desbloquear objetos y personalizar tu personaje.",
+  "guide": {
+   "intro": "Prison Escape: Push the Guards es un juego de acción en 3D en el que empujas a policías fuera de las plataformas para despejar el camino hasta la meta. Cada sección añade más guardias, así que la posición es tan importante como la velocidad.",
+   "tips": [
+    "Antes de empujar, arrastra a tu prisionero para que varios guardias queden en línea, ya que un solo empujón puede derribar a todo un grupo.",
+    "Vigila en todo momento el borde de la plataforma, porque un solo movimiento descuidado puede acabar con tu intento de fuga.",
+    "Busca un ángulo que te permita alcanzar a los guardias sin pisar una zona donde puedan empujarte de vuelta.",
+    "Elimina primero a los guardias que tienes cerca para tener un camino seguro por el que seguir avanzando hacia la meta en las siguientes secciones.",
+    "Si te gustan los retos de plataformas como este, quizá también te interesen [[parkour-and-obby-games|más recorridos de obstáculos]] para practicar movimientos rápidos y cuidadosos."
+   ],
+   "faq": [
+    [
+     "¿Cómo empujo a un guardia fuera de la plataforma?",
+     "En el ordenador, pulsa la barra espaciadora o mantén pulsado el botón izquierdo del ratón, arrastra para moverte y suelta para empujar. En el móvil, toca y arrastra, y luego levanta el dedo para empujar."
+    ],
+    [
+     "¿Cuál es la mejor forma de enfrentarse a grandes multitudes?",
+     "Alinea varios guardias antes de atacar para que un solo empujón pueda derribar a todo el grupo en lugar de a un solo agente."
+    ]
+   ]
+  }
+ },
+ "vet-tycoon-pet-hospital": {
+  "description": "¡Dirige tu propio hospital de animales! Hay pacientes esperando: gatitos, koalas, pandas rojos, canguros y muchos más. Lleva cada mascota a una cama, trae la medicina adecuada —jabón, una inyección o una pastilla— y mira cómo se recupera. Cada paciente curado deja un montón de monedas de oro. Gasta tus monedas en camas y salas nuevas, contrata enfermeras que traten a los pacientes por ti y mantenlas activas con café. Mejora tus salas y sigue ganando incluso cuando no estés. Cuando tu clínica esté en auge, abre la Water Clinic, ¡donde delfines, cangrejos y caballitos de mar se tratan en piscinas! • Controles sencillos: arrastra un dedo para caminar • 46 tipos de pacientes animales en dos clínicas • 3 salas y 40 camas en cada clínica • Contrata hasta 4 enfermeras por sala • Los pacientes dorados pagan hasta 10 veces más • 35 uniformes de médico con bonificaciones: abre cofres para conseguirlos • Regalos diarios, un giro gratis de la ruleta cada día, tareas diarias y semanales • 90 logros",
+  "instructions": "Arrastra el dedo para caminar (con las flechas del teclado o WASD en el ordenador). Recoge una mascota de la zona de espera y llévala a una cama libre. Mira el icono encima de la mascota, toma esa medicina del armario —jabón, una inyección o una pastilla— y llévala a la cama. La mascota se recupera y deja monedas: camina hasta el montón de monedas para recogerlas. Pisa un círculo de precio para comprar camas, salas y enfermeras. Las enfermeras se cansan, así que llévales café. ¡Gana más, abre nuevas salas y la Water Clinic!",
+  "guide": {
+   "intro": "Vet Tycoon: Pet Hospital es un juego de gestión acogedor en el que diriges una clínica veterinaria. Llevas a los pacientes a las camas, les das la medicina adecuada y usas las monedas que dejan para hacer crecer tu hospital.",
+   "tips": [
+    "Mira el icono encima de cada mascota antes de caminar hacia el armario, para coger jabón, una inyección o una pastilla a la primera.",
+    "Gasta tus primeras monedas en camas, ya que más camas permiten tratar a más pacientes a la vez.",
+    "Contrata enfermeras para que traten a los pacientes por ti, y vigílalas para que no se cansen y dejen de trabajar.",
+    "Los pacientes dorados pagan hasta 10 veces más, así que cuando haya uno esperando, merece la pena liberar una cama para él rápidamente.",
+    "Antes de alejarte, mejora tus salas para que sigan ganando dinero mientras no estás. Si disfrutas construyendo una clínica con calma, puedes encontrar más [[idle-and-tycoon-games|juegos idle y de gestión]] en la web."
+   ],
+   "faq": [
+    [
+     "¿Cómo curo a un paciente?",
+     "Recoge una mascota de la zona de espera, llévala a una cama libre y trae la medicina que aparece en el icono encima de ella. Cuando se recupere, camina hasta el montón de monedas para recoger su oro."
+    ],
+    [
+     "¿Cómo desbloqueo la Water Clinic?",
+     "Sigue haciendo crecer tu clínica principal y ganando monedas hasta que esté en auge. Entonces podrás abrir la Water Clinic, donde delfines, cangrejos y caballitos de mar se tratan en piscinas."
+    ]
+   ]
+  }
+ },
+ "pulse-wing": {
+  "description": "Pulse Wing es un shooter arcade de neón. Pilota tu nave, dispara automáticamente contra oleadas de meteoritos que se hacen añicos, escuadrones enemigos y enormes jefes blindados a lo largo de una campaña de 1000 mundos. Sube de nivel en cada partida y arma tu equipo con 9 habilidades evolutivas: hojas orbitales, misiles buscadores, rayos en cadena, haces de fotones, proyectiles criogénicos y mucho más. Gira la rueda de habilidades, mejora tu avión, investiga un árbol tecnológico de 145 nodos, recoge módulos, habilidades especiales y ultimates, y compite en la clasificación semanal.",
+  "instructions": "Arrastra con el dedo o el ratón, o usa las teclas WASD o las flechas, para volar. Tu nave dispara automáticamente. Destruye enemigos para ganar XP; cada subida de nivel te permite elegir una nueva habilidad o mejora. Supera tres oleadas para terminar un mundo; la tercera oleada termina con un jefe. Esquiva los ataques del jefe: las líneas discontinuas y las zonas brillantes muestran dónde van a impactar. Activa tu ultimate con su botón o con Espacio / E. Pausa con Esc o P. Entre partidas, gasta aleación en las estadísticas del avión, créditos en objetos y núcleos de investigación en el árbol tecnológico.",
+  "guide": {
+   "intro": "Pulse Wing es un shooter arcade de neón en el que diriges tu nave a través de oleadas de meteoritos, escuadrones enemigos y jefes blindados. Tu nave dispara automáticamente, así que puedes centrarte en el movimiento y en tus decisiones.",
+   "tips": [
+    "Fíjate en las líneas discontinuas y las zonas brillantes antes de que llegue un ataque del jefe, y sal de esas áreas con antelación en lugar de reaccionar en el último segundo.",
+    "Cada subida de nivel te da a elegir, así que escoge habilidades que funcionen bien juntas, como las hojas orbitales para enemigos cercanos o los misiles buscadores para objetivos dispersos.",
+    "Guarda tu ultimate para momentos con mucho enemigo o para las oleadas con jefe, cuando eliminar enemigos rápidamente es lo más importante.",
+    "Entre partidas, gasta aleación en las estadísticas del avión, créditos en objetos y núcleos de investigación en el árbol tecnológico, y evita repartirlos demasiado. Si te gustan las batallas espaciales como esta, puedes explorar más [[space-games|juegos de naves espaciales para probar]].",
+    "Usa Esc o P para pausar cuando necesites un momento para planear tu siguiente movimiento o revisar tu equipo."
+   ],
+   "faq": [
+    [
+     "¿Cómo muevo mi nave?",
+     "Arrastra con el dedo o el ratón, o usa las teclas WASD o las flechas. Tu nave dispara sola, así que solo tienes que controlar hacia dónde va."
+    ],
+    [
+     "¿Cómo derroto al jefe al final de un mundo?",
+     "La tercera oleada de cada mundo termina con un jefe, así que supera las dos primeras para acumular habilidades y XP. Después, concéntrate en esquivar las líneas discontinuas y las zonas brillantes que muestran dónde impactarán los ataques."
+    ]
+   ]
+  }
+ },
+ "arrow-out-puzzle-escape": {
+  "description": "Arrow Out: Puzzle Escape es un juego de rompecabezas cerebral lleno de color y muy relajante para niños y adultos. Cada nivel es un tablero repleto de flechas monas con caras graciosas. Tu objetivo es sencillo: toca una flecha para deslizarla fuera del tablero y liberar a todas. Pero ten cuidado. Las flechas se bloquean entre sí, ¡así que tienes que pensar en el orden correcto! Empieza con tableros fáciles y aprende lo básico. Luego prueba flechas dobladas que siguen a su cabeza hacia fuera, rocas sólidas que nunca se mueven, flechas congeladas que necesitan dos toques y flechas bloqueadas que solo se abren con una llave. Cada capítulo trae ideas frescas y un aspecto nuevo, desde dulces tierras de caramelo hasta el océano, un prado, un cielo de atardecer y el espacio exterior. ¿Atascado? Usa una pista o deshaz tu último movimiento. Gana monedas y estrellas, gira la rueda de la suerte, reclama regalos diarios y juega el Puzzle Diario todos los días. Gasta monedas en la tienda para desbloquear nuevos temas de tablero, estilos de color de flechas y caras graciosas para las flechas. Fácil de aprender, satisfactorio de dominar. Juega gratis en tu navegador en el móvil y en el ordenador, en English, Español, Français, Deutsch, Português, Italiano, Türkçe y Bahasa Indonesia. Características: 1= Cientos de niveles de rompecabezas diseñados a mano en 10 capítulos 2= Mecánicas inteligentes: flechas dobladas, rocas, hielo y candados con llaves 3= Puzzle Diario, regalos diarios y rueda de la suerte 4= Pistas, deshacer y potenciadores de corazones cuando necesitas ayuda 5= Desbloquea temas, estilos de flechas y caras monas 6= Aspecto apto para niños y música suave y relajante 7= 8 idiomas, juega en el teléfono, la tableta y el PC",
+  "instructions": "Objetivo: Desliza cada flecha fuera del tablero. 1= Toca una flecha libre y se deslizará en la dirección a la que apunta. 2= Flechas bloqueadas: si otra flecha u objeto está en el camino, la flecha choca y pierdes 1 corazón. Despeja primero su camino. Tienes 3 corazones por nivel. 3= Flechas dobladas: toda la flecha sigue a su cabeza hacia fuera del tablero. 4= Las rocas nunca se mueven. Busca otra forma de rodearlas. 5= Hielo: toca una flecha congelada una vez para romper el hielo y vuelve a tocarla para deslizarla fuera. 6= Candados y llaves: libera la flecha que sostiene la llave para abrir el candado correspondiente. 7= Ganas cuando todas las flechas hayan salido. Menos errores significa más estrellas (hasta 3). Herramientas: 💡 Pista muestra una flecha segura para tocar. ↩ Deshacer anula tu último error. Usa monedas o mira un anuncio para conseguir más. Controles: Clic del ratón o toque en la pantalla. El botón de pausa abre el menú (sonido, reiniciar, inicio).",
+  "guide": {
+   "intro": "Arrow Out: Puzzle Escape es un rompecabezas cerebral lleno de color en el que tocas flechas para sacarlas del tablero. Cada flecha puede bloquear a otra, así que el orden de tus movimientos importa.",
+   "tips": [
+    "Antes de tocar, mira qué hay delante de la cabeza de cada flecha. Despeja primero la flecha que bloquea, porque un toque bloqueado cuesta un corazón.",
+    "Vigila tus corazones. Empiezas cada nivel con 3, y menos errores dan más estrellas, así que haz una pausa para planear antes de cada movimiento.",
+    "Rompe las flechas congeladas pronto tocándolas una vez, para ver todo el tablero y planear su camino de salida. Las flechas dobladas necesitan su camino completo despejado, así que revisa la curva antes de tocar.",
+    "Cuando una flecha bloqueada estorbe, libera primero la flecha que sostiene la llave. Las rocas nunca se mueven, así que busca una ruta alrededor de ellas antes de empezar a deslizar.",
+    "Si tocas la flecha equivocada, usa deshacer de inmediato para anular el error. Para practicar más, prueba [[puzzle-games|más rompecabezas cerebrales para explorar]] una vez que superes un capítulo."
+   ],
+   "faq": [
+    [
+     "¿Cómo gano un nivel en Arrow Out?",
+     "Ganas cuando todas las flechas han salido del tablero. Cuantos menos errores cometas, más estrellas ganarás, hasta 3."
+    ],
+    [
+     "¿Qué pasa cuando una flecha choca con otra?",
+     "La flecha rebota y pierdes 1 corazón. Despeja primero el camino delante de ella y luego vuelve a tocarla."
+    ]
+   ]
+  }
+ },
+ "space-worm": {
+  "description": "Space Worm es un juego arcade de supervivencia en el que guías a un gusano que crece y está cubierto de torretas a través de enjambres enemigos. Sube de nivel para añadir torretas y módulos, recoge reliquias y explora cuatro arenas espaciales con jefes. Gana Fragmentos de Alma para mejorar tu Córtex de Gusano permanente y sobrevivir más tiempo en las próximas partidas. Derrota al jefe final para seguir en la supervivencia infinita.",
+  "instructions": "El gusano se mueve automáticamente. Usa A/D o las teclas de flecha izquierda/derecha para girar, mueve el ratón para apuntar y dirigir, o arrastra el joystick flotante en una pantalla táctil. Derrota enemigos, recoge experiencia y oro, y elige mejoras y reliquias. Enter pausa o reanuda; Tab abre el mapa.",
+  "guide": {
+   "intro": "Space Worm es un juego arcade de supervivencia en el que un gusano que crece, cubierto de torretas, lucha contra enjambres enemigos. Cada partida aumenta tu poder, y los Fragmentos de Alma que ganas se conservan para las próximas partidas.",
+   "tips": [
+    "El gusano se mueve solo, así que concentra tu atención en girar y apuntar en lugar de intentar controlar su velocidad.",
+    "Elige mejoras al subir de nivel que añadan torretas o módulos acordes a tu forma de jugar, ya que una build centrada es más fácil de mantener con vida que una dispersa.",
+    "Recoge experiencia y oro cuando sea seguro hacerlo, porque estos alimentan tu progreso durante la partida.",
+    "Usa el mapa (Tab) y la pausa (Enter) para comprobar dónde están los enemigos y los jefes antes de elegir una dirección.",
+    "Si te gusta guiar un cuerpo que crece por un campo de juego, la colección de [[snake-games|juegos de la serpiente clásicos]] tiene más títulos con esa sensación."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo de Space Worm?",
+     "Sobrevive a los enjambres enemigos, derrota a los jefes de las cuatro arenas espaciales y derrota al jefe final para seguir en la supervivencia infinita."
+    ],
+    [
+     "¿Cómo dirijo al gusano?",
+     "Usa A y D o las teclas de flecha izquierda y derecha para girar, mueve el ratón para apuntar y dirigir, o arrastra el joystick flotante en una pantalla táctil."
+    ]
+   ]
+  }
+ },
+ "would-you-like-to-see-my-ants": {
+  "description": "Alguien te ha enviado un paquete con hormigas, junto con una nota que pide que las trates bien. Desempaquétalo, lleva a la reina a su cámara y la colonia será tuya. Verás el nido de lado, como un hormiguero de verdad. Marca semillas y colémbolos para las forrajeadoras, excava túneles y construye guarderías, despensas y jardines a medida que la colonia crece. Cada hormiga tiene un trabajo, y puedes seguir a cualquiera de ellas o cogerla y ponerla en otro lugar. Es un juego pausado. Las hormigas siguen trabajando mientras no estás y, cuando vuelves, hay un breve informe de lo que hicieron. Llegan cartas de la anterior cuidadora de las hormigas y de sus vecinos, con proyectos que construir, excursiones fuera del cristal y alguna que otra visita inesperada. Hay investigaciones que desbloquear, metas que alcanzar y un álbum de recortes donde guardar fotos de la colonia. Tu progreso se guarda automáticamente, así que tu colonia te espera justo donde la dejaste.",
+  "instructions": "Cuida una colonia de hormigas desde una sola reina hasta que crezca: excava túneles, construye cámaras y mantén alimentadas a las hormigas. Ratón: haz clic para seleccionar cosas y usar herramientas, desplázate para hacer zoom y arrastra el suelo vacío (o usa WASD / las teclas de flecha) para mirar alrededor. El clic derecho suelta la herramienta que tengas en la mano. Teclas: T excava túneles, B abre el menú de construcción, X cancela una orden, L vuelve a rellenar un agujero, Espacio pausa. El botón de menú de la esquina superior derecha abre el menú. Táctil: toca una herramienta, toca el lugar donde la quieres y confirma. Arrastra para mirar alrededor y pellizca para hacer zoom. Mantén el dedo sobre una hormiga para cogerla.",
+  "guide": {
+   "intro": "Alguien te ha enviado un paquete con hormigas y te pide que las trates bien. Lleva a la reina a su cámara y observa cómo crece una colonia desde el lateral del cristal, un túnel cada vez.",
+   "tips": [
+    "Marca semillas y colémbolos para las forrajeadoras desde el principio, ya que la colonia necesita comida antes de poder crecer. Revisa la despensa y la guardería a medida que se llenan.",
+    "Usa el menú de construcción con B cuando quieras nuevas cámaras, y T para los túneles. Planifica las excavaciones para que las habitaciones nuevas se conecten con el nido sin cortar los caminos que las hormigas ya usan.",
+    "Como las hormigas siguen trabajando mientras no estás, lee el breve informe cuando vuelvas y ajusta tus marcas y construcciones según lo que haya pasado.",
+    "Si una hormiga está atascada o en el lugar equivocado, sigue un momento a esa hormiga para ver qué está haciendo, o cógela y colócala en un lugar más útil. También puedes explorar otros [[animal-games|juegos de simulación de animales]] si disfrutas viendo trabajar a las criaturas.",
+    "Usa X para cancelar una orden que ya no necesites, y L para rellenar un agujero que hayas cavado por error. Pulsa Espacio para pausar cuando quieras mirar alrededor sin que avance el tiempo."
+   ],
+   "faq": [
+    [
+     "¿Cómo empiezo la colonia?",
+     "Desempaqueta el paquete y lleva a la reina a su cámara. Después, la colonia crecerá a medida que las hormigas recolecten comida y tú añadas cámaras."
+    ],
+    [
+     "¿Cómo guarda el juego mi progreso?",
+     "Se guarda automáticamente, así que tu colonia te esperará donde la dejaste la próxima vez que abras el juego."
+    ]
+   ]
+  }
+ },
+ "would-it-smash": {
+  "description": "¡Construye la máquina trituradora definitiva! Mira cómo dos ruedas potentes muelen bloques, recoge dinero y mejora tu trituradora para aplastar desafíos aún más duros. Desbloquea nuevos aspectos para las ruedas, completa tareas y haz que tu máquina siga creciendo.",
+  "instructions": "Toca o haz clic en la trituradora y usa los botones de mejora para aumentar la velocidad y la potencia. Recoge recompensas, completa tareas e inicia los desafíos cuando estés listo. En el ordenador, usa el ratón o las teclas de flecha y la barra espaciadora para interactuar con la trituradora.",
+  "guide": {
+   "intro": "Would It Smash? es un juego arcade de clics en el que tocas o haces clic en una trituradora para moler bloques, recoger dinero y mejorar dos ruedas potentes. Cada mejora ayuda a la máquina a superar desafíos más difíciles.",
+   "tips": [
+    "Invierte las mejoras en velocidad y potencia por igual, ya que una trituradora más rápida solo sirve de algo si también puede atravesar bloques más resistentes.",
+    "Revisa tus tareas con regularidad, porque completarlas es una de las formas de hacer que tu máquina siga creciendo.",
+    "Recoge las recompensas siempre que estén disponibles para que tu dinero se mantenga al ritmo de las mejoras que quieres conseguir después.",
+    "Inicia los desafíos solo cuando tu trituradora esté bien mejorada, para no meterte en una ronda más difícil antes de estar preparado.",
+    "Si disfrutas del progreso constante y de ir haciendo crecer una máquina con el tiempo, también te pueden gustar estos [[idle-and-tycoon-games|juegos idle y de gestión]]."
+   ],
+   "faq": [
+    [
+     "¿Cómo controlo la trituradora en el ordenador?",
+     "Usa el ratón para tocar o hacer clic en la trituradora, o usa las teclas de flecha y la barra espaciadora para interactuar con ella."
+    ],
+    [
+     "¿Para qué sirven los botones de mejora?",
+     "Mejoran la velocidad y la potencia de tu trituradora, lo que le ayuda a aplastar bloques y desafíos más difíciles."
+    ]
+   ]
+  }
+ },
+ "open-floor-plan": {
+  "description": "Toma un mazo contra la oficina. Abre camino por una torre planta a planta: golpea, bloquea, apuñala, machaca y lanza tu martillo, y destroza escritorios, cristales y paredes hasta que quede una planta diáfana. Revienta cajas fuertes para conseguir oro, elige una mejora en cada ascensor y gasta tu oro en la Company Store con nuevos atuendos y martillos.",
+  "instructions": "Despide a todos los trabajadores de una planta y revienta sus cajas fuertes para abrir el ascensor, y luego sube a la siguiente planta. Controles: WASD = Mover | Ratón = Mirar | Clic izquierdo o ESPACIO = Golpear (corta en la dirección en que mueves el ratón) | Clic derecho o F = Bloquear | Rueda arriba = Apuñalar | Rueda abajo = Golpe alto | E = Lanzar / recoger | Q = Finta | MAYÚS = Sprint | V = Saltar | C = Agacharse",
+  "guide": {
+   "intro": "Open Floor Plan es un juego de acción en el que escalas una torre planta a planta, destrozando la oficina con un mazo. Elimina a los trabajadores y las cajas fuertes de cada planta para llegar al ascensor.",
+   "tips": [
+    "Antes de golpear, fíjate en el ataque que se te viene encima. Bloquea con clic derecho o F para pararlo y luego contraataca mientras el enemigo está descubierto.",
+    "Varía tus ataques. Usa apuñalar (rueda arriba) para golpes rápidos y precisos y el golpe alto (rueda abajo) cuando necesites golpear con más fuerza.",
+    "Usa Q para fintar y provocar un movimiento equivocado del rival, y luego ataca cuando reaccione.",
+    "Usa E para lanzar tu martillo a un objetivo lejano, pero recuerda que tienes que recogerlo antes de seguir golpeando.",
+    "Revienta las cajas fuertes de cada planta para conseguir oro y gástalo en la Company Store en nuevos atuendos y martillos. Elige con cuidado la mejora del ascensor, porque define cómo luchas en las plantas siguientes. [[ninja-and-fighting-games|más acción de espadas y peleas]]"
+   ],
+   "faq": [
+    [
+     "¿Cómo llego a la siguiente planta?",
+     "Despide a todos los trabajadores de la planta actual y revienta sus cajas fuertes. Cuando termines ambas cosas, se abrirá el ascensor y podrás subir."
+    ],
+    [
+     "¿Qué control debo usar para atacar?",
+     "El clic izquierdo del ratón o ESPACIO hacen que tu martillo golpee, y el golpe sigue la dirección en que mueves el ratón. Usa la rueda del ratón para las estocadas y los golpes altos."
+    ]
+   ]
+  }
+ },
+ "car-inspection-tycoon": {
+  "description": "¡Dirige tu propio taller de inspección de coches en una ciudad realista! Inspecciona los coches usados de los clientes con herramientas reales: mide el grosor de la pintura, abre el capó, haz un escaneo OBD, eleva el coche para revisar la parte inferior y comprueba los neumáticos, los frenos y la suspensión. Después, entrega un informe honesto. Gana dinero, mejora tu taller, contrata mecánicos y haz crecer tu negocio. Acepta trabajos con grúa de remolque, abre un puesto de comida bávara, conduce tu propio coche tuneado por la ciudad, corre en el Street Meet, salta desde las mega rampas y desafía a otros jugadores online en la Arena.",
+  "instructions": "Inspecciona correctamente el coche de cada cliente para ganar dinero y luego gástalo en herramientas nuevas, elevadores, personal y negocios. Sigue la tarjeta de objetivo de la parte superior para saber siempre cuál es tu próximo paso. Ordenador: WASD o las flechas para caminar y conducir, el ratón para mirar y hacer clic para interactuar, E para interactuar, Espacio para el freno de mano, C para la cámara del capó, M para el mapa y Esc para pausar. Teléfono y tableta: joystick izquierdo para moverte, botones en pantalla para interactuar y pedales de acelerador y freno al conducir.",
+  "guide": {
+   "intro": "Car Inspection Tycoon te pone al frente de un taller de inspección de coches usados en un entorno urbano. Revisas el coche de cada cliente con herramientas reales, redactas un informe honesto y usas el dinero para hacer crecer tu negocio.",
+   "tips": [
+    "Sigue la tarjeta de objetivo de la parte superior de la pantalla para saber siempre qué coche o tarea viene después.",
+    "Completa la inspección entera en cada coche, incluyendo el grosor de la pintura, el escaneo OBD, la revisión bajo el elevador y los neumáticos, frenos y suspensión, ya que saltarte una comprobación puede llevarte a un informe erróneo.",
+    "Invierte las primeras ganancias en herramientas y mejoras que aceleren tus inspecciones y, cuando el flujo de caja sea estable, destina dinero a personal y nuevos negocios.",
+    "Pulsa C para usar la cámara del capó cuando necesites ver mejor el compartimento del motor, y M para consultar el mapa antes de ir a un trabajo de grúa de remolque.",
+    "Cuando domines la rutina de inspección, explora [[idle-and-tycoon-games|más títulos tycoon de gestión de talleres]] para seguir jugando con mecánicas similares."
+   ],
+   "faq": [
+    [
+     "¿Cómo gano dinero en Car Inspection Tycoon?",
+     "Ganas dinero inspeccionando correctamente el coche de cada cliente y entregando un informe honesto. Después, gastas ese dinero en herramientas, elevadores, personal y negocios."
+    ],
+    [
+     "¿Cuál es la mejor forma de empezar a jugar?",
+     "Lee la tarjeta de objetivo de la parte superior de la pantalla y completa la primera inspección paso a paso. Al principio, céntrate en aprender cada herramienta antes de intentar avanzar rápido."
+    ]
+   ]
+  }
+ },
+ "colorpicker": {
+  "description": "Un puzle de percepción de colores en arte voxel. Cada tablero es una cuadrícula de cubos 3D grandes y redondeados de un mismo color, salvo uno (y más adelante dos o tres) que tiene un tono ligeramente distinto. Encuentra ese antes de que se acabe el tiempo. Cada cubo que encuentres se rompe en voxels, y esos voxels forman imágenes de pixel art, cubo a cubo, en una colección de álbumes que crece. Los tableros se hacen más grandes y las diferencias de color más sutiles a medida que avanzas, así que es una prueba de lo agudos que son realmente tus ojos.",
+  "instructions": "Toca o haz clic en el cubo cuyo color sea diferente al resto antes de que se acabe el tiempo. Una selección correcta añade un poco de tiempo y muestra el siguiente tablero, más difícil; un toque erróneo cuesta 3 segundos. Cada nivel llena la barra AÑADIR TIEMPO, y una barra llena da +5 segundos. Los cubos encontrados se rompen en voxels: en la pantalla de inicio, mantén pulsado CONSTRUIR para gastarlos en la imagen del álbum. ¿Atascado? PISTA elimina algunos de los cubos incorrectos. ¿Sin tiempo? Obtén una segunda oportunidad para seguir jugando. Solo táctil o ratón, no necesitas teclado.",
+  "guide": {
+   "intro": "ColorPicker es un puzle de percepción de colores en el que debes encontrar el único cubo cuyo tono difiere del resto antes de que se acabe el tiempo. Cada acierto te acerca a las imágenes de pixel art del álbum.",
+   "tips": [
+    "Recorre el tablero por filas o columnas en lugar de saltar de un lado a otro, para no pasar por alto el cubo diferente en las esquinas.",
+    "Un toque erróneo cuesta 3 segundos, así que si tienes dudas, busca el cubo que parezca un poco más claro u oscuro antes de tocar.",
+    "Llena la barra AÑADIR TIEMPO poco a poco en los primeros tableros, ya que una barra llena da +5 segundos y te ayudará cuando las diferencias de color sean más sutiles.",
+    "Guarda PISTA para un tablero que te haya atascado durante un rato, porque elimina algunos de los cubos incorrectos y reduce la búsqueda.",
+    "Si te gustan los desafíos visuales rápidos como este, la colección de [[brain-games|brain teasers for sharp focus]] tiene más juegos que ponen a prueba el mismo tipo de concentración."
+   ],
+   "faq": [
+    [
+     "¿Qué pasa si toco el cubo equivocado?",
+     "Pierdes 3 segundos del temporizador, y el tablero se mantiene igual para que sigas buscando el cubo diferente."
+    ],
+    [
+     "¿Cómo uso los cubos que encuentro?",
+     "Cada cubo encontrado se rompe en voxels. En la pantalla de inicio, mantén pulsado CONSTRUIR para gastarlos en la imagen del álbum."
+    ]
+   ]
+  }
+ },
+ "aura-farming-master": {
+  "description": "Farmea aura en azoteas de neón flotantes al atardecer. Colócate en las zonas de aura brillantes para ganar aura cada segundo y construir un multiplicador de racha, mientras los bots corren hacia ti e intentan sacarte de un bofetón. Pulsa el botón Pose en el momento justo para obtener una ráfaga de aura y un momento de phonk en cámara lenta. Gasta aura en las mejoras Farm Speed, Pose Window y Slap Power, desbloquea 20 guantes a medida que crece tu aura total, personalízate con más de 250 objetos de vestuario y juega los modos Farm, Rush, Battle Royale y Duel.",
+  "instructions": "Objetivo: farmear todo el aura que puedas y no caerte de la azotea. PC: WASD o las flechas del teclado para moverte, Espacio para esquivar, E para posar, mantén pulsado el botón del ratón y arrastra para girar la cámara. Móvil: joystick a la izquierda, arrastra a la derecha para girar la cámara, y los botones Dash y Pose. Colócate en una zona brillante para ganar aura cada segundo. Pulsa Pose y detén la flecha en la ventana verde para obtener una ráfaga de aura. Empuja a los rivales para sacarlos de la zona. Entra en los portales del lobby para elegir un modo.",
+  "guide": {
+   "intro": "Aura Farming Master es un juego de acción 3D ambientado en azoteas de neón al atardecer. Gana aura colocándote en zonas brillantes mientras los bots intentan tirarte de la azotea.",
+   "tips": [
+    "Muévete continuamente entre las zonas brillantes y permanece dentro de ellas el mayor tiempo posible, ya que el aura solo se acumula mientras estás en una.",
+    "Vigila a los rivales que se acercan y esquiva su camino con antelación, porque que te saquen de una zona detiene tu farmeo.",
+    "Practica el momento de pulsar Pose en la ventana verde para acertar de forma constante. Cada pose exitosa da una ráfaga de aura que ayuda a mantener tu racha.",
+    "Gasta el aura inicial en Farm Speed para recolectar más rápido y, si te empujan a menudo, considera Slap Power. Explora más [[ninja-and-fighting-games|juegos de lucha para probar]] si te gustan las batallas rápidas como esta.",
+    "Prueba los distintos modos desde los portales del lobby para ver cuál se adapta mejor a ti, y vigila los bordes de la azotea para no caerte."
+   ],
+   "faq": [
+    [
+     "¿Cómo gano aura más rápido?",
+     "Colócate en una zona de aura brillante, ya que ganas aura cada segundo que estás dentro de una. Pulsar Pose en el momento justo dentro de la ventana verde añade una ráfaga extra."
+    ],
+    [
+     "¿Cómo evito que los rivales me quiten el aura?",
+     "Empuja a los rivales para sacarlos de la zona y evita que ellos te atrapen a ti. Usar Dash para moverte rápido te ayuda a apartarte de su camino."
+    ]
+   ]
+  }
+ },
+ "blockstorm-block-puzzle": {
+  "description": "Consigue la mejor puntuación en un colorido puzle de bloques. Arrastra las piezas al tablero, completa filas y columnas y planifica con antelación para dejar espacio para el siguiente conjunto. Disfruta de un fondo fantástico y brillante, de limpiezas de líneas muy satisfactorias y compite por un puesto en la clasificación.",
+  "instructions": "Arrastra una pieza de la bandeja a las celdas vacías. Completa una línea horizontal o vertical para eliminarla y ganar puntos. Usa todas las piezas de la bandeja para recibir un nuevo conjunto. Deja suficiente espacio para las próximas formas. Los anuncios recompensados opcionales pueden deshacer un movimiento o ayudarte a continuar una partida.",
+  "guide": {
+   "intro": "Blockstorm es un puzle de bloques en el que arrastras piezas al tablero, eliminas filas y columnas completas e intentas conseguir la puntuación más alta posible. Planificar unos cuantos movimientos por adelantado es la clave para una partida larga.",
+   "tips": [
+    "Antes de colocar una pieza, mira las formas que quedan en la bandeja y piensa dónde podría encajar el siguiente conjunto.",
+    "Rellena primero los huecos de filas y columnas casi completas, ya que eliminar líneas es la forma de ganar puntos.",
+    "Intenta mantener las zonas abiertas del tablero flexibles en lugar de dejar celdas vacías sueltas que solo encajen con una forma.",
+    "Coloca las piezas grandes o incómodas al principio, mientras todavía hay mucho espacio, y guarda las piezas pequeñas para tapar los huecos.",
+    "Si te quedas atascado, el anuncio recompensado opcional puede deshacer un movimiento, lo que resulta útil para corregir un error del que no podrías recuperarte de otra forma. Úsalo solo cuando un movimiento sea realmente importante. Para practicar más, prueba [[block-puzzle-games|más retos de puzles de bloques]] al terminar una partida."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo de Blockstorm?",
+     "Tu objetivo es conseguir la mayor puntuación posible completando líneas horizontales o verticales para que se eliminen del tablero. Las puntuaciones se pueden comparar en la clasificación."
+    ],
+    [
+     "¿Cómo coloco una pieza?",
+     "Arrastra una pieza de la bandeja a las celdas vacías del tablero. Cada pieza necesita celdas libres que coincidan con su forma."
+    ]
+   ]
+  }
+ },
+ "sweet-screw-factory": {
+  "description": "Sweet Screw Factory es un juego de rompecabezas basado en físicas en el que desatornillas tornillos de caramelo de colores para dejar caer y guiar bloques de caramelo hasta los frascos coleccionistas del mismo color. ¡Quita los tornillos en el orden correcto para controlar cómo caen, giran y se deslizan las plataformas! 120 niveles repartidos en 6 mundos de fábrica de caramelos con tornillos bloqueados, reacciones en cadena, trampolines, portales y puzles de jefe. ¡Dificultad fácil, media y difícil con guardado completo del progreso!",
+  "instructions": "Toca los tornillos de caramelo para quitarlos y deja que la física haga el resto. Guía los bloques de caramelo que caen hasta los frascos del mismo color para ganar",
+  "guide": {
+   "intro": "Sweet Screw Factory es un puzle de física en el que desatornillas pernos de caramelo para que los bloques de caramelo que caen se deslicen hasta los frascos del color correspondiente. Con 120 niveles repartidos en seis mundos de fábrica, premia la planificación cuidadosa.",
+   "tips": [
+    "Antes de tocar un tornillo, fíjate en qué plataforma o bloque sujeta, ya que quitar uno puede hacer que toda una estructura caiga, gire o se deslice.",
+    "Cuando un tornillo esté bloqueado, busca otro tornillo que sostenga la misma pieza e intenta quitar ese primero para cambiar el orden de la física.",
+    "Prueba un tornillo en un nivel sencillo para ver cómo reacciona la plataforma, y luego aplica la misma idea a diseños más difíciles con trampolines y portales.",
+    "Tómate un momento para planificar el recorrido que hará un bloque hasta su frasco correspondiente, porque una retirada bien cronometrada suele importar más que una rápida.",
+    "Tu progreso se guarda, así que puedes dejar un puzle de jefe difícil y volver con ideas nuevas, y si disfrutas de este tipo de desafío lógico, hay más [[puzzle-games|rompecabezas para probar]] disponibles."
+   ],
+   "faq": [
+    [
+     "¿Cómo gano un nivel?",
+     "Ganas guiando cada bloque de caramelo que cae hasta el frasco que coincide con su color. Toca los tornillos de caramelo en un orden que permita a la física mover los bloques hacia donde deben ir."
+    ],
+    [
+     "¿Qué hace que un tornillo sea difícil de quitar?",
+     "Algunos tornillos están bloqueados, así que no puedes quitarlos de inmediato. Necesitarás quitar otros tornillos primero para liberarlos."
+    ]
+   ]
+  }
+ },
+ "popverse-bubble-shooter": {
+  "description": "Popverse es un juego de disparar burbujas con 20 burbujas especiales únicas y reacciones en cadena. Apunta y dispara para unir colores. Las burbujas especiales como Bombas, Arcoíris y Relámpago crean combos explosivos. Enfréntate a obstáculos como las burbujas Congeladas, de Piedra y Portal. Incluye más de 500 niveles, puzles aleatorios, un sistema de objetos, recompensas diarias y calificaciones de 3 estrellas.",
+  "instructions": "Haz clic y arrastra para apuntar tu lanzador. Suelta para disparar la burbuja",
+  "guide": {
+   "intro": "Popverse es un juego de disparar burbujas en el que apuntas y disparas para unir colores. Las burbujas especiales, las reacciones en cadena y obstáculos como las burbujas Congeladas, de Piedra y Portal hacen que cada nivel cambie.",
+   "tips": [
+    "Apunta a los lugares donde tu disparo toque varias burbujas del mismo color a la vez, ya que eliminar un grupo suele ser mejor que reventar una sola burbuja.",
+    "Fíjate en las burbujas especiales como Bombas, Arcoíris y Relámpago, e intenta colocarlas para que activen combos explosivos.",
+    "Planifica con antelación los obstáculos como las burbujas Congeladas, de Piedra y Portal antes de disparar, porque pueden bloquear o desviar tus tiros.",
+    "Revisa el tablero después de cada disparo para encontrar reacciones en cadena que puedas iniciar, y guarda un disparo listo que pueda romper un grupo cuando el tablero se llene.",
+    "Si te gusta encajar disparos en patrones de colores ajustados, la colección de [[bubble-shooter|más puzles de explotar burbujas]] tiene juegos parecidos para probar a continuación."
+   ],
+   "faq": [
+    [
+     "¿Cómo apunto y disparo mi burbuja?",
+     "Haz clic y arrastra para apuntar el lanzador y luego suelta para disparar la burbuja."
+    ],
+    [
+     "¿Cuál es el objetivo de cada nivel?",
+     "La descripción no indica los objetivos exactos de cada nivel, pero la idea principal es unir colores y eliminar burbujas usando combos y reacciones en cadena. Revisa el objetivo que aparece en pantalla al empezar el nivel."
+    ]
+   ]
+  }
+ },
+ "domino-online-multiplayer": {
+  "description": "¿Te gustan la estrategia, la emoción y las batallas de duelo? Encontrarás diferentes modos, ajustes flexibles y rivales fuertes. Variedad de modos: Contra el ordenador: pon a prueba tus habilidades contra una IA de distintos niveles de dificultad Duelos online: enfréntate a jugadores reales en tiempo real Juega con un amigo: envía un enlace y jueguen juntos, incluso a distancia En una sola pantalla: ideal para partidas en pareja en casa Ajustes flexibles: 9 niveles de dificultad Control del tiempo Cancelar la jugada Pistas Clasificación y estadísticas Personalización Historial de jugadas Emociones y chat",
+  "instructions": "Haz clic o toca para jugar",
+  "guide": {
+   "intro": "Domino Online Multiplayer es un juego de dominó que puedes jugar contra el ordenador, contra jugadores reales o con un amigo en la misma pantalla o a través de un enlace compartido. Haz clic o toca para hacer tus jugadas.",
+   "tips": [
+    "Empieza con un nivel de dificultad bajo contra el ordenador para aprender cómo juega la IA y luego sube el nivel a medida que tus jugadas sean más seguras.",
+    "Usa las pistas cuando te atasques y, después, intenta reconocer el mismo patrón por tu cuenta la próxima vez para depender menos de ellas.",
+    "Revisa el historial de jugadas después de una partida para ver dónde perdiste terreno y cuáles fueron las decisiones clave.",
+    "Si disfrutas de los juegos de mesa cara a cara, explora [[2-player-games|más juegos para dos jugadores]] para poner a prueba tu estrategia contra otra persona de otra manera."
+   ],
+   "faq": [
+    [
+     "¿Cómo coloco una ficha de dominó?",
+     "Haz clic o toca la ficha que quieras y luego haz clic o toca el lugar donde quieras jugarla."
+    ],
+    [
+     "¿Puedo deshacer una jugada de la que me arrepiento?",
+     "Sí, el juego incluye la opción de cancelar la jugada, así que puedes deshacerla si cambias de opinión."
+    ]
+   ]
+  }
+ },
+ "epicshooter3d": {
+  "description": "EpicShooter3D tiene un objetivo sencillo: ser rápido, fluido, fácil y divertido, sin instalaciones, sin registros y sin esperas. Solo abre el juego y empieza a disparar. Este juego siempre será gratis. Sin descargas. Sin cuentas. Pura acción FPS en el navegador. Aunque yo creé este juego, ya no es solo mío. Muchas de las funciones que ves hoy surgieron directamente de los comentarios de los jugadores, y valoro de verdad cada sugerencia. Prometo seguir escuchando y mejorando el juego pensando en la comunidad. En esencia, EpicShooter3D pretende ser un desahogo contra el estrés, pero también un lugar donde amigos y completos desconocidos puedan competir y subir en la clasificación.",
+  "instructions": "Controles de PC W A S D - Mover tu personaje Ratón - Apuntar y mirar alrededor Clic izquierdo Disparar Espacio Saltar ESC Pausar el juego Liberar el cursor Controles móviles El juego detecta automáticamente los dispositivos móviles y activa los controles táctiles Joystick izquierdo Arrastra para mover tu perso",
+  "guide": {
+   "intro": "EpicShooter3D es un shooter rápido en primera persona para navegador, donde te mueves, apuntas y disparas en 3D. Está pensado para partidas rápidas y una competencia amistosa en la clasificación.",
+   "tips": [
+    "Mantén a tu personaje en movimiento con W, A, S y D en lugar de quedarte quieto, así será más difícil que te apunten mientras apuntas.",
+    "Usa el ratón para apuntar y el clic izquierdo para disparar, y acostúmbrate a hacer movimientos pequeños con el ratón para lograr disparos más precisos.",
+    "Pulsa Espacio para saltar cuando necesites cambiar de posición rápidamente. Combina los saltos con el movimiento para que no sean predecibles.",
+    "Si necesitas un descanso o quieres alcanzar el cursor del ratón fuera del juego, pulsa ESC para pausar y liberar el cursor. Pausar es una buena forma de reiniciar antes de volver a un combate difícil.",
+    "Juega sesiones cortas y frecuentes si quieres subir en la clasificación, e intenta superar tu propia puntuación anterior antes de compararte con los demás. Si quieres probar más juegos de disparos, explora [[shooting-games|más juegos de disparos]]."
+   ],
+   "faq": [
+    [
+     "¿Cómo me muevo y apunto en EpicShooter3D en PC?",
+     "Usa W, A, S y D para mover a tu personaje y el ratón para mirar alrededor y apuntar. El clic izquierdo dispara."
+    ],
+    [
+     "¿Cómo funcionan los controles táctiles en el móvil?",
+     "El juego detecta automáticamente los dispositivos móviles y activa los controles táctiles. Arrastra el joystick izquierdo para mover a tu personaje."
+    ]
+   ]
+  }
+ },
+ "highway-racer-3d": {
+  "description": "¡Highway Racer 3D te pone al volante para el desafío definitivo de alta velocidad en la autopista! Corre por carreteras llenas de tráfico en cuatro emocionantes modos de juego: One Way – Esquiva el tráfico intenso de un solo carril y pon a prueba tus reflejos. Two Way – ¡El doble de carriles, el doble de caos! Adelanta a los coches que vienen de frente y mantén el control. Time Attack – ¡Gana al reloj y recorre la mayor distancia antes de que se acabe el tiempo! Time Bomb – ¡Una bomba de tiempo que no para de hacer tictac te pone bajo presión! Conduce rápido, evita los choques y desactiva el peligro manteniéndote en movimiento.",
+  "instructions": "Teclas WASD o flechas de dirección",
+  "guide": {
+   "intro": "Highway Racer 3D es un juego de conducción a alta velocidad en carreteras llenas de tráfico. Conduces con las teclas WASD o las flechas del teclado y eliges entre cuatro modos, cada uno con su propio tipo de presión.",
+   "tips": [
+    "En One Way, mantén la vista puesta en el camino delante de tu coche para detectar los huecos en el tráfico de un solo carril antes de llegar a ellos.",
+    "En Two Way, vigila de cerca los coches que vienen de frente y adelanta solo cuando el carril de delante esté libre, ya que mantener el control es más importante que adelantar rápido.",
+    "En Time Attack, no reduzcas la velocidad por cada obstáculo. Intenta mantener un ritmo constante para recorrer la mayor distancia posible antes de que se acabe el tiempo.",
+    "En Time Bomb, sigue en movimiento todo el tiempo, porque el juego te pide desactivar el peligro manteniéndote en marcha. Parar o avanzar despacio hace que la presión aumente.",
+    "Si te gustan los cambios rápidos de carril, puedes [[racing-games|explorar más juegos de carreras]] para practicar tus reflejos con otros títulos."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo principal en Highway Racer 3D?",
+     "Tu objetivo es correr por el tráfico denso evitando choques. Cada modo plantea un reto distinto, como recorrer la mayor distancia posible en Time Attack."
+    ],
+    [
+     "¿Qué teclas controlan el coche?",
+     "Puedes usar las teclas WASD o las flechas del teclado para conducir."
+    ]
+   ]
+  }
+ },
+ "ghost-shift": {
+  "description": "GHOST SHIFT - ¡Domina dos mundos en un solo juego! Cambia entre los modos HUMANO y FANTASMA para sobrevivir en este adictivo juego de correr sin fin. CÓMO JUGAR: - Haz clic/toca para SALTAR - Pulsa el botón Cambiar para alternar entre los modos Humano y Fantasma - Evita los obstáculos según tu modo actual: - MODO HUMANO: ¡Los bloques rojos son mortales! Las barreras azules se pueden atravesar sin peligro - MODO FANTASMA: ¡Las barreras azules te matarán! Los bloques rojos se pueden atravesar sin peligro - Recoge monedas para desbloquear skins geniales - Toma escudos para obtener protección temporal",
+  "instructions": "Controles ESCRITORIO - ESPACIO o FLECHA ARRIBA - Saltar - S o FLECHA ABAJO - Cambiar modo - CLIC DEL RATÓN en el lienzo - Saltar MÓVIL - TOCA la pantalla - Saltar - TOCA el botón Cambiar - Cambiar modo PAUSA - Haz clic en el botón Pausa durante la partida",
+  "guide": {
+   "intro": "Ghost Shift es un juego de correr sin fin en el que cambias entre los modos Humano y Fantasma para superar obstáculos. Cada modo trata las barreras rojas y azules de forma distinta, así que calcular bien el momento de cambiar es la habilidad clave.",
+   "tips": [
+    "Antes de cada obstáculo, compara su color con tu modo actual. Los bloques rojos son mortales en modo Humano, mientras que las barreras azules son mortales en modo Fantasma.",
+    "Cambia de modo justo antes de que un obstáculo llegue a ti, no antes. Cambiar demasiado pronto puede dejarte en el modo equivocado cuando llegue la siguiente barrera.",
+    "Guarda los escudos para los momentos en que varios obstáculos aparecen muy juntos. Su protección es temporal, así que úsalos cuando estés bajo más presión.",
+    "Recoge monedas siempre que sea seguro hacerlo, ya que desbloquean skins. Cogerlas a lo largo de tu recorrido es una forma de bajo riesgo para avanzar.",
+    "Si te gustan los retos rápidos de juegos de correr sin fin, puedes explorar [[running-games|más juegos como este]] para encontrar títulos similares."
+   ],
+   "faq": [
+    [
+     "¿Cómo cambio entre los modos Humano y Fantasma?",
+     "En ordenador, pulsa S o la Flecha Abajo. En móvil, toca el botón Cambiar en la pantalla."
+    ],
+    [
+     "¿Qué hace mortal a un obstáculo?",
+     "En modo Humano, los bloques rojos te matarán y las barreras azules se pueden atravesar sin peligro. En modo Fantasma es al revés: las barreras azules son mortales y los bloques rojos se pueden atravesar sin peligro."
     ]
    ]
   }
