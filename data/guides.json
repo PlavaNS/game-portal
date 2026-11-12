@@ -180549,5 +180549,616 @@
         "You can use either the WASD keys or the arrow keys to drive."
       ]
     ]
+  },
+  "history-gacha": {
+    "intro": "History Gacha lets you open packs of cards, each based on a real historical event drawn from a large library. Build a team, join battles, send cards on expeditions, and complete quests to earn trophies.",
+    "tips": [
+      "Rarity is set by a fixed metric, not by how famous an event is, so check each card's rarity instead of assuming a well-known event is the strongest.",
+      "Use the daily Check-in every day, since it gives you extra packs without spending any of your regular draws.",
+      "Check the Quests tab regularly, because finishing quests is another source of extra packs and trophies.",
+      "Look at your Collection before building a team for Battle so you can pick cards that fit together well.",
+      "If you enjoy building a hand from a steady stream of draws, you might like [[card-games|more card games to try]] with similar collecting and strategy."
+    ],
+    "faq": [
+      [
+        "How many cards are in each pack?",
+        "Each pack holds five cards. You can open one pack at a time or use the 5X option to open several packs at once."
+      ],
+      [
+        "How do I get extra packs?",
+        "Use the daily Check-in for extra packs, and finish quests from the Quests tab to earn more."
+      ]
+    ]
+  },
+  "clutchcraft-drive-car-driving": {
+    "intro": "ClutchCraft Drive is a 3D car driving simulator with realistic vehicle controls, an open city, and parking missions. You can drive freely or work through challenges that test your road and parking skills.",
+    "tips": [
+      "Start in Free Drive mode to get a feel for the steering and braking before you try the parking missions.",
+      "Use C to switch camera views, and pick the one that shows the most of your car's sides when you are reversing into a space.",
+      "Get in the habit of using Q and E to signal before you turn or change direction, since the game is built around real-world traffic rules.",
+      "Watch the traffic lights and road signs as you approach each junction and slow down early so you have time to react.",
+      "If your car ends up stuck or facing the wrong way, press R to reset it instead of wasting time trying to recover. For more driving titles, you can [[car-games|browse other car games]] once you have the basics down."
+    ],
+    "faq": [
+      [
+        "How do I park the car in the parking missions?",
+        "Use W and S to move forward and reverse, A and D to steer, and switch views with C to judge the space around your car. Take it slowly and use the handbrake with SPACE if you need to hold the car still."
+      ],
+      [
+        "What do I need to do to succeed in the challenges?",
+        "Drive safely, follow traffic lights and road signs, and complete each challenge's goal using the realistic vehicle controls. Practicing in Free Drive first helps you learn how the car handles before the timed or tougher tasks."
+      ]
+    ]
+  },
+  "deadzone-extraction": {
+    "intro": "Deadzone Extraction is a zombie shooter where you loot infected districts and race to the evac before the horde catches you. Everything you carry stays at risk until you extract.",
+    "tips": [
+      "Watch your backpack weight and loot value as you go, and decide early when a haul is worth carrying out rather than pushing deeper.",
+      "Use Tab to check what you are carrying before pushing into a new area, so you know exactly what you stand to lose.",
+      "Reload with R when you are between groups of zombies rather than in the middle of a fight, so you are not caught with an empty weapon.",
+      "Hold the right mouse button to aim for steadier shots, and save the left mouse button for when enemies are close enough to hit reliably. If you want more undead survival picks, check [[zombie-games|more zombie survival titles]].",
+      "Keep an eye on the evac route from the start, so you can reach the extraction point with X while you still have time and health."
+    ],
+    "faq": [
+      [
+        "What happens to my loot if I get overrun?",
+        "Everything you carry is at risk until you extract, so you need to reach the evac before the horde catches you to keep it."
+      ],
+      [
+        "How do I extract from a district?",
+        "Get to the evac point and press X to extract with what you have collected."
+      ]
+    ]
+  },
+  "diy-sticker-dream-house": {
+    "intro": "DIY Sticker Dream House is a relaxed decorating game where you turn an empty house into a cozy home using stickers. You drag items into place as you go, with simple puzzles and cartoon artwork along the way.",
+    "tips": [
+      "Work through one room at a time so the empty house feels less overwhelming and each space comes together as you go.",
+      "Try a few sticker styles in the same room before committing, since you can see how colors and shapes sit together.",
+      "Keep your decorating consistent by choosing a loose theme, such as soft pastels or cute cartoon touches, and sticking with it.",
+      "Take short breaks between decorating sessions and look at the whole house again, which can help you spot gaps you missed while focused on one corner.",
+      "If you get stuck on a simple puzzle, step back and look at what is still unfinished, then tackle the nearest open area first. For more room styling ideas, browse [[home-design-games|more interior decor games]]."
+    ],
+    "faq": [
+      [
+        "What is the main goal of DIY Sticker Dream House?",
+        "The goal is to decorate an empty house with dream house stickers until it becomes a wonderful home. There is no fixed finish line, so you can keep customizing at your own pace."
+      ],
+      [
+        "How do I place stickers in the game?",
+        "You drag to play, so move each sticker from where it starts to the spot you want it. Controls are kept simple, so most of your time goes into design."
+      ]
+    ]
+  },
+  "one-last-clown": {
+    "intro": "You chase Davi through an abandoned school at night, with a flashlight that will not last until morning. Learn each clown's rule, free the children, and collect three keys to find the way out.",
+    "tips": [
+      "Open the Tab notebook often and read each clown's notes, since they reveal what each one fears and how to get past it.",
+      "Keep your flashlight off when you do not need it, because it will not last until morning and you will need it for the dark rooms.",
+      "When Pipoca is close, throw a can with G or right click to pull him away, then move past him while he is distracted.",
+      "Do not trust a safe room just because it looks safe, since some of them are not. Keep watching for danger even after you hide.",
+      "If the tension here suits you, browse [[horror-games|more horror games to try]] next."
+    ],
+    "faq": [
+      [
+        "How do I get out of the school?",
+        "Free the children at the altars to collect keys, and you need three keys to open the way out."
+      ],
+      [
+        "What should I do when The Silent One is hunting me?",
+        "It hunts by sound, so crouch with Ctrl to move quietly and keep your distance."
+      ]
+    ]
+  },
+  "santa-magic-sort": {
+    "intro": "Santa Magic Sort is a cozy 3D Christmas puzzle where you help Santa sort colorful liquids into festive glass vessels. Work through 30 levels and named challenges in a snowy workshop.",
+    "tips": [
+      "Before you pour, look at every vessel and decide where each color should end up, so you don't bury a shade you will need soon.",
+      "Start with the colors that are easiest to group together, since clearing one vessel often frees up space for the trickier mixes.",
+      "Keep the centerpiece in mind from the start, because your goal is to fill it with a single color and every move should work toward that.",
+      "Challenges use specific colors and glass shapes, so study the setup first and adjust your approach to the glass you are given.",
+      "If you enjoy this kind of color puzzle, [[sorting-games|more color sorting challenges]] can give you similar practice with different layouts."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "You move liquids between bottles until the centerpiece is filled with a single color. The named challenges add specific colors and glass shapes to solve."
+      ],
+      [
+        "How do I earn coins and what do they unlock?",
+        "You earn coins as you play, and you can use them to unlock new glasses, outfits, and Santa hats."
+      ]
+    ]
+  },
+  "sticky-scenes": {
+    "intro": "Sticky Scenes is a sticker puzzle where you match stickers to empty shapes before the timer runs out. Each win adds new stickers to a book that completes the chapter scenes.",
+    "tips": [
+      "Before you tap a sticker, check whether its shape is already showing. A sticker that is not needed yet takes up one of the few bench slots.",
+      "Keep an eye on the bench. A full bench ends the level, so if a sticker is waiting, look for its shape in the next few rows before adding more.",
+      "Save the Hint for a moment when you are truly stuck, since the timer keeps running on every level.",
+      "If you like matching animals and treats, try other [[puzzle-games|puzzle games]] to practice spotting patterns quickly.",
+      "Work through the short tutorial first so you understand how the bench and shapes interact before the timed levels begin."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "You fill every empty sticker shape on the board with the matching sticker. The level is clear once the board is empty."
+      ],
+      [
+        "What happens if I tap a sticker too early?",
+        "It waits on the bench and jumps into its shape as soon as that shape appears. The bench has only a few slots, so too many waiting stickers will end the level."
+      ]
+    ]
+  },
+  "city-tow-master-3d": {
+    "intro": "Drive a tow truck through city streets, highways and steep hill roads to recover broken-down, crashed and illegally parked cars. Hook each vehicle with your crane and bring it to the garage before time runs out.",
+    "tips": [
+      "Line up your truck carefully before you hook a vehicle, since a clean approach makes the crane connection easier and saves time.",
+      "Take corners and hills at a controlled speed, because every crash damages your truck and lowers the reward you earn for the job.",
+      "Keep an eye out for traffic, roadworks and pedestrians as you drive, and slow down early when the road ahead looks crowded.",
+      "Use the handbrake for tight turns and quick positioning, then release it before you accelerate toward the garage.",
+      "If you enjoy steering heavy vehicles, try more [[3d-games|3D driving games]] to build the same precise control skills."
+    ],
+    "faq": [
+      [
+        "How do I hook a vehicle onto my tow truck?",
+        "Get close to the car with the truck lined up, then press E or H to hook the vehicle onto your crane."
+      ],
+      [
+        "What does the score depend on?",
+        "You can earn up to 3 stars per job, and the reward goes down when your truck gets damaged in crashes, so careful driving pays off."
+      ]
+    ]
+  },
+  "depth": {
+    "intro": "DEPTH is a 2D side-view shooter in which cyborg foreman Gleb Flint Kremenev descends through the Horizon-7 mining station toward its reactor. Across its levels you face machines that have turned against you, plus a boss at the end of each level.",
+    "tips": [
+      "Learn the boss at the end of each level before you commit your ammo, since every boss has its own attack pattern.",
+      "Hold the shield only when a threat is coming at you, because it drains while you use it and you will need it again later.",
+      "Watch how the environment behaves in each area, such as static charge, magnets, and collapsing bridges, and plan your jumps around those hazards instead of rushing through them.",
+      "Use the crouch and crawl controls to get through low gaps and dodge incoming fire, and aim with the mouse so your shots land where you need them. If you enjoy fast, focused gunfights like this, you can find more [[shooting-games|action shooters to try]].",
+      "Listen to the voice on the radio, since it is your only guide through the station and it often points toward what to do next."
+    ],
+    "faq": [
+      [
+        "How do I aim and fire in DEPTH?",
+        "Aim with the mouse and fire with the left mouse button. Keyboard players can use J, Z, or Ctrl to fire."
+      ],
+      [
+        "How do I defend myself against enemy attacks?",
+        "Hold the right mouse button, Shift, C, or L to raise your shield. Keep in mind that the shield drains while it is active."
+      ]
+    ]
+  },
+  "cube-playground-ragdoll-sandbox-3d": {
+    "intro": "Cube Playground is a voxel physics sandbox with no set goal. You build scenes, add characters and vehicles, and then test them with explosions and physics.",
+    "tips": [
+      "Start on the empty arena and build one small setup at a time, so you can see exactly how each block, lever or trap affects the scene.",
+      "Press R to rotate an item before you place it, so blocks and traps line up the way you planned.",
+      "Wire levers and timers to your traps early in a build, then trigger them in a controlled order to see which parts collapse first.",
+      "Try the same scene with different weapons, such as guns, grenades, and dynamite, to compare how each one moves the ragdolls and blocks. If you enjoy open-ended builds like this, you can explore more [[sandbox-games|sandbox games to try]].",
+      "Use the helicopter to look down at your finished structure from above before you blow it up, so you can judge where the explosion will hit."
+    ],
+    "faq": [
+      [
+        "Is there a goal or a level to finish?",
+        "No. The game has no single goal, so you decide what to build, which characters to spawn and what to destroy."
+      ],
+      [
+        "How do I switch between items and place or shoot?",
+        "Use the mouse wheel or keys 1 to 6 to switch hotbar items, or press Q or Tab to open the item menu. Left mouse button places, uses or shoots, and right mouse button aims or removes."
+      ]
+    ]
+  },
+  "synthline-rush": {
+    "intro": "SYNTHLINE RUSH is a neon synthwave arcade racer set in an open paddock. Drive into any track, set your fastest lap, and race the ghost of your own best run to earn Watts for new tracks and cars.",
+    "tips": [
+      "Learn the lines on each track first, then push for time. Use the G key to switch the guide line target so you can see where the car should be heading.",
+      "Treat your ghost as a pacing guide. Check where it is through each corner and try to make up time in the sections where you fall behind.",
+      "Save nitro for long straights where you can keep your speed. Using it going into a tight corner often leaves you sliding wide.",
+      "Use Space to handbrake through sharp bends, and practice it on the same corner until the car rotates where you want. Sliding skills like this also come up in [[drift-games|drift driving games]].",
+      "Hold R to reset the car when it gets stuck or you go off line, rather than losing a lap. Spending Watts on a faster car usually helps more than buying new tracks early on."
+    ],
+    "faq": [
+      [
+        "How do I start a lap?",
+        "Drive to a track in the paddock and cross the green line. Your lap begins when you pass it."
+      ],
+      [
+        "How do I earn Watts?",
+        "Every lap earns Watts. Beat your own ghost to earn more, and spend them on new tracks and faster cars in the garage and shop."
+      ]
+    ]
+  },
+  "haystack-hunter": {
+    "intro": "Haystack Hunter is a cozy digging game where you scoop hay from huge stacks, sell every strand for money, and upgrade your tools to find the hidden needle. Your earnings build up while you search, so each dig pays off.",
+    "tips": [
+      "Watch your money and spend it on upgrades that make digging faster or earn more per strand, since every dig is sold automatically.",
+      "Once you own the metal detector, use its beeps to decide where to dig next instead of scooping at random.",
+      "Be careful with small metal shapes you find, because sewing pins and rusty nails can look like the needle. Check the item before you assume you have it.",
+      "Save dynamite for when you already know roughly where the needle is, so the big blast clears more hay in the right spot. If you enjoy goats and farm-style play, you can find [[animal-games|more farm animal games]] on the site.",
+      "Goats keep earning while you are away, so it is worth investing in them early and returning to collect your progress."
+    ],
+    "faq": [
+      [
+        "How do I dig through the hay?",
+        "Hold the left mouse button and drag to dig. On mobile, touch and drag across the screen."
+      ],
+      [
+        "What do the goats and the metal detector do for me?",
+        "Goats eat hay for you, and the metal detector beeps when you get close to the needle. Both are bought with money you earn from selling hay."
+      ]
+    ]
+  },
+  "parking-shift-car-simulator": {
+    "intro": "Parking Shift is a 3D parking challenge where you steer a sport sedan or a rugged 4x4 into a marked bay before the timer runs out. Keep the whole car inside the bay and avoid hitting obstacles.",
+    "tips": [
+      "Turn on the parking helper with H when you are learning a new layout, then switch it off once you can judge the bay by eye.",
+      "Press C to change the camera often, since a view from above or from behind shows gaps that the default view may hide.",
+      "Your three hearts are a limited buffer, so slow down near walls and obstacles instead of trying to save time at the last second.",
+      "Practice both forward and reverse parking, because some bays are easier to reach by backing in. Use R to switch gear and Space for the handbrake to stop quickly when you need to correct your position.",
+      "If you want more practice layouts to build your reverse parking, try [[car-parking-games|more parking challenges to practise]] after you finish a level."
+    ],
+    "faq": [
+      [
+        "How do I win a level?",
+        "Drive to the marked parking bay and keep the whole car inside it until the countdown finishes. You also need to finish before the timer expires."
+      ],
+      [
+        "What do the three hearts mean?",
+        "The hearts show your car's health. Each collision costs health, so avoiding obstacles keeps you in the level."
+      ]
+    ]
+  },
+  "queen-billboard-battle": {
+    "intro": "Queen Billboard Battle is a runner where you steer a cardboard standee down a pink runway and collect beauty points. Finish with more points than your rival to win the crowd's vote and take the crown.",
+    "tips": [
+      "Plan your path ahead of each gate, since blue gates add beauty points and red gates and paint buckets take them away. Move early so you have time to line up with the blue ones.",
+      "Pick up the pink gems you pass along the way, because every extra point helps you beat your rival at the finish.",
+      "Watch your standee's picture as your score climbs. It changes from a crayon scribble to a royal queen, which shows how well you are doing.",
+      "Spend the crystals you earn in the Wardrobe on frames, sparkle trails and auras to personalize your standee. If you enjoy styling characters, you can also explore [[dress-up-games|more fashion styling games]].",
+      "Aim to beat each rival by a clear margin, since winning the vote unlocks a tougher rival to face next."
+    ],
+    "faq": [
+      [
+        "How do I steer the standee?",
+        "Drag left or right on the screen, or use the A and D keys or the arrow keys. Steering smoothly helps you line up with blue gates and avoid red ones."
+      ],
+      [
+        "How do I win the crowd's vote?",
+        "Finish the runway with more beauty points than your rival. Your poster then goes up on the billboard, and the fans vote with hearts."
+      ]
+    ]
+  },
+  "snowbattle-io": {
+    "intro": "Snowbattle.io is a snowball arena game where you drive a tracked snow vehicle, grow a giant snowball, and launch it at rivals. Knock every opponent off the island to win each round and move on to the next arena.",
+    "tips": [
+      "Keep moving while you hold the mouse or your finger, because your snowball only grows while you drive. Build it up before you look for a hit.",
+      "Your shot goes in the direction your vehicle faces when you release, so line up your facing before letting go.",
+      "Watch the island edges as closely as the opponents. Staying on the snow matters as much as knocking rivals off.",
+      "Dodge incoming snowballs by changing position rather than waiting, and grab power-ups when the way is clear to gain a short advantage. If you enjoy games where movement and collisions decide the outcome, you might also like these [[physics-games|more physics-driven games]].",
+      "Aim for larger snowball hits when you can, since bigger hits push opponents farther toward the water."
+    ],
+    "faq": [
+      [
+        "How do I grow my snowball?",
+        "Keep your vehicle moving while holding the left mouse button on desktop or your finger on mobile. The snowball grows as you drive."
+      ],
+      [
+        "How do I aim my shot?",
+        "Steer by dragging, then release the button or lift your finger. The snowball launches in the direction your vehicle is facing at that moment."
+      ]
+    ]
+  },
+  "monster-truck-sky-obby": {
+    "intro": "Monster Truck Sky Obby is a driving obstacle course high above the clouds. Drive across floating platforms, ram through obstacles for coins, and reach the finish of each of its three worlds.",
+    "tips": [
+      "Drive through checkpoint gates as soon as you pass them so you do not lose a long stretch of the course after a bad landing.",
+      "Before you jump a gap, let go of the accelerator briefly to match your speed to the ramp, so the truck leaves at a controlled angle.",
+      "Practice one air trick at a time: a flip with W or S, then a barrel roll with A or D, and only attempt both in one jump once you can land on your wheels reliably.",
+      "Use the crate stacks, block walls and junk cars as coin sources when the route is safe, but keep your focus on the path so you do not run into lava or swinging hammers.",
+      "If you want more stunt driving after finishing a world, check out [[monster-truck-games|more monster truck games]] to try other trucks and handling styles."
+    ],
+    "faq": [
+      [
+        "How do I save my progress in a world?",
+        "Drive through a checkpoint gate to save your spot, so a fall or crash sends you back to that point rather than the start."
+      ],
+      [
+        "What makes a landing count for a boost?",
+        "Land on your wheels after an air trick to earn coins and a boost. Landing on your roof or side does not give the same reward."
+      ]
+    ]
+  },
+  "obby-throw-food-for-pets": {
+    "intro": "Throw food, watch which pet runs over, and carry your new companion to your pen to earn money. Training, upgrades and better food help you reach new worlds and rarer pets.",
+    "tips": [
+      "Aim for the green zone on the needle every time, since a PERFECT throw flies noticeably farther and helps you collect pets faster.",
+      "Keep an eye out for the ring after your throw and tap again when it appears to bounce the food even farther.",
+      "Spend time at your pull-up bar early on to build power, then upgrade the bar before you spend on anything else.",
+      "Your pen earns money every second, so get each new pet home quickly and check back often, much like other [[idle-and-tycoon-games|idle money-making games]].",
+      "Use the lucky wheel and weekly login rewards whenever they are available, since they add extra prizes without extra throwing."
+    ],
+    "faq": [
+      [
+        "How do I get a better throw?",
+        "Tap when the needle is in the green for a PERFECT throw, then tap again when the ring appears to bounce the food farther."
+      ],
+      [
+        "What should I do with the pets I catch?",
+        "Carry each pet that comes to eat your food to your pen, where it earns money every second."
+      ]
+    ]
+  },
+  "crowd-masters": {
+    "intro": "Crowd Masters is a medieval runner where you lead a blue knight army down a road against a red rival. Gates add or multiply your soldiers, and the bigger army at the finish wins.",
+    "tips": [
+      "Watch the rival army as well as your own. Gates the rival takes first close for you, so pick up the strongest gates early before they are gone.",
+      "Steer toward multiply gates when your army is already fairly large, since a multiplier gains more from a bigger number. Keep away from gates that subtract knights, even if they sit on the shortest path.",
+      "Plan your lane a few gates ahead rather than reacting to each one. Dragging or tapping at the last moment often leaves you boxed in beside a trap.",
+      "Before a castle level, make sure your army is as large as you can manage, because your soldiers must break the gate before you can reach the lord. Check the menu upgrades so you enter these fights with a stronger start. For more lane-based challenges, try [[running-games|other fast running challenges]].",
+      "Use the coin upgrades steadily between levels instead of spending everything at once, and choose the Starting Army upgrade if you struggle to build numbers early in a run."
+    ],
+    "faq": [
+      [
+        "How do I win a level?",
+        "Reach the finish with more knights than your rival. Gains from gates and avoiding losses matter more than a single big moment."
+      ],
+      [
+        "How do castle levels work?",
+        "Every fifth level you storm a castle gate. Your army breaks the gate first, and then you fight the rival lord, so a larger army is important."
+      ]
+    ]
+  },
+  "fish-eggs-for-animals": {
+    "intro": "Fish Eggs for Animals is a 3D fishing clicker where you cast into a large ocean, catch fish, and display them in an aquarium that earns money. Your goal is to reach The Last Deep and fill the Fish Index.",
+    "tips": [
+      "Aim for the glowing end of the meter when you press CAST, since better timing gives you a longer cast and access to farther zones.",
+      "Pay attention to where your bait lands, because that decides which fish you can catch. Move into farther zones when you want more valuable fish and better luck.",
+      "Put your catches on display as soon as you can, since visitors pay to see them and your aquarium keeps earning even while you are away.",
+      "Use practice casts at the TRAIN station to raise your Cast Power so you can reach new zones.",
+      "Spend your money on better bait for rarer fish, new rods for faster training, and a bigger aquarium. If you enjoy steady earnings that keep running in the background, you might also like these [[idle-and-tycoon-games|idle and tycoon picks]]."
+    ],
+    "faq": [
+      [
+        "How do I get a longer cast?",
+        "Press CAST and stop the moving meter as close to the glowing end as you can. Better timing gives you a longer cast."
+      ],
+      [
+        "When should I rebirth?",
+        "Rebirth once you have earned enough, since it resets your run in exchange for permanent stars that boost your income, XP and luck."
+      ]
+    ]
+  },
+  "obby-skateboard-race": {
+    "intro": "Obby: Skateboard Race is a 3D arcade course where you ride a skateboard through obstacle courses, performing tricks and competing. Each completed level unlocks a new location with its own obstacles.",
+    "tips": [
+      "Look ahead to the next obstacle before you commit to a jump, since each stage mixes precise jumps with tight squeezes.",
+      "Use the camera control early in each course so you can see the layout and plan your line before you reach the obstacles.",
+      "If you find a section hard, replay it a few times to learn the exact moment to jump rather than rushing through.",
+      "Keep your speed steady through the tight gaps, because a well-timed approach is easier to control than a fast, rushed one. If you enjoy this style, try more [[parkour-and-obby-games|parkour and obby challenges]] to sharpen your jump timing."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Obby: Skateboard Race?",
+        "Your goal is to complete each obstacle course. Finishing a level unlocks a new location with original obstacles."
+      ],
+      [
+        "How do I control the skateboard on a computer?",
+        "Use WASD or the arrow keys to move, Space to jump, and hold the right mouse button to control the camera."
+      ]
+    ]
+  },
+  "coloring-world-2026-animals-and-nature": {
+    "intro": "Coloring World 2026: Animals and Nature is a relaxing color-by-number game with cats, dogs, flowers, fruits and parrots. Match each number to its color and fill the areas to finish each picture.",
+    "tips": [
+      "Pick one color at a time and fill every area marked with its number before switching, which keeps your palette choices simple.",
+      "Start with the larger areas of a picture so the outlines become easier to read as you add color.",
+      "Finishing a picture is what earns rewards and unlocks new images, so it helps to complete one before starting another.",
+      "If you enjoy the animal and flower pictures, you can find more in the [[coloring-and-drawing-games|coloring and drawing collection]] to keep building your art."
+    ],
+    "faq": [
+      [
+        "How do I know which area goes with which color?",
+        "Each color in the palette has a number, and the areas in the picture carry the same number. Click or tap the areas that match the color you have selected."
+      ],
+      [
+        "How do I play on a computer compared with a phone?",
+        "On a computer, use your mouse to select colors and click areas to fill them. On a mobile device, tap the color you want and then tap the areas to fill them."
+      ]
+    ]
+  },
+  "order-of-masks": {
+    "intro": "Order of Masks is a shooting dungeon crawler where the Children of the Spark fight through shifting floors to free the light held by the Great Mask. You can play alone or with up to four players in local co-op.",
+    "tips": [
+      "Clear the rooms of each floor before moving on, since the floor's boss is the way down to the next level.",
+      "Pay attention to which items you combine, because matching items can transform your hero and build powerful synergies during a run.",
+      "Use your bomb and card when a room gets crowded, and save them for tough moments rather than spending them early.",
+      "In co-op, stay near fallen teammates when you can, because helping them return to the fight keeps the whole group in the run. If you enjoy games like this with a friend, you can also browse [[2-player-games|games built for two players]].",
+      "Try Novice difficulty first to learn the room types and boss patterns before moving to harder settings."
+    ],
+    "faq": [
+      [
+        "How do I win a run?",
+        "Beat the Great Mask on the way down through the dungeon. Once you win, you can take a new path or try the endless Abyss."
+      ],
+      [
+        "What controls do I need on a keyboard?",
+        "Use WASD to move and the Arrow keys to shoot, with E or Left Shift for a bomb and Space for the active item. Press P to pause."
+      ]
+    ]
+  },
+  "lumberjack-simulator": {
+    "intro": "Lumberjack Simulator is a 3D tycoon game where you chop trees, sell wood for coins, and upgrade your tools. Start as a beginner and grow your logging business across new forest areas.",
+    "tips": [
+      "Chop a few trees and sell the wood early so you can afford your first axe upgrade, since faster chopping helps every part of the game.",
+      "Compare upgrade options before you spend. Pick the one that speeds up your chopping the most for the coins you have.",
+      "Look for valuable trees when you enter a new area. Their wood should earn more coins, which can help you reach better equipment sooner.",
+      "Keep selling your collected wood regularly rather than letting it pile up, so your coins keep pace with your upgrade goals. If you enjoy building up a business like this, [[idle-and-tycoon-games|more tycoon games to try]] are worth a look."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Lumberjack Simulator?",
+        "Your goal is to grow your logging business by chopping trees, selling wood for coins, and using those coins to upgrade your tools and expand into new forest areas."
+      ],
+      [
+        "How do I earn more coins faster?",
+        "Upgrade your axe to chop trees faster, unlock better equipment, and move into new forest areas where valuable trees can increase your profits."
+      ]
+    ]
+  },
+  "real-survival-not-fake": {
+    "intro": "Real Survival: Not Fake puts you in a frozen wilderness where you gather resources, chop wood, craft gear, and build a shelter. The goal is to last through the cold nights and defend yourself against polar bears.",
+    "tips": [
+      "Build your base before the first night falls. Your shelter is what gets you through the cold, so set it up while there is still daylight to work in.",
+      "Chop wood and gather resources early, while it is safe to explore. You will need materials for both your shelter and your gear once the nights get harder.",
+      "Use your crafting to prepare defenses before you head out again. Gear that is ready before a polar bear appears gives you a better chance than making it in a panic.",
+      "Move carefully and keep track of where the polar bears are. Explore the icy wilderness in short trips so you can get back to your base if things go wrong.",
+      "If you enjoy survival routines that depend on steady planning, you can browse more [[simulator-games|simulation style games]] on the site."
+    ],
+    "faq": [
+      [
+        "What is the main goal of the game?",
+        "Your main objective is to build your base, survive the cold nights, and defend yourself from the dangers of the wilderness for as long as you can."
+      ],
+      [
+        "How do I move around on PC?",
+        "Use A, W, S, and D or the arrow keys to move. On mobile, you move with touch controls."
+      ]
+    ]
+  },
+  "1-black-slime-evolution": {
+    "intro": "A Roblox-style evolution game where a black slime grows with your blocky hero, level by level. Train at goo stations, clear arena waves, and evolve through 10 forms.",
+    "tips": [
+      "Spend time on the training stations in the lobby first, since standing on them is how you gain slime and level up. Your level is one of the two things you need before you can evolve.",
+      "Your slime attacks enemies on its own, so keep your hero close to the action rather than running far away. Staying in range keeps the damage coming.",
+      "Watch the ground for red boss circles and step out of them quickly, because boss attacks are the main danger in each stage.",
+      "Step on the win pads after clearing waves, because wins count toward evolving at the altar. Check that you have both enough level and enough wins before heading there.",
+      "Use the right mouse button or a swipe to rotate the camera so you can see incoming zombies and bosses from the sides. If you are still building up, a few [[idle-and-tycoon-games|idle and tycoon picks]] offer a similar slow-growth feel."
+    ],
+    "faq": [
+      [
+        "How do I move and dodge in combat?",
+        "Move with WASD or the on-screen stick and jump with Space. Dodge by stepping out of the red boss circles while your slime keeps attacking automatically."
+      ],
+      [
+        "What do I need before I can evolve?",
+        "You need enough level and enough wins. Level comes from standing on training stations, and wins come from stepping on win pads after clearing waves. Then evolve at the altar."
+      ]
+    ]
+  },
+  "dog-and-cat-sweet": {
+    "intro": "Dog and Cat Sweet is a two-character adventure where the cat and dog must work together to reach the doghouse. You collect food, avoid obstacles, and cross the bridge and iron gate on the way.",
+    "tips": [
+      "Since only the dog can open the bridge and the iron gate, plan to bring the dog to those spots before you expect to pass them.",
+      "Check the path ahead before each move, because obstacles appear everywhere and a careless step can cost you progress.",
+      "Gather every piece of food you pass, since the level is designed around collecting all of it, so it is worth looking for items in corners and along the route.",
+      "Keep the cat and dog close enough to move as a team, because the finish line requires both of them to reach the doghouse together. If you enjoy teamwork, you can also explore [[2-player-games|two player games together]] on the site."
+    ],
+    "faq": [
+      [
+        "Which character can open the bridge and the iron gate?",
+        "Only the dog can open the bridge and the iron gate, so you need to bring the dog to them to continue."
+      ],
+      [
+        "What do I need to do to finish a run?",
+        "Collect all the cat and dog food, avoid the obstacles, cross the bridge and iron gate, and get both characters to the doghouse."
+      ]
+    ]
+  },
+  "monsterella-fantasy-makeup": {
+    "intro": "Monsterella Fantasy Makeup lets you give makeovers to three Monster High characters: Frankie Stein, Clawdeen Wolf, and Draculaura. Each one has its own look, from eerie and electric to earthy and goth-glam.",
+    "tips": [
+      "Work through the characters in the order they appear, starting with Frankie, so each look builds on a clear theme.",
+      "For Frankie, try bold eerie eyeshadows with neon lipstick and a hairstyle that stands out, since her look is all about electric energy.",
+      "For Clawdeen, lean into jewel-toned makeup and pair it with outfits that match her earthy, howl-worthy style.",
+      "For Draculaura, go dramatic with your makeup and choose goth-glam pieces that suit her vamp chic vibe. If you enjoy mixing styles like this, you can explore more [[dress-up-games|dress-up games to try]] once you finish."
+    ],
+    "faq": [
+      [
+        "Which characters can I makeover?",
+        "You can makeover Frankie Stein, Clawdeen Wolf, and Draculaura. The game covers each one in its own section."
+      ],
+      [
+        "How do I make choices in the game?",
+        "On desktop, use your mouse to select options. On mobile, tap the screen to make your choices."
+      ]
+    ]
+  },
+  "jigglesaw": {
+    "intro": "JiggleSaw is a cute jigsaw puzzle with bouncy pieces, pastel colors, and friendly characters. You drag pieces into place, and they snap together when released near matching edges.",
+    "tips": [
+      "Start by sorting out the edge pieces first, since they give you a frame to build the rest of the picture around.",
+      "Release a piece close to its matching edge so it snaps into place, and check that it lines up before you let go.",
+      "If you get stuck, try a hint for a single piece, then go back to the rest of the board with fresh eyes.",
+      "In Rotation Mode, check each piece's orientation before you try to place it, so you don't waste time turning pieces that are already correct. If you like this style, you can explore [[jigsaw-puzzles|more jigsaw puzzle games]] to keep practicing."
+    ],
+    "faq": [
+      [
+        "How do I move a piece?",
+        "Click and drag any puzzle piece to move it. Release it near a matching edge to snap it into place."
+      ],
+      [
+        "What is different about Rotation Mode?",
+        "In Rotation Mode you hold and twist your mouse to rotate each piece. You need to get both the position and the angle right before a piece will fit."
+      ]
+    ]
+  },
+  "happy-bucket-challenge": {
+    "intro": "Happy Bucket Challenge is a physics drawing puzzle where you draw lines to fill a sad, empty bucket with liquid. Each level can be solved in more than one way, so you can experiment with your own ideas.",
+    "tips": [
+      "Look at where the liquid will fall before you start drawing. Picture the path first so your line lands where the liquid needs to go.",
+      "Some levels look easy, but the three-star goal is harder. Try a simple solution first, then look for a cleaner or more creative one.",
+      "Press and hold the left mouse button to draw, and release when your line is in place. Short, deliberate lines are easier to control than long sweeping ones.",
+      "Think outside the box. If a direct route does not work, try a line that guides the liquid around an obstacle or uses the shape of the bucket. If you enjoy puzzles that reward careful planning, [[brain-games|more brain games]] are worth exploring."
+    ],
+    "faq": [
+      [
+        "How do I draw a line in Happy Bucket Challenge?",
+        "Click and hold the left mouse button, move the cursor to draw your line, and let go of the button when it is in the right place."
+      ],
+      [
+        "What is the goal of each level?",
+        "Your goal is to draw lines that make the liquid fill the glass so the bucket is happy again."
+      ]
+    ]
+  },
+  "math-box-balance": {
+    "intro": "Math Box Balance is a number puzzle where you swap number blocks between boxes until every box has the same sum. Boxes increase from 2 to 8 as you progress, and the game has no end.",
+    "tips": [
+      "Add up the sums shown in all the boxes first. Swapping blocks never changes the total, so each box needs to end up with that total divided by the number of boxes.",
+      "Look for the box that is furthest above or below the target and focus on swapping a block with a value close to the difference you need to fix.",
+      "Try small swaps before big ones. Moving one block at a time keeps the sums easy to track and helps you avoid getting stuck.",
+      "Keep your attention on the sums inside the boxes after each move, so you can see right away whether a swap brought the boxes closer to balance. If you enjoy number puzzles like this, you can also try [[sudoku-and-number-puzzles|more number puzzles to practice]]."
+    ],
+    "faq": [
+      [
+        "How do I win a round in Math Box Balance?",
+        "You win a round by swapping number blocks between boxes until the sum of every box is equal."
+      ],
+      [
+        "How many blocks are in each box?",
+        "Each box contains 4 number blocks, and its sum is shown inside the box."
+      ]
+    ]
+  },
+  "interactive-jigsaw-puzzle-game": {
+    "intro": "Interactive Jigsaw Puzzle Game is a browser puzzle where you complete pictures by moving pieces into place. It offers several puzzle sets in different sizes, with a timer and move counter to track your progress.",
+    "tips": [
+      "Start with a smaller puzzle to learn how the pieces fit before trying a larger one.",
+      "Sort out the edge pieces first, then build the frame of the picture before filling in the middle.",
+      "Keep an eye on the move counter and try to finish each puzzle with fewer moves than your last attempt.",
+      "Try a different puzzle set when you get stuck, since changing the picture can help you see new patterns. You can also browse more options in [[jigsaw-puzzles|more jigsaw puzzle games]]."
+    ],
+    "faq": [
+      [
+        "How do I move a puzzle piece?",
+        "Drag and drop a piece to its place in the puzzle. You can also click or tap a piece, as the game supports both."
+      ],
+      [
+        "Are there different difficulty levels?",
+        "The game includes puzzles of different sizes, so a smaller puzzle is a good starting point and larger ones take more time to complete."
+      ]
+    ]
   }
 }
