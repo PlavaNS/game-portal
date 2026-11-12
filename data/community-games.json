@@ -417,5 +417,30 @@
     "embed": "https://playgama.ai/play/kfwir5zlb6dgl7",
     "thumb": "https://ilovewebgames.com/assets/community/zombie-survival-blackout.jpg?v=1",
     "orientation": "landscape"
+  },
+  {
+    "slug": "chime-blast",
+    "title": "Chime Blast",
+    "studio": "Chime Blast team",
+    "studioUrl": "https://chimeblast.com/",
+    "added": "2026-11-12",
+    "short": "A musical match-3 adventure: swap pieces, build Bass Drums and Prisms and wake up ten islands across 100 hand-made levels.",
+    "description": "Chime Blast is a match-3 puzzle game with a musical twist. You travel across ten islands of the Melody Isles with Daming the donkey and his friends, and each of the 100 hand-made levels gives you a goal and a limited number of moves. Matching four or five pieces creates musical tools such as Wave Capsules, Prisms and Bass Drums, and swapping two of them together sets off a bigger blast. Along the way you unlock boosters like the Mallet and Tuning Fork, collect medals and fill in the island map. The game runs in the browser on desktop and mobile with no download and no account.",
+    "instructions": "Swap two neighbouring pieces to line up three or more of the same kind. Match four or five to create musical tools, then swap them or combine two tools for a bigger blast. Reach the level goal before you run out of moves. Use boosters from the Tools panel when you get stuck.",
+    "category": "puzzle",
+    "extraCats": [
+      "hypercasual"
+    ],
+    "tags": [
+      "Match 3",
+      "Puzzle",
+      "Music",
+      "Levels",
+      "Casual",
+      "Relaxing"
+    ],
+    "embed": "https://game.chimeblast.com/",
+    "thumb": "https://ilovewebgames.com/assets/community/chime-blast.jpg?v=1",
+    "orientation": "landscape"
   }
 ]
