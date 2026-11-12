@@ -442,5 +442,80 @@
     "embed": "https://game.chimeblast.com/",
     "thumb": "https://ilovewebgames.com/assets/community/chime-blast.jpg?v=1",
     "orientation": "landscape"
+  },
+  {
+    "slug": "meowdoku",
+    "title": "Meowdoku",
+    "studio": "Jason Wu",
+    "studioUrl": "https://meowdoku.page/",
+    "added": "2026-11-12",
+    "short": "A cat logic puzzle: place one cat in every row, column and color, and never let two cats touch. 300 levels plus a daily puzzle.",
+    "description": "Meowdoku is a logic puzzle played on a grid of colored regions. Your job is to place exactly one cat in every row, every column and every color, with one extra rule: cats may never touch, not even diagonally. There are 300 levels spread over Easy, Hard and Expert, so the grids grow from 7x7 and the deductions get tougher. A new daily puzzle appears every day, and you can use free hints or the built-in solver when you are stuck. It runs in the browser with no download and no account.",
+    "instructions": "Tap a square to place a cat. Put one cat in every row, every column and every color region, and keep cats from touching, even diagonally. Pick Easy, Hard or Expert at the top, or try the daily puzzle. Use a hint if you get stuck.",
+    "category": "puzzle",
+    "extraCats": [
+      "hypercasual"
+    ],
+    "tags": [
+      "Logic",
+      "Puzzle",
+      "Cats",
+      "Brain",
+      "Daily puzzle",
+      "Relaxing"
+    ],
+    "embed": "https://meowdoku.page/",
+    "thumb": "https://ilovewebgames.com/assets/community/meowdoku.jpg?v=1",
+    "orientation": "portrait"
+  },
+  {
+    "slug": "vibestead",
+    "title": "Vibestead",
+    "studio": "Sinan Wong",
+    "studioUrl": "https://vibestead.org/",
+    "added": "2026-11-12",
+    "short": "A cozy pixel-art village builder: run a sawmill and factory, fill customer orders and grow your woodland village.",
+    "description": "Vibestead is a relaxed village-building and management game with detailed pixel art. You start with a small timber operation: hire loggers, keep the sawmill and construction workshop running, send products to customers and use the profits to unlock new buildings such as a brick kiln, a paint workshop and a village inn. Managers, orders and chapter goals give you steady things to aim for, and your team keeps working while you are away. A coding-rewards feature for developers is optional, and the village game works fully without it.",
+    "instructions": "Follow the quest panel on the left. Hire loggers, open the Sawmill and Construction workshop from the bottom bar, fill orders, and spend your cash on new buildings. Use the Machines, Orders, Managers and Woodland tabs to grow your village. Your crew keeps producing while you are away.",
+    "category": "clicker-idle",
+    "extraCats": [
+      "hypercasual"
+    ],
+    "tags": [
+      "Idle",
+      "Tycoon",
+      "City builder",
+      "Pixel art",
+      "Management",
+      "Relaxing"
+    ],
+    "embed": "https://vibestead.org/",
+    "thumb": "https://ilovewebgames.com/assets/community/vibestead.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "history-gacha",
+    "title": "History Gacha",
+    "studio": "Sinan Wong",
+    "studioUrl": "https://historybydate.com/",
+    "added": "2026-11-12",
+    "short": "Open card packs of real historical events, build a collection and team, and send them into battles and expeditions.",
+    "description": "History Gacha turns real historical events into collectible cards. Each pack holds five cards drawn from a library of more than 77,000 events with sources from Wikipedia, and rarity is set by a fixed metric, so a famous disaster or discovery can show up as a top-tier card. Collect cards, put a team together, take part in battles, send them on a long expedition, finish quests and earn trophies. A daily check-in gives you extra packs. It runs in the browser, with no download.",
+    "instructions": "Press Open 1 pack to draw cards, or switch to 5X for several packs. Check your Collection, build a team for Battle, and send cards on an Expedition. Use the daily Check-in and the Quests tab for extra packs.",
+    "category": "hypercasual",
+    "extraCats": [
+      "clicker-idle"
+    ],
+    "tags": [
+      "Gacha",
+      "Cards",
+      "Collection",
+      "History",
+      "Strategy",
+      "Casual"
+    ],
+    "embed": "https://historybydate.com/gacha",
+    "thumb": "https://ilovewebgames.com/assets/community/history-gacha.jpg?v=1",
+    "orientation": "landscape"
   }
 ]
