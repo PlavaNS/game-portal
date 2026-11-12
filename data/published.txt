@@ -613,6 +613,7 @@ bank-robbery-puzzle
 bank-robbery-puzzle-shooter
 bank-robbery-sneak-master
 bank-tycoon-simulator-money-empire
+bao-bazaar-asmr
 baolings-mystery-dumpling-unbox
 barber-shop-hair-salon-sim
 baroho
@@ -1070,6 +1071,7 @@ break-and-steal-eggs
 break-stick-completely
 break-the-candy
 break-the-car-completely
+break-the-egg-and-run-away
 break-the-wall-prison-escape
 breakblock
 breakfast-cooking-game
@@ -1752,6 +1754,7 @@ clownfish-pin-out
 club-guard
 clucknrun
 clue-hunter
+clutchcraft-drive-car-driving
 clutter-master
 cobraz-io
 cockroach-tower-defense
@@ -2248,6 +2251,7 @@ deadly-hunters-run
 deadly-zombie-virus
 deadpack
 deadshift-halloween-night
+deadzone-extraction
 death-run
 death-sentence
 death-worm-2
@@ -2295,6 +2299,7 @@ dental-care-game
 dentist-doctor-game
 dentist-doctor-teeth-surgery-hospital
 deorbit-space-survivors
+depth
 derby-car-smash-challenge
 derby-car-war-arena
 derby-racing
@@ -2391,6 +2396,7 @@ diy-joystick-game
 diy-paper-doll-diary
 diy-phone-case-maker
 diy-slime-art
+diy-sticker-dream-house
 diy-ugly-christmas-sweater
 dna-evolution-3d
 do-not-enter-this-game-at-night
@@ -2813,6 +2819,7 @@ escape-waves-for-lucky-blocks
 escape-wednesday
 escape-your-birthday-horror-escape
 escaping-arrows
+escaping-blockov
 esther-the-penguin-return-to-antartica
 eternal-dance
 euro-2020-2021
@@ -3027,6 +3034,7 @@ fire-balls-shoot-3d
 fire-boy-run-adventure
 fire-girl-and-water-boy-candy-forest
 fire-hose
+fire-rescue
 fire-ring
 fire-truck-driving-simulator
 fire-truck-driving-simulator-2024
@@ -3045,6 +3053,7 @@ fish-and-trip
 fish-aquarium-game
 fish-divider
 fish-eat-grow-mega
+fish-eggs-for-animals
 fish-evolution-3d
 fish-factory
 fish-hunting
@@ -3171,6 +3180,7 @@ food-sort-3d
 food-tower-defense
 food-truck-chef-cooking
 foodhead-fighters
+foodie-mania
 foodies-2048
 foot-bomb
 foot-chinko
@@ -3307,6 +3317,7 @@ fruit-names
 fruit-pop-fiesta
 fruit-pop-it
 fruit-samurai
+fruit-shelf-sort
 fruit-shotter
 fruit-slasher
 fruit-slicer
@@ -3801,6 +3812,7 @@ harvest-ring
 harvest-rush
 harvest-rush-tractor-farm
 harvester-cut-grass
+harvestoria-tractor-farming
 hatch-or-steal-online
 hatch-surprise-pets
 hatch-that-egg-tap-and-crack
@@ -4397,6 +4409,7 @@ kick-the-zombie-ragdoll-sandbox
 kickoff-academy-football-tycoon
 kid-cakes-maker-cooking-bakery
 kids-amusement-park
+kids-cooking-shop
 kids-flurry-educational-puzzle-game
 kids-good-habits
 kids-kitchen-cozy-cooking
@@ -5718,6 +5731,7 @@ obby-run-star-speed-and-pets
 obby-sail-for-egg
 obby-save-the-brainrots-online
 obby-saves-brainrots-from-tsunami
+obby-skateboard-race
 obby-snow-shoveling
 obby-space-challenge-starships
 obby-steal-an-egg-the-great-escape
@@ -5843,6 +5857,7 @@ orbital
 orbitdefense
 orc-breach
 orc-hero
+order-of-masks
 order-of-operation-challenge
 organizer-master
 origin
@@ -6617,6 +6632,7 @@ rgb-shooter
 rich-mom-family-simulator-luxury-life
 ricochet-arena
 ricochet-paint-aim
+ricochet-rage
 ricopop
 ricoshield
 riddlemath
@@ -7025,6 +7041,7 @@ sheepdoku
 sheeps-herd-them-all
 shell-strikers-1
 shell-swap-pro
+shiba-crossing
 shifted-realms
 shikaku-puzzle
 shinobi-swarm
@@ -7080,6 +7097,7 @@ sink-hole
 sink-or-float
 sins-and-desires
 sir-shiba-monster-island
+siren-city-ambulance-game
 siren-head-3-game
 siren-head-nightmare-scary-survival
 siren-head-scp-6789-the-hunt-continues
@@ -8260,6 +8278,7 @@ throttle-rivals
 throw-an-egg
 throw-best
 throw-fast
+throw-foods-for-pets
 throw-sword
 thung-thung-sahur-night-escape
 thung-thung-sahur-playgrounds-escape
@@ -8620,6 +8639,7 @@ unbolck-me
 unboxing-brainrots
 uncle-hit-punch-the-dummy
 uncle-wang-s-happy-life
+undead-and-unemployed
 undead-appetite
 undead-shooter
 undead-walking-3d
@@ -8679,6 +8699,7 @@ val-d-agri-race
 valentine-nail-salon
 valentines-day-couple
 valentines-mahjong-deluxe
+valetpro-parking-rush
 valley-rushing-classic
 vampire-survival
 vampires-edge
