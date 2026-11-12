@@ -1,3 +1,4 @@
+1-black-slime-evolution
 1-damage-evolution
 1-grass-cutting-become-stronger
 1-guns-vs-zombies
@@ -1855,6 +1856,7 @@ coloring-book-color-by-number
 coloring-book-for-kids-game
 coloring-by-numbers-pixel-room
 coloring-games-color-paint
+coloring-world-2026-animals-and-nature
 colorpicker
 colors-and-forms
 colors-matching
@@ -3832,6 +3834,7 @@ heart-calcopus
 heaven-and-hell-idle
 hedgehog-go-home
 hedgies
+heist-crew-crime-robbery-and-escape
 heist-escape-city-lockdown
 heist-idle
 helicopter-rescue-games-3d
@@ -4518,6 +4521,7 @@ lantern-wayfarner
 lanternbloom
 lanternborne
 lanternward
+lap-money-merge-cars
 larkmoor-merge-garden-mystery
 laser-dodge-arena
 laser-nodes
@@ -4690,6 +4694,7 @@ ludo-king-offline-ludo-game
 ludo-world
 luggage-collect-game
 lumbering-at-sea
+lumberjack-simulator
 lumberjack-simulator-3d
 lumen-descent
 lumina-robot
@@ -4835,6 +4840,7 @@ master-car-destruction
 master-checkers
 master-checkers-multiplayer
 master-craft
+master-food-throw-for-animals
 master-hole-battle
 master-jigsaw-puzzle-game
 master-of-3-tiles
@@ -4960,6 +4966,7 @@ meow-pair-pop
 meow-squad-zombie-defense
 meow-sudoku
 mercenary-keep-siege-defense
+merch-rush
 merge-13
 merge-2048
 merge-a-mansion
@@ -6517,6 +6524,7 @@ real-mountain-climber-game
 real-mtb-downhill-3d
 real-parking-game
 real-savior-kids
+real-survival-not-fake
 real-truck-fire-drive-sim
 real-world-cricket-game
 realistic-car-crash-king
