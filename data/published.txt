@@ -2122,6 +2122,7 @@ cube-island-3d
 cube-match-logic
 cube-merge-game
 cube-play
+cube-playground-ragdoll-sandbox-3d
 cube-quiz
 cube-rivals
 cube-rush-3d-survive-the-rush
@@ -8018,6 +8019,7 @@ sword-smash
 sworded-io-spin-and-rub
 swordsman-adventure
 syntagma
+synthline-rush
 t-rex-n-y-online
 tabla-drum-kit-music
 tac-tac-way
