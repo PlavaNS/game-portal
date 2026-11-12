@@ -444,8 +444,12 @@ function layout({ title, desc, canonical, body, jsonld = [], ogImage, noindex = 
 ${alt}
 <meta name="robots" content="${noindex ? 'noindex,follow' : 'index,follow,max-image-preview:large,max-snippet:-1'}">
 ${preload ? `<link rel="preload" as="image" href="${esc(preload)}" fetchpriority="high">` : ''}
-${cfg.ga4 ? `<script async src="https://www.googletagmanager.com/gtag/js?id=${esc(cfg.ga4)}"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{var c=JSON.parse(localStorage.getItem('consent')||'null');if(c&&c.v==='all')gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'})}catch(e){}gtag('js',new Date());gtag('config','${esc(cfg.ga4)}');</script>` : ''}
+${cfg.ga4 ? `<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('consent','default',{ad_storage:'denied',ad_user_data:'denied',ad_personalization:'denied',analytics_storage:'denied',region:['AT','BE','BG','HR','CY','CZ','DK','EE','FI','FR','DE','GR','HU','IE','IT','LV','LT','LU','MT','NL','PL','PT','RO','SK','SI','ES','SE','IS','LI','NO','GB','CH']});try{var c=JSON.parse(localStorage.getItem('consent')||'null');if(c&&c.v==='all')gtag('consent','update',{ad_storage:'granted',ad_user_data:'granted',ad_personalization:'granted',analytics_storage:'granted'})}catch(e){}gtag('js',new Date());gtag('config','${esc(cfg.ga4)}');</script>
+<script>(function(){var d=document,w=window,done=0;function go(){if(done)return;done=1;var s=d.createElement('script');s.async=1;s.src='https://www.googletagmanager.com/gtag/js?id=${esc(cfg.ga4)}';d.head.appendChild(s)}
+['pointerdown','keydown','touchstart','wheel','scroll'].forEach(function(e){w.addEventListener(e,go,{once:true,passive:true})});
+w.addEventListener('pagehide',go,{once:true});
+function after(){('requestIdleCallback'in w)?w.requestIdleCallback(go,{timeout:1500}):setTimeout(go,600)}
+if(d.readyState==='complete')after();else w.addEventListener('load',function(){setTimeout(after,600)},{once:true});})();</script>` : ''}
 ${cfg.ahrefsAnalytics ? `<script src="https://analytics.ahrefs.com/analytics.js" data-key="${esc(cfg.ahrefsAnalytics)}" async></script>` : ''}
 ${cfg.adsenseClient ? `<meta name="google-adsense-account" content="${esc(cfg.adsenseClient)}">\n<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=${esc(cfg.adsenseClient)}" crossorigin="anonymous"></script>` : ''}
 <meta name="application-name" content="${esc(cfg.name)}">
@@ -474,7 +478,7 @@ ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replac
 <body class="${bodyClass}">
 <a class="skip" href="#main">${esc(tr('Skip to content'))}</a>
 <header class="top">
-  <div class="top-l"><a class="logo" href="${u('/')}">${ICON_SVG}<span>${esc(cfg.name)}</span></a></div>
+  <div class="top-l"><a class="logo" href="${u('/')}" aria-label="${esc(cfg.name)}">${ICON_SVG}<span>${esc(cfg.name)}</span></a></div>
   <form class="search" action="${u('/search/')}" role="search">
     <input type="search" name="q" placeholder="&#128269; ${esc(tr('Search games'))}" aria-label="${esc(tr('Search games'))}" autocomplete="off">
   </form>
@@ -880,7 +884,7 @@ function emitContent() {
       </dl>
       ${g.own ? (() => { const code = `<iframe src="${abs(`/embed/${g.slug}/`)}" width="960" height="600" style="width:100%;max-width:960px;aspect-ratio:${portrait ? '9/16' : '16/10'};height:auto;border:0;border-radius:12px" allow="fullscreen; autoplay; gamepad" allowfullscreen loading="lazy" title="${esc(g.title)}"></iframe>\n<p><a href="${pageUrl}">Play ${esc(g.title)}</a> and more free games at <a href="${abs('/')}">I Love Web Games</a></p>`;
         return `<h2>${esc(tr('Embed this game'))}</h2><p>${esc(tr('Put this game on your own website or blog for free. Copy the code below and paste it into your page.'))}</p>
-      <textarea class="embed-code" readonly rows="4" onclick="this.select()">${esc(code)}</textarea>
+      <textarea class="embed-code" aria-label="${esc(tr('Embed code'))}" readonly rows="4" onclick="this.select()">${esc(code)}</textarea>
       <button class="btn ghost embed-copy" type="button" onclick="var t=this.previousElementSibling;t.select();navigator.clipboard&&navigator.clipboard.writeText(t.value);this.textContent='✓ ${esc(tr('Copied'))}'">📋 ${esc(tr('Copy code'))}</button>`; })() : ''}
       <h2>${esc(tr('FAQ'))}</h2>${GD ? (GD.faq || []).map(([q, a]) => `<h3>${esc(unmark(q))}</h3><p>${esc(unmark(a))}</p>`).join('') : ''}
       <h3>${esc(tr('Is this game free to play?'))}</h3><p>${esc(tr('Yes. It is completely free here. The game is supported by short ads.'))}</p>
