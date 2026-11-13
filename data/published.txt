@@ -2152,6 +2152,7 @@ cuddle-crane
 cuesoccer
 cup-quest
 cuphead-rush
+curb-rush
 curve-free-kick
 curve-master-football
 curvy-punch-2
@@ -3262,6 +3263,7 @@ frenzy-demine
 fresh-drop-triple-match
 friday-night-funkin-pixelcrate
 friday-night-funkin-vs-garcello
+fridge-perfect-sorting
 friends-pug
 fristailo-granny
 frog-adventure
@@ -4029,6 +4031,7 @@ hook-master-mafia-city
 hook-pin-jam
 hook-wars
 hooked
+hooked-idle
 hooked-panya-fishing
 hoop-kings
 hoop-master-basketball-trivia-challenge
@@ -9045,6 +9048,7 @@ xtreme-good-and-bad-boys-2-2025
 xtreme-motorbikes-rider
 xtreme-offroad-jeep-2019
 yaoguard
+yarn-factory
 yarn-fever-unravel-puzzle
 yarn-to-art-arrow-puzzle
 yarn-untangled
