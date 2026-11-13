@@ -181458,5 +181458,478 @@
         "The left joystick moves your character and the right joystick shoots. Tap a weapon slot to select that weapon."
       ]
     ]
+  },
+  "melon-craft-ragdoll": {
+    "intro": "Melon Craft Ragdoll is a pixel-style sandbox where you build scenes on a grid, place ragdoll characters and objects, and watch physics take over. Tap and drag to start experimenting.",
+    "tips": [
+      "Build your grid layout first, then add characters, so the blocks give your ragdolls something solid to interact with.",
+      "Change one thing at a time in your setup. Adjusting a single block or character makes it easier to see how it affects the physics.",
+      "Place characters at different heights and distances from each other to create more varied reactions when you start the experiment.",
+      "If you enjoy structure-focused scenes, try the [[building-games|block building games collection]] for more grid-based creation ideas.",
+      "Watch the first run closely, then rearrange objects and run it again to compare how the ragdolls respond to each setup."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Melon Craft Ragdoll?",
+        "There is no fixed goal. You build a scene, place ragdolls and objects, and start the experiment to see how everything reacts through physics."
+      ],
+      [
+        "How do I control the pieces in the game?",
+        "Tap and drag to place and arrange blocks, characters, and objects on the grid."
+      ]
+    ]
+  },
+  "goal-arena-game": {
+    "intro": "Goal Arena Game is a football shooting game where you kick the ball toward the goal and try to score as many times as you can. You play with mouse clicks or taps, and you can face different targets and obstacles.",
+    "tips": [
+      "Take a moment to line up each shot before you click or tap, since accuracy matters as much as speed.",
+      "Watch the goalkeeper's position before you kick, and aim for the side of the goal that gives you the best chance to get past.",
+      "Pay attention to timing, because the game is built around it, so practice a few shots to get a feel for when to release.",
+      "Work through the different targets and obstacles one at a time instead of rushing, so you can learn how each one affects your shot.",
+      "If you enjoy practicing your aim, you can explore more [[soccer-games|soccer games]] to keep sharpening your timing."
+    ],
+    "faq": [
+      [
+        "How do I control my shots?",
+        "You play with mouse clicks or taps. Take a moment to line up each kick before you commit to it."
+      ],
+      [
+        "What should I focus on to score more goals?",
+        "The game rewards good timing and accuracy, so focus on getting those right before trying to score as many goals as possible."
+      ]
+    ]
+  },
+  "prado-parking-master-3d": {
+    "intro": "Prado Parking Master 3D puts you behind the wheel of a luxury Prado SUV. Steer through five parking courses with narrow spaces and obstacles, aiming to park the vehicle perfectly.",
+    "tips": [
+      "Ease off the accelerator before tight gaps so you can stop the SUV with control instead of braking hard at the last moment.",
+      "Use the reverse function slowly and make small steering adjustments, since backing into a narrow space is where most mistakes happen.",
+      "Check all sides of the SUV before each move to keep clear of obstacles, and pause to reposition rather than forcing the car into a space.",
+      "Treat each level as practice: once you understand how the SUV turns, repeat the harder courses to sharpen your precision. If you enjoy this kind of challenge, you can find [[car-parking-games|more car parking challenges]] to keep building those skills."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "You need to drive the Prado SUV through the parking course, avoid obstacles, and park it perfectly in the space."
+      ],
+      [
+        "Which keys control the car?",
+        "W or the Up Arrow accelerates, S or the Down Arrow brakes and reverses, and A or D (Left and Right Arrows) steer left and right."
+      ]
+    ]
+  },
+  "car-wash-business-simulator": {
+    "intro": "Car Wash Business Simulator puts you in charge of a car wash you build from the ground up. You clean dirty cars with washing tools, earn tips, and grow the business over time.",
+    "tips": [
+      "Switch between tools with keys 1 to 6 instead of cycling through them, so you can move from foam to rinse to detailing without losing time.",
+      "Open your business tablet with Tab before spending money, so you can check what you can afford and which upgrade will help most.",
+      "Put early earnings into equipment upgrades first, since faster cleaning lets you serve more cars and earn more tips.",
+      "Wait until your income feels steady before you expand your wash bays or hire staff, so new costs don't leave you short.",
+      "If you want more games with the same business-building focus, try [[idle-and-tycoon-games|tycoon and management games]] next."
+    ],
+    "faq": [
+      [
+        "How do I clean a car?",
+        "Aim at the dirty car with the mouse and hold the left mouse button to use the tool you have selected. Use keys 1 to 6 to change tools as the car needs different cleaning."
+      ],
+      [
+        "How do I open my business tablet?",
+        "Press Tab to open the business tablet, and press Tab again to close it. Use it to review your business and decide what to upgrade or expand next."
+      ]
+    ]
+  },
+  "chime-blast": {
+    "intro": "Chime Blast is a match-3 puzzle game with a music theme. You swap pieces to make matches, meet each level's goal within a limited number of moves, and travel the Melody Isles with Daming the donkey.",
+    "tips": [
+      "Look for moves that make four or five pieces in a row, since those create musical tools that clear more of the board than a basic three-match.",
+      "Before each swap, check whether your move could also set up a tool for a later turn, because a well-placed tool often matters more than one extra match.",
+      "Plan around the move limit by counting how many moves you have left and whether the level goal is close, so you do not waste turns on small matches.",
+      "Save boosters from the Tools panel for levels where you get stuck, rather than using them at the start when the board is still open.",
+      "If you enjoy swap-and-match puzzles, you can browse [[match-3-games|more match-three titles]] to find similar games."
+    ],
+    "faq": [
+      [
+        "How do I win a level in Chime Blast?",
+        "You need to reach the goal shown for each level before you run out of moves. Each of the 100 levels has its own goal and move limit."
+      ],
+      [
+        "What do the musical tools do?",
+        "Matching four or five pieces creates tools such as Wave Capsules, Prisms and Bass Drums. Swapping a tool with a neighbour, or combining two tools, sets off a bigger blast."
+      ]
+    ]
+  },
+  "cute-aquarium-triple-match": {
+    "intro": "Cute Aquarium: Triple Match is a relaxed match-3 puzzle set in an underwater world. You collect marine creatures, fill customer orders, and work through levels that grow more challenging.",
+    "tips": [
+      "Before each move, check the customer orders or stage goal so you know which pieces matter most.",
+      "Aim for matches that clear the items you still need, not just any match, so each move moves you closer to finishing the stage.",
+      "Since later levels get harder, use the easier early stages to get comfortable with how the tiles respond to your drags.",
+      "Take a moment to look over the whole board before you start, since the game is built for a calm pace and rushing tends to cause missed matches. If you enjoy this style, you can find more options on the [[match-3-games|browse more match puzzles]] page."
+    ],
+    "faq": [
+      [
+        "How do I control the pieces?",
+        "The game is played by tapping and dragging, as shown in the instructions. Drag your piece to line up matches of three or more."
+      ],
+      [
+        "What am I trying to achieve in each stage?",
+        "Each stage gives you new marine animals to discover and specific goals to complete, such as customer orders. Finishing those goals is how you move on."
+      ]
+    ]
+  },
+  "cozy-games-dreamy-room": {
+    "intro": "Cozy Games Dreamy Room is a relaxing decorating game where you tidy messy spaces and place furniture and decorations to turn each location into a cozy room. Every level has its own setting and decorating challenge.",
+    "tips": [
+      "Look over the whole room before you start dragging items, so you can plan where the larger furniture will go first.",
+      "Clear out or organize the clutter in a space before adding new decorations, since the game focuses on organization.",
+      "Take your time with each location. There is no countdown, so you can compare how different pieces look together.",
+      "Pay attention to how each themed location is set up, because each level brings its own decorating challenge. If you want more slow-paced titles, you can browse [[relaxing-games|calm and easygoing games]] on the site."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "The goal is to organize a messy room, then place furniture and decorations so the space feels like a cozy dream room. Each level has its own setting and challenge."
+      ],
+      [
+        "How do I move things around in the room?",
+        "Drag items to place them. Click and hold to move a piece, then drop it where you want it in the room."
+      ]
+    ]
+  },
+  "soul-hunter": {
+    "intro": "Soul Hunter puts you in control of a ghost that chases humans, captures their souls, and completes missions across challenging levels. Your aim is to collect enough souls to unlock new abilities.",
+    "tips": [
+      "Look at the obstacles before you move through a level, so you can plan a safe route to the next human.",
+      "Collect souls steadily instead of rushing ahead, since each one brings you closer to unlocking new abilities.",
+      "Finish the current mission before moving on, so you do not miss the progress needed for later levels.",
+      "If a level feels hard, go back and try it again with a clearer plan, because repeating a route is often how you learn where the dangers are. You can also explore [[io-games|more fast-paced .io games]] for similar hunting action."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Soul Hunter?",
+        "Your goal is to complete missions, chase humans, and capture their souls to become the ultimate Soul Hunter."
+      ],
+      [
+        "How do I unlock new abilities?",
+        "You unlock new abilities by collecting souls as you play through the levels."
+      ]
+    ]
+  },
+  "siren-city-ambulance-game": {
+    "intro": "Siren City is a 3D driving game where you race an ambulance through a busy city to reach emergency calls. Load your patient safely, then get them to the hospital without damaging their stability.",
+    "tips": [
+      "Switch on the siren before you enter heavy traffic so other drivers have time to move out of your way.",
+      "Save Nitro boost for open stretches of road, and keep speed under control on corners so you do not lose stability on the way back.",
+      "Plan your route to the accident scene before you go, since arriving early is what earns bonus time for the hospital run.",
+      "Brake gently and early instead of at the last second, because hard braking is one of the fastest ways to drain the stability meter. If you enjoy the hospital side of this work, you can explore more [[doctor-and-hospital-games|doctor and hospital games]] too."
+    ],
+    "faq": [
+      [
+        "How do I earn extra time for the hospital run?",
+        "Arrive at the accident scene early to earn bonus time from the Golden Minute timer. Every second you save at the scene helps you on the trip to the hospital."
+      ],
+      [
+        "What lowers the patient's stability?",
+        "Hard braking and crashes lower the patient's Stability meter. Keep your driving smooth to protect the patient during the ride."
+      ]
+    ]
+  },
+  "plane-launch-fly-and-upgrade": {
+    "intro": "Pull back the slingshot, time your launch, and send your paper glider across canyons and worlds. Each flight earns coins to upgrade your plane into a roaring jet.",
+    "tips": [
+      "Watch the needle on the launch meter and click when it reaches the green zone, since timing sets how your flight starts.",
+      "Use the coins from each run to upgrade the part that is holding back your distance most, whether that is the slingshot, wings, engine, fuel tank, or income.",
+      "Steer with either the mouse drag or the WASD or arrow keys, and keep small, steady corrections so you can thread the rock gates without clipping them.",
+      "Grab coin trails and chain combos during a flight, since both help you earn more coins for upgrades. If you want more flight games like this, check out [[airplane-games|more plane flying games]].",
+      "Replay earlier tracks once you have better upgrades to go for the full 3 stars on each one, because the stars also help you progress to the next world."
+    ],
+    "faq": [
+      [
+        "How do I launch my plane?",
+        "Click to roll out the slingshot, then click again to launch when the needle is in the green zone."
+      ],
+      [
+        "How do I steer while flying?",
+        "Hold the left mouse button and drag to steer, or use the WASD or arrow keys."
+      ]
+    ]
+  },
+  "kids-cooking-shop": {
+    "intro": "Kids Cooking Shop is a cheerful cooking and management game where you run a street food stand for hungry animal customers. You make food, serve guests, and grow your little food business over time.",
+    "tips": [
+      "Focus on getting orders out quickly, since hungry animal customers are the core of the stand's business. Keeping the line moving will help your stand grow.",
+      "Spend your earnings on upgrades early, because better equipment makes cooking and serving faster for the rest of the run.",
+      "Try the mini challenges when you have a spare moment. They are a good way to test your timing before a busy rush.",
+      "Decorating the stand is more than a visual extra, so check the decoration options after you make some progress. A pleasant shop can keep your setup feeling like your own.",
+      "If you enjoy preparing dishes, the [[cooking-games|Cooking and restaurant games]] collection has more titles with similar kitchen work to try next."
+    ],
+    "faq": [
+      [
+        "How do I play Kids Cooking Shop?",
+        "Drag to play, moving items and food around to cook, serve customers, and run your stand. Each step is designed to be easy to learn."
+      ],
+      [
+        "What should I do when several customers arrive at once?",
+        "Prioritize the customers you can serve fastest so the line keeps moving. Keeping the stand organized helps you avoid mistakes during busy moments."
+      ]
+    ]
+  },
+  "fruit-shelf-sort": {
+    "intro": "Fruit Shelf Sort is a puzzle where you drag fruit between wooden shelves and gather three identical fruits to squeeze them into juice. You have a timer on each of its 40 levels, and you can earn up to three stars on every one.",
+    "tips": [
+      "Focus on clearing the front row first, since fruit hidden behind it can only be reached once the front is empty.",
+      "Chain several matches in a row to earn combo time bonuses, which give you more room before the timer runs out.",
+      "Save the Match, Shuffle, and +30 seconds boosters for moments when you are stuck, rather than using them early.",
+      "Pause with Esc or P when a level gets crowded, so you can plan your next few moves without the clock pushing you.",
+      "If you enjoy lining up three of a kind, you might also like [[match-3-games|more three-in-a-row puzzles]] to practice the same skill."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "You need to empty every shelf before the timer runs out by putting three identical fruits on the same shelf to clear them. Earning three stars depends on how well you play the level."
+      ],
+      [
+        "How do I move the fruit?",
+        "You can drag a fruit to another shelf with the mouse, or click a fruit and then click the shelf you want it to go to."
+      ]
+    ]
+  },
+  "ricochet-rage": {
+    "intro": "Ricochet Rage is a physics action game where you launch a stickman, bounce him off walls, and smash enemies in one shot. Chain ricochets together to build combos and push through waves of enemies.",
+    "tips": [
+      "Before each launch, look at the walls and angles first, since every shot is a bounce and a clean path can clear several enemies at once.",
+      "Use the upgrade you pick after each wave to support how you already shoot, rather than switching styles every round.",
+      "Save Rage mode for a moment when enemies are grouped together, so its power hits more targets during a long combo.",
+      "Practise your aim in Endless mode, where you can focus on drag distance and release timing without the pressure of a level goal. For more games built on real motion and collisions, try [[physics-games|games built on real physics]].",
+      "Use the power-up buttons or keys 1, 2 and 3 early in a wave, before enemies spread out, so they have the most impact."
+    ],
+    "faq": [
+      [
+        "How do I aim and launch my stickman?",
+        "Touch or click and drag back from the hero to aim, then release to launch. Your launch is the start of every bounce, so small changes in the drag can change where he ends up."
+      ],
+      [
+        "What should I do after a game over?",
+        "Press Space to retry. Use the pause button or the P or Esc keys if you need a break before continuing."
+      ]
+    ]
+  },
+  "night-lake-monster-fishing": {
+    "intro": "Night Lake is a calm, eerie fishing game played from a rowboat under a lantern. You cast, wait for the float to sink, then fight each fish while keeping the line under control.",
+    "tips": [
+      "Watch the water for signs like a swirl, jumping fry or diving birds, and cast near them rather than at random.",
+      "Strike only when the float really goes under, not when it just bobs, so you do not waste the bite.",
+      "During a fight, tap A or D to lean the rod away from the fish whenever the tension starts climbing toward the red.",
+      "Monsters need their own bait and stronger gear, so bring the right setup before you row to a lake where one might be hiding.",
+      "Sell your catch at the dock with E and spend the money on better baits and tackle, since your gear is what lets you handle bigger fish. You can also explore [[fishing-games|other fishing games to try]] if you enjoy the style."
+    ],
+    "faq": [
+      [
+        "How do I keep a fish from breaking my line?",
+        "Watch the tension meter and ease off or lean the rod away from the fish with A and D when the line gets close to red."
+      ],
+      [
+        "What is the difference between float fishing and spinning lures?",
+        "Float fishing waits for the float to go under before you strike, while spinning uses a lure you move through the water to attract fish."
+      ]
+    ]
+  },
+  "bao-bazaar-asmr": {
+    "intro": "Bao Bazaar ASMR is a cozy game about opening packs, squishing cute bao buns, and trading them with bot traders. Your buns and coins are virtual, and progress saves automatically.",
+    "tips": [
+      "Open packs whenever you have a spare moment, since your level rises with every pack you open and there is no level cap.",
+      "When trading, watch the Good Trade / Bad Trade meter after each offer, and accept or deny before the timer runs out.",
+      "In Market Mode, check the price chart over the day and buy buns when their price is low, then sell when it rises.",
+      "Claim your daily rewards and check quests regularly, then use them to fill your themed collection rooms.",
+      "If you want more soothing games like this one, try [[relaxing-games|calm games to unwind with]] for a similar pace."
+    ],
+    "faq": [
+      [
+        "How do I get new buns?",
+        "Pick a pack from the shelf, drag across it to tear it open, then click the steamer to lift the lid and reveal a bun of R, SR, SSR or UR rarity."
+      ],
+      [
+        "How does a trade decide who wins?",
+        "In a 1-on-1 turn-based deal you offer buns or cash, ask for more, and then accept or deny. The Good Trade / Bad Trade meter shows who is winning before the timer runs out."
+      ]
+    ]
+  },
+  "master-food-throw-for-animals": {
+    "intro": "Master Food Throw for Animals is a canyon throwing game where you hurl food across 28 biome zones and catch the animals that come to eat it. Build your throw power, fill your pen, and grow your income.",
+    "tips": [
+      "Do pull-ups on your bar early, since they raise your throw power and the food needs to land far to attract rarer animals.",
+      "Time your throw by tapping or clicking when the slider reaches the top of the power meter for a PERFECT throw.",
+      "Fill your pen as soon as you can, because placed animals earn money every second and that income pays for upgrades.",
+      "Spend your first earnings on better bars or foods before buying plot slots, so each throw reaches farther and catches more valuable animals.",
+      "Check the Animal Index now and then to see which animals you still need, and aim your throws toward those zones. If you enjoy this kind of collecting, you can find more [[animal-games|other animal-themed games]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I get a PERFECT throw?",
+        "Tap or click when the slider is at the top of the power meter. Hitting it at the right moment gives a PERFECT throw."
+      ],
+      [
+        "What decides how rare an animal is?",
+        "The farther the food lands across the canyon zones, the rarer the animal you can catch and the higher your luck."
+      ]
+    ]
+  },
+  "merch-rush": {
+    "intro": "Merch Rush is a mall management game where you start with one small clothes shop and expand it into a large mall. You carry stock, serve shoppers, hire staff, and unlock new stores and entrances.",
+    "tips": [
+      "Keep the shelves full before each Rush Hour, since the description says a shelf gap can make customers leave without buying.",
+      "Spend your early cash on staff and shelves first, because faster workers and more stock bring in money that funds the bigger upgrades later.",
+      "Walk over the cash at the checkout regularly so it gets collected and you can keep buying.",
+      "Plan your expansion order: new stores, the parking lot, the bus stop and side entrances all bring in more shoppers, so add them once your current shop runs smoothly. If you enjoy growing a business step by step, you might also like these [[idle-and-tycoon-games|more tycoon titles]]."
+    ],
+    "faq": [
+      [
+        "How do I get stock onto the shelves?",
+        "Walk to the stock room, pick up boxes, and carry them to the shelves that need restocking."
+      ],
+      [
+        "How do I make my staff work faster?",
+        "Walk into the manager's office to upgrade your staff."
+      ]
+    ]
+  },
+  "curb-rush": {
+    "intro": "Curb Rush is a 3D skateboarding adventure set in an open city. You can skate freely, perform tricks, race bots on set routes, make deliveries, and hunt for golden tokens.",
+    "tips": [
+      "Chain tricks into combos to fill your Flow meter, since a full meter gives you a speed boost you can use on the race routes.",
+      "Learn the boost pads, ramps and shortcuts on each route before chasing stars, because those are the fastest ways to pull ahead of the bots.",
+      "Open the big map before starting a delivery job so you can plan a path that keeps you moving against the clock.",
+      "Save your boost for straight stretches or after a jump, rather than spending it while you are turning or slowing down.",
+      "If you enjoy quick route racing, you can also try [[racing-games|more fast racing titles]] for a similar feel."
+    ],
+    "faq": [
+      [
+        "How do I fill the Flow meter?",
+        "Chain tricks such as ollies, kickflips and grinds into combos. Each combo adds to the Flow meter, and a full meter gives you a speed boost."
+      ],
+      [
+        "How do flips work in the air?",
+        "Press Space to jump, then press Space again while in the air to flip. Use the arrow keys to choose which way the flip goes."
+      ]
+    ]
+  },
+  "blast-ultra-block": {
+    "intro": "Blast Ultra Block is a colorful block puzzle where you drag pieces onto a board and fill whole rows or columns to clear them. Build combos for higher scores, and try Adventure levels or other modes.",
+    "tips": [
+      "Before placing a piece, check where the empty gaps are so that it completes a full row or column.",
+      "Clearing several lines at once or several moves in a row builds combos, so save a flexible piece for a move that can clear more than one line.",
+      "In Adventure, look at the level goal first (points, lines or gems) and plan your moves toward it, since reaching it earns the stars.",
+      "Save the Bomb booster for a crowded corner where a 3x3 area clear will open space, and use Undo when a move leaves you with no place to put the next piece. For more games like this, browse [[block-puzzle-games|more block puzzle titles]].",
+      "If you play with the keyboard, pick a piece with keys 1-3, move it with the arrows, and press Enter to place it."
+    ],
+    "faq": [
+      [
+        "How does a round end?",
+        "The round ends when none of the pieces in your tray fits anywhere on the board. Keep open space so that new pieces can still fit."
+      ],
+      [
+        "How many stars can I earn in Adventure?",
+        "You can earn up to three stars by reaching the level goal, which can be a points, lines or gems target."
+      ]
+    ]
+  },
+  "foodie-mania": {
+    "intro": "Foodie Mania is a match puzzle where you group matching BBQ skewers on grill trays before the timer runs out. Each completed tray clears and packs into a delivery box across 275 levels.",
+    "tips": [
+      "Look at the whole board before moving anything, and spot which ingredients appear in threes so you can plan which grills to fill first.",
+      "Keep slots open where possible, since the level ends if all slots fill up before you clear the skewers.",
+      "Save your boosters at the bottom of the screen for tough moments rather than using them early, so you have help when a board gets crowded.",
+      "Pay attention to locked trays and ice or iron doors, and aim to clear the trays that help you open the blocked areas. If you enjoy puzzles that reward planning, you can find more [[match-3-games|match 3 puzzle picks]] to try next."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Foodie Mania?",
+        "Your goal is to move matching skewers onto the same grill so each tray has 3 identical ingredients. Clear all skewers before the timer expires."
+      ],
+      [
+        "How do I move the skewers?",
+        "Tap or drag a skewer from one grill slot to another. Completed trays clear automatically and pack into delivery boxes."
+      ]
+    ]
+  },
+  "hooked-idle": {
+    "intro": "Hooked Idle is a clicker-style fishing game where you catch fish with your mouse, spend coins on upgrades, and build a fish collection. Progress comes from steady upgrades and repeat runs.",
+    "tips": [
+      "Spend your coins on upgrades that raise your income first, since faster earnings make every later purchase easier.",
+      "Check your tasks and achievements regularly, because they hand out rewards that can speed up your progress.",
+      "Unlock talents early so your fishing boosts start stacking while you wait for coins to build up.",
+      "Keep an eye on your prestige points and only hold the prestige button once you have enough, so the lasting bonuses carry into your next run.",
+      "Discover new fish as you go, since filling your collection gives you a clear goal to aim for between upgrades."
+    ],
+    "faq": [
+      [
+        "What should I buy first with my coins?",
+        "Start with upgrades that increase your income, because they pay back coins faster and help you buy everything else sooner."
+      ],
+      [
+        "When is the right time to prestige?",
+        "Wait until you have earned enough prestige points to make the reset worthwhile, then hold the prestige button to begin a new run with lasting bonuses."
+      ]
+    ]
+  },
+  "prision-espace-parkour-master": {
+    "intro": "Prision Espace Parkour Master is a 3D parkour escape where you run, jump and climb through seven long levels to break out of Warden Grimm's prison. This guide covers habits that help you get through each level.",
+    "tips": [
+      "Learn the jumps on each level before rushing. Checkpoints save your place, so a careful run through a tricky section costs you very little.",
+      "Watch the guards and the warden before you move. Stay out of their sight, and slip past sleeping guards when you can.",
+      "Keep an eye on lasers, saws, crushers, acid and lava. Pause with P when you need a moment to plan your next jump.",
+      "Collect coins as you go, since they are the only way to buy outfits, hats and faces for your prisoner in the shop. If you enjoy the course layouts, try other [[parkour-and-obby-games|obby courses]] to sharpen your timing.",
+      "Use E at switches, vents and doors as soon as you reach them, and remember that a disguise can get you past areas where you would otherwise be spotted."
+    ],
+    "faq": [
+      [
+        "How do I stay out of the warden's sight?",
+        "Move carefully past guards and watch the warden's position before you cross open areas. Use cover and timing to avoid being seen."
+      ],
+      [
+        "What happens if I fall into lava or get caught by a laser or saw?",
+        "You lose progress back to your last checkpoint, so it helps to reach checkpoints often."
+      ]
+    ]
+  },
+  "snake-battle": {
+    "intro": "Snake Battle is a snake game where you grow by eating glowing dots and trap rival snakes so they crash into you. You can play the Campaign or Endless Mode, and you can use coins to buy items in the shop.",
+    "tips": [
+      "Stay close to the edges of the glowing dots early on so you can grow steadily without getting boxed in.",
+      "Watch where enemy snakes are heading and move to a spot ahead of them, so they run into your body when they turn.",
+      "Use the sprint control only for short bursts, since speeding up can leave you in a bad position if you need to turn quickly.",
+      "Save coins for items like Shields when you can, and use them in tight fights where one mistake would end your run.",
+      "If you are new to this style of play, try the Campaign first to learn how enemies move, then switch to [[snake-games|more snake games]] or Endless Mode to test your skills."
+    ],
+    "faq": [
+      [
+        "How do I make enemy snakes crash into me?",
+        "Use tactical movement to get ahead of an enemy and cut off its path, so it has to run into your snake to avoid the trap."
+      ],
+      [
+        "What can I buy in the shop?",
+        "You earn coins during play and can spend them on powerful items such as Shields and Mega Starts."
+      ]
+    ]
+  },
+  "object-73-survival-clicker": {
+    "intro": "Object 73 is a post-apocalyptic clicker where you explore the underground Jericho Complex as a clone that keeps coming back after each death. Click enemies, gather materials, and piece together what the Jericho Project was.",
+    "tips": [
+      "Pay attention to which enemies drop the materials you are short on, and focus your clicks on those foes when you need a specific resource.",
+      "Use your materials to upgrade equipment as well as craft weapons, since better gear helps you survive longer in tougher areas.",
+      "Explore the different areas of the complex, such as laboratories, armories, archives and contaminated sectors, so you know where each kind of resource and enemy is found.",
+      "Each death sends you back into a new cycle, so treat every run as a chance to learn enemy patterns and plan your next upgrades.",
+      "If you enjoy fighting machine foes like the combat drones, you might also like [[robot-games|robot battle games]] to keep that style going."
+    ],
+    "faq": [
+      [
+        "How do I attack enemies in Object 73?",
+        "Click on an enemy to attack it and deal damage. Keep clicking until the enemy is defeated."
+      ],
+      [
+        "What do I get from defeating enemies?",
+        "Defeated enemies drop materials that you can use to craft weapons, upgrade your equipment and survive longer."
+      ]
+    ]
   }
 }
