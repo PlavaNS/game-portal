@@ -818,6 +818,7 @@ blast-master
 blast-master2
 blast-out-battle-royale
 blast-round-puzzle-block
+blast-ultra-block
 blasties
 blasting-marbles
 blastix
@@ -4424,6 +4425,7 @@ kiki-world
 kiki-world-kawaii-doll-decor
 killer-assassin
 killer-io
+killhouse
 killmaster-secret-agent
 kim-jong-un-backrooms
 kim-jong-un-lol-face
@@ -5528,6 +5530,7 @@ niche-shift
 night-city-racing
 night-club-security
 night-lake
+night-lake-monster-fishing
 night-loot-run
 night-order-pick-and-pack
 night-racing-drag
@@ -6325,6 +6328,7 @@ princess-rescue-fruit-connect
 princess-run-3d
 princesses-at-horror-school
 princesses-of-quadrobics
+prision-espace-parkour-master
 prism-match-3d
 prism-pulse
 prison-architect-cage-break-tycoon
