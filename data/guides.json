@@ -181160,5 +181160,303 @@
         "The game includes puzzles of different sizes, so a smaller puzzle is a good starting point and larger ones take more time to complete."
       ]
     ]
+  },
+  "harvestoria-tractor-farming": {
+    "intro": "Harvestoria puts you in charge of a farm that grows season by season. You work the land on foot and from the cab of a tractor across 40 levels, each with a new mission and machine.",
+    "tips": [
+      "Before you hitch a machine, reverse slowly with S and line it up straight behind your tractor, then press F so it attaches cleanly.",
+      "Work each field row by row, keeping each pass parallel to the last so you don't leave gaps or cross over finished soil.",
+      "Follow the glowing orange arrows to the next objective, but glance at the field around you so you can spot the edges before you turn.",
+      "Use the handbrake (Space) when you park or stop on a slope, so the tractor stays put while you get out or swap machines.",
+      "If a level feels confusing, check Farmer Joe's tip first, since each new machine comes with its own way of working. If you want more driving challenges after this, try [[truck-and-driving-games|more driving and truck games]]."
+    ],
+    "faq": [
+      [
+        "How do I attach a machine to my tractor?",
+        "Drive or reverse up to the machine so it sits directly behind your tractor, then press F to hitch it. Press F again to detach it when the job is done."
+      ],
+      [
+        "What do the controls do?",
+        "Use W to accelerate, S to brake or reverse, and A and D to steer. Space works the handbrake."
+      ]
+    ]
+  },
+  "cold-impact-rocket-missions": {
+    "intro": "COLD IMPACT: Rocket Missions is a fast 3D arcade game where you charge a rocket, launch it, and smash through a destructible world. Each run is short, so you can jump back in quickly.",
+    "tips": [
+      "Between flights, spend your coins on upgrades for the wings, reactor, and turbo, since these affect how far each run goes.",
+      "Charge the launch release fully before you take off, so the rocket starts its flight with more power.",
+      "Use boost in short bursts rather than holding it all the time, so you can steer toward the next target and keep the rocket under control.",
+      "Destroy the tanks, helicopters, and bridges on the way, because each run is about smashing as much of the world as you can before the flight ends. If you enjoy flight-based games, you can try more [[airplane-games|airplane games to try]].",
+      "Keep an eye on your chest progress and open it after a few flights for a larger reward."
+    ],
+    "faq": [
+      [
+        "What is the main goal of each run?",
+        "You launch your rocket and smash through a destructible world of tanks, helicopters, bridges, and bosses to fly as far as you can. Coins earned during the run help you upgrade for the next flight."
+      ],
+      [
+        "Which keys control the rocket?",
+        "Hold SPACE to charge the launch release and take off, use the arrow keys or WASD/ZQSD to steer, and hold SPACE again to boost."
+      ]
+    ]
+  },
+  "fire-rescue": {
+    "intro": "Fire Rescue puts you in the boots of a firefighter in Harbor County. You drive Engine 1 to emergency calls, fight fires, search rooms and carry civilians to safety.",
+    "tips": [
+      "Press Tab to open the incident tablet before you leave the station so you know what the call involves.",
+      "Use the mouse wheel to change the water flow before spraying, so you can match the flow to the size of the fire.",
+      "Crouch with Ctrl when moving through smoky or low areas, and sprint with Shift only when the path is clear.",
+      "Check the station with T between calls, since funding is what lets you buy better gear and hire crew. If you enjoy driving heavy vehicles, you may also like [[truck-and-driving-games|truck and driving games]]."
+    ],
+    "faq": [
+      [
+        "How do I put out a fire?",
+        "Aim the water with the left mouse button and adjust the flow with the mouse wheel. Keep spraying the fire until it is out."
+      ],
+      [
+        "How do I get funding and better gear?",
+        "Answer emergency calls and complete rescues, then use the station screen (T) to spend your funding on gear, crew and upgrades."
+      ]
+    ]
+  },
+  "valetpro-parking-rush": {
+    "intro": "ValetPro: Parking Rush is a fast 3D parking game where you run a hotel valet stand. Guests hand over their keys and expect their car parked perfectly in the right bay before their patience runs out.",
+    "tips": [
+      "Watch the guest's patience timer from the start and plan your route early, since a slow start leaves less room for careful parking.",
+      "Follow the arrow to the correct bay, and line up the car before you reverse so you do not have to make repeated corrections.",
+      "Use the handbrake (Space) to pivot tightly in narrow spaces, and ease off the accelerator when you get close to walls and other cars.",
+      "Boss levels with picky VIP guests fail on a single scratch, so slow down near obstacles and accept a longer parking time over a risky shortcut. If you enjoy precise parking challenges, the [[car-parking-games|parking games collection]] has more of this style to practise on.",
+      "In the 60-second drift bonus levels, pick a line that lets you collect coins without over-steering, because losing control wastes the limited time."
+    ],
+    "faq": [
+      [
+        "How do I keep my tips high?",
+        "Avoid scratches, since they cost you tips, and park the car inside its assigned bay before the guest's patience timer runs out."
+      ],
+      [
+        "Can I switch between guests' cars during a level?",
+        "Yes, press Tab to switch to another guest's car, which can help when more than one car needs attention."
+      ]
+    ]
+  },
+  "shiba-crossing": {
+    "intro": "Help a cute shiba get safely across a dangerous area filled with turtle traps and floating tree trunks. Hop carefully, and see what waits at the end of the crossing.",
+    "tips": [
+      "Before each hop, check where the turtle traps and tree trunks are so you can commit to a safe landing spot.",
+      "Use Space to hop straight ahead when the path is clear, and save the sideways hops for when you need to change lanes.",
+      "Pause with P whenever you need a moment to plan your route, then continue when you are ready.",
+      "If you enjoy guiding animals through tricky spots, you might like these [[animal-games|more creature adventures to try]] next."
+    ],
+    "faq": [
+      [
+        "How do I move the shiba?",
+        "On desktop, use WASD or the arrow keys to hop, and Space to hop ahead. On mobile, tap to hop forward and swipe left, right, or back."
+      ],
+      [
+        "How do I pause the game or turn off the sound?",
+        "Press P to pause and M to mute the sound."
+      ]
+    ]
+  },
+  "frosty-peak-santas-3d-odyssey": {
+    "intro": "Frosty Peak: Santas 3D Odyssey is a 3D platformer where you guide Santa across icy sky-worlds, jumping over hazards and defeating enemies. This guide covers controls, collecting gifts, and getting the most from checkpoints and power-ups.",
+    "tips": [
+      "Press R to set a checkpoint before a risky jump or crumbling platform, so a fall sends you back to a safer spot.",
+      "Use the double-jump backflip to reach higher ledges and clear wide gaps, and practice it on easy platforms before attempting tricky ice bridges.",
+      "Collect the gifts in each level, since they unlock the custom Santa suits and help you earn 3-Star ratings.",
+      "Save Frost Shield for spinning frost blades and spear grates, and use Gift Magnet when gifts are spread out so you pick them up without detours. If you want more festive holiday games, check [[christmas-games|more festive holiday games]].",
+      "Use the Pre-Level Boosters, Start Armor and Extra Heart, before harder levels and the Arena Boss Battles, which appear every 6th world."
+    ],
+    "faq": [
+      [
+        "How do I move and jump in Frosty Peak?",
+        "Use WASD or the Arrow Keys to move and the Spacebar to jump. Press the Spacebar again in mid-air to perform the double-jump backflip."
+      ],
+      [
+        "What should I do when I get stuck or fall into a hazard?",
+        "Press R to return to your last checkpoint. You can press P or ESC to pause the game at any time."
+      ]
+    ]
+  },
+  "cake-shop-simulator-bake-and-sell": {
+    "intro": "Cake Shop Simulator: Bake & Sell is a cozy bakery game where you build 3D cakes to customer orders and haggle over the price in chat. Each buyer has their own personality, so reading them well matters.",
+    "tips": [
+      "Keep the order card at the top in view while you build. Matching shape, tiers, glaze, cream and decorations turn green and raise the price, so check each step against it.",
+      "Read the buyer before you set your ask. A schoolkid counts every coin, a bride wants a three-tier cake and a reseller buys in bulk, so choose a friendly, fair or pricey ask to suit them.",
+      "Hold your price only when the buyer seems willing to pay more. Every hold costs one heart of their patience, and when the hearts run out the buyer leaves without buying.",
+      "Post your sold cakes on Cakegram, since likes and followers raise your prices for future orders. Spending coins on kitchen upgrades early can also help you handle busier days, and you can read more about [[cooking-games|other cooking and restaurant games]] once you are comfortable here.",
+      "Close all orders before you tap \"New day\" so you do not carry unfinished work forward. A working day is short, so finishing the day's orders is a good way to end a session."
+    ],
+    "faq": [
+      [
+        "How do I know if my cake matches what the customer wants?",
+        "The order card at the top lists what the customer asked for, and matching items turn green. Green items also raise the price the buyer will accept."
+      ],
+      [
+        "What happens if I ask too much during haggling?",
+        "The buyer's patience runs out if you push too hard, and they will leave. Accepting the counteroffer, meeting halfway or holding your price at the right moment keeps the deal alive."
+      ]
+    ]
+  },
+  "undead-and-unemployed": {
+    "intro": "Undead & Unemployed is a zombie action shooter set in a trailer park. You run missions for locals, fight in rampages, races and derbies, and loot items to trade with vendors.",
+    "tips": [
+      "Loot as you go and keep useful items in your belt slots, numbered 1 to 8, so you can switch to them quickly during a fight.",
+      "Open the map with M before you head into a new area so you know where you are and where your next mission is.",
+      "Crouch with C when you need to sneak past zombies, and sprint with Shift only when you are sure the path ahead is clear.",
+      "Reload with R when you have a safe moment, not in the middle of a crowd, since reloading in the open can leave you exposed.",
+      "If you enjoy clearing hordes, you can find [[zombie-games|more zombie survival games]] to compare how other titles handle combat and looting."
+    ],
+    "faq": [
+      [
+        "How do I earn items to trade with the vendors?",
+        "Loot everything you find in the town and the trailer park, then bring your items to the park's vendors to trade."
+      ],
+      [
+        "How do I drive a car and get out of it?",
+        "Use WASD to drive and Space as the handbrake, and press E to get out of the car."
+      ]
+    ]
+  },
+  "catch-a-fish": {
+    "intro": "Catch a Fish is a first-person adventure where you dive off a pier and catch fish with your bare hands. You sell your catch, upgrade your gear, and work your way through deeper seas.",
+    "tips": [
+      "Watch your air while you swim. If it runs out, you pass out and lose part of your catch, so head back before you get too low.",
+      "Spend your early money on upgrades to your air and bag. Carrying more and staying down longer lets you gather more fish per trip.",
+      "Sell your catch at the market regularly so you can afford the harpoon, the net and the boat you need for the hidden island.",
+      "Use the harpoon or net for fish that are hard to knock out by hand. Switch tools with 1 and 2 or the mouse wheel as the situation changes.",
+      "If you enjoy mixing catching with upgrading, you might like these [[fishing-games|more fishing games to try]]."
+    ],
+    "faq": [
+      [
+        "How do I avoid losing my catch?",
+        "Keep an eye on your air and race back to the surface before it runs out, because passing out makes you lose part of what you have collected."
+      ],
+      [
+        "How do I reach the hidden island?",
+        "You need to buy a boat, which lets you travel to the hidden island where the rare fish are found."
+      ]
+    ]
+  },
+  "rift-ops-fractured-frontier": {
+    "intro": "RIFT OPS: Fractured Frontier is a 2D cartoon tactical shooter where you fly with a jetpack in the fight over the Echo Core. You can play a 100-mission story campaign, practise against bots, or host team deathmatch matches for up to 10 players.",
+    "tips": [
+      "Use bot practice on the six maps before you join a live room, so you learn the layouts and how your jetpack moves.",
+      "Press W or Space to fly up and reach higher ground, then aim down with the mouse to fire from positions enemies may not expect.",
+      "Reload with R during quiet moments rather than in the middle of a firefight, so you are never caught with an empty weapon.",
+      "Save G for moments when enemies are grouped behind cover, and use Z to grab weapon crates when you need a different gun.",
+      "If you want more online games with friends to try after this one, browse the [[multiplayer-games|online games to play together]] collection."
+    ],
+    "faq": [
+      [
+        "How do I start a team deathmatch with friends?",
+        "Open Multiplayer, tap Host a match and share the room code. Friends enter the code under Join a match and press Ready, then you start the match as host."
+      ],
+      [
+        "How many players can join one room?",
+        "A hosted room supports team deathmatch with up to 10 players."
+      ]
+    ]
+  },
+  "escaping-blockov": {
+    "intro": "Escaping Blockov is a blocky top-down extraction shooter where you raid zones, loot crates and enemies, and reach an extract to keep what you carry. This guide covers how to get out alive and when to push deeper.",
+    "tips": [
+      "Decide when to leave before you start a raid. Dying means losing everything you brought, so an early extract with a solid haul is often the safer choice.",
+      "Treat the hatch as a risk decision. Going one level deeper brings richer loot, but the enemies there are tougher, so only drop down when your loadout can handle it.",
+      "Use H to heal and G to throw a grenade before you need them in a tough fight, not after your health is already low. Keep R in mind so you can reload between enemies rather than in the middle of a firefight.",
+      "Loot crates and defeated enemies as you move, but keep an eye on where the extract zone is so you can reach it before things go wrong. If you like fast-paced aiming and firing, you might also enjoy exploring more [[shooting-games|action shooting games]].",
+      "On mobile, try auto-aim first to keep your focus on movement, then switch to dragging the fire button when you need precise shots at specific targets."
+    ],
+    "faq": [
+      [
+        "What happens if I die during a raid?",
+        "You lose everything you brought into that raid. Only what you carry out through an extract zone is kept."
+      ],
+      [
+        "How do I get better loot?",
+        "Take the hatch to go one level deeper, where loot is richer but enemies are tougher. Weigh that against your current health and supplies before you go."
+      ]
+    ]
+  },
+  "stellar-assault": {
+    "intro": "Pilot a lone starfighter through 40 waves of alien attackers, choosing from four ships with different strengths. Upgrade your ship between waves and see how long you can hold the line.",
+    "tips": [
+      "Pick your starfighter based on how you like to play: the nimble Interceptor and evasive Phantom suit dodgers, while the Destroyer and Dreadnought suit players who prefer to trade hits.",
+      "Spend your upgrade points with a plan. Repairing your hull keeps you alive longer, but boosting weapons helps you clear waves faster, so balance the two based on how much damage you are taking.",
+      "Try combat drones early and watch how they affect your kill speed, since clearing enemies quickly reduces the pressure during later waves.",
+      "Prepare before each mini-boss arrives every 5 waves and each massive boss every 10 waves. Use the pause key (P) to take a breath and check your hull and shields before you engage.",
+      "If you enjoy dodging enemy fire while you pick off waves, you may also like these [[space-games|other space shooting titles]] for similar fast-paced action."
+    ],
+    "faq": [
+      [
+        "How do I move and shoot my ship?",
+        "Use WASD or the arrow keys to move, and press Space to fire. The mouse or keyboard can be used to play."
+      ],
+      [
+        "What should I upgrade first?",
+        "Upgrade points are earned after each wave you survive. Focus first on the stat your current ship is weakest in, such as hull repair if you are taking heavy damage or shields if enemies keep breaking through."
+      ]
+    ]
+  },
+  "hyper-wave-trial": {
+    "intro": "Hyper Wave Trial is a one-finger arcade game where you steer a wave through obstacles, collect coins, and reach the end of each level. Its 30 levels range from easy to highly challenging, with portals adding variety along the way.",
+    "tips": [
+      "Hold the mouse button or your finger in short bursts and release to let the wave drop, so you can adjust your height gradually instead of overcorrecting.",
+      "Use practice mode on a hard level to test a tricky section, and press Q to place a checkpoint just before the obstacles that give you the most trouble.",
+      "If you keep missing the same spot, press E to remove the last checkpoint and reposition it closer to where the danger starts.",
+      "Pay attention to the rhythmic music, since its beat can help you time your movements through the obstacle sections.",
+      "If you want more quick-reaction challenges like this, you can browse the [[running-games|fast-paced running challenges]] collection."
+    ],
+    "faq": [
+      [
+        "What is the goal of Hyper Wave Trial?",
+        "Your goal is to control the wave, avoid the obstacles, collect coins, and reach the end of each level."
+      ],
+      [
+        "How do I control the wave on desktop?",
+        "Hold the left mouse button or the space bar to fly up, and release it to fly down. On mobile, hold your finger on the screen to fly up."
+      ]
+    ]
+  },
+  "snakey-hunters-arena": {
+    "intro": "Snakey: Hunters Arena is a snake game where you collect food, dodge obstacles, and survive as long as you can. The challenge grows as levels rise, adding obstacles and armed hunters.",
+    "tips": [
+      "Early on, keep your snake moving in wide loops so you always have room to turn before you reach a wall or your own tail.",
+      "Hold the arrow keys or swipe to use the speed boost only when you have a clear path, since going faster leaves less time to react.",
+      "From Level 5, watch for rocks, spikes, and portals, and plan your route around them before you reach them.",
+      "Once Level 10 brings armed hunters, avoid staying in a straight line toward them, because their bullets are fired along their aim.",
+      "The level goes up every 30 seconds, so check your surroundings at each change and adjust your route to the new obstacles and hunters. For more snake-style challenges, try the [[snake-games|classic snake titles collection]]."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Snakey: Hunters Arena?",
+        "Your goal is to collect food, avoid obstacles, and survive as long as you can. Staying alive longer while the levels get harder is how you progress."
+      ],
+      [
+        "How does the speed boost work?",
+        "Hold the arrow keys on desktop or hold a swipe on touch to get a speed boost. Use it when you have a safe path, because it makes the snake harder to control."
+      ]
+    ]
+  },
+  "hotline-miami": {
+    "intro": "Hotline Miami is a fast top-down shooter with pixel graphics and an 80s neon look. Every mistake can be fatal, so each level rewards careful, deliberate play.",
+    "tips": [
+      "Enemies in each level need a planned approach, so study where they stand before you move in rather than rushing forward.",
+      "Keep track of your weapon choices with keys 1, 2 and 3, and switch to the one that suits the threat in front of you.",
+      "Use R to reload during a quiet moment instead of in the middle of a firefight, since every second counts.",
+      "Because one mistake can end your run, slow down in tense rooms and reset your plan after each enemy you take down. If you enjoy fast, tense combat, you may also like these [[shooting-games|action shooter picks]].",
+      "On mobile, keep your left thumb on the movement joystick and your right on the aiming joystick, and tap the weapon slot before a new fight starts."
+    ],
+    "faq": [
+      [
+        "How do I move and shoot in Hotline Miami on PC?",
+        "Move with WASD and shoot with the left mouse button. Press R to reload and 1, 2 or 3 to change weapons."
+      ],
+      [
+        "How do the mobile controls work?",
+        "The left joystick moves your character and the right joystick shoots. Tap a weapon slot to select that weapon."
+      ]
+    ]
   }
 }
