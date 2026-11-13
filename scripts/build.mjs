@@ -1239,7 +1239,20 @@ write('404.html', layout({ title: `Page not found | ${cfg.name}`, desc: 'Page no
   body: `<article class="text center"><h1>404 — Game over?</h1><p>This page doesn't exist (anymore). But there are ${all.length} games that do.</p><p><a class="btn big" href="${u('/')}">Back to games</a></p></article>${row('Try one of these', null, top('hot', 12))}` }));
 
 // SITEMAP / ROBOTS / MANIFEST
-write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${sitemap.map(s => `<url><loc>${esc(s.loc)}</loc><lastmod>${today}</lastmod><priority>${s.prio.toFixed(1)}</priority>${s.image ? `<image:image><image:loc>${esc(s.image.img)}</image:loc></image:image>` : ''}</url>`).join('\n')}\n</urlset>\n`);
+// one child sitemap per language (Google reads at most 50,000 URLs per file), listed from a sitemap index at the same /sitemap.xml
+{
+  const urlXml = s => `<url><loc>${esc(s.loc)}</loc><lastmod>${today}</lastmod><priority>${s.prio.toFixed(1)}</priority>${s.image ? `<image:image><image:loc>${esc(s.image.img)}</image:loc></image:image>` : ''}</url>`;
+  const langOf = loc => { const m = loc.slice(ABS.length).match(/^\/([a-z]{2})\//); return m && m[1] !== 'en' && LANGS.some(l => (l.code || l) === m[1]) ? m[1] : 'en'; };
+  const groups = {};
+  for (const s of sitemap) (groups[langOf(s.loc)] ||= []).push(s);
+  const files = [];
+  for (const [lang, list] of Object.entries(groups)) for (let i = 0; i < list.length; i += 45000) {
+    const name = `sitemap-${lang}${i ? '-' + (i / 45000 + 1) : ''}.xml`;
+    write(name, `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">\n${list.slice(i, i + 45000).map(urlXml).join('\n')}\n</urlset>\n`);
+    files.push(name);
+  }
+  write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${files.map(f => `<sitemap><loc>${esc(ABS + '/' + f)}</loc><lastmod>${today}</lastmod></sitemap>`).join('\n')}\n</sitemapindex>\n`);
+}
 // llms.txt: a plain summary for AI assistants and AI search (llmstxt.org)
 {
   const ownG = all.filter(g => g.own), indieG = all.filter(g => g.community);
