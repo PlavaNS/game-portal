@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<meta name="theme-color" content="#000000">
+<meta name="robots" content="noindex,nofollow">
+<title>DARK FEED – Episode 1: Apartment 4B</title>
+<style>
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none;touch-action:none}
+html,body{margin:0;height:100%;background:#000;overflow:hidden;font-family:"Courier New",ui-monospace,monospace;color:#bfffd0}
+#cam{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;
+  filter:grayscale(1) contrast(1.45) brightness(.78) sepia(.6) hue-rotate(65deg) saturate(2.2);
+  transition:filter .08s}
+body.dark #cam{filter:grayscale(1) contrast(1.2) brightness(.05)}
+body.red #cam{filter:grayscale(1) contrast(1.5) brightness(.75) sepia(1) hue-rotate(-30deg) saturate(4)}
+body.glitching #cam,body.glitching #entity{animation:gl .11s steps(2) infinite}
+@keyframes gl{0%{transform:translate(-6px,2px) scale(1.03);filter:grayscale(1) contrast(2) brightness(1.2) hue-rotate(120deg)}
+ 50%{transform:translate(8px,-3px) scale(1.05);filter:grayscale(0) contrast(1.8) brightness(.9) hue-rotate(250deg) saturate(3)}
+ 100%{transform:translate(-3px,-2px) scale(1.02)}}
+#noise{position:fixed;inset:0;width:100%;height:100%;image-rendering:pixelated;opacity:.22;pointer-events:none;mix-blend-mode:screen}
+#vig{position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse at center,transparent 35%,rgba(0,0,0,.85) 100%)}
+#scan{position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 1px,transparent 1px 3px)}
+#hud{position:fixed;top:max(12px,env(safe-area-inset-top));left:14px;right:14px;display:flex;justify-content:space-between;font-size:13px;letter-spacing:1px;text-shadow:0 0 6px #000;pointer-events:none}
+#rec b{color:#f22;animation:bl 1s steps(2) infinite}
+@keyframes bl{50%{opacity:0}}
+#entity{position:fixed;bottom:-2vh;left:50%;height:78vh;aspect-ratio:1/3;opacity:0;pointer-events:none;
+  transform-origin:bottom center;transform:translateX(-50%) scale(var(--s,.5));transition:opacity .12s,transform 1.6s ease-in}
+#entity svg{width:100%;height:100%;filter:drop-shadow(0 0 4px rgba(170,255,190,.55))}
+#entity .eyes{opacity:0;transition:opacity .15s}
+#entity.looking .eyes{opacity:1}
+#entity.cut{transition:opacity .12s}
+#marks{position:fixed;inset:0;pointer-events:none}
+.mark{position:absolute;width:92px;height:92px;margin:-46px 0 0 -46px;display:flex;align-items:center;justify-content:center;
+  font-size:58px;color:#ff3b3b;text-shadow:0 0 14px #f00,0 0 30px #900;opacity:0;transition:opacity .2s;pointer-events:auto;font-family:serif}
+.mark.on{opacity:.95;animation:pulse .5s ease-in-out infinite alternate}
+@keyframes pulse{to{transform:scale(1.15)}}
+#digit{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font-size:30vw;color:#ff3b3b;text-shadow:0 0 30px #f00;opacity:0;pointer-events:none;font-family:serif;transition:opacity .25s}
+#digit.on{opacity:.9}
+#log{position:fixed;left:14px;right:14px;bottom:max(24px,env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:6px;pointer-events:none;font-size:15px;text-shadow:0 0 6px #000,0 0 3px #000}
+#log div{transition:opacity 1.2s;background:rgba(0,0,0,.35);padding:3px 6px;align-self:flex-start;max-width:92%}
+#sms{position:fixed;top:max(44px,calc(env(safe-area-inset-top) + 32px));left:12px;right:12px;transform:translateY(-140%);transition:transform .35s;
+  background:rgba(15,15,15,.92);border:1px solid #333;border-radius:12px;padding:10px 14px;pointer-events:none;font-family:system-ui,sans-serif;color:#fff}
+#sms.on{transform:none}
+#sms small{display:block;color:#8f8;font-size:11px;letter-spacing:1px;margin-bottom:2px}
+#sms span{font-size:16px}
+#breath{position:fixed;left:50%;bottom:max(90px,calc(env(safe-area-inset-bottom) + 76px));transform:translateX(-50%);width:170px;height:170px;border-radius:50%;
+  border:2px solid #bfffd0;background:rgba(0,40,20,.35);color:#bfffd0;font:700 15px "Courier New",monospace;letter-spacing:1px;display:none;align-items:center;justify-content:center;text-align:center;touch-action:none}
+#breath.on{display:flex}
+#breath.held{background:rgba(120,255,170,.45);color:#000}
+#keypad{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:min(88vw,330px);background:rgba(0,12,6,.88);border:1px solid #3c6;padding:16px;display:none;text-align:center}
+#keypad.on{display:block}
+#keypad.shake{animation:sh .35s}
+@keyframes sh{25%{transform:translate(-46%,-50%)}75%{transform:translate(-54%,-50%)}}
+#keypad h2{margin:0 0 10px;font-size:14px;letter-spacing:2px;font-weight:400}
+#code{font-size:38px;letter-spacing:14px;height:50px;color:#fff;margin-bottom:8px}
+#keys{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+#keys button{height:54px;font:700 22px "Courier New",monospace;background:#0a2216;color:#bfffd0;border:1px solid #3c6;border-radius:6px}
+#keys button:active{background:#3c6;color:#000}
+#flash{position:fixed;inset:0;background:#fff;opacity:0;pointer-events:none}
+.screen{position:fixed;inset:0;background:#000;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;gap:16px;z-index:10}
+.screen h1{font-size:44px;letter-spacing:6px;margin:0;color:#e33;text-shadow:0 0 18px #800}
+.screen h3{margin:0;font-weight:400;letter-spacing:3px;font-size:14px;color:#8fb}
+.screen p{margin:0;max-width:320px;line-height:1.5;font-size:14px;color:#9b9}
+.screen button{font:700 18px "Courier New",monospace;letter-spacing:3px;padding:14px 34px;background:#000;color:#e33;border:2px solid #e33;border-radius:4px;margin-top:6px}
+.screen button:active{background:#e33;color:#000}
+#err{color:#f66;font-size:14px;max-width:320px}
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+<video id="cam" playsinline muted autoplay></video>
+<canvas id="noise"></canvas>
+<div id="scan"></div>
+<div id="vig"></div>
+
+<div id="entity">
+<svg viewBox="0 0 100 300" preserveAspectRatio="xMidYMax meet">
+ <ellipse cx="50" cy="34" rx="15" ry="19" fill="#000"/>
+ <rect x="46" y="50" width="8" height="18" fill="#000"/>
+ <path d="M30 66 Q50 58 70 66 L66 170 L58 170 L60 290 L52 290 L50 190 L48 290 L40 290 L42 170 L34 170 Z" fill="#000"/>
+ <path d="M30 70 Q14 130 20 250 L25 250 Q26 150 36 100 Z" fill="#000"/>
+ <path d="M70 70 Q86 130 80 250 L75 250 Q74 150 64 100 Z" fill="#000"/>
+ <g class="eyes"><circle cx="44" cy="32" r="3.2" fill="#ff2a2a"/><circle cx="57" cy="32" r="3.2" fill="#ff2a2a"/></g>
+</svg>
+</div>
+
+<div id="marks"></div>
+<div id="digit"></div>
+<div id="hud"><div id="rec"><b>●</b> REC <span id="clock">00:00:00</span></div><div>CAM 1 · NIGHT</div></div>
+<div id="log"></div>
+<div id="sms"><small id="smsFrom"></small><span id="smsText"></span></div>
+<button id="breath">HOLD<br>YOUR<br>BREATH</button>
+
+<div id="keypad">
+ <h2>DOOR LOCK · 3 DIGITS</h2>
+ <div id="code"></div>
+ <div id="keys"></div>
+</div>
+<div id="flash"></div>
+
+<div class="screen" id="start">
+ <h3>EPISODE 1</h3>
+ <h1>DARK FEED</h1>
+ <h3>APARTMENT 4B</h3>
+ <p>Put on headphones. Turn off the lights.<br>The camera is never recorded or uploaded.</p>
+ <button id="startBtn">START</button>
+ <div id="err"></div>
+</div>
+
+<div class="screen hidden" id="end">
+ <h3>END OF EPISODE 1</h3>
+ <p>Marta was never missing.<br>She was the one holding the camera.<br><br>Now the camera is yours.</p>
+ <button id="againBtn">AGAIN</button>
+ <button id="shareBtn">DARE A FRIEND</button>
+ <h3 id="shareMsg"></h3>
+</div>
+
+<script>
+"use strict";
+const $ = id => document.getElementById(id);
+const wait = ms => new Promise(r => setTimeout(r, ms));
+const rnd = (a, b) => a + Math.random() * (b - a);
+const vib = p => navigator.vibrate && navigator.vibrate(p);
+
+/* ---------- audio ---------- */
+let ac, master, noiseBuf, heartTimer = null, heartBpm = 60, droneGain;
+
+function initAudio() {
+  ac = new (window.AudioContext || window.webkitAudioContext)();
+  master = ac.createGain(); master.gain.value = .9; master.connect(ac.destination);
+  noiseBuf = ac.createBuffer(1, ac.sampleRate * 2, ac.sampleRate);
+  const d = noiseBuf.getChannelData(0);
+  for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+  droneGain = ac.createGain(); droneGain.gain.value = 0; droneGain.connect(master);
+  const lp = ac.createBiquadFilter(); lp.type = "lowpass"; lp.frequency.value = 200; lp.connect(droneGain);
+  [55, 55.7, 82.4].forEach(f => { const o = ac.createOscillator(); o.type = "sawtooth"; o.frequency.value = f; o.connect(lp); o.start(); });
+  const lfo = ac.createOscillator(), lg = ac.createGain(); lfo.frequency.value = .08; lg.gain.value = 90; lfo.connect(lg); lg.connect(lp.frequency); lfo.start();
+  droneGain.gain.linearRampToValueAtTime(.1, ac.currentTime + 4);
+}
+function setDrone(v, t = 2) { droneGain.gain.linearRampToValueAtTime(v, ac.currentTime + t); }
+
+function noise(dur, type, f0, f1, q, vol) {
+  const s = ac.createBufferSource(); s.buffer = noiseBuf; s.loop = true;
+  const f = ac.createBiquadFilter(); f.type = type; f.Q.value = q;
+  f.frequency.setValueAtTime(f0, ac.currentTime); f.frequency.exponentialRampToValueAtTime(f1, ac.currentTime + dur);
+  const g = ac.createGain(); g.gain.setValueAtTime(0, ac.currentTime);
+  g.gain.linearRampToValueAtTime(vol, ac.currentTime + dur * .25); g.gain.linearRampToValueAtTime(0, ac.currentTime + dur);
+  s.connect(f); f.connect(g); g.connect(master); s.start(); s.stop(ac.currentTime + dur + .1);
+}
+function whisper() { noise(2.2, "bandpass", 1800, 3600, 6, .5); setTimeout(() => noise(1.4, "bandpass", 3000, 1500, 7, .35), 900); }
+function thump(v = .8) {
+  [0, .17].forEach((dt, i) => {
+    const o = ac.createOscillator(), g = ac.createGain(), t = ac.currentTime + dt;
+    o.frequency.setValueAtTime(75, t); o.frequency.exponentialRampToValueAtTime(38, t + .14);
+    g.gain.setValueAtTime(v * (i ? .7 : 1), t); g.gain.exponentialRampToValueAtTime(.001, t + .2);
+    o.connect(g); g.connect(master); o.start(t); o.stop(t + .25);
+  });
+}
+function startHeart(bpm) {
+  heartBpm = bpm; stopHeart();
+  const beat = () => { thump(.9); heartTimer = setTimeout(beat, 60000 / heartBpm); };
+  beat();
+}
+function stopHeart() { if (heartTimer) { clearTimeout(heartTimer); heartTimer = null; } }
+function stinger(big = 1) {
+  noise(.9, "lowpass", 6000, 300, 1, .9 * big);
+  [220, 233, 311, 466].forEach(f => {
+    const o = ac.createOscillator(), g = ac.createGain(); o.type = "sawtooth"; o.frequency.value = f;
+    g.gain.setValueAtTime(.25 * big, ac.currentTime); g.gain.exponentialRampToValueAtTime(.001, ac.currentTime + 1.1);
+    o.connect(g); g.connect(master); o.start(); o.stop(ac.currentTime + 1.2);
+  });
+}
+function ping() {
+  const o = ac.createOscillator(), g = ac.createGain(); o.type = "sine"; o.frequency.value = 880;
+  g.gain.setValueAtTime(.25, ac.currentTime); g.gain.exponentialRampToValueAtTime(.001, ac.currentTime + .35);
+  o.connect(g); g.connect(master); o.start(); o.stop(ac.currentTime + .4);
+}
+function creak() {
+  const o = ac.createOscillator(), g = ac.createGain(), f = ac.createBiquadFilter();
+  o.type = "sawtooth"; o.frequency.setValueAtTime(80, ac.currentTime); o.frequency.linearRampToValueAtTime(150, ac.currentTime + 1.8);
+  f.type = "bandpass"; f.frequency.value = 500; f.Q.value = 8;
+  g.gain.setValueAtTime(.0, ac.currentTime); g.gain.linearRampToValueAtTime(.35, ac.currentTime + .3); g.gain.linearRampToValueAtTime(0, ac.currentTime + 1.9);
+  o.connect(f); f.connect(g); g.connect(master); o.start(); o.stop(ac.currentTime + 2);
+}
+function scream() {
+  const ws = ac.createWaveShaper(), c = new Float32Array(256);
+  for (let i = 0; i < 256; i++) { const x = i / 128 - 1; c[i] = Math.tanh(x * 6); }
+  ws.curve = c; ws.connect(master);
+  [0, 7, 13].forEach(det => {
+    const o = ac.createOscillator(), g = ac.createGain(); o.type = "sawtooth";
+    o.frequency.setValueAtTime(600 + det * 20, ac.currentTime); o.frequency.linearRampToValueAtTime(1500 + det * 30, ac.currentTime + 1.2);
+    g.gain.setValueAtTime(.4, ac.currentTime); g.gain.linearRampToValueAtTime(0, ac.currentTime + 1.6);
+    o.connect(g); g.connect(ws); o.start(); o.stop(ac.currentTime + 1.7);
+  });
+  noise(1.5, "highpass", 2000, 6000, 1, .8);
+}
+function wrongTone() { noise(.5, "bandpass", 300, 120, 4, .6); }
+
+/* ---------- visuals ---------- */
+const cam = $("cam"), entity = $("entity");
+const noiseC = $("noise"), nctx = noiseC.getContext("2d");
+function sizeNoise() { noiseC.width = Math.ceil(innerWidth / 5); noiseC.height = Math.ceil(innerHeight / 5); }
+sizeNoise(); addEventListener("resize", sizeNoise);
+let frame = 0;
+(function drawNoise() {
+  if (++frame % 2 === 0) {
+    const w = noiseC.width, h = noiseC.height, img = nctx.createImageData(w, h), d = img.data;
+    for (let i = 0; i < d.length; i += 4) { const v = Math.random() * 255; d[i] = d[i + 1] = d[i + 2] = v; d[i + 3] = 255; }
+    nctx.putImageData(img, 0, 0);
+  }
+  requestAnimationFrame(drawNoise);
+})();
+
+let t0 = 0;
+setInterval(() => {
+  if (!t0) return;
+  const s = Math.floor((performance.now() - t0) / 1000);
+  $("clock").textContent = [s / 3600, s / 60 % 60, s % 60].map(v => String(Math.floor(v)).padStart(2, "0")).join(":");
+}, 500);
+
+async function glitch(ms) { document.body.classList.add("glitching"); await wait(ms); document.body.classList.remove("glitching"); }
+async function flicker(n = 4) {
+  for (let i = 0; i < n; i++) { document.body.classList.add("dark"); await wait(rnd(50, 140)); document.body.classList.remove("dark"); await wait(rnd(60, 220)); }
+}
+async function flash(ms = 90) { const f = $("flash"); f.style.opacity = 1; await wait(ms); f.style.opacity = 0; }
+
+function showEntity(left, scale, instant = true) {
+  entity.classList.toggle("cut", instant);
+  entity.style.left = left + "%"; entity.style.setProperty("--s", scale); entity.style.opacity = .96;
+}
+function hideEntity() { entity.style.opacity = 0; entity.classList.remove("looking"); }
+async function peek() { // quick glimpse at screen edge
+  showEntity(Math.random() < .5 ? 12 : 88, .55); stinger(.4); vib(80);
+  await wait(rnd(220, 420)); hideEntity();
+}
+
+const logEl = $("log");
+async function say(text, hold = 2200) {
+  const line = document.createElement("div"); logEl.appendChild(line);
+  while (logEl.children.length > 4) logEl.firstChild.remove();
+  for (const ch of text) { line.textContent += ch; await wait(26); }
+  await wait(hold);
+  line.style.opacity = 0; setTimeout(() => line.remove(), 1300);
+}
+async function sms(from, text) {
+  $("smsFrom").textContent = "MESSAGE · " + from; $("smsText").textContent = text;
+  $("sms").classList.add("on"); ping(); vib([120, 80, 120]);
+  await wait(4200); $("sms").classList.remove("on");
+}
+
+/* ---------- puzzle 1: marks ---------- */
+const GLYPHS = ["☉", "⛧", "ᛟ"];
+let code = [];
+function showMark(i) {
+  return new Promise(res => {
+    const m = document.createElement("div"); m.className = "mark"; m.textContent = GLYPHS[i];
+    m.style.left = rnd(18, 82) + "%"; m.style.top = rnd(18, 62) + "%";
+    $("marks").appendChild(m); requestAnimationFrame(() => m.classList.add("on"));
+    let done = false;
+    const end = ok => { if (done) return; done = true; m.remove(); res(ok); };
+    m.addEventListener("pointerdown", () => { if (done) return; stinger(.35); vib(60); end(true); });
+    setTimeout(() => end(false), 2300 - i * 300);
+  });
+}
+async function puzzleMarks() {
+  code = [0, 0, 0].map(() => Math.floor(Math.random() * 10));
+  await say("Something is painted on the walls. Tap the marks before they fade.");
+  await say("Each one hides a number. Remember them.");
+  for (let i = 0; i < 3; i++) {
+    let found = false;
+    while (!found) {
+      await wait(rnd(900, 2000));
+      found = await showMark(i);
+      if (!found) { whisper(); }
+    }
+    const d = $("digit"); d.textContent = code[i]; d.classList.add("on"); glitch(200);
+    await wait(1600); d.classList.remove("on");
+    if (i === 1) await peek();
+  }
+  await wait(800);
+  await say("Three numbers. Don't forget them.");
+}
+
+/* ---------- puzzle 2: hold breath ---------- */
+let holding = false;
+const breathBtn = $("breath");
+breathBtn.addEventListener("pointerdown", e => { e.preventDefault(); holding = true; breathBtn.classList.add("held"); });
+["pointerup", "pointercancel", "pointerleave"].forEach(ev => breathBtn.addEventListener(ev, () => { holding = false; breathBtn.classList.remove("held"); }));
+breathBtn.addEventListener("contextmenu", e => e.preventDefault());
+
+async function puzzleBreath() {
+  await say("It is in the room.");
+  await say("When its eyes turn RED: hold the button. Let go when it moves.", 3200);
+  breathBtn.classList.add("on");
+  startHeart(62);
+  let progress = 0;
+  showEntity(50, .3, true); await wait(100);
+  while (progress < 3) {
+    entity.classList.remove("looking"); entity.classList.remove("cut");
+    setDrone(.1, 1); document.body.classList.remove("red");
+    showEntity(rnd(25, 75), .3 + progress * .22, false);
+    entity.classList.remove("cut");
+    heartBpm = 62 + progress * 14;
+    await wait(rnd(2600, 4200));
+    entity.classList.add("looking"); document.body.classList.add("red"); heartBpm = 130; whisper(); vib(200);
+    const start = performance.now(); let ok = true;
+    await new Promise(res => {
+      const iv = setInterval(() => {
+        const el = performance.now() - start;
+        if (el > 700 && !holding) ok = false;
+        if (el > 2700) { clearInterval(iv); res(); }
+      }, 40);
+    });
+    document.body.classList.remove("red");
+    if (ok) { progress++; }
+    else {
+      glitch(500); stinger(); vib([300, 80, 300]); entity.classList.add("cut"); showEntity(50, .9 + progress * .1);
+      await say("IT SAW YOU.", 600); progress = Math.max(0, progress - 1);
+      await wait(900);
+    }
+  }
+  stopHeart(); hideEntity(); breathBtn.classList.remove("on"); document.body.classList.remove("red");
+  await wait(900);
+  await say("It passed.");
+}
+
+/* ---------- puzzle 3: keypad ---------- */
+function puzzleKeypad() {
+  return new Promise(res => {
+    const pad = $("keypad"), disp = $("code"), keys = $("keys");
+    let entered = "", wrong = 0;
+    keys.innerHTML = "";
+    const mk = (label, fn) => { const b = document.createElement("button"); b.textContent = label; b.addEventListener("pointerdown", e => { e.preventDefault(); fn(); }); keys.appendChild(b); };
+    const render = () => disp.textContent = entered.padEnd(3, "·");
+    for (let n = 1; n <= 9; n++) mk(String(n), () => { if (entered.length < 3) { entered += n; render(); } });
+    mk("CLR", () => { entered = ""; render(); });
+    mk("0", () => { if (entered.length < 3) { entered += "0"; render(); } });
+    mk("OK", async () => {
+      if (entered === code.join("")) { pad.classList.remove("on"); res(); return; }
+      wrong++; entered = ""; render(); wrongTone(); vib([200, 60, 200]);
+      pad.classList.add("shake"); setTimeout(() => pad.classList.remove("shake"), 400); glitch(250);
+      if (wrong === 1) say("Wrong. It heard that.");
+      if (wrong === 3) sms("MARTA", "the first one was " + code[0] + ". hurry");
+    });
+    render(); pad.classList.add("on");
+  });
+}
+
+/* ---------- ending ---------- */
+async function ending() {
+  setDrone(.25, 2);
+  await say("Click.", 800); creak(); await wait(2200);
+  await flicker(5);
+  whisper(); await say("The door is open.", 1200);
+  document.body.classList.add("dark"); await wait(1500);
+  document.body.classList.remove("dark");
+  entity.classList.add("cut"); entity.classList.add("looking");
+  showEntity(50, 2.4); flash(70); stinger(1.6); scream(); vib([400, 60, 400, 60, 600]);
+  document.body.classList.add("glitching"); await wait(1500);
+  document.body.classList.remove("glitching"); hideEntity();
+  document.body.classList.add("dark"); setDrone(0, .5); await wait(1800);
+  cam.srcObject.getTracks().forEach(t => t.stop());
+  $("end").classList.remove("hidden");
+}
+
+/* ---------- flow ---------- */
+async function episode() {
+  t0 = performance.now();
+  await wait(1200);
+  await say("NOV 14 · 03:07 AM · APARTMENT 4B");
+  await say("Marta Vuk disappeared 9 days ago.");
+  await say("Her phone is still here. It keeps getting messages.", 2600);
+  await say("Walk slowly. Point the camera around. Don't stop recording.", 3000);
+  await wait(2500);
+  await flicker(3); whisper(); await say("...did you hear that?", 1600);
+  await wait(2200);
+  await sms("MARTA", "dont look at the mirror");
+  await wait(1500);
+  await peek(); await wait(1800);
+  await puzzleMarks();
+  await wait(2500);
+  await sms("MARTA", "it can hear you breathing");
+  await puzzleBreath();
+  await sms("MARTA", "the door is at the end of the hall. you saw the code");
+  await say("Enter the three numbers.", 500);
+  await puzzleKeypad();
+  await ending();
+}
+
+async function start() {
+  $("err").textContent = "";
+  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) throw new Error("This browser cannot access the camera. Open the game over https in Chrome or Safari.");
+  let stream;
+  try {
+    stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: { ideal: "environment" } }, audio: false });
+  } catch (e) {
+    console.error("camera error", e);
+    $("err").textContent = "Camera access is required to play. Allow the camera and press START again.";
+    return;
+  }
+  cam.srcObject = stream; await cam.play();
+  if (!ac) initAudio(); else await ac.resume();
+  if ("wakeLock" in navigator) navigator.wakeLock.request("screen").catch(e => console.error("wakeLock", e));
+  $("start").classList.add("hidden");
+  $("end").classList.add("hidden");
+  document.body.classList.remove("dark");
+  setDrone(.1, 2);
+  await episode();
+}
+
+$("startBtn").addEventListener("click", () => start().catch(e => { console.error(e); $("err").textContent = e.message; }));
+$("againBtn").addEventListener("click", () => start().catch(e => { console.error(e); $("end").classList.add("hidden"); $("start").classList.remove("hidden"); $("err").textContent = e.message; }));
+$("shareBtn").addEventListener("click", async () => {
+  await navigator.clipboard.writeText(location.href);
+  $("shareMsg").textContent = "LINK COPIED. SEND IT.";
+});
+</script>
+</body>
+</html>
