@@ -1,5 +1,51 @@
 [
   {
+    "slug": "brudvig-hockey-2027",
+    "title": "Brudvig Hockey 2027",
+    "studio": "Brudvig Hockey",
+    "studioUrl": "https://brudvighockey.com",
+    "added": "2026-11-14",
+    "short": "Free 3v3 arcade hockey in your browser: huge hits, breakaway goalies and a 32-team Challenge Cup.",
+    "description": "Brudvig Hockey 2027 is a free arcade hockey game that runs right in your browser: three on three, no penalties, huge body checks and a crowd that roars with every hit. Play the computer, run the 32-team Challenge Cup, challenge a friend online for up to eight players, or put the game on a TV with phones as controllers. No download and no account needed to play, just a free profile for the Challenge Cup.",
+    "instructions": "WASD or the arrow keys skate. Left click or K shoots (tap for a wrist shot, hold and release for a slap shot, or time it with an incoming pass for a one-timer). Right click or E passes or switches skater. Space, F or a double click throws a check (hold for a bigger hit). Q is a spin move with the puck or a poke check without it. Touch controls appear automatically on phones.",
+    "category": "sports",
+    "extraCats": [
+      "multiplayer",
+      "3d"
+    ],
+    "tags": [
+      "Hockey",
+      "Sports",
+      "Arcade",
+      "Multiplayer",
+      "3D"
+    ],
+    "embed": "https://brudvighockey.com/?ref=ilovewebgames",
+    "thumb": "https://brudvighockey.com/og/home.jpg?v=2",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "4wallpong",
+    "title": "4Wall Pong",
+    "studio": "Reflex Lab",
+    "studioUrl": "https://reflexlabgames.com",
+    "added": "2026-11-14",
+    "short": "Pong flipped inside out: steer all four walls at once and keep the ball alive as long as you can.",
+    "description": "4Wall Pong is a free single-player twist on Pong: the ball can leave on any of the four walls, so you steer four paddles at once to keep it in play. Every hit speeds the ball up by 1%, so a run gets harder the longer it survives. Chase a spot on the global Top 10 leaderboard. Free in your browser, no download and no account needed.",
+    "instructions": "On desktop, move the mouse or use the arrow keys / WASD to move all four paddles at once. On mobile, drag with your finger. Move a paddle as you hit the ball to change its bounce angle. One miss on any wall ends the run.",
+    "category": "arcade",
+    "tags": [
+      "Arcade",
+      "Pong",
+      "Reflex",
+      "Leaderboard",
+      "Casual"
+    ],
+    "embed": "https://4wallpong.com/?ref=ilovewebgames",
+    "thumb": "https://d2ol7oe51mr4n9.cloudfront.net/user_3JLdRz1yqQAdwZfQ4mguAawtgWv/15a79d1d-1f39-4a05-ad21-a65fd232e9d8.png",
+    "orientation": "landscape"
+  },
+  {
     "slug": "knockback",
     "title": "Knockback",
     "studio": "Knockback",
