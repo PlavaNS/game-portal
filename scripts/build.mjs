@@ -35,7 +35,9 @@ const trunc = (s, n) => {
   if (s.length <= n) return s;
   const cut = s.slice(0, n - 1);
   const end = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('! '), cut.lastIndexOf('? '));
-  return end >= n * 0.5 ? cut.slice(0, end + 1) : cut.replace(/\s+\S*$/, '') + '…';
+  if (end >= n * 0.5) return cut.slice(0, end + 1);
+  const words = cut.replace(/\s+\S*$/, '').replace(/[\s,;:-]+$/, '').replace(/(\s+(and|or|the|a|an|to|of|with|in|on|for|that|which|where|while|as|by|at|from|your|you|is|are))+$/i, '');
+  return words + '…';
 };
 // ---------------------------------------------------------------- languages
 // The site is built once per language. English keeps the paths it always had; every other
