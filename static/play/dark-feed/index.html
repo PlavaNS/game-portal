@@ -60,7 +60,7 @@ html,body{margin:0;height:100%;background:#000;overflow:hidden;font-family:"Cour
  <h3>THE RULES OF THE ROOM</h3>
  <h1>DARK FEED</h1>
  <p>Play in your own room, at night.<br>Headphones on. One small light on.<br>Hold the phone upright, camera facing the room.</p>
- <p style="font-size:12px;color:#555">Camera and microphone are used only on this device. Nothing is recorded or sent anywhere.</p>
+ <p style="font-size:12px;color:#555">The camera (and the microphone, from night 3) is used only on this device. Nothing is recorded or sent anywhere.</p>
  <button id="startBtn">BEGIN NIGHT 1</button>
  <button id="resetBtn" class="sub hidden">START OVER FROM NIGHT 1</button>
  <div id="locked">NIGHTS 4–10 · NOT YET RECORDED</div>
@@ -370,8 +370,6 @@ async function calibrate() {
   S.darkThr = Math.max(10, amb * .4);
   notesEl.textContent = "Now hold the phone still."; await sleep(900);
   const mf = await sample(() => S.motion, 3200); S.motionThr = Math.max(4, mf * 2.6, mf + 3);
-  notesEl.textContent = "And stay quiet."; await sleep(600);
-  const nf = await sample(() => S.noise, 2600); S.noiseThr = nf * 3 + .02;
   notesEl.style.opacity = 0; await sleep(800);
   if (!S.sensors) throw new Error("This game needs a phone with motion sensors. Open it on your phone.");
 }
@@ -408,7 +406,10 @@ const NIGHTS = [
     await rule(3, "If it breathes behind you, turn around. Fast.", "It hates being looked at.");
     await wander(4000, 7000); await behind(true);
     await freeze(4500, .5, false);
+    await openMic();
     await rule(4, "If it whispers, say nothing.", "It is asking for your name.");
+    notesEl.style.opacity = 1; notesEl.textContent = "Stay quiet. Let it hear the room."; await sleep(600);
+    const nf = await sample(() => S.noise, 2600); S.noiseThr = nf * 3 + .02; notesEl.style.opacity = 0; await sleep(700);
     await wander(3500, 6000); await whispering(7000, true);
     await wander(4000, 7000); await knocking(7000, false, true);
     await wander(700, 1200); await glimpse(6, .5, 600);
@@ -451,18 +452,28 @@ async function runNight(n) {
   }
 }
 
+const VIDEO = { facingMode: { ideal: "environment" } };
+// The microphone is only needed from night 3. One new stream with both tracks replaces the camera-only one
+// (a second separate stream can mute the first on iOS).
+async function openMic() {
+  if (micAn || S.manual) return;
+  let stream;
+  try { stream = await navigator.mediaDevices.getUserMedia({ video: VIDEO, audio: { echoCancellation: true, noiseSuppression: false, autoGainControl: false } }); }
+  catch (e) { console.error("microphone error", e); throw new Error("Night 3 needs the microphone (" + e.name + "). Allow it for this site and continue."); }
+  cam.srcObject.getTracks().forEach(t => t.stop()); cam.srcObject = stream; await cam.play();
+  micAn = ac.createAnalyser(); micAn.fftSize = 1024; micData = new Float32Array(1024); ac.createMediaStreamSource(stream).connect(micAn);
+}
 async function start(n) {
   $("err").textContent = "";
   if (!ac) initAudio(); ac.resume();
   const perms = [window.DeviceMotionEvent, window.DeviceOrientationEvent].filter(E => E && E.requestPermission).map(E => E.requestPermission());
   if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) throw new Error("This browser cannot open the camera. Use Chrome or Safari over https.");
-  if ((await Promise.all(perms)).some(p => p !== "granted")) throw new Error("Motion access is needed. Allow it and try again.");
+  await Promise.all(perms).catch(e => console.warn("motion permission", e));
   if (!cam.srcObject) {
     let stream;
-    try { stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: { ideal: "environment" } }, audio: { echoCancellation: true, noiseSuppression: false, autoGainControl: false } }); }
-    catch (e) { console.error("media error", e); throw new Error("Camera and microphone are needed to play. Allow both and try again."); }
+    try { stream = await navigator.mediaDevices.getUserMedia({ video: VIDEO, audio: false }); }
+    catch (e) { console.error("camera error", e); throw new Error("The camera did not open (" + e.name + "). Allow the camera for this site and try again."); }
     cam.srcObject = stream; await cam.play();
-    micAn = ac.createAnalyser(); micAn.fftSize = 1024; micData = new Float32Array(1024); ac.createMediaStreamSource(stream).connect(micAn);
   }
   if ("wakeLock" in navigator) navigator.wakeLock.request("screen").catch(e => console.warn("wakeLock", e));
   running = true; $("menu").classList.add("hidden");
