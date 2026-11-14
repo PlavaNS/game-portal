@@ -336,6 +336,9 @@ for (const g of games) {
   usedSlugs.add(s); g.slug = s; g.cats = catsFor(g);
 }
 const all = [...ours, ...games];
+// 14.11.2026: marketing copy says "10,000+" (floor to the nearest thousand) instead of the exact,
+// slightly-fluctuating live count, to match the "Top 10,000" positioning without ever overclaiming.
+const roundedCount = Math.floor(all.length / 1000) * 1000;
 // game index for scripts/write-guides.mjs (not deployed; .cache/ is gitignored)
 try {
   fs.mkdirSync(path.join(ROOT, '.cache'), { recursive: true });
@@ -516,7 +519,7 @@ ${bodyClass.includes('home') ? '' : `<section class="row cat-grid-wrap"><div cla
 </main>
 </div>
 <footer class="foot">
-  <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.slogan)} ${all.length.toLocaleString('en-US')}+ ${esc(tr('free web games — no downloads, no sign-up.'))}</p>
+  <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.slogan)} ${roundedCount.toLocaleString('en-US')}+ ${esc(tr('free web games — no downloads, no sign-up.'))}</p>
   <p><a href="${ur('/about/')}">${esc(tr('About'))}</a> · <a href="${ur('/contact/')}">${esc(tr('Contact'))}</a> · <a href="${ur('/faq/')}">FAQ</a> · <a href="${u('/tags/')}">${esc(tr('All tags'))}</a> &middot; <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> · <a href="${ur('/badge/')}">Badges for developers</a> · <a href="${ur('/publish-html5-game/')}">Where to publish your HTML5 game</a> · <a href="${ur('/privacy/')}">${esc(tr('Privacy Policy'))}</a> · <a href="${ur('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
   ${langsHere.length > 1 ? `<p class="foot-langs">${langsHere.map(l => l === LANG ? `<strong>${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</strong>` : `<a href="${esc(absIn(l, altPath))}" hreflang="${esc(l)}">${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</a>`).join(' · ')}</p>` : ''}
   <p class="foot-topics">${topics.filter(t => LANG === 'en' || (CATTR[LANG] || {})['topic:' + t.slug]).slice(0, 14).map(t => `<a href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join(' · ')}</p>
@@ -650,7 +653,7 @@ function emitContent() {
     const bnTrend = banner('bn-trend', u('/popular/'), tr('Trending now'), tr('The games everyone is opening today'), top('hot', 4));
     const bnPop = banner('bn-pop', u('/popular/'), tr('Popular games'), tr('Played the most on our site'), mostPlayed(4));
     const bnNew = banner('bn-new', u('/new/'), tr('New games'), tr('Added in the last few days'), newestOnSite(4));
-    const bnCats = banner('bn-cats', u('/all/'), tr('Browse by category'), `${activeCats.length} ${tr('categories')} · ${all.length.toLocaleString(LANG === 'en' ? 'en-US' : LANG)} ${tr('games')}`, activeCats.slice(0, 4).map(c => byCat[c.slug][0]).filter(Boolean));
+    const bnCats = banner('bn-cats', u('/all/'), tr('Browse by category'), `${activeCats.length} ${tr('categories')} · ${roundedCount.toLocaleString(LANG === 'en' ? 'en-US' : LANG)} ${tr('games')}`, activeCats.slice(0, 4).map(c => byCat[c.slug][0]).filter(Boolean));
     const duoArt = slug => `<img class="duo-art" src="${B}/assets/cat/${slug}.svg" alt="" width="200" height="200" loading="lazy" decoding="async">`;
     const duo = (cls, title, a, b) => `<div class="duo ${cls}"><div class="duo-h"><b>${esc(title)}</b></div><div class="duo-opts"><a href="${a[1]}">${duoArt(a[2])}<span>${esc(a[0])}</span><em>${esc(tr('Explore'))}</em></a><a href="${b[1]}">${duoArt(b[2])}<span>${esc(b[0])}</span><em>${esc(tr('Explore'))}</em></a></div></div>`;
     const newsItems = [...all.filter(g => g.community), ...newestOnSite(12)]
@@ -669,7 +672,7 @@ function emitContent() {
     ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), 'kids'], [tr('Casual games'), cHref('casual'), 'hypercasual'])}
   </div>`;
     const body = `<section class="trio">
-  <header class="welcome trio-head"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${all.length.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
+  <header class="welcome trio-head"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${roundedCount.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
   ${gotd}${gotw}${gotm}</section>
   ${bnOwn}
   ${grid(ours)}
@@ -694,7 +697,7 @@ function emitContent() {
   <section class="seo-text about-site">
     <div class="as-head">${ICON_SVG}<div><h2>${esc(tr('Play free online games on'))} ${esc(cfg.name)}</h2><p class="as-sub">${esc(tr('Hand-picked browser games, playable the second you click. No downloads, no sign-up.'))}</p></div></div>
     <div class="as-cols">
-      <div><h3>${all.length.toLocaleString('en-US')}+ ${esc(tr('free games, in one place'))}</h3><p>${esc(cfg.name)} ${esc(tr('is a curated collection of free HTML5 and WebGL games that run straight in your browser, on a computer, a tablet or a phone. There is nothing to install and no account to make: you click a game and it starts.'))}</p></div>
+      <div><h3>${roundedCount.toLocaleString('en-US')}+ ${esc(tr('free games, in one place'))}</h3><p>${esc(cfg.name)} ${esc(tr('is a curated collection of free HTML5 and WebGL games that run straight in your browser, on a computer, a tablet or a phone. There is nothing to install and no account to make: you click a game and it starts.'))}</p></div>
       <div><h3>${esc(tr('Every kind of game'))}</h3><p>${activeCats.slice(0, 8).map(c => `<a href="${cHref(c.slug)}">${esc((catTr(c.slug) || {}).name || c.name)}</a>`).join(', ')} ${esc(tr('and more, plus themed collections like'))} ${topics.slice(0, 4).map(t => `<a href="${tHref(t.slug)}">${esc(((catTr('topic:' + t.slug) || {}).h1 || t.h1).replace(/ Games$/i, ''))}</a>`).join(', ')}. ${esc(tr('Browse the full list on the'))} <a href="${u('/tags/')}">${esc(tr('tags page'))}</a>.</p></div>
       <div><h3>${esc(tr('New games every day'))}</h3><p>${esc(tr('The catalogue refreshes itself daily from our distribution partners, and independent developers send us games directly. Everything new lands on the'))} <a href="${u('/new/')}">${esc(tr('New games'))}</a> ${esc(tr('page, and the busiest titles end up in'))} <a href="${u('/popular/')}">${esc(tr('Most played'))}</a>.</p></div>
       <div><h3>${esc(tr('Made by a real studio'))}</h3><p>${esc(tr('The site is run by'))} ${esc(cfg.studio)}, ${esc(tr('an escape room and game studio from Novi Sad, Serbia. We build our own games too'))} &mdash; <a href="${ur('/our-games/')}">${ours.map(o => esc(o.title)).join(', ')}</a> &mdash; ${esc(tr('and a real person plays every game sent in by a developer before it goes live.'))}</p></div>
@@ -704,12 +707,12 @@ function emitContent() {
   </section>`;
     write('index.html', layout({
       title: `${cfg.name} — ${tr('Free Online Games, Play Instantly')}`,
-      desc: `${tr(cfg.slogan)} ${tr('Play')} ${all.length.toLocaleString('en')}+ ${tr('free online games: action, puzzle, racing, 2 player, clicker and more. No downloads, works on PC & mobile.')}`,
+      desc: `${tr(cfg.slogan)} ${tr('Play')} ${roundedCount.toLocaleString('en')}+ ${tr('free online games: action, puzzle, racing, 2 player, clicker and more. No downloads, works on PC & mobile.')}`,
       canonical: abs('/'), body, bodyClass: 'home', preload: gotdImg, altPath: '/', altLangs: LANGS.filter(l => Object.keys(UI[l.code] || {}).length >= 20).map(l => l.code),
       jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.name, alternateName: cfg.name.replace(/\s+/g, ''), url: abs('/'), potentialAction: { '@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
         { '@context': 'https://schema.org', '@type': 'Organization', '@id': abs('/#organization'), name: cfg.name, alternateName: cfg.shortName, url: abs('/'),
           logo: { '@type': 'ImageObject', url: abs('/assets/icon-512.png'), width: 512, height: 512 }, image: abs('/assets/og.png'),
-          description: `${cfg.name} is a free HTML5 game portal with ${all.length.toLocaleString('en-US')}+ browser games you can play instantly on desktop and mobile, with no downloads and no sign-up.`,
+          description: `${cfg.name} is a free HTML5 game portal with ${roundedCount.toLocaleString('en-US')}+ browser games you can play instantly on desktop and mobile, with no downloads and no sign-up.`,
           slogan: cfg.slogan, email: cfg.contactEmail,
           contactPoint: { '@type': 'ContactPoint', contactType: 'customer support', email: cfg.contactEmail, availableLanguage: ['English'] },
           foundingDate: '2026', areaServed: 'Worldwide',
@@ -1262,7 +1265,7 @@ write('404.html', layout({ title: `Page not found | ${cfg.name}`, desc: 'Page no
   const line = g => `- [${g.title}](${abs(gHref(g).replace(B, ''))}): ${(g.short || '').replace(/\s+/g, ' ')}`;
   write('llms.txt', `# ${cfg.name}
 
-> ${cfg.name} (${cfg.url}) is a free HTML5 game portal with ${all.length.toLocaleString('en-US')}+ browser games that play instantly on desktop, tablet and phone, with no downloads and no sign-up. It is run by ${cfg.studio}, an escape room and game studio from Novi Sad, Serbia. Independent developers can submit their own HTML5 games for free.
+> ${cfg.name} (${cfg.url}) is a free HTML5 game portal with ${roundedCount.toLocaleString('en-US')}+ browser games that play instantly on desktop, tablet and phone, with no downloads and no sign-up. It is run by ${cfg.studio}, an escape room and game studio from Novi Sad, Serbia. Independent developers can submit their own HTML5 games for free.
 
 ## For players
 - [All games](${abs('/all/')}): the full catalogue
