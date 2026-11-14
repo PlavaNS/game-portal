@@ -5,416 +5,476 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
 <meta name="theme-color" content="#000000">
 <meta name="robots" content="noindex,nofollow">
-<title>DARK FEED – Episode 1: Apartment 4B</title>
+<title>DARK FEED – The Rules of the Room</title>
 <style>
 *{box-sizing:border-box;-webkit-tap-highlight-color:transparent;user-select:none;-webkit-user-select:none;touch-action:none}
-html,body{margin:0;height:100%;background:#000;overflow:hidden;font-family:"Courier New",ui-monospace,monospace;color:#bfffd0}
-#cam{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;
-  filter:grayscale(1) contrast(1.45) brightness(.78) sepia(.6) hue-rotate(65deg) saturate(2.2);
-  transition:filter .08s}
-body.dark #cam{filter:grayscale(1) contrast(1.2) brightness(.05)}
-body.red #cam{filter:grayscale(1) contrast(1.5) brightness(.75) sepia(1) hue-rotate(-30deg) saturate(4)}
-body.glitching #cam,body.glitching #entity{animation:gl .11s steps(2) infinite}
-@keyframes gl{0%{transform:translate(-6px,2px) scale(1.03);filter:grayscale(1) contrast(2) brightness(1.2) hue-rotate(120deg)}
- 50%{transform:translate(8px,-3px) scale(1.05);filter:grayscale(0) contrast(1.8) brightness(.9) hue-rotate(250deg) saturate(3)}
- 100%{transform:translate(-3px,-2px) scale(1.02)}}
-#noise{position:fixed;inset:0;width:100%;height:100%;image-rendering:pixelated;opacity:.22;pointer-events:none;mix-blend-mode:screen}
-#vig{position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse at center,transparent 35%,rgba(0,0,0,.85) 100%)}
-#scan{position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.18) 0 1px,transparent 1px 3px)}
-#hud{position:fixed;top:max(12px,env(safe-area-inset-top));left:14px;right:14px;display:flex;justify-content:space-between;font-size:13px;letter-spacing:1px;text-shadow:0 0 6px #000;pointer-events:none}
-#rec b{color:#f22;animation:bl 1s steps(2) infinite}
+html,body{margin:0;height:100%;background:#000;overflow:hidden;font-family:"Courier New",ui-monospace,monospace;color:#cfd6d0}
+#cam{position:fixed;width:2px;height:2px;opacity:0;pointer-events:none}
+#view{position:fixed;inset:0;width:100%;height:100%;object-fit:cover;filter:grayscale(1) contrast(1.3) brightness(.82)}
+#tint{position:fixed;inset:0;background:#93b3a0;mix-blend-mode:multiply;pointer-events:none}
+#noise{position:fixed;inset:0;width:100%;height:100%;image-rendering:pixelated;opacity:.16;pointer-events:none;mix-blend-mode:screen}
+#scan{position:fixed;inset:0;pointer-events:none;background:repeating-linear-gradient(0deg,rgba(0,0,0,.16) 0 1px,transparent 1px 3px)}
+#vig{position:fixed;inset:0;pointer-events:none;background:radial-gradient(ellipse at center,transparent 38%,rgba(0,0,0,.88) 100%)}
+#danger{position:fixed;inset:0;pointer-events:none;opacity:0;background:radial-gradient(ellipse at center,transparent 45%,rgba(150,0,0,.9) 100%)}
+#black{position:fixed;inset:0;background:#000;opacity:0;pointer-events:none;transition:opacity .5s}
+#hud{position:fixed;top:max(12px,env(safe-area-inset-top));left:14px;right:14px;display:flex;justify-content:space-between;font-size:12px;letter-spacing:1px;text-shadow:0 0 5px #000;pointer-events:none}
+#dot{color:#e22}
+#dot.live{animation:bl 1s steps(2) infinite}
 @keyframes bl{50%{opacity:0}}
-#entity{position:fixed;bottom:-2vh;left:50%;height:78vh;aspect-ratio:1/3;opacity:0;pointer-events:none;
-  transform-origin:bottom center;transform:translateX(-50%) scale(var(--s,.5));transition:opacity .12s,transform 1.6s ease-in}
-#entity svg{width:100%;height:100%;filter:drop-shadow(0 0 4px rgba(170,255,190,.55))}
-#entity .eyes{opacity:0;transition:opacity .15s}
-#entity.looking .eyes{opacity:1}
-#entity.cut{transition:opacity .12s}
-#marks{position:fixed;inset:0;pointer-events:none}
-.mark{position:absolute;width:92px;height:92px;margin:-46px 0 0 -46px;display:flex;align-items:center;justify-content:center;
-  font-size:58px;color:#ff3b3b;text-shadow:0 0 14px #f00,0 0 30px #900;opacity:0;transition:opacity .2s;pointer-events:auto;font-family:serif}
-.mark.on{opacity:.95;animation:pulse .5s ease-in-out infinite alternate}
-@keyframes pulse{to{transform:scale(1.15)}}
-#digit{position:fixed;inset:0;display:flex;align-items:center;justify-content:center;font-size:30vw;color:#ff3b3b;text-shadow:0 0 30px #f00;opacity:0;pointer-events:none;font-family:serif;transition:opacity .25s}
-#digit.on{opacity:.9}
-#log{position:fixed;left:14px;right:14px;bottom:max(24px,env(safe-area-inset-bottom));display:flex;flex-direction:column;gap:6px;pointer-events:none;font-size:15px;text-shadow:0 0 6px #000,0 0 3px #000}
-#log div{transition:opacity 1.2s;background:rgba(0,0,0,.35);padding:3px 6px;align-self:flex-start;max-width:92%}
-#sms{position:fixed;top:max(44px,calc(env(safe-area-inset-top) + 32px));left:12px;right:12px;transform:translateY(-140%);transition:transform .35s;
-  background:rgba(15,15,15,.92);border:1px solid #333;border-radius:12px;padding:10px 14px;pointer-events:none;font-family:system-ui,sans-serif;color:#fff}
-#sms.on{transform:none}
-#sms small{display:block;color:#8f8;font-size:11px;letter-spacing:1px;margin-bottom:2px}
-#sms span{font-size:16px}
-#breath{position:fixed;left:50%;bottom:max(90px,calc(env(safe-area-inset-bottom) + 76px));transform:translateX(-50%);width:170px;height:170px;border-radius:50%;
-  border:2px solid #bfffd0;background:rgba(0,40,20,.35);color:#bfffd0;font:700 15px "Courier New",monospace;letter-spacing:1px;display:none;align-items:center;justify-content:center;text-align:center;touch-action:none}
-#breath.on{display:flex}
-#breath.held{background:rgba(120,255,170,.45);color:#000}
-#keypad{position:fixed;left:50%;top:50%;transform:translate(-50%,-50%);width:min(88vw,330px);background:rgba(0,12,6,.88);border:1px solid #3c6;padding:16px;display:none;text-align:center}
-#keypad.on{display:block}
-#keypad.shake{animation:sh .35s}
-@keyframes sh{25%{transform:translate(-46%,-50%)}75%{transform:translate(-54%,-50%)}}
-#keypad h2{margin:0 0 10px;font-size:14px;letter-spacing:2px;font-weight:400}
-#code{font-size:38px;letter-spacing:14px;height:50px;color:#fff;margin-bottom:8px}
-#keys{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
-#keys button{height:54px;font:700 22px "Courier New",monospace;background:#0a2216;color:#bfffd0;border:1px solid #3c6;border-radius:6px}
-#keys button:active{background:#3c6;color:#000}
-#flash{position:fixed;inset:0;background:#fff;opacity:0;pointer-events:none}
-.screen{position:fixed;inset:0;background:#000;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:24px;gap:16px;z-index:10}
-.screen h1{font-size:44px;letter-spacing:6px;margin:0;color:#e33;text-shadow:0 0 18px #800}
-.screen h3{margin:0;font-weight:400;letter-spacing:3px;font-size:14px;color:#8fb}
-.screen p{margin:0;max-width:320px;line-height:1.5;font-size:14px;color:#9b9}
-.screen button{font:700 18px "Courier New",monospace;letter-spacing:3px;padding:14px 34px;background:#000;color:#e33;border:2px solid #e33;border-radius:4px;margin-top:6px}
-.screen button:active{background:#e33;color:#000}
-#err{color:#f66;font-size:14px;max-width:320px}
+#strikes{letter-spacing:3px;color:#e44}
+#hint{position:fixed;left:0;right:0;top:22%;text-align:center;font-size:13px;letter-spacing:3px;color:#fff;text-shadow:0 0 8px #000,0 0 3px #000;pointer-events:none;opacity:0;transition:opacity .25s}
+#hint.on{opacity:.9}
+#notes{position:fixed;left:18px;right:18px;bottom:max(34px,calc(env(safe-area-inset-bottom) + 20px));font:italic 18px/1.4 Georgia,"Times New Roman",serif;color:#eee;text-shadow:0 0 8px #000,0 0 3px #000,0 1px 2px #000;pointer-events:none;min-height:3em;transition:opacity .9s}
+#rule{position:fixed;inset:0;background:rgba(0,0,0,.93);display:none;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:28px;gap:18px;pointer-events:none}
+#rule.on{display:flex}
+#rule small{letter-spacing:6px;color:#a33;font-size:13px}
+#rule b{font:700 23px/1.35 Georgia,serif;color:#eee;max-width:330px}
+#rule i{font:italic 15px Georgia,serif;color:#888;max-width:300px}
+.screen{position:fixed;inset:0;background:#000;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;padding:26px;gap:15px;z-index:10}
+.screen h1{font:700 42px Georgia,serif;letter-spacing:5px;margin:0;color:#ddd}
+.screen h3{margin:0;font-weight:400;letter-spacing:4px;font-size:12px;color:#a33}
+.screen p{margin:0;max-width:320px;line-height:1.55;font:15px Georgia,serif;color:#999}
+.screen button{font:700 15px "Courier New",monospace;letter-spacing:3px;padding:14px 26px;background:#000;color:#ddd;border:1px solid #777;border-radius:2px;margin-top:6px;touch-action:manipulation}
+.screen button:active{background:#ddd;color:#000}
+.screen button.sub{border-color:#333;color:#777;font-size:12px;padding:10px 18px}
+#locked{font-size:11px;letter-spacing:2px;color:#444}
+#err{color:#e66;font:14px Georgia,serif;max-width:320px}
 .hidden{display:none!important}
 </style>
 </head>
 <body>
 <video id="cam" playsinline muted autoplay></video>
+<canvas id="view"></canvas>
+<div id="tint"></div>
 <canvas id="noise"></canvas>
 <div id="scan"></div>
 <div id="vig"></div>
+<div id="danger"></div>
+<div id="black"></div>
+<div id="hud"><div><span id="dot" class="live">●</span> REC <span id="clock">03:07:00</span></div><div><span id="night"></span> <span id="strikes"></span></div></div>
+<div id="hint"></div>
+<div id="notes"></div>
+<div id="rule"><small id="ruleN"></small><b id="ruleT"></b><i id="ruleS"></i></div>
 
-<div id="entity">
-<svg viewBox="0 0 100 300" preserveAspectRatio="xMidYMax meet">
- <ellipse cx="50" cy="34" rx="15" ry="19" fill="#000"/>
- <rect x="46" y="50" width="8" height="18" fill="#000"/>
- <path d="M30 66 Q50 58 70 66 L66 170 L58 170 L60 290 L52 290 L50 190 L48 290 L40 290 L42 170 L34 170 Z" fill="#000"/>
- <path d="M30 70 Q14 130 20 250 L25 250 Q26 150 36 100 Z" fill="#000"/>
- <path d="M70 70 Q86 130 80 250 L75 250 Q74 150 64 100 Z" fill="#000"/>
- <g class="eyes"><circle cx="44" cy="32" r="3.2" fill="#ff2a2a"/><circle cx="57" cy="32" r="3.2" fill="#ff2a2a"/></g>
-</svg>
-</div>
-
-<div id="marks"></div>
-<div id="digit"></div>
-<div id="hud"><div id="rec"><b>●</b> REC <span id="clock">00:00:00</span></div><div>CAM 1 · NIGHT</div></div>
-<div id="log"></div>
-<div id="sms"><small id="smsFrom"></small><span id="smsText"></span></div>
-<button id="breath">HOLD<br>YOUR<br>BREATH</button>
-
-<div id="keypad">
- <h2>DOOR LOCK · 3 DIGITS</h2>
- <div id="code"></div>
- <div id="keys"></div>
-</div>
-<div id="flash"></div>
-
-<div class="screen" id="start">
- <h3>EPISODE 1</h3>
+<div class="screen" id="menu">
+ <h3>THE RULES OF THE ROOM</h3>
  <h1>DARK FEED</h1>
- <h3>APARTMENT 4B</h3>
- <p>Put on headphones. Turn off the lights.<br>The camera is never recorded or uploaded.</p>
- <button id="startBtn">START</button>
+ <p>Play in your own room, at night.<br>Headphones on. One small light on.<br>Hold the phone upright, camera facing the room.</p>
+ <p style="font-size:12px;color:#555">Camera and microphone are used only on this device. Nothing is recorded or sent anywhere.</p>
+ <button id="startBtn">BEGIN NIGHT 1</button>
+ <button id="resetBtn" class="sub hidden">START OVER FROM NIGHT 1</button>
+ <div id="locked">NIGHTS 4–10 · NOT YET RECORDED</div>
  <div id="err"></div>
 </div>
 
 <div class="screen hidden" id="end">
- <h3>END OF EPISODE 1</h3>
- <p>Marta was never missing.<br>She was the one holding the camera.<br><br>Now the camera is yours.</p>
- <button id="againBtn">AGAIN</button>
- <button id="shareBtn">DARE A FRIEND</button>
- <h3 id="shareMsg"></h3>
+ <h3 id="endH"></h3>
+ <p id="endP"></p>
+ <button id="endBtn"></button>
 </div>
 
 <script>
 "use strict";
 const $ = id => document.getElementById(id);
-const wait = ms => new Promise(r => setTimeout(r, ms));
+const DEBUG = new URLSearchParams(location.search).has("debug");
+const SPEED = DEBUG ? 6 : 1;
+const raw = ms => new Promise(r => setTimeout(r, ms));
+const sleep = ms => raw(ms / SPEED);
 const rnd = (a, b) => a + Math.random() * (b - a);
+const now = () => performance.now();
 const vib = p => navigator.vibrate && navigator.vibrate(p);
+const median = a => a.slice().sort((x, y) => x - y)[Math.floor(a.length / 2)];
+const LAST_NIGHT = 3;
+const CAUGHT = Symbol("caught");
 
-/* ---------- audio ---------- */
-let ac, master, noiseBuf, heartTimer = null, heartBpm = 60, droneGain;
+/* ---------- sensors ---------- */
+const S = { motion: 0, lum: 80, noise: 0, yaw: 0, faceDown: false, sensors: DEBUG,
+            motionThr: 6, darkThr: 30, noiseThr: .05, cols: new Array(32).fill(0), manual: DEBUG };
+const G = { task: null, strikes: 0, night: 1, meter: null };
+const isStill = () => S.motion < S.motionThr;
+const isDark = () => S.lum < S.darkThr;
+const isQuiet = () => S.noise < S.noiseThr;
 
+let lastMotionT = 0;
+addEventListener("devicemotion", e => {
+  const r = e.rotationRate, g = e.accelerationIncludingGravity;
+  if (!r || !g || r.alpha === null || g.x === null) return;
+  const t = now(), dt = lastMotionT ? Math.min(.1, (t - lastMotionT) / 1000) : 0; lastMotionT = t;
+  const m = Math.hypot(g.x, g.y, g.z) || 1;
+  if (!S.manual) S.yaw += (r.beta * g.x + r.gamma * g.y + r.alpha * g.z) / m * dt;
+  S.sensors = true;
+});
+addEventListener("deviceorientation", e => { if (e.beta !== null && !S.manual) S.faceDown = Math.abs(e.beta) > 140; });
+
+/* ---------- video pipeline ---------- */
+const W = 360, H = 640;
+const cam = $("cam"), view = $("view"), vctx = view.getContext("2d");
+view.width = W; view.height = H;
+const mk = (w, h) => { const c = document.createElement("canvas"); c.width = w; c.height = h; return c; };
+const live = mk(W, H), lctx = live.getContext("2d");
+const ana = mk(32, 24), actx = ana.getContext("2d", { willReadFrequently: true });
+const RING = 45, ring = Array.from({ length: RING }, () => ({ c: mk(180, 320), t: 0 }));
+let ringI = 0, prevLum = null;
+const feed = { still: null, frozen: false, tear: false };
+let clockMs = 0, lastFrame = 0, running = false;
+
+function sampleFrame() {
+  if (!running) return;
+  const r = ring[ringI = (ringI + 1) % RING]; r.c.getContext("2d").drawImage(live, 0, 0, 180, 320); r.t = now();
+  actx.drawImage(live, 0, 0, 32, 24);
+  const d = actx.getImageData(0, 0, 32, 24).data, lum = new Float32Array(768), cols = new Array(32).fill(0);
+  let sum = 0, diff = 0;
+  for (let i = 0; i < 768; i++) { const v = d[i * 4] * .3 + d[i * 4 + 1] * .59 + d[i * 4 + 2] * .11; lum[i] = v; sum += v; cols[i % 32] += v / 24; if (prevLum) diff += Math.abs(v - prevLum[i]); }
+  prevLum = lum; S.cols = cols;
+  if (!S.manual) { S.lum = sum / 768; S.motion = S.motion * .4 + diff / 768 * .6; }
+}
+setInterval(sampleFrame, 180);
+
+function past(sec) {
+  const target = now() - sec * 1000; let best = null;
+  for (const r of ring) if (r.t && (!best || Math.abs(r.t - target) < Math.abs(best.t - target))) best = r;
+  return best.c;
+}
+function snapshot(src = live) { const c = mk(W, H); c.getContext("2d").drawImage(src, 0, 0, W, H); return c; }
+function darkestX() {
+  let best = 0, bv = Infinity;
+  for (let i = 3; i < 29; i++) { const v = S.cols[i - 1] + S.cols[i] + S.cols[i + 1]; if (v < bv) { bv = v; best = i; } }
+  return (best + .5) / 32 * W;
+}
+// A vague dark presence painted into a real frame of the player's room. Never shown on the live feed.
+// Drawn tiny and scaled up, so it has no edges: more a missing piece of the picture than a figure.
+const sprite = mk(26, 60);
+(() => {
+  const x = sprite.getContext("2d"); x.fillStyle = "#000";
+  x.beginPath(); x.ellipse(13.6, 8, 3.6, 5, .1, 0, 7); x.fill();
+  x.beginPath(); x.moveTo(11.5, 12); x.quadraticCurveTo(5, 14, 5.5, 22); x.lineTo(4.5, 60); x.lineTo(21.5, 60); x.lineTo(20.5, 22); x.quadraticCurveTo(21, 14, 15.5, 12); x.fill();
+  const g = x.createLinearGradient(0, 0, 0, 60); g.addColorStop(0, "#000"); g.addColorStop(.45, "#000"); g.addColorStop(.95, "rgba(0,0,0,0)");
+  x.globalCompositeOperation = "destination-in"; x.fillStyle = g; x.fillRect(0, 0, 26, 60);
+})();
+function drawShape(c, scale, alpha, cx = darkestX()) {
+  const x = c.getContext("2d"), h = H * scale, w = h * 26 / 60, top = H * (.5 - scale * .22);
+  x.save(); x.imageSmoothingEnabled = true; x.imageSmoothingQuality = "high"; x.globalAlpha = alpha;
+  x.drawImage(sprite, cx - w / 2, top, w, h); x.restore();
+}
+
+function render(t) {
+  if (running) {
+    if (cam.readyState >= 2) {
+      const s = Math.max(W / cam.videoWidth, H / cam.videoHeight), dw = cam.videoWidth * s, dh = cam.videoHeight * s;
+      lctx.drawImage(cam, (W - dw) / 2, (H - dh) / 2, dw, dh);
+    }
+    const src = feed.still || live;
+    if (feed.tear) { for (let y = 0; y < H; y += 20) vctx.drawImage(src, 0, y, W, 20, rnd(-28, 28), y, W, 20); }
+    else vctx.drawImage(src, 0, 0);
+    if (!feed.frozen) clockMs += t - lastFrame;
+    const s = Math.floor(clockMs / 1000);
+    $("clock").textContent = [3 + Math.floor(s / 3600), Math.floor(s / 60) % 60, s % 60].map(v => String(v).padStart(2, "0")).join(":");
+    $("danger").style.opacity = G.meter ? Math.max(0, Math.min(1, G.meter())) * .75 : 0;
+  }
+  lastFrame = t; requestAnimationFrame(render);
+}
+requestAnimationFrame(render);
+
+const noiseC = $("noise"), nctx = noiseC.getContext("2d"); noiseC.width = 90; noiseC.height = 160;
+setInterval(() => {
+  const img = nctx.createImageData(90, 160), d = img.data;
+  for (let i = 0; i < d.length; i += 4) { d[i] = d[i + 1] = d[i + 2] = Math.random() * 255; d[i + 3] = 255; }
+  nctx.putImageData(img, 0, 0);
+}, 70);
+
+/* ---------- audio (all generated, placed in 3D with room reverb) ---------- */
+let ac, master, wet, noiseBuf, roomGain, micAn, micData;
 function initAudio() {
   ac = new (window.AudioContext || window.webkitAudioContext)();
-  master = ac.createGain(); master.gain.value = .9; master.connect(ac.destination);
+  master = ac.createGain(); master.gain.value = 1; master.connect(ac.destination);
   noiseBuf = ac.createBuffer(1, ac.sampleRate * 2, ac.sampleRate);
-  const d = noiseBuf.getChannelData(0);
-  for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
-  droneGain = ac.createGain(); droneGain.gain.value = 0; droneGain.connect(master);
-  const lp = ac.createBiquadFilter(); lp.type = "lowpass"; lp.frequency.value = 200; lp.connect(droneGain);
-  [55, 55.7, 82.4].forEach(f => { const o = ac.createOscillator(); o.type = "sawtooth"; o.frequency.value = f; o.connect(lp); o.start(); });
-  const lfo = ac.createOscillator(), lg = ac.createGain(); lfo.frequency.value = .08; lg.gain.value = 90; lfo.connect(lg); lg.connect(lp.frequency); lfo.start();
-  droneGain.gain.linearRampToValueAtTime(.1, ac.currentTime + 4);
+  const d = noiseBuf.getChannelData(0); for (let i = 0; i < d.length; i++) d[i] = Math.random() * 2 - 1;
+  const ir = ac.createBuffer(2, ac.sampleRate * 1.7, ac.sampleRate);
+  for (let ch = 0; ch < 2; ch++) { const b = ir.getChannelData(ch); let lp = 0; for (let i = 0; i < b.length; i++) { lp += ((Math.random() * 2 - 1) - lp) * .35; b[i] = lp * Math.exp(-i / ac.sampleRate * 3.4); } }
+  const conv = ac.createConvolver(); conv.buffer = ir; wet = ac.createGain(); wet.gain.value = .55; wet.connect(conv); conv.connect(master);
+  roomGain = ac.createGain(); roomGain.gain.value = 0; roomGain.connect(master);
+  const hum = ac.createOscillator(); hum.frequency.value = 50; const hg = ac.createGain(); hg.gain.value = .02; hum.connect(hg); hg.connect(roomGain); hum.start();
+  const air = ac.createBufferSource(); air.buffer = noiseBuf; air.loop = true; const af = ac.createBiquadFilter(); af.type = "lowpass"; af.frequency.value = 260;
+  const ag = ac.createGain(); ag.gain.value = .05; air.connect(af); af.connect(ag); ag.connect(roomGain); air.start();
 }
-function setDrone(v, t = 2) { droneGain.gain.linearRampToValueAtTime(v, ac.currentTime + t); }
-
-function noise(dur, type, f0, f1, q, vol) {
+function room(on) { roomGain.gain.cancelScheduledValues(ac.currentTime); roomGain.gain.setTargetAtTime(on ? 1 : 0, ac.currentTime, on ? .6 : .015); }
+function spot(x, z) { // listener looks toward -z; +z is behind the player
+  const p = ac.createPanner(); p.panningModel = "HRTF"; p.distanceModel = "inverse"; p.refDistance = 1; p.rolloffFactor = 1;
+  p.setPosition(x, 0, z); p.connect(master); p.connect(wet); return p;
+}
+function burst(dest, t, dur, type, freq, q, vol, attack = .004) {
   const s = ac.createBufferSource(); s.buffer = noiseBuf; s.loop = true;
-  const f = ac.createBiquadFilter(); f.type = type; f.Q.value = q;
-  f.frequency.setValueAtTime(f0, ac.currentTime); f.frequency.exponentialRampToValueAtTime(f1, ac.currentTime + dur);
-  const g = ac.createGain(); g.gain.setValueAtTime(0, ac.currentTime);
-  g.gain.linearRampToValueAtTime(vol, ac.currentTime + dur * .25); g.gain.linearRampToValueAtTime(0, ac.currentTime + dur);
-  s.connect(f); f.connect(g); g.connect(master); s.start(); s.stop(ac.currentTime + dur + .1);
+  const f = ac.createBiquadFilter(); f.type = type; f.frequency.value = freq; f.Q.value = q;
+  const g = ac.createGain(); g.gain.setValueAtTime(0, t); g.gain.linearRampToValueAtTime(vol, t + attack); g.gain.exponentialRampToValueAtTime(.0001, t + dur);
+  s.connect(f); f.connect(g); g.connect(dest); s.start(t, Math.random()); s.stop(t + dur + .05); return f;
 }
-function whisper() { noise(2.2, "bandpass", 1800, 3600, 6, .5); setTimeout(() => noise(1.4, "bandpass", 3000, 1500, 7, .35), 900); }
-function thump(v = .8) {
-  [0, .17].forEach((dt, i) => {
-    const o = ac.createOscillator(), g = ac.createGain(), t = ac.currentTime + dt;
-    o.frequency.setValueAtTime(75, t); o.frequency.exponentialRampToValueAtTime(38, t + .14);
-    g.gain.setValueAtTime(v * (i ? .7 : 1), t); g.gain.exponentialRampToValueAtTime(.001, t + .2);
-    o.connect(g); g.connect(master); o.start(t); o.stop(t + .25);
-  });
-}
-function startHeart(bpm) {
-  heartBpm = bpm; stopHeart();
-  const beat = () => { thump(.9); heartTimer = setTimeout(beat, 60000 / heartBpm); };
-  beat();
-}
-function stopHeart() { if (heartTimer) { clearTimeout(heartTimer); heartTimer = null; } }
-function stinger(big = 1) {
-  noise(.9, "lowpass", 6000, 300, 1, .9 * big);
-  [220, 233, 311, 466].forEach(f => {
-    const o = ac.createOscillator(), g = ac.createGain(); o.type = "sawtooth"; o.frequency.value = f;
-    g.gain.setValueAtTime(.25 * big, ac.currentTime); g.gain.exponentialRampToValueAtTime(.001, ac.currentTime + 1.1);
-    o.connect(g); g.connect(master); o.start(); o.stop(ac.currentTime + 1.2);
-  });
-}
-function ping() {
-  const o = ac.createOscillator(), g = ac.createGain(); o.type = "sine"; o.frequency.value = 880;
-  g.gain.setValueAtTime(.25, ac.currentTime); g.gain.exponentialRampToValueAtTime(.001, ac.currentTime + .35);
-  o.connect(g); g.connect(master); o.start(); o.stop(ac.currentTime + .4);
-}
-function creak() {
-  const o = ac.createOscillator(), g = ac.createGain(), f = ac.createBiquadFilter();
-  o.type = "sawtooth"; o.frequency.setValueAtTime(80, ac.currentTime); o.frequency.linearRampToValueAtTime(150, ac.currentTime + 1.8);
-  f.type = "bandpass"; f.frequency.value = 500; f.Q.value = 8;
-  g.gain.setValueAtTime(.0, ac.currentTime); g.gain.linearRampToValueAtTime(.35, ac.currentTime + .3); g.gain.linearRampToValueAtTime(0, ac.currentTime + 1.9);
-  o.connect(f); f.connect(g); g.connect(master); o.start(); o.stop(ac.currentTime + 2);
-}
-function scream() {
-  const ws = ac.createWaveShaper(), c = new Float32Array(256);
-  for (let i = 0; i < 256; i++) { const x = i / 128 - 1; c[i] = Math.tanh(x * 6); }
-  ws.curve = c; ws.connect(master);
-  [0, 7, 13].forEach(det => {
-    const o = ac.createOscillator(), g = ac.createGain(); o.type = "sawtooth";
-    o.frequency.setValueAtTime(600 + det * 20, ac.currentTime); o.frequency.linearRampToValueAtTime(1500 + det * 30, ac.currentTime + 1.2);
-    g.gain.setValueAtTime(.4, ac.currentTime); g.gain.linearRampToValueAtTime(0, ac.currentTime + 1.6);
-    o.connect(g); g.connect(ws); o.start(); o.stop(ac.currentTime + 1.7);
-  });
-  noise(1.5, "highpass", 2000, 6000, 1, .8);
-}
-function wrongTone() { noise(.5, "bandpass", 300, 120, 4, .6); }
-
-/* ---------- visuals ---------- */
-const cam = $("cam"), entity = $("entity");
-const noiseC = $("noise"), nctx = noiseC.getContext("2d");
-function sizeNoise() { noiseC.width = Math.ceil(innerWidth / 5); noiseC.height = Math.ceil(innerHeight / 5); }
-sizeNoise(); addEventListener("resize", sizeNoise);
-let frame = 0;
-(function drawNoise() {
-  if (++frame % 2 === 0) {
-    const w = noiseC.width, h = noiseC.height, img = nctx.createImageData(w, h), d = img.data;
-    for (let i = 0; i < d.length; i += 4) { const v = Math.random() * 255; d[i] = d[i + 1] = d[i + 2] = v; d[i + 3] = 255; }
-    nctx.putImageData(img, 0, 0);
+function knock(x, z, n = 3, gap = .34, vol = 1) {
+  const p = spot(x, z);
+  for (let i = 0; i < n; i++) {
+    const t = ac.currentTime + .03 + i * gap + rnd(-.02, .02);
+    burst(p, t, .09, "bandpass", 190, 9, 5 * vol); burst(p, t, .06, "bandpass", 470, 7, 2.2 * vol); burst(p, t, .02, "highpass", 1800, 1, .5 * vol);
+    const o = ac.createOscillator(), g = ac.createGain(); o.frequency.setValueAtTime(125, t); o.frequency.exponentialRampToValueAtTime(58, t + .09);
+    g.gain.setValueAtTime(1.3 * vol, t); g.gain.exponentialRampToValueAtTime(.0001, t + .12); o.connect(g); g.connect(p); o.start(t); o.stop(t + .15);
   }
-  requestAnimationFrame(drawNoise);
-})();
-
-let t0 = 0;
+}
+function step(x, z, vol = 1) {
+  const p = spot(x, z), t = ac.currentTime + .02;
+  burst(p, t, .13, "lowpass", 150, 1, 3.2 * vol, .012); burst(p, t + .015, .05, "bandpass", 850, 2, .35 * vol);
+  if (Math.random() < .3) burst(p, t + .12, .32, "bandpass", rnd(320, 520), 22, .25 * vol, .12);
+}
+function breath(x, z, vol = 1) { // one in-and-out cycle, about 3 seconds
+  const p = spot(x, z), t = ac.currentTime + .02;
+  for (const [t0, dur, f0, f1, v] of [[0, 1.2, 1400, 900, .5], [1.45, 1.6, 600, 380, .8]]) {
+    const s = ac.createBufferSource(); s.buffer = noiseBuf; s.loop = true;
+    const f = ac.createBiquadFilter(); f.type = "bandpass"; f.Q.value = 1.6; f.frequency.setValueAtTime(f0, t + t0); f.frequency.linearRampToValueAtTime(f1, t + t0 + dur);
+    const g = ac.createGain(); g.gain.setValueAtTime(0, t + t0); g.gain.linearRampToValueAtTime(v * vol, t + t0 + dur * .45); g.gain.linearRampToValueAtTime(0, t + t0 + dur);
+    s.connect(f); f.connect(g); g.connect(p); s.start(t + t0, Math.random()); s.stop(t + t0 + dur + .05);
+  }
+}
+function whisper(x, z, dur, vol = 1) {
+  const p = spot(x, z), t = ac.currentTime + .02;
+  const s = ac.createBufferSource(); s.buffer = noiseBuf; s.loop = true;
+  const f = ac.createBiquadFilter(); f.type = "bandpass"; f.Q.value = 5; const g = ac.createGain(); g.gain.setValueAtTime(0, t);
+  for (let u = 0; u < dur;) { const len = rnd(.07, .19); f.frequency.setValueAtTime(rnd(1500, 3400), t + u); g.gain.linearRampToValueAtTime(Math.random() < .25 ? 0 : rnd(.25, .9) * vol, t + u + len * .5); u += len; }
+  g.gain.linearRampToValueAtTime(0, t + dur + .1);
+  s.connect(f); f.connect(g); g.connect(p); s.start(t); s.stop(t + dur + .2);
+}
+function tinnitus(dur) {
+  const o = ac.createOscillator(), g = ac.createGain(), t = ac.currentTime; o.frequency.value = 5200;
+  g.gain.setValueAtTime(0, t); g.gain.linearRampToValueAtTime(.03, t + dur * .8); g.gain.linearRampToValueAtTime(0, t + dur);
+  o.connect(g); g.connect(master); o.start(); o.stop(t + dur + .1);
+}
+function thud(vol = 1) {
+  const t = ac.currentTime, o = ac.createOscillator(), g = ac.createGain(); o.frequency.setValueAtTime(90, t); o.frequency.exponentialRampToValueAtTime(32, t + .5);
+  g.gain.setValueAtTime(1.1 * vol, t); g.gain.exponentialRampToValueAtTime(.0001, t + .7); o.connect(g); g.connect(master); o.start(); o.stop(t + .8);
+  burst(master, t, .25, "lowpass", 900, 1, .7 * vol);
+}
+function slam() {
+  const t = ac.currentTime, ws = ac.createWaveShaper(), c = new Float32Array(256);
+  for (let i = 0; i < 256; i++) c[i] = Math.tanh((i / 128 - 1) * 5); ws.curve = c; ws.connect(master);
+  const f = burst(ws, t, 1.3, "lowpass", 5000, 1, 1.4, .003); f.frequency.exponentialRampToValueAtTime(180, t + 1.2);
+  const o = ac.createOscillator(), g = ac.createGain(); o.type = "sawtooth"; o.frequency.setValueAtTime(70, t); o.frequency.exponentialRampToValueAtTime(27, t + 1.3);
+  g.gain.setValueAtTime(.9, t); g.gain.exponentialRampToValueAtTime(.0001, t + 1.5); o.connect(g); g.connect(ws); o.start(); o.stop(t + 1.6);
+}
 setInterval(() => {
-  if (!t0) return;
-  const s = Math.floor((performance.now() - t0) / 1000);
-  $("clock").textContent = [s / 3600, s / 60 % 60, s % 60].map(v => String(Math.floor(v)).padStart(2, "0")).join(":");
-}, 500);
+  if (!micAn || S.manual) return;
+  micAn.getFloatTimeDomainData(micData); let s = 0; for (const v of micData) s += v * v;
+  S.noise = S.noise * .5 + Math.sqrt(s / micData.length) * .5;
+}, 60);
 
-async function glitch(ms) { document.body.classList.add("glitching"); await wait(ms); document.body.classList.remove("glitching"); }
-async function flicker(n = 4) {
-  for (let i = 0; i < n; i++) { document.body.classList.add("dark"); await wait(rnd(50, 140)); document.body.classList.remove("dark"); await wait(rnd(60, 220)); }
+/* ---------- text ---------- */
+const notesEl = $("notes");
+async function note(text, hold = 2400) {
+  notesEl.style.opacity = 1; notesEl.textContent = "";
+  for (const ch of text) { notesEl.textContent += ch; await sleep(30); }
+  await sleep(hold); notesEl.style.opacity = 0; await sleep(700);
 }
-async function flash(ms = 90) { const f = $("flash"); f.style.opacity = 1; await wait(ms); f.style.opacity = 0; }
+async function rule(n, text, sub) {
+  room(false); $("ruleN").textContent = "RULE " + n; $("ruleT").textContent = text; $("ruleS").textContent = sub;
+  $("rule").classList.add("on"); thud(.5); await sleep(5200); $("rule").classList.remove("on"); room(true); await sleep(900);
+}
+function hint(t) { $("hint").textContent = t || ""; $("hint").classList.toggle("on", !!t); }
+function showStrikes() { $("strikes").textContent = "▮".repeat(G.strikes) + "▯".repeat(3 - G.strikes); }
 
-function showEntity(left, scale, instant = true) {
-  entity.classList.toggle("cut", instant);
-  entity.style.left = left + "%"; entity.style.setProperty("--s", scale); entity.style.opacity = .96;
-}
-function hideEntity() { entity.style.opacity = 0; entity.classList.remove("looking"); }
-async function peek() { // quick glimpse at screen edge
-  showEntity(Math.random() < .5 ? 12 : 88, .55); stinger(.4); vib(80);
-  await wait(rnd(220, 420)); hideEntity();
-}
-
-const logEl = $("log");
-async function say(text, hold = 2200) {
-  const line = document.createElement("div"); logEl.appendChild(line);
-  while (logEl.children.length > 4) logEl.firstChild.remove();
-  for (const ch of text) { line.textContent += ch; await wait(26); }
-  await wait(hold);
-  line.style.opacity = 0; setTimeout(() => line.remove(), 1300);
-}
-async function sms(from, text) {
-  $("smsFrom").textContent = "MESSAGE · " + from; $("smsText").textContent = text;
-  $("sms").classList.add("on"); ping(); vib([120, 80, 120]);
-  await wait(4200); $("sms").classList.remove("on");
-}
-
-/* ---------- puzzle 1: marks ---------- */
-const GLYPHS = ["☉", "⛧", "ᛟ"];
-let code = [];
-function showMark(i) {
-  return new Promise(res => {
-    const m = document.createElement("div"); m.className = "mark"; m.textContent = GLYPHS[i];
-    m.style.left = rnd(18, 82) + "%"; m.style.top = rnd(18, 62) + "%";
-    $("marks").appendChild(m); requestAnimationFrame(() => m.classList.add("on"));
-    let done = false;
-    const end = ok => { if (done) return; done = true; m.remove(); res(ok); };
-    m.addEventListener("pointerdown", () => { if (done) return; stinger(.35); vib(60); end(true); });
-    setTimeout(() => end(false), 2300 - i * 300);
-  });
-}
-async function puzzleMarks() {
-  code = [0, 0, 0].map(() => Math.floor(Math.random() * 10));
-  await say("Something is painted on the walls. Tap the marks before they fade.");
-  await say("Each one hides a number. Remember them.");
-  for (let i = 0; i < 3; i++) {
-    let found = false;
-    while (!found) {
-      await wait(rnd(900, 2000));
-      found = await showMark(i);
-      if (!found) { whisper(); }
-    }
-    const d = $("digit"); d.textContent = code[i]; d.classList.add("on"); glitch(200);
-    await wait(1600); d.classList.remove("on");
-    if (i === 1) await peek();
+/* ---------- task engine ---------- */
+async function waitFor(pred, ms) { const t = now(); while ((now() - t) * SPEED < ms) { if (pred()) return true; await raw(40); } return pred(); }
+async function watch(ms, ok, grace = 600) { // true if ok() held for the whole time
+  const t = now(); let badSince = 0;
+  for (;;) {
+    const el = (now() - t) * SPEED; if (el >= ms) return true;
+    if (ok() || el < grace) badSince = 0;
+    else if (!badSince) badSince = now();
+    else if (now() - badSince > 260) return false;
+    await raw(40);
   }
-  await wait(800);
-  await say("Three numbers. Don't forget them.");
 }
-
-/* ---------- puzzle 2: hold breath ---------- */
-let holding = false;
-const breathBtn = $("breath");
-breathBtn.addEventListener("pointerdown", e => { e.preventDefault(); holding = true; breathBtn.classList.add("held"); });
-["pointerup", "pointercancel", "pointerleave"].forEach(ev => breathBtn.addEventListener(ev, () => { holding = false; breathBtn.classList.remove("held"); }));
-breathBtn.addEventListener("contextmenu", e => e.preventDefault());
-
-async function puzzleBreath() {
-  await say("It is in the room.");
-  await say("When its eyes turn RED: hold the button. Let go when it moves.", 3200);
-  breathBtn.classList.add("on");
-  startHeart(62);
-  let progress = 0;
-  showEntity(50, .3, true); await wait(100);
-  while (progress < 3) {
-    entity.classList.remove("looking"); entity.classList.remove("cut");
-    setDrone(.1, 1); document.body.classList.remove("red");
-    showEntity(rnd(25, 75), .3 + progress * .22, false);
-    entity.classList.remove("cut");
-    heartBpm = 62 + progress * 14;
-    await wait(rnd(2600, 4200));
-    entity.classList.add("looking"); document.body.classList.add("red"); heartBpm = 130; whisper(); vib(200);
-    const start = performance.now(); let ok = true;
-    await new Promise(res => {
-      const iv = setInterval(() => {
-        const el = performance.now() - start;
-        if (el > 700 && !holding) ok = false;
-        if (el > 2700) { clearInterval(iv); res(); }
-      }, 40);
-    });
-    document.body.classList.remove("red");
-    if (ok) { progress++; }
-    else {
-      glitch(500); stinger(); vib([300, 80, 300]); entity.classList.add("cut"); showEntity(50, .9 + progress * .1);
-      await say("IT SAW YOU.", 600); progress = Math.max(0, progress - 1);
-      await wait(900);
-    }
+async function strike(text) {
+  G.task = null; G.meter = null; hint(""); G.strikes++; showStrikes();
+  feed.tear = true; thud(1.2); vib([250, 70, 250]); await raw(450); feed.tear = false;
+  if (G.strikes >= 3) throw CAUGHT;
+  await note(text, 1400);
+}
+async function freeze(ms, scale, withHint) {
+  const snap = snapshot(); if (scale) drawShape(snap, scale, .55);
+  feed.still = snap; feed.frozen = true; $("dot").classList.remove("live"); room(false);
+  if (scale > .4) tinnitus(ms / 1000 / SPEED);
+  G.task = "still"; G.meter = () => S.motion / S.motionThr - .35; if (withHint) hint("DON'T MOVE");
+  const ok = await watch(ms, isStill);
+  G.task = null; G.meter = null; hint(""); feed.still = null; feed.frozen = false; $("dot").classList.add("live"); room(true);
+  if (!ok) await strike("You moved. It saw that.");
+  return ok;
+}
+async function knocking(ms, withHint, close) {
+  const side = Math.random() < .5 ? -1 : 1;
+  knock(side * 2.2, -1.2); vib(120); G.task = "cover"; if (withHint) hint("COVER THE CAMERA");
+  if (!await waitFor(isDark, 3200)) return strike("It looked in. You were there.");
+  hint("");
+  (async () => { // what you hear while you cannot see
+    const n = Math.floor(ms / 950);
+    for (let i = 0; i < n && G.task === "cover"; i++) { const k = i / n; step(side * (2 - 1.6 * k), -1.5 + 1.2 * k, .5 + k * .8); await sleep(950); }
+    if (close && G.task === "cover") breath(side * .25, .2, 1.3);
+  })();
+  const ok = await watch(ms + (close ? 3000 : 600), isDark, 0);
+  if (!ok) return strike("Too early. It was still there.");
+  knock(side * .8, -.6, 1, .3, 1.2); await sleep(700); G.task = null;
+  return true;
+}
+async function behind(withHint) {
+  breath(0, 1.1, 1.7); await sleep(1300);
+  S.yaw = 0; G.task = "turn"; if (withHint) hint("TURN AROUND");
+  const ok = await waitFor(() => Math.abs(S.yaw) > 125, 3600);
+  G.task = null; hint("");
+  if (!ok) return strike("It was right behind you.");
+  await sleep(500); return true;
+}
+async function whispering(ms, withHint) {
+  whisper(rnd(-.5, .5), .5, ms / 1000 / SPEED, .9); await sleep(500);
+  G.task = "quiet"; if (withHint) hint("SAY NOTHING"); G.meter = () => S.noise / S.noiseThr - .4;
+  const ok = await watch(ms, isQuiet, 300);
+  G.task = null; G.meter = null; hint("");
+  if (!ok) return strike("You answered it.");
+  await sleep(600); return true;
+}
+async function glimpse(secAgo, scale, ms) { // the feed shows this room, but not this moment
+  const c = snapshot(past(secAgo)); drawShape(c, scale, .6); feed.still = c; await sleep(ms); feed.still = null;
+}
+async function lightsOut() {
+  for (;;) {
+    room(false); $("black").style.opacity = .97; await sleep(1200);
+    G.task = "down"; hint("PHONE FACE DOWN");
+    if (!await waitFor(() => S.faceDown, 6000)) { $("black").style.opacity = 0; room(true); await strike("It found the light of your screen."); continue; }
+    hint("");
+    (async () => {
+      for (let i = 0; i < 8 && G.task === "down"; i++) { step(rnd(-.6, .6), -3 + i * .38, .5 + i * .16); await sleep(1000); }
+      if (G.task === "down") breath(.15, -.25, 2); await sleep(3200);
+    })();
+    if (!await watch(14500, () => S.faceDown, 0)) { $("black").style.opacity = 0; room(true); await strike("You lifted it. It was standing over you."); continue; }
+    knock(0, -.4, 2, .5, 1.4); await sleep(1300);
+    G.task = "lift"; await waitFor(() => !S.faceDown, 15000); G.task = null;
+    $("black").style.transition = "none"; $("black").style.opacity = 0;
+    await raw(350); const c = snapshot(); drawShape(c, 1.5, .9, W / 2); feed.still = c; feed.tear = true; slam(); vib([400, 60, 500]);
+    await raw(420); feed.tear = false; feed.still = null; $("black").style.opacity = 1; await raw(1600);
+    $("black").style.transition = ""; return;
   }
-  stopHeart(); hideEntity(); breathBtn.classList.remove("on"); document.body.classList.remove("red");
-  await wait(900);
-  await say("It passed.");
 }
+const wander = (a, b) => sleep(rnd(a, b));
 
-/* ---------- puzzle 3: keypad ---------- */
-function puzzleKeypad() {
-  return new Promise(res => {
-    const pad = $("keypad"), disp = $("code"), keys = $("keys");
-    let entered = "", wrong = 0;
-    keys.innerHTML = "";
-    const mk = (label, fn) => { const b = document.createElement("button"); b.textContent = label; b.addEventListener("pointerdown", e => { e.preventDefault(); fn(); }); keys.appendChild(b); };
-    const render = () => disp.textContent = entered.padEnd(3, "·");
-    for (let n = 1; n <= 9; n++) mk(String(n), () => { if (entered.length < 3) { entered += n; render(); } });
-    mk("CLR", () => { entered = ""; render(); });
-    mk("0", () => { if (entered.length < 3) { entered += "0"; render(); } });
-    mk("OK", async () => {
-      if (entered === code.join("")) { pad.classList.remove("on"); res(); return; }
-      wrong++; entered = ""; render(); wrongTone(); vib([200, 60, 200]);
-      pad.classList.add("shake"); setTimeout(() => pad.classList.remove("shake"), 400); glitch(250);
-      if (wrong === 1) say("Wrong. It heard that.");
-      if (wrong === 3) sms("MARTA", "the first one was " + code[0] + ". hurry");
-    });
-    render(); pad.classList.add("on");
-  });
+/* ---------- the nights ---------- */
+async function sample(fn, ms) { const a = []; const t = now(); while ((now() - t) * SPEED < ms) { a.push(fn()); await raw(90); } return median(a); }
+async function calibrate() {
+  await note("This camera belonged to the last person who slept in your room.");
+  await note("He kept it running every night. And he wrote down rules.");
+  notesEl.style.opacity = 1; notesEl.textContent = "First, let it learn the room. Look around, slowly.";
+  let amb = await sample(() => S.lum, 5500);
+  while (amb < 22) { notesEl.textContent = "Too dark. It has to see the room. Turn on one small light."; amb = await sample(() => S.lum, 3000); }
+  S.darkThr = Math.max(10, amb * .4);
+  notesEl.textContent = "Now hold the phone still."; await sleep(900);
+  const mf = await sample(() => S.motion, 3200); S.motionThr = Math.max(4, mf * 2.6, mf + 3);
+  notesEl.textContent = "And stay quiet."; await sleep(600);
+  const nf = await sample(() => S.noise, 2600); S.noiseThr = nf * 3 + .02;
+  notesEl.style.opacity = 0; await sleep(800);
+  if (!S.sensors) throw new Error("This game needs a phone with motion sensors. Open it on your phone.");
 }
+const NIGHTS = [
+  async () => {
+    await calibrate();
+    await rule(1, "When the picture freezes, you freeze.", "It only sees what moves.");
+    await note("Keep looking around. Check the corners.", 1800);
+    await wander(3500, 6000); await freeze(4200, 0, true);
+    await note("Good. That was nothing. A test.", 1600);
+    await wander(5000, 8000); await freeze(5500, .3, true);
+    await note("Did you see it, in the dark part? Don't look for it.", 2000);
+    await wander(4000, 9000); await freeze(7500, .46, false);
+    await note("He underlined one line twice:", 1200);
+    await note("\"It learns.\"", 1600);
+    await wander(1500, 3500); await freeze(6000, .6, false);
+    await wander(2500, 4000);
+  },
+  async () => {
+    await note("Second night. It knows which room now.");
+    await rule(2, "When it knocks, cover the camera. Stay covered until it knocks once more.", "If it can't see you, it has to ask.");
+    await wander(4000, 7000); await knocking(5500, true, false);
+    await wander(900, 1500); await glimpse(7, .38, 650);
+    await note("The picture is not always now. Remember that.", 1800);
+    await wander(4000, 8000); await freeze(6000, .42, false);
+    await wander(5000, 9000); await knocking(8500, false, true);
+    await sleep(500); await freeze(5000, .7, false);
+    await note("He dated every page. The dates stop on the ninth night.", 2200);
+    await wander(3000, 5000); await knocking(6500, false, true);
+    await wander(2000, 3500);
+  },
+  async () => {
+    await note("Third night. Tonight it comes inside.");
+    await rule(3, "If it breathes behind you, turn around. Fast.", "It hates being looked at.");
+    await wander(4000, 7000); await behind(true);
+    await freeze(4500, .5, false);
+    await rule(4, "If it whispers, say nothing.", "It is asking for your name.");
+    await wander(3500, 6000); await whispering(7000, true);
+    await wander(4000, 7000); await knocking(7000, false, true);
+    await wander(700, 1200); await glimpse(6, .5, 600);
+    await wander(3000, 6000); await behind(false); await freeze(6500, .75, false);
+    await wander(2500, 5000); await whispering(9000, false);
+    await note("Last page for tonight.", 1300);
+    await rule(5, "When the light dies, put the phone face down. Don't lift it until it knocks twice.", "Listen. Count.");
+    await wander(2500, 4500); await lightsOut();
+  },
+];
+const ENDINGS = [
+  "It did not notice you.\nNot tonight.",
+  "It stood at the door until morning.\nIt knows you are in there.",
+  "There are ten rules.\nHe wrote nine of them.",
+];
 
-/* ---------- ending ---------- */
-async function ending() {
-  setDrone(.25, 2);
-  await say("Click.", 800); creak(); await wait(2200);
-  await flicker(5);
-  whisper(); await say("The door is open.", 1200);
-  document.body.classList.add("dark"); await wait(1500);
-  document.body.classList.remove("dark");
-  entity.classList.add("cut"); entity.classList.add("looking");
-  showEntity(50, 2.4); flash(70); stinger(1.6); scream(); vib([400, 60, 400, 60, 600]);
-  document.body.classList.add("glitching"); await wait(1500);
-  document.body.classList.remove("glitching"); hideEntity();
-  document.body.classList.add("dark"); setDrone(0, .5); await wait(1800);
-  cam.srcObject.getTracks().forEach(t => t.stop());
+function progress() { try { return Math.min(LAST_NIGHT, Math.max(1, +localStorage.getItem("darkfeed.night") || 1)); } catch (e) { return 1; } }
+function saveProgress(n) { try { localStorage.setItem("darkfeed.night", n); } catch (e) { console.warn("progress not saved", e); } }
+
+function endScreen(head, text, btn, next) {
+  $("endH").textContent = head; $("endP").innerText = text; $("endBtn").textContent = btn;
+  $("endBtn").onclick = () => { $("end").classList.add("hidden"); runNight(next); };
   $("end").classList.remove("hidden");
 }
-
-/* ---------- flow ---------- */
-async function episode() {
-  t0 = performance.now();
-  await wait(1200);
-  await say("NOV 14 · 03:07 AM · APARTMENT 4B");
-  await say("Marta Vuk disappeared 9 days ago.");
-  await say("Her phone is still here. It keeps getting messages.", 2600);
-  await say("Walk slowly. Point the camera around. Don't stop recording.", 3000);
-  await wait(2500);
-  await flicker(3); whisper(); await say("...did you hear that?", 1600);
-  await wait(2200);
-  await sms("MARTA", "dont look at the mirror");
-  await wait(1500);
-  await peek(); await wait(1800);
-  await puzzleMarks();
-  await wait(2500);
-  await sms("MARTA", "it can hear you breathing");
-  await puzzleBreath();
-  await sms("MARTA", "the door is at the end of the hall. you saw the code");
-  await say("Enter the three numbers.", 500);
-  await puzzleKeypad();
-  await ending();
-}
-
-async function start() {
-  $("err").textContent = "";
-  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) throw new Error("This browser cannot access the camera. Open the game over https in Chrome or Safari.");
-  let stream;
+async function runNight(n) {
+  G.night = n; G.strikes = 0; G.task = null; G.meter = null; showStrikes(); hint(""); notesEl.textContent = "";
+  $("night").textContent = "NIGHT " + n; $("black").style.opacity = 0; clockMs = (n - 1) * 1380000 + 420000;
+  feed.still = null; feed.frozen = false; feed.tear = false; room(true);
   try {
-    stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: { ideal: "environment" } }, audio: false });
+    await sleep(1200); await NIGHTS[n - 1]();
+    room(false); $("black").style.opacity = 1; await sleep(1500);
+    saveProgress(Math.min(LAST_NIGHT, n + 1));
+    if (n < LAST_NIGHT) endScreen("06:00 · NIGHT " + n + " SURVIVED", ENDINGS[n - 1], "NIGHT " + (n + 1), n + 1);
+    else endScreen("06:00 · NIGHT 3 SURVIVED", ENDINGS[2] + "\n\nNights 4–10 are not recorded yet.", "PLAY NIGHT 3 AGAIN", 3);
   } catch (e) {
-    console.error("camera error", e);
-    $("err").textContent = "Camera access is required to play. Allow the camera and press START again.";
-    return;
+    if (e !== CAUGHT) { console.error(e); room(false); $("menu").classList.remove("hidden"); $("err").textContent = e.message; return; }
+    room(false); const c = snapshot(); drawShape(c, 1.9, .93, W / 2); feed.still = c; feed.tear = true; slam(); vib([500, 80, 700]);
+    await raw(1100); feed.tear = false; $("black").style.opacity = 1; await raw(1400);
+    endScreen("IT NOTICED YOU", "Three mistakes.\nThe camera kept recording.", "TRY NIGHT " + n + " AGAIN", n);
   }
-  cam.srcObject = stream; await cam.play();
-  if (!ac) initAudio(); else await ac.resume();
-  if ("wakeLock" in navigator) navigator.wakeLock.request("screen").catch(e => console.error("wakeLock", e));
-  $("start").classList.add("hidden");
-  $("end").classList.add("hidden");
-  document.body.classList.remove("dark");
-  setDrone(.1, 2);
-  await episode();
 }
 
-$("startBtn").addEventListener("click", () => start().catch(e => { console.error(e); $("err").textContent = e.message; }));
-$("againBtn").addEventListener("click", () => start().catch(e => { console.error(e); $("end").classList.add("hidden"); $("start").classList.remove("hidden"); $("err").textContent = e.message; }));
-$("shareBtn").addEventListener("click", async () => {
-  await navigator.clipboard.writeText(location.href);
-  $("shareMsg").textContent = "LINK COPIED. SEND IT.";
-});
+async function start(n) {
+  $("err").textContent = "";
+  if (!ac) initAudio(); ac.resume();
+  const perms = [window.DeviceMotionEvent, window.DeviceOrientationEvent].filter(E => E && E.requestPermission).map(E => E.requestPermission());
+  if (!navigator.mediaDevices || !navigator.mediaDevices.getUserMedia) throw new Error("This browser cannot open the camera. Use Chrome or Safari over https.");
+  if ((await Promise.all(perms)).some(p => p !== "granted")) throw new Error("Motion access is needed. Allow it and try again.");
+  if (!cam.srcObject) {
+    let stream;
+    try { stream = await navigator.mediaDevices.getUserMedia({ video: { facingMode: { ideal: "environment" } }, audio: { echoCancellation: true, noiseSuppression: false, autoGainControl: false } }); }
+    catch (e) { console.error("media error", e); throw new Error("Camera and microphone are needed to play. Allow both and try again."); }
+    cam.srcObject = stream; await cam.play();
+    micAn = ac.createAnalyser(); micAn.fftSize = 1024; micData = new Float32Array(1024); ac.createMediaStreamSource(stream).connect(micAn);
+  }
+  if ("wakeLock" in navigator) navigator.wakeLock.request("screen").catch(e => console.warn("wakeLock", e));
+  running = true; $("menu").classList.add("hidden");
+  runNight(n);
+}
+
+const p0 = progress();
+$("startBtn").textContent = (p0 > 1 ? "CONTINUE · NIGHT " : "BEGIN NIGHT ") + p0;
+$("resetBtn").classList.toggle("hidden", p0 === 1);
+$("startBtn").addEventListener("click", () => start(progress()).catch(e => { console.error(e); $("err").textContent = e.message; }));
+$("resetBtn").addEventListener("click", () => start(1).catch(e => { console.error(e); $("err").textContent = e.message; }));
+if (DEBUG) Object.assign(window, { S, G, feed });
 </script>
 </body>
 </html>
