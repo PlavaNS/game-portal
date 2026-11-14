@@ -192,6 +192,9 @@ for (const g0 of pool.values()) {
   const key = g.title.toLowerCase().replace(/[^a-z0-9]/g, '');
   if (seenTitle.has(key)) continue;
   const r = id => (rank[id].has(g.srcId) ? rank[id].get(g.srcId) : Infinity);
+  // 14.11.2026: quality bar — only games GameMonetize itself ranked as most played, hot, best or an editor pick.
+  // "newest"-only games (never promoted by GM's own curation) are excluded so the catalogue stays top-quality.
+  if (r('most') === Infinity && r('hot') === Infinity && r('best') === Infinity && r('picks') === Infinity) continue;
   g.score = Math.min(r('most'), r('hot') * 2, r('best') * 2.5, r('picks') * 4, r('newest') * 5);
   if (!Number.isFinite(g.score)) continue;
   g.r = { most: r('most'), hot: r('hot'), best: r('best'), newest: r('newest') };
