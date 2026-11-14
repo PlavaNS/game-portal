@@ -31,7 +31,12 @@ const clean = s => decode(decode(s))
 const slugify = s => decode(s).toLowerCase().normalize('NFKD').replace(/[\u0300-\u036f]/g, '')
   .replace(/&/g, ' and ').replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '').slice(0, 70) || 'game';
 const titleCase = s => s.replace(/\s+/g, ' ').trim();
-const trunc = (s, n) => s.length <= n ? s : s.slice(0, n - 1).replace(/\s+\S*$/, '') + '…';
+const trunc = (s, n) => {
+  if (s.length <= n) return s;
+  const cut = s.slice(0, n - 1);
+  const end = Math.max(cut.lastIndexOf('. '), cut.lastIndexOf('! '), cut.lastIndexOf('? '));
+  return end >= n * 0.5 ? cut.slice(0, end + 1) : cut.replace(/\s+\S*$/, '') + '…';
+};
 // ---------------------------------------------------------------- languages
 // The site is built once per language. English keeps the paths it always had; every other
 // language lives under /<code>/ and reuses the same data with translated text layered on top.
@@ -439,7 +444,7 @@ function layout({ title, desc, canonical, body, jsonld = [], ogImage, noindex = 
       + `\n<link rel="alternate" hreflang="x-default" href="${esc(absIn('en', altPath))}">`
     : '';
   return `<!doctype html>
-<html lang="${esc(LANG)}">
+<html lang="${esc(LANG === 'en' ? 'en' : ((LANGS.find(x => x.code === LANG) || {}).hreflang || LANG))}">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
@@ -577,7 +582,7 @@ function pager(baseHref, page, pages) {
 }
 
 const sitemap = [];
-const addUrl = (p, prio = 0.5, image = null) => sitemap.push({ loc: abs(p), prio, image });
+const addUrl = (p, prio = 0.5, image = null, lastmod = null) => sitemap.push({ loc: abs(p), prio, image, lastmod });
 
 // ---------------------------------------------------------------- build
 // empty dist without removing the folder itself (Windows may lock the folder handle)
@@ -747,10 +752,10 @@ function emitContent() {
         ...(p === 1 && altPath ? { altPath, altLangs } : {}),
         jsonld: [crumbs([[tr('Home'), abs('/')], [h1, abs(basePath)]]),
           { '@context': 'https://schema.org', '@type': 'CollectionPage', name: h1, url: abs(pagePath),
-            mainEntity: { '@type': 'ItemList', numberOfItems: slice.length, itemListElement: slice.slice(0, 20).map((g, i) => ({ '@type': 'ListItem', position: (p - 1) * size + i + 1, url: abs(`/games/${g.slug}/`), name: g.title })) } },
+            mainEntity: { '@type': 'ItemList', numberOfItems: Math.min(slice.length, 20), itemListElement: slice.slice(0, 20).map((g, i) => ({ '@type': 'ListItem', position: (p - 1) * size + i + 1, url: abs(`/games/${g.slug}/`), name: g.title })) } },
           ...(p === 1 && guide ? [{ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: guide.faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }] : [])],
       }));
-      addUrl(pagePath, p === 1 ? 0.8 : 0.4);
+      if (p === 1) addUrl(pagePath, 0.8);
     }
   }
   for (const c of activeCats) {
@@ -808,7 +813,7 @@ function emitContent() {
       jsonld: [crumbs([[tr('Home'), abs('/')], [th1, abs(`/${t.slug}/`)]]),
         ...(TG && TG.faq.length ? [{ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: TG.faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) }] : []),
         { '@context': 'https://schema.org', '@type': 'CollectionPage', name: th1, url: abs(`/${t.slug}/`), description: tintro[0],
-          mainEntity: { '@type': 'ItemList', numberOfItems: t.list.length, itemListElement: t.list.slice(0, 20).map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(`/games/${g.slug}/`), name: g.title })) } }],
+          mainEntity: { '@type': 'ItemList', numberOfItems: Math.min(t.list.length, 20), itemListElement: t.list.slice(0, 20).map((g, i) => ({ '@type': 'ListItem', position: i + 1, url: abs(`/games/${g.slug}/`), name: g.title })) } }],
     }));
     addUrl(`/${t.slug}/`, 0.8);
   }
@@ -917,7 +922,7 @@ function emitContent() {
     const ld = {
       '@context': 'https://schema.org', '@type': 'VideoGame', name: g.title, url: pageUrl, image: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)),
       description: trunc(gdesc, 300), genre: g.cats.all.filter(c => CAT_BY[c]).map(c => CAT_BY[c].name), gamePlatform: ['Web browser', 'PC', 'Mobile'],
-      applicationCategory: 'Game', operatingSystem: 'Any', playMode: g.cats.all.includes('two-player') || g.cats.all.includes('multiplayer') ? 'MultiPlayer' : 'SinglePlayer',
+      applicationCategory: 'Game', operatingSystem: 'Any', ...(g.cats.all.includes('two-player') || g.cats.all.includes('multiplayer') ? { playMode: 'MultiPlayer' } : {}),
       offers: { '@type': 'Offer', price: '0', priceCurrency: 'USD', availability: 'https://schema.org/InStock' },
       ...(g.studio ? { author: { '@type': 'Organization', name: g.studio } } : {}),
       // stars in Google results: thumbs up/down from our own visitors, mapped onto 1-5, never shown without real votes
@@ -932,7 +937,7 @@ function emitContent() {
       ogImage: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)),
       jsonld: [ld, crumbs([['Home', abs('/')], [main.h1, abs(`/c/${main.slug}/`)], [g.title, pageUrl]])],
     }));
-    if (!thin) addUrl(`/games/${g.slug}/`, g.own ? 0.9 : 0.6, { img: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)), title: g.title });
+    if (!thin) addUrl(`/games/${g.slug}/`, g.own ? 0.9 : 0.6, { img: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)), title: g.title }, g.firstSeen);
   }
   // EMBED PAGES for our own games: what other sites put in their iframe (game + a small branded bar linking back to us)
   if (LANG === 'en') for (const g of ours) {
@@ -979,15 +984,15 @@ textPage('badge', 'Badges for developers', `<p class="lead">Your game is on ${es
 <h2>Not on the site yet?</h2>
 <p><a href="${ur('/submit-game/')}">Send us your game</a>. It is free and non-exclusive, a real person plays every submission, and accepted games get their own page with credit and a link back to you.</p>`, `Free badges for developers whose games are on ${cfg.name}: copy the code and link back from your own site.`);
 
-textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games website made by <strong>${esc(cfg.studio)}</strong>, an independent game studio from Novi Sad, Serbia. We build our own browser games (like <a href="${u('/games/bubble-wrap/')}">Bubble Wrap</a>) and hand-pick the best free HTML5 games from trusted distribution partners, so you can play instantly on any device.</p>
+textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games website made by <strong>${esc(cfg.studio)}</strong>, an independent game studio from Novi Sad, Serbia. We build our own browser games (like <a href="${u('/games/bubble-wrap/')}">Bubble Wrap</a>) and offer free HTML5 games from trusted distribution partners and independent developers, so you can play instantly on any device.</p>
 <h2>Who runs this site</h2>
 <p>My name is Marko Plav\u0161i\u0107. I am a graduate engineer in entrepreneurial management, and since 2016 I have owned and run <a href="https://www.escaperoom.co.rs/" rel="noopener" target="_blank">Door 404</a>, an escape room in Novi Sad, Serbia.</p>
-<p>Designing an escape room is the same work as designing a game: you build a set of puzzles, watch real people try them, and rewrite whatever does not work. I have been doing that since 2016, and it is why every game here gets played by a person before it goes up.</p>
+<p>Designing an escape room is the same work as designing a game: you build a set of puzzles, watch real people try them, and rewrite whatever does not work. I have been doing that since 2016, and it is why every game a developer sends us gets played by a person before it goes up.</p>
 <p>Alongside the escape room I design escape games and outdoor adventures, I have published Android and web games, I wrote a book, and I have run the SEO and Google Ads for my own businesses since 2016 (Google Ads certified, 2016). Before all that I spent six years in banking, as a credit analyst and then a portfolio office manager. And I have been a gamer my whole life, which is the real reason this site exists.</p>
 <p>You can check who I am on <a href="https://www.linkedin.com/in/marko-plav%C5%A1i%C4%87-6629709b/" rel="noopener" target="_blank">LinkedIn</a>, or write to me at <a href="${u('/contact/')}">contact@ilovewebgames.com</a>.</p>
 <h2>How a game gets on this site</h2>
-<p>Two ways. Either we take it from a distribution partner (Playgama, GameMonetize, GamePix), or a developer sends it to us through the <a href="${ur('/submit-game/')}">submit form</a>. Either way a real person opens it, plays it and checks that it runs, loads in an iframe and is family-friendly. Games that copy someone else's characters, games with no depth, and games that are not in English get turned down. When we accept one, it gets its own page that credits the developer and links back to their site, and we take no share of what the developer earns.</p>
-<h2>What makes us different</h2><ul><li><strong>Curated, not cluttered.</strong> We skip low-quality knock-offs and games that copy famous brands.</li><li><strong>Instant play.</strong> No downloads, no account, no installs.</li><li><strong>Fast on phones.</strong> The site is lightweight and works on slow connections.</li></ul>
+<p>Two ways. Most of the catalogue comes from distribution partners (Playgama, GameMonetize, GamePix): those games are added automatically and the list refreshes every day, with filters for family-friendly content, and we write our own tips and FAQ for each game page. The other way is a developer sending a game through the <a href="${ur('/submit-game/')}">submit form</a>. Those games are opened and played by a person, who checks that they run, load in an iframe and are family-friendly. Games that copy someone else's characters, games with no depth, and games that are not in English get turned down. A game accepted from a developer gets its own page that credits the developer and links back to their site, and we take no share of what the developer earns.</p>
+<h2>What makes us different</h2><ul><li><strong>Family-friendly.</strong> We filter out adult content, gambling and hate, and games for younger players sit in their own Kids category.</li><li><strong>Instant play.</strong> No downloads, no account, no installs.</li><li><strong>Fast on phones.</strong> The site is lightweight and works on slow connections.</li></ul>
 <p>The games are free for you because they show short ads, which support the developers who make them and keep this site running.</p>
 <p>Questions or ideas? <a href="${u('/contact/')}">Get in touch</a>.</p>`, `About ${cfg.name}: free online games by ${cfg.studio}.`);
 
@@ -1070,7 +1075,7 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
     ['Do I get paid for the plays my game gets on your site?', `If your game is distributed through Playgama, GameMonetize or GamePix, yes: we take the network version, and the network pays you your developer share for every play here, the same way it does on any other portal. If you send us a direct link instead, we embed your own build from your own URL, so your own ad tags keep running and that revenue stays entirely yours.`],
     ['I am not on any network. Can you help me get on one?', `Yes, and it costs you nothing. Tick the box in the form and we will walk you through signing up and uploading your build. It usually takes an afternoon, and for most small games it is revenue that is simply not being collected today.`],
     ['Will you ever change or remove the ads in my game?', `Never. We do not re-host your files, we do not repackage your build and we do not touch anyone's ad code. That is a rule here, and it is also a condition of every network we work with.`],
-    ['Will you link back to my site?', `Yes. Every game page credits the developer, and if you give us your website or store page we link your name to it, so players who like the game can find the rest of your work.`],
+    ['Will you link back to my site?', `Yes. Every game we accept from a developer credits them, and if you give us your website or store page we link your name to it, so players who like the game can find the rest of your work.`],
     ['How long does the review take?', `Usually a few days. A real person plays the game and checks that it runs, loads in an iframe and is family-friendly. You get one reply that already contains the link to your live game page.`],
     ['What do you need from me — files, a build, a zip?', `Just a link. Send the URL of the playable HTML5 build plus a short description, and a cover image if you have one. There is nothing to upload.`],
     ['Can I update or remove the game later?', `Yes. Because the game is loaded from your server, any update you publish is live here immediately, and one email is enough to have the page taken down.`],
@@ -1247,7 +1252,7 @@ write('404.html', layout({ title: `Page not found | ${cfg.name}`, desc: 'Page no
 // SITEMAP / ROBOTS / MANIFEST
 // one child sitemap per language (Google reads at most 50,000 URLs per file), listed from a sitemap index at the same /sitemap.xml
 {
-  const urlXml = s => `<url><loc>${esc(s.loc)}</loc><lastmod>${today}</lastmod><priority>${s.prio.toFixed(1)}</priority>${s.image ? `<image:image><image:loc>${esc(s.image.img)}</image:loc></image:image>` : ''}</url>`;
+  const urlXml = s => `<url><loc>${esc(s.loc)}</loc><lastmod>${s.lastmod || today}</lastmod>${s.image ? `<image:image><image:loc>${esc(s.image.img)}</image:loc></image:image>` : ''}</url>`;
   const langOf = loc => { const m = loc.slice(ABS.length).match(/^\/([a-z]{2})\//); return m && m[1] !== 'en' && LANGS.some(l => (l.code || l) === m[1]) ? m[1] : 'en'; };
   const groups = {};
   for (const s of sitemap) (groups[langOf(s.loc)] ||= []).push(s);
