@@ -59,7 +59,7 @@ const PHRASES = new Set();
 const tr = s => { const k = String(s ?? ''); PHRASES.add(k); return LANG === 'en' ? k : (UI[LANG][k] || k); };
 // a game's text in the current language; an untranslated game simply keeps its English text
 const tgame = g => (LANG === 'en' ? null : (GAMETR[LANG] || {})[g.slug] || null);
-const gDesc = g => { const t = tgame(g); return (t && t.description) || g.description; };
+const gDesc = g => { const t = tgame(g); return (t && t.description) || (REWRITES[g.slug] && REWRITES[g.slug].join(' ')) || g.description; };
 const gInstr = g => { const t = tgame(g); return (t && t.instructions) || g.instructions; };
 const langsFor = g => LANGS.filter(l => (GAMETR[l.code] || {})[g.slug]);
 const catTr = key => (LANG === 'en' ? null : (CATTR[LANG] || {})[key] || null);
@@ -305,6 +305,8 @@ const wasPublished = g => { const s = slugify(g.title); return published.has(s) 
 
 // hand-written tips/FAQ for selected games (data/guides.json, keyed by slug)
 const GUIDES = readJSON(path.join(ROOT, 'data/guides.json'), {});
+// partner descriptions rewritten in our own words, so the About text is not the same on every portal (data/rewrites.json)
+const REWRITES = readJSON(path.join(ROOT, 'data/rewrites.json'), {});
 // hand-written EN title/description for game pages that get impressions but few clicks in Search Console
 const SEO_TITLES = readJSON(path.join(ROOT, 'data/seo-titles.json'), {});
 // "where to start" picks and an FAQ for each collection page (data/topic-guides.json)
@@ -891,7 +893,7 @@ function emitContent() {
   <div class="game-cols">
     <article class="about">
       <h2>${esc(tr('About'))} ${esc(g.title)}</h2>
-      ${(LANG === 'en' && g.paras && g.paras.length > 1 ? g.paras : [gdesc]).map(p => `<p>${esc(p)}</p>`).join('\n    ')}
+      ${(LANG === 'en' && REWRITES[g.slug] ? REWRITES[g.slug] : LANG === 'en' && g.paras && g.paras.length > 1 ? g.paras : [gdesc]).map(p => `<p>${esc(p)}</p>`).join('\n    ')}
       ${ginstr ? `<h2>${esc(tr('How to play'))}</h2><p>${esc(ginstr)}</p>` : ''}
       ${GD ? `<h2>${esc(tr('Tips and tricks for'))} ${esc(g.title)}</h2>${GD.intro ? `<p>${linkMarks(GD.intro)}</p>` : ''}<ul class="tips">${(GD.tips || []).map(t => `<li>${linkMarks(t)}</li>`).join('')}</ul>` : ''}
       <p class="chips">${catLinks}${tagText}</p>
