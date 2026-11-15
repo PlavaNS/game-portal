@@ -1,5 +1,30 @@
 [
   {
+    "slug": "crease-game-online",
+    "title": "Crease Game Online",
+    "studio": "Crease Game Online",
+    "studioUrl": "https://creasegameonline.com/",
+    "added": "2026-11-15",
+    "short": "A free paper-folding puzzle: fold the sheet along its creases until it covers the dashed outline exactly.",
+    "description": "Crease Game Online is a free paper-folding puzzle that plays right in your browser. You get a square sheet of paper and a dashed outline, and you drag the paper to fold it until the visible paper covers the outline exactly, with nothing hanging over and nothing left uncovered. Four new puzzles unlock every day, and there are 27 practice puzzles from Easy to Master plus three short lessons for beginners. Undo, Restart and Hint are always one tap away, and solving a puzzle in the fewest folds without hints earns three stars. No download and no account needed.",
+    "instructions": "Press on the paper and drag to fold it. The spot you grab lands where you let go, and the paper folds along the crease halfway between. Drag sideways or up and down for a straight fold, or at 45 degrees for a diagonal fold. Cover the dashed outline exactly. Red stripes show paper outside the outline. Use Undo, Restart and Hint if you get stuck, and try the three lessons first if you are new.",
+    "category": "puzzle",
+    "extraCats": [
+      "hypercasual"
+    ],
+    "tags": [
+      "Puzzle",
+      "Paper folding",
+      "Logic",
+      "Daily puzzle",
+      "Brain teaser",
+      "Relaxing"
+    ],
+    "embed": "https://creasegameonline.com/",
+    "thumb": "https://creasegameonline.com/og.png",
+    "orientation": "any"
+  },
+  {
     "slug": "no-map-home",
     "title": "No Map Home",
     "studio": "WebGrid",
