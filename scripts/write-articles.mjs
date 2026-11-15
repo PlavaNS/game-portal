@@ -101,7 +101,7 @@ ${list.map((g, i) => `${i + 1}. ${g.title}: ${String(g.description).slice(0, 360
   for (let attempt = 1; attempt <= 3; attempt++) {
     if (spent() >= BUDGET) return 'budget';
     const r = await fetch(`${API}/messages`, { method: 'POST', headers: HEADERS,
-      body: JSON.stringify({ model: MODEL, max_tokens: 3500, system: SYSTEM, messages: [{ role: 'user', content: user }] }) });
+      body: JSON.stringify({ model: MODEL, max_tokens: 8000, system: SYSTEM, messages: [{ role: 'user', content: user }] }) });
     if (r.status === 429 || r.status >= 500) { await new Promise(res => setTimeout(res, 5000 * attempt)); continue; }
     if (!r.ok) throw new Error(`HTTP ${r.status} ${(await r.text()).slice(0, 200)}`);
     const j = await r.json();
@@ -109,6 +109,7 @@ ${list.map((g, i) => `${i + 1}. ${g.title}: ${String(g.description).slice(0, 360
     const text = (j.content || []).filter(c => c.type === 'text').map(c => c.text).join('');
     const m = text.match(/\{[\s\S]*\}/);
     let x = null; try { x = m && JSON.parse(m[0]); } catch {}
+    if (!x) console.warn(`unparsable ${job.slug}: stop=${j.stop_reason} out=${j.usage?.output_tokens} head=${JSON.stringify(text.slice(0, 120))} tail=${JSON.stringify(text.slice(-160))}`);
     if (!x || typeof x.title !== 'string' || typeof x.description !== 'string' || typeof x.intro !== 'string' || !Array.isArray(x.sections) || !Array.isArray(x.picks) || !Array.isArray(x.faq)) continue;
     const sections = x.sections.map(s => s && typeof s.h2 === 'string' && Array.isArray(s.body) ? { h2: clean(s.h2), body: s.body.filter(p => typeof p === 'string').map(clean).filter(p => p.length > 40) } : null)
       .filter(s => s && s.body.length);
