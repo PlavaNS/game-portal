@@ -90,5 +90,195 @@
    ]
   ],
   "date": "2026-11-15"
+ },
+ "games-to-play-when-bored-tips": {
+  "topic": "games-to-play-when-bored",
+  "angle": "tips",
+  "title": "How to Get Better at Casual Browser Games: 6 Tips",
+  "description": "Six practical habits for casual browser games: read the screen, plan ahead, judge risk and practise in short sessions, with the reasoning behind each.",
+  "intro": "When you are bored, you want a game that starts fast and gives something back within a few minutes. The same habits help whether you are matching tiles, timing a jump or growing a farm. These six tips explain what to do and why it works.",
+  "sections": [
+   {
+    "h2": "Choose the game for the time and energy you have",
+    "body": [
+     "Before you click anything, decide how long you have. Five minutes suits short puzzle levels, a quick race or one round of a matching game. Idle and upgrade games reward repeat visits, because their progress builds over time. Picking the wrong type leaves you either rushed or restless, and both make you play worse.",
+     "Notice your energy as well. If your head is tired, choose something with a low penalty for mistakes, such as sorting or searching a picture. If you want to wake up, choose something built on timing and reflexes. When the demand matches your mood, you enjoy the game and improve, instead of quitting after one failure."
+    ]
+   },
+   {
+    "h2": "Read the whole screen before your first move",
+    "body": [
+     "Casual games put useful information everywhere: counters, timers, resource bars and the shape of the layout. Spend a few seconds scanning before you act. In a tile or sorting game, look for what is free, what is blocked and what is buried. In a platform or racing game, look ahead of your character instead of at it, because your eyes should be where you will be a second from now.",
+     "Then check the edges. Timers, move counters and currency usually sit near the border and are easy to ignore until they run out. Make a habit of glancing at them after every action, so nothing surprises you at the worst moment."
+    ]
+   },
+   {
+    "h2": "Plan two moves ahead",
+    "body": [
+     "Puzzle games punish moves that feel good now but trap you later. Before each move, ask what it opens up and what it blocks. In a matching game, clearing a pair from the top of a tall stack usually uncovers more options than clearing a piece that was already free at the edge. Prefer moves that create choices for you.",
+     "If a game has an undo button, use it as a thinking tool, not a panic button. Try an idea, see where it leads, then step back. If there is no undo, trace the path with your eyes or cursor first. In management and defense games, planning means spending on your biggest weakness before buying whatever is cheapest."
+    ]
+   },
+   {
+    "h2": "Take risks only when failing is cheap",
+    "body": [
+     "Every game offers a safe choice and a risky one. The safe choice is the slower route, the shorter jump or the saved resource. The risky choice is the long jump, the speed boost or spending everything at once. Risk is worth it when failure costs a few seconds, such as restarting a short level. It is not worth it when failure wipes out a long run of progress.",
+     "A useful rule is to gamble when you are far from finishing and play safe when you are close. Many players lose a nearly won level by rushing the last step. In upgrade games, keep a small reserve instead of spending down to zero, so one bad wave or one unlucky turn does not leave you unable to recover."
+    ]
+   },
+   {
+    "h2": "Practise in short, focused sessions",
+    "body": [
+     "Skill grows faster when you repeat one thing with attention. Pick one small goal for a session: finish a level without using undo, take every corner cleanly, or clear a board faster than last time. Ten focused minutes beat an hour of tapping on autopilot, because you can actually tell what changed.",
+     "Stop when you notice mistakes you would not normally make. Tired attention causes sloppy clicks, and a short break often solves the exact problem that had you stuck. When you fail the same way twice, change one thing, not everything, so you learn which change mattered.",
+     "Replaying a level you already finished is useful too. You know the layout, so you can concentrate on doing it more cleanly and quickly."
+    ]
+   },
+   {
+    "h2": "Common mistakes to avoid",
+    "body": [
+     "The first is clicking too fast. Most casual games have no real time pressure, yet players rush and misclick. Slowing down by half a second per move cuts errors more than any clever trick.",
+     "The second is skipping instructions and hints. A short tutorial often explains a control such as dragging, holding or right clicking, and missing one control can make a game feel unfair. Hints exist to teach you the pattern, so take one after a minute of being stuck, not after ten.",
+     "The third is chasing a loss. If the same approach has failed three times, repeating it angrily will not help. Switch to a different game for a while, then return with a fresh idea."
+    ]
+   }
+  ],
+  "picks": [
+   {
+    "slug": "prism-match-3d",
+    "title": "Prism Match 3D",
+    "line": "A relaxing 3D cube puzzle where you rotate levels and use logic and timing, suited to calm mental exercise."
+   },
+   {
+    "slug": "mahjong-classic",
+    "title": "Mahjong Classic",
+    "line": "Mahjong solitaire where every random layout has a solution, with fields like Turtle, Fort and Crab, good for steady low-pressure matching."
+   },
+   {
+    "slug": "slime-jump-crown-quest",
+    "title": "Slime Jump: Crown Quest",
+    "line": "Hold, aim and release to launch a slime across 150 short platform levels, suited to quick attempts that reward timing."
+   },
+   {
+    "slug": "tideroll-block-puzzle",
+    "title": "TideRoll: Block Puzzle",
+    "line": "Roll a wooden block to the goal hole across 150 levels with switches and bridges, with undo, so it suits careful planners."
+   },
+   {
+    "slug": "buggy-blast",
+    "title": "Buggy Blast",
+    "line": "An off-road racer with 12 World Circuit stages, nitro bursts and drifting, suited to players who like practising corners and timing."
+   }
+  ],
+  "faq": [
+   [
+    "How long should a session be when I am just bored?",
+    "Ten to twenty minutes is enough for most casual games, long enough to make progress and short enough to stay focused. Stop earlier if you start making careless mistakes."
+   ],
+   [
+    "Is it better to replay old levels or move on to new ones?",
+    "Do both. Replaying a finished level lets you practise cleaner play on a layout you already know, while new levels test whether the habit carries over."
+   ],
+   [
+    "Why do I keep failing the same level?",
+    "Usually you are repeating the same plan or rushing one step. Look at the whole screen again, change one thing about your approach, and try a different order of moves."
+   ]
+  ],
+  "date": "2026-11-15"
+ },
+ "games-to-play-when-bored-beginners-guide": {
+  "topic": "games-to-play-when-bored",
+  "angle": "start",
+  "title": "Games to Play When Bored: Where to Start and What to Look For",
+  "description": "New to browser games? Learn how to pick one for your mood, what a first session feels like, how long to play and which games on the site to try first.",
+  "intro": "When you are bored, you want something that starts fast, asks little of you and gives back a small win. The games in this collection cover puzzles, racing, sports, building and tidy-up games, so there is a way in for almost any mood. This guide is for someone who has never really played browser games.",
+  "sections": [
+   {
+    "h2": "What these games are",
+    "body": [
+     "Browser games open in a web page and start within seconds. You use a mouse, a keyboard or a touch screen, and there is nothing to set up. Games that suit boredom share a few habits: the idea is clear almost at once, one attempt is short, and you get a small reward quickly.",
+     "The range is wider than people expect. Mahjong Classic is a matching puzzle with layouts such as Turtle, Fort and Crab. Good Sort Master has you place identical items next to each other on shelves to connect three. Slime Jump: Crown Quest is a platform game with 150 levels. Obby Cut the Grass for Egg is a growing game where you cut grass, earn gold and buy better blades. Each asks for a different kind of attention, which is why choosing by mood works well."
+    ]
+   },
+   {
+    "h2": "What a first session looks like",
+    "body": [
+     "Start by deciding what you want from the next ten minutes. If you want to switch your brain off, pick a sorting or matching game. If you want to think a little, pick a puzzle that rewards planning. If you want your heart rate up, pick a racer or a platformer. Choosing this way stops you from quitting a game that was simply wrong for your mood.",
+     "Then spend the first minute reading the controls. They differ from game to game. Slime Jump uses hold, aim and release with a mouse or touch, while Piece of Cake: Merge & Bake lists separate desktop and mobile controls on its page.",
+     "A concrete first try: open Mahjong Classic, choose Turtle, and look for two identical tiles that are both free. A tile is free when nothing sits on top of it and its left or right side is open. The game builds layouts that always have a solution, so you will not be stuck because of bad luck. Expect to fumble the first attempt. That is normal, and short stages make a retry cheap."
+    ]
+   },
+   {
+    "h2": "How to tell a good one from a weak one",
+    "body": [
+     "Judge the first minute. A good game tells you what to do, either through a clear goal or through help. Hidden Object: Street of Secrets has an assistant who offers hints, which is useful when you are new and unsure where to look. If you cannot say what you are supposed to be doing after sixty seconds, move on to another game.",
+     "Check how forgiving it is. A mistake should cost you a few seconds, not the whole session. TideRoll: Block Puzzle lets you undo mistakes, so you can try a move on the rolling block without fear. Short levels and instant retries do the same job in a platformer.",
+     "Finally, check whether there is somewhere to go. Good games show progress. Buggy Blast has 12 World Circuit stages and you unlock the next by finishing first, and Obby Cut the Grass for Egg lets you buy better blades and travel to new worlds. A weak game repeats one action with no new decisions. If after ten minutes only a number has changed, it will probably not hold your interest."
+    ]
+   },
+   {
+    "h2": "How long a session takes",
+    "body": [
+     "Most of these fit into gaps you already have. Slime Jump has short stages, so you can play one and stop. Buggy Blast races run four laps, Rim Rebels 3v3 has four short quarters, and Cage Ballers Football lets you choose the match length, so you set the size of the session yourself.",
+     "Some are longer. Football World 27 is a full 11v11 match with a cup, a league and squad management, so save it for when you have a proper stretch of time. Pyramid Builders asks you to lay every brick of the Great Pyramid by hand, which is a long project you dip into rather than finish in one go.",
+     "A habit that helps is to decide your stopping point before you begin, such as three levels, one race or one match. Without a plan, a boredom game can quietly eat an hour, and by the end you are no longer enjoying it."
+    ]
+   },
+   {
+    "h2": "What to try next",
+    "body": [
+     "Once one game clicks, move sideways to something related. If you liked Mahjong Classic, Good Sort Master uses the same instinct for spotting matches in a different setting. If you liked TideRoll, Hidden Object: Clues and Mysteries also rewards patience, with a calm detective voice guiding you through its locations.",
+     "If you want more planning, try Defend the Castle, where you build and upgrade defenses with gold and wood against enemy waves. For something gentler, Garden Master has you nurture plants and fend off gophers, and TB World is about creating looks and cozy interiors.",
+     "If you like competition, Rim Rebels 3v3 lets you play the CPU on Easy, Normal or Hard. Start on Easy and move up once wins feel routine. Changing one thing at a time, either the type of game or the difficulty, shows you quickly what you actually enjoy."
+    ]
+   }
+  ],
+  "picks": [
+   {
+    "slug": "mahjong-classic",
+    "title": "Mahjong Classic",
+    "line": "A mahjong solitaire with layouts like Turtle, Fort and Crab, and every layout has a solution. Good for a calm, low pressure start."
+   },
+   {
+    "slug": "tideroll-block-puzzle",
+    "title": "TideRoll: Block Puzzle",
+    "line": "A block puzzle with 150 levels where you roll a wooden block into the goal hole and can undo mistakes. Suits careful thinkers."
+   },
+   {
+    "slug": "slime-jump-crown-quest",
+    "title": "Slime Jump: Crown Quest",
+    "line": "A slime platformer with 150 short levels and simple mouse or touch controls, where you hold, aim and release. Suits quick, repeatable attempts."
+   },
+   {
+    "slug": "hidden-object-clues-and-mysteries",
+    "title": "Hidden Object: Clues and Mysteries",
+    "line": "A hidden object game with riddles and a calm detective voice guiding you through charming locations. Suits relaxed searchers."
+   },
+   {
+    "slug": "buggy-blast",
+    "title": "Buggy Blast",
+    "line": "An off-road racer with 12 World Circuit stages, four laps per race and nitro bursts. Suits anyone who wants speed and a sense of progress."
+   },
+   {
+    "slug": "good-sort-master-triple-match",
+    "title": "Good Sort Master: Triple Match",
+    "line": "A relaxing shelf sorting game where you line up identical items to connect three. Suits people who want zero pressure."
+   }
+  ],
+  "faq": [
+   [
+    "What is a good game to play for just five minutes?",
+    "Pick something with short stages, such as Slime Jump: Crown Quest, or a single round of Mahjong Classic. Both let you stop after one attempt without losing much."
+   ],
+   [
+    "Do I need to be good at games to enjoy these?",
+    "No. Many of them, like sorting and matching games, start easy and give you time to learn, and some offer help such as undo or hints. Games with a difficulty choice, like Rim Rebels 3v3, let you begin on Easy."
+   ],
+   [
+    "How do I choose between so many games?",
+    "Choose by mood first: calm, thoughtful or fast. Then give a game one minute, and if the goal and controls still feel unclear, try another."
+   ]
+  ],
+  "date": "2026-11-15"
  }
 }
