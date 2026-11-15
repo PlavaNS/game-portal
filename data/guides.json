@@ -240307,5 +240307,971 @@
         "You will remove nails, heal broken bones, drain pus-filled wounds, use electric shocks, and staple open wounds."
       ]
     ]
+  },
+  "binbloom-city-cleanup": {
+    "intro": "BinBloom: City Cleanup is a 3D garbage truck game where you drive through colorful city streets, collect waste bins with a robotic arm, and sort different kinds of garbage. Complete missions to make the city cleaner.",
+    "tips": [
+      "Learn the controls with W, A, S, D and Space before a mission starts, so you can brake and steer smoothly when the bins are close together.",
+      "Sort each load carefully across Plastic, Paper, Glass and Organic waste, since each type belongs in its own category.",
+      "Use the Space handbrake to drift through tight street corners, which helps you keep your truck near the next bin without losing speed.",
+      "Try different trucks as you unlock them, because the 12 vehicles may suit different routes and mission types. If you enjoy tidying up virtual spaces, [[cleaning-games|more cleaning games to try]] are also on the site.",
+      "Check your daily reward each time you play, since coins and gems can help you upgrade your vehicles over the 60 levels."
+    ],
+    "faq": [
+      [
+        "How do I pick up garbage in BinBloom: City Cleanup?",
+        "You collect garbage using the robotic arm on your truck. Drive close to a waste bin and use the arm to lift it into your truck."
+      ],
+      [
+        "What kinds of waste do I need to sort?",
+        "You sort Plastic, Paper, Glass and Organic waste. Each type should be recycled separately as you complete the missions."
+      ]
+    ]
+  },
+  "worlds-deepest-hole": {
+    "intro": "Dig down through twelve rock layers on Route 66, fill your bucket, ride the winch up to sell, and upgrade your tools as the rock gets harder. Your tourist museum keeps earning while you dig.",
+    "tips": [
+      "Ride the winch up to sell whenever your bucket is full, since tourists and sales keep your earnings moving while you dig deeper.",
+      "Buy upgrades in order of need: the next tool matters most when the rock layer you are on starts slowing you down.",
+      "Watch for buried TNT before you swing your tool, and keep dynamite or the Big Bomb ready for the tougher layers.",
+      "Check the daily orders with J regularly, because completing them gives you a clear target for your next sale.",
+      "If you like slow upgrades that keep earning while you are away, [[idle-and-tycoon-games|idle and tycoon picks]] are a good next step."
+    ],
+    "faq": [
+      [
+        "How do I dig in this game?",
+        "On desktop, hold the left mouse button to dig and use WASD or the arrow keys to move. On mobile, use the DIG button on the right side."
+      ],
+      [
+        "How do I earn money faster?",
+        "Keep your bucket moving between the surface and the depths, sell often with E, and buy better tools so each swing clears more dirt and ore."
+      ]
+    ]
+  },
+  "funny-virtual-pet": {
+    "intro": "Look after Mister Grumpy, a grumpy marmot who needs daily feeding, bathing and bedtime. Prank him, wake him up in annoying ways, and dress him up with hats, ties and accessories.",
+    "tips": [
+      "Feed, bathe and put Mister Grumpy to sleep each day so he doesn't become neglected, since the game asks you to care for him daily.",
+      "Try different wake-up methods and notice which ones make him react most, so you can plan the funniest ones for later days.",
+      "Spend some time on his appearance early, because hats, ties and other accessories are easy to change and make it fun to see how he looks after each change.",
+      "Mix pranks with routine care, so the game stays lively without you forgetting his basic needs.",
+      "If you enjoy looking after animals, you might also like these [[animal-games|animal care games]] for more pet-style play."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Funny Virtual Pet?",
+        "The goal is to take care of Mister Grumpy every day by feeding, bathing and putting him to sleep, while having fun with pranks and customizing him and his house."
+      ],
+      [
+        "How do I wake Mister Grumpy up?",
+        "You wake him in the funniest and most annoying way you can think of. He will hate it and tell you to go away, which is part of the fun."
+      ]
+    ]
+  },
+  "trial-bike-racing-clash": {
+    "intro": "Trial Bike Racing Clash is a 3D stunt bike racing game with 1 player and 2 player modes. You race through dangerous zones with customizable bikes and riders, and you need to finish without crashing.",
+    "tips": [
+      "Speed matters, but so does staying upright. Ease off before rough sections so you keep control of the bike.",
+      "Use the jump button with care. Time your jumps to land cleanly instead of pressing it just because a jump is coming.",
+      "Try both the mission and skills modes. Each one asks for a different approach, so practising both will show you more of the zones.",
+      "If you enjoy racing against someone, try [[2-player-games|two-player races with a friend]]. Split-screen play like this is a good way to learn the tracks together.",
+      "Pick a bike and rider you like before you start. Customizing them lets you set up a combination that feels comfortable to control."
+    ],
+    "faq": [
+      [
+        "Which keys control each player?",
+        "Player 1 moves with W, A, S and D and jumps with Space. Player 2 moves with the arrow keys and jumps with L."
+      ],
+      [
+        "Can I race against a friend?",
+        "Yes. You can play in 2 player mode and race to the finish line together in both the mission and skills modes."
+      ]
+    ]
+  },
+  "zombie-mission-7": {
+    "intro": "Zombie Mission 7 is a two-player shooter where heroes are pulled off vacation to fight zombies on a space station. You get 20 levels and 3 bosses, with separate controls for each player.",
+    "tips": [
+      "Switch weapons with Q and E (Player 1) or O and P (Player 2) before a new wave arrives, so you are not changing guns while zombies close in.",
+      "Save grenades for groups of zombies or for bosses, since one grenade can clear a crowd more effectively than single shots.",
+      "Use the wall-walk ability to get above zombies or out of a crowded spot, then turn and fire from a safer position.",
+      "Coordinate with your partner on who covers which direction, so both players are not running into the same enemies at once. If you enjoy co-op, you can find [[2-player-games|more games built for two players]] on the site."
+    ],
+    "faq": [
+      [
+        "How do the two players share the controls?",
+        "Player 1 uses W, A, S, D to move, F to hit, G for grenades, and Q-E to switch weapons. Player 2 uses the arrow keys, L to hit, K for grenades, and O-P to switch weapons."
+      ],
+      [
+        "How many levels and bosses are there?",
+        "The game has 20 levels and 3 different bosses to fight."
+      ]
+    ]
+  },
+  "mini-moto-speed-race": {
+    "intro": "Mini Moto Speed Race is a 3D motorcycle arcade game where you dodge obstacles, strike rival AI riders, and collect diamonds to buy new weapons and bikes in the shop. Your goal is to get through levels and unlock the items you like most.",
+    "tips": [
+      "Slide left and right early to move around obstacles, since changing lanes in time is easier than correcting at the last moment.",
+      "Hold to speed up only when the road ahead looks clear, because pushing speed while dodging can leave you less room to react.",
+      "Keep an eye on the AI riders and aim to strike them when you have a clear path, rather than chasing them into obstacles.",
+      "Save your diamonds for a weapon or bike that suits how you play, instead of spending them on the first item you can afford.",
+      "If you enjoy this style of riding, [[motorcycle-and-bike-games|more two-wheel rides to try]] can give you similar gameplay to compare."
+    ],
+    "faq": [
+      [
+        "How do I steer my bike?",
+        "Slide on the screen to move left and right. Holding on the screen speeds you up."
+      ],
+      [
+        "How do I get diamonds to buy new items?",
+        "You earn diamonds as you play, and once you have some, you can spend them in the shop on more weapons and bikes."
+      ]
+    ]
+  },
+  "fish-eat-getting-big": {
+    "intro": "Fish Eat Getting Big is a sea-themed hunting game where your fish grows by eating smaller fish. You can play alone or with up to three players, each using a different control scheme.",
+    "tips": [
+      "Focus only on the smaller fish marked with numbers, since those are the ones you can eat to grow.",
+      "Save the coins you earn from each level so you can buy new fish types from the market when you have enough.",
+      "If you are playing with friends, agree on who uses WASD, arrow keys, or the mouse before starting so no one waits to find their controls.",
+      "Try different oceans once you feel comfortable, since each one gives you a new place to hunt and keeps the game fresh. You can also explore more [[animal-games|animal-themed games]] if you enjoy this one."
+    ],
+    "faq": [
+      [
+        "How does my fish get bigger?",
+        "Your fish grows once it eats smaller fish. Hunt the ones marked with numbers that are smaller than your current size."
+      ],
+      [
+        "How many players can play together and what are the controls?",
+        "Up to three players can play. Player 1 moves with W A S D, Player 2 uses the arrow keys, and Player 3 moves with the mouse and left-click."
+      ]
+    ]
+  },
+  "survivor-rainbow-monster": {
+    "intro": "Survivor Rainbow Monster is a horror adventure where you play a kidnapped child trying to get through five nights at an empty amusement park. Each night you must finish a task while staying away from the Rainbow Monster.",
+    "tips": [
+      "Treat each night as a separate goal: finish that night's task first, then plan how to reach the next one. Trying to think about all five nights at once can make the game feel harder than it is.",
+      "Keep track of where the Rainbow Monster is before you start a task. Moving toward a task while it is close is the fastest way to get caught.",
+      "Use the first night to learn the controls, whether you are using the keyboard with the E key or a mouse or touchpad. Knowing how to move and interact quickly will matter more later.",
+      "Stay calm and watch your surroundings instead of rushing. The game is built around tasks and avoiding danger, so careful movement usually works better than running blindly.",
+      "If you enjoy solving problems as well as avoiding danger, you may also like [[puzzle-games|more puzzle-style browser games]] that reward careful thinking."
+    ],
+    "faq": [
+      [
+        "What is the goal of Survivor Rainbow Monster?",
+        "You must survive five nights in an empty amusement park. Each night you have a special task to complete while avoiding the Rainbow Monsters."
+      ],
+      [
+        "Which controls does the game use?",
+        "The instructions list keyboard controls with the E key, along with mouse or touchpad input."
+      ]
+    ]
+  },
+  "horse-family-animal-simulator-3d": {
+    "intro": "Horse Family Animal Simulator 3D is an open-world adventure where you explore an island with your horse. You can complete missions, raise a family with foals, decorate your home, and defend yourself from forest predators.",
+    "tips": [
+      "Use shift to run when you need to cover ground across the open world, then slow down when you are near villagers, other horses, or predators so you can react in time.",
+      "Keep your attack button ready as you travel, since forest predators can appear while you are exploring and you will need to defend yourself.",
+      "Take on different missions and mini games in turn, so you earn progress in several areas instead of focusing on only one task.",
+      "Look at your horse's customization and upgrade options regularly, since making your horse stronger and more beautiful is part of the game's progression. If you enjoy caring for creatures, you can also browse [[animal-games|games about animals]] for similar gameplay.",
+      "Check your achievements now and then to see which goals you have not reached yet, and use them as a guide for what to try next."
+    ],
+    "faq": [
+      [
+        "Which keys control the horse?",
+        "Use WASD or the arrow keys to move, space to jump, and shift to run. Left mouse button attacks."
+      ],
+      [
+        "How do I defend myself from forest predators?",
+        "Use the left mouse button to attack when a predator comes close. Keep your horse moving and jump when you need to get out of reach."
+      ]
+    ]
+  },
+  "mutant-assassin-3d": {
+    "intro": "Mutant Assassin 3D puts you in the role of a special agent who uses web-launching abilities and punches to take down enemies across different terrains. Clear four levels and then face the boss.",
+    "tips": [
+      "Hold your finger on the screen and swipe to aim before you launch a web, since aiming is controlled this way.",
+      "Use webs to ensnare foes first, then follow up with punches, so each enemy is dealt with before you move on.",
+      "Look around each area before acting, because the terrain changes from level to level and the best route is not always the same.",
+      "Treat the boss level as a test of the same web-and-punch approach you used earlier, and avoid rushing in without a plan.",
+      "If you like aiming-focused action, you can explore more [[shooting-games|action shooting games]] on the site to build your accuracy."
+    ],
+    "faq": [
+      [
+        "How do I aim my web?",
+        "Hold your finger on the screen and swipe to aim. Release to launch your attack."
+      ],
+      [
+        "How do I eliminate enemies?",
+        "Ensnare each foe with your webs, then deliver powerful punches to take them out."
+      ]
+    ]
+  },
+  "blocky-swat-shooting-iceworld-multiplayer": {
+    "intro": "Blocky Swat Shooting IceWorld Multiplayer is a multiplayer shooter set on pixel-style ice maps, where you play against real players from around the world. Nine guns and many attachments give you plenty to experiment with.",
+    "tips": [
+      "Try each of the nine guns early on to see which one suits how you like to move and aim before you commit to one.",
+      "Use Left Ctrl to go prone when you want to make yourself a smaller target, and stand up with the same key when you need to move quickly again.",
+      "Save Shift for short runs to reposition between fights, since moving around the icy maps quickly helps you avoid staying in one spot.",
+      "Open the menu with TAB to look over your options between rounds, and use the mouse wheel or the change gun control to swap weapons when your current one is not working.",
+      "If you enjoy this style of play, you can explore more [[shooting-games|other shooter titles]] to compare different maps and weapon setups."
+    ],
+    "faq": [
+      [
+        "How do I move and aim?",
+        "Use WASD to move and the mouse to aim and look around. Hold Shift to run, and press Space to jump."
+      ],
+      [
+        "What does the Q key do?",
+        "Q changes the camo on your gun, which is a visual option that lets you pick how your weapon looks."
+      ]
+    ]
+  },
+  "off-road-bus-transport-driver-tourist-coach-sim": {
+    "intro": "Off Road Bus Transport Driver: Tourist Coach Sim is a mountain driving game where you steer 4x4 coach buses up slopes and off-road paths. Levels get harder as you go, and precise parking is a key challenge.",
+    "tips": [
+      "Use the driving guide at the start to learn how the bus handles on slopes before you attempt the harder levels.",
+      "Try the different camera views early and pick the one that gives you the clearest sight of the path and the bus edges, especially when parking.",
+      "Go slowly when you reach a parking spot, since precise parking is harder than driving on the off-road path. Make small adjustments instead of large steering moves.",
+      "Pay attention to the real traffic around you and the passengers' movements, and give other vehicles room on narrow mountain paths.",
+      "Expect the challenge to grow with each level, so master the basic climbs and turns on earlier levels before moving on. [[truck-and-driving-games|more truck driving challenges]] can help you practice similar skills."
+    ],
+    "faq": [
+      [
+        "How do I control the bus?",
+        "Use the keyboard arrow keys to drive and steer the coach."
+      ],
+      [
+        "What is the hardest part of the game?",
+        "Precise parking on the off-road path is the most tricky part, since it needs careful and slow control."
+      ]
+    ]
+  },
+  "matchcandy-io": {
+    "intro": "Matchcandy.io is a match 3 puzzle game where you swap candies to line up three or more of the same type before time runs out. You can compete with players worldwide on the global leaderboard.",
+    "tips": [
+      "Look for matches of three or more before you swap, since that is what scores points. Scan the whole board first so you do not waste moves.",
+      "Keep an eye on the clock from the start and avoid long pauses. Quick, clear matches help you earn more points in the time you have.",
+      "Try to make matches that create special candies when you can. They are part of how you build points, so plan a swap that sets one up.",
+      "Check your progress often, because leveling up and unlocking achievements give you goals to aim for between games. If you like fast swap-and-match challenges, you can explore more in [[match-3-games|more match 3 puzzles]]."
+    ],
+    "faq": [
+      [
+        "How do I swap candies?",
+        "Use the mouse on a PC, or touch the screen on a smartphone or tablet, to swap candies and make a match."
+      ],
+      [
+        "What counts as a match?",
+        "A match is three or more candies of the same type lined up after a swap. Matches earn points and can also make special candies."
+      ]
+    ]
+  },
+  "farmer-challenge-party": {
+    "intro": "Farmer Challenge Party is a two-player action game with four farm-themed chapters. Each chapter is a head-to-head contest, and the first player to reach 10 points wins the challenge.",
+    "tips": [
+      "Keep track of the score in every chapter, since the first player to reach 10 wins the whole challenge. A small lead early can decide the match.",
+      "In the Chickens chapter, watch the explosive blocks closely and plan your route so you do not hit them while you collect chickens.",
+      "In the Farms chapter, remember that you can harvest your friend's plants as well as your own. Sometimes taking their crop is worth more than planting another one.",
+      "In the Vegetables chapter, grab the vegetables on the ground first so you have ammunition ready, then aim your cannon at your opponent when they are in a clear line.",
+      "If you enjoy taking on a friend in short matches, you can find more options in [[2-player-games|other games for two players]]."
+    ],
+    "faq": [
+      [
+        "How do you win a round in Farmer Challenge Party?",
+        "Each chapter is a scoring contest against your opponent, and the first player to score 10 wins the challenge. You need to beat your friend in each level, not just play it through."
+      ],
+      [
+        "What are the controls for each player?",
+        "Player 1 moves with W, A, S and D and uses the action key S. Player 2 moves with the arrow keys and uses the action key DOWN ARROW."
+      ]
+    ]
+  },
+  "stacklands": {
+    "intro": "Stacklands mixes city building with stacking cards. You place cards on top of each other so that they interact, and you work through a range of quests with novel gameplay.",
+    "tips": [
+      "Start by placing a Villager card on a Berry Shrub card, since the villager will collect berries automatically once they are together.",
+      "Keep an eye on your villagers' satiety and drag Berry cards onto a Villager when they need food, so they stay fed.",
+      "Try different card combinations early on to learn what each one does, because the game relies on stacking cards in new ways.",
+      "Work through the quests one at a time, using what you learned from each to tackle the next one. If you enjoy card-based puzzles, you can also browse [[card-games|more stacking card games]] for similar challenges."
+    ],
+    "faq": [
+      [
+        "How do I keep my villagers from going hungry?",
+        "Drag a Berry card onto a Villager card to restore their satiety. Villagers can collect berries on their own when placed on a Berry Shrub."
+      ],
+      [
+        "How do I move cards around the board?",
+        "Drag or tap a card to move it. Dragging lets you place cards onto others to build stacks."
+      ]
+    ]
+  },
+  "cube-surfer-online": {
+    "intro": "Cube Surfer is a 3D running game where you slide across the screen to dodge a lot of dangers on the track. Jumping lets you stack two cubes together, and the goal is to move flexibly toward the endpoint.",
+    "tips": [
+      "Look a little ahead of your cube rather than just under it, so you have time to slide left or right before an obstacle reaches you.",
+      "Make small, early slides instead of big sudden ones, since the controls are simple and quick adjustments help you stay on the track.",
+      "Use your jump when the track ahead is crowded, and remember that you can stack two cubes together as you go.",
+      "Keep an eye on the squares scattered across the track and plan your route so you pass them when it is safe to do so.",
+      "If you keep getting caught, slow your pace in your head and focus on one obstacle at a time; steady movement usually beats rushing. You can find more [[parkour-and-obby-games|running and dodging games]] to practice these skills."
+    ],
+    "faq": [
+      [
+        "How many levels can I reach in Cube Surfer?",
+        "The game description does not state a number of levels, so the only way to find out is to keep playing and see how far you can get."
+      ],
+      [
+        "How do I move my cube?",
+        "Slide on the screen to move your cube and avoid obstacles. Jumping up lets you stack two cubes together."
+      ]
+    ]
+  },
+  "stickman-merge-battle-arena": {
+    "intro": "Stickman Merge Battle: Arena is a strategy game where you build an army of stickmen to defeat red stickman invaders and bosses. Merging and positioning your troops well is the key to progressing.",
+    "tips": [
+      "Merge two units of the same type as often as you can, since each merge produces the next tier and is the fastest way to strengthen your army.",
+      "Drag units between tiles to arrange your troops before each fight, and test different formations to see which layout holds up best.",
+      "Expect a sharp difficulty jump at every tenth level, so review your army's formation and tier mix before those boss stages.",
+      "Buy new tiles when you have room to spare, so you can keep merging and repositioning without running out of space. If you enjoy this style of puzzle, you can explore more [[merge-games|merge puzzles to try]] after this one.",
+      "Since each level is harder than the last, avoid rushing purchases. Think about which units you need most before spending on new ones."
+    ],
+    "faq": [
+      [
+        "How do I make stronger units?",
+        "Merge two units of the same type to create the next tier unit. Repeating this process is how your army grows stronger."
+      ],
+      [
+        "How do I defeat the bosses?",
+        "Bosses appear every ten levels. Build a strong army with higher-tier units and a well-planned formation before you reach them."
+      ]
+    ]
+  },
+  "bus-stunt-3d-simulator-2024": {
+    "intro": "Bus Stunt 3D Simulator 2024 is a driving stunt game with twenty levels. Each level is harder than the last, so you need to drive carefully to reach the finish.",
+    "tips": [
+      "Learn the controls on the first level before attempting any stunts, since the difficulty rises with every new level.",
+      "Slow down and drive carefully on each run, because a fast crash early on can cost you time you need later.",
+      "Take each level one step at a time and focus on reaching the finish before trying anything risky.",
+      "If you enjoy vehicle stunt challenges, the [[truck-and-driving-games|more truck and driving games]] collection has similar titles to try next."
+    ],
+    "faq": [
+      [
+        "What are the controls on PC?",
+        "Use W, A, S and D to drive, and press SPACE as shown in the game instructions."
+      ],
+      [
+        "How do I drive on a phone or tablet?",
+        "Use the button inside the game to control the bus on mobile."
+      ]
+    ]
+  },
+  "dentist-doctor-makeover": {
+    "intro": "Dentist Doctor Makeover is a simulation where you run a small clinic and treat princesses who come in with different dental problems. You use tools and care for each patient to help them feel better.",
+    "tips": [
+      "Check why each princess came in before you pick a tool, since sweet-loving patients, patients who avoid brushing, and patients with broken teeth each need different care.",
+      "Take your time with each tool and follow the patient's needs rather than rushing through the steps.",
+      "Use gentle, steady movements when you drag or slide, which keeps your treatment controlled and easier to follow.",
+      "If you enjoy the styling side of the game, you can explore [[dress-up-games|dress up game picks]] for more fashion-focused play."
+    ],
+    "faq": [
+      [
+        "How do I know which treatment a princess needs?",
+        "Look at the reason she came to the clinic: tooth decay from sweets, reluctance to brush, or a broken tooth from a fall. Then choose the tool that fits that problem."
+      ],
+      [
+        "What are the controls?",
+        "On desktop, click and drag with the mouse. On mobile, tap and slide with your finger."
+      ]
+    ]
+  },
+  "alien-survival-shooter-2022": {
+    "intro": "Alien Survival Shooter 2022 is a shooting and driving game about surviving an alien invasion. You fight on foot and in vehicles, with missions that include smashing creatures and soldier aliens.",
+    "tips": [
+      "Use the number keys 1 to 4 to switch guns early, so you know which weapon suits each enemy before a fight gets crowded.",
+      "Keep an eye on your ammo and press R to reload during quiet moments rather than in the middle of an attack.",
+      "Driving is useful for crushing enemies, but use WASD and the mouse to keep your aim steady when you shoot from a moving vehicle. If you enjoy the driving side, the [[truck-and-driving-games|truck and driving games]] collection has more to try.",
+      "Press C to change the camera while in a vehicle and pick the view that lets you see both the road ahead and the enemies around you.",
+      "Use Shift to run between cover and Space to jump when you need to move quickly, and save your bursts of speed for escaping danger."
+    ],
+    "faq": [
+      [
+        "How do I get in and out of a vehicle?",
+        "Press E to enter a vehicle and press E again to exit it."
+      ],
+      [
+        "What does the Tab key do?",
+        "Tab opens the game menu, which is useful if you want to pause and check your options before continuing."
+      ]
+    ]
+  },
+  "pool-8-ball-mania": {
+    "intro": "A classic eight-ball pool game where you pot your balls against a computer opponent or a friend. Realistic ball physics and an aiming guide help you line up precise shots.",
+    "tips": [
+      "Use the aiming help before every shot, then adjust slightly so the cue ball hits your target ball at the angle you want.",
+      "Plan your next shot before you strike, so the cue ball stops in a spot where you can reach your next ball easily.",
+      "Keep track of which group you are on, solids or stripes, and avoid potting the other colour, since that can hand your opponent the advantage.",
+      "Leave the black ball until all of your own balls are in the pockets, because potting it early can end your turn or the game.",
+      "If you enjoy this, you can find [[golf-and-pool-games|more pool and billiards games]] to keep practising your aim."
+    ],
+    "faq": [
+      [
+        "How do I decide whether I play solids or stripes?",
+        "Your group is set by the first ball you pot cleanly into a pocket, so aim for a ball you can reach easily on your opening shots."
+      ],
+      [
+        "When should I pot the black ball?",
+        "Only pot the black ball after you have potted all of your own balls, otherwise you risk losing the game."
+      ]
+    ]
+  },
+  "zombie-parade-defense-4": {
+    "intro": "Zombie Parade Defense 4 is a wave-based defense game where zombies attack from both sides of your castle. You can play alone or with up to four players sharing the defense.",
+    "tips": [
+      "Watch both directions at once, since zombies come from the left and the right. Split your attention so one side does not overrun while you focus on the other.",
+      "Keep track of which weapon you are holding and switch guns early when a new wave of enemies appears, rather than after they reach your castle.",
+      "Pick up bonuses when it is safe to do so, and think about what they give you before you commit to a position.",
+      "If you enjoy holding a position against waves, you might also like these [[tower-defense-games|more wave defense titles]] for similar planning practice.",
+      "With several players, agree on who covers which side early so no one is guarding the same spot while the other is left open."
+    ],
+    "faq": [
+      [
+        "How do I win a round in Zombie Parade Defense 4?",
+        "You must stop the zombies coming in waves before your castle falls. Keep the castle standing through each wave to keep playing."
+      ],
+      [
+        "How do the controls work for player 1?",
+        "Player 1 moves with W, A, S and D, switches guns with Q, and goes in or out of the base with E."
+      ]
+    ]
+  },
+  "top-down-truck-racing": {
+    "intro": "Top Down Truck Racing is a fast top-down race game where you drive powerful big-rigs across desert canyons, cities, icy roads, and forest trails. Each map has its own traits that you can learn to gain an edge.",
+    "tips": [
+      "Learn each map's layout before pushing hard, since every track has unique characteristics that reward familiarity.",
+      "On the slippery ice roads, avoid sudden steering and throttle changes, which can make a heavy rig lose grip.",
+      "Treat the desert canyons and dense forest trails as places to plan your lines ahead, because tight turns come up quickly in a top-down view.",
+      "Use WASD smoothly rather than tapping wildly, so your big-rig keeps its speed through corners.",
+      "If you enjoy handling heavy vehicles, you might also like these [[truck-and-driving-games|more truck driving games]] to practice similar skills."
+    ],
+    "faq": [
+      [
+        "How do I control the truck?",
+        "Use the W, A, S, and D keys to drive. Steering and speed are handled with these keys throughout the race."
+      ],
+      [
+        "What makes the ice roads different from other maps?",
+        "The ice roads are slippery, so you need to be gentler with your inputs to keep control of the truck. Easing off before corners usually helps."
+      ]
+    ]
+  },
+  "zombie-defence-team": {
+    "intro": "Zombie Defence Team is a 3D shooter where a special forces soldier fights through four crowded levels of zombies using a range of modern weapons. Move, aim, and switch weapons to stay alive as the undead close in.",
+    "tips": [
+      "Reload with R during quieter moments, not in the middle of a crowd, so you are not left empty when zombies reach you.",
+      "Use the mouse wheel to change weapons based on how close the zombies are, and keep track of which weapon you are holding before a fight starts.",
+      "Hold right mouse button to aim when zombies are approaching from a distance, and fire with left mouse button in short bursts to save ammo.",
+      "Keep moving with WASD instead of standing still, since staying in one spot lets zombies surround you quickly. Jump with Space to get out of tight spots.",
+      "Save the bullet time key T for the moments when you are surrounded and need a moment to pick targets. If you enjoy this style of gameplay, you can explore more [[shooting-games|action shooters to try]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I move and aim my soldier?",
+        "Use WASD to move, the mouse to look around, and hold right mouse button to aim. Left mouse button fires your weapon."
+      ],
+      [
+        "What does the bullet time key do?",
+        "Pressing T activates bullet time, which helps you deal with groups of zombies more carefully. Use it when you are under pressure rather than all the time."
+      ]
+    ]
+  },
+  "bubbles-shooter-squirrel": {
+    "intro": "Bubble Shooter Squirrel is a puzzle game where you aim and shoot bubbles to save squirrels. Its levels suit players of all ages and get more interesting as you go.",
+    "tips": [
+      "Look for clusters where a single shot can link three or more bubbles, since groups of that size are what make them burst.",
+      "Before you shoot, check which babies are still on screen, because you need to save all of them to finish a level.",
+      "Aim for 3 stars on each level by clearing bubbles efficiently instead of taking random shots, which can leave bubbles hanging in the way.",
+      "Save your fireball bubble hits for dense areas, since hitting one pops the bubbles around it and can open up a crowded section.",
+      "If you enjoy this style, try more [[bubble-shooter|bubble shooter games]] to practice spotting matches quickly."
+    ],
+    "faq": [
+      [
+        "What is the goal of Bubble Shooter Squirrel?",
+        "Pop bubbles to save squirrels and rescue all the babies on the screen to level up. Trying to earn 3 stars on each level is an extra challenge."
+      ],
+      [
+        "How do I pop bubbles?",
+        "Tap where you want to aim, and group three or more bubbles of the same kind so they burst together."
+      ]
+    ]
+  },
+  "mahjong-alchemy": {
+    "intro": "Mahjong Alchemy is a relaxed card-matching puzzle where you connect identical cards by clicking them. Speed earns more points, and the game trains memory and attention.",
+    "tips": [
+      "Scan the whole board for matching cards before you click, since faster pairs earn more points.",
+      "Pay attention to where each card appears, because remembering positions is the main skill this game trains.",
+      "When you are stuck, use the hint button on the side instead of clicking cards at random.",
+      "Players who enjoy matching tiles can find more [[mahjong|mahjong games]] to try when they want a similar challenge."
+    ],
+    "faq": [
+      [
+        "How can I earn more points?",
+        "Connect each pair as quickly as you can, because the faster you open a pair, the more points you get."
+      ],
+      [
+        "What should I do when I cannot find a pair?",
+        "Click the hint button on the side first. If that does not help, the instructions suggest trying the option to move for coins."
+      ]
+    ]
+  },
+  "ww2-war-tank-2022": {
+    "intro": "WW2 War Tank 2022 is a shooting game where you fight zombie bots across different landscapes. You can play alone or with other players, and you move with WASD while aiming with the mouse.",
+    "tips": [
+      "Use WASD to keep moving, since staying still makes you an easy target for zombie bots.",
+      "Move from one piece of cover to the next rather than standing in the open, because the description stresses taking refuge behind objects to improve your survival.",
+      "Look around with the mouse often so you spot zombie bots coming from different directions across the landscape.",
+      "Try the different weapons early to find which one you handle best before the zombie fights get harder.",
+      "If you enjoy armored battles, you can find more [[tank-and-war-games|tank and war titles]] on the site to compare."
+    ],
+    "faq": [
+      [
+        "How do I move and aim in this game?",
+        "Use the WASD keys to walk and the mouse to aim and look around. The shoot control is part of the same first-person setup."
+      ],
+      [
+        "Can I play with other people?",
+        "Yes. The description says you can play solo or with several players at once."
+      ]
+    ]
+  },
+  "sweet-baby-girl-cleanup-messy-school": {
+    "intro": "Sweet Baby Girl Cleanup Messy School is a cleaning game where you help Chloe, Katie and Justin tidy up a messy school. You clean several areas to make the whole building shine again.",
+    "tips": [
+      "Pick one area, such as the playground or bathroom, and finish it completely before moving on so you don't end up with several half-cleaned spaces.",
+      "Look over each room first to spot the biggest messes, then clean those early so the rest of the task feels lighter.",
+      "Work through the observatory, classrooms and chemistry lab in turn, keeping a simple order so you don't miss any spot.",
+      "If you enjoy tidy-up games with a bright, friendly feel, you can browse more [[kids-games|games for young players]] on the site."
+    ],
+    "faq": [
+      [
+        "What is the goal of the game?",
+        "Your goal is to clean the messy school so that every area, from the observatory to the chemistry lab, looks shiny again."
+      ],
+      [
+        "How do I control the game?",
+        "Use your mouse or tap the screen to pick up items and clean the messes in each area."
+      ]
+    ]
+  },
+  "stickdoll-god-of-archery": {
+    "intro": "Stickdoll: God Of Archery is a stickman archery battle where Flame, Gargle and Ophelia fight over three rounds. You collect armor, arrows and item bubbles, then take turns firing at your opponent. You can play against the computer or with a friend.",
+    "tips": [
+      "Collect armor before each battle, since it helps you survive the arrows your opponent sends back.",
+      "Treat the random item bubbles as a gamble: the description warns they will not always help, so grab them only when you can afford a bad result.",
+      "Use the power bar carefully before every shot, because the game specifically asks you to set it well before you fire.",
+      "Since the winner is the player with the most health after three rounds, avoid spending all your health early and keep some for the final round.",
+      "If you enjoy two-player challenges like this, try a game from the [[stickman-games|stickman game collection]] for more quick matches."
+    ],
+    "faq": [
+      [
+        "How do you win the game?",
+        "If nobody wins outright, the match lasts three rounds, and the player with the most health at the end is the winner."
+      ],
+      [
+        "Which keys control each player?",
+        "Player 1 moves with W, A, S and D and throws with Space. Player 2 moves with the arrow keys and throws with K."
+      ]
+    ]
+  },
+  "shoot-your-nightmare-space-isolation": {
+    "intro": "You wake up alone on the abandoned planet ML-397 in the year 2299, with no memory of who you are. This first-person sci-fi shooter asks you to explore the empty space base and find out what went wrong.",
+    "tips": [
+      "Use Left CTRL to crouch and X to go prone when enemies are in view, since a lower profile makes you a harder target while you aim and fire.",
+      "Keep your weapon reloaded between fights by pressing R early, so you are not caught with an empty magazine when a new group appears.",
+      "Save your G grenades for groups or enemies in tight spaces, where one throw can cover more ground than a few single shots.",
+      "Search rooms and press F to pick up items as you go, and check your surroundings before moving on so you do not leave useful supplies behind. If you enjoy this style of combat, you can find [[shooting-games|more shooting games to try]] on the site.",
+      "Use Right Mouse Button to aim when you have time to line up a shot, and fire from a distance when you can, so you have space to back away."
+    ],
+    "faq": [
+      [
+        "How do I switch between weapons?",
+        "Scroll the Mouse Wheel to change weapons. Learn which one works best at close range and which works better from a distance."
+      ],
+      [
+        "Is it better to run or walk through the base?",
+        "Hold Left Shift to run when you need to get away quickly, and walk with W A S D when you need to listen and look around carefully."
+      ]
+    ]
+  },
+  "lets-kill-jane-the-killer-don-t-go-to-sleep": {
+    "intro": "Lets Kill Jane The Killer: Don't Go to Sleep is a 3D arcade shooter where you hunt down Jane. Your goal is to find 8 bottles of liquid hate before you confront her.",
+    "tips": [
+      "Use the mouse wheel to switch weapons early so you always have the right tool ready when a fight starts.",
+      "Hold the right mouse button to aim for more precise shots, and save quick hip fire for close encounters.",
+      "Press F to pick up items as you go, and keep an eye out for ammo so you do not run dry mid-fight.",
+      "Use G for grenades when enemies gather in one spot, and press R to reload during quiet moments rather than in the middle of a battle.",
+      "Try the new chainsaw when you are close to a target, and use crouch (Left CTRL) or prone (X) to make yourself a smaller target. If you like this style of gameplay, you can explore [[shooting-games|more shooting games]] for similar action."
+    ],
+    "faq": [
+      [
+        "How many bottles of liquid hate do I need to find?",
+        "You need to find 8 bottles of liquid hate before you try to kill Jane The Killer."
+      ],
+      [
+        "Which key throws grenades?",
+        "Press G to use grenades. Mouse wheel changes your weapons, and V is for melee attacks."
+      ]
+    ]
+  },
+  "blocky-combat-swat-2": {
+    "intro": "Blocky Combat Swat 2 is a multiplayer shooter where you team up or compete with friends across pixel-style maps. You can unlock weapons, chat with other players, and customize your character's look.",
+    "tips": [
+      "Keep your movement moving with WASD, since standing still makes you an easy target for other players.",
+      "Use the 1 and 2 keys or the mouse scroll wheel to swap guns fast, so you can switch to a better weapon for close or long range.",
+      "Open the Tab menu early to check your unlocks and what you can equip, so you know which weapons to aim for next.",
+      "Press Q to open attachments and set up your gun before a match, rather than fighting with unfamiliar settings mid-round.",
+      "Since the game has 10 maps, learn the layouts you play most, and pay attention to where you can hide and where enemies are likely to appear. If you enjoy matches with others, you can find more [[multiplayer-games|online games with friends]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I switch between my weapons?",
+        "Press 1 or 2 on the keyboard, or scroll the mouse wheel to change guns. Using both methods lets you react faster in a fight."
+      ],
+      [
+        "How do I aim and shoot?",
+        "Move the mouse to look around and click to shoot. Use WASD to walk so you can line up your shots while staying mobile."
+      ]
+    ]
+  },
+  "ben-10-alien-force": {
+    "intro": "Ben 10 Alien Force is an arcade running and jumping game where you climb as high as you can while dodging obstacles and collecting coins. You can play as any of Ben's ten alien heroes.",
+    "tips": [
+      "Watch the obstacles ahead rather than the ground right in front of you, so you have time to decide when to jump.",
+      "Try each of the ten heroes to see which one suits your timing, since the challenge is the same but your results may differ.",
+      "Grab coins when they are safe to reach, but do not risk a fall or a collision just to pick one up.",
+      "Keep your rhythm steady instead of rushing, because most failures happen when a jump is started too early or too late.",
+      "If you enjoy timing jumps across moving routes, a [[parkour-and-obby-games|collection of parkour and obby games]] has more challenges built around similar skills."
+    ],
+    "faq": [
+      [
+        "How do I control my character?",
+        "The game is played with a touch pad, so you tap or touch the screen to make your hero jump and move through the course."
+      ],
+      [
+        "What is the goal of the game?",
+        "The goal is to climb as high as your skills allow while avoiding obstacles and grabbing coins along the way."
+      ]
+    ]
+  },
+  "save-the-princess": {
+    "intro": "Save The Princess is a puzzle adventure where you work through many levels of traps and mechanisms to rescue a princess held by a monster. Each level hides its clues in a simple-looking screen.",
+    "tips": [
+      "Study the whole screen before you act, since the clues are hidden in plain sight and the simple layout can be deceiving.",
+      "Test one mechanism at a time so you can clearly see what each trap or object does before combining them.",
+      "If you get stuck, list the mechanisms and traps you have already noticed and think about which ones you haven't tried in relation to each other.",
+      "Take risks only after you have weighed the options, because some paths may lead to a trap that resets your progress.",
+      "If you enjoy figuring out hidden clues in tight spaces, [[escape-room-games|escape room style challenges]] follow a similar pattern of careful observation."
+    ],
+    "faq": [
+      [
+        "How do I find the clues in each level?",
+        "Look closely at everything on the screen, because the instructions say the way forward is hidden among the mechanisms and traps. Small details often matter more than the largest objects."
+      ],
+      [
+        "What should I do when I get stuck?",
+        "Stop and review what you have already seen in the level, then try your ideas in a different order. Thinking carefully before each move is usually faster than guessing repeatedly."
+      ]
+    ]
+  },
+  "traffic-rider-legend": {
+    "intro": "Traffic Rider Legend is a first-person motorbike racer where you weave through endless highway traffic. Use the keyboard to steer, throttle, brake and pull wheelies while chasing career missions.",
+    "tips": [
+      "Keep your speed above 100 km/h when you can, since close overtakes only earn bonus score and cash at that pace.",
+      "Watch for two-way roads, where riding against the oncoming lane pays extra score and cash, but only overtake when the gap is clear.",
+      "Use the wheelie control between safe stretches of road so you are not caught mid-wheelie when traffic appears.",
+      "Spend the cash you earn on a bike that suits the missions you are stuck on, and check the career mode goals before upgrading.",
+      "If you like handling bikes at speed, you can find more titles in [[motorcycle-and-bike-games|a collection of motorcycle games]]."
+    ],
+    "faq": [
+      [
+        "How do I earn the most score?",
+        "Ride faster, since your score rises with speed, and overtake traffic closely above 100 km/h for bonus points and cash."
+      ],
+      [
+        "Which key does the wheelie?",
+        "Press Left Shift to do a wheelie, which also earns extra score and cash."
+      ]
+    ]
+  },
+  "craft-island-3d-game": {
+    "intro": "Craft Island 3D is an idle game about logging trees, building up your island, and unlocking stores, rings and a weapons camp. This guide covers how to plan your progress and get the most from each stage.",
+    "tips": [
+      "Focus on cutting down trees early, since trees are what you use to build your first buildings.",
+      "Watch which stores, rings and buildings you can unlock next, and aim your tree collecting at the one you want most.",
+      "Unlock the rings before trying Breakout mode, because the description ties the weapons camp to that step.",
+      "Once the weapons camp is open, collect trees steadily so you can build it up, and pick between the archer and artillery soldier based on how you want to fight. If you enjoy this kind of setup, [[tank-and-war-games|more tank battle games]] follow a similar build-and-defend style."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Craft Island 3D?",
+        "The goal is to log trees, build on your island and become a rich island craft owner. Your progress comes from building up buildings over time."
+      ],
+      [
+        "How do I unlock new stores and buildings?",
+        "Stores, rings and other buildings are unlocked through your efforts, mainly by cutting down trees to build. Keep collecting and building to reach them."
+      ]
+    ]
+  },
+  "real-taxi-driver-3d": {
+    "intro": "Real Taxi Driver 3D is a taxi driving game with several modes, including Task, Free, Park and Multiplayer. You steer with W, A, S and D, and the game includes passengers, traffic and a navigation system.",
+    "tips": [
+      "Try Free Mode first to learn how the W, A, S and D steering responds before you take on passenger jobs in Task Mode.",
+      "Save nitro with the F key for straight stretches or open road, so you have a boost available when you need speed.",
+      "Switch the camera with the C key during driving to pick the view that gives you the clearest look at traffic around your taxi.",
+      "Use the navigation system and keep an eye on the intelligent traffic, since slowing down early for other cars helps you avoid collisions on busy roads. If you enjoy driving other vehicles, you can also explore more [[car-games|car driving games]].",
+      "Use the Night and Day modes to practice in different lighting, since night driving can make it harder to read traffic and road conditions."
+    ],
+    "faq": [
+      [
+        "How do I steer the taxi?",
+        "Use the W, A, S and D keys to give direction to the vehicle."
+      ],
+      [
+        "What does the nitro key do?",
+        "Press the F key to use nitro for a speed boost."
+      ]
+    ]
+  },
+  "dino-squad-adventure": {
+    "intro": "Dino Squad Adventure is a two-player cooperative adventure where two dinosaurs team up to beat their enemies. You complete missions by collecting gold while each dino uses its own special skills.",
+    "tips": [
+      "Split the jobs early: one dino handles enemies with the gun while the other slips through walls to reach gold that is out of the way.",
+      "Keep both players talking about where to go next, since the game rewards working together rather than racing ahead alone.",
+      "Player 1 has the gun on F and the bomb on G, so decide who fires and who uses the bomb before a tough fight starts.",
+      "Use Player 2's punch on L for enemies that get close, and save the gun for enemies at a distance.",
+      "If you enjoy games that need teamwork on one screen, you can find more options among [[2-player-games|games for two players]]."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Dino Squad Adventure?",
+        "Your team completes each mission by collecting gold while beating the enemies that stand in the way. Success depends on both dinosaurs cooperating."
+      ],
+      [
+        "How do the two players control their dinosaurs?",
+        "Player 1 moves with W, A, S and D, fires the gun with F and uses the bomb with G. Player 2 moves with the arrow keys and punches with L."
+      ]
+    ]
+  },
+  "formula-car-stunt-3d-mega-ramp-2021": {
+    "intro": "Formula Car Stunt 3D Mega Ramp 2021 is a 3D racing game where you drive police, sports, classic, and formula cars over ramps and twisting impossible tracks. Complete missions, pick your car, and try to master the jumps.",
+    "tips": [
+      "Try a few different cars before choosing a favorite, since the game offers police cars, sports cars, muscle cars, monster trucks, and formula cars that handle differently.",
+      "Adjust the speed and acceleration control options to suit your skill level, and lower the speed on tricky curves until you learn how each track turns.",
+      "Study each mega ramp's direction before you launch so you can line up your car and land it smoothly instead of crashing on the way down.",
+      "Work through the missions in order and retry the hard ones, since each level adds new challenges built on the skills from earlier tracks. For more fast-paced driving, you could also browse [[racing-games|other racing games to try]].",
+      "If you enjoy the multiplayer mode, race against other drivers to compare your lines and timing on the same impossible tracks."
+    ],
+    "faq": [
+      [
+        "How do I score points or win in this game?",
+        "The game rewards you for winning races and completing missions. Finishing each track cleanly on the first attempt is the best way to make steady progress."
+      ],
+      [
+        "Which car should I pick for the stunt tracks?",
+        "Cars differ in weight and handling, so try a few on the easier missions first. Pick the one that feels most stable when you land from high ramps."
+      ]
+    ]
+  },
+  "reversi-mania": {
+    "intro": "Reversi Mania is a two-player strategy puzzle played with double-sided stones. You flip your opponent's stones by surrounding them, and the player with more stones of their color at the end wins.",
+    "tips": [
+      "Before each move, check every line your stone would form, because a single placement can flip stones in several directions at once.",
+      "Think a few moves ahead rather than only grabbing the most stones right now, since a big early lead can be flipped back quickly.",
+      "Look for placements that flip only a few stones, which can leave your opponent with fewer useful options on their next turn.",
+      "Keep track of the empty spaces as the board fills, since the final few moves often decide who ends with more stones face up in their color.",
+      "If you enjoy planning moves on a grid, you can find more options in [[chess-and-board-games|other strategy board games]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I flip my opponent's stones?",
+        "Place your stone so that it connects a line between your own stones with the opponent's stones in between. The stones in between are then turned to your color."
+      ],
+      [
+        "How do I win the game?",
+        "The game ends when the board is full. The player with more stones turned face up in their own color wins."
+      ]
+    ]
+  },
+  "ben-10-hill-car-racing-alien-boy": {
+    "intro": "Help Ben 10 race up the hill as fast as possible while destroying alien cars. Collect power-ups along the way and shoot at enemy cars to clear your path.",
+    "tips": [
+      "Keep an eye out for power-ups on the track, since collecting them is how you get the tools to fight back against enemy cars.",
+      "Decide when to shoot and when to focus on speed, because racing fast and attacking both matter for getting ahead.",
+      "Try each available character, Four Arms, Way Big, Diamondhead, and XLR8, to see which one suits your driving style best.",
+      "Check back later for new characters, since the game says more will be added soon and each one may change how you approach a run. If you like this style, you can find [[racing-games|more racing games to try]] on the site."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Ben 10 Hill Car Racing Alien Boy?",
+        "Your goal is to race up the hill as fast as you can while destroying alien cars along the way."
+      ],
+      [
+        "How do I destroy enemy cars?",
+        "You collect power-ups and then shoot toward the enemy cars to destroy them."
+      ]
+    ]
+  },
+  "blob-giant-3d": {
+    "intro": "Blob Giant 3D is a tap-to-play game where you guide a growing giant blob through a seaside course. Your size changes with every jelly man you pick up and every obstacle you hit.",
+    "tips": [
+      "Check the color of each section before you start, since the little jelly men you should absorb change with the section's color.",
+      "React quickly when little men appear, because absorbing one of the wrong color will shrink you.",
+      "Steer around obstacles on the way to the finish line, since hitting them also makes you smaller.",
+      "Before the final bounce, consider tapping faster as you grow, because a bigger blob with quicker taps earns a better bonus. If you enjoy courses like this, you can explore [[parkour-and-obby-games|more obstacle course games]] too."
+    ],
+    "faq": [
+      [
+        "How do I grow bigger in Blob Giant 3D?",
+        "Absorb the little jelly men that match the color of the current section. Each one you absorb increases your size."
+      ],
+      [
+        "What makes my blob shrink?",
+        "Absorbing a little man of a different color than yours or running into obstacles on your way to the finish line will make you smaller."
+      ]
+    ]
+  },
+  "truck-amazing-parking-impossible-parking-2021": {
+    "intro": "Race through the streets of Blackridge, take down rivals, and build your reputation. This guide covers how to play with the keyboard, customize your cars, and handle the police.",
+    "tips": [
+      "Use Nitro Zones strategically: save your nitrous for stretches where you can hold a straight line, since it pushes you into faster driving and drifting.",
+      "Watch for jumps, debris, and traffic ahead so you can line up your path early instead of reacting at the last second.",
+      "Keep an eye on the police behind you. Outrunning them is part of every race, so avoid hitting walls and traffic that will slow you down.",
+      "Try the Mod Shop and the Black Market to test different customizations, then keep the setup that suits how you like to drive. If you enjoy more driving challenges, the [[truck-and-driving-games|more truck and driving titles]] collection has similar options."
+    ],
+    "faq": [
+      [
+        "What is the main goal of the game?",
+        "You race local crews and rivals on the streets of Blackridge to win, take down the competition, and raise your rep. Winning races unlocks more races, customizations, and cars."
+      ],
+      [
+        "How do I earn more reputation?",
+        "Reputation comes from racing and beating your opponents. Keep winning races to build your rep and move on to new challenges."
+      ]
+    ]
+  },
+  "stunt-car-impossible-track-challenge": {
+    "intro": "Stunt Car Impossible Track Challenge sends you driving along sky-high ramps and zigzag tracks. You perform jumps, drifts and mid-air flips while racing against the clock to reach each checkpoint.",
+    "tips": [
+      "Watch the time limit closely, since each checkpoint must be reached quickly before the race timer runs out.",
+      "Take a moment to judge each ramp before jumping, because a badly angled landing can wreck your run on the narrow sky roads.",
+      "Use drifts on the zigzag sections to keep your speed up, and save the mid-air flips for the jumps where your car is already stable.",
+      "Try each of the different sports cars to see which one handles the jumps and turns in a way that suits your driving.",
+      "Once you feel comfortable on these tracks, try other [[racing-games|fast racing challenges]] to practise different driving skills."
+    ],
+    "faq": [
+      [
+        "How do I win a level in this game?",
+        "You need to reach the checkpoint and the finish line before the racing time runs out. Doing stunts helps, but speed matters because the timer is limited."
+      ],
+      [
+        "Do the stunts or the speed matter more for scoring?",
+        "The game focuses on reaching checkpoints quickly while performing stunts, so you need to balance both. Being too careful with stunts can cost you time."
+      ]
+    ]
+  },
+  "clash-blade-io": {
+    "intro": "Clash Blade IO is an action game with two modes: a timed Rank mode against many players and a casual Endless mode. Your sword grows as you level up, so timing and positioning matter.",
+    "tips": [
+      "Collect orbs while you are at a low level, since your movement is faster and easier to control before your sword grows.",
+      "Keep in mind that higher levels make you move more slowly, so plan your routes earlier and avoid getting cornered.",
+      "In Rank mode you have 90 seconds, so focus on staying near the top three rather than chasing every fight.",
+      "Try Endless mode to learn how the sword size and movement change, since it gives no coins or exp and is safe for practice. If you like competing against lots of other people, you can also explore [[multiplayer-games|online games for many players]]."
+    ],
+    "faq": [
+      [
+        "What is the goal in Rank mode?",
+        "You fight other players in a room of 50 or more for 90 seconds. The top three finishers earn coins and exp."
+      ],
+      [
+        "Do I earn anything in Endless mode?",
+        "No, Endless mode is for fun and does not give coins or exp. It is a good place to practice your moves against many players."
+      ]
+    ]
+  },
+  "offroad-mania": {
+    "intro": "Offroad Mania is a physics-based 4x4 driving game with 120 levels full of rocks, trees, bridges and springboards. This guide covers the controls and some habits that help you handle the rough terrain.",
+    "tips": [
+      "Ease off the gas on uneven ground so the car's weight stays balanced, and only press full throttle on clear, flat stretches.",
+      "Use the brake before steep drops and springboards rather than in the middle of a jump, since the physics reward controlled speed.",
+      "Switch to the camera view with C when you need to see the terrain ahead, especially around rocks and tree lines.",
+      "Press R to restart quickly if your car tips over or gets stuck, instead of struggling to recover on a bad line.",
+      "If you enjoy the big-wheel bounce of these trails, you can also try [[monster-truck-games|monster truck races]] for a similar feel."
+    ],
+    "faq": [
+      [
+        "Which keys steer and control speed?",
+        "Use W or Z to accelerate, S to brake, and A or Q and D to steer left and right."
+      ],
+      [
+        "How do I pause the game or reset a level?",
+        "Press ESC to pause and R to restart the current level."
+      ]
+    ]
+  },
+  "mrs-bullet-perfect-gunshot": {
+    "intro": "Mrs. Bullet is a physics puzzle shooter where you aim with the mouse and right click to fire. Each level asks you to take down enemies, and the challenge is doing it with precise aim and smart use of bullets.",
+    "tips": [
+      "Before you fire, look at the whole level and work out which bullet path will reach your target, whether straight, bouncing, or ricocheting.",
+      "Look for objects that can fall or explode, since one well-placed shot can set off a chain reaction and take out several enemies at once.",
+      "Speed, timing and patience all matter, so take a moment to plan your shot instead of rushing. The game asks whether you can do it in one shot.",
+      "Try to earn three stars on every level, and replay levels you finished with fewer stars to sharpen your aim. If you like this style of challenge, you might also enjoy [[shooting-games|more aim-based shooting games]]."
+    ],
+    "faq": [
+      [
+        "How do I aim and shoot?",
+        "Move your mouse to aim and right click to shoot."
+      ],
+      [
+        "What makes the levels different from each other?",
+        "Each level has its own twist, and some bullets ricochet, bounce, or travel in a straight line. Figuring out which bullet type to use is part of the puzzle."
+      ]
+    ]
+  },
+  "high-run-heels-run-rush-3d-2022": {
+    "intro": "Run a high heel boutique from start to finish: clean the shop, design shoes for customers, repair a broken heel, and wrap a gift. Everything is played with the mouse, so the focus is on careful, steady clicks.",
+    "tips": [
+      "Clean the floors, shelves, and entrance door in a set order so you do not miss a spot before opening the shop.",
+      "Compare your design closely with the customer's reference before adding accessories, so the custom shoe matches what they asked for.",
+      "When repairing the broken heel, finish the puzzle pieces first and sew the front part afterward, since the stitching depends on a solid heel.",
+      "Take your time with the gift box steps: pick the right heels, pack them neatly, and then wrap the present to finish the level well.",
+      "If you enjoy fitting pieces together, you might also like these [[match-3-games|puzzle matching games]] for similar problem-solving practice."
+    ],
+    "faq": [
+      [
+        "What is the goal of the first part of the game?",
+        "Your goal is to prepare the shop by turning on the light, vacuuming the floors, and wiping the dust off the shelves and entrance door. Once everything is clean and the shoes are placed, you can open for customers."
+      ],
+      [
+        "How do I make a customer happy with a custom shoe?",
+        "Use the design the customer gives you to recreate their desired high heel, then add accessories to finish it. Finishing with a bow is part of the repair task, so keep the look close to what they asked for."
+      ]
+    ]
+  },
+  "pregnant-mommy-care-games": {
+    "intro": "Pregnant Mommy Care Games lets you look after a mother through her full pregnancy, from basic checkups to healing injuries and the baby's arrival. It is played with mouse clicks or taps.",
+    "tips": [
+      "Work through the basic examinations early in each stage so you know how the mother is doing before you move on to other tasks.",
+      "Treat the accidental injuries as soon as they appear, since the game makes healing a core part of caring for her.",
+      "Follow the cooking steps in order and complete each one fully before moving to the next, so the mother's care stays consistent.",
+      "Keep an eye on the whole pregnancy cycle rather than rushing to the birth, because the game rewards steady, attentive care at every stage.",
+      "If you enjoy the styling side of this game, you can find more choices in our [[dress-up-games|dress up game collection]]."
+    ],
+    "faq": [
+      [
+        "How do I control the game?",
+        "You play by clicking or tapping with your mouse, and the instructions say to use the mouse to complete all the tasks."
+      ],
+      [
+        "What do I need to do during the pregnancy?",
+        "You take care of the mother by performing basic examinations, healing her injuries, and following the steps through the full pregnancy cycle."
+      ]
+    ]
   }
 }
