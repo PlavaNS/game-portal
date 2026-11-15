@@ -2,6 +2,7 @@
 // node scripts/build.mjs  ->  dist/
 import fs from 'node:fs';
 import path from 'node:path';
+import { emitArticles } from './emit-articles.mjs';
 
 const ROOT = path.resolve('.');
 const DIST = path.join(ROOT, 'dist');
@@ -308,6 +309,9 @@ const GUIDES = readJSON(path.join(ROOT, 'data/guides.json'), {});
 const SEO_TITLES = readJSON(path.join(ROOT, 'data/seo-titles.json'), {});
 // "where to start" picks and an FAQ for each collection page (data/topic-guides.json)
 const TGUIDES = readJSON(path.join(ROOT, 'data/topic-guides.json'), {});
+// original long-form articles for the /guides/ section (data/articles.json)
+const ARTICLES = readJSON(path.join(ROOT, 'data/articles.json'), {});
+const artsOf = slug => Object.entries(ARTICLES).filter(([, a]) => a.topic === slug);
 
 // our own games always first
 const ours = readJSON(path.join(ROOT, 'data/our-games.json'), []).map(o => ({
@@ -531,6 +535,7 @@ ${bodyClass.includes('home') ? '' : `<section class="row cat-grid-wrap"><div cla
   <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.slogan)} ${roundedCount.toLocaleString('en-US')}+ ${esc(tr('free web games — no downloads, no sign-up.'))}</p>
   <p><a href="${ur('/about/')}">${esc(tr('About'))}</a> · <a href="${ur('/contact/')}">${esc(tr('Contact'))}</a> · <a href="${ur('/faq/')}">FAQ</a> · <a href="${u('/tags/')}">${esc(tr('All tags'))}</a> &middot; <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> · <a href="${ur('/badge/')}">Badges for developers</a> · <a href="${ur('/publish-html5-game/')}">Where to publish your HTML5 game</a> · <a href="${ur('/privacy/')}">${esc(tr('Privacy Policy'))}</a> · <a href="${ur('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
   ${langsHere.length > 1 ? `<p class="foot-langs">${langsHere.map(l => l === LANG ? `<strong>${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</strong>` : `<a href="${esc(absIn(l, altPath))}" hreflang="${esc(l)}">${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</a>`).join(' · ')}</p>` : ''}
+  ${Object.keys(ARTICLES).length ? `<p class="foot-guides"><a href="${ur('/guides/')}">${LANG === 'en' ? 'Game guides and tips' : 'Guides'}</a></p>` : ''}
   <p class="foot-topics">${topics.filter(t => LANG === 'en' || (CATTR[LANG] || {})['topic:' + t.slug]).slice(0, 14).map(t => `<a href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join(' · ')}</p>
   <p class="foot-badge"><a href="https://twelve.tools" target="_blank" rel="noopener"><img src="https://twelve.tools/badge0-white.svg" alt="Featured on Twelve Tools" width="148" height="40" loading="lazy" decoding="async"></a><a href="https://fazier.com" target="_blank" rel="noopener"><img src="https://fazier.com/api/v1//public/badges/launch_badges.svg?badge_type=launched&amp;theme=light" alt="Launched on Fazier" width="105" height="45" loading="lazy" decoding="async"></a></p>
   <p class="foot-studio"><a href="https://www.escaperoom.co.rs/" target="_blank" rel="noopener"><img src="${B}/assets/badge-door404.svg" alt="Made by Door 404" width="160" height="56" loading="lazy" decoding="async"></a></p>
@@ -809,6 +814,7 @@ function emitContent() {
     <ul class="picks">${TG.picks.map(p => `<li><a href="${gHref({ slug: p.slug })}">${esc(p.title)}</a> — ${esc(p.line)}</li>`).join('')}</ul>
     <h2>${esc(tr('FAQ'))}</h2>${TG.faq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
   </section>` : ''}
+  ${LANG === 'en' && artsOf(t.slug).length ? `<section class="topic-guide"><h2>Guides</h2><ul class="picks">${artsOf(t.slug).map(([s, o]) => `<li><a href="${ur(`/guides/${s}/`)}">${esc(o.title)}</a></li>`).join('')}</ul></section>` : ''}
   <section class="row" style="margin-top:28px"><div class="row-h"><h2>${esc(tr('More collections'))}</h2></div><p class="chips">${others.map(o => `<a class="chip" href="${tHref(o.slug)}">${esc((catTr('topic:' + o.slug) || {}).h1 || o.h1)}</a>`).join('')}</p></section>`;
     write(`${t.slug}/index.html`, layout({
       title: (LANG === 'en' && t.title) ? `${t.title} | ${cfg.name}` : `${th1} — ${tr('Play Free Online')} | ${cfg.name}`,
@@ -1254,6 +1260,7 @@ textPage('terms', 'Terms of Use', `<p class="muted">Last updated: ${today}</p>
 write('404.html', layout({ title: `Page not found | ${cfg.name}`, desc: 'Page not found.', canonical: abs('/404.html'), noindex: true,
   body: `<article class="text center"><h1>404 — Game over?</h1><p>This page doesn't exist (anymore). But there are ${all.length} games that do.</p><p><a class="btn big" href="${u('/')}">Back to games</a></p></article>${row('Try one of these', null, top('hot', 12))}` }));
 
+emitArticles({ ART: ARTICLES, all, topics, layout, write, addUrl, textPage, abs, ur, esc, gHref, tHref, cfg });
 // SITEMAP / ROBOTS / MANIFEST
 // one child sitemap per language (Google reads at most 50,000 URLs per file), listed from a sitemap index at the same /sitemap.xml
 {
@@ -1283,7 +1290,7 @@ write('404.html', layout({ title: `Page not found | ${cfg.name}`, desc: 'Page no
 - [Most played](${abs('/popular/')}): the most popular games right now
 ${activeCats.map(c => `- [${c.h1}](${abs(cHref(c.slug).replace(B, ''))})`).join('\n')}
 
-## For game developers
+${Object.keys(ARTICLES).length ? `## Guides\n- [Game guides and tips](${abs('/guides/')}): original articles on how to get better at, start with and tell apart each kind of game on the site\n\n` : ''}## For game developers
 - [Submit your HTML5 game](${abs('/submit-game/')}): free and non-exclusive. A real person plays every submission; accepted games get their own page with credit and a link back to the developer, and stay embedded from the developer's own URL with their own ads. Games on Playgama, GameMonetize or GamePix earn the developer their network share for every play on the site.
 - [Where to publish your HTML5 game](${abs('/publish-html5-game/')}): Poki, CrazyGames, Playgama, GamePix, GameMonetize, itch.io, Game Jolt and Newgrounds compared side by side: revenue share, exclusivity, review and payouts.
 

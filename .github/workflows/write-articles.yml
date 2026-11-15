@@ -1,0 +1,75 @@
+name: Write guide articles (Claude API)
+
+# Actions -> "Write guide articles" -> Run workflow.
+# Writes original long-form articles for the /guides/ section, three per collection page.
+on:
+  workflow_dispatch:
+    inputs:
+      count:
+        description: 'How many articles this run'
+        default: '60'
+        required: true
+      conc:
+        description: 'Parallel requests to the Claude API'
+        default: '6'
+        required: false
+      budget:
+        description: 'Stop when the estimated cost (USD) passes this'
+        default: '10'
+        required: false
+
+permissions:
+  contents: write
+  actions: write
+
+concurrency:
+  group: write-articles
+  cancel-in-progress: false
+
+jobs:
+  articles:
+    runs-on: ubuntu-latest
+    timeout-minutes: 240
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Refresh game feeds
+        run: node scripts/fetch-feeds.mjs
+        env:
+          GD_FEED_URL: ${{ secrets.GD_FEED_URL }}
+      - name: Build (writes .cache for the writer)
+        run: node scripts/build.mjs
+        env:
+          SITE_URL: ${{ vars.SITE_URL }}
+          SITE_BASE: ${{ vars.SITE_BASE }}
+          CNAME: ${{ vars.CNAME }}
+      - name: Write articles
+        timeout-minutes: 200
+        run: node scripts/write-articles.mjs "${{ inputs.count }}"
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY || secrets.ILOVEWEBGAMES }}
+          ARTICLE_CONC: ${{ inputs.conc }}
+          BUDGET_USD: ${{ inputs.budget }}
+      - name: Commit
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/articles.json
+          git diff --cached --quiet && { echo "no changes"; exit 0; }
+          git commit -m "SEO: Claude-written guide articles"
+          git stash --include-untracked || true
+          ok=0; for i in 1 2 3; do git pull --rebase && git push && { ok=1; break; }; sleep 5; done
+          [ "$ok" = 1 ] || { echo "push failed"; exit 1; }
+      - name: Keep a copy of the articles
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: articles
+          path: data/articles.json
+          if-no-files-found: ignore
+      - name: Deploy site
+        run: gh workflow run deploy.yml --ref main
+        env:
+          GH_TOKEN: ${{ github.token }}
