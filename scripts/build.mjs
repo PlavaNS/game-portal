@@ -304,6 +304,8 @@ const wasPublished = g => { const s = slugify(g.title); return published.has(s) 
 
 // hand-written tips/FAQ for selected games (data/guides.json, keyed by slug)
 const GUIDES = readJSON(path.join(ROOT, 'data/guides.json'), {});
+// hand-written EN title/description for game pages that get impressions but few clicks in Search Console
+const SEO_TITLES = readJSON(path.join(ROOT, 'data/seo-titles.json'), {});
 // "where to start" picks and an FAQ for each collection page (data/topic-guides.json)
 const TGUIDES = readJSON(path.join(ROOT, 'data/topic-guides.json'), {});
 
@@ -844,8 +846,9 @@ function emitContent() {
     // pages with a guide get a more specific snippet (the guide intro) and a title that promises tips, which app-store results do not offer
     const GD = (tgame(g) || {}).guide || (LANG === 'en' ? GUIDES[g.slug] : null);
     const gdesc = gDesc(g), ginstr = gInstr(g);
-    const desc = trunc(`${tr('Play')} ${g.title} ${tr('online for free.')} ${GD && GD.intro ? unmark(GD.intro) + " " : ""}${gdesc}`, 158);
-    const pageTitle = GD ? `${g.title} — ${tr('Play Free Online, Tips & FAQ')} | ${cfg.name}` : `${g.title} — ${tr('Play Online for Free')} | ${cfg.name}`;
+    const SEO = LANG === 'en' ? SEO_TITLES[g.slug] : null;
+    const desc = SEO && SEO.desc ? SEO.desc : trunc(`${tr('Play')} ${g.title} ${tr('online for free.')} ${GD && GD.intro ? unmark(GD.intro) + " " : ""}${gdesc}`, 158);
+    const pageTitle = SEO && SEO.title ? `${SEO.title} | ${cfg.name}` : GD ? `${g.title} — ${tr('Play Free Online, Tips & FAQ')} | ${cfg.name}` : `${g.title} — ${tr('Play Online for Free')} | ${cfg.name}`;
     const tps = (topicsOf.get(g.id) || []).filter(t => catOK('topic:' + t.slug));
     const catLinks = tps.map(tp => `<a class="chip" href="${tHref(tp.slug)}">${esc((catTr('topic:' + tp.slug) || {}).h1 || tp.h1)}</a>`).join('') + g.cats.all.filter(c => CAT_BY[c]).map(c => `<a class="chip" href="${cHref(c)}">${esc((catTr(c) || {}).name || CAT_BY[c].name)}</a>`).join('');
     const tagSeen = new Set(tps.map(t => t.slug));
