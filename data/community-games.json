@@ -1,5 +1,30 @@
 [
   {
+    "slug": "no-map-home",
+    "title": "No Map Home",
+    "studio": "WebGrid",
+    "studioUrl": "https://www.nomaphome.com/",
+    "added": "2026-11-15",
+    "short": "A free co-op fantasy RPG drawn in ink: eight classes, 21 wilderness regions and 25 dungeon depths, solo or in a party.",
+    "description": "No Map Home is a free cooperative fantasy RPG that plays right in your browser. Adventurers followed the Hollow Star underground and never returned, and Mara of Lantern's Rest asks you to rekindle the Nine Watchlights and bring them home. Pick one of eight classes, explore twenty-one wilderness regions, and fight down through twenty-five dungeon depths, alone or in a party of up to eight players in one shared, real-time world. Day and night pass for everyone, your lantern can hide you or draw hunters, and you can hire a mercenary from the guild. Start as a guest with no download and no account.",
+    "instructions": "WASD or the arrow keys move. Click or T selects an enemy, 1-6 use abilities, V is your class defense, Q and R drink health and energy potions. E or right click interacts. Y kindles your lantern and U covers it. I, C and K open the bag, hero and abilities, M and G the local map and world atlas, and the mouse wheel zooms. On touch screens drag to move, tap to select and pinch to zoom.",
+    "category": "adventure",
+    "extraCats": [
+      "multiplayer"
+    ],
+    "tags": [
+      "RPG",
+      "Fantasy",
+      "Adventure",
+      "Multiplayer",
+      "Co-op",
+      "Dungeon"
+    ],
+    "embed": "https://www.nomaphome.com/?ref=ilovewebgames",
+    "thumb": "https://www.nomaphome.com/media/no-map-home-trailer-poster.webp",
+    "orientation": "landscape"
+  },
+  {
     "slug": "brudvig-hockey-2027",
     "title": "Brudvig Hockey 2027",
     "studio": "Brudvig Hockey",
