@@ -1102,7 +1102,7 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
 <li><strong>It costs nothing.</strong> No listing fee, no review fee, and we take no share of what your game earns.</li>
 <li><strong>You get paid for the plays you get here.</strong> If your game is on Playgama, GameMonetize or GamePix, we take that version, and the network pays you your developer share for every play on our site &mdash; on top of whatever the game already earns you elsewhere. Not on a network yet? Tick the box in the form and we will walk you through it for free.</li>
 <li><strong>Your build stays yours, untouched.</strong> We never repackage a game, never re-host it and never strip anyone's ads. If you send us a direct link instead, it is embedded from your own URL and your own ad tags keep running exactly as they do on your site.</li>
-<li><strong>A link back to you.</strong> Your game page credits you as the developer and links your name to your site or store page.</li>
+<li><strong>A link back to you.</strong> Your game page credits you as the developer and links your name to your site or store page. If you want to return the favor, we have <a href="${ur('/badge/')}">free badges</a> you can paste on your own site.</li>
 <li><strong>Your own game page.</strong> Title, description, how to play, FAQ and screenshots &mdash; built to be found on Google, not buried in a list.</li>
 <li><strong>Listed where players look.</strong> Your game is placed in the matching categories and themed collections, next to games people already play here.</li>
 <li><strong>Non-exclusive, and reversible.</strong> Publish the same game anywhere else you like, and one email is enough to have it removed.</li>
