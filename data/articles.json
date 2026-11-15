@@ -1,0 +1,94 @@
+{
+ "car-crash-games-beginners-guide": {
+  "topic": "car-crash-games",
+  "angle": "start",
+  "title": "Car Crash Games: Where to Start and What to Look For",
+  "description": "New to car crash games? Learn what they are, what a first session looks like, how to spot a good one, how long to play and which style to try next.",
+  "intro": "Car crash games let you drive a vehicle into ramps, walls, hammers and presses, then watch it bend and break. There is usually no finish line to beat, which makes them easy to pick up if you have never played one. This guide explains what you are getting into, how to judge a game in a few minutes, and where to go once you have the idea.",
+  "sections": [
+   {
+    "h2": "What these games actually are",
+    "body": [
+     "Most car crash games are physics sandboxes. The game simulates how a car body deforms, and your job is to cause interesting impacts and see the result. Car Crash Sandbox, for example, has you launch vehicles down massive slopes into destructible obstacles, so the fun is in the wreck itself rather than in winning a race.",
+     "The label covers several styles. Some are crash tests with hammers, presses and catapults, like Car Destruction King. Some are arena fights, like Demolition Derby Life, where you smash rivals and upgrade your car. Others swap the car for a stickman or a dummy on a scooter, as in Turbo Crash Test and Downhill Car Ride Crash Test. Knowing which style you are in tells you what the game expects from you."
+    ]
+   },
+   {
+    "h2": "What a first session looks like",
+    "body": [
+     "Start with a plain crash test rather than a derby. Pick a car, point it at a ramp or a wall and drive straight at it. Then do it again at a lower speed and compare the damage. This simple comparison teaches you more about how the game works than any tutorial, because you see what speed and angle do to the car.",
+     "Next, look for a slow motion option. Car Crash Test and Car Destruction King both mention slowing down time, which lets you watch parts crumple and fly off instead of missing it in a blink. Turbo Crash Test offers replays for the same reason. Ignore coins and unlocks for the first few minutes. Once you understand the crash itself, earning a new car feels like a goal instead of a chore."
+    ]
+   },
+   {
+    "h2": "How to tell a good one from a weak one",
+    "body": [
+     "Check whether damage depends on what you hit. Crash Test Simulator 3d says cars lose different parts depending on the obstacles they drive through, which is the sign of a game that responds to your choices. In a weak game, every crash looks the same no matter how you approach it, and you stop caring after two tries.",
+     "Look at variety next. A good game offers several vehicles and different places to crash them. Realistic Car Destruction Sandbox lists downhill tracks, dirt roads, cliffside routes and winter terrain, plus presses, hammers and grinders. If there is only one map and one obstacle, you will run out of things to try quickly.",
+     "Finally, ask whether there is a reason to play another round. Coins, records, upgrades and unlockable cars give each crash a purpose. A game that has damage but nothing to work toward can still be fun, but it works better as a five minute distraction than as something you return to."
+    ]
+   },
+   {
+    "h2": "How long a session takes",
+    "body": [
+     "A single crash is short, so you can fit a few into any break. Games built around a loop, like Downhill Car Ride Crash Test, where you earn rewards for damage and distance and then upgrade your vehicle, suit quick sessions of ten or fifteen minutes. Each round feeds the next, and you can stop after any of them.",
+     "Open sandboxes such as Car Smash Simulator: Crash & Tune have no natural end, so decide your own limit. Try something like this: spend five minutes experimenting, five minutes earning a new car, then stop or keep going. Derby games like Demolition Derby Life ask for a bit more focus, since you are trying to outlast opponents, so give them a slightly longer block."
+    ]
+   },
+   {
+    "h2": "What to try next",
+    "body": [
+     "Once the basic crash feels familiar, pick the direction that appealed most. If you liked the chaos of hitting things with other cars, try Bumper Car Demolition Race, which uses pixelated arenas and lets you knock opponents out. If you want stunts alongside the wrecks, Urban Derby Stunt And Drift has you perform stunts and collect coins for new vehicles.",
+     "If you enjoy setting up scenarios, Destructive Car Crash Simulator lets you arrange police chases, and a police car you hit will start hunting you. For something quite different, Demolition Foreman moves the destruction to buildings, where knocking out a wall that carries the roof brings the structure down. Each one builds on the same pleasure, just with a new target."
+    ]
+   }
+  ],
+  "picks": [
+   {
+    "slug": "car-crash-sandbox",
+    "title": "Car Crash Sandbox",
+    "line": "A straightforward sandbox where you launch vehicles down slopes into destructible obstacles, good for a first look at crash damage."
+   },
+   {
+    "slug": "car-destruction-king",
+    "title": "Car Destruction King",
+    "line": "Mixes races, records and obstacles like rotating hammers and presses, with slow motion to watch each crash, suiting newcomers who want variety."
+   },
+   {
+    "slug": "downhill-car-ride-crash-test",
+    "title": "Downhill Car Ride Crash Test",
+    "line": "Sends dummies on scooters and bikes downhill for rewards and upgrades, a good fit if you like short, repeatable rounds."
+   },
+   {
+    "slug": "demolition-derby-life",
+    "title": "Demolition Derby Life",
+    "line": "A single-player derby where you smash rivals, upgrade your car and try to outlast the field, suited to players who want a goal."
+   },
+   {
+    "slug": "car-smash-simulator-crash-and-tune",
+    "title": "Car Smash Simulator: Crash & Tune",
+    "line": "An open-world sandbox with hammers, crushers and mega ramps, best for players who like exploring and customizing at their own pace."
+   },
+   {
+    "slug": "demolition-foreman",
+    "title": "Demolition Foreman",
+    "line": "A first-person demolition simulator where structures fall according to what supports them, suited to anyone curious about destruction beyond cars."
+   }
+  ],
+  "faq": [
+   [
+    "Do I need to be good at driving games to enjoy car crash games?",
+    "No. Many of them are about launching a car at obstacles and watching the result, so precise steering matters less than in racing games. Start with a sandbox or crash test, where there is no opponent to beat."
+   ],
+   [
+    "What does slow motion do in these games?",
+    "It slows the action so you can see parts bend, break and fly off during impact. Car Crash Test and Car Destruction King both mention it, and it is a good way to learn how speed and angle change the damage."
+   ],
+   [
+    "Why do some games ask me to earn coins first?",
+    "Coins are the reward loop. You earn them through crashes, stunts or damage, then spend them to unlock new cars and tracks. It gives each run a purpose beyond watching the wreck."
+   ]
+  ],
+  "date": "2026-11-15"
+ }
+}
