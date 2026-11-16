@@ -464,7 +464,7 @@ body.menu-open .drawer{transform:none;visibility:visible}
 .as-cols{display:grid;grid-template-columns:repeat(3,1fr);gap:18px 28px}
 .as-cols h3{margin:0 0 6px;font-size:15px}
 .as-cols p{margin:0;color:var(--muted);font-size:13.5px;line-height:1.6}
-.as-cols a{color:var(--accent2);text-decoration:none}
+.as-cols a{color:var(--accent2);text-decoration:underline;text-underline-offset:2px}
 .as-cols a:hover{text-decoration:underline}
 :root[data-theme=light] .as-cols a{color:#c47f00}
 @media (max-width:1000px){.as-cols{grid-template-columns:1fr 1fr}}
