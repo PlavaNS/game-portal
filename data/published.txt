@@ -57,6 +57,7 @@
 2048-cube-shooting-merge
 2048-drop-merge
 2048-flappy
+2048-gem-forge
 2048-hexa-merge-block
 2048-knights
 2048-merge-blocks
@@ -500,6 +501,7 @@ archery-world-tour
 architects-of-tomorrow
 arctic-truck-driver
 arcuz-treasure-hunters
+arena-of-masters-stickman
 arena-wars-io
 arkanoid-for-painters
 arklet
@@ -603,6 +605,7 @@ asteroid-dodge
 astra-runner-3d
 astral-escape
 astro-adventure-tour-max
+astro-block
 astro-chickens
 astro-digger
 astro-merge
@@ -1240,6 +1243,7 @@ blocky-wars-vehicle-shooting-multiplayer
 blocky-zombie-and-vehicle-shooting
 blocky-zombie-shooting
 blok-fishing
+blokoparkur
 blondie-bride-perfect-wedding-prep
 blondie-in-the-real-world
 bloom
@@ -2340,6 +2344,7 @@ clean-house-3d
 clean-kitty
 clean-the-garden
 clean-up-mini-games
+cleaning-simulator-spotless
 cleaning-the-islands
 clearfell-forest-outpost
 clever-crow
@@ -3568,6 +3573,7 @@ duck-shift
 duck-shootingz
 duck-you
 duckling-rush-io
+ducks-strike
 duckys-colorful-life
 dudu-engineering-truck
 duel-of-builders
@@ -3956,6 +3962,7 @@ farming-missions-2023
 farming-simulation-game
 farming-town
 farming-tractor-game
+fart-monkeys-splash-escape
 fascinating-puzzle
 fashion-battle-catwalk-queen
 fashion-battle-dress
@@ -5675,6 +5682,7 @@ iron-man-repulsor-rush
 iron-pink
 iron-smash
 ironwake-tank-combat
+island-arena-steel-and-honor
 island-mayhem-tiki-blast-3d
 island-merge-war
 island-monster-offroad
@@ -5804,6 +5812,7 @@ joyful-ball
 juice-machine
 juice-master
 juice-sort
+juice-sort-fever-water-puzzle
 juice-sort-puzzle
 juice-tycoon
 juicy-crush-saga
@@ -6105,6 +6114,7 @@ laser-slasher
 laser-survivor
 lasso-ranch
 last-archer
+last-bus
 last-chair
 last-day-on-earth-survival
 last-garage-zombie-road
@@ -6321,6 +6331,7 @@ lucky-vs-lou
 lucy-all-season-fashioninsta
 lucy-dog-care
 lucy-makeup-and-dress-up
+ludo
 ludo-classic
 ludo-classic-a-dice-game
 ludo-game-multiplayer
@@ -6961,6 +6972,7 @@ modern-sniper-gun-game-sniper-3d
 modern-strike-shooting-game
 modified-hill-climb-2d
 moe-kittens-cat-avatar-maker
+mog-clicker
 mojicon-meadow-rescue
 mojo-emoji
 mole-dig-clicker
@@ -7435,6 +7447,7 @@ night-club-security
 night-lake
 night-lake-monster-fishing
 night-loot-run
+night-nabbers
 night-order-pick-and-pack
 night-racing-drag
 night-shift-at-block-13
@@ -7660,6 +7673,7 @@ obby-saves-brainrots-from-tsunami
 obby-skateboard-race
 obby-snow-shoveling
 obby-space-challenge-starships
+obby-steal-a-car
 obby-steal-an-egg-the-great-escape
 obby-survival-island
 obby-swim-for-egg
@@ -8138,6 +8152,7 @@ pin-puzzle-love-story
 pin-puzzle-save-the-sheep
 pin-rescue
 pinata-color-smash
+pinata-masters
 pinball-3026
 pinball-block-shooter
 pinball-boy-adventure
@@ -9971,6 +9986,7 @@ solitaire-tile-match
 solitaire-treasures
 solitaire-tripeaks
 solitaire-tripeaks-garden
+solitaire-word-sort
 solitaire-world
 solo-quiz-ing
 solve-or-suffer
@@ -10650,6 +10666,7 @@ sunny-bay-heroes
 sunny-farm-animal-simulator
 sunny-farm-match-3
 sunny-fields
+sunny-island-farm
 sunny-spell
 sunny-wheels-adventure
 supa-tic-tac-toe
@@ -10953,6 +10970,7 @@ tank-soccer-battle-1-2-3-4-player
 tank-stars-battle-arena
 tank-stormy
 tank-strike-wasteland-rogue
+tank-tinker
 tank-war-battle-game
 tank-war-machines
 tank-war-multiplayer
@@ -11288,6 +11306,7 @@ tiny-dolls-dream-world
 tiny-fishing
 tiny-metal-shooter
 tiny-planet
+tiny-racers
 tiny-sports-empire-idle
 tiny-tomb
 tiny-track-rally
