@@ -242473,5 +242473,356 @@
         "The game offers first-person and third-person modes along with several camera settings. Switch between them during a drive and keep the one that gives you the clearest view of the road."
       ]
     ]
+  },
+  "blokoparkur": {
+    "intro": "Blokoparkur is a first-person parkour game set in a blocky world. Run and jump from block to block, then reach the portal at the end of each level to unlock the next one.",
+    "tips": [
+      "Use R to return to the last checkpoint after a missed jump instead of restarting the level from the beginning.",
+      "Watch the timer on each level to see where you can move faster, and try to beat your saved best time.",
+      "Keep your momentum on moving platforms and lifts by timing your jumps to when they reach the block you want to land on.",
+      "Avoid stopping on crumbling blocks and ice, since they give you less control; cross them with steady, committed jumps.",
+      "If you enjoy this kind of challenge, [[parkour-and-obby-games|parkour and obby games]] are a good place to practise precise jumping."
+    ],
+    "faq": [
+      [
+        "How do I collect the diamonds?",
+        "Each level has three diamonds hidden in it, and you need to collect all 60 across the 20 levels. Look around with the mouse or swipe to spot them."
+      ],
+      [
+        "What does sprinting help with?",
+        "Holding Shift lets you make longer jumps, which helps you reach distant blocks. Use it when a gap is too wide for a normal jump."
+      ]
+    ]
+  },
+  "no-map-home": {
+    "intro": "No Map Home is a cooperative fantasy RPG where you explore wilderness regions and descend through dungeon depths, either alone or with a party. Choose a class, keep your lantern in mind, and work your way toward the Nine Watchlights.",
+    "tips": [
+      "Your lantern works both ways: keep it covered when you need to slip past hunters, and kindle it when you want to draw them toward you on purpose.",
+      "Choose your class with your playstyle in mind, then check the abilities panel with K early so you know which of keys 1-6 to use in a fight.",
+      "Keep your health and energy potions on Q and R before you enter a dungeon depth, since you will not have time to dig through the bag mid-fight.",
+      "Check the local map with M and the world atlas with G often so you know where you are before you commit to a new region.",
+      "If you play in a group, agree on who targets enemies and who uses defense, and try [[multiplayer-games|other team games]] to practice good party habits."
+    ],
+    "faq": [
+      [
+        "How do I pick a target in a fight?",
+        "Click an enemy or press T to select it, then use keys 1-6 for your abilities. Keep the same target with your party so your attacks land together."
+      ],
+      [
+        "When should I use my class defense?",
+        "Press V when an enemy hits hard or when you are low on health and need a moment to recover. It is most useful when combined with a potion from Q or R."
+      ]
+    ]
+  },
+  "astro-block": {
+    "intro": "Astro Block is a 3D space puzzle where you roll a glowing block across floating platforms. Activate switches, open bridges, and bring the block upright to the portal across 30 levels.",
+    "tips": [
+      "Plan your full route before you move, since each level gets harder and a wrong roll can leave the block in a bad spot.",
+      "Before every roll, check that every part of the block will still be supported by a platform once it lands.",
+      "Look for switches early, because they open the bridges you need to reach the portal.",
+      "Pay attention to the colored special tiles and test how the block responds to them on early levels before relying on them in harder layouts. If you like planning routes like this, you can find more [[block-puzzle-games|block puzzle challenges]] to practice with."
+    ],
+    "faq": [
+      [
+        "How do I move the block?",
+        "Swipe on the board on mobile, or use the arrow keys or WASD on desktop."
+      ],
+      [
+        "Why didn't my level finish when I reached the portal?",
+        "The block has to reach the portal standing upright. Lying across the portal will not complete the level."
+      ]
+    ]
+  },
+  "ludo": {
+    "intro": "Ludo is a race around a 3D board where you roll the dice, move your tokens, and try to get all four home first. Each board theme and token style changes the look, not the goal.",
+    "tips": [
+      "Bring your tokens out of the starting area when you can, since having more tokens on the board gives you more choices each time you roll.",
+      "Before you move, check whether any roll lets you land on an opponent's token, because sending it back to start can swing the race.",
+      "Keep an eye on opponent tokens just behind yours, and move a token out of their reach when it is exposed.",
+      "If you enjoy planning moves on a shared board, you can explore more [[chess-and-board-games|strategy games for two or more players]] after this one."
+    ],
+    "faq": [
+      [
+        "How do I win a game of Ludo?",
+        "The first player to bring all four of their tokens home to the home zone wins the game."
+      ],
+      [
+        "How do I send an opponent's token back?",
+        "Land one of your tokens on the opponent's token, and it will be sent back to the starting area."
+      ]
+    ]
+  },
+  "raft-shark-hunting": {
+    "intro": "Raft Shark Hunting is a 3D action game set underwater, where you hunt sharks from a raft or as a scuba diver. You aim, move and fire with a set of spears, pistols, rifles and machine guns.",
+    "tips": [
+      "Press 1 for Shooter Mode when a shark is near and you need to fight, and press 2 for Boat Mode when you want to move around the water.",
+      "Use WASD to keep your position steady and Space to jump onto your raft, so you are not stuck in the water when a shark approaches.",
+      "Learn how each weapon works before you rely on it. Spears and fishing hooks suit close, careful hunting, while pistols, assault rifles and machine guns are better for longer shots.",
+      "If you like controlling a weapon with the mouse and taking down targets from a distance, you may also enjoy [[shooting-games|classic shooting games to try]] for similar aiming practice."
+    ],
+    "faq": [
+      [
+        "How do I move and jump in the game?",
+        "Use the W, A, S and D keys to move, and press Space to jump."
+      ],
+      [
+        "How do I switch between Shooter Mode and Boat Mode?",
+        "Press 1 to enter Shooter Mode and press 2 to enter Boat Mode."
+      ]
+    ]
+  },
+  "rocky-rampage-online": {
+    "intro": "Rocky Rampage is an adventure shooter where you aim and launch Rocky to travel as far as possible. Collect items along the way, survive longer, and try to beat your previous score.",
+    "tips": [
+      "Aim with a short, steady look at the path ahead before you fire, since each shot sets how far Rocky travels.",
+      "Watch the items in Rocky's path and plan your shots so he picks up as many as possible on the way.",
+      "Use upgrades to improve extra lives, boosted rocket, and ammunition, because staying in the air longer helps you collect more.",
+      "Try to keep your launches consistent from one attempt to the next so you can learn how each angle affects your distance. If you enjoy aim-and-fire games, you can find more [[shooting-games|aim-and-fire titles]] to practice the same skills.",
+      "Use your fast reactions to adjust during each attempt, and aim to beat your last score rather than chasing a perfect run."
+    ],
+    "faq": [
+      [
+        "How do I aim and shoot on a computer?",
+        "Use the mouse left click to aim and shoot using the items in the game."
+      ],
+      [
+        "How do I aim and shoot on a phone or tablet?",
+        "Touch the screen to aim and release to shoot."
+      ]
+    ]
+  },
+  "ducks-strike": {
+    "intro": "Ducks Strike is a fast 5v5 arena shooter where you play as a rubber duck against bots. Choose your loadout, work with your team, and outscore the opposition before time runs out.",
+    "tips": [
+      "Pick a loadout that suits your play style, then stay with it for a few rounds so you learn how each weapon handles.",
+      "Stay near cover and move between spots instead of standing still in the open, since your duck is a target while it aims and fires.",
+      "Use the sniper scope with Q (or the on-screen scope button on mobile) when you have a clear line of sight to a distant opponent, and switch back to a faster weapon for close fights.",
+      "Heal with H when you have a safe moment, rather than waiting until you are low in the middle of a firefight.",
+      "If you enjoy quick aim-and-fire matches, you can find more [[shooting-games|action shooters to try]] on the site between sessions."
+    ],
+    "faq": [
+      [
+        "How do I win a match in Ducks Strike?",
+        "Your team needs to score more eliminations than the opposition before the timer runs out. Playing with your team and staying alive helps you add to the score."
+      ],
+      [
+        "Do I need to reload manually?",
+        "On desktop you press R to reload, but on mobile your duck reloads automatically and fires when the reticle is over an opponent."
+      ]
+    ]
+  },
+  "sunny-island-farm": {
+    "intro": "Sunny Island: Farm is a relaxing 3D farming sim where you start with a small plot and grow it into a thriving business. Plant, harvest, sell, and upgrade your way to the farm you want.",
+    "tips": [
+      "Start small and focus on one or two crops at first, so you can earn coins steadily before expanding.",
+      "Spend your coins on equipment upgrades and farm improvements as soon as you can afford them, since better tools help you earn faster.",
+      "Explore the whole farm to find the different activities, and collect resources along the way to build up your farm.",
+      "Keep an eye out for new areas to unlock as your farm grows, and expand once your earnings allow it. If you enjoy other management games, check out [[simulator-games|more simulator games to try]]."
+    ],
+    "faq": [
+      [
+        "How do I earn coins in Sunny Island: Farm?",
+        "Plant seeds, harvest your crops, and sell the harvested products. Selling is how you turn your farm work into coins."
+      ],
+      [
+        "What should I do first when I start the game?",
+        "Begin with your small piece of land, plant seeds, and harvest crops. Use the coins you earn to start upgrading your equipment."
+      ]
+    ]
+  },
+  "2048-gem-forge": {
+    "intro": "2048 Gem Forge is a sliding merge puzzle where matching tiles combine into rarer gems, from oak and granite up to diamond and beyond. Your goal is to keep merging until no moves are left.",
+    "tips": [
+      "Keep your most valuable tile in one corner and build the others in a row beside it, so your merges stay organized.",
+      "Before each swipe, check where the new tile will appear, since a careless slide can block your own merges.",
+      "Use Undo (Z) when a move leaves the board messy; taking a move back costs you nothing in the instructions, so test ideas freely.",
+      "Save the hammer for a tile that is stuck in the wrong place and blocking your merges, rather than using it on the first awkward tile you see.",
+      "If you enjoy combining tiles to level them up, you may also like [[merge-games|more tile-combining puzzles]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I merge tiles in 2048 Gem Forge?",
+        "Slide the board with swipes or the arrow keys or WASD, and two tiles of the same material will merge into the next, more valuable one."
+      ],
+      [
+        "What happens when I reach 2048?",
+        "You forge a diamond, and the game lets you keep playing to go further toward the higher materials."
+      ]
+    ]
+  },
+  "fill-and-swim": {
+    "intro": "Fill and Swim is a 3D simulation where you carry water from a well to a giant pool, fill it with a crowd, then slide in and swim. Upgrades, gyms and pets help you reach deeper pools.",
+    "tips": [
+      "Lift weights early so each trip carries more water, since fewer trips means the pool fills faster.",
+      "Walk the route from the well to the pool in a straight line and avoid detours, because every extra step costs time on each trip.",
+      "Use the swim after a full pool to train Speed and Strength, and look at which stat you need more before choosing a gym.",
+      "Check the reel's next pool before you start filling, so you know whether to save coins for a stronger gym or upgrade first. If you like this kind of steady progression, more [[simulator-games|simulator games with upgrades]] follow a similar loop.",
+      "Hatch pets when you have spare coins, since they multiply your earnings and help you afford the deeper pools sooner."
+    ],
+    "faq": [
+      [
+        "How do I fill the pool faster?",
+        "Walk to the well, fill up, and head straight to the pool to pour. Lifting weights lets you carry more water on each trip."
+      ],
+      [
+        "What does the slide and swim part do?",
+        "Once the pool is full, you slide in and swim. The swim trains your Speed and Strength stats."
+      ]
+    ]
+  },
+  "juice-sort-fever-water-puzzle": {
+    "intro": "Juice Sort Fever is a water puzzle where you pour colored juice between bottles until each one holds a single color. Each glass has a limited capacity, so every pour matters.",
+    "tips": [
+      "Before each pour, check the color on top of every bottle and plan where it can go, since mixing colors early can make a level harder to finish.",
+      "Try to free up one bottle completely first, because an empty bottle gives you room to rearrange colors that are buried underneath.",
+      "Keep an eye on capacity: pouring a small amount into a nearly full bottle can waste space you need later.",
+      "Aim for minimal moves by thinking two or three pours ahead rather than emptying one bottle just because you can. If you enjoy this kind of color sorting, the [[sorting-games|more color sorting titles]] collection has similar challenges to try next."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "You need to pour juice between bottles until every bottle holds only one color. Each level can be finished with as few moves as possible."
+      ],
+      [
+        "How do the difficulty levels change?",
+        "The game offers hundreds of levels, and the difficulty increases gradually. Later levels require more careful planning around each glass's capacity."
+      ]
+    ]
+  },
+  "swim-car-racers": {
+    "intro": "Swim Car Racers mixes ground racing with flying and swimming across an open world. You can upgrade your vehicle and take on challenges as you move between driving, flying, and diving into water.",
+    "tips": [
+      "Learn the controls early, since you move with WASD or the arrow keys and switch between driving, flying, and swimming as the course changes.",
+      "Save Left Shift for NOS when you have a clear straight stretch, so you get the most out of each use.",
+      "Use the Space handbrake to tighten sharp turns on the ground before you pick up speed again.",
+      "Spend time exploring the open world between races so you know where the transitions into the sky and water are before you need them. If you like driving games with a similar feel, check out [[car-games|more car driving titles]] for other options."
+    ],
+    "faq": [
+      [
+        "How do I move my car?",
+        "Use the WASD keys or the arrow keys to steer and move."
+      ],
+      [
+        "What does the Space key do?",
+        "Space works as the handbrake, which helps you turn sharply while driving."
+      ]
+    ]
+  },
+  "advanced-blocky-gangster-warfare": {
+    "intro": "Advanced Blocky Gangster Warfare is a zombie shooter where you fight Minecraft-style zombie bots across several maps. You get a range of weapons, but other undead act as rivals, so you need to stay alert.",
+    "tips": [
+      "Use cover behind objects in each map, and step out only to aim and fire, so zombies have less chance to hit you.",
+      "Walk with WASD and keep moving rather than standing still, since staying in one spot makes you an easy target for several enemies.",
+      "Press Tab to open the menu when you need to check your options between fights, and learn the control layout before the zombies arrive.",
+      "Use Space to jump over low obstacles or to change position quickly when a rival closes in. If you enjoy fast gunfights, more [[shooting-games|shooting games to try]] are worth a look."
+    ],
+    "faq": [
+      [
+        "How do I aim and shoot?",
+        "Use the mouse to look around and aim, then shoot at the zombies in your sights."
+      ],
+      [
+        "Can I move around while fighting?",
+        "Yes, WASD walks you around the map, so you can keep moving while you aim and shoot."
+      ]
+    ]
+  },
+  "zombie-mission-8": {
+    "intro": "Zombie Mission 8 is a side-scrolling adventure where you fight zombies on Mars to rescue captured scientists and workers. You can play alone or with a friend on the same keyboard.",
+    "tips": [
+      "Switch weapons early and often with Q and E for Player 1 or O and P for Player 2, so you always have the right tool for the zombies in front of you.",
+      "Save grenades with G or K for groups of enemies instead of spending them on single zombies, since you will need them when the odds get worse.",
+      "When the meteor warning appears, stop what you are doing and head straight for the shield cabin, because waiting to finish a fight can cost you the run.",
+      "Pick up the collectible objects as you move through each level, especially ones that sit on the way to the next area, so you do not have to backtrack.",
+      "If you play two player, agree on who handles close fights and who covers from range, and use the wall-walk option to reach spots your partner cannot easily cover. If you like vehicle-based battles, you can also explore [[tank-and-war-games|more tank and war games]]."
+    ],
+    "faq": [
+      [
+        "How do I survive the meteor streams?",
+        "A warning appears before each meteor stream. As soon as you see it, go immediately to the shield cabin and stay there until the danger passes."
+      ],
+      [
+        "What are the controls for Player 1 and Player 2?",
+        "Player 1 uses W, A, S, D to move, F to hit, G for grenades, and Q and E to switch weapons. Player 2 uses the arrow keys to move, L to hit, K for grenades, and O and P to switch weapons."
+      ]
+    ]
+  },
+  "duo-bad-brothers": {
+    "intro": "Duo Bad Brothers is a 2D adventure where a big zombie brother and a little zombie brother must escape a lab together. Each brother has a different skill, so you switch roles to get both of them out.",
+    "tips": [
+      "Plan your route before you move. The big brother can break wooden walls and open doors, while the little brother can slip through small holes, so check which path needs which brother.",
+      "Collect all 3 stars before heading to the door, because the door only opens once every required star is gathered.",
+      "Use double jump to reach higher ledges and gaps, and pause to look at the layout before jumping so you don't waste the second jump.",
+      "Keep the two brothers close together near the end, since you have to reach the door together. Leaving one behind can stall the whole escape.",
+      "If you like playing as undead characters in other titles, check out [[zombie-games|more zombie-themed adventures]] for similar styles."
+    ],
+    "faq": [
+      [
+        "How do I finish a level?",
+        "You need to collect all 3 stars and then reach the door with both brothers together."
+      ],
+      [
+        "What can each brother do?",
+        "The big brother can break wooden walls, and the little brother can go through the small holes that the big one cannot fit through."
+      ]
+    ]
+  },
+  "new-modern-city-ultimate-car-3d": {
+    "intro": "New Modern City Ultimate Car 3D is a driving simulator built around realistic car physics and a large open city. You drive through the open world with the Arrow keys or WASD.",
+    "tips": [
+      "Each vehicle has its own physics, so spend a few minutes in a racing car and then an off road SUV to feel how differently they handle.",
+      "Ease off the throttle before sharp turns so the car keeps its grip instead of sliding wide.",
+      "Use the huge open world to practice braking and steering at your own pace before you try faster driving.",
+      "If you enjoy realistic driving, you can explore more [[racing-games|racing games to try]] with similar handling."
+    ],
+    "faq": [
+      [
+        "Which keys control the car?",
+        "Use the Arrow keys or the WASD keys to drive the player's car."
+      ],
+      [
+        "Do all vehicles drive the same way?",
+        "No. The description says racing cars and off road SUVs each have their own physics, so their handling feels different."
+      ]
+    ]
+  },
+  "the-cutest-squishy-pet-my-cute-house-pet": {
+    "intro": "The Cutest Squishy Pet is a virtual pet game where you hatch Smolsies eggs and raise the babies. You play with them, feed them, clean them, and decorate their house.",
+    "tips": [
+      "Start by hatching the eggs, then look after each baby by feeding and cleaning it regularly so it can grow up.",
+      "Try the different play options, such as slides, trampolines, swings, and drums, to see which ones your pet seems to enjoy most.",
+      "Keep an eye out for gold coins, since they lead to surprise gifts like toys and accessories that you can use to decorate your pet's house.",
+      "Experiment with combining several Smolsies to create a new plush pet, and see what new companions you can make. If you enjoy raising virtual animals, you might also like [[animal-games|other pet care games]] to compare."
+    ],
+    "faq": [
+      [
+        "What is the main goal of the game?",
+        "The main goal is to hatch Smolsies eggs, raise the babies by playing, feeding, and cleaning them, and enjoy your virtual pet house."
+      ],
+      [
+        "How do I control the game?",
+        "You play by tapping or clicking on the screen to interact with your pets, toys, and items."
+      ]
+    ]
+  },
+  "pixel-apocalypse-shooting-zombie-blocky-combat": {
+    "intro": "Pixel Apocalypse is a blocky shooter where you fight soldiers and zombies across 40 offline levels, or team up with friends in multiplayer. Five game modes give you different ways to play.",
+    "tips": [
+      "Use WASD to keep moving while you aim, since standing still makes you an easy target for enemy soldiers and zombies.",
+      "Try the different modes such as survival, team deathmatch and deathmatch to find which style of fighting suits you best.",
+      "Press SHIFT to run when you need to cover ground quickly, then go back to walking when you need steadier aim.",
+      "Use SPACE to jump over obstacles and change your position during a fight, and press TAB to check the menu between rounds.",
+      "If you enjoy quick target practice, [[shooting-games|other action shooters]] are a good place to sharpen your aim before you return to the zombie garden."
+    ],
+    "faq": [
+      [
+        "How do I aim and shoot?",
+        "Move the mouse to aim and look around, then use the shooting input to fire at enemies. Keep your crosshair near the head or body of the nearest threat."
+      ],
+      [
+        "Which mode should a beginner start with?",
+        "Offline levels are a good starting point because you can learn the controls at your own pace. Once you are comfortable, try the multiplayer modes with friends."
+      ]
+    ]
   }
 }
