@@ -984,7 +984,15 @@ textPage('our-games', 'Our Games', `<p class="lead">Games made by ${esc(cfg.stud
 <div class="grid">${ours.map(o => card(o)).join('')}</div>
 ${ours.map(o => `<h2><a href="${u(`/games/${o.slug}/`)}">${esc(o.title)}</a></h2><p>${esc(o.short || '')}</p>`).join('')}`, `Free browser games made by ${cfg.studio}: ${ours.map(o => o.title).join(', ')}.`);
 
-textPage('badge', 'Badges for developers', `<p class="lead">Your game is on ${esc(cfg.name)}. If you want to show it on your own site, here are two badges you can use. They are free, you do not have to ask, and there is nothing to install.</p>
+{
+  const gotmCfg = readJSON(path.join(ROOT, 'data/game-of-month.json'), null);
+  const gotmGame = gotmCfg && all.find(g => g.slug === gotmCfg.slug);
+  const monthSection = gotmGame ? `<h2>Indie Game of the Month badge</h2>
+<p>Only for the one game we pick each month out of that month's Indie Game of the Week winners. If that is yours, you earned it.</p>
+<p class="bdg-prev"><img src="${B}/assets/game-of-the-month-badge.svg" alt="Indie Game of the Month on ${esc(cfg.name)}" width="260" height="56"></p>
+<pre class="bdg-code"><code>&lt;a href="${abs('/')}" target="_blank" rel="noopener"&gt;&lt;img src="${abs('/assets/game-of-the-month-badge.svg')}" alt="Indie Game of the Month on ${esc(cfg.name)}" width="260" height="56"&gt;&lt;/a&gt;</code></pre>
+` : '';
+  textPage('badge', 'Badges for developers', `<p class="lead">Your game is on ${esc(cfg.name)}. If you want to show it on your own site, here are badges you can use. They are free, you do not have to ask, and there is nothing to install.</p>
 <p>Copy the code, paste it in your footer or on your press page, and it links back to your game page here.</p>
 <h2>Featured badge</h2>
 <p class="bdg-prev"><img src="${B}/assets/featured-badge.svg" alt="Play it on ${esc(cfg.name)}" width="230" height="56"></p>
@@ -994,8 +1002,9 @@ textPage('badge', 'Badges for developers', `<p class="lead">Your game is on ${es
 <p>Only for games we picked as Indie Game of the Week. If that is yours, you earned it.</p>
 <p class="bdg-prev"><img src="${B}/assets/game-of-the-week-badge.svg" alt="Indie Game of the Week on ${esc(cfg.name)}" width="250" height="56"></p>
 <pre class="bdg-code"><code>&lt;a href="${abs('/')}" target="_blank" rel="noopener"&gt;&lt;img src="${abs('/assets/game-of-the-week-badge.svg')}" alt="Indie Game of the Week on ${esc(cfg.name)}" width="250" height="56"&gt;&lt;/a&gt;</code></pre>
-<h2>Not on the site yet?</h2>
+${monthSection}<h2>Not on the site yet?</h2>
 <p><a href="${ur('/submit-game/')}">Send us your game</a>. It is free and non-exclusive, a real person plays every submission, and accepted games get their own page with credit and a link back to you.</p>`, `Free badges for developers whose games are on ${cfg.name}: copy the code and link back from your own site.`);
+}
 
 textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games website made by <strong>${esc(cfg.studio)}</strong>, an independent game studio from Novi Sad, Serbia. We build our own browser games (like <a href="${u('/games/bubble-wrap/')}">Bubble Wrap</a>) and offer free HTML5 games from trusted distribution partners and independent developers, so you can play instantly on any device.</p>
 <h2>Who runs this site</h2>
