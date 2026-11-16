@@ -1607,6 +1607,7 @@ build-a-road
 build-a-rollercoaster-simulator
 build-a-skyscraper
 build-a-tower
+build-a-winter-resort
 build-an-aquapark
 build-an-island
 build-and-defend-your-base
@@ -3030,6 +3031,7 @@ deadly-descent
 deadly-dinosaur-hunter
 deadly-hunters-run
 deadly-zombie-virus
+deadmart-outbreak-register
 deadpack
 deadshift-halloween-night
 deadzone-extraction
@@ -9863,6 +9865,7 @@ sniper-survival-challenge-456
 sniper-survival-squidy-game
 sniper-trigger
 sniper-vs-99-players
+snipers-war-fps-strike
 snow-ball-race
 snow-battel-arena
 snow-drift
