@@ -466,7 +466,7 @@ body.menu-open .drawer{transform:none;visibility:visible}
 .as-cols p{margin:0;color:var(--muted);font-size:13.5px;line-height:1.6}
 .as-cols a{color:var(--accent2);text-decoration:underline;text-underline-offset:2px}
 .as-cols a:hover{text-decoration:underline}
-:root[data-theme=light] .as-cols a{color:#c47f00}
+:root[data-theme=light] .as-cols a{color:#9a6000}
 @media (max-width:1000px){.as-cols{grid-template-columns:1fr 1fr}}
 @media (max-width:640px){.as-cols{grid-template-columns:1fr}.as-head h2{font-size:20px}}
 
