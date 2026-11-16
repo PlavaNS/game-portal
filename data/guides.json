@@ -241923,5 +241923,555 @@
         "Use W, A, S, D or the arrow keys to move, the left mouse button to shoot, and Space to use your power."
       ]
     ]
+  },
+  "heist-crew-crime-robbery-and-escape": {
+    "intro": "Heist Crew is a cooperative crime action game where you rob stores, crack safes, and escape police and SWAT in an open city. You build a team, earn money, and grow a clan with its own base.",
+    "tips": [
+      "Pick a class that fills a gap in your team, such as the Medic for keeping others alive or the Machine Gunner for heavy firepower during shootouts.",
+      "Spend early earnings on body armor and medkits before expensive weapons, since staying alive through firefights keeps your robberies going.",
+      "Plan your escape route before a robbery starts, because police and SWAT begin hunting you as soon as the job is done.",
+      "Sell stolen goods regularly so you have money for upgrades instead of carrying valuables that slow your progress.",
+      "If you enjoy teaming up with others, you can explore [[multiplayer-games|more games to play with friends]] once you have a feel for co-op play."
+    ],
+    "faq": [
+      [
+        "How do I move my character and interact with objects?",
+        "Use W, A, S and D to move around the map. Press E to interact with stores, safes, and other objects you want to rob or use."
+      ],
+      [
+        "What should I do to escape the police after a robbery?",
+        "Get to a vehicle quickly, since the game is built around using vehicles for escapes. Stay ahead of the chase and avoid getting trapped in firefights."
+      ]
+    ]
+  },
+  "leftover-screw-furniture": {
+    "intro": "Leftover Screw: Furniture is a puzzle game where you assemble flat-pack furniture, one piece at a time, from a pile of parts. Each finished piece adds to a house of rooms.",
+    "tips": [
+      "Watch for the green ghost before you let go of a dragged part, since it shows the correct spot. Parts can join in the wrong place when their holes meet, so check the fit before you release.",
+      "Before you tap a screw, watch the needle for a moment so you can time your tap for when it is in the green. A red hit cracks the panel and costs a star, so it pays to slow down.",
+      "Plan the order of your assembly before you start. Look at which holes line up, and build the parts that connect to each other first.",
+      "Earn as many stars as you can on each level, because stars are what open the three bonus pieces. Each one has mechanics of its own, so they are worth trying once you have the basics down.",
+      "If you enjoy working out how parts fit together, you might like more [[brain-games|brain teasers that reward careful thinking]] after this one."
+    ],
+    "faq": [
+      [
+        "How do I turn a part into the right position?",
+        "Use the buttons next to the part, or press R and F on a keyboard."
+      ],
+      [
+        "What happens if I tap a screw at the wrong moment?",
+        "A tap outside the green cracks the panel and costs you a star. A cracked panel can be mended by watching an ad."
+      ]
+    ]
+  },
+  "bffs-high-school-first-date-look": {
+    "intro": "Help two high school friends get ready for a first date by building outfits and hairstyles that suit each of them. The game is a mix-and-match styling challenge where you decide what looks right.",
+    "tips": [
+      "Start by picking one color idea or mood for each friend, then choose clothes that match it. This keeps the look coherent instead of random.",
+      "Try a few hairstyles with the same outfit before you settle. A different hairstyle can change the whole feel of a look.",
+      "Swap one piece at a time so you can see what each change does. This makes it easier to spot which item is working and which is clashing.",
+      "Think about each friend's personality, since the game is built around individuality. A bold choice that suits one friend may not suit the other.",
+      "If you enjoy styling games like this, you can find [[dress-up-games|more dress up games to try]] in the same category."
+    ],
+    "faq": [
+      [
+        "What is the goal of BFFs High School First Date Look?",
+        "The goal is to style two high school friends for a first date. You curate outfits and hairstyles that show each friend's individuality."
+      ],
+      [
+        "Is there a score or timer in this game?",
+        "The game description does not mention a score or timer, so you can take your time choosing each look."
+      ]
+    ]
+  },
+  "mad-city-racings-big-city-openworld": {
+    "intro": "Mad City Racings is an open-world racing game set across a large city, with street races, drag races, drift challenges, stunt zones and a no-engine mode. This guide covers the controls and a few habits that help you get through the harder tracks.",
+    "tips": [
+      "In No Engine Mode, avoid heavy braking on narrow platforms, since you rely on momentum and precise steering to stay on track. Make small steering adjustments early rather than sharp corrections near a chasm.",
+      "Save nitro (F) for straight stretches where you can use the boost fully, rather than spending it on corners where it can push you off line.",
+      "Use the handbrake (SPACE) with short taps to rotate the car into drift challenges, and steer with A and D to hold the angle.",
+      "Press C to switch camera views when you are approaching jumps or tunnels, so you can judge the landing or the clearance before you commit. Practise the stunt trials a few times to learn the spacing of the giant jumps and spinning fans. [[racing-games|Fast-paced racing titles]] are a good next step if you enjoy this style.",
+      "Spend your upgrades on the parts that match your favourite mode, such as handling and suspension for drifting or the engine and turbo for drag racing."
+    ],
+    "faq": [
+      [
+        "How do I get the most speed out of a race?",
+        "Accelerate with W and use nitro with F on open straights to reach top speed. Brake with S before tight bends so you keep control of the car."
+      ],
+      [
+        "What should I focus on in No Engine Mode?",
+        "Focus on momentum, brakes and precise steering with A and D, since one mistake sends you back to the start of the section. Slow approaches to jumps often give you more control than fast ones."
+      ]
+    ]
+  },
+  "snake-rush": {
+    "intro": "Snake Rush is a competitive take on the classic Snake game, where you slither around, outmaneuver opponents, and stay alive as long as you can. It is played with an on-screen joystick and a fire button.",
+    "tips": [
+      "Stay aware of where opponents are heading and try to cut them off, since this is the main way to gain progress.",
+      "Use the joystick in small, steady drags rather than sharp swipes so your snake turns smoothly and does not clip into obstacles or other snakes.",
+      "Check the menu for tasks and work on them during quieter moments, because completing them helps you level up faster.",
+      "Tap the fire button when a rival is in your path, but keep moving so you do not become an easy target yourself.",
+      "If you enjoy classic arcade snake, you can explore [[snake-games|more classic snake titles]] to compare different takes on the format."
+    ],
+    "faq": [
+      [
+        "What is the goal of Snake Rush?",
+        "Survive as long as possible by running into and defeating opponents. The longer you last while outmaneuvering rivals, the better your position on the leaderboard."
+      ],
+      [
+        "How do I move and shoot?",
+        "Drag the on-screen joystick to move in any direction, and tap the fire button to shoot. Both controls are used together to outmaneuver opponents."
+      ]
+    ]
+  },
+  "lap-money-merge-cars": {
+    "intro": "Lap Money is an idle merge game where you combine matching cars, send them to the track to earn coins, and collect income even when you are away. This guide covers the habits that help your fleet grow faster.",
+    "tips": [
+      "Before you buy a new car, check the \"Next car\" plate so you know which model you are working toward and which merges will get you there.",
+      "Send cars to the track once you have an available pilot, since they keep earning coins on their own with every lap.",
+      "Use Mega merge when you have at least three charges and a lot of matching pairs, because one tap combines them all. Save it for moments when many pairs are ready at once.",
+      "Claim your daily reward every day, because missing a day restarts your 10-day streak, and check your daily tasks on the clipboard for extra progress. If you enjoy combining pieces, you can also explore [[merge-games|other merge puzzles to try]].",
+      "Once you reach car 16, consider moving to a new garage: your income doubles from then on, though your cars and coins reset, so plan your coins before you go."
+    ],
+    "faq": [
+      [
+        "How do I earn coins in Lap Money: Merge Cars?",
+        "Cars you send onto the track drive themselves and earn coins with every lap. You can also collect offline income when you come back to the game."
+      ],
+      [
+        "What should I do when I want to speed up my progress?",
+        "The Turbo button speeds up your cars for watching an ad, and the wheel of fortune unlocks at player level 3 and can win boxes, coins and boosts."
+      ]
+    ]
+  },
+  "simcity-uber-car-transport-saga": {
+    "intro": "SimCity: Uber Car Transport Saga is a city driving game where you build and run a ride-hailing network. Each successful journey helps shape the city's economy and growth.",
+    "tips": [
+      "Compare the characteristics of each vehicle before you pick it, since compact cars, luxury sedans and other models in the fleet handle differently.",
+      "Plan your routes around the busy parts of the city so you can complete more journeys in each trip.",
+      "Use the C key to switch camera views when you need a clearer look at traffic ahead or around your car.",
+      "Keep your driving steady with WASD so you finish each journey smoothly, because the game rewards successful rides. If you enjoy this kind of road challenge, you can find more [[car-games|car driving games]] to try next."
+    ],
+    "faq": [
+      [
+        "How do I drive my car?",
+        "Use the W, A, S and D keys to drive. Press C to change the camera view."
+      ],
+      [
+        "What does a successful journey do for the city?",
+        "Each successful journey contributes to the city's economy and influences its growth and expansion."
+      ]
+    ]
+  },
+  "monster-truck-stunts-pro": {
+    "intro": "Monster Truck Stunts Pro is a racing game where you drive powerful trucks across intricate platforms. Drift, spin, and leap your way through the course while choosing from 7 unique vehicles.",
+    "tips": [
+      "Keep the car balanced with WASD or the arrow keys, especially after landing, so you don't tip over before your next move.",
+      "Save Left Shift for straightaways or right before a jump, since nitro gives the most benefit when you're already moving fast.",
+      "Tap Space to slide into corners and build your drifts, and try to chain them smoothly instead of holding the key down the whole time.",
+      "Build speed before each ramp, then press Z in the air to set up flips, and land with the truck level to keep your momentum. If you enjoy this style, you can compare other [[monster-truck-games|monster truck games]] to see how their handling differs."
+    ],
+    "faq": [
+      [
+        "How do I perform flips?",
+        "Accelerate on a ramp to get airborne, then press Z to execute your flips while you are in the air."
+      ],
+      [
+        "What is the main goal?",
+        "Race across the platforms while showing off stunts like drifting, spinning, and leaping, and challenge your speed and agility."
+      ]
+    ]
+  },
+  "nitro-rally": {
+    "intro": "Nitro Rally is a classic 2D arcade racer inspired by 1980s racing games. Your car drives itself, so your job is steering, braking and using turbo well across ten circuits.",
+    "tips": [
+      "Since the car runs automatically, focus on steering and braking to stay on the track, and save your turbo for moments when the road ahead is clear.",
+      "Use the turbo on straight stretches rather than in tight bends, so the speed boost helps you gain time instead of pushing you off course.",
+      "Brake with Down before sharp turns, then release it as you come out of the bend so you keep your speed through the next section.",
+      "Play a circuit several times to learn where the corners and straights are, then aim to beat your own best lap time on each run. If you enjoy sliding through corners, you can also try [[drift-games|drifting games with similar handling]].",
+      "Explore the menu and the track while you play, since the hidden power cards are unlocked through play and you may discover other features that help on later circuits."
+    ],
+    "faq": [
+      [
+        "What is the goal of Nitro Rally?",
+        "Race around the ten circuits and set the best lap time you can. Unlocking the hidden power cards and discovering other features are also part of the game."
+      ],
+      [
+        "How do I steer and control the car?",
+        "Use the Left and Right arrow keys to turn, and the Down arrow key to brake. You use the mouse to select options in the menu."
+      ]
+    ]
+  },
+  "mini-fighters-strike": {
+    "intro": "Mini Fighters Strike is a fighting game for one or two players, with 8 mini fighters competing in an arena. Win matches by timing the right moves and you can enter the tournament.",
+    "tips": [
+      "Watch your opponent's movement before you attack, and try to strike when they are in range rather than moving in blindly.",
+      "Use the three attack types, punch, kick and special hit, in different combinations so your opponent cannot predict your next move.",
+      "If you play with a friend, agree on who uses which keys before the match starts so you do not lose time searching for controls.",
+      "Try a few matches on your own first to learn how each fighter moves, then take that knowledge into the tournament. You can find [[2-player-games|more games for two players]] once you want a friendly rematch."
+    ],
+    "faq": [
+      [
+        "What keys control Player 1?",
+        "Player 1 moves with W, A, S and D. Punch is F, Special Hit is H, Kick is C or V, and Punch G and Special Hit B are also listed in the instructions for this player."
+      ],
+      [
+        "What keys control Player 2?",
+        "Player 2 moves with the arrow keys. Punch is U, Special Hit is O, and Kick is J or K, with I and L also listed as attack keys."
+      ]
+    ]
+  },
+  "race-masters-rush": {
+    "intro": "Race Masters Rush is a racing and shooting game where you drive a vehicle through a dangerous race, shooting enemies on motorcycles and drones while dodging obstacles. Collect weapons and upgrades to get as far as you can.",
+    "tips": [
+      "Pick up weapons and upgrades whenever you can, since they improve speed, shield, and ammunition, and a stronger vehicle makes the rest of the race easier.",
+      "Keep an eye on both the ground and the air, because enemies come at you from motorcycles below and drones above.",
+      "Dodge obstacles first and shoot second, so you don't lose speed or health while you are trying to eliminate enemies.",
+      "Spend your upgrades with the next level in mind, since you can improve your characteristics as you complete each level. If you enjoy fast action like this, you might also try [[shooting-games|more shooting games on the site]]."
+    ],
+    "faq": [
+      [
+        "How do I move my vehicle?",
+        "Use the keyboard arrow keys or the WASD keys. On mobile devices, use the buttons on the screen."
+      ],
+      [
+        "How do I improve my vehicle during a run?",
+        "Collect the weapons you find along the way, which can improve characteristics such as speed, shield, and ammunition. You can also improve your characteristics as you complete each level."
+      ]
+    ]
+  },
+  "raft-evolution": {
+    "intro": "Raft Evolution is an open sandbox survival game with no civilization, only wildlife and open water. You start on a raft, gather resources, fish, cook, and explore islands while trying to last as long as possible.",
+    "tips": [
+      "Use the grappling hook (right mouse button) to pull in lost chests, boards, and other resources floating nearby before you expand your raft.",
+      "Plan your activities around the day and night cycle, gathering and building during the day and saving time for fishing and resting as night approaches.",
+      "Fish and cook regularly so you keep your supplies up while you build and upgrade your raft.",
+      "Press Q to rotate a piece before placing it, and right-click to cancel building if you change your mind. Check your layout before committing resources.",
+      "If you enjoy catching and cooking food, you might also like [[fishing-games|other fishing games to try]] with similar water-based gameplay."
+    ],
+    "faq": [
+      [
+        "How do I collect resources that are far from my raft?",
+        "Select the grappling hook with the right mouse button and use it to pull in lost chests, boards, and other resources nearby."
+      ],
+      [
+        "Which keys open my inventory and crafting menu?",
+        "Press T to open the inventory and Y to craft items such as a workbench, a bed, or a bowler hat."
+      ]
+    ]
+  },
+  "platfoban": {
+    "intro": "Platfoban is a retro puzzle game where you collect every coin in each level. You switch between a platforming mode, where you run and jump, and a sokoban mode, where you push blocks and coins around.",
+    "tips": [
+      "Before you switch modes, check which chests are near you, since they wake up and chase you in sokoban mode but sleep and can serve as platforms in platforming mode.",
+      "Use the space key to stay still when you want to watch how the chests move before you commit to a route.",
+      "Plan your block pushes in sokoban mode so that no block or coin gets stuck where you cannot reach it later. If you enjoy thinking several moves ahead, [[brain-games|brain teasers that reward planning]] suit this style well.",
+      "Treat the sleeping chests in platforming mode as stepping stones to reach high coins, then switch back to sokoban mode when you need to rearrange the level."
+    ],
+    "faq": [
+      [
+        "How do I collect all the coins in a level?",
+        "Move with W, A, S and D, switch modes with Q or Shift, and use the mode that fits the coin you are after. Some coins may need pushing in sokoban mode, while others may need jumping in platforming mode."
+      ],
+      [
+        "Why do the chests suddenly start chasing me?",
+        "Chests wake up and attack once you are in sokoban mode. Switching back to platforming mode makes them sleep again, and they can then be used as platforms."
+      ]
+    ]
+  },
+  "battle-warship-arena": {
+    "intro": "Battle Warship Arena is a 2D naval combat game where you command your own warship and destroy enemy ships. Pick a ship and captain, upgrade your warship, and stay inside the red circle to win each level.",
+    "tips": [
+      "Keep an eye on the red circle at all times, since leaving it causes constant damage until your warship sinks.",
+      "Try different ships and captains early on, because each captain has their own skills and abilities that may suit your style of play.",
+      "Spend upgrades on the areas that match how you fight, such as firepower for aggressive shooting or armor if you take a lot of hits.",
+      "Use the hold-to-move wheel to reposition before you aim, so you are not caught drifting toward the edge of the circle while shooting. If you enjoy this kind of game, the [[boat-and-ship-games|more boat and ship games]] collection has other naval titles to try."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "You need to destroy all the enemy ships in the level while keeping your warship inside the red circle."
+      ],
+      [
+        "What happens if my warship leaves the red circle?",
+        "Your warship takes constant damage and will sink if it stays outside, so steer back inside the circle as soon as possible."
+      ]
+    ]
+  },
+  "jeka-dash-2": {
+    "intro": "Jeka Dash 2 is a side-scrolling dodging game where your character keeps moving forward while you avoid obstacles and reach the finish line. You can switch between several shapes, each with its own features, across different locations.",
+    "tips": [
+      "Your character never stops, so watch a few obstacles ahead instead of reacting only to the one directly in front of you.",
+      "Each level gets harder, so use early levels to learn how each shape handles before you rely on it.",
+      "Keep your hands near both control areas at all times, using the top input (left mouse, W, or Up) and the bottom input (right mouse, S, or Down) as you need them.",
+      "Pay attention to patterns: if you notice where obstacles tend to appear, you can remember them and plan your moves on the next attempt. If you enjoy fast reflex runs like this, you can find more with [[running-games|quick reaction runners]].",
+      "If you get stuck on a level, take a short break and come back with fresh focus rather than rushing through the same mistakes."
+    ],
+    "faq": [
+      [
+        "How do I control the character?",
+        "Use the left mouse button, W, or Up to move one way, and the right mouse button, S, or Down to move the other. On a phone, hold the top or bottom of the screen."
+      ],
+      [
+        "Does the character stop if I do nothing?",
+        "No, the main character always moves forward, so you need to keep dodging obstacles without pausing."
+      ]
+    ]
+  },
+  "monster-trucks-stunts": {
+    "intro": "Monster Trucks Stunts puts you behind the wheel of roaring monster trucks for stunt-filled driving. Each level tests your skills across city streets and rugged off-road terrain.",
+    "tips": [
+      "Learn how your truck handles on flat ground before you attempt big jumps, so you know how it responds to WASD inputs.",
+      "Treat each landscape as a different challenge: city routes and off-road terrain likely call for different driving approaches.",
+      "Plan your approach to gravity-defying jumps and flips, since a clean landing matters more than a fast launch.",
+      "If you enjoy heavy vehicles and rough driving, you may also like [[truck-and-driving-games|more truck driving games]] to compare how different trucks feel.",
+      "Try out different paint jobs and decals on your truck to give it a look you enjoy while you practice."
+    ],
+    "faq": [
+      [
+        "Which keys control the monster truck?",
+        "You drive the truck with the W, A, S and D keys."
+      ],
+      [
+        "Can I change how my monster truck looks?",
+        "Yes, you can customize your ride with a range of paint jobs and decals."
+      ]
+    ]
+  },
+  "spa-day-makeup-artist-makeover-salon-girl-games": {
+    "intro": "Spa Day lets you run your own beauty salon, treating clients with facials, hair care, fashion picks and a back massage. Everything is done with simple tap and swipe controls.",
+    "tips": [
+      "Follow the order the game suggests, starting with the facial, then the hair mask, then the back treatment. Each step builds on the last, so the flow stays easy to follow.",
+      "Clear the dirt from the face fully before you move on, since the pimple step depends on a clean skin area.",
+      "Take your time with the hair care steps, such as the hair mask and styling, because they are where you can shape the final look for each client.",
+      "Pick accessories that suit the client you are working on, since the fashion step is your chance to finish her look. If you enjoy beauty routines, you can explore more [[makeup-games|makeup game picks]] to practice similar skills."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Spa Day?",
+        "You work as the salon owner and treat each client through the six services, from the facial to the back massage. Finishing each service for your client is the main objective."
+      ],
+      [
+        "How do I control the game?",
+        "Controls are simple: just tap and swipe to move through each step and use the tools."
+      ]
+    ]
+  },
+  "truck-driving-animal-transport": {
+    "intro": "Truck Driving Animal Transport is a 3D driving game where you haul pets, farm animals, jungle animals and safari animals between locations. Your goal is to deliver every animal safely and on time.",
+    "tips": [
+      "Plan your route before you start, since you will be moving cargo between several places such as the safari shelter, the jungle, the city, the farm house and the animal shelter.",
+      "Drive smoothly rather than rushing, because the aim is to transport animals in a safe and timely way.",
+      "Use WASD to steer and accelerate, and practice short runs first so you get a feel for how your heavy trailer handles off-road.",
+      "Check which animals you are carrying before each drop-off, and make sure every animal is transferred before you finish the task.",
+      "Stay focused on your current delivery, since some levels ask you to move wild and ferocious species. If you enjoy hauling loads, you can explore more [[truck-and-driving-games|truck driving games]] too."
+    ],
+    "faq": [
+      [
+        "How do I control the animals?",
+        "Use the on-screen joystick to control the animals while you handle the transfer. Keep your eyes on both the truck and the joystick so nothing is missed."
+      ],
+      [
+        "What makes a level harder?",
+        "Some levels require you to transport wild and ferocious species, which calls for more concentration. Take your time with those runs and focus on delivering every animal."
+      ]
+    ]
+  },
+  "janissary-battles": {
+    "intro": "Janissary Battles packs eight retro-pixel battle levels into one game, and a random level starts each time you press PLAY. It is built for two players sharing one screen, with a scoreboard that tracks wins.",
+    "tips": [
+      "Levels are picked at random, so learn both players' controls first, since you may land on any of the eight battles right away.",
+      "Aim for a score of 5 in each level, and treat every round as a short goal rather than a long run.",
+      "Because the scoreboard in the corner counts your wins, use it to see which player is ahead and adjust your pace.",
+      "If you enjoy playing with a friend on one device, you can find more two-player titles in [[2-player-games|two-player games collection]]."
+    ],
+    "faq": [
+      [
+        "What is the goal in Janissary Battles?",
+        "Try to reach a score of 5 in the Arrow, Axe, Sword, Mace, Arena, Spear, Catapult and Gun levels. The game is designed for two players."
+      ],
+      [
+        "Which controls does each player use?",
+        "Player 1 uses Touch or the Up Arrow key, and Player 2 uses Touch or the W key."
+      ]
+    ]
+  },
+  "jeep-racing": {
+    "intro": "Jeep Racing is a 2D driving game with a set of levels to get through. You steer the jeep left and right and use jumps to get over obstacles and across the course.",
+    "tips": [
+      "Ease off on steering rather than holding a direction constantly, so the jeep stays stable on uneven ground.",
+      "Time your jumps for the moment you reach a rise or gap instead of jumping early, since jumping at the wrong moment can leave you short.",
+      "Keep the jeep moving forward between jumps so you still have speed to carry you across the next section.",
+      "Once you're comfortable with the controls, you can try [[car-games|more car driving titles]] for a different challenge."
+    ],
+    "faq": [
+      [
+        "Which keys make the jeep jump?",
+        "Press Space, W, or the up arrow to jump."
+      ],
+      [
+        "How do I steer the jeep?",
+        "Use the A and D keys or the left and right arrow keys to move left and right."
+      ]
+    ]
+  },
+  "vegas-clash-3d": {
+    "intro": "Vegas Clash 3D is a shooting game where you lead a gang through the Las Vegas casino, grabbing cash bags and carrying them back to your van while the police try to stop you. Stay mobile, watch your score, and keep an eye on your loot.",
+    "tips": [
+      "Carry the bags back to your van at the corner of the building, since that is where the loot has to end up.",
+      "Look for the powerful revolver in the back streets of the building; it can take down a target with one or two shots.",
+      "Earn as many stars as you can in every battle, because the leveling system gives you an advantage in later fights.",
+      "Use crouch (C) and aim (right mouse button) when you face the police, so your shots land more reliably.",
+      "Press TAB often to check the score table and see how you compare with other players in the match. If you enjoy team play, you can find more [[multiplayer-games|games to play with friends]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I earn stars in Vegas Clash 3D?",
+        "Stars are earned by taking part in battles, so the more fights you finish, the more stars you can collect. They feed the leveling system, which gives you an advantage in later battles."
+      ],
+      [
+        "What is the best way to move around while fighting?",
+        "Use WASD to move and SPACE to jump, and crouch with C when you need to make yourself a smaller target. Aim with the right mouse button before you shoot."
+      ]
+    ]
+  },
+  "push-em-up-dash-smasher": {
+    "intro": "Push'em Up - Dash Smasher is an arcade game where you guide a crowd forward and push out the enemies blocking the path to the end. Drag with the left mouse button to slide and push your way through each level.",
+    "tips": [
+      "Look ahead before each slide so you can see where the enemies are grouped and plan the push that clears the most of them.",
+      "Watch for the special props on the road and try to pick them up, since the game encourages you to make the most of them.",
+      "Expect the higher levels to bring more powerful enemies, so use the early levels to get a feel for how far your crowd can push.",
+      "Keep your drags smooth and steady, because you need to slide, push, and dodge at the same time to get past the tougher forts.",
+      "If you enjoy keeping your momentum through a course, try [[running-games|fast-paced running games]] for a similar rush."
+    ],
+    "faq": [
+      [
+        "How do I move my crowd forward?",
+        "Hold the left mouse button and drag to slide and push the crowd out toward the enemies in front of you."
+      ],
+      [
+        "What makes the levels harder as I progress?",
+        "Higher levels bring more challenging and powerful enemies, which the game says will make you stronger and faster as you go."
+      ]
+    ]
+  },
+  "run-run-3d-challenge": {
+    "intro": "Run Run 3D Challenge is a 3D running game where you control a little boy through dangerous places. You jump and slide to dodge roadblocks and monsters while collecting stars across six levels.",
+    "tips": [
+      "Watch the path ahead rather than the character, so you can see each roadblock and monster early enough to react.",
+      "Tap the right side of the screen to jump and the left side to slide, and practice both until you can switch between them without pausing.",
+      "Collect the stars you pass along the way, but never let a star pull you toward a hazard. Staying safe comes first.",
+      "Each new level adds more danger, so start each one calmly and use the first few obstacles to learn the rhythm of the path. If you enjoy fast-paced dodging, you might also like [[running-games|other running games to try]].",
+      "On PC, use the left and right arrow keys in the same way, keeping your hands ready so you can respond quickly to sudden obstacles."
+    ],
+    "faq": [
+      [
+        "How do I jump and slide in Run Run 3D Challenge?",
+        "On mobile, tap the right side of the screen to jump and the left side to slide. On PC, use the left and right arrow keys."
+      ],
+      [
+        "What do I need to do in each level?",
+        "You run through dangerous places, avoid roadblocks and monsters, and collect stars along the way."
+      ]
+    ]
+  },
+  "bus-subway": {
+    "intro": "Bus & Subway is an endless runner where you switch between bus roads and subway tracks through many different realms. It also includes multiplayer modes, and the game is played with the mouse only.",
+    "tips": [
+      "Since the game is mouse-only, keep your movements small and steady so you can react quickly when the path changes.",
+      "Watch the road ahead rather than your current position, so you can plan your switch between the bus road and the subway track early.",
+      "Each realm, such as the highways, train tracks, or Egyptian dunes, may change how the run feels, so give yourself a few runs to get used to each one.",
+      "If you want to try more bus-themed titles after this, you can browse [[bus-games|other bus driving titles]] on the site.",
+      "Try the multiplayer mode once you are comfortable with solo runs, since watching other players can show you new ways to approach the course."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Bus Subway?",
+        "The goal is to keep running as you switch between bus roads and subway tracks without stopping. The game is an endless runner, so you keep going through the realms."
+      ],
+      [
+        "How do I control the character?",
+        "The game uses only the mouse, so all movement is handled with mouse input. Practice short, controlled movements to stay on track."
+      ]
+    ]
+  },
+  "survival-on-worm-planet": {
+    "intro": "Survival on Worm Planet is a shooter where you defend the planet from worms that surround your gun. You clear them out with different weapons, either alone or with a second player.",
+    "tips": [
+      "Use the mouse scroll or E to switch weapons so you always have the right tool for the worms closest to you.",
+      "Save your bomb for clusters of worms, since one throw can reach several targets at once.",
+      "Reload with the magazine key before your current clip runs out, so you are never caught empty while worms close in.",
+      "In a two-player game, split the jobs: one player handles aiming and firing while the other focuses on reloading and switching weapons. If you like shooting-style games with creatures, you might also enjoy these [[animal-games|games featuring wild animals]]."
+    ],
+    "faq": [
+      [
+        "What is the goal of Survival on Worm Planet?",
+        "You must clean all the worms off the planet to survive. Every worm you remove brings you closer to saving it."
+      ],
+      [
+        "What is the difference between the Player 1 and Player 2 controls?",
+        "Player 1 uses the mouse for aiming, firing, reloading and weapon changes. Player 2 uses the arrow keys to aim, P to fire, O to reload, L to change weapons and K to throw bombs."
+      ]
+    ]
+  },
+  "magic-tiles": {
+    "intro": "Magic Tiles is a rhythm game where you tap the black tiles in time with the music and avoid the white ones. It covers many genres, from classical pieces to pop, rock and electronic music.",
+    "tips": [
+      "Keep your eyes on the tiles coming up ahead rather than the one under your finger, so you can react before each tap.",
+      "Listen to the beat as well as watching the tiles, since the music tells you when each tap should land.",
+      "Keep your fingers relaxed and hovering close to the tiles so you can move quickly without stretching.",
+      "Start with songs you already know well, then move to unfamiliar styles once you can keep up with the rhythm.",
+      "If you enjoy the feeling of playing an instrument, you may also like [[simulator-games|games that let you play]] along with virtual activities."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Magic Tiles?",
+        "Tap the black tiles while the music plays and avoid tapping the white tiles."
+      ],
+      [
+        "What is the Master's challenge?",
+        "It is a speed challenge that tests how quickly you can tap the tiles as the music gets faster."
+      ]
+    ]
+  },
+  "combat-strike-multiplayer": {
+    "intro": "Combat Strike Multiplayer is a team shooter where blue and red soldiers fight across remade maps inspired by a popular PC shooter. Use WASD to move, the mouse to fire, and the number keys to swap weapons.",
+    "tips": [
+      "Learn the map layouts early, since maps like Inferno, Dust and Aztec are remakes and knowing where enemies tend to appear helps you react faster.",
+      "Reload with R when you have a quiet moment rather than in the middle of a firefight, so you are not caught with an empty weapon.",
+      "Switch between your two weapons with the 1 and 2 keys depending on distance, and get used to changing before you need to.",
+      "Keep moving with WASD instead of standing still, because a moving target is harder for enemies to hit.",
+      "If you want more fast-paced aiming practice after this, you can browse [[shooting-games|shooting games for quick reflexes]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I move and aim my character?",
+        "Use W, A, S and D to move and the mouse to aim and fire."
+      ],
+      [
+        "How do I change weapons during a match?",
+        "Press the 1 or 2 keys to switch between your weapons."
+      ]
+    ]
+  },
+  "car-simulator-veneno": {
+    "intro": "Car Simulator Veneno is a racing and driving simulator with realistic physics and car damage. You can explore city traffic alone or race against others in the city, desert, or port.",
+    "tips": [
+      "Ease off the accelerator before a corner rather than during it, since the physics reward smooth cornering and accelerating mid-turn can make the car lose grip.",
+      "Try both first-person and third-person views, then adjust the camera settings until you find the view that feels most comfortable for steering.",
+      "Watch the interactive hints on screen, because many parts of the car respond to what you do and they can help you spot problems early.",
+      "Make a habit of stopping at the gas station before a long drive so you do not run out of fuel in the middle of a race or ride. If you enjoy realistic driving, you can browse more [[simulator-games|driving simulator games]] to compare.",
+      "Keep the doors locked while driving, and use the 360-degree cabin view to check your surroundings before you pull into traffic."
+    ],
+    "faq": [
+      [
+        "How do I keep control of the car in corners?",
+        "Avoid pressing the accelerator while turning, since the game's physics make the car harder to control when you do. Slow down before the corner and accelerate once you are through it."
+      ],
+      [
+        "Which camera view should I pick for driving?",
+        "The game offers first-person and third-person modes along with several camera settings. Switch between them during a drive and keep the one that gives you the clearest view of the road."
+      ]
+    ]
   }
 }
