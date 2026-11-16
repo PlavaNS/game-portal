@@ -2299,6 +2299,7 @@ city-pop-drive
 city-rescue-fire-truck-games
 city-rescue-forklift-simulator
 city-ride
+city-rush-2000
 city-school-bus-driver-simulator
 city-stunt-cars
 city-taxi
@@ -2793,6 +2794,7 @@ cross-that-road
 crossmath-challenge
 crosstile
 crosswalk-chaos
+crossword-harbor
 crosswords-big-collection
 crossy-chicken
 crossy-miner
@@ -4040,6 +4042,7 @@ fighting-club
 fighting-club-2
 fighting-vehicles-arena
 figure-skating-on-ice
+fill-and-swim
 fill-line
 fill-line-cover-every-cell
 fill-line-one-line-puzzle-game
@@ -7633,6 +7636,7 @@ obby-mine-build-launch
 obby-mine-crasher
 obby-mini-games
 obby-mini-games-vs-1000
+obby-murder-mystery-2-online
 obby-online-with-friends-draw-and-jump
 obby-parkour-crazy-descent
 obby-parkour-sleeping-brainrots
@@ -9129,6 +9133,7 @@ room-chaos
 room-makeover-design-and-aesthetic
 room-sort-floor-plan
 rooster-ranch
+rootbound
 roots-and-wheels
 rop-help
 rope-bawling-2
