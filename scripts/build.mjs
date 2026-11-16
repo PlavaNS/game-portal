@@ -1263,13 +1263,28 @@ write('404.html', layout({ title: `Page not found | ${cfg.name}`, desc: 'Page no
   body: `<article class="text center"><h1>404 — Game over?</h1><p>This page doesn't exist (anymore). But there are ${all.length} games that do.</p><p><a class="btn big" href="${u('/')}">Back to games</a></p></article>${row('Try one of these', null, top('hot', 12))}` }));
 
 emitArticles({ ART: ARTICLES, all, topics, layout, write, addUrl, textPage, abs, ur, esc, gHref, tHref, cfg });
+let SITEMAP_OFFERED = 0;
 // SITEMAP / ROBOTS / MANIFEST
 // one child sitemap per language (Google reads at most 50,000 URLs per file), listed from a sitemap index at the same /sitemap.xml
 {
   const urlXml = s => `<url><loc>${esc(s.loc)}</loc><lastmod>${s.lastmod || today}</lastmod>${s.image ? `<image:image><image:loc>${esc(s.image.img)}</image:loc></image:image>` : ''}</url>`;
   const langOf = loc => { const m = loc.slice(ABS.length).match(/^\/([a-z]{2})\//); return m && m[1] !== 'en' && LANGS.some(l => (l.code || l) === m[1]) ? m[1] : 'en'; };
+  // Search Console, 13.11.2026: 3.4k pages indexed against 37.3k "Discovered - currently not indexed",
+  // and the indexed count falling. We were offering Google ~44,000 translated game pages next to
+  // ~9,900 English ones, so the crawl budget went to translations instead of the pages that rank.
+  // The translated pages stay live and keep their hreflang links from the English page - only the
+  // sitemap invitation is rationed, and it widens again as the site earns more crawling.
+  const TR_GAMES = Number(process.env.SITEMAP_TR_GAMES || 400);
+  const trGame = s => s.loc.slice(ABS.length).match(/^\/([a-z]{2})\/games\//);
+  const keep = new Set(sitemap.filter(s => !trGame(s)));
+  const byLang = {};
+  for (const s of sitemap) { const m = trGame(s); if (m) (byLang[m[1]] ||= []).push(s); }
+  for (const list of Object.values(byLang))             // our own and community games first, then the rest
+    list.sort((a, b) => b.prio - a.prio).slice(0, TR_GAMES).forEach(s => keep.add(s));
+  const offered = sitemap.filter(s => keep.has(s));
+  SITEMAP_OFFERED = offered.length;
   const groups = {};
-  for (const s of sitemap) (groups[langOf(s.loc)] ||= []).push(s);
+  for (const s of offered) (groups[langOf(s.loc)] ||= []).push(s);
   const files = [];
   for (const [lang, list] of Object.entries(groups)) for (let i = 0; i < list.length; i += 45000) {
     const name = `sitemap-${lang}${i ? '-' + (i / 45000 + 1) : ''}.xml`;
@@ -1356,4 +1371,4 @@ try {
   console.log(`published.txt: ${next.length} slugs, ${gone} retired games redirected`);
 }
 
-console.log(`Built ${all.length} games (${ours.length} ours), ${activeCats.length} categories, ${sitemap.length} URLs in sitemap -> dist/`);
+console.log(`Built ${all.length} games (${ours.length} ours), ${activeCats.length} categories, ${sitemap.length} URLs built, ${SITEMAP_OFFERED} in sitemap -> dist/`);
