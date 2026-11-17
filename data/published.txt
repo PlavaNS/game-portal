@@ -270,6 +270,7 @@ alien-survival-shooter-2022
 alien-wreckage
 aliens-hunter
 aliens-need-redheads
+all-aboard-bus-puzzle
 all-dot-connect-puzzle-game
 all-golf
 all-seasons-nail-salon
@@ -636,6 +637,7 @@ ava-mouth-makeover
 avatar-life-my-town
 avatar-make-up
 avatar-maker-for-girl
+avatar-world-characters
 avatar-world-secrets
 aviator-monkey
 avocado-yard-ragdoll-sandbox
@@ -2831,6 +2833,7 @@ crumb-bandit
 crumple-rumble
 crush-all
 crush-bird
+crush-city
 crush-hour
 crush-the-blocks
 crush-these-ants
@@ -4184,6 +4187,7 @@ fit-master-3d
 fit-runner
 fitness-club-tycoon
 fiva-26-soccer
+fix-it-garage
 fix-pizza-food-sorting
 fix-the-hoof
 flag-coloring-puzzle
@@ -5659,6 +5663,7 @@ infinity-ops-fps
 infinity-roll-3d
 infinity-sky
 injection-invasion
+ink-brick-ronin
 ink-shop-dress-and-tattoo-games
 ink-streak
 inkageddon
@@ -6293,6 +6298,7 @@ lorin-adventure
 lost-adventure
 lost-adventure-new
 lost-bus
+lost-dragon-match-adventure
 lost-my-chicken
 lost-puppy-rescue-and-care
 lost-pyramid
@@ -9441,6 +9447,7 @@ screw-pin-jam-puzzle
 screw-puzzle-diy
 screw-sort-3d
 screw-sort-puzzle-pin-jam-3d
+screws-escape-the-clocktower
 scrib-dies-a-lot
 scribble-grass-cutter
 scribble-world-physics-puzzle
@@ -10305,6 +10312,7 @@ steal-a-bird
 steal-a-destruction-egg
 steal-a-fish
 steal-a-pet
+steal-all-eggs
 steal-an-egg-3d
 steal-an-egg-farm
 steal-an-egg-grow-animals
@@ -11001,6 +11009,7 @@ tap-cute-animals
 tap-em-up
 tap-gallery
 tap-goal
+tap-hexa-out-tap-it-away
 tap-hunters
 tap-me
 tap-out-gallery
@@ -11819,6 +11828,7 @@ violent-race
 violent-shooter
 violet-doll-my-virtual-home
 virtual-neko-kitty-collector
+virtual-pet
 virus-destroyer
 virus-shoot
 virus-war-multiplayer
