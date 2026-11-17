@@ -419,6 +419,7 @@ anime-halloween-jigsaw-puzzle
 anime-idol-academy
 anime-kawaii-dress-up
 anime-kawaii-dress-up-game
+anime-lifting-simulator
 anime-mom-family-life-simulator
 anipo
 anna-s-story-dress-up-diy
@@ -3657,6 +3658,7 @@ eat-to-evolve
 eat-to-evolve-2
 eatable-birds
 eating-simulator-physics-food
+echo-9-pressure-chamber
 echo-rift
 echoes-of-bushido
 echolocation-shooter
@@ -7657,6 +7659,7 @@ obby-mini-games
 obby-mini-games-vs-1000
 obby-murder-mystery-2-online
 obby-online-with-friends-draw-and-jump
+obby-park-tycoon
 obby-parkour-crazy-descent
 obby-parkour-sleeping-brainrots
 obby-parkour-with-ragdoll
@@ -8603,6 +8606,7 @@ pull-the-thread-puzzle
 pull-up-bar-tricks
 pulse-of-fear
 pulse-wing
+pump-it-up
 pumper-crazy-defence
 pumpkin-basket
 pumpkin-blast
@@ -9815,6 +9819,7 @@ snake-2048-io
 snake-2077-glitch-war
 snake-and-apple
 snake-arena
+snake-autopilot
 snake-battle
 snake-block-rush
 snake-brawl-merge-arena
@@ -10973,6 +10978,7 @@ tank-rumble
 tank-rush-3d
 tank-shooting-simulator
 tank-simulator
+tank-smash
 tank-sniper-3d
 tank-soccer-battle-1-2-3-4-player
 tank-stars-battle-arena
@@ -11603,6 +11609,7 @@ tunnel-escape
 tunnel-heist
 turbo-boat-runner-3d
 turbo-car-city-stunt
+turbo-colis
 turbo-crash-test
 turbo-drift-2023
 turbo-drive-mode-blitz
@@ -11790,6 +11797,7 @@ vegas-crime-city
 vegas-revenge
 vegetable-spelling-puzzle
 vegetables-match-3
+veggie-battle
 veggie-harvest
 veggie-slice
 vehice-rush-master
@@ -12197,6 +12205,7 @@ worms-hungry
 worms-zone
 would-it-smash
 would-you-like-to-see-my-ants
+wreck-kings-car
 wrecking-ball-tycoon
 wrench-and-roll
 wrestle-online
