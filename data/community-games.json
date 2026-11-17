@@ -613,5 +613,53 @@
     "embed": "https://historybydate.com/gacha",
     "thumb": "https://ilovewebgames.com/assets/community/history-gacha.jpg?v=1",
     "orientation": "landscape"
+  },
+  {
+    "slug": "mars-rally-championship",
+    "title": "Mars Rally Championship",
+    "studio": "Mars Rally Championship",
+    "studioUrl": "https://marsrallychampionship.com/",
+    "added": "2026-11-17",
+    "short": "A 3D rally racer on Mars: low-gravity dunes, timed stages with medals, a daily seeded run and live online races for up to eight pilots.",
+    "description": "Mars Rally Championship is a 3D rally game set on the surface of Mars. You drive a six-wheeled rover across low-gravity dunes, basins and ridgelines, with Martian gravity of 3.71 m/s² shaping every jump and landing. A Rally School teaches the controls before you race. Pick a stage and chase medals, try the daily challenge with a new seeded run every day, take on the weekly featured stage, or join an online room with up to eight pilots. There is also a Mars Cup and a free roam mode. It plays with keyboard, gamepad or touch, with no download and no signup.",
+    "instructions": "Hold the Up arrow to drive and use the arrow keys to brake and steer. Space is the handbrake, A and Z shift gears, C changes the camera, R restarts and T returns you to the last gate. P pauses. On mobile, use the touch controls.",
+    "category": "racing",
+    "extraCats": [
+      "3d",
+      "multiplayer"
+    ],
+    "tags": [
+      "Racing",
+      "Rally",
+      "3D",
+      "Driving",
+      "Space",
+      "Multiplayer"
+    ],
+    "embed": "https://marsrallychampionship.com/play?portal=ilovewebgames",
+    "thumb": "https://ilovewebgames.com/assets/community/mars-rally-championship.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "fuzeborn",
+    "title": "Fuzeborn",
+    "studio": "VIncuko",
+    "studioUrl": "https://vincuko.itch.io/fuzeborn",
+    "added": "2026-11-17",
+    "short": "A pixel card game: rip packs, fuse creatures in the Fuze Pit, build a 15-card army and flip against rivals in a campaign.",
+    "description": "Fuzeborn is a pixel-art card game about collecting creatures and taking them to war. Rip open packs to fill your binder with 30 creatures across three types, where Ember beats Leaf, Leaf beats Tide and Tide beats Ember. Drop two cards into the Fuze Pit to discover recipes, or fuse two copies to make one stronger. Then choose an army of 15 cards and battle a rival: you both pick a card at the same time and flip, the higher power takes both, and a tie starts a war for the whole pile. Win and you take spoils from the rival's deck. This free demo holds the full Home Front campaign.",
+    "instructions": "Press Play, open packs and check your Binder. Use the Fuze Pit to combine two cards. Pick 15 cards for your Army, then start a campaign. In battle, choose one of the three cards in your hand; you see the rival's types but not their power.",
+    "category": "hypercasual",
+    "extraCats": [],
+    "tags": [
+      "Cards",
+      "Collection",
+      "Strategy",
+      "Pixel Art",
+      "Casual"
+    ],
+    "embed": "https://html-classic.itch.zone/html/20358319/index.html",
+    "thumb": "https://ilovewebgames.com/assets/community/fuzeborn.jpg?v=1",
+    "orientation": "landscape"
   }
 ]
