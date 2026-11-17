@@ -242824,5 +242824,397 @@
         "Offline levels are a good starting point because you can learn the controls at your own pace. Once you are comfortable, try the multiplayer modes with friends."
       ]
     ]
+  },
+  "night-nabbers": {
+    "intro": "Night Nabbers is a multiplayer 3D stealth heist where you play a raccoon raiding eggs after dark. Sneak past guards and searchlights, carry loot home, and hatch buddies that earn coins while you are away.",
+    "tips": [
+      "Watch the guard routes before you move, and wait in a bin or shadow until a searchlight passes you by.",
+      "Pick a quiet path to the nest and plan your escape before you grab the egg, since carrying loot back home is what counts.",
+      "Use the short guided first heist to learn the controls and prompts before you try a rival den with other players.",
+      "Set traps and lock your own lid when rival raccoons are active in the street, so your loot is harder for them to reach.",
+      "Try Heist Night or Tag Night with friends if you want a different challenge from solo play against bots."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Night Nabbers?",
+        "Steal eggs from nests, carry them home safely, and hatch buddies that earn coins while you are away. Try to be the last one the lights catch."
+      ],
+      [
+        "How do I move and interact?",
+        "Use WASD or the arrow keys to move, or the on-screen stick on touch devices. Use the on-screen prompts to sneak, vault and nab."
+      ]
+    ]
+  },
+  "fart-monkeys-splash-escape": {
+    "intro": "Fart Monkeys Splash Escape is a 3D obby escape through nine flooded pool halls. A blind monkey monster hunts by sound, so you need to jump, fly, and stay quiet when it is close.",
+    "tips": [
+      "Keep away from the water at all times, since touching it ends your run. Plan each jump so you land on solid platforms, and use a short hold of Space to fart-fly across wider gaps.",
+      "Throw a pebble with left click to lure the monster away from your path. Throw it somewhere far from the platform you need next, then move while it searches.",
+      "Save Shift for when the monster is about to reach you. A super fart stuns it, which gives you a window to get past it.",
+      "Before you leave a hall, check for valves to open and photos to look at, since you will need them for the exit code. Use Enter to interact with each one and write down any clues.",
+      "If you enjoy tricky jumping routes, [[parkour-and-obby-games|more platform challenges to try]] can help you practice your timing. Start on Easy to learn the layout before moving up to Normal or Hard."
+    ],
+    "faq": [
+      [
+        "How do I stop the monster from catching me?",
+        "Throw a pebble with left click to draw it away, then use Shift to stun it with a super fart if it gets close. The monster tracks sound, so move carefully and avoid making noise near it."
+      ],
+      [
+        "How do I get across big gaps?",
+        "Hold Space to fart-fly over the gap, using E if you need to fly in a specific way. Make sure you have enough distance before you start, because falling into the water will stop your progress."
+      ]
+    ]
+  },
+  "snipers-war-fps-strike": {
+    "intro": "Snipers War: FPS Strike is a 3D sniper shooter where you pick a rifle, find a good position, and take out enemies before they spot you. This guide covers the controls, the four modes, and habits that help you hit more shots.",
+    "tips": [
+      "Use the scope for long-range shots, and aim for the head to make each shot count.",
+      "Use the shooting range to practise your aim before you jump into a match against bots.",
+      "In Team Deathmatch, pick a smaller team size and easier enemies at first so you can learn the maps.",
+      "Hold Tab (or the scoreboard button on mobile) to check where enemies are and how the match is going before you move to a new spot. If you enjoy the climbing side of Parkour mode, [[parkour-and-obby-games|more jumping and climbing challenges]] are worth a look."
+    ],
+    "faq": [
+      [
+        "How do I scope in and take a precise shot?",
+        "Press the right mouse button on PC to scope in or out, then use the left mouse button to shoot. On phone and tablet, use the SCOPE button and the FIRE button."
+      ],
+      [
+        "What do I need to do in Survival mode?",
+        "Hold out against waves of zombies for as long as you can. Staying in a position where you can see the approach and reload quickly helps you last longer."
+      ]
+    ]
+  },
+  "stickman-zombie-3d": {
+    "intro": "Stickman Zombie 3D is a shooting game where you play a stickman in a post-apocalyptic 3D world. Find a gun and fight through zombies and enemy survivors.",
+    "tips": [
+      "Find the gun first, since the description says to find a gun before you start killing. Without it, you have little way to deal with the horde.",
+      "Use the arrow keys to keep moving so zombies and survivors do not get a chance to surround you. Standing still in a crowd is the quickest way to get caught.",
+      "Use the mouse to rotate and line up your shots before you click. Left mouse fires, so aim first and then shoot in short bursts.",
+      "When enemies come up behind you, press X to turn 180 degrees instead of spinning around slowly. Quick turns help you keep both sides covered."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Stickman Zombie 3D?",
+        "Shoot and kill the stickmen zombie horde and the enemy survivor stick figures. The game is about fighting through everything that is still walking."
+      ],
+      [
+        "How do I shoot?",
+        "Press the left mouse button to shoot. Use the mouse to rotate and aim before you fire."
+      ]
+    ]
+  },
+  "solitaire-word-sort": {
+    "intro": "Solitaire: Word Sort is a card puzzle where you group word tiles and picture cards into themed piles. You must clear the table before your move counter reaches zero.",
+    "tips": [
+      "Before you place anything, scan the whole table for cards that clearly share a theme, and start with those groups.",
+      "Your move counter is limited, so avoid moves that do not bring you closer to clearing a pile.",
+      "If a card could fit two themes, leave it for now and look for clues from other cards before deciding.",
+      "Tap carefully and check your selection before placing a card, since the one-touch controls move quickly and mistakes cost moves. If you enjoy testing your vocabulary, [[word-games|more word association puzzles]] are a good way to keep practising."
+    ],
+    "faq": [
+      [
+        "How do I decide which pile a card belongs in?",
+        "Look at what the word or picture has in common with the theme of each pile on the table. The game asks you to connect clues to their matching categories."
+      ],
+      [
+        "What happens if the move counter runs out?",
+        "The level ends before the table is cleared, so you need to finish grouping the cards into their themed piles before the counter reaches zero."
+      ]
+    ]
+  },
+  "island-arena-steel-and-honor": {
+    "intro": "Island Arena: Steel and Honor is a 3D fighting game on a fantasy island. You pick one of five warriors, learn their weapon styles, and win matches by taking three rounds.",
+    "tips": [
+      "Spend time in training mode practicing combos before starting the 18-battle story, so your moves feel automatic when the difficulty rises.",
+      "Try each of the five warriors in free fight to see how their weapon styles differ, then stick with the one whose rhythm suits you.",
+      "Use Shift to block when an opponent winds up an attack, and keep your jumps and crouches for dodging rather than as a default move.",
+      "Keep your distance early in a round to read the AI's timing, then press in with your strikes once you see a clear opening.",
+      "If you want a rival in person, grab a friend for local two-player matches on one keyboard, and check out [[2-player-games|more games for two players]] for other options."
+    ],
+    "faq": [
+      [
+        "How do I win a match?",
+        "You win a match by taking three rounds before your opponent does."
+      ],
+      [
+        "Which keys control the fighter on a PC?",
+        "Use W, A, S and D to move, J and K for the two strikes, Space to jump, C to crouch, and Shift to block."
+      ]
+    ]
+  },
+  "obby-murder-mystery-2-online": {
+    "intro": "Obby: Murder Mystery 2 Online is a multiplayer detective game where each round you must work out who is innocent and who is hiding a knife. Players can be Hunter, Sheriff, or Innocent, and the enemy blends in as an ordinary player.",
+    "tips": [
+      "Watch how suspects move and where they go during the round, since the killer pretends to be an ordinary player and their behavior can give them away.",
+      "If you are the Sheriff, check your aim before you fire so you do not hit an innocent player by mistake.",
+      "If the Sheriff goes down, grab the dropped revolver quickly to take over and protect the remaining players.",
+      "Keep your plans and suspicions to yourself, because keeping secrets is part of winning. If you enjoy games that reward this kind of play, you can find more in [[multiplayer-games|games for playing with others]].",
+      "Use the right camera angle with the right mouse button before you move in, so you can see the room and the people around you."
+    ],
+    "faq": [
+      [
+        "How do I move and aim on PC?",
+        "Use WASD to move, the right mouse button to rotate the camera, and the mouse cursor to aim. Left-click attacks and interacts with the interface."
+      ],
+      [
+        "How do I play on mobile?",
+        "Use the left side of the screen to move and the right side to rotate the camera. Tap to interact with the interface."
+      ]
+    ]
+  },
+  "tiny-racers": {
+    "intro": "Tiny Racers is a physics puzzle where you build a small rover from the parts you're given and drive it across the room. Each level is a new layout, and you tap part buttons at the right moment to reach the finish.",
+    "tips": [
+      "Look at the whole route before you start building, so you can see where the couch jumps, table flights and loops come up.",
+      "Place your parts with the level's obstacles in mind, since the rover drives on its own and you can only react with the buttons.",
+      "Watch the first run closely and note exactly where each part was needed, then adjust your build for the next try.",
+      "Aim to finish quickly and grab every battery in the same run, because both are needed to earn all the stars. If you want more physics-based puzzles to sharpen these skills, check out [[physics-games|more physics-driven challenges]].",
+      "Spend coins on new rovers and upgrades only once you know which parts help you most, so your choices are worth it."
+    ],
+    "faq": [
+      [
+        "How do I earn all the stars in a level?",
+        "Finish the course fast and collect all the batteries. Both are needed to earn every star."
+      ],
+      [
+        "How do I control the rover while it is driving?",
+        "Your rover drives by itself. Tap the part buttons at the right moment to boost, jump, fly or grip the track."
+      ]
+    ]
+  },
+  "tank-smash": {
+    "intro": "Tank Smash is a turn-based artillery duel on blocky islands. You aim, fire and try to destroy the rival tank while craters reshape the terrain around it.",
+    "tips": [
+      "Use your last shot's line as a guide: it stays on screen, so compare it with the rival's position before you release again.",
+      "Your fuel is limited each turn, so only hold the drive buttons when you really need to reposition, and save the rest for aiming.",
+      "Choose a special shell from the bottom row before firing, matching it to the situation, such as a shell that splits when the target is spread out.",
+      "Look for nearby barrels, since blowing them up deals bonus damage, and aim at the rival commander for a critical hit. If you enjoy this style of play, you can explore [[tank-and-war-games|more tank battle games]] too."
+    ],
+    "faq": [
+      [
+        "How do I aim and fire my tank?",
+        "Drag anywhere on the screen: up and down raises the barrel, and left and right turns the turret. Release your finger or mouse button to fire."
+      ],
+      [
+        "How do I win a duel?",
+        "Destroy the rival's tank before it destroys yours. Winning duels lets you rank up, earn rewards and move on to new islands."
+      ]
+    ]
+  },
+  "screws-escape-the-clocktower": {
+    "intro": "Screws: Escape the Clocktower is a steampunk puzzle where you unscrew nuts and bolts, sort them by color, and clear plates to open the door. Each chapter ends with a boss fight.",
+    "tips": [
+      "Before you tap a screw, check whether its color has a capsule. Screws without a matching capsule wait in the tray, so clear the matching ones first to keep the tray from filling up.",
+      "Read the hint the first time a special screw appears, since each type follows its own rule. Treat the bomb, frozen, chained and paired screws as the ones that need the most planning.",
+      "Look at the whole plate before you start removing screws. Work out which latches you need to open so you can clear the plate that unlocks the door with the fewest moves.",
+      "In boss fights, pull down and release with steady, short shots. Wait for the glowing weak spots to show before you fire at them, and use the flying gears as a warning for where to aim next.",
+      "If you enjoy working out step-by-step unlocking puzzles, you can find more of them in [[escape-room-games|door-unlocking challenge games]]."
+    ],
+    "faq": [
+      [
+        "What happens if the tray overflows?",
+        "You lose a heart, so keep an eye on how full the tray is and clear matching screws into their capsules before it fills."
+      ],
+      [
+        "How do I beat a boss?",
+        "Pull down anywhere on the screen and release to shoot a slingshot, aiming at the glowing weak spots and shooting down the flying gears."
+      ]
+    ]
+  },
+  "all-aboard-bus-puzzle": {
+    "intro": "All Aboard: Bus Puzzle is a colorful traffic jam puzzle. Click or tap buses to clear a path, then pick up passengers that match each bus's color to finish the level.",
+    "tips": [
+      "Before you move anything, scan the whole jam and find which bus is blocking the most others. Freeing that one first often opens several options at once.",
+      "Match each bus to its passengers by color before you commit to a route, so you don't send a bus away from the people it needs to pick up.",
+      "Think a few moves ahead. A quick move can trap a bus you still need, so check where each bus will end up before you click.",
+      "If a level feels stuck, step back and list which passengers are still waiting. Working out what is missing can show you the next clear move. If you enjoy this kind of planning, you may also like more [[brain-games|brain teaser games]]."
+    ],
+    "faq": [
+      [
+        "How do I complete a level?",
+        "You finish a level when all the passengers are on board. Each passenger must be picked up by a bus of the same color."
+      ],
+      [
+        "Why won't a bus move when I click it?",
+        "A bus can only leave the jam when its path is clear. Move the buses that are blocking it first, then try again."
+      ]
+    ]
+  },
+  "lost-dragon-match-adventure": {
+    "intro": "Lost Dragon: Match Adventure is a match-3 puzzle game with a story to follow. Collect three identical tiles to clear them from the panel, and clear the whole field before the panel overflows.",
+    "tips": [
+      "Before each move, check whether you can complete a set of three on the bottom panel, since clearing sets is the main way to keep the panel from filling up.",
+      "Obstacles that grow if left alone should be dealt with early, because waiting makes them harder to clear later.",
+      "Save the Undo booster for a move you regret, and use Hammer on an obstacle that is hiding or blocking the tiles you need.",
+      "If the field looks stuck and no good matches are visible, the Shelf booster shuffles the whole field and can open new options. If you like this style, you can explore more [[match-3-games|match 3 puzzle picks]] on the site."
+    ],
+    "faq": [
+      [
+        "What happens if the panel fills up?",
+        "You lose the level. Each level has its own limit, so keeping the panel clear is the key goal."
+      ],
+      [
+        "What does the Crane booster do?",
+        "Crane moves any three tiles to an empty spot on the field, which helps when the tiles you need are buried or out of reach."
+      ]
+    ]
+  },
+  "snake-autopilot": {
+    "intro": "Snake: Autopilot is a classic snake game with three modes, a duel against AI opponents, and an autopilot option that takes over your snake when things get tricky. Use the arrow keys or WASD to steer and collect food to grow.",
+    "tips": [
+      "You get a brief window to turn before hitting a wall, so watch the edges and start turning early rather than at the last second.",
+      "In No Walls mode, use the screen edges as a shortcut to escape your own tail instead of boxing yourself into a corner.",
+      "In Obstacles mode, the blocks change position each round, so check the new layout at the start before you plan your route.",
+      "In Duel mode, if time runs out the player with more food wins, so keep collecting apples even when you are not in danger. Remember you need to win two rounds to claim victory.",
+      "Save Autopilot for a tight spot, since it controls your snake for only 15 apples in regular mode or one round in a duel. If you enjoy practicing turns and routes, you can also try more [[snake-games|classic snake games]]."
+    ],
+    "faq": [
+      [
+        "How do I win a Duel match?",
+        "You need to win two rounds to claim victory. If you crash, your opponent wins that round."
+      ],
+      [
+        "What happens if the timer runs out?",
+        "The player who has collected more food wins the round, so keep grabbing apples as time gets low."
+      ]
+    ]
+  },
+  "crush-city": {
+    "intro": "Crush City is a 3D demolition sandbox where you fire weapons at buildings on a floating island and watch structures collapse under real physics. Your aim is to destroy enough of each city to earn stars.",
+    "tips": [
+      "Shoot at the lower floors of a building, since the description says the top tips over and crashes into its neighbours when the base goes.",
+      "Rotate the city first to find an angle where several buildings sit close together, so one shot can bring down more than one.",
+      "Shots are limited in each city, so save your stronger weapons for dense downtown areas and use basic shots on single buildings.",
+      "Gas stations explode in chains, so aim near them when you need to clear a large part of the city quickly. For more hands-on destruction challenges, try [[physics-games|physics-based games like this]].",
+      "Check the percentage needed for each star before you fire, and count how many buildings are left as you go."
+    ],
+    "faq": [
+      [
+        "What do I need to do to win a city?",
+        "You need to destroy a set percentage of the city's buildings. Destroying 50%, 70%, or 90% earns 1, 2, or 3 stars."
+      ],
+      [
+        "How do I fire my weapon?",
+        "Tap a building to fire the selected weapon, or press Space on the keyboard. Use keys 1 to 9 to switch between weapons."
+      ]
+    ]
+  },
+  "anime-lifting-simulator": {
+    "intro": "Anime Lifting Simulator is a clicker where every tap builds strength. You lift weights, grow your character, and push through enemy-filled rooms to reach the victory plate. Here are some habits that help you progress.",
+    "tips": [
+      "Keep clicking the strength platform between fights, since every click adds power and your gains build up over time.",
+      "Spend coins on upgrades and new gear as soon as you can afford them, because stronger gear makes the room fights easier to finish.",
+      "Save your coins for treadmills and characters in the market only after you have a clear idea of which upgrade helps your progress most.",
+      "Clear each room before grabbing the victory plate, since the plate ends the run and returns you to the lobby.",
+      "Rebirth once your growth slows down, because you keep part of your progress and multiply future gains. If you enjoy steady tap-to-grow play, you can find more [[clicker-games|tap-to-grow games]] on the site."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Anime Lifting Simulator?",
+        "Your goal is to grow from a skinny beginner into a towering colossus by lifting heavier weights. You also collect victories and unlock new platforms, treadmills and characters along the way."
+      ],
+      [
+        "How do I attack enemies and lift weights?",
+        "Click or tap to lift and attack, and move with WASD or the on-screen joystick. Drag the mouse or a finger to look around."
+      ]
+    ]
+  },
+  "avatar-world-characters": {
+    "intro": "Avatar World Characters mixes a character creator with a cleaning simulator. You design a boy or girl avatar, then tidy rooms and fill the house with friends.",
+    "tips": [
+      "Choose your skin tone and facial features first, since eyebrows, eyes, and mouth shapes set the mood of your character before you pick clothes.",
+      "Try a few hairstyles and recolor them before settling on an outfit, so the hair and clothing colors work well together.",
+      "When cleaning, work through one room at a time and remove the dust and dirt before you start placing items, so you can see clearly where each object belongs.",
+      "Look at the room's layout and style before arranging items, because the puzzles depend on putting things in their correct spots. If you enjoy building looks, more [[dress-up-games|outfit and makeover games]] are worth exploring after you finish this one.",
+      "Explore the different city locations to find new rooms to clean, then gather a group of friends in each home to fill the house."
+    ],
+    "faq": [
+      [
+        "What is the main goal of the game?",
+        "The main goal is to create your own avatar and complete cleaning quests to tidy rooms in the Avatar World house. Each cleaned room lets you place items in their right spots and bring characters into the house."
+      ],
+      [
+        "How do I clean a room?",
+        "Use the various tools in the game to clear dust and dirt from the room. After that, find the right items and place them in their correct spots to finish the room."
+      ]
+    ]
+  },
+  "squid-gamer-bmx-freestyle": {
+    "intro": "Squid Gamer BMX Freestyle is a BMX game built around ramps, airs, and tricks across eight skate parks and the city streets. You can also customize your rider and bike and build your own roller coasters.",
+    "tips": [
+      "Start in one of the skate parks to practice landings before you try bigger tricks in open areas.",
+      "Use manuals and grinds to link moves together, since chaining tricks into one combo is what makes a run flow.",
+      "Pick a skate park and learn its ramp layout first, because each one has a different design you can plan lines around.",
+      "Try the city skating to build control and balance before committing to big flips on the ramps. If you enjoy handling two-wheeled vehicles, you can also browse [[motorcycle-and-bike-games|other bike games to compare]]."
+    ],
+    "faq": [
+      [
+        "How do I control my BMX?",
+        "Follow the in-game instructions, which explain how to control your BMX bike and perform tricks."
+      ],
+      [
+        "What should I focus on to get better at tricks?",
+        "Practice manuals and grinds to connect moves into combos, and keep your landings steady before adding more flips."
+      ]
+    ]
+  },
+  "slenderman-must-die-silent-streets": {
+    "intro": "Slenderman Must Die: Silent Streets is a horror adventure set in a silent city and a winter forest. Your goal is to find the pages and presents while staying one step ahead of Slenderman and his companions.",
+    "tips": [
+      "Learn the pickup and reload keys early, since grabbing items with F and reloading with R can make the difference when you are being chased.",
+      "Use crouch with Left CTRL or prone with X to stay low and quiet when you need to move through dangerous areas.",
+      "Save Left Shift for real escapes rather than running everywhere, so you have time to recover between chases.",
+      "Switch weapons with the Mouse Wheel and keep a grenade ready with G for groups of enemies, while using Right Mouse Button to aim for more accurate shots. If you like tense chases like this, you can find more [[horror-games|creepy horror titles to try]].",
+      "Use V for melee when you are close and low on ammo, so you do not waste bullets on enemies that are already near you."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Slenderman Must Die: Silent Streets?",
+        "Find the 8 pages in the city before Slenderman catches you. In the Christmas Special, you need to find 7 presents to defeat him and his companions."
+      ],
+      [
+        "How do I fight back against enemies?",
+        "Left Mouse Button fires your weapon, and Right Mouse Button aims it. Use the Mouse Wheel to change weapons and G to throw grenades."
+      ]
+    ]
+  },
+  "dragon-simulator": {
+    "intro": "Fly a dragon through the sky and take on other dragons in aerial battle. Learn the movement keys and the three attacks early so you can switch between them quickly during a fight.",
+    "tips": [
+      "Use Space to climb and C to descend, so you can gain height before engaging and drop low to line up a close attack.",
+      "Save fire breath for longer-range pressure and use fireballs and melee attacks when an enemy gets close, rather than spamming one attack.",
+      "Use R to dodge incoming attacks, and keep Q and L Shift in mind for jumping and sprinting when you need to reposition on the ground.",
+      "Open the map with M before you commit to a fight so you know where other dragons are and can pick your approach.",
+      "If you enjoy flying as a dragon, you may also like browsing more [[dragon-games|dragon games to try]] for similar battles."
+    ],
+    "faq": [
+      [
+        "How do I breathe fire in Dragon Simulator?",
+        "Hold Shift and left-click to use fire breath. A plain left click fires a fireball instead."
+      ],
+      [
+        "What is the melee attack used for?",
+        "Right-click performs a melee attack, which is useful when an enemy is close enough to reach."
+      ]
+    ]
+  },
+  "heads-mayhem": {
+    "intro": "Heads Mayhem is a shooting battle where players use guns to knock opponents off platforms. You can play alone or with two to four players, using eleven characters across eight maps.",
+    "tips": [
+      "Each player starts with 5 lives, so keep track of how many you have left before taking risky shots.",
+      "The RPG is the most powerful weapon, but firing it pushes you backward, so check your position on the platform first to avoid falling yourself.",
+      "Learn your own control keys before a match starts, since each player has a separate set for moving, firing and using bombs.",
+      "If you enjoy fast duels like this, you can explore more [[gun-games|gun-based battle games]] on the site for similar action."
+    ],
+    "faq": [
+      [
+        "How many lives does each player start with?",
+        "Each player starts a new game with 5 lives. Lose them all and you are out of the round."
+      ],
+      [
+        "What is the main way to beat an opponent?",
+        "Use your guns to push your opponent off the platforms. The goal is to knock them off the map."
+      ]
+    ]
   }
 }
