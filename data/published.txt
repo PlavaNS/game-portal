@@ -1222,6 +1222,7 @@ blocks-shooter-3d-run-shoot-merge-weapons
 blocks-stack-rush
 blockstacking
 blockstorm-block-puzzle
+blocky-aces
 blocky-adventures
 blocky-challenges
 blocky-champions
@@ -3097,6 +3098,7 @@ demolition-cartoon-car-crash-derby
 demolition-derby-life
 demolition-derby-racing
 demolition-foreman
+demolition-inc
 demolition-monster-truck-army-2020
 demolition-tycoon-3d
 demon-hunter-beat-em-up
@@ -5898,6 +5900,7 @@ k-pop-stars-inspired-look
 k-wedding-dream
 kaboom-miner
 kaido
+kaiju-rampage-ultimate
 kaiju-run-dzilla-enemies
 kaiten-sushi
 kaku-shikaku-logic-puzzle
@@ -6482,6 +6485,7 @@ mahjong-street-cafe
 mahjong-sweet-connection
 mahjong-sweet-connection-easter
 mahjong-tide
+mahjong-tile-club
 mahjong-tiles
 mahjong-tiles-match
 mahjong-tower-puzzles
@@ -6529,6 +6533,7 @@ marinet-winter-vacation-hot-and-cold
 marinett-freaky-black-friday-sale
 maritime-conflict
 maritime-sniper
+market-hero
 marnyl-silence-the-haters
 mars-colony
 mars-pioneer
@@ -7795,6 +7800,7 @@ oil-tanker-truck-parking-game
 oil-tanker-truck-simulator
 oil-wrestling
 oink-escape
+ok-i-pull-up-capybay
 ok-parking
 okay
 ola-solitaire
