@@ -2025,6 +2025,7 @@ castle-defense
 castle-island-clicker-game
 castle-raid-3d
 castle-wars-legacy
+casual-party-games
 cat-and-granny
 cat-block-puzzle
 cat-boba-tea-food-asmr-master
@@ -7297,6 +7298,7 @@ my-baby-unicorn-virtual-pony-pet-girl-game
 my-bakery
 my-ball-escape
 my-best-ff-outfits
+my-castle
 my-castle-merge-and-story
 my-cat-restaurant
 my-city-hospital
@@ -7393,6 +7395,7 @@ navesco-v
 nebula-bubble-pop
 nebula-marshal
 neck-stack-rush
+nedra
 need-for-drift
 need-for-supercars-speed
 needfor-race
@@ -8223,6 +8226,7 @@ pixel-differences
 pixel-dino-run
 pixel-draw
 pixel-factory-battle-3d-io
+pixel-farm
 pixel-feast
 pixel-flow
 pixel-flow-2
@@ -9840,6 +9844,7 @@ snake-chain-escape
 snake-color-challenge
 snake-color-race
 snake-eat-food-game
+snake-flow-loop
 snake-game-2025
 snake-io-war
 snake-nokia-classic
