@@ -956,6 +956,7 @@ bear-go-home
 bearshift
 beast-uncaged-screw-puzzle
 beastforge-rival
+beastspin
 beat-em-up-street-fight-2d
 beat-shooter-3d
 beat-shooter-game
