@@ -1,0 +1,17 @@
+{
+  "_note": "Rotation for the @ILoveWebGames Shorts program. 'bot' = tools/video/bots/<slug>.py exists and was verified. 'used_hooks' grows after every upload so hooks never repeat.",
+  "games": [
+    {"slug": "ball-ball-away", "title": "Ball Ball Away", "bot": true,
+     "pitch": "Draw lines, keep the ball bouncing, fly through the portals.",
+     "used_hooks": ["Draw ONE line.<br>Save the ball.<br>Don't panic."],
+     "uploads": [{"date": "2026-11-18", "url": "https://youtube.com/shorts/MYkoH5yt9Qg"}]},
+    {"slug": "bubble-wrap", "title": "Bubble Wrap", "bot": false,
+     "pitch": "Pop a whole planet of bubble wrap, upgrade your weapons, crack the core.", "used_hooks": [], "uploads": []},
+    {"slug": "bonkers-arena", "title": "Bonkers Arena", "bot": false,
+     "pitch": "Bump everyone off a shrinking neon platform. Last ball standing wins.", "used_hooks": [], "uploads": []},
+    {"slug": "forever-dunk", "title": "Forever Dunk", "bot": false,
+     "pitch": "Tap to bounce, dunk through every hoop, never miss.", "used_hooks": [], "uploads": []},
+    {"slug": "wall-of-riddles", "title": "Wall of Riddles", "bot": false,
+     "pitch": "An escape-room wall of riddles from a real escape room studio.", "used_hooks": [], "uploads": []}
+  ]
+}
