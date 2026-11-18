@@ -1313,6 +1313,7 @@ bonbon-kids
 bone-doctor-shoulder-case
 bone-throne
 bonecrypt
+bonk-flight
 bonk-islands
 bonk-royale
 bonkhalla
@@ -2346,6 +2347,7 @@ clean-health-center
 clean-house-3d
 clean-kitty
 clean-the-garden
+clean-the-moon
 clean-up-mini-games
 cleaning-simulator-spotless
 cleaning-the-islands
@@ -3176,6 +3178,7 @@ dino-merge-island
 dino-puzzle
 dino-puzzles
 dino-robot-fighting-war
+dino-rodeo-3d
 dino-run-game
 dino-run-run
 dino-runner-birthday
@@ -4571,6 +4574,7 @@ funny-throat-surgery
 funny-virtual-pet
 funny-volleyball
 funny-walk-fail-run
+funnysort
 furious-gt-drift
 furious-speed
 furry-kung-fu
@@ -4716,6 +4720,7 @@ ghostly-night-harvest
 ghostrick-the-sacred-war
 ghoul-fusion
 giant-crusher-destroy-and-grow
+giant-egg-idle
 giant-killer
 giant-rush
 giant-rush-online
@@ -5011,6 +5016,7 @@ hair-dye
 hair-salon-3d
 hair-salon-and-dress-up-girl
 hair-salon-beauty-salon
+hair-salon-master
 hair-stylist-diy-salon
 half-and-half-celebrity-style
 half-life-2-beat-em-up
@@ -6055,6 +6061,7 @@ knight-legend
 knight-rider
 knight-s-arena-castle-defense
 knightbit-far-lands
+knights-and-goblins-merge
 knights-vs-dragons-battle-simulator
 knit-loop-yarn-jam-puzzle
 knives
@@ -9675,6 +9682,7 @@ sky-roller
 sky-rolling-balls
 sky-rush
 sky-slash-ninja-rise
+sky-stunt-races
 sky-stunts-rolling-ball-3d
 sky-track-racing
 sky-wars-battle-of-the-islands
@@ -10520,6 +10528,7 @@ stickman3d-shooter
 stickmanhook
 stickninja-mission
 stickworld-io
+sticky-memo-ripping-game
 sticky-planet
 sticky-scenes
 stickyconnect
@@ -10676,6 +10685,7 @@ sumo-smash
 sumo-wrestling-battle
 sunfield-vegetable-farm
 sunny-bay-heroes
+sunny-cove
 sunny-farm-animal-simulator
 sunny-farm-match-3
 sunny-fields
@@ -11910,6 +11920,7 @@ warun
 warzone-sniper
 wash-master
 washing-toilets
+wasteland-gas-station
 wasteland-hunter-puzzle-rpg
 water-ball-sorting-puzzle
 water-bucket
