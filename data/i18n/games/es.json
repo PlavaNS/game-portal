@@ -8340,8 +8340,28 @@
   }
  },
  "food-tower-defense": {
-  "description": "🍔 ¡Bienvenido a Food Tower Defense: el Tower Defense más sabroso de todos! 🍕🍟 Prepara el apetito y afina tu estrategia, porque Food Tower Defense está aquí para ofrecerte la experiencia de tower defense más deliciosa que existe. 🍴😋 En esta aventura que hace la boca agua, tu misión es sencilla pero apetitosa: defender tu reino de cocina 🍽️ de oleadas de invasores hambrientos decididos a robarte tu suculenta despensa de comida! Como jefe de cocina y maestro estratega 👨‍🍳🧠, tu trabajo es construir, mejorar y colocar estratégicamente un ejército de torres de comida poderosas, ¡cada una con su propio sabor y estilo de ataque! Desde hamburguesas explosivas hasta plátanos resbaladizos, cada torre aporta algo especial a la mesa. 🍔🍌💥 🎯 Tu misión: ¡Protege el festín! ¡Las hordas hambrientas se acercan! 😱 Oleadas de ladrones de comida codiciosos, criaturas voraces y monstruos hambrientos de tentempiés avanzan hacia tu cocina. Tendrás que planificar tus defensas con cuidado, combinando distintas torres de comida para maximizar el poder y el alcance. ¡Experimenta con combinaciones 🍕+🍟+🍗 para encontrar tu receta perfecta de victoria! Cada batalla es una mezcla de estrategia, timing y caos, ¡y cada victoria sabe aún mejor cuando la consigues a la perfección! 🍰🏆 ⚙️ Características clave y torres deliciosas 🍴 🍔 Burger Mortar: lanza hamburguesas explosivas que causan un enorme daño por salpicadura 💥. ¡Gran alcance, gran sabor, gran BOOM! 🔥 BBQ Burst: lanza trozos de barbacoa chisporroteantes a gran velocidad. ¡Alcance medio, cadencia rápida y un bocado de potencia de fuego! 🔥 🍟 Fries Shooter: patatas fritas de disparo rápido que llueven sobre los enemigos como balas doradas y crujientes ⚡🍟. 🌭 HotDog Sniper: disparos de perrito caliente de precisión con alto daño perforante. ¡Dispara a los enemigos desde lejos 🎯🌭! 🍪 Cookie Roll: bolas de galleta que aplastan todo lo que encuentran en su camino 🍪💨. ¡Perfecto para controlar multitudes! 🦃 Turkey Wall: invoca una poderosa barrera de pavo 🧱🦃 que detiene a los invasores mientras inflige daño con el tiempo. 🍕 Pizza 360°: gira y dispara porciones de pizza en todas direcciones 🍕🍕🍕. ¡Ideal cuando los enemigos te rodean! 🧀 Nachos Spread: desata una formación en V de nachos 🔺🧀 para una cobertura rápida de alcance medio. ¡Cheesy y letal! 🍅 Ketchup Laser: un rayo continuo de kétchup que quema a los enemigos con precisión picante 🔴💫. 🍌 Banana Slip: lanza cáscaras de plátano para ma",
-  "instructions": "Arrastra y suelta las torres en los lugares y haz clic en la torre para mejorarla y evitar que todos los enemigos lleguen a tu base."
+  "description": "🍔 ¡Bienvenido a Food Tower Defense, el tower defense más delicioso jamás creado! 🍕🍟 Prepara tu apetito y afina tu estrategia, porque Food Tower Defense está aquí para servirte la experiencia de tower defense más sabrosa. 🍴😋 En esta aventura para chuparse los dedos, tu misión es sencilla pero sabrosa: defiende tu reino de cocina 🍽️ de oleadas de invasores hambrientos decididos a robar tu deliciosa reserva de comida. Como jefe de cocina y maestro táctico 👨‍🍳🧠, tu trabajo es construir, mejorar y colocar estratégicamente un ejército de poderosas torres de comida, cada una con su propio sabor y estilo de ataque. Desde hamburguesas explosivas hasta plátanos resbaladizos, cada torre aporta algo especial a la mesa. 🍔🍌💥 🎯 Tu misión: ¡protege el festín! ¡Las hordas hambrientas se acercan! 😱 Oleadas de ladrones de comida codiciosos, criaturas voraces y monstruos hambrientos de aperitivos marchan hacia tu cocina. Tendrás que planear tus defensas con cuidado, combinando distintas torres de comida para maximizar el poder y la cobertura. Experimenta con combos 🍕+🍟+🍗 para encontrar tu receta perfecta para la victoria. Cada batalla es una mezcla de estrategia, ritmo y caos, ¡y cada victoria sabe aún más dulce cuando la logras a la perfección! 🍰🏆 ⚙️ Características principales y torres sabrosas 🍴 🍔 Mortero de hamburguesa: lanza hamburguesas explosivas que causan un daño masivo en área 💥. ¡Alcance enorme, sabor enorme, BOOM enorme! 🔥 Ráfaga BBQ: lanza trocitos de barbacoa chisporroteantes a alta velocidad. Alcance medio, cadencia rápida y una boca llena de poder de fuego. 🔥 🍟 Lanzador de papas: papas fritas de fuego rápido que caen sobre los enemigos como balas doradas y crujientes ⚡🍟. 🌭 Francotirador de hot dog: disparos precisos de hot dog con alto daño perforante. Dispara a los enemigos desde lejos 🎯🌭. 🍪 Rodillo de galleta: rocas de galleta rodantes que aplastan todo a su paso 🍪💨. Perfecto para el control de masas. 🦃 Muro de pavo: convoca una poderosa barrera de pavo 🧱🦃 que detiene a los invasores mientras causa daño con el tiempo. 🍕 Pizza 360°: gira y dispara porciones de pizza en todas direcciones 🍕🍕🍕. Ideal para cuando los enemigos te rodean. 🧀 Dispersión de nachos: suelta una ráfaga en V de nachos 🔺🧀 para una cobertura rápida de medio alcance. ¡Con queso y letal! 🍅 Láser de kétchup: haz continuo de kétchup que quema a los enemigos con precisión picante 🔴💫. 🍌 Resbalón de plátano: lanza cáscaras de plátano para hacer que los enemigos se resbalen, se frenen e incluso choquen entre ellos 😆🍌. 🏰 Modo clásico: defiende tu base de oleadas infinitas de asaltantes de comida. 💡 La estrategia se encuentra con el sabor Mezcla y combina torres para descubrir poderosos efectos de combo, como BBQ + Papas = Bonificación de combo chisporroteante. 🔥🍟 Mejora tus torres, desbloquea recetas raras y personaliza tu estilo de defensa. Ya prefieras el francotirador a larga distancia o el caos total de salsas, ¡hay una build perfecta para cada chef defensor! 👩‍🍳⚔️ 🎨 Visuales y ambiente Disfruta de gráficos coloridos de estilo caricatura 🍭, animaciones fluidas y torres de comida detalladas que parecen lo bastante ricas como para comer (pero no lo hagas, por favor 😅). Cada batalla es un festín para los ojos, desde explosiones de queso derretido 🧀💥 hasta ríos de láser de kétchup 🍅⚡. Gana monedas 💰, recolecta ingredientes 🥕 y mejora tus torres para desbloquear recetas legendarias y salsas secretas. 🎮 Por qué te encantará Food Tower Defense ✔️ Jugabilidad adictiva de tower defense con un giro sabroso 🍕 ✔️ Más de 10 torres de comida únicas, cada una con rutas de mejora y combos ✔️ Mundos vibrantes y llenos de comida con diseños de enemigos creativos 🍩👾 ✔️ Efectos de sonido divertidos y acción chisporroteante 🔊 ¿Listo para defender tu cocina de las hordas hambrientas? 👊🍔 Construye tus defensas, cocina el caos y sirve la derrota a tus enemigos en Food Tower Defense, ¡el tower defense más sabroso jamás creado! 🌶️🎮",
+  "instructions": "Arrastra y suelta una torre en un lugar, y haz clic en la torre para mejorarla y evitar que todos los enemigos lleguen a tu base.",
+  "guide": {
+   "intro": "Food Tower Defense es un tower defense donde colocas torres de comida en tu cocina para detener oleadas de invasores hambrientos antes de que lleguen a tu base. Cada torre tiene su propio estilo de ataque.",
+   "tips": [
+    "Coloca torres de largo alcance, como el Mortero de hamburguesa y el Francotirador de hot dog, donde puedan alcanzar a los enemigos antes de que se acerquen a tu base.",
+    "Guarda las torres de corto alcance y estilo envolvente, como la Pizza 360° y el Rodillo de galleta, para los puntos donde los enemigos se agrupan o llegan desde varias direcciones.",
+    "Intenta combinar torres cercanas entre sí, ya que la descripción menciona efectos de combo como BBQ + Papas creando una Bonificación de combo chisporroteante.",
+    "Usa el Muro de pavo para retener a los invasores en un camino mientras otras torres siguen dañándolos.",
+    "Mejora las torres que ya tienes en posiciones clave en lugar de repartir tu presupuesto entre demasiadas torres débiles."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo de Food Tower Defense?",
+     "Tu objetivo es evitar que todos los enemigos lleguen a tu base construyendo y mejorando torres de comida. El juego se desarrolla en el Modo clásico con oleadas infinitas."
+    ],
+    [
+     "¿Cómo coloco y mejoro las torres?",
+     "Arrastra y suelta una torre en un lugar para colocarla. Haz clic en una torre para mejorarla."
+    ]
+   ]
+  }
  },
  "zombie-raft": {
   "description": "Zombie Raft es un juego de supervivencia. La apocalipsis zombi está llegando y ¡es hora de un juego de supervivencia en balsa! Protégete a ti y a otros supervivientes del tsunami zombi que se acerca, y empújalos hacia atrás: ¡es tu responsabilidad sobrevivir en la balsa! ¡Aprieta los vehículos hacia adelante y empújalos si es necesario! Sigue avanzando, escapa del tsunami zombi y conquista la tierra baldía. Si encuentras supervivientes varados, ¡tienes que rescatarlos! ¡Únete y vive el mejor juego de zombis!",
@@ -93721,8 +93741,28 @@
   }
  },
  "far-orion-new-worlds": {
-  "description": "El año es 2121. La tecnología ha avanzado mucho más allá de nuestras fantasías más salvajes, pero el gran progreso exige grandes sacrificios... ¡Explora otros mundos en busca de tesoros y poder ilimitado! ¡Dirige un equipo de valientes héroes y lleva a tu mundo a la victoria! Características del juego: - varias docenas de héroes únicos y cartas de batalla - decenas de misiones en cada mundo - sin anuncios molestos - arena PvP - modo torre - clanes y guerras de clanes [Jugabilidad principal e historia] P: ¿De qué trata el juego? ¿Qué tienes que hacer? R: Es un juego de estrategia de acción en el que completas niveles (misiones) y luchas contra enemigos. P: ¿El juego tiene una trama? R: Sí, hay una historia. Es un escenario de ciencia ficción en el año 2121 con tecnología avanzada, pero algo salió mal y los héroes quieren salvar el mundo. P: ¿Cuál es el punto fuerte único del juego? ¿Qué puede enganchar a los jugadores? R: Hay muchos héroes diferentes con un sistema de mejoras, una gran cantidad de misiones, una arena PvP, una clasificación y guerras de clanes. También puedes mejorar las cartas de ataque. P: ¿Cuáles son los elementos de contenido atractivos (armas, vehículos, ubicaciones, habilidades, referencias a franquicias famosas, etc.)? R: Una enorme variedad de héroes, muchas habilidades diferentes e interesantes para estos héroes, una historia atractiva, objetivos claros y mecánicas de juego sencillas. [Mecánicas y progresión] P: ¿Hay jefes y en qué se diferencian? R: Hay jefes a lo largo de la historia, y se diferencian en diseño, tipos de ataque y cantidad de PV. P: ¿Cómo funciona exactamente la progresión? ¿Qué debes hacer para subir de nivel más rápido? R: Para subir de nivel más rápido, debes jugar bien para ganar suficiente moneda del juego. El juego es fácil de jugar. P: ¿Hay minijuegos dentro de la historia principal? Por ejemplo, puzles de 'combinar tres' dentro del juego de estrategia. R: No. [Economía y personalización] P: ¿Cuáles son las monedas y en qué se gastan (estándar: oro, premium: cristales, etc.)? R: El dinero se gasta en mejorar héroes, mejorar cartas y comprar cartas de héroe para desbloquearlos. P: ¿Hay compras dentro del juego? ¿Qué puedes comprar y qué afecta? ¿Gastar dinero acelera el progreso del juego? R: Sí, las microtransacciones acelerarán el progreso del juego, ya que puedes comprar moneda del juego con dinero real",
-  "instructions": "Reúne un escuadrón de héroes y un mazo de cartas y completa misiones. Usa el dinero que recibas para desbloquear nuevos héroes y mejorar tus cartas. ¿Qué héroes debo llevar a la batalla? - los que se complementan entre sí y son más fuertes juntos, como un sanador y un tanque. ¿Con qué cartas debo luchar? - con las que puedan fortalecer tu escuadrón de héroes, o cartas básicas de curación y daño a los enemigos. ¿Cómo gano oro? - completando misiones y misiones diarias, y luchando en la torre y en la arena"
+  "description": "El año es 2121. La tecnología ha avanzado más allá de nuestras fantasías más atrevidas, pero el gran progreso exige grandes sacrificios... Explora otros mundos en busca de tesoros y poder sin límites. Comanda un equipo de héroes valientes y lleva a tu mundo a la victoria. Características del juego: - varias decenas de héroes y cartas de batalla únicos - decenas de misiones en cada mundo - sin anuncios molestos - arena PvP - modo torre - clanes y guerras de clanes [Jugabilidad principal e historia] P: ¿De qué trata el juego? ¿Qué hay que hacer? R: Es un juego de estrategia de acción donde completas niveles (misiones) y luchas contra enemigos. P: ¿Tiene el juego una historia? R: Sí, hay una historia. Es una ambientación de ciencia ficción en el año 2121 con tecnología avanzada, pero algo salió mal, y los héroes quieren salvar el mundo. P: ¿Cuál es el punto de venta único del juego? ¿Qué puede atraer a los jugadores? R: Hay muchos héroes distintos con un sistema de mejoras, una gran cantidad de misiones, una arena PvP, una clasificación y guerras de clanes. También puedes mejorar cartas de ataque. P: ¿Cuáles son los elementos de contenido atractivos (armas, vehículos, ubicaciones, habilidades, referencias a franquicias famosas, etc.)? R: Una gran variedad de héroes, muchas habilidades distintas e interesantes para esos héroes, una historia atractiva, objetivos claros y mecánicas sencillas en el juego. [Mecánica y progresión] P: ¿Hay jefes y en qué se diferencian? R: Hay jefes a lo largo de la historia, y se diferencian en diseño, tipos de ataque y cantidad de HP. P: ¿Cómo funciona exactamente la progresión? ¿Qué hay que hacer para subir de nivel más rápido? R: Para subir de nivel más rápido, tienes que jugar bien para ganar suficiente moneda del juego. El juego es fácil de jugar. P: ¿Hay minijuegos dentro de la historia principal? Por ejemplo, puzles de \"combina tres\" dentro del juego de estrategia. R: No. [Economía y personalización] P: ¿Cuáles son las monedas y en qué se gastan (normal: oro, premium: cristales, etc.)? R: El dinero se gasta en mejorar héroes, mejorar cartas y comprar cartas de héroe para desbloquearlos. P: ¿Hay compras dentro del juego? ¿Qué puedes comprar y qué afecta? ¿Gastar dinero acelera el progreso del juego? R: Sí, las microtransacciones acelerarán el progreso del juego, ya que puedes comprar moneda del juego con dinero real y gastar esa moneda en mejoras y cartas. P: ¿Hay personalización en el juego? ¿Puedes personalizar el aspecto de un héroe, hay editor de ubicaciones, ajuste de vehículos, etc.? R: Solo puedes mejorar los niveles y habilidades de los héroes, lo que también cambia su aspecto. [Retención y compromiso] P: ¿Hay clasificaciones? ¿Cómo se entra en ellas? ¿Qué tipos hay (semanal, mensual, de siempre, etc.)? R: Hay varias clasificaciones según los distintos modos de juego, así como una clasificación de clanes. Necesitas jugar y subir de nivel. P: ¿Hay recompensas diarias o algo similar que anime al jugador a volver? R: Sí, iniciar sesión en el juego cada día da varias bonificaciones: cartas, cofres y moneda del juego. P: ¿Es recomendable jugar con sonido para sumergirse mejor en el ambiente, o jugar sin sonido causará dificultades? R: La música es buena y complementa el juego, pero no es esencial para completarlo. P: ¿Hay un sistema de logros? ¿Cuáles son y por qué se consiguen? R: Los logros se otorgan por inicios de sesión diarios, alcanzar cierto nivel en un modo específico y completar ciertos objetivos, como reunir un total de 6 héroes. Las recompensas incluyen cofres, moneda del juego y cartas.",
+  "instructions": "Reúne un escuadrón de héroes y un mazo de cartas y completa misiones. Usa el dinero que recibas para desbloquear nuevos héroes y mejorar tus cartas. ¿Qué héroes debería llevar a la batalla? Los que se complementan entre sí y son más fuertes juntos, como un sanador y un tanque. ¿Con qué cartas debería luchar? Las que puedan fortalecer tu escuadrón de héroes, o cartas básicas de curación y daño a los enemigos. ¿Cómo gano oro? Completando misiones y misiones diarias, y luchando en la torre y la arena",
+  "guide": {
+   "intro": "Far Orion: New Worlds es un juego de estrategia de acción donde lideras un equipo de héroes y un mazo de cartas a través de misiones, jefes y una torre. Esta guía explica cómo formar tu escuadrón y ganar oro.",
+   "tips": [
+    "Combina héroes cuyas habilidades se apoyen entre sí, como un sanador junto a un tanque, para que tu escuadrón resista mejor en combates largos.",
+    "Revisa los tipos de ataque y el HP de cada jefe antes de un combate, y lleva cartas y héroes adecuados para la amenaza en vez de usar siempre el mismo escuadrón.",
+    "Elige cartas que fortalezcan a tus héroes o que den curación y daño básicos, para que cada carta de tu mazo tenga una función clara.",
+    "Gasta el oro en mejorar a los héroes y cartas que uses más a menudo, en lugar de repartirlo entre muchas opciones sin usar.",
+    "Inicia sesión para las misiones diarias y juega misiones y la torre con regularidad, ya que son las principales formas de ganar el oro que necesitas para mejorar."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo de Far Orion: New Worlds?",
+     "Completas misiones y luchas contra enemigos a lo largo de la historia, usando un escuadrón de héroes y un mazo de cartas para ganar cada batalla. Los jefes aparecen a lo largo de la historia y son los principales desafíos por superar."
+    ],
+    [
+     "¿Cómo gano oro en el juego?",
+     "Ganas oro completando misiones, terminando misiones diarias y luchando en la torre y la arena. El oro se usa luego para mejorar héroes y cartas, y para comprar cartas de héroe."
+    ]
+   ]
+  }
  },
  "black-sphere": {
   "description": "Frente a ti, en la pantalla, verás un campo de juego con varias celdas redondas. En una de ellas habrá una bola blanca. Una de las celdas se resaltará en un color específico. En la parte superior del campo de juego aparecerá una bola negra. Puedes usar el ratón para moverla a una de las celdas. Esto debe hacerse de forma que la bola negra empuje a la blanca y termine en la celda seleccionada. Si lo consigues, recibirás puntos en el juego Black Sphere y pasarás al siguiente nivel.",
@@ -119836,8 +119876,28 @@
   }
  },
  "game-of-warrior": {
-  "description": "Game of Warriors es un juego de estrategia TD (Tower Defense) con un estilo único dentro de su género. Ambientado en un mundo mágico, tendrás que mejorar tus defensas y tus poderosos soldados para sobrevivir y asediar los territorios enemigos hasta conquistarlos. La alianza rival de los reinos malvados ha empujado lo que queda de la civilización humana a un rincón del mundo, aislada y olvidada, sumida en la miseria y luchando por sobrevivir con dureza. ¡Ensilla los caballos, contrata a tus guerreros y prepara las lanzas para la batalla! El cuerno de guerra volverá a sonar y nuestros titanes destruirán los muros y torres enemigos. La era de los imperios oscuros ha llegado a su fin, es hora de recuperar lo que nos pertenece por derecho, ¡es hora de la rebelión, la guerra y la venganza! Características: - Estilo de juego Tower Defense (TD) y estrategia. - Más de 1500 oleadas defensivas. - Más de 100 territorios por conquistar. - Más de 30 soldados para mejorar. - Más de 1000 mejoras de edificios. - 4 razas diferentes para conquistar (Goblins, Esqueletos, Worgens y Orcos). Jugabilidad principal e historia P: ¿De qué trata el juego? ¿Qué tienes que hacer? R: Es un juego estratégico de Tower Defense. Tienes que mejorar a tus soldados y tu fortaleza, y atacar otros territorios para convertirlos en tus colonias. P: ¿Cuál es la característica única del juego que puede enganchar a los jugadores? R: Es un juego estratégico de Tower Defense con más de 30 soldados para mejorar, más de 1000 mejoras de edificios, 4 razas diferentes a derrotar (goblins, esqueletos, worgens y orcos) y un árbol de mejoras único. Mecánicas y progresión P: ¿Hay jefes y en qué se diferencian? R: Sí, cada 10 oleadas te enfrentas a un ejército bien organizado de jefes que son más desafiantes que las unidades normales. Economía y personalización P: ¿Qué monedas están disponibles y en qué se pueden gastar (normal: oro, premium: cristales, etc.)? R: Sí, el juego tiene dos monedas: oro y diamantes. Puedes usarlas para mejorar torres, guerreros, atacar tierras, mejorar armas y más. P: ¿Cómo funciona exactamente subir de nivel? ¿Qué hay que hacer para subir de nivel más rápido? R: Gana monedas derrotando enemigos y recogiendo monedas de las colonias que hemos conquistado. Usa estas monedas para subir de nivel a tus guerreros y estructuras. P: ¿Hay compras dentro del juego? ¿Qué se puede comprar y cuál es su impacto? ¿Hacer",
-  "instructions": "¡Tu misión es defender la fortaleza o atacar! Envía tropas para atacar o defender; lucharán automáticamente. Para derrotar al enemigo, usa diversas habilidades y mejora a tus guerreros."
+  "description": "Game of Warriors es un juego de estrategia TD (tower defense) con un estilo único dentro de su género. Ambientado en un mundo mágico, tendrás que mejorar tus defensas y a tus poderosos soldados para sobrevivir y asediar territorios enemigos para conquistarlos. La alianza rival de los reinos malignos ha empujado lo que queda de la civilización humana a un rincón del mundo, aislado y olvidado, hundido en la miseria y luchando por sobrevivir. Prepara los caballos, recluta a tus guerreros y afila las lanzas para la batalla; la trompeta de guerra volverá a sonar y nuestros titanes destruirán los muros y torres enemigas. La era de los imperios oscuros ha llegado a su fin, es hora de recuperar lo que nos pertenece por derecho, ¡es hora de la rebelión, la guerra y la venganza! Características: - Estilo de juego Tower Defense (TD) y estrategia. - Más de 1500 oleadas defensivas. - Más de 100 territorios por conquistar. - Más de 30 soldados que mejorar. - Más de 1000 mejoras de edificios. - 4 razas distintas por conquistar (Goblins, Esqueletos, Worgens y Orcos). Jugabilidad principal e historia P: ¿De qué trata el juego? ¿Qué hay que hacer? R: Es un juego de estrategia Tower Defense. Tienes que mejorar a tus soldados y tu fortaleza, y atacar otros territorios, convirtiéndolos en tus colonias. P: ¿Cuál es la característica única del juego que puede atraer a los jugadores? R: Es un juego de estrategia Tower Defense con más de 30 soldados que mejorar, más de 1000 mejoras de edificios, 4 razas distintas que derrotar (goblins, esqueletos, worgens y orcos) y un árbol de mejoras único. Mecánica y progresión P: ¿Hay jefes y en qué se diferencian? R: Sí, cada 10 oleadas te enfrentas a un ejército de jefes bien organizado que es más desafiante que las unidades normales. Economía y personalización P: ¿Qué monedas hay disponibles y en qué se pueden gastar (normal: oro, premium: cristales, etc.)? R: Sí, el juego tiene monedas: oro y diamantes. Puedes usarlas para mejorar torres, guerreros, atacar tierras, mejorar armas y más. P: ¿Cómo funciona exactamente la subida de nivel? ¿Qué hay que hacer para subir de nivel más rápido? R: Gana monedas derrotando enemigos y recolectando monedas de las colonias que hemos conquistado. Usa esas monedas para subir de nivel a tus guerreros y estructuras. P: ¿Hay compras dentro del juego? ¿Qué se puede comprar y cuál es el impacto? ¿Donar acelera el progreso del juego? R: Sí, hay compras dentro del juego donde puedes comprar diamantes. Estos diamantes se pueden usar para comprar numerosas mejoras. Las donaciones aceleran el progreso del juego. Retención y compromiso P: ¿Es preferible jugar con sonido para sumergirse mejor en el ambiente, o habrá dificultades para pasar sin sonido? R: La música complementa bien el juego, pero no es necesaria para jugar.",
+  "instructions": "Tu tarea es defender la fortaleza o atacar. Suelta tropas para atacar o defender; lucharán automáticamente. Para derrotar al enemigo, usa distintas habilidades y mejora a tus guerreros.",
+  "guide": {
+   "intro": "Game of Warrior es un juego de estrategia tower defense donde defiendes tu fortaleza y luego atacas territorios enemigos para convertirlos en tus colonias. Tus tropas luchan por sí solas, así que tus decisiones se centran en cuándo enviarlas y cómo mejorarlas.",
+   "tips": [
+    "Observa el campo antes de soltar tropas. Como tus unidades luchan automáticamente, el ritmo y la colocación decidirán el resultado más que la microgestión.",
+    "Gasta monedas en guerreros y estructuras de forma constante en lugar de todo de golpe. Las mejoras equilibradas te ayudan a mantener las defensas y avanzar en los ataques al mismo tiempo.",
+    "Prepárate para el ejército de jefes que aparece cada 10 oleadas. Los jefes son más duros que las unidades normales, así que guarda habilidades y mejoras fuertes para esos combates.",
+    "Las colonias conquistadas siguen produciendo monedas para ti, así que tomar territorios pronto puede acelerar tus mejoras posteriores.",
+    "Usa tus habilidades cuando los enemigos se agrupen o cuando tu propia línea esté bajo presión. El buen momento para usar habilidades puede importar más que añadir más unidades."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo principal de Game of Warrior?",
+     "Defiendes tu fortaleza contra las oleadas que llegan o atacas territorios enemigos para conquistarlos. Los territorios conquistados se convierten en tus colonias."
+    ],
+    [
+     "¿Cómo consigo monedas para mejorar más rápido?",
+     "Gana monedas derrotando enemigos y recolectando monedas de las colonias que has conquistado. Usa esas monedas para subir de nivel a tus guerreros y estructuras."
+    ]
+   ]
+  }
  },
  "rotcalypse-idle": {
   "description": "Rotcalypse Idle es un simulador satírico de imperios de clics en el que conviertes la decadencia digital en dinero. Transforma contenido cuestionable en pura ganancia, escalando desde los primitivos RotToks hasta una máquina VR global de Brainrot. No hace falta pensar, solo expandirse. Tu objetivo es la degradación total de internet a cambio de números infinitos. Vive un reflejo oscuro de la adicción a las redes sociales, perfecto para \"matar\" el tiempo.",
@@ -284434,6 +284494,221 @@
     [
      "¿Cómo hablo con otros jugadores durante una partida?",
      "Pulsa Intro para abrir el chat, escribe tu mensaje y vuelve a pulsar Intro para enviarlo."
+    ]
+   ]
+  }
+ },
+ "no-map-home": {
+  "description": "No Map Home es un RPG de fantasía cooperativo y gratuito que se juega directamente en tu navegador. Los aventureros siguieron a la Estrella Hueca bajo tierra y nunca regresaron, y Mara de El Descanso del Farol te pide que vuelvas a encender los Nueve Faros Vigía y los traigas de regreso. Elige una de ocho clases, explora veintiuna regiones salvajes y lucha a través de veinticinco profundidades de mazmorra, solo o en un grupo de hasta ocho jugadores en un mundo compartido en tiempo real. El día y la noche pasan para todos, tu farol puede ocultarte o atraer cazadores, y puedes contratar a un mercenario del gremio. Empieza como invitado, sin descarga ni cuenta.",
+  "instructions": "WASD o las flechas mueven. Clic o T selecciona un enemigo, 1-6 usan habilidades, V es la defensa de tu clase, Q y R beben pociones de vida y energía. E o clic derecho interactúa. Y enciende tu farol y U lo cubre. I, C y K abren la bolsa, el héroe y las habilidades, M y G el mapa local y el atlas del mundo, y la rueda del ratón hace zoom. En pantallas táctiles arrastra para moverte, toca para seleccionar y pellizca para hacer zoom.",
+  "guide": {
+   "intro": "No Map Home es un RPG de fantasía cooperativo donde exploras regiones salvajes y desciendes por profundidades de mazmorra, solo o con un grupo. Elige una clase, ten en cuenta tu farol y avanza hacia los Nueve Faros Vigía.",
+   "tips": [
+    "Tu farol funciona en ambos sentidos: mantenlo cubierto cuando necesites evitar a los cazadores, y enciéndelo cuando quieras atraerlos a propósito.",
+    "Elige tu clase según tu estilo de juego, y revisa el panel de habilidades con K pronto para saber qué teclas 1-6 usar en combate.",
+    "Mantén tus pociones de vida y energía en Q y R antes de entrar en una profundidad de mazmorra, ya que no tendrás tiempo de rebuscar en la bolsa en pleno combate.",
+    "Revisa el mapa local con M y el atlas del mundo con G a menudo para saber dónde estás antes de adentrarte en una nueva región.",
+    "Si juegas en grupo, acuerden quién selecciona objetivos y quién usa la defensa, y prueben [[multiplayer-games|otros juegos en equipo]] para practicar buenos hábitos de grupo."
+   ],
+   "faq": [
+    [
+     "¿Cómo elijo un objetivo en combate?",
+     "Haz clic en un enemigo o pulsa T para seleccionarlo, y usa las teclas 1-6 para tus habilidades. Mantén el mismo objetivo que tu grupo para que los ataques coincidan."
+    ],
+    [
+     "¿Cuándo debo usar la defensa de mi clase?",
+     "Pulsa V cuando un enemigo golpee fuerte o cuando tengas poca vida y necesites un momento para recuperarte. Es más útil combinada con una poción de Q o R."
+    ]
+   ]
+  }
+ },
+ "1-speed-escape-prison": {
+  "description": "¡Prepárate para una fuga de prisión salvaje en este dinámico juego de parkour con obstáculos y potenciadores +1 de velocidad! Tu objetivo es escapar de la prisión superando desafiantes obstáculos y acelerando en cada nivel. ¡Es una fuga real donde cada error puede hacerte retroceder! Sube de nivel tu velocidad, completa los circuitos de obstáculos y domina el parkour para encontrar la mejor ruta de escape. Cuanto más avanzas, más rápido vas: ¡siente la emoción de ganar velocidad y superar obstáculos! La prisión está llena de trampas, guardias y zonas peligrosas. ¿Puedes lograr la fuga perfecta y escapar más rápido que nadie? Características del juego: 🔶 Una emocionante fuga de prisión 🔶 Jugabilidad dinámica estilo parkour con +1 de velocidad 🔶 Aceleración progresiva y pruebas desafiantes 🔶 Niveles y obstáculos variados 🔶 Posibilidad de subir de nivel a tu personaje ¡Empieza tu fuga ahora mismo y demuestra que puedes escapar de la prisión! Jugabilidad principal e historia P: ¿De qué trata el juego? ¿Qué hay que hacer? R: Tienes que escapar de la prisión superando obstáculos, saltando, corriendo y haciendo parkour. Es importante mejorar tu velocidad de movimiento y tu resistencia, porque la resistencia afecta a la velocidad durante los niveles de fuga. P: ¿Hay una historia en el juego? R: No. P: ¿Cuál es la característica única del juego? ¿Cómo puede atraer a los jugadores? R: Hay varias características como mascotas que dan bonificaciones de velocidad y resistencia, una ruleta de la fortuna, clasificaciones y personalización del personaje. Mecánica y progresión P: ¿Hay jefes en el juego y en qué se diferencian? R: No. P: ¿Cómo funciona la subida de nivel? ¿Qué hay que hacer para subir de nivel más rápido? R: Tienes que entrenar en el gimnasio y mejorar tu velocidad de movimiento y resistencia. Economía y personalización P: ¿Qué monedas hay disponibles y en qué se pueden gastar (normal: oro, premium: cristales, etc.)? R: Hay dinero normal y diamantes que se pueden gastar en distintas skins, mejoras de velocidad y resistencia, y la posibilidad de volver al último punto de control al perder. P: ¿Hay compras dentro del juego? ¿Qué se puede comprar y qué afecta? ¿Donar acelera el progreso del juego? R: Puedes comprar skins y moneda del juego. P: ¿Hay una clasificación? ¿Cómo se accede? ¿Qué tipos hay (semanal, mensual, de siempre, etc.)? R: Hay tres clasificaciones distintas: una para la mayor resistencia, otra para la mayor velocidad de movimiento y otra para el jugador que más ha avanzado durante la fuga. Retención y compromiso P: ¿Qué elementos resultan atractivos en el contenido (armas, coches, ubicaciones, habilidades, referencias a franquicias famosas, etc.)? R: Hay muchas skins geniales y música épica durante la fuga. P: ¿Hay personalización en el juego? ¿Se puede personalizar el aspecto del héroe, hay editor de ubicaciones, ajuste de coches, etc.? R: Sí, puedes comprar ropa y accesorios. P: ¿Hay recompensas diarias o algo similar para animar a los jugadores a volver? R: Hay recompensas diarias y también recompensas según el tiempo de juego. P: ¿Es mejor jugar con sonido para sumergirse mejor en el ambiente, o habrá dificultades para pasar sin sonido? R: Es preferible jugar con sonido, ya que la música es muy buena y épica durante la fuga.",
+  "instructions": "✅ Controles En PC: Clic derecho: girar la cámara WASD / flechas: mover al personaje Barra espaciadora: saltar En móvil: Controles mediante elementos de la interfaz Girar la cámara: deslizar en el lado derecho de la pantalla ✅ Jugabilidad 🔶 Mejora tus estadísticas en la celda de la prisión. Recoge energía o entrena en las máquinas de ejercicio 🔶 Por cada paso que das, ganas un impulso de velocidad; cuanto más te mueves, más rápido te vuelves 🔶 Completa niveles, consigue dinero y acércate a tu objetivo principal: ¡escapar de la prisión! (confía en mí, te encantará el nivel final) 🔶 Potencia tus mejoras con el botón de \"Mejoras\", que aparece cuando tienes suficiente dinero 🔶 Supera obstáculos, evita trampas y encuentra caminos ocultos 🔶 A medida que aumenta tu velocidad, los desafíos se vuelven más duros: pon a prueba tus reflejos y agilidad 🔶 Compite con otros jugadores y sube en la clasificación 🔶 Tu objetivo principal es lograr la fuga de prisión perfecta y establecer un nuevo récord 🚀",
+  "guide": {
+   "intro": "Escapa de una prisión corriendo, saltando y trepando por circuitos de obstáculos. Tu velocidad aumenta a medida que te mueves, así que cada partida puede sentirse más rápida que la anterior.",
+   "tips": [
+    "Mantente en movimiento en cada partida, ya que cada paso suma a tu impulso de velocidad. Detenerte pronto desperdicia el impulso que facilita las secciones posteriores.",
+    "Gasta mejoras tanto en resistencia como en velocidad, porque la resistencia afecta a tu velocidad durante los niveles de fuga. Equilibrar ambas te ayuda a completar circuitos más largos.",
+    "Usa tu celda de la prisión para entrenar entre partidas. Recoger energía o entrenar en las máquinas de ejercicio son las formas de mejorar tus estadísticas.",
+    "Busca caminos ocultos cuando una ruta parezca bloqueada. Observar el nivel antes de lanzarte a un salto puede evitarte caídas repetidas.",
+    "Revisa el botón de Mejoras cuando tengas suficiente dinero y compra lo que se ajuste a tu punto débil actual. Ahorrar para una mejora concreta puede ser más útil que gastar en cuanto lo consigues."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo principal del juego?",
+     "Tu objetivo es escapar de la prisión completando circuitos de obstáculos, evitando trampas y superando cada nivel. Terminar el nivel final es el objetivo principal."
+    ],
+    [
+     "¿Cómo me muevo y salto en PC?",
+     "Usa WASD o las flechas para moverte, pulsa la barra espaciadora para saltar y mantén pulsado el clic derecho para girar la cámara. En móvil, los controles están en la interfaz y deslizas en el lado derecho de la pantalla para girar la cámara."
+    ]
+   ]
+  }
+ },
+ "2048-merge-blocks": {
+  "description": "Merge Puzzle - 2048 Blocks Sumérgete en el mejor puzle de combinación de números. Merge Puzzle combina la jugabilidad adictiva de 2048 con una innovadora mecánica de pulsar para combinar, para una experiencia fresca que pone a prueba tu cerebro. Conecta y combina fichas numéricas iguales para crear valores más altos. ¡Cuantas más fichas conectes, mayor será tu puntuación! Empieza con sencillos 2 y 4, y ve subiendo hasta números enormes como 2048, 8192 y más allá. CARACTERÍSTICAS PRINCIPALES: Jugabilidad de combinación adictiva Pulsa fichas iguales para combinarlas en números más altos. Conecta fichas en horizontal, vertical y diagonal para lograr el máximo de combinaciones. ¡Crea reacciones en cadena y mira cómo tu puntuación se dispara! Más de 40 niveles desafiantes Progresa a través de cuatro colecciones únicas: Principiante, Intermedio, Experto y Maestro. Cada colección ofrece 10 puzles diseñados a mano con dificultad creciente. ¿Puedes completarlos todos? Desafíos diarios Pon a prueba tus habilidades con un nuevo puzle cada día. Compite contra jugadores de todo el mundo en la clasificación diaria y demuestra que eres el mejor resolviendo puzles. Modo sin fin Juega sin límites en el modo sin fin. ¿Qué tan alto puedes puntuar? Pon a prueba tus límites y desbloquea logros. Potenciadores y mejoras Usa potenciadores estratégicos para superar situaciones difíciles: - Deshacer: recupera tu último movimiento - Martillo: elimina cualquier ficha del tablero - Mezclar: reorganiza todas las fichas para nuevas oportunidades Clasificaciones globales Compite con jugadores de todo el mundo. Sube en la clasificación y conviértete en el campeón definitivo de los puzles de combinación. Sistema de misiones Completa misiones diarias y permanentes para ganar monedas y desbloquear recompensas. Sigue tu progreso y tus logros mientras dominas el juego. POR QUÉ A LOS JUGADORES LES ENCANTA MERGE PUZZLE: - Fácil de aprender, difícil de dominar - Sin presión de tiempo: juega a tu propio ritmo - Gráficos bonitos y animaciones suaves - Jugabilidad relajante pero atractiva - Funciona sin conexión: juega donde sea, cuando sea - Actualizaciones periódicas con contenido nuevo Perfecto para los amantes de los puzles, los entusiastas de los juegos de números y cualquiera que disfrute de los juegos de entrenamiento mental. Tengas unos minutos o unas horas, Merge Puzzle ofrece una jugabilidad satisfactoria en cada sesión.",
+  "instructions": "CÓMO JUGAR A MERGE PUZZLE - 2048 BLOCKS JUGABILIDAD BÁSICA: 1. PULSA PARA SELECCIONAR Pulsa cualquier ficha numerada del tablero. Todas las fichas conectadas con el mismo número se resaltarán. Las fichas se conectan en horizontal, vertical y diagonal. 2. COMBINA FICHAS Pulsa otra vez para combinar todas las fichas resaltadas en una. La ficha combinada aparece en el lugar donde pulsaste, con un valor más alto. ¡Cuantas más fichas conectes, mayor será el número resultante! 3. CONSIGUE PUNTOS Cada combinación da puntos según las fichas combinadas. Crea combinaciones más grandes para puntuaciones enormes. Las reacciones en cadena ocurren automáticamente cuando aparecen nuevas oportunidades de combinación tras caer las fichas. 4. ALCANZA EL OBJETIVO En el modo de niveles, alcanza el valor objetivo de ficha (mostrado arriba) antes de quedarte sin movimientos. En el modo sin fin, sigue combinando e intenta lograr la puntuación más alta posible. FÓRMULA DE COMBINACIÓN: El juego usa una fórmula especial que premia conectar más fichas: - 2 fichas: el valor se duplica (2+2 = 4) - 3-4 fichas: el valor se cuadruplica (2+2+2 = 8) - 5-6 fichas: el valor se multiplica por 8 (2+2+2+2+2 = 16) - 7 o más fichas: ¡multiplicadores aún mayores! Consejo: busca siempre los grupos más grandes de fichas iguales para el máximo de puntos. MODOS DE JUEGO: Modo de niveles - Completa 40 niveles en 4 colecciones - Cada nivel tiene una ficha objetivo y movimientos limitados - El progreso desbloquea nuevos desafíos Modo sin fin - Sin límite de movimientos: juega hasta que el tablero se llene - Intenta alcanzar la ficha más alta posible - Compite en las clasificaciones globales Desafío diario - Nuevo puzle cada día para todos los jugadores - El mismo puzle en todo el mundo: compara tus habilidades - Clasificación diaria especial POTENCIADORES: DESHACER (50 monedas) ¿Cometiste un error? Deshaz tu último movimiento y prueba otra estrategia. MARTILLO (50 monedas) Elimina una sola ficha del tablero. Genial para despejar bloqueos o preparar grandes combinaciones. MEZCLAR (50 monedas) Reorganiza todas las fichas al azar. Úsalo cuando no haya buenos movimientos disponibles. CONSEJOS PARA PUNTUACIONES ALTAS: 1. Planifica con antelación Mira todo el tablero antes de hacer un movimiento. Busca el grupo más grande posible de fichas iguales. 2. Trabaja desde abajo Concéntrate en combinar fichas en la parte inferior del tablero. Esto crea espacio para que caigan nuevas fichas y potencialmente formen cadenas. 3. Crea reacciones en cadena Coloca las fichas de forma que, tras una combinación, las fichas que caen formen automáticamente nuevos grupos iguales. 4. Guarda los potenciadores No uses los potenciadores demasiado pronto. Gu��rdalos para situaciones difíciles en niveles posteriores. 5. Conecta diagonales Recuerda que las fichas también se conectan en diagonal. Busca cadenas diagonales que otros jugadores podrían pasar por alto. 6. Construye números grandes Las fichas de mayor valor son más difíciles de combinar pero valen más puntos. Intenta llevarlas hacia las esquinas donde no bloqueen otras combinaciones.",
+  "guide": {
+   "intro": "Merge Puzzle es un juego de combinación de números basado en 2048. Pulsas fichas conectadas con números iguales para combinarlas en valores más altos y alcanzar un objetivo o lograr una puntuación alta.",
+   "tips": [
+    "Antes de pulsar, busca el grupo más grande de fichas iguales, ya que la fórmula de combinación premia conectar más fichas con valores mayores.",
+    "Recuerda que las fichas se conectan en diagonal además de en horizontal y vertical, así que revisa los grupos diagonales al examinar el tablero.",
+    "En el modo de niveles, cuenta tus movimientos restantes frente a la ficha objetivo mostrada arriba, y planifica combinaciones que te acerquen a ella.",
+    "Guarda Deshacer para cuando un movimiento salga mal, y usa Martillo o Mezclar solo cuando el tablero esté realmente bloqueado.",
+    "Vigila las reacciones en cadena tras caer las fichas, porque una combinación puede crear nuevos grupos iguales que no esperabas."
+   ],
+   "faq": [
+    [
+     "¿Cómo combino fichas?",
+     "Pulsa cualquier ficha numerada para resaltar todas las fichas conectadas con el mismo número, y vuelve a pulsar para combinarlas en una ficha de valor más alto."
+    ],
+    [
+     "¿Qué hacen los potenciadores?",
+     "Deshacer recupera tu último movimiento, Martillo elimina una sola ficha del tablero y Mezclar reorganiza todas las fichas."
+    ]
+   ]
+  }
+ },
+ "ice-cream-vendor": {
+  "description": "Ice Cream Vendor es un juego de navegador trepidante que te pone detrás del mostrador de un puesto de helados muy concurrido. Elige el cono adecuado, añade capas de sabores y agrega chocolates y coberturas para igualar el pedido de cada cliente. Cada nivel sube la apuesta con combinaciones nuevas y clientes más rápidos, así que solo el vendedor más hábil puede seguir el ritmo. ¿Cuántos pedidos puedes completar bien antes de que el caos te derrita?",
+  "instructions": "Solo haz clic en los botones",
+  "guide": {
+   "intro": "Ice Cream Vendor es un juego de clics trepidante donde llevas un puesto de helados. Preparas el pedido de cada cliente eligiendo un cono, sabores, chocolates y coberturas antes de que la fila se impaciente demasiado.",
+   "tips": [
+    "Lee todo el pedido antes de hacer clic en nada, así sabrás desde el principio qué cono y sabores necesitas.",
+    "Prepara primero el cono, luego añade los sabores y después los chocolates y coberturas, para no tener que volver atrás.",
+    "Mantén tus clics firmes y evita apresurar un clic equivocado, ya que arreglar un error cuesta tiempo que necesitas para el siguiente cliente.",
+    "A medida que los niveles se vuelven más difíciles y los clientes se mueven más rápido, concéntrate en los pedidos que tienes delante en vez de pensar en el siguiente.",
+    "Mantén la calma en los momentos de más ajetreo; una rutina sencilla y constante suele ganar al clic frenético."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo de Ice Cream Vendor?",
+     "El objetivo es completar correctamente tantos pedidos de clientes como puedas antes de que el ajetreo sea demasiado. Cada pedido debe coincidir con lo que pidió el cliente."
+    ],
+    [
+     "¿Cómo se juega?",
+     "Solo tienes que hacer clic en los botones para elegir un cono, añadir sabores y colocar chocolates y coberturas para cada cliente."
+    ]
+   ]
+  }
+ },
+ "underwater-2d": {
+  "description": "Underwater 2D es una aventura 2D de navegador ambientada en las inquietantes profundidades de un océano alienígena. Tu misión es sencilla pero peligrosa: recoger los peces necesarios para completar la inmersión. Pero no puedes quedarte bajo el agua para siempre: tu tanque de oxígeno no deja de bajar. Encuentra zonas de recarga repartidas por el agua antes de que se te acabe el aire. Mientras tanto, peces peligrosos y plantas parecidas a algas peligrosas flotan en las mismas corrientes, y un solo roce equivocado puede acabar con tu misión. Recoge lo que necesitas, sobrevive a lo desconocido y termina la inmersión.",
+  "instructions": "W A S D Mover Espacio Clic izquierdo Gancho",
+  "guide": {
+   "intro": "Underwater 2D es un juego de disparos de navegador ambientado en un océano alienígena. Te mueves por las profundidades, recoges los peces que necesitas para terminar la inmersión y mantienes tu oxígeno lleno mientras evitas peces peligrosos y plantas parecidas a algas.",
+   "tips": [
+    "Revisa tu oxígeno a menudo y planifica rutas que pasen por zonas de recarga antes de que el aire se te agote.",
+    "Muévete en rachas cortas y controladas con W, A, S y D para poder detenerte y cambiar de dirección cerca de los peligros.",
+    "Examina el camino por delante en busca de peces peligrosos y plantas parecidas a algas, ya que un solo roce acaba la misión.",
+    "Usa Espacio o clic izquierdo para lanzar el gancho solo cuando tengas una línea clara hacia un pez que necesites, para no perder tiempo.",
+    "Recoge los peces necesarios en un orden que te mantenga cerca de una zona de recarga, en lugar de alejarte mucho del aire."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo de Underwater 2D?",
+     "Recoger los peces necesarios para completar la inmersión mientras mantienes tu oxígeno por encima de cero y evitas los peligros. Terminar la inmersión es cómo ganas."
+    ],
+    [
+     "¿Qué pasa si toco un pez o una planta peligrosa?",
+     "Un solo roce equivocado acaba tu misión, así que mantén siempre una distancia segura de los peces y plantas peligrosas parecidas a algas."
+    ]
+   ]
+  }
+ },
+ "corner-bakery": {
+  "description": "Bienvenido a Corner Bakery, un acogedor juego de combinación sobre buena comida y los vecinos de la zona. Combina pasteles y bebidas iguales, completa los pedidos de tus vecinos y devuelve la vida a una panadería abandonada y a su barrio. Conoce a siete personajes, descubre recuerdos escondidos y toma decisiones de diálogo a lo largo de ocho capítulos de la historia. Mejora tu cocina, desbloquea recetas y explora seis ubicaciones ilustradas a tu propio ritmo.",
+  "instructions": "Haz clic o toca un productor de la cocina para crear un objeto. Arrastra dos objetos idénticos juntos para combinarlos en la siguiente receta. También puedes seleccionar un objeto y luego hacer clic o tocar su pareja correspondiente. Completa los pedidos con los objetos solicitados para ganar monedas y experiencia. Usa las monedas para mejorar tu cocina y restaurar lugares del barrio. Sigue las tareas de la historia, habla con los vecinos y elige tus respuestas. Guarda objetos para liberar espacio en el tablero. La energía se recarga con el tiempo; un vídeo opcional con recompensa puede darte 20 de energía extra. Juega con ratón o controles táctiles.",
+  "guide": {
+   "intro": "Corner Bakery es un acogedor puzle de combinación sobre preparar pasteles y bebidas para tus vecinos. Combina objetos iguales, completa pedidos y restaura poco a poco la panadería y la calle que la rodea.",
+   "tips": [
+    "Mira los pedidos abiertos antes de combinar. Crear lo que la gente pide gana recompensas más rápido que fabricar objetos que aún no necesitas.",
+    "Combina pronto y a menudo para que el tablero no se llene. Un tablero abarrotado dificulta encontrar parejas iguales.",
+    "Usa las ranuras de almacenamiento cuando tengas objetos de sobra que no puedas usar de inmediato. Liberar espacio mantiene tus productores de cocina fáciles de manejar.",
+    "Guarda tus monedas para las mejoras y ubicaciones que más te importen. Piensa qué mejora ayudará a tus próximos pedidos antes de gastar.",
+    "Controla tu energía. Se recarga con el tiempo, así que planifica sesiones de combinación más largas en torno a ella en vez de apresurar todos los capítulos de golpe."
+   ],
+   "faq": [
+    [
+     "¿Cómo combino dos objetos?",
+     "Arrastra un objeto idéntico sobre el otro, o selecciona un objeto primero y luego haz clic o toca su pareja correspondiente. Cada combinación crea la siguiente receta de la cadena."
+    ],
+    [
+     "¿Qué tengo que hacer para ganar monedas?",
+     "Completa los pedidos de tus vecinos con los objetos solicitados. Cada pedido completado te da monedas y experiencia."
+    ]
+   ]
+  }
+ },
+ "asmr-beauty-japanese-spa": {
+  "description": "Sumérgete en una serenidad tranquila con ASMR Beauty Japanese Spa. Disfruta de rituales relajantes, desde masajes calmantes hasta faciales refrescantes, todo potenciado por sonidos ASMR relajantes. Termina vistiendo a tu clienta con un elegante yukata, combinando el estilo japonés atemporal con la máxima relajación. Relájate y recupera energías en un tranquilo recorrido de spa.",
+  "instructions": "",
+  "guide": {
+   "intro": "ASMR Beauty Japanese Spa es un juego de spa relajante construido alrededor de tratamientos calmantes, desde masajes hasta faciales, con sonidos ASMR suaves. Terminas vistiendo a tu clienta con un elegante yukata.",
+   "tips": [
+    "Usa auriculares si puedes, ya que los sonidos ASMR son una parte importante del efecto calmante y son fáciles de perder con altavoces pequeños.",
+    "Haz cada ritual con calma en vez de apresurarte, para que el ambiente del spa se construya antes de pasar al siguiente.",
+    "Presta atención a los sonidos durante los masajes y faciales, ya que pueden ayudarte a saber cuándo un tratamiento se siente completo.",
+    "Trata el vestido con el yukata como el paso final y dale el mismo cuidado que a los tratamientos, ya que cierra el recorrido de spa.",
+    "Si quieres una sesión más tranquila, juega en una habitación silenciosa con pocas distracciones para disfrutar plenamente del ambiente."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo principal de ASMR Beauty Japanese Spa?",
+     "El objetivo es acompañar a tu clienta a lo largo de un tranquilo recorrido de spa con rituales relajantes, incluidos masajes y faciales, y terminar vistiéndola con un yukata."
+    ],
+    [
+     "¿Los sonidos ASMR afectan a cómo juego?",
+     "Los sonidos forman parte del ambiente relajante y están pensados para disfrutarse a medida que avanzas en cada tratamiento. Escuchar con atención puede ayudarte a mantenerte centrado en cada paso."
+    ]
+   ]
+  }
+ },
+ "sky-slash-ninja-rise": {
+  "description": "Juego de escalada de ninja con salto de pared y un solo toque. Salta entre paredes, corta enemigos voladores, encadena combos perfectos, entra en el MODO KAMI y vence a 9 jefes en 9 mundos. Sube más alto que nunca antes de que la niebla te alcance.",
+  "instructions": "Toca, haz clic o pulsa ESPACIO para saltar a la otra pared. Toca otra vez en el aire para voltear. Salta a través de los enemigos para cortarlos y encadenar combos. Recoge monedas para desbloquear 10 ninjas con sus propios poderes. Vence a cada jefe saltando sobre él cuando esté abierto. Sigue subiendo: la niebla de abajo sube más rápido cuanto más alto llegas. Pausa con el botón de pausa (Esc en escritorio).",
+  "guide": {
+   "intro": "Sky Slash: Ninja Rise es un juego de escalada arcade de un solo toque donde saltas entre paredes, cortas enemigos voladores y corres contra la niebla que sube. Encadena combos, vence a los jefes y comprueba hasta dónde puedes llegar.",
+   "tips": [
+    "Vigila la niebla de abajo, ya que sube más rápido cuanto más alto llegas. No te quedes demasiado tiempo en una misma pared.",
+    "Planifica tus saltos con antelación para aterrizar cerca del siguiente enemigo. Cada salto a través de un enemigo es una oportunidad de alargar tu combo.",
+    "Usa el toque extra en el aire para voltear cuando necesites cambiar de dirección rápidamente en vez de arriesgarte en un salto comprometido.",
+    "Observa bien a los jefes y solo salta sobre ellos cuando estén abiertos. Atacar en el momento equivocado desperdicia tu oportunidad.",
+    "Recoge monedas siempre que sea seguro hacerlo, ya que desbloquean nuevos ninjas con sus propios poderes. Prueba distintos ninjas para ver cuál se adapta mejor a tu estilo de escalada."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo de Sky Slash: Ninja Rise?",
+     "Sube lo más alto que puedas saltando entre paredes, cortando enemigos y venciendo jefes en 9 mundos. La niebla de abajo sube más rápido cuanto más alto llegas, así que la partida termina si te alcanza."
+    ],
+    [
+     "¿Qué controles uso?",
+     "Toca, haz clic o pulsa ESPACIO para saltar a la otra pared, y toca otra vez en el aire para voltear. Puedes pausar con el botón de pausa o Esc en escritorio."
+    ]
+   ]
+  }
+ },
+ "king-of-sumo": {
+  "description": "Entra en el ring como Takeshi en King Of Sumo, donde cada combate es una batalla de fuerza e inteligencia. Domina ataques estratégicos, descubre el misterio de una leyenda desaparecida y navega por intensos e impredecibles enfrentamientos de sumo. Con gráficos cautivadores y una historia envolvente, cada victoria te acerca más al campeonato definitivo.",
+  "instructions": "",
+  "guide": {
+   "intro": "King of Sumo te pone en el ring como Takeshi, donde cada combate mezcla fuerza con estrategia. Ganar combates te acerca al campeonato mientras se desarrolla una historia sobre una leyenda desaparecida.",
+   "tips": [
+    "Observa cómo se mueve tu rival antes de lanzarte a un ataque, ya que los enfrentamientos se describen como impredecibles.",
+    "Elige tus ataques con un plan en vez de pulsar botones sin pensar, porque el juego premia el juego estratégico.",
+    "Trata cada combate como una lectura de tu rival: fíjate en los patrones de su postura y su ritmo, y ajústate.",
+    "Mantén la concentración entre combates para poder captar pistas sobre la leyenda desaparecida a medida que avanza la historia."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo de King of Sumo?",
+     "Tu objetivo es ganar combates de sumo como Takeshi y seguir avanzando hacia el campeonato. Cada victoria te acerca más al título final."
+    ],
+    [
+     "¿El juego depende de la fuerza o de la estrategia?",
+     "Ambas importan, ya que cada combate se describe como una batalla de fuerza e inteligencia. Planificar tus ataques es tan importante como la fuerza bruta."
     ]
    ]
   }
