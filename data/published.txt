@@ -907,6 +907,7 @@ battle-of-orcs
 battle-of-tank-steel
 battle-of-the-minds
 battle-robot-jigsaw-puzzle-collection
+battle-sandbox-playground
 battle-shot-elite
 battle-simluator-counter-stickman
 battle-simulator-police-prison
@@ -3339,6 +3340,7 @@ double-streetfight
 downhill-ball
 downhill-car-ride-crash-test
 downhill-christmas-dash
+downhill-frenzy
 downhill-snowboard
 dr-octopus-darkling
 dr-parking-2
@@ -3708,6 +3710,7 @@ elvis-funny-face
 ember-ascent
 ember-boy-and-ripple-girl
 ember-carnival
+emberwing-skies-of-the-undead
 emergency-ambulance-driving-game
 emergency-dispatcher-911
 emergency-operator
@@ -5397,6 +5400,7 @@ home-makeover-cleaning-game
 home-pipe-water-puzzle
 home-run-infinity
 home-run-master
+home-run-superstars
 home-rush
 home-rush-draw-to-home
 home-rush-path-game
@@ -9678,6 +9682,7 @@ sky-kingdoms-castle-siege
 sky-racer-simulator
 sky-racing-drff
 sky-ramp-fury
+sky-ramp-fury-mega-ramp-car-stunts
 sky-roller
 sky-rolling-balls
 sky-rush
@@ -12006,6 +12011,7 @@ whack-a-mole
 whack-a-mole-pixel-version
 whackamole3d
 what-a-leg
+what-sleeps-above
 whats-in-my-bag
 whats-that-picture-3d
 wheel-chair-driving-simulator
@@ -12276,6 +12282,7 @@ your-silver-wife
 yummy-churros-ice-cream
 yummy-churros-ice-cream-2
 yummy-cupcake
+yummy-gummy-sort
 yummy-hotdog
 yummy-hotdog-2
 yummy-shelf
