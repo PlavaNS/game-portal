@@ -661,5 +661,52 @@
     "embed": "https://html-classic.itch.zone/html/20358319/index.html",
     "thumb": "https://ilovewebgames.com/assets/community/fuzeborn.jpg?v=1",
     "orientation": "landscape"
+  },
+  {
+    "slug": "ashengrid",
+    "title": "ASHENGRID: Realm of Velkyn",
+    "studio": "VelkynForge",
+    "studioUrl": "https://ashengrid.com",
+    "added": "2026-11-18",
+    "short": "A dark-fantasy tactical RPG in the browser: forge a hero, pick a covenant and fight turn-based battles on a grid.",
+    "description": "ASHENGRID: Realm of Velkyn is a free dark-fantasy RPG that runs straight in the browser. You forge a hero by naming them and choosing one of four classes, the Templar, Sorceress, Necromancer or Valkyrie, then swear to one of the covenants that fight over the six primordial Ember-Eggs, each with its own alignment perk. From there you explore an isometric world with rotating biomes, gather materials with professions and step into short turn-based battles on a tactical grid, where you spend action and movement points to cast spells on target tiles. A motion-comic prologue opens the story, and no download is needed.",
+    "instructions": "Click Begin Chronicle, name your hero, pick a class and a covenant, then press Forge Hero & Begin Story. Use the mouse to move and interact. In combat, click a spell and then a target tile; spend your AP and MP wisely each turn.",
+    "category": "adventure",
+    "extraCats": [
+      "multiplayer"
+    ],
+    "tags": [
+      "RPG",
+      "Turn-Based",
+      "Tactics",
+      "Fantasy",
+      "MMO"
+    ],
+    "embed": "https://ashengrid.com",
+    "thumb": "https://ilovewebgames.com/assets/community/ashengrid.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "swishes-io",
+    "title": "Swishes.io",
+    "studio": "Rocky JiaS",
+    "studioUrl": "https://www.swishes.io",
+    "added": "2026-11-18",
+    "short": "3D pickup basketball in your browser: play 1v1, 3v3 or full-court 5v5, or take on a real opponent online.",
+    "description": "Swishes.io is a 3D pickup basketball game that runs in your browser with no download. Choose a half-court one-on-one game to 11, run with a crew in 3v3 to 21, or play the full squad in full-court 5v5. You control one player while teammates and rivals move around you, and a deep control set lets you sprint, pump fake, dribble through crossovers, pass, throw alley-oops and set picks. A player builder lets you shape your own baller from presets like Sharpshooter or Playmaker, there is a shootaround to practise your jumper, and an online mode puts you against real players.",
+    "instructions": "WASD to move, Shift to sprint. Hold Space to shoot (a short press is a pump fake). I, J, K and L do dribble moves, F passes, G throws an alley-oop and V sets a pick. H shows all controls, Esc pauses.",
+    "category": "sports",
+    "extraCats": [
+      "multiplayer"
+    ],
+    "tags": [
+      "Basketball",
+      "3D",
+      "Sports",
+      "Multiplayer"
+    ],
+    "embed": "https://www.swishes.io",
+    "thumb": "https://ilovewebgames.com/assets/community/swishes-io.jpg?v=1",
+    "orientation": "landscape"
   }
 ]
