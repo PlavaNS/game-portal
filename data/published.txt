@@ -5150,6 +5150,7 @@ harvest-rush
 harvest-rush-tractor-farm
 harvester-cut-grass
 harvestoria-tractor-farming
+hatch-a-capybara
 hatch-or-steal-online
 hatch-surprise-pets
 hatch-that-egg-tap-and-crack
@@ -7894,6 +7895,7 @@ owl-hunter
 oxy-arena
 pac-game
 pac-maze-alphabet-escape
+pace-note-rally
 pacific-ocean-adventure
 package-deliver-game
 paco-paco
@@ -9370,6 +9372,7 @@ santadays-christmas
 santas-mission
 santas-snowy-sprint
 sapotago
+satis-coloring-journal
 satisdom
 satisfying-ball-clicker
 satisfying-slime-simulator
