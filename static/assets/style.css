@@ -630,6 +630,7 @@ body.menu-open .drawer{transform:none;visibility:visible}
 /* the three picks of the day in one card: game of the day, our game, indie game of the week */
 .trio{display:grid;grid-template-columns:repeat(3,1fr);background:var(--card);border:1px solid var(--line);
   border-radius:22px;overflow:hidden;margin:26px 0 32px;box-shadow:0 10px 30px #00000026}
+.trio2{grid-template-columns:repeat(2,1fr)}
 .trio-item{display:flex;flex-direction:column;padding:16px}
 .trio-item+.trio-item{border-left:1px solid var(--line)}
 .trio-media{display:block;border-radius:14px;overflow:hidden;aspect-ratio:16/9;background:#0d0e1c}
@@ -657,6 +658,8 @@ body.menu-open .drawer{transform:none;visibility:visible}
 @media (max-width:860px){.trio-head{padding:16px 14px 14px}.trio-head h1{font-size:18px}.trio-head p{font-size:13px}}
 /* each pick gets its own label colour instead of the same dark pill */
 .trio-day .eyebrow,.trio-week .eyebrow,.trio-month .eyebrow{background:#0f766e}
+.trio-iday .eyebrow{background:#17b3d6}
+.trio-imonth .eyebrow{background:#ff9f1c}
 .foot-badge{margin:14px 0 10px;display:flex;justify-content:center;align-items:center;gap:14px;flex-wrap:wrap}
 .foot-badge img{height:40px;width:auto;border-radius:8px}
 :root[data-theme=light] .foot-badge img{border:1px solid #dfe3f0}
