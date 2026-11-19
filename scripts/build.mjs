@@ -626,7 +626,7 @@ function emitContent() {
     const o = ours.find(g => g.slug === cfg.heroGame) || ours[0];
     const feat = (kind, eyebrow, g, why, byHtml, eager = false) => { const d = String(why || '').replace(/\s+/g, ' ').trim();
       return `<article class="trio-item trio-${kind}">
-    <a class="trio-media" href="${gHref(g)}">${g.video ? `<video src="${esc(g.video)}" poster="${esc(g.cover || g.thumb)}" muted loop playsinline preload="none" data-hover-play></video>` : `<img src="${esc(small(g.cover || g.thumb))}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">`}</a>
+    <a class="trio-media" href="${gHref(g)}">${g.video ? `<video src="${esc(g.video)}" poster="${esc(g.cover || g.thumb)}" muted loop playsinline preload="none" data-trio-hover></video>` : `<img src="${esc(small(g.cover || g.thumb))}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">`}</a>
     <div class="trio-text">
       <p class="eyebrow">${eyebrow}</p>
       <h2><a href="${gHref(g)}">${esc(g.title)}</a></h2>
@@ -639,7 +639,7 @@ function emitContent() {
     const mfmt = ym => { try { const [y, m] = String(ym).split('-'); return new Date(Number(y), Number(m) - 1, 1).toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { month: 'long', year: 'numeric' }); } catch { return ym; } };
     const gotwCfg = readJSON(path.join(ROOT, 'data/game-of-week.json'), null);
     const gw = gotwCfg && all.find(g => g.slug === gotwCfg.slug);
-    const gotw = gw ? feat('week', `🏆 ${esc(tr('Indie Game of the Week'))}${gotwCfg.since ? ` <time datetime="${esc(gotwCfg.since)}">${esc(dfmt(gotwCfg.since))}</time>` : ''}`, gw, (LANG === 'en' && gotwCfg.why ? gotwCfg.why : gw.short), `${esc(tr('by'))} ${gw.studioUrl ? `<a href="${esc(gw.studioUrl)}" rel="noopener" target="_blank">${esc(gw.studio)}</a>` : esc(gw.studio)}`) : '';
+    const gotw = gw ? feat('iweek', `🏆 ${esc(tr('Indie Game of the Week'))}${gotwCfg.since ? ` <time datetime="${esc(gotwCfg.since)}">${esc(dfmt(gotwCfg.since))}</time>` : ''}`, gw, (LANG === 'en' && gotwCfg.why ? gotwCfg.why : gw.short), `${esc(tr('by'))} ${gw.studioUrl ? `<a href="${esc(gw.studioUrl)}" rel="noopener" target="_blank">${esc(gw.studio)}</a>` : esc(gw.studio)}`) : '';
     // Indie Game of the Day / Week / Month (community-submission badges). Marko 19.11.2026: this must
     // be its own clearly separate category/window on the homepage, not mixed in with the general
     // "Game of the day"/"Game of the Month" (those move to a secondary row below, see indieFeat below).
@@ -714,12 +714,12 @@ function emitContent() {
     ${duo('duo-friends', tr('Play online with friends'), [tr('2 player games'), cHref('two-player'), 'two-player'], [tr('Online multiplayer'), cHref('multiplayer'), 'multiplayer'])}
     ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), 'kids'], [tr('Casual games'), cHref('casual'), 'hypercasual'])}
   </div>`;
-    const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${roundedCount.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
+    const body = `<header class="welcome welcome-center"><h1>${esc(tr('The Top 10,000 Web Games, Ever.'))}</h1><p class="welcome-sub">${roundedCount.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
   ${bnOwn}
   <section class="trio">${ours.map((g, i) => feat('own', `⭐ ${esc(tr('Our game'))}`, g, LANG === 'en' ? (g.short || '') : (g.short || ''), `<a href="${ur('/our-games/')}">${esc(cfg.studio)}</a>`, i === 0)).join('')}</section>
   ${indieHead}
-  <section class="trio">${gotdIndie}${gotmIndie}</section>
-  ${(gotd || gotw || gotm) ? `<section class="trio trio2">${gotd}${gotw}${gotm}</section>` : ''}
+  <section class="trio">${gotdIndie}${gotw}${gotmIndie}</section>
+  ${(gotd || gotm) ? `<section class="trio trio2">${gotd}${gotm}</section>` : ''}
   ${bnTrend}
   ${grid(top('hot', 18), true)}
   ${bnPop}
@@ -1008,9 +1008,19 @@ const textPage = (slug, title, html, desc, jsonld = [], prio = 0.2) => {
   addUrl(`/${slug}/`, prio);
 };
 const today = new Date().toISOString().slice(0, 10);
-textPage('our-games', 'Our Games', `<p class="lead">Games made by ${esc(cfg.studio)}, the team behind ${esc(cfg.name)} and a real escape room studio from Novi Sad, Serbia. Free, no download, no sign-up.</p>
+textPage('our-games', 'Our Games', `<p class="lead">We are ${esc(cfg.studio)}, a game studio and real escape room company from Novi Sad, Serbia. Every game on this list is ours — built by our own team, free to play, with no download and no sign-up. We also run ${esc(cfg.name)}, where these games live alongside 10,000+ others from around the web.</p>
 <div class="grid">${ours.map(o => card(o)).join('')}</div>
-${ours.map(o => `<h2><a href="${u(`/games/${o.slug}/`)}">${esc(o.title)}</a></h2><p>${esc(o.short || '')}</p>`).join('')}`, `Free browser games made by ${cfg.studio}: ${ours.map(o => o.title).join(', ')}.`);
+<h2>About our games</h2>
+<p>All six games below are browser-native: they run at full speed in Chrome, Firefox, Safari and Edge on desktop, tablet and phone, with no app store, no install and no account. We build everything ourselves — artwork, code, music, mechanics — in-house in Novi Sad.</p>
+${ours.map(o => `<h3><a href="${u(`/games/${o.slug}/`)}">${esc(o.title)}</a></h3>
+<p>${esc(o.description || o.short || '')}</p>
+${o.instructions ? `<p><strong>How to play:</strong> ${esc(o.instructions)}</p>` : ''}
+<p><a class="btn" href="${u(`/games/${o.slug}/`)}">&#9654; Play ${esc(o.title)} free</a></p>`).join('\n')}
+<h2>Who is Door 404?</h2>
+<p>${esc(cfg.studio)} started as a live escape room studio in Novi Sad, Serbia. We designed physical puzzle rooms for years before we started making browser games. That background shows up in everything we build: our games reward curiosity, have clear mechanics and always tell you what just happened. <a href="https://www.escaperoom.co.rs/" rel="noopener" target="_blank">Visit our escape room site</a> if you want to see where we come from.</p>
+<p>We launched ${esc(cfg.name)} in October 2026 as a home for the best free web games — not just ours, but the greatest browser games ever made. The site has 10,000+ games, human-curated, with no clutter and no paywalls. Our own games sit alongside classics from Miniclip, Armor Games, Nitrome and hundreds of independent developers.</p>
+<h2>Play more free games</h2>
+<p>Not in the mood for one of ours? Browse the full catalogue on ${esc(cfg.name)} — 10,000+ free browser games, sorted by genre, popularity and what is trending today. No account, no download, plays instantly in your browser.</p>`, `Free browser games by ${cfg.studio} — the team behind ${cfg.name}: ${ours.map(o => o.title).join(', ')}. Play free, no download.`);
 
 {
   const badgeBlock = (file, w, h, label, slug, blurb) => {

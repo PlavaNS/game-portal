@@ -76,6 +76,16 @@
     if (!matchMedia('(prefers-reduced-motion: reduce)').matches && !(navigator.connection && navigator.connection.saveData)) io.observe(v);
   });
 
+  // trio featured cards: play video only on mouse hover, pause and reset on leave
+  if (matchMedia('(hover: hover)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches && !(navigator.connection && navigator.connection.saveData)) {
+    $$('video[data-trio-hover]').forEach(v => {
+      const a = v.closest('.trio-media');
+      if (!a) return;
+      a.addEventListener('mouseenter', () => { v.preload = 'auto'; v.play().catch(() => {}); });
+      a.addEventListener('mouseleave', () => { v.pause(); v.currentTime = 0; });
+    });
+  }
+
   // trailer plays on hover for cards that have one (our own games); off on touch, slow connections and reduced motion
   if (matchMedia('(hover: hover)').matches && !matchMedia('(prefers-reduced-motion: reduce)').matches && !(navigator.connection && navigator.connection.saveData)) {
     $$('.card[data-video]').forEach(c => {
