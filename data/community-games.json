@@ -708,5 +708,34 @@
     "embed": "https://www.swishes.io",
     "thumb": "https://ilovewebgames.com/assets/community/swishes-io.jpg?v=1",
     "orientation": "landscape"
+  },
+  {
+    "slug": "free-nassau",
+    "title": "Free Nassau",
+    "studio": "Ren",
+    "studioUrl": "https://piratedeck.org",
+    "added": "2026-11-19",
+    "short": "A pirate roguelike deck-builder set in 1717: fight ship to ship, then board your prize with a second deck.",
+    "description": "Free Nassau is a roguelike deck-builder set in the Golden Age of piracy, in 1717. You pick a real historical captain and sail across a chart of battles and ports, choosing your route node by node across three acts that end with Benjamin Hornigold. Each fight starts ship to ship with your Ship deck, firing broadsides and swivel guns, tacking hard and crowding sail while watching the enemy's next move. Once her hull is down to half, you can board and switch to a separate Boarding deck for the close fight. Cards cost energy, the interface is styled after period engravings, and a practice battle teaches the basics.",
+    "instructions": "Use the mouse, or tap on a phone. On the chart, pick your next destination. In a fight, tap a card to read it, press Play to use it, then press End Turn. Cards cost energy. Fight ship to ship first; when the enemy hull is at half or less, you can board and switch to the Boarding deck.",
+    "category": "adventure",
+    "extraCats": [],
+    "tags": [
+      "Card",
+      "Deck Builder",
+      "Roguelike",
+      "Strategy",
+      "Pirate",
+      "Turn-Based"
+    ],
+    "embed": "https://piratedeck.org/play",
+    "thumb": "https://piratedeck.org/img/og-title.jpg",
+    "orientation": "landscape",
+    "studioRating": {
+      "gameplay": 8,
+      "controls": 8,
+      "visuals": 8,
+      "note": "Two-deck naval-then-boarding combat gives real tactical choices, and the engraving style looks great; the practice fight explains it well."
+    }
   }
 ]
