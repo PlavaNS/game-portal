@@ -1985,6 +1985,7 @@ cargo-truck-simulator-2025
 cargo-truck-transport-game
 cargomatchmaster
 carhit-io
+carletto-dreams-adventure
 carletto-halloween-dreams
 carmania-io
 carnival-shooter
@@ -3611,6 +3612,7 @@ dunkchallenge
 dunkeon-dino
 dunkers-fight
 dunkin-beanz
+dunkit
 duo-adventures-legacy-of-traps
 duo-apple-monsters
 duo-bad-brothers
@@ -4408,6 +4410,7 @@ free-fall-game
 free-kick-challenge-2026
 free-racing-ayn
 freecell-classic
+freekick-clash
 freekick-hero
 freestyle-asmr-makeup-artist
 freight
@@ -4735,6 +4738,7 @@ giant-snowball-rush
 giant-wanted-monster
 giddy-birds
 gift-puzzle-saga
+gingerbread-town
 girl-beauty-salon
 girl-bike-accident-love
 girl-crush-escape
@@ -5008,6 +5012,7 @@ gunslayer
 gusano-io-worms-snake-game
 gym-boss
 gym-simulator-online-escape
+gym-simulator-pump-town
 gym-stack
 gymnastics-dress-up
 gyro-maze-3d
@@ -5307,6 +5312,7 @@ hide-and-seek-friends
 hide-and-seek-game
 hide-and-seek-horror-escape
 hide-and-seek-transform-props
+hide-and-snipe
 hide-find-seek-2023
 hide-from-school
 hide-heist
@@ -7120,6 +7126,7 @@ moon-clash-heroes
 moon-league-sports-season
 moon-potato-clicker
 moonshine-runners-samogonki
+moose-cafe
 mordecai-and-rigby-easter-holiday
 morph-racers
 morphit
@@ -7756,6 +7763,7 @@ office-horror-story
 offroad-4x4-driving-simulator
 offroad-4x4-heavy-drive
 offroad-4x4-jeep-game
+offroad-buggy-racing
 offroad-bus-simulator-games-3d
 offroad-car-race
 offroad-cargo-truck-2024
@@ -9435,6 +9443,7 @@ scary-math
 scary-maze-7
 scary-monsters-coloring
 scary-rooms-idle-horror
+scary-shawarma-kiosk-the-anomaly
 scary-vending-machine
 school-bus-3d-parking
 school-bus-driving-game
@@ -11055,6 +11064,7 @@ tap-to-color-painting-book
 tap-to-fish
 tapping-on-fruit
 tappy-tower
+tapshot-io
 tapsync-blocks
 tarantula-clicker
 tarcat
@@ -11440,6 +11450,8 @@ toy-cars
 toy-claw-simulator
 toy-factory
 toy-factory-conveyor
+toy-legion
+toy-ramps
 toy-rumble-3d
 toy-smash
 toy-soccer-cup
@@ -12092,6 +12104,7 @@ wizzard-adventure
 wobble-it
 wobble-man-online
 wobble-run
+wobble-wobble-workshop
 wobbly-boxing
 wolf-life-simulator
 wolf-simulator-3d
