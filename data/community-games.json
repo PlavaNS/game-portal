@@ -737,5 +737,175 @@
       "visuals": 8,
       "note": "Two-deck naval-then-boarding combat gives real tactical choices, and the engraving style looks great; the practice fight explains it well."
     }
+  },
+  {
+    "slug": "snowball-fight",
+    "title": "Snowball Fight",
+    "studio": "snowballfight.io",
+    "studioUrl": "https://snowballfight.io",
+    "added": "2026-11-19",
+    "short": "Real-time 3v3 winter brawl: push the lane, topple two towers, then the enemy Snow Fort.",
+    "description": "Snowball Fight is a real-time 3v3 team brawl set in the snow. You and your crew push down the lane, topple two towers and then break the enemy Snow Fort, all inside an eight-minute match. Bots fill any empty slots, so a game can start right away, with no download and no account needed.",
+    "instructions": "Best on a desktop browser with a window of at least 1200x650 pixels. Follow the on-screen prompts to join a match.",
+    "category": "action",
+    "extraCats": [
+      "multiplayer"
+    ],
+    "tags": [
+      "Multiplayer",
+      "3v3",
+      "Team",
+      "Winter",
+      "Snowball"
+    ],
+    "embed": "https://snowballfight.io",
+    "thumb": "https://ilovewebgames.com/assets/community/snowball-fight.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "yeet-guys",
+    "title": "Yeet Guys",
+    "studio": "dryeet.com",
+    "studioUrl": "https://dryeet.com",
+    "added": "2026-11-19",
+    "short": "Party obstacle-course races for bouncy beans: run official courses, host a party with friends or try community levels.",
+    "description": "Yeet Guys is a 3D party game where chunky beans race through big obstacle courses with little legs. Play the official carnival playlist, host a party and invite friends with a code, join public lobbies or try levels made by the community. Customise your bean in the wardrobe and climb the stats. The game is in beta.",
+    "instructions": "Choose Let's Fall to start an official course, or Host a Party and share the code with friends. Controls are shown in the game.",
+    "category": "action",
+    "extraCats": [
+      "multiplayer",
+      "3d"
+    ],
+    "tags": [
+      "Multiplayer",
+      "3D",
+      "Party",
+      "Obstacle Course",
+      "Beta"
+    ],
+    "embed": "https://dryeet.com/bean-carnival/",
+    "thumb": "https://ilovewebgames.com/assets/community/yeet-guys.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "banana-ops",
+    "title": "Banana Ops",
+    "studio": "staffcal.workers.dev",
+    "studioUrl": "https://banana-ops-7q3x.staffcal.workers.dev",
+    "added": "2026-11-19",
+    "short": "Online monkey shooter with team deathmatch, hardpoint, search and destroy and 1v1 duels on 11 maps.",
+    "description": "Banana Ops is a free online monkey shooter that runs in your browser. Play team deathmatch, hardpoint, search and destroy or 1v1 duels on 11 maps, earn killstreaks all the way up to the Banana Gunship, and rely on bots that fill every match. No download and no sign-up.",
+    "instructions": "Controls are shown in the game menu. Pick a mode and a map, then jump into a match.",
+    "category": "action",
+    "extraCats": [
+      "shooting",
+      "multiplayer"
+    ],
+    "tags": [
+      "Shooter",
+      "Multiplayer",
+      "FPS",
+      "Monkey",
+      "Bots"
+    ],
+    "embed": "https://banana-ops-7q3x.staffcal.workers.dev/",
+    "thumb": "https://ilovewebgames.com/assets/community/banana-ops.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "city-stakes",
+    "title": "City Stakes",
+    "studio": "citystakes.com",
+    "studioUrl": "https://www.citystakes.com",
+    "added": "2026-11-19",
+    "short": "A 3D story game set in the city of Ilmara, where companies compete for the skyline and brands for every screen.",
+    "description": "City Stakes is a narrative 3D game set in Ilmara, a city that is up for sale. Companies compete for the skyline while brands compete for every screen in it. The game loads straight in your browser and runs best on a desktop.",
+    "instructions": "Use the mouse or touch to follow the story prompts on screen.",
+    "category": "adventure",
+    "extraCats": [
+      "3d"
+    ],
+    "tags": [
+      "Story",
+      "3D",
+      "Adventure",
+      "City"
+    ],
+    "embed": "https://www.citystakes.com/play?city=bengaluru",
+    "thumb": "https://ilovewebgames.com/assets/community/city-stakes.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "lantern-links",
+    "title": "Lantern Links",
+    "studio": "WebGame.fun",
+    "studioUrl": "https://webgame.fun",
+    "added": "2026-11-19",
+    "short": "Turn pipe tiles to carry light from the core to every lantern in an original puzzle with endless levels.",
+    "description": "Lantern Links is an original pipe puzzle by WebGame.fun. Rotate tiles to carry light from the core to every lantern on the board. The levels are endless and get harder as you go, so it works for a quick break or a longer session.",
+    "instructions": "Click or tap a tile to rotate it. Connect the light from the core to every lantern.",
+    "category": "puzzle",
+    "extraCats": [
+      "casual",
+      "mobile"
+    ],
+    "tags": [
+      "Puzzle",
+      "Casual",
+      "Logic",
+      "Endless"
+    ],
+    "embed": "https://webgame.fun/game/lantern-links",
+    "thumb": "https://ilovewebgames.com/assets/community/lantern-links.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "crypt-crawlers",
+    "title": "Crypt Crawlers",
+    "studio": "cryptcrawlers.surge.sh",
+    "studioUrl": "https://cryptcrawlers.surge.sh",
+    "added": "2026-11-19",
+    "short": "Idle dungeon crawler: pick a hero, fight waves automatically and spend your gold on upgrades.",
+    "description": "Crypt Crawlers is an idle dungeon crawler in pixel art. Choose a hero such as Bram the Knight, level up through ranks, spin for rewards, collect daily bonuses and push for your best wave record. Your hero attacks automatically, and you cast skills and steer to survive.",
+    "instructions": "Move with your left thumb or the keys shown in the game. Attacks are automatic. Tap skills to cast them.",
+    "category": "clicker-idle",
+    "extraCats": [
+      "mobile"
+    ],
+    "tags": [
+      "Idle",
+      "Dungeon",
+      "Pixel Art",
+      "RPG",
+      "Roguelike"
+    ],
+    "embed": "https://cryptcrawlers.surge.sh",
+    "thumb": "https://ilovewebgames.com/assets/community/crypt-crawlers.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "vice-arcade",
+    "title": "Vice Arcade",
+    "studio": "Vice Arcade",
+    "studioUrl": "https://gta6minigames.com",
+    "added": "2026-11-19",
+    "short": "Fan-made neon arcade: survive 60 seconds of the Heat Run, swap drivers, grab cash and shake the cruisers.",
+    "description": "Vice Arcade is a fan-made browser arcade with a neon street-chase mini game. In the Vice City Heat Run you drive a street grid for sixty seconds, switch between two drivers, collect cash cases and escape a rising wanted level. The arcade also has highway and airboat drift games, a map guessing game and puzzle cabinets. It is an unofficial fan project and not affiliated with any game publisher.",
+    "instructions": "Arrow keys to drive, gas, brake and drift. R restarts, C swaps the driver, M mutes, F goes fullscreen. Touch controls appear on phones.",
+    "category": "arcade",
+    "extraCats": [
+      "racing",
+      "3d"
+    ],
+    "tags": [
+      "Arcade",
+      "Driving",
+      "Fan-made",
+      "Neon",
+      "Action"
+    ],
+    "embed": "https://gta6minigames.com/",
+    "thumb": "https://ilovewebgames.com/assets/community/vice-arcade.jpg?v=1",
+    "orientation": "landscape"
   }
 ]
