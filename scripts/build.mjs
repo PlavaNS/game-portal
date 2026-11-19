@@ -635,22 +635,24 @@ function emitContent() {
       <a class="btn" href="${gHref(g)}">\u25B6 ${esc(tr('Play now \u2014 free'))}</a>
     </div>
   </article>`; };
+    const dfmt = d => { try { return new Date(d).toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { day: 'numeric', month: 'long', year: 'numeric' }); } catch { return d; } };
+    const mfmt = ym => { try { const [y, m] = String(ym).split('-'); return new Date(Number(y), Number(m) - 1, 1).toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { month: 'long', year: 'numeric' }); } catch { return ym; } };
     const gotwCfg = readJSON(path.join(ROOT, 'data/game-of-week.json'), null);
     const gw = gotwCfg && all.find(g => g.slug === gotwCfg.slug);
-    const gotw = gw ? feat('week', `🏆 ${esc(tr('Indie Game of the Week'))}`, gw, (LANG === 'en' && gotwCfg.why ? gotwCfg.why : gw.short), `${esc(tr('by'))} ${gw.studioUrl ? `<a href="${esc(gw.studioUrl)}" rel="noopener" target="_blank">${esc(gw.studio)}</a>` : esc(gw.studio)}`) : '';
+    const gotw = gw ? feat('week', `🏆 ${esc(tr('Indie Game of the Week'))}${gotwCfg.since ? ` <time datetime="${esc(gotwCfg.since)}">${esc(dfmt(gotwCfg.since))}</time>` : ''}`, gw, (LANG === 'en' && gotwCfg.why ? gotwCfg.why : gw.short), `${esc(tr('by'))} ${gw.studioUrl ? `<a href="${esc(gw.studioUrl)}" rel="noopener" target="_blank">${esc(gw.studio)}</a>` : esc(gw.studio)}`) : '';
     // Indie Game of the Day / Week / Month (community-submission badges). Marko 19.11.2026: this must
     // be its own clearly separate category/window on the homepage, not mixed in with the general
     // "Game of the day"/"Game of the Month" (those move to a secondary row below, see indieFeat below).
-    const indieFeat = (kind, dataFile, eyebrow, eager = false) => {
+    const indieFeat = (kind, dataFile, eyebrow, eager = false, dateField = null, dateFn = dfmt) => {
       const c = readJSON(path.join(ROOT, `data/${dataFile}`), null);
       const g = c && all.find(x => x.slug === c.slug);
       if (!g) return '';
-      return feat(kind, eyebrow, g, (LANG === 'en' && c.why ? c.why : g.short), `${esc(tr('by'))} ${g.studioUrl ? `<a href="${esc(g.studioUrl)}" rel="noopener" target="_blank">${esc(g.studio)}</a>` : esc(g.studio)}`, eager);
+      const dateHtml = (dateField && c[dateField]) ? ` <time datetime="${esc(c[dateField])}">${esc(dateFn(c[dateField]))}</time>` : '';
+      return feat(kind, eyebrow + dateHtml, g, (LANG === 'en' && c.why ? c.why : g.short), `${esc(tr('by'))} ${g.studioUrl ? `<a href="${esc(g.studioUrl)}" rel="noopener" target="_blank">${esc(g.studio)}</a>` : esc(g.studio)}`, eager);
     };
-    const gotdIndie = indieFeat('iday', 'game-of-day-badge.json', `\u{1F3AF} ${esc(tr('Indie Game of the Day'))}`, true);
-    const gotmIndie = indieFeat('imonth', 'game-of-month.json', `\u{1F4C5} ${esc(tr('Indie Game of the Month'))}`);
+    const gotdIndie = indieFeat('iday', 'game-of-day-badge.json', `\u{1F3AF} ${esc(tr('Indie Game of the Day'))}`, true, 'date', dfmt);
+    const gotmIndie = indieFeat('imonth', 'game-of-month.json', `\u{1F4C5} ${esc(tr('Indie Game of the Month'))}`, false, 'month', mfmt);
     const indieHead = (gotdIndie || gotw || gotmIndie) ? `<p class="trio-kicker">\u{1F3AE} ${esc(tr('Indie Spotlight — submitted by independent developers'))}</p>` : '';
-    const dfmt = d => { try { return new Date(d).toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { day: 'numeric', month: 'short', year: 'numeric' }); } catch { return d; } };
     // Game of the day: a different one every day, worked out from the date so it needs no state
     // and never lands on the same game twice in a row through the list.
     let gotdImg = '';
@@ -713,15 +715,15 @@ function emitContent() {
     ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), 'kids'], [tr('Casual games'), cHref('casual'), 'hypercasual'])}
   </div>`;
     const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${roundedCount.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
+  ${bnOwn}
+  ${grid(ours)}
   ${indieHead}
   <section class="trio">${gotdIndie}${gotw}${gotmIndie}</section>
   ${(gotd || gotm) ? `<section class="trio trio2">${gotd}${gotm}</section>` : ''}
-  ${bnOwn}
-  ${grid(ours)}
   ${bnTrend}
   ${grid(top('hot', 18), true)}
   ${bnPop}
-  ${grid(mostPlayed(18))}
+  ${grid([...new Map([...ours, ...mostPlayed(18)].map(g => [g.slug, g])).values()].slice(0, 18))}
   ${bnNew}
   ${grid(newestOnSite(18))}
   ${(() => { const tr8 = all.filter(g => !g.own && isTopRated(g)).sort((a, b) => voteScore(b) - voteScore(a) || (VOTES[b.slug].up - VOTES[a.slug].up)).slice(0, 12); return tr8.length >= 6 ? row('👍 ' + tr('Top rated by players'), null, tr8) : ''; })()}
