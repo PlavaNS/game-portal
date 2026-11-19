@@ -715,8 +715,8 @@ function emitContent() {
     ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), 'kids'], [tr('Casual games'), cHref('casual'), 'hypercasual'])}
   </div>`;
     const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${roundedCount.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
-  ${bnOwn}
-  ${grid(ours)}
+  <p class="trio-kicker">\u{1F3AE} ${esc(tr('Our Games — made by'))} <a href="${ur('/our-games/')}">${esc(cfg.studio)}</a></p>
+  <section class="trio">${ours.map((g, i) => feat('own', `⭐ ${esc(tr('Our game'))}`, g, LANG === 'en' ? (g.short || '') : (g.short || ''), `<a href="${ur('/our-games/')}">${esc(cfg.studio)}</a>`, i === 0)).join('')}</section>
   ${indieHead}
   <section class="trio">${gotdIndie}${gotw}${gotmIndie}</section>
   ${(gotd || gotm) ? `<section class="trio trio2">${gotd}${gotm}</section>` : ''}
