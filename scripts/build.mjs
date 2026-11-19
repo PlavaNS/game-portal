@@ -718,8 +718,8 @@ function emitContent() {
   ${bnOwn}
   <section class="trio">${ours.map((g, i) => feat('own', `⭐ ${esc(tr('Our game'))}`, g, LANG === 'en' ? (g.short || '') : (g.short || ''), `<a href="${ur('/our-games/')}">${esc(cfg.studio)}</a>`, i === 0)).join('')}</section>
   ${indieHead}
-  <section class="trio">${gotdIndie}${gotw}${gotmIndie}</section>
-  ${(gotd || gotm) ? `<section class="trio trio2">${gotd}${gotm}</section>` : ''}
+  <section class="trio">${gotdIndie}${gotmIndie}</section>
+  ${(gotd || gotw || gotm) ? `<section class="trio trio2">${gotd}${gotw}${gotm}</section>` : ''}
   ${bnTrend}
   ${grid(top('hot', 18), true)}
   ${bnPop}
