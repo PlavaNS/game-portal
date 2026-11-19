@@ -295,11 +295,12 @@ const published = new Set(fs.existsSync(PUBLISHED_FILE)
 const wasPublished = g => { const s = slugify(g.title); return published.has(s) || published.has(`${s}-${g.srcId}`.slice(0, 80)); };
 // every filtered Playgama game stays; previously published games stay; other sources fill the rest up to maxGames
 {
-  const keep = g => g.source === 'pg' || g.source === 'gpx' || wasPublished(g);
+  // cfg.freezeFeeds (19.11.2026): catalogue is full (10,000+ imported games), no new feed games, only already published pages stay
+  const keep = g => cfg.freezeFeeds ? wasPublished(g) : (g.source === 'pg' || g.source === 'gpx' || wasPublished(g));
   const keptCount = games.filter(keep).length;
-  let room = Math.max(0, cfg.maxGames - keptCount);
+  let room = cfg.freezeFeeds ? 0 : Math.max(0, cfg.maxGames - keptCount);
   // the cap is already full of published pages, so always let the newest feed games in (a few dozen per daily build)
-  const fresh = new Set(games.filter(g => !keep(g) && Number.isFinite(g.r?.newest)).sort((x, y) => x.r.newest - y.r.newest).slice(0, cfg.newPerBuild || 30));
+  const fresh = new Set(cfg.freezeFeeds ? [] : games.filter(g => !keep(g) && Number.isFinite(g.r?.newest)).sort((x, y) => x.r.newest - y.r.newest).slice(0, cfg.newPerBuild || 30));
   games = games.filter(g => keep(g) || fresh.has(g) || room-- > 0);
 }
 
