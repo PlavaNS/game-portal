@@ -9,6 +9,17 @@
   const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
   const card = g => `<a class="card" href="${B}/games/${g.id}/"><img src="${esc(g.thumb)}" alt="${esc(g.title)}" width="512" height="384" loading="lazy"><span>${esc(g.title)}</span></a>`;
 
+  // cover images go through a resizing proxy (GameMonetize has no small size);
+  // if the proxy ever fails, fall back to the original cover so a card is never blank
+  addEventListener('error', e => {
+    const t = e.target;
+    if (!t || t.tagName !== 'IMG' || t.dataset.fb) return;
+    const m = /^https:\/\/wsrv\.nl\/\?url=([^&]+)/.exec(t.src || '');
+    if (!m) return;
+    t.dataset.fb = '1';
+    t.src = 'https://' + decodeURIComponent(m[1]);
+  }, true);
+
   // mobile menu
   const mb = $('[data-menu]'), drawer = $('.drawer'), dbg = $('.drawer-bg');
   const setMenu = o => { document.body.classList.toggle('menu-open', o); if (mb) mb.setAttribute('aria-expanded', o); if (drawer) drawer.hidden = !o; if (dbg) dbg.hidden = !o; };

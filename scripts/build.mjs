@@ -488,6 +488,7 @@ ${cfg.adsenseClient ? `<meta name="google-adsense-account" content="${esc(cfg.ad
 <meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="${ur('/favicon.svg')}" type="image/svg+xml">
 <link rel="manifest" href="${ur('/manifest.webmanifest')}">
+<link rel="preconnect" href="https://wsrv.nl" crossorigin>
 <link rel="preconnect" href="https://img.gamemonetize.com" crossorigin>
 <link rel="preconnect" href="https://static.playgama.com" crossorigin>
 <link rel="preconnect" href="https://img.gamepix.com" crossorigin>
@@ -561,8 +562,19 @@ const SMALL_SET = new Set();
 for (const d of ['community', 'our']) {
   try { for (const f of fs.readdirSync(path.join(ROOT, 'static/assets', d))) if (f.endsWith('-s.jpg')) SMALL_SET.add(`/assets/${d}/${f}`); } catch { }
 }
-const small = u => String(u || '').replace(/([?&])width=\d+/, '$1width=320').replace(/([?&])w=\d+/, '$1w=320')
-  .replace(/\/assets\/(community|our)\/([^/?]+)\.jpg/, (m, d, n) => SMALL_SET.has(`/assets/${d}/${n}-s.jpg`) ? `/assets/${d}/${n}-s.jpg` : m);
+// GameMonetize only serves 512x384 / 512x512 covers (~250 KB each) and has no size parameter,
+// so those go through a resizing image proxy; every other host gives us a small size directly.
+// app.js falls back to the original URL if the proxy ever fails. Set gmThumbProxy:false in
+// site.config.json to turn this off.
+const GM_HOST = /^https?:\/\/img\.gamemonetize\.com\//i;
+const GM_PROXY = cfg.gmThumbProxy !== false;
+const proxied = u => `https://wsrv.nl/?url=${encodeURIComponent(String(u).replace(/^https?:\/\//, ''))}&w=400&output=webp&q=72`;
+const small = u => {
+  const s = String(u || '');
+  if (GM_PROXY && GM_HOST.test(s)) return proxied(s);
+  return s.replace(/([?&])width=\d+/, '$1width=320').replace(/([?&])w=\d+/, '$1w=320')
+    .replace(/\/assets\/(community|our)\/([^/?]+)\.jpg/, (m, d, n) => SMALL_SET.has(`/assets/${d}/${n}-s.jpg`) ? `/assets/${d}/${n}-s.jpg` : m);
+};
 const card = (g, eager = false) => `<a class="card${g.own ? ' own' : ''}${g.video ? ' has-video' : ''}${g.community ? ' fit' : ''}${g.mobile ? '' : ' dm'}"${g.video ? ` data-video="${esc(g.video)}"` : ''} href="${gHref(g)}"${g.community ? ` style="--t:url('${esc(small(g.thumb))}')"` : ''}><img src="${esc(small(g.thumb))}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async"><span>${esc(g.title)}</span>${voteCount(g) >= 5 ? `<b class="rate-pill">👍 ${votePct(g)}%</b>` : ''}${g.own ? '<b class="badge">Our game</b>' : isHot(g) ? '<b class="badge hot">🔥 HOT</b>' : isTopRated(g) ? '<b class="badge top">👍 TOP RATED</b>' : isNew(g) ? '<b class="badge new">NEW</b>' : ''}</a>`;
 const grid = (list, eager = false) => list.length ? `<section class="row"><div class="grid">${list.map((g, i) => card(g, eager && i < 4)).join('')}</div></section>` : '';
 const row = (title, href, list, eager = false) => list.length ? `<section class="row"><div class="row-h"><h2>${esc(title)}</h2>${href ? `<a href="${href}">See all ›</a>` : ''}</div><div class="grid">${list.map((g, i) => card(g, eager && i < 4)).join('')}</div></section>` : '';
@@ -613,7 +625,7 @@ function emitContent() {
     const o = ours.find(g => g.slug === cfg.heroGame) || ours[0];
     const feat = (kind, eyebrow, g, why, byHtml, eager = false) => { const d = String(why || '').replace(/\s+/g, ' ').trim();
       return `<article class="trio-item trio-${kind}">
-    <a class="trio-media" href="${gHref(g)}">${g.video ? `<video src="${esc(g.video)}" poster="${esc(g.cover || g.thumb)}" muted loop playsinline preload="none" data-hover-play></video>` : `<img src="${esc(g.cover || g.thumb)}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">`}</a>
+    <a class="trio-media" href="${gHref(g)}">${g.video ? `<video src="${esc(g.video)}" poster="${esc(g.cover || g.thumb)}" muted loop playsinline preload="none" data-hover-play></video>` : `<img src="${esc(small(g.cover || g.thumb))}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">`}</a>
     <div class="trio-text">
       <p class="eyebrow">${eyebrow}</p>
       <h2><a href="${gHref(g)}">${esc(g.title)}</a></h2>
@@ -945,7 +957,7 @@ function emitContent() {
     // keep it for players, but noindex it and leave it out of the sitemap until its guide exists, so Google only sees our own pages
     const thin = !g.own && !g.community && !GD;
     write(`games/${g.slug}/index.html`, layout({
-      title: pageTitle, desc, canonical: pageUrl, body, bodyClass: 'game-page', preload: g.thumb, noindex: thin,
+      title: pageTitle, desc, canonical: pageUrl, body, bodyClass: 'game-page', preload: small(g.thumb), noindex: thin,
       altPath: `/games/${g.slug}/`, altLangs: langsFor(g).map(l => l.code),
       ogImage: g.thumb.startsWith('http') ? g.thumb : abs(g.thumb.slice(B.length)),
       jsonld: [ld, crumbs([['Home', abs('/')], [main.h1, abs(`/c/${main.slug}/`)], [g.title, pageUrl]])],
