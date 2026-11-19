@@ -9706,6 +9706,7 @@ sky-ramp-fury-mega-ramp-car-stunts
 sky-roller
 sky-rolling-balls
 sky-rush
+sky-rush-traffic-puzzle
 sky-slash-ninja-rise
 sky-stunt-races
 sky-stunts-rolling-ball-3d
@@ -10890,6 +10891,7 @@ survive-zombie-arena
 survivor-io-battle
 survivor-rainbow-monster
 survivor-war-island-game
+survivors-vs-zombies
 sushi-bros
 sushi-chef
 sushiboom
