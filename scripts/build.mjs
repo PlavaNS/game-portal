@@ -652,7 +652,7 @@ function emitContent() {
     };
     const gotdIndie = indieFeat('iday', 'game-of-day-badge.json', `\u{1F3AF} ${esc(tr('Indie Game of the Day'))}`, true, 'date', dfmt);
     const gotmIndie = indieFeat('imonth', 'game-of-month.json', `\u{1F4C5} ${esc(tr('Indie Game of the Month'))}`, false, 'month', mfmt);
-    const indieHead = (gotdIndie || gotw || gotmIndie) ? `<p class="trio-kicker">\u{1F3AE} ${esc(tr('Indie Spotlight — submitted by independent developers'))}</p>` : '';
+    const indieHead = (gotdIndie || gotw || gotmIndie) ? `<div class="trio-head"><h1>\u{1F3AE} ${esc(tr('Indie Spotlight'))}</h1><p>${esc(tr('submitted by independent developers'))}</p></div>` : '';
     // Game of the day: a different one every day, worked out from the date so it needs no state
     // and never lands on the same game twice in a row through the list.
     let gotdImg = '';
@@ -688,6 +688,7 @@ function emitContent() {
       let label = mon; try { label = now.toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { month: 'long', year: 'numeric' }); } catch {}
       return feat('month', `\u{1F4C5} ${esc(tr('Game of the Month'))} <time datetime="${mon}">${esc(label)}</time>`, g, d, '');
     })();
+    const featHead = (gotd || gotm) ? `<div class="trio-head"><h1>\u{1F3C6} ${esc(tr('Featured'))}</h1><p>${esc(tr('Game of the Day &amp; Month'))}</p></div>` : '';
     const catTiles = `<section class="row"><div class="row-h"><h2>${esc(tr('Categories'))}</h2></div><div class="cats">${activeCats.filter(c => catOK(c.slug)).map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
     // section heading: a plain coloured bar with the title in the middle, nothing else in it
     const banner = (cls, href, title, sub) => { const art = `${B}/assets/sec/${cls.replace('bn-', '')}.svg`;
@@ -717,9 +718,8 @@ function emitContent() {
     const body = `<header class="welcome welcome-center"><h1>${esc(tr('The Top 10,000 Web Games, Ever.'))}</h1><p class="welcome-sub">${roundedCount.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
   ${bnOwn}
   <section class="trio">${ours.map((g, i) => feat('own', `⭐ ${esc(tr('Our game'))}`, g, LANG === 'en' ? (g.short || '') : (g.short || ''), `<a href="${ur('/our-games/')}">${esc(cfg.studio)}</a>`, i === 0)).join('')}</section>
-  ${indieHead}
-  <section class="trio">${gotdIndie}${gotw}${gotmIndie}</section>
-  ${(gotd || gotm) ? `<section class="trio trio2">${gotd}${gotm}</section>` : ''}
+  <section class="trio">${indieHead}${gotdIndie}${gotw}${gotmIndie}</section>
+  ${(gotd || gotm) ? `<section class="trio trio2">${featHead}${gotd}${gotm}</section>` : ''}
   ${bnTrend}
   ${grid(top('hot', 18), true)}
   ${bnPop}
