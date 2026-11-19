@@ -28,6 +28,8 @@ jobs:
         run: node scripts/fetch-feeds.mjs
         env:
           GD_FEED_URL: ${{ secrets.GD_FEED_URL }}
+      - name: Rotate Indie Game of the Week/Day/Month/Year badges
+        run: node scripts/rotate-indie-badges.mjs
       - name: Build site
         run: node scripts/build.mjs
         env:
@@ -38,7 +40,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/published.txt data/first-seen.json
+          git add data/published.txt data/first-seen.json data/game-of-week.json data/game-of-week-history.json data/game-of-month.json data/game-of-month-history.json data/game-of-day-badge.json data/game-of-day-history.json data/game-of-year.json data/indie-badge-notifications.json
           if ! git diff --cached --quiet; then
             git commit -m "Update published game list [skip ci]"
             git pull --rebase -X theirs origin main || true

@@ -997,24 +997,30 @@ textPage('our-games', 'Our Games', `<p class="lead">Games made by ${esc(cfg.stud
 ${ours.map(o => `<h2><a href="${u(`/games/${o.slug}/`)}">${esc(o.title)}</a></h2><p>${esc(o.short || '')}</p>`).join('')}`, `Free browser games made by ${cfg.studio}: ${ours.map(o => o.title).join(', ')}.`);
 
 {
+  const badgeBlock = (file, w, h, label, slug, blurb) => {
+    if (!slug || !all.find(x => x.slug === slug)) return '';
+    return `<h2>${esc(label)} badge</h2>
+<p>${blurb}</p>
+<p class="bdg-prev"><img src="${B}/assets/${file}.svg" alt="${esc(label)} on ${esc(cfg.name)}" width="${w}" height="${h}"></p>
+<pre class="bdg-code"><code>&lt;a href="${abs('/')}" target="_blank" rel="noopener"&gt;&lt;img src="${abs(`/assets/${file}.svg`)}" alt="${esc(label)} on ${esc(cfg.name)}" width="${w}" height="${h}"&gt;&lt;/a&gt;</code></pre>
+`;
+  };
+  const gotwCfg2 = readJSON(path.join(ROOT, 'data/game-of-week.json'), null);
+  const gotdCfg = readJSON(path.join(ROOT, 'data/game-of-day-badge.json'), null);
   const gotmCfg = readJSON(path.join(ROOT, 'data/game-of-month.json'), null);
-  const gotmGame = gotmCfg && all.find(g => g.slug === gotmCfg.slug);
-  const monthSection = gotmGame ? `<h2>Indie Game of the Month badge</h2>
-<p>Only for the one game we pick each month out of that month's Indie Game of the Week winners. If that is yours, you earned it.</p>
-<p class="bdg-prev"><img src="${B}/assets/game-of-the-month-badge.svg" alt="Indie Game of the Month on ${esc(cfg.name)}" width="260" height="56"></p>
-<pre class="bdg-code"><code>&lt;a href="${abs('/')}" target="_blank" rel="noopener"&gt;&lt;img src="${abs('/assets/game-of-the-month-badge.svg')}" alt="Indie Game of the Month on ${esc(cfg.name)}" width="260" height="56"&gt;&lt;/a&gt;</code></pre>
-` : '';
+  const gotyAll = readJSON(path.join(ROOT, 'data/game-of-year.json'), {});
+  const gotyCfg = gotyAll[String(new Date().getFullYear())];
+  const weekSection = badgeBlock('game-of-the-week-badge', 250, 56, 'Indie Game of the Week', gotwCfg2 && gotwCfg2.slug, 'Only for games we picked as Indie Game of the Week. If that is yours, you earned it.');
+  const daySection = badgeBlock('game-of-the-day-badge', 240, 56, 'Indie Game of the Day', gotdCfg && gotdCfg.slug, 'A different submitted game gets this every day, picked automatically. If it is yours today, grab it while it is fresh.');
+  const monthSection = badgeBlock('game-of-the-month-badge', 260, 56, 'Indie Game of the Month', gotmCfg && gotmCfg.slug, "Only for the one game we pick each month out of that month's Indie Game of the Week winners. If that is yours, you earned it.");
+  const yearSection = badgeBlock('game-of-the-year-badge', 260, 56, 'Indie Game of the Year', gotyCfg && gotyCfg.slug, 'Picked once a year from that year’s Indie Game of the Month winners. The one, if there is one.');
   textPage('badge', 'Badges for developers', `<p class="lead">Your game is on ${esc(cfg.name)}. If you want to show it on your own site, here are badges you can use. They are free, you do not have to ask, and there is nothing to install.</p>
 <p>Copy the code, paste it in your footer or on your press page, and it links back to your game page here.</p>
 <h2>Featured badge</h2>
 <p class="bdg-prev"><img src="${B}/assets/featured-badge.svg" alt="Play it on ${esc(cfg.name)}" width="230" height="56"></p>
 <pre class="bdg-code"><code>&lt;a href="${abs('/')}" target="_blank" rel="noopener"&gt;&lt;img src="${abs('/assets/featured-badge.svg')}" alt="Play it on ${esc(cfg.name)}" width="230" height="56"&gt;&lt;/a&gt;</code></pre>
 <p class="muted">Swap the link for your own game page here if you prefer, for example <code>${abs('/games/your-game/')}</code>.</p>
-<h2>Indie Game of the Week badge</h2>
-<p>Only for games we picked as Indie Game of the Week. If that is yours, you earned it.</p>
-<p class="bdg-prev"><img src="${B}/assets/game-of-the-week-badge.svg" alt="Indie Game of the Week on ${esc(cfg.name)}" width="250" height="56"></p>
-<pre class="bdg-code"><code>&lt;a href="${abs('/')}" target="_blank" rel="noopener"&gt;&lt;img src="${abs('/assets/game-of-the-week-badge.svg')}" alt="Indie Game of the Week on ${esc(cfg.name)}" width="250" height="56"&gt;&lt;/a&gt;</code></pre>
-${monthSection}<h2>Not on the site yet?</h2>
+${weekSection}${daySection}${monthSection}${yearSection}<h2>Not on the site yet?</h2>
 <p><a href="${ur('/submit-game/')}">Send us your game</a>. It is free and non-exclusive, a real person plays every submission, and accepted games get their own page with credit and a link back to you.</p>`, `Free badges for developers whose games are on ${cfg.name}: copy the code and link back from your own site.`);
 }
 
