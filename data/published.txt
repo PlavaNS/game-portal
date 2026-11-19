@@ -1448,6 +1448,7 @@ breachfall
 break-a-lucky-block
 break-a-lucky-egg-brainrots
 break-a-tower-obby
+break-and-steal-an-egg
 break-and-steal-eggs
 break-stick-completely
 break-the-candy
@@ -12028,6 +12029,7 @@ weight-balance-journey
 weight-gain-diet-cooking-recipe
 weight-puzzle-3d
 weird-pet-shop
+wellies-survivors-butthurt-edition
 wendigo-the-evil-that-devours
 west-frontier-sharpshooter-3d
 western-fight
