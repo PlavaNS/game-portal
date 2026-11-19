@@ -741,8 +741,8 @@
   {
     "slug": "snowball-fight",
     "title": "Snowball Fight",
-    "studio": "snowballfight.io",
-    "studioUrl": "https://snowballfight.io",
+    "studio": "Swiftmade OÜ",
+    "studioUrl": "https://swiftmade.co",
     "added": "2026-11-19",
     "short": "Real-time 3v3 winter brawl: push the lane, topple two towers, then the enemy Snow Fort.",
     "description": "Snowball Fight is a real-time 3v3 team brawl set in the snow. You and your crew push down the lane, topple two towers and then break the enemy Snow Fort, all inside an eight-minute match. Bots fill any empty slots, so a game can start right away, with no download and no account needed.",
@@ -765,7 +765,7 @@
   {
     "slug": "yeet-guys",
     "title": "Yeet Guys",
-    "studio": "dryeet.com",
+    "studio": "Dr. Yeet Games",
     "studioUrl": "https://dryeet.com",
     "added": "2026-11-19",
     "short": "Party obstacle-course races for bouncy beans: run official courses, host a party with friends or try community levels.",
@@ -790,8 +790,8 @@
   {
     "slug": "banana-ops",
     "title": "Banana Ops",
-    "studio": "staffcal.workers.dev",
-    "studioUrl": "https://banana-ops-7q3x.staffcal.workers.dev",
+    "studio": "Dr. Yeet Games",
+    "studioUrl": "https://dryeet.com",
     "added": "2026-11-19",
     "short": "Online monkey shooter with team deathmatch, hardpoint, search and destroy and 1v1 duels on 11 maps.",
     "description": "Banana Ops is a free online monkey shooter that runs in your browser. Play team deathmatch, hardpoint, search and destroy or 1v1 duels on 11 maps, earn killstreaks all the way up to the Banana Gunship, and rely on bots that fill every match. No download and no sign-up.",
@@ -815,7 +815,7 @@
   {
     "slug": "city-stakes",
     "title": "City Stakes",
-    "studio": "citystakes.com",
+    "studio": "Aier Labs",
     "studioUrl": "https://www.citystakes.com",
     "added": "2026-11-19",
     "short": "A 3D story game set in the city of Ilmara, where companies compete for the skyline and brands for every screen.",
@@ -838,7 +838,7 @@
   {
     "slug": "lantern-links",
     "title": "Lantern Links",
-    "studio": "WebGame.fun",
+    "studio": "Shahriar Saeik (Swapnil), WebGame.fun",
     "studioUrl": "https://webgame.fun",
     "added": "2026-11-19",
     "short": "Turn pipe tiles to carry light from the core to every lantern in an original puzzle with endless levels.",
@@ -862,7 +862,7 @@
   {
     "slug": "crypt-crawlers",
     "title": "Crypt Crawlers",
-    "studio": "cryptcrawlers.surge.sh",
+    "studio": "Crypt Crawlers",
     "studioUrl": "https://cryptcrawlers.surge.sh",
     "added": "2026-11-19",
     "short": "Idle dungeon crawler: pick a hero, fight waves automatically and spend your gold on upgrades.",
@@ -886,7 +886,7 @@
   {
     "slug": "vice-arcade",
     "title": "Vice Arcade",
-    "studio": "Vice Arcade",
+    "studio": "River",
     "studioUrl": "https://gta6minigames.com",
     "added": "2026-11-19",
     "short": "Fan-made neon arcade: survive 60 seconds of the Heat Run, swap drivers, grab cash and shake the cruisers.",
