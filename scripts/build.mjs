@@ -637,10 +637,11 @@ function emitContent() {
   </article>`; };
     const dfmt = d => { try { return new Date(d).toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { day: 'numeric', month: 'long', year: 'numeric' }); } catch { return d; } };
     const mfmt = ym => { try { const [y, m] = String(ym).split('-'); return new Date(Number(y), Number(m) - 1, 1).toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { month: 'long', year: 'numeric' }); } catch { return ym; } };
+    const wfmt = d => { try { const dt = new Date(d); const week = Math.ceil(dt.getDate() / 7); const mon = dt.toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { month: 'long', year: 'numeric' }); return `Week ${week} of ${mon}`; } catch { return d; } };
     const gotwCfg = readJSON(path.join(ROOT, 'data/game-of-week.json'), null);
     const gw = gotwCfg && all.find(g => g.slug === gotwCfg.slug);
-    const gotw = gw ? feat('iweek', `🏆 ${esc(tr('Indie Game of the Week'))}${gotwCfg.since ? ` <time datetime="${esc(gotwCfg.since)}">${esc(dfmt(gotwCfg.since))}</time>` : ''}`, gw, (LANG === 'en' && gotwCfg.why ? gotwCfg.why : gw.short), `${esc(tr('by'))} ${gw.studioUrl ? `<a href="${esc(gw.studioUrl)}" rel="noopener" target="_blank">${esc(gw.studio)}</a>` : esc(gw.studio)}`) : '';
-    const gotwFeat = gw ? feat('week', `🏆 ${esc(tr('Game of the Week'))}${gotwCfg.since ? ` <time datetime="${esc(gotwCfg.since)}">${esc(dfmt(gotwCfg.since))}</time>` : ''}`, gw, (LANG === 'en' && gotwCfg.why ? gotwCfg.why : gw.short), `${esc(tr('by'))} ${gw.studioUrl ? `<a href="${esc(gw.studioUrl)}" rel="noopener" target="_blank">${esc(gw.studio)}</a>` : esc(gw.studio)}`) : '';
+    const gotw = gw ? feat('iweek', `🏆 ${esc(tr('Indie Game of the Week'))}${gotwCfg.since ? ` <time datetime="${esc(gotwCfg.since)}">${esc(wfmt(gotwCfg.since))}</time>` : ''}`, gw, (LANG === 'en' && gotwCfg.why ? gotwCfg.why : gw.short), `${esc(tr('by'))} ${gw.studioUrl ? `<a href="${esc(gw.studioUrl)}" rel="noopener" target="_blank">${esc(gw.studio)}</a>` : esc(gw.studio)}`) : '';
+    const gotwFeat = gw ? feat('week', `🏆 ${esc(tr('Game of the Week'))}${gotwCfg.since ? ` <time datetime="${esc(gotwCfg.since)}">${esc(wfmt(gotwCfg.since))}</time>` : ''}`, gw, (LANG === 'en' && gotwCfg.why ? gotwCfg.why : gw.short), `${esc(tr('by'))} ${gw.studioUrl ? `<a href="${esc(gw.studioUrl)}" rel="noopener" target="_blank">${esc(gw.studio)}</a>` : esc(gw.studio)}`) : '';
     // Indie Game of the Day / Week / Month (community-submission badges). Marko 19.11.2026: this must
     // be its own clearly separate category/window on the homepage, not mixed in with the general
     // "Game of the day"/"Game of the Month" (those move to a secondary row below, see indieFeat below).
@@ -689,7 +690,7 @@ function emitContent() {
       let label = mon; try { label = now.toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { month: 'long', year: 'numeric' }); } catch {}
       return feat('month', `\u{1F4C5} ${esc(tr('Game of the Month'))} <time datetime="${mon}">${esc(label)}</time>`, g, d, '');
     })();
-    const featHead = (gotd || gotwFeat || gotm) ? `<div class="trio-head"><h1>\u{1F3C6} ${esc(tr('Featured'))}</h1><p>${esc(tr('Game of the Day, Week &amp; Month'))}</p></div>` : '';
+    const featHead = (gotd || gotwFeat || gotm) ? `<div class="trio-head"><h1>\u{1F3C6} ${esc(tr('Featured'))}</h1><p>${esc(tr('Game of the Day, Week & Month'))}</p></div>` : '';
     const catTiles = `<section class="row"><div class="row-h"><h2>${esc(tr('Categories'))}</h2></div><div class="cats">${activeCats.filter(c => catOK(c.slug)).map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
     // section heading: a plain coloured bar with the title in the middle, nothing else in it
     const banner = (cls, href, title, sub) => { const art = `${B}/assets/sec/${cls.replace('bn-', '')}.svg`;
