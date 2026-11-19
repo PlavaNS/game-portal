@@ -167,8 +167,8 @@ body.noscroll{overflow:hidden}
 .foot-topics{max-width:900px;margin:10px auto;font-size:13px;line-height:1.9}
 .page-h p+p{margin-top:-8px}
 
-.dev-cta{margin:.4rem 0 0;font-size:.95rem;opacity:.9}.dev-cta a{font-weight:700}
-.foot-langs{margin:.4rem 0 .2rem;font-size:.9rem;opacity:.85}
+.dev-cta{margin:.4rem 0 0;font-size:.95rem}.dev-cta a{font-weight:700}
+.foot-langs{margin:.4rem 0 .2rem;font-size:.9rem}
 .foot-langs a{text-decoration:none}
 .foot-langs a:hover{text-decoration:underline}
 .topic-guide{margin:28px 0 8px}
@@ -260,7 +260,7 @@ table.cmp tbody th{white-space:nowrap}
 :root[data-theme=light] .theme-btn .t-dark{display:none}
 /* light mode */
 :root[data-theme=light]{--bg:#f6f7fc;--bg2:#ffffff;--card:#e9ebf6;--line:#d8dbec;--text:#16182e;--muted:#5b6080;--topbg:#f6f7fcee;color-scheme:light}
-:root[data-theme=light] .text a,:root[data-theme=light] .about a,:root[data-theme=light] .consent a{color:#d81b4f}
+:root[data-theme=light] .text a,:root[data-theme=light] .about a,:root[data-theme=light] .consent a{color:#b81446}
 :root[data-theme=light] .about p{color:#33365a}
 :root[data-theme=light] .card:hover,:root[data-theme=light] .card:focus-visible{box-shadow:0 10px 26px #1a1d4033}
 :root[data-theme=light] .indie-badge{color:#9a6a00}
@@ -268,7 +268,7 @@ table.cmp tbody th{white-space:nowrap}
 :root[data-theme=light] .sg-net{background:#fff}
 :root[data-theme=light] .consent{box-shadow:0 10px 40px #1a1d4033}
 :root[data-theme=light] .hero,:root[data-theme=light] .gotw,:root[data-theme=light] .stage,:root[data-theme=light] .overlay{color:#eef0ff}
-:root[data-theme=light] .welcome h1 span{color:#c47f00}
+:root[data-theme=light] .welcome h1 span{color:#945c00}
 .badge.new{left:auto;right:-26px;top:9px;transform:rotate(45deg);width:90px;text-align:center;padding:3px 0;background:linear-gradient(135deg,#ff8a00,#ff3d6e);color:#fff;font-size:10px;letter-spacing:.08em;box-shadow:0 2px 8px #0006;border-radius:0}
 
 /* === wider, airier layout (desktop) === */
@@ -395,10 +395,10 @@ main{max-width:1500px;margin:0 auto}
 :root[data-theme=light] .feat:hover{box-shadow:0 14px 34px #1a1d4022}
 :root[data-theme=light] .feat-own{background:linear-gradient(160deg,#ffe9f0,#fff 60%)}
 :root[data-theme=light] .feat-week{background:linear-gradient(160deg,#fff6de,#fff 60%)}
-:root[data-theme=light] .feat-own .eyebrow{color:#d81b4f}
+:root[data-theme=light] .feat-own .eyebrow{color:#b81446}
 :root[data-theme=light] .feat-week .eyebrow{color:#a06b00}
 :root[data-theme=light] .feat-week .feat-by a{color:#a06b00}
-:root[data-theme=light] .news-tag{background:#0f9b6c;color:#fff}
+:root[data-theme=light] .news-tag{background:#0b7a54;color:#fff}
 
 /* more air between the blocks */
 .row{margin-bottom:40px}
