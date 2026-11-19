@@ -656,6 +656,9 @@ body.menu-open .drawer{transform:none;visibility:visible}
 .trio-head h1{font-size:23px}
 .trio-head p{font-size:14px}
 @media (max-width:860px){.trio-head{padding:16px 14px 14px}.trio-head h1{font-size:18px}.trio-head p{font-size:13px}}
+/* "Indie Spotlight" kicker label above the Indie Day/Week/Month trio: makes it read as its own category */
+.trio-kicker{margin:0 0 10px;font-size:12.5px;font-weight:800;letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+@media (max-width:860px){.trio-kicker{margin:0 0 8px}}
 /* each pick gets its own label colour instead of the same dark pill */
 .trio-day .eyebrow,.trio-week .eyebrow,.trio-month .eyebrow{background:#0f766e}
 .trio-iday .eyebrow{background:#17b3d6}

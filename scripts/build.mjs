@@ -638,17 +638,18 @@ function emitContent() {
     const gotwCfg = readJSON(path.join(ROOT, 'data/game-of-week.json'), null);
     const gw = gotwCfg && all.find(g => g.slug === gotwCfg.slug);
     const gotw = gw ? feat('week', `🏆 ${esc(tr('Indie Game of the Week'))}`, gw, (LANG === 'en' && gotwCfg.why ? gotwCfg.why : gw.short), `${esc(tr('by'))} ${gw.studioUrl ? `<a href="${esc(gw.studioUrl)}" rel="noopener" target="_blank">${esc(gw.studio)}</a>` : esc(gw.studio)}`) : '';
-    // Indie Game of the Day / Month (community-submission badges, Marko 19.11.2026 — wants them on the
-    // homepage too, next to the Week). Separate from the general "Game of the day"/"Game of the Month" below.
-    const indieFeat = (kind, dataFile, eyebrow) => {
+    // Indie Game of the Day / Week / Month (community-submission badges). Marko 19.11.2026: this must
+    // be its own clearly separate category/window on the homepage, not mixed in with the general
+    // "Game of the day"/"Game of the Month" (those move to a secondary row below, see indieFeat below).
+    const indieFeat = (kind, dataFile, eyebrow, eager = false) => {
       const c = readJSON(path.join(ROOT, `data/${dataFile}`), null);
       const g = c && all.find(x => x.slug === c.slug);
       if (!g) return '';
-      return feat(kind, eyebrow, g, (LANG === 'en' && c.why ? c.why : g.short), `${esc(tr('by'))} ${g.studioUrl ? `<a href="${esc(g.studioUrl)}" rel="noopener" target="_blank">${esc(g.studio)}</a>` : esc(g.studio)}`);
+      return feat(kind, eyebrow, g, (LANG === 'en' && c.why ? c.why : g.short), `${esc(tr('by'))} ${g.studioUrl ? `<a href="${esc(g.studioUrl)}" rel="noopener" target="_blank">${esc(g.studio)}</a>` : esc(g.studio)}`, eager);
     };
-    const gotdIndie = indieFeat('iday', 'game-of-day-badge.json', `\u{1F3AF} ${esc(tr('Indie Game of the Day'))}`);
-    const gotmIndie = indieFeat('imonth', 'game-of-month.json', `\u{1F3C6} ${esc(tr('Indie Game of the Month'))}`);
-    const indieRow = (gotdIndie || gotmIndie) ? `<section class="trio trio2">${gotdIndie}${gotmIndie}</section>` : '';
+    const gotdIndie = indieFeat('iday', 'game-of-day-badge.json', `\u{1F3AF} ${esc(tr('Indie Game of the Day'))}`, true);
+    const gotmIndie = indieFeat('imonth', 'game-of-month.json', `\u{1F4C5} ${esc(tr('Indie Game of the Month'))}`);
+    const indieHead = (gotdIndie || gotw || gotmIndie) ? `<p class="trio-kicker">\u{1F3AE} ${esc(tr('Indie Spotlight — submitted by independent developers'))}</p>` : '';
     const dfmt = d => { try { return new Date(d).toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { day: 'numeric', month: 'short', year: 'numeric' }); } catch { return d; } };
     // Game of the day: a different one every day, worked out from the date so it needs no state
     // and never lands on the same game twice in a row through the list.
@@ -670,7 +671,7 @@ function emitContent() {
       gotdSlug = g.slug;
       const d = (g.short || g.description || '').replace(/\s+/g, ' ').trim();
       const day = new Date().toISOString().slice(0, 10);
-      return feat('day', `\u{1F3AF} ${esc(tr('Game of the day'))} <time datetime="${day}">${esc(dfmt(day))}</time>`, g, d, '', true);
+      return feat('day', `\u{1F3AF} ${esc(tr('Game of the day'))} <time datetime="${day}">${esc(dfmt(day))}</time>`, g, d, '');
     })();
     // Game of the month: the most played game here this month, with the best rated of those first
     const gotm = (() => {
@@ -711,10 +712,10 @@ function emitContent() {
     ${duo('duo-friends', tr('Play online with friends'), [tr('2 player games'), cHref('two-player'), 'two-player'], [tr('Online multiplayer'), cHref('multiplayer'), 'multiplayer'])}
     ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), 'kids'], [tr('Casual games'), cHref('casual'), 'hypercasual'])}
   </div>`;
-    const body = `<section class="trio">
-  <header class="welcome trio-head"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${roundedCount.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
-  ${gotd}${gotw}${gotm}</section>
-  ${indieRow}
+    const body = `<header class="welcome"><h1>${esc(cfg.name)} <span>— ${esc(tr(cfg.slogan))}</span></h1><p>${roundedCount.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
+  ${indieHead}
+  <section class="trio">${gotdIndie}${gotw}${gotmIndie}</section>
+  ${(gotd || gotm) ? `<section class="trio trio2">${gotd}${gotm}</section>` : ''}
   ${bnOwn}
   ${grid(ours)}
   ${bnTrend}
