@@ -678,3 +678,17 @@ body.menu-open .drawer{transform:none;visibility:visible}
 .foot-studio{margin:16px 0 8px;display:flex;justify-content:center}
 .foot-studio img{height:56px;width:160px}
 .bn-own .bn-art.l{transform:translateY(-50%)}
+/* /indie-games/ page */
+.il-month{margin:28px 0 10px;font-size:18px;border-bottom:1px solid var(--line);padding-bottom:8px}
+.il-month small{font-size:14px;font-weight:400;color:var(--muted)}
+.il-table{width:100%;border-collapse:collapse;margin-bottom:8px}
+.il-table td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
+.il-date{color:var(--muted);font-size:12px;white-space:nowrap;width:90px}
+.il-thumb{width:90px}.il-thumb img{border-radius:8px;width:80px;height:60px;object-fit:cover;display:block}
+.il-title{font-weight:700;text-decoration:none;color:var(--text);font-size:15px}
+.il-title:hover{color:var(--accent)}
+.il-by{font-size:12.5px;color:var(--muted)}
+.il-by a{color:var(--muted)}
+.il-cats{font-size:11.5px;color:var(--muted);margin-top:2px;display:inline-block}
+.il-desc{font-size:13px;color:var(--muted);line-height:1.45}
+@media (max-width:680px){.il-desc{display:none}.il-date{display:none}}

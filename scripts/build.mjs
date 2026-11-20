@@ -522,6 +522,7 @@ ${jsonld.map(j => `<script type="application/ld+json">${JSON.stringify(j).replac
     <hr>
     ${activeCats.map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length.toLocaleString(LANG === 'en' ? 'en-US' : LANG)}</small></a>`).join('\n    ')}
     <hr>
+    <a href="${ur('/indie-games/')}"><i>&#129489;&#8205;&#128187;</i>${esc(tr('Indie games'))}</a>
     <a href="${ur('/submit-game/')}"><i>&#128228;</i>${esc(tr('Submit your game'))}</a>
     <a href="${ur('/publish-html5-game/')}"><i>&#128218;</i>${esc(tr('Where to publish your HTML5 game'))}</a>
     <a href="${ur('/faq/')}"><i>&#10067;</i>FAQ</a>
@@ -537,7 +538,7 @@ ${bodyClass.includes('home') ? '' : `<section class="row cat-grid-wrap"><div cla
 </div>
 <footer class="foot">
   <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.slogan)} ${roundedCount.toLocaleString('en-US')}+ ${esc(tr('free web games — no downloads, no sign-up.'))}</p>
-  <p><a href="${ur('/about/')}">${esc(tr('About'))}</a> · <a href="${ur('/contact/')}">${esc(tr('Contact'))}</a> · <a href="${ur('/faq/')}">FAQ</a> · <a href="${u('/tags/')}">${esc(tr('All tags'))}</a> &middot; <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> · <a href="${ur('/badge/')}">Badges for developers</a> · <a href="${ur('/publish-html5-game/')}">Where to publish your HTML5 game</a> · <a href="${ur('/privacy/')}">${esc(tr('Privacy Policy'))}</a> · <a href="${ur('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
+  <p><a href="${ur('/about/')}">${esc(tr('About'))}</a> · <a href="${ur('/contact/')}">${esc(tr('Contact'))}</a> · <a href="${ur('/faq/')}">FAQ</a> · <a href="${u('/tags/')}">${esc(tr('All tags'))}</a> &middot; <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> · <a href="${ur('/indie-games/')}">Indie games</a> · <a href="${ur('/badge/')}">Badges for developers</a> · <a href="${ur('/publish-html5-game/')}">Where to publish your HTML5 game</a> · <a href="${ur('/privacy/')}">${esc(tr('Privacy Policy'))}</a> · <a href="${ur('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
   ${langsHere.length > 1 ? `<p class="foot-langs">${langsHere.map(l => l === LANG ? `<strong>${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</strong>` : `<a href="${esc(absIn(l, altPath))}" hreflang="${esc(l)}">${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</a>`).join(' · ')}</p>` : ''}
   ${Object.keys(ARTICLES).length ? `<p class="foot-guides"><a href="${ur('/guides/')}">${LANG === 'en' ? 'Game guides and tips' : 'Guides'}</a></p>` : ''}
   <p class="foot-topics">${topics.filter(t => LANG === 'en' || (CATTR[LANG] || {})['topic:' + t.slug]).slice(0, 14).map(t => `<a href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join(' · ')}</p>
@@ -1050,6 +1051,41 @@ ${o.instructions ? `<p><strong>How to play:</strong> ${esc(o.instructions)}</p>`
 <p class="muted">Swap the link for your own game page here if you prefer, for example <code>${abs('/games/your-game/')}</code>.</p>
 ${weekSection}${daySection}${monthSection}${yearSection}<h2>Not on the site yet?</h2>
 <p><a href="${ur('/submit-game/')}">Send us your game</a>. It is free and non-exclusive, a real person plays every submission, and accepted games get their own page with credit and a link back to you.</p>`, `Free badges for developers whose games are on ${cfg.name}: copy the code and link back from your own site.`);
+}
+
+// /indie-games/ — chronological list of all community-submitted indie games
+{
+  const communityGames = readJSON(path.join(ROOT, 'data/community-games.json'), []);
+  // sort by added date descending (newest first)
+  const sorted = [...communityGames].sort((a, b) => (b.added || '').localeCompare(a.added || ''));
+  // group by month
+  const byMonth = {};
+  for (const g of sorted) {
+    const mon = (g.added || '').slice(0, 7); // "2026-11"
+    if (!byMonth[mon]) byMonth[mon] = [];
+    byMonth[mon].push(g);
+  }
+  const monthLabel = mon => {
+    if (!mon) return 'Unknown';
+    try { return new Date(mon + '-01').toLocaleDateString('en-GB', { month: 'long', year: 'numeric' }); } catch { return mon; }
+  };
+  const indieRows = Object.keys(byMonth).sort((a,b) => b.localeCompare(a)).map(mon => {
+    const games = byMonth[mon];
+    const rows = games.map(g => {
+      const cats = [g.category, ...(g.extraCats || [])].filter(Boolean).map(c => `<span class="tag">${esc(c)}</span>`).join(' ');
+      const studio = g.studioUrl ? `<a href="${esc(g.studioUrl)}" rel="noopener" target="_blank">${esc(g.studio || g.title)}</a>` : esc(g.studio || '');
+      return `<tr>
+        <td class="il-date">${esc(g.added || '')}</td>
+        <td class="il-thumb"><a href="${u('/games/' + g.slug + '/')}"><img src="${esc(g.thumb || '')}" alt="${esc(g.title)}" width="80" height="60" loading="lazy" decoding="async"></a></td>
+        <td class="il-info"><a class="il-title" href="${u('/games/' + g.slug + '/')}">${esc(g.title)}</a><br><span class="il-by">${studio}</span><br><span class="il-cats">${cats}</span></td>
+        <td class="il-desc">${esc(g.short || '')}</td>
+      </tr>`;
+    }).join('');
+    return `<h2 class="il-month">${esc(monthLabel(mon))} <small>(${games.length})</small></h2><table class="il-table"><tbody>${rows}</tbody></table>`;
+  }).join('');
+  const indieHtml = `<p class="lead">Every browser game submitted by an independent developer and accepted onto ${esc(cfg.name)}. A real person plays every submission before it goes live. Want yours here? <a href="${ur('/submit-game/')}">Submit your game — it&rsquo;s free.</a></p>
+${indieRows}`;
+  textPage('indie-games', 'Indie Browser Games', indieHtml, `A complete list of indie browser games on ${cfg.name} — submitted by independent developers, free to play, sorted by release date.`, [], 0.6);
 }
 
 textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games website made by <strong>${esc(cfg.studio)}</strong>, an independent game studio from Novi Sad, Serbia. We build our own browser games (like <a href="${u('/games/bubble-wrap/')}">Bubble Wrap</a>) and offer free HTML5 games from trusted distribution partners and independent developers, so you can play instantly on any device.</p>
