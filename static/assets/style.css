@@ -396,6 +396,11 @@ main{max-width:1500px;margin:0 auto}
 .feat-media img,.feat-media video{transition:transform .25s}
 .feat:hover .feat-media img,.feat:hover .feat-media video{transform:scale(1.03)}
 /* light mode: ghost buttons (Play now in the news list) must stay readable */
+:root[data-theme=light] .banner{background:rgba(0,0,0,0.04);border-color:rgba(0,0,0,0.1)!important;color:#16182e}
+:root[data-theme=light] .banner:hover{box-shadow:0 8px 20px rgba(0,0,0,0.12)!important}
+:root[data-theme=light] .bn-own,:root[data-theme=light] .bn-indie-head,:root[data-theme=light] .bn-feat-head,:root[data-theme=light] .bn-new,:root[data-theme=light] .bn-pop,:root[data-theme=light] .bn-trend,:root[data-theme=light] .bn-cats,:root[data-theme=light] .bn-news{background:unset;color:#fff}
+:root[data-theme=light] .welcome-center::before{background:radial-gradient(circle at 50% 0%,rgba(255,61,110,0.05) 0%,transparent 60%)}
+:root[data-theme=light] .welcome-center h1,:root[data-theme=light] .welcome h1 span,:root[data-theme=light] .hero-num{color:#16182e!important}
 :root[data-theme=light] .btn.ghost{background:#fff;border-color:#cfd3e8;color:#16182e}
 :root[data-theme=light] .btn.ghost:hover{border-color:var(--accent);color:var(--accent)}
 :root[data-theme=light] .news-item{background:#fff}
@@ -654,8 +659,9 @@ body.menu-open .drawer{transform:none;visibility:visible}
 .trio-by{margin:0 0 8px;font-size:12.5px;color:var(--muted)}
 .trio-desc{margin:0 0 16px;font-size:13.5px;line-height:1.55;color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
 .trio-text .btn{margin-top:auto;align-self:flex-start}
-:root[data-theme=light] .trio,:root[data-theme=light] .trio2{box-shadow:0 10px 26px #16182e18;border-color:rgba(0,0,0,0.08)}
-:root[data-theme=light] .trio-item{background:var(--bg2)}
+:root[data-theme=light] .trio,:root[data-theme=light] .trio2{box-shadow:none;border:none}
+:root[data-theme=light] .trio-item{background:#fff;border-color:rgba(0,0,0,0.1);box-shadow:0 2px 12px rgba(0,0,0,0.07)}
+:root[data-theme=light] .trio-item:hover{box-shadow:0 14px 28px rgba(0,0,0,0.15)}
 :root[data-theme=light] .trio-own{background:linear-gradient(160deg,#d6f3f7 0%,var(--bg2) 55%)}
 :root[data-theme=light] .trio-day,:root[data-theme=light] .trio-week,:root[data-theme=light] .trio-month{background:linear-gradient(160deg,#d4f0e8 0%,var(--bg2) 55%)}
 :root[data-theme=light] .trio-iday{background:linear-gradient(160deg,#d4edf7 0%,var(--bg2) 55%)}
