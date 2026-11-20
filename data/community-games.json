@@ -907,5 +907,127 @@
     "embed": "https://gta6minigames.com/",
     "thumb": "https://ilovewebgames.com/assets/community/vice-arcade.jpg?v=1",
     "orientation": "landscape"
+  },
+  {
+    "slug": "beat-the-chefs",
+    "title": "Beat The Chefs",
+    "studio": "Beat The Chefs",
+    "studioUrl": "https://beatthechefs.com/",
+    "added": "2026-11-20",
+    "short": "Race the clock across 6 rounds of cartoon cooking chaos: chop, mix and serve before time runs out.",
+    "description": "Beat The Chefs is a fast-paced browser cooking game where you take on a lineup of eccentric cartoon chefs across six rounds. Each round you must chop, combine and plate dishes according to the recipe before the timer expires. Miss the mark and the opposing chef scores; nail it and you rack up points. The game escalates in speed and complexity as you progress, testing quick reflexes and pattern recognition.",
+    "instructions": "Follow the on-screen prompts to interact with ingredients. Click or tap quickly to chop, mix and plate. Watch the timer and complete each step before time runs out.",
+    "category": "hypercasual",
+    "extraCats": [
+      "mobile"
+    ],
+    "tags": [
+      "Cooking",
+      "Casual",
+      "Timer",
+      "Clicker",
+      "Cartoon"
+    ],
+    "embed": "https://beatthechefs.com/?s=ilovewebgames",
+    "thumb": "https://beatthechefs.com/og.png",
+    "orientation": "portrait"
+  },
+  {
+    "slug": "overdrive-wave-assault",
+    "title": "OVERDRIVE: Wave Assault",
+    "studio": "Mindblown",
+    "studioUrl": "https://mindblown.ai/",
+    "added": "2026-11-20",
+    "short": "Third-person sci-fi shooter: gun down waves of enemies and take on a massive boss in a neon arena.",
+    "description": "OVERDRIVE: Wave Assault is a 3D third-person shooter played entirely in the browser. You fight through escalating waves of robotic enemies in a glowing sci-fi arena, managing ammo and movement until a colossal boss fight brings the round to a climax. The game features smooth 3D graphics and fast gunplay with no downloads required.",
+    "instructions": "WASD or arrow keys to move, mouse to aim and shoot. Dodge incoming fire and clear each wave before taking on the boss. Check the in-game HUD for ammo count and health.",
+    "category": "shooter",
+    "extraCats": [
+      "3d",
+      "action"
+    ],
+    "tags": [
+      "Shooter",
+      "3D",
+      "Sci-Fi",
+      "Wave Survival",
+      "Action"
+    ],
+    "embed": "https://overdrive-wave-assault.mindblown.ai/",
+    "thumb": "https://overdrive-wave-assault.mindblown.ai/og.png",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "boardclash",
+    "title": "BoardClash",
+    "studio": "BoardClash",
+    "studioUrl": "https://boardclash.com/",
+    "added": "2026-11-20",
+    "short": "Classic two-player board strategy: deploy your pieces, outmaneuver your opponent and capture their flag.",
+    "description": "BoardClash is a free browser-based board strategy game inspired by the classic army-on-a-grid genre. Two players deploy pieces of varying rank on a 10×10 board, then take turns moving and attacking in an attempt to capture the opponent's flag. Pieces are hidden from the enemy until combat reveals them, adding a layer of bluffing and memory to every match. Play solo against an AI opponent or challenge a friend in pass-and-play mode. BoardClash is an independent fan project; Stratego is a trademark of Royal Jumbo B.V. and BoardClash is not affiliated with or endorsed by Royal Jumbo B.V.",
+    "instructions": "Drag pieces to place them during setup. On your turn, click a piece then click a destination to move or attack. The game reveals piece ranks when two pieces clash. Capture the enemy flag to win.",
+    "category": "board-games",
+    "extraCats": [
+      "strategy",
+      "multiplayer"
+    ],
+    "tags": [
+      "Strategy",
+      "Board Game",
+      "2 Player",
+      "Classic",
+      "Turn-Based"
+    ],
+    "embed": "https://boardclash.com/",
+    "thumb": "https://boardclash.com/og.png",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "smarter-than-you",
+    "title": "Smarter Than You",
+    "studio": "UrbanReign",
+    "studioUrl": "https://gamejolt.com/@UrbanReign",
+    "added": "2026-11-20",
+    "short": "Head-to-head trivia battle: answer faster and more accurately than your opponent to prove you're smarter.",
+    "description": "Smarter Than You is a head-to-head trivia game where two players race to answer the same questions first. Points are awarded for speed as well as accuracy, so a quick wrong answer can cost you while a confident correct one seals the round. Categories span general knowledge, pop culture and more. Currently in beta, the game is playable in-browser via Game Jolt.",
+    "instructions": "Select your answer from the multiple-choice options before your opponent does. The faster you answer correctly, the more points you score. First to reach the target score wins.",
+    "category": "trivia",
+    "extraCats": [
+      "multiplayer"
+    ],
+    "tags": [
+      "Trivia",
+      "Quiz",
+      "Multiplayer",
+      "Educational",
+      "Competitive"
+    ],
+    "embed": "https://gamejolt.com/games/smarter-than-you/1119097",
+    "thumb": "https://m.gjcdn.net/game-thumbnail/400/1119097-crop0_0_1920_1080-k3qvbvdv.webp",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "macbeth-urban-reign",
+    "title": "Macbeth: Urban Reign",
+    "studio": "UrbanReign",
+    "studioUrl": "https://gamejolt.com/@UrbanReign",
+    "added": "2026-11-20",
+    "short": "Shakespeare meets street gangs: lead Macbeth's crew through a modern city of power, betrayal and ambition.",
+    "description": "Macbeth: Urban Reign reimagines Shakespeare's tragedy in a contemporary urban setting. You step into a city carved up by rival crews, playing out the story of ambition, paranoia and downfall through street-level action and dialogue. The core beats of the original play—the scheming, the ascending to power, the unraveling—are transposed onto a gritty modern cityscape. Currently a beta playtest build, available to try in-browser via Game Jolt.",
+    "instructions": "Follow the in-game prompts to navigate the city and interact with characters. Controls vary by scene; on-screen guidance will appear when input is needed.",
+    "category": "adventure",
+    "extraCats": [
+      "action"
+    ],
+    "tags": [
+      "Story",
+      "Urban",
+      "Action",
+      "Drama",
+      "Shakespeare"
+    ],
+    "embed": "https://gamejolt.com/games/macbeth-urban-reign/1119096",
+    "thumb": "https://m.gjcdn.net/game-thumbnail/400/1119096-crop0_0_1920_1080-k3qvbvdv.webp",
+    "orientation": "landscape"
   }
 ]
