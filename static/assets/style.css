@@ -54,7 +54,7 @@ main{flex:1;min-width:0;padding:18px 20px 40px}
 .row-h h2{font-size:19px;margin:0}
 .row-h a{color:var(--muted);text-decoration:none;font-weight:600;font-size:14px}
 .row-h a:hover{color:var(--text)}
-.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:12px}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:12px}
 .grid.small{grid-template-columns:repeat(auto-fill,minmax(130px,1fr));gap:10px}
 .card{position:relative;display:block;border-radius:var(--radius);overflow:hidden;background:var(--card);text-decoration:none;aspect-ratio:4/3;transition:transform .18s,box-shadow .18s,filter .18s;border:1px solid rgba(255,255,255,0.06)}
 .card img{width:100%;height:100%;object-fit:cover}
@@ -277,7 +277,7 @@ table.cmp tbody th{white-space:nowrap}
 /* === wider, airier layout (desktop) === */
 @media (min-width:1200px){
   main{padding:22px 28px 48px}
-  .grid{grid-template-columns:repeat(auto-fill,minmax(180px,1fr));gap:14px}
+  .grid{grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:14px}
   .row{margin-bottom:32px}
   .row-h h2{font-size:21px}
 }
@@ -631,9 +631,9 @@ body.menu-open .drawer{transform:none;visibility:visible}
 @media (max-width:640px){.rnd-in{padding:20px 14px;border-radius:16px}.rnd-in b{font-size:20px}}
 
 /* the three picks of the day in one card: game of the day, our game, indie game of the week */
-.trio{display:grid;grid-template-columns:repeat(3,1fr);background:var(--card);border:1px solid var(--line);
-  border-radius:22px;overflow:hidden;margin:26px 0 32px;box-shadow:0 10px 30px #00000026}
-.trio2{grid-template-columns:repeat(3,1fr);background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden;margin:26px 0 32px;box-shadow:0 10px 30px #00000026}
+.trio{display:grid;grid-template-columns:repeat(3,1fr);background:var(--card);border:1px solid rgba(255,255,255,0.1);
+  border-radius:22px;overflow:hidden;margin:26px 0 32px;box-shadow:0 12px 36px #00000040}
+.trio2{grid-template-columns:repeat(3,1fr);background:var(--card);border:1px solid rgba(255,255,255,0.1);border-radius:22px;overflow:hidden;margin:26px 0 32px;box-shadow:0 12px 36px #00000040}
 .trio-item{display:flex;flex-direction:column;padding:16px}
 .trio-item+.trio-item{border-left:1px solid var(--line)}
 .trio-media{display:block;border-radius:14px;overflow:hidden;aspect-ratio:16/9;background:#0d0e1c}
