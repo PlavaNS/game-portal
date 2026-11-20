@@ -151,7 +151,7 @@ body.noscroll{overflow:hidden}
 /* home welcome + game info */
 .welcome{margin:2px 0 16px}
 .welcome h1{font-size:24px;margin:0;letter-spacing:-.3px}
-.welcome h1 span{color:var(--accent2);font-weight:700}
+.welcome h1 span{color:var(--accent2);font-weight:700}.hero-num{color:#0a8ba8;font-weight:900}
 .welcome p{margin:4px 0 0;color:var(--muted)}
 .welcome-center{text-align:center;margin:28px 0 20px}
 .welcome-center h1{font-size:32px;font-weight:800;letter-spacing:-.5px;line-height:1.1}
@@ -348,6 +348,8 @@ main{max-width:1500px;margin:0 auto}
 .banner{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;min-height:74px;padding:16px 20px;border-radius:16px;overflow:hidden;text-decoration:none;color:#fff;box-shadow:inset 0 0 0 1px #ffffff22;transition:transform .15s,box-shadow .15s;margin:38px 0 18px}
 .banner:hover{transform:translateY(-2px);box-shadow:inset 0 0 0 1px #ffffff40,0 10px 26px #0006}
 .bn-own{background:linear-gradient(110deg,#0a8ba8,#03637a);border:1px solid rgba(20,184,166,0.35)!important;box-shadow:0 0 24px rgba(20,184,166,0.12);border-radius:16px}
+.bn-indie-head{background:linear-gradient(110deg,#6a11cb,#a855f7)}
+.bn-feat-head{background:linear-gradient(110deg,#b45309,#ff9f1c)}
 .bn-new{background:linear-gradient(110deg,#1a5cff,#00c6ff)}
 .bn-pop{background:linear-gradient(110deg,#0f9b6c,#3ddc97)}
 .bn-text{position:relative;z-index:2;max-width:100%}

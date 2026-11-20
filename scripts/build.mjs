@@ -655,7 +655,7 @@ function emitContent() {
     };
     const gotdIndie = indieFeat('iday', 'game-of-day-badge.json', `\u{1F3AF} ${esc(tr('Indie Game of the Day'))}`, true, 'date', dfmt);
     const gotmIndie = indieFeat('imonth', 'game-of-month.json', `\u{1F4C5} ${esc(tr('Indie Game of the Month'))}`, false, 'month', mfmt);
-    const indieHead = (gotdIndie || gotw || gotmIndie) ? `<div class="trio-head"><h1><img src="${B}/assets/indie-spotlight-icon.svg" width="36" height="36" alt="" class="trio-head-icon" loading="eager" decoding="async"> ${esc(tr('Indie Spotlight'))}</h1><p>${esc(tr('submitted by independent developers'))}</p></div>` : '';
+    const indieHead = (gotdIndie || gotw || gotmIndie) ? `<div class="trio-head"><a class="banner bn-indie-head" href="${ur('/indie-games/')}"><img class="bn-art l" src="${B}/assets/sec/indie.svg" alt="" width="160" height="160" loading="eager" decoding="async"><span class="bn-text"><b>${esc(tr('Indie Spotlight'))}</b><small>${esc(tr('submitted by independent developers'))}</small></span><img class="bn-art r" src="${B}/assets/sec/indie.svg" alt="" width="160" height="160" loading="eager" decoding="async"></a></div>` : '';
     // Game of the day: a different one every day, worked out from the date so it needs no state
     // and never lands on the same game twice in a row through the list.
     let gotdImg = '';
@@ -691,7 +691,7 @@ function emitContent() {
       let label = mon; try { label = now.toLocaleDateString(LANG === 'en' ? 'en-GB' : LANG, { month: 'long', year: 'numeric' }); } catch {}
       return feat('month', `\u{1F4C5} ${esc(tr('Game of the Month'))} <time datetime="${mon}">${esc(label)}</time>`, g, d, '');
     })();
-    const featHead = (gotd || gotwFeat || gotm) ? `<div class="trio-head"><h1><img src="${B}/assets/featured-icon.svg" width="36" height="36" alt="" class="trio-head-icon" loading="eager" decoding="async"> ${esc(tr('Featured'))}</h1><p>${esc(tr('Game of the Day, Week & Month'))}</p></div>` : '';
+    const featHead = (gotd || gotwFeat || gotm) ? `<div class="trio-head"><a class="banner bn-feat-head" href="${ur('/')}"><img class="bn-art l" src="${B}/assets/sec/feat.svg" alt="" width="160" height="160" loading="eager" decoding="async"><span class="bn-text"><b>${esc(tr('Featured'))}</b><small>${esc(tr('Game of the Day, Week & Month'))}</small></span><img class="bn-art r" src="${B}/assets/sec/feat.svg" alt="" width="160" height="160" loading="eager" decoding="async"></a></div>` : '';
     const catTiles = `<section class="row"><div class="row-h"><h2>${esc(tr('Categories'))}</h2></div><div class="cats">${activeCats.filter(c => catOK(c.slug)).map(c => `<a href="${cHref(c.slug)}"><i>${CAT_ICON[c.slug] || '🎮'}</i>${esc((catTr(c.slug) || {}).name || c.name)}<small>${byCat[c.slug].length}</small></a>`).join('')}</div></section>`;
     // section heading: a plain coloured bar with the title in the middle, nothing else in it
     const banner = (cls, href, title, sub) => { const art = `${B}/assets/sec/${cls.replace('bn-', '')}.svg`;
@@ -718,7 +718,8 @@ function emitContent() {
     ${duo('duo-friends', tr('Play online with friends'), [tr('2 player games'), cHref('two-player'), 'two-player'], [tr('Online multiplayer'), cHref('multiplayer'), 'multiplayer'])}
     ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), 'kids'], [tr('Casual games'), cHref('casual'), 'hypercasual'])}
   </div>`;
-    const body = `<header class="welcome welcome-center"><h1>${esc(tr('The Top 10,000 Web Games, Ever.'))}</h1><p class="welcome-sub">${roundedCount.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
+    const heroTitle = esc(tr('The Top 10,000 Web Games, Ever.')).replace('10,000', '<span class="hero-num">10,000</span>');
+    const body = `<header class="welcome welcome-center"><h1>${heroTitle}</h1><p class="welcome-sub">${roundedCount.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
   ${bnOwn}
   <section class="trio">${ours.map((g, i) => feat('own', `⭐ ${esc(tr('Our game'))}`, g, LANG === 'en' ? (g.short || '') : (g.short || ''), `<a href="${ur('/our-games/')}">${esc(cfg.studio)}</a>`, i === 0)).join('')}</section>
   <section class="trio trio-indie">${indieHead}${gotdIndie}${gotw}${gotmIndie}</section>
