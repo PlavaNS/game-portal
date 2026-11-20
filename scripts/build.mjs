@@ -566,14 +566,19 @@ for (const d of ['community', 'our']) {
 }
 // GameMonetize only serves 512x384 / 512x512 covers (~250 KB each) and has no size parameter,
 // so those go through a resizing image proxy; every other host gives us a small size directly.
+// Community games that use their own domain for og.png also need proxying (hotlink protection).
 // app.js falls back to the original URL if the proxy ever fails. Set gmThumbProxy:false in
 // site.config.json to turn this off.
 const GM_HOST = /^https?:\/\/img\.gamemonetize\.com\//i;
 const GM_PROXY = cfg.gmThumbProxy !== false;
+// Known reliable CDNs that serve images without hotlink protection
+const KNOWN_CDN = /^https?:\/\/(ilovewebgames\.com|img\.gamemonetize\.com|img\.gamepix\.com|static\.playgama\.com|m\.gjcdn\.net|wsrv\.nl)\//i;
 const proxied = u => `https://wsrv.nl/?url=${encodeURIComponent(String(u).replace(/^https?:\/\//, ''))}&w=400&output=webp&q=72`;
 const small = u => {
   const s = String(u || '');
   if (GM_PROXY && GM_HOST.test(s)) return proxied(s);
+  // Proxy thumbnails from unknown domains (community games with their own og.png etc.)
+  if (s.startsWith('https://') && !KNOWN_CDN.test(s)) return proxied(s);
   return s.replace(/([?&])width=\d+/, '$1width=320').replace(/([?&])w=\d+/, '$1w=320')
     .replace(/\/assets\/(community|our)\/([^/?]+)\.jpg/, (m, d, n) => SMALL_SET.has(`/assets/${d}/${n}-s.jpg`) ? `/assets/${d}/${n}-s.jpg` : m);
 };
