@@ -1056,12 +1056,10 @@ ${weekSection}${daySection}${monthSection}${yearSection}<h2>Not on the site yet?
 // /indie-games/ — chronological list of all community-submitted indie games
 {
   const communityGames = readJSON(path.join(ROOT, 'data/community-games.json'), []);
-  // sort by added date descending (newest first)
   const sorted = [...communityGames].sort((a, b) => (b.added || '').localeCompare(a.added || ''));
-  // group by month
   const byMonth = {};
   for (const g of sorted) {
-    const mon = (g.added || '').slice(0, 7); // "2026-11"
+    const mon = (g.added || '').slice(0, 7);
     if (!byMonth[mon]) byMonth[mon] = [];
     byMonth[mon].push(g);
   }
@@ -1074,16 +1072,28 @@ ${weekSection}${daySection}${monthSection}${yearSection}<h2>Not on the site yet?
     const rows = games.map(g => {
       const cats = [g.category, ...(g.extraCats || [])].filter(Boolean).map(c => `<span class="tag">${esc(c)}</span>`).join(' ');
       const studio = g.studioUrl ? `<a href="${esc(g.studioUrl)}" rel="noopener" target="_blank">${esc(g.studio || g.title)}</a>` : esc(g.studio || '');
+      const gameUrl = u('/games/' + g.slug + '/');
+      const thumbSrc = esc(g.thumb || '');
       return `<tr>
         <td class="il-date">${esc(g.added || '')}</td>
-        <td class="il-thumb"><a href="${u('/games/' + g.slug + '/')}"><img src="${esc(g.thumb || '')}" alt="${esc(g.title)}" width="80" height="60" loading="lazy" decoding="async"></a></td>
-        <td class="il-info"><a class="il-title" href="${u('/games/' + g.slug + '/')}">${esc(g.title)}</a><br><span class="il-by">${studio}</span><br><span class="il-cats">${cats}</span></td>
+        <td class="il-thumb"><a href="${gameUrl}"><img src="${thumbSrc}" alt="${esc(g.title)}" width="120" height="90" loading="lazy" decoding="async" onerror="this.style.display='none'"></a></td>
+        <td class="il-info"><a class="il-title" href="${gameUrl}">${esc(g.title)}</a><br><span class="il-by">${studio}</span><br><span class="il-cats">${cats}</span></td>
         <td class="il-desc">${esc(g.short || '')}</td>
+        <td class="il-badge"><a href="${gameUrl}" class="il-feat-badge"><img src="${B}/assets/featured-badge.svg" alt="Featured on ${esc(cfg.name)}" width="140" height="34" loading="lazy" decoding="async"></a></td>
       </tr>`;
     }).join('');
-    return `<h2 class="il-month">${esc(monthLabel(mon))} <small>(${games.length})</small></h2><table class="il-table"><tbody>${rows}</tbody></table>`;
+    return `<h2 class="il-month">${esc(monthLabel(mon))} <small>(${games.length})</small></h2><table class="il-table"><thead><tr><th></th><th></th><th>Game</th><th class="il-desc-h">Description</th><th class="il-badge-h">Play now</th></tr></thead><tbody>${rows}</tbody></table>`;
   }).join('');
-  const indieHtml = `<p class="lead">Every browser game submitted by an independent developer and accepted onto ${esc(cfg.name)}. A real person plays every submission before it goes live. Want yours here? <a href="${ur('/submit-game/')}">Submit your game — it&rsquo;s free.</a></p>
+  const indieHeroHtml = `<div class="il-hero">
+  <div class="il-hero-logo"><a href="${ur('/')}"><img src="${B}/assets/badge-door404.svg" alt="${esc(cfg.studio)}" width="140" height="49" loading="eager" decoding="async"></a></div>
+  <div class="il-hero-text">
+    <h1 class="il-hero-title">Indie Browser Games</h1>
+    <p class="il-hero-lead">Every browser game submitted by an independent developer and accepted onto <strong>${esc(cfg.name)}</strong>. A real person plays every submission before it goes live.</p>
+    <p><a class="btn" href="${ur('/submit-game/')}">Submit your game &mdash; it&rsquo;s free</a></p>
+  </div>
+</div>`;
+  const indieHtml = `${indieHeroHtml}
+<p class="il-stats">${communityGames.length} indie games listed &middot; updated ${today}</p>
 ${indieRows}`;
   textPage('indie-games', 'Indie Browser Games', indieHtml, `A complete list of indie browser games on ${cfg.name} — submitted by independent developers, free to play, sorted by release date.`, [], 0.6);
 }

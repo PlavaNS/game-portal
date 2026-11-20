@@ -679,16 +679,27 @@ body.menu-open .drawer{transform:none;visibility:visible}
 .foot-studio img{height:56px;width:160px}
 .bn-own .bn-art.l{transform:translateY(-50%)}
 /* /indie-games/ page */
+.il-hero{display:flex;align-items:center;gap:28px;background:var(--card);border:1px solid rgba(10,139,168,0.3);border-radius:20px;padding:28px 32px;margin:0 0 28px;box-shadow:0 8px 28px rgba(10,139,168,0.12)}
+.il-hero-logo img{display:block;filter:drop-shadow(0 2px 8px rgba(10,139,168,0.3))}
+.il-hero-title{font-size:clamp(22px,4vw,32px);font-weight:800;margin:0 0 8px;line-height:1.1}
+.il-hero-lead{font-size:15px;color:var(--muted);margin:0 0 14px;line-height:1.5}
+.il-stats{font-size:13px;color:var(--muted);margin:0 0 20px}
 .il-month{margin:28px 0 10px;font-size:18px;border-bottom:1px solid var(--line);padding-bottom:8px}
 .il-month small{font-size:14px;font-weight:400;color:var(--muted)}
 .il-table{width:100%;border-collapse:collapse;margin-bottom:8px}
-.il-table td{padding:8px 10px;border-bottom:1px solid var(--line);vertical-align:top}
-.il-date{color:var(--muted);font-size:12px;white-space:nowrap;width:90px}
-.il-thumb{width:90px}.il-thumb img{border-radius:8px;width:80px;height:60px;object-fit:cover;display:block}
+.il-table th{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);padding:4px 10px 6px;text-align:left;font-weight:600}
+.il-table td{padding:10px 10px;border-bottom:1px solid var(--line);vertical-align:middle}
+.il-date{color:var(--muted);font-size:12px;white-space:nowrap;width:86px}
+.il-thumb{width:130px}.il-thumb img{border-radius:10px;width:120px;height:90px;object-fit:cover;display:block;box-shadow:0 3px 10px #0003;transition:transform .18s}
+.il-thumb a:hover img{transform:scale(1.04)}
 .il-title{font-weight:700;text-decoration:none;color:var(--text);font-size:15px}
 .il-title:hover{color:var(--accent)}
 .il-by{font-size:12.5px;color:var(--muted)}
 .il-by a{color:var(--muted)}
-.il-cats{font-size:11.5px;color:var(--muted);margin-top:2px;display:inline-block}
-.il-desc{font-size:13px;color:var(--muted);line-height:1.45}
-@media (max-width:680px){.il-desc{display:none}.il-date{display:none}}
+.il-cats{font-size:11.5px;color:var(--muted);margin-top:3px;display:inline-block}
+.il-desc{font-size:13px;color:var(--muted);line-height:1.45;max-width:280px}
+.il-badge{width:155px;white-space:nowrap}
+.il-feat-badge img{display:block;opacity:.85;transition:opacity .18s}
+.il-feat-badge:hover img{opacity:1}
+@media (max-width:900px){.il-badge,.il-badge-h{display:none}}
+@media (max-width:680px){.il-desc,.il-date,.il-desc-h{display:none}.il-hero{flex-direction:column;padding:20px;gap:16px}.il-thumb{width:90px}.il-thumb img{width:80px;height:60px}}
