@@ -18,7 +18,7 @@ out = subprocess.run(['ffmpeg', '-i', f, '-vf', 'mpdecimate,metadata=mode=print:
 total = int(re.search(r'\d+', out.strip().splitlines()[-1] or '0').group())
 r = subprocess.run(['ffmpeg', '-i', f, '-vf', 'mpdecimate=hi=0:lo=0:frac=1', '-loglevel', 'error', '-f', 'null', '-vsync', '0', '-c:v', 'rawvideo', '-y', '/dev/null'],
                     capture_output=True, text=True)
-kept = int(subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v', '-show_entries', 'stream=nb_read_frames', '-of', 'csv=p=0',
+kept = int(subprocess.run(['ffprobe', '-v', 'error', '-select_streams', 'v', '-count_frames', '-show_entries', 'stream=nb_read_frames', '-of', 'csv=p=0',
     *subprocess.run(['sh', '-c', f"ffmpeg -y -loglevel error -i '{f}' -vf mpdecimate=hi=0:lo=0:frac=1 -vsync 0 /tmp/_chk_$$.mp4 && echo /tmp/_chk_$$.mp4"],
                      capture_output=True, text=True).stdout.strip().split()],
     capture_output=True, text=True).stdout.strip() or '0')
