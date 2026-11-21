@@ -18,5 +18,17 @@
   "the-egg-stealing-master": {
     "title": "The Egg Stealing Master — Free 3D Stealth Game Online",
     "desc": "Sneak past the guards, steal eggs and hatch them into pets in The Egg Stealing Master, a free 3D stealth game in your browser. No download, plus tips & FAQ."
+  },
+  "tile-match-explorer": {
+    "title": "Tile Match Explorer — Free Triple Tile Match Game Online",
+    "desc": "Tap tiles, collect three of a kind in the bar and clear every board in Tile Match Explorer, a free mahjong-style triple match puzzle in your browser. No download."
+  },
+  "soccerlat-3d-football-online": {
+    "title": "SoccerLat — Free 3D Online Football Game, 1v1 to 11v11",
+    "desc": "Play real-time 3D football against real players in your browser: fouls, free kicks, corners, penalties and a referee. From 1v1 up to 11v11, free, no download."
+  },
+  "jigmerge-puzzles": {
+    "title": "Jigmerge Puzzles — Free Merge Jigsaw Puzzle Game Online",
+    "desc": "Rebuild scrambled photos tile by tile: matching pieces merge on their own and move together. Animals, nature, food, cars and more. Free jigsaw puzzle game online."
   }
 }

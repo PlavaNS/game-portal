@@ -911,26 +911,24 @@
   {
     "slug": "beat-the-chefs",
     "title": "Beat The Chefs",
-    "studio": "Beat The Chefs",
-    "studioUrl": "https://beatthechefs.com/",
+    "studio": "Visybl Inc (a9n9)",
+    "studioUrl": "https://beatthechefs.com/?s=ilovewebgames",
     "added": "2026-11-20",
-    "short": "Race the clock across 6 rounds of cartoon cooking chaos: chop, mix and serve before time runs out.",
-    "description": "Beat The Chefs is a fast-paced browser cooking game where you take on a lineup of eccentric cartoon chefs across six rounds. Each round you must chop, combine and plate dishes according to the recipe before the timer expires. Miss the mark and the opposing chef scores; nail it and you rack up points. The game escalates in speed and complexity as you progress, testing quick reflexes and pattern recognition.",
-    "instructions": "Follow the on-screen prompts to interact with ingredients. Click or tap quickly to chop, mix and plate. Watch the timer and complete each step before time runs out.",
-    "category": "hypercasual",
+    "short": "Cook one dish against the clock in a single pan, then three judges score your plate against the house chef's.",
+    "description": "Beat The Chefs is a free browser cooking game built around one stove and a six-minute clock. Pick a signature dish, move ingredients to the board and pan, chop, control the heat, stir and season, then plate before time runs out. Three judges score your plate out of 100 and compare it with the house chef, who cooks the same dish on the same clock. New dishes arrive every day, and you can share your plate as a dare so a friend cooks the same dish against you.",
+    "instructions": "Move ingredients to the board and pan, hold to chop, set the burner heat, stir and taste, then plate once plating opens in the last minute. Three judges score your dish against the house chef's.",
+    "category": "cooking",
     "extraCats": [
       "mobile"
     ],
     "tags": [
       "Cooking",
-      "Casual",
+      "Simulation",
       "Timer",
-      "Clicker",
-      "Cartoon"
+      "Casual"
     ],
     "embed": "https://beatthechefs.com/?s=ilovewebgames",
-    "thumb": "https://beatthechefs.com/art/card-home.jpg",
-    "orientation": "portrait"
+    "thumb": "https://beatthechefs.com/art/card-home.jpg"
   },
   {
     "slug": "overdrive-wave-assault",
