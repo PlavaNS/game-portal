@@ -1227,7 +1227,7 @@ ${sgFaqHtml}
 <h2>Good to know</h2>
 <p>We do not host files: the game stays on your server or your distribution platform, and you can ask us to remove it at any time. Games from other people that you do not own will not be accepted.</p>
 <p class="muted">We only use the details you send here to review your game and reply to you. Nothing is shared with third parties. See our <a href="${ur('/privacy/')}">privacy policy</a>.</p>`,
-    `Submit your HTML5 game to ${cfg.name}: free and non-exclusive, you earn from every play, and you get a link back to your site. Reviewed by a real person in a few days.`,
+    `Submit or upload your HTML5 game to ${cfg.name}: free and non-exclusive, you earn from every play, and you get a link back to your site. Reviewed by a real person in a few days.`,
     [sgLd], 0.8);
 }
 // DEV GUIDE: where to publish an HTML5 game (facts checked Nov 2026, sources linked on the page)
