@@ -243338,22 +243338,22 @@
     ]
   },
   "beat-the-chefs": {
-    "intro": "Beat The Chefs is a fast cooking game where you chop, combine and plate dishes against a lineup of cartoon chefs over six rounds. Each step must be finished before the timer runs out.",
+    "intro": "Beat The Chefs is one stove, one six-minute clock and one dish: chop, cook and plate while three judges compare your plate with the house chef's.",
     "tips": [
       "Read the on-screen prompt before you click, so your first tap goes to the right ingredient and you don't lose time correcting it.",
-      "Watch the timer from the start of each step and keep a steady pace instead of rushing, since a missed step gives the opposing chef points.",
-      "Pay attention to the order of steps in each recipe, because the game gets more complex as you move through the rounds and patterns help you react faster.",
-      "Expect the speed to rise in later rounds, so practice the early chopping and mixing motions until they feel automatic. If you enjoy quick reaction games, you can also browse [[cooking-games|more kitchen games to try]].",
+      "Watch the timer from the start of each step and keep a steady pace instead of rushing, since every step you rush or miss costs points off your final plate.",
+      "Pay attention to the order of steps, because the dish changes daily and a clean sequence saves you seconds.",
+      "Once you can chop without thinking, spend the saved seconds on heat and seasoning — that is where the judges' points are. If you enjoy quick reaction games, you can also browse [[cooking-games|more kitchen games to try]].",
       "Keep your clicks or taps quick and light, and move straight to the next prompt once a step is done rather than pausing to check the result."
     ],
     "faq": [
       [
         "What is the goal of Beat The Chefs?",
-        "Your goal is to complete each recipe's steps, chopping, combining and plating, before the timer expires. Nailing the dish earns you points, while a missed step lets the opposing chef score."
+        "Your goal is to complete the dish's steps, chopping, cooking and plating, before the six-minute clock runs out. Three judges then score your plate out of 100 against the house chef's plate of the same dish."
       ],
       [
-        "How does the game get harder as I play?",
-        "The game speeds up and adds more complexity across its six rounds. Recognising the patterns in each recipe becomes important to keep up."
+        "Is there a new dish every day?",
+        "Yes: one dish for everyone, changing daily. Level 2 adds a star ingredient and Level 3 a market box of three ingredients that must all reach the plate; later levels open at 50+ on the level before, with a confirmed email."
       ]
     ]
   },
