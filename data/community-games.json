@@ -1003,5 +1003,50 @@
     "embed": "https://legendcourt.com/",
     "thumb": "https://ilovewebgames.com/assets/community/legend-court.jpg?v=1",
     "orientation": "landscape"
+  },
+  {
+    "slug": "splinters",
+    "title": "Splinters",
+    "studio": "Splinters",
+    "studioUrl": "",
+    "added": "2026-11-21",
+    "short": "Tap the tree, earn coins per chop, and buy upgrades to keep the lumber flowing on its own.",
+    "description": "Splinters is a free browser idle/clicker game: tap the tree to earn coins, then spend them on an axe for more per chop, lumberjacks who chop for you automatically, and a sawmill that doubles their output. Switch between Birch, Oak and Sakura trees as you unlock them. Progress saves in your browser, no account needed.",
+    "instructions": "Click or tap the tree to chop it for coins. Spend coins on the Axe, Lumberjack and Sawmill upgrades below to earn faster, even while away.",
+    "category": "clicker-idle",
+    "extraCats": [
+      "casual"
+    ],
+    "tags": [
+      "Clicker",
+      "Idle",
+      "Casual"
+    ],
+    "embed": "https://pub-a941bfd863a24f91a60e6c4979c18a84.r2.dev/pi-sandbox-uploads/376618272952422400/2026-11-20/1795139949194-1589c7f0-1e83-4ab3-b17f-193395647679-splinters.html",
+    "thumb": "https://ilovewebgames.com/assets/community/splinters.jpg?v=1",
+    "orientation": "landscape"
+  },
+  {
+    "slug": "monkey-business",
+    "title": "Monkey Business",
+    "studio": "Critical Bananas",
+    "studioUrl": "https://criticalbananas.com/",
+    "added": "2026-11-21",
+    "short": "Free daily browser runner: you're a banana, a monkey is chasing you, and a run takes under a minute.",
+    "description": "Monkey Business is a free browser runner: dodge and dash as a banana being chased down by a monkey. Get 3 ranked runs a day with a free account for the daily leaderboard, or play unlimited practice runs with no sign-up. Works on phone and desktop.",
+    "instructions": "Press PLAY RANKED for a scored daily run, or PRACTICE to play with no limit. Use the on-screen or keyboard controls to dodge obstacles and survive as long as you can.",
+    "category": "action",
+    "extraCats": [
+      "casual",
+      "hypercasual"
+    ],
+    "tags": [
+      "Runner",
+      "Arcade",
+      "Daily Challenge"
+    ],
+    "embed": "https://criticalbananas.com/play",
+    "thumb": "https://criticalbananas.com/og/play",
+    "orientation": "landscape"
   }
 ]
