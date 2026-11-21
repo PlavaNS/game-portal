@@ -244052,5 +244052,442 @@
         "The description mentions TNT, a gun, a big gun, and a volcano, and you can place them to customize the level."
       ]
     ]
+  },
+  "banana-ops": {
+    "intro": "Banana Ops is a browser-based monkey shooter with team deathmatch, hardpoint, search and destroy, and 1v1 duels across 11 maps. Bots fill every match, so you can jump in and start shooting right away.",
+    "tips": [
+      "Open the game menu before your first match to check the controls, so you are not learning them mid-fight.",
+      "Pick a mode that suits your style: team deathmatch rewards steady fragging, while 1v1 duels test your aim one-on-one.",
+      "Try a few of the 11 maps to learn their sightlines and choke points, then stick with the ones where you feel most comfortable.",
+      "Keep an eye on your killstreaks, since higher streaks lead all the way up to the Banana Gunship and are worth working toward. For more arcade-style gunplay, you could also browse [[shooting-games|fast-paced browser shooting games]].",
+      "Because bots fill every match, do not panic when the lobby looks crowded; focus on the targets nearest you and move between cover often."
+    ],
+    "faq": [
+      [
+        "What modes can I play in Banana Ops?",
+        "You can choose team deathmatch, hardpoint, search and destroy, or 1v1 duels. Pick a mode and a map from the menu before you jump into a match."
+      ],
+      [
+        "What are killstreaks used for?",
+        "Killstreaks are rewards you earn by getting consecutive kills, and they climb all the way up to the Banana Gunship. Keeping your streak alive is the main way to unlock stronger rewards."
+      ]
+    ]
+  },
+  "crease-game-online": {
+    "intro": "Crease Game Online is a paper-folding puzzle where you fold a square sheet until it covers a dashed outline exactly. Folding is done by dragging, and the game has daily and practice puzzles.",
+    "tips": [
+      "Finish the three beginner lessons before starting the practice puzzles, so you learn how the crease lands between the grab point and the release point.",
+      "Before each fold, check where the red stripes are and which edge needs to move. Pick a drag direction that brings that edge onto the outline.",
+      "Try a puzzle on your own for a while before using Hint, since you only earn three stars when you solve it in the fewest folds without hints.",
+      "If a fold goes wrong, use Undo first instead of Restart so you keep the progress you already made.",
+      "If you like working through logic puzzles like this, you can find more [[brain-games|brain teasers to try]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I earn three stars on a puzzle?",
+        "Solve the puzzle in the fewest folds possible and do not use any hints. Using hints or taking extra folds will lower the result."
+      ],
+      [
+        "What do the red stripes mean?",
+        "Red stripes show paper that is sticking out past the dashed outline. Your folds need to remove that paper so nothing hangs over and nothing is left uncovered."
+      ]
+    ]
+  },
+  "splinters": {
+    "intro": "Splinters is an idle clicker where you tap a tree to earn coins and spend them on axes, lumberjacks and a sawmill. You can switch between Birch, Oak and Sakura trees as you unlock them. Your progress is saved in your browser.",
+    "tips": [
+      "Spend your first coins on the Axe while you are still clicking by hand, since it raises what each chop earns and speeds up your early progress.",
+      "Lumberjacks keep earning while you are away, so buying them early lets your coins build up between visits.",
+      "The sawmill doubles lumberjack output, so it pays off most once you already have several lumberjacks working for you.",
+      "Check the Birch, Oak and Sakura trees as you unlock them and switch to the one that is earning you the most coins at that point. If you enjoy tapping games like this, you can find more in [[clicker-games|browse more tap-based games]]."
+    ],
+    "faq": [
+      [
+        "Should I buy the Axe or Lumberjacks first?",
+        "The Axe increases coins per chop, so it helps most while you are clicking by hand. Lumberjacks chop automatically and keep earning while you are away, so a mix of both works well as you grow."
+      ],
+      [
+        "Does my progress get lost if I close the game?",
+        "No, progress saves in your browser, so you can return later and pick up where you left off. Your coins keep building from the lumberjacks even while you are not playing."
+      ]
+    ]
+  },
+  "city-stakes": {
+    "intro": "City Stakes is a story-driven 3D game set in Ilmara, a city up for sale, where companies fight for the skyline and brands fight for its screens. You follow the on-screen prompts to move the story forward.",
+    "tips": [
+      "Read each prompt on screen before you click or tap, since the story moves forward based on the prompts you follow.",
+      "Take your time with the 3D scenes and look around the city, because the skyline and screens are central to the story's themes.",
+      "Play on a desktop for the best experience, as the game is designed to run best there.",
+      "If you enjoy exploring detailed three-dimensional worlds, you might also browse [[3d-games|more browser-based 3D worlds]] after you finish."
+    ],
+    "faq": [
+      [
+        "How do I control the game?",
+        "Use your mouse or touch input to follow the story prompts that appear on screen."
+      ],
+      [
+        "Does City Stakes have a score or a fail state?",
+        "The description and instructions focus on following the story prompts, and they do not mention a score or a way to lose."
+      ]
+    ]
+  },
+  "legend-court": {
+    "intro": "Legend Court mixes quick basketball matches with player card packs. You play 1 vs 1 or 3 vs 3, then build your roster and move through a story set on neighborhood courts.",
+    "tips": [
+      "Use your on-screen controls to pass, shoot, and defend, and practice each one in a short match before you rely on it in a close game.",
+      "Pay attention to whether you are on offense or defense, since the same moves that score for you can leave you open when you are defending.",
+      "Open your packs between matches and check which players fit your current lineup before you swap anyone out, so your team stays balanced.",
+      "If you want more practice with team strategy, try [[building-games|building and crafting games]] to see how other games reward planning ahead.",
+      "In 3 vs 3 matches, keep the ball moving with passes so the defense has to shift, rather than holding it for a single player to attempt a shot."
+    ],
+    "faq": [
+      [
+        "How do I start a match?",
+        "Press PLAY to start a match. You can choose between quick 1 vs 1 and 3 vs 3 games."
+      ],
+      [
+        "What do I do with the player cards?",
+        "Open packs to collect players, then build your roster between matches to shape the team you take onto the court."
+      ]
+    ]
+  },
+  "monkey-business": {
+    "intro": "Monkey Business is a browser runner where you play as a banana trying to escape a chasing monkey. You can run scored daily challenges or play unlimited practice rounds.",
+    "tips": [
+      "Use PRACTICE first to learn how obstacles appear and how quickly you need to react before you spend a ranked run.",
+      "Save your 3 daily ranked runs for when you feel warmed up, since each one counts toward the daily leaderboard.",
+      "Stay calm and react early to each obstacle rather than making late, panicked moves that often cause crashes.",
+      "Switch between on-screen and keyboard controls based on your device, and pick the one that feels most precise for quick dodges.",
+      "If you enjoy fast reflex games, try [[running-games|more endless running titles]] to keep building the same timing skills."
+    ],
+    "faq": [
+      [
+        "How many ranked runs can I play each day?",
+        "You can play 3 ranked runs a day when you have a free account. Ranked runs are the scored runs used for the daily leaderboard."
+      ],
+      [
+        "What is the difference between ranked and practice runs?",
+        "Ranked runs are scored and feed the daily leaderboard. Practice runs have no limit and no sign-up, so they are good for learning the game."
+      ]
+    ]
+  },
+  "dunkit": {
+    "intro": "DunkIt is an arcade basketball game built around physics-based dunk levels with trampolines, moving balls, and obstacles. You can also play quick matches against the AI in 2D or 3D.",
+    "tips": [
+      "Practice the timing of your grab and slam, since the game asks you to time both to beat each level. Watch how the trampolines and moving balls behave before you commit to a jump.",
+      "Use A and D to rotate in the air and S to tuck, so you can set up tricks like the Tomahawk, Superman, or Backwards Dunk before you land.",
+      "If a level goes badly, press R to restart right away rather than finishing a failed attempt.",
+      "In matches, hold J to build your shot and release it at the top of your jump for the best chance to score. Use K to steal when the AI has the ball.",
+      "If you like timing-based games, you can find more [[basketball-games|basketball games to try]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I grab the ball in the dunk levels?",
+        "Press J to grab the ball, then time your slam to finish the dunk. Timing both steps is what decides whether you beat the level."
+      ],
+      [
+        "How do I shoot in a quick match?",
+        "Hold J to shoot and release it at the top of your jump. Use WASD or the arrow keys to move and Shift to sprint."
+      ]
+    ]
+  },
+  "harvest-ring": {
+    "intro": "Harvest Ring is an idle farm game where you grow vegetables on a circular farm and harvest them with a spinning donut saw. You reinvest earnings to open plots, unlock crops and automate the work.",
+    "tips": [
+      "Water thirsty plots as soon as they appear, since the vegetables need to ripen before you can harvest them.",
+      "Drag the donut saw across several ripe vegetables in one pass to build combos and keep your harvest moving.",
+      "Spend your money evenly on new plots and crop upgrades, so you do not stall one part of the farm while waiting for another.",
+      "Save tickets for the auto-saw and automatic watering first, because they reduce the clicking you need to do. If you enjoy this slow growth loop, you can [[idle-and-tycoon-games|browse more idle tycoon games]] too.",
+      "Check the quests regularly for rewards, and start a new season in the Prestige tab once it becomes available to gain permanent bonuses."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Harvest Ring?",
+        "Your goal is to grow and harvest a circular vegetable farm, open new plots and unlock crops, then reinvest your earnings to expand further."
+      ],
+      [
+        "How do I harvest the vegetables?",
+        "Drag the spinning donut saw from its dock across ripe vegetables. Dragging across several at once helps you build combos."
+      ]
+    ]
+  },
+  "home-run-superstars": {
+    "intro": "Home Run Superstars is an arcade baseball game built around timing. Tap READY to call the pitch, then time your SWING so the ball goes as far as possible, from the park to the moon.",
+    "tips": [
+      "Focus on the moment the ball reaches the plate rather than the moment it leaves the pitcher, since better timing gives a longer hit.",
+      "Three strikes is an out and three outs end the run, so it pays to swing only when the timing feels right instead of swinging at every pitch.",
+      "Look at the three power choices after each level-up and pick the one that best fits how you are batting, because you can only take one.",
+      "Save FOCUS for fast or tricky pitches to slow the ball down, and keep FLOW for a swing when you have a good chance to make contact.",
+      "Spend your coins and lumber in MENU / UPGRADES on training before new bats, so your timing improves before you chase bigger gear. If you enjoy this style, you can also browse [[3d-games|more three-dimensional sports titles]]."
+    ],
+    "faq": [
+      [
+        "How do I get a longer hit?",
+        "Time your SWING so it lands as the ball reaches the plate, because better timing sends the ball farther."
+      ],
+      [
+        "What happens when I get three strikes?",
+        "Three strikes counts as one out, and the run ends after three outs."
+      ]
+    ]
+  },
+  "ok-i-pull-up-capybay": {
+    "intro": "Ok! I Pull Up Capybay! is a cozy island adventure where you play as a capybara. You gather resources, craft goods, run production stations and fill orders to unlock new areas.",
+    "tips": [
+      "Before you start crafting, gather the resources you need so you are not running back and forth across the island.",
+      "Check your current orders first and gather with those in mind, since completing orders is what unlocks new areas.",
+      "Stand close to a production station or object and press E, Space or Enter, because that key always acts on the nearest thing.",
+      "Take your time exploring the island, and try the [[relaxing-games|calm games to play]] mindset by enjoying the colorful scenery between tasks.",
+      "Use the floating joystick by dragging on the game area if keyboard controls feel awkward, and switch to WASD or the arrow keys whenever you prefer."
+    ],
+    "faq": [
+      [
+        "What is the main goal of the game?",
+        "Your goal is to gather resources, craft goods and complete orders so you can unlock new areas of the island."
+      ],
+      [
+        "How do I interact with objects?",
+        "Move close to the object you want and press E, Space or Enter to interact with the nearest one."
+      ]
+    ]
+  },
+  "downhill-frenzy": {
+    "intro": "Downhill Frenzy is a fast 3D dirt bike race down a mountain against six rivals. Land tricks off every ramp, keep your line, and aim to finish near the front on each hill.",
+    "tips": [
+      "Pick your four trick buttons around the moves you can land cleanly, since a wobble breaks the streak you are building.",
+      "Hold a trick bubble only while you are airborne and let go before you land, so the trick counts and you stay in control.",
+      "Fly through the blue nitro bottles above the big jumps, because the speed burst helps you pull ahead of the pack.",
+      "Only kick a rival when they are beside you on the ground, and be careful, since some rivals kick back.",
+      "Expect one rival each race who is faster than the rest, so keep your speed up and check the trick score to know if you can still win. If you enjoy this kind of ride, you can browse [[motorcycle-and-bike-games|more bike racing games]]."
+    ],
+    "faq": [
+      [
+        "How do I win a race and unlock the next hill?",
+        "Finish in the top three, beat the trick score, and win the race to earn all three stars on that hill. Stars open the next hill."
+      ],
+      [
+        "How do I keep my trick streak going?",
+        "Chain tricks together without a wobble while you are in the air, so each landing keeps the streak alive and the trail on fire."
+      ]
+    ]
+  },
+  "obby-steal-a-car": {
+    "intro": "Obby Steal a Car is a multiplayer driving game where you sneak onto lots, steal rare cars, and race them back to your garage before the police catch you. Park cars to earn cash, then tune them and grow your setup.",
+    "tips": [
+      "Plan your route home before you press E, since you have to drive back to your garage with the police chasing you.",
+      "Park stolen cars in your garage as soon as you can, because that is how you turn them into cash for upgrades.",
+      "Raise your plot shield when you are away from your base so other thieves cannot get in.",
+      "Spend early earnings on tuning and Speed training before you rebirth, so your next run starts with a stronger setup. Winning races is also a good way to collect Tires.",
+      "If you are playing with other players online, watch for who is stealing near your lot and keep an eye on your garage. For more games with a similar hands-on feel, try [[truck-and-driving-games|more driving games to explore]]."
+    ],
+    "faq": [
+      [
+        "How do I steal a car?",
+        "Walk up to the car you want and hold E until the theft completes. Then drive with WASD back to your garage."
+      ],
+      [
+        "How do I earn cash?",
+        "Park the cars you steal in your garage. Cash is earned from the cars you park there."
+      ]
+    ]
+  },
+  "sticky-memo-ripping-game": {
+    "intro": "Sticky Memo is an idle tapper where you rip sticky notes off a memo block to reveal a model and earn cash. Your hands work on their own, and tapping speeds things up.",
+    "tips": [
+      "Spend your first cash on Hands upgrades, since they keep earning for you while you do other things.",
+      "Tap the screen during busy stretches, then let your hands work while you spend cash on upgrades.",
+      "Save your boosters for moments when you are already tapping, so Speed Up and x3 Coins make the most of your effort.",
+      "Answer quiz questions quickly, because bonus coins are only awarded if you pick the right answer before time runs out. If you are unsure, pick the answer you think is most likely and move on. [[idle-and-tycoon-games|more idle tycoon style games]]",
+      "Check your museum regularly, since finished models are shown there and visitors bring in cash you can collect."
+    ],
+    "faq": [
+      [
+        "What is the main goal of Sticky Memo?",
+        "Rip every sheet off the memo block to reveal the model inside. Each sheet you remove earns cash."
+      ],
+      [
+        "How do I earn cash faster?",
+        "Tap the screen to rip faster and upgrade your Hands, Speed and Income with the cash you earn."
+      ]
+    ]
+  },
+  "my-castle": {
+    "intro": "My Castle is a strategy and management game where you grow a medieval castle, put dwellers to work, and send a prepared squad into battle. Your choices in building, training, and placement decide how each fight goes.",
+    "tips": [
+      "Level up your work rooms early, since upgrades raise both resource output and the size of your squad. Keep an eye on wood, food, and gold so none of them run dry.",
+      "Before you leave, check that every dweller is assigned to a work room, because they keep gathering while you are away. Idle dwellers produce nothing.",
+      "Look at the requirements on weapons and armor before equipping them. A dweller who is too weak for a heavy sword will not use it well, so train their stats in the training halls first.",
+      "Compare items by their rolled stats, not just their names or rarity. Two swords of the same type can differ, so the better roll may matter more than a rare label.",
+      "When you set up a fight, put tanky melee fighters at the front to take hits and move archers and mages behind them. Since the squad fights on its own, your placement is the main lever you control. If you enjoy building and managing rooms like this, you can find more [[simulator-games|management and building sims]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I make my squad stronger before an arena battle?",
+        "Train your dwellers in the training halls to raise their stats, then equip them with weapons and armor that meet their requirements. Better preparation usually matters more than anything you do during the fight."
+      ],
+      [
+        "Can I control my fighters during a battle?",
+        "No, the squad fights on its own once it starts. Your job is to set up the placement beforehand, with melee fighters up front and archers and mages behind."
+      ]
+    ]
+  },
+  "cleaning-simulator-spotless": {
+    "intro": "Cleaning Simulator: Spotless is a calm, storybook-style cleaning game with 23 levels. Each level is one dirty object you clean step by step, at your own pace.",
+    "tips": [
+      "Follow the hint on the picture and look for the tool with the green outline, since that is the one the level needs next.",
+      "Spray the cleaner and let the foam work before you scrub, so the dirt lifts more easily.",
+      "Use the steel wool on sooty areas like the stove, and rinse before you polish so the shine is clear.",
+      "Swipe across the picture to compare before and after whenever you are unsure whether a spot is fully clean. If you like slow, gentle tidying, you can find more [[cleaning-games|cleaning games]] on the site."
+    ],
+    "faq": [
+      [
+        "Can I run out of time or lose a level?",
+        "No. The game has no timer, no penalties, and no way to lose, so you can take as long as you like on each level."
+      ],
+      [
+        "How do I know when a level is finished?",
+        "A level ends by itself once everything is clean. Then press Next level to move on."
+      ]
+    ]
+  },
+  "bonk-flight": {
+    "intro": "Bonk Flight is a 3D launch game where you time your swing to bonk a little guy and send him as far as you can. Balance his nose, use nitro, and upgrade between flights to go further.",
+    "tips": [
+      "Watch the marker as it nears the end of the swing bar and hit when it starts to slow down for a Perfect Bonk.",
+      "Keep the nose close to the horizon while airborne to hold your speed.",
+      "Save nitro for when you start to slow down, and use it in short bursts rather than one long hold.",
+      "Fly into air streams for a big speed boost, and skip across lakes when you can. If you enjoy this kind of flying, you can browse more [[airplane-games|flying games to try]].",
+      "After each flight, spend your coins on the hitter, wings, or nitro that you struggle with most, since upgrades are how you fly further."
+    ],
+    "faq": [
+      [
+        "How do I get a Perfect Bonk?",
+        "Wait for the marker to slow down at the end of the swing bar, then click BONK! or press Space again. Hitting it too early or late will give a weaker launch."
+      ],
+      [
+        "How do I keep my speed in the air?",
+        "Keep the nose near the horizon by steering with W and S or the Up and Down arrows. Pointing the nose too far up or down will cost you speed."
+      ]
+    ]
+  },
+  "ink-brick-ronin": {
+    "intro": "Ink Brick Ronin is a blocky sword action game set in an ink-wash Japan. You fight waves of enemies, pick one of five anime heroes, and try to survive long enough to defeat four bosses.",
+    "tips": [
+      "Hold J or click to chain combos, and use Space to dash out of trouble before enemies surround you.",
+      "Save your heavy attack for tougher enemies: hold Q or right-click to charge it, and release when it's ready.",
+      "Use your ultimate on U when a wave is crowded, since it clears the screen and can turn a losing fight around.",
+      "When you level up, pick scrolls that match how you fight, such as fire or frost blades, and stick with them so your hero builds a clear strength. For more sword-based brawling, try [[ninja-and-fighting-games|other ninja sword brawlers]].",
+      "Watch how each boss moves for a few seconds before committing to attacks, then strike and step back to stay alive."
+    ],
+    "faq": [
+      [
+        "How do I keep my hero alive through the waves?",
+        "Dash with Space to dodge incoming attacks and avoid getting cornered. Use your hero skill on E when enemies group up so you can reset the pressure."
+      ],
+      [
+        "What is the difference between a combo and a heavy attack?",
+        "Combos come from tapping or holding J or clicking to slash in sequence. The heavy attack needs you to hold Q or right-click to charge it, which takes longer but hits harder."
+      ]
+    ]
+  },
+  "tap-hexa-out-tap-it-away": {
+    "intro": "Tap Hexa Out is a one-tap puzzle where each hexa block rolls along its arrow. Clear every block before you run out of moves, and plan each tap so it doesn't waste one.",
+    "tips": [
+      "Before tapping, check which block has a clear path off the board, since a blocked tap bounces back and costs a move.",
+      "Start with the blocks on the edges, because they are usually the easiest to clear and can open paths for the blocks behind them.",
+      "Look at locked blocks early and note how many moves until they open, so you can plan your other taps around them.",
+      "Save the Hammer, Bomb and Drill for when you are truly stuck, rather than using them on the first tricky board.",
+      "If you enjoy planning several moves ahead, try some [[brain-games|brain games for sharper thinking]] between sessions."
+    ],
+    "faq": [
+      [
+        "What happens if I tap a block whose path is blocked?",
+        "The block bounces back and the move is used up, so look at what is in its way before tapping."
+      ],
+      [
+        "When should I use the Hammer, Bomb or Drill?",
+        "Use them when you have no clear path left and the board is stuck, since they are meant to help you get past difficult spots."
+      ]
+    ]
+  },
+  "what-sleeps-above": {
+    "intro": "What Sleeps Above is a horror take on Jack and the Beanstalk. You farm by day, climb the stalk, explore dark zones, and put the giants above to sleep.",
+    "tips": [
+      "Before you climb, spend time on the farm and gather what you can scavenge and craft, since you will need it for the climb and the fights.",
+      "Look for the harp in the Cold Field early, because you need it to put the giants to sleep.",
+      "In a fight, switch between guarding and striking instead of attacking nonstop, so you can read the giant's moves before you commit.",
+      "Learn the five harp keys (J, I, K, U and L) ahead of time so you can play notes quickly when the moment comes.",
+      "If the dark mood appeals to you, browse [[horror-games|more horror games to try]] after you finish this one."
+    ],
+    "faq": [
+      [
+        "What is the goal of What Sleeps Above?",
+        "Climb the beanstalk, find the harp in the Cold Field, and put each giant to sleep."
+      ],
+      [
+        "How do I play the harp during a giant fight?",
+        "Play the harp's notes with J, I, K, U and L, and guard with the arrow keys and Space when you need to protect yourself."
+      ]
+    ]
+  },
+  "crazy-bike-racer": {
+    "intro": "Crazy Bike Racer is a motorcycle racing game where you pick from sixteen bikes, upgrade them, and race through four zones. Each zone ends with a fight against a gang boss, and you need to beat all four leaders to win.",
+    "tips": [
+      "Before your first race, spend some time tuning your bike's performance and design, since a better-prepared bike makes the early races easier to win.",
+      "Use Shift for nitro in short bursts on straights and clear stretches, so you keep a speed boost ready for the moments when you need to pass a rival.",
+      "Try the first-person view for close, realistic control of your lean and steering, then switch to a wider camera angle when you need to watch the competition around you.",
+      "Tap Space to brake before tight corners instead of braking late, so you can keep your momentum through the turn and accelerate out with WASD sooner.",
+      "If you enjoy the bike handling here, you can compare other options in [[motorcycle-and-bike-games|more two-wheeled racing titles]] to find styles that suit you."
+    ],
+    "faq": [
+      [
+        "How do I steer and accelerate my bike?",
+        "Use the W, A, S, and D keys to drive, which covers acceleration and steering. Use Space to brake and Shift to fire nitro."
+      ],
+      [
+        "Can I choose different camera views?",
+        "Yes, you can play from the perspective of your racer for a more realistic feel, or use the other camera angles to get a wider view of the race."
+      ]
+    ]
+  },
+  "fight-arena-online": {
+    "intro": "Fight Arena Online is a multiplayer fighting game where you pick a character, upgrade its equipment and special attacks, and battle other players or bots. Challenge mode tests your skills with special tasks.",
+    "tips": [
+      "Learn the jump and roll before you commit to a fight, since Space jumps and Left Shift rolls can get you out of trouble quickly.",
+      "Try attacks while running with D or A, because running gives you different attacks that can catch an opponent off guard.",
+      "Use Challenge mode to practice combos and special tasks, which helps you learn timing before you face real players online.",
+      "Upgrade your equipment and special attacks steadily instead of spending everything at once, so your character stays useful in every arena.",
+      "If you enjoy the fighting side, [[ninja-and-fighting-games|other fighting game picks]] are a good next step to build the same reflexes."
+    ],
+    "faq": [
+      [
+        "How do I attack in Fight Arena Online?",
+        "Use the left and right mouse buttons to attack. Attacks change when you are running, so try both while moving."
+      ],
+      [
+        "What is the difference between rolling and attacking from below?",
+        "Pressing Left Shift lets you roll or attack from below, so it is useful for escaping close danger or hitting a low target."
+      ]
+    ]
+  },
+  "truck-loader-online": {
+    "intro": "Truck Loader Online is a puzzle game where you use a forklift to collect boxes scattered across each level and load them onto a truck. Early levels are simple, but later ones ask for special moves and sequences.",
+    "tips": [
+      "Use the mouse to steer the tractor arm and the arrow keys to drive, so pick up boxes with the arm while you keep the tractor in a safe position.",
+      "On easy levels, plan a driving route that collects every box in one loop instead of crisscrossing the area.",
+      "When a level asks for a sequence, look at the order the boxes must reach the truck before you grab the first one, since a wrong order can block later loads.",
+      "Handle fragile items gently and leave them for last if they need careful placement, so you do not have to move them again.",
+      "If you enjoy steering heavy vehicles, you can find other [[truck-and-driving-games|truck and driving titles]] to compare how loading and control feel."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Truck Loader Online?",
+        "Your goal is to load all the boxes in each level into the truck, which completes the level."
+      ],
+      [
+        "How do I control the forklift?",
+        "Use your mouse to control the tractor arm and the arrow keys to move the tractor around the level."
+      ]
+    ]
   }
 }
