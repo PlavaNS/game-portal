@@ -979,53 +979,5 @@
     "embed": "https://boardclash.com/",
     "thumb": "https://boardclash.com/og-boardclash.png",
     "orientation": "landscape"
-  },
-  {
-    "slug": "smarter-than-you",
-    "title": "Smarter Than You",
-    "studio": "UrbanReign",
-    "studioUrl": "https://gamejolt.com/@UrbanReign",
-    "added": "2026-11-20",
-    "short": "Head-to-head trivia battle: answer faster and more accurately than your opponent to prove you're smarter.",
-    "description": "Smarter Than You is a head-to-head trivia game where two players race to answer the same questions first. Points are awarded for speed as well as accuracy, so a quick wrong answer can cost you while a confident correct one seals the round. Categories span general knowledge, pop culture and more. Currently in beta, the game is playable in-browser via Game Jolt.",
-    "instructions": "Select your answer from the multiple-choice options before your opponent does. The faster you answer correctly, the more points you score. First to reach the target score wins.",
-    "category": "trivia",
-    "extraCats": [
-      "multiplayer"
-    ],
-    "tags": [
-      "Trivia",
-      "Quiz",
-      "Multiplayer",
-      "Educational",
-      "Competitive"
-    ],
-    "embed": "https://gamejolt.com/games/smarter-than-you/1119097",
-    "thumb": "https://m.gjcdn.net/game-thumbnail/400/1119097-crop0_0_1920_1080-k3qvbvdv.webp",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "macbeth-urban-reign",
-    "title": "Macbeth: Urban Reign",
-    "studio": "UrbanReign",
-    "studioUrl": "https://gamejolt.com/@UrbanReign",
-    "added": "2026-11-20",
-    "short": "Shakespeare meets street gangs: lead Macbeth's crew through a modern city of power, betrayal and ambition.",
-    "description": "Macbeth: Urban Reign reimagines Shakespeare's tragedy in a contemporary urban setting. You step into a city carved up by rival crews, playing out the story of ambition, paranoia and downfall through street-level action and dialogue. The core beats of the original play—the scheming, the ascending to power, the unraveling—are transposed onto a gritty modern cityscape. Currently a beta playtest build, available to try in-browser via Game Jolt.",
-    "instructions": "Follow the in-game prompts to navigate the city and interact with characters. Controls vary by scene; on-screen guidance will appear when input is needed.",
-    "category": "adventure",
-    "extraCats": [
-      "action"
-    ],
-    "tags": [
-      "Story",
-      "Urban",
-      "Action",
-      "Drama",
-      "Shakespeare"
-    ],
-    "embed": "https://gamejolt.com/games/macbeth-urban-reign/1119096",
-    "thumb": "https://m.gjcdn.net/game-thumbnail/400/1119096-crop0_0_1920_1080-k3qvbvdv.webp",
-    "orientation": "landscape"
   }
 ]
