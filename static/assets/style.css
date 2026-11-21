@@ -766,10 +766,12 @@ body{background:radial-gradient(900px 480px at 10% -90px,rgba(255,61,110,.14),tr
 .trio-item{--tc:#ff3d6e;border:1px solid var(--line)!important;border-radius:18px}
 .trio-own{--tc:#19b4cf}.trio-day,.trio-week,.trio-month{--tc:#22c55e}.trio-iday{--tc:#17b3d6}.trio-iweek{--tc:#a855f7}.trio-imonth{--tc:#ff9f1c}
 .trio-item:hover{transform:translateY(-6px);border-color:var(--tc)!important;box-shadow:0 22px 44px -16px color-mix(in srgb,var(--tc) 70%,transparent)!important}
-.trio-media{border-radius:0}
+.trio-media{border-radius:0;aspect-ratio:2/1}
 .trio-media img,.trio-media video{transition:transform .4s ease}
 .trio-item:hover .trio-media img,.trio-item:hover .trio-media video{transform:scale(1.05)}
-.trio-text{padding:16px 18px 18px}
+.trio-text{padding:13px 16px 15px}
+.trio-text h2{font-size:17px}
+.trio-text .trio-desc{font-size:13.5px}
 @media (max-width:860px){.trio,.trio2,.trio-indie{gap:14px}}
 
 /* buttons and game tiles */
