@@ -4,6 +4,8 @@ name: Translate the site (Claude API)
 # Interface text and the landing pages are always brought up to date; "games" says how many
 # game pages to add on top (Search Console pages first). Running it again adds more.
 on:
+  schedule:
+    - cron: '41 1 * * *'   # every day 02:41 Belgrade: 500 more game pages per language (credit refilled 20.11.2026, expires 23.12.2026)
   workflow_dispatch:
     inputs:
       langs:
