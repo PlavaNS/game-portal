@@ -1093,7 +1093,6 @@ ${weekSection}${daySection}${monthSection}${yearSection}<h2>Not on the site yet?
   const indieHeroHtml = `<div class="il-hero">
   <div class="il-hero-logo"><a href="${ur('/')}"><img src="${B}/assets/badge-door404.svg" alt="${esc(cfg.studio)}" width="140" height="49" loading="eager" decoding="async"></a></div>
   <div class="il-hero-text">
-    <h1 class="il-hero-title">Indie Browser Games</h1>
     <p class="il-hero-lead">Every browser game submitted by an independent developer and accepted onto <strong>${esc(cfg.name)}</strong>. A real person plays every submission before it goes live.</p>
     <p><a class="btn" href="${ur('/submit-game/')}">Submit your game &mdash; it&rsquo;s free</a></p>
   </div>
