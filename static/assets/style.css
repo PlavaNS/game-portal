@@ -396,10 +396,6 @@ main{max-width:1500px;margin:0 auto}
 .feat-media img,.feat-media video{transition:transform .25s}
 .feat:hover .feat-media img,.feat:hover .feat-media video{transform:scale(1.03)}
 /* light mode: ghost buttons (Play now in the news list) must stay readable */
-:root[data-theme=light] .banner{background:rgba(0,0,0,0.04);border-color:rgba(0,0,0,0.1)!important;color:#16182e}
-:root[data-theme=light] .banner:hover{box-shadow:0 8px 20px rgba(0,0,0,0.12)!important}
-:root[data-theme=light] .bn-own,:root[data-theme=light] .bn-indie-head,:root[data-theme=light] .bn-feat-head,:root[data-theme=light] .bn-new,:root[data-theme=light] .bn-pop,:root[data-theme=light] .bn-trend,:root[data-theme=light] .bn-cats,:root[data-theme=light] .bn-news{background:unset;color:#fff}
-:root[data-theme=light] .welcome-center::before{background:radial-gradient(circle at 50% 0%,rgba(255,61,110,0.05) 0%,transparent 60%)}
 :root[data-theme=light] .welcome-center h1,:root[data-theme=light] .welcome h1 span,:root[data-theme=light] .hero-num{color:#16182e!important}
 :root[data-theme=light] .btn.ghost{background:#fff;border-color:#cfd3e8;color:#16182e}
 :root[data-theme=light] .btn.ghost:hover{border-color:var(--accent);color:var(--accent)}
@@ -734,3 +730,54 @@ body.menu-open .drawer{transform:none;visibility:visible}
 .il-feat-badge:hover img{opacity:1}
 @media (max-width:900px){.il-badge,.il-badge-h{display:none}}
 @media (max-width:680px){.il-desc,.il-date,.il-desc-h{display:none}.il-hero{flex-direction:column;padding:20px;gap:16px}.il-thumb{width:90px}.il-thumb img{width:80px;height:60px}}
+
+/* ===== 21.11.2026 polish layer: one consistent look in both themes ===== */
+/* soft colour glow behind the top of every page */
+body{background:radial-gradient(900px 480px at 10% -90px,rgba(255,61,110,.14),transparent 62%),radial-gradient(900px 520px at 92% -60px,rgba(23,179,214,.12),transparent 62%),var(--bg);background-repeat:no-repeat}
+:root[data-theme=light] body{background:radial-gradient(900px 480px at 10% -90px,rgba(255,61,110,.10),transparent 62%),radial-gradient(900px 520px at 92% -60px,rgba(23,179,214,.10),transparent 62%),var(--bg);background-repeat:no-repeat}
+
+/* hero */
+.welcome-center{margin:38px 0 34px}
+.welcome-center::before{display:none}
+.welcome-center h1{font-size:clamp(30px,4.8vw,54px);font-weight:900;letter-spacing:-.035em;line-height:1.04;color:var(--text)}
+.welcome-center h1 .hero-num{background:linear-gradient(100deg,#ff3d6e 10%,#ff9f1c 90%);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.welcome-center .welcome-sub{font-size:16px;margin-top:14px}
+
+/* section headings: no box, a colour bar, the title, an arrow */
+.banner,.banner:hover{background:none!important;border:0!important;box-shadow:none!important;backdrop-filter:none;transform:none}
+.banner{--bn:linear-gradient(180deg,#ff3d6e,#ff9f1c);--bg1:#ff3d6e;flex-direction:row;align-items:center;justify-content:flex-start;gap:14px;min-height:0;padding:0!important;margin:46px 0 16px;border-radius:0;overflow:visible;color:var(--text);text-align:left}
+.banner::before{content:"";flex:none;width:5px;align-self:stretch;min-height:40px;border-radius:99px;background:var(--bn);box-shadow:0 0 16px color-mix(in srgb,var(--bg1) 60%,transparent)}
+.banner::after{content:"\2192";margin-left:auto;flex:none;display:grid;place-items:center;width:38px;height:38px;border-radius:50%;border:1px solid var(--line);color:var(--muted);font-size:17px;transition:transform .18s,background .18s,color .18s,border-color .18s}
+.banner:hover::after{background:var(--bg1);border-color:var(--bg1);color:#fff;transform:translateX(4px)}
+.bn-text b{font-size:25px;font-weight:800;letter-spacing:-.02em;text-shadow:none;color:var(--text)}
+.bn-text small{font-size:13.5px;font-weight:500;opacity:1;color:var(--muted);margin-top:2px}
+.bn-own{--bn:linear-gradient(180deg,#19b4cf,#03637a);--bg1:#19b4cf}
+.bn-indie-head,.bn-trend{--bn:linear-gradient(180deg,#a855f7,#6a11cb);--bg1:#a855f7}
+.bn-feat-head,.bn-cats{--bn:linear-gradient(180deg,#ffb000,#f97316);--bg1:#f59e0b}
+.bn-new{--bn:linear-gradient(180deg,#00c6ff,#1a5cff);--bg1:#1a9dff}
+.bn-pop{--bn:linear-gradient(180deg,#3ddc97,#0f9b6c);--bg1:#22c55e}
+.bn-news{--bn:linear-gradient(180deg,#f472b6,#be123c);--bg1:#ec4899}
+@media (max-width:640px){.banner{margin:34px 0 12px;gap:11px}.bn-text b{font-size:20px}.bn-text small{font-size:12.5px}.banner::after{width:32px;height:32px;font-size:15px}}
+
+/* the three-card sections sit straight on the page, no slab behind them */
+.trio,.trio2,.trio-indie{background:none;border:0;box-shadow:none;margin:0 0 8px;gap:18px}
+.trio-head{padding:0;border:0;background:none!important;text-align:left}
+.trio-head .banner{margin-bottom:0}
+.trio-item{--tc:#ff3d6e;border:1px solid var(--line)!important;border-radius:18px}
+.trio-own{--tc:#19b4cf}.trio-day,.trio-week,.trio-month{--tc:#22c55e}.trio-iday{--tc:#17b3d6}.trio-iweek{--tc:#a855f7}.trio-imonth{--tc:#ff9f1c}
+.trio-item:hover{transform:translateY(-6px);border-color:var(--tc)!important;box-shadow:0 22px 44px -16px color-mix(in srgb,var(--tc) 70%,transparent)!important}
+.trio-media{border-radius:0}
+.trio-media img,.trio-media video{transition:transform .4s ease}
+.trio-item:hover .trio-media img,.trio-item:hover .trio-media video{transform:scale(1.05)}
+.trio-text{padding:16px 18px 18px}
+@media (max-width:860px){.trio,.trio2,.trio-indie{gap:14px}}
+
+/* buttons and game tiles */
+.btn{background:linear-gradient(100deg,#e11d5a,#c2185b);box-shadow:0 8px 20px -8px rgba(225,29,90,.7)}
+.btn.ghost{background:transparent;box-shadow:none}
+.card{border-radius:16px}
+.card:hover,.card:focus-visible{box-shadow:0 0 0 2px var(--accent),0 16px 34px -10px rgba(255,61,110,.55)}
+@media (prefers-reduced-motion:reduce){.trio-item,.trio-media img,.trio-media video,.card,.banner::after{transition:none}}
+.welcome-center h1 .hero-num{display:inline;font-size:inherit;font-weight:inherit}
+.trio-head{margin:40px 0 0}
+.trio-head .banner{margin:0}
