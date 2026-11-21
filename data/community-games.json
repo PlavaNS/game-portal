@@ -979,5 +979,29 @@
     "embed": "https://boardclash.com/",
     "thumb": "https://boardclash.com/og-boardclash.png",
     "orientation": "landscape"
+  },
+  {
+    "slug": "legend-court",
+    "title": "Legend Court",
+    "studio": "Legend Court",
+    "studioUrl": "https://legendcourt.com/",
+    "added": "2026-11-21",
+    "short": "Street basketball card game: 1 vs 1 and 3 vs 3 matches, collect player packs and build your team.",
+    "description": "Legend Court is a free browser basketball game. Play quick 1 vs 1 and 3 vs 3 matches, open player card packs, build your team and work your way through a story mode set on the neighborhood courts.",
+    "instructions": "Press PLAY to start a match. Use the on-screen controls to pass, shoot and defend. Open packs and build your roster between matches.",
+    "category": "sports",
+    "extraCats": [
+      "multiplayer",
+      "action"
+    ],
+    "tags": [
+      "Basketball",
+      "Sports",
+      "Card Game",
+      "Team Builder"
+    ],
+    "embed": "https://legendcourt.com/",
+    "thumb": "/assets/community/legend-court.jpg",
+    "orientation": "landscape"
   }
 ]
