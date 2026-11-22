@@ -244510,5 +244510,343 @@
         "Use your mouse to control the tractor arm and the arrow keys to move the tractor around the level."
       ]
     ]
+  },
+  "arena-of-masters-stickman": {
+    "intro": "Arena of Masters: Stickman is a 2D stickman fighter with combos, juggles and ragdoll knockouts. Choose one of 18 fighters, each with a weapon and two special moves, and win two rounds to take the fight.",
+    "tips": [
+      "Press J again at the right moment to extend a combo, since one attack button chains punches, kicks and spinning finishers.",
+      "When an opponent is comboing you, press K early to use a breaker and escape the chain instead of waiting for it to end.",
+      "Watch your stamina bar, because attacks and blocks both drain it; ease off the buttons for a moment when it runs low so you do not get tired in the middle of a round.",
+      "Stand close to the opponent and use Back+K to throw them, which is useful when they keep blocking your normal attacks.",
+      "If you play on one keyboard with a friend, learn the separate key sets for each player first, and try [[2-player-games|other games for two players]] to practice reading a shared screen."
+    ],
+    "faq": [
+      [
+        "How do I win a round?",
+        "Knock the opponent out, or have more health left when the timer runs out. You need to win two rounds to win the fight."
+      ],
+      [
+        "How do I break out of a combo?",
+        "Press K while you are being comboed to use a breaker. Timing it early in the chain gives you the best chance to get free."
+      ]
+    ]
+  },
+  "vice-arcade": {
+    "intro": "Vice Arcade is a fan-made browser arcade built around a neon street-chase game. Its main event, the Vice City Heat Run, asks you to collect cash cases and escape a rising wanted level within sixty seconds.",
+    "tips": [
+      "Use the brake and drift keys before corners, not during them, so you keep control of the car while the wanted level climbs.",
+      "Switch drivers with C when your current one is in a tricky spot, since each driver gives you a different way to handle the street grid.",
+      "Plan a route across the grid that passes cash cases on the way out, so you are not circling back while the timer runs down.",
+      "Restart with R right away if a run goes badly early on, since a fresh sixty-second run is quicker than recovering a lost one. For more practice with steering and drifting, try these [[car-games|driving games with similar controls]].",
+      "Keep an eye on the wanted level as you drive, and aim to break away from pursuit before it gets too high."
+    ],
+    "faq": [
+      [
+        "What is the goal of the Vice City Heat Run?",
+        "You drive a street grid for sixty seconds, collect cash cases, and try to escape a rising wanted level before time runs out."
+      ],
+      [
+        "Which keys control the car?",
+        "Use the arrow keys to drive, accelerate, brake and drift. C swaps your driver, R restarts, M mutes the sound and F turns on fullscreen."
+      ]
+    ]
+  },
+  "crypt-crawlers": {
+    "intro": "Crypt Crawlers is a pixel art idle dungeon crawler where you pick a hero like Bram the Knight, level up, and push for your best wave record. Your hero attacks on its own while you cast skills and move to survive.",
+    "tips": [
+      "Keep your hero moving with your left thumb or the keys shown in the game, since staying in control is what keeps you alive as waves get harder.",
+      "Attacks are automatic, so spend your attention on movement and timing your skills rather than on tapping to attack.",
+      "Save skills for moments when enemies crowd you, instead of casting them the moment they are ready, so they matter most when you need them.",
+      "Check your daily bonuses and spin for rewards regularly, since these add up over time and help your hero grow between runs.",
+      "If you enjoy steady progress and slow growth, you can find more of that style in [[idle-and-tycoon-games|idle progression games to try]]."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Crypt Crawlers?",
+        "The main goal is to survive as long as you can and push for your best wave record."
+      ],
+      [
+        "How do I attack enemies?",
+        "Your hero attacks automatically, so you do not need to tap to attack. You focus on moving and casting skills."
+      ]
+    ]
+  },
+  "nitro-crush-monster-truck": {
+    "intro": "Nitro Crush Monster Truck is a 3D racing game where you drive giant monster trucks through 30 levels across six chapters. Race rival trucks, beat the clock, or compete for championship cups.",
+    "tips": [
+      "Finishing first is the only way to collect all three stars on a level, so prioritise winning races over just completing them.",
+      "Use W to accelerate and A and D to steer, and tap S to reverse if your truck gets stuck against a wall or obstacle.",
+      "Spend your upgrades on the stat that suits the track you are struggling with, such as grip for tight turns or top speed for long straights.",
+      "Try Time Trials on a course you already know to practise your line through corners before racing rivals on the same route.",
+      "Log in each day to collect your daily rewards, and check the garage for trucks you can unlock as you progress. For more giant truck racing, browse [[monster-truck-games|more monster truck titles]]."
+    ],
+    "faq": [
+      [
+        "How do I earn all three stars on a level?",
+        "You need to finish first in the race to collect all the stars and unlock new chapters."
+      ],
+      [
+        "Which keys control the truck?",
+        "Use W to accelerate, S to brake or reverse, and A and D to turn left and right."
+      ]
+    ]
+  },
+  "sky-stunt-races": {
+    "intro": "Sky Stunt Races is a 3D arcade racer where you race through the city sky, launching off ramps and performing flips and rolls. This guide covers how to race fast, land cleanly, and earn stars.",
+    "tips": [
+      "Plan your stunts before each ramp. Flips and barrel rolls are only useful if you can land cleanly, so pick one trick you can finish reliably.",
+      "Use nitro on flat, straight stretches of road rather than in the middle of a jump, so you keep control of the car when it lands.",
+      "Collect coins along the route, since gold lets you upgrade your car and unlock new ones that may help on later levels.",
+      "Aim for the 3 stars on each level by replaying tracks you have already finished and trying to cut time, not just reach the finish line.",
+      "If a run goes badly and you are stuck or flipped in a bad spot, press R to reset to the road rather than losing time struggling. If you enjoy sliding through corners, [[drift-games|try more sliding challenges]] to sharpen your handbrake control."
+    ],
+    "faq": [
+      [
+        "How do I earn stars on a level?",
+        "Reach the finish line as fast as you can, land your stunts cleanly, and collect coins to earn up to 3 stars per level."
+      ],
+      [
+        "What do the air controls do?",
+        "In the air, the same keys used for driving flip and roll the car, so you can set up your landing while you are off the ground."
+      ]
+    ]
+  },
+  "tapshot-io": {
+    "intro": "Tapshot.io is a fast browser first-person shooter where aim and movement decide each fight. You can switch between a sniper rifle, a revolver, and a knife while you race for kills on the leaderboard.",
+    "tips": [
+      "Keep moving between shots and use cover, since standing still makes you an easy target for the sniper rifle.",
+      "Use the revolver for quick follow-up shots after a sniper hit, and switch to the knife when an enemy is close.",
+      "Before you shoot, hold the aim control to line up a precise shot, then fire once you are steady on the target.",
+      "Focus on earning kills early in a round, because the round ends on a timer and the leaderboard rewards kills.",
+      "If you enjoy fast head-to-head fights, you can also try more [[multiplayer-games|online games played against other people]]."
+    ],
+    "faq": [
+      [
+        "How do I get more kills in a match?",
+        "Stay on the move, use cover to avoid return fire, and pick the weapon that fits the distance, such as the sniper rifle for long shots and the knife up close."
+      ],
+      [
+        "How do I aim on mobile?",
+        "Drag on the right side of the screen to look and aim, then hold the shoot button with the sniper or revolver to aim and release it to fire."
+      ]
+    ]
+  },
+  "crossword-harbor": {
+    "intro": "Crossword Harbor is a turn-based crossword duel where you place letter tiles on an arrowword grid to outscore your computer rival. Right letters score, finished words earn a bonus, and the higher score wins the board.",
+    "tips": [
+      "Read each clue's arrow before placing anything, since it shows exactly where the answer goes. Tapping a clue to view it larger helps when the text is hard to read.",
+      "Look for star cells before you commit a tile, because they score double. Spending a strong letter on one can swing a close board.",
+      "Aim to finish words rather than scattering letters, since completing a word earns a bonus on top of the letter points. Keep an eye on which words are nearly full.",
+      "Use Hint when you are stuck, as it lights up the right cells for the tiles you hold. If your rack has no useful letters, Swap deals you new tiles.",
+      "Remember that you start with +30 points for going second, so you do not need to panic about the early lead. Play steadily and focus on filling the board well, because the higher score when it is full wins. For more letter-based puzzles, try [[word-games|more word games to explore]]."
+    ],
+    "faq": [
+      [
+        "How do I win a board?",
+        "The board is won by the player with the higher score once every cell is filled. Right letters, star cells and finished words all add to your total."
+      ],
+      [
+        "What happens when I place a wrong letter?",
+        "Wrong letters go back to your rack, so you do not lose them for good. You can then try them in a different cell on a later turn."
+      ]
+    ]
+  },
+  "dino-rodeo-3d": {
+    "intro": "Dino Rodeo 3D is a blocky 3D ride-and-catch game where you leap onto stampeding dinosaurs, lasso them and hop from one to the next. Catch as many as you can in a run and bring them back to your pen to earn coins.",
+    "tips": [
+      "Jump first, then press jump again in the air to throw the lasso. Aim while you are still rising so the lasso reaches the dino in the circle before you start falling.",
+      "Keep moving from one dino to the next without touching the ground. Each landing gives you a fresh chance to keep your run going.",
+      "Spend your early coins on the trainer to grow your energy before anything else. Stronger energy helps you hold bigger dinos.",
+      "Fusing three dinos into a bigger one is worth planning for. Keep a few similar dinos in your pen so you can combine them when you have enough.",
+      "If you enjoy taming creatures, you can find more [[animal-games|creature catching games]] to try after a few runs here."
+    ],
+    "faq": [
+      [
+        "How do I catch a dinosaur?",
+        "Jump, press jump again in the air to throw your lasso at the dino in the circle, then land on its back. Once you are riding it, you can hop to the next dino."
+      ],
+      [
+        "How do I earn coins?",
+        "Every dino you tame goes to your pen and earns coins. Bring as many back as you can in a run, then spend the coins on upgrades and new biomes."
+      ]
+    ]
+  },
+  "city-rush-2000": {
+    "intro": "City Rush 2000 is a short, colorful city builder where you draw roads and zones to grow a village into a city of 2,000 residents. Each run is a quick session with a 10-minute timer.",
+    "tips": [
+      "Place roads first and paint housing along them, since homes only grow where they have road access and your city is built outward from there.",
+      "Balance your zones: add shops and factories so residents have jobs, and check what your residents are asking for before adding more housing.",
+      "Keep power and water flowing to every zone you paint, because growth stalls in areas that lack them.",
+      "Spend early minutes on your core layout so later parks, schools, police and clinics can be placed without tearing up roads, and speed matters for earning extra stars.",
+      "If the timer feels stressful, try sandbox mode, which removes the clock and gives unlimited money, or browse [[relaxing-games|slow-paced games to unwind with]] when you want a calmer session."
+    ],
+    "faq": [
+      [
+        "What is the main goal in City Rush 2000?",
+        "Reach 2,000 residents before the 10-minute timer runs out. Finishing faster earns more stars, up to three."
+      ],
+      [
+        "How do I upgrade or remove a building?",
+        "Select the tool and click a building to upgrade or demolish it."
+      ]
+    ]
+  },
+  "gym-simulator-pump-town": {
+    "intro": "Gym Simulator: Pump Town is a cartoon tycoon where you start in a garage with one bench and grow it into a rooftop gym. You train, win rival duels, and collect cash to expand your gym.",
+    "tips": [
+      "Stand still on equipment to train, and press Space or the yellow button when the marker is on gold to get perfect reps.",
+      "In ring duels, watch for the red arrow and step aside to dodge, then use the counter opportunity that follows.",
+      "Save your special attack for when its button glows, since it is available only at that moment.",
+      "Check the reception regularly to collect cash, then spend it on equipment at the glowing price pads to grow your gym faster.",
+      "If you enjoy building a business step by step, you may like these [[idle-and-tycoon-games|tycoon games to try]] next."
+    ],
+    "faq": [
+      [
+        "How do I earn money in Pump Town?",
+        "Collect protein shakes and cash at the reception, and every rival you beat joins your gym and pays membership."
+      ],
+      [
+        "What is the best way to handle ring duels?",
+        "Keep moving so you can step out of the way of the red arrow, and use your special only when its button glows."
+      ]
+    ]
+  },
+  "break-and-steal-an-egg": {
+    "intro": "Break and Steal an Egg is a fast clicker adventure where you smash eggs to hatch rare animals, then race them home before a guard catches you. Your pets earn cash in your pen, which you can spend on upgrades to go deeper.",
+    "tips": [
+      "Stay near the edge of the eggs you're breaking so you can see the guard coming before you commit to a steal.",
+      "Use Space to jump over obstacles on the way back, since a clean path home matters more than a fast start.",
+      "Upgrade your pickaxe early so eggs break faster and you spend less time standing still in the open.",
+      "Spend cash on speed trails once you have a few pets earning, because a faster run home is what keeps you ahead of the guard.",
+      "Focus on one biome at a time and learn how its guard moves before pushing into the next, since later guards are faster. If you enjoy collecting creatures, the [[animal-games|collection of animal games]] has more titles with similar pet-hunting goals."
+    ],
+    "faq": [
+      [
+        "What do I do when I get a pet?",
+        "Press E to steal it, then run it back to your pen before the guard catches you."
+      ],
+      [
+        "How do I earn cash?",
+        "Pets you bring home to your pen earn cash every second, so keeping more of them there helps your income."
+      ]
+    ]
+  },
+  "hair-salon-master": {
+    "intro": "Hair Salon Master is a 3D barbershop simulator where you invite customers to the chair, read their request, and cut their hair with a clipper and scissors. Earn stars and cash as you level up to unlock new tools and trickier requests.",
+    "tips": [
+      "Read the customer's request before you start cutting, and pick the guard length they asked for so the result matches what they want.",
+      "Follow the color highlights: strands shown in color still need cutting, so check the highlighted areas before you press Done.",
+      "Turn the head by dragging on empty space or using the arrow buttons to reach the sides and back, instead of only cutting the part facing you.",
+      "Brush off the clippings before pressing Done, since the bar fills toward the three-star score as you work through the cut. If you enjoy a slow, calm pace, [[relaxing-games|calm games to unwind]] pair well with this kind of steady work."
+    ],
+    "faq": [
+      [
+        "How do I earn all three stars?",
+        "Fill the bar by cutting the hair the customer asked for, then brush off the clippings and press Done. Following the guard length and color highlights helps you fill it fully."
+      ],
+      [
+        "What do the controls look like?",
+        "Use WASD or the arrow keys to walk, E to interact, and the mouse to cut. Drag the clipper or scissors over the hair, and drag on empty space to turn the head."
+      ]
+    ]
+  },
+  "toy-ramps": {
+    "intro": "Toy Ramps is a 3D stunt racer where you steer a toy car down giant plastic tracks through a house. Jump, flip and roll your way past three rival cars to the finish.",
+    "tips": [
+      "Your car keeps moving forward on its own, so spend your attention on steering and on the air time after each ramp.",
+      "Flip the car in the air, but let go of the controls before landing so it levels out and you come down on your wheels for the nitro and bonus coins.",
+      "Pick up Wings before long gaps so you can glide across instead of falling short, and grab the Magnet when a stretch of track is full of coins.",
+      "Watch for sticky syrup and slippery soap on the track, and plan your steering a moment early when you see moving obstacles ahead. For more driving titles, try [[car-games|browse more car driving games]].",
+      "In Stunt Shows, focus on clean tricks that finish with a good landing, since that is how the tricks score stars."
+    ],
+    "faq": [
+      [
+        "How do I win a race in Toy Ramps?",
+        "Reach the finish before the three rival toy cars do. Stay on the track, use ramps and nitro well, and keep your car on its wheels."
+      ],
+      [
+        "How do I land cleanly after a jump?",
+        "Use W/S or the up and down arrow keys to flip and A/D or left and right to roll in the air. Let go of the controls so the car levels out before it lands."
+      ]
+    ]
+  },
+  "grand-city-racing": {
+    "intro": "Grand City Racing is a 3D racing game with powerful cars, modification options and tough races. You can pick from Racing, Challenge and Free Drive modes, playing alone or with a friend on the same keyboard.",
+    "tips": [
+      "Start in Free Drive to learn how your car steers, brakes and accelerates before you enter the harder races.",
+      "Save your NOS boost for straight stretches or for a burst to pass a rival, since using it too early can leave you short when it matters most.",
+      "Use the handbrake with SPACE to help your car turn sharply in tight corners, and let off it once you are pointed back toward the track.",
+      "If your car gets stuck or ends up pointing the wrong way, press R to fix its position instead of losing time trying to drive out.",
+      "Once you are comfortable with the handling, browse other [[car-games|car games on the site]] to keep practising your driving skills."
+    ],
+    "faq": [
+      [
+        "How do I play two player mode?",
+        "Choose the two player option, then Player 1 uses W, A, S, D with F for NOS, T to look back, R to fix the car's position and SPACE for the handbrake."
+      ],
+      [
+        "Which game mode should I try first?",
+        "Free Drive is the best place to start, because you can explore the car without race pressure before moving on to Racing or Challenge."
+      ]
+    ]
+  },
+  "cyber-cars-punk-racing": {
+    "intro": "Cyber Cars Punk Racing is a 3D driving game set in a neon city, with supercars, several career modes, free roaming, and police chases. You can race computer opponents or play with a friend on the same keyboard.",
+    "tips": [
+      "In Race mode, you need a top 3 finish to unlock the next track, so it is worth replaying a race if you finish lower and then saving your nitro for the final stretch.",
+      "Your money in Race mode depends on how fast you finish, and drift and flight points add to it, so practice clean drifts and jumps on the way to the line.",
+      "In Against Time mode, your star rating depends on how quickly you reach the finish, so learn each track's layout before trying to set a fast time.",
+      "In Free Ride, check the Reward table every 180 seconds, and keep drifting and jumping in the meantime so your points are higher when it pays out.",
+      "If you enjoy sharing the controls with a friend, you can find more [[2-player-games|games for two players]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I unlock new tracks in Race mode?",
+        "You race against 7 AI opponents on each of the 12 tracks, and you must finish in the top 3 to move on to the next one."
+      ],
+      [
+        "What is the Nitro key for?",
+        "Player 1 uses N and Player 2 uses T to activate nitro, which gives you a speed boost when you need to pull ahead."
+      ]
+    ]
+  },
+  "flying-cars-era": {
+    "intro": "Flying Cars Era is a 3D racing game where you drive cars that can take to the air. You can choose Free Drive, Challenge, or Race, alone or with a friend on the same screen.",
+    "tips": [
+      "Start with Free Drive to learn how your car steers, brakes, and handles before you take on Challenge or Race.",
+      "Save your NOS boost for straight stretches where you can use it fully, and tap the hand brake to tighten sharp turns.",
+      "If your car ends up in a bad position, use the reset key right away instead of wasting time trying to recover it.",
+      "For a more competitive session, try two player mode, and if you like playing side by side, you can find more options on [[2-player-games|games for two players]].",
+      "Keep an eye on your in-game diamonds, since they are the way to buy three of the five flying cars and can change how you approach each mode."
+    ],
+    "faq": [
+      [
+        "What is the goal of Flying Cars Era?",
+        "The game offers Free Drive, Challenge, and Race modes, so your goal depends on the mode you pick. Race mode is the one to play if you want to compete against other cars."
+      ],
+      [
+        "How do I control the car in single player?",
+        "Use W, A, S, D or the arrow keys to move, Left Shift for NOS, Space for the hand brake, and R to reset the car's position."
+      ]
+    ]
+  },
+  "legendary-knight-in-search-of-treasures": {
+    "intro": "Legendary Knight: In Search of Treasures is a side-scrolling adventure where a knight collects four map pieces across dungeon zones to reveal a lost treasure. Each zone brings its own enemies, hazards, and puzzles.",
+    "tips": [
+      "Before moving on, clear the enemies in each zone so you can explore without being attacked from behind.",
+      "Take your time in the cavern behind the waterfall, where hazards and puzzles are mixed together, and check each platform before you commit to a jump.",
+      "Save your strongest focus for the castle dungeon, where you must defeat bosses and solve riddles back to back, so plan your moves rather than rushing.",
+      "Learn both control schemes early: WASD or the arrow keys for movement, with Space or Z to jump and C, E, or X to fire, so you can react quickly in fights. If you enjoy problem-solving, you can also browse [[puzzle-games|more brain-teasing puzzle games]] for practice."
+    ],
+    "faq": [
+      [
+        "What is the goal of the game?",
+        "Your knight must find all four map pieces hidden across the dungeon zones, then use them to reveal the location of the lost treasure."
+      ],
+      [
+        "Which keys fire and jump?",
+        "Use C, E, or X to fire and Space or Z to jump. Movement works with WASD or the arrow keys."
+      ]
+    ]
   }
 }
