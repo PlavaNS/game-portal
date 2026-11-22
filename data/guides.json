@@ -39,22 +39,26 @@
     ]
   },
   "fish-sort-puzzle": {
-    "intro": "Fish Sort Puzzle looks relaxing, but the holding tray turns every level into a small planning puzzle. These tips help you clear more tanks without getting stuck.",
+    "intro": "Fish Sort Puzzle shows you a few bubbles full of fish and a row of fishbowls at the top of the screen. Each bowl wants one kind of fish, the small tags under the bowls tell you which, and a short holding row catches anything you tap that has nowhere to go yet. Level 1 opens with two bowls ready and two more still locked.",
     "tips": [
-      "Before tapping, scan the bubbles for fish that already have an open matching tank and send those first.",
-      "Treat the holding tray as an emergency space, not storage. Every fish parked there makes the next mistake more expensive.",
-      "Try to finish a tank you have already started (two of three fish) before opening a new color.",
-      "Save boosters for the moment the tray is almost full instead of using them early.",
-      "If a level goes wrong, restart quickly: the early moves decide most levels."
+      "Read the tags under the bowls before you tap anything. They show which fish each bowl is collecting and how many it still needs.",
+      "The holding row under the bowls has only a few slots. If it fills up, the level is lost, so only tap a fish into it when you know its bowl is coming next.",
+      "Bubbles hide fish behind fish. Pop the bubble that frees the color you need, not the one that looks fullest.",
+      "The helpers at the bottom unlock at levels 3, 5 and 7. Save them for the moment the holding row is nearly full instead of spending them on easy turns.",
+      "Check the Daily gift on the main screen and the chest on the level path: they hand out coins you can spend in the Shop and on the Fish collection."
     ],
     "faq": [
       [
-        "Is Fish Sort Puzzle free?",
-        "Yes. You can play Fish Sort Puzzle online for free in your browser, with no download and no sign-up."
+        "How do I win a level in Fish Sort Puzzle?",
+        "Send every fish to the bowl that is collecting its kind. Fish that have no open bowl go to the holding row, and the level is lost if that row fills up."
       ],
       [
-        "Does my progress save?",
-        "Progress is saved locally in your browser, so you can come back and continue on the same device."
+        "When do the boosters unlock?",
+        "The three helper buttons at the bottom of the screen unlock at levels 3, 5 and 7."
+      ],
+      [
+        "Is Fish Sort Puzzle free?",
+        "Yes, you can play it free in your browser with no download and no sign-up. Progress is saved in your browser."
       ]
     ]
   },
@@ -8776,22 +8780,26 @@
     ]
   },
   "survival-island": {
-    "intro": "Survival Island is a tropical survival adventure where you gather wood and stone, craft tools, and build a base on a wild island. Resources are limited, so planning matters as much as exploring.",
+    "intro": "Survival Island puts you on a small sandy beach ringed by palm trees and rocks, with a workbench next to a palm, a berry bush and a treasure chest tucked against the cliffs. The first task on screen is simple, collect 5 pieces of wood, and everything after it grows out of what you gather and craft at that bench.",
     "tips": [
-      "Gather wood and stone early, since both are needed for building and crafting. Collect a steady supply before you start on bigger projects.",
-      "Craft and upgrade your tools as soon as you can. Better tools make gathering faster and help you keep up as the island gets harder.",
-      "Keep track of what you are running low on before you leave base. Heading out with a plan saves you from running out of key resources far from home.",
-      "Expand your territory in steps, building up your shelter first. A secure base makes it easier to explore new areas and return safely.",
-      "Spend upgrades on the abilities that help your current goal most. Focusing on one or two skills at a time is usually more effective than spreading points thinly."
+      "Follow the task card at the top of the screen. The first one asks for 5 wood, and each task unlocks the next tool or building, so it doubles as a tutorial.",
+      "Move with the on-screen stick at the bottom, or the keyboard on a computer, and walk into trees and rocks to gather from them.",
+      "Keep an eye on the bar in the top-left corner. Berries from the bush near the start are the quickest way to top it up.",
+      "Open the chest by the rocks early: free materials at the start save you a lot of chopping.",
+      "Use the upgrade arrow and the backpack in the bottom-left corner often. A fuller backpack means fewer trips back to the workbench."
     ],
     "faq": [
       [
-        "What is the main goal of Survival Island?",
-        "Your goal is to survive on the island by gathering resources, crafting items, and building a base you can keep improving. The game asks whether you can build your own paradise."
+        "What is the first thing to do in Survival Island?",
+        "Collect 5 wood from the palm trees around the beach. The task card at the top of the screen guides you from there."
       ],
       [
-        "How do I move around the island?",
-        "Use the game's controls to move your character and explore. The instructions describe the controls as simple, so you can focus on gathering and building."
+        "How do I move?",
+        "Drag the on-screen joystick at the bottom of the screen, or use the keyboard on a computer."
+      ],
+      [
+        "Is Survival Island free?",
+        "Yes. It is free to play in your browser on I Love Web Games."
       ]
     ]
   },
@@ -29636,7 +29644,8 @@
       "Keep K in mind for repairs. Repairing between smashes lets you keep testing the same car's damage instead of starting over with a wrecked vehicle.",
       "Use Space for the handbrake to slide your car into turns and line up hits on hammers, crushers, or ramps.",
       "Try the camera switch with C to change your view. A different angle can make it easier to judge where a wheel or door will fly off.",
-      "If your car lands upside down or gets stuck, press R to flip it back over and keep going without losing time."
+      "If your car lands upside down or gets stuck, press R to flip it back over and keep going without losing time.",
+      "Press N to open car selection and Tab to pause. The free-roam map has a concrete ramp and striped barrier blocks right next to the start, so you can test a new car within seconds."
     ],
     "faq": [
       [
@@ -49066,22 +49075,26 @@
     ]
   },
   "pc-cafe-simulator-3d": {
-    "intro": "PC Cafe Simulator 3D is a tycoon game where you run a gaming club. You build gaming PCs, host gamer clients, repair equipment, and expand your business over day and night cycles.",
+    "intro": "PC Cafe Simulator 3D starts with an empty shop front under a red \"PC cafe\" sign: one desk, a few posters and a lot of bare floor. You play in first person, order equipment on the old beige computer at the counter next to the cash register, and everything you buy is delivered straight into the club for you to set up.",
     "tips": [
-      "Learn which components you can assemble into gaming PCs early, so you can get your stations running before clients arrive.",
-      "Keep your equipment in good repair. Fixing broken machines helps everyone enjoy their favorite games and keeps the club running smoothly.",
-      "Use the day for hosting clients and earning money, and save the night for planning and upgrades.",
-      "Expand carefully by adding gaming stations once your current setup runs reliably, rather than adding them all at once.",
-      "Check the leaderboard now and then to see how your club compares, and use that as a guide for what to improve next."
+      "Your first stop is the counter computer by the cash register. That is where you order furniture and PC parts, so learn its menus before the first customers walk in.",
+      "Purchases arrive inside the club, not outside, so clear a spot on the floor before you order a big batch of desks.",
+      "Fill the room along the glass front first. Stations near the entrance are the first thing passing customers see.",
+      "Keep a little money back for repairs. A broken PC earns nothing until you fix it, and a full room of working machines beats a bigger room of broken ones.",
+      "Move with WASD, interact with E and jump with Space. Walk up close to an object before pressing E, or the game will not pick it up."
     ],
     "faq": [
       [
-        "What is the main goal of PC Cafe Simulator 3D?",
-        "The goal is to grow your gaming club into a well-known business by hosting clients, earning money, and adding more gaming stations. You also climb the leaderboard of club owners."
+        "Where do I buy new PCs in PC Cafe Simulator 3D?",
+        "Use the computer on the counter beside the cash register. Items you order are delivered straight into the club."
       ],
       [
-        "How do I move and interact in the game on PC?",
-        "Use WASD to move and E to interact. Press Space to jump."
+        "What are the controls?",
+        "WASD to move, E to interact and Space to jump on a computer. On mobile the game shows on-screen buttons."
+      ],
+      [
+        "Is the game free?",
+        "Yes. PC Cafe Simulator 3D is free to play in your browser on I Love Web Games."
       ]
     ]
   },
@@ -50125,22 +50138,26 @@
     ]
   },
   "hotel-manager-simulator": {
-    "intro": "Hotel Manager Simulator is a management game where you run a small hotel, keep guests happy, and grow your business. Your aim is to build up from a single small hotel into a much bigger one.",
+    "intro": "Hotel Manager Simulator drops you behind the desk of the Re'Grata, a small pink hotel where receptionist Monica waits for the first guest. Each shift runs on a two-minute clock, and the first one asks for 16 likes from a hotel with only two guest rooms upstairs, a laundry room and a stack of crates blocking the parts you have not unlocked yet.",
     "tips": [
-      "Check guests in as soon as you have an empty room so no rooms sit idle while guests are waiting.",
-      "Keep food and drinks flowing before guests start asking for them, since serving them is how you earn likes.",
-      "Clean rooms promptly after each checkout so the next guest can move in without delay.",
-      "Watch the guests' demands closely and prioritize the ones that are about to leave unhappy.",
-      "Save boosters for difficult moments when your service is falling behind, rather than using them early."
+      "Watch the timer in the top-left corner: a shift is only two minutes long, so a guest left waiting at the desk for twenty seconds is a real share of your day.",
+      "Keep an eye on the likes bar next to it. The number at its end is the target for the shift, so you always know how many happy guests you still need.",
+      "With only two rooms at the start, clean a room the moment a guest checks out; a dirty room is the bottleneck, not the queue at reception.",
+      "The laundry room on the upper left is part of the cleaning loop, so keep it in mind once rooms start turning over quickly.",
+      "The crates in the empty wings are your future expansion. Spend early earnings on getting those areas opened rather than on cosmetics."
     ],
     "faq": [
       [
-        "What is the main goal of Hotel Manager Simulator?",
-        "The goal is to grow a small new hotel into the biggest hotel in the world by serving guests well. Good service brings you likes, which help your business grow."
+        "How long is one round in Hotel Manager Simulator?",
+        "Each shift has a two-minute timer shown in the top-left corner, with a likes target you need to reach before it runs out."
       ],
       [
         "How do I earn likes?",
-        "You collect likes by giving guests food, drinks, and shelter. Keeping their needs met is the main way to earn them."
+        "Check guests into a free room, bring them food and drinks while they stay, then clean the room after they leave. Happy guests leave likes."
+      ],
+      [
+        "Is Hotel Manager Simulator free?",
+        "Yes, it is free to play in your browser on I Love Web Games, with no download or account."
       ]
     ]
   },
@@ -59961,22 +59978,26 @@
     ]
   },
   "dream-room": {
-    "intro": "Dream Room is a decorating game with six rooms to style, from a cozy bedroom to a sunny balcony. You choose the walls, floors, furniture, and décor, then save your design.",
+    "intro": "Dream Room starts you with 300 coins at level 1 and three buttons: Rooms, Challenges and Shop. The challenges are where the game gets its shape: themed briefs such as Pink Dream (a bedroom in pink tones), Cozy Evening, Lavender Paradise, Kids Kingdom, Dream Cafe, Tropical Balcony, Sea Breeze and Sweet Kitchen, each scored with up to three stars and paying 200 to 350 coins.",
     "tips": [
-      "Pick a mood before you shop, such as cozy, magical, or bright, and stick to it so your room feels cohesive.",
-      "Choose wallpaper and flooring first, since they set the base colors that your furniture and décor will sit on.",
-      "Try different window views, like the sea, mountains, or an enchanted garden, to see which one fits the room's style best.",
-      "Repaint items to match a color palette instead of keeping their default colors, which helps a room look planned.",
-      "Complete challenges to earn coins and rewards, then spend them on the pieces you want most, and save your design often."
+      "Start with Pink Dream and Cozy Evening: they are the two challenges open at the beginning and each pays 200 coins.",
+      "Read the brief literally. Sea Breeze asks for blue and white, Tropical Balcony for green tones, so pick wallpaper and floor in those colors before any furniture.",
+      "Higher challenges pay more (Dream Cafe gives 350 coins), so it is worth unlocking them before spending everything in the Shop.",
+      "Aim for three stars rather than racing through. Replaying a brief with a tighter color scheme is cheaper than buying new items.",
+      "Save your room often; saved designs also earn coins toward new furniture."
     ],
     "faq": [
       [
-        "How do I place an item in a room?",
-        "Open a category at the bottom of the screen, tap an item in the catalog, then tap anywhere in the room. You can drag it to any spot you like."
+        "How many coins do you start with in Dream Room?",
+        "You begin at level 1 with 300 coins. Challenges pay between 200 and 350 coins each."
       ],
       [
-        "How do I earn coins?",
-        "Save your design to earn coins for new items, and complete themed challenges for additional rewards."
+        "Which challenges are open at the start?",
+        "Pink Dream and Cozy Evening. The rest, such as Lavender Paradise, Kids Kingdom, Dream Cafe and Sweet Kitchen, unlock as you progress."
+      ],
+      [
+        "How do I place an item?",
+        "Open a category at the bottom of the screen, tap an item in the catalog, then tap the room and drag it into place."
       ]
     ]
   },
