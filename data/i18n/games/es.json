@@ -110320,8 +110320,8 @@
   }
  },
  "revoxel-3d-voxel-rpg-shooter": {
-  "description": "Sumérgete en un shooter RPG dinámico de estilo voxel con ambiente cyberpunk. Una ciudad futurista oscura, invadida por una corporación tecnológica, te espera, junto con batallas interminables contra robots y monstruos, desarrollo de personaje y acción constante al estilo de un shooter RPG. Recorre las calles de la metrópolis, descubre una conspiración, mejora tus armas y equipo, extrae recursos y derrota a los jefes. El juego combina disparos llenos de acción, elementos de supervivencia, desarrollo de personaje y una rica historia sobre la lucha por la libertad humana. Características principales: 🔫 Shooter RPG con jugabilidad de acción dinámica 🧱 Estilo voxel único y ambiente cyberpunk ⚙️ Personalización profunda de armas y equipo 🤖 Batallas contra robots, monstruos y jefes 🧭 Exploración de la ciudad, mazmorras y ubicaciones 💰 Recolección de recursos, fabricación y desarrollo de tu base",
-  "instructions": "Detén a una corporación tecnológica asesina eliminando enemigos y jefes, descubriendo una conspiración y desarrollando a tu personaje. Mejora tus armas, equipo y habilidades para salvar el mundo del futuro y convertirte en una leyenda de la resistencia. Controles Dispositivos móviles: panel táctil para moverse y botones en pantalla para acciones y disparos. PC: usa las teclas WASD para moverte y las teclas de juego estándar para las demás acciones."
+  "description": "Sumérgete en un RPG de disparos dinámico con estilo voxel y una atmósfera cyberpunk. Te espera una ciudad futurista oscura dominada por una corporación tecnológica, con batallas interminables contra robots y monstruos, desarrollo de personaje y acción constante al estilo de un RPG de disparos. Recorre las calles de la metrópolis, descubre una conspiración, mejora tus armas y equipo, extrae recursos y derrota a los jefes. El juego combina disparos llenos de acción, elementos de supervivencia, desarrollo de personaje y una rica historia sobre la lucha por la libertad humana. Características principales: 🔫 RPG de disparos con jugabilidad de acción dinámica 🧱 Estilo voxel único y atmósfera cyberpunk ⚙️ Personalización profunda de armas y equipo 🤖 Batallas contra robots, monstruos y jefes 🧭 Exploración de la ciudad, mazmorras y localizaciones 💰 Recolección de recursos, fabricación y desarrollo de base",
+  "instructions": "Detén a una corporación tecnológica asesina eliminando enemigos y jefes, descubriendo una conspiración y desarrollando a tu personaje. Mejora tus armas, equipo y habilidades para salvar el mundo del futuro y convertirte en una leyenda de la resistencia. Controles: Dispositivos móviles: panel táctil para moverse y botones en pantalla para acciones y disparar. PC: usa las teclas WASD para moverte y las teclas de juego estándar para las demás acciones."
  },
  "eat-donuts": {
   "description": "Eat Donuts es un divertido y relajante juego de puzle match-3 en el que ayudas a un pingüino tierno a recoger deliciosas rosquillas. En una cuadrícula de 3x3, arrastra los anillos de rosquilla brillantes para intercambiarlos, rotarlos y alinearlos y conseguir combinaciones satisfactorias. Alcanza la puntuación objetivo antes de que se acabe el tiempo, usando potenciadores como martillos y rotadores para combos explosivos. Controles sencillos, gráficos adorables y una jugabilidad adictiva hacen de este el rompecabezas casual perfecto para entrenar la mente.",
@@ -115697,8 +115697,8 @@
   }
  },
  "lifecode": {
-  "description": "HISTORIA DEL JUEGO Tras el incidente en la Zona, todo el personal fue evacuado. Para asegurarse de que nadie descubriera los secretos de la instalación, el personal dañó deliberadamente el sistema de almacenamiento de datos. Como resultado, el núcleo A.R.C.H perdió el acceso a información crítica, lo que sometió a todo el sistema a una enorme presión. Tarde o temprano, acabaría provocando una explosión catastrófica. Pero el personal pasó por alto una cosa. A.R.C.H es una inteligencia artificial avanzada capaz de calcular miles de posibilidades y crear planes complejos en milisegundos. Pronto encontró la forma de evitar su destrucción. Solo había un problema: A.R.C.H no podía moverse por sí mismo. Necesitaba que alguien más hiciera el trabajo sucio. Solo los monstruos seguían dentro del laboratorio abandonado. Entonces A.R.C.H recordó que entre ellos había una criatura capaz de escuchar, pensar y actuar. Y te encontró a TI. SOBRE EL JUEGO Este es un juego de terror de supervivencia ambientado en un laboratorio abandonado. Juegas como una criatura inteligente que debe sobrevivir, explorar la instalación y completar tareas para el núcleo A.R.C.H. Tu objetivo principal es exportar datos de memoria para A.R.C.H, para que la inteligencia artificial pueda recuperar la información perdida y completar su misterioso plan. Sin embargo, el laboratorio está lejos de estar vacío. Otros monstruos vagan por sus pasillos. A diferencia de ti, son salvajes y solo los mueve el hambre. Y para ellos, tú eres comida. Mientras exploras, puedes encontrar una gran variedad de objetos útiles, como comida, linternas, suministros médicos y otros recursos. Los objetos pueden encontrarse dentro de cajas esparcidas por todo el laboratorio. El juego también incluye máquinas expendedoras situadas en la base y en ubicaciones aleatorias de la instalación. Estas máquinas te permiten comprar objetos útiles con una moneda especial llamada N-Neutrones. Cada partida es única gracias a la generación procedural de niveles. El laboratorio se construye a partir de módulos prediseñados, creando una nueva disposición cada vez, aunque sigue permitiendo a los jugadores aprender y orientarse en el entorno. PREGUNTAS FRECUENTES ¿Cómo gano N-Neutrones? Iniciar una exportación de memoria M3N otorga entre 3N y 8N en dificultad Normal. Completar la exportación y activar la Fase Dos otorga bet",
-  "instructions": "CÓMO JUGAR Cada día comienza a las 10:00 a. m. en tu base. Tu primera tarea es ajustar el ángulo de la antena. Cuanta más precisa sea la alineación, más memoria recibirás durante el proceso de exportación. Después, entra en el laboratorio y localiza un M3N (Nodo de Exportación de Memoria). Activa la primera fase de exportación. Un solo M3N funciona de 2 a 5 minutos según las condiciones. Mientras el M3N está en funcionamiento, explora el laboratorio, recoge recursos y evita a los monstruos hostiles. Una vez que la barra de memoria esté llena, regresa a la base y activa una función del Núcleo de Control. Después, tendrás que volver a llenar la barra de memoria, esta vez hasta un requisito más alto. Cuando el M3N termine de funcionar, puedes activar la Fase Dos. Esta fase proporciona memoria adicional y te ayuda a completar tus objetivos más rápido. Sin embargo, mantén siempre un ojo en el reloj. Debes salir del laboratorio antes de medianoche. Si permaneces dentro después de las 12:00 a. m., tu personaje morirá y se perderán todos los objetos recogidos y la memoria almacenada. Si yo"
+  "description": "HISTORIA DEL JUEGO Tras el incidente en la Zona, todo el personal fue evacuado. Para asegurarse de que nadie descubriera los secretos de la instalación, el personal dañó deliberadamente el sistema de almacenamiento de datos. Como resultado, el núcleo A.R.C.H perdió el acceso a información crítica, lo que sometió a todo el sistema a una tensión enorme. Tarde o temprano, acabaría provocando una explosión catastrófica. Pero el personal pasó por alto una cosa. A.R.C.H es una inteligencia artificial avanzada capaz de calcular miles de posibilidades y crear planes complejos en milisegundos. Enseguida encontró una forma de evitar su destrucción. Solo había un problema: A.R.C.H no podía moverse por sí mismo. Necesitaba que alguien más hiciera el trabajo sucio. Solo los monstruos seguían dentro del laboratorio abandonado. Entonces A.R.C.H recordó que entre ellos había una criatura capaz de escuchar, pensar y actuar. Y te encontró a TI. SOBRE EL JUEGO Este es un juego de terror y supervivencia ambientado en un laboratorio abandonado. Juegas como una criatura inteligente que debe sobrevivir, explorar la instalación y completar tareas para el núcleo A.R.C.H. Tu objetivo principal es exportar datos de memoria para A.R.C.H, para que la inteligencia artificial pueda recuperar la información perdida y completar su misterioso plan. Sin embargo, el laboratorio está lejos de estar vacío. Otros monstruos recorren sus pasillos. A diferencia de ti, son salvajes y solo los mueve el hambre. Y para ellos, tú eres comida. Mientras exploras, puedes encontrar una gran variedad de objetos útiles, como comida, linternas, suministros médicos y otros recursos. Los objetos se pueden descubrir dentro de cajas repartidas por todo el laboratorio. El juego también cuenta con máquinas expendedoras situadas en la base y en ubicaciones aleatorias por la instalación. Estas máquinas te permiten comprar objetos útiles usando una moneda especial llamada N-Neutrones. Cada partida es única gracias a la generación procedural de niveles. El laboratorio se construye a partir de módulos prediseñados, creando una distribución nueva cada vez, pero permitiendo a los jugadores aprender y orientarse en el entorno. PREGUNTAS FRECUENTES ¿Cómo consigo N-Neutrones? Iniciar una exportación de memoria M3N otorga entre 3N y 8N en dificultad Normal. Completar la exportación y activar la Fase Dos recompensa bet",
+  "instructions": "CÓMO JUGAR Cada día comienza a las 10:00 en tu base. Tu primera tarea es ajustar el ángulo de la antena. Cuanta más precisa sea la alineación, más memoria recibirás durante el proceso de exportación. Después, entra en el laboratorio y localiza un M3N (Nodo de Exportación de Memoria). Activa la primera fase de exportación. Un solo M3N funciona de 2 a 5 minutos según las condiciones. Mientras el M3N está en funcionamiento, explora el laboratorio, recoge recursos y evita a los monstruos hostiles. Una vez que la barra de memoria esté llena, regresa a la base y activa una función del Núcleo de Control. Después, tendrás que volver a llenar la barra de memoria, esta vez hasta un requisito más alto. Cuando el M3N termine de funcionar, podrás activar la Fase Dos. Esta fase proporciona memoria adicional y ayuda a completar tus objetivos más rápido. Sin embargo, mantén siempre un ojo en el reloj. Debes salir del laboratorio antes de medianoche. Si permaneces dentro después de las 12:00 AM, tu personaje morirá y se perderán todos los objetos recogidos y la memoria almacenada. Si yo"
  },
  "crusher-block": {
   "description": "¡Crusher Block es un juego idle en el que machacas bloques, ganas dinero y mejoras tus herramientas para crear la máquina de trituración más potente! ¿Eres capaz de construir la máquina definitiva para triturar recursos?",
@@ -215359,8 +215359,8 @@
   }
  },
  "evolution-simulator": {
-  "description": "Evo Wilds es una aventura evolutiva en 3D llena de colores. Eclosionas como un pequeño Wiggle Worm en la Sunny Meadow: devora bayas, muerde bichos y recoge EVO para subir de nivel. Cada pocos niveles EVOLUCIONAS y eliges tu camino entre dos nuevas criaturas: un luchador de golpes duros, un tanque resistente o un corredor veloz. 23 formas por descubrir, desde escarabajos, caracoles y ranas hasta zorros, lobos, osos, rinocerontes, raptores, mamuts, grifos y dragones. Fíjate en el color del nivel sobre cada criatura: verde significa tentempié, rojo significa huir. Derrota al jefe gigante de cada isla, esquiva sus golpes, embestidas y rocas que caen, y cruza el portal al siguiente mundo: Shroom Woods, Sunscorch Dunes, Frostfang Peaks y las Ember Isles. Gasta ADN en el laboratorio en mordiscos más afilados y piel más dura, completa tu Evo-Dex, sigue los objetivos y renace más fuerte para probar todos los caminos de evolución.",
-  "instructions": "Muévete con WASD o las flechas del teclado, o arrastra por cualquier parte de la pantalla en el móvil. El mordisco es automático: camina hacia una criatura y la atacarás. Pulsa Espacio (o el botón POUNCE) para lanzarte y morder con fuerza; no puedes recibir golpes mientras te lanzas, así que úsalo para esquivar los círculos rojos y los carriles de los jefes. Come tentempiés para curarte y ganar EVO. Llena la barra de EVO para subir de nivel; en los niveles de evolución elige una de las dos nuevas formas. Las criaturas con nivel verde son seguras para cazar, el amarillo es un combate equilibrado, y el rojo y la calavera son demasiado fuertes por ahora. Derrota al jefe de cada isla en la arena al norte del camino para abrir el portal. Esc pausa."
+  "description": "Evo Wilds es una aventura de evolución en 3D muy colorida. Eclosionas como un pequeño Wiggle Worm en el Sunny Meadow: devora bayas, muerde bichos y reúne EVO para subir de nivel. Cada pocos niveles te EVOLUCIONAS y eliges tu camino entre dos nuevas criaturas: un luchador de golpes contundentes, un tanque resistente o un corredor veloz. 23 formas por descubrir, desde escarabajos, caracoles y ranas hasta zorros, lobos, osos, rinocerontes, raptores, mamuts, grifos y dragones. Fíjate en los colores del nivel sobre cada criatura: verde significa tentempié, rojo significa huir. Derrota al jefe gigante de cada isla, esquiva sus golpes, embestidas y rocas que caen, y cruza el portal al siguiente mundo: Shroom Woods, Sunscorch Dunes, Frostfang Peaks y las Ember Isles. Gasta ADN en el laboratorio para mordiscos más afilados y una piel más resistente, completa tu Evo-Dex, sigue los objetivos y renace más fuerte para probar cada camino de evolución.",
+  "instructions": "Muévete con WASD o las teclas de flecha, o arrastra por cualquier parte de la pantalla en el móvil. El mordisco es automático: camina hacia una criatura y la atacarás. Pulsa Espacio (o el botón POUNCE) para lanzarte y morder con fuerza; no puedes recibir golpes mientras te lanzas, así que úsalo para esquivar los círculos rojos y los carriles de los jefes. Come tentempiés para curarte y ganar EVO. Llena la barra de EVO para subir de nivel; en los niveles de evolución elige una de las dos nuevas formas. Las criaturas con nivel verde son seguras para cazar, el amarillo es un combate justo, y el rojo y la calavera son demasiado fuertes por ahora. Derrota al jefe de cada isla en la arena al norte del camino para abrir el portal. Esc pausa."
  },
  "fish-eggs-for-animals": {
   "description": "Lanza el anzuelo en un océano gigante, pesca peces raros y mutaciones, y construye un acuario que genera dinero con los visitantes en este juego de pesca 3D incremental.",
@@ -216358,8 +216358,8 @@
   }
  },
  "order-of-masks": {
-  "description": "The Children of the Spark se adentran en las profundidades para liberar la luz que guarda la Great Mask. Cada partida presenta un calabozo cambiante, salas secretas y una nueva mezcla de hallazgos. Juega en solitario o reúne hasta cuatro jugadores en modo cooperativo local en una sola pantalla. En el ordenador, comparte el teclado con un segundo jugador o conecta mandos. En el móvil, juega en solitario en horizontal con joysticks fijos o flotantes. Reúnete en las puertas de los jefes y ayuda a los compañeros caídos a volver a la batalla. Descubre más de 200 objetos, decenas de baratijas y poderosas sinergias. Los hallazgos cambian el aspecto de tu héroe durante la partida: nuevas máscaras, sombreros y alas, que crecen o encogen, y transformaciones al combinar objetos iguales. Convierte las chispas en rayos, disparos guiados o bombas, y mezcla fuego, hielo, veneno y relámpagos. Explora seis tipos especiales de sala, desde el Arcade y sus máquinas hasta la Dice Room y el raro Observatory. Enfréntate a 52 jefes repartidos entre los capítulos y el Abyss; cada victoria abre nuevos oponentes y capítulos. Tras tu primera victoria sobre la Great Mask, aparecen los jefes campeones y se abre la Mirror Gallery. Derrota a Faceless para desbloquear la Clock Tower y enfrentarte al Clockmaker, o desciende al Abyss sin fin. Elige la dificultad Novato, Normal o el desafío de la Orden, prueba 25 Challenges o una nueva Daily Run, y desbloquea nuevos objetos, héroes y aspectos. Tu progreso y tus descubrimientos se guardan entre sesiones. Disponible en inglés, ruso, español, portugués, alemán, francés, turco, polaco e italiano.",
-  "instructions": "Objetivo: despeja las salas de cada piso, recoge objetos y derrota al jefe del piso para bajar más. Vence a la Great Mask para ganar la partida, y luego toma uno de los nuevos caminos o prueba el Abyss sin fin. Teclado (en solitario): WASD para moverte, teclas de flecha para disparar, E o Mayús izquierda para una bomba, Espacio para el objeto activo, Q para una carta, P para pausar, Retroceso para volver. Dos jugadores en un teclado: el jugador izquierdo se mueve con WASD, mantiene Espacio para disparar y fijar la puntería, Q para una bomba, E para el objeto activo, X para una carta. El jugador derecho se mueve con las teclas de flecha, Intro o Mayús derecha para disparar y fijar la puntería, Ctrl derecha para una bomba, coma para el objeto activo, punto y coma para una carta. Mando: stick izquierdo para moverte, stick derecho o ABXY para disparar, LB para una bomba, RB para el objeto activo, RT para una carta, Start para pausar. Pulsa A en el vestíbulo para unirte. Táctil (horizontal): el stick izquierdo mueve, el stick derecho apunta y dispara. Toca los botones de bomba, objeto activo, carta y pausa. En Ajustes puedes cambiar entre joysticks fijos y flotantes, cambiar"
+  "description": "Los Hijos de la Chispa se adentran en las profundidades para liberar la luz que guarda la Gran Máscara. Cada partida trae una mazmorra cambiante, habitaciones secretas y una nueva combinación de hallazgos. Juega en solitario o reúne hasta cuatro jugadores en cooperativo local en una sola pantalla. En ordenador, comparte el teclado con un segundo jugador o conecta mandos. En el móvil, juega en solitario en horizontal con sticks fijos o flotantes. Reúnete en las puertas de los jefes y ayuda a los compañeros caídos a volver a la batalla. Descubre más de 200 objetos, decenas de baratijas y sinergias poderosas. Los hallazgos cambian el aspecto de tu héroe durante la partida: nuevas máscaras, sombreros y alas, que crecen o encogen, y transformaciones al combinar objetos iguales. Convierte las chispas en rayos, disparos guiados o bombas, y mezcla fuego, hielo, veneno y rayos. Explora seis tipos de salas especiales, desde el Salón recreativo y sus máquinas hasta la Sala de Dados y el raro Observatorio. Enfréntate a 52 jefes en los capítulos y en el Abismo; cada victoria desbloquea nuevos rivales y capítulos. Tras tu primera victoria sobre la Gran Máscara, aparecen los jefes campeones y se abre la Galería de Espejos. Derrota a Sinrostro para desbloquear la Torre del Reloj y enfrentarte al Relojero, o desciende al Abismo sin fin. Elige la dificultad Novato, Normal o el Desafío de la Orden, prueba 25 desafíos o una nueva Partida Diaria, y desbloquea nuevos objetos, héroes y aspectos. Tu progreso y tus descubrimientos se guardan entre sesiones. Disponible en inglés, ruso, español, portugués, alemán, francés, turco, polaco e italiano.",
+  "instructions": "Objetivo: despeja las salas de cada planta, recoge objetos y derrota al jefe de la planta para avanzar más abajo. Vence a la Gran Máscara para ganar la partida y luego toma uno de los nuevos caminos o prueba el Abismo sin fin. Teclado (en solitario): WASD para moverte, teclas de flecha para disparar, E o Mayús izquierda para una bomba, Espacio para el objeto activo, Q para una carta, P para pausar, Retroceso para volver. Dos jugadores en un teclado: el jugador izquierdo se mueve con WASD, mantiene Espacio para disparar y fijar la puntería, Q para una bomba, E para el objeto activo, X para una carta. El jugador derecho se mueve con las teclas de flecha, Intro o Mayús derecha para disparar y fijar la puntería, Ctrl derecho para una bomba, coma para el objeto activo, punto y coma para una carta. Mando: stick izquierdo para moverte, stick derecho o ABXY para disparar, LB para una bomba, RB para el objeto activo, RT para una carta, Start para pausar. Pulsa A en el vestíbulo para unirte. Táctil (horizontal): el stick izquierdo mueve, el stick derecho apunta y dispara. Toca los botones de bomba, objeto activo, carta y pausa. En Ajustes puedes cambiar entre sticks fijos y flotantes, cambiar"
  },
  "object-73-survival-clicker": {
   "description": "Un clicker de supervivencia postapocalíptica con elementos de idle y RPG. Despiertas dentro del Complejo Jericho subterráneo como Object 73, un clon que vuelve a la vida después de cada muerte. Cada nuevo ciclo es una oportunidad para descubrir la verdad detrás del Proyecto Jericho. Explora laboratorios en ruinas, recoge recursos y lucha contra enemigos peligrosos, como mutantes, sintéticos rebeldes y drones de combate. Los enemigos derrotados sueltan materiales que sirven para fabricar armas, mejorar el equipo y sobrevivir más tiempo. Descubre múltiples ubicaciones en el complejo, como laboratorios, armerías, archivos y sectores contaminados. Encuentra fragmentos de memoria, registros ocultos y archivos secretos que poco a poco revelan la historia del coronel Dmitry Yankovsky. Fabrica armas poderosas, mejora la armadura y potencia a tu personaje para derrotar a enemigos de élite y jefes de la historia. Tus decisiones influyen en el nivel de humanidad del protagonista y cambian el desarrollo de la historia.",
@@ -230448,8 +230448,28 @@
   }
  },
  "mega-ramp-car-stunt-race": {
-  "description": "¡Es hora de jugar a Mega Ramp Car Stunt Race, los nuevos juegos de coches de 2020 con los controles de acrobacias más realistas! ¿Estás listo para la aventura más atrevida y el diseño más novedoso de carreras acrobáticas definitivas, con acrobacias extremas y circuitos imposibles para poner a prueba tu habilidad conduciendo coches por rampas y en juegos de mega rampas? Has jugado a muchos otros juegos de coches con rampas, acrobacias de coches de fórmula y juegos de acrobacias con coches musculosos, pero este juego de acrobacias en rampas más difícil te dará los mejores desafíos de conducción acrobática en circuitos imposibles en lo alto del cielo. ¿Te gusta jugar con distintos vehículos como coches musculosos, coches deportivos y monoplazas de carreras? Pues DownTown Studio presenta el juego de desafíos de acrobacias en rampas más emocionante y asombroso, con acrobacias definitivas y mega rampas en circuitos imposibles en lo alto del cielo. Los vehículos con física en tiempo real te esperan en el garaje, así que prepárate y ajústate el cinturón para las increíbles acrobacias imposibles en caminos en zigzag y sinuosos en este juego de coches acrobáticos en rampas de 2020. Mega Ramp Car Stunt Race incluye 20 niveles emocionantes de juegos de mega rampas. Tienes 10 misiones de carreras acrobáticas GT con circuitos de desafío definitivos y 10 niveles con circuitos de mega rampas para convertirte en un nuevo maestro de las acrobacias con coches en los mejores juegos de acrobacias. Juega y demuestra tus habilidades conduciendo coches por rampas en este extremo juego de acrobacias con monoplazas de carreras. Conduce un monoplaza a máxima velocidad por rampas verticales y circuitos imposibles para completar las misiones de acrobacias en mega rampas. Este es tu desafío de conducción acrobática en las rampas más difíciles, así que no seas un conductor de acrobacias loco en este juego de carreras definitivo con mega rampas. Las acrobacias extremas te esperan, así que conduce tu coche GT de carreras para convertirte en el mejor conductor de rampas. En Mega Ramp Car Stunt Race, los nuevos juegos de coches de 2020, haz acrobacias locas y extremas en circuitos imposibles con monoplazas y coches musculosos de alta velocidad. Disfruta de las rampas más grandes en circuitos sobre azoteas en lo alto del cielo. Este juego de acrobacias con coches combina juegos de coches con rampas y juegos de acrobacias de carreras GT, con muchos niveles de desafío de conducción acrobática. Así que ten cuidado al conducir por circuitos locos, curvas difíciles y caminos sinuosos. Conviértete en un verdadero maestro de las acrobacias con coches en este nuevo juego de acrobacias de monoplazas. Mega Ramp Car Stunt Rac",
-  "instructions": "Controles con teclas"
+  "description": "¡Es hora de jugar a las carreras de acrobacias con mega rampas: juegos de coches nuevos 2020 con los controles más realistas de los mejores juegos de acrobacias con coches. ¿Estás listo para la aventura más emocionante y el diseño más nuevo de las carreras de acrobacias definitivas, con acrobacias extremas y circuitos imposibles para poner a prueba tu habilidad conduciendo coches con rampas y tus destrezas en juegos de mega rampas? Has jugado a muchos otros juegos de coches con rampas, acrobacias con coches de fórmula y juegos de acrobacias con coches musculosos, pero este juego de acrobacias con rampas más difícil te dará los mejores desafíos de conducción acrobática en circuitos imposibles en lo alto del cielo. ¿Te gusta jugar con distintos vehículos, como coches musculosos, coches deportivos y coches de carreras de fórmula? Pues DownTown Studio presenta el juego de desafíos de acrobacias con coches y rampas más emocionante y asombroso, con acrobacias definitivas y mega rampas en circuitos imposibles en lo alto del cielo. Los vehículos con física en tiempo real te esperan en el garaje, así que prepárate y ajústate el cinturón para las increíbles acrobacias imposibles en caminos en zigzag y sinuosos en estos juegos de acrobacias con coches y rampas de 2020. Mega Ramp Car Stunt Race ofrece 20 niveles emocionantes de juegos de mega rampas. Tienes 10 misiones de acrobacias de carreras GT con circuitos de desafío definitivos y 10 niveles con circuitos de mega rampas para convertirte en un nuevo maestro de las acrobacias con coches en los mejores juegos de acrobacias con coches. Juega y demuestra tus habilidades conduciendo coches con rampas en este extremo juego de acrobacias con coches de fórmula. Conduce un coche de fórmula a máxima velocidad sobre rampas verticales y circuitos imposibles para completar las misiones de mega rampas. Este es tu desafío de conducción acrobática en las rampas más difíciles, así que no seas un conductor de acrobacias loco en este juego de carreras definitivo de mega rampas. Las acrobacias extremas te esperan, así que conduce tu coche de carreras GT para convertirte en el mejor conductor de coches con rampas. En estas carreras de acrobacias con mega rampas (juegos de coches nuevos 2020) haz acrobacias locas y extremas en circuitos imposibles con un coche de fórmula y un coche musculoso de alta velocidad. Disfruta de las rampas más grandes en circuitos de azoteas en lo alto del cielo. Este juego de acrobacias con coches combina juegos de coches con rampas y juegos de acrobacias de carreras GT, con muchos niveles de desafío de conducción acrobática. Así que ten cuidado al conducir por circuitos locos, curvas difíciles y caminos sinuosos. Conviértete en un verdadero maestro de las acrobacias con coches con rampas en este nuevo juego de carreras de acrobacias con coches de fórmula. Mega Ramp Car Stunt Rac",
+  "instructions": "Control con las teclas",
+  "guide": {
+   "intro": "Mega Ramp Car Stunt Race es un juego de conducción con 20 niveles, divididos entre misiones de acrobacias de carreras GT y circuitos de mega rampas. Conduces coches musculosos, coches deportivos y coches de carreras de fórmula sobre rampas y circuitos altos y sinuosos.",
+   "tips": [
+    "Haz las primeras rampas despacio para aprender cómo responde la física de tu coche, ya que el juego usa un manejo realista de los vehículos.",
+    "Antes de un salto grande, alinea el coche recto con la rampa para despegar de forma uniforme y aterrizar con el morro nivelado.",
+    "Revisa el siguiente tramo del circuito antes de llegar a una curva, porque los caminos en zigzag y sinuosos pueden pillarte por sorpresa a alta velocidad.",
+    "Usa una velocidad más baja en las secciones de azoteas altas, donde un mal aterrizaje es más probable que te saque del circuito.",
+    "Si te gusta practicar saltos y curvas cerradas, también puedes probar más [[racing-games|juegos de carreras del sitio]] para desarrollar las mismas habilidades."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo de cada nivel?",
+     "Tienes que completar las misiones de acrobacias y los circuitos de rampas recorriendo el trazado, realizando acrobacias en las rampas y manteniéndote en los circuitos imposibles."
+    ],
+    [
+     "¿Cuántos niveles hay y cuáles son?",
+     "Hay 20 niveles en total: 10 misiones de acrobacias de carreras GT con circuitos de desafío de acrobacias, y 10 niveles con circuitos de mega rampas."
+    ]
+   ]
+  }
  },
  "santadays-christmas": {
   "description": "Santa Days : Christmas Termina decenas de circuitos y consigue coronas. ¡Sé el ganador del día! Compra disfraces y cambia tu imagen. ¡Compite con 10-40 personas y gana la carrera! Únete al mundo de Fall Days. ¡Corre con distintos disfraces en mapas diferentes! Marca la diferencia.",
@@ -263731,8 +263751,28 @@
   }
  },
  "hill-car-stunts-3d-crazy-car-racing-simulator-3d": {
-  "description": "¡Enciendan los motores de sus superdeportivos! Prepárate con tu auto de acrobacias GT y empieza a jugar a Hill Car Stunt 3D Simulator. Conduce tu auto GT extremo por pistas llenas de obstáculos. Completa múltiples misiones por la ciudad antes de que se acabe el tiempo y gana todo el dinero que puedas. Usa tu dinero para comprar autos nuevos más rápidos y completar misiones de acrobacias en menos tiempo. Extreme Racing Free Games es el juego de conducción de autos definitivo que lleva los límites de la conducción extrema al máximo. ¡Abre camino a través de muchos niveles locos y desbloquea una gran cantidad de hermosos autos deportivos! ¿Alguna vez quisiste probar un juego de acrobacias con autos? Ahora puedes conducir y derrapar, así que no dudes en empezar la carrera, gracias a su avanzado motor de física real. ¿Alguna vez has buscado un cambio real en el mundo de los juegos de conducción? Si es así, la nueva simulación de acrobacias con autos te ofrece cumplir tu pasión por las carreras de autos y la locura de las acrobacias en colinas uniéndote a Hill Car Stunt 3D. Un mundo de carreras de acrobacias con autos en constante cambio que expande tu visión sencilla de los juegos de autos hacia juegos de carreras locos, para que te conviertas en un maestro. El juego gratis de carreras de autos ofrece la emoción real y la experiencia apasionante de un simulador de derrapes GT. Si eres un conductor loco y quieres hacer acrobacias serias en montañas y pistas interminables, entonces el simulador de conducción extrema de autos es la mejor opción para ti. No necesitas frenar, prueba todos los autos de acrobacias GT para que puedas hacer acrobacias ilegales, carreras GT y correr a toda velocidad sin que la policía te persiga. ¡Es hora de mostrar tus habilidades definitivas de carreras de autos y conducción GT en mega rampas en el nuevo juego de acrobacias en rampa lleno de aventura. Conviértete en un conductor de Hill Car Stunt 3D para hacer realidad la asombrosa idea de los juegos de carreras de acrobacias GT extremas. Ponte al volante de autos con salto en rampa gratis para hacer acrobacias ilegales en pistas imposibles, caminos curvos en el cielo, grandes saltos, y enfrenta las peligrosas pistas de acrobacias GT para llegar a la meta. ¿Estás listo para los juegos de acrobacias extremas con autos 2020 y disfrutar de una jugabilidad realista? Conduce múltiples autos de acrobacias GT desde el garaje y haz acrobacias verticales en emocionante conducción de autos por colinas. Hill Car Stunts 3D: Crazy Car Racing Simulator 3D está desarrollado para los amantes de las pistas imposibles y los juegos de acrobacias GT. Así que empieza con el salto en rampa gratis hacia las pistas locas para experimentar el multi roof",
-  "instructions": "Controles del teclado"
+  "description": "¡Enciende los motores de tus superdeportivos! Prepara tu coche de acrobacias GT y empieza a jugar a Hill Car Stunt 3D Simulator. Conduce tu coche GT extremo por circuitos. Completa varias misiones por la ciudad antes de que se acabe el tiempo y gana todo el dinero que puedas. Usa tu dinero para comprar coches nuevos más rápidos y completa misiones de acrobacias en menos tiempo. Extreme Racing Free Games es el juego de conducción definitivo que lleva al límite las capacidades de la conducción extrema. ¡Abre camino en muchos niveles locos y desbloquea una gran cantidad de preciosos deportivos! ¿Alguna vez has querido probar un juego de acrobacias con coches? Ahora puedes conducir y derrapar, así que no dudes en empezar la carrera, gracias a su avanzado motor de física real. ¿Alguna vez has buscado un cambio real en el mundo de los juegos de conducción? Si es así, la nueva simulación de acrobacias con coches te ofrece la oportunidad de cumplir tu pasión por las carreras y las acrobacias en colinas uniéndote a Hill Car Stunt 3D. Un mundo de carreras de acrobacias en constante cambio amplía tu visión sencilla de los juegos de coches hacia juegos de carreras locos, para que te conviertas en un maestro. El juego gratuito de carreras de coches te ofrece la emoción y la intensidad de un simulador de derrapes GT. Si eres un conductor temerario y quieres hacer acrobacias serias en montañas y circuitos interminables, el simulador de conducción extrema es la mejor opción para ti. No necesitas frenar: prueba todos los coches GT de acrobacias, así podrás hacer acrobacias ilegales, carreras GT y correr a toda velocidad sin que la policía te persiga. Es hora de mostrar tu habilidad al volante y en la conducción GT sobre megarrampas en este nuevo y aventurero juego de saltos con coches. Conviértete en un conductor de Hill Car Stunt 3D para hacer realidad la asombrosa idea de los juegos de carreras de acrobacias GT extremas. Ponte al volante de saltos con coches gratuitos para hacer acrobacias ilegales en circuitos imposibles, caminos sinuosos por el cielo, grandes saltos, y enfréntate a los peligrosos circuitos de acrobacias GT para llegar a la meta. ¿Estás listo para los juegos de acrobacias extremas con coches de 2020 y disfrutar de una jugabilidad realista? Conduce varios coches de acrobacias GT desde el garaje y haz acrobacias verticales en una emocionante conducción de coches por colinas. Hill Car Stunts 3D: Crazy Car Racing Simulator 3D está pensado para los amantes de los circuitos imposibles y los juegos de acrobacias GT. Así que empieza a saltar con coches gratis por los circuitos locos para vivir la experiencia de múltiples vuelcos",
+  "instructions": "Controles del teclado",
+  "guide": {
+   "intro": "Hill Car Stunts 3D es un juego de conducción en el que corres por la ciudad y por circuitos de colinas, terminas misiones antes de que se acabe el tiempo y ganas dinero para desbloquear coches más rápidos. Esta guía explica cómo planificar tus recorridos y mantener las acrobacias bajo control.",
+   "tips": [
+    "Lee la lista de controles en la pantalla del juego antes de tu primera partida, ya que las instrucciones solo mencionan los controles del teclado. Prueba primero la dirección, el acelerador y las teclas de acrobacias en un circuito fácil.",
+    "Gasta tus ganancias en un coche más rápido solo cuando el que tienes te esté frenando en las misiones que quieres completar. Las misiones de acrobacias premian la velocidad, así que un coche más rápido puede reducir tu tiempo.",
+    "Presta atención al reloj en cada misión. Elige la ruta que te mantenga en movimiento y no hagas un salto arriesgado si un camino seguro te lleva a la meta antes.",
+    "Usa los derrapes suaves y las pendientes para ganar velocidad antes de una rampa. La física del juego responde a cómo entras en un salto, así que una aproximación constante suele dar un aterrizaje más limpio.",
+    "Si disfrutas de este estilo de conducción, la [[car-games|colección de juegos de coches]] tiene más títulos para probar cuando quieras un tipo de desafío diferente."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo principal en Hill Car Stunts 3D?",
+     "Completas misiones por la ciudad y en los circuitos de colinas antes de que se acabe el tiempo. Por el camino ganas dinero para comprar coches nuevos y misiones de acrobacias."
+    ],
+    [
+     "¿Cómo gano más dinero?",
+     "Termina las misiones rápido y mantén tu recorrido sin perder tiempo en un choque o en una recuperación lenta. Los mejores tiempos y las acrobacias completadas te dan más dinero para gastar en mejoras."
+    ]
+   ]
+  }
  },
  "clown-park-hide-and-seek-game": {
   "description": "Clown Park - Hide And Seek es un juego de arcade de campo contra campo. Tiene un diseño gráfico precioso y un diseño de espacio en 3D. Hay tres modos para elegir: campo de supervivientes, campo de perseguidores o, si te cuesta decidirte o quieres un poco de emoción, puedes elegir cualquier modo y se seleccionará la alineación al azar. Los supervivientes deben reunir suficientes llaves para abrir la puerta de escape dentro del límite de tiempo y escapar con éxito para ganar. Por el contrario, el perseguidor debe frenar el ritmo de los supervivientes. ¡Te esperan una gran variedad de skins y habilidades geniales para desbloquear! ¡Completa las misiones para desbloquear los personajes! ¡Diviértete!",
@@ -270052,8 +270092,28 @@
   }
  },
  "impossible-car-stunts": {
-  "description": "¿Estás listo para conducir por la carretera del cielo y realizar acrobacias imposibles con el coche? Vive la mejor experiencia de conducción en una pista imposible haciendo acrobacias en rampas imposibles. Conduce con cuidado por las pistas imposibles y demuestra tu buena habilidad al volante en los juegos de acrobacias con coches. Este juego de acrobacias peligrosas es difícil de conducir por pistas en zigzag y rampas en la carretera del cielo. En este gran juego de rampas, necesitas tener habilidades de carreras de coches en una pista imposible. El coche saltarín tiene una buena física de salto acrobático. Estoy seguro de que te divertirás mucho con este juego de carreras de coches, jugando a esta carrera de acrobacias en la pista imposible más atractiva del entorno celestial. El juego extremo de acrobacias con coches que te atraerá más que nada. Si te encanta hacer acrobacias con un coche imposible, los mejores juegos de coches; entonces Impossible Car Stunts es lo mejor para ti. Este juego gratis de coches tiene un diseño especial de pistas imposibles para el desafío de acrobacias. ¿Estás listo para disfrutar de las últimas y mejores acrobacias con coches en las carreteras altas del cielo? Si estás listo, bienvenido al juego de acrobacias con coches; donde podrás conducir un coche a enormes alturas para tocar el gran cielo como una leyenda. Las carreras de acrobacias con coches son el mejor juego de 2019 entre los juegos imposibles de acrobacias con coches y pistas de acrobacias. Disfruta del salto del coche y de una carrera real por una pista imposible, en las interminables pistas extremas imposibles de las alturas del cielo. Si eres un piloto muy rápido y un conductor de acrobacias imposibles y tienes pasión por los juegos de carreras de coches, prepárate para vivir un auténtico rally de coches en medio del cielo sin límites. Acelera como un maestro de acrobacias enloquecido mientras recorres las pistas imposibles de diseño espectacular y vence a los pilotos rivales en esta aventura impresionante. Realiza derrapes extremos y volteretas acrobáticas insanas en el aire en la pista imposible 3D y acelera como un auténtico derrapador. Los coches urbanos extremos y las carreras imposibles son un auténtico desafío de acrobacias con coches, así que abróchate el cinturón antes de despegar y gana este simulador de carreras de coches de 2019. A diferencia de otros juegos de acrobacias con coches, esta conducción extrema por la ciudad va a ser pura diversión y aventura. Seguro que te engancharás a este increíble juego de carreras de coches de pistas imposibles 3D. Cada nivel es emocionante y desafiante, lo que lo convierte en el juego de acrobacias con coches más emocionante. Llega hasta t",
-  "instructions": "Controles del teclado"
+  "description": "¿Estás listo para conducir por la carretera del cielo y realizar acrobacias imposibles con el coche? Vive la mejor experiencia de conducción en una pista imposible haciendo acrobacias en rampas imposibles. Conduce con cuidado por las pistas imposibles y demuestra tu buena habilidad al volante en los juegos de acrobacias con coches. Este juego de acrobacias peligrosas es difícil de conducir por las rampas en zigzag del camino celeste. En este gran juego de rampas, necesitas tener habilidades de carreras de coches en una pista imposible. El coche saltarín tiene una buena física de salto acrobático. Estoy seguro de que disfrutarás muchísimo de este juego de carreras de coches jugando a estas carreras de acrobacias en la pista imposible más atractiva del entorno celeste. El extremo juego de acrobacias con coches que más te atrapará con sus acrobacias al volante. Si te encantan los coches imposibles para hacer acrobacias, primero en los juegos de vehículos; entonces Impossible Car Stunts es el mejor para ti. Este juego gratis de coches tiene un diseño especial de pistas imposibles para el desafío de acrobacias con coches. ¿Estás listo para disfrutar de las últimas y mejores acrobacias con coches en las carreteras altas del cielo? Si lo estás, bienvenido al juego de acrobacias con coches, donde puedes conducir un coche a alturas enormes para tocar el gran cielo como una leyenda. Las carreras de acrobacias con coches son el mejor juego de 2019 entre los juegos imposibles de acrobacias con coches y pistas de acrobacias. Disfruta del salto del coche y de una carrera real por pistas imposibles infinitas y extremas en las alturas del cielo. Si eres un piloto muy rápido y un conductor de acrobacias imposibles y tienes pasión por los juegos de carreras de coches, prepárate para vivir un rally real de coches en medio del cielo sin límites. Corre como un maestro de acrobacias enloquecido mientras recorres las pistas imposibles de diseño real y vence a los rivales en esta impresionante aventura. Realiza derrapes extremos y volteretas acrobáticas locas en el aire en la pista imposible 3D y corre como un auténtico derrapador. Las carreras extremas de coches en ciudad e imposibles son un auténtico desafío de acrobacias con coches, así que abróchate el cinturón antes de despegar y gana este simulador de carreras de coches 2019. A diferencia de otros juegos de acrobacias con coches, esta conducción extrema por la ciudad va a ser pura diversión y aventura. Seguro que te engancharás a este increíble juego de carreras de coches de pistas imposibles en 3D. Cada nivel es emocionante y desafiante, lo que lo convierte en el juego de acrobacias con coches más emocionante. Llega a t",
+  "instructions": "Controles del teclado",
+  "guide": {
+   "intro": "Impossible Car Stunts es un juego de carreras ambientado en pistas en las alturas del cielo, llenas de rampas, saltos y curvas en zigzag. Corres con un coche deportivo por cada nivel, llegando a los puntos de control y a la línea de meta antes de que se acabe el tiempo.",
+   "tips": [
+    "Vigila el tiempo tanto como la carretera, ya que el tiempo de carrera es limitado y debes llegar a la línea de meta rápidamente.",
+    "Reduce un poco la velocidad antes de las grandes rampas para que tu coche aterrice con estabilidad en lugar de volcar fuera de control.",
+    "Usa los derrapes en las secciones en zigzag para mantener la velocidad en las curvas cerradas en lugar de frenar con fuerza.",
+    "Guarda tus volteretas en el aire para los saltos en los que tengas un camino de aterrizaje claro, porque un mal aterrizaje puede acabar con tu carrera. Si te gusta deslizarte por las curvas, puedes encontrar [[drift-games|más desafíos de derrape]] para practicar tu control.",
+    "Prueba cada coche del juego para ver cuál maneja mejor según tu estilo de conducción en las pistas celestes."
+   ],
+   "faq": [
+    [
+     "¿Cómo completo un nivel?",
+     "Tienes que llegar al punto de control y luego a la línea de meta antes de que se acabe el tiempo de carrera. Hacer acrobacias por el camino forma parte del desafío."
+    ],
+    [
+     "¿Hay límite de tiempo?",
+     "Sí, el tiempo de carrera es limitado, así que debes completar la pista rápidamente sin dejar de conducir con cuidado."
+    ]
+   ]
+  }
  },
  "adventure-hero-2": {
   "description": "De la serie de juegos Adventure Hero, aquí publicamos los siguientes niveles del juego. Disfruta jugando a un nuevo juego de plataformas llamado Adventure Hero 2. Recoge todas las frutas que puedas y consigue los trofeos. Evita chocar con los enemigos en los obstáculos. No creo que puedas lograrlo. De verdad es un enorme desafío para tu habilidad con el juego. ¡Diviértete!",
@@ -273828,8 +273888,8 @@
   }
  },
  "mad-city-racings-big-city-openworld": {
-  "description": "¡Mad City Racings Online lleva las carreras de mundo abierto en móvil a un nivel totalmente nuevo! Derrapes, carreras online, personalización de coches, carreras de aceleración, acrobacias y la libertad de recorrer una enorme ciudad. 🔥 CARACTERÍSTICAS DEL JUEGO 🔥 Varios modos de juego • Carreras callejeras • Carreras de aceleración • Desafíos de derrape • Puntos de control • Zonas de acrobacias • Destrucción de objetos • Modo motor apagado • Exploración libre 🏁 Multijugador en tiempo real Juega online con amigos y pilotos de todo el mundo. Carreras de exploración libre, carreras PvP, batallas de derrape y carreras de aceleración en tiempo real. 🌍 Enorme mundo abierto (Dos grandes metrópolis abiertas – ciudades) Explora la inmensa y vibrante ciudad, descubre zonas secretas, circuitos, saltos y desafíos. 💀 Modo sin motor ¡Pon a prueba tus habilidades de control! Apaga el motor y lánzate por enormes circuitos de gran altitud usando solo el impulso, los frenos y una dirección precisa. Plataformas estrechas, saltos mortales, abismos y obstáculos extremos: un solo error y vuelves al punto de partida. 🔥 Modo acrobacias Circuitos locos, saltos gigantes, ventiladores giratorios, túneles estrechos y obstáculos mortales. Realiza acrobacias increíbles, completa pruebas exigentes y demuestra que eres un verdadero maestro de la conducción extrema. 🚗 Enorme flota de coches Desbloquea decenas de coches: JDM, superdeportivos, muscle cars, coches de derrape y modelos exclusivos, ¡además de un coche volador! ⚙️ Ajustes avanzados Mejora el motor, el turbo, la suspensión, la caja de cambios y el manejo. Crea el montaje perfecto para correr. 🎨 Personalización total Luces de neón, vinilos, alerones, llantas, pintura, cristales tintados y un estilo único para tu coche. 🛠 Editor de circuitos Construye tus propios circuitos con saltos, obstáculos y rutas desafiantes. 🎰 Rueda de la Fortuna Prueba tu suerte y gana coches raros, dinero y recompensas exclusivas. 📈 Tareas diarias y eventos Completa misiones, participa en eventos y gana recompensas increíbles. 🎮 Gráficos URP de nueva generación Física realista, efectos de sonido de alta calidad e iluminación dinámica. ¡Puedes activar los efectos en los ajustes! Tu estilo. Tus coches. Tu ciudad.",
-  "instructions": "Controles: - W — Acelerar - S — Frenar / Marcha atrás - A / D — Girar a la izquierda / derecha - F — Activar nitro - ESPACIO — Freno de mano - C — Cambiar cámara - ESC — Abrir menú / ajustes ¡Ponte al volante, domina tu forma de conducir y usa el nitro para alcanzar la velocidad máxima!"
+  "description": "¡Mad City Racings Online lleva las carreras móviles de mundo abierto a un nuevo nivel! Derrapes, carreras online, personalización de coches, carreras de aceleración, acrobacias y la libertad de recorrer una enorme ciudad. 🔥 CARACTERÍSTICAS DEL JUEGO 🔥 Varios modos de juego • Carreras callejeras • Carreras de aceleración • Desafíos de derrape • Puntos de control • Zonas de acrobacias • Destrucción de objetos • Modo motor apagado • Modo de exploración libre 🏁 Multijugador en tiempo real Juega online con amigos y pilotos de todo el mundo. Carreras de exploración libre, carreras PvP, batallas de derrape y carreras de aceleración en tiempo real. 🌍 Enorme mundo abierto (Dos grandes metrópolis abiertas – ciudades) Explora la vasta y vibrante ciudad, descubre áreas secretas, circuitos, saltos y desafíos. 💀 Modo sin motor ¡Pon a prueba tus habilidades de control! Apaga el motor y lánzate por enormes circuitos de gran altura usando solo el impulso, los frenos y una dirección precisa. Plataformas estrechas, saltos mortales, abismos y obstáculos extremos: un solo error y vuelves al punto de partida. 🔥 Modo acrobacias Circuitos locos, saltos gigantes, ventiladores giratorios, túneles estrechos y obstáculos mortales. Haz acrobacias increíbles, completa pruebas desafiantes y demuestra que eres un verdadero maestro de la conducción extrema. 🚗 Enorme flota de coches Desbloquea decenas de coches: JDM, superdeportivos, muscle cars, coches de derrape y modelos exclusivos, ¡además de un coche volador! ⚙️ Ajustes avanzados Mejora el motor, el turbo, la suspensión, la caja de cambios y el manejo. Crea la configuración perfecta para correr. 🎨 Personalización total Luces de neón, vinilos, alerones, llantas, pintura, cristales tintados y un estilo único para tu coche. 🛠 Editor de circuitos Construye tus propios circuitos con saltos, obstáculos y rutas desafiantes. 🎰 La Rueda de la Fortuna Prueba suerte y gana coches raros, dinero y recompensas exclusivas. 📈 Tareas diarias y eventos Completa misiones, participa en eventos y gana recompensas geniales. 🎮 Gráficos URP de nueva generación Físicas realistas, efectos de sonido de alta calidad e iluminación dinámica. ¡Puedes activar los efectos en los ajustes! Tu estilo. Tus coches. Tu ciudad.",
+  "instructions": "Controles: - W — Acelerar - S — Frenar / Marcha atrás - A / D — Girar a la izquierda / derecha - F — Activar nitro - ESPACIO — Freno de mano - C — Cambiar cámara - ESC — Abrir menú / ajustes ¡Ponte al volante, domina tus habilidades de conducción y usa el nitro para alcanzar la velocidad máxima!"
  },
  "snake-rush": {
   "description": "¡Prepárate para sumergirte en el mundo lleno de adrenalina de Snake Rush! 🐍 Emprende un viaje electrizante con esta versión competitiva del clásico juego Snake. Pon a prueba tus instintos de supervivencia y esfuérzate por superar a tus rivales en el enfrentamiento definitivo de Snake Rush. Con Snake Rush vivirás la diversión atemporal de los arcade con un estilo fresco y moderno. ¡Participa en emocionantes eventos en vivo en línea, donde la competencia nunca duerme! ¿Podrás subir a lo más alto de la tabla de clasificación y reclamar la victoria en esta dinámica adaptación móvil de la sensación arcade? Snake Rush combina gráficos de última generación con las icónicas mecánicas de juego del Snake original, ofreciendo una experiencia de juego incomparable que te mantendrá enganchado durante horas. ¡Prepárate para reptar, esquivar y dominar el camino hacia la gloria en Snake Rush! 🎮 [Jugabilidad principal e historia] P: ¿De qué trata el juego? ¿Qué deben hacer los jugadores? R: Snake Rush es un juego en el que controlas a una serpiente que repta, sobreviviendo el mayor tiempo posible al chocar contra los oponentes y derrotarlos. P: ¿Cuál es la característica única del juego? ¿Qué es lo que engancha a los jugadores? R: Gráficos excelentes y skins únicos de estilo indio. P: ¿Cuáles son los elementos de contenido más atractivos (armas, coches, escenarios, habilidades, referencias a franquicias famosas, etc.)? R: El juego cuenta con skins únicos de estilo indio y ofrece la opción de revivir al ver un anuncio, lo que da al jugador la oportunidad de recuperar su progreso tras un error. [Mecánicas y progresión] P: ¿Cómo funciona exactamente la subida de nivel? ¿Qué deben hacer los jugadores para subir de nivel más rápido? R: Corta el paso a tantos enemigos como puedas y completa las tareas del menú. [Economía y personalización] P: ¿Qué monedas hay disponibles y en qué se gastan (estándar: oro, premium: cristales, etc.)? R: El juego tiene una sola moneda, el oro, que se puede gastar en skins para tu serpiente. P: ¿Hay personalización del personaje? ¿Se puede configurar la apariencia del héroe, el editor de escenarios, la mejora de vehículos, etc.? R: Sí, puedes comprar skins. [Retención y participación] P: ¿Es recomendable jugar con sonido para sumergirse mejor en la atmósfera, o jugar sin sonido dificulta el avance? R: La música complementa el juego y lo hace más diná",
@@ -280859,8 +280919,27 @@
   }
  },
  "new-truck-parking-2020-hard-pvp-car-parking-games": {
-  "description": "La Play Store está llena de juegos de aparcar y juegos de aparcar coches, pero ninguno tan realista como este juego de aparcar camiones 2020. Sus controles únicos basados en una física realista, junto con todos sus ángulos únicos, lo convierten en el mejor de todos los simuladores realistas de aparcar camiones 2020. Si te cansan todos los juegos de aparcar parecidos y buscas gráficos de alta calidad y algo poco común, entonces los juegos de aparcar camiones de carga 2020 son perfectos para ti. ¡Este simulador de aparcar camiones pesados europeos 2019 es el simulador definitivo y el mejor juego de aparcar con los gráficos más impresionantes de todos los tiempos! Si crees que tienes todas las habilidades profesionales del mejor conductor, no te detengas y disfruta del mejor juego de aparcar de todos los simuladores de aparcar camiones reales. Los juegos de aparcar camiones 2019 perfectos te ofrecerán una experiencia increíble al conducir por el aparcamiento para superar las misiones en el menor tiempo posible, con una nueva era de simulación de aparcamiento y gráficos súper espectaculares. A diferencia de los juegos de aparcar coches 2019, este conductor de camión real intenta aparcar en plazas extremadamente difíciles, lo que supone un verdadero desafío para los conductores profesionales. Los gráficos de calidad superior, una gestión de aparcamiento sencilla y de alta precisión, y los distintos ángulos de cámara te darán una sensación muy realista en los nuevos juegos de simulador de aparcar camiones 2020. Los juegos de Parking Truck Mania 2020 no sirven solo para matar el tiempo, también aprenderás a aparcar tu vehículo de verdad, mientras disfrutas del juego y te perfeccionas practicando como un conductor de camiones y aparcador de remolques profesional 2019. Muchas barreras y obstáculos en la carretera te convertirán en un experto en aparcar y conducir. La nueva jugabilidad del simulador de aparcar te permite experimentar los duros desafíos del simulador de aparcar coches 2020. ¡Siente la emoción y trata de ser el mejor aparcador de supervivencia en este entorno desafiante! Ponte al volante y arranca el motor del camión para empezar tu carrera y demostrar tus habilidades de aparcamiento con el simulador de conducción de camiones 3D 2020. Este simulador te permitirá comprobar lo buena que eres en las habilidades de aparcamiento. Conduce con cuidado y aparca tu camión en la plaza exacta en el tiempo indicado para obtener el título de profesional del transporte en los juegos gratuitos de conducción de camiones 2019. Características de Hard Truck Parking 2019: Realist",
-  "instructions": "Usa las teclas de flecha para controlar el coche"
+  "description": "La Play Store está llena de juegos de aparcar y juegos de aparcar coches, pero ninguno tan realista como este juego de aparcar camiones 2020. Sus controles únicos basados en una física realista, junto con todos sus ángulos únicos, lo convierten en el mejor de todos los simuladores de aparcar camiones reales 2020. Si te cansan los juegos de aparcar parecidos y buscas gráficos de alta calidad y algo diferente, entonces los juegos de aparcar camiones de carga 2020 son perfectos para ti. ¡Este simulador de aparcar camiones pesados europeos 2019 es el simulador definitivo y el mejor juego de aparcar camiones, con los gráficos más impresionantes de todos! Si crees que tienes todas las habilidades profesionales del mejor conductor, no te detengas y disfruta del mejor juego de aparcar de todos los simuladores de aparcar camiones reales. Los juegos de aparcar camiones perfectos 2019 te ofrecerán la increíble experiencia de conducir por el aparcamiento para completar las misiones en el menor tiempo posible, con una nueva era de simulación de aparcar y gráficos súper espectaculares. A diferencia de los juegos de aparcar coches 2019, aquí un camionero intenta aparcar en plazas extremadamente difíciles, todo un reto para los conductores profesionales. Los gráficos de calidad superior, la gestión sencilla del aparcamiento con gran precisión y los distintos ángulos de cámara te darán una sensación muy realista en los nuevos juegos de simulador de aparcar camiones 2020. Los juegos Parking Truck Mania 2020 no sirven solo para matar el tiempo: también aprenderás a aparcar tu vehículo de verdad, mientras disfrutas del juego y te perfeccionas practicando como un auténtico conductor de camiones y un profesional del aparcamiento con remolque 2019. Muchas barreras y obstáculos de carretera te convertirán en un experto en aparcar y conducir. La nueva jugabilidad del simulador de aparcar te permite vivir los duros retos del simulador de aparcar coches 2020. Siente la adrenalina e intenta ser el mejor aparcando en este entorno desafiante. Ponte al volante y arranca el motor del camión para empezar tu carrera y demostrar tus habilidades al aparcar con el simulador de conducción de camiones 3D 2020. Este simulador te permitirá comprobar lo bien que dominas el aparcamiento. Conduce con cuidado y aparca tu camión en la plaza exacta dentro del tiempo indicado para ganarte el título de camionero profesional en los juegos gratis de conducir camiones 2019. Características de Hard Truck Parking 2019: : Realista",
+  "instructions": "Usa las teclas de flecha para controlar el coche",
+  "guide": {
+   "intro": "New Truck Parking 2020 es un desafío de aparcamiento de estilo arcade en el que diriges un camión hacia plazas estrechas y de difícil acceso. Debes aparcar en la plaza exacta dentro del tiempo límite y evitar las barreras y los obstáculos de la carretera.",
+   "tips": [
+    "Avanza despacio y haz pequeñas correcciones de dirección, ya que los controles basados en la física responden de forma realista y los movimientos bruscos pueden llevar el camión contra una barrera.",
+    "Cambia entre los distintos ángulos de cámara antes de cada maniobra para calcular la distancia a las paredes y a las marcas de aparcamiento desde más de una vista.",
+    "Empieza con la aproximación amplia y alinea el camión antes de llegar a la plaza estrecha, para no tener que corregir en el último momento.",
+    "Vigila el reloj, pero no te precipites: un aparcamiento limpio en la plaza exacta vale más que un choque y un reinicio rápidos, así que mantén la velocidad baja cerca de los obstáculos. Si disfrutas de las maniobras cuidadosas, la colección de [[car-parking-games|juegos de aparcar coches]] tiene más desafíos de aparcamiento de precisión para practicar."
+   ],
+   "faq": [
+    [
+     "¿Cómo controlo el camión?",
+     "Usa las teclas de flecha para conducir y girar el camión. El juego también admite volante, inclinación y controles por botones si lo prefieres."
+    ],
+    [
+     "¿Cuál es el objetivo de cada misión?",
+     "Debes aparcar tu camión en la plaza exacta dentro del tiempo indicado. Cuanto más rápido completes la misión, mejor será tu resultado."
+    ]
+   ]
+  }
  },
  "virus-war-multiplayer": {
   "description": "¡Un juego online/multijugador muy adictivo! Mueve tu virus con astucia y elimina a los demás. ¡Elige tu virus y empieza a luchar ahora! ¡Diviértete!",
@@ -286019,12 +286098,52 @@
   }
  },
  "yummy-gummy-sort": {
-  "description": "Yummy Gummy Sort es un acogedor juego de clasificación en 3D en primera persona. Un terremoto ha tirado los 4.000 gominolas de las estanterías de una tienda de dulces, y ahora yacen en grandes montones de gelatina en el suelo. El tendero está llorando, y tú eres el único que puede ayudar. Rebusca entre los montones, encuentra el lugar de cada gominola y devuélvela a su sitio. Cada gominola es una gelatina blanda y elástica que se amontona y rueda con físicas realistas. Hay 20 categorías llenas de color: dinosaurios, criaturas marinas, comida rápida, espacio, Halloween y más. Encuentras el lugar de cada gominola solo por su forma y su color. No hay forma de perder ni penalización por los errores. Cada gominola ordenada te da dinero para mejoras divertidas como Magnet, Trick Shot y Spotlight, así que ordenar se vuelve más rápido y satisfactorio a medida que avanzas.",
-  "instructions": "¡Ordena la tienda de dulces! Recoge gominolas de los montones, encuentra la estantería con el cartel de su categoría y coloca cada una en una balda de su mismo tipo. Una balda solo admite un tipo de gominola. Una gominola en el lugar equivocado lo indica, y puedes retirarla en cualquier momento. Cada gominola bien ordenada te da dinero para gastar en mejoras: más espacio en los bolsillos, más alcance, lanzamientos más fuertes, sprint, salto y habilidades especiales. Llena todas las baldas de las 20 categorías para dejar la tienda impecable y ganar. ¡Después intenta superar tu mejor tiempo! Controles de escritorio: W A S D / Flechas: Mover. Ratón: Mirar alrededor. Clic izquierdo: Recoger una gominola, o retirar una de una balda (mantén pulsado para seguir recogiendo). Clic derecho: Colocar la gominola que tienes en la mano en una balda, o lanzarla. Rueda del ratón: Cambiar la gominola que tienes en la mano. Tab: Abrir las mejoras. Esc: Pausa. Mayús: Sprint (una vez comprado). Espacio: Saltar (una vez comprado). C: Agacharse (una vez comprado). 1, 2, 3: Usar habilidades (una vez compradas). Controles móviles: Joystick (lado izquierdo): Mover. Empújalo hasta el final"
+  "description": "Yummy Gummy Sort es un juego de clasificación acogedor en 3D y en primera persona. Un terremoto ha tirado los 4.000 gominolas de las estanterías de una tienda de caramelos, y ahora yacen en grandes montones de gelatina en el suelo. El tendero está llorando y tú eres el único que puede ayudar. Busca entre los montones, encuentra dónde pertenece cada gominola y colócala en su sitio. Cada gominola es una gelatina blanda y elástica que se apila y rueda con física realista. Hay 20 categorías coloridas: dinosaurios, criaturas marinas, comida rápida, espacio, Halloween y más. Encuentras el lugar de cada gominola solo por su forma y color. No hay forma de perder ni penalización por los errores. Cada gominola clasificada gana dinero para mejoras divertidas como Magnet, Trick Shot y Spotlight, así que ordenar se vuelve más rápido y satisfactorio a medida que avanzas.",
+  "instructions": "¡Ordena la tienda de caramelos! Recoge gominolas de los montones, encuentra la estantería con el cartel de su categoría y coloca cada una en un estante de su mismo tipo. Un estante solo admite un tipo de gominola. Una gominola en el lugar equivocado lo indica, y puedes retirarla en cualquier momento. Cada gominola colocada correctamente gana dinero para gastar en mejoras: más espacio de bolsillo, mayor alcance, lanzamientos más fuertes, sprint, salto y habilidades especiales. Llena todos los estantes de las 20 categorías para dejar la tienda impecable y ganar. ¡Después intenta superar tu mejor tiempo! Controles de escritorio: W A S D / Teclas de flecha: Moverse. Ratón: Mirar alrededor. Clic izquierdo: Recoger una gominola o retirarla de un estante (mantén pulsado para seguir recogiendo). Clic derecho: Colocar la gominola que tienes en la mano en un estante, o lanzarla. Rueda del ratón: Cambiar la gominola que tienes en la mano. Tab: Abrir las mejoras. Esc: Pausar. Shift: Sprint (una vez comprado). Espacio: Saltar (una vez comprado). C: Agacharse (una vez comprado). 1, 2, 3: Usar habilidades (una vez compradas). Controles móviles: Joystick (lado izquierdo): Moverse. Empújalo del todo",
+  "guide": {
+   "intro": "Yummy Gummy Sort es un juego acogedor en 3D y en primera persona en el que ordenas una tienda de caramelos después de un terremoto. Busca entre los montones de gelatina, encuentra el lugar de cada gominola por su forma y color, y llena las 20 categorías.",
+   "tips": [
+    "Elige un montón y lleva las gominolas que encuentres a la estantería con el cartel correspondiente, así no tendrás que ir y venir por piezas sueltas.",
+    "Una colocación incorrecta se muestra en el estante, y puedes retirar una gominola en cualquier momento, así que está bien probar un sitio y corregirlo si hace falta.",
+    "Gasta el dinero de tus primeras clasificaciones en las mejoras que más te ahorren caminar, como más espacio de bolsillo o mayor alcance, antes de comprar extras.",
+    "Usa la rueda del ratón o el botón de cambio para elegir qué gominola sostienes, así puedes colocar una y coger la siguiente sin detenerte.",
+    "Cuando tengas sprint y salto, úsalos para cruzar los montones rápidamente, y si disfrutas de una partida tranquila y constante, prueba [[sorting-games|más puzles de clasificación para jugar]]."
+   ],
+   "faq": [
+    [
+     "¿Cómo sé en qué estante va una gominola?",
+     "Encuentras el lugar de cada gominola solo por su forma y color, así que fíjate bien en los carteles de categoría de las estanterías. Si una gominola está en el lugar equivocado, el juego lo muestra."
+    ],
+    [
+     "¿Para qué sirve el dinero que gano?",
+     "Cada gominola clasificada correctamente te da dinero que puedes gastar en el menú de mejoras, incluidas Magnet, Trick Shot, Spotlight, más espacio de bolsillo, mayor alcance y lanzamientos más fuertes."
+    ]
+   ]
+  }
  },
  "snake-autopilot": {
-  "description": "¡El clásico juego de Snake con un giro! Recoge comida, crece más y evita chocar contra las paredes o tu propia cola. ¡Incluso tendrás un breve momento para girar antes de chocar con una pared! Elige entre tres modos: \"Classic\", \"No Walls\" — atraviesa los bordes de la pantalla, y \"Obstacles\" — esquiva bloques que cambian de posición en cada ronda. ¡Desafía a la IA en el modo \"Duel\"! Compite en el mismo tablero, usa potenciadores y derrota a ocho oponentes, cada uno más difícil que el anterior. O activa \"Autopilot\" y deja que la IA controle tu serpiente, ayudándote a salir de situaciones complicadas. ¡Gana monedas recogiendo comida y reclamando recompensas diarias, y luego gástalas en skins, accesorios, efectos y nuevos mundos!",
-  "instructions": "Controla tu serpiente con las flechas del teclado o WASD, o desliza el dedo en tu móvil. 🍎 Manzana: +10 puntos ⭐ Estrella: +30 puntos Pulsa \"P\" para pausar o \"Esc\" para abrir el menú. Activa \"Autopilot\" viendo un anuncio o gastando 30 monedas. La IA controla tu serpiente durante 15 manzanas en el modo normal o una ronda por duelo. ¡En el modo \"Duel\", gana dos rondas para conseguir la victoria! Si chocas, tu oponente gana la ronda. Si se acaba el tiempo, gana el jugador que haya recogido más comida. Los potenciadores se activan al instante: los efectos positivos te ayudan, mientras que los negativos afectan a tu oponente. Puedes activar o desactivar la música y los efectos de sonido por separado en el menú."
+  "description": "¡El clásico juego de Snake con un giro! Recoge comida, crece más largo y evita chocar contra las paredes o tu propia cola. ¡Incluso tendrás un breve momento para girar antes de chocar contra una pared! Elige entre tres modos: \"Classic\", \"No Walls\" (atraviesa los bordes de la pantalla) y \"Obstacles\" (esquiva bloques que cambian de posición en cada ronda). ¡Desafía a la IA en el modo \"Duel\"! Compite en el mismo tablero, usa potenciadores y derrota a ocho rivales, cada uno más difícil que el anterior. O activa \"Autopilot\" y deja que la IA controle tu serpiente, ayudándote a salir de situaciones complicadas. ¡Gana monedas recogiendo comida y reclamando recompensas diarias, y gástalas en skins, accesorios, efectos y nuevos mundos!",
+  "instructions": "Controla tu serpiente con las flechas o WASD, o desliza el dedo en tu teléfono. 🍎 Manzana: +10 puntos ⭐ Estrella: +30 puntos Pulsa \"P\" para pausar o \"Esc\" para abrir el menú. Activa \"Autopilot\" viendo un anuncio o gastando 30 monedas. La IA controla tu serpiente durante 15 manzanas en el modo normal o una ronda por duelo. ¡En el modo \"Duel\", gana dos rondas para conseguir la victoria! Si chocas, tu oponente gana la ronda. Si se acaba el tiempo, gana el jugador que haya recogido más comida. Los potenciadores se activan al instante: los efectos positivos te ayudan, mientras que los negativos afectan a tu oponente. Puedes activar o desactivar la música y los efectos de sonido por separado en el menú.",
+  "guide": {
+   "intro": "Snake: Autopilot es un clásico juego de serpiente con tres modos, un duelo contra oponentes de IA y una opción de piloto automático que toma el control de tu serpiente cuando las cosas se complican. Usa las flechas o WASD para dirigirla y recoge comida para crecer.",
+   "tips": [
+    "Tienes un breve margen para girar antes de chocar contra una pared, así que vigila los bordes y empieza a girar pronto, no en el último segundo.",
+    "En el modo No Walls, usa los bordes de la pantalla como atajo para escapar de tu propia cola en lugar de acorralarte en una esquina.",
+    "En el modo Obstacles, los bloques cambian de posición en cada ronda, así que revisa la nueva disposición al inicio antes de planear tu ruta.",
+    "En el modo Duel, si se acaba el tiempo gana el jugador con más comida, así que sigue recogiendo manzanas aunque no estés en peligro. Recuerda que necesitas ganar dos rondas para conseguir la victoria.",
+    "Guarda Autopilot para una situación difícil, ya que solo controla tu serpiente durante 15 manzanas en el modo normal o una ronda en un duelo. Si disfrutas practicando giros y rutas, también puedes probar más [[snake-games|juegos clásicos de snake]]."
+   ],
+   "faq": [
+    [
+     "¿Cómo gano una partida de Duel?",
+     "Necesitas ganar dos rondas para conseguir la victoria. Si chocas, tu oponente gana esa ronda."
+    ],
+    [
+     "¿Qué pasa si se acaba el tiempo?",
+     "El jugador que haya recogido más comida gana la ronda, así que sigue cogiendo manzanas conforme el tiempo se agote."
+    ]
+   ]
+  }
  },
  "tiny-racers": {
   "description": "¡Construye un pequeño vehículo con las piezas que consigas e intenta cruzar la habitación! Cada nivel es un nuevo puzle sobre ruedas: coloca las piezas en el lugar correcto, pulsa salir y espera que tu creación sobreviva al viaje. Salta desde sofás, vuela sobre mesas y atraviesa bucles de camino a la meta. Desbloquea vehículos divertidos y personalízalos por el camino.",
@@ -287514,8 +287633,8 @@
   }
  },
  "make-up-cosmetic-box-cake-maker-best-cooking-game": {
-  "description": "¡Sé el mejor repostero de pasteles que el mundo haya visto! ¡Hagamos el mejor pastel de maquillaje del mundo, porque ahora eres el Maestro Chef! ¡Manos a la obra! ¡Conviértete en el mejor repostero de la ciudad y crea los pasteles más deliciosos en este delicioso juego de cocina de pasteles! El juego de cocina de pasteles está diseñado con gráficos e interfaz excepcionales que te harán sentir como si estuvieras horneando un pastel de verdad. ¡Qué rico! ¿A qué esperas? ¡Saca tu batidora y empieza a cascar esos huevos! ¿Cuál es tu tipo de pastel favorito? ¿Pasteles redondos de maquillaje dulces? ¿Pasteles cosméticos con formas elegantes? Sea cual sea, puedes hacerlo y decorar tus pasteles para que queden aún más bonitos, y tomar fotos para mostrarle a tus amigos tus deliciosas creaciones. ¡Incluso puedes presentar tus pasteles en un concurso y servírselos a tus amigos en la fiesta de pasteles! Características: > ¡Aprende a hornear los pasteles de maquillaje más deliciosos de la historia en este divertido juego de cocina! > ¡Montones de recetas de pasteles que hacen la boca agua para ti y tus amigos! > ¡Usa herramientas profesionales de repostería para hornear, diseñar y decorar los pasteles más deliciosos! > Desde pasteles de cumpleaños con grageas de colores hasta cupcakes de fresa, las opciones son infinitas! > ¡Decora tus pasteles con glaseado delicioso, decoraciones deliciosas y adorables adornos! > ¡Toma fotos de tu obra maestra para presumir tus espectaculares diseños de pasteles! > ¡Montones de páginas para colorear adorables y divertidas para dibujar en este increíble juego de cocina! ¡Sé el Maestro Chef y crea un Make Up Cosmetic Box Cake Maker -Best Cooking Game, que se vea increíble!! En este juego de cocina de pasteles tan adictivo para niños y especialmente para niñas, cocina deliciosos pasteles increíbles de Cosmetic Box para fiestas de boda y de cumpleaños. Podrás practicar tus habilidades para hacer pasteles en una variedad de escenarios y técnicas de cocina. Puedes usar los diferentes ingredientes para cocinar varios pasteles de chocolate y otros platos sabrosos. ¡Sé el mejor creador de pasteles cosméticos de chocolate y prueba todos los electrodomésticos de cocina posibles para cocinar delicioso pastel cosmético en tu propia cocina. ¡Cocina y hornea el tradicional pastel cosmético de maquillaje con tu receta de pastel favorita. Diseña y decora tu caja de maquillaje con múltiples artículos como delineador, rímel, lápiz labial y esmalte de uñas para impresionar a tus amigos. Haz tu f",
-  "instructions": "Aprende a hornear los pasteles de maquillaje más deliciosos de la historia en este divertido juego de cocina. Montones de recetas de pasteles que hacen la boca agua para ti y tus amigos. Usa herramientas profesionales de repostería para hornear, diseñar y decorar los pasteles más deliciosos."
+  "description": "¡Sé el mejor repostero de tacos de maquillaje que el mundo haya visto! ¡Hagamos la mejor tarta de maquillaje del mundo, porque ahora eres el Maestro Chef! ¡A hornear! ¡Conviértete en el mejor repostero de la ciudad y crea las tartas más deliciosas en este delicioso juego de cocina de tartas! El juego de cocina de tartas, bellamente diseñado, cuenta con gráficos e interfaz excepcionales que te harán sentir que estás horneando una tarta de verdad. ¡Qué rico! ¿Qué esperas? ¡Saca la batidora y empieza a cascar esos huevos! Entonces, ¿cuál es tu tipo de tarta favorito? ¿Tartas redondas y dulces de maquillaje? ¿Tartas cosméticas con formas elegantes? Sea cual sea, puedes hacerla y decorar tus tartas para que queden aún más bonitas, y tomar fotos para mostrarle a tus amigos tus deliciosas creaciones. ¡Incluso puedes presentar tus tartas a un concurso y servírselas a tus amigos en la fiesta de tartas! Características: > ¡Aprende a hornear los pasteles de maquillaje más deliciosos JAMÁS vistos en este divertido juego de cocina! > ¡Montones de recetas de tartas irresistibles para preparar para ti y tus amigos! > ¡Usa herramientas de repostería profesionales para hornear, diseñar y decorar las tartas más deliciosas! > Desde tartas de cumpleaños con fideos de colores hasta cupcakes de fresa, las opciones son infinitas. > ¡Decora tus tartas con glaseado delicioso, decoraciones deliciosas y adorables toppers! > ¡Toma fotos de tu obra maestra para presumir de tus preciosos diseños de tartas! > ¡Montones de páginas para colorear adorables y divertidas para dibujar en este increíble juego de cocina! ¡Sé el Maestro Chef y haz una Tarta Caja Cosmética - que luce increíble!! En este adictivo juego de cocina de tartas para niños y especialmente para niñas, cocina deliciosas tartas Caja Cosmética increíbles para fiestas de boda y cumpleaños. Podrás practicar tus habilidades para hacer tartas en una variedad de escenarios y técnicas de cocina. Puedes usar los distintos ingredientes para preparar varias tartas de chocolate y otros platos deliciosos. Sé el mejor fabricante de tartas de caja cosmética de chocolate y prueba todos los electrodomésticos de cocina posibles para cocinar deliciosas tartas de caja cosmética en tu propia cocina. Cocina y hornea la tradicional tarta de caja de maquillaje con tu receta de tarta favorita. Diseña y decora tu caja de maquillaje con múltiples artículos como delineador, rímel, lápiz labial y esmalte de uñas para impresionar a tus amigos. Haz tu f",
+  "instructions": "Aprende a hornear los pasteles de maquillaje más deliciosos JAMÁS vistos en este divertido juego de cocina Montones de recetas de tartas irresistibles para preparar para ti y tus amigos Usa herramientas de repostería profesionales para hornear diseñar decorar las tartas más deliciosas"
  },
  "paintball-wars-gui-2022": {
   "description": "Puedes usar varias armas mortales en los mejores juegos de disparos contra fantasmas. En Minecraft, te has visto envuelto en una gran batalla de varios mapas contra un ejército de bots fantasma. Habrá zombis a los que enfrentarte aunque estés bien preparado. No tengo suficiente dinero para estar listo para algo así en este momento. Disfrutas más de los juegos de disparos si puedes ponerte a cubierto. ¿Qué personaje de apoyo gratuito te gusta usar más mientras juegas videojuegos en línea? Se indica el número total de armas de fuego y otras armas. El protagonista suele ir armado en los videojuegos de terror.",
@@ -291058,5 +291177,490 @@
     ]
    ]
   }
+ },
+ "legend-court": {
+  "description": "Legend Court es un juego de baloncesto gratis para navegador. Juega partidos rápidos 1 vs 1 y 3 vs 3, abre sobres de cartas de jugadores, arma tu equipo y avanza por un modo historia ambientado en las canchas del barrio.",
+  "instructions": "Pulsa PLAY para empezar un partido. Usa los controles en pantalla para pasar, lanzar y defender. Abre sobres y arma tu plantilla entre partidos.",
+  "guide": {
+   "intro": "Legend Court combina partidos rápidos de baloncesto con sobres de cartas de jugadores. Juegas 1 vs 1 o 3 vs 3, luego armas tu plantilla y avanzas por una historia ambientada en las canchas del barrio.",
+   "tips": [
+    "Usa los controles en pantalla para pasar, lanzar y defender, y practica cada uno en un partido corto antes de depender de él en un encuentro reñido.",
+    "Fíjate si estás en ataque o en defensa, ya que las mismas jugadas que te dan puntos pueden dejarte libre cuando estás defendiendo.",
+    "Abre tus sobres entre partidos y revisa qué jugadores encajan con tu alineación actual antes de cambiar a alguien, para que tu equipo siga equilibrado.",
+    "Si quieres practicar más la estrategia de equipo, prueba [[building-games|juegos de construcción y creación]] para ver cómo otros juegos premian planificar con antelación.",
+    "En los partidos 3 vs 3, mantén el balón en movimiento con pases para que la defensa tenga que desplazarse, en lugar de quedártelo para que un solo jugador intente un tiro."
+   ],
+   "faq": [
+    [
+     "¿Cómo empiezo un partido?",
+     "Pulsa PLAY para empezar un partido. Puedes elegir entre partidas rápidas 1 vs 1 y 3 vs 3."
+    ],
+    [
+     "¿Qué hago con las cartas de jugadores?",
+     "Abre sobres para conseguir jugadores y luego arma tu plantilla entre partidos para dar forma al equipo que sales a la cancha."
+    ]
+   ]
+  }
+ },
+ "city-stakes": {
+  "description": "City Stakes es un juego 3D narrativo ambientado en Ilmara, una ciudad que está en venta. Las empresas compiten por el skyline mientras las marcas compiten por cada pantalla que aparece en él. El juego se carga directamente en tu navegador y funciona mejor en un ordenador de escritorio.",
+  "instructions": "Usa el ratón o la pantalla táctil para seguir las indicaciones de la historia que aparecen en pantalla.",
+  "guide": {
+   "intro": "City Stakes es un juego 3D basado en la historia, ambientado en Ilmara, una ciudad en venta, donde las empresas luchan por el skyline y las marcas luchan por sus pantallas. Sigues las indicaciones que aparecen en pantalla para hacer avanzar la historia.",
+   "tips": [
+    "Lee cada indicación en pantalla antes de hacer clic o tocar, ya que la historia avanza según las indicaciones que sigas.",
+    "Tómate tu tiempo con las escenas 3D y mira alrededor de la ciudad, porque el skyline y las pantallas son fundamentales para los temas de la historia.",
+    "Juega en un ordenador de escritorio para disfrutar de la mejor experiencia, ya que el juego está diseñado para funcionar mejor allí.",
+    "Si te gusta explorar mundos tridimensionales detallados, también puedes echar un vistazo a [[3d-games|más mundos 3D para navegador]] cuando termines."
+   ],
+   "faq": [
+    [
+     "¿Cómo controlo el juego?",
+     "Usa el ratón o la pantalla táctil para seguir las indicaciones de la historia que aparecen en pantalla."
+    ],
+    [
+     "¿City Stakes tiene puntuación o una forma de perder?",
+     "La descripción y las instrucciones se centran en seguir las indicaciones de la historia, y no mencionan una puntuación ni una forma de perder."
+    ]
+   ]
+  }
+ },
+ "banana-ops": {
+  "description": "Banana Ops es un juego de disparos de monos gratis y online que funciona en tu navegador. Juega partidas por equipos a muerte, zona caliente, buscar y destruir o duelos 1 contra 1 en 11 mapas, consigue rachas de bajas hasta llegar a la Banana Gunship y cuenta con bots que llenan cada partida. Sin descargas y sin registrarte.",
+  "instructions": "Los controles se muestran en el menú del juego. Elige un modo y un mapa, y luego entra en una partida.",
+  "guide": {
+   "intro": "Banana Ops es un juego de disparos de monos en el navegador, con partidas por equipos a muerte, zona caliente, buscar y destruir y duelos 1 contra 1 en 11 mapas. Los bots llenan cada partida, así que puedes entrar y empezar a disparar enseguida.",
+   "tips": [
+    "Abre el menú del juego antes de tu primera partida para revisar los controles y no tener que aprenderlos en mitad del combate.",
+    "Elige un modo que se adapte a tu estilo: las partidas por equipos a muerte premian las bajas constantes, mientras que los duelos 1 contra 1 ponen a prueba tu puntería uno a uno.",
+    "Prueba algunos de los 11 mapas para aprender sus líneas de visión y puntos de estrangulamiento, y luego quédate con los que te resulten más cómodos.",
+    "Mantén un ojo en tus rachas de bajas, ya que las rachas más altas llevan hasta la Banana Gunship y merecen el esfuerzo. Si buscas más acción arcade, también puedes ver [[shooting-games|juegos de disparos rápidos para navegador]].",
+    "Como los bots llenan cada partida, no te alarmes si la sala parece llena; concéntrate en los objetivos más cercanos a ti y cambia de cobertura con frecuencia."
+   ],
+   "faq": [
+    [
+     "¿Qué modos puedo jugar en Banana Ops?",
+     "Puedes elegir partidas por equipos a muerte, zona caliente, buscar y destruir o duelos 1 contra 1. Elige un modo y un mapa en el menú antes de entrar en una partida."
+    ],
+    [
+     "¿Para qué sirven las rachas de bajas?",
+     "Las rachas de bajas son recompensas que consigues al encadenar eliminaciones, y suben hasta llegar a la Banana Gunship. Mantener tu racha activa es la forma principal de desbloquear recompensas más potentes."
+    ]
+   ]
+  }
+ },
+ "crease-game-online": {
+  "description": "Crease Game Online es un puzle gratuito de plegado de papel que se juega directamente en tu navegador. Recibes una hoja de papel cuadrada y un contorno discontinuo, y arrastras el papel para doblarlo hasta que la parte visible cubra el contorno exactamente, sin que sobre nada por fuera ni quede nada sin cubrir. Cada día se desbloquean cuatro puzles nuevos, y hay 27 puzles de práctica, desde Fácil hasta Maestro, además de tres lecciones cortas para principiantes. Deshacer, Reiniciar y Pista están siempre a un toque de distancia, y resolver un puzle con el menor número de pliegues y sin pistas te da tres estrellas. No hace falta descargar nada ni tener una cuenta.",
+  "instructions": "Pulsa sobre el papel y arrástralo para plegarlo. El punto que agarras se coloca donde lo sueltas, y el papel se dobla por el pliegue que queda a medio camino. Arrastra de lado o de arriba abajo para un pliegue recto, o en diagonal de 45 grados para un pliegue diagonal. Cubre el contorno discontinuo exactamente. Las franjas rojas muestran el papel fuera del contorno. Usa Deshacer, Reiniciar y Pista si te atascas, y prueba primero las tres lecciones si eres nuevo.",
+  "guide": {
+   "intro": "Crease Game Online es un puzle de plegado de papel en el que doblas una hoja cuadrada hasta que cubre exactamente un contorno discontinuo. El plegado se hace arrastrando, y el juego tiene puzles diarios y de práctica.",
+   "tips": [
+    "Termina las tres lecciones para principiantes antes de empezar los puzles de práctica, así aprenderás cómo cae el pliegue entre el punto de agarre y el punto de soltado.",
+    "Antes de cada pliegue, comprueba dónde están las franjas rojas y qué borde necesita moverse. Elige una dirección de arrastre que lleve ese borde sobre el contorno.",
+    "Intenta resolver un puzle por tu cuenta durante un rato antes de usar Pista, ya que solo obtienes tres estrellas si lo resuelves con el menor número de pliegues y sin pistas.",
+    "Si un pliegue sale mal, usa primero Deshacer en lugar de Reiniciar para conservar el progreso que ya has hecho.",
+    "Si te gustan los puzles de lógica como este, puedes encontrar más [[brain-games|rompecabezas para probar]] en la web."
+   ],
+   "faq": [
+    [
+     "¿Cómo consigo tres estrellas en un puzle?",
+     "Resuelve el puzle con el menor número de pliegues posible y sin usar ninguna pista. Usar pistas o hacer pliegues extra reducirá el resultado."
+    ],
+    [
+     "¿Qué significan las franjas rojas?",
+     "Las franjas rojas muestran el papel que sobresale del contorno discontinuo. Tus pliegues deben eliminar ese papel para que no sobre nada por fuera ni quede nada sin cubrir."
+    ]
+   ]
+  }
+ },
+ "splinters": {
+  "description": "Splinters es un juego idle/clicker gratis para navegador: toca el árbol para ganar monedas y gástalas en un hacha para obtener más por tala, leñadores que talan solos de forma automática y un aserradero que duplica su producción. Cambia entre los árboles Abedul, Roble y Sakura a medida que los desbloqueas. El progreso se guarda en tu navegador, sin necesidad de cuenta.",
+  "instructions": "Haz clic o toca el árbol para talarlo y ganar monedas. Gasta monedas en las mejoras de Hacha, Leñador y Aserradero que aparecen abajo para ganar más rápido, incluso mientras no estás jugando.",
+  "guide": {
+   "intro": "Splinters es un clicker idle en el que tocas un árbol para ganar monedas y las gastas en hachas, leñadores y un aserradero. Puedes cambiar entre los árboles Abedul, Roble y Sakura a medida que los desbloqueas. Tu progreso se guarda en tu navegador.",
+   "tips": [
+    "Gasta tus primeras monedas en el Hacha mientras sigues haciendo clic a mano, ya que aumenta lo que gana cada tala y acelera tu progreso inicial.",
+    "Los leñadores siguen ganando mientras no estás jugando, así que comprarlos pronto hace que tus monedas se acumulen entre visitas.",
+    "El aserradero duplica la producción de los leñadores, por lo que rinde más cuando ya tienes varios leñadores trabajando para ti.",
+    "Revisa los árboles Abedul, Roble y Sakura a medida que los desbloqueas y cambia al que te dé más monedas en ese momento. Si te gustan los juegos de toque como este, puedes encontrar más en [[clicker-games|explora más juegos de clic]]."
+   ],
+   "faq": [
+    [
+     "¿Debo comprar primero el Hacha o los Leñadores?",
+     "El Hacha aumenta las monedas por tala, así que ayuda más mientras haces clic a mano. Los leñadores talan automáticamente y siguen ganando mientras no estás jugando, por lo que combinar ambos funciona bien a medida que avanzas."
+    ],
+    [
+     "¿Pierdo mi progreso si cierro el juego?",
+     "No, el progreso se guarda en tu navegador, así que puedes volver más tarde y seguir donde lo dejaste. Tus monedas siguen acumulándose gracias a los leñadores incluso cuando no estás jugando."
+    ]
+   ]
+  }
+ },
+ "monkey-business": {
+  "description": "Monkey Business es un juego de correr gratis en el navegador: esquiva y corre como un plátano que es perseguido por un mono. Consigue 3 partidas clasificatorias al día con una cuenta gratuita para la clasificación diaria, o juega partidas de práctica ilimitadas sin registrarte. Funciona en el móvil y en el ordenador.",
+  "instructions": "Pulsa PLAY RANKED para una partida diaria puntuable, o PRACTICE para jugar sin límite. Usa los controles en pantalla o el teclado para esquivar obstáculos y aguantar todo lo que puedas.",
+  "guide": {
+   "intro": "Monkey Business es un juego de correr en el navegador en el que juegas como un plátano que intenta escapar de un mono que lo persigue. Puedes afrontar los desafíos diarios puntuables o jugar rondas de práctica ilimitadas.",
+   "tips": [
+    "Usa PRACTICE primero para aprender cómo aparecen los obstáculos y con qué rapidez debes reaccionar antes de gastar una partida clasificatoria.",
+    "Guarda tus 3 partidas clasificatorias diarias para cuando te sientas en forma, ya que cada una cuenta para la clasificación diaria.",
+    "Mantén la calma y reacciona pronto ante cada obstáculo en lugar de hacer movimientos tardíos y precipitados, que suelen provocar choques.",
+    "Cambia entre los controles en pantalla y el teclado según tu dispositivo, y elige el que te resulte más preciso para esquivar rápido.",
+    "Si te gustan los juegos de reflejos rápidos, prueba [[running-games|más juegos de correr sin fin]] para seguir desarrollando las mismas habilidades de tiempo de reacción."
+   ],
+   "faq": [
+    [
+     "¿Cuántas partidas clasificatorias puedo jugar cada día?",
+     "Puedes jugar 3 partidas clasificatorias al día con una cuenta gratuita. Las partidas clasificatorias son las que puntúan y se usan para la clasificación diaria."
+    ],
+    [
+     "¿Cuál es la diferencia entre las partidas clasificatorias y las de práctica?",
+     "Las partidas clasificatorias puntúan y alimentan la clasificación diaria. Las de práctica no tienen límite ni requieren registro, así que son ideales para aprender el juego."
+    ]
+   ]
+  }
+ },
+ "harvest-ring": {
+  "description": "¡Cultiva una granja vegetal circular y cosecha con una sierra donut giratoria! Abre nuevas parcelas, desbloquea 32 cultivos y reinvierte tus ganancias en mejoras. Automatiza el riego y la cosecha, crea combos, completa misiones y colecciona skins de sierra y temas de granja. Inicia nuevas temporadas para obtener prestigio y bonificaciones permanentes. El Halloween Pumpkin Pass añade desafíos y recompensas de temporada.",
+  "instructions": "Usa el ratón en el ordenador o los controles táctiles en el móvil. Selecciona un sector verde brillante para abrir una parcela. Toca o haz clic en una parcela sedienta para regarla y luego espera a que las verduras maduren. Arrastra la sierra donut desde su base sobre las verduras maduras para cosecharlas y crear combos. Gasta dinero para comprar parcelas y mejorar cultivos. Usa tickets para desbloquear la sierra automática, el riego automático y otras mejoras. Completa misiones para obtener recompensas y usa gemas para comprar skins y temas. Cuando haya una nueva temporada disponible en la pestaña Prestigio, inícialo para ganar prestigio y bonificaciones permanentes.",
+  "guide": {
+   "intro": "Harvest Ring es un juego de granja idle en el que cultivas verduras en una granja circular y las cosechas con una sierra donut giratoria. Reinviertes las ganancias para abrir parcelas, desbloquear cultivos y automatizar el trabajo.",
+   "tips": [
+    "Riega las parcelas sedientas en cuanto aparezcan, ya que las verduras necesitan madurar antes de poder cosecharlas.",
+    "Arrastra la sierra donut sobre varias verduras maduras de una sola vez para crear combos y mantener tu cosecha en marcha.",
+    "Reparte tu dinero por igual entre nuevas parcelas y mejoras de cultivos, para no estancar una parte de la granja mientras esperas por otra.",
+    "Guarda los tickets para la sierra automática y el riego automático primero, porque reducen los clics que necesitas hacer. Si disfrutas de este ciclo de crecimiento lento, también puedes [[idle-and-tycoon-games|explorar más juegos idle tycoon]].",
+    "Revisa las misiones con regularidad para conseguir recompensas e inicia una nueva temporada en la pestaña Prestigio en cuanto esté disponible para obtener bonificaciones permanentes."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo principal de Harvest Ring?",
+     "Tu objetivo es cultivar y cosechar una granja vegetal circular, abrir nuevas parcelas y desbloquear cultivos, para luego reinvertir tus ganancias y expandirte aún más."
+    ],
+    [
+     "¿Cómo cosecho las verduras?",
+     "Arrastra la sierra donut giratoria desde su base sobre las verduras maduras. Arrastrar sobre varias a la vez te ayuda a crear combos."
+    ]
+   ]
+  }
+ },
+ "home-run-superstars": {
+  "description": "Home Run Superstars es un juego arcade de béisbol en el que el timing lo es todo. Ponte en el plato, calcula el momento de tu swing y manda la pelota fuera del estadio, luego sobre la ciudad, a través de los océanos y dando la vuelta al mundo, ¡e incluso hasta la luna! Sube de nivel durante la partida con poderes locos, sobrevive a los Super Pitches eléctricos y gasta tus monedas en entrenamiento, nuevos bates y tu propio look.",
+  "instructions": "Toca READY para lanzar el pitch y luego toca SWING cuando la pelota llegue al plato. Un mejor timing significa un golpe más largo. Tres strikes son un out, y tres outs terminan la partida. Cada vez que subes de nivel puedes elegir uno de tres poderes. FOCUS ralentiza el lanzamiento y FLOW potencia tu siguiente swing. Abre MENU / UPGRADES para comprar entrenamiento y bates con las monedas y la madera que ganes. Teclado: Espacio para batear, Q para Focus, E para Flow, 1–3 para elegir un poder, P para el menú.",
+  "guide": {
+   "intro": "Home Run Superstars es un juego arcade de béisbol basado en el timing. Toca READY para lanzar el pitch y luego calcula el momento de tu SWING para que la pelota vuele lo más lejos posible, desde el estadio hasta la luna.",
+   "tips": [
+    "Fíjate en el momento en que la pelota llega al plato y no en el instante en que sale del lanzador, ya que un mejor timing te da un golpe más largo.",
+    "Tres strikes son un out y tres outs terminan la partida, así que te conviene batear solo cuando sientas que el timing es el adecuado en lugar de batear a todos los lanzamientos.",
+    "Mira las tres opciones de poder después de cada subida de nivel y elige la que mejor encaje con tu forma de batear, porque solo puedes quedarte con una.",
+    "Guarda FOCUS para los lanzamientos rápidos o complicados para frenar la pelota, y reserva FLOW para un swing cuando tengas buenas opciones de conectar.",
+    "Gasta tus monedas y tu madera en MENU / UPGRADES primero en entrenamiento y después en bates nuevos, así mejorarás tu timing antes de buscar equipo más potente. Si te gusta este estilo, también puedes explorar [[3d-games|más títulos deportivos tridimensionales]]."
+   ],
+   "faq": [
+    [
+     "¿Cómo consigo un golpe más largo?",
+     "Calcula el momento de tu SWING para que coincida con la llegada de la pelota al plato, porque un mejor timing hace que la pelota viaje más lejos."
+    ],
+    [
+     "¿Qué pasa si me hacen tres strikes?",
+     "Tres strikes cuentan como un out, y la partida termina después de tres outs."
+    ]
+   ]
+  }
+ },
+ "ok-i-pull-up-capybay": {
+  "description": "Explora un mundo de isla lleno de colores como una capibara. Recoge recursos, fabrica objetos, opera estaciones de producción y completa pedidos para desbloquear nuevas zonas. Descubre las islas en CapyBay.",
+  "instructions": "Muévete con WASD o las teclas de flecha, o haz clic o toca donde quieras ir. Arrastra sobre el área de juego para usar el joystick flotante. Usa E, Espacio o Enter para interactuar con el objeto más cercano. Recoge recursos, fabrica productos y completa pedidos para avanzar y desbloquear zonas.",
+  "guide": {
+   "intro": "Ok! I Pull Up Capybay! es una acogedora aventura en una isla en la que juegas como una capibara. Recoges recursos, fabricas productos, manejas estaciones de producción y completas pedidos para desbloquear nuevas zonas.",
+   "tips": [
+    "Antes de empezar a fabricar, reúne los recursos que necesitas para no estar yendo y viniendo por toda la isla.",
+    "Revisa primero tus pedidos actuales y recoge recursos pensando en ellos, ya que completar pedidos es lo que desbloquea nuevas zonas.",
+    "Colócate cerca de una estación de producción o de un objeto y pulsa E, Espacio o Enter, porque esa tecla siempre actúa sobre lo más cercano.",
+    "Tómate tu tiempo para explorar la isla y prueba la mentalidad de [[relaxing-games|juegos tranquilos]] disfrutando del colorido paisaje entre tareas.",
+    "Usa el joystick flotante arrastrando sobre el área de juego si los controles del teclado te resultan incómodos, y cambia a WASD o a las teclas de flecha cuando lo prefieras."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo principal del juego?",
+     "Tu objetivo es recoger recursos, fabricar productos y completar pedidos para poder desbloquear nuevas zonas de la isla."
+    ],
+    [
+     "¿Cómo intersecto con los objetos?",
+     "Acércate al objeto que quieras y pulsa E, Espacio o Enter para interactuar con el más cercano."
+    ]
+   ]
+  }
+ },
+ "obby-steal-a-car": {
+  "description": "Infíltrate en los terrenos, roba los coches más raros que encuentres y llévatelos a casa antes de que la policía te atrape. Aparca los coches en tu garaje para ganar dinero, personalízalos, compra potenciadores, entrena tu Velocidad y renace para obtener recompensas mayores. Gana carreras para conseguir Neumáticos y juega en línea con otros ladrones de coches.",
+  "instructions": "Muévete con WASD y mira con el ratón. Mantén pulsada E para robar un coche y luego conduce con WASD de vuelta a tu garaje. Tab libera el ratón y P abre los ajustes. En el móvil usa el joystick y los botones en pantalla. Activa el escudo de tu parcela para mantener alejados a los ladrones y mira un vídeo corto para conseguir potenciadores en la tienda.",
+  "guide": {
+   "intro": "Obby Steal a Car es un juego de conducción multijugador en el que te infiltras en los terrenos, robas coches raros y los llevas de vuelta a tu garaje antes de que la policía te atrape. Aparca los coches para ganar dinero, luego personalízalos y haz crecer tu equipo.",
+   "tips": [
+    "Planifica tu ruta de vuelta antes de pulsar E, ya que tendrás que conducir hasta tu garaje con la policía persiguiéndote.",
+    "Aparca los coches robados en tu garaje cuanto antes, porque así los conviertes en dinero para mejoras.",
+    "Activa el escudo de tu parcela cuando estés lejos de tu base para que otros ladrones no puedan entrar.",
+    "Gasta las primeras ganancias en personalización y entrenamiento de Velocidad antes de renacer, para que tu próxima partida empiece con un equipo más fuerte. Ganar carreras también es una buena forma de conseguir Neumáticos.",
+    "Si juegas con otros jugadores en línea, vigila quién roba cerca de tu terreno y mantén un ojo en tu garaje. Para más juegos con una sensación práctica similar, prueba [[truck-and-driving-games|más juegos de conducción para explorar]]."
+   ],
+   "faq": [
+    [
+     "¿Cómo robo un coche?",
+     "Acércate al coche que quieras y mantén pulsada E hasta que se complete el robo. Después conduce con WASD de vuelta a tu garaje."
+    ],
+    [
+     "¿Cómo gano dinero?",
+     "Aparca en tu garaje los coches que robes. El dinero se gana por los coches que aparcas allí."
+    ]
+   ]
+  }
+ },
+ "sticky-memo-ripping-game": {
+  "description": "Sticky Memo - Ripping Game es un tapper idle relajante con una sorpresa dentro de cada bloc. Tus manos ocupadas arrancan notas adhesivas de un enorme bloc de notas, una hoja a la vez, y cada hoja te da dinero. Toca para arrancar más rápido, consigue potenciadores y mejora tus Manos, Velocidad e Ingresos. ¡A medida que la pila se reduce, un famoso monumento aparece poco a poco! Responde preguntas rápidas de quiz para ganar monedas extra y luego muestra cada modelo terminado en tu propio museo, desbloquea nuevas estanterías y recoge dinero de los visitantes.",
+  "instructions": "🎯 Arranca cada hoja del bloc de notas para revelar el modelo que hay dentro. ✋ Las manos arrancan hojas por su cuenta, y cada hoja te da dinero. 👆 Toca la pantalla para arrancar más rápido. ❓ Elige la respuesta correcta antes de que se acabe el tiempo para ganar monedas extra. ⚡ Consigue potenciadores: Velocidad+, Manos extra, Toque automático y x3 Monedas. ⬆️ Gasta dinero para mejorar Manos, Velocidad e Ingresos. 🏛️ Muestra los modelos terminados en tu museo, desbloquea estanterías con gemas y recoge el dinero de los visitantes. 💡 Consejo: mejora las Manos pronto para que tus ingresos crezcan más rápido.",
+  "guide": {
+   "intro": "Sticky Memo es un tapper idle en el que arrancas notas adhesivas de un bloc para revelar un modelo y ganar dinero. Tus manos trabajan solas, y tocar la pantalla acelera las cosas.",
+   "tips": [
+    "Gasta tu primer dinero en mejoras de Manos, ya que siguen generando ingresos mientras haces otras cosas.",
+    "Toca la pantalla en los momentos de más actividad y, luego, deja que tus manos trabajen mientras gastas dinero en mejoras.",
+    "Guarda tus potenciadores para cuando ya estés tocando, así Velocidad+ y x3 Monedas aprovechan mejor tu esfuerzo.",
+    "Responde las preguntas del quiz rápidamente, porque las monedas extra solo se dan si eliges la respuesta correcta antes de que se acabe el tiempo. Si no estás seguro, elige la respuesta que creas más probable y sigue adelante. [[idle-and-tycoon-games|más juegos de estilo idle tycoon]]",
+    "Revisa tu museo con regularidad, ya que allí se muestran los modelos terminados y los visitantes traen dinero que puedes recoger."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo principal de Sticky Memo?",
+     "Arranca cada hoja del bloc de notas para revelar el modelo que hay dentro. Cada hoja que quitas te da dinero."
+    ],
+    [
+     "¿Cómo puedo ganar dinero más rápido?",
+     "Toca la pantalla para arrancar más rápido y mejora tus Manos, Velocidad e Ingresos con el dinero que ganas."
+    ]
+   ]
+  }
+ },
+ "downhill-frenzy": {
+  "description": "Pon tu moto de cross cuesta abajo de la montaña y agárrate fuerte. Downhill Frenzy es una carrera 3D rápida desde la cima de una colina hasta la base, contra seis rivales. Cada rampa es una oportunidad para hacer un truco: Superman, Heel Clicker, Nac-Nac, Cliffhanger y más, con volteretas y giros encima. Encadénalos sin perder el equilibrio para acumular una racha y prender fuego al recorrido. - Tres colinas: el verde Pine Valley, el otoñal Sunset Ridge y el helado Frost Peak, donde la moto resbala. - Quince trucos de freestyle, ocho por desbloquear. Elige cuáles cuatro usar con tus botones. - Tres motos que se manejan de forma distinta, con pintura y colores de piloto para coleccionar. - Botellas de nitro colgando sobre los saltos grandes. Atraviésalas para un impulso de velocidad. - Saca a tus rivales de su trayectoria. Cuidado: algunos devuelven el golpe. - Un cazador tras de ti. En cada carrera, un rival es más rápido que los demás y nunca se rinde. - Objetivos diarios con una racha que paga más por cada día que vuelves. Carreras cortas, un pulgar para dirigir, un pulgar para los trucos. Fácil de aprender, difícil de dejar.",
+  "instructions": "En un móvil o tableta: - Arrastra a la izquierda y a la derecha en cualquier parte de la pantalla para dirigir. - En el aire, mantén pulsada una de las cuatro burbujas de truco. Suelta antes de aterrizar. - En el aire, arrastra hacia arriba o hacia abajo para dar volteretas, y hacia los lados para girar. - En el suelo, toca KICK cuando un piloto esté a tu lado. - Atraviesa la botella azul sobre un salto grande para obtener nitro. En un teclado: - Las flechas izquierda y derecha dirigen. - En el aire: Z, X, C y V hacen trucos, las flechas arriba y abajo dan volteretas, y las flechas izquierda y derecha giran. - En el suelo: Q y E dan patadas a la izquierda y a la derecha. - P o Escape pausan el juego. Termina entre los tres primeros, supera la puntuación de trucos y gana la carrera para conseguir las tres estrellas en cada colina. Las estrellas desbloquean la siguiente colina; las monedas compran motos nuevas, trucos y colores."
+ },
+ "cleaning-simulator-spotless": {
+  "description": "Un acogedor juego de limpieza al estilo de un viejo cuento ilustrado, dibujado con tinta y acuarela. Un fregadero lleno de platos grasientos, una cocina hollinosa, una bañera con sarro, un espejo empañado, un acuario descuidado, una alfombra sucia: cada uno de los 23 niveles es una cosa que limpiar, paso a paso. Rocía el limpiador, haz espuma, frota el hollín con lana de acero, enjuaga y pule hasta que todo brille. Cada herramienta tiene su propio sonido y su propio rastro. Sin temporizador, sin penalizaciones y sin forma de perder: limpia a tu propio ritmo y luego desliza el dedo sobre la imagen para comparar el antes y el después.",
+  "instructions": "Objetivo: dejar cada cosa impecable. Elige una herramienta en la parte inferior de la pantalla y mueve el dedo o el ratón sobre la suciedad mientras la mantienes pulsada. La pista de la imagen te indica qué hacer a continuación, y la herramienta que necesitas brilla con un contorno verde. Un nivel termina solo cuando todo está limpio; entonces pulsa Siguiente nivel. En el ordenador, las teclas 1-9 también seleccionan herramientas. El botón de pausa está en la esquina superior.",
+  "guide": {
+   "intro": "Cleaning Simulator: Spotless es un juego de limpieza tranquilo y de estilo cuento con 23 niveles. Cada nivel es un objeto sucio que limpias paso a paso, a tu propio ritmo.",
+   "tips": [
+    "Sigue la pista de la imagen y busca la herramienta con el contorno verde, ya que es la que el nivel necesita a continuación.",
+    "Rocía el limpiador y deja que la espuma actúe antes de frotar, así la suciedad se despega más fácilmente.",
+    "Usa la lana de acero en las zonas con hollín, como la cocina, y enjuaga antes de pulir para que el brillo se vea claro.",
+    "Desliza el dedo sobre la imagen para comparar el antes y el después siempre que no estés seguro de si una mancha está completamente limpia. Si te gusta ordenar con calma y suavidad, puedes encontrar más [[cleaning-games|juegos de limpieza]] en el sitio."
+   ],
+   "faq": [
+    [
+     "¿Puedo quedarme sin tiempo o perder un nivel?",
+     "No. El juego no tiene temporizador, ni penalizaciones, ni forma de perder, así que puedes tomarte todo el tiempo que quieras en cada nivel."
+    ],
+    [
+     "¿Cómo sé cuándo se ha terminado un nivel?",
+     "Un nivel termina solo cuando todo está limpio. Entonces pulsa Siguiente nivel para avanzar."
+    ]
+   ]
+  }
+ },
+ "my-castle": {
+  "description": "Un castillo medieval que crece desde una sola habitación hasta convertirse en una fortaleza de verdad. Construye un aserradero, una cocina, un almacén y salas de entrenamiento, mueve a los habitantes entre habitaciones y mantén el flujo de madera, comida y oro. Cada habitante es un luchador con personalidad propia. Entrena su profesión, dales armas y armaduras. Los objetos tienen rareza y estadísticas aleatorias: dos espadas idénticas casi nunca son iguales. La batalla empieza con el posicionamiento. Tú decides quién aguanta la primera línea y recibe los golpes, y quién ataca desde atrás. Después, el escuadrón lucha por sí solo: el resultado depende de la preparación y el posicionamiento, no de la velocidad de clics. La arena enfrenta tu escuadrón contra los de otros jugadores reales. Hay una clasificación y fichas que gastas en recompensas. Cofres con armas y armaduras, chat global.",
+  "instructions": "Construye tus primeras habitaciones y mejóralas: esto impulsa tanto la producción de recursos como el tamaño de tu escuadrón. Asigna habitantes a las salas de trabajo: recogerán madera, comida y oro mientras no estés. Entrena a los habitantes en las salas de entrenamiento para subir sus estadísticas y desbloquear equipo más potente. Equipa a tus luchadores con armas y armaduras de cofres y recompensas. Fíjate en los requisitos: un habitante débil no puede manejar una espada pesada. Antes de un combate, posiciona a tus luchadores: cuerpo a cuerpo al frente, arqueros y magos detrás.",
+  "guide": {
+   "intro": "My Castle es un juego de estrategia y gestión en el que haces crecer un castillo medieval, pones a los habitantes a trabajar y envías a un escuadrón preparado a la batalla. Tus decisiones en la construcción, el entrenamiento y el posicionamiento determinan cómo transcurre cada combate.",
+   "tips": [
+    "Mejora pronto tus salas de trabajo, ya que las mejoras aumentan tanto la producción de recursos como el tamaño de tu escuadrón. Vigila la madera, la comida y el oro para que ninguno se agote.",
+    "Antes de salir, comprueba que cada habitante esté asignado a una sala de trabajo, porque seguirán recogiendo recursos mientras no estés. Los habitantes ociosos no producen nada.",
+    "Revisa los requisitos de las armas y armaduras antes de equiparlas. Un habitante demasiado débil para una espada pesada no la usará bien, así que entrena primero sus estadísticas en las salas de entrenamiento.",
+    "Compara los objetos por sus estadísticas aleatorias, no solo por sus nombres o su rareza. Dos espadas del mismo tipo pueden ser diferentes, así que una mejor tirada puede importar más que una etiqueta rara.",
+    "Al preparar un combate, pon a los luchadores cuerpo a cuerpo resistentes al frente para recibir los golpes y coloca a los arqueros y magos detrás de ellos. Como el escuadrón lucha por sí solo, tu posicionamiento es la principal palanca que controlas. Si te gusta construir y gestionar salas como estas, puedes encontrar más [[simulator-games|simuladores de gestión y construcción]] en la web."
+   ],
+   "faq": [
+    [
+     "¿Cómo hago que mi escuadrón sea más fuerte antes de una batalla en la arena?",
+     "Entrena a tus habitantes en las salas de entrenamiento para subir sus estadísticas y equípalos con armas y armaduras que cumplan sus requisitos. Una buena preparación suele importar más que cualquier cosa que hagas durante el combate."
+    ],
+    [
+     "¿Puedo controlar a mis luchadores durante una batalla?",
+     "No, el escuadrón lucha por sí solo una vez que empieza. Tu tarea es preparar el posicionamiento de antemano, con los luchadores cuerpo a cuerpo al frente y los arqueros y magos detrás."
+    ]
+   ]
+  }
+ },
+ "what-sleeps-above": {
+  "description": "Una versión de terror de Jack y las habichuelas mágicas. Cultiva de día, trepa por el tallo y pon a dormir para siempre a los gigantes que duermen arriba. Explora zonas oscuras, recolecta materiales, fabrica objetos y enfréntate a cada gigante en un tenso combate de defensa y ataque.",
+  "instructions": "Trepa por la planta de habichuelas, encuentra el arpa en el Campo Frío y pon a dormir a cada gigante. En el ordenador: A/D o las flechas del teclado para moverte, W, Flecha arriba o Espacio para saltar y trepar, E o Intro para hablar y abrir cosas, Q para observar. En combate, defiéndete con las flechas y Espacio, y toca las notas del arpa con J, I, K, U y L. En el móvil o la tableta, toca y desliza.",
+  "guide": {
+   "intro": "What Sleeps Above es una versión de terror de Jack y las habichuelas mágicas. Cultivas de día, trepas por el tallo, exploras zonas oscuras y pones a dormir a los gigantes de arriba.",
+   "tips": [
+    "Antes de trepar, dedica tiempo a la granja y reúne todo lo que puedas recolectar y fabricar, porque lo necesitarás para la subida y los combates.",
+    "Busca el arpa en el Campo Frío desde el principio, porque la necesitas para dormir a los gigantes.",
+    "En combate, alterna entre defender y atacar en lugar de atacar sin parar, así podrás leer los movimientos del gigante antes de comprometerte.",
+    "Aprende de antemano las cinco teclas del arpa (J, I, K, U y L) para tocar las notas rápidamente cuando llegue el momento.",
+    "Si te atrae el ambiente oscuro, explora [[horror-games|más juegos de terror para probar]] después de terminar este."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo de What Sleeps Above?",
+     "Trepa por la planta de habichuelas, encuentra el arpa en el Campo Frío y pon a dormir a cada gigante."
+    ],
+    [
+     "¿Cómo toco el arpa durante un combate contra un gigante?",
+     "Toca las notas del arpa con J, I, K, U y L, y defiéndete con las flechas y Espacio cuando necesites protegerte."
+    ]
+   ]
+  }
+ },
+ "ink-brick-ronin": {
+  "description": "Corta oleadas de enemigos como un ronin de bloques en un Japón al estilo acuarela de tinta. Elige entre 5 héroes de anime, cada uno con sus propios combos, un ataque pesado cargado y un definitivo que limpia la pantalla. Recoge pergaminos de encantamiento como las hojas de fuego y de escarcha, sube de nivel a tus héroes y enfréntate a 4 jefes únicos: Oni, Tengu, Ice Empress y Raijin. ¿Hasta dónde puedes llegar?",
+  "instructions": "Sobrevive a cada oleada y derrota a los jefes. Escritorio: WASD para moverte, J o clic para cortar (mantén pulsado para encadenar combos), Espacio para esquivar, E para la habilidad del héroe, mantén pulsado Q o clic derecho para cargar un ataque pesado, U para el definitivo. Móvil: arrastra el lado izquierdo para moverte y usa los botones de la pantalla. Después de cada subida de nivel, elige un pergamino para potenciar a tu héroe.",
+  "guide": {
+   "intro": "Ink Brick Ronin es un juego de acción con espada de estilo bloque ambientado en un Japón al estilo acuarela de tinta. Luchas contra oleadas de enemigos, eliges uno de cinco héroes de anime e intentas sobrevivir el tiempo suficiente para derrotar a cuatro jefes.",
+   "tips": [
+    "Mantén pulsado J o haz clic para encadenar combos, y usa Espacio para esquivar y salir de un apuro antes de que los enemigos te rodeen.",
+    "Guarda tu ataque pesado para los enemigos más duros: mantén pulsado Q o clic derecho para cargarlo y suéltalo cuando esté listo.",
+    "Usa tu definitivo con U cuando una oleada esté llena de enemigos, ya que limpia la pantalla y puede darle la vuelta a una pelea perdida.",
+    "Al subir de nivel, elige pergaminos que encajen con tu forma de luchar, como las hojas de fuego o de escarcha, y mantente con ellos para que tu héroe desarrolle una fuerza clara. Si quieres más peleas con espada, prueba [[ninja-and-fighting-games|otros juegos de peleas ninja con espada]].",
+    "Observa cómo se mueve cada jefe durante unos segundos antes de lanzarte al ataque, luego golpea y retrocede para seguir con vida."
+   ],
+   "faq": [
+    [
+     "¿Cómo mantengo vivo a mi héroe durante las oleadas?",
+     "Esquiva con Espacio para evitar los ataques que te llegan y no quedar acorralado. Usa la habilidad del héroe con E cuando los enemigos se agrupen para aliviar la presión."
+    ],
+    [
+     "¿Cuál es la diferencia entre un combo y un ataque pesado?",
+     "Los combos se consiguen pulsando o manteniendo J o haciendo clic para cortar en secuencia. El ataque pesado requiere mantener pulsado Q o clic derecho para cargarlo, lo que tarda más pero golpea con más fuerza."
+    ]
+   ]
+  }
+ },
+ "tap-hexa-out-tap-it-away": {
+  "description": "Tap Hexa Out – Tap It Away es un puzle de un solo toque muy satisfactorio. Cada bloque hexagonal apunta en una dirección: tócalo para hacerlo rodar fuera del tablero, pero planifica con antelación, ¡porque un camino bloqueado desperdicia un movimiento! Supera bloques bloqueados, bombas, fichas clonadoras y grúas giratorias, y usa el Martillo, la Bomba y el Taladro cuando te atasques. Cada bloque que despejes te da piezas hexagonales para construir y desbloquear 4 islas preciosas. Recoge monedas, abre cofres y personaliza tu juego. ¡Fácil de aprender, difícil de dejar!",
+  "instructions": "🎯 Despeja todos los bloques hexagonales antes de quedarte sin movimientos. 👆 Toca un bloque para hacerlo rodar siguiendo su flecha. ✅ Camino libre: sale del tablero. ❌ Bloqueado: rebota y cuesta un movimiento. 🔒 Los bloques bloqueados se abren después del número de movimientos indicado. 💣 Las bombas explotan, ➕ las fichas clonadoras generan bloques, 🏗️ las grúas giran bloques. 🛠️ ¿Atascado? Usa el Martillo, la Bomba o el Taladro. ¿Sin movimientos? 🔁 Reinicia. 🏝️ Los bloques despejados te dan piezas hexagonales para construir islas. 💡 Consejo: despeja primero los bloques del borde y planifica tus toques.",
+  "guide": {
+   "intro": "Tap Hexa Out es un puzle de un solo toque en el que cada bloque hexagonal rueda siguiendo su flecha. Despeja todos los bloques antes de quedarte sin movimientos y planifica cada toque para no desperdiciar ninguno.",
+   "tips": [
+    "Antes de tocar, comprueba qué bloque tiene un camino libre hacia fuera del tablero, porque un toque bloqueado rebota y cuesta un movimiento.",
+    "Empieza por los bloques de los bordes, ya que suelen ser los más fáciles de despejar y pueden abrir caminos para los bloques de detrás.",
+    "Fíjate pronto en los bloques bloqueados y anota cuántos movimientos faltan para que se abran, así podrás planificar tus otros toques en función de ellos.",
+    "Guarda el Martillo, la Bomba y el Taladro para cuando estés realmente atascado, en lugar de usarlos en el primer tablero complicado.",
+    "Si te gusta planificar varios movimientos por adelantado, prueba algunos [[brain-games|juegos de lógica para agudizar la mente]] entre sesiones."
+   ],
+   "faq": [
+    [
+     "¿Qué pasa si toco un bloque cuyo camino está bloqueado?",
+     "El bloque rebota y se gasta el movimiento, así que mira qué hay en su camino antes de tocar."
+    ],
+    [
+     "¿Cuándo debo usar el Martillo, la Bomba o el Taladro?",
+     "Úsalos cuando no te quede ningún camino libre y el tablero esté atascado, ya que están pensados para ayudarte a superar los puntos difíciles."
+    ]
+   ]
+  }
+ },
+ "crazy-bike-racer": {
+  "description": "Para tu disfrute, hemos incluido en este juego toda la emoción, las risas y la acción trepidante que puede dar un simple par de neumáticos. No podrás dejar el teléfono una vez que pruebes la increíble experiencia de carreras y los espectaculares gráficos que ofrece. Puedes jugar desde la perspectiva de tu piloto para una experiencia más realista, o reforzar tu control sobre la competencia usando los numerosos ángulos de cámara. Motocicletas modeladas de forma realista Para tu comodidad, hemos modelado dieciséis motos únicas, cada una hasta el más mínimo detalle. Elige una, mejora su rendimiento y ajusta su diseño antes de entrar en una carrera. Hay cuatro zonas distintas, y un brutal jefe de pandilla domina cada una. Podrás disfrutar de decenas de tipos diferentes de carreras, cada una en una temporada distinta y en un escenario increíble. Deberás demostrar que eres el mejor piloto venciendo a los otros cuatro líderes.",
+  "instructions": "WASD - Conducir Espacio - Frenar Shift - Nitro",
+  "guide": {
+   "intro": "Crazy Bike Racer es un juego de carreras de motos en el que eliges entre dieciséis motos, las mejoras y corres por cuatro zonas. Cada zona termina con una pelea contra un jefe de pandilla, y necesitas vencer a los cuatro líderes para ganar.",
+   "tips": [
+    "Antes de tu primera carrera, dedica un tiempo a ajustar el rendimiento y el diseño de tu moto, ya que una moto mejor preparada hace que las primeras carreras sean más fáciles de ganar.",
+    "Usa Shift para el nitro en ráfagas cortas en las rectas y tramos despejados, así tendrás un impulso de velocidad listo para cuando necesites adelantar a un rival.",
+    "Prueba la vista en primera persona para un control cercano y realista de la inclinación y la dirección, y luego cambia a un ángulo de cámara más amplio cuando necesites vigilar a la competencia que te rodea.",
+    "Toca Espacio para frenar antes de las curvas cerradas en lugar de frenar tarde, así mantendrás el impulso en la curva y podrás acelerar con WASD antes.",
+    "Si disfrutas del manejo de la moto aquí, puedes comparar otras opciones en [[motorcycle-and-bike-games|más juegos de carreras de dos ruedas]] para encontrar estilos que se adapten a ti."
+   ],
+   "faq": [
+    [
+     "¿Cómo dirijo y acelero mi moto?",
+     "Usa las teclas W, A, S y D para conducir, lo que controla la aceleración y la dirección. Usa Espacio para frenar y Shift para lanzar el nitro."
+    ],
+    [
+     "¿Puedo elegir diferentes vistas de cámara?",
+     "Sí, puedes jugar desde la perspectiva de tu piloto para una sensación más realista, o usar los otros ángulos de cámara para tener una vista más amplia de la carrera."
+    ]
+   ]
+  }
+ },
+ "fight-arena-online": {
+  "description": "¡Este juego te convertirá en un auténtico luchador! Reúne a tus amigos, elige tu personaje y mejora su equipo y sus ataques especiales. Demuestra a todo el mundo que eres el mejor luchador. Peleas online contra otros luchadores, ataques únicos para cada personaje, combos, saltos y volteretas, bolas de fuego, hechizos de escarcha y relámpagos. Completa el modo Desafíos, donde tendrás que demostrar tus habilidades. Características: - Puñetazos, patadas, combos, saltos, barridos, superataques. - Bates de béisbol, Bo, dagas, placas protectoras, etc. - Peleas online contra otros jugadores (PvP) y contra bots. - Tareas especiales en el modo Desafío. - Varias arenas de batalla. - Tablas de puntuaciones máximas.",
+  "instructions": "Usa W S A D para mover a tu personaje. Usa los botones izquierdo y derecho del ratón para atacar. Realizas ataques distintos al correr. Usa el botón Shift izquierdo para rodar o atacar desde abajo. Pulsa Espacio para saltar.",
+  "guide": {
+   "intro": "Fight Arena Online es un juego de lucha multijugador en el que eliges un personaje, mejoras su equipo y sus ataques especiales, y luchas contra otros jugadores o bots. El modo Challenge pone a prueba tus habilidades con tareas especiales.",
+   "tips": [
+    "Aprende a saltar y rodar antes de meterte en una pelea, ya que las teclas Espacio y Shift izquierdo pueden sacarte de apuros rápidamente.",
+    "Prueba los ataques mientras corres con D o A, porque correr te da ataques distintos que pueden pillar desprevenido a tu rival.",
+    "Usa el modo Challenge para practicar combos y tareas especiales, lo que te ayuda a aprender el timing antes de enfrentarte a jugadores reales en línea.",
+    "Mejora tu equipo y tus ataques especiales poco a poco en lugar de gastarlo todo de golpe, así tu personaje seguirá siendo útil en cada arena.",
+    "Si te gusta el lado de las peleas, [[ninja-and-fighting-games|otros juegos de lucha]] son un buen siguiente paso para desarrollar los mismos reflejos."
+   ],
+   "faq": [
+    [
+     "¿Cómo ataco en Fight Arena Online?",
+     "Usa los botones izquierdo y derecho del ratón para atacar. Los ataques cambian cuando corres, así que prueba ambos mientras te mueves."
+    ],
+    [
+     "¿Cuál es la diferencia entre rodar y atacar desde abajo?",
+     "Pulsar Shift izquierdo te permite rodar o atacar desde abajo, así que es útil para escapar de un peligro cercano o golpear a un objetivo bajo."
+    ]
+   ]
+  }
+ },
+ "truck-loader-online": {
+  "description": "Truck Loader Online es un clásico juego de puzles en el que tienes que cargar mercancía en un camión con tu montacargas. Las cajas están repartidas por los niveles y tienes que recogerlas y cargarlas en el camión para completar el nivel. Algunos niveles son fáciles y solo tienes que conducir por ahí para recoger las cajas, pero a medida que avanzas en el juego los niveles se vuelven más difíciles y necesitas hacer movimientos especiales o seguir secuencias para completarlos. A los aficionados a la acción con todo tipo de tecnología les resultará interesante jugar a juegos online gratis de carga. Visitarás la obra de construcción, que no puede prescindir de una máquina potente capaz de arrastrar cargas. Materiales de construcción naval entregados en el punto correcto. Tiendas que te esperan para colocar cajas en largas estanterías. Transporte de objetos frágiles, sin romperlos, y primero la carga de materiales a granel en contenedores y luego a transportar lo demás. Ningún camión es inútil, y allí donde hay carbón, oro y otros metales. Incluso Super Mario ata el contenedor de transporte a su camioneta.",
+  "instructions": "Usa el ratón para controlar el brazo del tractor y las teclas de flecha para mover el tractor. Tu objetivo es cargar las cajas en el camión",
+  "guide": {
+   "intro": "Truck Loader Online es un juego de puzles en el que usas un montacargas para recoger las cajas esparcidas por cada nivel y cargarlas en un camión. Los primeros niveles son sencillos, pero los posteriores exigen movimientos especiales y secuencias.",
+   "tips": [
+    "Usa el ratón para dirigir el brazo del tractor y las teclas de flecha para conducir, así que recoge las cajas con el brazo mientras mantienes el tractor en una posición segura.",
+    "En los niveles fáciles, planifica una ruta que recoja todas las cajas en una sola vuelta en lugar de cruzar la zona en zigzag.",
+    "Cuando un nivel pida una secuencia, fíjate en el orden en que las cajas deben llegar al camión antes de coger la primera, ya que un orden incorrecto puede bloquear las cargas posteriores.",
+    "Manipula los objetos frágiles con cuidado y déjalos para el final si necesitan una colocación cuidadosa, para no tener que moverlos de nuevo.",
+    "Si te gusta conducir vehículos pesados, puedes encontrar otros [[truck-and-driving-games|juegos de camiones y conducción]] para comparar cómo se sienten la carga y el control."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo principal en Truck Loader Online?",
+     "Tu objetivo es cargar todas las cajas de cada nivel en el camión, lo que completa el nivel."
+    ],
+    [
+     "¿Cómo controlo el montacargas?",
+     "Usa el ratón para controlar el brazo del tractor y las teclas de flecha para mover el tractor por el nivel."
+    ]
+   ]
+  }
+ },
+ "bonk-flight": {
+  "description": "Bonk Flight es un juego 3D de lanzamiento y mejoras en el que calculas el momento de tu golpe, le das un bonk a un tipito por abajo y lo mandas volando lo más lejos posible. Equilibra su nariz, mantén pulsado el nitro y planea sobre un mundo infinito de bajo polígono. Vuela desde Sunny Meadows hasta Red Canyon, Antarctica y Volcano Land, salta sobre lagos y aprovecha las corrientes de aire. Gasta tus monedas en un golpeador más fuerte, mejores alas y más nitro: cada cinco mejoras, tu objeto se convierte en uno nuevo.",
+  "instructions": "Pulsa BONK! y golpea cuando el marcador llegue al final de la barra de impulso. En el aire, mantén la nariz cerca del horizonte para conservar tu velocidad. Cuando te detengas, recoge tus monedas, mejora y vuela más lejos. Consejos: - Espera a que el marcador frene al final de la barra para lograr un Perfect Bonk. - Guarda el nitro para cuando vayas perdiendo velocidad y úsalo en ráfagas cortas. - Vuela dentro de las corrientes de aire para un gran impulso de velocidad. Teclado y ratón: - Bonk: haz clic en BONK! (o pulsa Espacio), y luego haz clic de nuevo (o pulsa Espacio) al final de la barra - Dirigir la nariz: mantén pulsado W / S o Arriba / Abajo - Nitro: mantén pulsado Espacio o Mayús - Pausa: pulsa P Táctil: - Bonk: toca BONK!, y luego toca la pantalla al final de la barra - Dirigir la nariz: arrastra hacia arriba o hacia abajo (o mantén pulsados los botones de flecha) - Nitro: mantén pulsado el botón de nitro",
+  "guide": {
+   "intro": "Bonk Flight es un juego 3D de lanzamiento en el que calculas el momento de tu golpe para dar un bonk a un tipito y mandarlo lo más lejos posible. Equilibra su nariz, usa el nitro y mejora entre vuelos para llegar más lejos.",
+   "tips": [
+    "Observa el marcador cuando se acerque al final de la barra de impulso y golpea cuando empiece a frenar para lograr un Perfect Bonk.",
+    "Mantén la nariz cerca del horizonte mientras estás en el aire para conservar tu velocidad.",
+    "Guarda el nitro para cuando empieces a perder velocidad y úsalo en ráfagas cortas en lugar de una sola pulsación larga.",
+    "Vuela dentro de las corrientes de aire para un gran impulso de velocidad y salta sobre los lagos cuando puedas. Si disfrutas este tipo de vuelo, puedes explorar más [[airplane-games|juegos de vuelo para probar]].",
+    "Después de cada vuelo, gasta tus monedas en el golpeador, las alas o el nitro con los que más te cueste, ya que las mejoras son la clave para volar más lejos."
+   ],
+   "faq": [
+    [
+     "¿Cómo consigo un Perfect Bonk?",
+     "Espera a que el marcador frene al final de la barra de impulso y luego haz clic en BONK! o pulsa Espacio de nuevo. Golpear demasiado pronto o demasiado tarde dará un lanzamiento más débil."
+    ],
+    [
+     "¿Cómo mantengo mi velocidad en el aire?",
+     "Mantén la nariz cerca del horizonte dirigiéndola con W y S o con las flechas Arriba y Abajo. Apuntar la nariz demasiado hacia arriba o hacia abajo te hará perder velocidad."
+    ]
+   ]
+  }
+ },
+ "caramel-popcorn-maker-factory-crunchy-pop-corn": {
+  "description": "¡Chef de comida! Bienvenido a Crunchy Popcorn Maker Factory, el mejor juego de fábrica y máquina de palomitas. ¿Los niños y niñas quieren probar distintos tipos de palomitas? ¿Crujientes saladas, de queso y de caramelo crujiente? Construye tu propia fábrica de cocina de palomitas en estos juegos de palomitas y gana dinero inteligente para convertirte en un pequeño multimillonario. Los niños y niñas seguro que han jugado a muchos juegos de cocinar palomitas, pero este juego de fábrica de palomitas te permitirá cocinar y hornear distintos tipos de snacks de palomitas. Esta fábrica de palomitas permite a niños y niñas realizar múltiples actividades de cultivo y cocina en la cocina de la fábrica. Ahora juega a este mejor juego de máquina de comida y disfruta de un simulador real de cultivo de campo de maíz, de hacer palomitas, de empaquetarlas y suministrarlas a los supermercados. Convertirse en fabricante de comida en la cocina de la cafetería o en casa es muy sencillo, pero hornear y preparar comida en grandes plantas de la cocina de una fábrica es realmente un desafío. ¡Chef de comida de fábrica! Trabaja en una gran Fábrica de Cocina de Palomitas y plantas para cocinar snacks saludables para los clientes. Demuestra que eres un chef de comida con clase en la cocina de la fábrica y en los juegos de fabricante de snacks. Tu tarea en la fábrica de fabricación de palomitas es añadir los granos de maíz a la máquina de hacer palomitas. En Popcorn Maker Factory, haz y hornea palomitas deliciosas y empieza a producir las mejores palomitas del mundo. Desarrolla tu propio campo de maíz, planta de producción y empaquetado en la ciudad para ser el chef de palomitas con este divertido juego de fábrica. Tu primera tarea en la fábrica de palomitas es cosechar campos de maíz como un agricultor experto. Cava la tierra y haz crecer las plantas de maíz regando las semillas de maíz con regularidad en los campos de cultivo. Y después de recoger las plantas de maíz, tienes que llevarlas a la fábrica de cocinar palomitas. ¡Trabajador de fábrica! Añade los granos de maíz a la máquina de la fábrica de fabricación de palomitas. En Popcorn Maker Food, prepara bien los granos de maíz como un chef de categoría mundial para hacer estallar el maíz y obtener palomitas. Después de hacer las palomitas, muévelas por la cinta transportadora para añadir sabores. Los deliciosos snacks de Caramel Corn Pops se pueden servir en varios sabores: palomitas saladas, de queso y de caramelo. En Caramel Corn Pops tienes varias opciones para hacer palomitas de queso, palomitas de caramelo y palomitas saladas. Sella las palomitas en recipientes multisabor y añade carame",
+  "instructions": "Control con ratón"
  }
 }

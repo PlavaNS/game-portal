@@ -8102,8 +8102,8 @@
   }
  },
  "crowd-runner": {
-  "description": "Crowd Runner est un jeu de course à un doigt où il s'agit de transformer une poignée de petits personnages gélatineux en armée. Faites glisser vers la gauche et la droite pour diriger votre foule sur le parcours et choisissez bien votre porte : x3 et +20 font gonfler la foule, -15 et /2 la réduisent. Bien jouer, et une douzaine de coureurs deviennent des centaines avant d'atteindre la ligne d'arrivée. Le parcours riposte. Des scies glissent sur la piste, des marteaux oscillent, des presses tombent, des jets de flammes et des lasers balaient les voies, des rochers roulent vers vous et du TNT attend d'être déclenché. Chaque obstacle prélève sa part de votre foule, sans jamais mettre fin à la course à lui seul. Arrivez à l'arrivée et vos coureurs grimpent les escaliers de la victoire : plus vous en avez amené, plus vous montez haut et plus la récompense est grande. Certains niveaux se terminent par un boss, et là, c'est simplement votre nombre contre le sien. Les niveaux sont générés, donc ils ne manquent jamais, et ils défilent à travers huit thèmes : forêt, neige, désert, nuit, automne, bonbons, plage et volcan. Les pièces permettent d'acheter des améliorations permanentes (une foule de départ plus grande, de meilleurs revenus, des pièces plus rentables), des boosts pour une seule course (coureurs supplémentaires, bouclier, pièces doubles) et quinze skins de gelée, du bleu classique au cow-boy, viking, ange et roi. Une récompense de connexion sur sept jours est proposée, ainsi qu'un coffre au trésor qui s'ouvre tous les trois succès.",
-  "instructions": "- Maintenez et faites glisser (ou cliquez et faites glisser) n'importe où pour diriger la foule à gauche et à droite. Il n'y a rien d'autre à appuyer. - Faites passer votre foule par la meilleure porte : les portes vertes ajoutent ou multiplient vos coureurs, les rouges les soustraient ou les divisent. Lisez les deux avant de vous engager. - Les obstacles éliminent des coureurs : scies, marteaux, tourniquets, presses, jets de flammes, lasers, rochers, TNT. Aucun ne peut mettre fin à une course à lui seul, mais ensemble, ils le peuvent. - Atteignez l'arrivée et votre foule grimpe les escaliers de la victoire ; plus vous avez de coureurs restants, plus vous montez haut et plus vous gagnez de pièces. - Sur un niveau de boss, votre foule charge le boss : amenez assez de coureurs et vous gagnez. - Dépensez vos pièces en améliorations permanentes, en boosts pour une seule course avant le départ, ou en nouveaux skins de gelée. Les boosts et les skins peuvent aussi être obtenus en regardant une courte publicité. - Gagnez trois niveaux pour remplir le coffre au trésor, et revenez chaque jour pour la récompense quotidienne. Commandes : glisser au toucher / glisser à la souris uniquement. Aucun clavier nécessaire. Fonctionne sur téléphone, tablette et ordinateur."
+  "description": "Crowd Runner est un jeu de course à un doigt où il faut transformer une poignée de petits bonhommes en gelée en armée. Faites glisser vers la gauche et la droite pour diriger votre foule sur le parcours et choisissez vos portes : x3 et +20 font grossir la foule, -15 et /2 la réduisent. Bien choisir, et une douzaine de coureurs deviennent des centaines à l'arrivée. Le parcours riposte. Des scies glissent sur la piste, des marteaux oscillent, des presses tombent, des jets de flammes et des lasers balaient les couloirs, des rochers roulent vers vous et des caisses de TNT attendent d'être déclenchées : chacun prélève sa part de votre foule sans jamais mettre fin à la course à lui seul. Arrivez à la ligne d'arrivée et vos coureurs s'entassent sur les marches de la victoire : plus vous en avez amené, plus vous montez haut et plus la récompense est grande. Certains niveaux se terminent par un boss ; là, il s'agit simplement de votre nombre contre le sien. Les niveaux sont générés, ils ne s'épuisent donc jamais, et défilent à travers huit thèmes : forêt, neige, désert, nuit, automne, bonbons, plage et volcan. Les pièces permettent d'acheter des améliorations permanentes (une foule de départ plus grande, de meilleurs revenus, des pièces plus rentables), des boosts pour une seule course (coureurs supplémentaires, bouclier, pièces doublées) et quinze skins de gelée, du simple bleu au cowboy, viking, ange et roi. Une récompense de connexion sur sept jours et un coffre au trésor qui s'ouvre tous les trois succès sont également proposés.",
+  "instructions": "- Maintenez et faites glisser (ou cliquez et faites glisser) n'importe où pour diriger la foule à gauche et à droite. Il n'y a rien d'autre à appuyer. - Faites passer votre foule par la meilleure porte : les portes vertes ajoutent ou multiplient vos coureurs, les rouges les soustraient ou les divisent. Lisez les deux avant de vous engager. - Les obstacles éliminent des coureurs : scies, marteaux, tourniquets, presses, jets de flammes, lasers, rochers, TNT. Aucun ne peut mettre fin à une course à lui seul, mais ensemble, ils le peuvent. - Atteignez la ligne d'arrivée et votre foule grimpe les marches de la victoire ; plus vous avez de coureurs restants, plus vous montez haut et plus vous gagnez de pièces. - Sur un niveau de boss, votre foule charge le boss : amenez assez de coureurs et vous gagnez. - Dépensez vos pièces en améliorations permanentes, en boosts pour une course avant de partir, ou en nouveaux skins de gelée. Les boosts et les skins peuvent aussi être obtenus en regardant une courte publicité. - Gagnez trois niveaux pour remplir le coffre au trésor, et revenez chaque jour pour la récompense quotidienne. Commandes : glisser au toucher / glisser à la souris uniquement. Aucun clavier nécessaire. Fonctionne sur téléphone, tablette et ordinateur."
  },
  "park-sort": {
   "description": "Park Sort est un puzzle de stationnement coloré où chaque mouvement est clair et chaque choix compte. Chaque véhicule porte une flèche sur son toit. Touchez-le et il roule droit dans cette direction. Si la route est libre, il quitte le parking et se dirige vers le garage de sa couleur. Si quelque chose bloque le passage, il heurte l'obstacle et revient en arrière. Les garages arrivent les uns après les autres, et chacun se remplit dans l'ordre : les gros véhicules d'abord, puis les voitures, puis les vélos. Une voiture qui peut partir tout de suite n'est pas toujours celle qui doit partir. Les voitures sans issue attendent dans les places de stationnement et entrent dans leur garage dès qu'il ouvre. Mais si les places d'attente se remplissent, c'est perdu ! Fonctionnalités - Commandes simples d'une seule touche avec des flèches claires : vous savez toujours où ira un véhicule - Tri par couleur avec une touche de nouveauté : les gros véhicules se garent en premier - De nouveaux véhicules et mécaniques au fil du jeu : camions, vélos, feux de signalisation, barrières et clés, voitures mystère, et d'autres à venir - Boosters pratiques : Undo, Hint, +Slot et Scan - Collectionnez les skins de garage et remplissez votre album - Récompenses quotidiennes, bonus de série de victoires et un rallye en course à 100 joueurs - Petites voitures jouets vives aux couleurs bonbon et animations fluides et satisfaisantes - Pas de minuteur, pas de précipitation : réfléchissez à votre rythme - Débloquez les embouteillages, triez chaque voiture et devenez le meilleur gestionnaire de parking de la ville !",
@@ -60283,8 +60283,8 @@
   }
  },
  "ragdoll-swordsman": {
-  "description": "Ragdoll Swordsman est un jeu d'action physique où chaque coup est réel. Vous ne contrôlez pas une animation, vous contrôlez un ragdoll bien vivant. Maintenez la souris ou faites glisser votre doigt et la lame suit votre main : tranchez, transpercez, parez. Les ennemis mannequins vacillent, tombent, perdent bras et jambes et continuent quand même à vous ramper après. La physique décide de tout, donc aucun combat ne se ressemble. ⚔ 30+ ARMES Katana, machette, batte à clous, nunchaku, épée de chevalier, bo, hache de bataille, fourche, lance, masse, marteau, couperet, faux, tronçonneuse, épée laser, double laser et la méga scie. Vous voulez plus de bruit ? Pistolets, fusils à pompe, un mousquet, une mitrailleuse lourde et un lance-grenades. Cinq niveaux de rareté, du commun au légendaire. 🪤 PIÈGES ET ASTUCES Envoyez les ennemis sur des pointes et des scies circulaires, attrapez-les et jetez-les dans l'eau, la lave, l'acide et les précipices. Coupez une corde et le tronc balaie la foule. Donnez un coup de pied à un levier et le broyeur tombe. Shootez dans les tonneaux, montez sur les ventilateurs, marchez sur les plaques de pression. Chaque mort par piège compte comme une astuce : combo et pièces bonus. 👹 BOSS ET TITANS 30 niveaux d'aventure répartis sur 7 mondes : clairière de forêt et marais brumeux, canyon de dunes, île tropicale et crique des pirates, col enneigé, forge volcanique, pays des bonbons et toit d'un gratte-ciel. Chaque monde se termine par un boss : • Gorille • Golem de pierre : trouvez son point faible pendant que des vagues de combattants de pierre foncent sur vous • Capitaine Kaboom : un capitaine pirate avec un canon, un coutelas et son équipage • Ogre des marais, Yéti des neiges et Colosse de lave • Le Roi Ragdoll dans la finale Sans oublier les titans géants : ils piétinent, sautent en provoquant une onde de choc, vous saisissent dans leur poing et vous lancent. Coupez les jambes d'un titan et il rampe sur ses mains ! Après le niveau 30, une nouvelle manche, plus difficile, commence. 🎽 SKINS ET AMÉLIORATIONS Plus de 30 skins : ninja, viking, samouraï démon, astronaute, chef, employé de bureau, banane, hot-dog, dino gonflable et bien d'autres. Collectez pièces, bûches et lingots, ouvrez des coffres, améliorez les dégâts, la santé et la vitesse. ✔ Jouez sur PC et téléphone : contrôles souris ou tactiles ✔ Un tutoriel intégré aux premiers niveaux ✔ Réglages graphiques automatiques pour les appareils peu puissants ✔ Le sang peut être désactivé dans les paramètres ✔ Langues : anglais, russe, turc",
-  "instructions": "Objectif : éliminez les ennemis de chaque niveau et battez le boss à la fin de chaque monde. PC : déplacez-vous avec WASD ou les flèches directionnelles, sautez avec Espace, maintenez le bouton gauche de la souris et déplacez la souris pour balancer votre arme (F ou J attaquent aussi), X attrape les ennemis pour que vous puissiez les jeter dans les pièges. Téléphone : déplacez-vous avec le joystick à l'écran et faites glisser votre doigt pour balancer la lame ; utilisez les boutons à l'écran pour sauter et attraper. Gagnez des pièces pour débloquer de nouvelles armes et skins et pour améliorer les dégâts, la santé et la vitesse."
+  "description": "Ragdoll Swordsman est un jeu d'action physique où chaque coup est réel. Vous ne contrôlez pas une animation, vous contrôlez un ragdoll bien vivant. Maintenez la souris ou faites glisser votre doigt et la lame suit votre main : tranchez, transpercez, parez. Les ennemis mannequins vacillent, tombent, perdent bras et jambes et continuent quand même de ramper vers vous. La physique décide de tout, donc aucun combat ne se ressemble. ⚔ PLUS DE 30 ARMES Katana, machette, batte à clous, nunchaku, épée de chevalier, bâton bo, hache de bataille, fourche, lance, masse, marteau, couperet, faux, tronçonneuse, épée laser, double laser et la méga scie. Envie de faire plus de bruit ? Pistolets, fusils à pompe, un mousquet, une mitrailleuse lourde et un lance-grenades. Cinq niveaux de rareté, du commun au légendaire. 🪤 PIÈGES ET ASTUCES Envoyez les ennemis sur des pointes et des scies circulaires, attrapez-les et jetez-les dans l'eau, la lave, l'acide et les gouffres. Coupez une corde et le rondin balaie la foule. Actionnez un levier et le broyeur s'abat. Donnez des coups de pied dans les tonneaux, montez sur les ventilateurs, marchez sur les plaques de pression. Chaque mort par piège compte comme une astuce : combo et pièces bonus. 👹 BOSS ET TITANS 30 niveaux d'aventure répartis sur 7 mondes : clairière de forêt et marais brumeux, canyon de dunes, île tropicale et crique des pirates, col enneigé, forge volcanique, pays des bonbons et toit d'un gratte-ciel. Chaque monde se termine par un boss : • Gorille • Golem de pierre : trouvez son point faible pendant que des vagues de combattants de pierre foncent sur vous • Capitaine Kaboom : un capitaine pirate avec un canon, un sabre et son équipage • Ogre des marais, Yéti des neiges et Colosse de lave • Le Roi Ragdoll dans la finale Il y a aussi des titans géants : ils piétinent, sautent avec une onde de choc, vous attrapent dans leur poing et vous lancent. Coupez les jambes d'un titan et il rampe sur ses mains ! Après le niveau 30, une nouvelle manche, plus difficile, commence. 🎽 SKINS ET AMÉLIORATIONS Plus de 30 skins : ninja, viking, samouraï démon, astronaute, chef cuisinier, employé de bureau, banane, hot-dog, dino gonflable et bien d'autres. Collectez des pièces, des rondins et des lingots, ouvrez des coffres, améliorez les dégâts, la santé et la vitesse. ✔ Jouez sur PC et téléphone : contrôles à la souris ou tactiles ✔ Un tutoriel intégré aux premiers niveaux ✔ Réglages graphiques automatiques pour les appareils peu puissants ✔ Le sang peut être désactivé dans les paramètres ✔ Langues : anglais, russe, turc",
+  "instructions": "Objectif : éliminez les ennemis de chaque niveau et battez le boss à la fin de chaque monde. PC : déplacez-vous avec ZQSD ou les flèches directionnelles, sautez avec Espace, maintenez le bouton gauche de la souris et bougez la souris pour balancer votre arme (F ou J attaquent aussi), X attrape les ennemis pour que vous puissiez les jeter dans les pièges. Téléphone : déplacez-vous avec le joystick à l'écran et faites glisser votre doigt pour balancer la lame ; utilisez les boutons à l'écran pour sauter et attraper. Gagnez des pièces pour débloquer de nouvelles armes et de nouveaux skins et pour améliorer les dégâts, la santé et la vitesse."
  },
  "cave-escape": {
   "description": "Bondissez vers le haut dans Cave Escape et guidez Rudy vers la liberté. Esquivez les briques qui tombent de façon imprévisible tout en vous en servant pour grimper. Attrapez les diamants pour gagner des points supplémentaires en maîtrisant les commandes simples mais exigeantes. Des réflexes rapides et une bonne stratégie sont essentiels pour survivre à cette aventure addictive. Saurez-vous aider Rudy à s'échapper ?",
@@ -93013,8 +93013,8 @@
   }
  },
  "far-orion-new-worlds": {
-  "description": "L'année est 2121. La technologie a dépassé de loin les limites de nos fantasmes les plus fous, mais un grand progrès exige de grands sacrifices... Explorez d'autres mondes à la recherche de trésors et d'une puissance illimitée ! Commandez une équipe de héros courageux et menez votre monde vers la victoire ! Caractéristiques du jeu : - plusieurs dizaines de héros et de cartes de combat uniques - des dizaines de missions sur chaque monde - aucune publicité agaçante - arène JcJ - mode tour - clans et guerres de clans [Gameplay principal et histoire] Q : De quoi parle le jeu ? Que faut-il faire ? R : C'est un jeu de stratégie d'action dans lequel vous terminez des niveaux (missions) et combattez des ennemis. Q : Le jeu a-t-il un scénario ? R : Oui, il y a une histoire. L'univers est de science-fiction en 2121, avec une technologie très avancée, mais quelque chose a mal tourné, et les héros veulent sauver le monde. Q : Quel est le point fort unique du jeu ? Qu'est-ce qui peut accrocher les joueurs ? R : Il existe de nombreux héros différents avec un système d'amélioration, un grand nombre de missions, une arène JcJ, un classement et des guerres de clans. Vous pouvez aussi améliorer les cartes d'attaque. Q : Quels sont les éléments de contenu captivants (armes, véhicules, lieux, compétences, références à des franchises célèbres, etc.) ? R : Une immense variété de héros, de nombreuses capacités différentes et intéressantes pour ces héros, une histoire prenante, des objectifs clairs et des mécaniques de jeu simples. [Mécaniques et progression] Q : Y a-t-il des boss et en quoi diffèrent-ils ? R : Il y a des boss tout au long de l'histoire, et ils diffèrent par leur design, leurs types d'attaques et leur quantité de PV. Q : Comment fonctionne exactement la progression ? Que faut-il faire pour monter de niveau plus vite ? R : Pour monter de niveau plus vite, il faut bien jouer afin de gagner suffisamment de monnaie en jeu. Le jeu est facile à prendre en main. Q : Y a-t-il des mini-jeux dans l'histoire principale ? Par exemple, des puzzles « match-three » au sein du jeu de stratégie. R : Non. [Économie et personnalisation] Q : Quelles sont les monnaies et à quoi servent-elles (monnaie standard - or, monnaie premium - cristaux, etc.) ? R : L'argent sert à améliorer les héros, à améliorer les cartes et à acheter des cartes de héros pour les débloquer. Q : Y a-t-il des achats intégrés ? Que peut-on acheter et quel est leur effet ? Dépenser de l'argent accélère-t-il la progression ? R : Oui, les microtransactions accélèrent la progression, car vous pouvez acheter de la monnaie en jeu avec de l'argent réel.",
-  "instructions": "Rassemblez une escouade de héros et un deck de cartes, puis accomplissez des missions. Utilisez l'argent reçu pour débloquer de nouveaux héros et améliorer vos cartes. Quels héros dois-je emmener au combat ? - ceux qui se complètent et sont plus forts ensemble, comme un soigneur et un tank. Avec quelles cartes dois-je combattre ? - celles qui peuvent renforcer votre escouade de héros, ou des cartes de base pour soigner et infliger des dégâts aux ennemis. Comment gagner de l'or ? - en accomplissant des missions et des quêtes quotidiennes, et en combattant dans la tour et l'aren"
+  "description": "L'année est 2121. La technologie a dépassé de loin nos fantasmes les plus fous, mais un grand progrès exige de grands sacrifices... Explorez d'autres mondes à la recherche de trésors et d'une puissance illimitée ! Commandez une équipe de héros courageux et menez votre monde vers la victoire ! Caractéristiques du jeu : - plusieurs dizaines de héros uniques et de cartes de combat - des dizaines de missions sur chaque monde - pas de publicités agaçantes - arène JcJ - mode tour - clans et guerres de clans [Gameplay principal & histoire] Q : De quoi parle le jeu ? Que faut-il faire ? R : C'est un jeu de stratégie d'action où l'on termine des niveaux (missions) et combat des ennemis. Q : Le jeu a-t-il un scénario ? R : Oui, il y a une histoire. Le cadre est de la science-fiction en 2121, avec une technologie très avancée, mais quelque chose a mal tourné, et les héros veulent sauver le monde. Q : Quel est le point fort unique du jeu ? Qu'est-ce qui peut accrocher les joueurs ? R : Il existe de nombreux héros différents avec un système d'amélioration, un grand nombre de missions, une arène JcJ, un classement et des guerres de clans. Vous pouvez aussi améliorer vos cartes d'attaque. Q : Quels sont les éléments de contenu attrayants (armes, véhicules, lieux, compétences, références à des franchises célèbres, etc.) ? R : Une immense variété de héros, de nombreuses capacités différentes et intéressantes pour ces héros, une histoire captivante, des objectifs clairs et des mécaniques de jeu simples. [Mécaniques & progression] Q : Y a-t-il des boss et en quoi diffèrent-ils ? R : Il y a des boss tout au long de l'histoire, et ils diffèrent par leur design, leurs types d'attaques et leurs points de vie. Q : Comment fonctionne exactement la progression ? Que faut-il faire pour monter de niveau plus vite ? R : Pour monter de niveau plus vite, il faut bien jouer afin de gagner assez de monnaie en jeu. Le jeu est facile à prendre en main. Q : Y a-t-il des mini-jeux dans l'histoire principale ? Par exemple, des puzzles « match-three » au sein du jeu de stratégie. R : Non. [Économie & personnalisation] Q : Quelles sont les monnaies et à quoi servent-elles (monnaie standard - or, monnaie premium - cristaux, etc.) ? R : L'argent sert à améliorer les héros, à améliorer les cartes et à acheter des cartes de héros pour les débloquer. Q : Y a-t-il des achats intégrés ? Que peut-on acheter et quel en est l'effet ? Dépenser de l'argent accélère-t-il la progression ? R : Oui, les microtransactions accélèrent la progression, car vous pouvez acheter de la monnaie en jeu avec de l'argent réel.",
+  "instructions": "Rassemblez une escouade de héros et un paquet de cartes, puis terminez des missions. Utilisez l'argent reçu pour débloquer de nouveaux héros et améliorer vos cartes. Quels héros dois-je emmener au combat ? - ceux qui se complètent et sont plus forts ensemble, comme un soigneur et un tank. Avec quelles cartes dois-je combattre ? - celles qui peuvent renforcer votre escouade de héros, ou des cartes de base pour soigner et infliger des dégâts aux ennemis. Comment gagner de l'or ? - en terminant des missions et des quêtes quotidiennes, et en combattant dans la tour et l'aren"
  },
  "super-fruit-runner-hyper-casual": {
   "description": "Dans ce jeu de course hyper casual 🚀, vous contrôlez des fruits lancés à toute vitesse et esquivez les obstacles pour atteindre la ligne d'arrivée 🍏. Avec 15 niveaux uniques 🗺️ et 12 succès spéciaux 🎖️, le plaisir ne s'arrête jamais ! Grâce à 7 langues — anglais 🇬🇧, russe 🇷🇺, français 🇫🇷, turc 🇹🇷, espagnol 🇪🇸, allemand 🇩🇪 et italien 🇮🇹 — tout le monde peut profiter du jeu 🌍. Détruisez des fruits en touchant des couteaux 🗡️ et gagnez des Yakut pour acheter de puissantes améliorations 💎, notamment : Augmenter le nombre de fruits de départ 🍎 Augmenter les gains de Yakut 💰 Récompense supplémentaire en touchant les plateformes vertes ➕ Réduire les pertes en touchant les plateformes rouges ➖ Utilisez votre vitesse, vos réflexes et votre stratégie 🧠💨 pour terminer tous les niveaux et débloquer chaque succès 🎖️.",
@@ -215840,8 +215840,28 @@
   }
  },
  "night-lake-monster-fishing": {
-  "description": "Ramez sur un lac sombre avec une lanterne, une canne et le sentiment que quelque chose, sous l'eau, vous observe. Night Lake: Monster Fishing est un jeu de pêche calme et inquiétant. Lancez votre flotteur ou faites tourner un leurre, regardez le flotteur danser à la lumière de la lanterne et ferrez quand il plonge vraiment. Chaque poisson se défend : gardez la ligne hors du rouge, penchez la canne contre la traction et ramenez-le jusqu'au bateau. Vendez vos prises au ponton, achetez de meilleurs appâts et du matériel, terminez les quêtes de la nuit et ramez vers de nouvelles eaux. Chaque lac a ses propres poissons, sons, météo et nuit, des lacs de pins et bayous de la jungle aux lacs gelés, marais brumeux, un lac d'Halloween et une crique au phare, avec de nouvelles eaux encore en cours d'ajout. Mais le lac n'est pas vide. La lanterne vacille, les grillons se taisent et une ombre plus longue que votre bateau glisse en dessous. Les monstres ont besoin de leurs propres appâts et d'un matériel solide, et ils peuvent remorquer votre bateau à travers l'eau. Chaque lac cache une légende qui ne remonte qu'avec le bon appât après minuit. - Pêche au flotteur, pêche au leurre et pêche à la cuillère - Une collection de lacs qui s'agrandit, chacun avec ses propres poissons, appâts, monstres et légende - Graphismes réalistes sur ordinateur (Paramètres), avec une météo qui change chaque nuit - Indices de pêche sur l'eau : un remous, des alevins qui sautent, des oiseaux plongeurs vous montrent où lancer - Tailles Trophée et Unique à chasser dans votre Guide de terrain, avec une carte \"?\" pour chaque poisson - Coop : pêchez le même lac avec un ami, ou rejoignez des lacs publics avec chat - Atelier de bateau : vos couleurs, emblèmes et nom de bateau - Une deuxième canne, un étang qui rapporte pendant votre absence, des cadeaux quotidiens, un classement des plus grosses prises - En anglais, russe, espagnol, portugais, turc, allemand ou français Votre progression est sauvegardée automatiquement. Créé par un développeur solo. Les lacs, les décors, les cartes et le mouvement des poissons sont dessinés par le code ; les images de poissons, le pêcheur, les icônes d'objets et les sons ont été réalisés avec l'aide d'outils d'IA, puis finalisés à la main.",
-  "instructions": "Ordinateur : maintenez le clic gauche sur l'eau pour viser, relâchez pour lancer. Cliquez ou appuyez sur Espace quand le flotteur plonge vraiment, puis maintenez pour remonter la ligne. En combat, gardez la tension hors du rouge et maintenez A/D pour éloigner la canne du poisson. Ramez avec W/S et A/D (ou les flèches directionnelles), ou faites un clic droit sur l'eau pour y aller. E ouvre la boutique du ponton au ponton. H affiche toutes les autres touches. Téléphone : stick gauche : poussez pour ramer et tourner. Stick droit : maintenez pour viser, relâchez pour lancer. Appuyez sur le stick droit quand le flotteur plonge, puis maintenez-le pour remonter la ligne. Relâchez la pression quand la ligne passe au rouge."
+  "description": "Ramez sur un lac sombre avec une lanterne, une canne et l'impression que quelque chose, sous l'eau, vous observe. Night Lake: Monster Fishing est un jeu de pêche calme et inquiétant. Lancez votre flotteur ou faites tourner un leurre, regardez le flotteur danser à la lumière de la lanterne et ferrez quand il plonge vraiment. Chaque poisson se défend : gardez la ligne hors du rouge, penchez la canne contre la traction et ramenez-le jusqu'au bateau. Vendez vos prises au ponton, achetez de meilleurs appâts et du matériel, terminez les quêtes de la nuit et ramez vers de nouvelles eaux. Chaque lac a ses propres poissons, sons, météo et nuit, des lacs de pins et bayous de la jungle aux lacs gelés, marais brumeux, un lac d'Halloween et une crique au phare, avec de nouvelles eaux encore en préparation. Mais le lac n'est pas vide. La lanterne vacille, les grillons se taisent et une ombre plus longue que votre bateau glisse sous la surface. Les monstres ont besoin de leurs propres appâts et d'un matériel solide, et ils peuvent remorquer votre bateau à travers l'eau. Chaque lac cache une légende qui ne remonte qu'avec le bon appât, après minuit. - Pêche au flotteur, leurres et pêche au coup - Une collection grandissante de lacs, chacun avec ses poissons, appâts, monstres et légende - Graphismes réalistes sur ordinateur (Paramètres), avec une météo qui change chaque nuit - Signes sur l'eau : un tourbillon, des alevins qui sautent, des oiseaux qui plongent vous indiquent où lancer - Tailles Trophée et Unique à chasser dans votre Guide du pêcheur, avec une carte « ? » pour chaque poisson - Coopération : pêchez le même lac avec un ami, ou rejoignez des lacs publics avec chat - Atelier du bateau : vos couleurs, emblèmes et nom de bateau - Une deuxième canne, un étang qui rapporte pendant votre absence, des cadeaux quotidiens, un classement des plus grosses prises - Disponible en anglais, russe, espagnol, portugais, turc, allemand ou français Votre progression est sauvegardée automatiquement. Créé par un développeur solo. Les lacs, les décors, les cartes et le mouvement des poissons sont dessinés par le code ; les images de poissons, le pêcheur, les icônes d'objets et les sons ont été réalisés avec l'aide d'outils d'IA puis finalisés à la main.",
+  "instructions": "Ordinateur : maintenez le clic gauche sur l'eau pour viser, relâchez pour lancer. Cliquez ou appuyez sur Espace quand le flotteur plonge vraiment, puis maintenez pour remonter la ligne. Pendant un combat, gardez la tension hors du rouge et maintenez A/D pour pencher la canne loin du poisson. Ramez avec W/S et A/D (ou les flèches directionnelles), ou faites un clic droit sur l'eau pour ramer jusqu'à cet endroit. E ouvre la boutique du ponton. H affiche toutes les autres touches. Téléphone : stick gauche : poussez pour ramer et tourner. Stick droit : maintenez pour viser, relâchez pour lancer. Tapotez le stick droit quand le flotteur plonge, puis maintenez-le pour remonter. Relâchez la pression quand la ligne devient rouge.",
+  "guide": {
+   "intro": "Night Lake: Monster Fishing est un jeu de pêche calme et inquiétant, joué depuis une barque éclairée par une lanterne. Vous lancez, attendez que le flotteur coule, puis combattez chaque poisson en gardant la ligne sous contrôle.",
+   "tips": [
+    "Observez l'eau à la recherche de signes comme un tourbillon, des alevins qui sautent ou des oiseaux qui plongent, et lancez près d'eux plutôt qu'au hasard.",
+    "Ferrez seulement quand le flotteur plonge vraiment, et non quand il ne fait que danser, pour ne pas gâcher la touche.",
+    "Pendant un combat, appuyez sur A ou D pour pencher la canne loin du poisson dès que la tension commence à monter vers le rouge.",
+    "Les monstres ont besoin de leurs propres appâts et d'un matériel plus solide, alors préparez le bon équipement avant de ramer vers un lac où l'un d'eux pourrait se cacher.",
+    "Vendez vos prises au ponton avec E et dépensez l'argent en meilleurs appâts et matériel, car votre équipement est ce qui vous permet de gérer les plus gros poissons. Vous pouvez aussi découvrir [[fishing-games|d'autres jeux de pêche à essayer]] si ce style vous plaît."
+   ],
+   "faq": [
+    [
+     "Comment éviter que le poisson casse ma ligne ?",
+     "Surveillez le compteur de tension et relâchez la pression ou penchez la canne loin du poisson avec A et D quand la ligne approche du rouge."
+    ],
+    [
+     "Quelle est la différence entre la pêche au flotteur et la pêche aux leurres ?",
+     "La pêche au flotteur attend que le flotteur plonge avant de ferrer, tandis que la pêche aux leurres utilise un leurre que vous faites bouger dans l'eau pour attirer les poissons."
+    ]
+   ]
+  }
  },
  "cake-shop-simulator-bake-and-sell": {
   "description": "Cake Shop Simulator: Bake & Sell est un jeu de pâtisserie cosy où vous préparez des gâteaux 3D sur commande et les vendez à vos clients directement dans le chat. Prenez une commande, montez le gâteau étape par étape (forme, étages, glaçage, coulures, crème, un dessin à la crème sur le dessus et décorations), puis envoyez une photo à l'acheteur et négociez pour obtenir le meilleur prix. Chaque acheteur a sa personnalité : un écolier compte chaque pièce, une mariée veut un gâteau à trois étages, un revendeur achète en gros. Si vous demandez trop cher, leur patience s'épuise ; gardez votre prix au bon moment et l'offre augmente. Fonctionnalités du jeu : - Créez des gâteaux en 3D : 10 formes, jusqu'à 3 étages, glaçages, coulures, rosaces de crème, pistaches et 12 dessins à la crème - Placez fraises, bougies, macarons, donuts et plus encore où vous voulez sur le gâteau, puis faites-le tourner et zoomez - Discutez avec les acheteurs et négociez : chaque transaction est une petite histoire - Publiez vos meilleurs gâteaux sur Cakegram, récoltez des j'aime et des abonnés qui font grimper vos prix - Concours quotidien de gâteaux, précommandes pour le lendemain, quêtes quotidiennes et succès - 20 niveaux, améliorations de cuisine, présentoirs à gâteaux et intérieurs de pâtisserie à débloquer - Classement des meilleurs pâtissiers Une journée de travail ne prend que quelques minutes, parfait pour une courte pause.",
@@ -254444,7 +254464,7 @@
   }
  },
  "public-transport-simulator-2021": {
-  "description": "Transportez des passagers d'une ville jusqu'au terminal d'une autre ville à travers des paysages et des lieux magnifiques. Respectez le code de la route, transportez des passagers, faites du telolet pour les enfants, et n'hésitez pas à voyager plus loin car vous gagnerez davantage d'argent. Personnalisez votre bus avec une variété de livrées, de klaxons, de telolets, de pare-chocs, de jantes, et bien d'autres ! Faites de votre bus le centre de l'attention en installant un feu STROBE ! Des lieux réalistes, des véhicules de bus détaillés et de superbes intérieurs vous donneront l'impression de conduire un vrai bus ! Téléchargez Public Transport Simulator 2021 dès maintenant ! Fonctionnalités : - Cartes réalistes - Bus détaillés (super haut à deux étages, à impériale, et plus à venir.) - Feux STROBE sur les bus - Expérience de conduite de bus réaliste - Personnalisation du bus avec une variété de livrées, de klaxons, de telolets, de pare-chocs et de jantes au choix. - Bouton d'ouverture/fermeture des portes - Passagers animés qui montent et descendent du bus - Conditions météo (ensoleillé et pluie avec orages) et cycle jour/nuit - Volant, boutons ou contrôles par inclinaison - Différents angles de caméra (caméra de cabine, caméra extérieure, caméra libre) - Intérieurs de bus détaillés - Intelligence artificielle et système de trafic avancés - De nombreuses variantes de véhicules IA (berline, bus, Tahu Bulat, camion cabé / Stut Jack, fourgon, voiture de police, camion-citerne, et bien d'autres.) - Règles de circulation réalistes - Effets sonores de bus réalistes - Effets sonores de klaxon et de TELOLET réalistes - Succès et classements - Défiez vos amis avec des classements en ligne CONSEILS - Choisissez les paramètres graphiques adaptés aux capacités de votre téléphone pour un jeu fluide. - Choisissez le mode de contrôle de votre bus pour une conduite facile dans le menu des paramètres. - Allumez les phares la nuit pour éviter les accidents. - Lorsque votre bus n'a plus de carburant, vous pouvez acheter du carburant en promotion ou à la station-service la plus proche. - Si vous respectez le code de la route, transportez de nombreux passagers, faites du telolet pour les enfants et voyagez loin pendant la partie, vous gagnerez encore plus d'argent. Nous essayons toujours de vous proposer le meilleur jeu possible, alors nous avons besoin de vos retours. N'oubliez pas de noter notre Mobile Bus Simulator et de laisser un avis. Cela compte beaucoup pour nous. BON JEU & Merci !",
+  "description": "Transportez des passagers d'une ville à un terminal d'une autre ville à travers des lieux et des paysages magnifiques. Respectez le code de la route, transportez les passagers, faites retentir le telolet pour les enfants, et n'hésitez pas à voyager plus loin, car vous gagnerez davantage d'argent. Personnalisez votre bus avec une variété de livrées, de klaxons, de telolets, de pare-chocs, de jantes et bien d'autres ! Faites de votre bus le centre de toutes les attentions en installant un feu STROBE ! Des lieux réalistes, des véhicules de bus détaillés et de superbes intérieurs vous donneront l'impression de conduire un vrai bus ! Jouez dès maintenant à Mobile Bus Simulator ! Fonctionnalités : - Cartes réalistes - Bus détaillés (super bus à impériale, bus à deux étages, et bien d'autres à venir) - Feux STROBE pour bus - Expérience de conduite de bus réaliste - Personnalisation du bus avec une variété de livrées, de klaxons, de telolets, de pare-chocs et de jantes au choix. - Bouton d'ouverture et de fermeture des portes - Passagers animés qui montent et descendent du bus - Conditions météorologiques (ensoleillé et pluie avec orages) et cycle jour-nuit - Commandes au volant, par boutons ou par inclinaison - Différents angles de caméra (caméra de cabine, caméra extérieure, caméra libre) - Intérieurs de bus détaillés - Système d'IA et de trafic intelligent - Une multitude de véhicules IA (berline, bus, Tahu Bulat, camion cabé / Stut Jack, fourgon, voiture de police, camion-citerne à mazout, et bien d'autres) - Règles de circulation réalistes - Effets sonores de bus réalistes - Effets sonores réalistes du klaxon et du TELOLET du bus - Succès et classements - Défiez vos amis avec des classements en ligne ASTUCES - Choisissez les paramètres graphiques adaptés aux capacités de votre téléphone pour une fluidité de jeu optimale. - Choisissez le mode de contrôle de votre bus pour une conduite facile dans le menu des paramètres. - Allumez les phares la nuit pour éviter les accidents. - Lorsque votre bus est à court d'essence, vous pouvez acheter de l'essence en promotion ou à la station-service la plus proche. - Si vous respectez le code de la route, transportez de nombreux passagers, faites retentir le telolet pour les enfants et voyagez loin pendant la partie, vous gagnerez encore plus d'argent. Nous essayons toujours de vous offrir le meilleur jeu possible, alors nous avons besoin de vos retours. N'oubliez pas de noter Mobile Bus Simulator et de laisser un avis. Cela compte beaucoup pour nous. AMUSEZ-VOUS BIEN ET MERCI !",
   "instructions": "Commandes au clavier"
  },
  "lucky-vs-lou": {
@@ -264591,8 +264611,27 @@
   }
  },
  "stunt-car-impossible-track-challenge-3d": {
-  "description": "Êtes-vous prêt à conduire sur la route du ciel pour réaliser d'impossibles cascades automobiles ? Vivez la meilleure expérience de conduite sur des circuits impossibles en enchaînant les cascades sur des rampes impossibles. Soyez prudent en conduisant la voiture sur ces circuits impossibles et montrez vos talents de pilote dans les jeux de cascades automobiles. Ce jeu de cascades dangereuses est difficile à conduire sur les rampes en zigzag de la route du ciel. Dans ce grand jeu de rampes, vous devez posséder des compétences de course sur circuit impossible. La voiture sauteuse dispose d'une très bonne physique de saut de cascade. Je suis sûr que vous vous amuserez beaucoup avec ce jeu de course automobile en pratiquant cette course de cascades, le circuit impossible le plus attrayant dans l'environnement du ciel. Le jeu de cascades extrêmes qui vous attirera le plus. Si vous aimez réaliser des cascades avec des voitures impossibles, avant tout les jeux de véhicules ; alors ce jeu de voiture sur circuit impossible est fait pour vous. Ce jeu de voiture gratuit propose un design spécial de circuits impossibles pour le défi des cascades automobiles. Êtes-vous prêt à profiter des dernières cascades automobiles ultimes sur les hautes routes du ciel ? Si c'est le cas, bienvenue dans ce jeu de cascades automobiles, où vous pouvez conduire une voiture à des hauteurs vertigineuses pour toucher le grand ciel comme une légende. Stunt Car Impossible Track Challenge 3D est le meilleur jeu de 2019 parmi les jeux impossibles de voitures acrobatiques et de circuits de cascades. Profitez des sauts en voiture et d'une véritable course sur circuit impossible, sur des circuits extrêmes et infinis au cœur du ciel. Si vous êtes un pilote rapide et un cascadeur impossible passionné de jeux de course automobile, préparez-vous à vivre un vrai rallye automobile au milieu du ciel, sans limites. Foncez comme un maître cascadeur fou en roulant sur de magnifiques circuits impossibles et battez vos rivaux dans cette aventure à couper le souffle. Réalisez des dérapages extrêmes et d'insensées figures acrobatiques en plein saut sur le circuit impossible 3D et foncez comme un véritable pilote de drift. La course automobile urbaine extrême et impossible est un véritable défi de cascades automobiles ; alors attachez votre ceinture avant le décollage et remportez ce simulateur de course automobile 2019. Contrairement aux autres jeux de cascades automobiles, cette conduite urbaine extrême sera un véritable plaisir et une vraie aventure. Vous serez sûrement accro à ce jeu de course automobile insensé sur circuits impossibles 3D. Chaque niveau est palpitant et stimulant, ce qui en fait le jeu de cascades automobiles le plus passionnant. Atteignez t",
-  "instructions": "UTILISEZ LES TOUCHES POUR CONTRÔLER LA VOITURE"
+  "description": "Êtes-vous prêt à conduire sur la route du ciel pour réaliser d'incroyables cascades automobiles ? Vivez la meilleure expérience de conduite sur des circuits impossibles en enchaînant les cascades sur des rampes impossibles. Conduisez avec prudence sur ces circuits impossibles et montrez vos bonnes compétences de pilotage dans les jeux de cascades automobiles. Ce jeu de cascades dangereuses est difficile à conduire sur les rampes en zigzag de la route du ciel. Dans ce jeu de grandes rampes, vous devez posséder des talents de course sur circuit impossible. La voiture sauteuse a une bonne physique de saut de cascade. Je suis sûr que vous vous amuserez beaucoup avec ce jeu de course automobile en jouant à cette course de cascades la plus attrayante, sur un circuit impossible dans l'environnement du ciel. Le jeu de cascades extrêmes qui vous attirera le plus. Si vous aimez réaliser des cascades avec une voiture impossible, avant tout les jeux de véhicules et de voitures, alors le circuit impossible est fait pour vous. Ce jeu de voiture gratuit propose un design spécial de circuits impossibles pour le défi des cascades automobiles. Êtes-vous prêt à profiter des dernières cascades automobiles ultimes sur les hautes routes du ciel ? Si c'est le cas, bienvenue dans ce jeu de cascades automobiles, où vous pouvez conduire une voiture à des hauteurs vertigineuses pour toucher le grand ciel comme une légende. La course de cascades automobiles est le meilleur jeu de 2019 parmi les jeux impossibles de cascades automobiles et de circuits acrobatiques. Profitez des sauts en voiture et d'une véritable course sur circuit impossible, sur des circuits extrêmes et sans fin, au cœur du ciel. Si vous êtes un pilote rapide et un cascadeur impossible passionné de jeux de course automobile, préparez-vous à vivre un vrai rallye automobile au milieu du ciel, sans limites. Fonncez comme un maître cascadeur déchaîné sur des circuits impossibles magnifiquement conçus et battez vos rivaux dans cette aventure à couper le souffle. Réalisez des dérapages extrêmes et des figures acrobatiques folles en plein saut sur le circuit impossible 3D et lancez-vous comme un vrai pilote de drift. La course urbaine extrême et la course impossible sont un véritable défi de cascades automobiles, alors attachez votre ceinture avant le décollage et remportez ce jeu de simulation de course automobile 2019. Contrairement aux autres jeux de cascades automobiles, cette conduite urbaine extrême sera vraiment amusante et palpitante. Vous allez forcément devenir accro à ce jeu de course automobile déjanté sur des circuits impossibles 3D. Chaque niveau est palpitant et stimulant, ce qui en fait le jeu de cascades automobiles le plus passionnant. Atteignez t",
+  "instructions": "UTILISEZ LES TOUCHES POUR CONTRÔLER LA VOITURE",
+  "guide": {
+   "intro": "Stunt Car Impossible Track Challenge 3D est un jeu de course où vous conduisez des voitures de sport sur des circuits en rampes en zigzag perchés très haut. Vous réalisez des sauts, des dérapages et des figures en l'air tout en affrontant vos rivaux pour atteindre chaque point de contrôle avant la fin du temps imparti.",
+   "tips": [
+    "Gardez un œil sur le chronomètre dès le départ, car le temps de course est limité et vous devez atteindre la ligne d'arrivée rapidement.",
+    "Préparez vos atterrissages avant un saut, car un atterrissage brutal sur une rampe élevée peut vous faire perdre de la vitesse et du contrôle.",
+    "Utilisez les dérapages dans les virages en zigzag les plus serrés pour garder votre vitesse au lieu de freiner brusquement.",
+    "Considérez chaque point de contrôle comme un objectif à court terme et concentrez-vous sur son atteinte avant de passer à la section suivante du circuit. Si vous aimez la conduite chronométrée, vous pouvez aussi parcourir [[racing-games|d'autres jeux de course rapides et chronométrés]] pour un défi similaire."
+   ],
+   "faq": [
+    [
+     "Quel est le but principal du jeu ?",
+     "Votre objectif est de parcourir chaque circuit, d'atteindre les points de contrôle en réalisant des cascades et de franchir la ligne d'arrivée avant la fin du temps de course."
+    ],
+    [
+     "Comment contrôler la voiture ?",
+     "Le jeu se contrôle avec les touches du clavier. Utilisez-les pour diriger, accélérer, freiner et réaliser des dérapages et des sauts en parcourant les circuits du ciel."
+    ]
+   ]
+  }
  },
  "pop-it-fish-jigsaw": {
   "description": "Pop It Fish Jigsaw est un jeu de puzzle en ligne gratuit. Vous disposez de 6 images dans trois modes de jeu. Choisissez l'un des modes pour la partie que vous avez sélectionnée auparavant, puis lancez-la pour jouer. Faites glisser et déposez les pièces pour résoudre le puzzle et reconstituer une image. Amusez-vous bien !",
@@ -269678,8 +269717,28 @@
   }
  },
  "impossible-car-stunts": {
-  "description": "Êtes-vous prêt à conduire sur la route du ciel et à réaliser d'impossibles cascades automobiles ? Vivez la meilleure expérience de conduite sur des pistes impossibles en enchaînant les cascades sur des rampes impossibles. Soyez prudent en conduisant sur ces pistes impossibles et montrez vos talents de pilote dans les jeux de cascades automobiles. Ce jeu de cascades dangereuses est difficile : il faut conduire sur des rampes en zigzag dans le ciel. Dans ce grand jeu de rampes, vous devez avoir des compétences de course sur piste impossible. La voiture sauteuse a une bonne physique de saut acrobatique. Je suis certain que vous vous amuserez beaucoup avec ce jeu de course automobile en pratiquant cette course de cascades sur la piste impossible la plus attrayante dans un environnement céleste. Le jeu de cascades automobiles extrêmes qui vous captivera le plus. Si vous aimez réaliser des cascades avec des voitures impossibles avant tout, alors la voiture de piste impossible est faite pour vous. Ce jeu de voiture gratuit propose une conception spéciale de pistes impossibles pour le défi de cascades automobiles. Êtes-vous prêt à profiter des dernières cascades automobiles ultimes sur les hautes routes du ciel ? Si c'est le cas, bienvenue dans ce jeu de cascades automobiles, où vous pourrez conduire une voiture à des hauteurs vertigineuses pour toucher le grand ciel comme une légende. La course de cascades automobiles est le meilleur jeu de 2019 parmi les jeux impossibles de cascades automobiles et de pistes acrobatiques. Profitez des sauts en voiture et d'une véritable course sur piste impossible, sur des pistes extrêmes et interminables dans les hauteurs du ciel. Si vous êtes un pilote rapide et un cascadeur impossible passionné de jeux de course automobile, préparez-vous à vivre un vrai rallye automobile au milieu du ciel, sans limites. Foncez comme un maître cascadeur fou en roulant sur des pistes impossibles magnifiquement conçues et battez vos rivaux dans cette aventure à couper le souffle. Réalisez des dérapages extrêmes et des figures acrobatiques insensées en plein vol sur la piste impossible 3D, et foncez comme un vrai drifteur. La conduite en ville extrême et la course impossible sont un véritable défi de cascades automobiles. Alors bouclez votre ceinture avant le décollage et remportez ce simulateur de course automobile 2019. Contrairement aux autres jeux de cascades automobiles, cette conduite extrême en ville promet d'être un vrai plaisir et une vraie aventure. Vous allez sûrement devenir accro à ce jeu de course automobile insensé sur des pistes impossibles en 3D. Chaque niveau est palpitant et stimulant, ce qui en fait le jeu de cascades automobiles le plus passionnant. Atteignez le t",
-  "instructions": "Commandes au clavier"
+  "description": "Êtes-vous prêt à conduire sur la route du ciel pour réaliser des cascades automobiles impossibles ? Profitez de la meilleure expérience de conduite sur des circuits impossibles en enchaînant les cascades sur des rampes impossibles. Soyez prudent en conduisant votre voiture sur les circuits impossibles et montrez vos bonnes compétences de pilotage dans les jeux de cascades automobiles. Ce jeu de cascades dangereuses est difficile à conduire sur les rampes en zigzag de la route du ciel. Dans ce grand jeu de rampes, vous devez posséder des talents de course sur circuit impossible. La voiture sauteuse dispose d'une bonne physique de saut acrobatique. Je suis sûr que vous vous amuserez beaucoup avec ce jeu de course automobile en pratiquant cette course de cascades, le circuit impossible le plus attrayant dans l'environnement du ciel. Le jeu de cascades automobiles extrême qui vous attirera le plus. Si vous aimez faire des cascades avec des voitures impossibles, avant tout les jeux de véhicules; alors le circuit impossible est fait pour vous. Ce jeu de voiture gratuit propose un design spécial de circuits impossibles pour le défi des cascades automobiles. Êtes-vous prêt à profiter des dernières cascades automobiles ultimes sur les hautes routes du ciel ? Si c'est le cas, bienvenue dans le jeu de cascades automobiles, où vous pourrez conduire une voiture à des hauteurs vertigineuses pour toucher le grand ciel comme une légende. La course de cascades automobiles est le meilleur jeu de 2019 parmi les jeux impossibles de cascades en voiture et de circuits acrobatiques. Profitez du saut de voiture et de la véritable course sur circuit impossible sur les circuits extrêmes et infinis dans les hauteurs du ciel. Si vous êtes un pilote rapide et un cascadeur impossible passionné de jeux de course automobile, préparez-vous à vivre un vrai rallye automobile au milieu du ciel, sans limites. Fonncez comme un maître cascadeur fou en roulant sur les circuits impossibles magnifiquement conçus et battez vos adversaires dans cette aventure époustouflante. Réalisez des dérapages extrêmes et des saltos acrobatiques folles en plein vol sur le circuit impossible 3D et fonncez comme un vrai drifteur. La course de voitures urbaines extrêmes et impossibles est un vrai défi de cascades automobiles, alors attachez votre ceinture avant le décollage et remportez ce simulateur de course automobile 2019. Contrairement aux autres jeux de cascades automobiles, cette conduite de voiture urbaine extrême va être un vrai plaisir et une véritable aventure. Vous allez à coup sûr devenir accro à ce jeu de course automobile fou sur circuits impossibles 3D. Chaque niveau est palpitant et stimulant, ce qui en fait le jeu de cascades automobiles le plus passionnant. Atteignez t",
+  "instructions": "Commandes au clavier",
+  "guide": {
+   "intro": "Impossible Car Stunts est un jeu de course se déroulant sur des circuits perchés dans le ciel, remplis de rampes, de sauts et de virages en zigzag. Vous pilotez une voiture de sport à travers chaque niveau, en atteignant les points de contrôle et la ligne d'arrivée avant la fin du temps imparti.",
+   "tips": [
+    "Surveillez le temps autant que la route, car le temps de course est limité et vous devez atteindre la ligne d'arrivée rapidement.",
+    "Ralentissez un peu avant les grandes rampes pour que votre voiture atterrisse en douceur au lieu de se retourner hors de contrôle.",
+    "Utilisez les dérapages dans les sections en zigzag pour garder votre vitesse dans les virages serrés plutôt que de freiner brusquement.",
+    "Réservez vos saltos en plein vol pour les sauts où la trajectoire d'atterrissage est dégagée, car un mauvais atterrissage peut mettre fin à votre course. Si vous aimez glisser dans les virages, vous pouvez trouver [[drift-games|plus de défis de dérapage]] pour vous entraîner à votre contrôle.",
+    "Essayez chaque voiture du jeu pour voir laquelle tient le mieux la route selon votre style de conduite sur les circuits du ciel."
+   ],
+   "faq": [
+    [
+     "Comment terminer un niveau ?",
+     "Vous devez atteindre le point de contrôle, puis la ligne d'arrivée avant la fin du temps de course. Réaliser des cascades en chemin fait partie du défi."
+    ],
+    [
+     "Y a-t-il une limite de temps ?",
+     "Oui, le temps de course est limité, vous devez donc terminer le circuit rapidement tout en conduisant prudemment."
+    ]
+   ]
+  }
  },
  "waterpark-super-slide": {
   "description": "Bienvenue dans une nouvelle ère des jeux de toboggans aquatiques.Water park slide adventure est le jeu d'aventure de toboggan aquatique 3D le plus épique, où vous trouvez un plaisir absolu et une aventure merveilleuse.Real water slide ride game est un jeu de simulation aquatique ultime, palpitant, captivant et exaltant, pour les véritables amateurs d'aventure. Profitez d'une course de vitesse en glissade sur un toboggan aquatique plein de virages et de tournants, avec des mouvements d'une physique incroyablement réaliste, vus à la première personne en 3D. Water slider ride est une folie épique pour les amateurs de sensations fortes et le meilleur des jeux de course aquatique 3D gratuits, avec une expérience délirante et palpitante qui va vous faire vibrer!",
@@ -273664,8 +273723,8 @@
   }
  },
  "shoter-io": {
-  "description": "Prêt à rejoindre la bataille ultime dans l'univers de Shoter.io ? Équipe-toi et personnalise ton personnage avec les tenues et l'équipement les plus stylés, pour avoir l'air d'un pro ! Ce jeu de tir 3D multijoueur en ligne hyper-casual, à l'action frénétique, va te couper le souffle avec son gameplay qui fait monter l'adrénaline et ses explosions. Mais il ne s'agit pas que de l'apparence : dans Shoter.io, tu devras élaborer ta stratégie et planifier tes attaques avec soin, car tes adversaires ne sont pas de simples bots IA, ce sont de vrais joueurs du monde entier, prêts à te mettre KO ! Alors, pense à faire le plein de grenades et d'armes, et prépare-toi à montrer ton talent dans une bataille épique. Que tu préfères le corps à corps ou les tirs de précision à longue distance, il y a une arme pour chacun dans Shoter.io. Et à chaque victoire, tu gagneras des pièces pour améliorer ton équipement et devenir encore plus fort. Alors, prêt à relever le défi et à devenir le champion ultime de Shoter.io ? Que la bataille commence ! Prêt pour l'aventure ultime et trépidante dans le désert ? SandStrike est le jeu qu'il te faut ! Ce jeu de tir multijoueur plein d'action est parfait pour les enfants qui veulent vivre l'excitation des combats à grande vitesse et déjouer leurs adversaires. Avec quatre modes de jeu différents à choisir, dont le classique match à mort par équipe et capture du drapeau, SandStrike offre des possibilités infinies de gameplay palpitant. Et avec une large gamme d'armes et d'équipements personnalisables, tu peux adapter ton équipement à ton style de jeu et dominer la compétition. Mais le plus excitant arrive quand tu montes à bord de l'un des super véhicules de SandStrike. Des camions blindés aux hélicoptères puissants, ces véhicules sont la clé pour prendre l'avantage au combat. Utilise-les pour déjouer tes adversaires, lancer des attaques surprises et grimper au sommet du classement. En affrontant d'autres joueurs, tu seras bluffé par les effets sonores immersifs et les graphismes époustouflants qui donnent l'impression d'être vraiment au cœur du désert. Et avec des niveaux et des objectifs variés et stimulants, tu ne t'ennuieras jamais. Alors qu'est-ce que tu attends ? Prends tes amis et prépare-toi à vivre l'expe",
-  "instructions": "ZQSD - Se déplacer Clic gauche - Tirer Clic droit - Viser G - Grenade"
+  "description": "Êtes-vous prêt à rejoindre la bataille ultime dans l'univers de Shoter.io ? Équipez-vous et personnalisez votre personnage avec les tenues et l'équipement les plus cool, qui vous feront ressembler à un pro ! Ce jeu de tir 3D multijoueur en ligne hyper-casual, à l'action rapide, va vous époustoufler avec son gameplay plein d'adrénaline et ses actions explosives. Mais il ne s'agit pas seulement de l'apparence : dans Shoter.io, vous devrez élaborer votre stratégie et planifier vos attaques avec soin, car vos adversaires ne sont pas de simples bots IA, ce sont de vrais joueurs du monde entier, prêts à vous terrasser ! Alors, faites le plein de grenades et d'armes, et préparez-vous à montrer vos talents dans une bataille épique. Que vous préfériez le combat rapproché ou les tirs de sniper à longue portée, il existe une arme pour chacun dans Shoter.io. Et à chaque victoire, vous gagnerez des pièces pour améliorer votre équipement et devenir encore plus fort. Alors, êtes-vous prêt à relever le défi et à devenir le champion ultime de Shoter.io ? Que la bataille commence ! Êtes-vous prêt pour l'aventure ultime et adrénalinée dans le désert ? SandStrike est le jeu qu'il vous faut ! Ce jeu de tir multijoueur plein d'action est parfait pour les enfants qui veulent vivre l'excitation des batailles à grande vitesse et déjouer leurs adversaires. Avec quatre modes de jeu différents à choisir, dont le classique match à mort par équipe et la capture du drapeau, SandStrike offre des possibilités infinies de parties palpitantes. Et grâce à une large gamme d'armes et d'équipements personnalisables, vous pouvez adapter votre arsenal à votre style de jeu et dominer la compétition. Mais la vraie excitation commence lorsque vous montez à bord de l'un des superbes véhicules de SandStrike. Des camions blindés aux hélicoptères puissants, ces véhicules sont la clé pour prendre l'avantage sur le champ de bataille. Utilisez-les pour déjouer vos adversaires, lancer des attaques surprises et grimper au sommet du classement. Au fil des combats contre d'autres joueurs, vous serez soufflé par les effets sonores immersifs et les graphismes époustouflants qui vous donnent l'impression d'être vraiment au cœur du désert. Et avec des niveaux et des objectifs variés et stimulants, vous ne vous ennuierez jamais. Alors, qu'attendez-vous ? Rassemblez vos amis et préparez-vous à vivre une expe",
+  "instructions": "WASD- Déplacement Clic gauche - Tirer Clic droit - Viser G- Grenade"
  },
  "jelly-jelly": {
   "description": "Collectez tout le plancton produit par les méduses rigolotes, attention à ne pas les toucher sinon vous perdrez une vie ! L'objectif principal du jeu est de récolter le plus de plancton possible et d'inscrire votre record personnel au tableau des scores. De temps en temps, vous verrez des ballons rouges : touchez-les pour gagner un bonus de +100 points. Amusez-vous bien avec ce super jeu. Points forts : - Très facile pour tous les enfants. - Graphismes 3D. - Animations 3D. - Effets sonores fantastiques. - Musique amusante. - Coloré et ludique.",
@@ -274045,8 +274104,28 @@
   }
  },
  "stack-colors-3d": {
-  "description": "Jouez à Stack Tower Colors, le meilleur jeu de course de tours pour Cube Surfer, nouveau jeu hors ligne de 2020 pour collecter des cubes et empiler toutes les couleurs dans un seul jeu d'empilement, nouveau bloc de collecte stackcolors par Stack Run. FOF Games présente un tout nouveau jeu Stacky Tower Run 3D avec Stack Colors over Cubes Surfer 3D pour collecter des cubes dans ce nouveau jeu d'empilement de tours 2021, Layers Roll 3D. Jouez à ce nouveau jeu Stack Colors 2021 et commencez à empiler les couleurs en collectant des cubes surfer avec le bloc Stack Tower Run 3D pour réaliser une énorme course d'empilement triple pleine de stackcolors grâce à Stickman Color Run 3D, nouveau jeu de puzzle 2021. Bienvenue dans le monde réel de Stack Run, de Tower Stack Colors et de Cube Surfer, et rejoignez ce nouveau jeu d'empilement de tours de 2020. Essayez ce jeu de piles de couleurs 2021 et profitez du maître des cubes de couleurs pour créer une longue course de tours empilées, meilleure aventure stackcolors de jeux de saut de 2021. Avez-vous déjà joué à Color Sorting Stakes, un jeu de tri de couleurs sur Cube Surfer Layers Roll 3D ? Jouez simplement avec Stacky Tower Stack d'un doigt sur l'application, les meilleurs jeux d'empilement amusants et gratuits. Quand vous êtes fatigué de la plateforme de tri de couleurs, essayez le nouveau jeu de piles de couleurs de 2020. Jouez au nouveau mode des jeux de course de tours 2021 et aux jeux de puzzle Stack Colors. Collectez des cubes dans ce jeu fou de coup de pied sur cubes de 2021, qui vous offre le plaisir des nouveaux jeux d'empilement, le meilleur jeu à un doigt pour tuer le temps avec stackcolors. Allez-y et profitez des jeux de blocs empilés Stack Colors Line Cube Surfer de 2020 avec le gameplay passionnant de Layers Roll 3D. Dans ce jeu Stickman Stack Colors 3D, touchez d'un doigt pour collecter des cubes avec Stickman Cube Surfer 3D afin de créer une tour triple de stack colors et d'éviter la brique d'empilement de couleurs. Choisissez uniquement les briques impartiales Stack Colors Cube Surfer pour construire une longue tour Layers Roll stackcolors, puis faites enfin un coup de pied fou sur le bloc d'empilement de stackcolors pour obtenir de nombreuses pièces. Une fois le bloc d'empilement Cube Surfer de Stack Colors terminé, commencez à courir en évitant l'obstacle amusant de Color Run Stickman qui mange vos stack colors lorsque vous percutez de mauvaises briques empilées, la tour de stack colors diminue alors petit à petit. Comme Stack Colors avec Cubes Surfer Layers Roll possède un mode défi de blocs de tour empilés, soyez attentif et prudent sur la route.",
-  "instructions": "Commandes au clavier"
+  "description": "Jouez à stack Tower colors, le meilleur tower run pour cube surfer, nouveau jeu hors ligne 2020 pour collecter des cubes et empiler toutes les couleurs dans un seul jeu de stacking, nouveau bloc à collecter de stackcolors par stack run ”. FOF Games vous présente un tout nouveau jeu stacky tower run 3d avec stack colors over cubes surfer 3d pour collecter des cubes dans ce tower run 3d stacking, nouveau jeu 2021 layers roll 3d. Jouez à ce nouveau jeu stack colors 2021 et commencez à créer une pile de couleurs en collectant des cubes surfer avec stack block tower run 3d pour réaliser un énorme triple stack run rempli de stackcolors grâce au stickman color run 3d, nouveau jeu de puzzle 2021. Bienvenue dans le monde réel de tower stack colors cube surfer et rejoignez ce nouveau tower stack games 2020. Essayez ce color stack games 2021 et profitez du stack color cubes master pour créer un long colors stack run, tower jump games 2021, le meilleur stackcolors adventure. Avez-vous déjà joué à color sorting stakes, sort it stack colors games over cube surfer layers roll 3d ? Jouez simplement avec stacky tower stack d'un seul doigt sur l'application, les meilleurs jeux amusants empilés gratuits. Quand vous êtes fatigué de color sort stack platform, essayez le nouveau color stack games 2020. Jouez au nouveau mode de tower run games 2021 et aux stack colors puzzle games. Collectez des cubes dans ce crazy stack color kick cube game 2021 qui vous offre le plaisir des nouveaux stacks games, le meilleur passe-temps à un doigt de stackcolors. Allez-y et profitez de stack colors line cube surfer avec stack blocks games 2020, avec le gameplay palpitant de layers roll 3d. Dans ce jeu stickman Stack colors 3d, tapez d'un doigt pour collecter des cubes avec stickman cube surfer 3d afin de créer une triple tower stack colors et éviter la brique stack color. Ramassez uniquement les briques stack colors cube surfer impartiales pour créer une longue tour stackcolors layers roll, puis réalisez un kick fou par-dessus le stacking block de stackcolors pour gagner de nombreuses pièces. Une fois le stacking block de stack colors terminé, commencez à courir en faisant attention au stickman color run, obstacle amusant qui mange vos stack colors lorsque vous heurtez des stacked bricks au mauvais stacking block, et votre tower stack colors commence alors à diminuer un par un. Comme stack colors avec cubes surfer layers roll possède un mode défi de tower stack blocks, restez attentif et prudent sur la route.",
+  "instructions": "Contrôles au clavier",
+  "guide": {
+   "intro": "Stack Colors 3D! est un runner hypercasual où vous collectez des cubes, construisez une pile colorée et la gardez intacte en avançant sur le parcours. Chaque changement de pile compte, donc un jeu stable et prudent est récompensé.",
+   "tips": [
+    "Ramassez uniquement les cubes qui correspondent à la couleur de votre pile. Les briques de mauvaise couleur font rétrécir votre pile une pièce à la fois, il vaut donc souvent mieux les éviter plutôt que de les prendre.",
+    "Surveillez la route devant vous pour repérer les obstacles et les pièges. Ajustez votre position tôt pour garder votre tour haute en les passant.",
+    "Avant d'atteindre le bloc d'empilement, prévoyez votre kick final. Réussir un bon kick par-dessus le bloc est la façon de collecter des pièces, alors alignez-vous à temps.",
+    "Essayez le mode défi une fois à l'aise avec la course de base. Il ajoute des situations d'empilement plus difficiles, c'est donc un bon moyen de tester votre habileté. Vous pouvez aussi essayer [[stickman-games|d'autres runners stickman]] si vous aimez l'action rapide d'un seul toucher.",
+    "Gardez des mouvements petits et réguliers. Des gestes rapides et distraits rendent facile le fait de toucher une brique de mauvaise couleur ou de manquer un cube, ce qui peut faire rétrécir votre pile."
+   ],
+   "faq": [
+    [
+     "Quel est le but principal de Stack Colors 3D! ?",
+     "Votre objectif est de collecter des cubes et de construire la pile la plus haute de couleurs assorties. Vous utilisez ensuite cette pile pour parcourir le parcours et faire un kick par-dessus le bloc d'empilement pour gagner des pièces."
+    ],
+    [
+     "Que se passe-t-il si je touche une brique de mauvaise couleur ?",
+     "Votre pile commence à rétrécir une pièce à la fois. Éviter les briques qui ne correspondent pas est essentiel pour garder votre tour haute."
+    ]
+   ]
+  }
  },
  "nitro-rally": {
   "description": "Nitro Rally est un jeu de course d'arcade classique en 2D, inspiré des jeux de course des années 80. Parcourez dix circuits différents au volant d'une voiture qui avance toute seule, débloquez deux cartes puissantes ou plus, cachées dans le jeu, et découvrez d'autres fonctionnalités en jouant. Utilisez le turbo quand vous avez besoin d'un coup de boost et établissez le meilleur temps au tour. Le jeu propose des graphismes colorés et détaillés ainsi que des effets sonores agréables qui vous plairont.",
@@ -275395,8 +275474,8 @@
   }
  },
  "fury-bike-rider": {
-  "description": "Fury Bike Rider est un jeu de course de motos et de simulation avec de superbes graphismes, une physique réaliste et plusieurs modes de jeu. Le jeu comprend un système d'achat et d'amélioration de motos. Vous pouvez aussi affronter l'intelligence artificielle ou rouler librement. Modes de jeu Course Il y a 24 circuits dans le mode \"Race\". Vous êtes en compétition contre 5 intelligences artificielles et si vous terminez dans le top 3 à la fin de la course, vous aurez le droit de passer au circuit suivant. Une fois la course terminée, vous gagnerez de l'argent en fonction de votre temps. De plus, les points de drift et les points de saut obtenus pendant la course se convertissent en argent. Il existe 2 cartes de course : \"Sky City\" et \"Rally Road\" Défi Atteignez la ligne d'arrivée en surmontant des obstacles difficiles et qualifiez-vous pour le niveau suivant. Vous courez contre la montre dans le mode \"Time Travel\". Il y a 24 circuits au total. Lorsque vous franchissez la ligne d'arrivée, votre résultat est noté en fonction du moment où vous l'atteignez. Obtenez des étoiles ici. Il y a 2 cartes de défi : \"Up The Sea\" et \"Deep Forest\". Conduite libre Une grande ville, d'immenses montagnes, des plaines, des mers et des ports. Cette zone offre de nombreux endroits à explorer. Roulez librement et amusez-vous. Il y a 80 diamants à collecter dans la zone de conduite libre. En collectant ces diamants, vous pouvez débloquer de nouvelles motos. Un compte à rebours est présent dans la zone de conduite libre. La récompense est attribuée à la fin de ce compte à rebours. Il vous suffit de rester dans la zone de conduite libre pendant 3 minutes. Lorsque le nombre de diamants atteint un certain niveau, le véhicule se débloque automatiquement. Fonctionnalités Course passionnante contre l'intelligence artificielle Physique de conduite réaliste 7 super motos Monde ouvert et vaste Mode plein écran disponible Défi de course Conduite libre",
-  "instructions": "Commandes Conduire FLÈCHES DIRECTIONNELLES ou ZQSD (WASD) Nitro-Shift N Vue de la caméra C Frein à main Barre d'espace"
+  "description": "Fury Bike Rider est un jeu de course de motos et de simulation avec de superbes graphismes, une physique réaliste et plusieurs modes de jeu. Le jeu propose un système d'achat et d'amélioration de motos. Vous pouvez aussi affronter l'intelligence artificielle ou rouler librement. Modes de jeu Course Il y a 24 circuits dans le mode \"Race\". Vous êtes en compétition contre 5 intelligences artificielles et si vous terminez dans le top 3 à la fin de la course, vous aurez le droit de passer au circuit suivant. Une fois la course terminée, vous gagnez de l'argent en fonction du temps que vous avez réalisé. De plus, les points de drift et les points de saut gagnés pendant la course se convertissent en argent. Il existe 2 cartes de course : \"Sky City\" et \"Rally Road\" Défi Franchissez la ligne d'arrivée en surmontant des obstacles difficiles et qualifiez-vous pour le niveau suivant. Vous courez contre la montre dans le mode \"Time Travel\". Il y a 24 circuits au total. Lorsque vous atteignez la ligne d'arrivée, votre résultat est noté en fonction du moment où vous l'atteignez. Obtenez ici des notes en étoiles. Il existe 2 cartes de défi : \"Up The Sea\" et \"Deep Forest\". Conduite libre Une grande ville, d'immenses montagnes, des plaines, des mers et des ports. Cette zone offre de nombreux endroits à explorer. Roulez librement et amusez-vous. Il y a 80 diamants à collecter dans la zone de conduite libre. En les récupérant, vous pouvez débloquer de nouvelles motos. Un compte à rebours est affiché dans la zone de conduite libre. La récompense est attribuée lorsque ce compte à rebours se termine. Il vous suffit de rester dans la zone de conduite libre pendant 3 minutes. Lorsque le nombre de diamants atteint un certain niveau, le véhicule se débloque automatiquement. Caractéristiques Course passionnante contre l'intelligence artificielle Physique de conduite réaliste 7 super motos Vaste monde ouvert Mode plein écran disponible Défi de course Conduite libre",
+  "instructions": "Commandes Conduite TOUCHES FLÉCHÉES ou WASD Changement nitro N Vue caméra C Frein à main Barre d'espace"
  },
  "nubic-stunt-car-crasher": {
   "description": "Détruisez les blocs de construction formés de briques cubiques ! Choisissez l'une des voitures acrobatiques 3D. Prenez place sur la piste. Descendez la rampe avec votre voiture. Vous ne pouvez qu'accélérer en chemin. Au bout de la route, vous rencontrerez de nombreux obstacles en tombant. Ces obstacles vous ralentiront. La vitesse est très importante dans ce jeu. Vous pouvez voir le choix des véhicules et les améliorations sur l'écran d'accueil du jeu. N'oubliez pas d'améliorer la puissance du moteur, la vitesse du nitro et les gains bonus. Détruisez les personnages et les blocs de construction en surmontant les obstacles. Avec les personnages amusants de l'univers du jeu, tout est beaucoup plus agréable. Amusez-vous bien !",
@@ -283707,8 +283786,27 @@
   }
  },
  "snipers-war-fps-strike": {
-  "description": "Snipers War: FPS Strike est un jeu de tir de sniper en 3D où chaque tir compte. Choisissez votre fusil, trouvez une bonne position et éliminez vos ennemis avant qu'ils ne vous trouvent. Quatre modes de jeu, tous joués contre des bots : • Team Deathmatch – batailles en équipe où vous choisissez le nombre de joueurs et le niveau de difficulté des ennemis • Overpass – deathmatch généralisé : chacun pour soi, battez-vous pour la première place • Survival – résistez aux vagues de zombies aussi longtemps que possible • Parkour – sautez et grimpez jusqu'au sommet de niveaux difficiles De nouveaux modes se débloquent à mesure que vous montez de niveau, et vous pouvez vous entraîner à viser au stand de tir. • Nombreuses cartes : toits au-dessus des nuages, un château, un désert, une montagne enneigée, des zones de conteneurs et bien d'autres • Fusils de sniper, pistolets et couteaux, ainsi que des skins issus de caisses • Battle Pass, récompenses quotidiennes, missions et une roue de la chance • Rangs, profil de joueur, et statistiques de tirs à la tête et de tirs en sautant • Jouable sur PC, téléphones et tablettes, avec commandes tactiles sur mobile Visez la tête et devenez le meilleur sniper du champ de bataille !",
-  "instructions": "Éliminez l'équipe ennemie avant qu'elle ne vous attrape. Utilisez la lunette pour les tirs à longue distance et visez la tête. PC : • W A S D – se déplacer • Souris – viser • Bouton gauche de la souris – tirer • Bouton droit de la souris – zoomer / dézoomer • Espace – sauter • R – recharger • 1 / 2 / 3 ou molette de la souris – changer d'arme • F – inspecter l'arme • Tab (maintenir) – tableau des scores • P ou Échap – pause Téléphone et tablette (tenez l'appareil à l'horizontale) : • Toucher le côté gauche – joystick pour se déplacer • Glisser sur le côté droit – regarder autour et viser • TIR – tirer (le tir automatique se déclenche aussi lorsque votre viseur est sur un ennemi) • VISER – zoomer / dézoomer • Boutons SAUTER, recharger et changer d'arme à droite • PAUSE et bouton du tableau des scores en haut à gauche"
+  "description": "Snipers War: FPS Strike est un jeu de tir de sniper en 3D où chaque tir compte. Choisissez votre fusil, trouvez une bonne position et éliminez vos ennemis avant qu'ils ne vous repèrent. Quatre modes de jeu, tous joués contre des bots : • Team Deathmatch – batailles par équipes où vous choisissez le nombre de joueurs et le niveau de difficulté des ennemis • Overpass – un deathmatch chacun pour soi : chaque soldat pour soi, battez-vous pour la première place • Survie – tenez bon face aux vagues de zombies aussi longtemps que possible • Parkour – sautez et grimpez jusqu'au sommet de niveaux délicats De nouveaux modes se débloquent en montant de niveau, et vous pouvez vous entraîner à viser au stand de tir. • Nombreuses cartes : toits au-dessus des nuages, un château, un désert, une montagne enneigée, des zones de conteneurs et bien d'autres • Fusils de sniper, pistolets et couteaux, plus des skins issus de caisses • Battle Pass, récompenses quotidiennes, missions et une roue de la chance • Classements, profil de joueur, et statistiques de tirs à la tête et de tirs en sautant • Jouable sur PC, téléphones et tablettes, avec commandes tactiles sur mobile Visez la tête et devenez le meilleur sniper du champ de bataille !",
+  "instructions": "Éliminez l'équipe ennemie avant qu'elle ne vous élimine. Utilisez la lunette pour les tirs longue distance et visez la tête. PC : • W A S D – se déplacer • Souris – viser • Bouton gauche de la souris – tirer • Bouton droit de la souris – zoomer / dézoomer • Espace – sauter • R – recharger • 1 / 2 / 3 ou molette de la souris – changer d'arme • F – inspecter l'arme • Tab (maintenir) – tableau des scores • P ou Échap – pause Téléphone et tablette (tenez l'appareil à l'horizontale) : • Touchez le côté gauche – joystick pour se déplacer • Glissez sur le côté droit – regarder autour et viser • TIR – tirer (le tir automatique se déclenche aussi quand votre viseur est sur un ennemi) • SCOPE – zoomer / dézoomer • Boutons SAUT, recharger et changement d'arme à droite • PAUSE et bouton du tableau des scores en haut à gauche",
+  "guide": {
+   "intro": "Snipers War: FPS Strike est un jeu de tir de sniper en 3D où vous choisissez un fusil, trouvez une bonne position et éliminez les ennemis avant qu'ils ne vous repèrent. Ce guide présente les commandes, les quatre modes et les bons réflexes pour toucher plus souvent votre cible.",
+   "tips": [
+    "Utilisez la lunette pour les tirs à longue distance, et visez la tête pour que chaque tir compte.",
+    "Entraînez-vous à viser au stand de tir avant de vous lancer dans une partie contre des bots.",
+    "En Team Deathmatch, choisissez au départ une équipe plus petite et des ennemis plus faciles pour apprendre les cartes.",
+    "Maintenez Tab (ou le bouton du tableau des scores sur mobile) pour repérer les ennemis et suivre le déroulement de la partie avant de changer de position. Si vous aimez la partie escalade du mode Parkour, [[parkour-and-obby-games|d'autres défis de saut et d'escalade]] valent le détour."
+   ],
+   "faq": [
+    [
+     "Comment zoomer et réussir un tir précis ?",
+     "Appuyez sur le bouton droit de la souris sur PC pour zoomer ou dézoomer, puis utilisez le bouton gauche pour tirer. Sur téléphone et tablette, utilisez le bouton SCOPE et le bouton TIR."
+    ],
+    [
+     "Que dois-je faire en mode Survie ?",
+     "Tenez bon face aux vagues de zombies aussi longtemps que possible. Rester dans une position d'où vous voyez l'approche et recharger rapidement vous aide à tenir plus longtemps."
+    ]
+   ]
+  }
  },
  "island-arena-steel-and-honor": {
   "description": "RU Сражайтесь на островной арене, выбирайте одного из пяти бойцов и осваивайте уникальные стили оружия. Пройдите историю из 18 боёв с растущей сложностью, сразитесь с ИИ в свободном бою, тренируйте комбинации или играйте вдвоём за одной клавиатурой. Побеждайте в матчах до трёх выигранных раундов, открывайте новых героев и продолжайте сохранённое прохождение. EN Affrontez-vous sur une arène insulaire fantastique, choisissez l'un des cinq guerriers et maîtrisez des styles d'armes distincts. Terminez une histoire de 18 combats à difficulté croissante, défiez l'IA en combat libre, entraînez-vous aux enchaînements en mode entraînement ou jouez des duels à deux sur un même clavier. Remportez les matchs en gagnant trois manches, débloquez de nouveaux combattants et poursuivez votre aventure sauvegardée.",
@@ -283972,8 +284070,8 @@
   }
  },
  "snake-autopilot": {
-  "description": "Le classique jeu du Snake avec une touche de nouveauté ! Ramassez la nourriture, grandissez et évitez de vous cogner contre les murs ou votre propre queue. Vous aurez même un bref instant pour tourner avant de heurter un mur ! Choisissez parmi trois modes : « Classique », « Sans murs » — traversez les bords de l'écran, et « Obstacles » — évitez des blocs qui changent de position à chaque manche. Défiez l'IA en mode « Duel » ! Affrontez-la sur le même plateau, utilisez des bonus et battez huit adversaires, chacun plus redoutable que le précédent. Ou activez le « Pilote automatique » et laissez l'IA contrôler votre serpent, pour vous aider à sortir des situations délicates. Gagnez des pièces en ramassant la nourriture et en réclamant les récompenses quotidiennes, puis dépensez-les en skins, accessoires, effets et nouveaux mondes !",
-  "instructions": "Contrôlez votre serpent avec les flèches directionnelles ou ZQSD (WASD), ou glissez le doigt sur votre téléphone. 🍎 Pomme : +10 points ⭐ Étoile : +30 points Appuyez sur « P » pour mettre en pause ou sur « Échap » pour ouvrir le menu. Activez le « Pilote automatique » en regardant une publicité ou en dépensant 30 pièces. L'IA contrôle votre serpent pendant 15 pommes en mode normal ou pendant une manche par duel. En mode « Duel », remportez deux manches pour gagner la victoire ! Si vous percutez un obstacle, votre adversaire remporte la manche. Si le temps est écoulé, le joueur ayant ramassé le plus de nourriture gagne. Les bonus s'activent instantanément : les effets positifs vous aident, tandis que les effets négatifs affectent votre adversaire. Vous pouvez activer ou désactiver séparément la musique et les effets sonores dans le menu."
+  "description": "Le classique jeu Snake avec une touche originale ! Ramassez de la nourriture, grandissez et évitez de heurter les murs ou votre propre queue. Vous aurez même un bref instant pour tourner avant de toucher un mur ! Choisissez parmi trois modes : \"Classique\", \"Sans murs\" — traversez les bords de l'écran, et \"Obstacles\" — évitez des blocs qui changent de position à chaque manche. Défiez l'IA en mode \"Duel\" ! Affrontez-la sur le même plateau, utilisez des bonus et battez huit adversaires, chacun plus redoutable que le précédent. Ou activez le \"Pilote automatique\" et laissez l'IA contrôler votre serpent pour vous aider à sortir des situations délicates. Gagnez des pièces en ramassant de la nourriture et en réclamant vos récompenses quotidiennes, puis dépensez-les en skins, accessoires, effets et nouveaux mondes !",
+  "instructions": "Contrôlez votre serpent avec les touches fléchées ou ZQSD/WASD, ou balayez l'écran sur votre téléphone. 🍎 Pomme : +10 points ⭐ Étoile : +30 points Appuyez sur \"P\" pour mettre en pause ou sur \"Échap\" pour ouvrir le menu. Activez le \"Pilote automatique\" en regardant une publicité ou en dépensant 30 pièces. L'IA contrôle votre serpent pendant 15 pommes en mode normal, ou pendant une manche par duel. En mode \"Duel\", remportez deux manches pour gagner la partie ! Si vous percutez un obstacle, votre adversaire remporte la manche. Si le temps est écoulé, le joueur qui a ramassé le plus de nourriture gagne. Les bonus s'activent instantanément : les effets positifs vous aident, tandis que les effets négatifs affectent votre adversaire. Vous pouvez activer ou désactiver séparément la musique et les effets sonores dans le menu."
  },
  "tiny-racers": {
   "description": "Construisez un petit rover avec les pièces que vous obtenez et essayez de traverser la pièce ! Chaque niveau est un nouveau puzzle sur roues : placez les pièces au bon endroit, appuyez sur go et espérez que votre création survive au trajet. Sautez du canapé, survolez les tables et roulez dans les boucles pour atteindre la ligne d'arrivée. Débloquez de drôles de nouveaux rovers et personnalisez-les au fil de la partie.",
@@ -284335,7 +284433,7 @@
   }
  },
  "sky-driver-on-ramps": {
-  "description": "Rejoignez les courses ultimes sur les méga rampes perchées dans ce nouveau jeu de voiture 2021. Bienvenue dans le nouveau jeu de cascades en voiture sur méga rampe hors ligne 2021 pour devenir un pilote de cascades fou. Conduisez la simulation 3D de cascades en méga rampe, votre jeu de cascades impossibles préféré, avec des voitures de course GT sur des circuits impossibles et des cascades impossibles dans les jeux de rampes. Les courses de cascades en ville en 3D sur circuits impossibles, avec des courses de cascades sur rampes, vous attendent, alors préparez-vous aux jeux de cascades, à la simulation 3D de méga rampes et aux jeux de voitures à cascades extrêmes. Relevez le défi ultime des jeux de cascades en voiture GT, allez réaliser des cascades de course extrêmes, soyez un pilote de cascades dans le trafic, faites des cascades extrêmes et conduisez des voitures de course GT parmi une large collection de voitures pour rampes. Dans le jeu de cascades sur rampe verticale, prenez le volant de vos voitures de cascades de course extrêmes préférées, conçues pour rouler à vitesse maximale, ce qui vous offrira les jeux de cascades folles et les sensations fortes. Vivez l'expérience du jeu de voiture à cascades sur méga rampe et sur circuits impossibles avec des véhicules lourds. Bouclez votre ceinture, montez dans votre voiture de course à cascades sur méga rampe et lancez-vous dans les circuits impossibles dès maintenant ! Montrez vos cascades épiques et palpitantes, et réalisez des cascades risquées sur les circuits impossibles pour gagner plus de points. Alors, dépêchez-vous de devenir un pilote extrême de jeux de cascades en voiture et remportez le titre de véritable pilote de cascades fou. Préparez-vous à trois modes addictifs et palpitants : 1 - Mode Infinity 2 - Mode Cascades GT 3 - Mode Méga Rampes GT. Ce jeu de cascades en voiture GT arrive avec trois modes de course incroyables, avec des voitures de sport, de course, classiques et rapides, pour devenir le pilote héros des cascades extrêmes sur méga rampe. Le mode Infinity vous donnera le contrôle total de toutes les voitures de formule et GT en cascades, où vous vivrez une transformation de voiture à vitesse maximale mêlée à des cascades géantes. Le mode Cascades GT vous encouragera à relever des missions difficiles en réalisant des cascades GT sur différentes rampes. Le mode Méga Rampes GT vous emmènera dans les cascades folles dans le ciel, où vous ressentirez l'énorme excitation des circuits impossibles avec des voitures super rapides. Alors, profitez de la conduite folle et palpitante dans les meilleurs jeux de voitures à cascades. C'est un uni",
+  "description": "Participe aux courses ultimes sur les méga rampes dans ce nouveau jeu de voiture 2021 ! Bienvenue dans le nouveau jeu de cascades en voiture avec méga rampe hors ligne 2021 pour devenir un pilote de cascades fou. Conduis dans le simulateur 3D de cascades en voiture sur méga rampe, ton jeu de cascades impossibles préféré avec voiture de course GT sur des circuits impossibles et des cascades impossibles dans les jeux de rampes. La course de cascades 3D en ville sur circuits impossibles et la course de cascades sur rampe t'attendent, alors prépare-toi pour les jeux de cascades, la simulation 3D de cascades sur méga rampe et les jeux de cascades en voiture extrêmes. Relève le défi ultime des jeux de course de cascades GT, va réaliser des cascades de course extrêmes, deviens un pilote de cascades dans le trafic, fais des cascades extrêmes et conduis une voiture de course GT parmi une large gamme de collections de voitures sur rampe. Dans le jeu de cascades en voiture sur rampe verticale, prends le volant de tes voitures de cascades extrêmes préférées, conçues pour rouler à vitesse maximale, qui t'offriront des jeux de cascades fous et des sensations fortes. Vis l'expérience du jeu de cascades en voiture sur méga rampe et des circuits impossibles avec les véhicules lourds. Attache ta ceinture, monte dans ta voiture de course de cascades sur méga rampe et lance-toi dès maintenant dans les cascades impossibles sur circuits impossibles ! Montre tes cascades épiques et palpitantes, et réalise des cascades risquées sur les circuits impossibles pour gagner plus de points. Alors dépêche-toi de devenir un pilote extrême dans les jeux de cascades en voiture et de remporter le titre de véritable pilote de cascades fou. Prépare-toi à trois modes addictifs et palpitants : 1 - Mode Infinity 2 - Mode Cascades GT 3 - Mode Méga Rampes GT Ce jeu de course de cascades en voiture GT est là avec trois modes de course incroyables, avec des voitures de sport, de course, classiques et rapides, pour devenir le pilote héros des cascades extrêmes sur méga rampe. Le mode Infinity te donne le contrôle total de toutes les voitures de formule et GT de cascades de course, où tu vivras une transformation de voiture à vitesse maximale mêlée à des cascades géantes. Le mode Cascades GT te pousse à relever des missions difficiles en réalisant des cascades GT sur différentes rampes. Le mode Méga Rampes GT t'emmène dans les cascades folles en hauteur, où tu ressentiras l'énorme excitation des circuits impossibles avec des voitures super rapides. Alors profite de la conduite folle et palpitante parmi les meilleurs jeux de cascades en voiture. Il s'agit d'un uni",
   "instructions": "Commandes au clavier"
  },
  "zombie-mission-8": {
@@ -284672,8 +284770,28 @@
   }
  },
  "push-em-up-dash-smasher": {
-  "description": "Crowd Dash - Push Smasher est un jeu de poussée d'obstacles. La foule va vous empêcher de foncer jusqu'à la fin. Dans le jeu, les obstacles sont partout. Donnez tout pour pousser tous les obstacles jusqu'au bout. Guidez vos troupes vers l'avant et repoussez tous les ennemis qui vous retiennent. Les niveaux supérieurs, avec des ennemis plus redoutables et plus difficiles, vous rendront plus fort et plus rapide. Crowd Dash - Push Smasher Comment jouer : * Appuyez et glissez pour repousser la foule * Repoussez la foule et franchissez le terminus Crowd Dash - Push Smasher Caractéristiques : * Interface graphique excellente. * Contrôle au doigt, facile à maîtriser. * De longs ressorts peuvent tous les repousser. * Des accessoires spéciaux se trouvent sur la route ! Profitez-en au maximum. * Des centaines de niveaux de défi débloquent de nouveaux défis. * Des jeux d'arcade passionnants peuvent vous accompagner pour vos moments de loisir. Bienvenue dans le jeu crowd dash - push smasher. Vous devez atteindre votre destination, mais de nombreux obstacles vous attendent de la part de vos ennemis. Alors ouvrez-vous un chemin en les repoussant tous et gagnez votre place. crowd dash - push smasher nouveau Jeu satisfaisant avec un plaisir ultime : glissez simplement pour pousser et smasher, et atteignez la destination en vous amusant. Le jeu est parfait pour se détendre. Découvrez le plaisir des jeux casual. Jouons à ce jeu maintenant, téléchargez-le gratuitement dès maintenant ! Un jeu d'arcade amusant où il vous suffit de repousser la foule ! Lancez-vous dans un fort ennemi et frayez-vous un chemin avec des épées magiques épiques et surpuissantes. Mais ce ne sera pas facile : vous devrez glisser, pousser et esquiver en même temps ! Mais si vous maîtrisez vos mouvements, vous remporterez chaque duel périlleux comme un PRO !",
-  "instructions": "UTILISEZ LE GLISSER-DÉPOSER DE LA SOURIS AVEC LE BOUTON GAUCHE"
+  "description": "Crowd Dash - Push Smasher est un jeu d'obstacles où il faut pousser. La foule vous empêchera de foncer jusqu'à la fin. Dans le jeu, les obstacles sont partout. Donnez tout pour pousser tous les obstacles jusqu'au bout. Guidez vos troupes vers l'avant et repoussez tous les ennemis qui vous retiennent. Les niveaux supérieurs, avec des ennemis plus difficiles et plus puissants, vous rendront plus fort et plus rapide. Crowd Dash - Push Smasher Comment jouer : * Appuyez et glissez pour repousser la foule * Repoussez la foule et franchissez le terminal Crowd Dash - Push Smasher Fonctionnalités : * Interface graphique excellente. * Contrôle au doigt, facile à maîtriser. * De longs ressorts peuvent tous les repousser. * Il y a des accessoires spéciaux sur la route ! Profitez-en au maximum. * Des centaines de niveaux de défi débloquent de nouveaux défis. * Des jeux d'arcade intéressants pour vous accompagner pendant votre temps libre. Bienvenue dans le jeu crowd dash - push smasher. Vous devez atteindre votre destination, mais de nombreux obstacles vous attendent, tendus par vos ennemis. Alors dégagez votre chemin en les repoussant tous et gagnez votre place. crowd dash - push smasher nouveau Jeu satisfaisant au plaisir ultime : glissez simplement pour pousser et atteindre la destination, amusez-vous bien. Le jeu est parfait pour se détendre. Découvrez le plaisir des jeux casual. Jouons à ce jeu dès maintenant, téléchargez-le gratuitement dès maintenant ! Un jeu d'arcade amusant où vous n'avez qu'une chose à faire : pousser la foule ! Foncez dans un fort ennemi et frayez-vous un chemin avec des épées magiques surpuissantes et épiques. Mais ce ne sera pas facile : vous devez glisser, pousser et esquiver en même temps ! Mais si vous maîtrisez vos mouvements, vous remporterez chaque duel périlleux comme un PRO !",
+  "instructions": "UTILISEZ LE GLISSER-DÉPOSER DE LA SOURIS AVEC LE BOUTON GAUCHE",
+  "guide": {
+   "intro": "Push'em Up - Dash Smasher est un jeu d'arcade où vous guidez une foule vers l'avant et repoussez les ennemis qui bloquent le chemin jusqu'à la fin. Faites glisser avec le bouton gauche de la souris pour glisser et vous frayer un chemin à travers chaque niveau.",
+   "tips": [
+    "Regardez devant avant chaque glissement pour voir où les ennemis sont regroupés et planifiez la poussée qui en éliminera le plus.",
+    "Repérez les accessoires spéciaux sur la route et essayez de les ramasser, car le jeu vous encourage à en profiter au maximum.",
+    "Attendez-vous à ce que les niveaux supérieurs amènent des ennemis plus puissants, alors utilisez les premiers niveaux pour vous faire une idée de la distance que votre foule peut repousser.",
+    "Gardez des mouvements fluides et réguliers, car vous devez glisser, pousser et esquiver en même temps pour passer les forts les plus coriaces.",
+    "Si vous aimez garder votre élan tout au long d'un parcours, essayez les [[running-games|jeux de course rapides]] pour une sensation similaire."
+   ],
+   "faq": [
+    [
+     "Comment faire avancer ma foule ?",
+     "Maintenez le bouton gauche de la souris enfoncé et faites glisser pour glisser et repousser la foule vers les ennemis devant vous."
+    ],
+    [
+     "Qu'est-ce qui rend les niveaux plus difficiles au fil de la progression ?",
+     "Les niveaux supérieurs amènent des ennemis plus difficiles et plus puissants, qui, selon le jeu, vous rendront plus fort et plus rapide au fil de votre progression."
+    ]
+   ]
+  }
  },
  "car-stunts-sky-driver": {
   "description": "Jeux de voiture super-héros GT Racing Stunts - Jeu 2021 ! Jeu de course automobile pour enfants ! Bienvenue dans le jeu de cascades en voiture GT de la ville des super-héros. Ce jeu de course délicat est spécialement conçu pour les enfants. Téléchargez et profitez de la course automobile des super-héros. Des super-héros aux différentes danses sont disponibles dans le garage pour votre plaisir. Des voitures pour tous les super-héros peuvent aussi être choisies parmi les voitures de cascade GT. Démarrez le moteur de votre voiture pour des cascades simples sur rampe et des cascades automobiles folles. Conduisez votre voiture GT sur la piste ! Accélérez, gagnez de la puissance avec le nitro et récupérez des pièces. Plusieurs modes de jeu sont proposés, comme les cascades de course automobile : mode multijoueur, mode défi, mode entraînement ou mode « bambin » pour les plus petits. Voiture de course GT super-héros ! Ce jeu de course aventureux est sans doute le meilleur jeu de simulation automobile de 2021. Devenez un véritable pilote professionnel de course sur autoroute et profitez du plaisir de la conduite et de la course extrêmes ! Jeu de conduite automobile 2021 : en tant que pilote de course sur route, vous pouvez vous entraîner gratuitement aux cascades et aux figures de conduite aventureuses. Comme dans les jeux de course éclair, les pilotes de voitures de sport peuvent profiter gratuitement de tous les éléments de conduite amusants. Boostez votre moteur pendant ce tour d'entraînement gratuit pour vous préparer à la vraie course. Profitez de ce mode d'entraînement gratuit dans un jeu de course automobile : il vous rendra rapide et spectaculaire. Cascades super-héros ! Profitez de la simulation de méga cascades 2021 et ne vous laissez pas vaincre pendant les courses automobiles rapides ! Ceci est un jeu de course automobile gratuit. Jeu de course rapide : jeu de course pour enfants avec méga rampes et cascades automobiles, un pack de plaisir complet ! Dans ce jeu, vous êtes le pilote de voiture cascadeur super-héros qui réalise des cascades sur rampe sur des pistes impossibles, ainsi que de nombreuses cascades automobiles extrêmes sur des rampes verticales. Ces pistes xtrêmes sont conçues pour vous entraîner et faire de vous un cascadeur automobile professionnel. Entraînez-vous avec vos super-héros préférés et profitez des cascades impossibles dans ce jeu de course automobile. Dans ce jeu de conduite impossible avec cascades, vous devez réaliser des cascades extrêmes incroyables à grande vitesse, faire des sauts en voiture et d'autres cascades automobiles folles en conduisant. Dans ce jeu de course GT extrême, de nombreux niveaux comportent des cascades téméraires, des cascades urbaines, des cascades sur méga rampes et des cascades de course extrêmes. Dans ce jeu de course GT, prenez de l'élan sur une rampe pour un impossible, fas",
@@ -288056,8 +288174,28 @@
   }
  },
  "high-run-heels-run-rush-3d-2022": {
-  "description": "Devenez conseillère en mode et grande créatrice de chaussures dans ce super jeu de filles où vous possédez une boutique de talons hauts. Ce n'est pas parce que vous êtes la patronne que vous allez négliger vos clientes ou le local lui-même. Avant de pouvoir ouvrir la boutique au public, vous devez préparer l'espace avec les bonnes chaussures et un environnement propre. Commencez par nettoyer le local, et vous aurez beaucoup de travail. Les sols ont besoin de vous : allumez la lumière et utilisez l'aspirateur pour absorber toute la saleté qui s'y est accumulée. Il y aura aussi de la poussière sur les étagères à chaussures, qu'il faudra essuyer. Utilisez l'outil de nettoyage spécifique pour la faire disparaître. Les étagères ont besoin d'un bon coup de chiffon, et la porte d'entrée principale aussi. Une fois les chaussures placées dans les espaces vides, vous pourrez ouvrir votre boutique de talons hauts. La première cliente viendra demander des chaussures personnalisées, et vous allez les lui fabriquer. Utilisez le modèle fourni pour recréer le talon haut désiré par votre cliente. Laissez libre cours à votre créativité et ajoutez de super accessoires. Ensuite, une cliente arrivera à votre boutique avec une chaussure cassée, et vous devrez la réparer. Le talon est complètement cassé et l'avant est décousu. Assemblez un puzzle pour réparer le talon et recoudre cette partie avant. Ajoutez un joli nœud et rendez votre cliente heureuse avec le résultat. Dans le niveau suivant, vous aiderez une jeune fille à choisir un cadeau. Prenez les talons hauts qu'elle souhaite et emballez-les dans une jolie boîte-cadeau. Demandez-lui de jouer pour eux, puis enveloppez-les dans un paquet coloré. Maintenant que vous avez rencontré différentes situations, vous saurez répondre à toutes les demandes de vos clientes. Des fonctionnalités incroyables vous attendent en chemin, comme : - Commandes faciles du jeu - Jeu gratuit et niveaux bien structurés - Réparer et concevoir des talons hauts pour vos clientes - Choisir parmi différents types de chaussures - Trouver comment restaurer un talon cassé - Essayer de satisfaire différentes clientes - Nettoyer votre boutique et la préparer pour la grande ouverture - Découvrir les améliorations qui vous attendent dans les niveaux suivants",
-  "instructions": "Contrôle à la souris"
+  "description": "Devenez conseiller en mode et grand créateur de chaussures dans ce super jeu de fille où vous possédez une boutique de mode de talons hauts, la High Heels Fashion Shop. Ce n'est pas parce que vous êtes le patron que vous ne prendrez pas soin de vos clientes ou de la pièce elle-même. Avant d'ouvrir la boutique au public, vous devez préparer l'espace avec les bonnes chaussures et un environnement propre. Commencez par nettoyer l'espace, il y aura beaucoup de travail. Les sols ont besoin de votre attention : allumez la lumière et passez l'aspirateur pour absorber toute la saleté accumulée. Il y aura aussi de la poussière sur les étagères à chaussures, qu'il faut essuyer. Utilisez l'outil de nettoyage spécifique pour la retirer. Les étagères doivent être bien frottées, tout comme la porte d'entrée principale. Une fois les chaussures placées dans les emplacements manquants, vous pouvez ouvrir votre boutique de talons hauts. La première cliente demandera des chaussures personnalisées, et vous allez les lui créer. Utilisez le modèle fourni pour recréer le talon haut désiré par votre cliente. Soyez créatif et ajoutez des accessoires stylés. Ensuite, une cliente se présentera à votre boutique avec une chaussure cassée, et vous devrez la réparer. Le talon est complètement cassé et la partie avant est décousue. Assemblez un puzzle pour réparer le talon et recoudre cette partie avant. Ajoutez un joli nœud et rendez votre cliente heureuse avec le résultat. Dans le niveau suivant, vous aiderez une fille à choisir un cadeau. Prenez les talons hauts qu'elle souhaite et emballez-les dans une belle boîte cadeau. Demandez-lui de jouer pour eux, puis enveloppez-les dans un paquet coloré. Maintenant que vous avez affronté différentes situations, vous pouvez répondre à toutes les demandes de vos clientes. Vous découvrirez aussi des fonctionnalités géniales au fil de la partie, comme : - Un contrôle facile du jeu - Gratuit et niveaux bien structurés - Réparer et concevoir des talons hauts pour vos clientes - Choisir parmi différents types de chaussures - Trouver la façon de restaurer un talon cassé - Essayer de satisfaire différentes clientes - Nettoyer votre boutique et la préparer pour la grande ouverture - Découvrir les améliorations qui vous attendent dans les niveaux suivants",
+  "instructions": "Contrôle à la souris",
+  "guide": {
+   "intro": "Gérez une boutique de talons hauts du début à la fin : nettoyez le magasin, concevez des chaussures pour les clientes, réparez un talon cassé et emballez un cadeau. Tout se joue à la souris, donc l'essentiel est de cliquer avec précision et régularité.",
+   "tips": [
+    "Nettoyez les sols, les étagères et la porte d'entrée dans un ordre précis pour ne oublier aucun endroit avant d'ouvrir la boutique.",
+    "Comparez attentivement votre création avec le modèle de la cliente avant d'ajouter des accessoires, afin que la chaussure personnalisée corresponde à sa demande.",
+    "Pour réparer le talon cassé, terminez d'abord les pièces du puzzle, puis cousez la partie avant, car la couture dépend d'un talon solide.",
+    "Prenez votre temps pour les étapes de la boîte cadeau : choisissez les bons talons, rangez-les soigneusement, puis enveloppez le cadeau pour bien terminer le niveau.",
+    "Si vous aimez assembler des pièces, vous pourriez aussi apprécier ces [[match-3-games|jeux de puzzle à assembler]] pour vous entraîner à résoudre des problèmes."
+   ],
+   "faq": [
+    [
+     "Quel est l'objectif de la première partie du jeu ?",
+     "Votre objectif est de préparer la boutique en allumant la lumière, en passant l'aspirateur sur les sols et en époussetant les étagères et la porte d'entrée. Une fois tout propre et les chaussures placées, vous pouvez accueillir les clientes."
+    ],
+    [
+     "Comment rendre une cliente heureuse avec une chaussure personnalisée ?",
+     "Utilisez le modèle donné par la cliente pour recréer le talon haut désiré, puis ajoutez des accessoires pour finaliser la création. Terminer par un nœud fait partie de la tâche de réparation, donc gardez un rendu proche de ce qu'elle a demandé."
+    ]
+   ]
+  }
  },
  "snakez-io": {
   "description": "Vous êtes dans le monde des serpents et vous devez survivre en mangeant tout ce qui se trouve sur votre chemin. Attaquez les autres serpents en bloquant leur route et en les faisant percuter votre corps avec leur tête, puis mangez tout ce qu'ils laissent derrière eux.",
@@ -290336,5 +290474,582 @@
     ]
    ]
   }
+ },
+ "crease-game-online": {
+  "description": "Crease Game Online est un puzzle gratuit de pliage de papier qui se joue directement dans votre navigateur. Vous recevez une feuille de papier carrée et un contour en pointillés, et vous faites glisser le papier pour le plier jusqu'à ce que la partie visible recouvre exactement le contour, sans rien qui dépasse et sans zone non couverte. Quatre nouveaux puzzles se débloquent chaque jour, et il y a 27 puzzles d'entraînement, du niveau Facile au niveau Maître, ainsi que trois courtes leçons pour les débutants. Annuler, Recommencer et Indice sont toujours à portée de clic, et résoudre un puzzle avec le moins de pliages possible, sans indices, vous rapporte trois étoiles. Aucun téléchargement ni compte n'est nécessaire.",
+  "instructions": "Appuyez sur le papier et faites glisser pour le plier. Le point que vous saisissez se retrouve là où vous relâchez, et le papier se plie le long du pli situé à mi-chemin. Faites glisser à l'horizontale ou à la verticale pour un pli droit, ou à 45 degrés pour un pli diagonal. Recouvrez exactement le contour en pointillés. Les bandes rouges indiquent le papier qui dépasse du contour. Utilisez Annuler, Recommencer et Indice si vous êtes bloqué, et essayez d'abord les trois leçons si vous débutez.",
+  "guide": {
+   "intro": "Crease Game Online est un puzzle de pliage de papier où vous pliez une feuille carrée jusqu'à ce qu'elle recouvre exactement un contour en pointillés. Le pliage se fait en faisant glisser le papier, et le jeu propose des puzzles quotidiens et d'entraînement.",
+   "tips": [
+    "Terminez les trois leçons pour débutants avant de commencer les puzzles d'entraînement, afin de comprendre comment le pli se place entre le point de départ et le point de relâchement.",
+    "Avant chaque pliage, repérez où se trouvent les bandes rouges et quel bord doit bouger. Choisissez une direction de glissement qui amène ce bord sur le contour.",
+    "Essayez un puzzle seul pendant un moment avant d'utiliser l'indice, car vous ne gagnez trois étoiles que si vous le résolvez avec le moins de pliages possible, sans indices.",
+    "Si un pliage tourne mal, utilisez d'abord Annuler plutôt que Recommencer pour conserver la progression déjà accomplie.",
+    "Si vous aimez les puzzles de logique comme celui-ci, vous pouvez trouver d'autres [[brain-games|casse-têtes de logique à essayer]] sur le site."
+   ],
+   "faq": [
+    [
+     "Comment obtenir trois étoiles sur un puzzle ?",
+     "Résolvez le puzzle avec le moins de pliages possible et n'utilisez aucun indice. Utiliser des indices ou faire des pliages supplémentaires réduira votre résultat."
+    ],
+    [
+     "Que signifient les bandes rouges ?",
+     "Les bandes rouges indiquent le papier qui dépasse du contour en pointillés. Vos pliages doivent faire disparaître ce papier pour que rien ne dépasse et qu'aucune zone ne reste non couverte."
+    ]
+   ]
+  }
+ },
+ "legend-court": {
+  "description": "Legend Court est un jeu de basket gratuit jouable dans le navigateur. Enchaînez des matchs rapides 1 contre 1 et 3 contre 3, ouvrez des paquets de cartes joueurs, composez votre équipe et progressez dans un mode histoire qui se déroule sur les playgrounds du quartier.",
+  "instructions": "Appuyez sur PLAY pour lancer un match. Utilisez les commandes à l'écran pour passer, tirer et défendre. Ouvrez des paquets et composez votre effectif entre les matchs.",
+  "guide": {
+   "intro": "Legend Court mélange des matchs de basket rapides et des paquets de cartes joueurs. Vous jouez en 1 contre 1 ou en 3 contre 3, puis vous composez votre effectif et avancez dans une histoire qui se déroule sur les playgrounds du quartier.",
+   "tips": [
+    "Utilisez les commandes à l'écran pour passer, tirer et défendre, et entraînez-vous à chacune dans un court match avant de vous en servir dans un match serré.",
+    "Faites attention à votre rôle, en attaque ou en défense, car les mêmes gestes qui vous font marquer peuvent vous laisser démarqué lorsque vous défendez.",
+    "Ouvrez vos paquets entre les matchs et vérifiez quels joueurs correspondent à votre composition actuelle avant d'en remplacer un, afin que votre équipe reste équilibrée.",
+    "Si vous voulez vous entraîner davantage à la stratégie d'équipe, essayez [[building-games|créer et fabriquer des jeux]] pour voir comment d'autres jeux récompensent la planification à long terme.",
+    "Dans les matchs 3 contre 3, faites circuler le ballon avec des passes pour obliger la défense à se décaler, au lieu de le garder pour qu'un seul joueur tente un tir."
+   ],
+   "faq": [
+    [
+     "Comment lancer un match ?",
+     "Appuyez sur PLAY pour lancer un match. Vous pouvez choisir entre des parties rapides 1 contre 1 et 3 contre 3."
+    ],
+    [
+     "À quoi servent les cartes joueurs ?",
+     "Ouvrez des paquets pour collecter des joueurs, puis composez votre effectif entre les matchs pour façonner l'équipe que vous emmenez sur le terrain."
+    ]
+   ]
+  }
+ },
+ "banana-ops": {
+  "description": "Banana Ops est un jeu de tir en ligne gratuit avec des singes, jouable directement dans votre navigateur. Jouez en team deathmatch, hardpoint, search and destroy ou en duels 1v1 sur 11 cartes, débloquez des killstreaks jusqu'au Banana Gunship, et comptez sur des bots qui remplissent chaque partie. Aucun téléchargement et aucune inscription.",
+  "instructions": "Les commandes sont affichées dans le menu du jeu. Choisissez un mode et une carte, puis lancez une partie.",
+  "guide": {
+   "intro": "Banana Ops est un jeu de tir avec des singes jouable dans le navigateur, proposant team deathmatch, hardpoint, search and destroy et duels 1v1 sur 11 cartes. Des bots remplissent chaque partie, vous pouvez donc vous lancer et tirer tout de suite.",
+   "tips": [
+    "Ouvrez le menu du jeu avant votre première partie pour vérifier les commandes, afin de ne pas les apprendre en plein combat.",
+    "Choisissez un mode qui correspond à votre style : le team deathmatch récompense les frags réguliers, tandis que les duels 1v1 testent votre visée en face à face.",
+    "Essayez plusieurs des 11 cartes pour repérer les lignes de vue et les points d'étranglement, puis restez sur celles où vous vous sentez le plus à l'aise.",
+    "Gardez un œil sur vos killstreaks : plus la série est longue, plus vous approchez du Banana Gunship, ce qui vaut le coup d'être visé. Pour des combats plus dynamiques dans le style arcade, vous pouvez aussi découvrir les [[shooting-games|jeux de tir en navigateur au rythme soutenu]].",
+    "Comme des bots remplissent chaque partie, ne paniquez pas si le lobby semble bondé ; concentrez-vous sur les cibles les plus proches et changez souvent de couverture."
+   ],
+   "faq": [
+    [
+     "Quels modes puis-je jouer dans Banana Ops ?",
+     "Vous pouvez choisir team deathmatch, hardpoint, search and destroy ou les duels 1v1. Sélectionnez un mode et une carte dans le menu avant de lancer une partie."
+    ],
+    [
+     "À quoi servent les killstreaks ?",
+     "Les killstreaks sont des récompenses obtenues en enchaînant les éliminations, et elles montent jusqu'au Banana Gunship. Garder votre série en cours est le meilleur moyen de débloquer des récompenses plus puissantes."
+    ]
+   ]
+  }
+ },
+ "city-stakes": {
+  "description": "City Stakes est un jeu 3D narratif se déroulant à Ilmara, une ville mise en vente. Les entreprises se disputent la skyline pendant que les marques se disputent chaque écran de la ville. Le jeu se lance directement dans votre navigateur et fonctionne au mieux sur ordinateur.",
+  "instructions": "Utilisez la souris ou le tactile pour suivre les indications de l'histoire à l'écran.",
+  "guide": {
+   "intro": "City Stakes est un jeu 3D narratif se déroulant à Ilmara, une ville à vendre, où les entreprises se battent pour la skyline et les marques pour ses écrans. Suivez les indications à l'écran pour faire avancer l'histoire.",
+   "tips": [
+    "Lisez chaque indication à l'écran avant de cliquer ou de toucher, car l'histoire progresse en fonction des indications que vous suivez.",
+    "Prenez votre temps dans les scènes 3D et observez la ville, car la skyline et les écrans sont au cœur des thèmes de l'histoire.",
+    "Jouez sur ordinateur pour profiter de la meilleure expérience, le jeu étant conçu pour fonctionner au mieux sur ce support.",
+    "Si vous aimez explorer des mondes 3D détaillés, vous pourriez aussi parcourir [[3d-games|d'autres mondes 3D jouables dans le navigateur]] une fois la partie terminée."
+   ],
+   "faq": [
+    [
+     "Comment contrôler le jeu ?",
+     "Utilisez votre souris ou le tactile pour suivre les indications de l'histoire qui apparaissent à l'écran."
+    ],
+    [
+     "City Stakes a-t-il un score ou une condition de défaite ?",
+     "La description et les instructions se concentrent sur le suivi des indications de l'histoire et ne mentionnent ni score ni moyen de perdre."
+    ]
+   ]
+  }
+ },
+ "monkey-business": {
+  "description": "Monkey Business est un runner gratuit dans le navigateur : esquivez et filez en tant que banane poursuivie par un singe. Obtenez 3 parties classées par jour avec un compte gratuit pour le classement quotidien, ou jouez des parties d'entraînement illimitées sans inscription. Fonctionne sur téléphone et ordinateur.",
+  "instructions": "Appuyez sur JOUER CLASSÉ pour une partie quotidienne notée, ou sur ENTRAÎNEMENT pour jouer sans limite. Utilisez les commandes à l'écran ou au clavier pour esquiver les obstacles et tenir le plus longtemps possible.",
+  "guide": {
+   "intro": "Monkey Business est un runner dans le navigateur où vous incarnez une banane qui tente d'échapper à un singe poursuivant. Vous pouvez relever des défis quotidiens notés ou jouer des manches d'entraînement illimitées.",
+   "tips": [
+    "Commencez par l'ENTRAÎNEMENT pour apprendre comment les obstacles apparaissent et à quelle vitesse vous devez réagir avant d'utiliser une partie classée.",
+    "Gardez vos 3 parties classées quotidiennes pour quand vous vous sentez en forme, car chacune compte pour le classement quotidien.",
+    "Restez calme et réagissez tôt à chaque obstacle plutôt que de faire des mouvements tardifs et paniqués qui provoquent souvent des chutes.",
+    "Alternez entre les commandes à l'écran et au clavier selon votre appareil, et choisissez celle qui vous paraît la plus précise pour les esquives rapides.",
+    "Si vous aimez les jeux de réflexes rapides, essayez [[running-games|d'autres jeux de course sans fin]] pour continuer à travailler les mêmes compétences de timing."
+   ],
+   "faq": [
+    [
+     "Combien de parties classées puis-je jouer chaque jour ?",
+     "Vous pouvez jouer 3 parties classées par jour avec un compte gratuit. Les parties classées sont les parties notées utilisées pour le classement quotidien."
+    ],
+    [
+     "Quelle est la différence entre les parties classées et d'entraînement ?",
+     "Les parties classées sont notées et alimentent le classement quotidien. Les parties d'entraînement sont illimitées et ne nécessitent pas d'inscription, elles sont donc idéales pour apprendre le jeu."
+    ]
+   ]
+  }
+ },
+ "splinters": {
+  "description": "Splinters est un jeu de clic idle gratuit à jouer dans le navigateur : tapez sur l'arbre pour gagner des pièces, puis dépensez-les pour acheter une hache qui rapporte davantage à chaque coup, des bûcherons qui coupent automatiquement à votre place et une scierie qui double leur production. Changez d'arbre entre Bouleau, Chêne et Sakura à mesure que vous les débloquez. La progression est sauvegardée dans votre navigateur, sans compte nécessaire.",
+  "instructions": "Cliquez ou tapez sur l'arbre pour le couper et gagner des pièces. Dépensez vos pièces dans les améliorations Hache, Bûcheron et Scierie ci-dessous pour gagner plus vite, même quand vous êtes absent.",
+  "guide": {
+   "intro": "Splinters est un jeu de clic idle où vous tapez sur un arbre pour gagner des pièces et les dépenser en haches, bûcherons et scierie. Vous pouvez passer d'un arbre Bouleau, Chêne ou Sakura à l'autre à mesure que vous les débloquez. Votre progression est sauvegardée dans votre navigateur.",
+   "tips": [
+    "Dépensez vos premières pièces dans la hache pendant que vous cliquez encore à la main, car elle augmente ce que rapporte chaque coup et accélère votre progression au début.",
+    "Les bûcherons continuent de gagner des pièces pendant que vous êtes absent, donc les acheter tôt permet à vos pièces de s'accumuler entre deux visites.",
+    "La scierie double la production des bûcherons, elle est donc most rentable lorsque vous avez déjà plusieurs bûcherons qui travaillent pour vous.",
+    "Observez les arbres Bouleau, Chêne et Sakura à mesure que vous les débloquez, et passez à celui qui vous rapporte le plus de pièces à ce moment-là. Si vous aimez les jeux de clic de ce type, vous pouvez en trouver d'autres en [[clicker-games|parcourant d'autres jeux à base de tapotement]]."
+   ],
+   "faq": [
+    [
+     "Faut-il acheter la hache ou les bûcherons en premier ?",
+     "La hache augmente les pièces gagnées par coup, elle est donc la plus utile quand vous cliquez à la main. Les bûcherons coupent automatiquement et continuent de gagner des pièces pendant votre absence, donc un mélange des deux fonctionne bien à mesure que vous progressez."
+    ],
+    [
+     "Est-ce que ma progression est perdue si je ferme le jeu ?",
+     "Non, la progression est sauvegardée dans votre navigateur, vous pouvez donc revenir plus tard et reprendre là où vous en étiez. Vos pièces continuent de s'accumuler grâce aux bûcherons, même lorsque vous ne jouez pas."
+    ]
+   ]
+  }
+ },
+ "home-run-superstars": {
+  "description": "Home Run Superstars est un jeu de baseball d'arcade où le timing fait tout. Place-toi au marbre, règle ton swing et envoie la balle hors du stade, par-dessus la ville, au-delà des océans et tout autour du monde, et même jusqu'à la Lune ! Monte de niveau en cours de partie grâce à des pouvoirs fous, survis aux Super Pitches électriques et dépense tes pièces en entraînement, en nouvelles battes et pour ton propre look.",
+  "instructions": "Appuie sur READY pour lancer le lancer, puis sur SWING quand la balle atteint le marbre. Un meilleur timing donne un coup plus long. Trois strikes équivalent à un retrait, et trois retraits mettent fin à la partie. Chaque montée de niveau te permet de choisir un pouvoir parmi trois. FOCUS ralentit le lancer et FLOW booste ton prochain swing. Ouvre MENU / UPGRADES pour acheter de l'entraînement et des battes avec les pièces et le bois gagnés. Clavier : Espace pour frapper, Q pour Focus, E pour Flow, 1–3 pour choisir un pouvoir, P pour le menu.",
+  "guide": {
+   "intro": "Home Run Superstars est un jeu de baseball d'arcade basé sur le timing. Appuie sur READY pour lancer le lancer, puis cale ton SWING pour que la balle parte le plus loin possible, du stade jusqu'à la Lune.",
+   "tips": [
+    "Concentre-toi sur le moment où la balle atteint le marbre plutôt que sur celui où elle quitte le lanceur, car un meilleur timing donne un coup plus long.",
+    "Trois strikes équivalent à un retrait et trois retraits mettent fin à la partie, donc mieux vaut ne frapper que lorsque le timing semble bon plutôt que de swinguer à chaque lancer.",
+    "Regarde les trois choix de pouvoir après chaque montée de niveau et prends celui qui correspond le mieux à ta façon de frapper, car tu ne peux en garder qu'un.",
+    "Réserve FOCUS pour les lancers rapides ou délicats afin de ralentir la balle, et garde FLOW pour un swing quand tu as de bonnes chances de toucher la balle.",
+    "Dépense tes pièces et ton bois dans MENU / UPGRADES en priorité pour l'entraînement avant les nouvelles battes, afin que ton timing progresse avant de courir après un équipement plus puissant. Si ce style te plaît, tu peux aussi parcourir [[3d-games|d'autres jeux de sport en trois dimensions]]."
+   ],
+   "faq": [
+    [
+     "Comment obtenir un coup plus long ?",
+     "Cale ton SWING pour qu'il tombe au moment où la balle atteint le marbre, car un meilleur timing envoie la balle plus loin."
+    ],
+    [
+     "Que se passe-t-il quand j'obtiens trois strikes ?",
+     "Trois strikes comptent comme un retrait, et la partie se termine après trois retraits."
+    ]
+   ]
+  }
+ },
+ "harvest-ring": {
+  "description": "Cultivez une ferme de légumes circulaire et récoltez-la avec une scie beignet qui tourne. Ouvrez de nouvelles parcelles, débloquez 32 cultures et réinvestissez vos gains dans des améliorations. Automatisez l'arrosage et la récolte, enchaînez les combos, accomplissez des quêtes et collectionnez des skins de scie et des thèmes de ferme. Lancez de nouvelles saisons pour gagner du prestige et des bonus permanents. Le Halloween Pumpkin Pass ajoute des défis saisonniers et des récompenses.",
+  "instructions": "Utilisez la souris sur ordinateur ou les commandes tactiles sur mobile. Sélectionnez un secteur vert lumineux pour ouvrir une parcelle. Touchez ou cliquez sur une parcelle assoiffée pour l'arroser, puis attendez que les légumes mûrissent. Faites glisser la scie beignet depuis son support sur les légumes mûrs pour les récolter et enchaîner les combos. Dépensez de l'argent pour acheter des parcelles et améliorer les cultures. Utilisez les tickets pour débloquer la scie automatique, l'arrosage automatique et d'autres améliorations. Accomplissez des quêtes pour obtenir des récompenses et utilisez les gemmes pour acheter des skins et des thèmes. Lorsqu'une nouvelle saison devient disponible dans l'onglet Prestige, lancez-la pour gagner du prestige et des bonus permanents.",
+  "guide": {
+   "intro": "Harvest Ring est un jeu idle de ferme dans lequel vous faites pousser des légumes sur une ferme circulaire et les récoltez avec une scie beignet qui tourne. Vous réinvestissez vos gains pour ouvrir des parcelles, débloquer des cultures et automatiser le travail.",
+   "tips": [
+    "Arrosez les parcelles assoiffées dès qu'elles apparaissent, car les légumes doivent mûrir avant que vous puissiez les récolter.",
+    "Faites glisser la scie beignet sur plusieurs légumes mûrs en un seul passage pour enchaîner les combos et garder votre récolte en mouvement.",
+    "Répartissez votre argent de façon équilibrée entre les nouvelles parcelles et les améliorations de cultures, pour ne pas bloquer une partie de la ferme en attendant une autre.",
+    "Gardez d'abord vos tickets pour la scie automatique et l'arrosage automatique, car ils réduisent les clics nécessaires. Si vous aimez ce rythme de progression lent, vous pouvez aussi [[idle-and-tycoon-games|parcourir d'autres jeux idle de gestion]].",
+    "Vérifiez régulièrement les quêtes pour obtenir des récompenses, et lancez une nouvelle saison dans l'onglet Prestige dès qu'elle devient disponible pour gagner des bonus permanents."
+   ],
+   "faq": [
+    [
+     "Quel est le but principal de Harvest Ring ?",
+     "Votre objectif est de faire pousser et de récolter une ferme de légumes circulaire, d'ouvrir de nouvelles parcelles et de débloquer des cultures, puis de réinvestir vos gains pour vous agrandir."
+    ],
+    [
+     "Comment récolter les légumes ?",
+     "Faites glisser la scie beignet qui tourne depuis son support sur les légumes mûrs. Glisser sur plusieurs légumes à la fois vous aide à enchaîner les combos."
+    ]
+   ]
+  }
+ },
+ "ice-cream-vendor": {
+  "description": "Ice Cream Vendor est un jeu de navigateur au rythme effréné qui vous place derrière le comptoir d'un stand de glaces très fréquenté. Choisissez le bon cornet, ajoutez les parfums et ajoutez chocolats et garnitures pour correspondre à la commande de chaque client. Chaque niveau fait monter la difficulté avec de nouvelles combinaisons et des clients plus rapides, donc seul le vendeur le plus vif peut suivre. Combien de commandes pouvez-vous réussir avant que la cohue ne vous fasse fondre ?",
+  "instructions": "Cliquez simplement sur les boutons",
+  "guide": {
+   "intro": "Ice Cream Vendor est un jeu de clics au rythme effréné dans lequel vous tenez un stand de glaces. Vous composez la commande de chaque client en choisissant un cornet, des parfums, des chocolats et des garnitures avant que la file d'attente ne perde patience.",
+   "tips": [
+    "Lisez la commande en entier avant de cliquer, pour savoir dès le départ quel cornet et quels parfums il faut.",
+    "Préparez d'abord le cornet, puis ajoutez les parfums, puis les chocolats et les garnitures, pour ne pas avoir à revenir en arrière.",
+    "Gardez un rythme de clics régulier et évitez de vous précipiter sur un mauvais clic, car corriger une erreur vous fait perdre du temps dont vous avez besoin pour le client suivant.",
+    "À mesure que les niveaux deviennent plus difficiles et que les clients avancent plus vite, concentrez-vous sur les commandes devant vous plutôt que de penser à la suivante.",
+    "Restez calme pendant les moments de forte affluence ; une routine simple et régulière battra généralement des clics frénétiques."
+   ],
+   "faq": [
+    [
+     "Quel est le but de Ice Cream Vendor ?",
+     "Le but est de réussir un maximum de commandes clients avant que la cohue ne devienne trop forte. Chaque commande doit correspondre exactement à ce que le client a demandé."
+    ],
+    [
+     "Comment jouer ?",
+     "Cliquez simplement sur les boutons pour choisir un cornet, ajouter des parfums et placer chocolats et garnitures pour chaque client."
+    ]
+   ]
+  }
+ },
+ "underwater-2d": {
+  "description": "Underwater 2D est une aventure 2D jouable dans le navigateur, plongée dans les profondeurs inquiétantes d’un océan extraterrestre. Votre mission est simple mais dangereuse : récupérer les poissons nécessaires pour terminer la plongée. Mais vous ne pouvez pas rester sous l’eau éternellement, car votre réservoir d’oxygène se vide en permanence. Trouvez les zones de recharge dispersées dans l’eau avant que votre air ne s’épuise. Pendant ce temps, des poissons dangereux et des plantes périlleuses ressemblant à des algues dérivent dans les mêmes courants, et un seul contact malheureux peut mettre fin à votre mission. Rassemblez ce dont vous avez besoin, survivez à l’inconnu et terminez la plongée.",
+  "instructions": "W A S D Déplacer Espace Clic gauche Crochet",
+  "guide": {
+   "intro": "Underwater 2D est un jeu de tir dans le navigateur qui se déroule dans un océan extraterrestre. Vous évoluez dans les profondeurs, récupérez les poissons nécessaires pour terminer la plongée et gardez votre oxygène à niveau tout en évitant les poissons dangereux et les plantes ressemblant à des algues.",
+   "tips": [
+    "Vérifiez souvent votre oxygène et prévoyez des trajets qui passent par les zones de recharge avant que votre air ne soit bas.",
+    "Déplacez-vous par courtes impulsions contrôlées avec W, A, S et D pour pouvoir vous arrêter et changer de direction face aux dangers.",
+    "Scrutez le chemin devant vous à la recherche de poissons dangereux et de plantes ressemblant à des algues, car un seul contact met fin à la mission.",
+    "Utilisez Espace ou le clic gauche pour lancer le crochet uniquement lorsque vous avez une ligne de tir dégagée vers un poisson recherché, afin de ne pas perdre de temps.",
+    "Récupérez les poissons nécessaires dans un ordre qui vous garde près d’une zone de recharge, plutôt que de vous éloigner loin de l’air."
+   ],
+   "faq": [
+    [
+     "Quel est le but de Underwater 2D ?",
+     "Récupérez les poissons nécessaires pour terminer la plongée tout en gardant votre oxygène au-dessus de zéro et en évitant les dangers. Terminer la plongée, c’est la façon de gagner."
+    ],
+    [
+     "Que se passe-t-il si je touche un poisson ou une plante dangereuse ?",
+     "Un seul contact malheureux met fin à votre mission. Gardez donc toujours une distance de sécurité avec les poissons dangereux et les plantes ressemblant à des algues."
+    ]
+   ]
+  }
+ },
+ "ok-i-pull-up-capybay": {
+  "description": "Explorez un monde insulaire coloré dans la peau d'une capybara. Récoltez des ressources, fabriquez des objets, faites fonctionner des stations de production et remplissez des commandes pour débloquer de nouvelles zones. Découvrez les îles de CapyBay.",
+  "instructions": "Déplacez-vous avec WASD ou les flèches directionnelles, ou cliquez ou appuyez à l'endroit où vous voulez aller. Faites glisser sur la zone de jeu pour utiliser le joystick flottant. Utilisez E, Espace ou Entrée pour interagir avec l'objet le plus proche. Récoltez des ressources, fabriquez des marchandises et remplissez les commandes pour progresser et débloquer de nouvelles zones.",
+  "guide": {
+   "intro": "Ok! I Pull Up Capybay! est une aventure insulaire douillette où vous incarnez une capybara. Vous récoltez des ressources, fabriquez des marchandises, faites tourner des stations de production et remplissez des commandes pour débloquer de nouvelles zones.",
+   "tips": [
+    "Avant de commencer à fabriquer, récoltez les ressources dont vous avez besoin pour ne pas faire des allers-retours à travers l'île.",
+    "Vérifiez d'abord vos commandes en cours et récoltez en fonction de celles-ci, car c'est en terminant les commandes que vous débloquez de nouvelles zones.",
+    "Placez-vous près d'une station de production ou d'un objet et appuyez sur E, Espace ou Entrée, car cette touche agit toujours sur l'élément le plus proche.",
+    "Prenez le temps d'explorer l'île et adoptez l'esprit des [[relaxing-games|jeux relaxants]] en profitant des paysages colorés entre deux tâches.",
+    "Utilisez le joystick flottant en faisant glisser sur la zone de jeu si les commandes au clavier vous semblent peu pratiques, et passez à WASD ou aux flèches directionnelles quand vous le souhaitez."
+   ],
+   "faq": [
+    [
+     "Quel est l'objectif principal du jeu ?",
+     "Votre objectif est de récolter des ressources, de fabriquer des marchandises et de remplir des commandes afin de débloquer de nouvelles zones de l'île."
+    ],
+    [
+     "Comment interagir avec les objets ?",
+     "Approchez-vous de l'objet souhaité et appuyez sur E, Espace ou Entrée pour interagir avec le plus proche."
+    ]
+   ]
+  }
+ },
+ "downhill-frenzy": {
+  "description": "Lance ta moto cross sur la montagne et accroche-toi. Downhill Frenzy est une course 3D rapide du sommet d'une colline jusqu'en bas, face à six rivaux. Chaque rampe est une occasion de réaliser une figure : Superman, Heel Clicker, Nac-Nac, Cliffhanger et d'autres, avec saltos et vrilles en prime. Enchaîne-les sans perdre l'équilibre pour construire une série et enflammer la piste. - Trois collines : la verte Pine Valley, la Sunset Ridge en automne et la Frost Peak glacée, où la moto dérape. - Quinze figures freestyle, dont huit à débloquer. Choisis lesquelles utiliser sur tes boutons. - Trois motos qui se conduisent chacune différemment, avec peintures et couleurs de pilote à collectionner. - Des bouteilles de nitro suspendues au-dessus des gros sauts. Passe à travers pour un coup de boost. - Fais sortir tes rivaux de leur trajectoire. Attention : certains ripostent. - Un chasseur sur tes talons. À chaque course, un rival est plus rapide que les autres et ne lâche jamais prise. - Des objectifs quotidiens et une série qui rapporte davantage chaque jour où tu reviens. Courses courtes, un pouce pour diriger, un pouce pour les figures. Facile à prendre en main, difficile à lâcher.",
+  "instructions": "Sur téléphone ou tablette : - Fais glisser le doigt à gauche et à droite n'importe où sur l'écran pour diriger. - En l'air, maintiens une des quatre bulles de figure. Relâche avant d'atterrir. - En l'air, glisse vers le haut ou le bas pour faire un salto, sur le côté pour une vrille. - Au sol, appuie sur KICK quand un pilote est à côté de toi. - Passe à travers la bouteille bleue au-dessus d'un gros saut pour la nitro. Sur clavier : - Les flèches gauche et droite dirigent. - En l'air : Z, X, C et V font les figures, les flèches haut et bas font les saltos, les flèches gauche et droite font les vrilles. - Au sol : Q et E poussent vers la gauche et la droite. - P ou Échap met en pause. Termine dans le top trois, bats le score de figures et gagne la course pour obtenir les trois étoiles sur chaque colline. Les étoiles ouvrent la colline suivante ; les pièces permettent d'acheter de nouvelles motos, figures et couleurs.",
+  "guide": {
+   "intro": "Downhill Frenzy est une course de moto cross 3D rapide dans la descente d'une montagne, face à six rivaux. Réussis des figures sur chaque rampe, garde ta trajectoire et vise le haut du classement sur chaque colline.",
+   "tips": [
+    "Choisis tes quatre boutons de figure parmi les mouvements que tu réussis proprement, car une perte d'équilibre casse la série que tu construis.",
+    "Maintiens une bulle de figure uniquement pendant que tu es en l'air et relâche avant d'atterrir, pour que la figure compte et que tu gardes le contrôle.",
+    "Passe à travers les bouteilles de nitro bleues au-dessus des gros sauts, car le coup de boost t'aide à prendre de l'avance sur le peloton.",
+    "Ne fais sortir un rival que lorsqu'il est à côté de toi au sol, et sois prudent, car certains rivaux ripostent.",
+    "Attends-toi à un rival par course qui est plus rapide que les autres : garde ta vitesse et vérifie le score de figures pour savoir si tu peux encore gagner. Si ce genre de pilotage te plaît, tu peux parcourir [[motorcycle-and-bike-games|d'autres jeux de course de motos]]."
+   ],
+   "faq": [
+    [
+     "Comment gagner une course et débloquer la colline suivante ?",
+     "Termine dans le top trois, bats le score de figures et gagne la course pour obtenir les trois étoiles sur cette colline. Les étoiles ouvrent la colline suivante."
+    ],
+    [
+     "Comment garder ma série de figures ?",
+     "Enchaîne les figures sans perdre l'équilibre pendant que tu es en l'air, pour que chaque atterrissage maintienne la série et enflamme la piste."
+    ]
+   ]
+  }
+ },
+ "obby-steal-a-car": {
+  "description": "Infiltrez-vous dans les parkings, volez les voitures les plus rares que vous trouvez et ramenez-les chez vous avant que la police ne vous attrape. Garez-les dans votre garage pour gagner de l'argent, personnalisez-les, achetez des boosts, entraînez votre Speed et faites un rebirth pour des récompenses plus importantes. Gagnez des courses pour obtenir des Tires et jouez en ligne avec d'autres voleurs de voitures.",
+  "instructions": "Déplacez-vous avec WASD et regardez avec la souris. Maintenez E pour voler une voiture, puis conduisez avec WASD jusqu'à votre garage. Tab libère la souris et P ouvre les paramètres. Sur téléphone, utilisez le joystick et les boutons à l'écran. Activez le bouclier de votre terrain pour empêcher les voleurs d'entrer, et regardez une courte vidéo pour obtenir des boosters à la boutique.",
+  "guide": {
+   "intro": "Obby Steal a Car est un jeu de conduite multijoueur où vous vous infiltrez dans les parkings, volez des voitures rares et les ramenez à votre garage avant que la police ne vous attrape. Garez les voitures pour gagner de l'argent, puis personnalisez-les et développez votre installation.",
+   "tips": [
+    "Planifiez votre trajet de retour avant d'appuyer sur E, car vous devrez rentrer à votre garage avec la police à vos trousses.",
+    "Garez les voitures volées dans votre garage dès que possible, car c'est ainsi que vous les transformez en argent pour les améliorations.",
+    "Activez le bouclier de votre terrain lorsque vous vous éloignez de votre base pour que les autres voleurs ne puissent pas entrer.",
+    "Dépensez vos premiers gains en personnalisation et en entraînement de Speed avant de faire un rebirth, afin que votre prochaine partie commence avec un équipement plus solide. Gagner des courses est aussi un bon moyen de collecter des Tires.",
+    "Si vous jouez en ligne avec d'autres joueurs, surveillez qui vole près de votre terrain et gardez un œil sur votre garage. Pour plus de jeux au même esprit pratique, essayez [[truck-and-driving-games|d'autres jeux de conduite à découvrir]]."
+   ],
+   "faq": [
+    [
+     "Comment voler une voiture ?",
+     "Approchez-vous de la voiture que vous voulez et maintenez E jusqu'à ce que le vol soit terminé. Ensuite, conduisez avec WASD jusqu'à votre garage."
+    ],
+    [
+     "Comment gagner de l'argent ?",
+     "Garez les voitures que vous volez dans votre garage. L'argent est gagné grâce aux voitures que vous y garez."
+    ]
+   ]
+  }
+ },
+ "cleaning-simulator-spotless": {
+  "description": "Un jeu de nettoyage relaxant dans le style d'un vieux livre d'histoires, dessiné à l'encre et à l'aquarelle. Un évier plein de vaisselle grasse, une cuisinière couverte de suie, une baignoire entartrée, un miroir embué, un aquarium envahi d'algues, un tapis sale : chacun des 23 niveaux consiste à nettoyer un objet, étape par étape. Vaporisez le produit, faites monter la mousse, frottez la suie avec de la paille de fer, rincez et polissez jusqu'à ce que tout brille. Chaque outil a son propre son et sa propre trace. Pas de minuteur, pas de pénalité, aucun moyen de perdre : nettoyez à votre rythme, puis faites glisser le doigt sur l'image pour comparer l'avant et l'après.",
+  "instructions": "Objectif : rendre chaque chose impeccable. Choisissez un outil en bas de l'écran et déplacez votre doigt ou la souris sur la saleté en maintenant le bouton enfoncé. L'indice affiché sur l'image vous indique quoi faire ensuite, et l'outil dont vous avez besoin est entouré d'un contour vert lumineux. Un niveau se termine automatiquement une fois tout propre ; appuyez ensuite sur Niveau suivant. Sur ordinateur, les touches 1 à 9 permettent aussi de sélectionner les outils. Le bouton pause se trouve dans le coin supérieur.",
+  "guide": {
+   "intro": "Cleaning Simulator: Spotless est un jeu de nettoyage calme dans un style de conte, avec 23 niveaux. Chaque niveau consiste à nettoyer un objet sale étape par étape, à votre rythme.",
+   "tips": [
+    "Suivez l'indice affiché sur l'image et cherchez l'outil entouré de vert, car c'est celui dont le niveau a besoin ensuite.",
+    "Vaporisez le produit et laissez la mousse agir avant de frotter, pour que la saleté se décolle plus facilement.",
+    "Utilisez la paille de fer sur les zones couvertes de suie, comme la cuisinière, et rincez avant de polir pour obtenir un bel éclat.",
+    "Faites glisser le doigt sur l'image pour comparer l'avant et l'après chaque fois que vous doutez qu'une tache soit totalement propre. Si vous aimez les rangements lents et doux, vous trouverez d'autres [[cleaning-games|jeux de nettoyage]] sur le site."
+   ],
+   "faq": [
+    [
+     "Peut-on manquer de temps ou perdre un niveau ?",
+     "Non. Le jeu n'a pas de minuteur, pas de pénalité et aucun moyen de perdre, vous pouvez donc prendre tout le temps voulu sur chaque niveau."
+    ],
+    [
+     "Comment savoir qu'un niveau est terminé ?",
+     "Un niveau se termine automatiquement une fois que tout est propre. Appuyez alors sur Niveau suivant pour passer à la suite."
+    ]
+   ]
+  }
+ },
+ "sticky-memo-ripping-game": {
+  "description": "Sticky Memo - Ripping Game est un idle tapper relaxant avec une surprise cachée dans chaque bloc. Des mains occupées arrachent les notes adhésives d'un immense bloc-notes une feuille à la fois, et chaque feuille rapporte de l'argent. Tapez pour arracher plus vite, récupérez des bonus et améliorez vos Hands, Speed et Income. À mesure que la pile diminue, un monument célèbre apparaît peu à peu ! Répondez à de petites questions de quiz pour gagner des pièces bonus, puis présentez chaque modèle terminé dans votre propre musée, débloquez de nouvelles étagères et récupérez l'argent des visiteurs.",
+  "instructions": "🎯 Arrachez chaque feuille du bloc-notes pour révéler le modèle caché à l'intérieur. ✋ Les Hands arrachent les feuilles toutes seules, et chaque feuille rapporte de l'argent. 👆 Tapez sur l'écran pour arracher plus vite. ❓ Choisissez la bonne réponse avant la fin du temps imparti pour gagner des pièces bonus. ⚡ Récupérez les bonus : Speed Up, Bonus Hands, Auto Tap et x3 Coins. ⬆️ Dépensez l'argent pour améliorer Hands, Speed et Income. 🏛️ Exposez les modèles terminés dans votre musée, débloquez des étagères avec des gemmes et récupérez l'argent des visiteurs. 💡 Astuce : améliorez vos Hands tôt pour faire grimper vos revenus plus vite.",
+  "guide": {
+   "intro": "Sticky Memo est un idle tapper dans lequel vous arrachez des notes adhésives d'un bloc-notes pour révéler un modèle et gagner de l'argent. Vos mains travaillent toutes seules, et taper accélère les choses.",
+   "tips": [
+    "Dépensez vos premiers gains dans les améliorations de Hands, car elles continuent de vous rapporter de l'argent pendant que vous faites autre chose.",
+    "Tapez sur l'écran pendant les moments chargés, puis laissez vos mains travailler pendant que vous dépensez votre argent en améliorations.",
+    "Gardez vos bonus pour les moments où vous tapez déjà, afin que Speed Up et x3 Coins profitent au maximum de vos efforts.",
+    "Répondez vite aux questions du quiz, car les pièces bonus ne sont attribuées que si vous choisissez la bonne réponse avant la fin du temps imparti. Si vous hésitez, choisissez la réponse la plus probable et passez à la suite. [[idle-and-tycoon-games|d'autres jeux de type idle tycoon]]",
+    "Consultez régulièrement votre musée, car les modèles terminés y sont exposés et les visiteurs apportent de l'argent que vous pouvez récupérer."
+   ],
+   "faq": [
+    [
+     "Quel est l'objectif principal de Sticky Memo ?",
+     "Arrachez chaque feuille du bloc-notes pour révéler le modèle caché à l'intérieur. Chaque feuille retirée rapporte de l'argent."
+    ],
+    [
+     "Comment gagner de l'argent plus vite ?",
+     "Tapez sur l'écran pour arracher plus vite, et améliorez vos Hands, Speed et Income avec l'argent gagné."
+    ]
+   ]
+  }
+ },
+ "my-castle": {
+  "description": "Un château médiéval qui passe d'une seule pièce à une vraie forteresse. Construisez une scierie, une cuisine, un entrepôt et des salles d'entraînement, déplacez les habitants d'une pièce à l'autre et gardez le bois, la nourriture et l'or en circulation. Chaque habitant est un combattant à part entière. Entraînez leur métier, donnez-leur armes et armures. Les objets ont une rareté et des statistiques tirées au hasard : deux épées identiques ne sont presque jamais identiques. Le combat commence par le placement. Vous décidez qui tient la ligne de front et encaisse les coups, et qui frappe depuis l'arrière. Ensuite, l'escouade combat seule : le résultat dépend de la préparation et du positionnement, pas de la vitesse de clic. L'arène oppose votre escouade à celles d'autres vrais joueurs. Il existe un classement et des jetons que vous dépensez pour des récompenses. Coffres d'armes et d'armures, chat global.",
+  "instructions": "Construisez vos premières pièces et améliorez-les : cela augmente à la fois la production de ressources et la taille de votre escouade. Affectez les habitants aux salles de travail : ils récoltent du bois, de la nourriture et de l'or pendant votre absence. Entraînez les habitants dans les salles d'entraînement pour augmenter leurs statistiques et débloquer un équipement plus puissant. Équipez vos combattants avec des armes et armures issues des coffres et des récompenses. Faites attention aux conditions requises : un habitant faible ne peut pas manier une lourde épée. Avant un combat, placez vos combattants : les corps à corps devant, les archers et les mages derrière.",
+  "guide": {
+   "intro": "My Castle est un jeu de stratégie et de gestion dans lequel vous faites grandir un château médiéval, mettez vos habitants au travail et envoyez une escouade préparée au combat. Vos choix de construction, d'entraînement et de placement déterminent le déroulement de chaque combat.",
+   "tips": [
+    "Améliorez vos salles de travail tôt, car les améliorations augmentent à la fois la production de ressources et la taille de votre escouade. Surveillez le bois, la nourriture et l'or pour qu'aucun ne vienne à manquer.",
+    "Avant de partir, vérifiez que chaque habitant est affecté à une salle de travail, car ils continuent de récolter pendant votre absence. Les habitants inoccupés ne produisent rien.",
+    "Regardez les conditions requises des armes et armures avant de les équiper. Un habitant trop faible pour une lourde épée ne l'utilisera pas bien : entraînez d'abord ses statistiques dans les salles d'entraînement.",
+    "Comparez les objets selon leurs statistiques tirées au hasard, pas seulement leur nom ou leur rareté. Deux épées du même type peuvent être différentes, donc un meilleur tirage peut compter plus qu'une étiquette rare.",
+    "Lorsque vous préparez un combat, placez les combattants corps à corps robustes en première ligne pour encaisser les coups, et les archers et mages derrière eux. Comme l'escouade combat seule, votre placement est le principal levier que vous contrôlez. Si vous aimez construire et gérer des salles comme celles-ci, vous trouverez d'autres [[simulator-games|jeux de gestion et de construction]] sur le site."
+   ],
+   "faq": [
+    [
+     "Comment rendre mon escouade plus forte avant un combat en arène ?",
+     "Entraînez vos habitants dans les salles d'entraînement pour augmenter leurs statistiques, puis équipez-les d'armes et d'armures qui correspondent à leurs conditions requises. Une meilleure préparation compte généralement plus que tout ce que vous faites pendant le combat."
+    ],
+    [
+     "Puis-je contrôler mes combattants pendant un combat ?",
+     "Non, l'escouade combat seule une fois le combat lancé. Votre rôle est de préparer le placement à l'avance, avec les combattants corps à corps en première ligne et les archers et mages derrière."
+    ]
+   ]
+  }
+ },
+ "ink-brick-ronin": {
+  "description": "Tranchez des vagues d'ennemis dans la peau d'un ronin aux formes de blocs, dans un Japon à l'encre de Chine. Choisissez parmi 5 héros d'anime, chacun avec ses propres combos, une attaque lourde chargée et un ultime qui nettoie tout l'écran. Récupérez des parchemins d'enchantement comme les lames de feu et de givre, faites monter vos héros en niveau et affrontez 4 boss uniques : Oni, Tengu, Ice Empress et Raijin. Jusqu'où pourrez-vous aller ?",
+  "instructions": "Survivez à chaque vague et vainquez les boss. Ordinateur : WASD pour vous déplacer, J ou clic pour trancher (maintenez pour enchaîner les combos), Espace pour esquiver, E pour la compétence du héros, maintenez Q ou le clic droit pour charger une attaque lourde, U pour l'ultime. Mobile : faites glisser le côté gauche de l'écran pour vous déplacer et utilisez les boutons à l'écran. Après chaque montée de niveau, choisissez un parchemin pour renforcer votre héros.",
+  "guide": {
+   "intro": "Ink Brick Ronin est un jeu d'action au sabre aux formes de blocs, se déroulant dans un Japon à l'encre de Chine. Vous affrontez des vagues d'ennemis, choisissez l'un des cinq héros d'anime et tentez de tenir assez longtemps pour vaincre quatre boss.",
+   "tips": [
+    "Maintenez J ou cliquez pour enchaîner les combos, et utilisez Espace pour esquiver rapidement avant que les ennemis ne vous encerclent.",
+    "Gardez votre attaque lourde pour les ennemis les plus coriaces : maintenez Q ou le clic droit pour la charger, puis relâchez quand elle est prête.",
+    "Utilisez votre ultime avec U quand une vague est trop dense, car il nettoie l'écran et peut renverser un combat perdu d'avance.",
+    "Lorsque vous montez de niveau, choisissez des parchemins qui correspondent à votre style de combat, comme les lames de feu ou de givre, et restez-y fidèle pour que votre héros développe une force bien définie. Pour plus de combats au sabre, essayez [[ninja-and-fighting-games|autres jeux de combat au sabre ninja]].",
+    "Observez les mouvements de chaque boss pendant quelques secondes avant de vous engager, puis frappez et reculez pour rester en vie."
+   ],
+   "faq": [
+    [
+     "Comment garder mon héros en vie pendant les vagues ?",
+     "Esquivez avec Espace pour éviter les attaques et ne pas vous retrouver acculé. Utilisez la compétence de votre héros avec E quand les ennemis se regroupent pour alléger la pression."
+    ],
+    [
+     "Quelle est la différence entre un combo et une attaque lourde ?",
+     "Les combos s'obtiennent en appuyant ou en maintenant J, ou en cliquant, pour trancher en séquence. L'attaque lourde demande de maintenir Q ou le clic droit pour la charger, ce qui prend plus de temps mais frappe plus fort."
+    ]
+   ]
+  }
+ },
+ "what-sleeps-above": {
+  "description": "Une version horrifique de Jack et le haricot magique. Cultivez la ferme le jour, grimpez la tige et endormez pour de bon les géants qui dorment là-haut. Explorez des zones sombres, récupérez des objets, fabriquez et affrontez chaque géant dans un combat tendu où il faut alterner entre garde et attaque.",
+  "instructions": "Grimpez le haricot géant, trouvez la harpe dans le Champ froid et endormez chaque géant. Sur ordinateur : A/D ou les flèches directionnelles pour vous déplacer, W, Haut ou Espace pour sauter et grimper, E ou Entrée pour parler et ouvrir des objets, Q pour observer. En combat, bloquez avec les flèches et Espace, et jouez les notes de la harpe avec J, I, K, U et L. Sur téléphone ou tablette, touchez et faites glisser.",
+  "guide": {
+   "intro": "What Sleeps Above est une version horrifique de Jack et le haricot magique. Vous cultivez le jour, grimpez la tige, explorez des zones sombres et endormez les géants qui vivent là-haut.",
+   "tips": [
+    "Avant de grimper, passez du temps à la ferme et récupérez ce que vous pouvez, car vous en aurez besoin pour l'ascension et les combats.",
+    "Cherchez la harpe dans le Champ froid dès le début, car vous en avez besoin pour endormir les géants.",
+    "En combat, alternez entre garde et attaque au lieu de frapper sans arrêt, pour pouvoir lire les mouvements du géant avant de vous engager.",
+    "Apprenez à l'avance les cinq touches de la harpe (J, I, K, U et L) pour pouvoir jouer les notes rapidement quand le moment viendra.",
+    "Si l'ambiance sombre vous plaît, parcourez [[horror-games|d'autres jeux d'horreur à essayer]] une fois que vous aurez terminé celui-ci."
+   ],
+   "faq": [
+    [
+     "Quel est le but de What Sleeps Above ?",
+     "Grimpez le haricot géant, trouvez la harpe dans le Champ froid et endormez chaque géant."
+    ],
+    [
+     "Comment jouer de la harpe pendant un combat contre un géant ?",
+     "Jouez les notes de la harpe avec J, I, K, U et L, et bloquez avec les flèches et Espace quand vous devez vous protéger."
+    ]
+   ]
+  }
+ },
+ "bonk-flight": {
+  "description": "Bonk Flight est un jeu de lancer et d'amélioration en 3D où tu règles ton coup, frappes un petit bonhomme par en dessous et l'envoies voler le plus loin possible. Équilibre son nez, maintiens le nitro et plane au-dessus d'un monde low-poly sans fin. Vole de Sunny Meadows à Red Canyon, en Antarctique et jusqu'à Volcano Land, fais des ricochets sur les lacs et attrape les courants d'air. Dépense tes pièces pour un frappeur plus puissant, de meilleures ailes et plus de nitro : tous les cinq améliorations, ton objet se transforme en un nouveau.",
+  "instructions": "Appuie sur BONK! et frappe quand le marqueur atteint la fin de la barre de swing. En l'air, garde le nez près de l'horizon pour conserver ta vitesse. Quand tu t'arrêtes, récupère tes pièces, améliore-toi et vole encore plus loin. Astuces : - Attends que le marqueur ralentisse en fin de barre pour un Perfect Bonk. - Garde le nitro pour quand tu ralentis et utilise-le en courtes rafales. - Vole dans les courants d'air pour un gros coup de boost. Clavier et souris : - Bonk : clique sur BONK! (ou appuie sur Espace), puis clique à nouveau (ou appuie sur Espace) en fin de barre - Diriger le nez : maintiens W / S ou Haut / Bas - Nitro : maintiens Espace ou Maj - Pause : appuie sur P Tactile : - Bonk : tape sur BONK!, puis tape l'écran en fin de barre - Diriger le nez : fais glisser vers le haut ou le bas (ou maintiens les boutons fléchés) - Nitro : maintiens le bouton nitro",
+  "guide": {
+   "intro": "Bonk Flight est un jeu de lancer en 3D où tu règles ton swing pour frapper un petit bonhomme et l'envoyer le plus loin possible. Équilibre son nez, utilise le nitro et améliore-toi entre les vols pour aller encore plus loin.",
+   "tips": [
+    "Surveille le marqueur à l'approche de la fin de la barre de swing et frappe dès qu'il commence à ralentir pour un Perfect Bonk.",
+    "Garde le nez près de l'horizon pendant le vol pour conserver ta vitesse.",
+    "Garde le nitro pour quand tu commences à ralentir, et utilise-le en courtes rafales plutôt qu'en un seul long maintien.",
+    "Vole dans les courants d'air pour un gros coup de boost, et fais des ricochets sur les lacs quand tu le peux. Si tu aimes ce genre de vol, tu peux parcourir d'autres [[airplane-games|jeux de vol à essayer]].",
+    "Après chaque vol, dépense tes pièces dans le frappeur, les ailes ou le nitro qui te posent le plus de problèmes, car les améliorations sont ce qui te permet de voler plus loin."
+   ],
+   "faq": [
+    [
+     "Comment obtenir un Perfect Bonk ?",
+     "Attends que le marqueur ralentisse en fin de barre de swing, puis clique sur BONK! ou appuie à nouveau sur Espace. Frapper trop tôt ou trop tard donnera un lancer plus faible."
+    ],
+    [
+     "Comment garder ma vitesse dans les airs ?",
+     "Garde le nez près de l'horizon en le dirigeant avec W et S ou les flèches Haut et Bas. Pointer le nez trop vers le haut ou vers le bas te fera perdre de la vitesse."
+    ]
+   ]
+  }
+ },
+ "tap-hexa-out-tap-it-away": {
+  "description": "Tap Hexa Out – Tap It Away est un puzzle à un seul clic très satisfaisant. Chaque bloc hexa indique une direction : tapez dessus pour le faire rouler hors du plateau, mais anticipez, car un chemin bloqué fait perdre un coup ! Surmontez les blocs verrouillés, les bombes, les tuiles clones et les grues rotatives, et utilisez le Marteau, la Bombe et la Foreuse lorsque vous êtes coincé. Chaque bloc éliminé vous rapporte des pièces hexa pour construire et débloquer 4 magnifiques îles. Collectez des pièces, ouvrez des coffres et personnalisez votre jeu. Facile à prendre en main, difficile à lâcher !",
+  "instructions": "🎯 Éliminez tous les blocs hexa avant de manquer de coups. 👆 Tapez sur un bloc pour le faire rouler le long de sa flèche. ✅ Chemin libre : il sort du plateau. ❌ Bloqué : il rebondit et vous coûte un coup. 🔒 Les blocs verrouillés s'ouvrent après le nombre de coups indiqué. 💣 Les bombes explosent, ➕ les tuiles clones font apparaître des blocs, 🏗️ les grues font pivoter les blocs. 🛠️ Bloqué ? Utilisez le Marteau, la Bombe ou la Foreuse. Plus de coups ? 🔁 Recommencez. 🏝️ Les blocs éliminés rapportent des pièces hexa pour construire des îles. 💡 Astuce : éliminez d'abord les blocs sur les bords et planifiez vos tapotements.",
+  "guide": {
+   "intro": "Tap Hexa Out est un puzzle à un seul clic où chaque bloc hexa roule le long de sa flèche. Éliminez tous les blocs avant de manquer de coups, et planifiez chaque tap pour ne pas en gaspiller un.",
+   "tips": [
+    "Avant de tapoter, repérez le bloc qui a un chemin libre vers la sortie, car un tap bloqué fait rebondir le bloc et coûte un coup.",
+    "Commencez par les blocs situés sur les bords, car ils sont généralement les plus faciles à éliminer et peuvent ouvrir la voie aux blocs situés derrière.",
+    "Repérez tôt les blocs verrouillés et notez le nombre de coups avant leur ouverture, afin de planifier vos autres taps en conséquence.",
+    "Gardez le Marteau, la Bombe et la Foreuse pour les moments où vous êtes vraiment bloqué, plutôt que de les utiliser dès le premier plateau difficile.",
+    "Si vous aimez anticiper plusieurs coups à l'avance, essayez quelques [[brain-games|jeux de logique pour aiguiser votre réflexion]] entre deux sessions."
+   ],
+   "faq": [
+    [
+     "Que se passe-t-il si je tapote sur un bloc dont le chemin est bloqué ?",
+     "Le bloc rebondit et le coup est consommé, donc regardez ce qui se trouve sur son chemin avant de tapoter."
+    ],
+    [
+     "Quand dois-je utiliser le Marteau, la Bombe ou la Foreuse ?",
+     "Utilisez-les lorsqu'il ne reste plus de chemin libre et que le plateau est bloqué, car ils servent justement à vous aider à franchir les passages difficiles."
+    ]
+   ]
+  }
+ },
+ "crazy-bike-racer": {
+  "description": "Pour votre plus grand plaisir, nous avons réuni dans ce jeu tous les sensations fortes, les rires et l'action à couper le souffle que peut offrir un simple jeu de pneus. Vous ne pourrez plus lâcher votre téléphone une fois que vous aurez goûté à l'incroyable expérience de course et aux graphismes magnifiques que propose le jeu. Vous pouvez jouer du point de vue de votre pilote pour une expérience plus réaliste, ou prendre davantage le contrôle sur vos concurrents grâce aux nombreux angles de caméra. Des motos modélisées de façon réaliste Pour votre confort, nous avons modélisé seize motos uniques, chacune jusque dans les moindres détails. Choisissez-en une, améliorez ses performances et peaufinez son design avant de vous lancer dans une course. Il existe quatre zones distinctes, chacune dominée par un chef de gang brutal. Vous pourrez découvrir des dizaines de types de courses différents, chacun se déroulant pendant une saison distincte et dans un décor incroyable. Vous devrez prouver que vous êtes le meilleur pilote en battant les quatre autres chefs.",
+  "instructions": "WASD - Conduire Espace - Frein Shift - Nitro",
+  "guide": {
+   "intro": "Crazy Bike Racer est un jeu de course de motos dans lequel vous choisissez parmi seize motos, les améliorez et traversez quatre zones. Chaque zone se termine par un combat contre un chef de gang, et vous devez battre les quatre chefs pour gagner.",
+   "tips": [
+    "Avant votre première course, prenez le temps de régler les performances et le design de votre moto, car une moto mieux préparée rend les premières courses plus faciles à gagner.",
+    "Utilisez Shift pour le nitro par courtes rafales dans les lignes droites et les portions dégagées, afin de garder un coup de boost en réserve pour le moment où vous devrez doubler un rival.",
+    "Essayez la vue à la première personne pour un contrôle précis et réaliste de votre inclinaison et de votre direction, puis passez à un angle de caméra plus large lorsque vous devez surveiller la concurrence autour de vous.",
+    "Appuyez sur Espace pour freiner avant les virages serrés plutôt que de freiner tard, afin de conserver votre élan dans le virage et d'accélérer plus tôt avec WASD.",
+    "Si vous aimez la conduite des motos proposée ici, vous pouvez comparer d'autres options dans [[motorcycle-and-bike-games|plus de titres de course de deux-roues]] pour trouver les styles qui vous conviennent."
+   ],
+   "faq": [
+    [
+     "Comment diriger et accélérer ma moto ?",
+     "Utilisez les touches W, A, S et D pour conduire, ce qui gère l'accélération et la direction. Utilisez Espace pour freiner et Shift pour lancer le nitro."
+    ],
+    [
+     "Puis-je choisir différents angles de caméra ?",
+     "Oui, vous pouvez jouer du point de vue de votre pilote pour une sensation plus réaliste, ou utiliser les autres angles de caméra pour obtenir une vue plus large de la course."
+    ]
+   ]
+  }
+ },
+ "fire-car-stunt": {
+  "description": "Rejoignez les courses ultimes sur les méga rampes qui culminent très haut dans ce nouveau jeu de voiture 2021. Bienvenue dans le nouveau jeu de cascades en voiture sur méga rampe 2021 hors ligne, pour devenir un pilote de cascades fou. Conduisez Mega ramp car stunts 3d simulator, votre jeu de cascades impossibles préféré, course GT sur des circuits impossibles et cascades impossibles sur rampes. Les courses de cascades en ville 3D sur circuits impossibles avec rampes vous attendent, alors préparez-vous aux jeux de cascades, à la simulation 3D de méga rampes et aux jeux de voitures acrobatiques extrêmes. Relevez le défi ultime des jeux de cascades en course GT : allez accomplir des cascades de course extrêmes, soyez un pilote de cascades dans la circulation, faites des cascades extrêmes et conduisez une voiture GT parmi une large gamme de collections de voitures sur rampes. Dans le jeu de cascades sur rampe verticale, prenez le volant de vos voitures de cascades extrêmes préférées, conçues pour rouler à vitesse maximale, ce qui vous offrira des jeux de cascades folles et des sensations fortes. Vivez l'expérience du jeu de méga rampe acrobatique, voiture de cascades impossible sur circuits impossibles, avec des véhicules lourds. Bouclez votre ceinture, montez dans votre voiture de course méga rampe et lancez-vous dans la voiture de cascades impossible sur circuits impossibles dès maintenant ! Montrez vos cascades épiques et palpitantes, et réalisez des cascades risquées sur les circuits impossibles pour gagner plus de points. Alors, dépêchez-vous de devenir un pilote extrême de jeux de voitures acrobatiques et de remporter le titre de véritable pilote de cascades fou. Préparez-vous à trois modes addictifs et palpitants : 1 - Infinity Mode 2 - GT Stunts Mode 3 - GT Mega Ramps Mode. Ce jeu de cascades en voiture GT est là avec trois modes de course incroyables, avec des voitures de sport, de course, classiques et rapides, pour devenir le meilleur pilote héros des cascades extrêmes sur méga rampes. Le mode Infinity Mode vous donne le contrôle total de toutes les voitures de formule et GT en cascades, avec une transformation de voiture à vitesse maximale mêlée à des cascades géantes. Le mode GT Stunts Mode vous pousse à relever des missions difficiles en réalisant des cascades GT sur différentes rampes. Le mode GT Mega Ramps vous emmène dans les cascades folles en haut des cieux, où vous ressentirez l'immense excitation des circuits impossibles avec des voitures super rapides. Alors, profitez de la conduite folle et palpitante parmi les meilleurs jeux de voitures acrobatiques. C'est un uni",
+  "instructions": "Commandes au clavier",
+  "guide": {
+   "intro": "Fire Car Stunt est un jeu de conduite 3D articulé autour d'immenses rampes, de sauts et de cascades répartis sur trois modes. Votre objectif est de réaliser des cascades et de gagner des points tout en gardant le contrôle de votre voiture.",
+   "tips": [
+    "Essayez d'abord le Infinity Mode pour prendre en main la vitesse et la tenue de route de la voiture avant de tenter les défis de rampe les plus difficiles.",
+    "Consultez les commandes au clavier affichées à l'écran avant de commencer, car les commandes des rampes sont décrites comme réalistes et demandent un peu de pratique pour être maîtrisées.",
+    "Concentrez-vous sur un atterrissage en douceur après chaque saut, car les cascades rapportent des points et un atterrissage brutal peut mettre fin à une partie plus tôt.",
+    "Utilisez le GT Stunts Mode pour vous entraîner aux cascades et missions sur rampe une par une, puis passez aux rampes plus hautes du GT Mega Ramps Mode.",
+    "Si vous aimez contrôler un dérapage dans les virages, vous pouvez développer cette compétence avec [[drift-games|davantage de défis de drift]] en complément de ce jeu."
+   ],
+   "faq": [
+    [
+     "Quel est l'objectif principal dans Fire Car Stunt ?",
+     "Vous conduisez sur des circuits impossibles et des rampes, en réalisant des cascades pour gagner des points et accomplir les missions de chaque mode."
+    ],
+    [
+     "Quels sont les trois modes de jeu ?",
+     "Le Infinity Mode vous donne le contrôle total d'une gamme de voitures avec des méga cascades, le GT Stunts Mode se concentre sur des missions difficiles sur rampe, et le GT Mega Ramps Mode vous emmène sur de hautes rampes avec des voitures rapides."
+    ]
+   ]
+  }
+ },
+ "fight-arena-online": {
+  "description": "Ce jeu va faire de vous un vrai combattant ! Rassemblez vos amis, choisissez votre personnage et améliorez son équipement et ses attaques spéciales. Prouvez à tout le monde que vous êtes le meilleur combattant. Combats en ligne contre d'autres combattants, attaques uniques pour chaque personnage, combos, sauts et roulades, boules de feu, sorts de givre et éclairs. Jouez au mode Défis où vous devez montrer vos compétences. Caractéristiques : - Coups de poing, coups de pied, combos, sauts, balayages, super attaques. - Batte de baseball, bâton Bo, dagues, plaques de protection, et bien d'autres. - Combats en ligne contre d'autres joueurs (PvP) et contre des bots. - Missions spéciales en mode Défi. - Diverses arènes de combat. - Tableaux des meilleurs scores.",
+  "instructions": "Utilisez W S A D pour déplacer votre personnage Utilisez les boutons gauche et droit de la souris pour attaquer Vous effectuez différentes attaques en courant Utilisez la touche Maj gauche pour faire une roulade ou attaquer par le bas Appuyez sur Espace pour sauter",
+  "guide": {
+   "intro": "Fight Arena Online est un jeu de combat multijoueur où vous choisissez un personnage, améliorez son équipement et ses attaques spéciales, puis affrontez d'autres joueurs ou des bots. Le mode Défi met vos compétences à l'épreuve avec des missions spéciales.",
+   "tips": [
+    "Apprenez à sauter et à faire une roulade avant de vous engager dans un combat, car les touches Espace et Maj gauche peuvent vous sortir rapidement d'un mauvais pas.",
+    "Essayez des attaques en courant avec D ou A, car la course vous donne des attaques différentes qui peuvent surprendre un adversaire.",
+    "Utilisez le mode Défi pour vous entraîner aux combos et aux missions spéciales, ce qui vous aide à maîtriser le timing avant d'affronter de vrais joueurs en ligne.",
+    "Améliorez votre équipement et vos attaques spéciales progressivement plutôt que de tout dépenser d'un coup, afin que votre personnage reste efficace dans toutes les arènes.",
+    "Si le combat vous plaît, [[ninja-and-fighting-games|d'autres jeux de combat]] sont une bonne suite pour développer les mêmes réflexes."
+   ],
+   "faq": [
+    [
+     "Comment attaquer dans Fight Arena Online ?",
+     "Utilisez les boutons gauche et droit de la souris pour attaquer. Les attaques changent lorsque vous courez, alors essayez les deux en vous déplaçant."
+    ],
+    [
+     "Quelle est la différence entre la roulade et l'attaque par le bas ?",
+     "Appuyer sur Maj gauche vous permet de faire une roulade ou d'attaquer par le bas, ce qui est utile pour échapper à un danger immédiat ou toucher une cible au sol."
+    ]
+   ]
+  }
+ },
+ "truck-loader-online": {
+  "description": "Truck Loader Online est un jeu de réflexion classique dans lequel vous devez charger des cargaisons dans un camion avec votre chariot élévateur. Les caisses sont réparties dans les niveaux, et il faut les récupérer puis les charger dans le camion pour terminer le niveau. Certains niveaux sont faciles : il suffit de rouler pour ramasser les caisses, mais plus vous avancez dans le jeu, plus les niveaux deviennent difficiles et vous devez effectuer des mouvements spéciaux ou suivre des séquences pour les finir. Les amateurs d'action et de technologies en tout genre trouveront leur bonheur avec ces jeux en ligne gratuits de chargement. Vous visiterez le chantier, où l'on ne peut se passer d'une machine puissante capable de tirer de lourdes charges. Les matériaux de construction doivent être livrés au bon endroit. Les magasins attendent que vous posiez les cartons sur de longues étagères. Il faut transporter des objets fragiles sans les casser, puis charger d'abord les matériaux en vrac dans des conteneurs avant de les transporter. Aucun camion n'est de trop, et il y a du charbon, de l'or et d'autres métaux. Même Super Mario attache son conteneur à son pick-up.",
+  "instructions": "Utilisez votre souris pour contrôler le bras du tracteur et les touches fléchées pour déplacer le tracteur. Votre objectif est de charger les caisses dans le camion.",
+  "guide": {
+   "intro": "Truck Loader Online est un jeu de réflexion dans lequel vous utilisez un chariot élévateur pour récupérer les caisses éparpillées dans chaque niveau et les charger dans un camion. Les premiers niveaux sont simples, mais les suivants demandent des mouvements spéciaux et des séquences précises.",
+   "tips": [
+    "Utilisez la souris pour diriger le bras du tracteur et les touches fléchées pour avancer : ramassez les caisses avec le bras tout en gardant le tracteur en position stable.",
+    "Sur les niveaux faciles, prévoyez un trajet qui récupère toutes les caisses en une seule boucle plutôt que de traverser la zone dans tous les sens.",
+    "Quand un niveau impose une séquence, observez l'ordre dans lequel les caisses doivent atteindre le camion avant de prendre la première, car un mauvais ordre peut bloquer les chargements suivants.",
+    "Manipulez les objets fragiles avec précaution et laissez-les pour la fin s'ils demandent un placement soigneux, afin de ne pas avoir à les déplacer une seconde fois.",
+    "Si vous aimez conduire des véhicules lourds, vous pouvez découvrir d'autres [[truck-and-driving-games|jeux de camions et de conduite]] pour comparer le chargement et la prise en main."
+   ],
+   "faq": [
+    [
+     "Quel est l'objectif principal dans Truck Loader Online ?",
+     "Votre objectif est de charger toutes les caisses de chaque niveau dans le camion, ce qui termine le niveau."
+    ],
+    [
+     "Comment contrôler le chariot élévateur ?",
+     "Utilisez la souris pour contrôler le bras du tracteur et les touches fléchées pour déplacer le tracteur dans le niveau."
+    ]
+   ]
+  }
+ },
+ "formula-car-stunt-3d-mega-ramp-2021": {
+  "description": "Prenez le volant dans les jeux de voitures de police et de cascades avec vos voitures de police préférées, qu'il s'agisse de voitures de sport, de course, classiques ou ultra rapides. Profitez de ces jeux de cascades sur les cascades en voiture sur méga rampe et devenez le meilleur pilote héros de ce jeu de voiture de police. Ces cascades en voiture sur méga rampe - circuits impossibles pour voitures de police comprennent une interface fluide qui vous permet de réaliser facilement des cascades au volant d'une voiture de formule au top. Choisissez vos propres voitures de police et roulez sur des circuits impossibles à vitesse extrême dans ce jeu de voiture. Profitez des cascades et de la course de cascades en voiture de police GT dans un incroyable jeu de course automobile sur une voiture 3D passionnante. Ce jeu de cascades en voiture de police avec voiture de formule de police est un jeu de cascades gratuit hors ligne pour jouer, faire la course, sauter et réaliser des cascades sur des obstacles et des rampes pleins d'action. Accomplissez toutes les missions des cascades de formule de police : circuits impossibles dans cette course de cascades en voiture sur méga rampe et profitez de la direction et des commandes fluides utilisées dans ce jeu de cascades en voiture sur méga rampe. Devenez un champion de la conduite avec ces cascades de formule de police incluses dans les jeux de cascades impossibles en voiture sur méga rampe pour relever les nouveaux défis. Prêt, partez : lancez-vous dans les cascades en voiture pour jouer aux jeux de cascades automobiles en course de voitures. Pour tout ce qui touche au sport, vous pouvez jouer gratuitement aux cascades en voiture de police avec des cascades en voiture sur rampe. Conduisez des voitures de police sur des circuits tordus et sinueux, impossibles. Plongez-vous dans cette course 3D de cascades en voiture sur rampe sur circuits impossibles, avec des missions stimulantes. Osez devenir le pilote le plus rapide dans cette course de voiture de formule de police. Ce jeu de cascades en voiture de police à grande vitesse : jeux de voiture gratuits est rempli de cascades folles en voiture avec une course GT extrême que vous devrez accomplir. Roulez librement avec des voitures de police et un monster truck de police, ainsi qu'une voiture de cascade de police, dans ces jeux de cascades impossibles en voiture, créatifs et bien conçus. Prenez le volant sur un jeu de voiture sur méga rampe dans les jeux de cascades en voiture de police. Vous pouvez profiter du mode multijoueur pour courir contre d'autres pilotes et gagner la course dans ces jeux de cascades à grande vitesse et ces jeux de voiture de police. Principales caractéristiques des jeux de voitures de police : jeux de cascades de police - différentes directions de méga rampes - grands environnements et nombreuses options dans les jeux de cascades en voiture de police et la voiture de formule de police - large choix de voitures, comme les monster trucks de police, les voitures de muscle, la voiture de formule de police et les voitures de course de sport de police - niveaux riches en action et",
+  "instructions": "Commandes au clavier"
  }
 }
