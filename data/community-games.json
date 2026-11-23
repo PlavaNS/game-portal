@@ -1048,5 +1048,133 @@
     "embed": "https://criticalbananas.com/play",
     "thumb": "https://criticalbananas.com/og/play",
     "orientation": "landscape"
+  },
+  {
+    "slug": "ghost-run",
+    "title": "Ghost Run",
+    "studio": "ColacStudio",
+    "studioUrl": "https://playgama.ai/play/pirgxguhlwgq7o",
+    "added": "2026-11-23",
+    "short": "One-tap flight through hundreds of levels while the ghost of your own best run races beside you.",
+    "description": "Ghost Run is a free one-tap flying game where your toughest rival is yourself. A small ghost flaps between pillars, collects coins and heads for the finish line, and your best attempt flies alongside you in gold. Levels are grouped into worlds such as Dawn Fields, Coral Sky, Neon Dunes and Storm Ridge, fifty levels at a time. Every few levels a race against your golden ghost decides the crown, and boss levels break up the run. Stars earned on each level add up to a long-term total, so there is always a better time to chase. It runs in the browser on desktop and phone with no download.",
+    "instructions": "Tap, click or press Space to flap. Fly through the gaps between the pillars, grab the coins and reach the finish. On race levels, beat your golden ghost to take the crown.",
+    "category": "arcade",
+    "extraCats": [
+      "hypercasual",
+      "mobile"
+    ],
+    "tags": [
+      "One Tap",
+      "Flappy",
+      "Ghost",
+      "Levels",
+      "Arcade",
+      "Casual"
+    ],
+    "embed": "https://sb-pirgxguhlwgq7o.games.playgama.net/cmws5bi2c4fvsmm0h0txslbyc/__patch__/cmws5cv3o5cuajx0i92hf8d9b/index.html",
+    "thumb": "https://ilovewebgames.com/assets/community/ghost-run.jpg?v=1",
+    "orientation": "any",
+    "studioRating": {
+      "gameplay": 6,
+      "controls": 8,
+      "visuals": 7,
+      "note": "Clean one-tap flying with a smart ghost-race twist; the core loop is simple but the level map gives it a long tail."
+    }
+  },
+  {
+    "slug": "santas-rooftop-rush",
+    "title": "Santa's Rooftop Rush",
+    "studio": "ColacStudio",
+    "studioUrl": "https://playgama.ai/play/kv46qbajikt7yo",
+    "added": "2026-11-23",
+    "short": "Run Santa across snowy rooftops, double-jump the gaps and drop a present down every chimney.",
+    "description": "Santa's Rooftop Rush is a free Christmas runner. Santa runs on his own across the rooftops of Snowy Village, and your only job is timing: tap to jump, tap again in mid-air to double-jump. Presents drop down the chimneys by themselves as you pass, while bumping into snowmen and other obstacles costs you a spare present. Each level asks you to visit a set number of houses and hides three lost elves to rescue, and the elves unlock new hats. The level map climbs through several worlds with boss fights and Sleigh Ride levels, plus a Workshop and an Endless mode that opens later.",
+    "instructions": "Tap or click anywhere to jump, and tap again in the air to double-jump. Presents go down the chimneys automatically. Avoid obstacles, rescue the three hidden elves in each level and reach the finish. In Sleigh Ride levels, drag up and down to fly.",
+    "category": "arcade",
+    "extraCats": [
+      "adventure",
+      "mobile"
+    ],
+    "tags": [
+      "Christmas",
+      "Santa",
+      "Runner",
+      "Platformer",
+      "One Tap",
+      "Winter"
+    ],
+    "embed": "https://sb-kv46qbajikt7yo.games.playgama.net/cmwqsyjjx2vctjx0i65s8yqkb/__patch__/cmwqt0doy2cfrmm0haev3nx3s/index.html",
+    "thumb": "https://ilovewebgames.com/assets/community/santas-rooftop-rush.jpg?v=1",
+    "orientation": "any",
+    "studioRating": {
+      "gameplay": 6,
+      "controls": 8,
+      "visuals": 8,
+      "note": "Charming festive runner with clear level goals and hidden elves to hunt; easy to pick up, timing-based depth."
+    }
+  },
+  {
+    "slug": "planet-pounce",
+    "title": "Planet Pounce",
+    "studio": "ColacStudio",
+    "studioUrl": "https://gamejolt.com/games/planet-pounce/1121200",
+    "added": "2026-11-23",
+    "short": "Leap a tiny astronaut cat from one spinning planet to the next with perfectly timed taps.",
+    "description": "Planet Pounce is a free one-button space game starring an astronaut cat. Each planet spins, and the cat leaps in whatever direction it is facing when you tap, so the whole game is timing. Land on the next planet to keep climbing toward the finish; miss and you drift off into space. Every level has three star goals, such as finishing, collecting every space fish and beating a par time, and quick hops in a row build combos. Levels start in Zone 1, Milk Way, and run across five zones, with spike planets later on, an Endless mode and six unlockable suits.",
+    "instructions": "Tap, click or press Space to pounce. Time your jump so the cat leaves the planet facing the next one. Collect the space fish, finish under the par time for three stars and chain quick hops for combo points.",
+    "category": "arcade",
+    "extraCats": [
+      "hypercasual",
+      "mobile"
+    ],
+    "tags": [
+      "One Tap",
+      "Space",
+      "Cat",
+      "Timing",
+      "Levels",
+      "Casual"
+    ],
+    "embed": "https://sb-yepobijo2insek.games.playgama.net/cmwr55jhx2tl5mm0hxd3r7n6n/__patch__/cmwr5dhi13fn5jx0iuycyxi5j/index.html",
+    "thumb": "https://ilovewebgames.com/assets/community/planet-pounce.jpg?v=1",
+    "orientation": "any",
+    "studioRating": {
+      "gameplay": 7,
+      "controls": 8,
+      "visuals": 8,
+      "note": "The spinning-planet timing feels good from the first jump, and the three star goals per level give replay value."
+    }
+  },
+  {
+    "slug": "formfieber",
+    "title": "FormFieber",
+    "studio": "FormFieber",
+    "studioUrl": "https://formfieber.com/en/",
+    "added": "2026-11-23",
+    "short": "A 3D party game: build a secret word out of cubes, spheres, cylinders and cones while friends guess.",
+    "description": "FormFieber is a free 3D party game for 2 to 12 players. One player picks a secret word and builds it from simple shapes, cubes, spheres, cylinders and cones, which can be moved, rotated, scaled and coloured. Everyone else guesses in the chat and scores points for being quick. Besides Build and Guess there is Build Battle, where everyone models the same word and rates the others, and 3D Telephone, where builds and descriptions pass along a chain. Private rooms work with a room code, Quick Play finds a public room, and a solo Practice workbench with no timer lets you learn the tools first.",
+    "instructions": "This game is best with friends: enter a name, press Create Room and share the room code, or use Quick Play to join a public room. When you build, drag to orbit the camera and add shapes from the left panel. When others build, type your guesses in the chat. Practice lets you try the 3D workbench alone.",
+    "category": "multiplayer",
+    "extraCats": [
+      "3d",
+      "two-player"
+    ],
+    "tags": [
+      "Party",
+      "Multiplayer",
+      "3D",
+      "Drawing",
+      "Guessing",
+      "Friends"
+    ],
+    "embed": "https://formfieber.com/en/",
+    "thumb": "https://ilovewebgames.com/assets/community/formfieber.jpg?v=1",
+    "orientation": "landscape",
+    "studioRating": {
+      "gameplay": 7,
+      "controls": 7,
+      "visuals": 8,
+      "note": "Fresh twist on draw-and-guess with a real 3D workbench; needs friends in a room to shine."
+    }
   }
 ]
