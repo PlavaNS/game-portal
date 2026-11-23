@@ -684,7 +684,7 @@ body.menu-open .drawer{transform:none;visibility:visible}
 @media (max-width:860px){.trio-kicker{margin:0 0 8px}}
 /* each pick gets its own label colour instead of the same dark pill */
 .trio-own{background:linear-gradient(160deg,#0d3d44 0%,#0a2530 60%,var(--bg2) 100%);border-top:3px solid #0a8ba8}
-.trio-own .eyebrow{background:linear-gradient(110deg,#0a8ba8,#03637a)}
+.trio-own .eyebrow{background:linear-gradient(110deg,#097f9a,#03637a)}
 .trio-day{background:linear-gradient(160deg,#0d3520 0%,#0a2518 60%,var(--bg2) 100%);border-top:3px solid #22c55e}
 .trio-week{background:linear-gradient(160deg,#0d3520 0%,#0a2518 60%,var(--bg2) 100%);border-top:3px solid #22c55e}
 .trio-month{background:linear-gradient(160deg,#0d3520 0%,#0a2518 60%,var(--bg2) 100%);border-top:3px solid #22c55e}
@@ -692,9 +692,9 @@ body.menu-open .drawer{transform:none;visibility:visible}
 .trio-iday{background:linear-gradient(160deg,#0a2d44 0%,#071e30 60%,var(--bg2) 100%);border-top:3px solid #17b3d6}
 .trio-iweek{background:linear-gradient(160deg,#251040 0%,#180a2a 60%,var(--bg2) 100%);border-top:3px solid #a855f7}
 .trio-imonth{background:linear-gradient(160deg,#3a2005 0%,#261502 60%,var(--bg2) 100%);border-top:3px solid #ff9f1c}
-.trio-iday .eyebrow{background:#17b3d6}
-.trio-iweek .eyebrow{background:#a855f7}
-.trio-imonth .eyebrow{background:#ff9f1c}
+.trio-iday .eyebrow{background:#107f97}
+.trio-iweek .eyebrow{background:#984de0}
+.trio-imonth .eyebrow{background:#a56712}
 .foot-badge{margin:14px 0 10px;display:flex;justify-content:center;align-items:center;gap:14px;flex-wrap:wrap}
 .foot-badge img{height:40px;width:auto;border-radius:8px}
 :root[data-theme=light] .foot-badge img{border:1px solid #dfe3f0}

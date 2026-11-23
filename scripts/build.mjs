@@ -632,7 +632,7 @@ function emitContent() {
     const o = ours.find(g => g.slug === cfg.heroGame) || ours[0];
     const feat = (kind, eyebrow, g, why, byHtml, eager = false) => { const d = String(why || '').replace(/\s+/g, ' ').trim();
       return `<article class="trio-item trio-${kind}">
-    <a class="trio-media" href="${gHref(g)}">${g.video ? `<video src="${esc(g.video)}" poster="${esc(g.cover || g.thumb)}" muted loop playsinline preload="none" data-trio-hover></video>` : `<img src="${esc(small(g.cover || g.thumb))}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">`}</a>
+    <a class="trio-media" href="${gHref(g)}" aria-label="${esc(g.title)}">${g.video ? `<video src="${esc(g.video)}" poster="${esc(small(g.cover || g.thumb))}" muted loop playsinline preload="none" data-trio-hover></video>` : `<img src="${esc(small(g.cover || g.thumb))}" alt="${esc(g.title)}" width="512" height="384" ${eager ? 'fetchpriority="high"' : 'loading="lazy"'} decoding="async">`}</a>
     <div class="trio-text">
       <p class="eyebrow">${eyebrow}</p>
       <h2><a href="${gHref(g)}">${esc(g.title)}</a></h2>
@@ -761,7 +761,7 @@ function emitContent() {
     write('index.html', layout({
       title: `${cfg.name} — ${tr('Free Online Games, Play Instantly')}`,
       desc: `${tr(cfg.slogan)} ${tr('Play')} ${roundedCount.toLocaleString('en')}+ ${tr('free online games: action, puzzle, racing, 2 player, clicker and more. No downloads, works on PC & mobile.')}`,
-      canonical: abs('/'), body, bodyClass: 'home', preload: gotdImg, altPath: '/', altLangs: LANGS.filter(l => Object.keys(UI[l.code] || {}).length >= 20).map(l => l.code),
+      canonical: abs('/'), body, bodyClass: 'home', preload: ours[0] ? small(ours[0].cover || ours[0].thumb) : gotdImg, altPath: '/', altLangs: LANGS.filter(l => Object.keys(UI[l.code] || {}).length >= 20).map(l => l.code),
       jsonld: [{ '@context': 'https://schema.org', '@type': 'WebSite', name: cfg.name, alternateName: cfg.name.replace(/\s+/g, ''), url: abs('/'), potentialAction: { '@type': 'SearchAction', target: abs('/search/') + '?q={search_term_string}', 'query-input': 'required name=search_term_string' } },
         { '@context': 'https://schema.org', '@type': 'Organization', '@id': abs('/#organization'), name: cfg.name, alternateName: cfg.shortName, url: abs('/'),
           logo: { '@type': 'ImageObject', url: abs('/assets/icon-512.png'), width: 512, height: 512 }, image: abs('/assets/og.png'),
