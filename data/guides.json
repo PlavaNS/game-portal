@@ -2823,22 +2823,26 @@
     ]
   },
   "screw-sort-3d": {
-    "intro": "Screw Sort 3D is a logic puzzle about taking apart 3D mechanisms and sorting screws, bolts, and nuts into matching boxes. Careful observation matters more than speed.",
+    "intro": "Screw Sort 3D hands you a 3D object, a blue wooden chair on level 1, covered in colored screws. Above it sit colored boxes with three holes each, and the goal is to unscrew every screw and drop it into the box of its color until the object falls apart. A row of five grey slots under the boxes holds screws whose box is not open yet.",
     "tips": [
-      "Before clicking anything, look over the whole structure and note which screws are blocking others.",
-      "Check the colors of the available boxes first, so you know which parts you can send where.",
-      "Only click screws whose color matches an open box, since the instructions say to pick only corresponding colors.",
-      "Work through the mechanism in a sensible order, taking out the outer parts before trying to reach the ones underneath.",
-      "If a move leaves you stuck, step back and reassess the remaining parts rather than clicking at random."
+      "Only tap a screw when its color box is open at the top. Every other screw goes to the five grey holding slots, and when those fill up the level is lost.",
+      "Rotate the object and use the + and - zoom buttons on the left. Screws on the back and underside of the chair are easy to miss and often block a whole box.",
+      "Each box takes exactly three screws, so count before you tap: three of one color in a row finishes a box and brings the next one in.",
+      "The two black boxes with a video icon are extra boxes you can unlock by watching an ad. Keep them for the moment the holding slots are almost full.",
+      "The three boosters under the object (extra slot, brush and skip) cost coins; you start with 90, so use them on hard levels rather than on level 1."
     ],
     "faq": [
       [
-        "What is the goal of Screw Sort 3D?",
-        "The goal is to unscrew the parts of each 3D mechanism and sort them into the boxes whose colors match. You need to finish the sorting in the correct order to avoid losing."
+        "How do I win a level in Screw Sort 3D?",
+        "Remove every screw from the object and drop each one into the box of the same color. Boxes hold three screws each."
       ],
       [
-        "How do I avoid losing a level?",
-        "Sort the parts in the correct order and only click screws that match the colors of the available boxes. Plan a few steps ahead so you do not block yourself."
+        "What are the grey dots under the boxes?",
+        "They are a five-slot holding row. A screw whose color box is not open waits there; if all five slots fill up, you lose the level."
+      ],
+      [
+        "Can I see the hidden screws?",
+        "Yes. Drag to rotate the object and use the zoom buttons on the left side of the screen."
       ]
     ]
   },
@@ -4463,22 +4467,26 @@
     ]
   },
   "the-egg-stealing-master": {
-    "intro": "The Egg Stealing Master mixes 3D stealth with a pet-collecting loop: every egg you sneak out becomes a pet you can hatch, sell and turn into upgrades. These tips help you steal more and get caught less.",
+    "intro": "The Egg Stealing Master is a blocky 3D game in the style of an obby: you start in a market square with $400, a Sell stand on the left and a Trail Shop on the right, and the first goal on screen is simple: run to the forest nest and steal an egg. Bring eggs back, sell them, and spend the money on speed, pets and new pens that unlock farther along the path.",
     "tips": [
-      "Watch where the guards are looking before you grab an egg. A short wait is cheaper than losing the run.",
-      "Carry each egg straight back to your pen so it starts hatching; an egg in your hands earns nothing.",
-      "Spend your first coins on speed upgrades. Being faster makes every later trip safer and quicker.",
-      "Sell pets you do not need to fund upgrades, and keep the rare ones that are worth more.",
-      "On PC use WASD and press E near an egg; on mobile use the joystick and the action button."
+      "Follow the first task literally: run straight down the long path to the forest nest, grab an egg and bring it back before anything else.",
+      "Sell eggs at the Sell stand with the red and white roof, then check the pens along the path: each sign shows the price needed to unlock it.",
+      "Your speed is the number next to the shoe icon in the bottom left (it starts at 20). Faster runs mean more eggs per minute, so upgrade speed early in the Shop.",
+      "The egg and paw buttons on the right open your eggs and your pets. Pets and trails from the Trail Shop are worth buying once the basic speed upgrades are done.",
+      "Use the Slow mode switch in the top left if the movement feels too fast to steer on a laptop trackpad or a phone."
     ],
     "faq": [
       [
-        "How do I steal an egg in The Egg Stealing Master?",
-        "Walk up to an egg and press E (or the action button on mobile), then bring it back to your pen to hatch it while avoiding the guards."
+        "How do I make money in The Egg Stealing Master?",
+        "Steal eggs from the nests along the path, carry them back and sell them at the Sell stand. You start with $400 and every sale adds to it."
       ],
       [
-        "What are coins used for?",
-        "You earn coins by selling the pets you hatch and spend them on upgrades such as more speed and on trails."
+        "What is the Trail Shop?",
+        "It is the stand with the yellow roof on the right of the starting square. It sells trails and extras for your character, separate from the main Shop button on the left."
+      ],
+      [
+        "What does Slow mode do?",
+        "It slows your character down so it is easier to steer, which helps on touch screens and trackpads."
       ]
     ]
   },
@@ -4563,22 +4571,26 @@
     ]
   },
   "knock-your-mind": {
-    "intro": "Knock Your Mind is a quirky puzzle game where each level hides a different brain teaser. You solve them by looking closely, testing ideas, and interacting with objects on screen.",
+    "intro": "Knock Your Mind is a picture puzzle game built around before-and-after scenes. Level 1 shows a run-down room where a family sleeps on a broken wooden bed, next to a rocking chair, a leaking bucket, a cracked door and a battered toilet, and the hint bar at the top tells you what to do: drag money to the items that need to repair. Each later level hides its own trick, so reading the hint and studying the scene matters more than speed.",
     "tips": [
-      "Read each puzzle fully before you act, since the wording and the scene often contain the clue you need.",
-      "Look for small details in the background and on objects, because hidden clues are a core part of the challenge.",
-      "If your first idea does not work, try a different kind of action instead of repeating the same click or drag.",
-      "Consider the simplest answer first, and then the stranger ones, since the solution can be either.",
-      "Keep notes of what you tried on a tricky level so you do not repeat the same failed attempts."
+      "Read the line at the top of the screen first. It changes every level and is the only rule you get, for example 'Drag money to the items that need to repair' on level 1.",
+      "In repair levels, drag the money onto each broken object one by one: the bed, the chair, the door, the bucket and the toilet each count separately, and the level ends only when every broken thing is fixed.",
+      "Look at the whole picture, including the corners and the walls. Small damaged objects near the edges are the ones most players miss.",
+      "The green Answer button under the scene shows the solution. Try a couple of ideas yourself first, then use it when you are truly stuck.",
+      "If dragging does nothing, the object is either already fixed or not part of the puzzle, so move on to something else in the scene."
     ],
     "faq": [
       [
-        "What is the goal of Knock Your Mind?",
-        "Your goal is to solve the brain-teasing challenge in each level so you can move on to the next one. Each level has its own unique puzzle."
+        "What do I do on the first level of Knock Your Mind?",
+        "The hint says to drag money to the items that need repair. Drag the money onto each broken object in the poor family's room, such as the bed, rocking chair, door, bucket and toilet, until the room is fixed."
       ],
       [
-        "How do I interact with objects?",
-        "With a mouse, click and drag objects to interact with them. On a touchscreen, tap and drag objects instead."
+        "Is there a hint if I get stuck?",
+        "Yes. The green Answer button below the scene shows the solution for the current level."
+      ],
+      [
+        "Can I play Knock Your Mind on my phone?",
+        "Yes. It runs in the browser and works with touch: press and drag on the screen the same way you would with a mouse."
       ]
     ]
   },
@@ -95963,22 +95975,26 @@
     ]
   },
   "lacoria-castle-defense": {
-    "intro": "Lacoria Castle Defense is a 3D tower defense and idle game where you protect a citadel from waves of mythical beasts using elemental mages, castle upgrades, and rune crafting. This guide covers useful habits for surviving longer and getting a higher score in Endless Trial Mode.",
+    "intro": "Lacoria Castle Defense puts a single castle tower in the middle of a grassy field by a river, and waves of monsters walk in from every side. The tower attacks on its own; your job is spending the coins from each kill on upgrades. Wave 1 starts with 124 coins and a tower with 300 health, and the upgrade bar at the bottom splits into a Power tab and a Survival tab.",
     "tips": [
-      "Check the three upgrade tabs regularly with J, K, and L so you do not leave Power, Survival, or Control upgrades unbought for too long.",
-      "Use R to cycle target priority and switch to Boss First when a boss phase begins, so your attacks focus on the threat that matters most.",
-      "Combine runes in the Forge to add Freeze, Lava Burn, or Chain Lightning to your attacks, then choose the effect that fits the beasts you face most often.",
-      "Turn on auto-cast for your ultimate with A if you want to free up your attention, and keep manual Space for moments when a wave suddenly gets dangerous.",
-      "Use the T or Tab speed boost once your defense is stable, since higher speeds process waves faster but leave less time to react to problems."
+      "Spend the first coins on Damage. The game itself tells you so in Wave 1 ('Monsters are swarming! Upgrade Damage now!'), and early waves die much faster once Damage climbs past its starting 25.",
+      "Every upgrade has a keyboard shortcut: Q for Damage, W for Attack Speed, E for Crit Chance and R for Crit Multiplier, so you can buy without taking your eyes off the field.",
+      "Attack Speed starts at 1.60 hits per second. Alternate it with Damage instead of maxing one, since the two multiply each other.",
+      "Crit Chance starts at only 5% and the Crit Multiplier at x1.50. They pay off later, once Damage is already high, so leave them for the middle waves.",
+      "Keep an eye on the red health bar above the tower (300 at the start). When it starts dropping between waves, look at the Survival tab next to Power before buying more attack."
     ],
     "faq": [
       [
-        "How do I use the hero's ultimate skill?",
-        "Press Space to unleash the Hero Ultimate Skill. You can also press A to toggle auto-cast so the ultimate fires on its own."
+        "What should I upgrade first in Lacoria Castle Defense?",
+        "Damage. It costs only a few coins at the start and the in-game hint in Wave 1 points to it as well. Add Attack Speed next."
       ],
       [
-        "What does Endless Trial Mode ask of me?",
-        "Endless Trial Mode sends infinite, escalating monster waves, so the challenge keeps increasing. Your goal is to survive as long as possible and push for a high score."
+        "What are the keyboard shortcuts?",
+        "Q, W, E and R buy Damage, Attack Speed, Crit Chance and Crit Multiplier, as shown on each upgrade card. The upgrade bar has two tabs, Power and Survival, marked 1 and 2."
+      ],
+      [
+        "Do I have to aim or move the tower?",
+        "No. The tower in the middle of the field attacks the monsters on its own; your part is choosing the upgrades."
       ]
     ]
   },
