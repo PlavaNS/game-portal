@@ -246378,8 +246378,28 @@
   }
  },
  "parkour-run-race-3d": {
-  "description": "Corra de telhado em telhado. Dê cambalhotas, pule, caia e salte por cima dos obstáculos para bater todos os novos recordes. Junte-se a outros caras e dispute a corrida diária para ganhar recompensas especiais! Escale prédios pela cidade e faça manobras para ganhar velocidade extra. Deixe seus oponentes para trás enquanto você leva a vitória para casa! Arranha-céus, pule e salte por cima dos obstáculos para salvar sua vida. Cuidado com o alcance logo atrás de você. Mais obstáculos, mais manobras incríveis de parkour para executar e muita emoção garantida. É um dos novos melhores jogos de corrida de parkour! \"Parkour Run - Race 3d\" é um divertido jogo de parkour urbano. No jogo, você vai interpretar um stickman, começando do início junto com outros jogadores, pulando entre prédios altos, e chegando ao fim em primeiro lugar, você vence o jogo. Durante o jogo, você pode evitar vários obstáculos e usar um booster para conquistar a vitória no jogo mais rápido. Corra rápido e faça manobras incríveis de parkour com o renovado jogo de parkour real Parkour Run - Race 3D! Mais obstáculos, mais manobras incríveis de parkour para executar, pulos entre telhados e muita emoção garantida! Com esses jogos de freerun e parkour extremo, você tem a chance de se tornar o melhor corredor de parkour. Mostre seu parkour freestyle incrível e seu parkour extremo para todo mundo! É um dos melhores jogos de corrida de parkour! Teste suas habilidades definitivas enquanto corre em cidades famosas como Nova York, Paris, Tóquio e muito mais! Mas cuidado para não cair, galera! Personalize seus caras ganhando roupas épicas, acessórios exclusivos nas costas e efeitos especiais ao vencer corridas! Faça manobras para escapar da multidão e bater recordes. Torne-se o melhor entre. Transformamos momentos casuais em aventuras loucas! \"City Parkour Sports parkour race freerun\" é um divertido jogo de parkour urbano. No jogo, você vai interpretar um stickman, começando do início junto com outros jogadores, pulando entre prédios altos, e chegando ao fim em primeiro lugar, você vence o jogo. Parkour Run - Race 3D Recursos 1. Entre os canais, os pulos nas paredes são mais rápidos; 2. Adereços que aceleram; 3. Há obstáculos demais no meio, você pode tentar pegar a calçada; 4. E se a barreira for alta demais? Você pode pular na parede; Um dos melhores jogos de parkour está esperando por você. Veja até onde você consegue ir",
-  "instructions": "Arraste com o mouse"
+  "description": "Corra de telhado em telhado. Dê cambalhotas, pule, caia e salte por cima dos obstáculos para bater todos os novos recordes. Junte-se a outros caras e dispute a corrida diária para ganhar recompensas especiais! Escale prédios pela cidade e faça manobras para ganhar velocidade extra. Deixe seus oponentes furiosos enquanto você leva a vitória para casa! Arranha-céus, pule e salte por cima dos obstáculos para salvar sua vida. Cuidado com o alcance logo atrás de você. Mais obstáculos, mais incríveis manobras de parkour para executar e mais emoção garantida. É um dos novos melhores jogos de corrida de parkour! \"Parkour Run - Race 3D\" é um divertido jogo de parkour urbano. No jogo, você vai interpretar um stickman, começando do ponto de partida junto com outros jogadores, pulando entre prédios altos, e quem chegar ao fim primeiro vence a partida. Durante o jogo, você pode evitar vários obstáculos e usar um impulso para vencer mais rápido. Corra rápido e faça incríveis manobras de parkour com o renovado jogo de parkour real Parkour Run - Race 3D! Mais obstáculos, mais incríveis manobras de parkour para executar, pulos em telhados e mais emoção garantida! Com esses jogos de freerunning e parkour extremos, você tem a chance de se tornar o melhor corredor de parkour. Mostre seu incrível freestyle de parkour e seu parkour extremo para todo mundo! É um dos melhores jogos de corrida de parkour! Teste suas habilidades máximas enquanto corre por cidades famosas como Nova York, Paris, Tóquio e muito mais! Mas cuidado para não cair, rapazes! Personalize seus caras ganhando roupas épicas, acessórios exclusivos nas costas e efeitos especiais vencendo corridas! Faça manobras para escapar da multidão e bater recordes. Torne-se o melhor entre. Transformamos momentos casuais em aventuras loucas! \"City Parkour Sports parkour race freerun\" é um divertido jogo de parkour urbano. No jogo, você vai interpretar um stickman, começando do ponto de partida junto com outros jogadores, pulando entre prédios altos, e quem chegar ao fim primeiro vence a partida. Parkour Run - Race 3D Recursos 1. Entre os canais, os saltos na parede são mais rápidos; 2. Adereços que aceleram; 3. Há obstáculos demais no meio, você pode tentar pegar a calçada; 4. E se a barreira for alta demais? Você pode pular na parede; Um dos melhores jogos de parkour está esperando por você. Veja até onde você consegue ir",
+  "instructions": "Arraste com o mouse",
+  "guide": {
+   "intro": "Parkour Run - Race 3D é uma corrida pela cidade em que você controla um stickman, pulando entre telhados e prédios altos para chegar à linha de chegada antes dos outros jogadores. Manobras, obstáculos e impulsos decidem quem vence.",
+   "tips": [
+    "Use manobras como cambalhotas e pousos, já que a descrição diz que elas dão velocidade extra, então mantenha seu stickman em movimento em vez de parar para se recuperar.",
+    "Quando uma barreira parecer alta demais, pule na parede em vez de tentar saltá-la do chão.",
+    "Se o meio do percurso estiver cheio de obstáculos, tente a rota pela calçada para não ficar preso.",
+    "Procure adereços que aceleram e impulsos, e pegue-os sempre que puder, porque eles ajudam você a abrir vantagem sobre os outros corredores.",
+    "Se você gosta de cronometrar saltos entre telhados, experimente mais [[parkour-and-obby-games|desafios de percurso com obstáculos]] em ritmo acelerado para afiar as mesmas habilidades."
+   ],
+   "faq": [
+    [
+     "Como eu controlo meu stickman?",
+     "As instruções dizem para arrastar com o mouse, então experimente primeiro arrastos curtos para ver como seu stickman responde antes de correr."
+    ],
+    [
+     "Como eu ganho uma corrida?",
+     "Chegue ao fim antes dos outros jogadores. Impulsos e a velocidade das manobras ajudam você a chegar mais rápido, enquanto cair em buracos ou bater em obstáculos deixa você mais lento."
+    ]
+   ]
+  }
  },
  "line-color-3d-fun-and-run-3d-game": {
   "description": "Line Color 3D é um jogo arcade interessante. Ele pode testar seus reflexos e ajudar você a passar o tempo. É difícil passar por todas as fases, mas acredito que você consegue! Evite os obstáculos no caminho e tente completar mais desafios. Divirta-se em Line Color 3D!",
@@ -291908,6 +291928,460 @@
     [
      "Como eu controlo o carro?",
      "O jogo é jogado com o teclado, então use-o para dirigir, acelerar e fazer suas acrobacias nas rampas."
+    ]
+   ]
+  }
+ },
+ "crypt-crawlers": {
+  "description": "Crypt Crawlers é um dungeon crawler idle em pixel art. Escolha um herói como Bram the Knight, suba de nível por diferentes ranks, gire a roleta para ganhar recompensas, colete bônus diários e busque o seu melhor recorde de ondas. Seu herói ataca automaticamente, e você usa habilidades e se movimenta para sobreviver.",
+  "instructions": "Mova-se com o polegar esquerdo ou com as teclas mostradas no jogo. Os ataques são automáticos. Toque nas habilidades para usá-las.",
+  "guide": {
+   "intro": "Crypt Crawlers é um dungeon crawler idle em pixel art em que você escolhe um herói como Bram the Knight, sobe de nível e busca o seu melhor recorde de ondas. Seu herói ataca sozinho enquanto você usa habilidades e se movimenta para sobreviver.",
+   "tips": [
+    "Mantenha seu herói em movimento com o polegar esquerdo ou com as teclas mostradas no jogo, já que manter o controle é o que te mantém vivo conforme as ondas ficam mais difíceis.",
+    "Os ataques são automáticos, então concentre sua atenção no movimento e no timing das habilidades em vez de tocar para atacar.",
+    "Guarde as habilidades para os momentos em que os inimigos te cercam, em vez de usá-las assim que estiverem prontas, para que façam mais diferença quando você mais precisar.",
+    "Confira seus bônus diários e gire a roleta para ganhar recompensas regularmente, já que eles se acumulam com o tempo e ajudam seu herói a crescer entre as partidas.",
+    "Se você gosta de um progresso constante e de um crescimento lento, pode encontrar mais jogos desse estilo em [[idle-and-tycoon-games|jogos de progressão idle para experimentar]]."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal em Crypt Crawlers?",
+     "O objetivo principal é sobreviver o máximo que puder e buscar o seu melhor recorde de ondas."
+    ],
+    [
+     "Como eu ataco os inimigos?",
+     "Seu herói ataca automaticamente, então você não precisa tocar para atacar. Você se concentra em se movimentar e usar habilidades."
+    ]
+   ]
+  }
+ },
+ "dunkit": {
+  "description": "Pule, gire e enterre! DunkIt é um jogo de basquete arcade com 35 fases de enterradas baseadas em física: trampolins, bolas em movimento, obstáculos e enterradas malucas com manobras como Tomahawk, Superman ou Backwards Dunk. Cronometre sua pegada e sua enterrada na perfeição para vencer cada fase. Quer mais? Jogue partidas rápidas contra a IA: quadra inteira 1x1 em 2D ou jogos 3D de meia quadra, de 1x1 até 3x3.",
+  "instructions": "Fases de enterrada J pegar a bola enterrar middot A D girar middot S agachar middot R reiniciar Partidas WASD ou setas mover middot Shift correr middot Espaço ou W pular middot J arremessar segure e solte no topo middot K roubar amp m",
+  "guide": {
+   "intro": "DunkIt é um jogo de basquete arcade construído em torno de fases de enterradas baseadas em física, com trampolins, bolas em movimento e obstáculos. Você também pode jogar partidas rápidas contra a IA em 2D ou 3D.",
+   "tips": [
+    "Pratique o tempo da sua pegada e da sua enterrada, já que o jogo exige que você cronometre as duas para vencer cada fase. Observe como os trampolins e as bolas em movimento se comportam antes de se comprometer com um pulo.",
+    "Use A e D para girar no ar e S para agachar, assim você pode preparar manobras como Tomahawk, Superman ou Backwards Dunk antes de pousar.",
+    "Se uma fase estiver indo mal, pressione R para reiniciar logo em vez de terminar uma tentativa fracassada.",
+    "Nas partidas, segure J para carregar seu arremesso e solte no topo do pulo para ter a melhor chance de pontuar. Use K para roubar quando a IA estiver com a bola.",
+    "Se você gosta de jogos baseados em timing, pode encontrar mais [[basketball-games|jogos de basquete para experimentar]] no site."
+   ],
+   "faq": [
+    [
+     "Como pego a bola nas fases de enterrada?",
+     "Pressione J para pegar a bola e depois cronometre sua enterrada para concluir a jogada. Cronometrar as duas etapas é o que decide se você vence a fase."
+    ],
+    [
+     "Como arremesso em uma partida rápida?",
+     "Segure J para arremessar e solte no topo do seu pulo. Use WASD ou as setas para se mover e Shift para correr."
+    ]
+   ]
+  }
+ },
+ "vice-arcade": {
+  "description": "Vice Arcade é um fliperama de navegador feito por fãs, com um mini game de perseguição neon pelas ruas. No Vice City Heat Run você dirige por uma malha de ruas durante sessenta segundos, alterna entre dois motoristas, coleta maletas de dinheiro e tenta escapar de um nível de procurado que só aumenta. O fliperama também tem jogos de drift em rodovia e em lancha, um jogo de adivinhar mapas e gabinetes de quebra-cabeça. É um projeto não oficial de fãs e não é afiliado a nenhuma editora de jogos.",
+  "instructions": "Teclas de seta para dirigir, acelerar, frear e fazer drift. R reinicia, C troca o motorista, M silencia, F ativa a tela cheia. Os controles de toque aparecem em celulares.",
+  "guide": {
+   "intro": "Vice Arcade é um fliperama de navegador feito por fãs, construído em torno de um jogo de perseguição neon pelas ruas. Seu evento principal, o Vice City Heat Run, pede que você colete maletas de dinheiro e escape de um nível de procurado que só aumenta, tudo em sessenta segundos.",
+   "tips": [
+    "Use as teclas de freio e drift antes das curvas, não durante elas, para manter o controle do carro enquanto o nível de procurado sobe.",
+    "Troque de motorista com C quando o atual estiver em uma situação difícil, já que cada motorista oferece um jeito diferente de lidar com a malha de ruas.",
+    "Planeje uma rota pela malha que passe pelas maletas de dinheiro no caminho de ida, para não ficar voltando enquanto o tempo acaba.",
+    "Reinicie com R logo de cara se a partida começar mal, já que uma nova rodada de sessenta segundos é mais rápida do que recuperar uma perdida. Para treinar mais direção e drift, experimente estes [[car-games|jogos de carro com controles parecidos]].",
+    "Fique de olho no nível de procurado enquanto dirige e tente escapar da perseguição antes que ele fique alto demais."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo do Vice City Heat Run?",
+     "Você dirige por uma malha de ruas durante sessenta segundos, coleta maletas de dinheiro e tenta escapar de um nível de procurado que só aumenta antes que o tempo acabe."
+    ],
+    [
+     "Quais teclas controlam o carro?",
+     "Use as teclas de seta para dirigir, acelerar, frear e fazer drift. C troca o motorista, R reinicia, M silencia o som e F ativa a tela cheia."
+    ]
+   ]
+  }
+ },
+ "nitro-crush-monster-truck": {
+  "description": "Rodas gigantes. Zero freios. Pura bagunça! Corra com monster trucks enormes por 30 fases cheias de adrenalina, esmague a concorrência e torne-se o Rei da Arena! 3 Modos de Jogo: Dispute corridas contra caminhões rivais, bata o relógio no Time Trials e conquiste as Championship Cups. Garagem: Desbloqueie caminhões poderosos como Red Rocket, Tank e White Tiger. Melhorias: Aumente motor, velocidade máxima e aderência para dominar cada pista. Ganhe 3 Estrelas: Chegue em 1º para coletar todas as estrelas e desbloquear novos capítulos. Recompensas Diárias: Entre todo dia para ganhar moedas, gemas, melhorias gratuitas e testes de caminhões. 6 Capítulos: Do Rookie Rally aos Monster Masters, você consegue conquistar todos?",
+  "instructions": "W seta para cima Acelerar S seta para baixo Freio Ré A seta para esquerda Virar à esquerda D seta para direita Virar à direita",
+  "guide": {
+   "intro": "Nitro Crush Monster Truck é um jogo de corrida 3D em que você dirige monster trucks gigantes por 30 fases em seis capítulos. Corra contra caminhões rivais, bata o relógio ou dispute as copas do campeonato.",
+   "tips": [
+    "Chegar em primeiro é a única forma de coletar as três estrelas de uma fase, então priorize vencer as corridas e não apenas terminá-las.",
+    "Use W para acelerar e A e D para dirigir, e toque em S para dar ré se seu caminhão ficar preso contra uma parede ou obstáculo.",
+    "Invista suas melhorias no atributo que mais ajuda na pista em que você está com dificuldade, como aderência para curvas fechadas ou velocidade máxima para retas longas.",
+    "Experimente o Time Trials em uma pista que você já conhece para praticar sua trajetória nas curvas antes de enfrentar os rivais na mesma rota.",
+    "Entre todo dia para coletar suas recompensas diárias e confira a garagem para ver os caminhões que você pode desbloquear conforme avança. Para mais corridas de caminhões gigantes, navegue por [[monster-truck-games|mais títulos de monster truck]]."
+   ],
+   "faq": [
+    [
+     "Como faço para ganhar as três estrelas em uma fase?",
+     "Você precisa chegar em primeiro na corrida para coletar todas as estrelas e desbloquear novos capítulos."
+    ],
+    [
+     "Quais teclas controlam o caminhão?",
+     "Use W para acelerar, S para frear ou dar ré, e A e D para virar à esquerda e à direita."
+    ]
+   ]
+  }
+ },
+ "arena-of-masters-stickman": {
+  "description": "Um jogo de luta de stickman em 2D com combos, juggles e nocautes ragdoll. Escolha um dos 18 lutadores, cada um com sua própria arma e dois golpes especiais: agarrões, clones, estátuas de gelo, sopro de fogo, puxões aéreos e muito mais. Jogue o modo história com cenas em quadrinhos e chefões, lute contra a IA, escale 18 torres de oponentes, jogue Mod Fight com efeitos aleatórios a cada rodada, forme dupla em batalhas 2 contra 2 ou jogue contra um amigo no mesmo teclado. Vença lutas para subir no ranking. Um único botão de ataque encadeia socos, chutes e giros finalizadores; bloqueie, fique de olho na sua stamina e saia de combos com um breaker.",
+  "instructions": "Vença duas rodadas para ganhar a luta: nocauteie o oponente ou tenha mais vida quando o tempo acabar. Teclado: A/D para mover, W para pular, segure S para bloquear, J para atacar (pressione de novo no momento certo para continuar o combo), S+J para uppercut, K para golpe especial, Trás+K para o segundo especial, Trás+K de perto para arremessar o oponente, Espaço para trocar de lutador em 2 contra 2, P pausa o jogo. Enquanto estiver sendo combado, pressione K para um breaker. A stamina diminui com ataques e bloqueios; quando zerar, você fica cansado. No celular use o pad e os botões na tela. Dois jogadores no mesmo teclado: P1 WASD + F/G, P2 IJKL + ; e '.",
+  "guide": {
+   "intro": "Arena of Masters: Stickman é um jogo de luta de stickman em 2D com combos, juggles e nocautes ragdoll. Escolha um dos 18 lutadores, cada um com uma arma e dois golpes especiais, e vença duas rodadas para levar a luta.",
+   "tips": [
+    "Pressione J de novo no momento certo para estender um combo, já que um único botão de ataque encadeia socos, chutes e giros finalizadores.",
+    "Quando um oponente estiver te combando, pressione K logo para usar um breaker e escapar da sequência em vez de esperar ela terminar.",
+    "Fique de olho na barra de stamina, porque ataques e bloqueios a gastam; solte os botões por um momento quando ela estiver baixa para não ficar cansado no meio da rodada.",
+    "Fique perto do oponente e use Trás+K para arremessá-lo, o que é útil quando ele fica bloqueando seus ataques normais.",
+    "Se você jogar no mesmo teclado com um amigo, aprenda primeiro os conjuntos de teclas separados de cada jogador e experimente [[2-player-games|outros jogos para dois jogadores]] para praticar a leitura de uma tela compartilhada."
+   ],
+   "faq": [
+    [
+     "Como eu ganho uma rodada?",
+     "Nocauteie o oponente ou tenha mais vida restante quando o tempo acabar. Você precisa vencer duas rodadas para ganhar a luta."
+    ],
+    [
+     "Como eu saio de um combo?",
+     "Pressione K enquanto estiver sendo combado para usar um breaker. Acertar o momento logo no início da sequência dá a melhor chance de se libertar."
+    ]
+   ]
+  }
+ },
+ "sky-stunt-races": {
+  "description": "Sky Stunt Races é um jogo de corrida de manobras 3D estilo arcade lá no alto da cidade. Decole das rampas, faça embaladas e tonneaux no ar, percorra as paredes de tubos gigantes e destrua vidros e obstáculos no caminho até a linha de chegada. Cada fase termina com um final explosivo de colisão.",
+  "instructions": "Chegue à linha de chegada o mais rápido que puder. Faça manobras no ar, pouse com firmeza e colete moedas para ganhar mais ouro e até 3 estrelas por fase. Use seu ouro para melhorar seu carro e desbloquear novos. Teclado: WASD / Teclas de Seta = Dirigir Shift Esquerdo = Nitro Espaço = Freio de mão R = Voltar para a pista P / Esc = Pausar Celular: use os botões na tela para virar, acelerar, frear e usar o nitro. No ar, os mesmos botões fazem o carro dar embaladas e tonneaux.",
+  "guide": {
+   "intro": "Sky Stunt Races é um jogo de corrida 3D estilo arcade em que você corre pelo céu da cidade, saltando das rampas e fazendo embaladas e tonneaux. Este guia mostra como correr rápido, pousar com firmeza e ganhar estrelas.",
+   "tips": [
+    "Planeje suas manobras antes de cada rampa. Embaladas e tonneaux só valem a pena se você conseguir pousar com firmeza, então escolha uma manobra que você consiga completar com segurança.",
+    "Use o nitro em trechos retos e planos da pista, e não no meio de um salto, para manter o controle do carro quando ele pousar.",
+    "Colete moedas ao longo do percurso, já que o ouro permite melhorar seu carro e desbloquear novos, que podem ajudar nas fases seguintes.",
+    "Busque as 3 estrelas de cada fase repetindo as pistas que você já terminou e tentando diminuir o tempo, e não apenas chegar à linha de chegada.",
+    "Se a corrida der errado e você ficar preso ou capotar em uma posição ruim, pressione R para voltar para a pista em vez de perder tempo tentando se soltar. Se você gosta de deslizar nas curvas, [[drift-games|experimente mais desafios de derrapagem]] para afiar seu controle do freio de mão."
+   ],
+   "faq": [
+    [
+     "Como ganho estrelas em uma fase?",
+     "Chegue à linha de chegada o mais rápido que puder, faça suas manobras com firmeza e colete moedas para ganhar até 3 estrelas por fase."
+    ],
+    [
+     "O que os controles do ar fazem?",
+     "No ar, as mesmas teclas usadas para dirigir fazem o carro dar embaladas e tonneaux, assim você pode preparar seu pouso enquanto está fora do chão."
+    ]
+   ]
+  }
+ },
+ "city-rush-2000": {
+  "description": "City Rush 2000 é um construtor de cidades rápido e colorido, que cabe em uma única sessão curta. Desenhe estradas, pinte zonas residenciais, comerciais e industriais, e dê energia e água para sua cidade. As casas crescem sozinhas, carros e pessoas realmente circulam pela cidade, e seus moradores avisam o que eles precisam. Alcance 2.000 moradores antes que o cronômetro de 10 minutos acabe para ganhar até três estrelas, e desbloqueie novos mapas: uma ilha, montanhas, um deserto, um delta de rio e até Marte. Prefere curtir sem pressa? O modo sandbox oferece dinheiro ilimitado e sem cronômetro.",
+  "instructions": "Objetivo: alcance 2.000 moradores antes que o cronômetro de 10 minutos termine. Você começa com uma pequena vila: expanda-a com estradas, pinte zonas residenciais ao longo delas, depois adicione lojas e fábricas para criar empregos, além de parques, escolas, delegacias e clínicas para manter os moradores felizes. Quanto mais rápido você vencer, mais estrelas ganha. Mouse: arraste para mover a câmera, arraste com o botão direito para girar e inclinar, e role a roda para dar zoom. As teclas WASD ou as setas também movem a câmera. Com uma ferramenta selecionada, arraste para desenhar estradas, pintar zonas ou cavar rios; clique em um prédio para melhorá-lo ou demoli-lo. Toque: um dedo para mover ou usar a ferramenta selecionada, dois dedos para dar zoom, girar e inclinar.",
+  "guide": {
+   "intro": "City Rush 2000 é um construtor de cidades curto e colorido, em que você desenha estradas e zonas para transformar uma vila em uma cidade de 2.000 moradores. Cada partida é uma sessão rápida com cronômetro de 10 minutos.",
+   "tips": [
+    "Coloque as estradas primeiro e pinte zonas residenciais ao longo delas, já que as casas só crescem onde há acesso às estradas, e sua cidade se expande a partir daí.",
+    "Equilibre suas zonas: adicione lojas e fábricas para que os moradores tenham empregos, e veja o que eles estão pedindo antes de construir mais casas.",
+    "Mantenha energia e água chegando a todas as zonas que você pintar, porque o crescimento para em áreas que não têm essas utilidades.",
+    "Gaste os primeiros minutos no layout principal para que parques, escolas, delegacias e clínicas possam ser colocados depois sem destruir estradas, e a velocidade é importante para ganhar estrelas extras.",
+    "Se o cronômetro estiver deixando você tenso, experimente o modo sandbox, que remove o relógio e dá dinheiro ilimitado, ou veja [[relaxing-games|jogos de ritmo lento para relaxar]] quando quiser uma sessão mais tranquila."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal em City Rush 2000?",
+     "Alcance 2.000 moradores antes que o cronômetro de 10 minutos acabe. Terminar mais rápido rende mais estrelas, até três."
+    ],
+    [
+     "Como melhoro ou removo um prédio?",
+     "Selecione a ferramenta e clique em um prédio para melhorá-lo ou demoli-lo."
+    ]
+   ]
+  }
+ },
+ "crossword-harbor": {
+  "description": "Crossword Harbor é um duelo de palavras cruzadas por turnos. A cada turno você recebe cinco peças com letras e as coloca em uma grade de palavras cruzadas com setas, onde cada dica fica dentro do tabuleiro. Letras certas pontuam, palavras concluídas dão bônus, e a maior pontuação vence o tabuleiro. Navegue por uma Jornada de portos com rivais do computador amigáveis, duelos contra chefes e fases de bônus rápidos, resolva as Palavras Cruzadas Diárias, suba sete ligas nos rankings e enfrente amigos ao vivo ou com um cronômetro por turno, com chat e pacotes de figurinhas.",
+  "instructions": "Leia uma dica na célula de dica; a seta aponta para onde a resposta vai. Toque em uma dica para vê-la maior. Seu rival do computador joga primeiro, e você começa com +30 pontos por jogar em segundo. Arraste uma peça de letra do seu suporte até uma célula (ou toque em uma peça e depois em uma célula) e depois pressione Jogar. Letras certas pontuam, células com estrela pontuam em dobro e completar uma palavra dá bônus; letras erradas voltam para o suporte. Travou? Dica acende as células certas para suas peças e Trocar distribui peças novas. Vence a maior pontuação quando o tabuleiro estiver cheio. Funciona com mouse e toque.",
+  "guide": {
+   "intro": "Crossword Harbor é um duelo de palavras cruzadas por turnos em que você coloca peças com letras em uma grade de palavras cruzadas com setas para superar seu rival do computador. Letras certas pontuam, palavras concluídas garantem bônus, e a maior pontuação vence o tabuleiro.",
+   "tips": [
+    "Leia a seta de cada dica antes de colocar qualquer coisa, pois ela mostra exatamente onde a resposta vai. Tocar em uma dica para vê-la maior ajuda quando o texto está difícil de ler.",
+    "Procure as células com estrela antes de colocar uma peça, porque elas pontuam em dobro. Usar uma letra forte em uma delas pode virar um tabuleiro apertado.",
+    "Tente completar palavras em vez de espalhar letras, já que completar uma palavra dá um bônus além dos pontos das letras. Fique de olho em quais palavras estão quase cheias.",
+    "Use Dica quando estiver travado, pois ela acende as células certas para as peças que você tem. Se o seu suporte não tiver letras úteis, Trocar distribui peças novas.",
+    "Lembre-se de que você começa com +30 pontos por jogar em segundo, então não precisa se preocupar com a vantagem inicial. Jogue com calma e foque em preencher bem o tabuleiro, porque vence a maior pontuação quando ele estiver cheio. Para mais quebra-cabeças de letras, experimente [[word-games|mais jogos de palavras para explorar]]."
+   ],
+   "faq": [
+    [
+     "Como eu ganho um tabuleiro?",
+     "O tabuleiro é vencido pelo jogador com a maior pontuação quando todas as células estiverem preenchidas. Letras certas, células com estrela e palavras concluídas somam ao seu total."
+    ],
+    [
+     "O que acontece quando coloco uma letra errada?",
+     "As letras erradas voltam para o seu suporte, então você não as perde para sempre. Depois, pode tentá-las em outra célula em um turno posterior."
+    ]
+   ]
+  }
+ },
+ "tapshot-io": {
+  "description": "Tapshot.io é um FPS de navegador em ritmo acelerado, onde mira precisa e movimentação rápida vencem o combate. Batalhe em vários mapas com um rifle de precisão, um revólver e uma faca. Acerte tiros certeiros, construa sua sequência de abates e corra para o topo do ranking. Ganhe XP e dinheiro, suba de nível, abra caixas e personalize suas armas com skins. Entre as partidas, explore o lobby, navegue pela loja e encontre sua próxima melhoria. Jogue na hora pelo navegador, no computador ou no celular.",
+  "instructions": "COMO JOGAR Pressione Jogar no lobby para entrar em uma partida. Continue se movendo, use coberturas e alinhe seus tiros. Troque para o revólver para tiros de acompanhamento ou para a faca para ataques de curta distância. Consiga abates antes que a rodada termine para subir no ranking. CONTROLES NO COMPUTADOR WASD / Teclas de seta — Mover Mouse — Olhar e mirar Clique esquerdo — Atirar ou esfaquear Clique direito — Segure para mirar ou dar zoom Q / E — Controles alternativos de mira durante o combate Espaço — Pular R — Recarregar 1 — Equipar rifle de precisão 2 — Equipar revólver 3 — Equipar faca E — Interagir com caixas próximas ou com a loja de armas no lobby Esc — Abrir o menu de pausa para equipamento, configurações ou Voltar ao Lobby CONTROLES NO CELULAR Joystick esquerdo — Mover Arraste do lado direito da tela — Olhar e mirar Botão de tiro, com rifle de precisão ou revólver — Segure para mirar; solte para atirar Botão de tiro, com faca — Toque para esfaquear; segure para continuar atacando Botão de pulo — Pular Botão de recarga — Recarregar Botões Primária / Secundária / Faca — Trocar de arma Botão de pausa — Abrir o menu de pausa Aviso de interação no lobby",
+  "guide": {
+   "intro": "Tapshot.io é um shooter de primeira pessoa rápido no navegador, em que a mira e a movimentação decidem cada combate. Você pode alternar entre um rifle de precisão, um revólver e uma faca enquanto disputa abates no ranking.",
+   "tips": [
+    "Mantenha-se em movimento entre os tiros e use coberturas, já que ficar parado faz de você um alvo fácil para o rifle de precisão.",
+    "Use o revólver para tiros rápidos de acompanhamento após um acerto do rifle de precisão, e troque para a faca quando um inimigo estiver perto.",
+    "Antes de atirar, segure o controle de mira para alinhar um tiro preciso e dispare assim que estiver firme no alvo.",
+    "Foque em conseguir abates no início da rodada, pois a rodada termina com o tempo e o ranking recompensa os abates.",
+    "Se você gosta de combates rápidos um contra um, também pode experimentar mais [[multiplayer-games|jogos online contra outras pessoas]]."
+   ],
+   "faq": [
+    [
+     "Como consigo mais abates em uma partida?",
+     "Continue se movendo, use coberturas para evitar o fogo inimigo e escolha a arma certa para a distância, como o rifle de precisão para tiros longos e a faca de perto."
+    ],
+    [
+     "Como miro no celular?",
+     "Arraste do lado direito da tela para olhar e mirar, depois segure o botão de tiro com o rifle de precisão ou o revólver para mirar e solte para atirar."
+    ]
+   ]
+  }
+ },
+ "gym-simulator-pump-town": {
+  "description": "Um simulador de academia e tycoon em desenho animado, cheio de cores. Comece como um garoto magrelo numa garagem com um único banco, colete shakes de proteína, treine em equipamentos de academia de verdade e veja seu corpo crescer através de cinco transformações. Empurre os rivais para fora do ringue ou vença-os no braço de ferro, e cada rival derrotado entra na sua academia e paga mensalidade. Transforme sua garagem numa mega academia no topo do prédio, derrote sete chefes de distrito, colete atletas animais engraçados e torne-se o Campeão da Cidade.",
+  "instructions": "Mova-se com WASD ou as setas do teclado, ou arraste em qualquer lugar da tela no celular. Ande até os equipamentos e fique parado para treinar; pressione Espaço ou o botão amarelo quando o marcador estiver no dourado para uma repetição perfeita. Ande até um rival para começar um duelo no ringue: os socos são automáticos, saia da frente da seta vermelha para desviar e contra-atacar, use o especial quando o botão brilhar. Pise nas plataformas de preço brilhantes para comprar equipamentos e recolha o dinheiro na recepção. Shift corre, Esc pausa.",
+  "guide": {
+   "intro": "Gym Simulator: Pump Town é um tycoon em desenho animado em que você começa numa garagem com um único banco e a transforma numa academia no topo do prédio. Você treina, vence duelos com rivais e junta dinheiro para expandir sua academia.",
+   "tips": [
+    "Fique parado nos equipamentos para treinar, e pressione Espaço ou o botão amarelo quando o marcador estiver no dourado para fazer repetições perfeitas.",
+    "Nos duelos no ringue, fique de olho na seta vermelha e saia da frente para desviar, depois aproveite a oportunidade de contra-ataque que vem em seguida.",
+    "Guarde seu ataque especial para quando o botão brilhar, já que ele só fica disponível nesse momento.",
+    "Confira a recepção com frequência para recolher dinheiro e depois gaste nos equipamentos das plataformas de preço brilhantes para fazer sua academia crescer mais rápido.",
+    "Se você gosta de construir um negócio passo a passo, talvez goste de experimentar em seguida estes [[idle-and-tycoon-games|jogos de tycoon]]."
+   ],
+   "faq": [
+    [
+     "Como ganho dinheiro em Pump Town?",
+     "Colete shakes de proteína e dinheiro na recepção, e cada rival que você derrotar entra na sua academia e paga mensalidade."
+    ],
+    [
+     "Qual é a melhor forma de lidar com os duelos no ringue?",
+     "Continue se movendo para poder sair da frente da seta vermelha, e use seu especial somente quando o botão brilhar."
+    ]
+   ]
+  }
+ },
+ "dino-rodeo-3d": {
+  "description": "Dino Rodeo 3D é um jogo de montaria e captura em 3D com visual de blocos. Saia do seu rancho em meio a uma debandada de dinossauros, pule bem alto, jogue seu laço e pouse no lombo de um dino, depois pule de um para o outro sem encostar no chão. Cada dino que você domar vai para o seu curral e rende moedas. Gaste-as com o treinador para aumentar sua energia e segurar dinos mais fortes, funda três dinos em um maior, equipe auras e compre voos para biomas distantes: as Planícies, a Floresta de Samambaias, o Deserto, a Selva, o Pântano, a Era do Gelo, o Vulcão, a Cratera Cósmica, a Caverna e o Rio. Capture também feras voadoras, preencha seu livro de espécies e vista seu cowboy com trajes conquistados de outros peões rivais.",
+  "instructions": "Objetivo: capture o máximo de dinossauros que conseguir em uma partida e leve-os até o seu curral, onde eles rendem moedas para melhorias e novos biomas. Teclado e mouse: Espaço ou clique esquerdo para pular, pressione de novo no ar para jogar o laço no dino do círculo. Segure o botão direito do mouse e mova o mouse para girar e mirar, ou use A / D. No rancho: WASD para andar, arraste para girar a câmera, E para usar uma estação, Q para descer ou subir na sua montaria, P para pausar. Toque: o joystick aparece sob o seu polegar esquerdo, arraste na metade direita para girar e mirar, o botão com seta pula e joga o laço no ar, o botão de menu abre as estações.",
+  "guide": {
+   "intro": "Dino Rodeo 3D é um jogo de montaria e captura em 3D com visual de blocos, em que você pula sobre dinossauros em debandada, laça todos e pula de um para o outro. Capture o máximo que conseguir em uma partida e leve-os de volta ao seu curral para ganhar moedas.",
+   "tips": [
+    "Primeiro pule e depois pressione pular de novo no ar para jogar o laço. Mire enquanto ainda está subindo, para que o laço alcance o dino do círculo antes de você começar a cair.",
+    "Continue se movendo de um dino para o outro sem encostar no chão. Cada pouso te dá uma nova chance de manter sua sequência.",
+    "Gaste suas primeiras moedas no treinador para aumentar sua energia antes de qualquer outra coisa. Mais energia ajuda você a segurar dinos maiores.",
+    "Vale a pena planejar a fusão de três dinos em um maior. Guarde alguns dinos parecidos no seu curral para combiná-los quando tiver o suficiente.",
+    "Se você gosta de domar criaturas, pode encontrar mais [[animal-games|jogos de captura de criaturas]] para testar depois de algumas partidas por aqui."
+   ],
+   "faq": [
+    [
+     "Como capturo um dinossauro?",
+     "Pule, pressione pular de novo no ar para jogar seu laço no dino do círculo e depois pouse no lombo dele. Quando estiver montado, você pode pular para o próximo dino."
+    ],
+    [
+     "Como ganho moedas?",
+     "Cada dino que você domar vai para o seu curral e rende moedas. Traga o máximo que conseguir de volta em uma partida e depois gaste as moedas em melhorias e novos biomas."
+    ]
+   ]
+  }
+ },
+ "break-and-steal-an-egg": {
+  "description": "Aventura rápida de coleta de pets! Pegue sua picareta, saia para a natureza e quebre ovos para chocar animais raros. Mas cuidado: cada bioma tem um guarda que te persegue no momento em que você pega um pet. Fuja dele e leve sua captura para casa, até o seu curral, onde os pets geram dinheiro a cada segundo. Gaste em picaretas mais fortes e trilhas de velocidade, depois avance por 11 biomas com ovos mais raros e guardas mais rápidos. Até onde você consegue ir?",
+  "instructions": "WASD para mover, Espaço para pular. O Botão Esquerdo do Mouse balança sua picareta para quebrar ovos, e E rouba o pet. Leve-o para casa antes que o guarda te pegue, depois ganhe dinheiro e melhore tudo!",
+  "guide": {
+   "intro": "Break and Steal an Egg é uma aventura de clicker rápida em que você quebra ovos para chocar animais raros e depois corre para levá-los para casa antes que um guarda te pegue. Seus pets geram dinheiro no seu curral, que você pode gastar em melhorias para ir mais fundo.",
+   "tips": [
+    "Fique perto da borda dos ovos que você está quebrando para ver o guarda chegando antes de decidir roubar.",
+    "Use Espaço para pular obstáculos no caminho de volta, já que um caminho livre para casa importa mais do que começar rápido.",
+    "Melhore sua picareta cedo para que os ovos quebrem mais rápido e você fique menos tempo parado no meio do campo aberto.",
+    "Gaste dinheiro em trilhas de velocidade quando você já tiver alguns pets gerando renda, porque uma corrida mais rápida para casa é o que mantém você à frente do guarda.",
+    "Foque em um bioma por vez e aprenda como o guarda se move antes de avançar para o próximo, já que os guardas posteriores são mais rápidos. Se você gosta de coletar criaturas, a [[animal-games|coleção de jogos de animais]] tem mais títulos com objetivos parecidos de caçar pets."
+   ],
+   "faq": [
+    [
+     "O que eu faço quando pego um pet?",
+     "Pressione E para roubá-lo e depois leve-o de volta ao seu curral antes que o guarda te pegue."
+    ],
+    [
+     "Como eu ganho dinheiro?",
+     "Os pets que você leva para o seu curral geram dinheiro a cada segundo, então manter mais deles lá ajuda na sua renda."
+    ]
+   ]
+  }
+ },
+ "hair-salon-master": {
+  "description": "Hair Salon Master é um simulador de barbearia em 3D. Chame os clientes para a cadeira, leia o pedido deles e corte o cabelo com máquina e tesoura: cada fio é cortado exatamente onde a ferramenta passa, e os restos caem sobre a capa. Tire os fios com a escova, ganhe estrelas e dinheiro, suba de nível para desbloquear novas ferramentas e pedidos mais difíceis, e personalize seu barbeiro, suas ferramentas e seu salão na loja.",
+  "instructions": "Ande até um cliente que está esperando e convide-o para a cadeira, depois comece o corte. Arraste a máquina ou a tesoura sobre o cabelo: os fios destacados em cor ainda precisam ser cortados. Escolha o tamanho do pente que o cliente pediu, gire a cabeça arrastando em um espaço vazio ou com os botões de seta, depois tire os restos de cabelo com a escova e pressione Done. Preencha a barra para ganhar até três estrelas. Controles: WASD ou as setas do teclado para andar, E para interagir, mouse para cortar. No celular, use o analógico e o botão na tela, e corte com o dedo.",
+  "guide": {
+   "intro": "Hair Salon Master é um simulador de barbearia em 3D em que você chama os clientes para a cadeira, lê o pedido deles e corta o cabelo com máquina e tesoura. Ganhe estrelas e dinheiro enquanto sobe de nível para desbloquear novas ferramentas e pedidos mais difíceis.",
+   "tips": [
+    "Leia o pedido do cliente antes de começar a cortar e escolha o tamanho do pente que ele pediu, para que o resultado combine com o que ele quer.",
+    "Siga os destaques de cor: os fios mostrados em cor ainda precisam ser cortados, então confira as áreas destacadas antes de pressionar Done.",
+    "Gire a cabeça arrastando em um espaço vazio ou usando os botões de seta para alcançar as laterais e a parte de trás, em vez de cortar apenas a parte que está de frente para você.",
+    "Tire os restos de cabelo com a escova antes de pressionar Done, já que a barra se preenche em direção à pontuação de três estrelas conforme você avança no corte. Se você gosta de um ritmo lento e calmo, [[relaxing-games|jogos calmos para relaxar]] combinam bem com esse tipo de trabalho constante."
+   ],
+   "faq": [
+    [
+     "Como faço para ganhar as três estrelas?",
+     "Preencha a barra cortando o cabelo que o cliente pediu, depois tire os restos de cabelo com a escova e pressione Done. Seguir o tamanho do pente e os destaques de cor ajuda a preencher a barra por completo."
+    ],
+    [
+     "Como são os controles?",
+     "Use WASD ou as setas do teclado para andar, E para interagir e o mouse para cortar. Arraste a máquina ou a tesoura sobre o cabelo, e arraste em um espaço vazio para girar a cabeça."
+    ]
+   ]
+  }
+ },
+ "toy-ramps": {
+  "description": "Corra com pequenos carrinhos de brinquedo por gigantescas pistas de acrobacia de plástico pela casa: pule, dê cambalhotas, role e vença três rivais até a linha de chegada. Toy Ramps é um jogo de corrida de acrobacias com carrinhos de brinquedo em 3D. Pequenos carrinhos de brinquedo disputam corridas por gigantescas pistas de plástico que serpenteiam pela casa: saindo da cama, seguindo pelo balcão da cozinha, contornando o sofá, passando por cima da banheira e chegando ao jardim. Seu carrinho anda para frente sozinho; você o direciona pela pista, decola das rampas, faz cambalhotas e rolamentos no ar e pousa com segurança sobre as rodas para ganhar nitro e moedas de bônus. Cada cômodo tem 20 fases: corridas contra três carrinhos rivais, Stunt Shows, em que as manobras rendem estrelas, e um grande Campeonato que concede um carro Lendário. Isso dá 100 fases em 5 cômodos (Quarto, Cozinha, Sala de Estar, Banheiro e Jardim), com loops, parafusos, plataformas de impulso, xarope pegajoso, sabão escorregadio e obstáculos em movimento. Pegue power-ups pelo caminho: Asas para planar sobre vãos longos, um Foguete, um Ímã para moedas e um Escudo. Colecione e melhore 20 carrinhos de brinquedo e 12 pinturas, corra no Toy Box Run sem fim e numa nova Daily Track todos os dias, e crie suas próprias pistas de acrobacia no Track Builder com 23 peças (rampas, loops, saltos e curvas), depois dispute corridas nelas. Missões diárias, troféus, um presente de 7 dias e uma roleta de prêmios mantêm as recompensas chegando.",
+  "instructions": "Computador: - Direcionar: A / D ou as teclas de seta esquerda / direita, ou segure o botão esquerdo do mouse e arraste para a esquerda / direita. O carrinho anda para frente sozinho. - No ar: W / S ou as teclas de seta para cima / baixo fazem o carrinho dar cambalhotas (ou arraste para cima / baixo), A / D ou esquerda / direita fazem ele rolar; solte e o carrinho se endireita para o pouso. - Nitro: Espaço, ou clique no botão NITRO. - Pausar: P, ou o botão de pausa no canto. - Menus e botões: botão esquerdo do mouse. Track Builder: arraste para girar a câmera, roda do mouse para dar zoom. Celular: - Arraste para a esquerda e para a direita para direcionar; no ar, arraste para cima / baixo para dar cambalhotas e para os lados para rolar; toque em NITRO para ganhar impulso; toque nos botões para acessar os menus. Track Builder: arraste para girar, pinça para dar zoom.",
+  "guide": {
+   "intro": "Toy Ramps é um jogo de corrida de acrobacias em 3D em que você direciona um carrinho de brinquedo por gigantescas pistas de plástico pela casa. Pule, dê cambalhotas e role para passar por três carrinhos rivais até a linha de chegada.",
+   "tips": [
+    "Seu carrinho continua andando para frente sozinho, então concentre sua atenção no direcionamento e no tempo no ar depois de cada rampa.",
+    "Dê cambalhotas no carrinho no ar, mas solte os controles antes de pousar para que ele se endireite e você caia sobre as rodas, garantindo o nitro e as moedas de bônus.",
+    "Pegue Asas antes de vãos longos para planar sobre eles em vez de cair no meio do caminho, e use o Ímã quando um trecho da pista estiver cheio de moedas.",
+    "Fique atento ao xarope pegajoso e ao sabão escorregadio na pista, e planeje seu direcionamento um pouco antes quando vir obstáculos em movimento à frente. Para mais jogos de dirigir, confira [[car-games|mais jogos de carro]].",
+    "Nas Stunt Shows, foque em manobras limpas que terminem com um bom pouso, pois é assim que as manobras rendem estrelas."
+   ],
+   "faq": [
+    [
+     "Como ganho uma corrida em Toy Ramps?",
+     "Chegue à linha de chegada antes dos três carrinhos de brinquedo rivais. Fique na pista, use bem as rampas e o nitro e mantenha seu carrinho sobre as rodas."
+    ],
+    [
+     "Como pousar direito depois de um salto?",
+     "Use W/S ou as teclas de seta para cima e para baixo para dar cambalhotas e A/D ou esquerda e direita para rolar no ar. Solte os controles para que o carrinho se endireite antes de pousar."
+    ]
+   ]
+  }
+ },
+ "grand-city-racing": {
+  "description": "Carros de corrida potentes, opções detalhadas de modificação e corridas difíceis, uma mais dura que a outra, estão esperando por você no jogo Grand City Racing! Existem três modos de jogo: Racing, Challenge e Free Drive. Você pode jogar todos eles sozinho ou em dupla.",
+  "instructions": "Se jogar sozinho: Mover W A S D ou SETAS NOS F Olhar para trás T Ajustar posição do carro R Freio de mão ESPAÇO Se jogar em dupla: Jogador 1: Mover W A S D NOS F Olhar para trás T Ajustar posição do carro R Freio de mão ESPAÇO Jogar",
+  "guide": {
+   "intro": "Grand City Racing é um jogo de corrida 3D com carros potentes, opções de modificação e corridas difíceis. Você pode escolher entre os modos Racing, Challenge e Free Drive, jogando sozinho ou com um amigo no mesmo teclado.",
+   "tips": [
+    "Comece no Free Drive para aprender como seu carro faz curvas, freia e acelera antes de entrar nas corridas mais difíceis.",
+    "Guarde seu NOS para trechos retos ou para um impulso na hora de ultrapassar um rival, já que usá-lo cedo demais pode deixar você sem força quando mais importa.",
+    "Use o freio de mão com ESPAÇO para ajudar seu carro a fazer curvas fechadas e solte-o assim que estiver apontado de volta para a pista.",
+    "Se seu carro ficar preso ou virar na direção errada, pressione R para ajustar a posição dele em vez de perder tempo tentando sair dirigindo.",
+    "Quando você estiver confortável com a direção, veja outros [[car-games|jogos de carro do site]] para continuar praticando suas habilidades de pilotagem."
+   ],
+   "faq": [
+    [
+     "Como jogo no modo para dois jogadores?",
+     "Escolha a opção para dois jogadores. Depois, o Jogador 1 usa W, A, S, D com F para o NOS, T para olhar para trás, R para ajustar a posição do carro e ESPAÇO para o freio de mão."
+    ],
+    [
+     "Qual modo de jogo devo testar primeiro?",
+     "O Free Drive é o melhor lugar para começar, porque você pode explorar o carro sem a pressão da corrida antes de partir para o Racing ou o Challenge."
+    ]
+   ]
+  }
+ },
+ "funnysort": {
+  "description": "FunnySort é um jogo de quebra-cabeça de classificar líquidos colorido e relaxante! Organize os líquidos vibrantes nos frascos de cor correspondente, desafie seu cérebro e resolva quebra-cabeças cada vez mais complicados. Aproveite centenas de níveis, impulsos úteis, recompensas diárias e uma roda da sorte. Fácil de jogar, divertido de dominar!",
+  "instructions": "Toque ou clique em um frasco para selecioná-lo e depois toque em outro frasco para despejar o líquido. Você só pode despejar sobre a mesma cor ou em um frasco vazio, e precisa haver espaço suficiente. Classifique todos os líquidos até que cada frasco contenha apenas uma cor ou fique vazio para completar a fase. Use Desfazer, Dicas e Frascos Extras quando precisar de ajuda!",
+  "guide": {
+   "intro": "FunnySort é um quebra-cabeça de classificar água em que você despeja líquidos coloridos em frascos da mesma cor. Cada fase pede que você separe todas as cores até que cada frasco tenha apenas uma cor ou fique vazio.",
+   "tips": [
+    "Procure um frasco que possa ser esvaziado ou uma cor que possa ser reunida em um único lugar antes de despejar qualquer coisa. Esvaziar um frasco cedo lhe dá mais espaço para as jogadas seguintes.",
+    "Antes de cada despejo, verifique a camada de cima do frasco de destino. Você só pode despejar sobre uma cor correspondente ou em um frasco vazio, então uma camada de cima diferente bloqueia a jogada.",
+    "Use Desfazer assim que uma jogada deixar você preso, em vez de tentar consertar um tabuleiro bagunçado com mais despejos. Voltar atrás costuma ser mais rápido do que rearrumar uma configuração cheia.",
+    "Guarde as Dicas para as fases em que você realmente esgotou as ideias, para que ainda consiga resolver a maioria dos quebra-cabeças sozinho. Se você gosta desse tipo de desafio, também pode explorar [[brain-games|mais jogos de raciocínio para testar]].",
+    "Considere os Frascos Extras como último recurso, já que uma fase fica mais fácil de terminar quando você usa bem os frascos que já tem."
+   ],
+   "faq": [
+    [
+     "Como despejo um líquido de um frasco para outro?",
+     "Toque ou clique em um frasco para selecioná-lo e depois toque em um segundo frasco para despejar. A jogada só funciona se as cores forem iguais ou se o frasco de destino estiver vazio e tiver espaço suficiente."
+    ],
+    [
+     "Como sei quando uma fase foi concluída?",
+     "Uma fase é concluída quando cada frasco contém apenas uma cor ou está vazio. Verifique se nenhum frasco ainda tem uma mistura de cores."
+    ]
+   ]
+  }
+ },
+ "legendary-knight-in-search-of-treasures": {
+  "description": "Um cavaleiro lendário busca um antigo tesouro perdido, dividido em 4 pedaços de mapa escondidos em masmorras perigosas. Ele precisa enfrentar inimigos e desviar de armadilhas para encontrar cada peça. A primeira zona é uma cidade nas montanhas, com slimes e aranhas guardando o primeiro fragmento. Em seguida, uma caverna escura cheia de morcegos e armadilhas para conseguir a segunda peça. Com 2 peças, o cavaleiro segue para uma caverna atrás de uma cachoeira, enfrentando perigos e quebra-cabeças para encontrar a terceira. A peça final está na masmorra do castelo, exigindo toda a sua habilidade para derrotar chefes, resolver enigmas, reunir todas as partes do mapa e revelar a localização do tesouro para o seu maior desafio.",
+  "instructions": "Controles do jogo Teclado - WASD Atirar - C E X Pular - Espaço Z - Teclas de seta Atirar - C X Pular - Espaço Z Joystick Controles por toque em dispositivos móveis",
+  "guide": {
+   "intro": "Legendary Knight: In Search of Treasures é uma aventura de rolagem lateral em que um cavaleiro coleta quatro pedaços de mapa em zonas de masmorras para revelar um tesouro perdido. Cada zona traz seus próprios inimigos, perigos e quebra-cabeças.",
+   "tips": [
+    "Antes de avançar, elimine os inimigos de cada zona para poder explorar sem ser atacado por trás.",
+    "Vá com calma na caverna atrás da cachoeira, onde perigos e quebra-cabeças se misturam, e verifique cada plataforma antes de se arriscar em um pulo.",
+    "Guarde seu foco mais intenso para a masmorra do castelo, onde você precisa derrotar chefes e resolver enigmas em sequência, então planeje seus movimentos em vez de correr.",
+    "Aprenda os dois esquemas de controle logo no início: WASD ou as teclas de seta para se movimentar, com Espaço ou Z para pular e C, E ou X para atirar, assim você pode reagir rápido nas lutas. Se você gosta de resolver problemas, também pode conferir [[puzzle-games|mais jogos de quebra-cabeça e raciocínio]] para praticar."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo do jogo?",
+     "Seu cavaleiro precisa encontrar os quatro pedaços de mapa escondidos nas zonas de masmorras e, em seguida, usá-los para revelar a localização do tesouro perdido."
+    ],
+    [
+     "Quais teclas atiram e pulam?",
+     "Use C, E ou X para atirar e Espaço ou Z para pular. A movimentação funciona com WASD ou com as teclas de seta."
+    ]
+   ]
+  }
+ },
+ "cyber-cars-punk-racing": {
+  "description": "Cyber Cars Punk Racing é um jogo de direção de carros em 3D com carros futuristas e temática cyberpunk. Há superveículos, uma cidade neon e muitos modos de jogo. 16 supercarros, 60 pistas, 2 jogadores, uma área de passeio livre, uma área de Hot Pursuit e um campo de batalha estão esperando por você. Este jogo tem um sistema de compra e evolução de veículos, e você pode correr contra a inteligência artificial ou dirigir livremente. Modos de Jogo Carreira Há muitas áreas nas quais você pode testar suas habilidades no modo carreira. Essas áreas são \"Corrida\", \"Contra o Tempo\", \"Acrobacias\", \"CheckPoint\" e \"Fly Parkour\", respectivamente. Ao completar a corrida, você recebe estrelas de acordo com seu desempenho. Você pode conseguir no máximo 160 estrelas no modo carreira. Há 12 pistas no modo \"Corrida\". Você corre com 7 inteligências artificiais e, se conseguir entrar no top 3 quando a corrida terminar, tem o direito de avançar para a próxima pista. Quando a corrida termina, você ganha dinheiro de acordo com o tempo em que completou a corrida. Além disso, os pontos de drift e de voo que você ganha na corrida também lhe rendem dinheiro. No modo \"Contra o Tempo\", você corre contra o relógio. Há 12 pistas no total. Ao chegar à linha de chegada, você é avaliado de acordo com o momento em que chegou. Conquiste as classificações por estrelas aqui. Com essas estrelas, você poderá comprar novos carros e supercarros. No modo \"Acrobacias\", você precisa chegar à linha de chegada realizando manobras em 12 pistas especialmente projetadas. Chegar à linha de chegada a tempo, permanecendo na pista em percursos desafiadores, exige talento. No modo \"Check Point\", você precisa tentar chegar à linha de chegada superando obstáculos em 12 pistas especialmente projetadas. No modo \"Fly Parkour\", você precisa tentar ficar fora da estrada atingindo velocidades incríveis. Você pode conseguir novos veículos com as estrelas que ganha no modo \"Carreira\". Além disso, com o dinheiro que ganha, pode comprar novos veículos e aumentar a potência do motor. Passeio Livre Prepare-se para passeios livres em uma grande cidade. A área do modo livre contém grandes prédios, ruas amplas, áreas de acrobacias e muitas áreas misteriosas. Há 60 gemas escondidas na cidade. Ao coletar essas gemas, você pode obter novos veículos. A tabela \"Recompensa\" abre a cada 180 segundos. Nessa tabela \"Recompensa\", você ganha dinheiro com base em você",
+  "instructions": "Controles do Jogador 1 Dirigir TECLAS DE SETA ou WASD Nitro N Visão da Câmera C Controles do Jogador 2 Mover WASD Nitro T",
+  "guide": {
+   "intro": "Cyber Cars Punk Racing é um jogo de direção em 3D ambientado em uma cidade neon, com supercarros, vários modos carreira, passeio livre e perseguições policiais. Você pode correr contra oponentes controlados pelo computador ou jogar com um amigo no mesmo teclado.",
+   "tips": [
+    "No modo Corrida, você precisa terminar entre os 3 primeiros para desbloquear a próxima pista, então vale a pena repetir a corrida se terminar em posição mais baixa e guardar seu nitro para o trecho final.",
+    "O seu dinheiro no modo Corrida depende da rapidez com que você termina, e os pontos de drift e de voo somam a isso, então treine drifts e saltos limpos no caminho até a linha de chegada.",
+    "No modo Contra o Tempo, sua classificação por estrelas depende da rapidez com que você chega à linha de chegada, então aprenda o traçado de cada pista antes de tentar fazer um tempo rápido.",
+    "No Passeio Livre, confira a tabela Recompensa a cada 180 segundos e continue fazendo drifts e saltos nesse meio-tempo para que seus pontos sejam maiores quando ela pagar.",
+    "Se você gosta de dividir os controles com um amigo, pode encontrar mais [[2-player-games|jogos para dois jogadores]] no site."
+   ],
+   "faq": [
+    [
+     "Como desbloqueio novas pistas no modo Corrida?",
+     "Você corre contra 7 oponentes de IA em cada uma das 12 pistas, e precisa terminar entre os 3 primeiros para avançar para a próxima."
+    ],
+    [
+     "Para que serve a tecla Nitro?",
+     "O Jogador 1 usa N e o Jogador 2 usa T para ativar o nitro, que dá um impulso de velocidade quando você precisa abrir vantagem."
+    ]
+   ]
+  }
+ },
+ "flying-cars-era": {
+  "description": "Prepare-se para entrar na nova geração dos jogos de carros voadores com o Flying Cars Era! Uma aventura incrível e bem longa está esperando por você. O jogo tem três modos: Free Drive, Challenge e Race. Você pode jogar todos esses modos sozinho ou com 2 jogadores. Há cinco carros voadores que vão acompanhar você neste jogo, e você poderá comprar três deles com os diamantes do jogo. Se quiser deixar sua partida ainda mais divertida, recomendamos fortemente que chame um amigo e jogue no modo de 2 jogadores.",
+  "instructions": "Se jogar sozinho: Mover W A S D ou SETAS; NOS LEFT-SHIFT; Freio de mão ESPAÇO; Reiniciar posição do carro R; Olhar para trás B. Se jogar em dois: Jogador 1: Mover SETAS; NOS RIGHT-SHIFT; Freio de mão P; Reiniciar posição do carro O; Lo",
+  "guide": {
+   "intro": "Flying Cars Era é um jogo de corrida 3D em que você dirige carros que podem decolar. Você pode escolher Free Drive, Challenge ou Race, sozinho ou com um amigo na mesma tela.",
+   "tips": [
+    "Comece com o Free Drive para aprender como seu carro vira, freia e se comporta antes de encarar o Challenge ou o Race.",
+    "Guarde seu impulso de NOS para trechos retos, onde você pode usá-lo por completo, e toque no freio de mão para fazer curvas fechadas.",
+    "Se seu carro ficar em uma posição ruim, use a tecla de reiniciar logo de cara em vez de perder tempo tentando recuperá-lo.",
+    "Para uma sessão mais competitiva, experimente o modo de 2 jogadores e, se você gosta de jogar lado a lado, pode encontrar mais opções em [[2-player-games|jogos para dois jogadores]].",
+    "Fique de olho nos seus diamantes do jogo, já que eles são a forma de comprar três dos cinco carros voadores e podem mudar a sua estratégia em cada modo."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo do Flying Cars Era?",
+     "O jogo oferece os modos Free Drive, Challenge e Race, então seu objetivo depende do modo escolhido. O Race é o modo ideal se você quer competir contra outros carros."
+    ],
+    [
+     "Como controlo o carro no modo para um jogador?",
+     "Use W, A, S, D ou as setas para se mover, Left Shift para o NOS, Espaço para o freio de mão e R para reiniciar a posição do carro."
     ]
    ]
   }
