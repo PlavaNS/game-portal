@@ -245205,5 +245205,103 @@
         "Build and Guess, Build Battle where everyone builds the same word and rates the others, and 3D Telephone where builds and descriptions pass along a chain."
       ]
     ]
+  },
+  "emberwing-skies-of-the-undead": {
+    "intro": "Emberwing puts you on an elemental dragon to clear five skies of undead. You destroy necro spires, thin out zombie hordes, and defeat a boss at the end of each chapter.",
+    "tips": [
+      "Play First Flight before anything else, since its short guided tutorial shows how steering, breath and Strike work together.",
+      "Use Q and E to roll out of attacks rather than tanking hits, and boost with W or Shift to reposition quickly when a horde closes in.",
+      "Save Burst for crowded moments, since it is most useful when zombies are grouped, and keep your charged super for bosses or heavy fights.",
+      "On a phone or tablet, your breath fires automatically at locked targets, so focus your attention on steering and timing your Strike, Burst and Roll buttons.",
+      "If you enjoy clearing undead from the air, you can find more [[shooting-games|aerial shooting challenges]] to sharpen your aim."
+    ],
+    "faq": [
+      [
+        "What is the main goal in each chapter?",
+        "Destroy the necro spires and slay the horde in the chapter, then defeat that chapter's boss to move on."
+      ],
+      [
+        "How do I aim and breathe fire on desktop?",
+        "Move the mouse to steer and aim, then hold the left mouse button to breathe. Use the right mouse button for Strike."
+      ]
+    ]
+  },
+  "pinata-masters": {
+    "intro": "Pinata Masters is an arcade shooter where you aim and fire at floating piñatas, then catch the coins they drop. You spend those coins between rounds to upgrade your stats and unlock stronger weapons.",
+    "tips": [
+      "Drag your aim slightly ahead of a moving piñata so your shots land where it will be, not where it was.",
+      "Keep an eye on your ammo count and aim for the piñata's weak spots early, since you must break it before you run out to pass the level.",
+      "Move your character under falling coins and gems as you go, because the rewards you collect fund every upgrade.",
+      "Between rounds, decide whether to boost Damage, Ammo, or Speed based on what is slowing you down, rather than spreading coins evenly. If you enjoy steady earnings and upgrade loops, you might also like [[idle-and-tycoon-games|idle and tycoon titles]]."
+    ],
+    "faq": [
+      [
+        "How do I aim and fire my weapon?",
+        "Click or tap and drag across the screen to aim, then release to fire at the floating piñata."
+      ],
+      [
+        "What should I upgrade first after a round?",
+        "Spend your coins on Damage, Ammo, or Speed depending on whether you struggle to break piñatas, run out of shots, or respond too slowly."
+      ]
+    ]
+  },
+  "pace-note-rally": {
+    "intro": "Pace Note Rally is a night, fog and rain rally where you race through 24 stages across 8 regions. You can barely see the road, so you follow the pace note cards and your co-driver's calls to take each corner at the right speed.",
+    "tips": [
+      "Read the number on each pace note card before the corner arrives, since a 6 is nearly flat and a 1 is very tight, so you can set your speed early.",
+      "Pay attention to the colour on the cards as well as the number, because the colour shows how dangerous the corner is and tells you when to be most careful.",
+      "Brake before a tight corner rather than in it, and use the handbrake only when the call suggests the car needs to turn sharply.",
+      "If the car leaves the road or you lose your line, use the reset control to get back on track quickly instead of continuing off course.",
+      "Try the wipers when the windscreen gets muddy or rainy, since you can barely see the road and clear vision helps you trust your co-driver's calls. For more fast-paced driving picks, check out [[racing-games|more racing games to try]]."
+    ],
+    "faq": [
+      [
+        "How do I win medals in Pace Note Rally?",
+        "You win medals by reaching the finish as fast as you can on each stage."
+      ],
+      [
+        "How do I steer and control speed?",
+        "Use W and S or the arrow keys to accelerate and brake, and A and D or the arrow keys to steer. Space is the handbrake."
+      ]
+    ]
+  },
+  "deadmart-outbreak-register": {
+    "intro": "DeadMart: Outbreak Register is a 3D action game set in a zombie-infested supermarket. You fight with a katana and bare hands, clearing each level of infected walkers before facing bosses.",
+    "tips": [
+      "Check the 4-directional radar before you move so you know which side has the most zombies. Clear the lighter side first to avoid being surrounded.",
+      "Use slow-motion Blade Mode to slice at any angle when you need to recover health, since it restores full HP. Save it for moments when you are low, not when you are already surrounded.",
+      "Hold the attack button to charge a power dash stab when zombies are spaced out. Tap for quick slashes when enemies are close together.",
+      "Open the tactical map with M to plan a route through the six sectors before pushing into a crowded area. If you enjoy outbreak fights like this, you can find more [[zombie-games|undead survival games]] on the site.",
+      "Parry incoming attacks with right click or Q, and keep your combos going afterward to build pressure on the zombies."
+    ],
+    "faq": [
+      [
+        "How do I advance to the next level?",
+        "Defeat all the infected zombies in the current level to move on. Each completed level gives you a katana power-up and a health boost."
+      ],
+      [
+        "How do I restore health during a fight?",
+        "Slice zombies in slow-motion Blade Mode to restore full HP. You can also press H for a +50 HP boost, which is useful when you are running low."
+      ]
+    ]
+  },
+  "wobbly-boxing": {
+    "intro": "Wobbly Boxing is a light-hearted 3D boxing game where you throw punches and dodge attacks. You can play alone or take on a friend in two-player mode.",
+    "tips": [
+      "Use the dodge keys to step out of a punch rather than only blocking, since both players can keep swinging and the wobbly movement makes timing unpredictable.",
+      "Keep your double punch for openings you can see clearly, because a missed big swing leaves you open to a counter.",
+      "If you are new, practice a few rounds using just the left and right punches to learn how your fighter moves before you add dodges and combos.",
+      "When playing a friend, watch their hands and try to predict their next punch, and do not get locked into one pattern of attacks. If you want more head-to-head options, try these [[2-player-games|games for two players]] next."
+    ],
+    "faq": [
+      [
+        "How do I punch in Player 1 mode?",
+        "Use F for a left punch, G for a right punch, and T for a double punch."
+      ],
+      [
+        "Which keys dodge in two-player mode?",
+        "Player 1 dodges with Q and E, and Player 2 dodges with I and P."
+      ]
+    ]
   }
 }
