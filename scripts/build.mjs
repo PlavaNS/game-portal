@@ -1242,6 +1242,7 @@ ${sgFaqHtml}
     ['Y8', '50% of eligible in-game ad revenue', 'Not stated', 'Managed partnership', 'Not published'],
     ['Kongregate', 'Time-limited 2026 program: 70% of net ad revenue for games approved after April 6, 2026', 'Not stated', 'Apply as a developer, then review in Alpha &rarr; Beta &rarr; Publish', 'Not published'],
     ['YouTube Playables', 'No revenue share published; only YouTube-provided ads are allowed', 'Not stated', 'Early access: interest form, invitation only', '&mdash;'],
+    ['Google GameSnacks', 'A share of the ad revenue GameSnacks earns, set in their developer licensing agreement; percentage not published', 'Not stated', 'Strict technical certification (GameSnacks SDK, no outside calls)', '&mdash;'],
     ['itch.io', 'You choose; default 90% of sales to you', 'No', 'None, upload a zip with index.html', 'Sales and tips only, no ad revenue'],
     ['Game Jolt', 'Marketplace cut of up to 10%, you can set it lower', 'No', 'None, upload a zip', 'Sales only, no ad revenue'],
     ['Newgrounds', 'No ad revenue share at the moment; cash prizes for monthly awards and jams', 'No', 'Community voting', '&mdash;'],
@@ -1253,6 +1254,7 @@ ${sgFaqHtml}
     ['Do I need an SDK?', 'For ad revenue, usually yes. Poki, GamePix, GameMonetize and the CrazyGames Full Launch all require their SDK. Playgama works through its own SDK as well. itch.io, Game Jolt and Newgrounds need nothing: you upload a zip with an index.html.'],
     ['Do portals accept AI-made games?', 'Policies differ and they change. As of late 2026, GameMonetize review notes say it no longer accepts AI-generated games and that repeated low-quality submissions can get an account suspended. Others judge the game itself. Whatever you used to build it, the safest path is a game with real depth, polish and good retention in the first two minutes.'],
     ['What is the fastest way to get first players?', 'itch.io and Newgrounds give you players and feedback within days. Free curated portals that embed your own build, like I Love Web Games, add a page that ranks on Google and a link back to your site. Networks such as Playgama and CrazyGames bring the biggest numbers, but only after their test phase.'],
+    ['What does Google GameSnacks require from an HTML5 game?', 'GameSnacks is Google\'s distribution platform for HTML5 games. Its published requirements say the game must use the GameSnacks Developer SDK and must not load ad tags itself, must not make any external network calls, must not collect user data or use cookies or localStorage, must support 9:16 portrait, must keep every file under 10 MiB, the whole game under 100 MiB and the initial download under 15 MiB, and must not target children. GameSnacks runs the ads and pays developers a share under its licensing agreement; the percentage is not public.'],
     ['Can I get my HTML5 game on YouTube Playables?', 'Only by invitation for now. Google says developer access is in early access and you register interest through the Playables interest form. Games must be fully self-contained (no calls to outside URLs except Google and YouTube APIs), playable in every aspect ratio, with every file under 30 MiB and the whole bundle under 250 MiB.'],
     ['Is Kongregate still open to new web games?', 'Yes, but not as an open upload. You first apply and get approved as a developer, then each game goes through review. Third-party ads, outside microtransaction systems and your own account systems are not allowed; Kongregate provides an API for those.'],
     ['How much does it cost to submit?', 'Nothing. None of the portals in this guide charges a submission or listing fee.'],
@@ -1282,6 +1284,8 @@ ${table}
 <p>Still accepting HTML5 and WebGL games, but you have to apply and be approved as a developer before you can publish, and every game goes through an Alpha, Beta and Publish review. Your game can't carry third-party ads or sponsorships, can't use its own microtransaction or account system (Kongregate's API covers both), and needs an English option. For 2026 they run a time-limited program paying developers 70% of net revenue from banner, interstitial and pre-roll ads for games approved after April 6, 2026. They say it is meant to end later in 2026, so check the current terms.</p>
 <h3>YouTube Playables</h3>
 <p>Games that play right inside YouTube. Access is invitation-only for now: you fill in the Playables interest form and Google decides. The technical bar is strict. The game must be one self-contained single-page app with no calls to outside URLs (only Google and YouTube APIs), it must be playable in every aspect ratio, every file must be under 30 MiB and the whole bundle under 250 MiB, and it can't have its own login or outside links. Only YouTube-provided ads are allowed.</p>
+<h3>Google GameSnacks</h3>
+<p>Google's distribution platform for HTML5 games, which puts games on Google and partner surfaces. GameSnacks monetizes the game itself and pays you a share under its developer licensing agreement; the percentage is not published. The requirements are among the strictest anywhere: you integrate the GameSnacks Developer SDK and may not load any ad tags yourself, the game may not make any external calls or collect user data (saves go through the GameSnacks storage interface, not localStorage or cookies), it must run in 9:16 portrait, every file must be under 10 MiB, the game under 100 MiB and the first download under 15 MiB, and it must reach 30 FPS on a low-end phone. No payments, sponsorships or outside links, and no games aimed at children. A good fit for small, fast casual games built with that in mind.</p>
 <h3>itch.io</h3>
 <p>Upload a zip with an index.html and you are live the same day. There are no ads: you earn from sales or pay-what-you-want tips, and you choose itch.io's cut yourself (the default is 10%). Great for feedback, devlogs and jams, and a good home page for your game.</p>
 <h3>Game Jolt</h3>
@@ -1309,12 +1313,13 @@ ${faq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
 <li>${ext('https://kongregatedevelopers.zendesk.com/hc/en-us/articles/44770578988429', 'Kongregate: 2026 Welcome Back revenue share program')}</li>
 <li>${ext('https://developers.google.com/youtube/gaming/playables', 'YouTube Playables for developers')}</li>
 <li>${ext('https://developers.google.com/youtube/gaming/playables/certification/requirements', 'YouTube Playables certification requirements')}</li>
+<li>${ext('https://developers.google.com/gamesnacks/developer/requirements', 'Google GameSnacks requirements')}</li>
 <li>${ext('https://itch.io/updates/introducing-open-revenue-sharing', 'itch.io: open revenue sharing')}</li>
 <li>${ext('https://www.mcvuk.com/development/indie-community-game-jolt-launches-dedicated-marketplace', 'MCV: Game Jolt marketplace revenue split')}</li>
 <li>${ext('https://newgrounds.wiki.gg/wiki/Revenue_Sharing', 'Newgrounds wiki: revenue sharing')}</li>
 </ul>
-<p class="muted">Last updated: 24 November 2026 (added Kongregate and YouTube Playables).</p>`,
-    'Where to publish an HTML5 game in 2026: Poki, CrazyGames, Playgama, GamePix, GameMonetize, Kongregate, YouTube Playables, itch.io, Game Jolt and Newgrounds compared. Revenue share, exclusivity, review and payouts.',
+<p class="muted">Last updated: 24 November 2026 (added Kongregate, YouTube Playables and Google GameSnacks).</p>`,
+    'Where to publish an HTML5 game in 2026: Poki, CrazyGames, Playgama, GamePix, GameMonetize, Kongregate, YouTube Playables, Google GameSnacks, itch.io, Game Jolt and Newgrounds compared. Revenue share, exclusivity, review and payouts.',
     [faqLd, artLd], 0.8);
 }
 {
@@ -1427,7 +1432,7 @@ ${activeCats.map(c => `- [${c.h1}](${abs(cHref(c.slug).replace(B, ''))})`).join(
 
 ${Object.keys(ARTICLES).length ? `## Guides\n- [Game guides and tips](${abs('/guides/')}): original articles on how to get better at, start with and tell apart each kind of game on the site\n\n` : ''}## For game developers
 - [Submit your HTML5 game](${abs('/submit-game/')}): free and non-exclusive. A real person plays every submission; accepted games get their own page with credit and a link back to the developer, and stay embedded from the developer's own URL with their own ads. Games on Playgama, GameMonetize or GamePix earn the developer their network share for every play on the site.
-- [Where to publish your HTML5 game](${abs('/publish-html5-game/')}): Poki, CrazyGames, Playgama, GamePix, GameMonetize, Kongregate, YouTube Playables, itch.io, Game Jolt and Newgrounds compared side by side: revenue share, exclusivity, review and payouts.
+- [Where to publish your HTML5 game](${abs('/publish-html5-game/')}): Poki, CrazyGames, Playgama, GamePix, GameMonetize, Kongregate, YouTube Playables, Google GameSnacks, itch.io, Game Jolt and Newgrounds compared side by side: revenue share, exclusivity, review and payouts.
 
 ## Games made by ${cfg.studio}
 ${ownG.map(line).join('\n')}
