@@ -1241,6 +1241,7 @@ ${sgFaqHtml}
     ['GameMonetize', '45% (90% if you also own the site it plays on)', 'No', 'Manual review by their testers', '$30, PayPal or USDT, Net 30'],
     ['Y8', '50% of eligible in-game ad revenue', 'Not stated', 'Managed partnership', 'Not published'],
     ['Kongregate', 'Time-limited 2026 program: 70% of net ad revenue for games approved after April 6, 2026', 'Not stated', 'Apply as a developer, then review in Alpha &rarr; Beta &rarr; Publish', 'Not published'],
+    ['Armor Games', 'Deal by agreement: paid branding (their logo and links), in-game purchases through their API, or timed site exclusivity; no percentage published', 'Optional: timed site exclusivity is one of their best-paying options', 'Email the game to mygame@armorgames.com; HTML5 only (iframe for multiplayer or MMO)', 'Not published'],
     ['YouTube Playables', 'No revenue share published; only YouTube-provided ads are allowed', 'Not stated', 'Early access: interest form, invitation only', '&mdash;'],
     ['Google GameSnacks', 'A share of the ad revenue GameSnacks earns, set in their developer licensing agreement; percentage not published', 'Not stated', 'Strict technical certification (GameSnacks SDK, no outside calls)', '&mdash;'],
     ['itch.io', 'You choose; default 90% of sales to you', 'No', 'None, upload a zip with index.html', 'Sales and tips only, no ad revenue'],
@@ -1257,10 +1258,11 @@ ${sgFaqHtml}
     ['What does Google GameSnacks require from an HTML5 game?', 'GameSnacks is Google\'s distribution platform for HTML5 games. Its published requirements say the game must use the GameSnacks Developer SDK and must not load ad tags itself, must not make any external network calls, must not collect user data or use cookies or localStorage, must support 9:16 portrait, must keep every file under 10 MiB, the whole game under 100 MiB and the initial download under 15 MiB, and must not target children. GameSnacks runs the ads and pays developers a share under its licensing agreement; the percentage is not public.'],
     ['Can I get my HTML5 game on YouTube Playables?', 'Only by invitation for now. Google says developer access is in early access and you register interest through the Playables interest form. Games must be fully self-contained (no calls to outside URLs except Google and YouTube APIs), playable in every aspect ratio, with every file under 30 MiB and the whole bundle under 250 MiB.'],
     ['Is Kongregate still open to new web games?', 'Yes, but not as an open upload. You first apply and get approved as a developer, then each game goes through review. Third-party ads, outside microtransaction systems and your own account systems are not allowed; Kongregate provides an API for those.'],
+    ['Does Armor Games still accept HTML5 games?', 'Yes. Armor Games says it currently accepts only HTML5 games, plus iframe hosting for multiplayer games and MMOs. You send the game by email to mygame@armorgames.com. Instead of a fixed revenue share it offers paid branding, in-game purchases through its API, or a better-paid timed site exclusivity deal; the percentages are not public.'],
     ['How much does it cost to submit?', 'Nothing. None of the portals in this guide charges a submission or listing fee.'],
   ];
   const faqLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) };
-  const artLd = { '@context': 'https://schema.org', '@type': 'Article', headline: 'Where to publish your HTML5 game: portals compared', dateModified: '2026-11-24', author: { '@type': 'Organization', name: cfg.studio }, publisher: { '@type': 'Organization', name: cfg.name, url: cfg.url } };
+  const artLd = { '@context': 'https://schema.org', '@type': 'Article', headline: 'Where to publish your HTML5 game: portals compared', dateModified: '2026-11-25', author: { '@type': 'Organization', name: cfg.studio }, publisher: { '@type': 'Organization', name: cfg.name, url: cfg.url } };
   textPage('publish-html5-game', 'Where to Publish Your HTML5 Game', `<p class="lead">You finished a browser game. Now where do you put it so people play it and it earns something? Here are the main HTML5 game portals side by side: what you earn, whether they want exclusivity, and how you get in. Checked in November 2026, with sources linked at the bottom.</p>
 <p class="muted">We run one of these portals ourselves (${esc(cfg.name)}), so we say where we fit and where we don't. Terms change: check each portal's own page before you sign anything.</p>
 <h2>The short version</h2>
@@ -1282,6 +1284,8 @@ ${table}
 <p>Developers in their managed partnership receive 50% of eligible advertising revenue from in-game ads.</p>
 <h3>Kongregate</h3>
 <p>Still accepting HTML5 and WebGL games, but you have to apply and be approved as a developer before you can publish, and every game goes through an Alpha, Beta and Publish review. Your game can't carry third-party ads or sponsorships, can't use its own microtransaction or account system (Kongregate's API covers both), and needs an English option. For 2026 they run a time-limited program paying developers 70% of net revenue from banner, interstitial and pre-roll ads for games approved after April 6, 2026. They say it is meant to end later in 2026, so check the current terms.</p>
+<h3>Armor Games</h3>
+<p>One of the classic web game portals, and it still takes HTML5 games (multiplayer games and MMOs can be hosted in an iframe). There is no upload form: you email the game and a way to play it to mygame@armorgames.com. Their developer docs list three kinds of deal instead of a fixed revenue share: payment for adding Armor Games branding and links to your game, in-game purchases through the Armor Games API, and timed site exclusivity, which they call one of their highest-paying options, in exchange for branding all future versions and a limited exclusive period. Percentages, payouts and review times are not published, so ask before you agree.</p>
 <h3>YouTube Playables</h3>
 <p>Games that play right inside YouTube. Access is invitation-only for now: you fill in the Playables interest form and Google decides. The technical bar is strict. The game must be one self-contained single-page app with no calls to outside URLs (only Google and YouTube APIs), it must be playable in every aspect ratio, every file must be under 30 MiB and the whole bundle under 250 MiB, and it can't have its own login or outside links. Only YouTube-provided ads are allowed.</p>
 <h3>Google GameSnacks</h3>
@@ -1311,6 +1315,7 @@ ${faq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
 <li>${ext('https://www.bountyboard.gg/blog/how-to-monetize-an-html5-game', 'Bountyboard: HTML5 game revenue shares (Y8, GamePix history)')}</li>
 <li>${ext('https://blog.kongregate.com/hc/en-us/articles/44395849259661', 'Kongregate: 7-step game publishing process')}</li>
 <li>${ext('https://kongregatedevelopers.zendesk.com/hc/en-us/articles/44770578988429', 'Kongregate: 2026 Welcome Back revenue share program')}</li>
+<li>${ext('https://developers.armorgames.com/docs/introduction/overview', 'Armor Games developer docs: overview')}</li>
 <li>${ext('https://developers.google.com/youtube/gaming/playables', 'YouTube Playables for developers')}</li>
 <li>${ext('https://developers.google.com/youtube/gaming/playables/certification/requirements', 'YouTube Playables certification requirements')}</li>
 <li>${ext('https://developers.google.com/gamesnacks/developer/requirements', 'Google GameSnacks requirements')}</li>
@@ -1318,8 +1323,8 @@ ${faq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
 <li>${ext('https://www.mcvuk.com/development/indie-community-game-jolt-launches-dedicated-marketplace', 'MCV: Game Jolt marketplace revenue split')}</li>
 <li>${ext('https://newgrounds.wiki.gg/wiki/Revenue_Sharing', 'Newgrounds wiki: revenue sharing')}</li>
 </ul>
-<p class="muted">Last updated: 24 November 2026 (added Kongregate, YouTube Playables and Google GameSnacks).</p>`,
-    'Where to publish an HTML5 game in 2026: Poki, CrazyGames, Playgama, GamePix, GameMonetize, Kongregate, YouTube Playables, Google GameSnacks, itch.io, Game Jolt and Newgrounds compared. Revenue share, exclusivity, review and payouts.',
+<p class="muted">Last updated: 25 November 2026 (added Armor Games; Kongregate, YouTube Playables and Google GameSnacks added 24 November).</p>`,
+    'Where to publish an HTML5 game in 2026: Poki, CrazyGames, Playgama, GamePix, GameMonetize, Kongregate, Armor Games, YouTube Playables, Google GameSnacks, itch.io, Game Jolt and Newgrounds compared. Revenue share, exclusivity, review and payouts.',
     [faqLd, artLd], 0.8);
 }
 {
@@ -1432,7 +1437,7 @@ ${activeCats.map(c => `- [${c.h1}](${abs(cHref(c.slug).replace(B, ''))})`).join(
 
 ${Object.keys(ARTICLES).length ? `## Guides\n- [Game guides and tips](${abs('/guides/')}): original articles on how to get better at, start with and tell apart each kind of game on the site\n\n` : ''}## For game developers
 - [Submit your HTML5 game](${abs('/submit-game/')}): free and non-exclusive. A real person plays every submission; accepted games get their own page with credit and a link back to the developer, and stay embedded from the developer's own URL with their own ads. Games on Playgama, GameMonetize or GamePix earn the developer their network share for every play on the site.
-- [Where to publish your HTML5 game](${abs('/publish-html5-game/')}): Poki, CrazyGames, Playgama, GamePix, GameMonetize, Kongregate, YouTube Playables, Google GameSnacks, itch.io, Game Jolt and Newgrounds compared side by side: revenue share, exclusivity, review and payouts.
+- [Where to publish your HTML5 game](${abs('/publish-html5-game/')}): Poki, CrazyGames, Playgama, GamePix, GameMonetize, Kongregate, Armor Games, YouTube Playables, Google GameSnacks, itch.io, Game Jolt and Newgrounds compared side by side: revenue share, exclusivity, review and payouts.
 
 ## Games made by ${cfg.studio}
 ${ownG.map(line).join('\n')}
