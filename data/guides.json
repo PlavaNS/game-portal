@@ -244864,5 +244864,221 @@
         "Use C, E, or X to fire and Space or Z to jump. Movement works with WASD or the arrow keys."
       ]
     ]
+  },
+  "carletto-dreams-adventure": {
+    "intro": "Carletto Dreams Adventure is a puzzle platformer where you explore floating islands inside Carletto's dreams. You collect Dream Stars, use a telescope to find hidden paths, and work through 16 levels that end with a boss challenge.",
+    "tips": [
+      "Hold the jump key instead of tapping it when you need to reach a higher ledge, since holding gives a higher jump.",
+      "Hold the telescope key before you step into a new area, so you can spot invisible bridges and clues before you commit to a route.",
+      "Push crates by walking into them, and plan their position first so they do not block a path you need later.",
+      "Stand near switches, levers, pipes and mirrors and press the interact key, then check what changed nearby before moving on.",
+      "If you enjoy timed jumps across gaps, [[parkour-and-obby-games|more platform challenges like these]] are worth exploring after you finish a few levels."
+    ],
+    "faq": [
+      [
+        "How do I reveal hidden bridges and secret paths?",
+        "Hold Z or E to use the telescope, which reveals hidden objects and clues in the area around you."
+      ],
+      [
+        "How do I make Carletto jump higher?",
+        "Hold the jump key (Space, Up arrow or W) for a higher jump instead of tapping it quickly."
+      ]
+    ]
+  },
+  "ghost-run": {
+    "intro": "Ghost Run is a one-tap flying game where you guide a small ghost between pillars, collect coins, and reach the finish line. Your best previous attempt races alongside you as a golden ghost.",
+    "tips": [
+      "Tap in short, steady bursts instead of holding the input, so the ghost stays level and can pass through the middle of each gap.",
+      "Start each level by watching the first few pillars before you commit to a rhythm, since the gaps are the same kind of challenge you will repeat for the whole run.",
+      "Plan your route around coins when they sit close to a safe path, but do not swerve into a pillar just to collect one, because finishing the level matters more.",
+      "On race levels, keep your golden ghost in view and adjust your flapping to stay ahead of it, rather than focusing only on the pillars in front of you.",
+      "If you enjoy timing jumps through obstacle courses, you may also like [[parkour-and-obby-games|more obstacle course games]] that reward the same kind of precise timing."
+    ],
+    "faq": [
+      [
+        "What is the goal of each level?",
+        "Fly the ghost between the pillars, collect coins along the way, and reach the finish line."
+      ],
+      [
+        "What controls do I use to flap?",
+        "Tap, click, or press Space to flap. Each press lifts the ghost so you can steer through the gaps."
+      ]
+    ]
+  },
+  "battle-sandbox-playground": {
+    "intro": "Battle Sandbox Playground is a physics-based military sandbox with toy soldiers, tanks, and helicopters. You can build your own battlefield or start a ready-made scenario, then watch the AI armies fight or join in as a soldier.",
+    "tips": [
+      "Pause with Space before you press play so you can check positions and adjust your setup. Small changes to where you place troops and vehicles can change how a battle unfolds.",
+      "Try a ready-made combat scenario first to see how the armies behave, then build your own battlefield with similar units to compare results.",
+      "Switch to slow motion to watch explosions and ragdoll physics up close. This makes it easier to see which objects are destructible and how your units react to hits.",
+      "Take control of a soldier in Play mode and practice moving with A/D, jumping with W, and aiming with the mouse before you try a larger fight. Shooting with left-click or J becomes easier once you get used to the aim.",
+      "If you like vehicle-heavy fights, you can explore more titles in the [[tank-and-war-games|tank and war game collection]] for similar combat ideas."
+    ],
+    "faq": [
+      [
+        "How do I switch between building and fighting?",
+        "Press P to toggle between Build and Play modes. In Play mode you can click a soldier to take control of it."
+      ],
+      [
+        "How do I move objects I have placed on the battlefield?",
+        "Click and drag an object to move it. To remove the selected object, press Delete."
+      ]
+    ]
+  },
+  "knights-and-goblins-merge": {
+    "intro": "Knights & Goblins: Merge is a grid puzzle where you combine knights into stronger units, then watch your army fight goblins in an automatic battle. Smart placement decides most of your results.",
+    "tips": [
+      "Keep melee units in front and archers or healers behind them, since archers hit harder when they are protected by a front line.",
+      "Merge identical units whenever you can, because a higher-level knight is usually worth more than two weaker ones spread across the grid.",
+      "Avoid packing too many units into one tight line, since barrels and dynamite are designed to punish crowded formations.",
+      "Save your battle spells like Fireball, Heal and Battle Cry for the moments mid-fight when your front line is under the most pressure. If you enjoy combining pieces, you can explore more [[merge-games|merge puzzles to compare]].",
+      "Use the S key to speed up battles you have already tested and the P key to pause when you need a moment to think about your next move."
+    ],
+    "faq": [
+      [
+        "How do I merge knights into a stronger unit?",
+        "Drag one knight onto an identical knight on the grid. Units can be merged up to level 10."
+      ],
+      [
+        "Where should I place my archers during a fight?",
+        "Put them behind your melee units, because they hit harder when a front line of knights and lancers is between them and the goblins."
+      ]
+    ]
+  },
+  "veggie-battle": {
+    "intro": "Veggie Battle is a physics brawler where floppy ragdoll vegetables fight through story levels, endless Arcade runs, and a free-form Sandbox. Use weapons, traps, and jumps to beat enemies and reach the flag.",
+    "tips": [
+      "Hold the attack button for a strong hit instead of tapping it, so you can knock enemies back when they are close to a ledge or trap.",
+      "Since every hit and explosion is physics-driven, watch how fighters tumble before you move in, and position yourself where a swing will send enemies into hazards.",
+      "Free captured friends on your way to the flag, since rescuing them is part of finishing each level.",
+      "On rope puzzles, swipe across the rope in one clean motion to cut it, and check where the falling object or platform will land first.",
+      "If you enjoy experimenting with how objects fall and collide, try [[physics-games|other physics-driven games]] to see more ways that motion can shape a fight."
+    ],
+    "faq": [
+      [
+        "What is the main goal of each level?",
+        "Beat the enemies, free any captured friends, and reach the flag at the end of the level."
+      ],
+      [
+        "How do I make a stronger attack on desktop?",
+        "Hold the F key or the left mouse button to land a strong hit instead of a quick one."
+      ]
+    ]
+  },
+  "satis-coloring-journal": {
+    "intro": "Satis Coloring Journal is a calm draw-and-color puzzle set in a cute notebook. You trace dotted outlines, then pick colors and fill each part of the picture to build up your finished art.",
+    "tips": [
+      "Trace the dotted line slowly and stop exactly at the end dot, since going past it leaves an extra line that can hurt your result.",
+      "Think about what each part of the picture would really look like, such as a fox's fur or a duck's bill, before you choose a color.",
+      "Check each area's color before you rub to fill it, because a wrong color lowers your accuracy and aiming for 100% depends on getting every part right.",
+      "If you make a mistake, use Undo to step back rather than restarting the whole picture.",
+      "Finished pictures are saved in your Gallery, so you can look back at your work, and you can try [[coloring-and-drawing-games|other coloring and drawing games]] if you enjoy this style."
+    ],
+    "faq": [
+      [
+        "How do I get 100% accuracy on a picture?",
+        "Choose the correct color for every part of the picture, since right colors raise your accuracy and wrong ones lower it."
+      ],
+      [
+        "What happens if I drag the pen past the end dot?",
+        "Drawing too far leaves an extra line, so stop right at the end dot when you finish each dotted line."
+      ]
+    ]
+  },
+  "city-taxi-driver-sim": {
+    "intro": "City Taxi Driver Sim puts you behind the wheel of a taxi in a busy city. You drive through realistic scenes, pick up passengers, and earn enough money to keep your taxi running.",
+    "tips": [
+      "Use the E key to open the map early so you know where your next passenger is before you start driving.",
+      "Keep your eyes on the road and follow traffic rules at every junction, since obeying them is a core part of the game.",
+      "Use Space to brake before turns and stops instead of braking late, which helps you stay in control in busy traffic.",
+      "Avoid drinking and driving, because the game treats it as a serious crime and the police will arrest you.",
+      "If you enjoy steering through city streets, you can find more options in our [[car-games|collection of car games]]."
+    ],
+    "faq": [
+      [
+        "How do I earn money in City Taxi Driver Sim?",
+        "You earn money by taking passengers to their destinations, and enough earnings lets you get a new taxi. Your taxi is yours to keep once you have it."
+      ],
+      [
+        "What happens if I break the law while driving?",
+        "Drunk driving is treated as a very serious crime, and the police will arrest you. Following traffic rules keeps you out of trouble."
+      ]
+    ]
+  },
+  "push-the-colors": {
+    "intro": "Push the Colors is a 3D casual game where you steer a group of colorful cubes past squares, obstacles, and color gates to the finish line. You then face a giant color monster, and your cube count decides the fight.",
+    "tips": [
+      "Treat the color gates as choices: pick the ones that add cubes to your group, since a bigger group is what gives you the power to win the final push.",
+      "Watch the obstacles ahead and shift left or right early, so you keep as many cubes together as possible instead of losing them at the last moment.",
+      "Save your push for the giant at the end, because the monster is beaten by having many cubes rather than by pressing the push key early.",
+      "If you play with a friend, split the controls between your two sets of arrow keys and talk about which gates to take, just like the game's two-player mode. You can find more [[2-player-games|two-player games here]] to try together."
+    ],
+    "faq": [
+      [
+        "What is the main goal in Push the Colors?",
+        "Get your cubes to the finish line, then challenge the giant color monster at the end."
+      ],
+      [
+        "How do I move my cubes?",
+        "Player 1 uses A and D or the left and right arrow keys, and Player 2 uses the arrow keys. Push at the end with W or the up arrow in 1P mode, or the up arrow for Player 2."
+      ]
+    ]
+  },
+  "crash-of-cars": {
+    "intro": "Crash Of Cars is a 3D arcade car war game with cartoon-style graphics. You drive tanks, supercars, and trucks in Time Trial and Assault modes, unlocking new vehicles as you destroy enemies.",
+    "tips": [
+      "Try both Time Trial and Assault modes early so you can see how each one plays before you commit to a strategy.",
+      "Switch between the tank, supercar, and truck to find which vehicle handles best for you, since each one drives differently.",
+      "Use the Space key to activate your skill at moments when enemies are close, instead of saving it without a plan.",
+      "Clear all the enemy vehicles in a round when you can, because destroying every one is how you unlock more vehicles. If you enjoy battle-focused play, [[tank-and-war-games|tank and war games]] offer a similar style of combat."
+    ],
+    "faq": [
+      [
+        "How do I move my vehicle?",
+        "Tap and slide on the screen to move. Keep your movements smooth so you stay in control while you aim and avoid enemies."
+      ],
+      [
+        "How do I unlock new vehicles?",
+        "You unlock more vehicles by destroying all the enemy vehicles in the game. Focus on clearing the enemies fully rather than leaving a few behind."
+      ]
+    ]
+  },
+  "ludo-game-multiplayer": {
+    "intro": "Ludo Game Multiplayer is a classic race board game where you roll the dice and move your four tokens around the board to the center. It is played with other players and relies heavily on luck, with some room for smart choices.",
+    "tips": [
+      "Wait for a six before you bring tokens out, since you need one to put a token on the board.",
+      "Use the star-marked squares as safe spots, especially when opponent tokens are close behind yours and about to move past.",
+      "Look for chances to land on an opponent's token, because that sends it all the way back to the start.",
+      "When you have several tokens on the board, think about which one to move each turn instead of always moving the same piece. For more classic board games to try, visit [[chess-and-board-games|more classic board games]]."
+    ],
+    "faq": [
+      [
+        "How do I win a game of Ludo Game Multiplayer?",
+        "You win by moving all four of your tokens around the board and into the center."
+      ],
+      [
+        "How do I roll the dice?",
+        "On a PC, click the dice with the left mouse button. On mobile, tap the dice."
+      ]
+    ]
+  },
+  "stickman-bros-in-fruit-island-3": {
+    "intro": "Stickman Bros In Fruit Island 3 is an adventure where three stickman brothers explore Fruitland. Your task is to collect strawberries and apples as you move through the island.",
+    "tips": [
+      "Before you start, check which keys belong to each brother, since Player 1 uses A, D and W, while Player 3 uses J, L and I. Mixing them up is an easy way to lose track of who you are controlling.",
+      "Look ahead before each jump so you can line up the landing and grab nearby strawberries and apples on the way instead of backtracking later.",
+      "If you are playing with others, agree on who collects which fruit so the brothers do not all chase the same items.",
+      "Take your time when exploring the island, because the fruit is spread around the map and rushing can make you miss items you could have collected easily. If you enjoy fruit-collecting challenges, you can find [[fruit-games|more fruit-collecting games]] to try next."
+    ],
+    "faq": [
+      [
+        "What is the goal of Stickman Bros In Fruit Island 3?",
+        "Your task is to collect strawberries and apples while exploring Fruitland with the three stickman brothers."
+      ],
+      [
+        "How do I control the three brothers?",
+        "Player 1 moves with A and D and jumps with W, Player 3 moves with J and L and jumps with I, and Player 2 has its own move and jump controls listed in the instructions."
+      ]
+    ]
   }
 }
