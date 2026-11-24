@@ -244169,22 +244169,27 @@
     ]
   },
   "legend-court": {
-    "intro": "Legend Court mixes quick basketball matches with player card packs. You play 1 vs 1 or 3 vs 3, then build your roster and move through a story set on neighborhood courts.",
+    "intro": "Legend Court is a 2D street basketball game with fast 1v1 and 3v3 matches, a roster of 60+ collectible players including legends with their own special powers, and live online duels in ranked leagues. You can start straight away as a guest, and the game works on desktop and on phones in landscape.",
     "tips": [
-      "Use your on-screen controls to pass, shoot, and defend, and practice each one in a short match before you rely on it in a close game.",
-      "Pay attention to whether you are on offense or defense, since the same moves that score for you can leave you open when you are defending.",
-      "Open your packs between matches and check which players fit your current lineup before you swap anyone out, so your team stays balanced.",
-      "If you want more practice with team strategy, try [[building-games|building and crafting games]] to see how other games reward planning ahead.",
-      "In 3 vs 3 matches, keep the ball moving with passes so the defense has to shift, rather than holding it for a single player to attempt a shot."
+      "On a keyboard, WASD or the arrows move, Shift is turbo, J shoots or steals, K dunks or blocks, L does a dribble move and U fires your player's power. On mobile you get an on-screen joystick and buttons.",
+      "J does two jobs: shoot on offence, steal on defence. Do not spam it on defence, a missed steal leaves your man free.",
+      "Use L to shake a defender before you shoot, and K near the rim for a dunk instead of a jump shot.",
+      "Turbo is limited, so save Shift for breaks to the basket and getting back on defence.",
+      "The U power is what makes the legend players special. Save it for a tight moment rather than firing it at the start of a match.",
+      "If the game opens in Spanish, switch to English in Settings > Language."
     ],
     "faq": [
       [
-        "How do I start a match?",
-        "Press PLAY to start a match. You can choose between quick 1 vs 1 and 3 vs 3 games."
+        "Do I need an account to play Legend Court?",
+        "No, you can play instantly as a guest."
       ],
       [
-        "What do I do with the player cards?",
-        "Open packs to collect players, then build your roster between matches to shape the team you take onto the court."
+        "How do I change the language?",
+        "Open Settings > Language and choose English."
+      ],
+      [
+        "What are legend players?",
+        "Rare players you collect from packs. Each has a unique power that you trigger with U on a keyboard."
       ]
     ]
   },
@@ -245078,6 +245083,126 @@
       [
         "How do I control the three brothers?",
         "Player 1 moves with A and D and jumps with W, Player 3 moves with J and L and jumps with I, and Player 2 has its own move and jump controls listed in the instructions."
+      ]
+    ]
+  },
+  "fuzeborn": {
+    "intro": "Fuzeborn is a pixel-art creature card game built on a simple type triangle: Ember beats Leaf, Leaf beats Tide and Tide beats Ember. You open packs to fill a 30-creature binder, experiment in the Fuze Pit, then take a 15-card army into the Home Front campaign, where both sides pick a card at the same time and the higher power takes the pair.",
+    "tips": [
+      "Learn the triangle before your first battle. In a duel you can see the rival's card types but not their power, so picking the type that beats theirs is your best edge.",
+      "Use the Fuze Pit early. Dropping two different cards in can reveal a new recipe, and fusing two copies of the same creature makes a single stronger card, which is how weak duplicates from packs become useful.",
+      "Build your 15-card army with all three types in it. An army stacked on one type gets punished by any rival that leans on the type that beats it.",
+      "Keep a few high-power cards back for wars. A tie starts a war for the whole pile, and that is where a big card wins you several cards at once.",
+      "Winning a battle lets you take spoils from the rival's deck, so a campaign win also improves your binder for the next fight."
+    ],
+    "faq": [
+      [
+        "How do battles work in Fuzeborn?",
+        "You and the rival each choose one of the three cards in hand at the same time and flip. The higher power takes both cards; a tie starts a war over the whole pile."
+      ],
+      [
+        "What is the Fuze Pit?",
+        "It is where you combine cards: put in two different cards to discover recipes, or two copies of one creature to make a stronger version."
+      ],
+      [
+        "Is Fuzeborn the full game?",
+        "This is a free demo that contains the full Home Front campaign."
+      ]
+    ]
+  },
+  "swishes-io": {
+    "intro": "Swishes.io is a 3D pickup basketball game with three ways to play: a half-court one-on-one game to 11, 3v3 to 21 and full-court 5v5. You control one player while teammates and opponents move around you, and the keyboard control set goes deeper than most browser sports games, with pump fakes, crossovers, alley-oops and picks.",
+    "tips": [
+      "Press H in a game to see every control. The ones that matter most are Space to shoot, I, J, K and L for dribble moves, F to pass, G for an alley-oop and V to set a pick.",
+      "A short tap of Space is a pump fake, not a shot. Use it to get a defender in the air, then hold Space for the real jumper.",
+      "Save Shift sprint for fast breaks and getting back on defence. Sprinting into a set defence usually just runs you into a block.",
+      "Try the shootaround before playing online. It is the quickest way to get a feel for how long to hold Space on your jumper.",
+      "In 3v3 and 5v5, set a pick with V for the ball handler and roll to the basket. A G alley-oop to a cutting teammate is the most reliable easy bucket."
+    ],
+    "faq": [
+      [
+        "What game modes does Swishes.io have?",
+        "Half-court one-on-one to 11, 3v3 to 21, full-court 5v5, a shootaround for practice and an online mode against real players."
+      ],
+      [
+        "How do I pump fake in Swishes.io?",
+        "Press Space briefly. Holding Space takes the real shot."
+      ],
+      [
+        "Can I make my own player?",
+        "Yes, the player builder lets you shape a baller from presets such as Sharpshooter or Playmaker."
+      ]
+    ]
+  },
+  "santas-rooftop-rush": {
+    "intro": "Santa's Rooftop Rush is a one-tap Christmas runner across the roofs of Snowy Village. Santa runs by himself and drops presents down every chimney he passes, so your only job is timing jumps and double-jumps. Each level asks you to visit a set number of houses and hides three lost elves, and the map climbs through several worlds with boss fights and Sleigh Ride stages.",
+    "tips": [
+      "Tap once to jump and tap again in mid-air for the double-jump. Most gaps are cleared with a late second tap, not a quick double tap.",
+      "Hitting a snowman or another obstacle costs a spare present, so a clean run matters more than speed when a level asks for many houses.",
+      "Look for the three hidden elves in each level. They are often on higher roofs, which means taking the riskier double-jump route.",
+      "Rescued elves unlock new hats for Santa, so replaying an early level to find a missed elf is worth it.",
+      "In Sleigh Ride levels the control changes: drag up and down to fly instead of tapping to jump."
+    ],
+    "faq": [
+      [
+        "How do I deliver presents?",
+        "You do not need to: presents drop down the chimneys automatically as Santa runs past each house."
+      ],
+      [
+        "Is there an endless mode?",
+        "Yes, an Endless mode opens later, along with a Workshop."
+      ],
+      [
+        "How do I control the sleigh?",
+        "In Sleigh Ride levels, drag up and down to steer the sleigh through the sky."
+      ]
+    ]
+  },
+  "planet-pounce": {
+    "intro": "Planet Pounce is a one-button space game about an astronaut cat. Every planet spins, and when you tap, the cat leaps in whatever direction it is facing at that moment, so each jump is a timing puzzle. Levels start in Zone 1, Milk Way, and run across five zones, with three star goals per level.",
+    "tips": [
+      "Watch one full rotation before your first jump on a new planet. Tap when the cat is pointing at the next planet, not when it is already passing it.",
+      "Each level has three star goals, such as finishing, collecting every space fish and beating the par time. Go for the finish first, then replay for the fish and the time.",
+      "Quick hops in a row build combo points, so once you know a level, chaining jumps without waiting is how you push the score.",
+      "Spike planets show up in later zones. Make sure you land on the safe side, and wait an extra rotation if the angle looks wrong.",
+      "Stars unlock progress, and the six suits plus the Endless mode give you a reason to go back for three stars on earlier levels."
+    ],
+    "faq": [
+      [
+        "How do you play Planet Pounce?",
+        "Tap, click or press Space to jump. The cat leaps in the direction it faces at that moment, so time the tap so it points at the next planet."
+      ],
+      [
+        "What happens if I miss a planet?",
+        "The cat drifts off into space and you restart the level."
+      ],
+      [
+        "How many zones are there?",
+        "Five, starting with Milk Way, plus an Endless mode."
+      ]
+    ]
+  },
+  "formfieber": {
+    "intro": "FormFieber is a 3D party guessing game for 2 to 12 players. One player builds a secret word out of cubes, spheres, cylinders and cones, and everyone else races to guess it in the chat. Besides Build and Guess it has Build Battle and 3D Telephone, and it needs other players, so bring friends or join a public room.",
+    "tips": [
+      "This game needs at least two people. Create a room and share the room code with friends, or use Quick Play to join a public room.",
+      "Use the solo Practice workbench first. There is no timer, so it is the place to learn moving, rotating, scaling and colouring shapes.",
+      "When you build, start with the biggest shape that defines the object, then add details. Players usually guess from the overall silhouette.",
+      "Orbit the camera by dragging while you build so your model reads well from the angle the guessers see.",
+      "When guessing, type early and often. Points go to the fastest correct guesses."
+    ],
+    "faq": [
+      [
+        "Can I play FormFieber alone?",
+        "Only in Practice mode, which lets you try the 3D tools without a timer. The real game needs 2 to 12 players."
+      ],
+      [
+        "How do I play with friends?",
+        "Enter a name, press Create Room and share the room code. Friends join with that code."
+      ],
+      [
+        "What modes are there?",
+        "Build and Guess, Build Battle where everyone builds the same word and rates the others, and 3D Telephone where builds and descriptions pass along a chain."
       ]
     ]
   }
