@@ -292385,5 +292385,405 @@
     ]
    ]
   }
+ },
+ "formfieber": {
+  "description": "FormFieber é um jogo de festa 3D grátis para 2 a 12 jogadores. Um jogador escolhe uma palavra secreta e a constrói com formas simples, cubos, esferas, cilindros e cones, que podem ser movidos, girados, redimensionados e coloridos. Todos os outros adivinham no chat e ganham pontos por serem rápidos. Além de Build and Guess, existe o Build Battle, em que todos modelam a mesma palavra e avaliam os outros, e o 3D Telephone, em que as construções e descrições passam por uma corrente. Salas privadas funcionam com um código de sala, o Quick Play encontra uma sala pública, e uma bancada de prática solo, sem cronômetro, permite aprender primeiro as ferramentas.",
+  "instructions": "Este jogo é melhor com amigos: digite um nome, clique em Create Room e compartilhe o código da sala, ou use o Quick Play para entrar em uma sala pública. Ao construir, arraste para girar a câmera e adicione formas pelo painel da esquerda. Quando os outros construírem, digite seus palpites no chat. O Practice permite testar a bancada 3D sozinho.",
+  "guide": {
+   "intro": "FormFieber é um jogo de festa 3D de adivinhação para 2 a 12 jogadores. Um jogador constrói uma palavra secreta com cubos, esferas, cilindros e cones, e todos os outros correm para adivinhá-la no chat. Além de Build and Guess, ele tem Build Battle e 3D Telephone, e precisa de outros jogadores, então chame amigos ou entre em uma sala pública.",
+   "tips": [
+    "Este jogo precisa de pelo menos duas pessoas. Crie uma sala e compartilhe o código com amigos, ou use o Quick Play para entrar em uma sala pública.",
+    "Use primeiro a bancada solo Practice. Não há cronômetro, então é o lugar ideal para aprender a mover, girar, redimensionar e colorir formas.",
+    "Ao construir, comece com a maior forma que define o objeto e depois adicione detalhes. Os jogadores normalmente adivinham pelo contorno geral.",
+    "Gire a câmera arrastando enquanto constrói, para que seu modelo fique bem visível do ângulo que os adivinhadores veem.",
+    "Ao adivinhar, digite cedo e com frequência. Os pontos vão para os palpites corretos mais rápidos."
+   ],
+   "faq": [
+    [
+     "Posso jogar FormFieber sozinho?",
+     "Só no modo Practice, que permite testar as ferramentas 3D sem cronômetro. O jogo de verdade precisa de 2 a 12 jogadores."
+    ],
+    [
+     "Como jogo com amigos?",
+     "Digite um nome, clique em Create Room e compartilhe o código da sala. Os amigos entram com esse código."
+    ],
+    [
+     "Quais são os modos?",
+     "Build and Guess, Build Battle, em que todos constroem a mesma palavra e avaliam os outros, e 3D Telephone, em que as construções e descrições passam por uma corrente."
+    ]
+   ]
+  }
+ },
+ "santas-rooftop-rush": {
+  "description": "Santa's Rooftop Rush é um corrida de Natal grátis. O Papai Noel corre sozinho pelos telhados da Vila Nevada, e seu único trabalho é o timing: toque para pular, toque de novo no ar para pular duplo. Os presentes caem pelas chaminés sozinhos enquanto você passa, mas bater em bonecos de neve e outros obstáculos custa um presente reserva. Cada fase pede que você visite um número determinado de casas e esconde três duendes perdidos para resgatar, e os duendes desbloqueiam chapéus novos. O mapa de fases sobe por vários mundos com chefes e fases de Passeio de Trenó, além de uma Oficina e um modo Infinito que abre mais tarde.",
+  "instructions": "Toque ou clique em qualquer lugar para pular, e toque de novo no ar para pular duplo. Os presentes descem pelas chaminés automaticamente. Evite os obstáculos, resgate os três duendes escondidos em cada fase e chegue à linha de chegada. Nas fases de Passeio de Trenó, arraste para cima e para baixo para voar.",
+  "guide": {
+   "intro": "Santa's Rooftop Rush é uma corrida de Natal de um toque pelos telhados da Vila Nevada. O Papai Noel corre sozinho e deixa presentes em cada chaminé que passa, então seu único trabalho é cronometrar os pulos e os pulos duplos. Cada fase pede que você visite um número determinado de casas e esconde três duendes perdidos, e o mapa sobe por vários mundos com chefes e fases de Passeio de Trenó.",
+   "tips": [
+    "Toque uma vez para pular e toque de novo no ar para o pulo duplo. A maioria dos buracos é vencida com um segundo toque no momento certo, não com um toque duplo rápido.",
+    "Bater em um boneco de neve ou outro obstáculo custa um presente reserva, então uma corrida limpa importa mais que velocidade quando a fase pede muitas casas.",
+    "Procure os três duendes escondidos em cada fase. Eles costumam estar em telhados mais altos, o que significa arriscar a rota do pulo duplo.",
+    "Os duendes resgatados desbloqueiam chapéus novos para o Papai Noel, então vale a pena repetir uma fase inicial para encontrar um duende que você perdeu.",
+    "Nas fases de Passeio de Trenó o controle muda: arraste para cima e para baixo para voar em vez de tocar para pular."
+   ],
+   "faq": [
+    [
+     "Como eu entrego os presentes?",
+     "Você não precisa: os presentes caem pelas chaminés automaticamente enquanto o Papai Noel passa por cada casa."
+    ],
+    [
+     "Existe um modo infinito?",
+     "Sim, um modo Infinito abre mais tarde, junto com uma Oficina."
+    ],
+    [
+     "Como eu controlo o trenó?",
+     "Nas fases de Passeio de Trenó, arraste para cima e para baixo para guiar o trenó pelo céu."
+    ]
+   ]
+  }
+ },
+ "planet-pounce": {
+  "description": "Planet Pounce é um jogo espacial gratuito de um só botão, protagonizado por um gato astronauta. Cada planeta gira, e o gato pula na direção para onde está virado quando você toca, então todo o jogo é uma questão de timing. Pouse no próximo planeta para continuar subindo até a chegada; erre e você flutua para o espaço. Cada fase tem três metas de estrela, como terminar, coletar todos os peixes espaciais e bater um tempo de referência, e pulos rápidos seguidos formam combos. As fases começam na Zona 1, Milk Way, e percorrem cinco zonas, com planetas com espinhos mais adiante, um modo Endless e seis trajes desbloqueáveis.",
+  "instructions": "Toque, clique ou pressione Espaço para pular. Calcule o momento do pulo para que o gato saia do planeta virado para o próximo. Colete os peixes espaciais, termine abaixo do tempo de referência para ganhar três estrelas e encadeie pulos rápidos para pontos de combo.",
+  "guide": {
+   "intro": "Planet Pounce é um jogo espacial de um só botão sobre um gato astronauta. Cada planeta gira, e quando você toca, o gato pula na direção para onde está virado naquele momento, então cada salto é um quebra-cabeça de timing. As fases começam na Zona 1, Milk Way, e percorrem cinco zonas, com três metas de estrela por fase.",
+   "tips": [
+    "Observe uma rotação completa antes do primeiro pulo em um planeta novo. Toque quando o gato estiver apontando para o próximo planeta, e não quando ele já o estiver ultrapassando.",
+    "Cada fase tem três metas de estrela, como terminar, coletar todos os peixes espaciais e bater o tempo de referência. Primeiro busque chegar ao fim e depois jogue de novo para pegar os peixes e o tempo.",
+    "Pulos rápidos seguidos formam pontos de combo, então, quando você já conhecer a fase, encadear os saltos sem esperar é o que faz a pontuação subir.",
+    "Planetas com espinhos aparecem nas zonas mais avançadas. Certifique-se de pousar do lado seguro e espere mais uma rotação se o ângulo parecer errado.",
+    "As estrelas desbloqueiam progresso, e os seis trajes somados ao modo Endless dão um motivo para voltar atrás e conseguir três estrelas nas fases anteriores."
+   ],
+   "faq": [
+    [
+     "Como jogar Planet Pounce?",
+     "Toque, clique ou pressione Espaço para pular. O gato salta na direção para onde está virado naquele momento, então calcule o toque para que ele aponte para o próximo planeta."
+    ],
+    [
+     "O que acontece se eu errar um planeta?",
+     "O gato flutua para o espaço e você reinicia a fase."
+    ],
+    [
+     "Quantas zonas existem?",
+     "Cinco, começando por Milk Way, além de um modo Endless."
+    ]
+   ]
+  }
+ },
+ "ghost-run": {
+  "description": "Ghost Run é um jogo de voar grátis com um toque, em que seu maior rival é você mesmo. Um pequeno fantasma bate asas entre os pilares, coleta moedas e segue em direção à linha de chegada, e sua melhor tentativa voa ao seu lado em dourado. As fases são agrupadas em mundos como Dawn Fields, Coral Sky, Neon Dunes e Storm Ridge, cinquenta fases por vez. A cada poucas fases, uma corrida contra seu fantasma dourado decide a coroa, e as fases de chefe quebram o ritmo da jornada. As estrelas conquistadas em cada fase somam um total de longo prazo, então sempre há um tempo melhor para bater. Roda no navegador, no computador e no celular, sem precisar baixar nada.",
+  "instructions": "Toque, clique ou pressione a Barra de Espaço para bater asas. Voe pelas brechas entre os pilares, pegue as moedas e chegue à linha de chegada. Nas fases de corrida, vença seu fantasma dourado para ficar com a coroa.",
+  "guide": {
+   "intro": "Ghost Run é um jogo de voar com um toque em que você guia um pequeno fantasma entre os pilares, coleta moedas e chega à linha de chegada. Sua melhor tentativa anterior corre ao seu lado como um fantasma dourado.",
+   "tips": [
+    "Toque em rajadas curtas e constantes, em vez de segurar o botão, para que o fantasma fique nivelado e consiga passar pelo meio de cada brecha.",
+    "Comece cada fase observando os primeiros pilares antes de pegar um ritmo, já que as brechas são o mesmo tipo de desafio que você vai repetir durante toda a jornada.",
+    "Planeje sua rota para pegar moedas quando elas estiverem perto de um caminho seguro, mas não desvie para dentro de um pilar só para pegar uma, porque terminar a fase é mais importante.",
+    "Nas fases de corrida, mantenha seu fantasma dourado à vista e ajuste as batidas de asas para continuar à frente dele, em vez de focar apenas nos pilares à sua frente.",
+    "Se você gosta de cronometrar saltos em percursos com obstáculos, também pode gostar de [[parkour-and-obby-games|mais jogos de percurso com obstáculos]] que recompensam o mesmo tipo de precisão no tempo."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de cada fase?",
+     "Voe com o fantasma entre os pilares, colete moedas pelo caminho e chegue à linha de chegada."
+    ],
+    [
+     "Quais controles eu uso para bater asas?",
+     "Toque, clique ou pressione a Barra de Espaço para bater asas. Cada toque eleva o fantasma para que você consiga dirigir pelas brechas."
+    ]
+   ]
+  }
+ },
+ "fuzeborn": {
+  "description": "Fuzeborn é um jogo de cartas com pixel art sobre coletar criaturas e levá-las para a guerra. Abra pacotes para preencher seu fichário com 30 criaturas de três tipos, onde Ember vence Leaf, Leaf vence Tide e Tide vence Ember. Coloque duas cartas no Fuze Pit para descobrir receitas, ou funda duas cópias para criar uma carta mais forte. Depois, escolha um exército de 15 cartas e batalhe contra um rival: vocês dois escolhem uma carta ao mesmo tempo e revelam, o maior poder leva as duas, e um empate inicia uma guerra por toda a pilha. Vencendo, você pega os espólios do baralho do rival. Esta demo gratuita traz a campanha completa Home Front.",
+  "instructions": "Clique em Play, abra pacotes e confira seu Binder. Use o Fuze Pit para combinar duas cartas. Escolha 15 cartas para o seu Army e então inicie uma campanha. Na batalha, escolha uma das três cartas na sua mão; você vê os tipos das cartas do rival, mas não o poder delas.",
+  "guide": {
+   "intro": "Fuzeborn é um jogo de cartas de criaturas com pixel art baseado em um triângulo simples de tipos: Ember vence Leaf, Leaf vence Tide e Tide vence Ember. Você abre pacotes para preencher um fichário de 30 criaturas, experimenta no Fuze Pit e então leva um exército de 15 cartas para a campanha Home Front, onde os dois lados escolhem uma carta ao mesmo tempo e o maior poder leva o par.",
+   "tips": [
+    "Aprenda o triângulo antes da sua primeira batalha. No duelo você vê os tipos das cartas do rival, mas não o poder delas, então escolher o tipo que vence o dele é sua melhor vantagem.",
+    "Use o Fuze Pit logo no começo. Colocar duas cartas diferentes pode revelar uma nova receita, e fundir duas cópias da mesma criatura cria uma única carta mais forte, e é assim que as duplicatas fracas dos pacotes se tornam úteis.",
+    "Monte seu exército de 15 cartas com os três tipos. Um exército concentrado em um só tipo será punido por qualquer rival que dependa do tipo que o vence.",
+    "Guarde algumas cartas de alto poder para as guerras. Um empate inicia uma guerra por toda a pilha, e é aí que uma carta grande pode te render várias cartas de uma vez.",
+    "Vencer uma batalha permite pegar os espólios do baralho do rival, então uma vitória na campanha também melhora seu fichário para a próxima luta."
+   ],
+   "faq": [
+    [
+     "Como funcionam as batalhas em Fuzeborn?",
+     "Você e o rival escolhem ao mesmo tempo uma das três cartas na mão e revelam. O maior poder leva as duas cartas; um empate inicia uma guerra por toda a pilha."
+    ],
+    [
+     "O que é o Fuze Pit?",
+     "É onde você combina cartas: coloque duas cartas diferentes para descobrir receitas, ou duas cópias de uma mesma criatura para criar uma versão mais forte."
+    ],
+    [
+     "Fuzeborn é o jogo completo?",
+     "Esta é uma demo gratuita que contém a campanha completa Home Front."
+    ]
+   ]
+  }
+ },
+ "swishes-io": {
+  "description": "Swishes.io é um jogo de basquete 3D de pickup que roda no seu navegador, sem precisar baixar nada. Escolha um um contra um em meia quadra até 11, jogue com a turma em 3v3 até 21, ou leve o time completo para um 5v5 em quadra inteira. Você controla um jogador enquanto companheiros e rivais se movimentam ao seu redor, e um conjunto de controles profundo permite correr, fazer pump fake, driblar com crossovers, passar, arremessar alley-oops e armar corta-luz. Um criador de jogador permite montar o seu próprio baller a partir de predefinições como Sharpshooter ou Playmaker, há um shootaround para treinar seu arremesso, e um modo online coloca você contra jogadores reais.",
+  "instructions": "WASD para mover, Shift para correr. Segure Space para arremessar (um toque rápido é um pump fake). I, J, K e L fazem movimentos de drible, F passa, G faz um alley-oop e V arma um corta-luz. H mostra todos os controles, Esc pausa.",
+  "guide": {
+   "intro": "Swishes.io é um jogo de basquete 3D de pickup com três formas de jogar: um um contra um em meia quadra até 11, 3v3 até 21 e 5v5 em quadra inteira. Você controla um jogador enquanto companheiros e adversários se movimentam ao seu redor, e o conjunto de controles no teclado vai mais fundo do que a maioria dos jogos de esporte para navegador, com pump fakes, crossovers, alley-oops e corta-luzes.",
+   "tips": [
+    "Pressione H em uma partida para ver todos os controles. Os mais importantes são Space para arremessar, I, J, K e L para movimentos de drible, F para passar, G para o alley-oop e V para armar um corta-luz.",
+    "Um toque rápido em Space é um pump fake, não um arremesso. Use para fazer o defensor voar e depois segure Space para o arremesso de verdade.",
+    "Guarde o sprint com Shift para contra-ataques e para voltar na defesa. Correr para dentro de uma defesa montada geralmente só te leva para um bloqueio.",
+    "Experimente o shootaround antes de jogar online. É a forma mais rápida de sentir por quanto tempo segurar Space no seu arremesso.",
+    "No 3v3 e no 5v5, arme um corta-luz com V para o homem da bola e corra em direção à cesta. Um alley-oop com G para um companheiro que corta é a cesta fácil mais confiável."
+   ],
+   "faq": [
+    [
+     "Quais modos de jogo o Swishes.io tem?",
+     "Um contra um em meia quadra até 11, 3v3 até 21, 5v5 em quadra inteira, um shootaround para treino e um modo online contra jogadores reais."
+    ],
+    [
+     "Como faço um pump fake no Swishes.io?",
+     "Pressione Space rapidamente. Segurar Space executa o arremesso de verdade."
+    ],
+    [
+     "Posso criar meu próprio jogador?",
+     "Sim, o criador de jogador permite montar um baller a partir de predefinições como Sharpshooter ou Playmaker."
+    ]
+   ]
+  }
+ },
+ "carletto-dreams-adventure": {
+  "description": "Junte-se ao Carletto em uma jornada mágica por mundos escondidos dentro dos seus sonhos! Explore ilhas flutuantes, colete as Estrelas dos Sonhos brilhantes e use seu telescópio para revelar pontes invisíveis, caminhos secretos e pistas de quebra-cabeça. Empurre caixotes, ative interruptores e desvie de criaturas travessas enquanto explora 16 fases, incluindo um desafio final contra o chefe. Descubra uma história ilustrada cheia de maravilhas, surpresas e aventura - e depois acorde pronto para mais um dia!",
+  "instructions": "CONTROLES - Mover para a Esquerda Direita com as setas ou A D - Pular Espaço, seta para cima ou W Segure para um pulo mais alto - Telescópio Segure Z ou E para revelar objetos escondidos e pistas - Interagir X ou F perto de interruptores, alavancas, canos e espelhos - Empurrar caixotes Ande contra eles -",
+  "guide": {
+   "intro": "Carletto Dreams Adventure é um platformer de quebra-cabeça em que você explora ilhas flutuantes dentro dos sonhos do Carletto. Você coleta Estrelas dos Sonhos, usa um telescópio para encontrar caminhos escondidos e enfrenta 16 fases que terminam com um desafio contra o chefe.",
+   "tips": [
+    "Segure a tecla de pulo em vez de apertá-la rapidamente quando precisar alcançar uma plataforma mais alta, já que segurar dá um pulo mais alto.",
+    "Segure a tecla do telescópio antes de entrar em uma nova área, assim você consegue ver pontes invisíveis e pistas antes de escolher um caminho.",
+    "Empurre os caixotes andando contra eles e planeje primeiro a posição deles, para que não bloqueiem um caminho que você vai precisar depois.",
+    "Fique perto de interruptores, alavancas, canos e espelhos e pressione a tecla de interação, depois observe o que mudou por perto antes de seguir em frente.",
+    "Se você gosta de saltos cronometrados sobre buracos, [[parkour-and-obby-games|mais desafios de plataforma como estes]] valem a pena depois que você concluir algumas fases."
+   ],
+   "faq": [
+    [
+     "Como revelo pontes escondidas e caminhos secretos?",
+     "Segure Z ou E para usar o telescópio, que revela objetos escondidos e pistas na área ao seu redor."
+    ],
+    [
+     "Como faço o Carletto pular mais alto?",
+     "Segure a tecla de pulo (Espaço, seta para cima ou W) para um pulo mais alto, em vez de apertá-la rapidamente."
+    ]
+   ]
+  }
+ },
+ "knights-and-goblins-merge": {
+  "description": "Una cavaleiros numa grade e depois veja seu exército entrar em combate com goblins numa batalha automática. Compre guerreiros, arqueiros, construtores, lanceiros e curandeiros, combine unidades idênticas em outras mais fortes e posicione-as com inteligência: arqueiros causam mais dano atrás das unidades corpo a corpo, enquanto barris e dinamite castigam as linhas lotadas. Cinco mundos com chefes gigantes, um modo Onslaught sem fim, feitiços de batalha, um castelo para melhorar com coroas, missões, recompensas diárias e rankings.",
+  "instructions": "Toque em uma carta de unidade na parte inferior para comprar um cavaleiro. Arraste um cavaleiro sobre um idêntico para uni-los em um cavaleiro mais forte (até o nível 10). Organize o exército na grade: unidades corpo a corpo na frente, arqueiros e curandeiros atrás. Pressione Fight! e a batalha acontece sozinha; use Fireball, Heal e Battle Cry durante o combate. Vença para ganhar ouro e coroas, melhore seu castelo e amplie a grade. No computador: arraste com o mouse, as teclas 1-5 compram unidades, Espaço ou Enter inicia a luta, S muda a velocidade, P pausa.",
+  "guide": {
+   "intro": "Knights & Goblins: Merge é um quebra-cabeça de grade em que você combina cavaleiros em unidades mais fortes e depois assiste ao seu exército lutar contra goblins em uma batalha automática. O posicionamento inteligente decide a maior parte dos seus resultados.",
+   "tips": [
+    "Mantenha as unidades corpo a corpo na frente e os arqueiros ou curandeiros atrás delas, já que os arqueiros causam mais dano quando são protegidos por uma linha de frente.",
+    "Combine unidades idênticas sempre que puder, porque um cavaleiro de nível mais alto costuma valer mais do que dois mais fracos espalhados pela grade.",
+    "Evite lotar demais uma única linha apertada, já que barris e dinamite foram feitos para castigar formações lotadas.",
+    "Guarde seus feitiços de batalha como Fireball, Heal e Battle Cry para os momentos do meio da luta em que sua linha de frente está sob mais pressão. Se você gosta de combinar peças, pode explorar mais [[merge-games|jogos de quebra-cabeça merge para comparar]].",
+    "Use a tecla S para acelerar batalhas que você já testou e a tecla P para pausar quando precisar de um momento para pensar no seu próximo movimento."
+   ],
+   "faq": [
+    [
+     "Como faço para combinar cavaleiros em uma unidade mais forte?",
+     "Arraste um cavaleiro sobre um cavaleiro idêntico na grade. As unidades podem ser combinadas até o nível 10."
+    ],
+    [
+     "Onde devo posicionar meus arqueiros durante a luta?",
+     "Coloque-os atrás das suas unidades corpo a corpo, porque eles causam mais dano quando uma linha de frente de cavaleiros e lanceiros fica entre eles e os goblins."
+    ]
+   ]
+  }
+ },
+ "satis-coloring-journal": {
+  "description": "Satis Coloring Journal é um quebra-cabeça relaxante de desenhar e colorir em um caderninho fofo. Cada imagem começa como linhas pontilhadas: arraste sua caneta de ponto em ponto para acompanhar o contorno e pare exatamente no final! Depois, escolha a cor que você acha certa e esfregue para preencher cada parte. Escolha todas as cores corretamente para chegar a 100% de precisão. Pinte raposas, corgis, patinhos, lanchinhos gostosos e doces de festas, guarde suas obras finalizadas na Galeria e troque entre estilos de caneta divertidos. Calmo, fofo e muito satisfatório!",
+  "instructions": "🎯 Finalize cada imagem com a melhor precisão que conseguir. ✏️ Arraste a caneta do ponto inicial seguindo a linha pontilhada até o ponto final. ⛔ Pare no ponto final: desenhar além dele deixa uma linha extra. 🎨 Escolha a cor que você acha que combina com cada parte da imagem. 🖌️ Esfregue para preencher a área e, quando estiver colorida, toque em Concluir. ✅ As cores certas aumentam sua precisão. Busque 100%! ↩️ Cometeu um erro? Use Desfazer para voltar um passo. 🖼️ As imagens concluídas vão para sua Galeria. Troque os estilos de caneta a qualquer momento.",
+  "guide": {
+   "intro": "Satis Coloring Journal é um quebra-cabeça calmo de desenhar e colorir ambientado em um caderninho fofo. Você acompanha os contornos pontilhados, depois escolhe as cores e preenche cada parte da imagem para criar sua obra final.",
+   "tips": [
+    "Acompanhe a linha pontilhada devagar e pare exatamente no ponto final, pois ultrapassá-lo deixa uma linha extra que pode prejudicar seu resultado.",
+    "Pense em como cada parte da imagem realmente seria, como o pelo de uma raposa ou o bico de um pato, antes de escolher uma cor.",
+    "Confira a cor de cada área antes de esfregar para preenchê-la, porque uma cor errada diminui sua precisão e chegar a 100% depende de acertar todas as partes.",
+    "Se cometer um erro, use Desfazer para voltar um passo em vez de recomeçar a imagem inteira.",
+    "As imagens concluídas ficam salvas na sua Galeria, para você rever seu trabalho, e você pode experimentar [[coloring-and-drawing-games|outros jogos de colorir e desenhar]] se gostar desse estilo."
+   ],
+   "faq": [
+    [
+     "Como consigo 100% de precisão em uma imagem?",
+     "Escolha a cor correta para cada parte da imagem, já que as cores certas aumentam sua precisão e as erradas a diminuem."
+    ],
+    [
+     "O que acontece se eu arrastar a caneta além do ponto final?",
+     "Desenhar além do ponto deixa uma linha extra, então pare exatamente no ponto final ao terminar cada linha pontilhada."
+    ]
+   ]
+  }
+ },
+ "veggie-battle": {
+  "description": "O Cactus Anomaly está preparando um \"Rage-juice\" e os vegetais do jardim estão enlouquecendo. Pegue uma arma e pare ele! Veggie Battle é um brawler de física divertido com vegetais ragdoll molengas: cada golpe, arremesso e explosão é pura física, então nenhuma luta é igual à outra. História: 40 fases em 5 atos com plataformas, armadilhas, quebra-cabeças de corda e chefões. Arcade: partidas infinitas que ficam mais difíceis a cada etapa. Sandbox: invoque lutadores, armas, bombas e armadilhas, escolha times, assista ao caos ou assuma o controle de qualquer lutador. 9 lutadores vegetais, 10 armas, de uma vara a uma bazuca, 6 locais, melhorias de heróis e estrelas para coletar.",
+  "instructions": "Objetivo: derrote os inimigos, liberte os amigos capturados e alcance a bandeira no fim de cada fase. Computador: mova-se com as setas Esquerda/Direita ou A/D, pule com Cima, W ou Espaço, ataque com F ou o botão esquerdo do mouse (segure para um golpe forte). Celular: joystick para mover e pular, botão vermelho para atacar. Quebra-cabeças: deslize sobre a corda para cortá-la. Sandbox: escolha um item na parte inferior e toque na cena para posicioná-lo, arraste para arremessar, pressione o botão de espadas para começar a luta.",
+  "guide": {
+   "intro": "Veggie Battle é um brawler de física em que vegetais ragdoll molengas lutam pelas fases da história, partidas infinitas do Arcade e um Sandbox livre. Use armas, armadilhas e pulos para derrotar inimigos e alcançar a bandeira.",
+   "tips": [
+    "Segure o botão de ataque para um golpe forte em vez de tocar nele, assim você pode jogar os inimigos para trás quando eles estiverem perto de uma borda ou armadilha.",
+    "Como cada golpe e explosão é guiado pela física, observe como os lutadores tombam antes de avançar, e posicione-se onde um balanço vai mandar os inimigos para os perigos.",
+    "Liberte os amigos capturados no caminho até a bandeira, já que resgatá-los faz parte de concluir cada fase.",
+    "Nos quebra-cabeças de corda, deslize sobre a corda em um movimento só para cortá-la, e antes verifique onde o objeto ou plataforma que cai vai parar.",
+    "Se você gosta de experimentar como objetos caem e colidem, experimente [[physics-games|outros jogos de física]] para ver mais formas em que o movimento pode moldar uma luta."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal de cada fase?",
+     "Derrotar os inimigos, libertar os amigos capturados e alcançar a bandeira no fim da fase."
+    ],
+    [
+     "Como dou um ataque mais forte no computador?",
+     "Segure a tecla F ou o botão esquerdo do mouse para dar um golpe forte em vez de um rápido."
+    ]
+   ]
+  }
+ },
+ "battle-sandbox-playground": {
+  "description": "Battle Sandbox Playground é um sandbox militar baseado em física, onde soldadinhos de brinquedo clássicos ganham vida. Crie batalhas entre exércitos verdes e verde-oliva, equipe suas tropas e traga tanques, helicópteros, drones e robôs de combate. Monte seu próprio campo de batalha ou entre em cenários de combate prontos em florestas, cidades, desertos e mapas nevados. Posicione defesas, lance paraquedistas e chame ataques aéreos. Assista aos exércitos controlados por IA lutarem ou assuma o controle de um soldado e entre na ação. Pause para ajustar sua configuração ou ative a câmera lenta para ver de perto explosões e a física de ragdoll. Misture unidades, experimente armas e objetos destrutíveis e tente uma abordagem nova a cada vez. Monte sua batalha, aperte play e veja quem sobrevive!",
+  "instructions": "* Selecione um item do menu e clique com o botão esquerdo no campo de batalha para posicioná-lo. * Pressione Esc para cancelar a colocação. * Clique e arraste objetos para movê-los. * Arraste um espaço vazio ou segure o botão do meio do mouse para mover a câmera. Use a roda do mouse para dar zoom. * Pressione P para alternar entre os modos Build e Play. No modo Play, clique em um soldado para assumir o controle. * Use A/D para se mover, W para pular e o mouse para mirar. Clique com o botão esquerdo ou pressione J para atirar ou atacar. * Pressione Espaço para pausar ou retomar. Pressione Delete para remover o objeto selecionado. * No celular, toque para selecionar e posicionar itens, faça pinça para dar zoom e use o joystick e os botões de ação na tela para controlar seu soldado.",
+  "guide": {
+   "intro": "Battle Sandbox Playground é um sandbox militar baseado em física, com soldadinhos de brinquedo, tanques e helicópteros. Você pode montar seu próprio campo de batalha ou iniciar um cenário pronto, depois assistir aos exércitos da IA lutarem ou entrar na briga como um soldado.",
+   "tips": [
+    "Pause com Espaço antes de apertar play para conferir as posições e ajustar sua configuração. Pequenas mudanças em onde você posiciona tropas e veículos podem mudar como a batalha se desenrola.",
+    "Experimente primeiro um cenário de combate pronto para ver como os exércitos se comportam e, depois, monte seu próprio campo de batalha com unidades parecidas para comparar os resultados.",
+    "Ative a câmera lenta para ver de perto explosões e a física de ragdoll. Isso facilita perceber quais objetos são destrutíveis e como suas unidades reagem aos golpes.",
+    "Assuma o controle de um soldado no modo Play e pratique movimentos com A/D, pulos com W e mira com o mouse antes de partir para uma luta maior. Atirar com o botão esquerdo ou com J fica mais fácil quando você se acostuma com a mira.",
+    "Se você gosta de combates com muitos veículos, pode explorar mais títulos na [[tank-and-war-games|coleção de jogos de tanque e guerra]] para ideias de combate parecidas."
+   ],
+   "faq": [
+    [
+     "Como alterno entre construir e lutar?",
+     "Pressione P para alternar entre os modos Build e Play. No modo Play, você pode clicar em um soldado para assumir o controle dele."
+    ],
+    [
+     "Como movo objetos que coloquei no campo de batalha?",
+     "Clique e arraste um objeto para movê-lo. Para remover o objeto selecionado, pressione Delete."
+    ]
+   ]
+  }
+ },
+ "push-the-colors": {
+  "description": "O empurrão de cores começa com quadrados coloridos, obstáculos e portões de cor dentro de um ótimo jogo casual para 2 jogadores! Encontre várias fantasias durante a aventura Push the Colors, leve os cubos até a linha de chegada e desafie o gigante no final! Quanto mais cubos você tiver, mais poder você terá. Você pode destruir o monstro de cores tendo muitos cubos. Faça escolhas inteligentes no caminho e aumente a quantidade de cubos em suas mãos.",
+  "instructions": "Jogador 1 Mover para Esquerda Direita A e D ou SETAS ESQUERDA-DIREITA No Modo 1P Apenas Empurrar no final W ou SETA PARA CIMA No Modo 1P Apenas Jogador 2 TECLAS DE SETA Mover para Esquerda Direita SETAS ESQUERDA-DIREITA Empurrar no final SETA PARA CIMA",
+  "guide": {
+   "intro": "Push the Colors é um jogo casual 3D em que você conduz um grupo de cubos coloridos por quadrados, obstáculos e portões de cor até a linha de chegada. Depois, você enfrenta um gigante monstro de cores, e a quantidade de cubos decide a batalha.",
+   "tips": [
+    "Trate os portões de cor como escolhas: pegue os que adicionam cubos ao seu grupo, já que um grupo maior é o que te dá poder para vencer o empurrão final.",
+    "Observe os obstáculos à frente e mude para a esquerda ou para a direita cedo, para manter o máximo de cubos juntos em vez de perdê-los na última hora.",
+    "Guarde seu empurrão para o gigante no final, porque o monstro é derrotado tendo muitos cubos, e não apertando a tecla de empurrar cedo demais.",
+    "Se você jogar com um amigo, divida os controles entre seus dois conjuntos de teclas de seta e conversem sobre quais portões pegar, assim como no modo para dois jogadores do jogo. Você pode encontrar mais [[2-player-games|jogos para dois jogadores aqui]] para experimentar juntos."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal em Push the Colors?",
+     "Leve seus cubos até a linha de chegada e depois desafie o gigante monstro de cores no final."
+    ],
+    [
+     "Como movo meus cubos?",
+     "O Jogador 1 usa A e D ou as setas esquerda e direita, e o Jogador 2 usa as teclas de seta. Empurre no final com W ou a seta para cima no modo 1P, ou a seta para cima para o Jogador 2."
+    ]
+   ]
+  }
+ },
+ "city-taxi-driver-sim": {
+  "description": "City Taxi Driver Sim é um incrível jogo de taxista na cidade, disponível para smartphone. Vários carros e cenários realistas se combinam em todo o jogo. Mantenha a mente ocupada e obedeça às regras de trânsito. Dirigir embriagado é um crime muito grave nos EUA. A polícia vai prender você. Um passageiro simpático pode chamar o seu táxi. Ganhe dinheiro suficiente para um táxi novo. O táxi é dado a você para sempre. Você está pronto para começar uma nova aventura? Eu prevejo que você vai se tornar um taxista profissional da cidade!",
+  "instructions": "WASD - Dirigir Espaço - Frear E - Mapa",
+  "guide": {
+   "intro": "City Taxi Driver Sim coloca você atrás do volante de um táxi em uma cidade movimentada. Você dirige por cenários realistas, pega passageiros e ganha dinheiro suficiente para manter seu táxi funcionando.",
+   "tips": [
+    "Use a tecla E para abrir o mapa cedo, assim você sabe onde está seu próximo passageiro antes de começar a dirigir.",
+    "Mantenha os olhos na estrada e siga as regras de trânsito em todos os cruzamentos, já que obedecê-las é uma parte essencial do jogo.",
+    "Use a Espaço para frear antes das curvas e paradas, em vez de frear tarde, o que ajuda você a manter o controle no trânsito intenso.",
+    "Evite beber e dirigir, porque o jogo trata isso como um crime grave e a polícia vai prender você.",
+    "Se você gosta de dirigir pelas ruas da cidade, pode encontrar mais opções na nossa [[car-games|coleção de jogos de carro]]."
+   ],
+   "faq": [
+    [
+     "Como ganho dinheiro em City Taxi Driver Sim?",
+     "Você ganha dinheiro levando passageiros até os destinos deles, e ganhos suficientes permitem que você compre um táxi novo. Seu táxi é seu para sempre depois que você o tiver."
+    ],
+    [
+     "O que acontece se eu quebrar a lei enquanto dirijo?",
+     "Dirigir embriagado é tratado como um crime muito grave, e a polícia vai prender você. Seguir as regras de trânsito mantém você fora de problemas."
+    ]
+   ]
+  }
+ },
+ "crash-of-cars": {
+  "description": "Aqui não é só um jogo de arcade, mas também um jogo de guerra de carros com animação em arte de desenho animado tridimensional. Você tem a chance de dirigir vários tipos de veículos, incluindo tanque, superesportivo e caminhão. Você pode jogar nos modos Contrarrelógio e Assalto. Que bom que você desbloqueia mais veículos destruindo todos os veículos inimigos em Crash Of Cars!",
+  "instructions": "Toque e deslize - mover Ctrl - usar o objeto Espaço - usar a habilidade",
+  "guide": {
+   "intro": "Crash Of Cars é um jogo de guerra de carros em 3D estilo arcade com gráficos de desenho animado. Você dirige tanques, superesportivos e caminhões nos modos Contrarrelógio e Assalto, desbloqueando novos veículos conforme destrói inimigos.",
+   "tips": [
+    "Experimente os modos Contrarrelógio e Assalto logo no início para ver como cada um funciona antes de definir uma estratégia.",
+    "Alterne entre o tanque, o superesportivo e o caminhão para descobrir qual veículo se controla melhor para você, já que cada um dirige de um jeito diferente.",
+    "Use a tecla Espaço para ativar sua habilidade nos momentos em que os inimigos estiverem por perto, em vez de guardá-la sem um plano.",
+    "Elimine todos os veículos inimigos de uma rodada sempre que possível, porque destruir todos eles é como você desbloqueia mais veículos. Se você gosta de jogos focados em batalha, [[tank-and-war-games|jogos de tanque e guerra]] oferecem um estilo de combate parecido."
+   ],
+   "faq": [
+    [
+     "Como movo meu veículo?",
+     "Toque e deslize na tela para se mover. Mantenha os movimentos suaves para continuar no controle enquanto mira e evita inimigos."
+    ],
+    [
+     "Como desbloqueio novos veículos?",
+     "Você desbloqueia mais veículos destruindo todos os veículos inimigos do jogo. Concentre-se em eliminar os inimigos por completo em vez de deixar alguns para trás."
+    ]
+   ]
+  }
+ },
+ "stickman-bros-in-fruit-island-3": {
+  "description": "Stickman Bros In Fruit Island 3 - Aventura dos Irmãos Stickman na Ilha das Frutas! Desta vez, os três irmãos chegaram à Fruitland Adventure. No jogo, a missão deles é coletar morangos e maçãs. Venha explorar com eles.",
+  "instructions": "P1 A D move W jump P2 move jump P3 J L move I jump",
+  "guide": {
+   "intro": "Stickman Bros In Fruit Island 3 é uma aventura em que três irmãos stickman exploram a Fruitland. Sua missão é coletar morangos e maçãs enquanto avança pela ilha.",
+   "tips": [
+    "Antes de começar, confira quais teclas pertencem a cada irmão, já que o Jogador 1 usa A, D e W, enquanto o Jogador 3 usa J, L e I. Misturar as teclas é um jeito fácil de perder o controle de quem você está comandando.",
+    "Observe o caminho antes de cada pulo para calcular bem a aterrissagem e pegar os morangos e maçãs próximos no caminho, em vez de voltar depois.",
+    "Se estiver jogando com outras pessoas, combinem quem coleta cada fruta para que os irmãos não corram todos atrás dos mesmos itens.",
+    "Explore a ilha com calma, porque as frutas estão espalhadas pelo mapa e correr pode fazer você perder itens que poderia ter coletado facilmente. Se você gosta de desafios de coleta de frutas, pode encontrar [[fruit-games|mais jogos de coleta de frutas]] para experimentar em seguida."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo de Stickman Bros In Fruit Island 3?",
+     "Sua missão é coletar morangos e maçãs enquanto explora a Fruitland com os três irmãos stickman."
+    ],
+    [
+     "Como controlo os três irmãos?",
+     "O Jogador 1 se move com A e D e pula com W, o Jogador 3 se move com J e L e pula com I, e o Jogador 2 tem seus próprios controles de movimento e pulo listados nas instruções."
+    ]
+   ]
+  }
+ },
+ "ludo-game-multiplayer": {
+  "description": "Ludo Online Multiplayer Games é o lugar perfeito para jogar jogos online com seus amigos. Com uma enorme seleção de jogos para escolher, você pode encontrar o jogo ideal para jogar online. Seja você alguém que procura um jogo desafiador para jogar com amigos ou um jogo divertido para jogar online, o Ludo Online Multiplayer Games tem o jogo perfeito para você. Role os dados e vença os outros jogadores no tabuleiro de ludo. Para diversão em grupo, ludo game online 4 players é uma versão atualizada do Royal Game Ludo Game Multiplayer. Em um período anterior, esse novo e empolgante jogo era disputado entre reis e rainhas indianos. Você precisa pensar estrategicamente, já que o ludo online pc pode parecer um simples ludo star online e depende muito da sorte. Isso porque, ao cair sobre elas, você consegue mandar as peças dos outros jogadores de volta ao início. Além disso, você impede que os jogadores tirem peças delas ao proteger as casas marcadas com um símbolo de estrela. Tente acertar uma jogada de sorte usando-a como um ponto seguro até que os outros jogadores passem. Especialmente se você tiver várias peças na mesa. Você precisa pensar com cuidado sobre quais jogadas fazer e quando fazê-las. Recursos do jogo Jogue Ludo online multiplayer exatamente como no jogo original. Você pode usar nomes personalizados. Adequado para todas as idades. Jogue ludo online pc. Na Inglaterra, em 1896, o Pachisi foi modificado para usar um dado cúbico com copo de dados e foi patenteado como \"Ludo\". Como jogar Para chegar ao centro dos king games free, role os dados e mova suas peças. Primeiro, você precisa tirar um seis no dado para colocar uma de suas peças no tabuleiro de Ludo e jogar esta versão original do jogo Ludo online offline multiplayer. Para movimentar sua peça pelo tabuleiro, role o dado novamente. Ao começar indo em direção ao centro, você dará a volta no tabuleiro. Você pode vencer o jogo assim que chegar ao meio com as quatro peças.",
+  "instructions": "Use o botão esquerdo do mouse para movimentar os dados. As demais ações serão realizadas pelo PC. No celular, toque nos dados.",
+  "guide": {
+   "intro": "Ludo Game Multiplayer é um clássico jogo de tabuleiro de corrida em que você rola os dados e move suas quatro peças pelo tabuleiro até o centro. Ele é jogado com outros jogadores e depende muito da sorte, mas há espaço para escolhas inteligentes.",
+   "tips": [
+    "Espere tirar um seis antes de colocar peças para fora, já que você precisa dele para colocar uma peça no tabuleiro.",
+    "Use as casas marcadas com estrela como pontos seguros, especialmente quando as peças adversárias estiverem perto das suas e prestes a passar.",
+    "Procure oportunidades de cair sobre a peça de um adversário, pois isso a manda de volta ao início.",
+    "Quando você tiver várias peças no tabuleiro, pense em qual mover a cada turno, em vez de sempre mover a mesma peça. Para mais jogos de tabuleiro clássicos para experimentar, visite [[chess-and-board-games|mais jogos de tabuleiro clássicos]]."
+   ],
+   "faq": [
+    [
+     "Como eu venço uma partida de Ludo Game Multiplayer?",
+     "Você vence movendo todas as suas quatro peças pelo tabuleiro até o centro."
+    ],
+    [
+     "Como eu rolo os dados?",
+     "No PC, clique nos dados com o botão esquerdo do mouse. No celular, toque nos dados."
+    ]
+   ]
+  }
  }
 }

@@ -115717,8 +115717,8 @@
   }
  },
  "lifecode": {
-  "description": "HISTORIA DEL JUEGO Tras el incidente en la Zona, todo el personal fue evacuado. Para asegurarse de que nadie descubriera los secretos de la instalación, el personal dañó deliberadamente el sistema de almacenamiento de datos. Como resultado, el núcleo A.R.C.H perdió el acceso a información crítica, lo que sometió a todo el sistema a una presión inmensa. Tarde o temprano, acabaría provocando una explosión catastrófica. Pero el personal pasó por alto una cosa. A.R.C.H es una inteligencia artificial avanzada capaz de calcular miles de posibilidades y crear planes complejos en milisegundos. Enseguida encontró la manera de evitar su destrucción. Solo había un problema: A.R.C.H no podía moverse por sí mismo. Necesitaba que alguien más hiciera el trabajo sucio. Dentro del laboratorio abandonado solo quedaban los monstruos. Entonces A.R.C.H recordó que entre ellos había una criatura capaz de escuchar, pensar y actuar. Y te encontró a TI. SOBRE EL JUEGO Este es un juego de survival horror ambientado en un laboratorio abandonado. Juegas como una criatura inteligente que debe sobrevivir, explorar la instalación y completar tareas para el núcleo A.R.C.H. Tu objetivo principal es exportar datos de memoria para A.R.C.H, de modo que la inteligencia artificial pueda recuperar la información perdida y completar su misterioso plan. Sin embargo, el laboratorio está lejos de estar vacío. Otros monstruos recorren sus pasillos. A diferencia de ti, son salvajes y están impulsados únicamente por el hambre. Y para ellos, tú eres comida. Mientras exploras, puedes encontrar una gran variedad de objetos útiles, como comida, linternas, suministros médicos y otros recursos. Los objetos pueden descubrirse dentro de cajas repartidas por todo el laboratorio. El juego también incluye máquinas expendedoras situadas en la base y en ubicaciones aleatorias de la instalación. Estas máquinas te permiten comprar objetos útiles usando una moneda especial llamada N-Neutrons. Cada partida es única gracias a la generación procedural de niveles. El laboratorio se construye a partir de módulos prediseñados, creando una distribución nueva cada vez y permitiendo al mismo tiempo que los jugadores aprendan y se orienten en el entorno. PREGUNTAS FRECUENTES ¿Cómo consigo N-Neutrons? Iniciar una exportación de memoria M3N otorga entre 3N y 8N en dificultad Normal. Completar la exportación y activar la Fase Dos otorga una cantidad",
-  "instructions": "CÓMO JUGAR Cada día comienza a las 10:00 a. m. en tu base. Tu primera tarea es ajustar el ángulo de la antena. Cuanto más precisa sea la alineación, más memoria recibirás durante el proceso de exportación. Después, entra en el laboratorio y localiza un M3N (Nodo de Exportación de Memoria). Activa la primera fase de exportación. Un solo M3N funciona durante 2 a 5 minutos, según las condiciones. Mientras el M3N está en funcionamiento, explora el laboratorio, recoge recursos y evita a los monstruos hostiles. Cuando la barra de memoria esté llena, regresa a la base y activa una función del Núcleo de Control. Después, tendrás que volver a llenar la barra de memoria, esta vez hasta un nivel más alto. Cuando el M3N termine de funcionar, podrás activar la Fase Dos. Esta fase proporciona memoria adicional y ayuda a completar tus objetivos más rápido. Sin embargo, mantén siempre un ojo en el reloj. Debes salir del laboratorio antes de medianoche. Si permaneces dentro después de las 12:00 a. m., tu personaje morirá y se perderán todos los objetos recogidos y la memoria almacenada. Si yo"
+  "description": "HISTORIA DEL JUEGO Tras el incidente en la Zona, todo el personal fue evacuado. Para asegurarse de que nadie descubriera los secretos de las instalaciones, el personal dañó deliberadamente el sistema de almacenamiento de datos. Como resultado, el núcleo A.R.C.H perdió el acceso a información crítica, lo que sometió a todo el sistema a una tensión inmensa. Tarde o temprano, acabaría provocando una explosión catastrófica. Pero el personal pasó por alto una cosa. A.R.C.H es una inteligencia artificial avanzada capaz de calcular miles de posibilidades y crear planes complejos en milisegundos. Enseguida encontró una forma de evitar su destrucción. Solo había un problema: A.R.C.H no podía moverse por sí mismo. Necesitaba que alguien más hiciera el trabajo sucio. Solo quedaban monstruos dentro del laboratorio abandonado. Entonces A.R.C.H recordó que entre ellos había una criatura capaz de escuchar, pensar y actuar. Y te encontró a TI. SOBRE EL JUEGO Este es un juego de survival horror ambientado en un laboratorio abandonado. Juegas como una criatura inteligente que debe sobrevivir, explorar las instalaciones y completar tareas para el núcleo A.R.C.H. Tu objetivo principal es exportar datos de memoria para A.R.C.H, de modo que la inteligencia artificial pueda recuperar la información perdida y completar su misterioso plan. Sin embargo, el laboratorio está lejos de estar vacío. Otros monstruos recorren sus pasillos. A diferencia de ti, son salvajes y solo les mueve el hambre. Y para ellos, tú eres comida. Mientras exploras, puedes encontrar una gran variedad de objetos útiles, como comida, linternas, suministros médicos y otros recursos. Los objetos pueden encontrarse dentro de cajas repartidas por todo el laboratorio. El juego también incluye máquinas expendedoras situadas en la base y en ubicaciones aleatorias por las instalaciones. Estas máquinas te permiten comprar objetos útiles usando una moneda especial llamada N-Neutrons. Cada partida es única gracias a la generación procedural de niveles. El laboratorio se construye a partir de módulos prediseñados, creando una distribución nueva cada vez, aunque los jugadores siguen pudiendo aprender y orientarse en el entorno. PREGUNTAS FRECUENTES ¿Cómo consigo N-Neutrons? Iniciar una exportación de memoria M3N otorga entre 3N y 8N en dificultad Normal. Completar la exportación y activar la Fase Dos recompensa bet",
+  "instructions": "CÓMO JUGAR Cada día comienza a las 10:00 en tu base. Tu primera tarea es ajustar el ángulo de la antena. Cuanto más precisa sea la alineación, más memoria recibirás durante el proceso de exportación. Después, entra en el laboratorio y localiza un M3N (Nodo de Exportación de Memoria). Activa la primera fase de exportación. Un solo M3N funciona durante 2 a 5 minutos según las condiciones. Mientras el M3N está en funcionamiento, explora el laboratorio, recoge recursos y evita a los monstruos hostiles. Una vez llena la barra de memoria, regresa a la base y activa una función del Núcleo de Control. Después, tendrás que volver a llenar la barra de memoria, esta vez hasta un nivel más alto. Cuando el M3N termine de funcionar, podrás activar la Fase Dos. Esta fase proporciona memoria adicional y te ayuda a completar tus objetivos más rápido. Sin embargo, mantén siempre un ojo en el reloj. Debes salir del laboratorio antes de medianoche. Si permaneces dentro después de las 12:00 AM, tu personaje morirá y se perderán todos los objetos recogidos y la memoria almacenada. Si yo"
  },
  "crusher-block": {
   "description": "¡Crusher Block es un juego idle en el que machacas bloques, ganas dinero y mejoras tus herramientas para crear la máquina de trituración más potente! ¿Eres capaz de construir la máquina definitiva para triturar recursos?",
@@ -137935,8 +137935,8 @@
   }
  },
  "frostport": {
-  "description": "Kai Holm regresa a Frostport para el invierno: un pueblo portuario bajo una montaña de esquí, un lago helado, un fiordo lleno de hielo y una aldea de esquí en lo alto del telesilla. En su primer descenso, una explosión retumba entre los picos y la pista se viene abajo. NorrCo, la minera de Magnus Strand, está volando la montaña, perforando bajo el lago y comprando el pueblo casa por casa, mientras que los Wolfpack, una banda de motos de nieve a sueldo suyo, ahuyentan a quien se niegue a vender. Baja la Black Run delante de un muro de nieve. Desliza una moto de nieve sobre el agua abierta de témpano en témpano. Escala hielo con un piolet allí donde ningún coche de policía puede seguirte y lánzate en tirolina por los cables del telesilla. Corre tras la moto de nieve robada de Olga contra Varg, abre camino a golpes por la oficina de NorrCo para conseguir sus planes, roba la nómina de NorrCo del banco de la aldea junto a Finn, quítales su orugа blindada y desaparece en una ventisca cuando todo el pueblo va tras de ti. Veintiuna misiones de historia te llevan hasta la cumbre, y a toda la montaña viniendo abajo. Entre misiones, el valle es tuyo: dos pueblos por explorar —Frostport junto al fiordo y la Aldea de Esquí sin coches al final del telesilla—, tiendas, casas y negocios que generan dinero mientras no estás, tablas, trineos y vehículos de nieve para comprar, alijos de dinero escondidos por encontrar y trabajillos de los aldeanos. Cada día, una bajada recibe Fresh Powder: dinero doble por trucos en el primer descenso.",
-  "instructions": "PC - WASD / flechas (ZQSD también funciona) — moverse, girar, hacer carving - Mayús — correr; en la tabla, agacharse para ganar velocidad - Espacio — saltar; en la tabla, ollie (mantén pulsado para un agarre); en un vehículo, freno de mano - Ratón — mirar alrededor (haz clic en el juego primero) - E o Intro — hablar, subir y bajar de vehículos, usar tiendas - B — poner / quitar la tabla de snowboard - X — lanzar el piolet (escalar, tirolina) - F — golpear; C — llamar a tu moto de nieve o coche; H — claxon; R — volcar un vehículo atascado - M — mapa; Tab o T — teléfono; P — pausa (tiendas, ajustes, idioma) Móvil: joystick flotante para moverse, arrastra para mirar; botones en pantalla para saltar, tabla, piolet, golpear y acción; flechas de dirección con acelerador y freno en un vehículo."
+  "description": "Kai Holm vuelve a casa, a Frostport, para el invierno: un pueblo portuario bajo una montaña de esquí, un lago congelado, un fiordo lleno de hielo y una aldea de esquí en lo alto del telesilla. En su primera bajada, una explosión retumba entre los picos y la pendiente se desprende. NorrCo, la compañía minera de Magnus Strand, está volando la montaña, perforando bajo el lago y comprando el pueblo casa por casa, y los Wolfpack, una tripulación de motos de nieve a sueldo suyo, ahuyentan a cualquiera que se niegue a vender. Baja por la Black Run delante de un muro de nieve. Desliza una moto de nieve sobre agua abierta, de témpano en témpano. Escala el hielo con un piolet allí donde ningún coche de policía puede seguirte y lánzate en tirolina por los cables del telesilla. Corre tras la moto de nieve robada de Olga en una carrera contra Varg, abre paso a puñetazos por la oficina de NorrCo para hacerte con sus planes, roba la nómina de NorrCo del banco de la aldea junto a Finn, roba su quitanieves blindado y desaparece en una ventisca cuando todo el pueblo te persigue. Veintiuna misiones de historia te llevan hasta la cumbre, y a toda la montaña cayendo sobre ti. Entre misiones, el valle es tuyo: dos pueblos para explorar, Frostport en el fiordo y la Ski Village sin coches, al otro lado del telesilla; tiendas, casas y negocios que generan dinero mientras no estás; tablas, trineos y vehículos de nieve para comprar; alijos de dinero escondidos por encontrar y trabajos ocasionales de los aldeanos. Cada día, una bajada tiene Fresh Powder: el doble de dinero por truco en la primera bajada.\n\nCaracterísticas\n- Un pueblo portuario, una aldea de esquí, una montaña de esquí, un lago congelado y un fiordo para recorrer, escalar, conducir y explorar\n- Snowboard con carving, tucks, big air, giros y agarres; huye de las avalanchas por tres pistas\n- Motos de nieve que se deslizan sobre agua abierta, un quitanieves blindado, coches, barcos y un helicóptero\n- Escala hielo y roca con un piolet y lánzate en tirolina por los cables del telesilla\n- Peleas a puñetazos en las calles y en interiores: una combinación de jab, cruzado y patada contra los Wolfpack y los guardias de NorrCo\n- 21 misiones de historia más trabajos secundarios: carreras en la nieve, rescates de la patrulla de esquí, el Village Slalom, el Hot Cocoa Run y el Sled Course\n- Negocios que generan dinero aunque estés desconectado; una bonificación diaria de Fresh Powder\n- Acción de dibujos animados: sin sangre, las personas derribadas se quedan en el suelo\n- Juega en PC (teclado y ratón) y en móviles y tabletas (controles táctiles)\n- Cada tienda, casa y negocio a un toque de la pausa",
+  "instructions": "PC - WASD / flechas (ZQSD también funciona) — moverse, girar, hacer carving\n- Shift — correr; en la tabla, agacharse para ganar velocidad\n- Espacio — saltar; en la tabla, ollie (mantén pulsado para un agarre); en un vehículo, freno de mano\n- Ratón — mirar alrededor (haz clic en el juego primero)\n- E o Enter — hablar, subir y bajar de vehículos, usar tiendas\n- B — poner / quitar la tabla de snowboard\n- X — lanzar el piolet (escalar, tirolina)\n- F — puñetazo; C — llamar a tu moto de nieve o coche; H — claxon; R — volcar un vehículo atascado\n- M — mapa; Tab o T — teléfono; P — pausa (tiendas, ajustes, idioma)\nMóvil: joystick flotante para moverse, arrastra para mirar; botones en pantalla para saltar, tabla, piolet, puñetazo y acción; flechas de dirección con acelerador y freno en un vehículo."
  },
  "happy-supermarket-3d-simulator": {
   "description": "¡Adéntrate en el emocionante mundo del comercio minorista con Happy Supermarket 3D Simulator! Construye y gestiona tu propio supermercado, reabastece las estanterías con productos, da la bienvenida a los clientes y encárgate de las cajas en una divertida experiencia de compra en 3D. Mantén tu tienda ordenada, atiende a los clientes con eficiencia y gana dinero con las ventas diarias. Usa tus beneficios para mejorar tu supermercado, ampliar tu negocio y crear un bullicioso destino de compras. ¿Serás capaz de convertir una pequeña tienda en un supermercado de éxito?",
@@ -184684,8 +184684,8 @@
   }
  },
  "mega-jump": {
-  "description": "El exitoso juego de saltos para móviles ya se puede jugar gratis en línea en Arkadium. ¡No hace falta descargar nada; salta directamente a la acción desde tu navegador! ¡Ponte tus botas de salto y prepárate para volar! Mega Jump es un juego de saltos rápido y lleno de acción que millones de personas adoran. Sumérgete en un mundo de emoción mientras saltas, esquivas y recoges monedas, subiendo cada vez más alto hacia el cielo. Mega Jump no es un juego de saltos más; como uno de los mejores juegos de saltos gratis disponibles, pone a prueba tu concentración, tu ritmo y tu estilo como ningún otro juego. ¿Quieres flotar como un globo? Hecho. ¿Necesitas atrapar todas las monedas a la vista? El Coin Magnet te cubre las espaldas. ¿Te sientes con fuego? Agarra un impulso Super Nova y vuela por los niveles como un cometa. Cuidado con los monstruos escurridizos, las trampas traicioneras y la gravedad que intenta arrastrarte hacia abajo. Con impresionantes visuales de dibujos animados, fondos espectaculares y desafíos que te mantienen intrigado, Mega Jump ofrece diversión sin pausa. Desbloquea personajes peculiares, desde valientes héroes hasta adorables criaturitas, y conviértelos en tus campeones del salto. Ya sea que persigas monedas o te lances al espacio, este juego de saltos convierte cada brinco en una aventura, demostrando por qué está considerado entre los mejores juegos de saltos gratis que puedes jugar. ¡Juega a Mega Jump en línea hoy mismo! Si buscas más desafíos que te aceleren el corazón y aventuras inolvidables, echa un vistazo a la colección de juegos online gratis de Arkadium, que se pueden jugar al instante sin instalaciones ni descargas. Disfruta de la emoción de los juegos de carreras que te ponen al volante o de los juegos adictivos llenos de acción sin pausa. ¡Diviértete!",
-  "instructions": "Tu objetivo es sencillo: salta alto, recoge monedas y llega a nuevas etapas. Si fallas una recogida, es Game Over; mantente alerta y haz tu siguiente movimiento rápidamente. Sigue apuntando a la puntuación más alta. Usa las teclas de flecha para moverte a la izquierda o a la derecha y saltar sobre las plataformas. Consejos para Mega Jump: Monedas de oro: Recoge 100 para obtener un impulso. Monedas x2 y x5: Las monedas con el centro azul y rojo valen el doble y el quíntuple: ¡ding, ding! Monedas tramposas: Cuidado; estas monedas astutas huyen cuando te acercas. Monedas móviles: Desliza de un lado a otro para atrapar estos tesoros escurridizos. Estrellas de impulso: Las estrellas brillantes te lanzan más alto. Amarilla, verde, azul y roja: cada una más potente que la anterior. Recoge todas las que puedas para obtener enormes impulsos y volar a nuevas alturas. Estrellas de rescate: ¿Caes? Toca tu Save Star para volver a subir como un cohete. Empiezas con 5, así que úsalas con sabiduría y no las desperdicies. Power-ups al rescate: Paraguas: Flota suavemente hacia abajo y atrae monedas magnéticamente. Botas de salto: Saltos más grandes, rápidos y altos. Imán: Atrae monedas como un jefe. Explosión de suerte: Transforma eve"
+  "description": "El exitoso juego de saltos para móviles ya se puede jugar gratis en línea en Arkadium. No necesitas descargas: ¡salta directamente a la acción desde tu navegador! ¡Ponte tus botas de salto y prepárate para volar! Mega Jump es un juego de saltos trepidante y lleno de acción que millones de personas adoran. Sumérgete en un mundo de emociones mientras saltas, esquivas y recoges monedas, subiendo cada vez más alto hacia el cielo. Mega Jump no es un juego de saltos más: como uno de los mejores juegos de saltos gratis disponibles, pone a prueba tu concentración, tu ritmo y tu estilo como ningún otro juego puede hacerlo. ¿Quieres flotar como un globo? Hecho. ¿Necesitas atrapar todas las monedas a la vista? El Imán de Monedas te cubre las espaldas. ¿Te sientes con energía? Coge un impulso Super Nova y atraviesa los niveles como un cometa. Cuidado con los monstruos escurridizos, las trampas traicioneras y la gravedad, que intentará arrastrarte de nuevo hacia abajo. Con unos gráficos de dibujos animados impresionantes, fondos espectaculares y desafíos que te mantendrán adivinando, Mega Jump ofrece diversión sin parar. Desbloquea personajes peculiares, desde héroes valientes hasta pequeñas criaturas adorables, y conviértelos en tus campeones del salto. Ya sea que persigas monedas o te lances al espacio, este juego de saltos convierte cada salto en una aventura, demostrando por qué está considerado uno de los mejores juegos de saltos gratis que puedes jugar. Juega a Mega Jump en línea hoy mismo Si buscas desafíos más emocionantes y aventuras inolvidables, echa un vistazo a la colección de juegos online gratis de Arkadium, que puedes jugar al instante sin instalaciones ni descargas. Disfruta de la emoción de los juegos de carreras que te ponen al volante o de los juegos adictivos llenos de acción sin pausa. ¡Disfruta!",
+  "instructions": "Tu objetivo es sencillo: salta alto, recoge monedas y llega a nuevas fases. Si fallas una recogida, es Game Over, así que mantente atento y haz tu siguiente movimiento con rapidez. Intenta siempre conseguir la puntuación más alta. Usa las teclas de flecha para moverte a la izquierda o a la derecha y saltar sobre las plataformas. Consejos del juego Mega Jump: Monedas de oro: consigue 100 para obtener un impulso. Monedas x2 y x5: las monedas con centro azul y rojo valen el doble y el quíntuple, ¡ding ding! Monedas tramposas: cuidado, estas monedas escurridizas huyen cuando te acercas. Monedas móviles: desplázate de lado a lado para atrapar estos tesoros esquivos. Estrellas de impulso: las estrellas brillantes te lanzan más alto. Amarillas, verdes, azules y rojas: cada una es más potente que la anterior. Recoge todas las que puedas para obtener enormes impulsos y volar a nuevas alturas. Estrellas de guardado: ¿te estás cayendo? Toca tu Estrella de guardado para salir disparado hacia arriba. Empiezas con 5, así que úsalas con sabiduría y no las desperdicies. Potenciadores al rescate Paraguas: flota suavemente hacia abajo y atrae monedas. Botas de salto: saltos más grandes, rápidos y altos. Imán: atrae monedas como un jefe. Explosión de suerte: transforma eve"
  },
  "bullet-man-master-3d": {
   "description": "¡Hola, Bullet Man! Usa tu pistola para perfeccionar tu puntería letal y dispara al mayor número posible de malos. Los obstáculos desafiantes hacen que llegar a tus objetivos sea aún más complicado, así que apunta antes de apretar el gatillo y disparar. Antes de poner el dedo en el gatillo y disparar, tienes que pensar como un francotirador: ¿cuántos enemigos puedes derribar de un solo disparo? Tienes muchos objetivos. ¿Eres tú el francotirador Bullet Man que salvará el día?",
@@ -215379,8 +215379,8 @@
   }
  },
  "evolution-simulator": {
-  "description": "Evo Wilds es una aventura de evolución en 3D muy colorida. Eclosionas como un pequeño Wiggle Worm en el Sunny Meadow: devora bayas, muerde bichos y reúne EVO para subir de nivel. Cada pocos niveles te EVOLUCIONAS y eliges tu camino entre dos nuevas criaturas: un luchador de golpes contundentes, un tanque resistente o un corredor veloz. 23 formas por descubrir, desde escarabajos, caracoles y ranas hasta zorros, lobos, osos, rinocerontes, raptores, mamuts, grifos y dragones. Fíjate en los colores del nivel sobre cada criatura: verde significa tentempié, rojo significa huir. Derrota al jefe gigante de cada isla, esquiva sus golpes, embestidas y rocas que caen, y cruza el portal al siguiente mundo: Shroom Woods, Sunscorch Dunes, Frostfang Peaks y las Ember Isles. Gasta ADN en el laboratorio para mordiscos más afilados y una piel más resistente, completa tu Evo-Dex, sigue los objetivos y renace más fuerte para probar cada camino de evolución.",
-  "instructions": "Muévete con WASD o las teclas de flecha, o arrastra por cualquier parte de la pantalla en el móvil. El mordisco es automático: camina hacia una criatura y la atacarás. Pulsa Espacio (o el botón POUNCE) para lanzarte y morder con fuerza; no puedes recibir golpes mientras te lanzas, así que úsalo para esquivar los círculos rojos y los carriles de los jefes. Come tentempiés para curarte y ganar EVO. Llena la barra de EVO para subir de nivel; en los niveles de evolución elige una de las dos nuevas formas. Las criaturas con nivel verde son seguras para cazar, el amarillo es un combate justo, y el rojo y la calavera son demasiado fuertes por ahora. Derrota al jefe de cada isla en la arena al norte del camino para abrir el portal. Esc pausa."
+  "description": "Evo Wilds es una aventura evolutiva en 3D llena de colores. Eclosionas como un diminuto Gusano Serpenteante en el Prado Soleado: come bayas, muerde insectos y reúne EVO para subir de nivel. Cada pocos niveles te EVOLUCIONAS y eliges tu camino entre dos nuevas criaturas: un luchador de golpes contundentes, un tanque resistente o un corredor veloz. 23 formas por descubrir, desde escarabajos, caracoles y ranas hasta zorros, lobos, osos, rinocerontes, raptores, mamuts, grifos y dragones. Fíjate en los colores de nivel sobre cada criatura: verde significa tentempié, rojo significa huye. Derrota al gigante jefe de cada isla, esquiva sus embestidas, cargas y rocas que caen, y atraviesa el portal al siguiente mundo: Bosque de Hongos, Dunas Abrasadoras, Picos Colmillo de Escarcha e Islas de Brasas. Gasta ADN en el laboratorio en mordiscos más afilados y piel más resistente, completa tu Evo-Dex, sigue los objetivos y renace más fuerte para probar todos los caminos de evolución.",
+  "instructions": "Muévete con WASD o las flechas del teclado, o arrastra por cualquier parte de la pantalla en el móvil. El mordisco es automático: camina hacia una criatura y la atacarás. Pulsa Espacio (o el botón POUNCE) para lanzarte y morder con fuerza; no puedes recibir golpes mientras te lanzas, así que úsalo para esquivar los círculos rojos y los carriles de los jefes. Come tentempiés para curarte y ganar EVO. Llena la barra de EVO para subir de nivel; en los niveles de evolución elige una de las dos nuevas formas. Las criaturas con nivel verde son seguras para cazar, las amarillas son un combate justo, y las rojas y la calavera son demasiado fuertes por ahora. Derrota al jefe de cada isla en la arena al final norte del camino para abrir el portal. Esc pausa."
  },
  "fish-eggs-for-animals": {
   "description": "Lanza el anzuelo en un océano gigante, pesca peces raros y mutaciones, y construye un acuario que genera dinero con los visitantes en este juego de pesca 3D incremental.",
@@ -258331,8 +258331,28 @@
   }
  },
  "subway-surfers-pro2": {
-  "description": "Los juegos de correr sin fin nunca han sido tan adictivos y divertidos como con Imposter Runner 3D. En este juego de aventuras de correr, estás atrapado dentro de una estación de metro y tienes que correr lo más rápido posible e intentar esquivar los trenes que se acercan si quieres recorrer más distancia y mejorar tu puntuación máxima. ¿Eres el impostor entre nosotros? Pues estás huyendo del policía gruñón y no deja de perseguirte. Mientras estás solo en este juego de aventuras adictivo, hay varios power-ups y potenciadores diferentes que te ayudan a recoger más monedas, correr más lejos y divertirte más. ¿Qué más? Hay mucho por descubrir. Descarga Imposter Runner 3D gratis en tu dispositivo Android, entra en la estación de metro y diviértete corriendo, esquivando y evitando chocar con los obstáculos, los trenes o que el policía te atrape. ¡Un juego de correr 3D sin fin para divertirte y encontrar al impostor entre nosotros! Imposter Runner 3D, el juego de correr y saltar adictivo con gráficos 3D, consiste en esquivar los trenes que se acercan e intentar no chocar con los obstáculos y las barreras. El juego con un solo dedo te permite deslizar, saltar o agacharte rápidamente. La jugabilidad sin fin, junto con desafíos increíbles y animaciones fluidas, hace que nunca te aburras de jugar a este juego de correr 3D. No olvides recoger las monedas y los power-ups, ya que te dan más poder y te ayudan a sobrevivir más tiempo en esta aventura sin fin. ¿Por qué no pruebas este juego gratis de correr y saltar en 3D? Tanto si buscas un juego de correr sin fin para matar el tiempo en tus ratos libres como si quieres un juego de aventuras adictivo con un ritmo rápido para mejorar tu concentración, lo tenemos cubierto. Si también eres fan del popular juego Among Us y quieres probar el personaje del impostor en otro juego, también lo tenemos cubierto. Imposter Runner 3D se puede jugar totalmente gratis, y su jugabilidad para matar el tiempo hace que nunca notes las horas que pasan mientras intentas superar tu puntuación máxima. Características principales de Imposter Runner 3D de un vistazo: ● Diseño limpio y ordenado con una interfaz fresca e intuitiva ● Gráficos 3D increíbles con animaciones fluidas ● Aventura de correr y saltar sin fin aventur",
-  "instructions": "Controles de ratón Controles Ratón Flechas"
+  "description": "¡Los juegos de correr sin fin nunca han sido tan adictivos y divertidos como con Imposter Runner 3D! En este juego de aventuras de carreras, estás atrapado dentro de una estación de metro y tienes que correr lo más rápido posible e intentar esquivar los trenes que se acercan si quieres recorrer más distancia y mejorar tu récord. ¿Eres el impostor entre among us? Pues estás huyendo del policía gruñón, que no deja de perseguirte. Mientras estás solo en este adictivo juego de aventuras de correr, hay varios power-ups y potenciadores diferentes que te ayudan a conseguir más monedas, correr más lejos y divertirte más. ¿Qué más? Pues hay mucho por descubrir. Descarga Imposter Runner 3D gratis en tu dispositivo Android, entra en la estación de metro y diviértete corriendo, esquivando y evitando chocar con los obstáculos, los trenes o ser atrapado por el policía. ¡Un juego de correr 3D sin fin para divertirte y encontrar al impostor entre among us! Imposter Runner 3D, el adictivo juego de correr y saltar con gráficos 3D, consiste en esquivar los trenes que se acercan e intentar no chocar con los obstáculos y las barreras. La jugabilidad con un solo dedo te permite deslizar, saltar o agacharte rápidamente. La jugabilidad sin fin, junto con desafíos increíbles y animaciones fluidas, hace que nunca te aburras de jugar a este juego de correr 3D. No olvides recoger las monedas y los power-ups, ya que te dan más poder y te ayudan a sobrevivir más tiempo en esta aventura sin fin. ¿Por qué no pruebas este juego gratis de correr y saltar en 3D? Tanto si buscas un juego de correr sin fin para matar el tiempo en tus ratos libres, como si buscas un juego de aventuras adictivo con un ritmo rápido para mejorar tu concentración, lo tenemos todo para ti. Si también eres fan del popular juego among us y quieres probar el personaje impostor en otro juego, también lo tenemos cubierto. Imposter Runner 3D se puede jugar totalmente gratis, y su jugabilidad para matar el tiempo hace que nunca notes las horas mientras intentas superar tu récord. Características principales de Imposter Runner 3D de un vistazo: ● Diseño limpio y ordenado con una interfaz fresca e intuitiva ● Increíbles gráficos 3D con animaciones fluidas ● Aventura de corredor y saltos sin fin: aventur",
+  "instructions": "Controles del ratón Controles Ratón Flechas",
+  "guide": {
+   "intro": "Este juego de correr sin fin te hace sprintar por una estación de metro mientras esquivas trenes y obstáculos que se acercan. Sigue avanzando, recoge monedas y power-ups e intenta superar tu récord.",
+   "tips": [
+    "Vigila los trenes con antelación y empieza a cambiar de carril o a saltar antes de que lleguen hasta ti, ya que reaccionar tarde es la forma más común de estrellarte.",
+    "Usa las flechas del teclado para cambiar de carril, saltar y deslizarte, y haz movimientos cortos y rápidos para poder reaccionar al siguiente obstáculo.",
+    "Recoge las monedas y los power-ups cuando sea seguro alcanzarlos, porque te ayudan a conseguir más monedas, correr más lejos y sobrevivir más tiempo.",
+    "Mantente por delante del policía gruñón manteniendo un ritmo constante y evitando las pausas, ya que si te atrapa, la partida termina.",
+    "Si disfrutas de los saltos y las esquivas de aquí, también te pueden gustar [[parkour-and-obby-games|más desafíos de saltos y esquivas]] que ponen a prueba los mismos reflejos rápidos."
+   ],
+   "faq": [
+    [
+     "¿Cómo controlo a mi personaje?",
+     "Las instrucciones indican las flechas del teclado para controlar el movimiento, y las usas para cambiar de carril, saltar y deslizarte por debajo de los obstáculos."
+    ],
+    [
+     "¿En qué debo centrarme para conseguir una puntuación más alta?",
+     "Céntrate en sobrevivir más tiempo esquivando trenes y barreras, y recoge monedas y power-ups por el camino para seguir corriendo."
+    ]
+   ]
+  }
  },
  "chef-twins-summer-dessert-cooking": {
   "description": "¡Es hora de cocinar con los gemelos chef! George y Emma, dos niños adorables, pero buenos cocineros. ¡Hoy, cada uno prepara postres para el concurso de postres de verano! George piensa que los postres coloridos son más atractivos para los niños en verano. Aunque Emma cree que la sensación de frescor es siempre lo más importante. ¡Puedes ver el proceso completo y aprender la receta a través del juego! ¡Vamos a probar juntos estos postres de verano geniales!",
@@ -273908,8 +273928,8 @@
   }
  },
  "mad-city-racings-big-city-openworld": {
-  "description": "¡Mad City Racings Online lleva las carreras móviles de mundo abierto a un nivel totalmente nuevo! Derrapes, carreras online, personalización de coches, carreras de aceleración, acrobacias y la libertad de recorrer una enorme ciudad. 🔥 CARACTERÍSTICAS DEL JUEGO 🔥 Varios modos de juego • Carreras callejeras • Carreras de aceleración • Retos de derrape • Puntos de control • Zonas de acrobacias • Destrucción de objetos • Modo motor apagado • Exploración libre 🏁 Multijugador en tiempo real Juega online con amigos y pilotos de todo el mundo. Carreras de exploración libre, carreras PvP, duelos de derrape y carreras de aceleración en tiempo real. 🌍 Enorme mundo abierto (Dos grandes metrópolis abiertas – ciudades) Explora la vasta y vibrante ciudad, descubre áreas secretas, circuitos, saltos y desafíos. 💀 Modo Sin Motor ¡Pon a prueba tus habilidades de control! Apaga el motor y lánzate por enormes circuitos de gran altitud usando solo el impulso, los frenos y una dirección precisa. Plataformas estrechas, saltos mortales, abismos y obstáculos extremos: un solo error y vuelves al punto de partida. 🔥 Modo Acrobacias Circuitos locos, saltos gigantes, ventiladores giratorios, túneles estrechos y obstáculos mortales. Realiza acrobacias increíbles, completa pruebas desafiantes y demuestra que eres un verdadero maestro de la conducción extrema. 🚗 Enorme flota de coches Desbloquea decenas de coches: JDM, superdeportivos, muscle cars, coches de derrape y modelos exclusivos, ¡además de un coche volador! ⚙️ Ajustes avanzados Mejora el motor, el turbo, la suspensión, la caja de cambios y el manejo. Crea el montaje perfecto para correr. 🎨 Personalización total Luces de neón, vinilos, alerones, llantas, pintura, cristales tintados y un estilo único para tu coche. 🛠 Editor de circuitos Crea tus propios circuitos con saltos, obstáculos y rutas desafiantes. 🎰 Rueda de la Fortuna Prueba tu suerte y gana coches raros, dinero y recompensas exclusivas. 📈 Tareas diarias y eventos Completa misiones, participa en eventos y gana recompensas increíbles. 🎮 Gráficos URP de nueva generación Físicas realistas, efectos de sonido de alta calidad e iluminación dinámica. ¡Puedes activar los efectos en los ajustes! Tu estilo. Tus coches. Tu ciudad.",
-  "instructions": "Controles: - W — Acelerar - S — Frenar / Marcha atrás - A / D — Girar a la izquierda / derecha - F — Activar nitro - ESPACIO — Freno de mano - C — Cambiar cámara - ESC — Abrir menú / ajustes ¡Ponte al volante, domina tu forma de conducir y usa el nitro para alcanzar la velocidad máxima!"
+  "description": "¡Mad City Racings Online lleva las carreras móviles de mundo abierto a un nivel totalmente nuevo! Derrapes, carreras online, personalización de coches, carreras de aceleración, acrobacias y la libertad de recorrer una enorme ciudad. 🔥 CARACTERÍSTICAS DEL JUEGO 🔥 Varios modos de juego • Carreras callejeras • Carreras de aceleración • Desafíos de derrape • Puntos de control • Zonas de acrobacias • Destrucción de objetos • Modo motor apagado • Exploración libre 🏁 Multijugador en tiempo real Juega online con amigos y pilotos de todo el mundo. Carreras de exploración libre, carreras PvP, batallas de derrape y carreras de aceleración en tiempo real. 🌍 Enorme mundo abierto (Dos grandes metrópolis abiertas: ciudades) Explora la vasta y vibrante ciudad, descubre áreas secretas, circuitos, saltos y desafíos. 💀 Modo Sin Motor ¡Pon a prueba tus habilidades de control! Apaga el motor y precipítate por enormes circuitos de gran altura usando solo el impulso, los frenos y una dirección precisa. Plataformas estrechas, saltos mortales, abismos y obstáculos extremos: un solo error y vuelves al punto de partida. 🔥 Modo Acrobacias Circuitos locos, saltos gigantes, ventiladores giratorios, túneles estrechos y obstáculos mortales. Haz acrobacias increíbles, supera pruebas desafiantes y demuestra que eres un auténtico maestro de la conducción extrema. 🚗 Enorme flota de coches Desbloquea decenas de coches: JDM, superdeportivos, muscle cars, coches de derrape y modelos exclusivos, ¡además de un coche volador! ⚙️ Ajustes avanzados Mejora el motor, el turbo, la suspensión, la caja de cambios y el manejo. Crea el montaje perfecto para correr. 🎨 Personalización completa Luces de neón, vinilos, alerones, llantas, pinturas, cristales tintados y un estilo único para tu coche. 🛠 Editor de circuitos Construye tus propios circuitos con saltos, obstáculos y rutas desafiantes. 🎰 Rueda de la Fortuna Prueba tu suerte y gana coches raros, dinero y recompensas exclusivas. 📈 Tareas diarias y eventos Completa misiones, participa en eventos y gana recompensas increíbles. 🎮 Gráficos URP de nueva generación Físicas realistas, efectos de sonido de alta calidad e iluminación dinámica. ¡Puedes activar los efectos en los ajustes! Tu estilo. Tus coches. Tu ciudad.",
+  "instructions": "Controles: - W — Acelerar - S — Frenar / Marcha atrás - A / D — Girar a la izquierda / derecha - F — Activar nitro - ESPACIO — Freno de mano - C — Cambiar cámara - ESC — Abrir menú / ajustes ¡Ponte al volante, domina tus habilidades de conducción y usa el nitro para alcanzar la velocidad máxima!"
  },
  "snake-rush": {
   "description": "¡Prepárate para sumergirte en el mundo lleno de adrenalina de Snake Rush! 🐍 Emprende un viaje electrizante con esta versión competitiva del clásico juego Snake. Pon a prueba tus instintos de supervivencia y esfuérzate por superar a tus rivales en el enfrentamiento definitivo de Snake Rush. Con Snake Rush vivirás la diversión atemporal de los arcade con un estilo fresco y moderno. ¡Participa en emocionantes eventos en vivo en línea, donde la competencia nunca duerme! ¿Podrás subir a lo más alto de la tabla de clasificación y reclamar la victoria en esta dinámica adaptación móvil de la sensación arcade? Snake Rush combina gráficos de última generación con las icónicas mecánicas de juego del Snake original, ofreciendo una experiencia de juego incomparable que te mantendrá enganchado durante horas. ¡Prepárate para reptar, esquivar y dominar el camino hacia la gloria en Snake Rush! 🎮 [Jugabilidad principal e historia] P: ¿De qué trata el juego? ¿Qué deben hacer los jugadores? R: Snake Rush es un juego en el que controlas a una serpiente que repta, sobreviviendo el mayor tiempo posible al chocar contra los oponentes y derrotarlos. P: ¿Cuál es la característica única del juego? ¿Qué es lo que engancha a los jugadores? R: Gráficos excelentes y skins únicos de estilo indio. P: ¿Cuáles son los elementos de contenido más atractivos (armas, coches, escenarios, habilidades, referencias a franquicias famosas, etc.)? R: El juego cuenta con skins únicos de estilo indio y ofrece la opción de revivir al ver un anuncio, lo que da al jugador la oportunidad de recuperar su progreso tras un error. [Mecánicas y progresión] P: ¿Cómo funciona exactamente la subida de nivel? ¿Qué deben hacer los jugadores para subir de nivel más rápido? R: Corta el paso a tantos enemigos como puedas y completa las tareas del menú. [Economía y personalización] P: ¿Qué monedas hay disponibles y en qué se gastan (estándar: oro, premium: cristales, etc.)? R: El juego tiene una sola moneda, el oro, que se puede gastar en skins para tu serpiente. P: ¿Hay personalización del personaje? ¿Se puede configurar la apariencia del héroe, el editor de escenarios, la mejora de vehículos, etc.? R: Sí, puedes comprar skins. [Retención y participación] P: ¿Es recomendable jugar con sonido para sumergirse mejor en la atmósfera, o jugar sin sonido dificulta el avance? R: La música complementa el juego y lo hace más diná",
@@ -282633,8 +282653,28 @@
   }
  },
  "stunt-car-impossible-track-challenge": {
-  "description": "¿Estás listo para conducir por la carretera del cielo y realizar acrobacias imposibles con el coche? Vive la mejor experiencia de conducción en pistas imposibles haciendo acrobacias en rampas imposibles. Conduce con cuidado por las pistas imposibles y demuestra tus buenas habilidades en los juegos de acrobacias con coches. Este peligroso juego de acrobacias es difícil de conducir por pistas en zigzag y rampas en la carretera del cielo. En este gran juego de rampas necesitas tener habilidades de carreras en pistas imposibles. El coche saltarín tiene una buena física de salto acrobático. Estoy seguro de que disfrutarás muchísimo de este juego de carreras de coches jugando a estas carreras de acrobacias en la pista imposible más atractiva del entorno celeste. El juego extremo de acrobacias con coches que más te atrapará con sus acrobacias. Si te encantan los coches imposibles para hacer acrobacias, ante todo los juegos de vehículos, entonces el coche de pista imposible es el mejor para ti. Este juego gratis de coches tiene un diseño especial de pistas imposibles para el reto de acrobacias con coches. ¿Estás listo para disfrutar de las últimas acrobacias definitivas en carreteras altas del cielo? Si lo estás, bienvenido al juego de acrobacias con coches, donde puedes conducir a alturas enormes para tocar el gran cielo como una leyenda. Las carreras de acrobacias con coches son el mejor juego de 2019 entre los juegos imposibles de coches acrobáticos y pistas de acrobacias. Disfruta del salto del coche y de una carrera real en pistas imposibles interminables y extremas en las alturas del cielo. Si eres un corredor rápido y un conductor acrobático imposible, y te apasionan los juegos de carreras de coches, prepárate para vivir un auténtico rally de coches en medio del cielo, sin límites. Corre como un maestro de acrobacias enloquecido mientras recorres las pistas imposibles de diseño espectacular y derrota a los rivales en esta aventura impresionante. Realiza derrapes extremos con el coche y volteretas acrobáticas locas en el aire en la pista imposible 3D, y corre como un auténtico derrapador. El coche urbano extremo y las carreras imposibles son un auténtico reto de acrobacias con coches, así que abróchate el cinturón antes de despegar y gana este simulador de carreras de coches 2019. A diferencia de otros juegos de acrobacias con coches, esta conducción extrema de coches urbanos va a ser pura diversión y aventura. Seguro que te engancharás a este loco juego de carreras de coches de pistas imposibles en 3D. Cada nivel es emocionante y desafiante, lo que lo convierte en el juego de acrobacias con coches más emocionante. Llega a t",
-  "instructions": "Controles de teclado"
+  "description": "¿Estás listo para conducir por la carretera del cielo y realizar acrobacias imposibles con coches? Vive la mejor experiencia de conducción en pistas imposibles haciendo acrobacias en rampas imposibles. Conduce con cuidado por las pistas imposibles y demuestra tu buen manejo en los juegos de acrobacias con coches. Este peligroso juego de acrobacias es difícil de conducir por las rampas en zigzag de la carretera del cielo. En este gran juego de rampas, necesitas tener habilidades de carreras de coches en pistas imposibles. El coche saltarín tiene una buena física para los saltos acrobáticos. Estoy seguro de que disfrutarás mucho de este juego de carreras de coches, la pista imposible más atractiva en el entorno del cielo. El juego de acrobacias extremas que más te atraerá. Si te encantan los coches imposibles para hacer acrobacias, los primeros juegos de vehículos; entonces la pista imposible con coches es la mejor para ti. Este juego gratis de coches tiene un diseño especial de pistas imposibles para el reto de acrobacias con coches. ¿Estás listo para disfrutar de las últimas acrobacias definitivas en las carreteras altas del cielo? Si lo estás, bienvenido al juego de acrobacias con coches, donde puedes conducir a grandes alturas para tocar el gran cielo como una leyenda. Las carreras de coches con acrobacias son el mejor juego de 2019 entre los juegos imposibles de coches acrobáticos y pistas de acrobacias. Disfruta de los saltos del coche y de una carrera real por pistas imposibles e interminables en las alturas del cielo. Si eres un corredor muy rápido y un conductor de acrobacias imposibles y te apasionan los juegos de carreras de coches, prepárate para vivir un auténtico rally de coches en mitad del cielo, sin límites. Corre como un maestro de acrobacias enloquecido mientras recorres las pistas imposibles de diseño espectacular y derrota a los corredores rivales en esta impresionante aventura. Realiza derrapes extremos y volteretas acrobáticas increíbles en el aire en la pista imposible 3D y corre como un auténtico derrapador. Las carreras extremas de coches urbanos e imposibles son un verdadero reto de desafíos acrobáticos, así que abróchate el cinturón antes de despegar y gana este simulador de carreras de coches 2019. A diferencia de otros juegos de acrobacias con coches, esta conducción extrema de coches urbanos va a ser pura diversión y aventura. Seguro que te engancharás a este increíble juego de carreras de coches de pistas imposibles 3D. Cada nivel es emocionante y desafiante, lo que lo convierte en el juego de acrobacias con coches más emocionante. Llega a t",
+  "instructions": "Control con teclado",
+  "guide": {
+   "intro": "Stunt Car Impossible Track Challenge te lleva conduciendo por rampas a gran altura y pistas en zigzag. Realizas saltos, derrapes y volteretas en el aire mientras corres contra el reloj para llegar a cada punto de control.",
+   "tips": [
+    "Vigila de cerca el límite de tiempo, ya que cada punto de control debe alcanzarse rápido antes de que se agote el cronómetro de la carrera.",
+    "Tómate un momento para calcular cada rampa antes de saltar, porque un aterrizaje con mal ángulo puede arruinar tu recorrido en las estrechas carreteras del cielo.",
+    "Usa los derrapes en las secciones en zigzag para mantener la velocidad y guarda las volteretas en el aire para los saltos en los que tu coche ya esté estable.",
+    "Prueba cada uno de los diferentes coches deportivos para ver cuál maneja los saltos y las curvas de una forma que se adapte a tu manera de conducir.",
+    "Cuando te sientas cómodo en estas pistas, prueba otros [[racing-games|desafíos de carreras rápidas]] para practicar distintas habilidades de conducción."
+   ],
+   "faq": [
+    [
+     "¿Cómo gano un nivel en este juego?",
+     "Tienes que llegar al punto de control y a la meta antes de que se acabe el tiempo de la carrera. Hacer acrobacias ayuda, pero la velocidad importa porque el cronómetro es limitado."
+    ],
+    [
+     "¿Las acrobacias o la velocidad importan más para la puntuación?",
+     "El juego se centra en llegar rápido a los puntos de control mientras realizas acrobacias, así que tienes que equilibrar ambas cosas. Ser demasiado cuidadoso con las acrobacias puede hacerte perder tiempo."
+    ]
+   ]
+  }
  },
  "nail-salon-for-animals": {
   "description": "Desde pequeñas, a todas las niñas les encanta cambiar su aspecto. A algunas les gusta maquillarse, otras prefieren visitar peluquerías o centros de belleza. Hoy te invitamos a fantasear un poco y visitar nuestro salón de uñas. Presentamos a tus peques nuestro nuevo juego de la serie de juegos educativos para niños:",
@@ -287673,8 +287713,8 @@
   }
  },
  "make-up-cosmetic-box-cake-maker-best-cooking-game": {
-  "description": "¡Sé el mejor repostero de pasteles que el mundo haya visto! ¡Hagamos el mejor pastel de maquillaje del mundo, porque ahora eres el Maestro Chef! ¡A hornear! ¡Conviértete en el mejor repostero de la ciudad y crea los pasteles más deliciosos en este delicioso juego de cocina de pasteles! El juego de cocina de pasteles, de diseño precioso, cuenta con gráficos e interfaz excepcionales que te harán sentir como si estuvieras horneando un pastel de verdad. ¡Qué rico! ¿Qué estás esperando? ¡Saca la batidora y empieza a cascar esos huevos! Entonces, ¿cuál es tu tipo de pastel favorito? ¿Pasteles redondos dulces de maquillaje? ¿Pasteles cosméticos elegantes con forma? Sea lo que sea, puedes hacerlo y decorar tus pasteles para que queden todavía más bonitos, y tomar fotos para mostrarles a tus amigos tus deliciosas creaciones. ¡Incluso puedes presentar tus pasteles en un concurso y servirlos a tus amigos en la fiesta de pasteles! Características: > ¡Aprende a hornear los pasteles de maquillaje más deliciosos JAMÁS vistos en este divertido juego de cocina! > ¡Montones de recetas de pasteles que hacen la boca agua para preparar para ti y tus amigos! > ¡Usa herramientas profesionales de repostería para hornear, diseñar y decorar los pasteles más deliciosos! > Desde pasteles de cumpleaños con grageas de colores hasta cupcakes de fresa, las opciones son infinitas. > ¡Decora tus pasteles con glaseado delicioso, decoraciones deliciosas y adorables adornos! > ¡Toma fotos de tu obra maestra para presumir tus preciosos diseños de pasteles! > ¡Montones de páginas para colorear adorables y divertidas para dibujar en este increíble juego de cocina! ¡Sé el Maestro Chef y haz un Cosmetic Box Cake - que se ve increíble!! En este juego de cocina de pasteles tan adictivo para niños y especialmente para niñas, cocina deliciosos pasteles Cosmetic Box increíbles para fiestas de boda y de cumpleaños. Podrás practicar tus habilidades para hacer pasteles en una variedad de escenarios y técnicas de cocina. Puedes usar los distintos ingredientes para cocinar varios pasteles de chocolate y otros platos sabrosos. Sé el mejor repostero de pasteles cosméticos de chocolate y prueba todos los electrodomésticos de cocina posibles para cocinar delicioso pastel cosmetic box en tu propia cocina. Cocina y hornea el tradicional pastel de maquillaje cosmetic con tu receta de pastel favorita. Diseña y decora tu caja de maquillaje con múltiples artículos como delineador, rímel, lápiz labial y esmalte de uñas para impresionar a tus amigos. Haz tu f",
-  "instructions": "Aprende a hornear los pasteles de maquillaje más deliciosos JAMÁS vistos en este divertido juego de cocina. Montones de recetas de pasteles que hacen la boca agua para preparar para ti y tus amigos. Usa herramientas profesionales de repostería para hornear, diseñar y decorar los pasteles más deliciosos."
+  "description": "¡Sé el mejor repostero de tarta que el mundo haya visto! ¡Hagamos la mejor tarta de maquillaje del mundo, porque ahora eres el Maestro Chef! ¡A hornear! ¡Conviértete en el mejor repostero de la ciudad y crea las tartas más deliciosas en este delicioso juego de cocina de tartas! El juego de cocina de tartas tiene un diseño precioso, con gráficos e interfaz excepcionales que te harán sentir que estás horneando una tarta de verdad. ¡Mmm, qué rico! ¿A qué esperas? ¡Saca la batidora y empieza a cascar esos huevos! ¿Así que cuál es tu tipo de tarta favorito? ¿Tartas redondas y dulces de maquillaje? ¿Tartas elegantes con formas de cosméticos? Sea lo que sea, puedes hacerla y decorar tus tartas para que queden aún más bonitas, y hacer fotos para enseñarles a tus amigos tus deliciosas creaciones. ¡Incluso puedes presentar tus tartas a un concurso y servírselas a tus amigos en la fiesta de tartas! Características: > ¡Aprende a hornear las tartas de maquillaje más deliciosas de SIEMPRE en este divertido juego de cocina! > ¡Montones de recetas de tartas que hacen la boca agua para preparar para ti y tus amigos! > Usa herramientas de repostería profesionales para hornear, diseñar y decorar las tartas más deliciosas. > Desde tartas de cumpleaños con grageas de colores hasta cupcakes de fresa, las opciones son infinitas. > ¡Decora tus tartas con glaseado delicioso, decoraciones deliciosas y adorables adornos! > ¡Haz fotos de tu obra maestra para presumir de tus preciosos diseños de tarta! > ¡Montones de páginas para colorear adorables y divertidas para dibujar en este increíble juego de cocina! ¡Sé el Maestro Chef y haz una Cosmetic Box Cake, que tiene un aspecto increíble!! En este juego de cocina de tartas tan adictivo para niños y sobre todo para niñas, cocina deliciosas tartas Cosmetic Box increíbles para fiestas de boda y de cumpleaños. Podrás practicar tus habilidades para hacer tartas en una gran variedad de escenarios y técnicas de cocina. Puedes usar los distintos ingredientes para cocinar varias tartas de chocolate y otros platos sabrosos. Sé el mejor fabricante de tartas cosmetic box de chocolate y prueba todos los electrodomésticos de cocina posibles para cocinar deliciosas tartas cosmetic box en tu propia cocina. Cocina y hornea la tradicional tarta cosmética de maquillaje con tu receta de tarta favorita. Diseña y decora tu caja de maquillaje con múltiples artículos de maquillaje como delineador, rímel, pintalabios y esmalte de uñas para impresionar a tus amigos. Haz tu f",
+  "instructions": "Aprende a hornear las tartas de maquillaje más deliciosas de SIEMPRE en este divertido juego de cocina. Montones de recetas de tartas que hacen la boca agua para preparar para ti y tus amigos. Usa herramientas de repostería profesionales para hornear, diseñar y decorar las tartas más deliciosas."
  },
  "paintball-wars-gui-2022": {
   "description": "Puedes usar varias armas mortales en los mejores juegos de disparos contra fantasmas. En Minecraft, te has visto envuelto en una gran batalla de varios mapas contra un ejército de bots fantasma. Habrá zombis a los que enfrentarte aunque estés bien preparado. No tengo suficiente dinero para estar listo para algo así en este momento. Disfrutas más de los juegos de disparos si puedes ponerte a cubierto. ¿Qué personaje de apoyo gratuito te gusta usar más mientras juegas videojuegos en línea? Se indica el número total de armas de fuego y otras armas. El protagonista suele ir armado en los videojuegos de terror.",
@@ -291481,8 +291521,8 @@
   }
  },
  "downhill-frenzy": {
-  "description": "Pon tu moto de cross cuesta abajo de la montaña y agárrate fuerte. Downhill Frenzy es una carrera 3D rápida desde la cima de una colina hasta la base, contra seis rivales. Cada rampa es una oportunidad para hacer un truco: Superman, Heel Clicker, Nac-Nac, Cliffhanger y más, con volteretas y giros encima. Encadénalos sin perder el equilibrio para acumular una racha y dejar la pista ardiendo. - Tres colinas: el verde Pine Valley, el otoñal Sunset Ridge y el helado Frost Peak, donde la moto resbala. - Quince trucos de freestyle, ocho para desbloquear. Elige cuáles cuatro van en tus botones. - Tres motos que se manejan de forma distinta, con pinturas y colores de piloto para coleccionar. - Botellas de nitro suspendidas sobre los grandes saltos. Atraviésalas para un impulso de velocidad. - Saca a tus rivales de su trazado. Cuidado: algunos devuelven el golpe. - Un cazador tras de ti. En cada carrera, un rival es más rápido que los demás y nunca se rinde. - Objetivos diarios con una racha que da más premios por cada día que vuelves. Carreras cortas, un pulgar para dirigir y otro pulgar para los trucos. Fácil de aprender, difícil de dejar.",
-  "instructions": "En un teléfono o tableta: - Arrastra a la izquierda y a la derecha en cualquier parte de la pantalla para dirigir. - En el aire, mantén pulsada una de las cuatro burbujas de truco. Suelta antes de aterrizar. - En el aire, arrastra hacia arriba o hacia abajo para dar volteretas, y hacia los lados para girar. - En el suelo, toca KICK cuando un piloto esté a tu lado. - Atraviesa la botella azul sobre un gran salto para obtener nitro. En un teclado: - Las flechas izquierda y derecha dirigen. - En el aire: Z, X, C y V hacen trucos, las flechas arriba y abajo dan volteretas, y las flechas izquierda y derecha giran. - En el suelo: Q y E patean a la izquierda y a la derecha. - P o Escape pausan el juego. Termina entre los tres primeros, supera la puntuación de trucos y gana la carrera para conseguir las tres estrellas en cada colina. Las estrellas desbloquean la siguiente colina; las monedas compran motos nuevas, trucos y colores."
+  "description": "Pon tu moto de cross cuesta abajo de la montaña y agárrate fuerte. Downhill Frenzy es una carrera 3D rápida desde la cima de una colina hasta la base, contra seis rivales. Cada rampa es una oportunidad para hacer un truco: Superman, Heel Clicker, Nac-Nac, Cliffhanger y más, con volteretas y giros encima. Encadénalos sin perder el equilibrio para acumular una racha y prender fuego al circuito. - Tres colinas: el verde Pine Valley, el otoñal Sunset Ridge y el helado Frost Peak, donde la moto resbala. - Quince trucos de freestyle, ocho por desbloquear. Elige cuáles cuatro van en tus botones. - Tres motos que se manejan de forma distinta, con pinturas y colores de piloto para coleccionar. - Botellas de nitro colgando sobre los saltos grandes. Atraviésalas para un impulso de velocidad. - Saca a tus rivales de su trayectoria. Cuidado: algunos devuelven el golpe. - Un cazador tras de ti. En cada carrera, un rival es más rápido que los demás y nunca se rinde. - Objetivos diarios con una racha que da más premios por cada día que vuelves. Carreras cortas, un pulgar para dirigir, un pulgar para los trucos. Fácil de aprender, difícil de dejar.",
+  "instructions": "En un móvil o tableta: - Arrastra a la izquierda y a la derecha en cualquier parte de la pantalla para dirigir. - En el aire, mantén pulsada una de las cuatro burbujas de truco. Suelta antes de aterrizar. - En el aire, arrastra hacia arriba o hacia abajo para dar volteretas, y hacia los lados para girar. - En el suelo, toca KICK cuando un piloto esté a tu lado. - Atraviesa la botella azul sobre un salto grande para obtener nitro. En un teclado: - Las flechas izquierda y derecha dirigen. - En el aire: Z, X, C y V hacen trucos, las flechas arriba y abajo dan volteretas, y las flechas izquierda y derecha giran. - En el suelo: Q y E patean a la izquierda y a la derecha. - P o Escape pausan el juego. Termina entre los tres primeros, supera la puntuación de trucos y gana la carrera para conseguir las tres estrellas en cada colina. Las estrellas abren la siguiente colina; las monedas compran motos nuevas, trucos y colores."
  },
  "cleaning-simulator-spotless": {
   "description": "Un acogedor juego de limpieza al estilo de un viejo cuento ilustrado, dibujado con tinta y acuarela. Un fregadero lleno de platos grasientos, una cocina hollinosa, una bañera con sarro, un espejo empañado, un acuario descuidado, una alfombra sucia: cada uno de los 23 niveles es una cosa que limpiar, paso a paso. Rocía el limpiador, haz espuma, frota el hollín con lana de acero, enjuaga y pule hasta que todo brille. Cada herramienta tiene su propio sonido y su propio rastro. Sin temporizador, sin penalizaciones y sin forma de perder: limpia a tu propio ritmo y luego desliza el dedo sobre la imagen para comparar el antes y el después.",
@@ -291944,8 +291984,28 @@
   }
  },
  "dino-rodeo-3d": {
-  "description": "Dino Rodeo 3D es un juego de montar y atrapar en 3D con estilo de bloques. Sal de tu rancho y adéntrate en una estampida de dinosaurios, salta alto, lanza tu lazo y aterriza sobre el lomo de un dino, luego salta de uno en otro sin tocar el suelo. Cada dino que domes va a tu corral y te da monedas. Gástalas con el entrenador para aumentar tu energía y domar dinos más fuertes, fusiona tres dinos en uno más grande, equipa auras y compra vuelos a biomas lejanos: la Pradera, el Bosque de Helechos, el Desierto, la Jungla, el Pantano, la Edad de Hielo, el Volcán, el Cráter Cósmico, la Cueva y el Río. Atrapa también bestias voladoras, completa tu libro de especies y viste a tu vaquero con atuendos ganados a otros jinetes rivales.",
-  "instructions": "Objetivo: atrapa todos los dinosaurios que puedas en una partida y llévalos a tu corral, donde ganan monedas para mejoras y nuevos biomas. Teclado y ratón: Espacio o clic izquierdo para saltar; pulsa de nuevo en el aire para lanzar el lazo al dino del círculo. Mantén pulsado el botón derecho del ratón y mueve el ratón para girar y apuntar, o usa A / D. En el rancho: WASD para caminar, arrastra para girar la cámara, E para usar una estación, Q para bajarte o subirte a tu montura, P para pausar. Táctil: el joystick aparece bajo tu pulgar izquierdo, arrastra en la mitad derecha para girar y apuntar, el botón de flecha salta y lanza el lazo en el aire, el botón de menú abre las estaciones."
+  "description": "Dino Rodeo 3D es un juego de montar y atrapar en 3D con estilo de bloques. Sal de tu rancho hacia una estampida de dinosaurios, salta alto, lanza tu lazo y aterriza sobre el lomo de un dino, y luego salta de uno a otro sin tocar el suelo. Cada dino que domes va a tu corral y te da monedas. Gástalas en el entrenador para aumentar tu energía y sujetar dinos más fuertes, fusiona tres dinos en uno más grande, equipa auras y compra vuelos a biomas lejanos: las Llanuras, el Bosque de Helechos, el Desierto, la Selva, el Pantano, la Edad de Hielo, el Volcán, el Cráter Cósmico, la Cueva y el Río. También puedes atrapar bestias voladoras, llenar tu libro de especies y vestir a tu vaquero con atuendos ganados a otros jinetes rivales.",
+  "instructions": "Objetivo: atrapa todos los dinosaurios que puedas en una partida y llévalos a tu corral, donde ganan monedas para mejoras y nuevos biomas. Teclado y ratón: Espacio o clic izquierdo para saltar; pulsa de nuevo en el aire para lanzar el lazo al dino del círculo. Mantén pulsado el botón derecho del ratón y mueve el ratón para girar y apuntar, o usa A / D. En el rancho: WASD para caminar, arrastra para girar la cámara, E para usar una estación, Q para bajar o subir a tu montura, P para pausar. Táctil: el joystick aparece bajo tu pulgar izquierdo, arrastra en la mitad derecha para girar y apuntar, el botón de flecha salta y lanza el lazo en el aire, y el botón de menú abre las estaciones.",
+  "guide": {
+   "intro": "Dino Rodeo 3D es un juego de montar y atrapar en 3D con estilo de bloques, donde saltas sobre dinosaurios en estampida, los enlazas y saltas de uno a otro. Atrapa todos los que puedas en una partida y llévalos de vuelta a tu corral para ganar monedas.",
+   "tips": [
+    "Primero salta, y luego pulsa salto de nuevo en el aire para lanzar el lazo. Apunta mientras todavía estás subiendo para que el lazo alcance al dino del círculo antes de empezar a caer.",
+    "Sigue moviéndote de un dino a otro sin tocar el suelo. Cada aterrizaje te da una nueva oportunidad de mantener tu partida en marcha.",
+    "Gasta tus primeras monedas en el entrenador para aumentar tu energía antes que nada. Más energía te ayuda a sujetar dinos más grandes.",
+    "Vale la pena planear la fusión de tres dinos en uno más grande. Guarda algunos dinos parecidos en tu corral para poder combinarlos cuando tengas suficientes.",
+    "Si te gusta domar criaturas, puedes encontrar más [[animal-games|juegos de captura de criaturas]] para probar después de algunas partidas aquí."
+   ],
+   "faq": [
+    [
+     "¿Cómo atrapo a un dinosaurio?",
+     "Salta, pulsa salto de nuevo en el aire para lanzar tu lazo al dino del círculo y luego aterriza sobre su lomo. Una vez que lo montes, puedes saltar al siguiente dino."
+    ],
+    [
+     "¿Cómo gano monedas?",
+     "Cada dino que domes va a tu corral y te da monedas. Trae todos los que puedas en una partida y luego gasta las monedas en mejoras y nuevos biomas."
+    ]
+   ]
+  }
  },
  "hair-salon-master": {
   "description": "Hair Salon Master es un simulador de barbería en 3D. Invita a los clientes a la silla, lee su petición y córtales el pelo con una máquina y tijeras: cada mechón se corta exactamente donde pasa la herramienta, y los recortes caen sobre la capa. Quita el pelo cortado, gana estrellas y dinero, sube de nivel para desbloquear nuevas herramientas y peticiones más difíciles, y personaliza a tu barbero, tus herramientas y tu salón en la tienda.",
@@ -292140,5 +292200,405 @@
  "stunt-car-impossible-track-challenge-3d": {
   "description": "¿Estás listo para conducir por la carretera del cielo y realizar acrobacias imposibles con el coche? Disfruta de la mejor experiencia de conducción en pistas imposibles haciendo acrobacias en rampas imposibles. Conduce con cuidado por las pistas imposibles y demuestra tus buenas habilidades al volante en los juegos de acrobacias con coches. Este peligroso juego de acrobacias es difícil de conducir por pistas en zigzag y rampas en la carretera del cielo. En este gran juego de rampas, necesitas unas habilidades de carreras en pistas imposibles. El coche saltarín tiene una buena física de salto acrobático. Estoy seguro de que disfrutarás mucho de este juego de carreras de coches jugando a esta carrera de acrobacias en la pista imposible más atractiva del entorno celestial. El juego extremo de acrobacias que más te atrapará. Si te encantan los coches imposibles para hacer acrobacias, por encima de todo los juegos de vehículos, entonces el coche de pistas imposibles es el mejor para ti. Este juego gratis de coches tiene un diseño especial de pistas imposibles para el desafío de acrobacias. ¿Estás listo para disfrutar de las últimas acrobacias definitivas en carreteras altas del cielo? Si lo estás, ¡bienvenido al juego de acrobacias con coches, donde puedes conducir a alturas enormes para tocar el gran cielo como una leyenda! Las carreras de acrobacias son el mejor juego de 2019 entre los juegos imposibles de coches acrobáticos y pistas de acrobacias. Disfruta del salto del coche y de una auténtica carrera por pistas imposibles en las interminables pistas extremas imposibles de las alturas del cielo. Si eres un piloto de alta velocidad y un conductor de acrobacias imposible, y tienes pasión por los juegos de carreras de coches, prepárate para vivir un auténtico rally de coches en mitad del cielo sin límites. Corre como un maestro de acrobacias loco mientras recorres las pistas imposibles reales de diseño espectacular y vence a los corredores rivales en esta aventura impresionante. Realiza derrapes extremos y volteretas acrobáticas locas en el aire en la pista imposible 3D y corre como un auténtico derrapador. Las carreras de coches urbanos extremos e imposibles son un auténtico desafío de acrobacias, así que abróchate el cinturón antes de despegar y gana este simulador de carreras de coches 2019. A diferencia de otros juegos de acrobacias, esta conducción extrema de coches urbanos va a ser pura diversión y aventura. Seguro que te engancharás a este increíble juego de carreras de coches de pistas imposibles 3D. Cada nivel es emocionante y desafiante, lo que lo convierte en el juego de acrobacias con coches más emocionante. Llega a t",
   "instructions": "USA LAS TECLAS PARA CONTROLAR EL COCHE"
+ },
+ "santas-rooftop-rush": {
+  "description": "Santa's Rooftop Rush es un corredor navideño gratuito. Santa corre solo por los tejados de Snowy Village, y tu única tarea es el tiempo: toca para saltar, vuelve a tocar en el aire para hacer un doble salto. Los regalos caen solos por las chimeneas mientras pasas, mientras que chocar con muñecos de nieve y otros obstáculos te cuesta un regalo de reserva. Cada nivel te pide visitar un número determinado de casas y esconde tres elfos perdidos que rescatar, y los elfos desbloquean nuevos gorros. El mapa del nivel avanza por varios mundos con combates contra jefes y niveles de Paseo en trineo, además de un Taller y un modo Infinito que se abre más adelante.",
+  "instructions": "Toca o haz clic en cualquier parte para saltar, y vuelve a tocar en el aire para hacer un doble salto. Los regalos bajan por las chimeneas automáticamente. Evita los obstáculos, rescata a los tres elfos escondidos en cada nivel y llega a la meta. En los niveles de Paseo en trineo, arrastra arriba y abajo para volar.",
+  "guide": {
+   "intro": "Santa's Rooftop Rush es un corredor navideño de un solo toque por los tejados de Snowy Village. Santa corre solo y deja regalos por cada chimenea que pasa, así que tu única tarea es cronometrar los saltos y los dobles saltos. Cada nivel te pide visitar un número determinado de casas y esconde tres elfos perdidos, y el mapa avanza por varios mundos con combates contra jefes y fases de Paseo en trineo.",
+   "tips": [
+    "Toca una vez para saltar y vuelve a tocar en el aire para el doble salto. La mayoría de los huecos se superan con un segundo toque tardío, no con un doble toque rápido.",
+    "Chocar con un muñeco de nieve u otro obstáculo te cuesta un regalo de reserva, así que una carrera limpia importa más que la velocidad cuando un nivel pide muchas casas.",
+    "Busca los tres elfos escondidos en cada nivel. Suelen estar en tejados más altos, lo que significa tomar la ruta del doble salto más arriesgada.",
+    "Los elfos rescatados desbloquean nuevos gorros para Santa, así que vale la pena repetir un nivel anterior para encontrar un elfo que se te escapó.",
+    "En los niveles de Paseo en trineo el control cambia: arrastra arriba y abajo para volar en lugar de tocar para saltar."
+   ],
+   "faq": [
+    [
+     "¿Cómo entrego los regalos?",
+     "No necesitas hacerlo: los regalos bajan solos por las chimeneas cuando Santa pasa corriendo por cada casa."
+    ],
+    [
+     "¿Hay un modo infinito?",
+     "Sí, un modo Infinito se abre más adelante, junto con un Taller."
+    ],
+    [
+     "¿Cómo controlo el trineo?",
+     "En los niveles de Paseo en trineo, arrastra arriba y abajo para dirigir el trineo por el cielo."
+    ]
+   ]
+  }
+ },
+ "planet-pounce": {
+  "description": "Planet Pounce es un juego espacial gratis de un solo botón protagonizado por un gato astronauta. Cada planeta gira, y el gato salta en la dirección hacia la que mira cuando tocas, así que todo el juego gira en torno al tiempo de salto. Aterriza en el siguiente planeta para seguir subiendo hacia la meta; si fallas, te alejarás flotando por el espacio. Cada nivel tiene tres objetivos de estrella, como terminar, recoger todos los peces espaciales y superar un tiempo par, y los saltos rápidos seguidos generan combos. Los niveles empiezan en la Zona 1, Milk Way, y recorren cinco zonas, con planetas con pinchos más adelante, un modo Endless y seis trajes desbloqueables.",
+  "instructions": "Toca, haz clic o pulsa la barra espaciadora para dar un salto. Calcula el momento del salto para que el gato salga del planeta mirando hacia el siguiente. Recoge los peces espaciales, termina por debajo del tiempo par para obtener tres estrellas y encadena saltos rápidos para conseguir puntos de combo.",
+  "guide": {
+   "intro": "Planet Pounce es un juego espacial de un solo botón sobre un gato astronauta. Cada planeta gira, y al tocar, el gato salta en la dirección hacia la que mira en ese momento, así que cada salto es un puzle de tiempos. Los niveles empiezan en la Zona 1, Milk Way, y recorren cinco zonas, con tres objetivos de estrella por nivel.",
+   "tips": [
+    "Observa una rotación completa antes de tu primer salto en un planeta nuevo. Toca cuando el gato apunte al siguiente planeta, no cuando ya lo esté dejando atrás.",
+    "Cada nivel tiene tres objetivos de estrella, como terminar, recoger todos los peces espaciales y superar el tiempo par. Ve primero a por la meta y luego repite para conseguir los peces y el tiempo.",
+    "Los saltos rápidos seguidos generan puntos de combo, así que, cuando conozcas un nivel, encadenar saltos sin esperar es la forma de subir la puntuación.",
+    "Los planetas con pinchos aparecen en las zonas posteriores. Asegúrate de aterrizar en el lado seguro y espera una rotación extra si el ángulo no parece correcto.",
+    "Las estrellas desbloquean progreso, y los seis trajes junto con el modo Endless te dan motivos para volver a por las tres estrellas en los niveles anteriores."
+   ],
+   "faq": [
+    [
+     "¿Cómo se juega a Planet Pounce?",
+     "Toca, haz clic o pulsa la barra espaciadora para saltar. El gato salta en la dirección hacia la que mira en ese momento, así que calcula el toque para que apunte al siguiente planeta."
+    ],
+    [
+     "¿Qué pasa si fallo un planeta?",
+     "El gato se aleja flotando por el espacio y tienes que reiniciar el nivel."
+    ],
+    [
+     "¿Cuántas zonas hay?",
+     "Cinco, empezando por Milk Way, más un modo Endless."
+    ]
+   ]
+  }
+ },
+ "swishes-io": {
+  "description": "Swishes.io es un juego de baloncesto callejero en 3D que funciona en tu navegador sin descargas. Elige un uno contra uno en media cancha hasta 11, juega con tu equipo en 3v3 hasta 21 o disputa un partido completo en cancha entera 5v5. Controlas a un jugador mientras compañeros y rivales se mueven a tu alrededor, y un amplio conjunto de controles te permite correr, hacer pump fake, driblar con cruces, pasar, lanzar alley-oops y poner bloqueos. El creador de jugadores te deja dar forma a tu propio baller a partir de plantillas como Sharpshooter o Playmaker, hay un shootaround para practicar tu tiro en suspensión y un modo online te enfrenta a jugadores reales.",
+  "instructions": "WASD para moverte, Shift para correr. Mantén Espacio para disparar (una pulsación corta es un pump fake). I, J, K y L hacen movimientos de dribling, F pasa, G lanza un alley-oop y V pone un bloqueo. H muestra todos los controles, Esc pausa.",
+  "guide": {
+   "intro": "Swishes.io es un juego de baloncesto callejero en 3D con tres formas de jugar: un uno contra uno en media cancha hasta 11, 3v3 hasta 21 y 5v5 en cancha entera. Controlas a un jugador mientras compañeros y rivales se mueven a tu alrededor, y el conjunto de controles de teclado va más allá que la mayoría de juegos de deportes para navegador, con pump fakes, cruces, alley-oops y bloqueos.",
+   "tips": [
+    "Pulsa H durante una partida para ver todos los controles. Los más importantes son Espacio para disparar, I, J, K y L para los movimientos de dribling, F para pasar, G para un alley-oop y V para poner un bloqueo.",
+    "Un toque corto de Espacio es un pump fake, no un tiro. Úsalo para hacer saltar al defensor y luego mantén Espacio para el tiro en suspensión de verdad.",
+    "Guarda el sprint con Shift para los contraataques y para volver a defender. Correr hacia una defensa organizada normalmente solo te lleva a un bloqueo.",
+    "Prueba el shootaround antes de jugar online. Es la forma más rápida de acostumbrarte a cuánto tiempo mantener Espacio en tu tiro en suspensión.",
+    "En 3v3 y 5v5, pon un bloqueo con V para el jugador con el balón y ve hacia el aro. Un alley-oop con G a un compañero que corta es la canasta fácil más segura."
+   ],
+   "faq": [
+    [
+     "¿Qué modos de juego tiene Swishes.io?",
+     "Uno contra uno en media cancha hasta 11, 3v3 hasta 21, 5v5 en cancha entera, un shootaround para practicar y un modo online contra jugadores reales."
+    ],
+    [
+     "¿Cómo hago un pump fake en Swishes.io?",
+     "Pulsa Espacio brevemente. Mantener Espacio hace el tiro de verdad."
+    ],
+    [
+     "¿Puedo crear mi propio jugador?",
+     "Sí, el creador de jugadores te permite dar forma a un baller a partir de plantillas como Sharpshooter o Playmaker."
+    ]
+   ]
+  }
+ },
+ "fuzeborn": {
+  "description": "Fuzeborn es un juego de cartas de pixel art sobre coleccionar criaturas y llevarlas a la guerra. Abre sobres para llenar tu álbum con 30 criaturas de tres tipos, donde Ember vence a Leaf, Leaf vence a Tide y Tide vence a Ember. Coloca dos cartas en la Fuze Pit para descubrir recetas, o fusiona dos copias para crear una más fuerte. Después, elige un ejército de 15 cartas y enfréntate a un rival: ambos elegís una carta al mismo tiempo y la revelan, la de mayor poder se lleva las dos, y un empate inicia una guerra por todo el montón. Si ganas, obtienes botín del mazo del rival. Esta demo gratis de juegos online incluye la campaña completa Home Front.",
+  "instructions": "Pulsa Jugar, abre sobres y revisa tu Álbum. Usa la Fuze Pit para combinar dos cartas. Elige 15 cartas para tu Ejército y luego inicia una campaña. En batalla, elige una de las tres cartas de tu mano; verás los tipos del rival, pero no su poder.",
+  "guide": {
+   "intro": "Fuzeborn es un juego de cartas de criaturas en pixel art basado en un sencillo triángulo de tipos: Ember vence a Leaf, Leaf vence a Tide y Tide vence a Ember. Abres sobres para llenar un álbum de 30 criaturas, experimentas en la Fuze Pit y luego llevas un ejército de 15 cartas a la campaña Home Front, donde ambos bandos eligen una carta al mismo tiempo y la de mayor poder se lleva el par.",
+   "tips": [
+    "Aprende el triángulo antes de tu primera batalla. En un duelo puedes ver los tipos de cartas del rival, pero no su poder, así que elegir el tipo que vence al suyo es tu mejor ventaja.",
+    "Usa la Fuze Pit desde el principio. Colocar dos cartas distintas puede revelar una receta nueva, y fusionar dos copias de la misma criatura crea una carta más fuerte, así es como los duplicados débiles de los sobres se vuelven útiles.",
+    "Forma tu ejército de 15 cartas con los tres tipos. Un ejército cargado de un solo tipo será castigado por cualquier rival que use el tipo que lo vence.",
+    "Guarda algunas cartas de alto poder para las guerras. Un empate inicia una guerra por todo el montón, y ahí es donde una carta grande te puede dar varias cartas de una vez.",
+    "Ganar una batalla te permite obtener botín del mazo del rival, así que una victoria en la campaña también mejora tu álbum para el siguiente combate."
+   ],
+   "faq": [
+    [
+     "¿Cómo funcionan las batallas en Fuzeborn?",
+     "Tú y el rival elegís una de las tres cartas de la mano al mismo tiempo y las revelan. La de mayor poder se lleva ambas cartas; un empate inicia una guerra por todo el montón."
+    ],
+    [
+     "¿Qué es la Fuze Pit?",
+     "Es el lugar donde combinas cartas: coloca dos cartas distintas para descubrir recetas, o dos copias de una misma criatura para crear una versión más fuerte."
+    ],
+    [
+     "¿Fuzeborn es el juego completo?",
+     "Esta es una demo gratuita que incluye la campaña completa Home Front."
+    ]
+   ]
+  }
+ },
+ "ghost-run": {
+  "description": "Ghost Run es un juego gratis de vuelo de un solo toque en el que tu rival más duro eres tú mismo. Un pequeño fantasma aletea entre pilares, recoge monedas y se dirige a la meta, y tu mejor intento vuela a tu lado en dorado. Los niveles se agrupan en mundos como Dawn Fields, Coral Sky, Neon Dunes y Storm Ridge, de cincuenta niveles en cincuenta niveles. Cada pocos niveles, una carrera contra tu fantasma dorado decide la corona, y los niveles de jefe rompen el ritmo de la partida. Las estrellas que consigues en cada nivel suman un total a largo plazo, así que siempre hay un mejor tiempo que batir. Funciona en el navegador, en ordenador y en el móvil, sin descargas.",
+  "instructions": "Toca, haz clic o pulsa la barra espaciadora para aletear. Vuela por los huecos entre los pilares, recoge las monedas y llega a la meta. En los niveles de carrera, supera a tu fantasma dorado para conseguir la corona.",
+  "guide": {
+   "intro": "Ghost Run es un juego de vuelo de un solo toque en el que guías a un pequeño fantasma entre pilares, recoges monedas y llegas a la meta. Tu mejor intento anterior compite contigo como un fantasma dorado.",
+   "tips": [
+    "Toca en ráfagas cortas y constantes en lugar de mantener pulsado el control, para que el fantasma se mantenga nivelado y pueda pasar por el centro de cada hueco.",
+    "Empieza cada nivel observando los primeros pilares antes de coger un ritmo, ya que los huecos son el mismo tipo de reto que repetirás durante toda la partida.",
+    "Planifica tu ruta para recoger monedas cuando estén cerca de un camino seguro, pero no te desvíes hacia un pilar solo para cogerlas, porque terminar el nivel es más importante.",
+    "En los niveles de carrera, mantén a tu fantasma dorado a la vista y ajusta tus aleteos para mantenerte por delante de él, en lugar de fijarte solo en los pilares que tienes enfrente.",
+    "Si disfrutas calculando saltos en recorridos de obstáculos, también te pueden gustar [[parkour-and-obby-games|más juegos de recorridos de obstáculos]] que premian el mismo tipo de precisión en el timing."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo de cada nivel?",
+     "Vuela con el fantasma entre los pilares, recoge monedas por el camino y llega a la meta."
+    ],
+    [
+     "¿Qué controles uso para aletear?",
+     "Toca, haz clic o pulsa la barra espaciadora para aletear. Cada pulsación eleva al fantasma para que puedas dirigirlo por los huecos."
+    ]
+   ]
+  }
+ },
+ "formfieber": {
+  "description": "FormFieber es un juego de fiesta 3D gratis para 2 a 12 jugadores. Un jugador elige una palabra secreta y la construye con formas sencillas: cubos, esferas, cilindros y conos, que se pueden mover, rotar, escalar y colorear. Los demás adivinan en el chat y suman puntos por ser rápidos. Además de Build and Guess, está Build Battle, donde todos modelan la misma palabra y puntúan a los demás, y 3D Telephone, donde las construcciones y las descripciones se pasan en cadena. Las salas privadas funcionan con un código de sala, Quick Play encuentra una sala pública y un taller de práctica individual, sin temporizador, te permite aprender primero las herramientas.",
+  "instructions": "Este juego es mejor con amigos: escribe un nombre, pulsa Create Room y comparte el código de sala, o usa Quick Play para unirte a una sala pública. Al construir, arrastra para orbitar la cámara y añade formas desde el panel izquierdo. Cuando otros construyan, escribe tus respuestas en el chat. Practice te permite probar el taller 3D tú solo.",
+  "guide": {
+   "intro": "FormFieber es un juego de adivinanzas 3D para fiestas, de 2 a 12 jugadores. Un jugador construye una palabra secreta con cubos, esferas, cilindros y conos, y los demás compiten por adivinarla en el chat. Además de Build and Guess, tiene Build Battle y 3D Telephone, y necesita otros jugadores, así que trae amigos o únete a una sala pública.",
+   "tips": [
+    "Este juego necesita al menos dos personas. Crea una sala y comparte el código con tus amigos, o usa Quick Play para unirte a una sala pública.",
+    "Empieza por el taller de práctica individual. No tiene temporizador, así que es el lugar ideal para aprender a mover, rotar, escalar y colorear las formas.",
+    "Al construir, empieza con la forma más grande que define el objeto y luego añade detalles. Los jugadores suelen adivinar por la silueta general.",
+    "Orbita la cámara arrastrando mientras construyes para que tu modelo se vea bien desde el ángulo que ven quienes adivinan.",
+    "Al adivinar, escribe pronto y con frecuencia. Los puntos son para las respuestas correctas más rápidas."
+   ],
+   "faq": [
+    [
+     "¿Puedo jugar a FormFieber solo?",
+     "Solo en el modo Practice, que te permite probar las herramientas 3D sin temporizador. El juego real necesita de 2 a 12 jugadores."
+    ],
+    [
+     "¿Cómo juego con amigos?",
+     "Escribe un nombre, pulsa Create Room y comparte el código de sala. Tus amigos se unen con ese código."
+    ],
+    [
+     "¿Qué modos hay?",
+     "Build and Guess, Build Battle, donde todos construyen la misma palabra y puntúan a los demás, y 3D Telephone, donde las construcciones y las descripciones se pasan en cadena."
+    ]
+   ]
+  }
+ },
+ "carletto-dreams-adventure": {
+  "description": "¡Acompaña a Carletto en un viaje mágico por mundos escondidos dentro de sus sueños! Explora islas flotantes, recoge Estrellas de Sueño brillantes y usa tu telescopio para revelar puentes invisibles, caminos secretos y pistas de puzles. Empuja cajas, activa interruptores y esquiva criaturas traviesas mientras exploras 16 niveles, incluido un desafío final contra un jefe. Descubre una historia ilustrada llena de asombro, sorpresas y aventura, ¡y despierta listo para otro día!",
+  "instructions": "CONTROLES - Mover Flechas izquierda y derecha o A D - Saltar Espacio, flecha arriba o W Mantén pulsado para saltar más alto - Telescopio Mantén Z o E para revelar objetos y pistas ocultas - Interactuar X o F cerca de interruptores, palancas, tuberías y espejos - Empujar cajas Camina contra ellas -",
+  "guide": {
+   "intro": "Carletto Dreams Adventure es un juego de plataformas y puzles en el que exploras islas flotantes dentro de los sueños de Carletto. Recoges Estrellas de Sueño, usas un telescopio para encontrar caminos ocultos y superas 16 niveles que terminan con un desafío contra un jefe.",
+   "tips": [
+    "Mantén pulsada la tecla de salto en lugar de pulsarla rápido cuando necesites alcanzar una plataforma más alta, ya que al mantenerla saltas más alto.",
+    "Mantén pulsada la tecla del telescopio antes de entrar en una zona nueva, así podrás ver puentes invisibles y pistas antes de elegir una ruta.",
+    "Empuja las cajas caminando contra ellas y planifica primero su posición para que no bloqueen un camino que necesitarás más adelante.",
+    "Colócate cerca de interruptores, palancas, tuberías y espejos, pulsa la tecla de interacción y comprueba qué ha cambiado a tu alrededor antes de seguir.",
+    "Si te gustan los saltos cronometrados sobre huecos, [[parkour-and-obby-games|más desafíos de plataformas como estos]] merecen la pena después de completar algunos niveles."
+   ],
+   "faq": [
+    [
+     "¿Cómo reveló los puentes ocultos y los caminos secretos?",
+     "Mantén pulsada Z o E para usar el telescopio, que revela objetos y pistas ocultas en la zona que te rodea."
+    ],
+    [
+     "¿Cómo hago que Carletto salte más alto?",
+     "Mantén pulsada la tecla de salto (Espacio, flecha arriba o W) para saltar más alto en lugar de pulsarla rápidamente."
+    ]
+   ]
+  }
+ },
+ "knights-and-goblins-merge": {
+  "description": "Fusiona caballeros en una cuadrícula y luego observa cómo tu ejército choca con goblins en una batalla automática. Compra guerreros, arqueros, constructores, lanceros y sanadores, combina unidades idénticas para obtener otras más fuertes y colócalas con inteligencia: los arqueros golpean con más fuerza detrás de las unidades cuerpo a cuerpo, mientras que los barriles y la dinamita castigan las filas apretadas. Cinco mundos con jefes gigantes, un modo Onslaught sin fin, hechizos de batalla, un castillo que mejorar con coronas, misiones, recompensas diarias y clasificaciones.",
+  "instructions": "Toca una carta de unidad en la parte inferior para comprar un caballero. Arrastra un caballero sobre uno idéntico para fusionarlos en un caballero más fuerte (hasta el nivel 10). Organiza el ejército en la cuadrícula: unidades cuerpo a cuerpo al frente, arqueros y sanadores detrás. Pulsa ¡Luchar! y la batalla se desarrollará sola; usa Bola de fuego, Curar y Grito de guerra durante el combate. Gana para obtener oro y coronas, mejora tu castillo y amplía la cuadrícula. En ordenador: arrastra con el ratón, las teclas 1-5 compran unidades, Espacio o Enter inicia la lucha, S cambia la velocidad, P pausa.",
+  "guide": {
+   "intro": "Knights & Goblins: Merge es un puzle de cuadrícula en el que combinas caballeros para crear unidades más fuertes y luego ves cómo tu ejército lucha contra goblins en una batalla automática. La colocación inteligente decide la mayoría de tus resultados.",
+   "tips": [
+    "Mantén las unidades cuerpo a cuerpo al frente y los arqueros o sanadores detrás, ya que los arqueros golpean con más fuerza cuando están protegidos por una primera línea.",
+    "Fusiona unidades idénticas siempre que puedas, porque un caballero de nivel superior suele valer más que dos más débiles repartidos por la cuadrícula.",
+    "Evita agrupar demasiadas unidades en una línea muy apretada, ya que los barriles y la dinamita están diseñados para castigar las formaciones concentradas.",
+    "Guarda tus hechizos de batalla como Bola de fuego, Curar y Grito de guerra para los momentos a mitad de combate en que tu primera línea esté más presionada. Si te gusta combinar piezas, puedes explorar más [[merge-games|puzzles de fusión para comparar]].",
+    "Usa la tecla S para acelerar las batallas que ya has probado y la tecla P para pausar cuando necesites un momento para pensar en tu próximo movimiento."
+   ],
+   "faq": [
+    [
+     "¿Cómo fusiono caballeros para obtener una unidad más fuerte?",
+     "Arrastra un caballero sobre otro idéntico en la cuadrícula. Las unidades se pueden fusionar hasta el nivel 10."
+    ],
+    [
+     "¿Dónde debo colocar a mis arqueros durante una batalla?",
+     "Colócalos detrás de tus unidades cuerpo a cuerpo, porque golpean con más fuerza cuando una primera línea de caballeros y lanceros se interpone entre ellos y los goblins."
+    ]
+   ]
+  }
+ },
+ "battle-sandbox-playground": {
+  "description": "Battle Sandbox Playground es un sandbox militar basado en físicas donde los clásicos soldaditos de juguete cobran vida. Crea batallas entre ejércitos verdes y verde oliva, equipa a tus tropas y trae tanques, helicópteros, drones y robots de combate. Construye tu propio campo de batalla o lánzate a escenarios de combate ya preparados en bosques, ciudades, desiertos y mapas nevados. Coloca defensas, lanza paracaidistas y llama a bombardeos aéreos. Mira cómo los ejércitos controlados por IA se enfrentan, o toma el control de un soldado y únete a la acción. Pausa para ajustar tu configuración o cambia a cámara lenta para ver de cerca las explosiones y la física ragdoll. Mezcla unidades, experimenta con armas y objetos destructibles, y prueba un enfoque nuevo cada vez. ¡Prepara tu batalla, pulsa jugar y mira quién sobrevive!",
+  "instructions": "* Selecciona un elemento del menú y luego haz clic izquierdo en el campo de batalla para colocarlo. * Pulsa Esc para cancelar la colocación. * Haz clic y arrastra los objetos para moverlos. * Arrastra un espacio vacío o mantén pulsado el botón central del ratón para mover la cámara. Usa la rueda para hacer zoom. * Pulsa P para cambiar entre los modos Construir y Jugar. En el modo Jugar, haz clic en un soldado para tomar el control. * Usa A/D para moverte, W para saltar y el ratón para apuntar. Haz clic izquierdo o pulsa J para disparar o atacar. * Pulsa Espacio para pausar o reanudar. Pulsa Supr para eliminar el objeto seleccionado. * En móviles, toca para seleccionar y colocar elementos, pellizca para hacer zoom, y usa el joystick en pantalla y los botones de acción para controlar a tu soldado.",
+  "guide": {
+   "intro": "Battle Sandbox Playground es un sandbox militar basado en físicas, con soldaditos de juguete, tanques y helicópteros. Puedes construir tu propio campo de batalla o empezar un escenario ya preparado, y luego ver cómo luchan los ejércitos controlados por IA o unirte como soldado.",
+   "tips": [
+    "Pausa con Espacio antes de pulsar jugar para revisar las posiciones y ajustar tu configuración. Pequeños cambios en la ubicación de tropas y vehículos pueden alterar por completo el desarrollo de una batalla.",
+    "Prueba primero un escenario de combate ya preparado para ver cómo se comportan los ejércitos, y luego construye tu propio campo de batalla con unidades similares para comparar resultados.",
+    "Cambia a cámara lenta para ver de cerca las explosiones y la física ragdoll. Así es más fácil distinguir qué objetos son destructibles y cómo reaccionan tus unidades a los impactos.",
+    "Toma el control de un soldado en el modo Jugar y practica el movimiento con A/D, el salto con W y la puntería con el ratón antes de enfrentarte a una pelea más grande. Disparar con clic izquierdo o J resulta más fácil una vez te acostumbras a la puntería.",
+    "Si te gustan las peleas con muchos vehículos, puedes explorar más títulos en la [[tank-and-war-games|colección de juegos de tanques y guerra]] para encontrar ideas de combate similares."
+   ],
+   "faq": [
+    [
+     "¿Cómo cambio entre construir y combatir?",
+     "Pulsa P para alternar entre los modos Construir y Jugar. En el modo Jugar puedes hacer clic en un soldado para tomar el control de él."
+    ],
+    [
+     "¿Cómo muevo los objetos que he colocado en el campo de batalla?",
+     "Haz clic y arrastra un objeto para moverlo. Para eliminar el objeto seleccionado, pulsa Supr."
+    ]
+   ]
+  }
+ },
+ "satis-coloring-journal": {
+  "description": "Satis Coloring Journal es un puzle relajante de dibujar y colorear en un cuaderno muy bonito. Cada dibujo empieza como líneas de puntos: arrastra tu lápiz de punto a punto para seguir el contorno, ¡y para justo al final! Luego elige el color que creas correcto y frota para rellenar cada parte. Elige cada color correctamente para llegar al 100 % de precisión. Colorea zorros, corgis, patos, tentempiés deliciosos y dulces de temporada, guarda tus obras terminadas en la Galería y cambia entre divertidos diseños de lápiz. ¡Tranquilo, adorable y muy satisfactorio!",
+  "instructions": "🎯 Termina cada dibujo con la mayor precisión posible. ✏️ Arrastra el lápiz desde el punto de inicio siguiendo la línea de puntos hasta el punto final. ⛔ Para en el punto final: si dibujas de más, queda una línea extra. 🎨 Elige el color que creas que encaja con cada parte del dibujo. 🖌️ Frota para rellenar la zona y luego pulsa Terminar cuando esté coloreada. ✅ Los colores correctos aumentan tu precisión. ¡Apunta al 100 %! ↩️ ¿Te equivocaste? Usa Deshacer para volver un paso atrás. 🖼️ Los dibujos terminados van a tu Galería. Cambia los diseños del lápiz cuando quieras.",
+  "guide": {
+   "intro": "Satis Coloring Journal es un puzle tranquilo de dibujar y colorear ambientado en un cuaderno muy bonito. Sigues los contornos punteados, luego eliges colores y rellenas cada parte del dibujo para crear tu obra terminada.",
+   "tips": [
+    "Sigue la línea de puntos despacio y para exactamente en el punto final, ya que pasarte deja una línea extra que puede perjudicar tu resultado.",
+    "Piensa en cómo se vería realmente cada parte del dibujo, como el pelaje de un zorro o el pico de un pato, antes de elegir un color.",
+    "Revisa el color de cada zona antes de frotar para rellenarla, porque un color equivocado baja tu precisión y llegar al 100 % depende de acertar en cada parte.",
+    "Si cometes un error, usa Deshacer para retroceder en lugar de reiniciar todo el dibujo.",
+    "Los dibujos terminados se guardan en tu Galería, así que puedes revisar tu trabajo, y puedes probar [[coloring-and-drawing-games|otros juegos de colorear y dibujar]] si te gusta este estilo."
+   ],
+   "faq": [
+    [
+     "¿Cómo consigo un 100 % de precisión en un dibujo?",
+     "Elige el color correcto para cada parte del dibujo, ya que los colores correctos aumentan tu precisión y los incorrectos la bajan."
+    ],
+    [
+     "¿Qué pasa si arrastro el lápiz más allá del punto final?",
+     "Dibujar de más deja una línea extra, así que para justo en el punto final al terminar cada línea de puntos."
+    ]
+   ]
+  }
+ },
+ "veggie-battle": {
+  "description": "El Anomalía Cactus está preparando un \"zumo de rabia\" y las verduras del jardín se han vuelto locas. ¡Coge un arma y detenlo! Veggie Battle es un divertido juego de lucha con física y verduras muñeco de trapo flexibles: cada golpe, lanzamiento y explosión es pura física, así que no hay dos peleas iguales. Historia: 40 niveles en 5 actos con plataformas, trampas, puzles de cortar cuerdas y jefes. Arcade: partidas infinitas que se vuelven más difíciles en cada fase. Sandbox: genera luchadores, armas, bombas y trampas, elige equipos, mira el caos o toma el control de cualquier luchador tú mismo. 9 luchadores vegetales, 10 armas desde un palo hasta una bazuca, 6 escenarios, mejoras de héroes y estrellas para coleccionar.",
+  "instructions": "Objetivo: derrota a los enemigos, libera a los amigos capturados y llega a la bandera al final de cada nivel. Escritorio: muévete con las flechas Izquierda/Derecha o A/D, salta con Arriba, W o Espacio, ataca con F o el botón izquierdo del ratón (mantenlo para un golpe fuerte). Móvil: joystick para moverte y saltar, botón rojo para atacar. Puzles: desliza sobre una cuerda para cortarla. Sandbox: elige un objeto abajo y toca la escena para colocarlo, arrastra para lanzar, pulsa el botón de espadas para empezar la pelea.",
+  "guide": {
+   "intro": "Veggie Battle es un juego de lucha con física en el que verduras muñeco de trapo flexibles luchan a través de niveles de historia, partidas infinitas de Arcade y un Sandbox libre. Usa armas, trampas y saltos para derrotar a los enemigos y llegar a la bandera.",
+   "tips": [
+    "Mantén pulsado el botón de ataque para un golpe fuerte en lugar de pulsarlo rápido, así podrás lanzar a los enemigos hacia atrás cuando estén cerca de un borde o una trampa.",
+    "Como cada golpe y explosión depende de la física, observa cómo caen los luchadores antes de acercarte y colócate donde un golpe pueda empujar a los enemigos hacia los peligros.",
+    "Libera a los amigos capturados por el camino hacia la bandera, ya que rescatarlos forma parte de completar cada nivel.",
+    "En los puzles de cuerdas, desliza sobre la cuerda en un solo movimiento limpio para cortarla, y comprueba primero dónde caerá el objeto o la plataforma.",
+    "Si te gusta experimentar con cómo caen y chocan los objetos, prueba [[physics-games|otros juegos de física]] para ver más formas en que el movimiento puede definir una pelea."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo principal de cada nivel?",
+     "Derrota a los enemigos, libera a los amigos capturados y llega a la bandera al final del nivel."
+    ],
+    [
+     "¿Cómo hago un ataque más fuerte en el ordenador?",
+     "Mantén pulsada la tecla F o el botón izquierdo del ratón para dar un golpe fuerte en lugar de uno rápido."
+    ]
+   ]
+  }
+ },
+ "push-the-colors": {
+  "description": "El empuje de colores comienza con cuadrados coloridos, obstáculos y puertas de color dentro de un gran juego casual para 2 jugadores. ¡Encuentra distintos disfraces durante la aventura de Push the Colors, lleva los cubos a la meta y enfréntate al gigante del final! Cuantos más cubos tengas, más poder tendrás. Puedes destruir al monstruo de colores teniendo muchos cubos. Toma decisiones inteligentes en el camino y aumenta la cantidad de cubos en tus manos.",
+  "instructions": "Jugador 1: Mover izquierda y derecha con A y D o con las FLECHAS IZQUIERDA-DERECHA. Solo en modo 1J: Empujar al final con W o la FLECHA ARRIBA. Solo en modo 1J: Jugador 2: TECLAS DE FLECHAS. Mover izquierda y derecha con las FLECHAS IZQUIERDA-DERECHA. Empujar al final con la FLECHA ARRIBA.",
+  "guide": {
+   "intro": "Push the Colors es un juego casual en 3D en el que diriges un grupo de cubos de colores pasando por cuadrados, obstáculos y puertas de color hasta la meta. Luego te enfrentas a un gigantesco monstruo de colores, y la cantidad de cubos decide la batalla.",
+   "tips": [
+    "Trata las puertas de color como decisiones: elige las que añadan cubos a tu grupo, ya que un grupo más grande es lo que te da el poder para ganar el empuje final.",
+    "Observa los obstáculos que tienes delante y cambia a la izquierda o a la derecha con antelación, para mantener juntos el mayor número de cubos posible en lugar de perderlos en el último momento.",
+    "Guarda tu empuje para el gigante del final, porque el monstruo se vence teniendo muchos cubos y no pulsando la tecla de empuje antes de tiempo.",
+    "Si juegas con un amigo, reparte los controles entre tus dos juegos de teclas de flecha y hablad sobre qué puertas tomar, como en el modo de dos jugadores del juego. Puedes encontrar más [[2-player-games|juegos para dos jugadores aquí]] para probar juntos."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo principal en Push the Colors?",
+     "Lleva tus cubos a la meta y luego enfréntate al gigantesco monstruo de colores del final."
+    ],
+    [
+     "¿Cómo muevo mis cubos?",
+     "El Jugador 1 usa A y D o las flechas izquierda y derecha, y el Jugador 2 usa las teclas de flecha. Empuja al final con W o la flecha arriba en modo 1J, o con la flecha arriba para el Jugador 2."
+    ]
+   ]
+  }
+ },
+ "city-taxi-driver-sim": {
+  "description": "City Taxi Driver Sim es un maravilloso juego de conducir taxis por la ciudad disponible para smartphone. Varios coches y escenas realistas se combinan en todo el juego. Mantén la mente ocupada y respeta las normas de tráfico. Conducir bajo los efectos del alcohol es un delito muy grave en EE. UU. La policía te arrestará. Un pasajero amable puede llamar a tu taxi. Gana suficiente dinero para comprar un taxi nuevo. El taxi te es entregado para siempre. ¿Estás listo para comenzar una nueva aventura? ¡Puedo prever que serás un conductor de taxi profesional de la ciudad!",
+  "instructions": "WASD - Conducir Espacio - Frenar E - Mapa",
+  "guide": {
+   "intro": "City Taxi Driver Sim te pone al volante de un taxi en una ciudad muy transitada. Conduces por escenas realistas, recoges pasajeros y ganas suficiente dinero para mantener tu taxi en marcha.",
+   "tips": [
+    "Usa la tecla E para abrir el mapa con antelación y saber dónde está tu próximo pasajero antes de empezar a conducir.",
+    "Mantén la vista en la carretera y respeta las normas de tráfico en cada cruce, ya que cumplirlas es una parte esencial del juego.",
+    "Usa Espacio para frenar antes de las curvas y las paradas en lugar de frenar tarde, lo que te ayuda a mantener el control en el tráfico denso.",
+    "Evita conducir después de beber, porque el juego lo trata como un delito grave y la policía te arrestará.",
+    "Si disfrutas conduciendo por las calles de la ciudad, puedes encontrar más opciones en nuestra [[car-games|colección de juegos de coches]]."
+   ],
+   "faq": [
+    [
+     "¿Cómo gano dinero en City Taxi Driver Sim?",
+     "Ganas dinero llevando a los pasajeros a sus destinos, y con suficientes ganancias puedes conseguir un taxi nuevo. Una vez que lo tienes, el taxi es tuyo para siempre."
+    ],
+    [
+     "¿Qué pasa si infrinjo la ley mientras conduzco?",
+     "Conducir bajo los efectos del alcohol se considera un delito muy grave, y la policía te arrestará. Respetar las normas de tráfico te mantiene fuera de problemas."
+    ]
+   ]
+  }
+ },
+ "crash-of-cars": {
+  "description": "Aquí no solo hay un arcade, sino también un juego de guerra de coches con una animación de arte de dibujos animados en tres dimensiones. Tienes la oportunidad de conducir varios tipos de vehículos, como el tanque, el superdeportivo y el camión. Puedes jugar en los modos Contrarreloj y Asalto. ¡Desbloquearás más vehículos al destruir todos los vehículos enemigos en Crash Of Cars!",
+  "instructions": "Toca y desliza - mover Ctrl - usar el objeto Espacio - usar la habilidad",
+  "guide": {
+   "intro": "Crash Of Cars es un juego de guerra de coches en 3D con gráficos de estilo de dibujos animados. Conduces tanques, superdeportivos y camiones en los modos Contrarreloj y Asalto, y desbloqueas nuevos vehículos a medida que destruyes enemigos.",
+   "tips": [
+    "Prueba los modos Contrarreloj y Asalto desde el principio para ver cómo se juega cada uno antes de elegir una estrategia.",
+    "Cambia entre el tanque, el superdeportivo y el camión para descubrir cuál maneja mejor para ti, ya que cada uno conduce de forma distinta.",
+    "Usa la tecla Espacio para activar tu habilidad cuando los enemigos estén cerca, en lugar de guardarla sin un plan.",
+    "Elimina todos los vehículos enemigos de una ronda cuando puedas, porque destruirlos todos es la forma de desbloquear más vehículos. Si disfrutas del juego centrado en la batalla, [[tank-and-war-games|juegos de tanques y guerra]] ofrecen un estilo de combate parecido."
+   ],
+   "faq": [
+    [
+     "¿Cómo muevo mi vehículo?",
+     "Toca y desliza en la pantalla para moverlo. Mantén los movimientos suaves para mantener el control mientras apuntas y evitas a los enemigos."
+    ],
+    [
+     "¿Cómo desbloqueo nuevos vehículos?",
+     "Desbloqueas más vehículos al destruir todos los vehículos enemigos del juego. Concéntrate en eliminar por completo a los enemigos en lugar de dejar algunos atrás."
+    ]
+   ]
+  }
+ },
+ "ludo-game-multiplayer": {
+  "description": "Ludo Online Multiplayer Games es el lugar perfecto para jugar juegos online con tus amigos. Con una enorme selección de juegos para elegir, puedes encontrar el juego ideal para jugar en línea. Tanto si buscas un juego desafiante para jugar con amigos como un juego divertido para jugar online, Ludo Online Multiplayer Games tiene el juego perfecto para ti. Lanza los dados y vence a otros jugadores en el tablero del ludo. Para diversión multijugador, ludo game online 4 players es una versión actualizada del Royal Game Ludo Game Multiplayer. Hace tiempo, este emocionante juego se jugaba entre reyes y reinas de la India. Tienes que pensar estratégicamente, ya que un ludo online pc puede parecer un simple ludo star online y depende mucho de la suerte. Porque al caer en ellas, podrás enviar las fichas de otros jugadores de vuelta al inicio. Además, impedirás que los demás jugadores quiten tus fichas protegiendo las casillas marcadas con un símbolo de estrella. Intenta golpear con una tirada afortunada usándola como un punto seguro hasta que pasen otros jugadores. Sobre todo si tienes varias fichas en juego. Tienes que pensar bien qué movimientos hacer y cuándo. Características del juego: Juega al ludo online multijugador igual que el juego original. Puedes usar nombres personalizados. Apto para todas las edades. Juega al ludo online pc. En Inglaterra, en 1896, el Pachisi se modificó para usar un dado cúbico con un cubilete y fue patentado como \"Ludo\". Cómo jugar: Para llegar al centro del juego gratis del rey, lanza los dados y mueve tus fichas. Primero necesitas sacar un seis en el dado para sacar una de tus fichas al tablero del juego de mesa Ludo y jugar esta versión original del juego Ludo online offline multijugador. Para mover tu ficha por el tablero, vuelve a lanzar el dado. Al empezar entrando al centro, darás la vuelta al tablero. Puedes ganar la partida en cuanto llegues al centro con las cuatro piezas.",
+  "instructions": "Usa el botón izquierdo del ratón para mover los dados. Las demás acciones las realizará el PC. En el móvil, toca los dados.",
+  "guide": {
+   "intro": "Ludo Game Multiplayer es un clásico juego de mesa de carreras en el que lanzas los dados y mueves tus cuatro fichas por el tablero hasta el centro. Se juega con otros jugadores y depende mucho de la suerte, aunque también hay espacio para tomar buenas decisiones.",
+   "tips": [
+    "Espera a sacar un seis antes de sacar fichas, ya que necesitas uno para poner una ficha en el tablero.",
+    "Usa las casillas marcadas con estrella como puntos seguros, sobre todo cuando las fichas rivales estén justo detrás de las tuyas y a punto de pasarlas.",
+    "Busca oportunidades para caer sobre la ficha de un rival, porque así la mandas de vuelta al inicio.",
+    "Cuando tengas varias fichas en el tablero, piensa qué ficha mover en cada turno en lugar de mover siempre la misma pieza. Para más juegos de mesa clásicos que probar, visita [[chess-and-board-games|más juegos de mesa clásicos]]."
+   ],
+   "faq": [
+    [
+     "¿Cómo gano una partida de Ludo Game Multiplayer?",
+     "Ganas moviendo tus cuatro fichas por el tablero hasta llegar al centro."
+    ],
+    [
+     "¿Cómo lanzo los dados?",
+     "En el PC, haz clic en los dados con el botón izquierdo del ratón. En el móvil, toca los dados."
+    ]
+   ]
+  }
+ },
+ "stickman-bros-in-fruit-island-3": {
+  "description": "Stickman Bros In Fruit Island 3 - ¡Aventura de los hermanos Stickman en Fruit Island! Esta vez sus tres hermanos llegaron a la aventura de Fruitland. En el juego, su tarea es recoger fresas y manzanas. Ven y explora con ellos.",
+  "instructions": "P1 A D mover W saltar P2 mover saltar P3 J L mover I saltar",
+  "guide": {
+   "intro": "Stickman Bros In Fruit Island 3 es una aventura en la que tres hermanos stickman exploran Fruitland. Tu tarea es recoger fresas y manzanas mientras avanzas por la isla.",
+   "tips": [
+    "Antes de empezar, revisa qué teclas corresponden a cada hermano: el Jugador 1 usa A, D y W, mientras que el Jugador 3 usa J, L e I. Confundirlas es una forma fácil de perder el control de a quién estás manejando.",
+    "Mira hacia adelante antes de cada salto para calcular bien dónde caer y recoger las fresas y manzanas cercanas en el camino, en lugar de tener que retroceder después.",
+    "Si juegas con otros, acordad quién recoge cada fruta para que los hermanos no persigan todos los mismos objetos.",
+    "Tómate tu tiempo al explorar la isla, porque la fruta está repartida por el mapa y si vas con prisa puedes perder objetos que habrías recogido fácilmente. Si te gustan los desafíos de recoger frutas, puedes encontrar [[fruit-games|más juegos de recoger frutas]] para probar después."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo de Stickman Bros In Fruit Island 3?",
+     "Tu tarea es recoger fresas y manzanas mientras exploras Fruitland con los tres hermanos stickman."
+    ],
+    [
+     "¿Cómo controlo a los tres hermanos?",
+     "El Jugador 1 se mueve con A y D y salta con W, el Jugador 3 se mueve con J y L y salta con I, y el Jugador 2 tiene sus propios controles de movimiento y salto indicados en las instrucciones."
+    ]
+   ]
+  }
  }
 }
