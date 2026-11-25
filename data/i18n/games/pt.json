@@ -292785,5 +292785,238 @@
     ]
    ]
   }
+ },
+ "pho-street-tycoon-3d": {
+  "description": "Pho Street Tycoon 3D é um jogo de gerenciamento de restaurante aconchegante com enredo. Uma cena curta o apresenta em Ha Noi, e você reabre o carrinho de pho do seu avô. Cada tigela é montada ao caminhar entre as estações: a cesta de macarrão, a tábua de carnes e a panela de caldo, e depois levá-la até o cliente que pediu, antes que a paciência dele acabe. O dinheiro paga melhorias nos pads do chão e por funcionários que cozinham e servem para você. Um mapa da rua mostra os três capítulos, do carrinho de rua à pequena loja e ao restaurante de dois andares, terminando em um confronto de pho com uma loja rival. Há um guarda-roupa com oito cozinheiros.",
+  "instructions": "Ande com WASD ou as setas do teclado, ou arraste na tela. Fique na cesta de macarrão, depois na tábua de carnes e depois na panela de caldo para fazer uma tigela, e leve-a até o cliente que pediu. Pegue o dinheiro, fique em um pad para comprar melhorias e contratar funcionários. Alcance o objetivo de cada capítulo e depois vença o confronto final de pho.",
+  "guide": {
+   "intro": "Pho Street Tycoon 3D é um jogo de gerenciamento de restaurante com enredo, ambientado em Ha Noi. Você reabre o carrinho de pho do seu avô, prepara as tigelas caminhando entre as estações, atende os clientes antes que desistam e cresce de um carrinho de rua para uma pequena loja e depois para um restaurante de dois andares.",
+   "tips": [
+    "Cada tigela é feita na mesma ordem: fique na cesta de macarrão, depois na tábua de carnes e depois na panela de caldo. Ficar parado em uma estação já é suficiente para ela funcionar.",
+    "Leve a tigela até o cliente que pediu. Servir na mesa errada não conta, então olhe primeiro o balão do pedido.",
+    "Pegue o dinheiro que os clientes deixam nas mesas; ele não vai para a sua carteira até você coletar.",
+    "Gaste dinheiro nos pads de melhoria espalhados pelo chão. Contratar funcionários para cozinhar e servir libera o seu tempo e é a chave para os capítulos finais.",
+    "O mapa da rua na tela inicial mostra os três capítulos: The street cart, The small shop e The two-floor shop. Cada um abre quando você alcança o objetivo do capítulo anterior.",
+    "Visite o Guarda-roupa pela tela inicial para trocar entre os oito cozinheiros."
+   ],
+   "faq": [
+    [
+     "Posso pular as cenas da história?",
+     "Sim. Pressione o botão Skip no canto superior direito, ou a tecla X no teclado."
+    ],
+    [
+     "Quais são os controles?",
+     "WASD ou as setas do teclado para andar, ou arraste na tela em um celular. Ficar parado em uma estação cozinha automaticamente."
+    ],
+    [
+     "Posso jogar em vietnamita?",
+     "Sim, o seletor de idioma na tela inicial oferece English e Tieng Viet."
+    ]
+   ]
+  }
+ },
+ "scrap-core": {
+  "description": "SCRAP CORE é um shooter de sobrevivência em arena desenhado como um rabisco em papel de caderno quadriculado. Sua nave cai em um planeta hostil e um pequeno robô de sucata precisa sobreviver a onda após onda de monstros de tinta até que uma nave de resgate possa ser chamada. Você se move, mira e atira por conta própria, pega cristais para subir de nível, funde armas desenhadas à mão para criar armas mais fortes e coleta as peças espalhadas do transmissor. Uma barra de vida, uma barra de nível e um cronômetro de onda ficam sobre pedaços de papel rasgado no topo da tela. Esta demo gratuita cobre as primeiras doze ondas e foi feita para PC com teclado e mouse.",
+  "instructions": "Mova-se com WASD ou as setas do teclado, mire com o mouse e segure o botão esquerdo do mouse ou a Barra de Espaço para atirar. Quando a criatura Xenom agarrar você, gire o mouse em volta do seu robô (ou pressione as setas do teclado em círculo) para se livrar dela. Sobreviva a 12 ondas até que a nave de resgate chegue.",
+  "guide": {
+   "intro": "SCRAP CORE é um shooter de sobrevivência em arena desenhado em papel de caderno quadriculado. Sua nave cai em um planeta hostil e seu pequeno robô de sucata precisa sobreviver a ondas de monstros de tinta, fundir armas e coletar peças do transmissor até que uma nave de resgate possa ser chamada. Esta demo gratuita cobre as primeiras 12 ondas.",
+   "tips": [
+    "Escolha seu idioma na primeira tela; o inglês está na linha de cima.",
+    "Pressione a Barra de Espaço para pular as cenas introdutórias se quiser ir direto para a Onda 1.",
+    "Fique perto do aglomerado de cristais no local da queda no início e pegue as gemas azuis que os monstros deixam cair. Elas enchem a barra de Nível abaixo da sua vida.",
+    "Continue se movendo enquanto atira. As criaturas de tinta espinhosas se aproximam por todos os lados, e ficar parado permite que elas te cerquem.",
+    "Quando o Xenom agarrar você, gire o mouse em círculos ao redor do seu robô, ou pressione as setas do teclado em círculo, para se livrar dele.",
+    "Funda duas cópias da mesma arma desenhada à mão para obter uma mais forte em vez de carregar as duas."
+   ],
+   "faq": [
+    [
+     "Dá para jogar SCRAP CORE no celular?",
+     "A demo foi feita para computador com teclado e mouse. Você mira com o mouse, então telas de toque não são suportadas."
+    ],
+    [
+     "Quanto tempo dura a demo?",
+     "Você precisa sobreviver a 12 ondas até que a nave de resgate chegue. O número da onda e o cronômetro dela são mostrados no topo da tela."
+    ],
+    [
+     "Quais são os dois botões no canto superior esquerdo?",
+     "Eles mostram seus baús e seus kits de vida, cada um com sua quantidade."
+    ]
+   ]
+  }
+ },
+ "emberwing-skies-of-the-undead": {
+  "description": "Monte em um dragão elemental e retome cinco céus dos mortos-vivos. Escolha um entre quatro dragões, queime torres necromânticas e enormes hordas de zumbis, e enfrente cinco chefes em uma campanha 3D completa. Domine o sopro, Strike, Burst e um super carregado, desbloqueie novos movimentos, relíquias e cosméticos, e então teste suas habilidades no sobrevivência Skyfall, Contracts, Boss Rush e no Daily Flight. Dragões, monstros e cenários são modelos 3D criados com ferramentas de geração por IA; o jogo em si foi construído e ajustado à mão.",
+  "instructions": "Em cada capítulo, destrua as torres necromânticas e elimine a horda, depois derrote o chefe do capítulo. No computador: mova o mouse para dirigir e mirar, segure o botão esquerdo do mouse para soprar, botão direito do mouse para Strike, R para Burst, F para liberar seu super carregado, W ou Shift para impulsionar, S para frear, Q e E para rolar e sair dos ataques, P para pausar, M para silenciar. Celulares e tablets: arraste do lado esquerdo para dirigir; seu sopro dispara sozinho em alvos travados, e os botões na tela controlam Strike, Burst, Super, Roll e Boost. Comece com First Flight para um tutorial guiado curto.",
+  "guide": {
+   "intro": "Emberwing coloca você em um dragão elemental para limpar cinco céus dos mortos-vivos. Você destrói torres necromânticas, dizima hordas de zumbis e derrota um chefe no fim de cada capítulo.",
+   "tips": [
+    "Jogue First Flight antes de tudo, já que seu tutorial guiado curto mostra como dirigir, o sopro e o Strike funcionam juntos.",
+    "Use Q e E para rolar e sair dos ataques em vez de aguentar os golpes, e impulsione com W ou Shift para se reposicionar rapidamente quando uma horda se aproximar.",
+    "Guarde o Burst para momentos de multidão, já que ele é mais útil quando os zumbis estão agrupados, e reserve seu super carregado para chefes ou lutas pesadas.",
+    "No celular ou tablet, seu sopro dispara automaticamente em alvos travados, então concentre sua atenção em dirigir e no timing dos botões de Strike, Burst e Roll.",
+    "Se você gosta de eliminar mortos-vivos do ar, pode encontrar mais [[shooting-games|desafios de tiro aéreo]] para afiar sua mira."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo principal em cada capítulo?",
+     "Destrua as torres necromânticas e elimine a horda do capítulo, depois derrote o chefe desse capítulo para avançar."
+    ],
+    [
+     "Como miro e solto fogo no computador?",
+     "Mova o mouse para dirigir e mirar, depois segure o botão esquerdo do mouse para soprar. Use o botão direito do mouse para o Strike."
+    ]
+   ]
+  }
+ },
+ "toy-truck-rescue": {
+  "description": "Toy Truck Rescue é uma aventura de direção 3D vista do tamanho de um brinquedo. Você controla a Ti, um pequeno caminhão azul, por um quarto gigante, uma sala de estar e um quintal ensolarado para resgatar amigos de brinquedo que um robô aspirador fujão levou. Uma seta guia você até cada amigo, você leva todos de volta para a Caixa de Brinquedos, e um medidor de barulho no topo mostra se a casa ainda está dormindo. No caminho, você passa de fininho por um gato que dá o bote e por um cortador de grama, coleta moedas em rampas e trilhos, e depois foge do Fetch Bot em uma perseguição noturna antes de uma batalha final na arena.",
+  "instructions": "W ou Seta para cima para dirigir, S ou Seta para baixo para dar ré, A/D ou Seta esquerda/direita para virar. R desatola você, P pausa, M desliga o som. Em telas de toque, arraste o controle na tela. Dirija perto de um amigo de brinquedo para pegá-lo e depois siga a seta de volta para a Caixa de Brinquedos. Esconda-se debaixo dos móveis quando o monstro aparecer.",
+  "guide": {
+   "intro": "Toy Truck Rescue é uma aventura de direção 3D em tamanho de brinquedo. Você dirige a Ti, um pequeno caminhão azul, por um quarto gigante, uma sala de estar e um quintal para resgatar amigos de brinquedo de um robô aspirador fujão, levando cada um de volta para a Caixa de Brinquedos.",
+   "tips": [
+    "Siga a seta amarela na parte inferior da tela. Ela sempre aponta para o próximo amigo de brinquedo a ser pego e depois para a Caixa de Brinquedos.",
+    "Fique de olho no medidor de barulho no topo, que mostra Dormindo, Fique Quieto. Dirigir contra objetos acorda a casa, e aí o monstro aparece.",
+    "Quando o monstro aparecer, esconda-se debaixo dos móveis até ele passar.",
+    "As moedas enfileiradas em rampas e trilhos são fáceis de pegar; é só passar pela fileira.",
+    "Se o caminhão virar ou ficar preso contra um brinquedo, pressione R para se desatolar.",
+    "O painel Esquadrão de Resgate no canto superior esquerdo mostra quantos amigos você ainda precisa resgatar no cômodo."
+   ],
+   "faq": [
+    [
+     "Quais são os controles?",
+     "W ou Seta para cima para dirigir, S ou Seta para baixo para dar ré, A/D ou Seta esquerda/direita para virar, R para se desatolar, P para pausar e M para desligar o som. No celular, arraste o controle na tela."
+    ],
+    [
+     "Quantas áreas existem?",
+     "Um quarto, uma sala de estar e um quintal ensolarado, seguidos de uma perseguição noturna contra o Fetch Bot e uma batalha final na arena."
+    ],
+    [
+     "É adequado para crianças?",
+     "Sim. É uma história de resgate leve com brinquedos, um gato e um cortador de grama como obstáculos."
+    ]
+   ]
+  }
+ },
+ "fix-my-watch": {
+  "description": "Fix My Watch! coloca você na bancada de um relojoeiro. Os clientes trazem relógios quebrados, desde um digital de resina barato até peças mais finas, cada um com uma breve história e um horário-alvo para ajustar. Cada conserto tem cinco etapas: desmontar o relógio, inspecionar as peças e tocar em cada uma que estiver trincada, enferrujada ou torta para substituí-la, limpar o interior, remontá-lo na ordem certa e dar um polimento final. A bandeja de peças mostra pulseira, botões, vidro, LCD, bateria, circuito e caixa, para você ver exatamente o que tirou. As moedas dos consertos concluídos vão para a Workshop, e relógios mais difíceis aparecem depois.",
+  "instructions": "Toque no relógio para desmontá-lo peça por peça. Na etapa de inspeção, toque em cada peça quebrada na bandeja para substituí-la e depois pressione Inspeção concluída. Limpe, remonte e polua para terminar o serviço. A lâmpada dá uma dica; o relógio mostra quanto tempo o conserto levou.",
+  "guide": {
+   "intro": "Fix My Watch! é um jogo aconchegante de conserto de relógios. Os clientes trazem relógios quebrados com uma breve história e um horário para ajustar, e cada serviço passa por cinco etapas: desmontar, encontrar as peças quebradas, limpar o interior, remontar e polir até o relógio voltar a funcionar.",
+   "tips": [
+    "O primeiro relógio, o Bleep F-19 Classic, precisa de cerca de sete toques para abrir. Continue tocando no mostrador até a parte de cima sair.",
+    "Na etapa de inspeção, cada peça vai para a bandeja à direita: pulseira, botões, vidro, LCD, bateria, circuito e caixa. Um ponto de exclamação vermelho indica uma peça claramente ruim, mas observe as outras também em busca de trincas, ferrugem ou entortamentos.",
+    "Só pressione Inspeção concluída depois de tocar em todas as peças quebradas. Se deixar uma para trás, o relógio não vai funcionar depois de remontado.",
+    "A lâmpada no canto superior dá uma dica se você travar, e o relógio mostra quanto tempo o conserto está levando.",
+    "Gaste as moedas dos serviços concluídos na Workshop entre um cliente e outro."
+   ],
+   "faq": [
+    [
+     "Como eu desmonto um relógio?",
+     "Toque no relógio repetidamente. O contador na parte de baixo mostra quantos toques faltam até a próxima peça sair."
+    ],
+    [
+     "Existe limite de tempo?",
+     "Um relógio corre durante cada conserto, então serviços mais rápidos rendem mais, mas você pode levar o tempo que precisar para inspecionar as peças direito."
+    ],
+    [
+     "Funciona no celular?",
+     "Sim. Tudo é feito por toques, então funciona bem em telas sensíveis ao toque e também com mouse."
+    ]
+   ]
+  }
+ },
+ "wobbly-boxing": {
+  "description": "Entre no mundo bambo e imprevisível de Wobbly Boxing, onde você vai sentir a emoção de dar socos e desviar dos ataques em um ambiente divertido e leve. Se você está procurando um desafio, enfrente um amigo no modo para dois jogadores e veja quem sai por cima. Com controles intuitivos e uma jogabilidade dinâmica, Wobbly Boxing é fácil de pegar, mas difícil de largar. Com gráficos coloridos e vibrantes e uma trilha sonora animada, Wobbly Boxing é uma nova versão do clássico gênero de jogos de boxe. Então prepare-se para cambalear até o topo e se tornar o campeão definitivo de Wobbly Boxing!",
+  "instructions": "JOGADOR 1 Soco esquerdo tecla F Soco direito tecla G Soco duplo tecla T Bloquear Andar para trás Desviar teclas Q e E JOGADOR 2 Soco esquerdo tecla K Soco direito tecla L Soco duplo tecla O Bloquear Andar para trás Desviar teclas I e P",
+  "guide": {
+   "intro": "Wobbly Boxing é um jogo de boxe 3D leve em que você dá socos e desvia dos ataques. Você pode jogar sozinho ou enfrentar um amigo no modo para dois jogadores.",
+   "tips": [
+    "Use as teclas de desvio para sair do alcance de um soco, em vez de apenas bloquear, já que os dois jogadores podem continuar atacando e o movimento instável torna o tempo das ações imprevisível.",
+    "Guarde seu soco duplo para aberturas que você consegue ver com clareza, porque um golpe forte errado deixa você exposto a um contra-ataque.",
+    "Se você é novo no jogo, pratique algumas rodadas usando apenas os socos esquerdo e direito para entender como seu lutador se movimenta antes de adicionar desvios e combinações.",
+    "Ao jogar com um amigo, observe as mãos dele e tente prever o próximo soco, e não se prenda a um único padrão de ataques. Se você quiser mais opções de jogos um contra o outro, experimente estes [[2-player-games|jogos para dois jogadores]] a seguir."
+   ],
+   "faq": [
+    [
+     "Como dou socos no modo Jogador 1?",
+     "Use F para o soco esquerdo, G para o soco direito e T para o soco duplo."
+    ],
+    [
+     "Quais teclas desviam no modo para dois jogadores?",
+     "O Jogador 1 desvia com Q e E, e o Jogador 2 desvia com I e P."
+    ]
+   ]
+  }
+ },
+ "pinata-masters": {
+  "description": "Prepare-se para uma diversão arcade explosiva em Pinata Masters! Mire e atire em piñatas coloridas que flutuam para estourá-las em pedaços e pegar a chuva de moedas douradas. Use suas recompensas para comprar um arsenal impressionante de armas, de pistolas e espingardas a rifles de plasma e armas corpo a corpo pesadas. Melhore sua munição, dano, velocidade e renda passiva para destruir piñatas mais resistentes conforme você avança por fases de alta octanagem!",
+  "instructions": "Mirar e Atirar: Clique/toque e arraste pela tela para mirar e disparar sua arma na piñata que flutua. Coletar Moedas: Mova seu personagem para a esquerda e para a direita na parte inferior da tela para pegar as moedas e gemas que caem. Gerenciar Munição: Quebre a piñata antes de ficar sem munição para passar de fase. Melhorar e Desbloquear: Gaste as moedas que você ganhou entre as rodadas para melhorar seus atributos (Dano, Munição, Velocidade) e desbloquear armas mais fortes",
+  "guide": {
+   "intro": "Pinata Masters é um shooter arcade em que você mira e atira em piñatas que flutuam, depois pega as moedas que elas deixam cair. Você gasta essas moedas entre as rodadas para melhorar seus atributos e desbloquear armas mais fortes.",
+   "tips": [
+    "Mire um pouco à frente de uma piñata em movimento, para que seus tiros acertem onde ela estará, e não onde ela estava.",
+    "Fique de olho na contagem de munição e mire nos pontos fracos da piñata logo no início, já que você precisa quebrá-la antes de acabar a munição para passar de fase.",
+    "Mova seu personagem por baixo das moedas e gemas que caem durante a partida, porque as recompensas que você coleta financiam cada melhoria.",
+    "Entre as rodadas, decida se deve aumentar Dano, Munição ou Velocidade de acordo com o que está te atrapalhando, em vez de dividir as moedas igualmente. Se você gosta de ganhos constantes e ciclos de melhoria, também pode curtir [[idle-and-tycoon-games|jogos idle e de tycoon]]."
+   ],
+   "faq": [
+    [
+     "Como eu miro e atiro com minha arma?",
+     "Clique ou toque e arraste pela tela para mirar, depois solte para atirar na piñata que flutua."
+    ],
+    [
+     "O que devo melhorar primeiro depois de uma rodada?",
+     "Gaste suas moedas em Dano, Munição ou Velocidade dependendo de você ter dificuldade para quebrar as piñatas, ficar sem tiros ou reagir devagar demais."
+    ]
+   ]
+  }
+ },
+ "pace-note-rally": {
+  "description": "Mal dá para ver a estrada: neblina, noite, chuva e lama no para-brisa. Confie no seu copiloto! Leia as notas de ritmo, faça cada curva na velocidade indicada e corra por 24 etapas em 8 regiões, de passagens nevadas a um vulcão ativo e até Marte. 9 carros, melhorias, medalhas, etapas diárias e campeonatos.",
+  "instructions": "Chegue à linha de chegada o mais rápido que puder e ganhe medalhas. Fique de olho nos cartões de notas de ritmo: o número mostra o quão fechada é a curva (6 quase reta, 1 muito fechada), e a cor mostra o perigo. Teclado: W/S ou setas para acelerar e frear, A/D ou setas para virar, Espaço para o freio de mão, E limpador, C câmera, R voltar para a estrada, Esc pausar. Controle compatível. No celular, use os botões na tela.",
+  "guide": {
+   "intro": "Pace Note Rally é um rali noturno com neblina e chuva em que você corre por 24 etapas em 8 regiões. Mal dá para ver a estrada, então você segue os cartões de notas de ritmo e as orientações do seu copiloto para fazer cada curva na velocidade certa.",
+   "tips": [
+    "Leia o número em cada cartão de nota de ritmo antes de a curva chegar: um 6 é quase reto e um 1 é muito fechado, assim você consegue ajustar a velocidade com antecedência.",
+    "Preste atenção na cor dos cartões além do número, porque a cor mostra o quão perigosa é a curva e indica quando você deve ter mais cuidado.",
+    "Freie antes de uma curva fechada, e não dentro dela, e use o freio de mão só quando a orientação indicar que o carro precisa virar bruscamente.",
+    "Se o carro sair da pista ou você perder a trajetória, use o botão de reset para voltar à estrada rapidamente em vez de continuar fora do caminho.",
+    "Experimente o limpador quando o para-brisa ficar sujo de lama ou com chuva, já que você mal consegue ver a estrada e uma visão clara ajuda a confiar nas orientações do seu copiloto. Para mais jogos de corrida cheios de ação, confira [[racing-games|mais jogos de corrida para experimentar]]."
+   ],
+   "faq": [
+    [
+     "Como ganho medalhas em Pace Note Rally?",
+     "Você ganha medalhas chegando à linha de chegada o mais rápido possível em cada etapa."
+    ],
+    [
+     "Como vou para os lados e controlo a velocidade?",
+     "Use W e S ou as setas do teclado para acelerar e frear, e A e D ou as setas para virar. Espaço é o freio de mão."
+    ]
+   ]
+  }
+ },
+ "deadmart-outbreak-register": {
+  "description": "Bata o ponto para o turno mais sinistro de todos em DeadMart: Outbreak Register! Um surto de zumbis com risco biológico transformou o supermercado DeadMart em uma arena de combate 3D cheia de ação. Empunhe uma katana afiada como navalha, solte combos de luta corporal e corte caminhantes infectados, gritadores raivosos, policiais de choque, açougueiros de risco biológico e o gigantesco DeadMart Overlord! Principais recursos: Progressão sem parar, fase por fase: elimine hordas de zumbis em níveis cada vez mais difíceis (Nível 1, Nível 2, Nível 3...) com melhorias automáticas da katana e aumento de vida ao final de cada nível concluído! Modo Lâmina em Câmera Lenta e Zandatsu: corte zumbis e prateleiras de mercado voadoras em qualquer ângulo no Modo Lâmina em câmera lenta para restaurar toda a vida e ativar o Modo Ripper! Radar de zumbis animado em 4 direções e Mapa Tático da Loja: acompanhe a quantidade exata de zumbis na Frente (⬆), Atrás (⬇), Esquerda (⬅) e Direita (➡) no seu radar sonar ao vivo, ou abra o Mapa Tático completo do DeadMart com 6 setores e zoom [M]. Modos Sobrevivência e Sandbox: lute pelo nível mais alto no Modo Sobrevivência ou crie ondas e chefes personalizados no Modo Sandbox!",
+  "instructions": "Objetivo: derrote todos os zumbis infectados em cada nível dentro do Supermercado DeadMart, encadeie combos de katana em alta velocidade, bloqueie os ataques que chegarem e vença os níveis de chefe para bater um novo recorde! Controles no PC (Mouse e Teclado): Mover: W, A, S, D ou Setas do teclado Pular / Saltar por cima: Barra de espaço Olhar / Girar a câmera: mova o mouse pela tela (aproxime-se das bordas esquerda/direita da tela para girar 360° continuamente) Cortar / Atacar: Clique esquerdo do mouse (toque para cortar, segure para carregar uma estocada de investida poderosa) Modo Lâmina em Câmera Lenta / Aparar: Clique direito do mouse ou Q Barra rápida do HUD (clique do mouse ou atalhos do teclado): [P] ou ESC: Pausar / Retomar o jogo (⏸️ PAUSAR [P]) [M]: Abrir / Fechar o Mapa Tático completo da Loja (🗺️ MAPA [M]) [H]: +50 de Vida Máxima e Recuperação Total (🎬 +50 HP [H]) [B]: Ligar / Desligar a Música de Fundo (🎵 BGM [B]) [N]: Ligar / Desligar os Efeitos Sonoros (🔊 SFX [N]) Controles no Celular e Tablet (Toque): Joystick Virtual Esquerdo: arraste para se mover pelos corredores Área Direita da Tela: arraste para mirar, toque para cortar, segure para estocar Barra Inferior e Botões do Radar: toque diretamente na tela",
+  "guide": {
+   "intro": "DeadMart: Outbreak Register é um jogo de ação 3D ambientado em um supermercado infestado de zumbis. Você luta com uma katana e com as próprias mãos, eliminando os caminhantes infectados de cada nível antes de enfrentar os chefes.",
+   "tips": [
+    "Confira o radar de 4 direções antes de se mover para saber qual lado tem mais zumbis. Limpe primeiro o lado mais leve para evitar ser cercado.",
+    "Use o Modo Lâmina em câmera lenta para cortar em qualquer ângulo quando precisar recuperar vida, já que ele restaura toda a HP. Guarde para quando estiver com pouca vida, não quando já estiver cercado.",
+    "Segure o botão de ataque para carregar uma estocada de investida poderosa quando os zumbis estiverem espaçados. Toque para cortes rápidos quando os inimigos estiverem próximos uns dos outros.",
+    "Abra o mapa tático com M para planejar uma rota pelos seis setores antes de avançar para uma área lotada. Se você gosta de combates contra surtos como este, pode encontrar mais [[zombie-games|jogos de sobrevivência zumbi]] no site.",
+    "Bloqueie os ataques que chegarem com o clique direito ou Q, e mantenha seus combos em sequência depois para pressionar os zumbis."
+   ],
+   "faq": [
+    [
+     "Como avanço para o próximo nível?",
+     "Derrote todos os zumbis infectados do nível atual para avançar. Cada nível concluído lhe dá uma melhoria da katana e um aumento de vida."
+    ],
+    [
+     "Como recupero a vida durante a luta?",
+     "Corte zumbis no Modo Lâmina em câmera lenta para restaurar toda a HP. Você também pode pressionar H para um aumento de +50 HP, útil quando estiver com pouca vida."
+    ]
+   ]
+  }
  }
 }
