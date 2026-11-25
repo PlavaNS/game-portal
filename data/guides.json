@@ -245402,5 +245402,104 @@
         "Yes, the language switch on the title screen offers English and Tieng Viet."
       ]
     ]
+  },
+  "wreck-kings-car": {
+    "intro": "Wreck Kings: Car Destruction Island is a 3D racing and demolition derby game set on an island. You play 300 career events across 15 chapters, each ending with a boss, and you can upgrade and customize your vehicles as you go.",
+    "tips": [
+      "Use SPACE for handbrake drift on tight corners in the racing modes, then tap S or W to keep your speed under control as you exit.",
+      "Save SHIFT nitro for straights or right after a drift so you get the most speed from each boost.",
+      "Spend your cash on the upgrades that match your mode: tires and suspension help with rough driving, while armor matters more in demolition events where crashes count.",
+      "Pick a vehicle that suits the event. A monster truck or heavy truck can take more punishment in a derby, while a hot hatch or supercar is better for racing.",
+      "If you enjoy the smashing side of the game, you can find more titles in [[car-crash-games|car crash games]]."
+    ],
+    "faq": [
+      [
+        "How do I steer and control my car?",
+        "Use A and D to steer, W to go forward, and S to brake or reverse. Hold SPACE for handbrake drift."
+      ],
+      [
+        "What should I upgrade first?",
+        "Upgrade the parts that fit your favorite mode, such as tires and suspension for racing or armor for demolition events. Use the skill tree to unlock abilities that suit your playstyle."
+      ]
+    ]
+  },
+  "giant-egg-idle": {
+    "intro": "Giant Egg Idle is a pixel idle game where your army of units cracks open a giant egg. Every shard pays coins, and the bigger your squad, the faster the money comes in, even while you are away.",
+    "tips": [
+      "Buy every upgrade on a tree at least once, because doing so unlocks that tree's big upgrade.",
+      "Keep adding units in the Squad tab as coins come in, since your damage needs to keep growing to break deeper layers.",
+      "When the commando with the bazooka runs onto the field, tap him right away, as his rocket deals a big chunk of damage and showers you with coins.",
+      "Tap the birds flying over the field and grab gifts as they land, since these small actions add extra coins without costing you anything.",
+      "If you enjoy steady tapping and idle progress, you can find more [[clicker-games|clicker games to try]] on the site."
+    ],
+    "faq": [
+      [
+        "What should I spend my coins on first?",
+        "Spend coins on new units in the Squad tab, since more units break more shards and bring in more money. Keep an eye on the damage so each new purchase helps you move through the egg faster."
+      ],
+      [
+        "When is the right time to use Prestige?",
+        "Use Prestige when progress slows down. You start a new era and earn Diamonds that buy perks and raise your damage permanently."
+      ]
+    ]
+  },
+  "sunny-cove": {
+    "intro": "Sunny Cove is a merge puzzle set on the Solana Coast, where you help Harper Reed restore a quiet beach bar and six seaside locations. You merge items, serve neighbors' orders and earn coins to bring the cove back to life.",
+    "tips": [
+      "Start by merging matching parts to get your first juice station running, since everything else in the restoration depends on those early items.",
+      "Before you merge, look at the current order so you know which items you need. Serving orders is how you earn the coins for restoration tasks.",
+      "Use storage regularly to clear space on the board. Opening more board cells is tied to your progress, so a crowded board slows you down.",
+      "Energy refills over time, so spread your play across the day instead of spending it all at once. You can finish the whole campaign without watching ads, so the rewarded videos are never required.",
+      "If you enjoy planning a crowded board, you may like [[merge-games|other merge puzzle games]] that reward careful item combinations."
+    ],
+    "faq": [
+      [
+        "How do I make new items in Sunny Cove?",
+        "Tap a generator marked with a lightning bolt to create an item. Then drag two identical items together, or tap one and then its matching partner, to merge them into the next level."
+      ],
+      [
+        "How do I earn coins to spend on restoration?",
+        "Collect the items shown on a customer's order and press Serve order. The coins you earn can be spent on restoration tasks, conversations and visiting new locations on the map."
+      ]
+    ]
+  },
+  "toy-legion": {
+    "intro": "Toy Legion is a puzzle battler where you recruit plastic soldiers, merge identical twins into stronger tiers, and march your formation against wind-up tin robots and giant toy bosses. Your battle plan starts on the 5x4 grid.",
+    "tips": [
+      "Merge two identical soldiers whenever you can, since a higher tier comes with tougher stats and better gear. [[merge-games|more merge puzzles to try]] if you enjoy building up units this way.",
+      "Place tough fighters in the front row, shooters in the middle and cork cannons at the back so each class can do its job without being overrun.",
+      "Save your commander ability for the moment the robots bunch up or a boss winds up a special attack, rather than firing it as soon as the ring fills.",
+      "Watch the telegraphed attacks of the giant toy bosses and move your formation or wait for a clear moment before you commit your soldiers.",
+      "Use the x1 and x2 battle speed button to move faster through easy waves, and switch back to x1 when you need to read the fight carefully."
+    ],
+    "faq": [
+      [
+        "How do I make a soldier stronger?",
+        "Drag one soldier onto an identical twin to merge them into a higher tier with better gear. You can also drag a soldier onto a different soldier to swap places."
+      ],
+      [
+        "When should I use my commander ability?",
+        "Use it when the big round ability button's ring is full and the battle is at a critical moment, such as a crowd of robots or a boss attack. Timing it well can turn a losing fight around."
+      ]
+    ]
+  },
+  "atv-stunts": {
+    "intro": "ATV Stunts is a 3D racing game where you ride an ATV across one large map full of obstacles, ramps, bridges and tunnels. Pick from four vehicle colors and aim to become an ATV champion.",
+    "tips": [
+      "Use the T key to slow time when you are about to attempt a jump or a tricky ramp, so you can line up your landing before you commit.",
+      "Press F to repair your ATV after a rough crash so you keep a working vehicle for the next stunt.",
+      "Press C to change the camera angle and pick the view that helps you judge distance to ramps and bridges, especially when you are in the air.",
+      "Try the Tab key to switch between your four ATVs, since each color may suit different runs across the map. If you enjoy stunt-focused driving, you can also browse more [[racing-games|fast-paced driving games]] on the site."
+    ],
+    "faq": [
+      [
+        "How do I steer and control my ATV?",
+        "Use the W, A, S and D keys or the arrow keys to drive. Use these same controls to position your ATV before launching off ramps."
+      ],
+      [
+        "What does the slow time key do?",
+        "The T key slows down time, which gives you more control during jumps and difficult sections of the map. It is useful for planning landings."
+      ]
+    ]
   }
 }
