@@ -1362,7 +1362,7 @@ ${faqHtml}
 textPage('contact', 'Contact', `<p>We'd love to hear from you — feedback, bug reports, game suggestions or business inquiries.</p>
 <p>Email: <a href="mailto:${esc(cfg.contactEmail)}">${esc(cfg.contactEmail)}</a></p>
 <h2>Game developers</h2><p>Made a great HTML5 game? <a href="${ur('/submit-game/')}">Submit it here</a> and we'll take a look.</p>
-<h2>Copyright concerns</h2><p>If you believe a game on this site infringes your rights, email us with the game URL and details, and we will review and remove it promptly.</p>`, `Contact ${cfg.name}.`);
+<h2>Copyright concerns</h2><p>If you believe a game on this site infringes your rights, email us with the game URL and details, and we will review and remove it promptly.</p>`, `Contact ${cfg.name} by email at ${cfg.contactEmail}: game suggestions, bug reports, partnerships, or questions about submitting your HTML5 game to our free browser game portal.`);
 
 textPage('privacy', 'Privacy Policy', `<p class="muted">Last updated: ${today}</p>
 <p>This Privacy Policy explains how ${esc(cfg.name)} ("we", "us"), operated by ${esc(cfg.studio)}, handles information when you visit ${esc(cfg.url)}.</p>
