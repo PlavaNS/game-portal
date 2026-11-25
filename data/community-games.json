@@ -1176,5 +1176,133 @@
       "visuals": 8,
       "note": "Fresh twist on draw-and-guess with a real 3D workbench; needs friends in a room to shine."
     }
+  },
+  {
+    "slug": "fix-my-watch",
+    "title": "Fix My Watch!",
+    "studio": "pingulovegames",
+    "studioUrl": "https://pingulovegames.com/",
+    "added": "2026-11-25",
+    "short": "A cozy watch repair bench: take broken watches apart, find the bad parts and make them tick again.",
+    "description": "Fix My Watch! puts you behind a watchmaker's bench. Customers bring in broken watches, from a cheap resin digital to finer pieces, each with a short story and a target time to set. Every job runs in five steps: take the watch apart, inspect the parts and tap every cracked, rusted or bent one to replace it, clean the inside, rebuild it in the right order and give it a final polish. The parts tray lays out strap, buttons, glass, LCD, battery, circuit and case, so you can see exactly what you removed. Coins from finished repairs go into the Workshop, and harder watches come later.",
+    "instructions": "Tap the watch to take it apart piece by piece. In the inspection step, tap every broken part in the tray to replace it, then press Inspection done. Clean, rebuild and polish to finish the job. The light bulb gives a hint; the clock shows how long the repair took.",
+    "category": "puzzle",
+    "extraCats": [
+      "kids",
+      "mobile"
+    ],
+    "tags": [
+      "Repair",
+      "Simulation",
+      "Puzzle",
+      "Cozy",
+      "Watches",
+      "Family"
+    ],
+    "embed": "https://pingulovegames.com/games/fix-my-watch/play",
+    "thumb": "https://ilovewebgames.com/assets/community/fix-my-watch.jpg?v=1",
+    "orientation": "landscape",
+    "studioRating": {
+      "gameplay": 7,
+      "controls": 8,
+      "visuals": 8,
+      "note": "Original, calm repair loop with a clear five-step job; pleasant and tactile, best for short relaxed sessions."
+    }
+  },
+  {
+    "slug": "scrap-core",
+    "title": "SCRAP CORE Demo",
+    "studio": "6 Finger Games",
+    "studioUrl": "https://6fingergames.com/games/scrap-core/",
+    "added": "2026-11-25",
+    "short": "A scrap robot battles ink monsters on a notebook page: survive the waves and rebuild the transmitter.",
+    "description": "SCRAP CORE is an arena survival shooter drawn like a doodle on squared notebook paper. Your ship crashes on a hostile planet and a small scrap robot has to survive wave after wave of ink monsters until a rescue ship can be called. You move, aim and fire yourself, pick up crystals to level up, merge hand-drawn weapons into stronger ones and collect the scattered parts of the transmitter. A health bar, level bar and wave timer sit on torn paper scraps at the top of the screen. This free demo covers the first twelve waves and is made for PC with keyboard and mouse.",
+    "instructions": "Move with WASD or the arrow keys, aim with the mouse and hold the left mouse button or Space to shoot. When the creature Xenom grabs you, spin the mouse around your robot (or press the arrow keys in a circle) to throw it off. Survive 12 waves until the rescue ship arrives.",
+    "category": "shooting",
+    "extraCats": [
+      "action"
+    ],
+    "tags": [
+      "Shooter",
+      "Arena",
+      "Survival",
+      "Robots",
+      "Waves",
+      "Hand-drawn"
+    ],
+    "embed": "https://6fingergames.com/portals/ilovewebgames/scrap-core-demo/",
+    "thumb": "https://ilovewebgames.com/assets/community/scrap-core.jpg?v=1",
+    "orientation": "landscape",
+    "studioRating": {
+      "gameplay": 8,
+      "controls": 7,
+      "visuals": 9,
+      "note": "Striking notebook-doodle art and a proper wave shooter loop with weapon merging; desktop only."
+    }
+  },
+  {
+    "slug": "toy-truck-rescue",
+    "title": "Toy Truck Rescue",
+    "studio": "PixelForge Studio",
+    "studioUrl": "https://tranducthanh0802.itch.io/toy-truck-rescue",
+    "added": "2026-11-25",
+    "short": "Drive a brave toy truck through a giant house to rescue your toy friends from a runaway robot vacuum.",
+    "description": "Toy Truck Rescue is a 3D driving adventure seen from the size of a toy. You steer Ti, a little blue truck, through a giant bedroom, a living room and a sunny backyard to rescue toy friends a runaway robot vacuum has taken. An arrow guides you to each friend, you carry them back to the Toy Box, and a noise meter at the top shows whether the house is still asleep. Along the way you sneak past a pouncing cat and a lawn mower, collect coins on ramps and tracks, then outrun Fetch Bot in a night chase before a final arena battle.",
+    "instructions": "W or Up to drive, S or Down to reverse, A/D or Left/Right to steer. R gets you unstuck, P pauses, M mutes. On touch screens drag the on-screen stick. Drive close to a toy friend to pick it up, then follow the arrow back to the Toy Box. Hide under furniture when the monster comes.",
+    "category": "racing",
+    "extraCats": [
+      "3d",
+      "adventure",
+      "kids"
+    ],
+    "tags": [
+      "Driving",
+      "3D",
+      "Adventure",
+      "Toys",
+      "Rescue",
+      "Family"
+    ],
+    "embed": "https://sb-ucmfgs2vsatkca.games.playgama.net/cmwtcmzlk0k1zkc0hw1whhzkg/__patch__/cmwtcp1t80k6ekc0h6oli7stt/index.html",
+    "thumb": "https://ilovewebgames.com/assets/community/toy-truck-rescue.jpg?v=1",
+    "orientation": "landscape",
+    "studioRating": {
+      "gameplay": 7,
+      "controls": 7,
+      "visuals": 8,
+      "note": "Charming toy-scale 3D world with a clear rescue goal; the stealth meter adds a bit of tension."
+    }
+  },
+  {
+    "slug": "pho-street-tycoon-3d",
+    "title": "Pho Street Tycoon 3D",
+    "studio": "PixelForge Studio",
+    "studioUrl": "https://playgama.ai/play/l6lt6kfhkqesrn",
+    "added": "2026-11-25",
+    "short": "Reopen Grandpa's pho cart in Ha Noi, cook and serve bowls, hire staff and grow into a two-floor restaurant.",
+    "description": "Pho Street Tycoon 3D is a cozy restaurant tycoon with a story. A short cutscene sets it up in Ha Noi, and you reopen your grandfather's pho cart. Each bowl is built by walking between stations: the noodle basket, the meat board and the broth pot, then carrying it to the guest who ordered before their patience runs out. Cash pays for upgrades on floor pads and for staff who cook and serve for you. A street map shows the three chapters, from the street cart to the small shop and the two-floor restaurant, ending in a pho showdown with a rival shop. There is a wardrobe with eight cooks.",
+    "instructions": "Walk with WASD or the arrow keys, or drag on the screen. Stand at the noodle basket, then the meat board, then the broth pot to make a bowl, and walk it to the guest who ordered it. Pick up the cash, stand on a pad to buy upgrades and hire staff. Reach each chapter goal, then win the final pho showdown.",
+    "category": "cooking",
+    "extraCats": [
+      "3d",
+      "clicker-idle"
+    ],
+    "tags": [
+      "Tycoon",
+      "Cooking",
+      "Restaurant",
+      "Management",
+      "3D",
+      "Story"
+    ],
+    "embed": "https://sb-l6lt6kfhkqesrn.games.playgama.net/cmwejntph0i7clz0h28e0u71d/__patch__/cmwu5ygke2ai4ke0htgnvuwd6/index.html",
+    "thumb": "https://ilovewebgames.com/assets/community/pho-street-tycoon-3d.jpg?v=1",
+    "orientation": "landscape",
+    "studioRating": {
+      "gameplay": 7,
+      "controls": 7,
+      "visuals": 7,
+      "note": "A tycoon with an actual story and chapters; the walk-to-station cooking loop is simple but satisfying."
+    }
   }
 ]
