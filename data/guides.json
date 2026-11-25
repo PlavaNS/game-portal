@@ -245303,5 +245303,104 @@
         "Player 1 dodges with Q and E, and Player 2 dodges with I and P."
       ]
     ]
+  },
+  "fix-my-watch": {
+    "intro": "Fix My Watch! is a cozy watch repair game. Customers bring broken watches with a short story and a time to set, and every job runs through five steps: take it apart, find the broken parts, clean the inside, rebuild it and polish it until it ticks again.",
+    "tips": [
+      "The first watch, the Bleep F-19 Classic, needs about seven taps to open. Keep tapping the watch face until the top part comes off.",
+      "In the inspection step every part lands in the tray on the right: strap, buttons, glass, LCD, battery, circuit and case. A red exclamation mark points at a part that is clearly bad, but look at the others too for cracks, rust or bends.",
+      "Only press Inspection done once you have tapped every broken part. Missing one means the watch will not run after you rebuild it.",
+      "The light bulb in the top corner gives a hint if you are stuck, and the clock shows how long the repair is taking.",
+      "Spend the coins from finished jobs in the Workshop between customers."
+    ],
+    "faq": [
+      [
+        "How do I take a watch apart?",
+        "Tap the watch repeatedly. The counter at the bottom shows how many taps are left before the next part comes off."
+      ],
+      [
+        "Is there a time limit?",
+        "A clock runs during each repair, so faster jobs look better, but you can take your time to inspect the parts properly."
+      ],
+      [
+        "Does it work on a phone?",
+        "Yes. Everything is done by tapping, so it plays well on touch screens as well as with a mouse."
+      ]
+    ]
+  },
+  "scrap-core": {
+    "intro": "SCRAP CORE is an arena survival shooter drawn on squared notebook paper. Your ship crashes on a hostile planet and your little scrap robot has to survive waves of ink monsters, merge weapons and collect transmitter parts until a rescue ship can be called. This free demo covers the first 12 waves.",
+    "tips": [
+      "Pick your language on the first screen; English is in the top row.",
+      "Press Space to skip the intro cutscenes if you want to get straight to Wave 1.",
+      "Stay near the crystal cluster at the crash site early on and pick up the blue gems monsters drop. They fill the Level bar under your health.",
+      "Keep moving while you shoot. The spiky ink creatures close in from every side, and standing still lets them surround you.",
+      "When Xenom grabs you, spin the mouse in circles around your robot, or press the arrow keys in a circle, to throw it off.",
+      "Merge two copies of the same hand-drawn weapon to get a stronger one instead of carrying both."
+    ],
+    "faq": [
+      [
+        "Can I play SCRAP CORE on a phone?",
+        "The demo is made for a computer with keyboard and mouse. You aim with the mouse, so touch screens are not supported."
+      ],
+      [
+        "How long is the demo?",
+        "You need to survive 12 waves until the rescue ship arrives. The wave number and its timer are shown at the top of the screen."
+      ],
+      [
+        "What are the two buttons on the top left?",
+        "They show your chests and your health packs, each with its count."
+      ]
+    ]
+  },
+  "toy-truck-rescue": {
+    "intro": "Toy Truck Rescue is a 3D driving adventure at toy size. You drive Ti, a small blue truck, through a giant bedroom, a living room and a backyard to rescue toy friends from a runaway robot vacuum, carrying each one back to the Toy Box.",
+    "tips": [
+      "Follow the yellow arrow at the bottom of the screen. It always points to the next toy friend to pick up, and then back to the Toy Box.",
+      "Watch the noise meter at the top that reads Asleep, Keep Quiet. Driving into things wakes the house up, and then the monster comes.",
+      "When the monster appears, hide under furniture until it passes.",
+      "The coins lined up on ramps and tracks are easy to grab; just drive through the row.",
+      "If the truck flips or gets wedged against a toy, press R to get unstuck.",
+      "The Rescue Squad panel at the top left shows how many friends you still need for the room."
+    ],
+    "faq": [
+      [
+        "What are the controls?",
+        "W or Up to drive, S or Down to reverse, A/D or Left/Right to steer, R to get unstuck, P to pause and M to mute. On a phone, drag the on-screen stick."
+      ],
+      [
+        "How many areas are there?",
+        "A bedroom, a living room and a sunny backyard, followed by a night chase against Fetch Bot and a final arena battle."
+      ],
+      [
+        "Is it suitable for kids?",
+        "Yes. It is a gentle rescue story with toys, a cat and a lawn mower as the obstacles."
+      ]
+    ]
+  },
+  "pho-street-tycoon-3d": {
+    "intro": "Pho Street Tycoon 3D is a restaurant tycoon with a story, set in Ha Noi. You reopen your grandfather's pho cart, cook bowls by walking between stations, serve guests before they give up and grow from a street cart to a small shop and then a two-floor restaurant.",
+    "tips": [
+      "Every bowl is made in the same order: stand at the noodle basket, then the meat board, then the broth pot. Standing still at a station is enough to work it.",
+      "Carry the bowl to the guest who ordered it. Serving the wrong table does not count, so look at the order bubble first.",
+      "Pick up the cash guests leave on the tables; it does not go into your wallet until you collect it.",
+      "Spend money on the upgrade pads on the floor. Hiring staff to cook and serve frees you up and is the key to the later chapters.",
+      "The street map on the title screen shows the three chapters: The street cart, The small shop and The two-floor shop. Each one opens when you reach the chapter goal.",
+      "Visit the Wardrobe from the title screen to switch between the eight cooks."
+    ],
+    "faq": [
+      [
+        "Can I skip the story scenes?",
+        "Yes. Press the Skip button in the top right, or X on the keyboard."
+      ],
+      [
+        "What are the controls?",
+        "WASD or the arrow keys to walk, or drag on the screen on a phone. Standing at a station cooks automatically."
+      ],
+      [
+        "Can I play in Vietnamese?",
+        "Yes, the language switch on the title screen offers English and Tieng Viet."
+      ]
+    ]
   }
 }
