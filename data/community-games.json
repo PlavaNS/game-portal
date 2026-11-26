@@ -1304,5 +1304,101 @@
       "visuals": 7,
       "note": "A tycoon with an actual story and chapters; the walk-to-station cooking loop is simple but satisfying."
     }
+  },
+  {
+    "slug": "lost-horizons",
+    "title": "Lost Horizons",
+    "studio": "Kubzo (zorbasam)",
+    "studioUrl": "https://kubzo.com",
+    "added": "2026-11-26",
+    "short": "A cosy 3D multiplayer island: vote on quick minigames, race up Treasure Mountain and level up with other players.",
+    "description": "Lost Horizons is a cosy multiplayer island you join straight from the browser as a guest. Players gather in the Plaza, vote on the next minigame and play rounds that last about a minute or a minute and a half. Every ten minutes a treasure race starts up the mountain, a travelling trader turns up each day, and an old sage named Ondo hints at the island's mysteries. You pick a name, customise a little character and level up as you play, with progress saved if you sign in. The island shows how many islanders are online and has its own server picker, so you can join the closest region.",
+    "instructions": "Press PLAY to join as a guest. Move with WASD or the arrow keys (touch controls on phones). Walk into the Plaza to vote for the next minigame, join the treasure race when it is announced and talk to characters to start quests. Sign in only if you want to keep your progress. Note: the island has an open chat with other players.",
+    "category": "multiplayer",
+    "extraCats": [
+      "3d",
+      "adventure"
+    ],
+    "tags": [
+      "Multiplayer",
+      "Party",
+      "Minigames",
+      "3D",
+      "Island",
+      "Online"
+    ],
+    "embed": "https://kubzo.com",
+    "thumb": "https://ilovewebgames.com/assets/community/lost-horizons.jpg?v=1",
+    "orientation": "landscape",
+    "studioRating": {
+      "gameplay": 8,
+      "controls": 7,
+      "visuals": 8,
+      "note": "Polished, lively 3D party island with real events; fun depends on how many players are online."
+    }
+  },
+  {
+    "slug": "penguin-iceberg-empire",
+    "title": "Penguin Iceberg Empire",
+    "studio": "pingulovegames",
+    "studioUrl": "https://pingulovegames.com",
+    "added": "2026-11-26",
+    "short": "Tap the penguin to catch fish, hire fishing penguins and grow a tiny ice floe into a floating penguin city.",
+    "description": "Penguin Iceberg Empire is a cosy idle builder that starts with one penguin on a tiny ice floe. Tapping the big penguin catches fish, and fish pay for buildings that keep fishing on their own, starting with a Fishing Penguin and then an Ice Fishing Hole, while further buildings stay hidden until you unlock them. An Upgrades tab opens once your first fishers are working, golden fish and whales swimming past give surprise bonuses, and later you can dive for relics and rebirth for permanent power. Progress saves automatically, and your buildings keep earning while you are away.",
+    "instructions": "Click or tap the big penguin to catch fish. Open Build to buy Fishing Penguins and other buildings (x1, x10 or Max), then check Upgrades to boost them. Tap golden fish and whales for bonuses. Later use Dive for relics and Rebirth for permanent bonuses.",
+    "category": "clicker-idle",
+    "extraCats": [
+      "kids",
+      "mobile"
+    ],
+    "tags": [
+      "Idle",
+      "Clicker",
+      "Tycoon",
+      "Penguins",
+      "Cozy",
+      "Builder"
+    ],
+    "embed": "https://pingulovegames.com/games/penguin-iceberg-empire/play",
+    "thumb": "https://ilovewebgames.com/assets/community/penguin-iceberg-empire.jpg?v=1",
+    "orientation": "portrait",
+    "studioRating": {
+      "gameplay": 6,
+      "controls": 8,
+      "visuals": 8,
+      "note": "Clean, cute idle loop with a fast first unlock; depth comes later through relics and rebirth."
+    }
+  },
+  {
+    "slug": "mexican-train-online",
+    "title": "Mexican Train Online",
+    "studio": "Chetan Kumar",
+    "studioUrl": "https://mexicantraindominogame.com/",
+    "added": "2026-11-26",
+    "short": "Classic Mexican Train dominoes against three computer players, or pass-and-play with friends on one device.",
+    "description": "Mexican Train Online brings the classic dominoes game to the browser. A round opens from a double engine in the middle, here the 12|12, and every player builds a personal train from it while a shared Mexican Train stays open to everyone. You play against computer opponents named Rusty, Tess and Dilly on easy, medium or hard, or pass the device around for two to four people. Your hand shows the pip count, a hint button lights up playable tiles, and you can undo, sort your hand and play full screen. Double-6, double-9, double-12 and larger sets are supported.",
+    "instructions": "Tap a glowing domino in your hand, then tap the end of a train to play it: your own train, the shared Mexican Train, or another player's train once it is open. If you cannot play, draw from the boneyard. Empty your hand first; the lowest pip total after all rounds wins. Use the bulb for hints.",
+    "category": "puzzle",
+    "extraCats": [
+      "two-player",
+      "mobile"
+    ],
+    "tags": [
+      "Dominoes",
+      "Board Game",
+      "Classic",
+      "Strategy",
+      "Pass and Play",
+      "vs Computer"
+    ],
+    "embed": "https://mexicantraindominogame.com/",
+    "thumb": "https://ilovewebgames.com/assets/community/mexican-train-online.jpg?v=1",
+    "orientation": "landscape",
+    "studioRating": {
+      "gameplay": 8,
+      "controls": 8,
+      "visuals": 7,
+      "note": "Faithful, quick-playing Mexican Train with sensible AI and handy hint/sort tools."
+    }
   }
 ]
