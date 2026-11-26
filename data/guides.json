@@ -245576,5 +245576,25 @@
         "Double-6, double-9, double-12 and larger sets, so you can play short or long games."
       ]
     ]
+  },
+  "steal-all-eggs": {
+    "intro": "Steal All Eggs is a 3D adventure where you explore colorful areas and collect pets. You can pick between two single-player modes, Steal An Egg and Break An Egg, and build your collection at your own pace.",
+    "tips": [
+      "In Steal An Egg, watch the guards and computer-controlled bots while you carry an egg back to your pen. Slow movement with X can help you stay calm when you are near them.",
+      "Place stolen eggs in your pen and hatch them only when they are ready, so your collection grows steadily instead of in rushed bursts.",
+      "In Break An Egg, hold E or Enter to mine an egg, and keep your pickaxe equipped with 1 while you move between eggs to save time.",
+      "Spend the cash you earn on speed training first, since moving faster makes every trip to a nest or egg and back to base quicker. If you enjoy more games built around collecting critters, check out [[animal-games|other animal-themed pet games]].",
+      "Keep an eye out for the night event, because special eggs appear then and may be worth a trip even if you are in the middle of a normal run."
+    ],
+    "faq": [
+      [
+        "How do I move and jump in Steal All Eggs?",
+        "Use WASD or the arrow keys to move and press Space to jump. On touch screens, drag the on-screen joystick to move and tap Jump."
+      ],
+      [
+        "What should I do with the cash I earn?",
+        "You can use in-game cash to train your speed and unlock upgrades, items, and outfits. Speed is especially useful when you need to get eggs back to your base fast."
+      ]
+    ]
   }
 }
