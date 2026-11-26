@@ -713,7 +713,7 @@ function emitContent() {
       .sort((a, b) => (b.firstSeen || '').localeCompare(a.firstSeen || '')).slice(0, 5);
     const bnNews = newsItems.length ? banner('bn-news', u('/new/'), tr('News & Updates'), tr('The latest games added to the site'), newsItems) : '';
     const news = newsItems.length ? `${bnNews}<section class="row news">
-    ${newsItems.map(g => `<article class="news-item"><a class="news-thumb" href="${gHref(g)}" style="--t:url('${esc(small(g.thumb))}')"><img src="${esc(small(g.thumb))}" alt="${esc(g.title)}" loading="lazy"></a>
+    ${newsItems.map(g => `<article class="news-item"><a class="news-thumb" href="${gHref(g)}" style="--t:url('${esc(small(g.thumb))}')"><img src="${esc(small(g.thumb))}" alt="${esc(g.title)}" width="200" height="150" loading="lazy" decoding="async"></a>
       <div class="news-text"><p class="news-h">${isNew(g) ? `<b class="news-tag">${esc(tr('NEW'))}</b>` : ''} <strong>${g.community ? esc(tr('New indie game')) : esc(tr('New game'))}: ${esc(g.title)}</strong></p>
       <p class="news-date">${esc(dfmt(g.firstSeen))}${g.community && g.studio ? ` · ${esc(tr('by'))} ${esc(g.studio)}` : ''}</p>
       ${(() => { const d = (g.short || g.description || '').replace(/\s+/g, ' ').trim(); return d ? `<p class="news-desc">${esc(d.length > 160 ? d.slice(0, 157) + '…' : d)}</p>` : ''; })()}</div>
@@ -903,7 +903,7 @@ function emitContent() {
     const body = `<nav class="crumbs"><a href="${u('/')}">${esc(tr('Home'))}</a> › <a href="${cHref(main.slug)}">${esc((catTr(main.slug) || {}).h1 || main.h1)}</a> › <span>${esc(g.title)}</span></nav>
   <section class="player${portrait ? ' portrait' : ''}" data-player data-orient="${g.own ? 'any' : portrait ? 'portrait' : 'landscape'}" data-src="${esc(g.embed)}" data-id="${esc(g.slug)}" data-title="${esc(g.title)}" data-thumb="${esc(g.thumb)}" style="--ar:${g.w}/${g.h}">
     <div class="stage">
-      <img class="stage-bg" src="${esc(small(g.thumb))}" alt="" aria-hidden="true" fetchpriority="high">
+      <img class="stage-bg" src="${esc(small(g.thumb))}" alt="" aria-hidden="true" width="512" height="384" fetchpriority="high">
       <div class="stage-ui">
         <img class="stage-thumb${g.community ? ' wide' : ''}" src="${esc(small(g.thumb))}" alt="${esc(g.title)}" width="256" height="192">
         <h1>${esc(g.title)}</h1>${g.community ? `

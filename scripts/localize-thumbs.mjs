@@ -39,3 +39,19 @@ for (const g of games) {
 
 if (changed) fs.writeFileSync(FILE, JSON.stringify(games, null, 2) + '\n');
 console.log(`${changed} cover(s) moved to our own server`);
+
+// 26.11.2026: covers added by hand (a developer mails us a PNG, we drop it in static/assets/community/)
+// never went through the loop above, so 25 of them had no "-s" copy and the card shipped the full
+// 800-1440px JPEG to a phone that draws it at ~100px. Backfill anything still missing its small copy.
+// No cropping here: .card.fit shows the whole image over a blurred fill, so keep the aspect ratio.
+let filled = 0;
+for (const f of fs.readdirSync(DIR)) {
+  if (!f.endsWith('.jpg') || f.endsWith('-s.jpg')) continue;
+  const base = path.join(DIR, f);
+  const small = path.join(DIR, `${f.slice(0, -4)}-s.jpg`);
+  if (fs.existsSync(small)) continue;
+  await sharp(base).resize({ width: 400, withoutEnlargement: true }).jpeg({ quality: 78, mozjpeg: true }).toFile(small);
+  filled++;
+  console.log(`small ${f}: ${Math.round(fs.statSync(base).size / 1024)} KB -> ${Math.round(fs.statSync(small).size / 1024)} KB`);
+}
+if (filled) console.log(`${filled} missing small copy/copies generated`);
