@@ -245501,5 +245501,80 @@
         "The T key slows down time, which gives you more control during jumps and difficult sections of the map. It is useful for planning landings."
       ]
     ]
+  },
+  "lost-horizons": {
+    "intro": "Lost Horizons is a cosy online island run by Kubzo. You press PLAY to join as a guest, get a random islander name such as LobsterWaffle, and land on an island that is already busy: the start screen shows how many islanders are online and what is happening right now, from a spotlight event counting down in seconds to a bridge that lowers on a timer.",
+    "tips": [
+      "Check the Happening Now panel on the start screen before you join. It lists the next events with live countdowns, such as when the bridge lowers or the next spotlight starts, so you can walk over in time.",
+      "The treasure race up the mountain starts every ten minutes. Be near the start when the timer runs out, because the race does not wait for latecomers.",
+      "Use the Customize button before you play to change your islander's look and the dice button to roll a new random name.",
+      "The server pill at the top (for example Europe 45 ms) lets you pick the closest region. A lower ping makes the short minigames much easier to win.",
+      "Minigames in the Plaza run for about 60 to 95 seconds and players vote on the next one, so stay in the Plaza between rounds if you want a say.",
+      "You can play everything as a guest. Sign in only if you want your level and gems saved between visits."
+    ],
+    "faq": [
+      [
+        "Do I need an account to play Lost Horizons?",
+        "No. PLAY as guest drops you straight onto the island. Signing in is optional and only keeps your progress."
+      ],
+      [
+        "How often is the treasure race?",
+        "A treasure race up Treasure Mountain starts every ten minutes, and the start screen shows what is coming up next."
+      ],
+      [
+        "Is there chat?",
+        "Yes, the island has an open chat with other players, so younger players should play with a parent nearby."
+      ]
+    ]
+  },
+  "penguin-iceberg-empire": {
+    "intro": "Penguin Iceberg Empire is an idle builder that starts with one penguin on a Tiny Floe. You tap the big penguin to catch fish, and fish buy buildings that keep fishing for you. The first Fishing Penguin costs 15 fish and adds 0.3 fish per second, and buying it unlocks the next building, the Ice Fishing Hole.",
+    "tips": [
+      "Tap the big penguin about fifteen times right away and buy the first Fishing Penguin for 15 fish. Passive income starts the moment it is built.",
+      "Each Fishing Penguin gets a little more expensive (the second one costs about 17 fish), so compare it with the next building: the Ice Fishing Hole costs 110 fish but makes 1.6 fish per second, more than five Fishing Penguins.",
+      "The Buy x1, x10 and Max switches above the list save a lot of tapping once your income grows.",
+      "A pink dot on the Upgrades tab means a new upgrade is ready. Check it after every new building.",
+      "Golden fish and whales swim past now and then. Tap them for surprise bonuses.",
+      "Dive and Rebirth unlock later. Rebirth resets your iceberg but gives permanent power, so use it when progress slows down."
+    ],
+    "faq": [
+      [
+        "Does Penguin Iceberg Empire keep earning when I leave?",
+        "Yes. Buildings keep fishing while you are away, and progress saves automatically in your browser."
+      ],
+      [
+        "What is the best first purchase?",
+        "Buy the Fishing Penguin for 15 fish first. It unlocks the Ice Fishing Hole, which is the first big jump in fish per second."
+      ],
+      [
+        "Can I play it on a phone?",
+        "Yes. It is built for tapping and fits a phone screen."
+      ]
+    ]
+  },
+  "mexican-train-online": {
+    "intro": "Mexican Train Online is the classic dominoes game against three computer players, Rusty, Tess and Dilly, or pass-and-play for two to four people. A round starts from the highest double, here the 12|12 engine, every player gets thirteen tiles, and the shared Mexican Train is open to everyone from the first turn. The game runs over several rounds and the lowest pip total at the end wins.",
+    "tips": [
+      "Your hand shows its total pip count (for example 153 pips at the start). Play your heaviest tiles early, because anything left in your hand when someone goes out counts against you.",
+      "Start your own train with a tile that matches the engine, such as 12|9 on the 12|12, then keep it going with matching ends.",
+      "The shared Mexican Train is open to everyone. Use it when you cannot extend your own train instead of drawing.",
+      "Tap the light bulb for a hint: it shows which of your dominoes can be played right now.",
+      "The sort button reorders your hand, which makes it much easier to spot a run of matching ends.",
+      "If you leave mid-game, the next visit asks Welcome back - resume your game?, so you can pick up the same round."
+    ],
+    "faq": [
+      [
+        "How do I play a domino in Mexican Train Online?",
+        "Tap a glowing domino in your hand, then tap the plus at the end of the train you want to add it to."
+      ],
+      [
+        "Can I play with friends?",
+        "Yes. Pass-and-play supports two to four players on one device, or you can play against one to three computer players on easy, medium or hard."
+      ],
+      [
+        "Which domino sets are supported?",
+        "Double-6, double-9, double-12 and larger sets, so you can play short or long games."
+      ]
+    ]
   }
 }
