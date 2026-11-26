@@ -2,5 +2,9 @@
  {
   "slug": "kart-chaos",
   "since": "2026-11-01"
+ },
+ {
+  "slug": "knockback",
+  "since": "2026-11-19"
  }
 ]
