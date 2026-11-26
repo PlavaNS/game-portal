@@ -1239,7 +1239,7 @@ ${sgFaqHtml}
     ['Playgama', '50% on playgama.com and its partner network', 'No', 'Sandbox with real players first, then review', '$100, PayPal, Wise, crypto or bank'],
     ['GamePix', '50% of net revenue', 'No', 'SDK integration, then approval', 'Not published'],
     ['GameMonetize', '45% (90% if you also own the site it plays on)', 'No', 'Manual review by their testers', '$30, PayPal or USDT, Net 30'],
-    ['Y8', '50% of eligible in-game ad revenue', 'Not stated', 'Managed partnership', 'Not published'],
+    ['Y8', '50% of eligible in-game ad revenue', 'Not stated', 'Open upload, then approval; studio and support request to enable revenue share', 'Not published'],
     ['Kongregate', 'Time-limited 2026 program: 70% of net ad revenue for games approved after April 6, 2026', 'Not stated', 'Apply as a developer, then review in Alpha &rarr; Beta &rarr; Publish', 'Not published'],
     ['Armor Games', 'Deal by agreement: paid branding (their logo and links), in-game purchases through their API, or timed site exclusivity; no percentage published', 'Optional: timed site exclusivity is one of their best-paying options', 'Email the game to mygame@armorgames.com; HTML5 only (iframe for multiplayer or MMO)', 'Not published'],
     ['YouTube Playables', 'No revenue share published; only YouTube-provided ads are allowed', 'Not stated', 'Early access: interest form, invitation only', '&mdash;'],
@@ -1262,7 +1262,7 @@ ${sgFaqHtml}
     ['How much does it cost to submit?', 'Nothing. None of the portals in this guide charges a submission or listing fee.'],
   ];
   const faqLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: faq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) };
-  const artLd = { '@context': 'https://schema.org', '@type': 'Article', headline: 'Where to publish your HTML5 game: portals compared', dateModified: '2026-11-25', author: { '@type': 'Organization', name: cfg.studio }, publisher: { '@type': 'Organization', name: cfg.name, url: cfg.url } };
+  const artLd = { '@context': 'https://schema.org', '@type': 'Article', headline: 'Where to publish your HTML5 game: portals compared', dateModified: '2026-11-26', author: { '@type': 'Organization', name: cfg.studio }, publisher: { '@type': 'Organization', name: cfg.name, url: cfg.url } };
   textPage('publish-html5-game', 'Where to Publish Your HTML5 Game', `<p class="lead">You finished a browser game. Now where do you put it so people play it and it earns something? Here are the main HTML5 game portals side by side: what you earn, whether they want exclusivity, and how you get in. Checked in November 2026, with sources linked at the bottom.</p>
 <p class="muted">We run one of these portals ourselves (${esc(cfg.name)}), so we say where we fit and where we don't. Terms change: check each portal's own page before you sign anything.</p>
 <h2>The short version</h2>
@@ -1281,7 +1281,7 @@ ${table}
 <h3>GameMonetize</h3>
 <p>Non-exclusive, 45% for developers, and 90% if you also run the website the game is played on. Minimum payout is $30 by PayPal or USDT, paid Net 30. Every game is reviewed by their testers. As of late 2026 their review notes say they no longer accept AI-generated games, and that repeated low-quality submissions can get an account suspended, so only send polished work.</p>
 <h3>Y8</h3>
-<p>Developers in their managed partnership receive 50% of eligible advertising revenue from in-game ads.</p>
+<p>Developers in their managed partnership receive 50% of eligible advertising revenue from in-game ads. Y8 also has an open upload page for HTML5 and WebGL games: you don't need a studio to upload, and a game that meets their guidelines is approved and published. To earn from ads you then create a studio, ask Y8 support to enable revenue share for your published game, and apply for AdSense for platforms from the studio page. Their rules say no excessive ads, no ad pop-ups or overlays, no misleading links, and no gambling, nudity or harmful content; adding the Y8 logo in the game is suggested to improve your chances of being listed. Review time and payout terms are not published.</p>
 <h3>Kongregate</h3>
 <p>Still accepting HTML5 and WebGL games, but you have to apply and be approved as a developer before you can publish, and every game goes through an Alpha, Beta and Publish review. Your game can't carry third-party ads or sponsorships, can't use its own microtransaction or account system (Kongregate's API covers both), and needs an English option. For 2026 they run a time-limited program paying developers 70% of net revenue from banner, interstitial and pre-roll ads for games approved after April 6, 2026. They say it is meant to end later in 2026, so check the current terms.</p>
 <h3>Armor Games</h3>
@@ -1315,6 +1315,7 @@ ${faq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
 <li>${ext('https://www.bountyboard.gg/blog/how-to-monetize-an-html5-game', 'Bountyboard: HTML5 game revenue shares (Y8, GamePix history)')}</li>
 <li>${ext('https://blog.kongregate.com/hc/en-us/articles/44395849259661', 'Kongregate: 7-step game publishing process')}</li>
 <li>${ext('https://kongregatedevelopers.zendesk.com/hc/en-us/articles/44770578988429', 'Kongregate: 2026 Welcome Back revenue share program')}</li>
+<li>${ext('https://www.y8.com/upload', 'Y8: upload your game')}</li>
 <li>${ext('https://developers.armorgames.com/docs/introduction/overview', 'Armor Games developer docs: overview')}</li>
 <li>${ext('https://developers.google.com/youtube/gaming/playables', 'YouTube Playables for developers')}</li>
 <li>${ext('https://developers.google.com/youtube/gaming/playables/certification/requirements', 'YouTube Playables certification requirements')}</li>
@@ -1323,7 +1324,7 @@ ${faq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('')}
 <li>${ext('https://www.mcvuk.com/development/indie-community-game-jolt-launches-dedicated-marketplace', 'MCV: Game Jolt marketplace revenue split')}</li>
 <li>${ext('https://newgrounds.wiki.gg/wiki/Revenue_Sharing', 'Newgrounds wiki: revenue sharing')}</li>
 </ul>
-<p class="muted">Last updated: 25 November 2026 (added Armor Games; Kongregate, YouTube Playables and Google GameSnacks added 24 November).</p>`,
+<p class="muted">Last updated: 26 November 2026 (Y8 upload and revenue share steps added; Armor Games added 25 November; Kongregate, YouTube Playables and Google GameSnacks added 24 November).</p>`,
     'Where to publish an HTML5 game in 2026: Poki, CrazyGames, Playgama, GamePix, GameMonetize, Kongregate, Armor Games, YouTube Playables, Google GameSnacks, itch.io, Game Jolt and Newgrounds compared. Revenue share, exclusivity, review and payouts.',
     [faqLd, artLd], 0.8);
 }
