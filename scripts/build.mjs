@@ -1403,7 +1403,8 @@ let SITEMAP_OFFERED = 0;
   // ~9,900 English ones, so the crawl budget went to translations instead of the pages that rank.
   // The translated pages stay live and keep their hreflang links from the English page - only the
   // sitemap invitation is rationed, and it widens again as the site earns more crawling.
-  const TR_GAMES = Number(process.env.SITEMAP_TR_GAMES || 5000);
+  // ramps by itself: 5,000 translated games per language on 26.11.2026, +1,500 every day after, until every translated game is offered (~5 days)
+  const TR_GAMES = Number(process.env.SITEMAP_TR_GAMES || (5000 + 1500 * Math.max(0, Math.floor((Date.now() - Date.UTC(2026, 10, 26)) / 864e5))));
   const trGame = s => s.loc.slice(ABS.length).match(/^\/([a-z]{2})\/games\//);
   const keep = new Set(sitemap.filter(s => !trGame(s)));
   const byLang = {};
