@@ -286,6 +286,14 @@ if (cfg.gamepixSid && gpx.length) {
   });
 }
 
+// our own counts from the site's anonymous counter (Supabase site_events, last 28 days); the build runs in CI where this is reachable
+const SITE_COUNTS = { cat: {}, play: {} };
+try {
+  const K = 'sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k';
+  const r = await fetch('https://pxjlcbjwdalctlyeljql.supabase.co/rest/v1/rpc/site_counts', { method: 'POST', headers: { apikey: K, Authorization: 'Bearer ' + K, 'Content-Type': 'application/json' }, body: JSON.stringify({ days: 28 }), signal: AbortSignal.timeout(15000) });
+  if (r.ok) for (const x of await r.json()) if (SITE_COUNTS[x.kind]) SITE_COUNTS[x.kind][x.slug] = Number(x.n) || 0;
+  console.log(`site counts: ${Object.keys(SITE_COUNTS.cat).length} categories, ${Object.keys(SITE_COUNTS.play).length} games played`);
+} catch (e) { console.log('site counts unavailable:', e.message); }
 games.sort((a, b) => a.score - b.score);
 // every game page we ever published (data/published.txt) stays published while the game is still in a feed,
 // so pages don't flip between 200 and 404 when feed rankings shift around the maxGames cut-off
@@ -302,6 +310,35 @@ const wasPublished = g => { const s = slugify(g.title); return published.has(s) 
   // the cap is already full of published pages, so always let the newest feed games in (a few dozen per daily build)
   const fresh = new Set(cfg.freezeFeeds ? [] : games.filter(g => !keep(g) && Number.isFinite(g.r?.newest)).sort((x, y) => x.r.newest - y.r.newest).slice(0, cfg.newPerBuild || 30));
   games = games.filter(g => keep(g) || fresh.has(g) || room-- > 0);
+}
+
+// 26.11.2026: the catalogue is cut from ~9,600 feed games to about cfg.catalogMax of the best.
+// Google told us the same thing twice: Search indexed 3.4k of ~57k URLs ("Discovered - currently not indexed" 52k)
+// and AdSense refused the site as "Low value content". Guides on every page did not move either number,
+// so the long tail goes: a small catalogue we can stand behind instead of a huge one nobody crawls.
+// Never dropped: pages Google has shown (data/keep-slugs.txt, data/priority-slugs.txt) and games our own visitors play.
+// plus the best 24 games of every collection page. The rest is filled by rank, games with a guide first. Dropped pages become the usual "retired" redirect,
+// and raising catalogMax brings them back (published.txt still remembers every slug).
+if (cfg.catalogMax) {
+  const lines = f => { try { return fs.readFileSync(path.join(ROOT, f), 'utf8').split(/\r?\n/).filter(l => l && !l.startsWith('#')).join(',').split(',').map(x => x.trim()).filter(Boolean); } catch { return []; } };
+  const KEEP = new Set([...lines('data/keep-slugs.txt'), ...lines('data/priority-slugs.txt')]);
+  const G0 = readJSON(path.join(ROOT, 'data/guides.json'), {});
+  const sl = g => { const s = slugify(g.title); return [s, `${s}-${g.srcId}`.slice(0, 80)]; };
+  const must = g => sl(g).some(s => KEEP.has(s) || (SITE_COUNTS.play[s] || 0) >= 2);
+  // every keyword collection page (data/topics.json) keeps its best 24 games: those hubs are the pages Google ranks us for
+  const topicKeep = new Set();
+  for (const t of readJSON(path.join(ROOT, 'data/topics.json'), [])) {
+    if (!t.match) continue;
+    const re = new RegExp('(^|[^a-z0-9])(' + t.match + ')(?=$|[^a-z0-9])', 'i');
+    games.filter(g => re.test(g.title) || (!t.titleOnly && re.test((g.tags || []).join(' , ')))).slice(0, 24).forEach(g => topicKeep.add(g));
+  }
+  const musts = games.filter(g => must(g) || topicKeep.has(g));
+  const rest = games.filter(g => !must(g) && !topicKeep.has(g));
+  const ranked = [...rest.filter(g => sl(g).some(s => G0[s])), ...rest.filter(g => !sl(g).some(s => G0[s]))];
+  const pick = new Set([...musts, ...ranked.slice(0, Math.max(0, cfg.catalogMax - musts.length))]);
+  const before = games.length;
+  games = games.filter(g => pick.has(g));
+  console.log(`catalogue cut: ${before} -> ${games.length} feed games (${musts.length} kept for Google impressions, our own plays or a collection page)`);
 }
 
 // hand-written tips/FAQ for selected games (data/guides.json, keyed by slug)
@@ -354,7 +391,8 @@ for (const g of games) {
 const all = [...ours, ...games];
 // 14.11.2026: marketing copy says "10,000+" (floor to the nearest thousand) instead of the exact,
 // slightly-fluctuating live count, to match the "Top 10,000" positioning without ever overclaiming.
-const roundedCount = Math.floor(all.length / 1000) * 1000;
+const roundedCount = all.length >= 2000 ? Math.floor(all.length / 1000) * 1000 : Math.floor(all.length / 100) * 100;
+const TOPN = (cfg.slogan.match(/[\d,]+/) || ['10,000'])[0];
 // game index for scripts/write-guides.mjs (not deployed; .cache/ is gitignored)
 try {
   fs.mkdirSync(path.join(ROOT, '.cache'), { recursive: true });
@@ -366,14 +404,6 @@ try {
 const byCat = Object.fromEntries(CATS.map(c => [c.slug, []]));
 for (const g of all) for (const c of g.cats.all) byCat[c]?.push(g);
 byCat.mobile = all.filter(g => g.mobile);
-// our own counts from the site's anonymous counter (Supabase site_events, last 28 days); the build runs in CI where this is reachable
-const SITE_COUNTS = { cat: {}, play: {} };
-try {
-  const K = 'sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k';
-  const r = await fetch('https://pxjlcbjwdalctlyeljql.supabase.co/rest/v1/rpc/site_counts', { method: 'POST', headers: { apikey: K, Authorization: 'Bearer ' + K, 'Content-Type': 'application/json' }, body: JSON.stringify({ days: 28 }), signal: AbortSignal.timeout(15000) });
-  if (r.ok) for (const x of await r.json()) if (SITE_COUNTS[x.kind]) SITE_COUNTS[x.kind][x.slug] = Number(x.n) || 0;
-  console.log(`site counts: ${Object.keys(SITE_COUNTS.cat).length} categories, ${Object.keys(SITE_COUNTS.play).length} games played`);
-} catch (e) { console.log('site counts unavailable:', e.message); }
 // what visitors actually type into our search box (last 28 days, at least 2 times)
 const SEARCHES = [];
 try {
@@ -723,7 +753,7 @@ function emitContent() {
     ${duo('duo-friends', tr('Play online with friends'), [tr('2 player games'), cHref('two-player'), 'two-player'], [tr('Online multiplayer'), cHref('multiplayer'), 'multiplayer'])}
     ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), 'kids'], [tr('Casual games'), cHref('casual'), 'hypercasual'])}
   </div>`;
-    const heroTitle = esc(tr('The Top 10,000 Web Games, Ever.')).replace('10,000', '<span class="hero-num">10,000</span>');
+    const heroTitle = esc(tr('The Top 10,000 Web Games, Ever.')).replace(/10[.,\s\u00a0\u202f]?000|1万/, m => `<span class="hero-num">${m === '1万' ? TOPN.replace(/,/g, '') : TOPN}</span>`);
     const body = `<header class="welcome welcome-center"><h1>${heroTitle}</h1><p class="welcome-sub">${roundedCount.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
   ${bnOwn}
   <section class="trio">${ours.map((g, i) => feat('own', `⭐ ${esc(tr('Our game'))}`, g, LANG === 'en' ? (g.short || '') : (g.short || ''), `<a href="${ur('/our-games/')}">${esc(cfg.studio)}</a>`, i === 0)).join('')}</section>
@@ -1027,9 +1057,9 @@ ${o.instructions ? `<p><strong>How to play:</strong> ${esc(o.instructions)}</p>`
 <p><a class="btn" href="${u(`/games/${o.slug}/`)}">&#9654; Play ${esc(o.title)} free</a></p>`).join('\n')}
 <h2>Who is Door 404?</h2>
 <p>${esc(cfg.studio)} started as a live escape room studio in Novi Sad, Serbia. We designed physical puzzle rooms for years before we started making browser games. That background shows up in everything we build: our games reward curiosity, have clear mechanics and always tell you what just happened. <a href="https://www.escaperoom.co.rs/" rel="noopener" target="_blank">Visit our escape room site</a> if you want to see where we come from.</p>
-<p>We launched ${esc(cfg.name)} in October 2026 as a home for the best free web games — not just ours, but the greatest browser games ever made. The site has 10,000+ games, human-curated, with no clutter and no paywalls. Our own games sit alongside classics from Miniclip, Armor Games, Nitrome and hundreds of independent developers.</p>
+<p>We launched ${esc(cfg.name)} in October 2026 as a home for the best free web games — not just ours, but the greatest browser games ever made. The site has ${roundedCount.toLocaleString('en-US')}+ games, human-curated, with no clutter and no paywalls. Our own games sit alongside classics from Miniclip, Armor Games, Nitrome and hundreds of independent developers.</p>
 <h2>Play more free games</h2>
-<p>Not in the mood for one of ours? Browse the full catalogue on ${esc(cfg.name)} — 10,000+ free browser games, sorted by genre, popularity and what is trending today. No account, no download, plays instantly in your browser.</p>`, `Free browser games by ${cfg.studio} — the team behind ${cfg.name}: ${ours.map(o => o.title).join(', ')}. Play free, no download.`);
+<p>Not in the mood for one of ours? Browse the full catalogue on ${esc(cfg.name)} — ${roundedCount.toLocaleString('en-US')}+ free browser games, sorted by genre, popularity and what is trending today. No account, no download, plays instantly in your browser.</p>`, `Free browser games by ${cfg.studio} — the team behind ${cfg.name}: ${ours.map(o => o.title).join(', ')}. Play free, no download.`);
 
 {
   const badgeBlock = (file, w, h, label, slug, blurb) => {
