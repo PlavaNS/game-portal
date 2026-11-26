@@ -293018,5 +293018,211 @@
     ]
    ]
   }
+ },
+ "penguin-iceberg-empire": {
+  "description": "Penguin Iceberg Empire é um construtor idle aconchegante que começa com um pinguim em um pequeno bloco de gelo. Tocar no pinguim grande pesca peixes, e os peixes pagam por construções que continuam pescando sozinhas, começando com um Pinguim Pescador e depois um Buraco de Pesca no Gelo, enquanto outras construções ficam ocultas até você desbloqueá-las. Uma aba de Melhorias abre assim que seus primeiros pescadores começam a trabalhar, peixes dourados e baleias que passam nadando dão bônus surpresa, e mais tarde você pode mergulhar em busca de relíquias e renascer para obter poder permanente. O progresso é salvo automaticamente, e suas construções continuam rendendo enquanto você está fora.",
+  "instructions": "Clique ou toque no pinguim grande para pescar peixes. Abra Construir para comprar Pinguins Pescadores e outras construções (x1, x10 ou Máx), depois confira Melhorias para potencializá-los. Toque nos peixes dourados e nas baleias para ganhar bônus. Mais tarde, use Mergulhar para relíquias e Renascer para bônus permanentes.",
+  "guide": {
+   "intro": "Penguin Iceberg Empire é um construtor idle que começa com um pinguim em um Bloco de Gelo Pequeno. Você toca no pinguim grande para pescar peixes, e os peixes compram construções que continuam pescando para você. O primeiro Pinguim Pescador custa 15 peixes e adiciona 0,3 peixes por segundo, e comprá-lo desbloqueia a próxima construção, o Buraco de Pesca no Gelo.",
+   "tips": [
+    "Toque no pinguim grande cerca de quinze vezes logo no início e compre o primeiro Pinguim Pescador por 15 peixes. A renda passiva começa no momento em que ele é construído.",
+    "Cada Pinguim Pescador fica um pouco mais caro (o segundo custa cerca de 17 peixes), então compare com a próxima construção: o Buraco de Pesca no Gelo custa 110 peixes, mas produz 1,6 peixes por segundo, mais que cinco Pinguins Pescadores.",
+    "As opções Comprar x1, x10 e Máx acima da lista economizam muitos toques quando sua renda cresce.",
+    "Um ponto rosa na aba Melhorias significa que uma nova melhoria está pronta. Confira depois de cada nova construção.",
+    "Peixes dourados e baleias passam nadando de tempos em tempos. Toque neles para bônus surpresa.",
+    "Mergulhar e Renascer são desbloqueados mais tarde. Renascer reinicia seu iceberg, mas dá poder permanente, então use quando o progresso começar a desacelerar."
+   ],
+   "faq": [
+    [
+     "Penguin Iceberg Empire continua rendendo quando eu saio?",
+     "Sim. As construções continuam pescando enquanto você está fora, e o progresso é salvo automaticamente no seu navegador."
+    ],
+    [
+     "Qual é a melhor primeira compra?",
+     "Compre primeiro o Pinguim Pescador por 15 peixes. Ele desbloqueia o Buraco de Pesca no Gelo, que é o primeiro grande salto em peixes por segundo."
+    ],
+    [
+     "Dá para jogar no celular?",
+     "Sim. Foi feito para toques e cabe na tela de um celular."
+    ]
+   ]
+  }
+ },
+ "mexican-train-online": {
+  "description": "Mexican Train Online traz o clássico jogo de dominó para o navegador. Uma rodada começa a partir de uma pedra dupla no meio, aqui a 12|12, e cada jogador monta um trem pessoal a partir dela, enquanto um Mexican Train compartilhado fica aberto para todos. Você joga contra os oponentes do computador chamados Rusty, Tess e Dilly, no fácil, médio ou difícil, ou passa o aparelho para dois a quatro pessoas. Sua mão mostra a contagem de pontos, um botão de dica destaca as pedras jogáveis, e você pode desfazer, ordenar sua mão e jogar em tela cheia. Os conjuntos duplo-6, duplo-9, duplo-12 e maiores são suportados.",
+  "instructions": "Toque em uma pedra de dominó brilhante na sua mão e depois toque na ponta de um trem para jogá-la: o seu próprio trem, o Mexican Train compartilhado ou o trem de outro jogador, assim que estiver aberto. Se não puder jogar, compre do monte. Esvazie sua mão primeiro; a menor soma de pontos ao final de todas as rodadas vence. Use a lâmpada para dicas.",
+  "guide": {
+   "intro": "Mexican Train Online é o clássico jogo de dominó contra três jogadores do computador, Rusty, Tess e Dilly, ou jogo de revezamento para dois a quatro pessoas. Uma rodada começa a partir da maior pedra dupla, aqui a 12|12, cada jogador recebe treze pedras, e o Mexican Train compartilhado fica aberto para todos desde a primeira jogada. O jogo acontece em várias rodadas e vence quem tiver a menor soma de pontos no final.",
+   "tips": [
+    "Sua mão mostra a contagem total de pontos (por exemplo, 153 pontos no início). Jogue suas pedras mais pesadas cedo, porque qualquer pedra que sobrar na sua mão quando alguém terminar conta contra você.",
+    "Comece o seu próprio trem com uma pedra que combine com a pedra inicial, como 12|9 no 12|12, e depois continue com pontas combinando.",
+    "O Mexican Train compartilhado está aberto para todos. Use-o quando não puder estender o seu próprio trem, em vez de comprar do monte.",
+    "Toque na lâmpada para uma dica: ela mostra quais das suas pedras podem ser jogadas agora.",
+    "O botão de ordenar reorganiza sua mão, o que facilita muito encontrar uma sequência de pontas combinando.",
+    "Se você sair no meio do jogo, na próxima visita aparecerá Welcome back - resume your game?, para que você possa retomar a mesma rodada."
+   ],
+   "faq": [
+    [
+     "Como jogo uma pedra de dominó no Mexican Train Online?",
+     "Toque em uma pedra de dominó brilhante na sua mão e depois toque no sinal de mais na ponta do trem onde quer adicioná-la."
+    ],
+    [
+     "Posso jogar com amigos?",
+     "Sim. O modo de revezamento suporta de dois a quatro jogadores em um mesmo aparelho, ou você pode jogar contra um a três jogadores do computador no fácil, médio ou difícil."
+    ],
+    [
+     "Quais conjuntos de dominó são suportados?",
+     "Duplo-6, duplo-9, duplo-12 e conjuntos maiores, para que você possa jogar partidas curtas ou longas."
+    ]
+   ]
+  }
+ },
+ "lost-horizons": {
+  "description": "Lost Horizons é uma ilha multiplayer aconchegante na qual você entra direto do navegador como convidado. Os jogadores se reúnem na Praça, votam no próximo minijogo e jogam rodadas que duram cerca de um minuto ou um minuto e meio. A cada dez minutos começa uma corrida do tesouro montanha acima, um comerciante itinerante aparece todo dia e um velho sábio chamado Ondo dá pistas sobre os mistérios da ilha. Você escolhe um nome, personaliza um pouco o seu personagem e sobe de nível enquanto joga, com o progresso salvo caso entre na sua conta. A ilha mostra quantos ilhéus estão online e tem seu próprio seletor de servidores, para que você entre na região mais próxima.",
+  "instructions": "Pressione PLAY para entrar como convidado. Mova-se com WASD ou as setas do teclado (controles de toque em celulares). Ande até a Praça para votar no próximo minijogo, participe da corrida do tesouro quando ela for anunciada e converse com os personagens para começar as missões. Entre na sua conta apenas se quiser manter o seu progresso. Observação: a ilha tem um chat aberto com outros jogadores.",
+  "guide": {
+   "intro": "Lost Horizons é uma ilha online aconchegante administrada por Kubzo. Você pressiona PLAY para entrar como convidado, recebe um nome de ilhéu aleatório, como LobsterWaffle, e chega a uma ilha que já está movimentada: a tela inicial mostra quantos ilhéus estão online e o que está acontecendo agora, desde um evento em destaque com contagem regressiva em segundos até uma ponte que desce em um cronômetro.",
+   "tips": [
+    "Confira o painel Acontecendo Agora na tela inicial antes de entrar. Ele lista os próximos eventos com contagens regressivas ao vivo, como quando a ponte desce ou o próximo destaque começa, para que você consiga chegar a tempo.",
+    "A corrida do tesouro montanha acima começa a cada dez minutos. Fique perto do ponto de partida quando o cronômetro zerar, porque a corrida não espera quem chega atrasado.",
+    "Use o botão Personalizar antes de jogar para mudar a aparência do seu ilhéu e o botão de dado para sortear um novo nome aleatório.",
+    "A pílula de servidor no topo (por exemplo Europe 45 ms) permite escolher a região mais próxima. Um ping mais baixo deixa os minijogos curtos bem mais fáceis de vencer.",
+    "Os minijogos da Praça duram cerca de 60 a 95 segundos e os jogadores votam no próximo, então fique na Praça entre as rodadas se quiser opinar.",
+    "Você pode jogar tudo como convidado. Entre na sua conta apenas se quiser que seu nível e suas gemas sejam salvos entre as visitas."
+   ],
+   "faq": [
+    [
+     "Preciso de uma conta para jogar Lost Horizons?",
+     "Não. Clicar em PLAY como convidado leva você direto para a ilha. Entrar na conta é opcional e serve apenas para manter o seu progresso."
+    ],
+    [
+     "Com que frequência acontece a corrida do tesouro?",
+     "Uma corrida do tesouro montanha acima, a Treasure Mountain, começa a cada dez minutos, e a tela inicial mostra o que vem a seguir."
+    ],
+    [
+     "Tem chat?",
+     "Tem sim, a ilha possui um chat aberto com outros jogadores, então os jogadores mais novos devem jogar com um responsável por perto."
+    ]
+   ]
+  }
+ },
+ "giant-egg-idle": {
+  "description": "Giant Egg Idle é um jogo idle 2D em pixel em que você monta um exército que quebra um ovo gigante. Cada fragmento que se solta explode em moedas, então quanto maior o seu esquadrão, mais rápido o dinheiro entra, mesmo quando você está longe. Contrate Punchers, Miners, Archers, Catapults, Rocketeers, Blasters e Tanks e veja a multidão inteira martelar a casca ao redor do buraco. Toque nos pássaros para derrubar moedas do céu, pegue os presentes quando caírem e chame o comando com a bazuca quando ele entrar em campo. Gaste Gems na árvore de melhorias, comece uma nova era com Prestige para ganhar Diamonds e obter vantagens permanentes, complete as Daily Tasks e Achievements para ganhar Tickets, e mude o visual do mapa de Meadow para Egypt, Jungle, Tundra e mais.",
+  "instructions": "Seu esquadrão bate no ovo sozinho e cada fragmento paga moedas. Gaste moedas em novas unidades na aba Squad, quebre camada após camada e mantenha o dano crescendo. Quando o progresso desacelerar, use Prestige: você começa uma nova era com Diamonds que compram vantagens e aumentam todo o dano de forma permanente. Dicas: - Gaste Gems na árvore de Upgrades e compre cada upgrade de uma árvore pelo menos uma vez para desbloquear o grande upgrade dela. - Toque no comando com a bazuca quando ele chegar: o foguete dele causa um grande pedaço de dano e chove moedas sobre você. - Toque nos pássaros que voam sobre o campo para derrubar uma moeda e ganhar um bom prêmio. Mouse: - Jogar: clique com o botão esquerdo em unidades, upgrades, presentes, pássaros e no comando Toque: - Jogar: toque em unidades, upgrades, presentes, pássaros e no comando",
+  "guide": {
+   "intro": "Giant Egg Idle é um jogo idle em pixel em que o seu exército de unidades quebra um ovo gigante. Cada fragmento paga moedas, e quanto maior o seu esquadrão, mais rápido o dinheiro chega, mesmo quando você está longe.",
+   "tips": [
+    "Compre cada upgrade de uma árvore pelo menos uma vez, porque isso desbloqueia o grande upgrade dessa árvore.",
+    "Continue adicionando unidades na aba Squad conforme as moedas entram, já que o seu dano precisa continuar crescendo para quebrar as camadas mais profundas.",
+    "Quando o comando com a bazuca entrar em campo, toque nele logo, pois o foguete dele causa um grande pedaço de dano e chove moedas sobre você.",
+    "Toque nos pássaros que voam sobre o campo e pegue os presentes quando caírem, já que essas pequenas ações dão moedas extras sem custar nada.",
+    "Se você gosta de toques constantes e progresso idle, pode encontrar mais [[clicker-games|jogos de clique para experimentar]] no site."
+   ],
+   "faq": [
+    [
+     "Em que devo gastar minhas moedas primeiro?",
+     "Gaste moedas em novas unidades na aba Squad, já que mais unidades quebram mais fragmentos e trazem mais dinheiro. Fique de olho no dano para que cada nova compra ajude você a atravessar o ovo mais rápido."
+    ],
+    [
+     "Qual é o momento certo para usar o Prestige?",
+     "Use o Prestige quando o progresso desacelerar. Você começa uma nova era e ganha Diamonds que compram vantagens e aumentam o seu dano de forma permanente."
+    ]
+   ]
+  }
+ },
+ "atv-stunts": {
+  "description": "ATV Stunts é a segunda sequência da simulação de corrida de carros em 3D. O jogador tem 4 veículos de cores diferentes para alternar. Um grande mapa contém muitos obstáculos e lugares para fazer manobras. O jogo é adequado para todas as idades. Vamos andar de quadriciclo em um mapa maluco. Escolha entre quatro cores de veículo. Você prefere verde, azul, vermelho ou amarelo-vermelho formula. Descubra todos os lugares onde a ação de verdade começa. Pontes, rampas, túneis, voando no ar é apenas uma fração do que você vai encontrar no mapa. Não hesite e entre no seu veículo super rápido! Torne-se um campeão de quadriciclo. Divirta-se.",
+  "instructions": "Setas WASD - Dirigir C - Mudar câmera Tab - próximo quadriciclo Enter - reiniciar quadriciclo R Esc - reiniciar cena T - desacelerar o tempo F - reparar quadriciclo",
+  "guide": {
+   "intro": "ATV Stunts é um jogo de corrida em 3D onde você pilota um quadriciclo por um grande mapa cheio de obstáculos, rampas, pontes e túneis. Escolha entre quatro cores de veículo e busque se tornar um campeão de quadriciclo.",
+   "tips": [
+    "Use a tecla T para desacelerar o tempo quando estiver prestes a tentar um salto ou uma rampa complicada, assim você pode alinhar sua aterrissagem antes de se comprometer.",
+    "Pressione F para reparar seu quadriciclo depois de uma batida forte, para manter um veículo funcionando para a próxima manobra.",
+    "Pressione C para mudar o ângulo da câmera e escolher a visão que ajuda a calcular a distância até as rampas e pontes, principalmente quando você estiver no ar.",
+    "Experimente a tecla Tab para alternar entre seus quatro quadriciclos, já que cada cor pode funcionar melhor em trajetos diferentes pelo mapa. Se você gosta de pilotagem focada em manobras, também pode conferir mais [[racing-games|jogos de corrida de ritmo acelerado]] no site."
+   ],
+   "faq": [
+    [
+     "Como eu direciono e controlo meu quadriciclo?",
+     "Use as teclas W, A, S e D ou as setas do teclado para dirigir. Use esses mesmos controles para posicionar seu quadriciclo antes de saltar das rampas."
+    ],
+    [
+     "O que faz a tecla de desacelerar o tempo?",
+     "A tecla T desacelera o tempo, o que oferece mais controle durante os saltos e as seções difíceis do mapa. É útil para planejar as aterrissagens."
+    ]
+   ]
+  }
+ },
+ "sunny-cove": {
+  "description": "Um bar de praia, um barco desaparecido e um verão cheio de segundas chances. Junte-se a Harper Reed na Solana Coast e traga de volta à vida uma enseada tranquila! Una itens iguais para fazer drinks de frutas, equipamentos de praia e suprimentos de reparo. Sirva os pedidos dos seus vizinhos, ganhe moedas e restaure seis locais à beira-mar, desde o bar da praia e o jardim de cítricos até o píer e o farol. Conheça seis personagens, descubra lembranças e faça escolhas em uma história contada em seis capítulos e 160 tarefas de restauração. Planeje seu tabuleiro, melhore seus geradores e guarde itens úteis no armazenamento. A energia se recupera com o tempo, e vídeos recompensados opcionais podem dar um pequeno impulso. Toda a campanha de restauração pode ser concluída sem assistir a anúncios.",
+  "instructions": "Comece unindo peças iguais para montar sua primeira estação de sucos. Toque em um gerador marcado com um raio para criar um item. Arraste dois itens idênticos um sobre o outro para uni-los no próximo nível, ou toque em um e depois em seu par correspondente. Reúna os itens mostrados em um pedido e pressione Servir pedido para ganhar moedas. Gaste moedas em tarefas de restauração, acompanhe conversas e visite novos locais no mapa. Use o armazenamento para liberar espaço e abrir mais células do tabuleiro conforme você progride. Jogue com mouse ou controles de toque; o progresso é salvo automaticamente.",
+  "guide": {
+   "intro": "Sunny Cove é um quebra-cabeça de unir itens ambientado na Solana Coast, onde você ajuda Harper Reed a restaurar um bar de praia tranquilo e seis locais à beira-mar. Você une itens, serve os pedidos dos vizinhos e ganha moedas para trazer a enseada de volta à vida.",
+   "tips": [
+    "Comece unindo peças iguais para colocar sua primeira estação de sucos em funcionamento, já que todo o resto da restauração depende desses itens iniciais.",
+    "Antes de unir, observe o pedido atual para saber quais itens você precisa. Servir pedidos é como você ganha moedas para as tarefas de restauração.",
+    "Use o armazenamento regularmente para liberar espaço no tabuleiro. Abrir mais células do tabuleiro depende do seu progresso, então um tabuleiro lotado atrapalha você.",
+    "A energia se recarrega com o tempo, então distribua suas partidas ao longo do dia em vez de gastar tudo de uma vez. Você pode concluir a campanha inteira sem assistir a anúncios, então os vídeos recompensados nunca são obrigatórios.",
+    "Se você gosta de planejar um tabuleiro cheio, pode gostar de [[merge-games|outros jogos de quebra-cabeça de unir]] que recompensam combinações cuidadosas de itens."
+   ],
+   "faq": [
+    [
+     "Como faço novos itens no Sunny Cove?",
+     "Toque em um gerador marcado com um raio para criar um item. Depois arraste dois itens idênticos um sobre o outro, ou toque em um e depois em seu par correspondente, para uni-los no próximo nível."
+    ],
+    [
+     "Como ganho moedas para gastar na restauração?",
+     "Reúna os itens mostrados no pedido de um cliente e pressione Servir pedido. As moedas que você ganha podem ser gastas em tarefas de restauração, conversas e visitas a novos locais no mapa."
+    ]
+   ]
+  }
+ },
+ "toy-legion": {
+  "description": "Recrute pequenos soldados de plástico, funda gêmeos em níveis mais fortes numa grade 5x4 e mande seu exército de brinquedos marchar contra robôs de lata com corda e chefões gigantes de brinquedo. Os robôs de corda estão invadindo o quarto de brincar! Recrute soldados de brinquedo com moedas, arraste dois soldados idênticos um sobre o outro para fundi-los num nível mais forte, com equipamento melhor, e organize sua formação na grade de posicionamento 5x4: lutadores resistentes na frente, atiradores no meio, canhões de rolha atrás. Aperte BATTLE! e veja sua legião marchar pela pista do tapete de brincar e enfrentar três esquadrões de robôs em sequência. Use sua habilidade de comandante no momento certo para virar a batalha. - 5 classes de soldados (Brawler, Blaster, Guardian, Cannoneer, Medic) x 5 níveis (Recruit a Legend), cada nível com seu próprio modelo 3D e equipamento - 40 fases de campanha em 4 mundos de brinquedo: Bedroom Carpet, Study Desk, Sandbox e o Attic iluminado pela lua - Robôs Crowned Champion e 4 chefões gigantes de brinquedo com ataques especiais anunciados - 3 habilidades de comandante: Paper Plane Strike, Rally Horn e Bandage Drop - Toy Box Siege: um modo de ondas sem fim com um chefão a cada 10ª onda - Melhorias permanentes, uma coleção de 25 cartas de soldados, os Robot Files, 26 conquistas e uma recompensa diária de 7 dias - Adequado para crianças: dardos de espuma, canhões de rolha e curativos; os robôs se desfazem em molas e engrenagens - Inglês e turco",
+  "instructions": "- Computador: mouse. Clique em um botão de recrutamento para comprar um soldado; arraste um soldado com o botão esquerdo do mouse sobre o gêmeo para fundir, sobre outro soldado para trocar de lugar, ou para uma célula vazia para movê-lo. Clique em BATTLE! para lutar e clique no grande botão redondo de habilidade quando o anel estiver cheio. P pausa / retoma a batalha (ou use o botão de pausa), e o botão x1/x2 muda a velocidade da batalha. - Celular: toque nos botões; arraste os soldados com um dedo.",
+  "guide": {
+   "intro": "Toy Legion é um jogo de batalha em quebra-cabeça em que você recruta soldados de plástico, funde gêmeos idênticos em níveis mais fortes e faz sua formação marchar contra robôs de lata com corda e chefões gigantes de brinquedo. Seu plano de batalha começa na grade 5x4.",
+   "tips": [
+    "Funda dois soldados idênticos sempre que puder, já que um nível mais alto traz atributos mais fortes e equipamento melhor. [[merge-games|mais quebra-cabeças de fusão para experimentar]] se você gosta de evoluir unidades desse jeito.",
+    "Coloque lutadores resistentes na primeira fileira, atiradores no meio e canhões de rolha atrás para que cada classe consiga cumprir sua função sem ser dominada.",
+    "Guarde sua habilidade de comandante para o momento em que os robôs se amontoarem ou um chefão preparar um ataque especial, em vez de usá-la assim que o anel encher.",
+    "Observe os ataques anunciados dos chefões gigantes de brinquedo e mova sua formação ou espere um momento seguro antes de colocar seus soldados em ação.",
+    "Use o botão de velocidade de batalha x1 e x2 para passar mais rápido pelas ondas fáceis e volte para x1 quando precisar acompanhar a luta com calma."
+   ],
+   "faq": [
+    [
+     "Como eu deixo um soldado mais forte?",
+     "Arraste um soldado sobre um gêmeo idêntico para fundi-los num nível mais alto, com equipamento melhor. Você também pode arrastar um soldado sobre outro soldado diferente para trocar de lugar."
+    ],
+    [
+     "Quando devo usar a habilidade do comandante?",
+     "Use quando o anel do grande botão redondo de habilidade estiver cheio e a batalha estiver num momento crítico, como um grupo de robôs ou um ataque de chefão. Usar no momento certo pode virar uma luta perdida."
+    ]
+   ]
+  }
+ },
+ "wreck-kings-car": {
+  "description": "Wreck Kings: Car Destruction Island é um jogo de corrida e demolição em 3D da BREYMANTECH. Destrua, bata e sobreviva aos seus rivais em uma ilha cheia de ação! Jogue 300 eventos de carreira em 15 capítulos, com um chefe no fim de cada capítulo. Há 8 modos: Corrida em Circuito, Sprint, Rali de Terra, Derby de Demolição, Show de Acrobacias, Caça à Destruição, Derrubada e Corrida Offroad. Ganhe dinheiro para comprar 4 veículos: um hot hatch, um superesportivo, um monster truck e um caminhão pesado. Melhore o motor, o nitro, os pneus, a blindagem e a suspensão, e desbloqueie 18 habilidades na árvore de habilidades. As carrocerias amassam e as peças voam quando você bate. Crie sua própria pintura no Paint Shop",
+  "instructions": "W seta cima acelerar S seta baixo frear e dar ré A D seta esq seta dir direcionar SPACE freio de mão drift SHIFT N nitro C trocar câmera R reiniciar carro ESC P pausar Controles de gamepad e toque são compatíveis no celular Dicas: pule, dê cambalhotas e derrape para encher o",
+  "guide": {
+   "intro": "Wreck Kings: Car Destruction Island é um jogo de corrida e derby de demolição em 3D ambientado em uma ilha. Você joga 300 eventos de carreira em 15 capítulos, cada um terminando com um chefe, e pode melhorar e personalizar seus veículos ao longo do caminho.",
+   "tips": [
+    "Use SPACE para fazer drift com o freio de mão em curvas fechadas nos modos de corrida e, em seguida, toque em S ou W para controlar a velocidade ao sair da curva.",
+    "Guarde o nitro SHIFT para as retas ou logo após um drift, assim você aproveita ao máximo a velocidade de cada impulso.",
+    "Gaste seu dinheiro nas melhorias que combinam com o seu modo: pneus e suspensão ajudam em percursos acidentados, enquanto a blindagem é mais importante nos eventos de demolição, em que as batidas contam.",
+    "Escolha um veículo adequado ao evento. Um monster truck ou caminhão pesado aguenta mais pancada em um derby, enquanto um hot hatch ou superesportivo é melhor para corridas.",
+    "Se você gosta do lado de destruição do jogo, pode encontrar mais títulos em [[car-crash-games|jogos de acidentes de carro]]."
+   ],
+   "faq": [
+    [
+     "Como eu direciono e controlo meu carro?",
+     "Use A e D para direcionar, W para acelerar e S para frear ou dar ré. Segure SPACE para fazer drift com o freio de mão."
+    ],
+    [
+     "O que devo melhorar primeiro?",
+     "Melhore as peças que combinam com o seu modo favorito, como pneus e suspensão para corridas ou blindagem para eventos de demolição. Use a árvore de habilidades para desbloquear habilidades que combinem com o seu estilo de jogo."
+    ]
+   ]
+  }
  }
 }
