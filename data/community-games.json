@@ -1,1561 +1,1592 @@
 [
-  {
-    "slug": "crease-game-online",
-    "title": "Crease Game Online",
-    "studio": "Crease Game Online",
-    "studioUrl": "https://creasegameonline.com/",
-    "added": "2026-11-15",
-    "short": "A free paper-folding puzzle: fold the sheet along its creases until it covers the dashed outline exactly.",
-    "description": "Crease Game Online is a free paper-folding puzzle that plays right in your browser. You get a square sheet of paper and a dashed outline, and you drag the paper to fold it until the visible paper covers the outline exactly, with nothing hanging over and nothing left uncovered. Four new puzzles unlock every day, and there are 27 practice puzzles from Easy to Master plus three short lessons for beginners. Undo, Restart and Hint are always one tap away, and solving a puzzle in the fewest folds without hints earns three stars. No download and no account needed.",
-    "instructions": "Press on the paper and drag to fold it. The spot you grab lands where you let go, and the paper folds along the crease halfway between. Drag sideways or up and down for a straight fold, or at 45 degrees for a diagonal fold. Cover the dashed outline exactly. Red stripes show paper outside the outline. Use Undo, Restart and Hint if you get stuck, and try the three lessons first if you are new.",
-    "category": "puzzle",
-    "extraCats": [
-      "hypercasual"
-    ],
-    "tags": [
-      "Puzzle",
-      "Paper folding",
-      "Logic",
-      "Daily puzzle",
-      "Brain teaser",
-      "Relaxing"
-    ],
-    "embed": "https://creasegameonline.com/",
-    "thumb": "https://creasegameonline.com/og.png",
-    "orientation": "any"
-  },
-  {
-    "slug": "no-map-home",
-    "title": "No Map Home",
-    "studio": "WebGrid",
-    "studioUrl": "https://www.nomaphome.com/",
-    "added": "2026-11-15",
-    "short": "A free co-op fantasy RPG drawn in ink: eight classes, 21 wilderness regions and 25 dungeon depths, solo or in a party.",
-    "description": "No Map Home is a free cooperative fantasy RPG that plays right in your browser. Adventurers followed the Hollow Star underground and never returned, and Mara of Lantern's Rest asks you to rekindle the Nine Watchlights and bring them home. Pick one of eight classes, explore twenty-one wilderness regions, and fight down through twenty-five dungeon depths, alone or in a party of up to eight players in one shared, real-time world. Day and night pass for everyone, your lantern can hide you or draw hunters, and you can hire a mercenary from the guild. Start as a guest with no download and no account.",
-    "instructions": "WASD or the arrow keys move. Click or T selects an enemy, 1-6 use abilities, V is your class defense, Q and R drink health and energy potions. E or right click interacts. Y kindles your lantern and U covers it. I, C and K open the bag, hero and abilities, M and G the local map and world atlas, and the mouse wheel zooms. On touch screens drag to move, tap to select and pinch to zoom.",
-    "category": "adventure",
-    "extraCats": [
-      "multiplayer"
-    ],
-    "tags": [
-      "RPG",
-      "Fantasy",
-      "Adventure",
-      "Multiplayer",
-      "Co-op",
-      "Dungeon"
-    ],
-    "embed": "https://www.nomaphome.com/?ref=ilovewebgames",
-    "thumb": "https://www.nomaphome.com/media/no-map-home-trailer-poster.webp",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "brudvig-hockey-2027",
-    "title": "Brudvig Hockey 2027",
-    "studio": "Brudvig Hockey",
-    "studioUrl": "https://brudvighockey.com",
-    "added": "2026-11-14",
-    "short": "Free 3v3 arcade hockey in your browser: huge hits, breakaway goalies and a 32-team Challenge Cup.",
-    "description": "Brudvig Hockey 2027 is a free arcade hockey game that runs right in your browser: three on three, no penalties, huge body checks and a crowd that roars with every hit. Play the computer, run the 32-team Challenge Cup, challenge a friend online for up to eight players, or put the game on a TV with phones as controllers. No download and no account needed to play, just a free profile for the Challenge Cup.",
-    "instructions": "WASD or the arrow keys skate. Left click or K shoots (tap for a wrist shot, hold and release for a slap shot, or time it with an incoming pass for a one-timer). Right click or E passes or switches skater. Space, F or a double click throws a check (hold for a bigger hit). Q is a spin move with the puck or a poke check without it. Touch controls appear automatically on phones.",
-    "category": "sports",
-    "extraCats": [
-      "multiplayer",
-      "3d"
-    ],
-    "tags": [
-      "Hockey",
-      "Sports",
-      "Arcade",
-      "Multiplayer",
-      "3D"
-    ],
-    "embed": "https://brudvighockey.com/?ref=ilovewebgames",
-    "thumb": "https://brudvighockey.com/og/home.jpg?v=2",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "4wallpong",
-    "title": "4Wall Pong",
-    "studio": "Reflex Lab",
-    "studioUrl": "https://reflexlabgames.com",
-    "added": "2026-11-14",
-    "short": "Pong flipped inside out: steer all four walls at once and keep the ball alive as long as you can.",
-    "description": "4Wall Pong is a free single-player twist on Pong: the ball can leave on any of the four walls, so you steer four paddles at once to keep it in play. Every hit speeds the ball up by 1%, so a run gets harder the longer it survives. Chase a spot on the global Top 10 leaderboard. Free in your browser, no download and no account needed.",
-    "instructions": "On desktop, move the mouse or use the arrow keys / WASD to move all four paddles at once. On mobile, drag with your finger. Move a paddle as you hit the ball to change its bounce angle. One miss on any wall ends the run.",
-    "category": "arcade",
-    "tags": [
-      "Arcade",
-      "Pong",
-      "Reflex",
-      "Leaderboard",
-      "Casual"
-    ],
-    "embed": "https://play.4wallpong.com/",
-    "thumb": "https://ilovewebgames.com/assets/community/4wallpong.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "knockback",
-    "title": "Knockback",
-    "studio": "Knockback",
-    "added": "2026-10-24",
-    "short": "A free browser party board game: race your pegs home through erupting arenas and Power-Ups.",
-    "description": "Knockback is a free party board game you play right in your browser. Race your pegs home while arenas erupt, black holes swallow pieces and Power-Ups flip the board. Pop the dome, move your pegs and knock rivals back to the start. Jump into a quick match with players worldwide, take on the weekly arena and seasonal events, and play on desktop or mobile. Instant play: no install and no account needed.",
-    "instructions": "Pop the dome to roll, then pick a peg to move. Land on a rival to knock it back to the start, grab Power-Ups to change the board and get all your pegs home first to win. A short how-to video is available when you start.",
-    "category": "multiplayer",
-    "extraCats": [
-      "two-player",
-      "kids"
-    ],
-    "tags": [
-      "Board Game",
-      "Party",
-      "Multiplayer",
-      "Family",
-      "Strategy",
-      "Casual"
-    ],
-    "embed": "https://playknockback.com/?s=il",
-    "thumb": "https://playknockback.com/img/og.jpg",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "kart-chaos",
-    "title": "Kart Chaos",
-    "studio": "Kart Chaos",
-    "added": "2026-10-24",
-    "short": "A free 3D kart racer: Grand Prix cups, Time Trial ghosts, a Daily Challenge and online rooms with friends.",
-    "description": "Kart Chaos is a free 3D kart racer that runs in the browser on desktop and mobile. Race the Chamo Cup Grand Prix against CPU racers, beat ghosts in Time Trial, take on the Daily Challenge, or open an online room and race your friends. Drift for speed boosts and land ramp tricks. Play with keyboard, gamepad or touch. No download, no sign-up.",
-    "instructions": "Use the arrow keys or WASD to steer and accelerate. Drift through corners to charge speed boosts and land ramp tricks for extra speed. Gamepad and touch controls are supported.",
-    "category": "racing",
-    "tags": [
-      "Racing",
-      "Kart",
-      "Driving",
-      "Drift",
-      "3D",
-      "Multiplayer"
-    ],
-    "embed": "https://kartchaos.com/?ref=ilovewebgames",
-    "thumb": "https://kartchaos.com/og-image.jpg?v=2",
-    "orientation": "landscape",
-    "extraCats": [
-      "multiplayer",
-      "3d"
-    ]
-  },
-  {
-    "slug": "stonkrider",
-    "title": "StonkRider",
-    "studio": "Sam Carter",
-    "studioUrl": "https://stonkrider.fun",
-    "added": "2026-10-30",
-    "short": "Turn real stock and crypto charts into neon motocross tracks and ride the candles.",
-    "description": "StonkRider is a free bike game that turns real stock and crypto charts into motocross tracks. Pick a ticker like TSLA, GME or BTC-USD and a timeframe, and the candles become hills, ramps and cliffs. Flip off the peaks, chain tricks and grab green-candle orbs for nitro, and try not to crash on the next dip. Every chart rides differently, so there is always a new track. It is just for fun, not financial advice, and needs no account.",
-    "instructions": "Pick a ticker and a timeframe to build your track. Accelerate and lean to ride the chart, flip off peaks to chain tricks and grab green-candle orbs for nitro. Land on your wheels to keep going.",
-    "category": "racing",
-    "extraCats": [
-      "arcade",
-      "mobile"
-    ],
-    "tags": [
-      "Racing",
-      "Bike",
-      "Stunts",
-      "Arcade",
-      "Physics"
-    ],
-    "embed": "https://stonkrider.fun",
-    "thumb": "https://stonkrider.fun/opengraph-image?5dab52d4083ce02e",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "louvers",
-    "title": "Louvers",
-    "studio": "Sundryard",
-    "studioUrl": "https://sundryard.com/louvers/",
-    "added": "2026-10-31",
-    "short": "A calm logic puzzle: slide each slat left or right until every column lights up and a hidden picture appears.",
-    "description": "Louvers is a relaxing logic puzzle you play right in your browser. The board is made of horizontal slats, each with a few coloured tiles on it. Slide every slat left or right until each column has exactly the tiles it needs and lights up, and the hidden picture appears. There are 33 hand-made levels that start with a short tutorial and get steadily trickier, so it is easy to learn and hard to put down. It works with the mouse, the arrow keys or a touchscreen, with no account and no download.",
-    "instructions": "Drag a slat left or right, or select it and use the arrow keys, to shift its tiles. A column lights up when it holds the right tiles. Light every column to reveal the picture and finish the level, then pick the next one from the Levels menu.",
-    "category": "puzzle",
-    "extraCats": [
-      "mobile",
-      "kids"
-    ],
-    "tags": [
-      "Puzzle",
-      "Logic",
-      "Brain",
-      "Relaxing",
-      "Picture"
-    ],
-    "embed": "https://sundryard.com/louvers/play/",
-    "thumb": "https://ilovewebgames.com/assets/community/louvers.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "snowball-fight-online",
-    "title": "Snowball Fight Online",
-    "studio": "Panda Games",
-    "studioUrl": "https://snowfight.pandagames.io/",
-    "added": "2026-11-03",
-    "short": "Fast 3D snowball battles in your browser: free-for-all or team battle, power-ups, skins and a daily leaderboard.",
-    "description": "Snowball Fight Online drops you into a snowy 3D arena where everyone is throwing. Pick free-for-all, where the last snowballer standing wins, or a 10-vs-10 team battle, and jump into a room that is already running. Walk with WASD, aim with the mouse and throw; snowballs run out, so stand still for a moment to pack more. Glowing items on the ground give power-ups you fire with Q or E. There are several maps in rotation, including a Halloween graveyard, 12 characters to unlock, emotes, a chat and a daily and weekly leaderboard. It plays instantly in the browser with no download and no account, and you can save your progress to pick it up in another browser.",
-    "instructions": "Move with W A S D or the arrow keys. Point the mouse at a target and click to throw a snowball. Stand still for a moment to pack more snow when you run out. Walk over glowing items to pick up power-ups and press Q or E to use them. Keys 1 to 6 are emotes, Enter opens the chat, M mutes.",
-    "category": "action",
-    "extraCats": [
-      "multiplayer",
-      "3d",
-      "shooting"
-    ],
-    "tags": [
-      "Snowball",
-      "Battle",
-      "Multiplayer",
-      "3D",
-      "Arena",
-      "Winter",
-      "Christmas"
-    ],
-    "embed": "https://snowfight.pandagames.io/play/",
-    "thumb": "https://snowfight.pandagames.io/og-image.jpg",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "lemonade-tycoon",
-    "title": "Lemonade Tycoon",
-    "studio": "Panda Games",
-    "studioUrl": "https://lemonadetycoon.pandagames.io/",
-    "added": "2026-11-03",
-    "short": "Run a lemonade stand in a sunny 3D park, tune the recipe to the weather and grow it into a citywide chain.",
-    "description": "Lemonade Tycoon is a relaxed 3D idle tycoon game. You start with one little cart in a city park, mix your lemonade (ice, lemon and sugar) to match the day's weather, set the price and watch the customers line up. Every day brings a new forecast and sometimes a park event that sends extra crowds your way. Earnings go into upgrades for the stand, promotions and eventually new shops across the city. Daily tasks, a login reward streak and a chest for finishing all tasks give you a reason to come back, and the stand keeps selling while you are away. It runs in the browser with no download and no sign-up, and your progress is saved.",
-    "instructions": "Click Open now to start the day. Use the Recipe button to adjust ice, lemon and sugar for the weather, Upgrades to improve the stand, Promote to bring in more customers and City to open new shops. Check the Daily tab for today's tasks and rewards.",
-    "category": "clicker-idle",
-    "extraCats": [
-      "casual",
-      "kids"
-    ],
-    "tags": [
-      "Tycoon",
-      "Idle",
-      "Lemonade",
-      "Business",
-      "Management",
-      "3D",
-      "Relaxing"
-    ],
-    "embed": "https://lemonadetycoon.pandagames.io/play/",
-    "thumb": "https://ilovewebgames.com/assets/community/lemonade-tycoon.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "hisorty",
-    "title": "Hisorty",
-    "studio": "Damian Krajnak",
-    "studioUrl": "https://hisorty.app/",
-    "added": "2026-11-03",
-    "short": "Slot historical events onto a timeline, from the Battle of Cannae to the Berlin Wall, and see how far your sense of history takes you.",
-    "description": "Hisorty is a history game built around one simple move: you are handed a card with a real historical event on it, painted in its own illustration, and you have to drop it into the right spot on a timeline of events already on the table. Guess right and the card locks into place with its year revealed; guess wrong and you lose a life. The daily puzzle gives everyone the same six events to put in order, and Endless mode keeps dealing cards until your three lives run out, so the run is as long as your knowledge holds. It plays with a mouse or a finger, and there is nothing to install.",
-    "instructions": "Pick Play for today's puzzle or Endless for an unlimited run. Drag the card at the top onto the timeline, to the left or right of the events already placed, depending on whether you think it happened earlier or later. Place it correctly to keep going; three mistakes end an Endless run.",
-    "category": "puzzle",
-    "extraCats": [
-      "casual",
-      "kids"
-    ],
-    "tags": [
-      "History",
-      "Trivia",
-      "Timeline",
-      "Educational",
-      "Cards",
-      "Endless",
-      "Daily"
-    ],
-    "embed": "https://hisorty.app/",
-    "thumb": "https://ilovewebgames.com/assets/community/hisorty.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "guessnow",
-    "title": "guessNow",
-    "studio": "Antoni Kowalski",
-    "studioUrl": "https://guessnow.fun/",
-    "added": "2026-11-04",
-    "short": "A real photograph from the archives slowly comes into focus and you slide to the year it was taken, before your health runs out.",
-    "description": "guessNow is a history game built on real photographs. A picture appears out of focus and sharpens as the seconds pass, so every moment you wait costs you points but gives you another clue: a uniform, a car, a shop sign. You drag a slider to the year you think it was taken and confirm. Miss by two years and it barely stings; miss by forty and a chunk of your 300 health is gone. Adaptive Climb keeps dealing photographs and raising the difficulty for as long as you survive, and there is a daily set of five if you only want a quick round. Every photo comes with the full story behind it once you have answered.",
-    "instructions": "Pick Adaptive Climb for an endless run or Daily Challenge for today's five photographs. Watch the picture sharpen, drag the slider to the year you think it was taken and press Confirm. The closer you are, the less health you lose; three bad misses and the run is over.",
-    "category": "puzzle",
-    "extraCats": [
-      "casual"
-    ],
-    "tags": [
-      "History",
-      "Trivia",
-      "Photos",
-      "Guessing",
-      "Endless",
-      "Daily",
-      "Knowledge"
-    ],
-    "embed": "https://guessnow.fun/",
-    "thumb": "https://ilovewebgames.com/assets/community/guessnow.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "world-destroyer",
-    "title": "World Destroyer",
-    "studio": "Gamey Studio",
-    "studioUrl": "https://pickthewheel.com/world-destroyer/",
-    "added": "2026-11-04",
-    "short": "Flatten a toy city against the clock with TNT, missiles and a very happy dinosaur, chaining the blasts so one sets off the next.",
-    "description": "World Destroyer drops you on an isometric toy city with a short timer and a handful of tools: TNT, missiles, fire, and later a tornado, a dragon, a robot and a UFO. The trick is not to use them one at a time but to set off chain reactions, hitting a fuel tank so the explosion rolls into the next block and the next. Each city has its own briefing, its own defences to knock out first, and three stars to earn, so a level you scraped through once is worth replaying for the clean run. Ten cities unlock one after another, and new tools arrive as you go.",
-    "instructions": "Pick a tool from the bar at the bottom, then tap or click where you want it on the city. Hit fuel tanks and AA guns first so the blasts spread for you. Clear enough of the city before the timer runs out to earn stars and open the next one.",
-    "category": "arcade",
-    "extraCats": [
-      "puzzle",
-      "mobile"
-    ],
-    "tags": [
-      "Destruction",
-      "Chain Reaction",
-      "Strategy",
-      "Levels",
-      "Isometric",
-      "Dinosaur",
-      "Timed"
-    ],
-    "embed": "https://pickthewheel.com/world-destroyer/",
-    "thumb": "https://ilovewebgames.com/assets/community/world-destroyer.jpg?v=1",
-    "orientation": "portrait"
-  },
-  {
-    "slug": "i-see-you",
-    "title": "I See You",
-    "studio": "Panda Games",
-    "studioUrl": "https://iseeyou.pandagames.io/",
-    "added": "2026-11-05",
-    "short": "Multiplayer horror hide-and-seek in the browser: one ghost starts the hunt, and everyone it catches joins it.",
-    "description": "I See You is a free multiplayer horror hide-and-seek game that runs straight in the browser. One player starts as the ghost; everyone it catches turns and hunts with it, so each round gets more dangerous the longer it runs. As a human you hide under beds, in lockers and behind curtains, hold your breath when something passes, and work on the fuse boxes to restore the power and open an exit before the timer runs out. Three maps are playable - Baiyang Hospital, The Haunted Mansion and The Old Schoolhouse - each with its own layout and story. Jump into a quick match with players from anywhere, or make a private room and send friends the code. No download and no account.",
-    "instructions": "Move with W A S D, hold Shift to sneak and aim with the mouse. F turns the flashlight on, Space or right-click dashes (the ghost lunges). E hides you under a bed or in a locker and R holds your breath while something passes. Find the fuse boxes to restore the power, then run for an exit before time runs out.",
-    "category": "horror",
-    "extraCats": [
-      "multiplayer",
-      "escape-room",
-      "io"
-    ],
-    "tags": [
-      "Horror",
-      "Multiplayer",
-      "Hide and Seek",
-      "Ghost",
-      "Survival",
-      "Co-op",
-      "Scary"
-    ],
-    "embed": "https://iseeyou.pandagames.io/play/",
-    "thumb": "https://ilovewebgames.com/assets/community/i-see-you.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "merge-numbers-2048",
-    "title": "Merge Numbers 2048",
-    "studio": "ChrisBloomGames",
-    "studioUrl": "https://chrisbloomgames.itch.io/",
-    "added": "2026-11-06",
-    "short": "Slide the board, merge matching tiles and push the numbers all the way to 2048 in a few quiet minutes.",
-    "description": "Merge Numbers 2048 is a free browser version of the number puzzle everyone knows. Swipe or use the arrow keys and the whole board slides; two tiles with the same number touch and become one twice as big. Two becomes four, four becomes eight, and every merge leaves room for the next one. A new tile drops after each move, so the board slowly fills and you have to keep a corner free for your biggest number. Reaching 2048 is the goal, but the real game is beating your own best score, and the board remembers it between sessions. Rounds are short, there is nothing to install and no account to make, and it plays the same with a mouse on a computer or a thumb on a phone.",
-    "instructions": "Swipe or press the arrow keys to slide every tile in that direction. Tiles with the same number merge into one. Keep your largest tile in a corner and work the other rows around it, and the board lasts much longer. The game ends when no move is left.",
-    "category": "puzzle",
-    "extraCats": [
-      "hypercasual",
-      "mobile"
-    ],
-    "tags": [
-      "2048",
-      "Merge",
-      "Numbers",
-      "Brain",
-      "Casual",
-      "Puzzle"
-    ],
-    "embed": "https://merge-numbers-2048-chris.surge.sh/",
-    "thumb": "https://ilovewebgames.com/assets/community/merge-numbers-2048.jpg?v=1",
-    "orientation": "any"
-  },
-  {
-    "studio": "ChrisBloomGames",
-    "studioUrl": "https://chrisbloomgames.itch.io/",
-    "added": "2026-11-06",
-    "orientation": "any",
-    "slug": "block-bloom",
-    "title": "Block Bloom",
-    "short": "Drag flower blocks onto a garden board and fill rows or columns to make them bloom.",
-    "description": "Block Bloom is a calm block puzzle with a garden theme. Three flower pieces wait beside the board; drag each one into an empty spot, and when a whole row or column fills up it blooms and clears, giving you room again. There is no timer, so the challenge is pure planning: every piece has to fit somewhere, and a board full of awkward gaps ends the round. Clearing several lines with one piece scores best, and the garden level climbs as you go. Soft pastel colors and short rounds make it an easy game to pick up for a few minutes, on a computer or a phone.",
-    "instructions": "Drag a piece from the side onto the board. Fill a complete row or column to clear it. Keep open space for the long pieces and try to clear two lines at once. The game ends when none of the waiting pieces fits.",
-    "category": "puzzle",
-    "extraCats": [
-      "hypercasual",
-      "mobile"
-    ],
-    "tags": [
-      "Block",
-      "Puzzle",
-      "Blocks",
-      "Flowers",
-      "Casual",
-      "Brain"
-    ],
-    "embed": "https://block-bloom-chris.surge.sh/",
-    "thumb": "https://ilovewebgames.com/assets/community/block-bloom.jpg?v=1"
-  },
-  {
-    "studio": "ChrisBloomGames",
-    "studioUrl": "https://chrisbloomgames.itch.io/",
-    "added": "2026-11-06",
-    "orientation": "any",
-    "slug": "water-sort-color-tubes",
-    "title": "Water Sort: Color Tubes",
-    "short": "Pour colored liquid between tubes until every tube holds a single color.",
-    "description": "Water Sort: Color Tubes is a color sorting puzzle. Each tube holds stacked layers of colored liquid, and you can pour the top layer into another tube only if that tube has room and the top colors match, or if it is empty. The goal of every level is one color per tube. The first levels need only a few moves, but extra colors arrive quickly and the empty tubes become precious, so you start thinking several pours ahead. An undo button saves a bad move and you can restart any level. It plays with a mouse or a tap and suits short breaks.",
-    "instructions": "Tap a tube to pick up its top color, then tap another tube to pour. You can pour onto the same color or into an empty tube. Fill each tube with one color to finish the level. Keep an empty tube free as long as you can and use undo when a pour goes wrong.",
-    "category": "puzzle",
-    "extraCats": [
-      "hypercasual",
-      "mobile"
-    ],
-    "tags": [
-      "Sort",
-      "Sorting",
-      "Water",
-      "Colors",
-      "Puzzle",
-      "Brain"
-    ],
-    "embed": "https://water-sort-chris.surge.sh/",
-    "thumb": "https://ilovewebgames.com/assets/community/water-sort-color-tubes.jpg?v=1"
-  },
-  {
-    "studio": "ChrisBloomGames",
-    "studioUrl": "https://chrisbloomgames.itch.io/",
-    "added": "2026-11-06",
-    "orientation": "any",
-    "slug": "snake-trail",
-    "title": "Snake Trail",
-    "short": "Steer the snake to glowing orbs and grow longer without hitting the walls or your tail.",
-    "description": "Snake Trail is a clean take on classic snake. Steer with the arrow keys or a swipe, eat the glowing orbs to grow, and avoid running into your own tail. Every orb makes the snake longer and the board tighter, so a good run is about planning your path, not only quick reactions. Two modes change the game: Walls, where touching the edge ends the run, and Wrap, where the snake passes through one side and comes out the other. The game keeps your best score, rounds last a minute or two, and it works on desktop and on a phone.",
-    "instructions": "Use the arrow keys or swipe to turn. Eat orbs to grow and score. Do not hit your own tail, and in Walls mode do not touch the edge. Switch to Wrap mode to go through the walls. Leave yourself an open lane when the snake gets long.",
-    "category": "arcade",
-    "extraCats": [
-      "hypercasual",
-      "mobile"
-    ],
-    "tags": [
-      "Snake",
-      "Arcade",
-      "Classic",
-      "Retro",
-      "Casual",
-      "Skill"
-    ],
-    "embed": "https://snake-trail-chris.surge.sh/",
-    "thumb": "https://ilovewebgames.com/assets/community/snake-trail.jpg?v=1"
-  },
-  {
-    "slug": "jumping-panda",
-    "title": "Jumping Panda",
-    "studio": "Paperclips Studio",
-    "studioUrl": "https://jumpingpanda.io/",
-    "added": "2026-11-11",
-    "short": "Hold to charge, release to jump, and bounce a little panda from platform to platform across a sunny valley.",
-    "description": "Jumping Panda is a one-button jumping game that runs right in your browser. Press and hold to charge a jump, let go to launch the panda, and land on the next platform without falling short or overshooting. A short press makes a small hop and a long hold makes a big leap, so every platform is a small judgement call about distance. The game is split into numbered levels you can pick from a level menu, and the coins you collect can be spent in the shop. Rounds are quick, the controls are a single mouse button or finger, and there is nothing to install and no account to make.",
-    "instructions": "Press and hold the mouse button or your finger to charge the jump, then release to launch. Hold longer for a longer jump and land on the next platform. Pick Play to continue from your current level or Levels to choose one, and spend the coins you collect in the Shop.",
-    "category": "arcade",
-    "extraCats": [
-      "hypercasual",
-      "mobile",
-      "casual"
-    ],
-    "tags": [
-      "Jumping",
-      "Panda",
-      "One Button",
-      "Skill",
-      "Levels",
-      "Casual"
-    ],
-    "embed": "https://jumpingpanda.io/play/",
-    "thumb": "https://ilovewebgames.com/assets/community/jumping-panda.jpg?v=1",
-    "orientation": "any"
-  },
-  {
-    "slug": "zombie-survival-blackout",
-    "title": "Zombie Survival: Blackout",
-    "studio": "Loopiko Games",
-    "studioUrl": "https://playgama.ai/play/kfwir5zlb6dgl7",
-    "added": "2026-11-11",
-    "short": "Survive waves of zombies in a rainy night city: move, let your gun auto-fire, level up and beat the boss that arrives after 60 seconds.",
-    "description": "Zombie Survival: Blackout is a survivor-style action game set in a dark, rainy city. You steer one survivor around an isometric map while the weapon fires on its own, so the whole game is about where you stand: keep moving, stay out of the crowd and collect experience to level up. Each stage has a short countdown to a boss, and coins and XP carry your run forward. Stage 1-1, Residential Blocks, doubles as a tutorial. The game saves an unfinished fight so you can pick it up where you left it, and it plays in the browser with no download.",
-    "instructions": "Move with W A S D or the arrow keys. Your weapon fires automatically at nearby zombies. Keep moving to avoid being surrounded, pick up experience to level up and survive until the boss arrives. Use the pause button to stop the fight at any time.",
-    "category": "action",
-    "extraCats": [
-      "shooting"
-    ],
-    "tags": [
-      "Zombie",
-      "Survival",
-      "Shooter",
-      "Auto-fire",
-      "Action",
-      "Isometric"
-    ],
-    "embed": "https://playgama.ai/play/kfwir5zlb6dgl7",
-    "thumb": "https://ilovewebgames.com/assets/community/zombie-survival-blackout.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "chime-blast",
-    "title": "Chime Blast",
-    "studio": "Chime Blast team",
-    "studioUrl": "https://chimeblast.com/",
-    "added": "2026-11-12",
-    "short": "A musical match-3 adventure: swap pieces, build Bass Drums and Prisms and wake up ten islands across 100 hand-made levels.",
-    "description": "Chime Blast is a match-3 puzzle game with a musical twist. You travel across ten islands of the Melody Isles with Daming the donkey and his friends, and each of the 100 hand-made levels gives you a goal and a limited number of moves. Matching four or five pieces creates musical tools such as Wave Capsules, Prisms and Bass Drums, and swapping two of them together sets off a bigger blast. Along the way you unlock boosters like the Mallet and Tuning Fork, collect medals and fill in the island map. The game runs in the browser on desktop and mobile with no download and no account.",
-    "instructions": "Swap two neighbouring pieces to line up three or more of the same kind. Match four or five to create musical tools, then swap them or combine two tools for a bigger blast. Reach the level goal before you run out of moves. Use boosters from the Tools panel when you get stuck.",
-    "category": "puzzle",
-    "extraCats": [
-      "hypercasual"
-    ],
-    "tags": [
-      "Match 3",
-      "Puzzle",
-      "Music",
-      "Levels",
-      "Casual",
-      "Relaxing"
-    ],
-    "embed": "https://game.chimeblast.com/",
-    "thumb": "https://ilovewebgames.com/assets/community/chime-blast.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "meowdoku",
-    "title": "Meowdoku",
-    "studio": "Jason Wu",
-    "studioUrl": "https://meowdoku.page/",
-    "added": "2026-11-12",
-    "short": "A cat logic puzzle: place one cat in every row, column and color, and never let two cats touch. 300 levels plus a daily puzzle.",
-    "description": "Meowdoku is a logic puzzle played on a grid of colored regions. Your job is to place exactly one cat in every row, every column and every color, with one extra rule: cats may never touch, not even diagonally. There are 300 levels spread over Easy, Hard and Expert, so the grids grow from 7x7 and the deductions get tougher. A new daily puzzle appears every day, and you can use free hints or the built-in solver when you are stuck. It runs in the browser with no download and no account.",
-    "instructions": "Tap a square to place a cat. Put one cat in every row, every column and every color region, and keep cats from touching, even diagonally. Pick Easy, Hard or Expert at the top, or try the daily puzzle. Use a hint if you get stuck.",
-    "category": "puzzle",
-    "extraCats": [
-      "hypercasual"
-    ],
-    "tags": [
-      "Logic",
-      "Puzzle",
-      "Cats",
-      "Brain",
-      "Daily puzzle",
-      "Relaxing"
-    ],
-    "embed": "https://meowdoku.page/",
-    "thumb": "https://ilovewebgames.com/assets/community/meowdoku.jpg?v=1",
-    "orientation": "portrait"
-  },
-  {
-    "slug": "vibestead",
-    "title": "Vibestead",
-    "studio": "Sinan Wong",
-    "studioUrl": "https://vibestead.org/",
-    "added": "2026-11-12",
-    "short": "A cozy pixel-art village builder: run a sawmill and factory, fill customer orders and grow your woodland village.",
-    "description": "Vibestead is a relaxed village-building and management game with detailed pixel art. You start with a small timber operation: hire loggers, keep the sawmill and construction workshop running, send products to customers and use the profits to unlock new buildings such as a brick kiln, a paint workshop and a village inn. Managers, orders and chapter goals give you steady things to aim for, and your team keeps working while you are away. A coding-rewards feature for developers is optional, and the village game works fully without it.",
-    "instructions": "Follow the quest panel on the left. Hire loggers, open the Sawmill and Construction workshop from the bottom bar, fill orders, and spend your cash on new buildings. Use the Machines, Orders, Managers and Woodland tabs to grow your village. Your crew keeps producing while you are away.",
-    "category": "clicker-idle",
-    "extraCats": [
-      "hypercasual"
-    ],
-    "tags": [
-      "Idle",
-      "Tycoon",
-      "City builder",
-      "Pixel art",
-      "Management",
-      "Relaxing"
-    ],
-    "embed": "https://vibestead.org/",
-    "thumb": "https://ilovewebgames.com/assets/community/vibestead.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "history-gacha",
-    "title": "History Gacha",
-    "studio": "Sinan Wong",
-    "studioUrl": "https://historybydate.com/",
-    "added": "2026-11-12",
-    "short": "Open card packs of real historical events, build a collection and team, and send them into battles and expeditions.",
-    "description": "History Gacha turns real historical events into collectible cards. Each pack holds five cards drawn from a library of more than 77,000 events with sources from Wikipedia, and rarity is set by a fixed metric, so a famous disaster or discovery can show up as a top-tier card. Collect cards, put a team together, take part in battles, send them on a long expedition, finish quests and earn trophies. A daily check-in gives you extra packs. It runs in the browser, with no download.",
-    "instructions": "Press Open 1 pack to draw cards, or switch to 5X for several packs. Check your Collection, build a team for Battle, and send cards on an Expedition. Use the daily Check-in and the Quests tab for extra packs.",
-    "category": "hypercasual",
-    "extraCats": [
-      "clicker-idle"
-    ],
-    "tags": [
-      "Gacha",
-      "Cards",
-      "Collection",
-      "History",
-      "Strategy",
-      "Casual"
-    ],
-    "embed": "https://historybydate.com/gacha",
-    "thumb": "https://ilovewebgames.com/assets/community/history-gacha.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "mars-rally-championship",
-    "title": "Mars Rally Championship",
-    "studio": "Mars Rally Championship",
-    "studioUrl": "https://marsrallychampionship.com/",
-    "added": "2026-11-17",
-    "short": "A 3D rally racer on Mars: low-gravity dunes, timed stages with medals, a daily seeded run and live online races for up to eight pilots.",
-    "description": "Mars Rally Championship is a 3D rally game set on the surface of Mars. You drive a six-wheeled rover across low-gravity dunes, basins and ridgelines, with Martian gravity of 3.71 m/s² shaping every jump and landing. A Rally School teaches the controls before you race. Pick a stage and chase medals, try the daily challenge with a new seeded run every day, take on the weekly featured stage, or join an online room with up to eight pilots. There is also a Mars Cup and a free roam mode. It plays with keyboard, gamepad or touch, with no download and no signup.",
-    "instructions": "Hold the Up arrow to drive and use the arrow keys to brake and steer. Space is the handbrake, A and Z shift gears, C changes the camera, R restarts and T returns you to the last gate. P pauses. On mobile, use the touch controls.",
-    "category": "racing",
-    "extraCats": [
-      "3d",
-      "multiplayer"
-    ],
-    "tags": [
-      "Racing",
-      "Rally",
-      "3D",
-      "Driving",
-      "Space",
-      "Multiplayer"
-    ],
-    "embed": "https://marsrallychampionship.com/play?portal=ilovewebgames",
-    "thumb": "https://ilovewebgames.com/assets/community/mars-rally-championship.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "fuzeborn",
-    "title": "Fuzeborn",
-    "studio": "VIncuko",
-    "studioUrl": "https://vincuko.itch.io/fuzeborn",
-    "added": "2026-11-17",
-    "short": "A pixel card game: rip packs, fuse creatures in the Fuze Pit, build a 15-card army and flip against rivals in a campaign.",
-    "description": "Fuzeborn is a pixel-art card game about collecting creatures and taking them to war. Rip open packs to fill your binder with 30 creatures across three types, where Ember beats Leaf, Leaf beats Tide and Tide beats Ember. Drop two cards into the Fuze Pit to discover recipes, or fuse two copies to make one stronger. Then choose an army of 15 cards and battle a rival: you both pick a card at the same time and flip, the higher power takes both, and a tie starts a war for the whole pile. Win and you take spoils from the rival's deck. This free demo holds the full Home Front campaign.",
-    "instructions": "Press Play, open packs and check your Binder. Use the Fuze Pit to combine two cards. Pick 15 cards for your Army, then start a campaign. In battle, choose one of the three cards in your hand; you see the rival's types but not their power.",
-    "category": "hypercasual",
-    "extraCats": [],
-    "tags": [
-      "Cards",
-      "Collection",
-      "Strategy",
-      "Pixel Art",
-      "Casual"
-    ],
-    "embed": "https://html-classic.itch.zone/html/20358319/index.html",
-    "thumb": "https://ilovewebgames.com/assets/community/fuzeborn.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "ashengrid",
-    "title": "ASHENGRID: Realm of Velkyn",
-    "studio": "VelkynForge",
-    "studioUrl": "https://ashengrid.com",
-    "added": "2026-11-18",
-    "short": "A dark-fantasy tactical RPG in the browser: forge a hero, pick a covenant and fight turn-based battles on a grid.",
-    "description": "ASHENGRID: Realm of Velkyn is a free dark-fantasy RPG that runs straight in the browser. You forge a hero by naming them and choosing one of four classes, the Templar, Sorceress, Necromancer or Valkyrie, then swear to one of the covenants that fight over the six primordial Ember-Eggs, each with its own alignment perk. From there you explore an isometric world with rotating biomes, gather materials with professions and step into short turn-based battles on a tactical grid, where you spend action and movement points to cast spells on target tiles. A motion-comic prologue opens the story, and no download is needed.",
-    "instructions": "Click Begin Chronicle, name your hero, pick a class and a covenant, then press Forge Hero & Begin Story. Use the mouse to move and interact. In combat, click a spell and then a target tile; spend your AP and MP wisely each turn.",
-    "category": "adventure",
-    "extraCats": [
-      "multiplayer"
-    ],
-    "tags": [
-      "RPG",
-      "Turn-Based",
-      "Tactics",
-      "Fantasy",
-      "MMO"
-    ],
-    "embed": "https://ashengrid.com",
-    "thumb": "https://ilovewebgames.com/assets/community/ashengrid.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "swishes-io",
-    "title": "Swishes.io",
-    "studio": "Rocky JiaS",
-    "studioUrl": "https://www.swishes.io",
-    "added": "2026-11-18",
-    "short": "3D pickup basketball in your browser: play 1v1, 3v3 or full-court 5v5, or take on a real opponent online.",
-    "description": "Swishes.io is a 3D pickup basketball game that runs in your browser with no download. Choose a half-court one-on-one game to 11, run with a crew in 3v3 to 21, or play the full squad in full-court 5v5. You control one player while teammates and rivals move around you, and a deep control set lets you sprint, pump fake, dribble through crossovers, pass, throw alley-oops and set picks. A player builder lets you shape your own baller from presets like Sharpshooter or Playmaker, there is a shootaround to practise your jumper, and an online mode puts you against real players.",
-    "instructions": "WASD to move, Shift to sprint. Hold Space to shoot (a short press is a pump fake). I, J, K and L do dribble moves, F passes, G throws an alley-oop and V sets a pick. H shows all controls, Esc pauses.",
-    "category": "sports",
-    "extraCats": [
-      "multiplayer"
-    ],
-    "tags": [
-      "Basketball",
-      "3D",
-      "Sports",
-      "Multiplayer"
-    ],
-    "embed": "https://www.swishes.io",
-    "thumb": "https://ilovewebgames.com/assets/community/swishes-io.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "free-nassau",
-    "title": "Free Nassau",
-    "studio": "Ren",
-    "studioUrl": "https://piratedeck.org",
-    "added": "2026-11-19",
-    "short": "A pirate roguelike deck-builder set in 1717: fight ship to ship, then board your prize with a second deck.",
-    "description": "Free Nassau is a roguelike deck-builder set in the Golden Age of piracy, in 1717. You pick a real historical captain and sail across a chart of battles and ports, choosing your route node by node across three acts that end with Benjamin Hornigold. Each fight starts ship to ship with your Ship deck, firing broadsides and swivel guns, tacking hard and crowding sail while watching the enemy's next move. Once her hull is down to half, you can board and switch to a separate Boarding deck for the close fight. Cards cost energy, the interface is styled after period engravings, and a practice battle teaches the basics.",
-    "instructions": "Use the mouse, or tap on a phone. On the chart, pick your next destination. In a fight, tap a card to read it, press Play to use it, then press End Turn. Cards cost energy. Fight ship to ship first; when the enemy hull is at half or less, you can board and switch to the Boarding deck.",
-    "category": "adventure",
-    "extraCats": [],
-    "tags": [
-      "Card",
-      "Deck Builder",
-      "Roguelike",
-      "Strategy",
-      "Pirate",
-      "Turn-Based"
-    ],
-    "embed": "https://piratedeck.org/play",
-    "thumb": "https://piratedeck.org/img/og-title.jpg",
-    "orientation": "landscape",
-    "studioRating": {
-      "gameplay": 8,
-      "controls": 8,
-      "visuals": 8,
-      "note": "Two-deck naval-then-boarding combat gives real tactical choices, and the engraving style looks great; the practice fight explains it well."
-    }
-  },
-  {
-    "slug": "snowball-fight",
-    "title": "Snowball Fight",
-    "studio": "Swiftmade OÜ",
-    "studioUrl": "https://swiftmade.co",
-    "added": "2026-11-19",
-    "short": "Real-time 3v3 winter brawl: push the lane, topple two towers, then the enemy Snow Fort.",
-    "description": "Snowball Fight is a real-time 3v3 team brawl set in the snow. You and your crew push down the lane, topple two towers and then break the enemy Snow Fort, all inside an eight-minute match. Bots fill any empty slots, so a game can start right away, with no download and no account needed.",
-    "instructions": "Best on a desktop browser with a window of at least 1200x650 pixels. Follow the on-screen prompts to join a match.",
-    "category": "action",
-    "extraCats": [
-      "multiplayer"
-    ],
-    "tags": [
-      "Multiplayer",
-      "3v3",
-      "Team",
-      "Winter",
-      "Snowball"
-    ],
-    "embed": "https://snowballfight.io",
-    "thumb": "https://ilovewebgames.com/assets/community/snowball-fight.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "yeet-guys",
-    "title": "Yeet Guys",
-    "studio": "Dr. Yeet Games",
-    "studioUrl": "https://dryeet.com",
-    "added": "2026-11-19",
-    "short": "Party obstacle-course races for bouncy beans: run official courses, host a party with friends or try community levels.",
-    "description": "Yeet Guys is a 3D party game where chunky beans race through big obstacle courses with little legs. Play the official carnival playlist, host a party and invite friends with a code, join public lobbies or try levels made by the community. Customise your bean in the wardrobe and climb the stats. The game is in beta.",
-    "instructions": "Choose Let's Fall to start an official course, or Host a Party and share the code with friends. Controls are shown in the game.",
-    "category": "action",
-    "extraCats": [
-      "multiplayer",
-      "3d"
-    ],
-    "tags": [
-      "Multiplayer",
-      "3D",
-      "Party",
-      "Obstacle Course",
-      "Beta"
-    ],
-    "embed": "https://dryeet.com/bean-carnival/",
-    "thumb": "https://ilovewebgames.com/assets/community/yeet-guys.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "banana-ops",
-    "title": "Banana Ops",
-    "studio": "Dr. Yeet Games",
-    "studioUrl": "https://dryeet.com",
-    "added": "2026-11-19",
-    "short": "Online monkey shooter with team deathmatch, hardpoint, search and destroy and 1v1 duels on 11 maps.",
-    "description": "Banana Ops is a free online monkey shooter that runs in your browser. Play team deathmatch, hardpoint, search and destroy or 1v1 duels on 11 maps, earn killstreaks all the way up to the Banana Gunship, and rely on bots that fill every match. No download and no sign-up.",
-    "instructions": "Controls are shown in the game menu. Pick a mode and a map, then jump into a match.",
-    "category": "action",
-    "extraCats": [
-      "shooting",
-      "multiplayer"
-    ],
-    "tags": [
-      "Shooter",
-      "Multiplayer",
-      "FPS",
-      "Monkey",
-      "Bots"
-    ],
-    "embed": "https://banana-ops-7q3x.staffcal.workers.dev/",
-    "thumb": "https://ilovewebgames.com/assets/community/banana-ops.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "city-stakes",
-    "title": "City Stakes",
-    "studio": "Aier Labs",
-    "studioUrl": "https://www.citystakes.com",
-    "added": "2026-11-19",
-    "short": "A 3D story game set in the city of Ilmara, where companies compete for the skyline and brands for every screen.",
-    "description": "City Stakes is a narrative 3D game set in Ilmara, a city that is up for sale. Companies compete for the skyline while brands compete for every screen in it. The game loads straight in your browser and runs best on a desktop.",
-    "instructions": "Use the mouse or touch to follow the story prompts on screen.",
-    "category": "adventure",
-    "extraCats": [
-      "3d"
-    ],
-    "tags": [
-      "Story",
-      "3D",
-      "Adventure",
-      "City"
-    ],
-    "embed": "https://www.citystakes.com/play?city=bengaluru",
-    "thumb": "https://ilovewebgames.com/assets/community/city-stakes.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "lantern-links",
-    "title": "Lantern Links",
-    "studio": "Shahriar Saeik (Swapnil), WebGame.fun",
-    "studioUrl": "https://webgame.fun",
-    "added": "2026-11-19",
-    "short": "Turn pipe tiles to carry light from the core to every lantern in an original puzzle with endless levels.",
-    "description": "Lantern Links is an original pipe puzzle by WebGame.fun. Rotate tiles to carry light from the core to every lantern on the board. The levels are endless and get harder as you go, so it works for a quick break or a longer session.",
-    "instructions": "Click or tap a tile to rotate it. Connect the light from the core to every lantern.",
-    "category": "puzzle",
-    "extraCats": [
-      "casual",
-      "mobile"
-    ],
-    "tags": [
-      "Puzzle",
-      "Casual",
-      "Logic",
-      "Endless"
-    ],
-    "embed": "https://webgame.fun/game/lantern-links",
-    "thumb": "https://ilovewebgames.com/assets/community/lantern-links.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "crypt-crawlers",
-    "title": "Crypt Crawlers",
-    "studio": "Crypt Crawlers",
-    "studioUrl": "https://cryptcrawlers.surge.sh",
-    "added": "2026-11-19",
-    "short": "Idle dungeon crawler: pick a hero, fight waves automatically and spend your gold on upgrades.",
-    "description": "Crypt Crawlers is an idle dungeon crawler in pixel art. Choose a hero such as Bram the Knight, level up through ranks, spin for rewards, collect daily bonuses and push for your best wave record. Your hero attacks automatically, and you cast skills and steer to survive.",
-    "instructions": "Move with your left thumb or the keys shown in the game. Attacks are automatic. Tap skills to cast them.",
-    "category": "clicker-idle",
-    "extraCats": [
-      "mobile"
-    ],
-    "tags": [
-      "Idle",
-      "Dungeon",
-      "Pixel Art",
-      "RPG",
-      "Roguelike"
-    ],
-    "embed": "https://cryptcrawlers.surge.sh",
-    "thumb": "https://ilovewebgames.com/assets/community/crypt-crawlers.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "vice-arcade",
-    "title": "Vice Arcade",
-    "studio": "River",
-    "studioUrl": "https://gta6minigames.com",
-    "added": "2026-11-19",
-    "short": "Fan-made neon arcade: survive 60 seconds of the Heat Run, swap drivers, grab cash and shake the cruisers.",
-    "description": "Vice Arcade is a fan-made browser arcade with a neon street-chase mini game. In the Vice City Heat Run you drive a street grid for sixty seconds, switch between two drivers, collect cash cases and escape a rising wanted level. The arcade also has highway and airboat drift games, a map guessing game and puzzle cabinets. It is an unofficial fan project and not affiliated with any game publisher.",
-    "instructions": "Arrow keys to drive, gas, brake and drift. R restarts, C swaps the driver, M mutes, F goes fullscreen. Touch controls appear on phones.",
-    "category": "arcade",
-    "extraCats": [
-      "racing",
-      "3d"
-    ],
-    "tags": [
-      "Arcade",
-      "Driving",
-      "Fan-made",
-      "Neon",
-      "Action"
-    ],
-    "embed": "https://gta6minigames.com/",
-    "thumb": "https://ilovewebgames.com/assets/community/vice-arcade.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "beat-the-chefs",
-    "title": "Beat The Chefs",
-    "studio": "Visybl Inc (a9n9)",
-    "studioUrl": "https://beatthechefs.com/?s=ilovewebgames",
-    "added": "2026-11-20",
-    "short": "Cook one dish against the clock in a single pan, then three judges score your plate against the house chef's.",
-    "description": "Beat The Chefs is a free browser cooking game built around one stove and a six-minute clock. Pick a signature dish, move ingredients to the board and pan, chop, control the heat, stir and season, then plate before time runs out. Three judges score your plate out of 100 and compare it with the house chef, who cooks the same dish on the same clock. New dishes arrive every day, and you can share your plate as a dare so a friend cooks the same dish against you.",
-    "instructions": "Move ingredients to the board and pan, hold to chop, set the burner heat, stir and taste, then plate once plating opens in the last minute. Three judges score your dish against the house chef's.",
-    "category": "cooking",
-    "extraCats": [
-      "mobile"
-    ],
-    "tags": [
-      "Cooking",
-      "Simulation",
-      "Timer",
-      "Casual"
-    ],
-    "embed": "https://beatthechefs.com/?s=ilovewebgames",
-    "thumb": "https://beatthechefs.com/art/card-home.jpg"
-  },
-  {
-    "slug": "overdrive-wave-assault",
-    "title": "OVERDRIVE: Wave Assault",
-    "studio": "Mindblown",
-    "studioUrl": "https://mindblown.ai/",
-    "added": "2026-11-20",
-    "short": "Third-person sci-fi shooter: gun down waves of enemies and take on a massive boss in a neon arena.",
-    "description": "OVERDRIVE: Wave Assault is a 3D third-person shooter played entirely in the browser. You fight through escalating waves of robotic enemies in a glowing sci-fi arena, managing ammo and movement until a colossal boss fight brings the round to a climax. The game features smooth 3D graphics and fast gunplay with no downloads required.",
-    "instructions": "WASD or arrow keys to move, mouse to aim and shoot. Dodge incoming fire and clear each wave before taking on the boss. Check the in-game HUD for ammo count and health.",
-    "category": "shooter",
-    "extraCats": [
-      "3d",
-      "action"
-    ],
-    "tags": [
-      "Shooter",
-      "3D",
-      "Sci-Fi",
-      "Wave Survival",
-      "Action"
-    ],
-    "embed": "https://overdrive-wave-assault.mindblown.ai/",
-    "thumb": "https://overdrive-wave-assault.mindblown.ai/thumb.webp",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "boardclash",
-    "title": "BoardClash",
-    "studio": "BoardClash",
-    "studioUrl": "https://boardclash.com/",
-    "added": "2026-11-20",
-    "short": "Classic two-player board strategy: deploy your pieces, outmaneuver your opponent and capture their flag.",
-    "description": "BoardClash is a free browser-based board strategy game inspired by the classic army-on-a-grid genre. Two players deploy pieces of varying rank on a 10×10 board, then take turns moving and attacking in an attempt to capture the opponent's flag. Pieces are hidden from the enemy until combat reveals them, adding a layer of bluffing and memory to every match. Play solo against an AI opponent or challenge a friend in pass-and-play mode. BoardClash is an independent fan project; Stratego is a trademark of Royal Jumbo B.V. and BoardClash is not affiliated with or endorsed by Royal Jumbo B.V.",
-    "instructions": "Drag pieces to place them during setup. On your turn, click a piece then click a destination to move or attack. The game reveals piece ranks when two pieces clash. Capture the enemy flag to win.",
-    "category": "board-games",
-    "extraCats": [
-      "strategy",
-      "multiplayer"
-    ],
-    "tags": [
-      "Strategy",
-      "Board Game",
-      "2 Player",
-      "Classic",
-      "Turn-Based"
-    ],
-    "embed": "https://boardclash.com/",
-    "thumb": "https://boardclash.com/og-boardclash.png",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "legend-court",
-    "title": "Legend Court",
-    "studio": "Legend Court",
-    "studioUrl": "https://legendcourt.com/",
-    "added": "2026-11-21",
-    "short": "Street basketball card game: 1 vs 1 and 3 vs 3 matches, collect player packs and build your team.",
-    "description": "Legend Court is a free browser basketball game. Play quick 1 vs 1 and 3 vs 3 matches, open player card packs, build your team and work your way through a story mode set on the neighborhood courts.",
-    "instructions": "Press PLAY to start a match. Use the on-screen controls to pass, shoot and defend. Open packs and build your roster between matches.",
-    "category": "sports",
-    "extraCats": [
-      "multiplayer",
-      "action"
-    ],
-    "tags": [
-      "Basketball",
-      "Sports",
-      "Card Game",
-      "Team Builder"
-    ],
-    "embed": "https://legendcourt.com/",
-    "thumb": "https://ilovewebgames.com/assets/community/legend-court.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "splinters",
-    "title": "Splinters",
-    "studio": "Splinters",
-    "studioUrl": "",
-    "added": "2026-11-21",
-    "short": "Tap the tree, earn coins per chop, and buy upgrades to keep the lumber flowing on its own.",
-    "description": "Splinters is a free browser idle/clicker game: tap the tree to earn coins, then spend them on an axe for more per chop, lumberjacks who chop for you automatically, and a sawmill that doubles their output. Switch between Birch, Oak and Sakura trees as you unlock them. Progress saves in your browser, no account needed.",
-    "instructions": "Click or tap the tree to chop it for coins. Spend coins on the Axe, Lumberjack and Sawmill upgrades below to earn faster, even while away.",
-    "category": "clicker-idle",
-    "extraCats": [
-      "casual"
-    ],
-    "tags": [
-      "Clicker",
-      "Idle",
-      "Casual"
-    ],
-    "embed": "https://splinters-naitie.surge.sh/",
-    "thumb": "https://ilovewebgames.com/assets/community/splinters.jpg?v=1",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "monkey-business",
-    "title": "Monkey Business",
-    "studio": "Critical Bananas",
-    "studioUrl": "https://criticalbananas.com/",
-    "added": "2026-11-21",
-    "short": "Free daily browser runner: you're a banana, a monkey is chasing you, and a run takes under a minute.",
-    "description": "Monkey Business is a free browser runner: dodge and dash as a banana being chased down by a monkey. Get 3 ranked runs a day with a free account for the daily leaderboard, or play unlimited practice runs with no sign-up. Works on phone and desktop.",
-    "instructions": "Press PLAY RANKED for a scored daily run, or PRACTICE to play with no limit. Use the on-screen or keyboard controls to dodge obstacles and survive as long as you can.",
-    "category": "action",
-    "extraCats": [
-      "casual",
-      "hypercasual"
-    ],
-    "tags": [
-      "Runner",
-      "Arcade",
-      "Daily Challenge"
-    ],
-    "embed": "https://criticalbananas.com/play",
-    "thumb": "https://criticalbananas.com/og/play",
-    "orientation": "landscape"
-  },
-  {
-    "slug": "ghost-run",
-    "title": "Ghost Run",
-    "studio": "ColacStudio",
-    "studioUrl": "https://playgama.ai/play/pirgxguhlwgq7o",
-    "added": "2026-11-23",
-    "short": "One-tap flight through hundreds of levels while the ghost of your own best run races beside you.",
-    "description": "Ghost Run is a free one-tap flying game where your toughest rival is yourself. A small ghost flaps between pillars, collects coins and heads for the finish line, and your best attempt flies alongside you in gold. Levels are grouped into worlds such as Dawn Fields, Coral Sky, Neon Dunes and Storm Ridge, fifty levels at a time. Every few levels a race against your golden ghost decides the crown, and boss levels break up the run. Stars earned on each level add up to a long-term total, so there is always a better time to chase. It runs in the browser on desktop and phone with no download.",
-    "instructions": "Tap, click or press Space to flap. Fly through the gaps between the pillars, grab the coins and reach the finish. On race levels, beat your golden ghost to take the crown.",
-    "category": "arcade",
-    "extraCats": [
-      "hypercasual",
-      "mobile"
-    ],
-    "tags": [
-      "One Tap",
-      "Flappy",
-      "Ghost",
-      "Levels",
-      "Arcade",
-      "Casual"
-    ],
-    "embed": "https://sb-pirgxguhlwgq7o.games.playgama.net/cmws5bi2c4fvsmm0h0txslbyc/__patch__/cmws5cv3o5cuajx0i92hf8d9b/index.html",
-    "thumb": "https://ilovewebgames.com/assets/community/ghost-run.jpg?v=1",
-    "orientation": "any",
-    "studioRating": {
-      "gameplay": 6,
-      "controls": 8,
-      "visuals": 7,
-      "note": "Clean one-tap flying with a smart ghost-race twist; the core loop is simple but the level map gives it a long tail."
-    }
-  },
-  {
-    "slug": "santas-rooftop-rush",
-    "title": "Santa's Rooftop Rush",
-    "studio": "ColacStudio",
-    "studioUrl": "https://playgama.ai/play/kv46qbajikt7yo",
-    "added": "2026-11-23",
-    "short": "Run Santa across snowy rooftops, double-jump the gaps and drop a present down every chimney.",
-    "description": "Santa's Rooftop Rush is a free Christmas runner. Santa runs on his own across the rooftops of Snowy Village, and your only job is timing: tap to jump, tap again in mid-air to double-jump. Presents drop down the chimneys by themselves as you pass, while bumping into snowmen and other obstacles costs you a spare present. Each level asks you to visit a set number of houses and hides three lost elves to rescue, and the elves unlock new hats. The level map climbs through several worlds with boss fights and Sleigh Ride levels, plus a Workshop and an Endless mode that opens later.",
-    "instructions": "Tap or click anywhere to jump, and tap again in the air to double-jump. Presents go down the chimneys automatically. Avoid obstacles, rescue the three hidden elves in each level and reach the finish. In Sleigh Ride levels, drag up and down to fly.",
-    "category": "arcade",
-    "extraCats": [
-      "adventure",
-      "mobile"
-    ],
-    "tags": [
-      "Christmas",
-      "Santa",
-      "Runner",
-      "Platformer",
-      "One Tap",
-      "Winter"
-    ],
-    "embed": "https://sb-kv46qbajikt7yo.games.playgama.net/cmwqsyjjx2vctjx0i65s8yqkb/__patch__/cmwqt0doy2cfrmm0haev3nx3s/index.html",
-    "thumb": "https://ilovewebgames.com/assets/community/santas-rooftop-rush.jpg?v=1",
-    "orientation": "any",
-    "studioRating": {
-      "gameplay": 6,
-      "controls": 8,
-      "visuals": 8,
-      "note": "Charming festive runner with clear level goals and hidden elves to hunt; easy to pick up, timing-based depth."
-    }
-  },
-  {
-    "slug": "planet-pounce",
-    "title": "Planet Pounce",
-    "studio": "ColacStudio",
-    "studioUrl": "https://gamejolt.com/games/planet-pounce/1121200",
-    "added": "2026-11-23",
-    "short": "Leap a tiny astronaut cat from one spinning planet to the next with perfectly timed taps.",
-    "description": "Planet Pounce is a free one-button space game starring an astronaut cat. Each planet spins, and the cat leaps in whatever direction it is facing when you tap, so the whole game is timing. Land on the next planet to keep climbing toward the finish; miss and you drift off into space. Every level has three star goals, such as finishing, collecting every space fish and beating a par time, and quick hops in a row build combos. Levels start in Zone 1, Milk Way, and run across five zones, with spike planets later on, an Endless mode and six unlockable suits.",
-    "instructions": "Tap, click or press Space to pounce. Time your jump so the cat leaves the planet facing the next one. Collect the space fish, finish under the par time for three stars and chain quick hops for combo points.",
-    "category": "arcade",
-    "extraCats": [
-      "hypercasual",
-      "mobile"
-    ],
-    "tags": [
-      "One Tap",
-      "Space",
-      "Cat",
-      "Timing",
-      "Levels",
-      "Casual"
-    ],
-    "embed": "https://sb-yepobijo2insek.games.playgama.net/cmwr55jhx2tl5mm0hxd3r7n6n/__patch__/cmwr5dhi13fn5jx0iuycyxi5j/index.html",
-    "thumb": "https://ilovewebgames.com/assets/community/planet-pounce.jpg?v=1",
-    "orientation": "any",
-    "studioRating": {
-      "gameplay": 7,
-      "controls": 8,
-      "visuals": 8,
-      "note": "The spinning-planet timing feels good from the first jump, and the three star goals per level give replay value."
-    }
-  },
-  {
-    "slug": "formfieber",
-    "title": "FormFieber",
-    "studio": "FormFieber",
-    "studioUrl": "https://formfieber.com/en/",
-    "added": "2026-11-23",
-    "short": "A 3D party game: build a secret word out of cubes, spheres, cylinders and cones while friends guess.",
-    "description": "FormFieber is a free 3D party game for 2 to 12 players. One player picks a secret word and builds it from simple shapes, cubes, spheres, cylinders and cones, which can be moved, rotated, scaled and coloured. Everyone else guesses in the chat and scores points for being quick. Besides Build and Guess there is Build Battle, where everyone models the same word and rates the others, and 3D Telephone, where builds and descriptions pass along a chain. Private rooms work with a room code, Quick Play finds a public room, and a solo Practice workbench with no timer lets you learn the tools first.",
-    "instructions": "This game is best with friends: enter a name, press Create Room and share the room code, or use Quick Play to join a public room. When you build, drag to orbit the camera and add shapes from the left panel. When others build, type your guesses in the chat. Practice lets you try the 3D workbench alone.",
-    "category": "multiplayer",
-    "extraCats": [
-      "3d",
-      "two-player"
-    ],
-    "tags": [
-      "Party",
-      "Multiplayer",
-      "3D",
-      "Drawing",
-      "Guessing",
-      "Friends"
-    ],
-    "embed": "https://formfieber.com/en/",
-    "thumb": "https://ilovewebgames.com/assets/community/formfieber.jpg?v=1",
-    "orientation": "landscape",
-    "studioRating": {
-      "gameplay": 7,
-      "controls": 7,
-      "visuals": 8,
-      "note": "Fresh twist on draw-and-guess with a real 3D workbench; needs friends in a room to shine."
-    }
-  },
-  {
-    "slug": "fix-my-watch",
-    "title": "Fix My Watch!",
-    "studio": "pingulovegames",
-    "studioUrl": "https://pingulovegames.com/",
-    "added": "2026-11-25",
-    "short": "A cozy watch repair bench: take broken watches apart, find the bad parts and make them tick again.",
-    "description": "Fix My Watch! puts you behind a watchmaker's bench. Customers bring in broken watches, from a cheap resin digital to finer pieces, each with a short story and a target time to set. Every job runs in five steps: take the watch apart, inspect the parts and tap every cracked, rusted or bent one to replace it, clean the inside, rebuild it in the right order and give it a final polish. The parts tray lays out strap, buttons, glass, LCD, battery, circuit and case, so you can see exactly what you removed. Coins from finished repairs go into the Workshop, and harder watches come later.",
-    "instructions": "Tap the watch to take it apart piece by piece. In the inspection step, tap every broken part in the tray to replace it, then press Inspection done. Clean, rebuild and polish to finish the job. The light bulb gives a hint; the clock shows how long the repair took.",
-    "category": "puzzle",
-    "extraCats": [
-      "kids",
-      "mobile"
-    ],
-    "tags": [
-      "Repair",
-      "Simulation",
-      "Puzzle",
-      "Cozy",
-      "Watches",
-      "Family"
-    ],
-    "embed": "https://pingulovegames.com/games/fix-my-watch/play",
-    "thumb": "https://ilovewebgames.com/assets/community/fix-my-watch.jpg?v=1",
-    "orientation": "landscape",
-    "studioRating": {
-      "gameplay": 7,
-      "controls": 8,
-      "visuals": 8,
-      "note": "Original, calm repair loop with a clear five-step job; pleasant and tactile, best for short relaxed sessions."
-    }
-  },
-  {
-    "slug": "scrap-core",
-    "title": "SCRAP CORE Demo",
-    "studio": "6 Finger Games",
-    "studioUrl": "https://6fingergames.com/games/scrap-core/",
-    "added": "2026-11-25",
-    "short": "A scrap robot battles ink monsters on a notebook page: survive the waves and rebuild the transmitter.",
-    "description": "SCRAP CORE is an arena survival shooter drawn like a doodle on squared notebook paper. Your ship crashes on a hostile planet and a small scrap robot has to survive wave after wave of ink monsters until a rescue ship can be called. You move, aim and fire yourself, pick up crystals to level up, merge hand-drawn weapons into stronger ones and collect the scattered parts of the transmitter. A health bar, level bar and wave timer sit on torn paper scraps at the top of the screen. This free demo covers the first twelve waves and is made for PC with keyboard and mouse.",
-    "instructions": "Move with WASD or the arrow keys, aim with the mouse and hold the left mouse button or Space to shoot. When the creature Xenom grabs you, spin the mouse around your robot (or press the arrow keys in a circle) to throw it off. Survive 12 waves until the rescue ship arrives.",
-    "category": "shooting",
-    "extraCats": [
-      "action"
-    ],
-    "tags": [
-      "Shooter",
-      "Arena",
-      "Survival",
-      "Robots",
-      "Waves",
-      "Hand-drawn"
-    ],
-    "embed": "https://6fingergames.com/portals/ilovewebgames/scrap-core-demo/",
-    "thumb": "https://ilovewebgames.com/assets/community/scrap-core.jpg?v=2",
-    "orientation": "landscape",
-    "studioRating": {
-      "gameplay": 8,
-      "controls": 7,
-      "visuals": 9,
-      "note": "Striking notebook-doodle art and a proper wave shooter loop with weapon merging; desktop only."
-    }
-  },
-  {
-    "slug": "toy-truck-rescue",
-    "title": "Toy Truck Rescue",
-    "studio": "PixelForge Studio",
-    "studioUrl": "https://tranducthanh0802.itch.io/toy-truck-rescue",
-    "added": "2026-11-25",
-    "short": "Drive a brave toy truck through a giant house to rescue your toy friends from a runaway robot vacuum.",
-    "description": "Toy Truck Rescue is a 3D driving adventure seen from the size of a toy. You steer Ti, a little blue truck, through a giant bedroom, a living room and a sunny backyard to rescue toy friends a runaway robot vacuum has taken. An arrow guides you to each friend, you carry them back to the Toy Box, and a noise meter at the top shows whether the house is still asleep. Along the way you sneak past a pouncing cat and a lawn mower, collect coins on ramps and tracks, then outrun Fetch Bot in a night chase before a final arena battle.",
-    "instructions": "W or Up to drive, S or Down to reverse, A/D or Left/Right to steer. R gets you unstuck, P pauses, M mutes. On touch screens drag the on-screen stick. Drive close to a toy friend to pick it up, then follow the arrow back to the Toy Box. Hide under furniture when the monster comes.",
-    "category": "racing",
-    "extraCats": [
-      "3d",
-      "adventure",
-      "kids"
-    ],
-    "tags": [
-      "Driving",
-      "3D",
-      "Adventure",
-      "Toys",
-      "Rescue",
-      "Family"
-    ],
-    "embed": "https://sb-ucmfgs2vsatkca.games.playgama.net/cmwtcmzlk0k1zkc0hw1whhzkg/__patch__/cmwtcp1t80k6ekc0h6oli7stt/index.html",
-    "thumb": "https://ilovewebgames.com/assets/community/toy-truck-rescue.jpg?v=1",
-    "orientation": "landscape",
-    "studioRating": {
-      "gameplay": 7,
-      "controls": 7,
-      "visuals": 8,
-      "note": "Charming toy-scale 3D world with a clear rescue goal; the stealth meter adds a bit of tension."
-    }
-  },
-  {
-    "slug": "pho-street-tycoon-3d",
-    "title": "Pho Street Tycoon 3D",
-    "studio": "PixelForge Studio",
-    "studioUrl": "https://playgama.ai/play/l6lt6kfhkqesrn",
-    "added": "2026-11-25",
-    "short": "Reopen Grandpa's pho cart in Ha Noi, cook and serve bowls, hire staff and grow into a two-floor restaurant.",
-    "description": "Pho Street Tycoon 3D is a cozy restaurant tycoon with a story. A short cutscene sets it up in Ha Noi, and you reopen your grandfather's pho cart. Each bowl is built by walking between stations: the noodle basket, the meat board and the broth pot, then carrying it to the guest who ordered before their patience runs out. Cash pays for upgrades on floor pads and for staff who cook and serve for you. A street map shows the three chapters, from the street cart to the small shop and the two-floor restaurant, ending in a pho showdown with a rival shop. There is a wardrobe with eight cooks.",
-    "instructions": "Walk with WASD or the arrow keys, or drag on the screen. Stand at the noodle basket, then the meat board, then the broth pot to make a bowl, and walk it to the guest who ordered it. Pick up the cash, stand on a pad to buy upgrades and hire staff. Reach each chapter goal, then win the final pho showdown.",
-    "category": "cooking",
-    "extraCats": [
-      "3d",
-      "clicker-idle"
-    ],
-    "tags": [
-      "Tycoon",
-      "Cooking",
-      "Restaurant",
-      "Management",
-      "3D",
-      "Story"
-    ],
-    "embed": "https://sb-l6lt6kfhkqesrn.games.playgama.net/cmwejntph0i7clz0h28e0u71d/__patch__/cmwu5ygke2ai4ke0htgnvuwd6/index.html",
-    "thumb": "https://ilovewebgames.com/assets/community/pho-street-tycoon-3d.jpg?v=1",
-    "orientation": "landscape",
-    "studioRating": {
-      "gameplay": 7,
-      "controls": 7,
-      "visuals": 7,
-      "note": "A tycoon with an actual story and chapters; the walk-to-station cooking loop is simple but satisfying."
-    }
-  },
-  {
-    "slug": "lost-horizons",
-    "title": "Lost Horizons",
-    "studio": "Kubzo (zorbasam)",
-    "studioUrl": "https://kubzo.com",
-    "added": "2026-11-26",
-    "short": "A cosy 3D multiplayer island: vote on quick minigames, race up Treasure Mountain and level up with other players.",
-    "description": "Lost Horizons is a cosy multiplayer island you join straight from the browser as a guest. Players gather in the Plaza, vote on the next minigame and play rounds that last about a minute or a minute and a half. Every ten minutes a treasure race starts up the mountain, a travelling trader turns up each day, and an old sage named Ondo hints at the island's mysteries. You pick a name, customise a little character and level up as you play, with progress saved if you sign in. The island shows how many islanders are online and has its own server picker, so you can join the closest region.",
-    "instructions": "Press PLAY to join as a guest. Move with WASD or the arrow keys (touch controls on phones). Walk into the Plaza to vote for the next minigame, join the treasure race when it is announced and talk to characters to start quests. Sign in only if you want to keep your progress. Note: the island has an open chat with other players.",
-    "category": "multiplayer",
-    "extraCats": [
-      "3d",
-      "adventure"
-    ],
-    "tags": [
-      "Multiplayer",
-      "Party",
-      "Minigames",
-      "3D",
-      "Island",
-      "Online"
-    ],
-    "embed": "https://kubzo.com",
-    "thumb": "https://ilovewebgames.com/assets/community/lost-horizons.jpg?v=1",
-    "orientation": "landscape",
-    "studioRating": {
-      "gameplay": 8,
-      "controls": 7,
-      "visuals": 8,
-      "note": "Polished, lively 3D party island with real events; fun depends on how many players are online."
-    }
-  },
-  {
-    "slug": "penguin-iceberg-empire",
-    "title": "Penguin Iceberg Empire",
-    "studio": "pingulovegames",
-    "studioUrl": "https://pingulovegames.com",
-    "added": "2026-11-26",
-    "short": "Tap the penguin to catch fish, hire fishing penguins and grow a tiny ice floe into a floating penguin city.",
-    "description": "Penguin Iceberg Empire is a cosy idle builder that starts with one penguin on a tiny ice floe. Tapping the big penguin catches fish, and fish pay for buildings that keep fishing on their own, starting with a Fishing Penguin and then an Ice Fishing Hole, while further buildings stay hidden until you unlock them. An Upgrades tab opens once your first fishers are working, golden fish and whales swimming past give surprise bonuses, and later you can dive for relics and rebirth for permanent power. Progress saves automatically, and your buildings keep earning while you are away.",
-    "instructions": "Click or tap the big penguin to catch fish. Open Build to buy Fishing Penguins and other buildings (x1, x10 or Max), then check Upgrades to boost them. Tap golden fish and whales for bonuses. Later use Dive for relics and Rebirth for permanent bonuses.",
-    "category": "clicker-idle",
-    "extraCats": [
-      "kids",
-      "mobile"
-    ],
-    "tags": [
-      "Idle",
-      "Clicker",
-      "Tycoon",
-      "Penguins",
-      "Cozy",
-      "Builder"
-    ],
-    "embed": "https://pingulovegames.com/games/penguin-iceberg-empire/play",
-    "thumb": "https://ilovewebgames.com/assets/community/penguin-iceberg-empire.jpg?v=1",
-    "orientation": "portrait",
-    "studioRating": {
-      "gameplay": 6,
-      "controls": 8,
-      "visuals": 8,
-      "note": "Clean, cute idle loop with a fast first unlock; depth comes later through relics and rebirth."
-    }
-  },
-  {
-    "slug": "mexican-train-online",
-    "title": "Mexican Train Online",
-    "studio": "Chetan Kumar",
-    "studioUrl": "https://mexicantraindominogame.com/",
-    "added": "2026-11-26",
-    "short": "Classic Mexican Train dominoes against three computer players, or pass-and-play with friends on one device.",
-    "description": "Mexican Train Online brings the classic dominoes game to the browser. A round opens from a double engine in the middle, here the 12|12, and every player builds a personal train from it while a shared Mexican Train stays open to everyone. You play against computer opponents named Rusty, Tess and Dilly on easy, medium or hard, or pass the device around for two to four people. Your hand shows the pip count, a hint button lights up playable tiles, and you can undo, sort your hand and play full screen. Double-6, double-9, double-12 and larger sets are supported.",
-    "instructions": "Tap a glowing domino in your hand, then tap the end of a train to play it: your own train, the shared Mexican Train, or another player's train once it is open. If you cannot play, draw from the boneyard. Empty your hand first; the lowest pip total after all rounds wins. Use the bulb for hints.",
-    "category": "puzzle",
-    "extraCats": [
-      "two-player",
-      "mobile"
-    ],
-    "tags": [
-      "Dominoes",
-      "Board Game",
-      "Classic",
-      "Strategy",
-      "Pass and Play",
-      "vs Computer"
-    ],
-    "embed": "https://mexicantraindominogame.com/",
-    "thumb": "https://ilovewebgames.com/assets/community/mexican-train-online.jpg?v=1",
-    "orientation": "landscape",
-    "studioRating": {
-      "gameplay": 8,
-      "controls": 8,
-      "visuals": 7,
-      "note": "Faithful, quick-playing Mexican Train with sensible AI and handy hint/sort tools."
-    }
-  },
-  {
-    "slug": "draw-the-odds",
-    "title": "Draw The Odds",
-    "studio": "jantagames",
-    "studioUrl": "https://jantagames.itch.io/",
-    "added": "2026-11-27",
-    "short": "A pixel-art boss rush where every boss is a playing card hiding a secret number, and your cards are the bullets.",
-    "description": "Draw The Odds is a pixel-art platformer boss rush built for a 2026 Unity game jam. Each boss is a face card, starting with the Jack of clubs, and hides a secret number from 1 to 13. You run and jump around a gothic arena throwing cards from a ten-card hand: arrows tell you whether to go higher or lower, the closer you get the more damage you deal, and an exact hit is a critical. Dodge dice and chips, grab plus, minus and multiply orbs to merge two cards into the number you need, beat the Jack, Queen and King, then try Endless mode.",
-    "instructions": "Desktop: A/D move, Space jump, Shift dash, mouse wheel or 1-0 to pick a card, left click to throw it, R to draw a new hand (3 per run). With an orb, place two cards and click to merge. Mobile: left joystick, jump and dash buttons, tap a card and drag it up to throw.",
-    "category": "action",
-    "extraCats": [
-      "arcade",
-      "mobile"
-    ],
-    "tags": [
-      "Boss Rush",
-      "Pixel Art",
-      "Cards",
-      "Platformer",
-      "Game Jam",
-      "Endless Mode"
-    ],
-    "embed": "https://play.gamepix.com/draw-the-odds/embed?sid=5E198",
-    "thumb": "https://ilovewebgames.com/assets/community/draw-the-odds.jpg?v=1",
-    "orientation": "landscape",
-    "studioRating": {
-      "gameplay": 8,
-      "controls": 7,
-      "visuals": 8,
-      "note": "Clever higher-or-lower twist on a boss fight; juggling movement and card picks takes a minute to click."
-    }
-  },
-  {
-    "slug": "scrap-steel",
-    "title": "Scrap & Steel",
-    "studio": "Sylvic",
-    "studioUrl": "https://www.gamepix.com/play/scrap-steel",
-    "added": "2026-11-27",
-    "short": "Run a debt-ridden cyberpunk garage for 30 days: take jobs, forge and tune parts, and pay off the Syndicate.",
-    "description": "Scrap & Steel puts you in charge of an inherited garage in rainy Astra City, owing 10,000 credits to the Scraphound Syndicate with rent due every day. Before day one you pick a career road: Cyber-Reputation for volume and shop rating, the Mech Championship for heavy forging, or the Drifter League for precision tuning. Each morning brings job offers such as a bionic arm tune-up or an arena brawler overhaul, each with pay, action points and a deadline. You finish them in three skill minigames, Forge, Calibrator and Assembler, where timing decides the quality and the cash.",
-    "instructions": "Pick jobs from the morning briefing, then open the workshop. Forge: Space/Enter or click on time. Calibrator: hold or tap Space or left click. Assembler: arrows/WASD or click adjacent cells. End the day with Tab/E. On mobile, tap and hold. Pay off the debt within 30 days.",
-    "category": "clicker-idle",
-    "extraCats": [
-      "mobile"
-    ],
-    "tags": [
-      "Simulation",
-      "Management",
-      "Cyberpunk",
-      "Pixel Art",
-      "Minigames",
-      "Tycoon"
-    ],
-    "embed": "https://play.gamepix.com/scrap-steel/embed?sid=5E198",
-    "thumb": "https://ilovewebgames.com/assets/community/scrap-steel.jpg?v=1",
-    "orientation": "landscape",
-    "studioRating": {
-      "gameplay": 8,
-      "controls": 7,
-      "visuals": 8,
-      "note": "Atmospheric garage sim with real choices between three career paths and a tight 30-day clock."
-    }
-  },
-  {
-    "slug": "byte-heist",
-    "title": "Byte Heist",
-    "studio": "Late Shift Games",
-    "studioUrl": "https://lateshiftgames.itch.io/byte-heist",
-    "added": "2026-11-27",
-    "short": "Idle hacker game: tap the terminal, buy rigs, and beat rival hackers in quick mini-game hack-offs.",
-    "description": "Byte Heist starts with a cracked old laptop and a blinking terminal that says no hardware is detected. Every tap pulls a byte; buy servers and upgrades and the rigs keep downloading for you, climbing from bytes to terabytes while a heat meter rises. Beyond the idle loop are hack-off battles against rival hackers, built from three random mini-games out of five, including spinning a lock dial to the right number and patching a network leak. Clean, fast solves earn bonuses. The amber terminal look and the short tutorial make it easy to pick up on a phone.",
-    "instructions": "Tap or click the terminal to pull data, then buy servers and upgrades. In hack-offs, solve three random mini-games before your rival: tap tiles, drag the lock dial, or use arrow keys/WASD for arrow tiles. Rigs keep earning while you are away.",
-    "category": "clicker-idle",
-    "extraCats": [
-      "mobile"
-    ],
-    "tags": [
-      "Idle",
-      "Clicker",
-      "Hacker",
-      "Minigames",
-      "Incremental"
-    ],
-    "embed": "https://play.gamepix.com/byte-heist/embed?sid=5E198",
-    "thumb": "https://ilovewebgames.com/assets/community/byte-heist.jpg?v=1",
-    "orientation": "portrait",
-    "studioRating": {
-      "gameplay": 7,
-      "controls": 8,
-      "visuals": 7,
-      "note": "Stylish terminal idler; the hack-off mini-games give it more bite than a plain clicker."
-    }
-  },
-  {
-    "slug": "evening-club-191-durak",
-    "title": "Evening Club 191: Durak",
-    "studio": "Evening Club 191",
-    "studioUrl": "https://eveningclub191.com/",
-    "added": "2026-11-27",
-    "short": "Play the classic card game Durak at a 3D table in a cosy club, against a bot or with friends.",
-    "description": "Evening Club 191 is a 3D card lounge where you sit at a green round table in a wood-panelled room, rain on the window behind you, and play Durak. Create a table, pick throw-in or transfer rules, add up to several bots, or keep the table invitation-only and send the link to friends. During a round you see your hand in 3D, the trump card and the deck count, and buttons for Hint, Play card, Take cards and Pass. A short tutorial with practice moves teaches the basics. You can also stand up and walk the room.",
-    "instructions": "Choose a table: set your name, the rules and the number of bots, then Create and sit down and Start the game. Select cards with mouse or touch and use Play card, Take cards or Pass. Do not be the last player holding cards. Right mouse looks around, WASD walks.",
-    "category": "puzzle",
-    "extraCats": [
-      "multiplayer",
-      "two-player",
-      "3d"
-    ],
-    "tags": [
-      "Durak",
-      "Card Game",
-      "3D",
-      "Classic",
-      "vs Bot",
-      "Play with Friends"
-    ],
-    "embed": "https://play.eveningclub191.com/?lang=en",
-    "thumb": "https://ilovewebgames.com/assets/community/evening-club-191-durak.jpg?v=1",
-    "orientation": "landscape",
-    "studioRating": {
-      "gameplay": 8,
-      "controls": 7,
-      "visuals": 9,
-      "note": "Gorgeous 3D table for a proper game of Durak; a few labels still show in Russian."
-    }
-  },
-  {
-    "slug": "space-trick-battle",
-    "title": "Space Trick Battle",
-    "studio": "SpaceTrickBattle",
-    "studioUrl": "https://nikkukyuu-code.github.io/shooting-online/",
-    "added": "2026-11-27",
-    "short": "A versus shooter: auto-fire, grab items, and send enemy units to your opponent's field until they run out of life.",
-    "description": "Space Trick Battle is a versus shooter split into three strips: your opponent's field on top, your ship in the middle and the controls below. Your ship fires on its own while you drag it to dodge; defeated enemies drop items you hold in three slots, and send items push units from your five-unit deck onto the opponent's field. When the five-minute timer runs out, remaining life decides it. Practice against the computer at Normal Level, chase the ranking at Ranker Level, or play online by finding an opponent or sharing a room name. Missions and a shop unlock more units with points.",
-    "instructions": "Drag your ship in the control area (or use arrow keys/WASD); it fires automatically. Tap an item slot on the right to use it; you can hold three. Outlast the opponent with send and attack items. Build a deck of five units and unlock more in the Shop with PT.",
-    "category": "shooting",
-    "extraCats": [
-      "multiplayer",
-      "mobile"
-    ],
-    "tags": [
-      "Versus",
-      "Shoot 'em up",
-      "Online PvP",
-      "Deck Building",
-      "Ranking"
-    ],
-    "embed": "https://nikkukyuu-code.github.io/shooting-online/",
-    "thumb": "https://ilovewebgames.com/assets/community/space-trick-battle.jpg?v=1",
-    "orientation": "portrait",
-    "studioRating": {
-      "gameplay": 7,
-      "controls": 7,
-      "visuals": 5,
-      "note": "Surprisingly deep versus shooter with a deck and ranking, held back by a busy, plain-looking UI."
-    }
+ {
+  "slug": "crease-game-online",
+  "title": "Crease Game Online",
+  "studio": "Crease Game Online",
+  "studioUrl": "https://creasegameonline.com/",
+  "added": "2026-11-15",
+  "short": "A free paper-folding puzzle: fold the sheet along its creases until it covers the dashed outline exactly.",
+  "description": "Crease Game Online is a free paper-folding puzzle that plays right in your browser. You get a square sheet of paper and a dashed outline, and you drag the paper to fold it until the visible paper covers the outline exactly, with nothing hanging over and nothing left uncovered. Four new puzzles unlock every day, and there are 27 practice puzzles from Easy to Master plus three short lessons for beginners. Undo, Restart and Hint are always one tap away, and solving a puzzle in the fewest folds without hints earns three stars. No download and no account needed.",
+  "instructions": "Press on the paper and drag to fold it. The spot you grab lands where you let go, and the paper folds along the crease halfway between. Drag sideways or up and down for a straight fold, or at 45 degrees for a diagonal fold. Cover the dashed outline exactly. Red stripes show paper outside the outline. Use Undo, Restart and Hint if you get stuck, and try the three lessons first if you are new.",
+  "category": "puzzle",
+  "extraCats": [
+   "hypercasual"
+  ],
+  "tags": [
+   "Puzzle",
+   "Paper folding",
+   "Logic",
+   "Daily puzzle",
+   "Brain teaser",
+   "Relaxing"
+  ],
+  "embed": "https://creasegameonline.com/",
+  "thumb": "https://creasegameonline.com/og.png",
+  "orientation": "any"
+ },
+ {
+  "slug": "no-map-home",
+  "title": "No Map Home",
+  "studio": "WebGrid",
+  "studioUrl": "https://www.nomaphome.com/",
+  "added": "2026-11-15",
+  "short": "A free co-op fantasy RPG drawn in ink: eight classes, 21 wilderness regions and 25 dungeon depths, solo or in a party.",
+  "description": "No Map Home is a free cooperative fantasy RPG that plays right in your browser. Adventurers followed the Hollow Star underground and never returned, and Mara of Lantern's Rest asks you to rekindle the Nine Watchlights and bring them home. Pick one of eight classes, explore twenty-one wilderness regions, and fight down through twenty-five dungeon depths, alone or in a party of up to eight players in one shared, real-time world. Day and night pass for everyone, your lantern can hide you or draw hunters, and you can hire a mercenary from the guild. Start as a guest with no download and no account.",
+  "instructions": "WASD or the arrow keys move. Click or T selects an enemy, 1-6 use abilities, V is your class defense, Q and R drink health and energy potions. E or right click interacts. Y kindles your lantern and U covers it. I, C and K open the bag, hero and abilities, M and G the local map and world atlas, and the mouse wheel zooms. On touch screens drag to move, tap to select and pinch to zoom.",
+  "category": "adventure",
+  "extraCats": [
+   "multiplayer"
+  ],
+  "tags": [
+   "RPG",
+   "Fantasy",
+   "Adventure",
+   "Multiplayer",
+   "Co-op",
+   "Dungeon"
+  ],
+  "embed": "https://www.nomaphome.com/?ref=ilovewebgames",
+  "thumb": "https://www.nomaphome.com/media/no-map-home-trailer-poster.webp",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "brudvig-hockey-2027",
+  "title": "Brudvig Hockey 2027",
+  "studio": "Brudvig Hockey",
+  "studioUrl": "https://brudvighockey.com",
+  "added": "2026-11-14",
+  "short": "Free 3v3 arcade hockey in your browser: huge hits, breakaway goalies and a 32-team Challenge Cup.",
+  "description": "Brudvig Hockey 2027 is a free arcade hockey game that runs right in your browser: three on three, no penalties, huge body checks and a crowd that roars with every hit. Play the computer, run the 32-team Challenge Cup, challenge a friend online for up to eight players, or put the game on a TV with phones as controllers. No download and no account needed to play, just a free profile for the Challenge Cup.",
+  "instructions": "WASD or the arrow keys skate. Left click or K shoots (tap for a wrist shot, hold and release for a slap shot, or time it with an incoming pass for a one-timer). Right click or E passes or switches skater. Space, F or a double click throws a check (hold for a bigger hit). Q is a spin move with the puck or a poke check without it. Touch controls appear automatically on phones.",
+  "category": "sports",
+  "extraCats": [
+   "multiplayer",
+   "3d"
+  ],
+  "tags": [
+   "Hockey",
+   "Sports",
+   "Arcade",
+   "Multiplayer",
+   "3D"
+  ],
+  "embed": "https://brudvighockey.com/?ref=ilovewebgames",
+  "thumb": "https://brudvighockey.com/og/home.jpg?v=2",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "4wallpong",
+  "title": "4Wall Pong",
+  "studio": "Reflex Lab",
+  "studioUrl": "https://reflexlabgames.com",
+  "added": "2026-11-14",
+  "short": "Pong flipped inside out: steer all four walls at once and keep the ball alive as long as you can.",
+  "description": "4Wall Pong is a free single-player twist on Pong: the ball can leave on any of the four walls, so you steer four paddles at once to keep it in play. Every hit speeds the ball up by 1%, so a run gets harder the longer it survives. Chase a spot on the global Top 10 leaderboard. Free in your browser, no download and no account needed.",
+  "instructions": "On desktop, move the mouse or use the arrow keys / WASD to move all four paddles at once. On mobile, drag with your finger. Move a paddle as you hit the ball to change its bounce angle. One miss on any wall ends the run.",
+  "category": "arcade",
+  "tags": [
+   "Arcade",
+   "Pong",
+   "Reflex",
+   "Leaderboard",
+   "Casual"
+  ],
+  "embed": "https://play.4wallpong.com/",
+  "thumb": "https://ilovewebgames.com/assets/community/4wallpong.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "knockback",
+  "title": "Knockback",
+  "studio": "Knockback",
+  "added": "2026-10-24",
+  "short": "A free browser party board game: race your pegs home through erupting arenas and Power-Ups.",
+  "description": "Knockback is a free party board game you play right in your browser. Race your pegs home while arenas erupt, black holes swallow pieces and Power-Ups flip the board. Pop the dome, move your pegs and knock rivals back to the start. Jump into a quick match with players worldwide, take on the weekly arena and seasonal events, and play on desktop or mobile. Instant play: no install and no account needed.",
+  "instructions": "Pop the dome to roll, then pick a peg to move. Land on a rival to knock it back to the start, grab Power-Ups to change the board and get all your pegs home first to win. A short how-to video is available when you start.",
+  "category": "multiplayer",
+  "extraCats": [
+   "two-player",
+   "kids"
+  ],
+  "tags": [
+   "Board Game",
+   "Party",
+   "Multiplayer",
+   "Family",
+   "Strategy",
+   "Casual"
+  ],
+  "embed": "https://playknockback.com/?s=il",
+  "thumb": "https://playknockback.com/img/og.jpg",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "kart-chaos",
+  "title": "Kart Chaos",
+  "studio": "Kart Chaos",
+  "added": "2026-10-24",
+  "short": "A free 3D kart racer: Grand Prix cups, Time Trial ghosts, a Daily Challenge and online rooms with friends.",
+  "description": "Kart Chaos is a free 3D kart racer that runs in the browser on desktop and mobile. Race the Chamo Cup Grand Prix against CPU racers, beat ghosts in Time Trial, take on the Daily Challenge, or open an online room and race your friends. Drift for speed boosts and land ramp tricks. Play with keyboard, gamepad or touch. No download, no sign-up.",
+  "instructions": "Use the arrow keys or WASD to steer and accelerate. Drift through corners to charge speed boosts and land ramp tricks for extra speed. Gamepad and touch controls are supported.",
+  "category": "racing",
+  "tags": [
+   "Racing",
+   "Kart",
+   "Driving",
+   "Drift",
+   "3D",
+   "Multiplayer"
+  ],
+  "embed": "https://kartchaos.com/?ref=ilovewebgames",
+  "thumb": "https://kartchaos.com/og-image.jpg?v=2",
+  "orientation": "landscape",
+  "extraCats": [
+   "multiplayer",
+   "3d"
+  ]
+ },
+ {
+  "slug": "stonkrider",
+  "title": "StonkRider",
+  "studio": "Sam Carter",
+  "studioUrl": "https://stonkrider.fun",
+  "added": "2026-10-30",
+  "short": "Turn real stock and crypto charts into neon motocross tracks and ride the candles.",
+  "description": "StonkRider is a free bike game that turns real stock and crypto charts into motocross tracks. Pick a ticker like TSLA, GME or BTC-USD and a timeframe, and the candles become hills, ramps and cliffs. Flip off the peaks, chain tricks and grab green-candle orbs for nitro, and try not to crash on the next dip. Every chart rides differently, so there is always a new track. It is just for fun, not financial advice, and needs no account.",
+  "instructions": "Pick a ticker and a timeframe to build your track. Accelerate and lean to ride the chart, flip off peaks to chain tricks and grab green-candle orbs for nitro. Land on your wheels to keep going.",
+  "category": "racing",
+  "extraCats": [
+   "arcade",
+   "mobile"
+  ],
+  "tags": [
+   "Racing",
+   "Bike",
+   "Stunts",
+   "Arcade",
+   "Physics"
+  ],
+  "embed": "https://stonkrider.fun",
+  "thumb": "https://stonkrider.fun/opengraph-image?5dab52d4083ce02e",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "louvers",
+  "title": "Louvers",
+  "studio": "Sundryard",
+  "studioUrl": "https://sundryard.com/louvers/",
+  "added": "2026-10-31",
+  "short": "A calm logic puzzle: slide each slat left or right until every column lights up and a hidden picture appears.",
+  "description": "Louvers is a relaxing logic puzzle you play right in your browser. The board is made of horizontal slats, each with a few coloured tiles on it. Slide every slat left or right until each column has exactly the tiles it needs and lights up, and the hidden picture appears. There are 33 hand-made levels that start with a short tutorial and get steadily trickier, so it is easy to learn and hard to put down. It works with the mouse, the arrow keys or a touchscreen, with no account and no download.",
+  "instructions": "Drag a slat left or right, or select it and use the arrow keys, to shift its tiles. A column lights up when it holds the right tiles. Light every column to reveal the picture and finish the level, then pick the next one from the Levels menu.",
+  "category": "puzzle",
+  "extraCats": [
+   "mobile",
+   "kids"
+  ],
+  "tags": [
+   "Puzzle",
+   "Logic",
+   "Brain",
+   "Relaxing",
+   "Picture"
+  ],
+  "embed": "https://sundryard.com/louvers/play/",
+  "thumb": "https://ilovewebgames.com/assets/community/louvers.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "snowball-fight-online",
+  "title": "Snowball Fight Online",
+  "studio": "Panda Games",
+  "studioUrl": "https://snowfight.pandagames.io/",
+  "added": "2026-11-03",
+  "short": "Fast 3D snowball battles in your browser: free-for-all or team battle, power-ups, skins and a daily leaderboard.",
+  "description": "Snowball Fight Online drops you into a snowy 3D arena where everyone is throwing. Pick free-for-all, where the last snowballer standing wins, or a 10-vs-10 team battle, and jump into a room that is already running. Walk with WASD, aim with the mouse and throw; snowballs run out, so stand still for a moment to pack more. Glowing items on the ground give power-ups you fire with Q or E. There are several maps in rotation, including a Halloween graveyard, 12 characters to unlock, emotes, a chat and a daily and weekly leaderboard. It plays instantly in the browser with no download and no account, and you can save your progress to pick it up in another browser.",
+  "instructions": "Move with W A S D or the arrow keys. Point the mouse at a target and click to throw a snowball. Stand still for a moment to pack more snow when you run out. Walk over glowing items to pick up power-ups and press Q or E to use them. Keys 1 to 6 are emotes, Enter opens the chat, M mutes.",
+  "category": "action",
+  "extraCats": [
+   "multiplayer",
+   "3d",
+   "shooting"
+  ],
+  "tags": [
+   "Snowball",
+   "Battle",
+   "Multiplayer",
+   "3D",
+   "Arena",
+   "Winter",
+   "Christmas"
+  ],
+  "embed": "https://snowfight.pandagames.io/play/",
+  "thumb": "https://snowfight.pandagames.io/og-image.jpg",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "lemonade-tycoon",
+  "title": "Lemonade Tycoon",
+  "studio": "Panda Games",
+  "studioUrl": "https://lemonadetycoon.pandagames.io/",
+  "added": "2026-11-03",
+  "short": "Run a lemonade stand in a sunny 3D park, tune the recipe to the weather and grow it into a citywide chain.",
+  "description": "Lemonade Tycoon is a relaxed 3D idle tycoon game. You start with one little cart in a city park, mix your lemonade (ice, lemon and sugar) to match the day's weather, set the price and watch the customers line up. Every day brings a new forecast and sometimes a park event that sends extra crowds your way. Earnings go into upgrades for the stand, promotions and eventually new shops across the city. Daily tasks, a login reward streak and a chest for finishing all tasks give you a reason to come back, and the stand keeps selling while you are away. It runs in the browser with no download and no sign-up, and your progress is saved.",
+  "instructions": "Click Open now to start the day. Use the Recipe button to adjust ice, lemon and sugar for the weather, Upgrades to improve the stand, Promote to bring in more customers and City to open new shops. Check the Daily tab for today's tasks and rewards.",
+  "category": "clicker-idle",
+  "extraCats": [
+   "casual",
+   "kids"
+  ],
+  "tags": [
+   "Tycoon",
+   "Idle",
+   "Lemonade",
+   "Business",
+   "Management",
+   "3D",
+   "Relaxing"
+  ],
+  "embed": "https://lemonadetycoon.pandagames.io/play/",
+  "thumb": "https://ilovewebgames.com/assets/community/lemonade-tycoon.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "hisorty",
+  "title": "Hisorty",
+  "studio": "Damian Krajnak",
+  "studioUrl": "https://hisorty.app/",
+  "added": "2026-11-03",
+  "short": "Slot historical events onto a timeline, from the Battle of Cannae to the Berlin Wall, and see how far your sense of history takes you.",
+  "description": "Hisorty is a history game built around one simple move: you are handed a card with a real historical event on it, painted in its own illustration, and you have to drop it into the right spot on a timeline of events already on the table. Guess right and the card locks into place with its year revealed; guess wrong and you lose a life. The daily puzzle gives everyone the same six events to put in order, and Endless mode keeps dealing cards until your three lives run out, so the run is as long as your knowledge holds. It plays with a mouse or a finger, and there is nothing to install.",
+  "instructions": "Pick Play for today's puzzle or Endless for an unlimited run. Drag the card at the top onto the timeline, to the left or right of the events already placed, depending on whether you think it happened earlier or later. Place it correctly to keep going; three mistakes end an Endless run.",
+  "category": "puzzle",
+  "extraCats": [
+   "casual",
+   "kids"
+  ],
+  "tags": [
+   "History",
+   "Trivia",
+   "Timeline",
+   "Educational",
+   "Cards",
+   "Endless",
+   "Daily"
+  ],
+  "embed": "https://hisorty.app/",
+  "thumb": "https://ilovewebgames.com/assets/community/hisorty.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "guessnow",
+  "title": "guessNow",
+  "studio": "Antoni Kowalski",
+  "studioUrl": "https://guessnow.fun/",
+  "added": "2026-11-04",
+  "short": "A real photograph from the archives slowly comes into focus and you slide to the year it was taken, before your health runs out.",
+  "description": "guessNow is a history game built on real photographs. A picture appears out of focus and sharpens as the seconds pass, so every moment you wait costs you points but gives you another clue: a uniform, a car, a shop sign. You drag a slider to the year you think it was taken and confirm. Miss by two years and it barely stings; miss by forty and a chunk of your 300 health is gone. Adaptive Climb keeps dealing photographs and raising the difficulty for as long as you survive, and there is a daily set of five if you only want a quick round. Every photo comes with the full story behind it once you have answered.",
+  "instructions": "Pick Adaptive Climb for an endless run or Daily Challenge for today's five photographs. Watch the picture sharpen, drag the slider to the year you think it was taken and press Confirm. The closer you are, the less health you lose; three bad misses and the run is over.",
+  "category": "puzzle",
+  "extraCats": [
+   "casual"
+  ],
+  "tags": [
+   "History",
+   "Trivia",
+   "Photos",
+   "Guessing",
+   "Endless",
+   "Daily",
+   "Knowledge"
+  ],
+  "embed": "https://guessnow.fun/",
+  "thumb": "https://ilovewebgames.com/assets/community/guessnow.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "world-destroyer",
+  "title": "World Destroyer",
+  "studio": "Gamey Studio",
+  "studioUrl": "https://pickthewheel.com/world-destroyer/",
+  "added": "2026-11-04",
+  "short": "Flatten a toy city against the clock with TNT, missiles and a very happy dinosaur, chaining the blasts so one sets off the next.",
+  "description": "World Destroyer drops you on an isometric toy city with a short timer and a handful of tools: TNT, missiles, fire, and later a tornado, a dragon, a robot and a UFO. The trick is not to use them one at a time but to set off chain reactions, hitting a fuel tank so the explosion rolls into the next block and the next. Each city has its own briefing, its own defences to knock out first, and three stars to earn, so a level you scraped through once is worth replaying for the clean run. Ten cities unlock one after another, and new tools arrive as you go.",
+  "instructions": "Pick a tool from the bar at the bottom, then tap or click where you want it on the city. Hit fuel tanks and AA guns first so the blasts spread for you. Clear enough of the city before the timer runs out to earn stars and open the next one.",
+  "category": "arcade",
+  "extraCats": [
+   "puzzle",
+   "mobile"
+  ],
+  "tags": [
+   "Destruction",
+   "Chain Reaction",
+   "Strategy",
+   "Levels",
+   "Isometric",
+   "Dinosaur",
+   "Timed"
+  ],
+  "embed": "https://pickthewheel.com/world-destroyer/",
+  "thumb": "https://ilovewebgames.com/assets/community/world-destroyer.jpg?v=1",
+  "orientation": "portrait"
+ },
+ {
+  "slug": "i-see-you",
+  "title": "I See You",
+  "studio": "Panda Games",
+  "studioUrl": "https://iseeyou.pandagames.io/",
+  "added": "2026-11-05",
+  "short": "Multiplayer horror hide-and-seek in the browser: one ghost starts the hunt, and everyone it catches joins it.",
+  "description": "I See You is a free multiplayer horror hide-and-seek game that runs straight in the browser. One player starts as the ghost; everyone it catches turns and hunts with it, so each round gets more dangerous the longer it runs. As a human you hide under beds, in lockers and behind curtains, hold your breath when something passes, and work on the fuse boxes to restore the power and open an exit before the timer runs out. Three maps are playable - Baiyang Hospital, The Haunted Mansion and The Old Schoolhouse - each with its own layout and story. Jump into a quick match with players from anywhere, or make a private room and send friends the code. No download and no account.",
+  "instructions": "Move with W A S D, hold Shift to sneak and aim with the mouse. F turns the flashlight on, Space or right-click dashes (the ghost lunges). E hides you under a bed or in a locker and R holds your breath while something passes. Find the fuse boxes to restore the power, then run for an exit before time runs out.",
+  "category": "horror",
+  "extraCats": [
+   "multiplayer",
+   "escape-room",
+   "io"
+  ],
+  "tags": [
+   "Horror",
+   "Multiplayer",
+   "Hide and Seek",
+   "Ghost",
+   "Survival",
+   "Co-op",
+   "Scary"
+  ],
+  "embed": "https://iseeyou.pandagames.io/play/",
+  "thumb": "https://ilovewebgames.com/assets/community/i-see-you.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "merge-numbers-2048",
+  "title": "Merge Numbers 2048",
+  "studio": "ChrisBloomGames",
+  "studioUrl": "https://chrisbloomgames.itch.io/",
+  "added": "2026-11-06",
+  "short": "Slide the board, merge matching tiles and push the numbers all the way to 2048 in a few quiet minutes.",
+  "description": "Merge Numbers 2048 is a free browser version of the number puzzle everyone knows. Swipe or use the arrow keys and the whole board slides; two tiles with the same number touch and become one twice as big. Two becomes four, four becomes eight, and every merge leaves room for the next one. A new tile drops after each move, so the board slowly fills and you have to keep a corner free for your biggest number. Reaching 2048 is the goal, but the real game is beating your own best score, and the board remembers it between sessions. Rounds are short, there is nothing to install and no account to make, and it plays the same with a mouse on a computer or a thumb on a phone.",
+  "instructions": "Swipe or press the arrow keys to slide every tile in that direction. Tiles with the same number merge into one. Keep your largest tile in a corner and work the other rows around it, and the board lasts much longer. The game ends when no move is left.",
+  "category": "puzzle",
+  "extraCats": [
+   "hypercasual",
+   "mobile"
+  ],
+  "tags": [
+   "2048",
+   "Merge",
+   "Numbers",
+   "Brain",
+   "Casual",
+   "Puzzle"
+  ],
+  "embed": "https://merge-numbers-2048-chris.surge.sh/",
+  "thumb": "https://ilovewebgames.com/assets/community/merge-numbers-2048.jpg?v=1",
+  "orientation": "any"
+ },
+ {
+  "studio": "ChrisBloomGames",
+  "studioUrl": "https://chrisbloomgames.itch.io/",
+  "added": "2026-11-06",
+  "orientation": "any",
+  "slug": "block-bloom",
+  "title": "Block Bloom",
+  "short": "Drag flower blocks onto a garden board and fill rows or columns to make them bloom.",
+  "description": "Block Bloom is a calm block puzzle with a garden theme. Three flower pieces wait beside the board; drag each one into an empty spot, and when a whole row or column fills up it blooms and clears, giving you room again. There is no timer, so the challenge is pure planning: every piece has to fit somewhere, and a board full of awkward gaps ends the round. Clearing several lines with one piece scores best, and the garden level climbs as you go. Soft pastel colors and short rounds make it an easy game to pick up for a few minutes, on a computer or a phone.",
+  "instructions": "Drag a piece from the side onto the board. Fill a complete row or column to clear it. Keep open space for the long pieces and try to clear two lines at once. The game ends when none of the waiting pieces fits.",
+  "category": "puzzle",
+  "extraCats": [
+   "hypercasual",
+   "mobile"
+  ],
+  "tags": [
+   "Block",
+   "Puzzle",
+   "Blocks",
+   "Flowers",
+   "Casual",
+   "Brain"
+  ],
+  "embed": "https://block-bloom-chris.surge.sh/",
+  "thumb": "https://ilovewebgames.com/assets/community/block-bloom.jpg?v=1"
+ },
+ {
+  "studio": "ChrisBloomGames",
+  "studioUrl": "https://chrisbloomgames.itch.io/",
+  "added": "2026-11-06",
+  "orientation": "any",
+  "slug": "water-sort-color-tubes",
+  "title": "Water Sort: Color Tubes",
+  "short": "Pour colored liquid between tubes until every tube holds a single color.",
+  "description": "Water Sort: Color Tubes is a color sorting puzzle. Each tube holds stacked layers of colored liquid, and you can pour the top layer into another tube only if that tube has room and the top colors match, or if it is empty. The goal of every level is one color per tube. The first levels need only a few moves, but extra colors arrive quickly and the empty tubes become precious, so you start thinking several pours ahead. An undo button saves a bad move and you can restart any level. It plays with a mouse or a tap and suits short breaks.",
+  "instructions": "Tap a tube to pick up its top color, then tap another tube to pour. You can pour onto the same color or into an empty tube. Fill each tube with one color to finish the level. Keep an empty tube free as long as you can and use undo when a pour goes wrong.",
+  "category": "puzzle",
+  "extraCats": [
+   "hypercasual",
+   "mobile"
+  ],
+  "tags": [
+   "Sort",
+   "Sorting",
+   "Water",
+   "Colors",
+   "Puzzle",
+   "Brain"
+  ],
+  "embed": "https://water-sort-chris.surge.sh/",
+  "thumb": "https://ilovewebgames.com/assets/community/water-sort-color-tubes.jpg?v=1"
+ },
+ {
+  "studio": "ChrisBloomGames",
+  "studioUrl": "https://chrisbloomgames.itch.io/",
+  "added": "2026-11-06",
+  "orientation": "any",
+  "slug": "snake-trail",
+  "title": "Snake Trail",
+  "short": "Steer the snake to glowing orbs and grow longer without hitting the walls or your tail.",
+  "description": "Snake Trail is a clean take on classic snake. Steer with the arrow keys or a swipe, eat the glowing orbs to grow, and avoid running into your own tail. Every orb makes the snake longer and the board tighter, so a good run is about planning your path, not only quick reactions. Two modes change the game: Walls, where touching the edge ends the run, and Wrap, where the snake passes through one side and comes out the other. The game keeps your best score, rounds last a minute or two, and it works on desktop and on a phone.",
+  "instructions": "Use the arrow keys or swipe to turn. Eat orbs to grow and score. Do not hit your own tail, and in Walls mode do not touch the edge. Switch to Wrap mode to go through the walls. Leave yourself an open lane when the snake gets long.",
+  "category": "arcade",
+  "extraCats": [
+   "hypercasual",
+   "mobile"
+  ],
+  "tags": [
+   "Snake",
+   "Arcade",
+   "Classic",
+   "Retro",
+   "Casual",
+   "Skill"
+  ],
+  "embed": "https://snake-trail-chris.surge.sh/",
+  "thumb": "https://ilovewebgames.com/assets/community/snake-trail.jpg?v=1"
+ },
+ {
+  "slug": "jumping-panda",
+  "title": "Jumping Panda",
+  "studio": "Paperclips Studio",
+  "studioUrl": "https://jumpingpanda.io/",
+  "added": "2026-11-11",
+  "short": "Hold to charge, release to jump, and bounce a little panda from platform to platform across a sunny valley.",
+  "description": "Jumping Panda is a one-button jumping game that runs right in your browser. Press and hold to charge a jump, let go to launch the panda, and land on the next platform without falling short or overshooting. A short press makes a small hop and a long hold makes a big leap, so every platform is a small judgement call about distance. The game is split into numbered levels you can pick from a level menu, and the coins you collect can be spent in the shop. Rounds are quick, the controls are a single mouse button or finger, and there is nothing to install and no account to make.",
+  "instructions": "Press and hold the mouse button or your finger to charge the jump, then release to launch. Hold longer for a longer jump and land on the next platform. Pick Play to continue from your current level or Levels to choose one, and spend the coins you collect in the Shop.",
+  "category": "arcade",
+  "extraCats": [
+   "hypercasual",
+   "mobile",
+   "casual"
+  ],
+  "tags": [
+   "Jumping",
+   "Panda",
+   "One Button",
+   "Skill",
+   "Levels",
+   "Casual"
+  ],
+  "embed": "https://jumpingpanda.io/play/",
+  "thumb": "https://ilovewebgames.com/assets/community/jumping-panda.jpg?v=1",
+  "orientation": "any"
+ },
+ {
+  "slug": "zombie-survival-blackout",
+  "title": "Zombie Survival: Blackout",
+  "studio": "Loopiko Games",
+  "studioUrl": "https://playgama.ai/play/kfwir5zlb6dgl7",
+  "added": "2026-11-11",
+  "short": "Survive waves of zombies in a rainy night city: move, let your gun auto-fire, level up and beat the boss that arrives after 60 seconds.",
+  "description": "Zombie Survival: Blackout is a survivor-style action game set in a dark, rainy city. You steer one survivor around an isometric map while the weapon fires on its own, so the whole game is about where you stand: keep moving, stay out of the crowd and collect experience to level up. Each stage has a short countdown to a boss, and coins and XP carry your run forward. Stage 1-1, Residential Blocks, doubles as a tutorial. The game saves an unfinished fight so you can pick it up where you left it, and it plays in the browser with no download.",
+  "instructions": "Move with W A S D or the arrow keys. Your weapon fires automatically at nearby zombies. Keep moving to avoid being surrounded, pick up experience to level up and survive until the boss arrives. Use the pause button to stop the fight at any time.",
+  "category": "action",
+  "extraCats": [
+   "shooting"
+  ],
+  "tags": [
+   "Zombie",
+   "Survival",
+   "Shooter",
+   "Auto-fire",
+   "Action",
+   "Isometric"
+  ],
+  "embed": "https://playgama.ai/play/kfwir5zlb6dgl7",
+  "thumb": "https://ilovewebgames.com/assets/community/zombie-survival-blackout.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "chime-blast",
+  "title": "Chime Blast",
+  "studio": "Chime Blast team",
+  "studioUrl": "https://chimeblast.com/",
+  "added": "2026-11-12",
+  "short": "A musical match-3 adventure: swap pieces, build Bass Drums and Prisms and wake up ten islands across 100 hand-made levels.",
+  "description": "Chime Blast is a match-3 puzzle game with a musical twist. You travel across ten islands of the Melody Isles with Daming the donkey and his friends, and each of the 100 hand-made levels gives you a goal and a limited number of moves. Matching four or five pieces creates musical tools such as Wave Capsules, Prisms and Bass Drums, and swapping two of them together sets off a bigger blast. Along the way you unlock boosters like the Mallet and Tuning Fork, collect medals and fill in the island map. The game runs in the browser on desktop and mobile with no download and no account.",
+  "instructions": "Swap two neighbouring pieces to line up three or more of the same kind. Match four or five to create musical tools, then swap them or combine two tools for a bigger blast. Reach the level goal before you run out of moves. Use boosters from the Tools panel when you get stuck.",
+  "category": "puzzle",
+  "extraCats": [
+   "hypercasual"
+  ],
+  "tags": [
+   "Match 3",
+   "Puzzle",
+   "Music",
+   "Levels",
+   "Casual",
+   "Relaxing"
+  ],
+  "embed": "https://game.chimeblast.com/",
+  "thumb": "https://ilovewebgames.com/assets/community/chime-blast.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "meowdoku",
+  "title": "Meowdoku",
+  "studio": "Jason Wu",
+  "studioUrl": "https://meowdoku.page/",
+  "added": "2026-11-12",
+  "short": "A cat logic puzzle: place one cat in every row, column and color, and never let two cats touch. 300 levels plus a daily puzzle.",
+  "description": "Meowdoku is a logic puzzle played on a grid of colored regions. Your job is to place exactly one cat in every row, every column and every color, with one extra rule: cats may never touch, not even diagonally. There are 300 levels spread over Easy, Hard and Expert, so the grids grow from 7x7 and the deductions get tougher. A new daily puzzle appears every day, and you can use free hints or the built-in solver when you are stuck. It runs in the browser with no download and no account.",
+  "instructions": "Tap a square to place a cat. Put one cat in every row, every column and every color region, and keep cats from touching, even diagonally. Pick Easy, Hard or Expert at the top, or try the daily puzzle. Use a hint if you get stuck.",
+  "category": "puzzle",
+  "extraCats": [
+   "hypercasual"
+  ],
+  "tags": [
+   "Logic",
+   "Puzzle",
+   "Cats",
+   "Brain",
+   "Daily puzzle",
+   "Relaxing"
+  ],
+  "embed": "https://meowdoku.page/",
+  "thumb": "https://ilovewebgames.com/assets/community/meowdoku.jpg?v=1",
+  "orientation": "portrait"
+ },
+ {
+  "slug": "vibestead",
+  "title": "Vibestead",
+  "studio": "Sinan Wong",
+  "studioUrl": "https://vibestead.org/",
+  "added": "2026-11-12",
+  "short": "A cozy pixel-art village builder: run a sawmill and factory, fill customer orders and grow your woodland village.",
+  "description": "Vibestead is a relaxed village-building and management game with detailed pixel art. You start with a small timber operation: hire loggers, keep the sawmill and construction workshop running, send products to customers and use the profits to unlock new buildings such as a brick kiln, a paint workshop and a village inn. Managers, orders and chapter goals give you steady things to aim for, and your team keeps working while you are away. A coding-rewards feature for developers is optional, and the village game works fully without it.",
+  "instructions": "Follow the quest panel on the left. Hire loggers, open the Sawmill and Construction workshop from the bottom bar, fill orders, and spend your cash on new buildings. Use the Machines, Orders, Managers and Woodland tabs to grow your village. Your crew keeps producing while you are away.",
+  "category": "clicker-idle",
+  "extraCats": [
+   "hypercasual"
+  ],
+  "tags": [
+   "Idle",
+   "Tycoon",
+   "City builder",
+   "Pixel art",
+   "Management",
+   "Relaxing"
+  ],
+  "embed": "https://vibestead.org/",
+  "thumb": "https://ilovewebgames.com/assets/community/vibestead.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "history-gacha",
+  "title": "History Gacha",
+  "studio": "Sinan Wong",
+  "studioUrl": "https://historybydate.com/",
+  "added": "2026-11-12",
+  "short": "Open card packs of real historical events, build a collection and team, and send them into battles and expeditions.",
+  "description": "History Gacha turns real historical events into collectible cards. Each pack holds five cards drawn from a library of more than 77,000 events with sources from Wikipedia, and rarity is set by a fixed metric, so a famous disaster or discovery can show up as a top-tier card. Collect cards, put a team together, take part in battles, send them on a long expedition, finish quests and earn trophies. A daily check-in gives you extra packs. It runs in the browser, with no download.",
+  "instructions": "Press Open 1 pack to draw cards, or switch to 5X for several packs. Check your Collection, build a team for Battle, and send cards on an Expedition. Use the daily Check-in and the Quests tab for extra packs.",
+  "category": "hypercasual",
+  "extraCats": [
+   "clicker-idle"
+  ],
+  "tags": [
+   "Gacha",
+   "Cards",
+   "Collection",
+   "History",
+   "Strategy",
+   "Casual"
+  ],
+  "embed": "https://historybydate.com/gacha",
+  "thumb": "https://ilovewebgames.com/assets/community/history-gacha.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "mars-rally-championship",
+  "title": "Mars Rally Championship",
+  "studio": "Mars Rally Championship",
+  "studioUrl": "https://marsrallychampionship.com/",
+  "added": "2026-11-17",
+  "short": "A 3D rally racer on Mars: low-gravity dunes, timed stages with medals, a daily seeded run and live online races for up to eight pilots.",
+  "description": "Mars Rally Championship is a 3D rally game set on the surface of Mars. You drive a six-wheeled rover across low-gravity dunes, basins and ridgelines, with Martian gravity of 3.71 m/s² shaping every jump and landing. A Rally School teaches the controls before you race. Pick a stage and chase medals, try the daily challenge with a new seeded run every day, take on the weekly featured stage, or join an online room with up to eight pilots. There is also a Mars Cup and a free roam mode. It plays with keyboard, gamepad or touch, with no download and no signup.",
+  "instructions": "Hold the Up arrow to drive and use the arrow keys to brake and steer. Space is the handbrake, A and Z shift gears, C changes the camera, R restarts and T returns you to the last gate. P pauses. On mobile, use the touch controls.",
+  "category": "racing",
+  "extraCats": [
+   "3d",
+   "multiplayer"
+  ],
+  "tags": [
+   "Racing",
+   "Rally",
+   "3D",
+   "Driving",
+   "Space",
+   "Multiplayer"
+  ],
+  "embed": "https://marsrallychampionship.com/play?portal=ilovewebgames",
+  "thumb": "https://ilovewebgames.com/assets/community/mars-rally-championship.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "fuzeborn",
+  "title": "Fuzeborn",
+  "studio": "VIncuko",
+  "studioUrl": "https://vincuko.itch.io/fuzeborn",
+  "added": "2026-11-17",
+  "short": "A pixel card game: rip packs, fuse creatures in the Fuze Pit, build a 15-card army and flip against rivals in a campaign.",
+  "description": "Fuzeborn is a pixel-art card game about collecting creatures and taking them to war. Rip open packs to fill your binder with 30 creatures across three types, where Ember beats Leaf, Leaf beats Tide and Tide beats Ember. Drop two cards into the Fuze Pit to discover recipes, or fuse two copies to make one stronger. Then choose an army of 15 cards and battle a rival: you both pick a card at the same time and flip, the higher power takes both, and a tie starts a war for the whole pile. Win and you take spoils from the rival's deck. This free demo holds the full Home Front campaign.",
+  "instructions": "Press Play, open packs and check your Binder. Use the Fuze Pit to combine two cards. Pick 15 cards for your Army, then start a campaign. In battle, choose one of the three cards in your hand; you see the rival's types but not their power.",
+  "category": "hypercasual",
+  "extraCats": [],
+  "tags": [
+   "Cards",
+   "Collection",
+   "Strategy",
+   "Pixel Art",
+   "Casual"
+  ],
+  "embed": "https://html-classic.itch.zone/html/20358319/index.html",
+  "thumb": "https://ilovewebgames.com/assets/community/fuzeborn.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "ashengrid",
+  "title": "ASHENGRID: Realm of Velkyn",
+  "studio": "VelkynForge",
+  "studioUrl": "https://ashengrid.com",
+  "added": "2026-11-18",
+  "short": "A dark-fantasy tactical RPG in the browser: forge a hero, pick a covenant and fight turn-based battles on a grid.",
+  "description": "ASHENGRID: Realm of Velkyn is a free dark-fantasy RPG that runs straight in the browser. You forge a hero by naming them and choosing one of four classes, the Templar, Sorceress, Necromancer or Valkyrie, then swear to one of the covenants that fight over the six primordial Ember-Eggs, each with its own alignment perk. From there you explore an isometric world with rotating biomes, gather materials with professions and step into short turn-based battles on a tactical grid, where you spend action and movement points to cast spells on target tiles. A motion-comic prologue opens the story, and no download is needed.",
+  "instructions": "Click Begin Chronicle, name your hero, pick a class and a covenant, then press Forge Hero & Begin Story. Use the mouse to move and interact. In combat, click a spell and then a target tile; spend your AP and MP wisely each turn.",
+  "category": "adventure",
+  "extraCats": [
+   "multiplayer"
+  ],
+  "tags": [
+   "RPG",
+   "Turn-Based",
+   "Tactics",
+   "Fantasy",
+   "MMO"
+  ],
+  "embed": "https://ashengrid.com",
+  "thumb": "https://ilovewebgames.com/assets/community/ashengrid.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "swishes-io",
+  "title": "Swishes.io",
+  "studio": "Rocky JiaS",
+  "studioUrl": "https://www.swishes.io",
+  "added": "2026-11-18",
+  "short": "3D pickup basketball in your browser: play 1v1, 3v3 or full-court 5v5, or take on a real opponent online.",
+  "description": "Swishes.io is a 3D pickup basketball game that runs in your browser with no download. Choose a half-court one-on-one game to 11, run with a crew in 3v3 to 21, or play the full squad in full-court 5v5. You control one player while teammates and rivals move around you, and a deep control set lets you sprint, pump fake, dribble through crossovers, pass, throw alley-oops and set picks. A player builder lets you shape your own baller from presets like Sharpshooter or Playmaker, there is a shootaround to practise your jumper, and an online mode puts you against real players.",
+  "instructions": "WASD to move, Shift to sprint. Hold Space to shoot (a short press is a pump fake). I, J, K and L do dribble moves, F passes, G throws an alley-oop and V sets a pick. H shows all controls, Esc pauses.",
+  "category": "sports",
+  "extraCats": [
+   "multiplayer"
+  ],
+  "tags": [
+   "Basketball",
+   "3D",
+   "Sports",
+   "Multiplayer"
+  ],
+  "embed": "https://www.swishes.io",
+  "thumb": "https://ilovewebgames.com/assets/community/swishes-io.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "free-nassau",
+  "title": "Free Nassau",
+  "studio": "Ren",
+  "studioUrl": "https://piratedeck.org",
+  "added": "2026-11-19",
+  "short": "A pirate roguelike deck-builder set in 1717: fight ship to ship, then board your prize with a second deck.",
+  "description": "Free Nassau is a roguelike deck-builder set in the Golden Age of piracy, in 1717. You pick a real historical captain and sail across a chart of battles and ports, choosing your route node by node across three acts that end with Benjamin Hornigold. Each fight starts ship to ship with your Ship deck, firing broadsides and swivel guns, tacking hard and crowding sail while watching the enemy's next move. Once her hull is down to half, you can board and switch to a separate Boarding deck for the close fight. Cards cost energy, the interface is styled after period engravings, and a practice battle teaches the basics.",
+  "instructions": "Use the mouse, or tap on a phone. On the chart, pick your next destination. In a fight, tap a card to read it, press Play to use it, then press End Turn. Cards cost energy. Fight ship to ship first; when the enemy hull is at half or less, you can board and switch to the Boarding deck.",
+  "category": "adventure",
+  "extraCats": [],
+  "tags": [
+   "Card",
+   "Deck Builder",
+   "Roguelike",
+   "Strategy",
+   "Pirate",
+   "Turn-Based"
+  ],
+  "embed": "https://piratedeck.org/play",
+  "thumb": "https://piratedeck.org/img/og-title.jpg",
+  "orientation": "landscape",
+  "studioRating": {
+   "gameplay": 8,
+   "controls": 8,
+   "visuals": 8,
+   "note": "Two-deck naval-then-boarding combat gives real tactical choices, and the engraving style looks great; the practice fight explains it well."
   }
+ },
+ {
+  "slug": "snowball-fight",
+  "title": "Snowball Fight",
+  "studio": "Swiftmade OÜ",
+  "studioUrl": "https://swiftmade.co",
+  "added": "2026-11-19",
+  "short": "Real-time 3v3 winter brawl: push the lane, topple two towers, then the enemy Snow Fort.",
+  "description": "Snowball Fight is a real-time 3v3 team brawl set in the snow. You and your crew push down the lane, topple two towers and then break the enemy Snow Fort, all inside an eight-minute match. Bots fill any empty slots, so a game can start right away, with no download and no account needed.",
+  "instructions": "Best on a desktop browser with a window of at least 1200x650 pixels. Follow the on-screen prompts to join a match.",
+  "category": "action",
+  "extraCats": [
+   "multiplayer"
+  ],
+  "tags": [
+   "Multiplayer",
+   "3v3",
+   "Team",
+   "Winter",
+   "Snowball"
+  ],
+  "embed": "https://snowballfight.io",
+  "thumb": "https://ilovewebgames.com/assets/community/snowball-fight.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "yeet-guys",
+  "title": "Yeet Guys",
+  "studio": "Dr. Yeet Games",
+  "studioUrl": "https://dryeet.com",
+  "added": "2026-11-19",
+  "short": "Party obstacle-course races for bouncy beans: run official courses, host a party with friends or try community levels.",
+  "description": "Yeet Guys is a 3D party game where chunky beans race through big obstacle courses with little legs. Play the official carnival playlist, host a party and invite friends with a code, join public lobbies or try levels made by the community. Customise your bean in the wardrobe and climb the stats. The game is in beta.",
+  "instructions": "Choose Let's Fall to start an official course, or Host a Party and share the code with friends. Controls are shown in the game.",
+  "category": "action",
+  "extraCats": [
+   "multiplayer",
+   "3d"
+  ],
+  "tags": [
+   "Multiplayer",
+   "3D",
+   "Party",
+   "Obstacle Course",
+   "Beta"
+  ],
+  "embed": "https://dryeet.com/bean-carnival/",
+  "thumb": "https://ilovewebgames.com/assets/community/yeet-guys.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "banana-ops",
+  "title": "Banana Ops",
+  "studio": "Dr. Yeet Games",
+  "studioUrl": "https://dryeet.com",
+  "added": "2026-11-19",
+  "short": "Online monkey shooter with team deathmatch, hardpoint, search and destroy and 1v1 duels on 11 maps.",
+  "description": "Banana Ops is a free online monkey shooter that runs in your browser. Play team deathmatch, hardpoint, search and destroy or 1v1 duels on 11 maps, earn killstreaks all the way up to the Banana Gunship, and rely on bots that fill every match. No download and no sign-up.",
+  "instructions": "Controls are shown in the game menu. Pick a mode and a map, then jump into a match.",
+  "category": "action",
+  "extraCats": [
+   "shooting",
+   "multiplayer"
+  ],
+  "tags": [
+   "Shooter",
+   "Multiplayer",
+   "FPS",
+   "Monkey",
+   "Bots"
+  ],
+  "embed": "https://banana-ops-7q3x.staffcal.workers.dev/",
+  "thumb": "https://ilovewebgames.com/assets/community/banana-ops.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "city-stakes",
+  "title": "City Stakes",
+  "studio": "Aier Labs",
+  "studioUrl": "https://www.citystakes.com",
+  "added": "2026-11-19",
+  "short": "A 3D story game set in the city of Ilmara, where companies compete for the skyline and brands for every screen.",
+  "description": "City Stakes is a narrative 3D game set in Ilmara, a city that is up for sale. Companies compete for the skyline while brands compete for every screen in it. The game loads straight in your browser and runs best on a desktop.",
+  "instructions": "Use the mouse or touch to follow the story prompts on screen.",
+  "category": "adventure",
+  "extraCats": [
+   "3d"
+  ],
+  "tags": [
+   "Story",
+   "3D",
+   "Adventure",
+   "City"
+  ],
+  "embed": "https://www.citystakes.com/play?city=bengaluru",
+  "thumb": "https://ilovewebgames.com/assets/community/city-stakes.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "lantern-links",
+  "title": "Lantern Links",
+  "studio": "Shahriar Saeik (Swapnil), WebGame.fun",
+  "studioUrl": "https://webgame.fun",
+  "added": "2026-11-19",
+  "short": "Turn pipe tiles to carry light from the core to every lantern in an original puzzle with endless levels.",
+  "description": "Lantern Links is an original pipe puzzle by WebGame.fun. Rotate tiles to carry light from the core to every lantern on the board. The levels are endless and get harder as you go, so it works for a quick break or a longer session.",
+  "instructions": "Click or tap a tile to rotate it. Connect the light from the core to every lantern.",
+  "category": "puzzle",
+  "extraCats": [
+   "casual",
+   "mobile"
+  ],
+  "tags": [
+   "Puzzle",
+   "Casual",
+   "Logic",
+   "Endless"
+  ],
+  "embed": "https://webgame.fun/game/lantern-links",
+  "thumb": "https://ilovewebgames.com/assets/community/lantern-links.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "crypt-crawlers",
+  "title": "Crypt Crawlers",
+  "studio": "Crypt Crawlers",
+  "studioUrl": "https://cryptcrawlers.surge.sh",
+  "added": "2026-11-19",
+  "short": "Idle dungeon crawler: pick a hero, fight waves automatically and spend your gold on upgrades.",
+  "description": "Crypt Crawlers is an idle dungeon crawler in pixel art. Choose a hero such as Bram the Knight, level up through ranks, spin for rewards, collect daily bonuses and push for your best wave record. Your hero attacks automatically, and you cast skills and steer to survive.",
+  "instructions": "Move with your left thumb or the keys shown in the game. Attacks are automatic. Tap skills to cast them.",
+  "category": "clicker-idle",
+  "extraCats": [
+   "mobile"
+  ],
+  "tags": [
+   "Idle",
+   "Dungeon",
+   "Pixel Art",
+   "RPG",
+   "Roguelike"
+  ],
+  "embed": "https://cryptcrawlers.surge.sh",
+  "thumb": "https://ilovewebgames.com/assets/community/crypt-crawlers.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "vice-arcade",
+  "title": "Vice Arcade",
+  "studio": "River",
+  "studioUrl": "https://gta6minigames.com",
+  "added": "2026-11-19",
+  "short": "Fan-made neon arcade: survive 60 seconds of the Heat Run, swap drivers, grab cash and shake the cruisers.",
+  "description": "Vice Arcade is a fan-made browser arcade with a neon street-chase mini game. In the Vice City Heat Run you drive a street grid for sixty seconds, switch between two drivers, collect cash cases and escape a rising wanted level. The arcade also has highway and airboat drift games, a map guessing game and puzzle cabinets. It is an unofficial fan project and not affiliated with any game publisher.",
+  "instructions": "Arrow keys to drive, gas, brake and drift. R restarts, C swaps the driver, M mutes, F goes fullscreen. Touch controls appear on phones.",
+  "category": "arcade",
+  "extraCats": [
+   "racing",
+   "3d"
+  ],
+  "tags": [
+   "Arcade",
+   "Driving",
+   "Fan-made",
+   "Neon",
+   "Action"
+  ],
+  "embed": "https://gta6minigames.com/",
+  "thumb": "https://ilovewebgames.com/assets/community/vice-arcade.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "beat-the-chefs",
+  "title": "Beat The Chefs",
+  "studio": "Visybl Inc (a9n9)",
+  "studioUrl": "https://beatthechefs.com/?s=ilovewebgames",
+  "added": "2026-11-20",
+  "short": "Cook one dish against the clock in a single pan, then three judges score your plate against the house chef's.",
+  "description": "Beat The Chefs is a free browser cooking game built around one stove and a six-minute clock. Pick a signature dish, move ingredients to the board and pan, chop, control the heat, stir and season, then plate before time runs out. Three judges score your plate out of 100 and compare it with the house chef, who cooks the same dish on the same clock. New dishes arrive every day, and you can share your plate as a dare so a friend cooks the same dish against you.",
+  "instructions": "Move ingredients to the board and pan, hold to chop, set the burner heat, stir and taste, then plate once plating opens in the last minute. Three judges score your dish against the house chef's.",
+  "category": "cooking",
+  "extraCats": [
+   "mobile"
+  ],
+  "tags": [
+   "Cooking",
+   "Simulation",
+   "Timer",
+   "Casual"
+  ],
+  "embed": "https://beatthechefs.com/?s=ilovewebgames",
+  "thumb": "https://beatthechefs.com/art/card-home.jpg"
+ },
+ {
+  "slug": "overdrive-wave-assault",
+  "title": "OVERDRIVE: Wave Assault",
+  "studio": "Mindblown",
+  "studioUrl": "https://mindblown.ai/",
+  "added": "2026-11-20",
+  "short": "Third-person sci-fi shooter: gun down waves of enemies and take on a massive boss in a neon arena.",
+  "description": "OVERDRIVE: Wave Assault is a 3D third-person shooter played entirely in the browser. You fight through escalating waves of robotic enemies in a glowing sci-fi arena, managing ammo and movement until a colossal boss fight brings the round to a climax. The game features smooth 3D graphics and fast gunplay with no downloads required.",
+  "instructions": "WASD or arrow keys to move, mouse to aim and shoot. Dodge incoming fire and clear each wave before taking on the boss. Check the in-game HUD for ammo count and health.",
+  "category": "shooter",
+  "extraCats": [
+   "3d",
+   "action"
+  ],
+  "tags": [
+   "Shooter",
+   "3D",
+   "Sci-Fi",
+   "Wave Survival",
+   "Action"
+  ],
+  "embed": "https://overdrive-wave-assault.mindblown.ai/",
+  "thumb": "https://overdrive-wave-assault.mindblown.ai/thumb.webp",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "boardclash",
+  "title": "BoardClash",
+  "studio": "BoardClash",
+  "studioUrl": "https://boardclash.com/",
+  "added": "2026-11-20",
+  "short": "Classic two-player board strategy: deploy your pieces, outmaneuver your opponent and capture their flag.",
+  "description": "BoardClash is a free browser-based board strategy game inspired by the classic army-on-a-grid genre. Two players deploy pieces of varying rank on a 10×10 board, then take turns moving and attacking in an attempt to capture the opponent's flag. Pieces are hidden from the enemy until combat reveals them, adding a layer of bluffing and memory to every match. Play solo against an AI opponent or challenge a friend in pass-and-play mode. BoardClash is an independent fan project; Stratego is a trademark of Royal Jumbo B.V. and BoardClash is not affiliated with or endorsed by Royal Jumbo B.V.",
+  "instructions": "Drag pieces to place them during setup. On your turn, click a piece then click a destination to move or attack. The game reveals piece ranks when two pieces clash. Capture the enemy flag to win.",
+  "category": "board-games",
+  "extraCats": [
+   "strategy",
+   "multiplayer"
+  ],
+  "tags": [
+   "Strategy",
+   "Board Game",
+   "2 Player",
+   "Classic",
+   "Turn-Based"
+  ],
+  "embed": "https://boardclash.com/",
+  "thumb": "https://boardclash.com/og-boardclash.png",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "legend-court",
+  "title": "Legend Court",
+  "studio": "Legend Court",
+  "studioUrl": "https://legendcourt.com/",
+  "added": "2026-11-21",
+  "short": "Street basketball card game: 1 vs 1 and 3 vs 3 matches, collect player packs and build your team.",
+  "description": "Legend Court is a free browser basketball game. Play quick 1 vs 1 and 3 vs 3 matches, open player card packs, build your team and work your way through a story mode set on the neighborhood courts.",
+  "instructions": "Press PLAY to start a match. Use the on-screen controls to pass, shoot and defend. Open packs and build your roster between matches.",
+  "category": "sports",
+  "extraCats": [
+   "multiplayer",
+   "action"
+  ],
+  "tags": [
+   "Basketball",
+   "Sports",
+   "Card Game",
+   "Team Builder"
+  ],
+  "embed": "https://legendcourt.com/",
+  "thumb": "https://ilovewebgames.com/assets/community/legend-court.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "splinters",
+  "title": "Splinters",
+  "studio": "Splinters",
+  "studioUrl": "",
+  "added": "2026-11-21",
+  "short": "Tap the tree, earn coins per chop, and buy upgrades to keep the lumber flowing on its own.",
+  "description": "Splinters is a free browser idle/clicker game: tap the tree to earn coins, then spend them on an axe for more per chop, lumberjacks who chop for you automatically, and a sawmill that doubles their output. Switch between Birch, Oak and Sakura trees as you unlock them. Progress saves in your browser, no account needed.",
+  "instructions": "Click or tap the tree to chop it for coins. Spend coins on the Axe, Lumberjack and Sawmill upgrades below to earn faster, even while away.",
+  "category": "clicker-idle",
+  "extraCats": [
+   "casual"
+  ],
+  "tags": [
+   "Clicker",
+   "Idle",
+   "Casual"
+  ],
+  "embed": "https://splinters-naitie.surge.sh/",
+  "thumb": "https://ilovewebgames.com/assets/community/splinters.jpg?v=1",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "monkey-business",
+  "title": "Monkey Business",
+  "studio": "Critical Bananas",
+  "studioUrl": "https://criticalbananas.com/",
+  "added": "2026-11-21",
+  "short": "Free daily browser runner: you're a banana, a monkey is chasing you, and a run takes under a minute.",
+  "description": "Monkey Business is a free browser runner: dodge and dash as a banana being chased down by a monkey. Get 3 ranked runs a day with a free account for the daily leaderboard, or play unlimited practice runs with no sign-up. Works on phone and desktop.",
+  "instructions": "Press PLAY RANKED for a scored daily run, or PRACTICE to play with no limit. Use the on-screen or keyboard controls to dodge obstacles and survive as long as you can.",
+  "category": "action",
+  "extraCats": [
+   "casual",
+   "hypercasual"
+  ],
+  "tags": [
+   "Runner",
+   "Arcade",
+   "Daily Challenge"
+  ],
+  "embed": "https://criticalbananas.com/play",
+  "thumb": "https://criticalbananas.com/og/play",
+  "orientation": "landscape"
+ },
+ {
+  "slug": "ghost-run",
+  "title": "Ghost Run",
+  "studio": "ColacStudio",
+  "studioUrl": "https://playgama.ai/play/pirgxguhlwgq7o",
+  "added": "2026-11-23",
+  "short": "One-tap flight through hundreds of levels while the ghost of your own best run races beside you.",
+  "description": "Ghost Run is a free one-tap flying game where your toughest rival is yourself. A small ghost flaps between pillars, collects coins and heads for the finish line, and your best attempt flies alongside you in gold. Levels are grouped into worlds such as Dawn Fields, Coral Sky, Neon Dunes and Storm Ridge, fifty levels at a time. Every few levels a race against your golden ghost decides the crown, and boss levels break up the run. Stars earned on each level add up to a long-term total, so there is always a better time to chase. It runs in the browser on desktop and phone with no download.",
+  "instructions": "Tap, click or press Space to flap. Fly through the gaps between the pillars, grab the coins and reach the finish. On race levels, beat your golden ghost to take the crown.",
+  "category": "arcade",
+  "extraCats": [
+   "hypercasual",
+   "mobile"
+  ],
+  "tags": [
+   "One Tap",
+   "Flappy",
+   "Ghost",
+   "Levels",
+   "Arcade",
+   "Casual"
+  ],
+  "embed": "https://sb-pirgxguhlwgq7o.games.playgama.net/cmws5bi2c4fvsmm0h0txslbyc/__patch__/cmws5cv3o5cuajx0i92hf8d9b/index.html",
+  "thumb": "https://ilovewebgames.com/assets/community/ghost-run.jpg?v=1",
+  "orientation": "any",
+  "studioRating": {
+   "gameplay": 6,
+   "controls": 8,
+   "visuals": 7,
+   "note": "Clean one-tap flying with a smart ghost-race twist; the core loop is simple but the level map gives it a long tail."
+  }
+ },
+ {
+  "slug": "santas-rooftop-rush",
+  "title": "Santa's Rooftop Rush",
+  "studio": "ColacStudio",
+  "studioUrl": "https://playgama.ai/play/kv46qbajikt7yo",
+  "added": "2026-11-23",
+  "short": "Run Santa across snowy rooftops, double-jump the gaps and drop a present down every chimney.",
+  "description": "Santa's Rooftop Rush is a free Christmas runner. Santa runs on his own across the rooftops of Snowy Village, and your only job is timing: tap to jump, tap again in mid-air to double-jump. Presents drop down the chimneys by themselves as you pass, while bumping into snowmen and other obstacles costs you a spare present. Each level asks you to visit a set number of houses and hides three lost elves to rescue, and the elves unlock new hats. The level map climbs through several worlds with boss fights and Sleigh Ride levels, plus a Workshop and an Endless mode that opens later.",
+  "instructions": "Tap or click anywhere to jump, and tap again in the air to double-jump. Presents go down the chimneys automatically. Avoid obstacles, rescue the three hidden elves in each level and reach the finish. In Sleigh Ride levels, drag up and down to fly.",
+  "category": "arcade",
+  "extraCats": [
+   "adventure",
+   "mobile"
+  ],
+  "tags": [
+   "Christmas",
+   "Santa",
+   "Runner",
+   "Platformer",
+   "One Tap",
+   "Winter"
+  ],
+  "embed": "https://sb-kv46qbajikt7yo.games.playgama.net/cmwqsyjjx2vctjx0i65s8yqkb/__patch__/cmwqt0doy2cfrmm0haev3nx3s/index.html",
+  "thumb": "https://ilovewebgames.com/assets/community/santas-rooftop-rush.jpg?v=1",
+  "orientation": "any",
+  "studioRating": {
+   "gameplay": 6,
+   "controls": 8,
+   "visuals": 8,
+   "note": "Charming festive runner with clear level goals and hidden elves to hunt; easy to pick up, timing-based depth."
+  }
+ },
+ {
+  "slug": "planet-pounce",
+  "title": "Planet Pounce",
+  "studio": "ColacStudio",
+  "studioUrl": "https://gamejolt.com/games/planet-pounce/1121200",
+  "added": "2026-11-23",
+  "short": "Leap a tiny astronaut cat from one spinning planet to the next with perfectly timed taps.",
+  "description": "Planet Pounce is a free one-button space game starring an astronaut cat. Each planet spins, and the cat leaps in whatever direction it is facing when you tap, so the whole game is timing. Land on the next planet to keep climbing toward the finish; miss and you drift off into space. Every level has three star goals, such as finishing, collecting every space fish and beating a par time, and quick hops in a row build combos. Levels start in Zone 1, Milk Way, and run across five zones, with spike planets later on, an Endless mode and six unlockable suits.",
+  "instructions": "Tap, click or press Space to pounce. Time your jump so the cat leaves the planet facing the next one. Collect the space fish, finish under the par time for three stars and chain quick hops for combo points.",
+  "category": "arcade",
+  "extraCats": [
+   "hypercasual",
+   "mobile"
+  ],
+  "tags": [
+   "One Tap",
+   "Space",
+   "Cat",
+   "Timing",
+   "Levels",
+   "Casual"
+  ],
+  "embed": "https://sb-yepobijo2insek.games.playgama.net/cmwr55jhx2tl5mm0hxd3r7n6n/__patch__/cmwr5dhi13fn5jx0iuycyxi5j/index.html",
+  "thumb": "https://ilovewebgames.com/assets/community/planet-pounce.jpg?v=1",
+  "orientation": "any",
+  "studioRating": {
+   "gameplay": 7,
+   "controls": 8,
+   "visuals": 8,
+   "note": "The spinning-planet timing feels good from the first jump, and the three star goals per level give replay value."
+  }
+ },
+ {
+  "slug": "formfieber",
+  "title": "FormFieber",
+  "studio": "FormFieber",
+  "studioUrl": "https://formfieber.com/en/",
+  "added": "2026-11-23",
+  "short": "A 3D party game: build a secret word out of cubes, spheres, cylinders and cones while friends guess.",
+  "description": "FormFieber is a free 3D party game for 2 to 12 players. One player picks a secret word and builds it from simple shapes, cubes, spheres, cylinders and cones, which can be moved, rotated, scaled and coloured. Everyone else guesses in the chat and scores points for being quick. Besides Build and Guess there is Build Battle, where everyone models the same word and rates the others, and 3D Telephone, where builds and descriptions pass along a chain. Private rooms work with a room code, Quick Play finds a public room, and a solo Practice workbench with no timer lets you learn the tools first.",
+  "instructions": "This game is best with friends: enter a name, press Create Room and share the room code, or use Quick Play to join a public room. When you build, drag to orbit the camera and add shapes from the left panel. When others build, type your guesses in the chat. Practice lets you try the 3D workbench alone.",
+  "category": "multiplayer",
+  "extraCats": [
+   "3d",
+   "two-player"
+  ],
+  "tags": [
+   "Party",
+   "Multiplayer",
+   "3D",
+   "Drawing",
+   "Guessing",
+   "Friends"
+  ],
+  "embed": "https://formfieber.com/en/",
+  "thumb": "https://ilovewebgames.com/assets/community/formfieber.jpg?v=1",
+  "orientation": "landscape",
+  "studioRating": {
+   "gameplay": 7,
+   "controls": 7,
+   "visuals": 8,
+   "note": "Fresh twist on draw-and-guess with a real 3D workbench; needs friends in a room to shine."
+  }
+ },
+ {
+  "slug": "fix-my-watch",
+  "title": "Fix My Watch!",
+  "studio": "pingulovegames",
+  "studioUrl": "https://pingulovegames.com/",
+  "added": "2026-11-25",
+  "short": "A cozy watch repair bench: take broken watches apart, find the bad parts and make them tick again.",
+  "description": "Fix My Watch! puts you behind a watchmaker's bench. Customers bring in broken watches, from a cheap resin digital to finer pieces, each with a short story and a target time to set. Every job runs in five steps: take the watch apart, inspect the parts and tap every cracked, rusted or bent one to replace it, clean the inside, rebuild it in the right order and give it a final polish. The parts tray lays out strap, buttons, glass, LCD, battery, circuit and case, so you can see exactly what you removed. Coins from finished repairs go into the Workshop, and harder watches come later.",
+  "instructions": "Tap the watch to take it apart piece by piece. In the inspection step, tap every broken part in the tray to replace it, then press Inspection done. Clean, rebuild and polish to finish the job. The light bulb gives a hint; the clock shows how long the repair took.",
+  "category": "puzzle",
+  "extraCats": [
+   "kids",
+   "mobile"
+  ],
+  "tags": [
+   "Repair",
+   "Simulation",
+   "Puzzle",
+   "Cozy",
+   "Watches",
+   "Family"
+  ],
+  "embed": "https://pingulovegames.com/games/fix-my-watch/play",
+  "thumb": "https://ilovewebgames.com/assets/community/fix-my-watch.jpg?v=1",
+  "orientation": "landscape",
+  "studioRating": {
+   "gameplay": 7,
+   "controls": 8,
+   "visuals": 8,
+   "note": "Original, calm repair loop with a clear five-step job; pleasant and tactile, best for short relaxed sessions."
+  }
+ },
+ {
+  "slug": "scrap-core",
+  "title": "SCRAP CORE Demo",
+  "studio": "6 Finger Games",
+  "studioUrl": "https://6fingergames.com/games/scrap-core/",
+  "added": "2026-11-25",
+  "short": "A scrap robot battles ink monsters on a notebook page: survive the waves and rebuild the transmitter.",
+  "description": "SCRAP CORE is an arena survival shooter drawn like a doodle on squared notebook paper. Your ship crashes on a hostile planet and a small scrap robot has to survive wave after wave of ink monsters until a rescue ship can be called. You move, aim and fire yourself, pick up crystals to level up, merge hand-drawn weapons into stronger ones and collect the scattered parts of the transmitter. A health bar, level bar and wave timer sit on torn paper scraps at the top of the screen. This free demo covers the first twelve waves and is made for PC with keyboard and mouse.",
+  "instructions": "Move with WASD or the arrow keys, aim with the mouse and hold the left mouse button or Space to shoot. When the creature Xenom grabs you, spin the mouse around your robot (or press the arrow keys in a circle) to throw it off. Survive 12 waves until the rescue ship arrives.",
+  "category": "shooting",
+  "extraCats": [
+   "action"
+  ],
+  "tags": [
+   "Shooter",
+   "Arena",
+   "Survival",
+   "Robots",
+   "Waves",
+   "Hand-drawn"
+  ],
+  "embed": "https://6fingergames.com/portals/ilovewebgames/scrap-core-demo/",
+  "thumb": "https://ilovewebgames.com/assets/community/scrap-core.jpg?v=2",
+  "orientation": "landscape",
+  "studioRating": {
+   "gameplay": 8,
+   "controls": 7,
+   "visuals": 9,
+   "note": "Striking notebook-doodle art and a proper wave shooter loop with weapon merging; desktop only."
+  }
+ },
+ {
+  "slug": "toy-truck-rescue",
+  "title": "Toy Truck Rescue",
+  "studio": "PixelForge Studio",
+  "studioUrl": "https://tranducthanh0802.itch.io/toy-truck-rescue",
+  "added": "2026-11-25",
+  "short": "Drive a brave toy truck through a giant house to rescue your toy friends from a runaway robot vacuum.",
+  "description": "Toy Truck Rescue is a 3D driving adventure seen from the size of a toy. You steer Ti, a little blue truck, through a giant bedroom, a living room and a sunny backyard to rescue toy friends a runaway robot vacuum has taken. An arrow guides you to each friend, you carry them back to the Toy Box, and a noise meter at the top shows whether the house is still asleep. Along the way you sneak past a pouncing cat and a lawn mower, collect coins on ramps and tracks, then outrun Fetch Bot in a night chase before a final arena battle.",
+  "instructions": "W or Up to drive, S or Down to reverse, A/D or Left/Right to steer. R gets you unstuck, P pauses, M mutes. On touch screens drag the on-screen stick. Drive close to a toy friend to pick it up, then follow the arrow back to the Toy Box. Hide under furniture when the monster comes.",
+  "category": "racing",
+  "extraCats": [
+   "3d",
+   "adventure",
+   "kids"
+  ],
+  "tags": [
+   "Driving",
+   "3D",
+   "Adventure",
+   "Toys",
+   "Rescue",
+   "Family"
+  ],
+  "embed": "https://sb-ucmfgs2vsatkca.games.playgama.net/cmwtcmzlk0k1zkc0hw1whhzkg/__patch__/cmwtcp1t80k6ekc0h6oli7stt/index.html",
+  "thumb": "https://ilovewebgames.com/assets/community/toy-truck-rescue.jpg?v=1",
+  "orientation": "landscape",
+  "studioRating": {
+   "gameplay": 7,
+   "controls": 7,
+   "visuals": 8,
+   "note": "Charming toy-scale 3D world with a clear rescue goal; the stealth meter adds a bit of tension."
+  }
+ },
+ {
+  "slug": "pho-street-tycoon-3d",
+  "title": "Pho Street Tycoon 3D",
+  "studio": "PixelForge Studio",
+  "studioUrl": "https://playgama.ai/play/l6lt6kfhkqesrn",
+  "added": "2026-11-25",
+  "short": "Reopen Grandpa's pho cart in Ha Noi, cook and serve bowls, hire staff and grow into a two-floor restaurant.",
+  "description": "Pho Street Tycoon 3D is a cozy restaurant tycoon with a story. A short cutscene sets it up in Ha Noi, and you reopen your grandfather's pho cart. Each bowl is built by walking between stations: the noodle basket, the meat board and the broth pot, then carrying it to the guest who ordered before their patience runs out. Cash pays for upgrades on floor pads and for staff who cook and serve for you. A street map shows the three chapters, from the street cart to the small shop and the two-floor restaurant, ending in a pho showdown with a rival shop. There is a wardrobe with eight cooks.",
+  "instructions": "Walk with WASD or the arrow keys, or drag on the screen. Stand at the noodle basket, then the meat board, then the broth pot to make a bowl, and walk it to the guest who ordered it. Pick up the cash, stand on a pad to buy upgrades and hire staff. Reach each chapter goal, then win the final pho showdown.",
+  "category": "cooking",
+  "extraCats": [
+   "3d",
+   "clicker-idle"
+  ],
+  "tags": [
+   "Tycoon",
+   "Cooking",
+   "Restaurant",
+   "Management",
+   "3D",
+   "Story"
+  ],
+  "embed": "https://sb-l6lt6kfhkqesrn.games.playgama.net/cmwejntph0i7clz0h28e0u71d/__patch__/cmwu5ygke2ai4ke0htgnvuwd6/index.html",
+  "thumb": "https://ilovewebgames.com/assets/community/pho-street-tycoon-3d.jpg?v=1",
+  "orientation": "landscape",
+  "studioRating": {
+   "gameplay": 7,
+   "controls": 7,
+   "visuals": 7,
+   "note": "A tycoon with an actual story and chapters; the walk-to-station cooking loop is simple but satisfying."
+  }
+ },
+ {
+  "slug": "lost-horizons",
+  "title": "Lost Horizons",
+  "studio": "Kubzo (zorbasam)",
+  "studioUrl": "https://kubzo.com",
+  "added": "2026-11-26",
+  "short": "A cosy 3D multiplayer island: vote on quick minigames, race up Treasure Mountain and level up with other players.",
+  "description": "Lost Horizons is a cosy multiplayer island you join straight from the browser as a guest. Players gather in the Plaza, vote on the next minigame and play rounds that last about a minute or a minute and a half. Every ten minutes a treasure race starts up the mountain, a travelling trader turns up each day, and an old sage named Ondo hints at the island's mysteries. You pick a name, customise a little character and level up as you play, with progress saved if you sign in. The island shows how many islanders are online and has its own server picker, so you can join the closest region.",
+  "instructions": "Press PLAY to join as a guest. Move with WASD or the arrow keys (touch controls on phones). Walk into the Plaza to vote for the next minigame, join the treasure race when it is announced and talk to characters to start quests. Sign in only if you want to keep your progress. Note: the island has an open chat with other players.",
+  "category": "multiplayer",
+  "extraCats": [
+   "3d",
+   "adventure"
+  ],
+  "tags": [
+   "Multiplayer",
+   "Party",
+   "Minigames",
+   "3D",
+   "Island",
+   "Online"
+  ],
+  "embed": "https://kubzo.com",
+  "thumb": "https://ilovewebgames.com/assets/community/lost-horizons.jpg?v=1",
+  "orientation": "landscape",
+  "studioRating": {
+   "gameplay": 8,
+   "controls": 7,
+   "visuals": 8,
+   "note": "Polished, lively 3D party island with real events; fun depends on how many players are online."
+  }
+ },
+ {
+  "slug": "penguin-iceberg-empire",
+  "title": "Penguin Iceberg Empire",
+  "studio": "pingulovegames",
+  "studioUrl": "https://pingulovegames.com",
+  "added": "2026-11-26",
+  "short": "Tap the penguin to catch fish, hire fishing penguins and grow a tiny ice floe into a floating penguin city.",
+  "description": "Penguin Iceberg Empire is a cosy idle builder that starts with one penguin on a tiny ice floe. Tapping the big penguin catches fish, and fish pay for buildings that keep fishing on their own, starting with a Fishing Penguin and then an Ice Fishing Hole, while further buildings stay hidden until you unlock them. An Upgrades tab opens once your first fishers are working, golden fish and whales swimming past give surprise bonuses, and later you can dive for relics and rebirth for permanent power. Progress saves automatically, and your buildings keep earning while you are away.",
+  "instructions": "Click or tap the big penguin to catch fish. Open Build to buy Fishing Penguins and other buildings (x1, x10 or Max), then check Upgrades to boost them. Tap golden fish and whales for bonuses. Later use Dive for relics and Rebirth for permanent bonuses.",
+  "category": "clicker-idle",
+  "extraCats": [
+   "kids",
+   "mobile"
+  ],
+  "tags": [
+   "Idle",
+   "Clicker",
+   "Tycoon",
+   "Penguins",
+   "Cozy",
+   "Builder"
+  ],
+  "embed": "https://pingulovegames.com/games/penguin-iceberg-empire/play",
+  "thumb": "https://ilovewebgames.com/assets/community/penguin-iceberg-empire.jpg?v=1",
+  "orientation": "portrait",
+  "studioRating": {
+   "gameplay": 6,
+   "controls": 8,
+   "visuals": 8,
+   "note": "Clean, cute idle loop with a fast first unlock; depth comes later through relics and rebirth."
+  }
+ },
+ {
+  "slug": "mexican-train-online",
+  "title": "Mexican Train Online",
+  "studio": "Chetan Kumar",
+  "studioUrl": "https://mexicantraindominogame.com/",
+  "added": "2026-11-26",
+  "short": "Classic Mexican Train dominoes against three computer players, or pass-and-play with friends on one device.",
+  "description": "Mexican Train Online brings the classic dominoes game to the browser. A round opens from a double engine in the middle, here the 12|12, and every player builds a personal train from it while a shared Mexican Train stays open to everyone. You play against computer opponents named Rusty, Tess and Dilly on easy, medium or hard, or pass the device around for two to four people. Your hand shows the pip count, a hint button lights up playable tiles, and you can undo, sort your hand and play full screen. Double-6, double-9, double-12 and larger sets are supported.",
+  "instructions": "Tap a glowing domino in your hand, then tap the end of a train to play it: your own train, the shared Mexican Train, or another player's train once it is open. If you cannot play, draw from the boneyard. Empty your hand first; the lowest pip total after all rounds wins. Use the bulb for hints.",
+  "category": "puzzle",
+  "extraCats": [
+   "two-player",
+   "mobile"
+  ],
+  "tags": [
+   "Dominoes",
+   "Board Game",
+   "Classic",
+   "Strategy",
+   "Pass and Play",
+   "vs Computer"
+  ],
+  "embed": "https://mexicantraindominogame.com/",
+  "thumb": "https://ilovewebgames.com/assets/community/mexican-train-online.jpg?v=1",
+  "orientation": "landscape",
+  "studioRating": {
+   "gameplay": 8,
+   "controls": 8,
+   "visuals": 7,
+   "note": "Faithful, quick-playing Mexican Train with sensible AI and handy hint/sort tools."
+  }
+ },
+ {
+  "slug": "draw-the-odds",
+  "title": "Draw The Odds",
+  "studio": "jantagames",
+  "studioUrl": "https://jantagames.itch.io/",
+  "added": "2026-11-27",
+  "short": "A pixel-art boss rush where every boss is a playing card hiding a secret number, and your cards are the bullets.",
+  "description": "Draw The Odds is a pixel-art platformer boss rush built for a 2026 Unity game jam. Each boss is a face card, starting with the Jack of clubs, and hides a secret number from 1 to 13. You run and jump around a gothic arena throwing cards from a ten-card hand: arrows tell you whether to go higher or lower, the closer you get the more damage you deal, and an exact hit is a critical. Dodge dice and chips, grab plus, minus and multiply orbs to merge two cards into the number you need, beat the Jack, Queen and King, then try Endless mode.",
+  "instructions": "Desktop: A/D move, Space jump, Shift dash, mouse wheel or 1-0 to pick a card, left click to throw it, R to draw a new hand (3 per run). With an orb, place two cards and click to merge. Mobile: left joystick, jump and dash buttons, tap a card and drag it up to throw.",
+  "category": "action",
+  "extraCats": [
+   "arcade",
+   "mobile"
+  ],
+  "tags": [
+   "Boss Rush",
+   "Pixel Art",
+   "Cards",
+   "Platformer",
+   "Game Jam",
+   "Endless Mode"
+  ],
+  "embed": "https://play.gamepix.com/draw-the-odds/embed?sid=5E198",
+  "thumb": "https://ilovewebgames.com/assets/community/draw-the-odds.jpg?v=1",
+  "orientation": "landscape",
+  "studioRating": {
+   "gameplay": 8,
+   "controls": 7,
+   "visuals": 8,
+   "note": "Clever higher-or-lower twist on a boss fight; juggling movement and card picks takes a minute to click."
+  }
+ },
+ {
+  "slug": "scrap-steel",
+  "title": "Scrap & Steel",
+  "studio": "Sylvic",
+  "studioUrl": "https://www.gamepix.com/play/scrap-steel",
+  "added": "2026-11-27",
+  "short": "Run a debt-ridden cyberpunk garage for 30 days: take jobs, forge and tune parts, and pay off the Syndicate.",
+  "description": "Scrap & Steel puts you in charge of an inherited garage in rainy Astra City, owing 10,000 credits to the Scraphound Syndicate with rent due every day. Before day one you pick a career road: Cyber-Reputation for volume and shop rating, the Mech Championship for heavy forging, or the Drifter League for precision tuning. Each morning brings job offers such as a bionic arm tune-up or an arena brawler overhaul, each with pay, action points and a deadline. You finish them in three skill minigames, Forge, Calibrator and Assembler, where timing decides the quality and the cash.",
+  "instructions": "Pick jobs from the morning briefing, then open the workshop. Forge: Space/Enter or click on time. Calibrator: hold or tap Space or left click. Assembler: arrows/WASD or click adjacent cells. End the day with Tab/E. On mobile, tap and hold. Pay off the debt within 30 days.",
+  "category": "clicker-idle",
+  "extraCats": [
+   "mobile"
+  ],
+  "tags": [
+   "Simulation",
+   "Management",
+   "Cyberpunk",
+   "Pixel Art",
+   "Minigames",
+   "Tycoon"
+  ],
+  "embed": "https://play.gamepix.com/scrap-steel/embed?sid=5E198",
+  "thumb": "https://ilovewebgames.com/assets/community/scrap-steel.jpg?v=1",
+  "orientation": "landscape",
+  "studioRating": {
+   "gameplay": 8,
+   "controls": 7,
+   "visuals": 8,
+   "note": "Atmospheric garage sim with real choices between three career paths and a tight 30-day clock."
+  }
+ },
+ {
+  "slug": "byte-heist",
+  "title": "Byte Heist",
+  "studio": "Late Shift Games",
+  "studioUrl": "https://lateshiftgames.itch.io/byte-heist",
+  "added": "2026-11-27",
+  "short": "Idle hacker game: tap the terminal, buy rigs, and beat rival hackers in quick mini-game hack-offs.",
+  "description": "Byte Heist starts with a cracked old laptop and a blinking terminal that says no hardware is detected. Every tap pulls a byte; buy servers and upgrades and the rigs keep downloading for you, climbing from bytes to terabytes while a heat meter rises. Beyond the idle loop are hack-off battles against rival hackers, built from three random mini-games out of five, including spinning a lock dial to the right number and patching a network leak. Clean, fast solves earn bonuses. The amber terminal look and the short tutorial make it easy to pick up on a phone.",
+  "instructions": "Tap or click the terminal to pull data, then buy servers and upgrades. In hack-offs, solve three random mini-games before your rival: tap tiles, drag the lock dial, or use arrow keys/WASD for arrow tiles. Rigs keep earning while you are away.",
+  "category": "clicker-idle",
+  "extraCats": [
+   "mobile"
+  ],
+  "tags": [
+   "Idle",
+   "Clicker",
+   "Hacker",
+   "Minigames",
+   "Incremental"
+  ],
+  "embed": "https://play.gamepix.com/byte-heist/embed?sid=5E198",
+  "thumb": "https://ilovewebgames.com/assets/community/byte-heist.jpg?v=1",
+  "orientation": "portrait",
+  "studioRating": {
+   "gameplay": 7,
+   "controls": 8,
+   "visuals": 7,
+   "note": "Stylish terminal idler; the hack-off mini-games give it more bite than a plain clicker."
+  }
+ },
+ {
+  "slug": "evening-club-191-durak",
+  "title": "Evening Club 191: Durak",
+  "studio": "Evening Club 191",
+  "studioUrl": "https://eveningclub191.com/",
+  "added": "2026-11-27",
+  "short": "Play the classic card game Durak at a 3D table in a cosy club, against a bot or with friends.",
+  "description": "Evening Club 191 is a 3D card lounge where you sit at a green round table in a wood-panelled room, rain on the window behind you, and play Durak. Create a table, pick throw-in or transfer rules, add up to several bots, or keep the table invitation-only and send the link to friends. During a round you see your hand in 3D, the trump card and the deck count, and buttons for Hint, Play card, Take cards and Pass. A short tutorial with practice moves teaches the basics. You can also stand up and walk the room.",
+  "instructions": "Choose a table: set your name, the rules and the number of bots, then Create and sit down and Start the game. Select cards with mouse or touch and use Play card, Take cards or Pass. Do not be the last player holding cards. Right mouse looks around, WASD walks.",
+  "category": "puzzle",
+  "extraCats": [
+   "multiplayer",
+   "two-player",
+   "3d"
+  ],
+  "tags": [
+   "Durak",
+   "Card Game",
+   "3D",
+   "Classic",
+   "vs Bot",
+   "Play with Friends"
+  ],
+  "embed": "https://play.eveningclub191.com/?lang=en",
+  "thumb": "https://ilovewebgames.com/assets/community/evening-club-191-durak.jpg?v=1",
+  "orientation": "landscape",
+  "studioRating": {
+   "gameplay": 8,
+   "controls": 7,
+   "visuals": 9,
+   "note": "Gorgeous 3D table for a proper game of Durak; a few labels still show in Russian."
+  }
+ },
+ {
+  "slug": "space-trick-battle",
+  "title": "Space Trick Battle",
+  "studio": "SpaceTrickBattle",
+  "studioUrl": "https://nikkukyuu-code.github.io/shooting-online/",
+  "added": "2026-11-27",
+  "short": "A versus shooter: auto-fire, grab items, and send enemy units to your opponent's field until they run out of life.",
+  "description": "Space Trick Battle is a versus shooter split into three strips: your opponent's field on top, your ship in the middle and the controls below. Your ship fires on its own while you drag it to dodge; defeated enemies drop items you hold in three slots, and send items push units from your five-unit deck onto the opponent's field. When the five-minute timer runs out, remaining life decides it. Practice against the computer at Normal Level, chase the ranking at Ranker Level, or play online by finding an opponent or sharing a room name. Missions and a shop unlock more units with points.",
+  "instructions": "Drag your ship in the control area (or use arrow keys/WASD); it fires automatically. Tap an item slot on the right to use it; you can hold three. Outlast the opponent with send and attack items. Build a deck of five units and unlock more in the Shop with PT.",
+  "category": "shooting",
+  "extraCats": [
+   "multiplayer",
+   "mobile"
+  ],
+  "tags": [
+   "Versus",
+   "Shoot 'em up",
+   "Online PvP",
+   "Deck Building",
+   "Ranking"
+  ],
+  "embed": "https://nikkukyuu-code.github.io/shooting-online/",
+  "thumb": "https://ilovewebgames.com/assets/community/space-trick-battle.jpg?v=1",
+  "orientation": "portrait",
+  "studioRating": {
+   "gameplay": 7,
+   "controls": 7,
+   "visuals": 5,
+   "note": "Surprisingly deep versus shooter with a deck and ranking, held back by a busy, plain-looking UI."
+  }
+ },
+ {
+  "slug": "the-comet",
+  "title": "The Comet",
+  "studio": "Sevenfair",
+  "studioUrl": "https://lira-ia.github.io/sevenfair/",
+  "added": "2026-11-27",
+  "short": "A one-thumb neon run: dodge, jump and duck along a daily track that is the same for every player, and chase the day's score.",
+  "description": "The Comet is a daily one-thumb runner set on a neon grid. You ride a comet down a three-lane track, switching lanes, jumping gates and ducking under bars while collecting stars that build a combo. The track is generated once a day and is identical for everyone, so the leaderboard is a fair race rather than a question of who got the kinder level. A run lasts under a minute, your points stack across a seven-day week, and the counter on the title screen shows when the next track arrives. There is no account and no install: open it, press space or tap, and your score for the day is set.",
+  "instructions": "Press space or tap to start. Left and right arrows change lane, up jumps a gate, down ducks under a bar. Collect stars to raise the combo multiplier and keep clean lines to build near misses. Hitting an obstacle ends the run, and you can ride again straight away on the same daily track.",
+  "category": "arcade",
+  "extraCats": [
+   "hypercasual",
+   "mobile"
+  ],
+  "tags": [
+   "Daily challenge",
+   "Endless runner",
+   "One button",
+   "Leaderboard",
+   "Neon"
+  ],
+  "embed": "https://lira-ia.github.io/sevenfair/comet/?from=ilovewebgames",
+  "thumb": "https://ilovewebgames.com/assets/community/the-comet.jpg?v=1",
+  "orientation": "portrait",
+  "studioRating": {
+   "gameplay": 7,
+   "controls": 8,
+   "visuals": 8,
+   "note": "Sharp neon look and instant one-thumb controls; the daily-track idea gives a short game a reason to come back, though the run itself stays simple."
+  }
+ }
 ]
