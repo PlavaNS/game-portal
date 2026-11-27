@@ -1,0 +1,36 @@
+name: Make a community cover
+
+on:
+  workflow_dispatch:
+    inputs:
+      src: { description: 'Source image URL', required: true }
+      slug: { description: 'Game slug', required: true }
+      title: { description: 'Title to write on the cover (optional)', required: false, default: '' }
+      crop: { description: 'left,top,width,height in source pixels (optional)', required: false, default: '' }
+
+permissions:
+  contents: write
+
+jobs:
+  cover:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: npm install --no-save sharp@0.33.5
+      - run: node scripts/make-cover.mjs
+        env:
+          SRC: ${{ inputs.src }}
+          SLUG: ${{ inputs.slug }}
+          TITLE: ${{ inputs.title }}
+          CROP: ${{ inputs.crop }}
+      - name: Commit the cover
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add static/assets/community
+          git commit -m "Cover for ${{ inputs.slug }} [skip ci]" || exit 0
+          git pull --rebase -X theirs origin main || true
+          git push origin HEAD:main
