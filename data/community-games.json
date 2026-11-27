@@ -1400,5 +1400,162 @@
       "visuals": 7,
       "note": "Faithful, quick-playing Mexican Train with sensible AI and handy hint/sort tools."
     }
+  },
+  {
+    "slug": "draw-the-odds",
+    "title": "Draw The Odds",
+    "studio": "jantagames",
+    "studioUrl": "https://jantagames.itch.io/",
+    "added": "2026-11-27",
+    "short": "A pixel-art boss rush where every boss is a playing card hiding a secret number, and your cards are the bullets.",
+    "description": "Draw The Odds is a pixel-art platformer boss rush built for a 2026 Unity game jam. Each boss is a face card, starting with the Jack of clubs, and hides a secret number from 1 to 13. You run and jump around a gothic arena throwing cards from a ten-card hand: arrows tell you whether to go higher or lower, the closer you get the more damage you deal, and an exact hit is a critical. Dodge dice and chips, grab plus, minus and multiply orbs to merge two cards into the number you need, beat the Jack, Queen and King, then try Endless mode.",
+    "instructions": "Desktop: A/D move, Space jump, Shift dash, mouse wheel or 1-0 to pick a card, left click to throw it, R to draw a new hand (3 per run). With an orb, place two cards and click to merge. Mobile: left joystick, jump and dash buttons, tap a card and drag it up to throw.",
+    "category": "action",
+    "extraCats": [
+      "arcade",
+      "mobile"
+    ],
+    "tags": [
+      "Boss Rush",
+      "Pixel Art",
+      "Cards",
+      "Platformer",
+      "Game Jam",
+      "Endless Mode"
+    ],
+    "embed": "https://play.gamepix.com/draw-the-odds/embed?sid=5E198",
+    "thumb": "https://ilovewebgames.com/assets/community/draw-the-odds.jpg?v=1",
+    "orientation": "landscape",
+    "studioRating": {
+      "gameplay": 8,
+      "controls": 7,
+      "visuals": 8,
+      "note": "Clever higher-or-lower twist on a boss fight; juggling movement and card picks takes a minute to click."
+    }
+  },
+  {
+    "slug": "scrap-steel",
+    "title": "Scrap & Steel",
+    "studio": "Sylvic",
+    "studioUrl": "https://www.gamepix.com/play/scrap-steel",
+    "added": "2026-11-27",
+    "short": "Run a debt-ridden cyberpunk garage for 30 days: take jobs, forge and tune parts, and pay off the Syndicate.",
+    "description": "Scrap & Steel puts you in charge of an inherited garage in rainy Astra City, owing 10,000 credits to the Scraphound Syndicate with rent due every day. Before day one you pick a career road: Cyber-Reputation for volume and shop rating, the Mech Championship for heavy forging, or the Drifter League for precision tuning. Each morning brings job offers such as a bionic arm tune-up or an arena brawler overhaul, each with pay, action points and a deadline. You finish them in three skill minigames, Forge, Calibrator and Assembler, where timing decides the quality and the cash.",
+    "instructions": "Pick jobs from the morning briefing, then open the workshop. Forge: Space/Enter or click on time. Calibrator: hold or tap Space or left click. Assembler: arrows/WASD or click adjacent cells. End the day with Tab/E. On mobile, tap and hold. Pay off the debt within 30 days.",
+    "category": "clicker-idle",
+    "extraCats": [
+      "mobile"
+    ],
+    "tags": [
+      "Simulation",
+      "Management",
+      "Cyberpunk",
+      "Pixel Art",
+      "Minigames",
+      "Tycoon"
+    ],
+    "embed": "https://play.gamepix.com/scrap-steel/embed?sid=5E198",
+    "thumb": "https://ilovewebgames.com/assets/community/scrap-steel.jpg?v=1",
+    "orientation": "landscape",
+    "studioRating": {
+      "gameplay": 8,
+      "controls": 7,
+      "visuals": 8,
+      "note": "Atmospheric garage sim with real choices between three career paths and a tight 30-day clock."
+    }
+  },
+  {
+    "slug": "byte-heist",
+    "title": "Byte Heist",
+    "studio": "Late Shift Games",
+    "studioUrl": "https://lateshiftgames.itch.io/byte-heist",
+    "added": "2026-11-27",
+    "short": "Idle hacker game: tap the terminal, buy rigs, and beat rival hackers in quick mini-game hack-offs.",
+    "description": "Byte Heist starts with a cracked old laptop and a blinking terminal that says no hardware is detected. Every tap pulls a byte; buy servers and upgrades and the rigs keep downloading for you, climbing from bytes to terabytes while a heat meter rises. Beyond the idle loop are hack-off battles against rival hackers, built from three random mini-games out of five, including spinning a lock dial to the right number and patching a network leak. Clean, fast solves earn bonuses. The amber terminal look and the short tutorial make it easy to pick up on a phone.",
+    "instructions": "Tap or click the terminal to pull data, then buy servers and upgrades. In hack-offs, solve three random mini-games before your rival: tap tiles, drag the lock dial, or use arrow keys/WASD for arrow tiles. Rigs keep earning while you are away.",
+    "category": "clicker-idle",
+    "extraCats": [
+      "mobile"
+    ],
+    "tags": [
+      "Idle",
+      "Clicker",
+      "Hacker",
+      "Minigames",
+      "Incremental"
+    ],
+    "embed": "https://play.gamepix.com/byte-heist/embed?sid=5E198",
+    "thumb": "https://ilovewebgames.com/assets/community/byte-heist.jpg?v=1",
+    "orientation": "portrait",
+    "studioRating": {
+      "gameplay": 7,
+      "controls": 8,
+      "visuals": 7,
+      "note": "Stylish terminal idler; the hack-off mini-games give it more bite than a plain clicker."
+    }
+  },
+  {
+    "slug": "evening-club-191-durak",
+    "title": "Evening Club 191: Durak",
+    "studio": "Evening Club 191",
+    "studioUrl": "https://eveningclub191.com/",
+    "added": "2026-11-27",
+    "short": "Play the classic card game Durak at a 3D table in a cosy club, against a bot or with friends.",
+    "description": "Evening Club 191 is a 3D card lounge where you sit at a green round table in a wood-panelled room, rain on the window behind you, and play Durak. Create a table, pick throw-in or transfer rules, add up to several bots, or keep the table invitation-only and send the link to friends. During a round you see your hand in 3D, the trump card and the deck count, and buttons for Hint, Play card, Take cards and Pass. A short tutorial with practice moves teaches the basics. You can also stand up and walk the room.",
+    "instructions": "Choose a table: set your name, the rules and the number of bots, then Create and sit down and Start the game. Select cards with mouse or touch and use Play card, Take cards or Pass. Do not be the last player holding cards. Right mouse looks around, WASD walks.",
+    "category": "puzzle",
+    "extraCats": [
+      "multiplayer",
+      "two-player",
+      "3d"
+    ],
+    "tags": [
+      "Durak",
+      "Card Game",
+      "3D",
+      "Classic",
+      "vs Bot",
+      "Play with Friends"
+    ],
+    "embed": "https://play.eveningclub191.com/?lang=en",
+    "thumb": "https://ilovewebgames.com/assets/community/evening-club-191-durak.jpg?v=1",
+    "orientation": "landscape",
+    "studioRating": {
+      "gameplay": 8,
+      "controls": 7,
+      "visuals": 9,
+      "note": "Gorgeous 3D table for a proper game of Durak; a few labels still show in Russian."
+    }
+  },
+  {
+    "slug": "space-trick-battle",
+    "title": "Space Trick Battle",
+    "studio": "SpaceTrickBattle",
+    "studioUrl": "https://nikkukyuu-code.github.io/shooting-online/",
+    "added": "2026-11-27",
+    "short": "A versus shooter: auto-fire, grab items, and send enemy units to your opponent's field until they run out of life.",
+    "description": "Space Trick Battle is a versus shooter split into three strips: your opponent's field on top, your ship in the middle and the controls below. Your ship fires on its own while you drag it to dodge; defeated enemies drop items you hold in three slots, and send items push units from your five-unit deck onto the opponent's field. When the five-minute timer runs out, remaining life decides it. Practice against the computer at Normal Level, chase the ranking at Ranker Level, or play online by finding an opponent or sharing a room name. Missions and a shop unlock more units with points.",
+    "instructions": "Drag your ship in the control area (or use arrow keys/WASD); it fires automatically. Tap an item slot on the right to use it; you can hold three. Outlast the opponent with send and attack items. Build a deck of five units and unlock more in the Shop with PT.",
+    "category": "shooting",
+    "extraCats": [
+      "multiplayer",
+      "mobile"
+    ],
+    "tags": [
+      "Versus",
+      "Shoot 'em up",
+      "Online PvP",
+      "Deck Building",
+      "Ranking"
+    ],
+    "embed": "https://nikkukyuu-code.github.io/shooting-online/",
+    "thumb": "https://ilovewebgames.com/assets/community/space-trick-battle.jpg?v=1",
+    "orientation": "portrait",
+    "studioRating": {
+      "gameplay": 7,
+      "controls": 7,
+      "visuals": 5,
+      "note": "Surprisingly deep versus shooter with a deck and ranking, held back by a busy, plain-looking UI."
+    }
   }
 ]

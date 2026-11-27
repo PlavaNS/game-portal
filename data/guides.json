@@ -245596,5 +245596,127 @@
         "You can use in-game cash to train your speed and unlock upgrades, items, and outfits. Speed is especially useful when you need to get eggs back to your base fast."
       ]
     ]
+  },
+  "draw-the-odds": {
+    "intro": "Draw The Odds is a pixel-art boss rush from a 2026 Unity game jam (theme: Lucky Number). Every boss is a face card hiding a number from 1 to 13, and the only way to hurt it is to throw the right card from your hand. The first fight is the Jack of clubs in a gothic hall with floating platforms.",
+    "tips": [
+      "Open with a middle card such as a 7: the arrow that appears tells you higher or lower, which halves the range straight away.",
+      "Damage grows the closer your card is to the secret number, so a near miss still chips the boss down; an exact hit is a critical.",
+      "You start with seven cards in a ten-card hand and three redraws (R). Save redraws for when every card left is on the wrong side of the arrow.",
+      "Green plus and red minus orbs let you merge two cards into the number you need, for example 9 and 3 into 12 or 6 with minus into 3.",
+      "Keep moving between platforms: dice and chips fly in while you aim, and Shift-dash gets you out of trouble.",
+      "After beating the Queen, Endless mode opens for score chasing on the Ranking board."
+    ],
+    "faq": [
+      [
+        "How do I hurt a boss in Draw The Odds?",
+        "Pick a card with the mouse wheel or number keys and click to throw it. The closer its value is to the boss's secret number, the more damage it does."
+      ],
+      [
+        "What do the orbs do?",
+        "Plus, minus and multiply orbs combine two of your cards into a new value, so you can make a number you are not holding."
+      ],
+      [
+        "Can I play on a phone?",
+        "Yes. Mobile has a joystick, jump and dash buttons, and you drag a card up to throw it."
+      ]
+    ]
+  },
+  "scrap-steel": {
+    "intro": "Scrap & Steel is a cyberpunk garage management game: you inherit a workshop in Astra City with a 10,000-credit debt to the Scraphound Syndicate, 2,000 credits in hand and daily rent. You have 30 days to turn it around by taking jobs and finishing them in three skill minigames.",
+    "tips": [
+      "Choose your road carefully at the start. Cyber-Reputation wants 9,000 cash and a five-star rating, while the Mech Championship and Drifter League need the Champion Build done between days 15 and 28 at 80% quality plus a 2,000-credit entry fee.",
+      "Read each offer for pay, action points and deadline. On day one, a 3 AP bionic arm tune paying 820 credits beats a 4 AP overhaul unless you need the bigger 1,456 payout.",
+      "You have three Talks a day as well as Jobs; use them, as clients and the Syndicate shape your options.",
+      "Rent (150 credits a day at the start) and interest compound, so take steady jobs early rather than waiting for a perfect one.",
+      "Quality comes from timing in Forge, Calibrator and Assembler; a clean run pays more and lifts your shop rating."
+    ],
+    "faq": [
+      [
+        "What is the goal in Scrap & Steel?",
+        "Pay off the Syndicate debt within 30 days while meeting the win condition of the career road you picked."
+      ],
+      [
+        "Can I skip the tutorial?",
+        "Yes, there is a Skip tutorial button on the first screen of a new career."
+      ],
+      [
+        "Does it save?",
+        "A Continue button on the title screen resumes your career."
+      ]
+    ]
+  },
+  "byte-heist": {
+    "intro": "Byte Heist is an idle hacker game in an amber terminal style. You start with zero bytes and an old laptop; tap the terminal to pull data, buy hardware that downloads for you, and take on rival hackers in hack-offs made of random mini-games.",
+    "tips": [
+      "The tutorial asks for ten taps on the terminal; do them, then buy the Old Laptop as soon as you can afford it so data comes in on its own.",
+      "Watch the heat meter under your total; it rises as you push your rigs.",
+      "Buy in x1, x10 or Max steps from the Servers tab and check Upgrades for multipliers.",
+      "In hack-offs you get three random mini-games out of five, such as spinning a lock dial to the shown number. A clean, mistake-free solve earns a bonus.",
+      "Rigs keep earning while you are away, so it pays to come back regularly."
+    ],
+    "faq": [
+      [
+        "How do I earn data in Byte Heist?",
+        "Tap the terminal for manual pulls and buy servers that download automatically."
+      ],
+      [
+        "What is a hack-off?",
+        "A race against a rival hacker through three random mini-games; finish first and clean for bonuses."
+      ],
+      [
+        "Is it made for phones?",
+        "Yes, it plays in portrait and every control works by tap or drag."
+      ]
+    ]
+  },
+  "evening-club-191-durak": {
+    "intro": "Evening Club 191 lets you play Durak, the classic Russian card game, at a 3D table in a quiet club room. You can play against bots straight away as a guest or set up a private table and invite friends with a link.",
+    "tips": [
+      "On Choose your table, set the rules (Throw-in or Transfer) and the number of bots, tick By invitation only for a private game, then Create and sit down.",
+      "The status bar shows the round, the trump suit and how many cards are in your hand, in the deck and in the discard.",
+      "Use Hint if you are unsure which card can beat the attack; Take cards is your fallback when you cannot defend.",
+      "Keep trumps for defending late in the round, once the deck is empty and every card counts.",
+      "Settings has a Take the tutorial option with five practice moves if you are new to Durak."
+    ],
+    "faq": [
+      [
+        "How do I win at Durak?",
+        "Get rid of all your cards. The last player still holding cards is the durak, the fool."
+      ],
+      [
+        "Can I play alone?",
+        "Yes, add one or more bots to your table and start the game."
+      ],
+      [
+        "Do I need an account?",
+        "No, guest play works without an account; progress is stored on your device."
+      ]
+    ]
+  },
+  "space-trick-battle": {
+    "intro": "Space Trick Battle is a portrait versus shooter. The screen shows your opponent's field on top, your own field in the middle and a control strip at the bottom. Your ship fires by itself; you win by surviving and sending trouble to the other side before the five-minute timer ends.",
+    "tips": [
+      "Start with vs Computer at Normal Level; the first win against the computer pays a 1,000 PT bonus.",
+      "Drag your ship anywhere in the bottom strip, so your finger never covers the action.",
+      "Defeated enemies drop items. You can hold three; a fourth is lost, so spend items instead of hoarding them.",
+      "Large enemies drop a heal item 75% of the time, so they are worth focusing.",
+      "Send items push units from your five-unit deck onto your opponent's field; build the deck in Deck and unlock new units in the Shop.",
+      "Only Ranker Level wins count for the ranking; PvP matches give no PT."
+    ],
+    "faq": [
+      [
+        "How do I attack the other player?",
+        "Collect send and attack items from defeated enemies and tap their slots; send items spawn your deck's units on the opponent's field."
+      ],
+      [
+        "Can I play online?",
+        "Yes, use Find Opponent or create a room and share its name."
+      ],
+      [
+        "What decides a match that runs out of time?",
+        "The player with more remaining life wins."
+      ]
+    ]
   }
 }
