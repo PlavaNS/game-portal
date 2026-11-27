@@ -570,7 +570,7 @@ ${bodyClass.includes('home') ? '' : `<section class="row cat-grid-wrap"><div cla
 </div>
 <footer class="foot">
   <p><strong>${esc(cfg.name)}</strong> — ${esc(cfg.slogan)} ${roundedCount.toLocaleString('en-US')}+ ${esc(tr('free web games — no downloads, no sign-up.'))}</p>
-  <p><a href="${ur('/about/')}">${esc(tr('About'))}</a> · <a href="${ur('/contact/')}">${esc(tr('Contact'))}</a> · <a href="${ur('/faq/')}">FAQ</a> · <a href="${ur('/tags/')}">${esc(tr('All tags'))}</a> &middot; <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> · <a href="${ur('/indie-games/')}">Indie games</a> · <a href="${ur('/badge/')}">Badges for developers</a> · <a href="${ur('/publish-html5-game/')}">Where to publish your HTML5 game</a> · <a href="${ur('/privacy/')}">${esc(tr('Privacy Policy'))}</a> · <a href="${ur('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
+  <p><a href="${ur('/about/')}">${esc(tr('About'))}</a> · <a href="${ur('/contact/')}">${esc(tr('Contact'))}</a> · <a href="${ur('/faq/')}">FAQ</a> · <a href="${ur('/tags/')}">${esc(tr('All tags'))}</a> &middot; <a href="${ur('/developers/')}">For developers</a> · <a href="${ur('/submit-game/')}">${esc(tr('Submit your game'))}</a> · <a href="${ur('/indie-games/')}">Indie games</a> · <a href="${ur('/badge/')}">Badges for developers</a> · <a href="${ur('/publish-html5-game/')}">Where to publish your HTML5 game</a> · <a href="${ur('/privacy/')}">${esc(tr('Privacy Policy'))}</a> · <a href="${ur('/terms/')}">Terms</a> · <a href="${u('/all/')}">All games</a> · <a href="#" data-consent-open>Cookie settings</a></p>
   ${langsHere.length > 1 ? `<p class="foot-langs">${langsHere.map(l => l === LANG ? `<strong>${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</strong>` : `<a href="${esc(absIn(l, altPath))}" hreflang="${esc(l)}">${esc(l === 'en' ? 'English' : (LANGS.find(x => x.code === l) || {}).name || l)}</a>`).join(' · ')}</p>` : ''}
   ${Object.keys(ARTICLES).length ? `<p class="foot-guides"><a href="${ur('/guides/')}">${LANG === 'en' ? 'Game guides and tips' : 'Guides'}</a></p>` : ''}
   <p class="foot-topics">${topics.filter(t => LANG === 'en' || (CATTR[LANG] || {})['topic:' + t.slug]).slice(0, 14).map(t => `<a href="${tHref(t.slug)}">${esc((catTr('topic:' + t.slug) || {}).h1 || t.h1)}</a>`).join(' · ')}</p>
@@ -1182,13 +1182,30 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
 <p><button class="btn big" type="submit" id="sg-send">Submit my game</button></p>
 <p class="sg-msg" id="sg-msg" role="status" aria-live="polite"></p>
 </form>
-<div class="sg-done" id="sg-done" hidden><h2>Thanks &mdash; got it!</h2><p>Your game is in our review queue. We play every submission ourselves and reply to you by email, usually within a few days. If we publish it, that email will already contain the link to the live game page.</p></div>
+<div class="sg-done" id="sg-done" hidden><h2>Thanks &mdash; got it!</h2><p>Your game is in our review queue. We play every submission ourselves, usually within two days. If we publish it, you get one email that already contains the link to the live game page.</p><p id="sg-track-p" hidden><strong>Track your submission:</strong> <a id="sg-track-a" href="#"></a><br><small>Bookmark this link. It shows whether the game is in review, published or not selected.</small></p></div>
 <script>
 (function(){
   var f = document.getElementById('sg'); if (!f) return;
   var msg = document.getElementById('sg-msg'), btn = document.getElementById('sg-send');
   var EP = '${SB_URL}/rest/v1/game_submissions', KEY = '${SB_KEY}';
   var MAIL = '${esc(cfg.contactEmail)}';
+  (function(){
+    var m = /[?&]track=([0-9a-f-]{36})/i.exec(location.search), box = document.getElementById('sg-status'); if (!m || !box) return;
+    box.hidden = false; box.textContent = 'Checking your submission…';
+    fetch('${SB_URL}/rest/v1/rpc/submission_status', { method: 'POST', headers: { 'apikey': KEY, 'Authorization': 'Bearer ' + KEY, 'Content-Type': 'application/json' }, body: JSON.stringify({ p_id: m[1] }) })
+      .then(function(r){ return r.ok ? r.json() : []; }).then(function(rows){
+        var r = rows && rows[0];
+        if (!r) { box.textContent = 'We could not find a submission for this link. If you sent it by email, just reply to that email and we will tell you where it stands.'; return; }
+        var T = { in_review: ['In review', 'It is in our queue. A real person plays every game, usually within two days of submission.'],
+                  published: ['Published', 'Your game is live. The link is in the email we sent you, and the game is on our indie games list.'],
+                  removed: ['Removed', 'This game was published and later taken down. Reply to our email if you want to know why or send an updated build.'],
+                  not_selected: ['Not selected this time', 'We played it and decided not to publish this build. The usual reasons: it does not load inside an iframe, it is unfinished, or it is too close to a template. You are welcome to send an improved version or another game.'] }[r.status] || ['In review', ''];
+        box.innerHTML = ''; var h = document.createElement('strong'); h.textContent = r.title + ' — ' + T[0]; var p2 = document.createElement('p'); p2.textContent = T[1] + ' (Submitted ' + r.submitted + '.)';
+        box.appendChild(h); box.appendChild(p2); box.className = 'sg-status st-' + r.status;
+        if (r.status === 'published') { var a = document.createElement('a'); a.href = '${ur('/indie-games/')}'; a.textContent = 'See the indie games list'; box.appendChild(a); }
+        box.scrollIntoView({ block: 'center' });
+      }).catch(function(){ box.textContent = 'We could not check the status right now. Please try again in a minute.'; });
+  })();
   function v(n){ var el = f.elements[n]; return el ? String(el.value || '').trim() : ''; }
   function say(t, ok){ msg.textContent = t; msg.className = 'sg-msg ' + (ok ? 'ok' : 'bad'); }
   f.addEventListener('submit', function(e){
@@ -1198,6 +1215,7 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
               network: v('network'), network_url: v('network_url'), help_network: !!f.elements['help_network'].checked,
               description: v('description'), instructions: v('instructions'), thumb: v('thumb'), email: v('email'),
               rights: !!f.elements['rights'].checked, status: 'new',
+              id: (window.crypto && crypto.randomUUID) ? crypto.randomUUID() : undefined,
               found_via: v('found_via') || null, referrer: ((document.referrer || '') + ' | ' + (location.search || '')).slice(0, 300) };
     if (d.title.length < 2) return say('Please tell us the title of your game.', false);
     if (!/^https?:\\/\\/.+\\..+/i.test(d.url)) return say('Please add a full link to the playable game, starting with https://', false);
@@ -1212,6 +1230,7 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
       .then(function(r){
         if (!r.ok) throw new Error('http ' + r.status);
         f.hidden = true; document.getElementById('sg-done').hidden = false;
+        if (d.id) { var tl = location.origin + location.pathname + '?track=' + d.id, ta = document.getElementById('sg-track-a'); ta.href = tl; ta.textContent = tl; document.getElementById('sg-track-p').hidden = false; }
         try { if (window.gtag) window.gtag('event', 'game_submission'); } catch (err) {}
         document.getElementById('sg-done').scrollIntoView({ behavior: 'smooth', block: 'center' });
       })
@@ -1229,16 +1248,29 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
     ['I am not on any network. Can you help me get on one?', `Yes, and it costs you nothing. Tick the box in the form and we will walk you through signing up and uploading your build. It usually takes an afternoon, and for most small games it is revenue that is simply not being collected today.`],
     ['Will you ever change or remove the ads in my game?', `Never. We do not re-host your files, we do not repackage your build and we do not touch anyone's ad code. That is a rule here, and it is also a condition of every network we work with.`],
     ['Will you link back to my site?', `Yes. Every game we accept from a developer credits them, and if you give us your website or store page we link your name to it, so players who like the game can find the rest of your work.`],
-    ['How long does the review take?', `Usually a few days. A real person plays the game and checks that it runs, loads in an iframe and is family-friendly. You get one reply that already contains the link to your live game page.`],
+    ['How long does the review take?', `Usually within two days. A real person plays the game and checks that it runs, loads in an iframe and is family-friendly. You get one reply that already contains the link to your live game page.`],
+    ['How do I know what happened to my submission?', `When you submit through the form you get a private tracking link. It shows whether the game is in review, published or not selected. We only send an email when a game is published, so the tracking link is the quickest way to check.`],
     ['What do you need from me — files, a build, a zip?', `Just a link to a playable HTML5 build. That means a URL that opens the game directly in a browser — something like yourdomain.com/game/index.html, your itch.io embed URL, your Newgrounds embed URL (the one that ends in /embed), or your Playgama, GameMonetize or GamePix game page. A link to a GameJolt or App Store page does not work on its own, because those do not give us an embeddable build. Send the link plus a short description and a cover image if you have one.`],
     ['Can I update or remove the game later?', `Yes. Because the game is loaded from your server, any update you publish is live here immediately, and one email is enough to have the page taken down.`],
     ['What kind of games get rejected?', `Games that will not load in an iframe, broken or unfinished builds (alpha or early beta), adult or gambling content, games that are not in English, and clones that reuse another studio's art, characters or title. If the game is still in development, finish it first — we can't hold a spot for a build that is not ready for players.`],
   ];
   const sgFaqHtml = sgFaq.map(([q, a]) => `<h3>${esc(q)}</h3><p>${esc(a)}</p>`).join('');
   const sgLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: sgFaq.map(([q, a]) => ({ '@type': 'Question', name: q, acceptedAnswer: { '@type': 'Answer', text: a } })) };
-  textPage('submit-game', 'Submit Your HTML5 Game', `<p class="lead">Made a browser game? Get it in front of the players on ${esc(cfg.name)} &mdash; free, non-exclusive, and you earn from every play. A real person plays every game that comes in.</p>
+  const sgIndie = all.filter(g => g.community).sort((a, b) => String(b.added).localeCompare(String(a.added)));
+  const sgStudios = new Set(sgIndie.map(g => g.studio).filter(Boolean)).size;
+  textPage('submit-game', 'Submit Your HTML5 Game', `<p class="lead">Made a browser game? Submit it to ${esc(cfg.name)}, a curated free games portal &mdash; free, non-exclusive, and you earn from every play. A real person plays every game that comes in, usually within two days.</p>
+<div class="sg-status" id="sg-status" hidden></div>
+<div class="sg-proof"><div><b>${sgIndie.length}</b><span>indie games published</span></div><div><b>${sgStudios}</b><span>independent developers</span></div><div><b>2 days</b><span>typical review time</span></div><div><b>$0</b><span>fees, and no revenue cut</span></div></div>
+<p><a class="btn" href="#sg">Submit your game</a> &nbsp; <a href="${ur('/developers/')}">Everything for developers</a></p>
+<h2>Recently published from developers like you</h2>
+<div class="grid">${sgIndie.slice(0, 6).map(g => card(g)).join('')}</div>
+<p><a href="${ur('/indie-games/')}">See all ${sgIndie.length} indie games</a></p>
 <h2>What you get</h2>
 <ul>
+<li><strong>A guide written from actually playing your game.</strong> We play it, then write the tips and FAQ on your page ourselves, so the page says something real about your game instead of repeating your store text.</li>
+<li><strong>Your page in six languages.</strong> We translate the game page into Spanish, Portuguese, German, French and Chinese at no cost to you.</li>
+<li><strong>A shot at the homepage.</strong> Indie Game of the Day, Week and Month are picked only from developer submissions and shown in the first row of the homepage, with a <a href="${ur('/badge/')}">winner badge</a> you can put on your own site.</li>
+<li><strong>A tracking link.</strong> After you submit you get a private link that shows whether your game is in review, published or not selected. No guessing, no chasing us by email.</li>
 <li><strong>It costs nothing.</strong> No listing fee, no review fee, and we take no share of what your game earns.</li>
 <li><strong>You get paid for the plays you get here.</strong> If your game is on Playgama, GameMonetize or GamePix, we take that version, and the network pays you your developer share for every play on our site &mdash; on top of whatever the game already earns you elsewhere. Not on a network yet? Tick the box in the form and we will walk you through it for free.</li>
 <li><strong>Your build stays yours, untouched.</strong> We never repackage a game, never re-host it and never strip anyone's ads. If you send us a direct link instead, it is embedded from your own URL and your own ad tags keep running exactly as they do on your site.</li>
@@ -1252,7 +1284,7 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
 <h2>Send us your game</h2>
 ${form}
 <h2>How it works</h2>
-<ol><li>You fill in the form above (or email <a href="mailto:${esc(cfg.contactEmail)}?subject=${subj}&amp;body=${body}">${esc(cfg.contactEmail)}</a> if you prefer).</li><li>We play it and check quality, performance and content, usually within a few days.</li><li>If it fits, we publish it with a link and credit back to you, and reply with the link to the live game page.</li></ol>
+<ol><li>You fill in the form above (or email <a href="mailto:${esc(cfg.contactEmail)}?subject=${subj}&amp;body=${body}">${esc(cfg.contactEmail)}</a> if you prefer) and get a tracking link.</li><li>We play it and check quality, performance and content, usually within two days. Not sure your build will load inside another site? Run through our <a href="${ur('/html5-game-iframe-checklist/')}">iframe checklist</a> first.</li><li>If it fits, we publish it with a link and credit back to you, and reply with the link to the live game page.</li></ol>
 <h2>Questions developers ask</h2>
 ${sgFaqHtml}
 <h2>Where else should you publish?</h2>
@@ -1260,8 +1292,51 @@ ${sgFaqHtml}
 <h2>Good to know</h2>
 <p>We do not host files: the game stays on your server or your distribution platform, and you can ask us to remove it at any time. Games from other people that you do not own will not be accepted.</p>
 <p class="muted">We only use the details you send here to review your game and reply to you. Nothing is shared with third parties. See our <a href="${ur('/privacy/')}">privacy policy</a>.</p>`,
-    `Submit or upload your HTML5 game to ${cfg.name}: free and non-exclusive, you earn from every play, and you get a link back to your site. Reviewed by a real person in a few days.`,
-    [sgLd], 0.8);
+    `Submit your HTML5 or WebGL game to ${cfg.name}: free, non-exclusive, no revenue cut. A real person reviews it within about two days, and you get your own page, a link back and a tracking link.`,
+    [sgLd], 0.9);
+}
+
+// DEVELOPER HUB + IFRAME CHECKLIST
+{
+  const n = all.filter(g => g.community).length;
+  textPage('developers', 'For Game Developers', `<p class="lead">${esc(cfg.name)} is a curated portal for HTML5 and WebGL games, and a place where independent developers publish their browser games for free. Everything you need is on this page.</p>
+<div class="dev-hub">
+<a class="dev-tile" href="${ur('/submit-game/')}"><b>Submit your game</b><span>Free, non-exclusive, no revenue cut. A real person plays it, usually within two days. ${n} indie games published so far.</span></a>
+<a class="dev-tile" href="${ur('/html5-game-iframe-checklist/')}"><b>Iframe checklist</b><span>Ten things to check so your build loads and plays correctly inside any portal, not only ours.</span></a>
+<a class="dev-tile" href="${ur('/publish-html5-game/')}"><b>Where to publish an HTML5 game</b><span>Poki, CrazyGames, Playgama, GamePix, itch.io and more, compared: revenue share, exclusivity, review, payouts.</span></a>
+<a class="dev-tile" href="${ur('/indie-games/')}"><b>Indie games on the site</b><span>Every developer-submitted game we have published, by month, with credit and a link to each developer.</span></a>
+<a class="dev-tile" href="${ur('/badge/')}"><b>Badges</b><span>"Featured on" and Indie Game of the Day, Week, Month and Year badges for your own site.</span></a>
+<a class="dev-tile" href="mailto:${esc(cfg.contactEmail)}"><b>Talk to us</b><span>${esc(cfg.contactEmail)}. Updates, removals, a new build, a question about your page.</span></a>
+</div>
+<h2>How publishing here works</h2>
+<ol><li><strong>You send a link</strong> to a playable build through the <a href="${ur('/submit-game/')}">submit form</a> and get a private tracking link.</li><li><strong>We play it.</strong> A person, not a script. We check that it loads in an iframe, that it is finished, and that it is family-friendly.</li><li><strong>We build your page.</strong> Title, description, how to play, plus tips and an FAQ we write ourselves after playing. The page credits you and links to your site.</li><li><strong>It goes live</strong> in the matching categories, on the indie games list, and in the rotation for Indie Game of the Day, Week and Month on the homepage.</li><li><strong>You stay in control.</strong> The game keeps loading from your server or your network, your ads are untouched, and one email removes it.</li></ol>
+<h2>What we do not do</h2>
+<ul><li>We do not charge anything, now or later.</li><li>We do not take a share of your revenue.</li><li>We do not re-host, repackage or modify your build.</li><li>We do not ask for exclusivity.</li></ul>
+<p><a class="btn" href="${ur('/submit-game/')}">Submit your game</a></p>`,
+    `For HTML5 game developers: submit your browser game to ${cfg.name} for free, check the iframe checklist, compare game portals and get badges. Non-exclusive, no revenue cut.`, [], 0.8);
+
+  const ck = [
+    ['Serve the game over HTTPS', `Portals are served over HTTPS, and browsers block an http:// game inside an https:// page as mixed content. Every file the game loads has to be HTTPS too: scripts, images, audio, fonts and API calls.`],
+    ['Allow the game to be framed', `If your server sends X-Frame-Options: DENY or SAMEORIGIN, or a Content-Security-Policy with frame-ancestors 'self', the game shows a blank box on every other site. Remove X-Frame-Options and either drop frame-ancestors or list the portals you allow. This is the most common reason a good game cannot be published.`],
+    ['Give a direct link to the build', `A portal needs the URL that opens the game itself, usually an index.html, not a store page or a landing page with a Play button. On itch.io that is the embed URL of the HTML build; on Newgrounds it is the embed link.`],
+    ['Use relative paths', `Load assets with relative paths (assets/sprite.png), not absolute ones (/assets/sprite.png). Absolute paths break as soon as the build sits in a subfolder or behind a CDN.`],
+    ['Scale to the frame, not to the screen', `Size the canvas from window.innerWidth and innerHeight and listen for resize. Do not read screen.width: inside an iframe the screen is not your space. Keep the aspect ratio and letterbox rather than stretch.`],
+    ['Take keyboard focus on click', `An iframe does not receive key presses until the player clicks inside it. Show a "Click to play" overlay, and call preventDefault on arrow keys and space so the page behind the game does not scroll while someone plays.`],
+    ['Start audio after the first tap', `Browsers block sound until the user interacts with the frame. Create or resume your AudioContext on the first click or touch, and do not make loading wait for audio that cannot play yet.`],
+    ['Do not depend on storage', `In a third-party iframe, localStorage and cookies can be partitioned or blocked. Wrap every read and write in try/catch and let the game run without a save instead of crashing on the first line.`],
+    ['Pause when the player leaves', `Listen for visibilitychange and blur, then pause the loop and mute the sound. A game that keeps playing music in a background tab gets closed, and portals reject it.`],
+    ['No pop-ups, redirects or forced logins', `Do not open new windows, do not navigate the top page (window.top.location), and do not put the game behind a sign-in. Links to your own site are fine when the player chooses to click them.`],
+  ];
+  const ckLd = { '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: ck.map(([q, a]) => ({ '@type': 'Question', name: q + '?', acceptedAnswer: { '@type': 'Answer', text: a } })) };
+  textPage('html5-game-iframe-checklist', 'HTML5 Game Iframe Checklist', `<p class="lead">Web game portals do not copy your files. They load your game inside an iframe. A game that runs perfectly on your own page can still show a blank box, ignore the keyboard or stay silent once it is embedded. These ten checks cover the problems we see most often when we review submissions, and they apply to every portal, not only ours.</p>
+<ol class="ck">${ck.map(([q, a]) => `<li><h3>${esc(q)}</h3><p>${esc(a)}</p></li>`).join('')}</ol>
+<h2>Test it yourself in one minute</h2>
+<p>Save this as a local HTML file, put your own link in it, and open it in a browser. If the game loads, takes keyboard input after a click and plays sound, it will work on a portal.</p>
+<pre><code>${esc('<iframe src="https://your-site.com/your-game/index.html"\n        width="960" height="600"\n        allow="fullscreen; autoplay; gamepad"\n        allowfullscreen></iframe>')}</code></pre>
+<p>A blank frame usually means point 1 or 2. Open the browser console: it names the header that blocked the frame.</p>
+<h2>Ready?</h2>
+<p>If your game passes, <a href="${ur('/submit-game/')}">submit it to ${esc(cfg.name)}</a>. It is free and non-exclusive, and a real person plays every game. To compare other places to publish, see <a href="${ur('/publish-html5-game/')}">where to publish your HTML5 game</a>, or go to <a href="${ur('/developers/')}">everything for developers</a>.</p>`,
+    `Ten checks before you submit an HTML5 game to any portal: HTTPS, X-Frame-Options and frame-ancestors, direct build link, scaling, keyboard focus, audio, storage and more.`, [ckLd], 0.7);
 }
 // DEV GUIDE: where to publish an HTML5 game (facts checked Nov 2026, sources linked on the page)
 {
@@ -1473,6 +1548,8 @@ ${activeCats.map(c => `- [${c.h1}](${abs(cHref(c.slug).replace(B, ''))})`).join(
 
 ${Object.keys(ARTICLES).length ? `## Guides\n- [Game guides and tips](${abs('/guides/')}): original articles on how to get better at, start with and tell apart each kind of game on the site\n\n` : ''}## For game developers
 - [Submit your HTML5 game](${abs('/submit-game/')}): free and non-exclusive. A real person plays every submission; accepted games get their own page with credit and a link back to the developer, and stay embedded from the developer's own URL with their own ads. Games on Playgama, GameMonetize or GamePix earn the developer their network share for every play on the site.
+- [For game developers](${abs('/developers/')}): how publishing on the site works, with links to the submit form, badges and guides.
+- [HTML5 game iframe checklist](${abs('/html5-game-iframe-checklist/')}): ten checks so a browser game loads and plays correctly when a portal embeds it (HTTPS, X-Frame-Options, frame-ancestors, focus, audio, storage).
 - [Where to publish your HTML5 game](${abs('/publish-html5-game/')}): Poki, CrazyGames, Playgama, GamePix, GameMonetize, Kongregate, Armor Games, YouTube Playables, Google GameSnacks, itch.io, Game Jolt and Newgrounds compared side by side: revenue share, exclusivity, review and payouts.
 
 ## Games made by ${cfg.studio}
