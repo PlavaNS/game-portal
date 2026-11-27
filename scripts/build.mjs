@@ -351,7 +351,9 @@ const SEO_TITLES = readJSON(path.join(ROOT, 'data/seo-titles.json'), {});
 const TGUIDES = readJSON(path.join(ROOT, 'data/topic-guides.json'), {});
 // original long-form articles for the /guides/ section (data/articles.json)
 const ARTICLES = readJSON(path.join(ROOT, 'data/articles.json'), {});
-const artsOf = slug => Object.entries(ARTICLES).filter(([, a]) => a.topic === slug);
+// same rule as emit-articles.mjs: an article is only built (and so only linked) while at least 3 of its picks are still live
+let _liveSlugs = null;
+const artsOf = slug => { _liveSlugs ||= new Set(all.map(g => g.slug)); return Object.entries(ARTICLES).filter(([, a]) => a.topic === slug && (a.picks || []).filter(p => _liveSlugs.has(p.slug)).length >= 3); };
 
 // our own games always first
 const ours = readJSON(path.join(ROOT, 'data/our-games.json'), []).map(o => ({
@@ -751,7 +753,7 @@ function emitContent() {
   </section>` : '';
     const duos = `<div class="duos">
     ${duo('duo-friends', tr('Play online with friends'), [tr('2 player games'), cHref('two-player'), 'two-player'], [tr('Online multiplayer'), cHref('multiplayer'), 'multiplayer'])}
-    ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), 'kids'], [tr('Casual games'), cHref('casual'), 'hypercasual'])}
+    ${duo('duo-kids', tr('Games for the whole family'), [tr('Games for kids'), cHref('kids'), 'kids'], [tr('Casual games'), cHref('hypercasual'), 'hypercasual'])}
   </div>`;
     const heroTitle = esc(tr('The Top 10,000 Web Games, Ever.')).replace(/10[.,\s\u00a0\u202f]?000|1万/, m => `<span class="hero-num">${m === '1万' ? TOPN.replace(/,/g, '') : TOPN}</span>`);
     const body = `<header class="welcome welcome-center"><h1>${heroTitle}</h1><p class="welcome-sub">${roundedCount.toLocaleString('en')}+ ${esc(tr('free online games. Play instantly on PC, tablet and phone — no downloads, no sign-up.'))}</p></header>
@@ -1520,6 +1522,11 @@ try {
     const to = u('/');
     write(`games/${s}/index.html`, `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>Game moved | ${esc(cfg.name)}</title><link rel="canonical" href="${esc(abs('/'))}"><meta http-equiv="refresh" content="0; url=${esc(to)}"></head><body><p>This game is no longer available. <a href="${esc(to)}">Play other free games</a>.</p></body></html>\n`);
     gone++;
+    // the translated copies of a retired game used to be real pages too: same redirect, to that language's home, instead of a 404
+    for (const l of LANGS) if ((GAMETR[l.code] || {})[s] && Object.keys(UI[l.code] || {}).length >= 20) {
+      const home = B + '/' + l.code + '/';
+      write(`${l.code}/games/${s}/index.html`, `<!doctype html>\n<html lang="${l.code}"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>${esc(cfg.name)}</title><link rel="canonical" href="${esc(ABS + '/' + l.code + '/')}"><meta http-equiv="refresh" content="0;url=${esc(home)}"></head><body><a href="${esc(home)}">${esc(cfg.name)}</a></body></html>\n`);
+    }
   }
   fs.mkdirSync(path.join(DIST, 'assets'), { recursive: true });
   fs.writeFileSync(path.join(DIST, 'assets/retired.json'), JSON.stringify([...published].filter(s => !live.has(s))));
