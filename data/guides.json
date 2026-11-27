@@ -20232,8 +20232,11 @@
     ]
   },
   "car-crash-sandbox": {
-    "intro": "Car Crash Sandbox is a driving simulator where you launch vehicles down slopes and smash them into destructible obstacles. Its physics focus on deformation, damage, and breaking parts.",
+    "intro": "Car Crash Sandbox opens on a two-lane country road with a white sedan, 100 coins in the corner and a strip of buttons: arrows to switch cars, Tuning, a traffic setting, a Drift toggle and START. Press START and you are on the road with a damage counter at the top right, free to drive, drift and crash into whatever you like while the body deforms panel by panel.",
     "tips": [
+      "Before your first run, set the traffic number on the left (it starts at 3) with the plus and minus buttons: more cars means more things to crash into.",
+      "Turn on the Drift toggle next to START if you want the rear to slide out easily in corners.",
+      "Open Tuning to change the body kit and the windows of your car before driving; the coins at the top right pay for upgrades.",
       "Use slow motion (V) after a big impact to watch how the body panels deform and break apart.",
       "Press R to repair your car between crashes so you can keep testing different impacts from the same starting condition.",
       "Try several vehicles by pressing N to go to the next car, since each one reacts to damage in its own way.",
