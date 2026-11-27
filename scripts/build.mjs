@@ -294,6 +294,15 @@ try {
   if (r.ok) for (const x of await r.json()) if (SITE_COUNTS[x.kind]) SITE_COUNTS[x.kind][x.slug] = Number(x.n) || 0;
   console.log(`site counts: ${Object.keys(SITE_COUNTS.cat).length} categories, ${Object.keys(SITE_COUNTS.play).length} games played`);
 } catch (e) { console.log('site counts unavailable:', e.message); }
+// A second, 90-day window used only to decide what stays in the catalogue: the 28-day counts above
+// drive "hot" and ordering, but a game somebody played five weeks ago should not be cut for being quiet since.
+const PLAY_90 = {};
+try {
+  const K = 'sb_publishable_bl8XkH55cD8R7M0cdpe6Xw_5osxFI1k';
+  const r = await fetch('https://pxjlcbjwdalctlyeljql.supabase.co/rest/v1/rpc/site_counts', { method: 'POST', headers: { apikey: K, Authorization: 'Bearer ' + K, 'Content-Type': 'application/json' }, body: JSON.stringify({ days: 90 }), signal: AbortSignal.timeout(15000) });
+  if (r.ok) for (const x of await r.json()) if (x.kind === 'play') PLAY_90[x.slug] = Number(x.n) || 0;
+  console.log(`play counts (90 days): ${Object.keys(PLAY_90).length} games`);
+} catch (e) { console.log('90-day play counts unavailable:', e.message); }
 games.sort((a, b) => a.score - b.score);
 // every game page we ever published (data/published.txt) stays published while the game is still in a feed,
 // so pages don't flip between 200 and 404 when feed rankings shift around the maxGames cut-off
@@ -324,7 +333,11 @@ if (cfg.catalogMax) {
   const KEEP = new Set([...lines('data/keep-slugs.txt'), ...lines('data/priority-slugs.txt')]);
   const G0 = readJSON(path.join(ROOT, 'data/guides.json'), {});
   const sl = g => { const s = slugify(g.title); return [s, `${s}-${g.srcId}`.slice(0, 80)]; };
-  const must = g => sl(g).some(s => KEEP.has(s) || (SITE_COUNTS.play[s] || 0) >= 2);
+  // 27.11.2026: the first cut kept games with 2+ plays inside a 28-day window, and 57 games that real
+  // visitors had played were dropped anyway (96 plays, including one with ten). One play in 90 days is
+  // proof enough that somebody wants the game. Musts are forced in before the rank fill, so this swaps
+  // rank-picked games for player-picked ones without making the catalogue any bigger.
+  const must = g => sl(g).some(s => KEEP.has(s) || (PLAY_90[s] || 0) >= 1 || (SITE_COUNTS.play[s] || 0) >= 1);
   // every keyword collection page (data/topics.json) keeps its best 24 games: those hubs are the pages Google ranks us for
   const topicKeep = new Set();
   for (const t of readJSON(path.join(ROOT, 'data/topics.json'), [])) {
