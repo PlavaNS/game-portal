@@ -1173,6 +1173,7 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
 <label class="sg-check"><input type="checkbox" id="sg-help" name="help_network"> <span>Not on a network yet &mdash; show me how to get on one. It is free, it takes about an afternoon, and it is money your game is not collecting today.</span></label>
 </fieldset>
 <div class="sg-row"><label for="sg-email">Your email <b>*</b></label><input id="sg-email" name="email" type="email" maxlength="160" autocomplete="email" required><small>We reply here with the link to your live game page.</small></div>
+<div class="sg-row"><label for="sg-found">How did you find us?</label><select id="sg-found" name="found_via"><option value="">Choose (optional)</option><option value="search">Google or another search engine</option><option value="email">An email from you</option><option value="ai">An AI assistant (ChatGPT, Claude, Gemini…)</option><option value="developer">Another developer told me</option><option value="community">Reddit, Discord or a forum</option><option value="list">A list of game portals</option><option value="social">YouTube or social media</option><option value="other">Somewhere else</option></select></div>
 <div class="sg-row"><label for="sg-desc">Short description <b>*</b></label><textarea id="sg-desc" name="description" rows="4" maxlength="3000" required></textarea><small>2&ndash;3 sentences in English, as you would like them to appear on the game page.</small></div>
 <div class="sg-row"><label for="sg-instr">How to play</label><textarea id="sg-instr" name="instructions" rows="3" maxlength="2000"></textarea><small>Controls, goal, anything a new player should know.</small></div>
 <div class="sg-row"><label for="sg-thumb">Thumbnail / cover image URL</label><input id="sg-thumb" name="thumb" type="url" maxlength="400" placeholder="https://" autocomplete="off"><small>512&times;384 or larger, 4:3 works best.</small></div>
@@ -1196,7 +1197,8 @@ textPage('about', 'About us', `<p>${esc(cfg.name)} is a free online games websit
     var d = { title: v('title'), url: v('url'), studio: v('studio'), site: v('site'), genre: v('genre'), mobile: v('mobile'),
               network: v('network'), network_url: v('network_url'), help_network: !!f.elements['help_network'].checked,
               description: v('description'), instructions: v('instructions'), thumb: v('thumb'), email: v('email'),
-              rights: !!f.elements['rights'].checked, status: 'new' };
+              rights: !!f.elements['rights'].checked, status: 'new',
+              found_via: v('found_via') || null, referrer: ((document.referrer || '') + ' | ' + (location.search || '')).slice(0, 300) };
     if (d.title.length < 2) return say('Please tell us the title of your game.', false);
     if (!/^https?:\\/\\/.+\\..+/i.test(d.url)) return say('Please add a full link to the playable game, starting with https://', false);
     if (!/^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$/.test(d.email)) return say('Please add an email address we can reply to.', false);
