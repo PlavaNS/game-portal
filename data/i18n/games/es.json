@@ -215399,8 +215399,8 @@
   }
  },
  "evolution-simulator": {
-  "description": "Evo Wilds es una aventura evolutiva en 3D llena de color. Eclosionas como un pequeño Wiggle Worm en la Sunny Meadow: devora bayas, muerde bichos y recoge EVO para subir de nivel. Cada pocos niveles te EVOLUCIONAS y eliges tu camino entre dos nuevas criaturas: un luchador de golpes duros, un tanque resistente o un corredor veloz. 23 formas por descubrir, desde escarabajos, caracoles y ranas hasta zorros, lobos, osos, rinocerontes, raptores, mamuts, grifos y dragones. Fíjate en el color del nivel encima de cada criatura: verde significa tentempié, rojo significa huye. Derrota al gigante jefe de cada isla, esquiva sus embestidas, cargas y rocas que caen, y cruza el portal al siguiente mundo: Shroom Woods, Sunscorch Dunes, Frostfang Peaks y las Ember Isles. Gasta ADN en el laboratorio para mordidas más afiladas y una piel más dura, completa tu Evo-Dex, sigue los objetivos y renace más fuerte para probar todos los caminos de evolución.",
-  "instructions": "Muévete con WASD o las flechas del teclado, o arrastra por cualquier parte de la pantalla en el móvil. El mordisco es automático: camina hacia una criatura y la atacarás. Pulsa Espacio (o el botón POUNCE) para lanzarte y morder con fuerza; no puedes recibir golpes mientras te lanzas, así que úsalo para esquivar los círculos rojos y las franjas de los jefes. Come tentempiés para curarte y ganar EVO. Llena la barra de EVO para subir de nivel; en los niveles de evolución elige una de las dos nuevas formas. Las criaturas con nivel verde son seguras para cazar, el amarillo es una pelea justa, y el rojo y la calavera son demasiado fuertes por ahora. Derrota al jefe de cada isla en la arena al final norte del camino para abrir el portal. Esc pausa."
+  "description": "Evo Wilds es una aventura de evolución en 3D muy colorida. Eclosionas como un pequeño Wiggle Worm en el Sunny Meadow: devora bayas, muerde insectos y recoge EVO para subir de nivel. Cada pocos niveles te EVOLUCIONAS y eliges tu camino entre dos nuevas criaturas: un luchador de golpes contundentes, un tanque muy resistente o un corredor veloz. 23 formas por descubrir, desde escarabajos, caracoles y ranas hasta zorros, lobos, osos, rinocerontes, raptores, mamuts, grifos y dragones. Fíjate en los colores de nivel sobre cada criatura: el verde significa tentempié, el rojo significa huye. Derrota al gigante jefe de cada isla, esquiva sus embestidas, cargas y rocas que caen, y cruza el portal al siguiente mundo: Shroom Woods, Sunscorch Dunes, Frostfang Peaks y las Ember Isles. Gasta ADN en el laboratorio para mordiscos más afilados y una piel más dura, completa tu Evo-Dex, sigue los objetivos y renace más fuerte para probar todos los caminos de evolución.",
+  "instructions": "Muévete con WASD o las teclas de flecha, o arrastra por cualquier parte de la pantalla en el móvil. El mordisco es automático: camina hacia una criatura y la atacarás. Pulsa Espacio (o el botón POUNCE) para lanzarte y morder con fuerza; no puedes recibir golpes mientras te lanzas, así que úsalo para esquivar los círculos rojos y los carriles de los jefes. Come tentempiés para curarte y ganar EVO. Llena la barra de EVO para subir de nivel; en los niveles de evolución elige una de dos nuevas formas. Las criaturas con nivel verde son seguras para cazar, el amarillo es un combate equilibrado, y el rojo y la calavera son demasiado fuertes por ahora. Derrota al jefe de cada isla en la arena al norte del camino para abrir el portal. Esc pausa."
  },
  "fish-eggs-for-animals": {
   "description": "Lanza el anzuelo en un océano gigante, pesca peces raros y mutaciones, y construye un acuario que genera dinero con los visitantes en este juego de pesca 3D incremental.",
@@ -293002,8 +293002,28 @@
   }
  },
  "wreck-kings-car": {
-  "description": "Wreck Kings: Car Destruction Island es un juego de carreras y derbi de demolición en 3D de BREYMANTECH. ¡Destroza, choca y sobrevive a tus rivales en una isla llena de acción! Juega 300 eventos de carrera en 15 capítulos, con un jefe al final de cada capítulo. Hay 8 modos: Carrera de Circuito, Sprint, Rally de Tierra, Derbi de Demolición, Show de Acrobacias, Caza de Choques, Takedown y Offroad Rush. Gana dinero para comprar 4 vehículos: un hot hatch, un superdeportivo, un monster truck y un camión pesado. Mejora el motor, el nitro, los neumáticos, la armadura y la suspensión, y desbloquea 18 habilidades en el árbol de habilidades. La carrocería se abolla y las piezas salen volando al chocar. Diseña tu propio esquema de pintura en el Taller de Pintura",
-  "instructions": "W arriba acelerador S abajo freno marcha atrás A D izquierda derecha dirección ESPACIO freno de mano derrape SHIFT N nitro C cambiar cámara R reiniciar coche ESC P pausa Los controles de mando y táctiles en móvil son compatibles Consejos salta, da volteretas y derrapa para llenar yo"
+  "description": "Wreck Kings: Car Destruction Island es un juego de carreras y derby de demolición en 3D de BREYMANTECH. ¡Destroza, choca y sobrevive a tus rivales en una isla llena de acción! Juega 300 eventos de carrera repartidos en 15 capítulos, con un jefe al final de cada uno. Hay 8 modos: Circuit Race, Sprint, Dirt Rally, Demolition Derby, Stunt Show, Smash Hunt, Takedown y Offroad Rush. Gana dinero para comprar 4 vehículos: un hot hatch, un superdeportivo, un monster truck y un camión pesado. Mejora el motor, el nitro, los neumáticos, la armadura y la suspensión, y desbloquea 18 habilidades en el árbol de habilidades. La carrocería se abolla y las piezas salen volando al chocar. Diseña tu propia decoración en el Paint Shop",
+  "instructions": "W uarr acelerar S darr frenar marcha atrás A D larr rarr girar ESPACIO freno de mano derrape MAYÚS N nitro C cambiar cámara R reiniciar coche ESC P pausa Se admiten mandos y controles táctiles en el móvil Consejos: salta, voltea y derrapa para llenar la",
+  "guide": {
+   "intro": "Wreck Kings: Car Destruction Island es un juego de carreras y derby de demolición en 3D ambientado en una isla. Juegas 300 eventos de carrera repartidos en 15 capítulos, cada uno terminado con un jefe, y puedes mejorar y personalizar tus vehículos a medida que avanzas.",
+   "tips": [
+    "Usa ESPACIO para derrapar con el freno de mano en las curvas cerradas de los modos de carrera, y luego toca S o W para controlar la velocidad al salir.",
+    "Guarda el nitro de MAYÚS para las rectas o justo después de un derrape, así sacarás más velocidad de cada impulso.",
+    "Gasta tu dinero en las mejoras que encajen con tu modo: los neumáticos y la suspensión ayudan en conducciones bruscas, mientras que la armadura importa más en los eventos de demolición, donde los choques cuentan.",
+    "Elige un vehículo adecuado para el evento. Un monster truck o un camión pesado aguantan más castigo en un derby, mientras que un hot hatch o un superdeportivo son mejores para las carreras.",
+    "Si te gusta la parte de destrucción del juego, puedes encontrar más títulos en [[car-crash-games|juegos de choques de coches]]."
+   ],
+   "faq": [
+    [
+     "¿Cómo giro y controlo mi coche?",
+     "Usa A y D para girar, W para avanzar y S para frenar o dar marcha atrás. Mantén ESPACIO para derrapar con el freno de mano."
+    ],
+    [
+     "¿Qué debería mejorar primero?",
+     "Mejora las piezas que encajen con tu modo favorito, como los neumáticos y la suspensión para las carreras o la armadura para los eventos de demolición. Usa el árbol de habilidades para desbloquear habilidades que se adapten a tu estilo de juego."
+    ]
+   ]
+  }
  },
  "giant-egg-idle": {
   "description": "Giant Egg Idle es un juego idle de píxeles en 2D en el que construyes un ejército que rompe un huevo gigante. Cada fragmento que se desprende se convierte en monedas, así que cuanto más grande sea tu escuadrón, más rápido llegará el dinero, incluso cuando no estés jugando. Contrata Punchers, Miners, Archers, Catapults, Rocketeers, Blasters y Tanks y mira cómo toda la multitud golpea la cáscara alrededor del hoyo. Toca los pájaros para sacar monedas del cielo, recoge los regalos cuando caigan y llama al comando con la bazuca cuando aparezca en el campo. Gasta Gemas en el árbol de mejoras, empieza una nueva era con Prestigio para ganar Diamantes y obtener ventajas permanentes, completa las Tareas diarias y los Logros para conseguir Tickets, y cambia el aspecto del mapa de Pradera a Egipto, Jungla, Tundra y más.",
@@ -293079,5 +293099,200 @@
  "toy-legion": {
   "description": "Recluta pequeños soldados de plástico, fusiona gemelos en niveles más fuertes en una cuadrícula de 5x4 y lanza a tu ejército de juguete contra robots de hojalata con cuerda y jefes gigantes de juguete. ¡Los robots de cuerda están invadiendo la sala de juegos! Recluta soldados de juguete con monedas, arrastra dos soldados idénticos uno sobre otro para fusionarlos en un nivel superior con mejor equipo, y organiza tu formación en la cuadrícula de despliegue de 5x4: luchadores resistentes al frente, tiradores en el medio, cañones de corcho atrás. Pulsa ¡BATALLA! y mira cómo tu legión avanza por el carril de la alfombra de juego y combate contra tres escuadrones de robots seguidos. Usa la habilidad de tu comandante en el momento justo para cambiar el rumbo de la batalla. - 5 clases de soldados (Luchador, Artillero, Guardián, Cañonero, Médico) x 5 niveles (Recluta a Leyenda), cada nivel con su propio modelo 3D y equipo - 40 niveles de campaña en 4 mundos de juguete: Alfombra del Dormitorio, Escritorio de Estudio, Arenero y el Desván bajo la luna - Robots Campeones Coronados y 4 jefes gigantes de juguete con ataques especiales anunciados - 3 habilidades de comandante: Ataque de Avión de Papel, Cuerno de Reagrupación y Lluvia de Vendas - Asedio de la Caja de Juguetes: un modo de oleadas infinitas con un jefe cada 10 oleadas - Mejoras permanentes, una colección de 25 cartas de soldados, los Archivos Robot, 26 logros y una recompensa diaria de 7 días - Apto para niños: dardos de espuma, cañones de corcho y vendas; los robots se rompen en muelles y engranajes - Inglés y turco",
   "instructions": "- Escritorio: ratón. Haz clic en un botón de recluta para comprar un soldado; arrastra un soldado con el botón izquierdo del ratón sobre su gemelo para fusionarlo, sobre otro soldado para intercambiarlos, o sobre una celda vacía para moverlo. Haz clic en ¡BATALLA! para luchar y en el gran botón redondo de habilidad cuando su anillo esté lleno. La tecla P pausa / reanuda una batalla (o usa el botón de pausa), y el botón x1/x2 cambia la velocidad de la batalla. - Móvil: toca los botones; arrastra los soldados con un dedo."
+ },
+ "scrap-steel": {
+  "description": "Scrap & Steel te pone al mando de un taller heredado en la lluviosa Astra City, con una deuda de 10.000 créditos con el Scraphound Syndicate y alquiler que vence cada día. Antes del primer día eliges un camino profesional: Cyber-Reputation para volumen y calificación del taller, el Mech Championship para forja pesada o la Drifter League para ajustes de precisión. Cada mañana llegan ofertas de trabajo como una puesta a punto de brazo biónico o una revisión de luchador de arena, cada una con pago, puntos de acción y fecha límite. Las terminas en tres minijuegos de habilidad, Forge, Calibrator y Assembler, donde el momento justo decide la calidad y el dinero.",
+  "instructions": "Elige trabajos del informe de la mañana y luego abre el taller. Forge: Espacio/Intro o clic en el momento justo. Calibrator: mantén pulsado o toca Espacio o clic izquierdo. Assembler: flechas/WASD o clic en celdas adyacentes. Termina el día con Tab/E. En móvil, toca y mantén. Paga la deuda en 30 días.",
+  "guide": {
+   "intro": "Scrap & Steel es un juego de gestión de taller cyberpunk: heredas un taller en Astra City con una deuda de 10.000 créditos con el Scraphound Syndicate, 2.000 créditos en mano y alquiler diario. Tienes 30 días para darle la vuelta aceptando trabajos y terminándolos en tres minijuegos de habilidad.",
+   "tips": [
+    "Elige bien tu camino al principio. Cyber-Reputation pide 9.000 en efectivo y una calificación de cinco estrellas, mientras que el Mech Championship y la Drifter League necesitan completar el Champion Build entre los días 15 y 28 con 80% de calidad más una cuota de inscripción de 2.000 créditos.",
+    "Revisa cada oferta por su pago, puntos de acción y fecha límite. El primer día, una puesta a punto de brazo biónico de 3 PA que paga 820 créditos es mejor que una revisión de 4 PA, salvo que necesites el pago mayor de 1.456.",
+    "Tienes tres Charlas al día además de los Trabajos; úsalas, porque los clientes y el Syndicate influyen en tus opciones.",
+    "El alquiler (150 créditos diarios al principio) y los intereses se acumulan, así que acepta trabajos estables pronto en lugar de esperar a uno perfecto.",
+    "La calidad depende del momento justo en Forge, Calibrator y Assembler; una ejecución limpia paga más y sube la calificación de tu taller."
+   ],
+   "faq": [
+    [
+     "¿Cuál es el objetivo en Scrap & Steel?",
+     "Pagar la deuda con el Syndicate en 30 días cumpliendo la condición de victoria del camino profesional que elegiste."
+    ],
+    [
+     "¿Puedo saltarme el tutorial?",
+     "Sí, hay un botón Saltar tutorial en la primera pantalla de una nueva carrera."
+    ],
+    [
+     "¿Se guarda la partida?",
+     "Un botón Continuar en la pantalla de título reanuda tu carrera."
+    ]
+   ]
+  }
+ },
+ "draw-the-odds": {
+  "description": "Draw The Odds es un platformer de arte pixelado con jefes, creado para una game jam de Unity en 2026. Cada jefe es una carta de figura, empezando por la sota de tréboles, y oculta un número secreto del 1 al 13. Corres y saltas por una arena gótica lanzando cartas de una mano de diez: las flechas te indican si debes subir o bajar, cuanto más te acercas más daño haces, y un acierto exacto es crítico. Esquiva dados y fichas, recoge orbes de suma, resta y multiplicación para combinar dos cartas en el número que necesitas, vence a la sota, la reina y el rey, y luego prueba el modo Endless.",
+  "instructions": "Escritorio: A/D para moverte, Espacio para saltar, Mayús para esquivar, rueda del ratón o 1-0 para elegir una carta, clic izquierdo para lanzarla, R para robar una nueva mano (3 por partida). Con un orbe, coloca dos cartas y haz clic para combinarlas. Móvil: joystick izquierdo, botones de salto y esquiva, toca una carta y arrástrala hacia arriba para lanzarla.",
+  "guide": {
+   "intro": "Draw The Odds es un boss rush de arte pixelado de una game jam de Unity de 2026 (tema: Lucky Number). Cada jefe es una carta de figura que oculta un número del 1 al 13, y la única forma de dañarlo es lanzar la carta correcta de tu mano. El primer combate es contra la sota de tréboles en un salón gótico con plataformas flotantes.",
+   "tips": [
+    "Empieza con una carta media, como un 7: la flecha que aparece te dice si es más alto o más bajo, lo que reduce el rango a la mitad de inmediato.",
+    "El daño aumenta cuanto más cerca esté tu carta del número secreto, así que un fallo cercano también debilita al jefe; un acierto exacto es crítico.",
+    "Empiezas con siete cartas en una mano de diez y tres robos (R). Guarda los robos para cuando todas las cartas que te quedan estén al lado equivocado de la flecha.",
+    "Los orbes verdes de suma y los rojos de resta te permiten combinar dos cartas en el número que necesitas, por ejemplo 9 y 3 para obtener 12, o 6 con resta para obtener 3.",
+    "Sigue moviéndote entre plataformas: los dados y las fichas vuelan hacia ti mientras apuntas, y el esquive con Mayús te saca de apuros.",
+    "Tras vencer a la reina, se abre el modo Endless para batir puntuaciones en el tablero de Ranking."
+   ],
+   "faq": [
+    [
+     "¿Cómo daño a un jefe en Draw The Odds?",
+     "Elige una carta con la rueda del ratón o las teclas numéricas y haz clic para lanzarla. Cuanto más se acerque su valor al número secreto del jefe, más daño causa."
+    ],
+    [
+     "¿Para qué sirven los orbes?",
+     "Los orbes de suma, resta y multiplicación combinan dos de tus cartas en un valor nuevo, así que puedes formar un número que no tienes en la mano."
+    ],
+    [
+     "¿Se puede jugar en el móvil?",
+     "Sí. En móvil hay joystick, botones de salto y esquiva, y arrastras una carta hacia arriba para lanzarla."
+    ]
+   ]
+  }
+ },
+ "evening-club-191-durak": {
+  "description": "Evening Club 191 es una sala de cartas en 3D donde te sientas a una mesa redonda verde en una habitación revestida de madera, con lluvia en la ventana detrás de ti, y juegas al Durak. Crea una mesa, elige las reglas de echar o transferir, añade hasta varios bots, o mantén la mesa solo por invitación y envía el enlace a tus amigos. Durante la partida ves tu mano en 3D, la carta de triunfo y el número de cartas del mazo, además de los botones Pista, Jugar carta, Coger cartas y Pasar. Un breve tutorial con movimientos de práctica enseña lo básico. También puedes levantarte y pasear por la sala.",
+  "instructions": "Elige una mesa: pon tu nombre, las reglas y el número de bots, luego pulsa Crear, siéntate y pulsa Empezar la partida. Selecciona las cartas con el ratón o con el tacto y usa Jugar carta, Coger cartas o Pasar. No seas el último jugador que se queda con cartas. El botón derecho del ratón mira alrededor, WASD camina.",
+  "guide": {
+   "intro": "Evening Club 191 te permite jugar al Durak, el clásico juego de cartas ruso, en una mesa 3D en una tranquila sala de club. Puedes jugar contra bots enseguida como invitado o crear una mesa privada e invitar a amigos con un enlace.",
+   "tips": [
+    "En Elige tu mesa, configura las reglas (Echar o Transferir) y el número de bots, marca Solo por invitación para una partida privada, y luego pulsa Crear y siéntate.",
+    "La barra de estado muestra la ronda, el palo de triunfo y cuántas cartas tienes en la mano, en el mazo y en el descarte.",
+    "Usa Pista si no sabes qué carta puede superar el ataque; Coger cartas es tu opción de reserva cuando no puedes defender.",
+    "Guarda los triunfos para defender al final de la ronda, cuando el mazo esté vacío y cada carta cuente.",
+    "En Ajustes hay una opción de Hacer el tutorial con cinco movimientos de práctica si eres nuevo en el Durak."
+   ],
+   "faq": [
+    [
+     "¿Cómo gano al Durak?",
+     "Deshazte de todas tus cartas. El último jugador que todavía tenga cartas es el durak, el tonto."
+    ],
+    [
+     "¿Puedo jugar solo?",
+     "Sí, añade uno o más bots a tu mesa y empieza la partida."
+    ],
+    [
+     "¿Necesito una cuenta?",
+     "No, jugar como invitado funciona sin cuenta; el progreso se guarda en tu dispositivo."
+    ]
+   ]
+  }
+ },
+ "byte-heist": {
+  "description": "Byte Heist comienza con un portátil viejo y agrietado y una terminal parpadeante que dice que no se detecta ningún hardware. Cada toque extrae un byte; compra servidores y mejoras y los equipos siguen descargando por ti, pasando de bytes a terabytes mientras sube un medidor de calor. Más allá del bucle idle hay duelos de hackeo contra hackers rivales, formados por tres minijuegos aleatorios de cinco, como girar el dial de una cerradura hasta el número correcto o parchear una fuga de red. Las resoluciones limpias y rápidas dan bonificaciones. El aspecto de terminal ámbar y el tutorial corto facilitan empezar en el móvil.",
+  "instructions": "Toca o haz clic en la terminal para extraer datos y luego compra servidores y mejoras. En los duelos de hackeo, resuelve tres minijuegos aleatorios antes que tu rival: toca las casillas, arrastra el dial de la cerradura o usa las flechas del teclado/WASD para las casillas de flechas. Los equipos siguen ganando mientras estás fuera.",
+  "guide": {
+   "intro": "Byte Heist es un juego idle de hackers con estética de terminal ámbar. Empiezas con cero bytes y un portátil viejo; toca la terminal para extraer datos, compra hardware que descarga por ti y enfréntate a hackers rivales en duelos de hackeo formados por minijuegos aleatorios.",
+   "tips": [
+    "El tutorial pide diez toques en la terminal; hazlos y luego compra el Portátil viejo en cuanto puedas para que los datos lleguen solos.",
+    "Vigila el medidor de calor bajo tu total; sube a medida que exprimes tus equipos.",
+    "Compra en pasos de x1, x10 o Máx desde la pestaña Servidores y revisa Mejoras para ver los multiplicadores.",
+    "En los duelos de hackeo recibes tres minijuegos aleatorios de cinco, como girar un dial de cerradura hasta el número mostrado. Una resolución limpia, sin errores, da una bonificación.",
+    "Los equipos siguen ganando mientras estás fuera, así que compensa volver con regularidad."
+   ],
+   "faq": [
+    [
+     "¿Cómo gano datos en Byte Heist?",
+     "Toca la terminal para extracciones manuales y compra servidores que descargan automáticamente."
+    ],
+    [
+     "¿Qué es un duelo de hackeo?",
+     "Una carrera contra un hacker rival a través de tres minijuegos aleatorios; termina primero y sin errores para obtener bonificaciones."
+    ],
+    [
+     "¿Está hecho para móviles?",
+     "Sí, se juega en vertical y todos los controles funcionan con toques o arrastres."
+    ]
+   ]
+  }
+ },
+ "space-trick-battle": {
+  "description": "Space Trick Battle es un shooter de enfrentamiento dividido en tres franjas: el campo de tu rival arriba, tu nave en el medio y los controles abajo. Tu nave dispara sola mientras la arrastras para esquivar; los enemigos derrotados sueltan objetos que guardas en tres ranuras, y los objetos de envío llevan unidades de tu mazo de cinco al campo rival. Cuando se acaba el temporizador de cinco minutos, decide la vida que te quede. Practica contra la computadora en Normal Level, busca el ranking en Ranker Level o juega en línea buscando un rival o compartiendo el nombre de una sala. Las misiones y la tienda desbloquean más unidades con puntos.",
+  "instructions": "Arrastra tu nave en el área de control (o usa las teclas de flecha/WASD); dispara automáticamente. Toca una ranura de objeto a la derecha para usarlo; puedes guardar tres. Supera al rival con objetos de envío y de ataque. Crea un mazo de cinco unidades y desbloquea más en la Shop con PT.",
+  "guide": {
+   "intro": "Space Trick Battle es un shooter de enfrentamiento en vertical. La pantalla muestra el campo de tu rival arriba, tu propio campo en el medio y una franja de controles abajo. Tu nave dispara sola; ganas sobreviviendo y enviando problemas al otro lado antes de que termine el temporizador de cinco minutos.",
+   "tips": [
+    "Empieza con vs Computer en Normal Level; la primera victoria contra la computadora da una bonificación de 1.000 PT.",
+    "Arrastra tu nave a cualquier punto de la franja inferior, así tu dedo nunca tapa la acción.",
+    "Los enemigos derrotados sueltan objetos. Puedes guardar tres; un cuarto se pierde, así que usa los objetos en vez de acapararlos.",
+    "Los enemigos grandes sueltan un objeto de curación el 75% de las veces, así que vale la pena concentrarse en ellos.",
+    "Los objetos de envío llevan unidades de tu mazo de cinco al campo de tu rival; arma el mazo en Deck y desbloquea nuevas unidades en la Shop.",
+    "Solo las victorias en Ranker Level cuentan para el ranking; las partidas PvP no dan PT."
+   ],
+   "faq": [
+    [
+     "¿Cómo ataco al otro jugador?",
+     "Consigue objetos de envío y de ataque de los enemigos derrotados y toca sus ranuras; los objetos de envío hacen aparecer las unidades de tu mazo en el campo rival."
+    ],
+    [
+     "¿Puedo jugar en línea?",
+     "Sí, usa Find Opponent o crea una sala y comparte su nombre."
+    ],
+    [
+     "¿Qué decide una partida que se queda sin tiempo?",
+     "Gana el jugador que tenga más vida restante."
+    ]
+   ]
+  }
+ },
+ "the-comet": {
+  "description": "The Comet es un corredor diario de un solo dedo ambientado en una cuadrícula de neón. Montas un cometa por una pista de tres carriles, cambiando de carril, saltando puertas y agachándote bajo barras mientras recoges estrellas que construyen un combo. La pista se genera una vez al día y es idéntica para todos, así que la clasificación es una carrera justa y no una cuestión de quién tuvo el nivel más amable. Una partida dura menos de un minuto, tus puntos se acumulan durante una semana de siete días, y el contador de la pantalla de título muestra cuándo llega la siguiente pista. No hay cuenta ni instalación: ábrelo, pulsa espacio o toca la pantalla, y tu puntuación del día queda fijada.",
+  "instructions": "Pulsa espacio o toca la pantalla para empezar. Las flechas izquierda y derecha cambian de carril, la flecha arriba salta una puerta y la flecha abajo se agacha bajo una barra. Recoge estrellas para subir el multiplicador de combo y mantén líneas limpias para conseguir casi-choques. Chocar con un obstáculo termina la partida, y puedes volver a correr de inmediato en la misma pista diaria.",
+  "guide": {
+   "intro": "The Comet ofrece a todos la misma pista cada día, así que una buena puntuación depende de leer el carril que tienes delante y no de la suerte. Las partidas son cortas, puedes reintentarlo al instante y solo tu mejor puntuación del día cuenta para la semana.",
+   "tips": [
+    "La pista es idéntica para cada jugador hasta medianoche UTC, así que una segunda o tercera partida sobre el mismo diseño es donde están los puntos reales: ya sabes lo que viene.",
+    "Cambia de carril pronto. El cometa se desliza en lugar de cambiar de golpe, así que un cambio de carril iniciado tarde roza el borde de la puerta que intentabas evitar.",
+    "El salto es para los bloques sólidos y agacharse para las barras superiores; cuando aparecen ambos a la vez, elige el carril sin ninguno en lugar de intentar calcular el tiempo de dos acciones.",
+    "Las estrellas suben el multiplicador de combo, y ese multiplicador es lo que separa un 100 de un 300. Una estrella merece un pequeño desvío, pero nunca merece un choque.",
+    "Los casi-choques se cuentan por separado en la pantalla de resultados: pasar cerca de un obstáculo en lugar de esquivarlo con un giro amplio da recompensa una vez que conoces la pista.",
+    "Tu semana suma durante siete días y el líder se corona el lunes, así que un día mediocre también cuenta si mantienes la racha."
+   ],
+   "faq": [
+    [
+     "¿Necesito una cuenta para jugar?",
+     "No. El juego se abre directamente en la pista diaria, y tu puntuación del día se guarda en tu navegador."
+    ],
+    [
+     "¿La pista es aleatoria?",
+     "No. Se genera una pista al día y todos corren la misma, que es lo que hace que la clasificación diaria merezca la pena. Una nueva pista aparece cada día a las 00:00 UTC."
+    ],
+    [
+     "¿Funciona en el móvil?",
+     "Sí. Está pensado para un solo dedo: toca para empezar y desliza o usa las flechas en pantalla para el carril, el salto y el agachado."
+    ]
+   ]
+  }
+ },
+ "steal-all-eggs": {
+  "description": "Explora áreas 3D llenas de colores y colecciona mascotas en Steal All Eggs. Elige uno de los dos modos para un jugador y construye tu colección a tu propio ritmo. En Steal An Egg, toma un huevo de un nido, evita a los guardias y a los bots controlados por la computadora, y llévalo de vuelta a tu corral. Colócalo en el corral y ábrelo cuando esté listo. Durante el evento nocturno aparecen huevos especiales. En Break An Egg, usa un pico para romper huevos, luego recoge las mascotas que hay dentro y llévalas de vuelta a tu base. Gana dinero dentro del juego, entrena para mejorar tu velocidad y desbloquea mejoras, objetos y atuendos.",
+  "instructions": "- Moverse: WASD o las teclas de flecha. Saltar: Espacio. - Girar/inclinar la cámara: Q/R y T/G, o arrastra sobre la vista del juego. Zoom: rueda del ratón. - Pulsa E o Enter para la acción cercana. En Break An Egg, mantenla pulsada para minar un huevo. - Pulsa 1 para equipar o guardar el pico en Break An Egg; pulsa 2 para activar o desactivar un objeto equipado. - En Steal An Egg, pulsa F para balancear el bate cuando esté permitido. Pulsa X para activar o desactivar el movimiento lento. - Haz clic en el botón PLAY de un modo para empezar. Haz clic en los menús, botones de la tienda y avisos de mejora para hacer selecciones. ### Controles táctiles - Arrastra el joystick en pantalla para moverte. Arrastra la vista del juego para girar la cámara; pellizca para hacer zoom. - Toca Saltar o el botón de acción contextual; mantén pulsado el botón de acción para minar en Break An Egg. - Toca el botón del bate en Steal An Egg y las ranuras de la barra rápida para activar o desactivar herramientas u objetos. Toca los menús en pantalla y los avisos de mejora.",
+  "guide": {
+   "intro": "Steal All Eggs es una aventura en 3D donde exploras áreas llenas de colores y coleccionas mascotas. Puedes elegir entre dos modos para un jugador, Steal An Egg y Break An Egg, y construir tu colección a tu propio ritmo.",
+   "tips": [
+    "En Steal An Egg, vigila a los guardias y a los bots controlados por la computadora mientras llevas un huevo de vuelta a tu corral. El movimiento lento con X puede ayudarte a mantener la calma cuando estés cerca de ellos.",
+    "Coloca los huevos robados en tu corral y ábrelos solo cuando estén listos, así tu colección crecerá de forma constante en lugar de en oleadas apresuradas.",
+    "En Break An Egg, mantén pulsado E o Enter para minar un huevo, y mantén tu pico equipado con 1 mientras te desplazas entre huevos para ahorrar tiempo.",
+    "Gasta primero el dinero que ganes en entrenamiento de velocidad, ya que moverte más rápido hace que cada viaje a un nido o a un huevo y de vuelta a la base sea más rápido. Si te gustan más juegos basados en coleccionar criaturas, echa un vistazo a [[animal-games|otros juegos de mascotas con temática animal]].",
+    "Mantente atento al evento nocturno, porque entonces aparecen huevos especiales que pueden valer la pena incluso si estás en mitad de una partida normal."
+   ],
+   "faq": [
+    [
+     "¿Cómo me muevo y salto en Steal All Eggs?",
+     "Usa WASD o las teclas de flecha para moverte y pulsa Espacio para saltar. En pantallas táctiles, arrastra el joystick en pantalla para moverte y toca Saltar."
+    ],
+    [
+     "¿Qué debo hacer con el dinero que gano?",
+     "Puedes usar el dinero del juego para entrenar tu velocidad y desbloquear mejoras, objetos y atuendos. La velocidad es especialmente útil cuando necesitas llevar los huevos a tu base rápidamente."
+    ]
+   ]
+  }
  }
 }

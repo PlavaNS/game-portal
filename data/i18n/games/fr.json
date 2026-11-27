@@ -9456,8 +9456,8 @@
   }
  },
  "nuts-puzzle-sort-by-color": {
-  "description": "Nuts Puzzle: Sort by Color est un jeu de puzzle classique dans lequel vous triez des écrous de différentes couleurs sur des vis jusqu'à ce qu'ils soient tous de la même couleur. Au fil des niveaux, les puzzles deviennent plus retors, vous obligeant à bien planifier vos coups et à réfléchir plusieurs étapes à l'avance. À chaque tri réussi, vous ressentirez une satisfaction bien méritée. Préparez-vous à tester votre stratégie et vos talents de résolution de problèmes en relevant des défis de plus en plus complexes et colorés ! [Gameplay principal et histoire] Q : De quoi parle le jeu ? Que doivent faire les joueurs ? R : C'est un jeu de puzzle dans lequel les joueurs trient des écrous colorés sur des boulons de même couleur. Q : Quel est le point fort du jeu ? Qu'est-ce qui le rend captivant pour les joueurs ? R : Les visuels magnifiques et colorés, ainsi qu'un système de progression dans lequel les joueurs ne se contentent pas de trier les écrous, mais réparent aussi leur jardin en \"\"réparant\"\" peu à peu les fleurs. Q : Quels sont les éléments de contenu attractifs (armes, véhicules, lieux, compétences, références à des franchises célèbres, etc.) ? R : Les visuels magnifiques et colorés, ainsi qu'un système de progression dans lequel les joueurs ne se contentent pas de trier les écrous, mais réparent aussi leur jardin en \"\"réparant\"\" peu à peu les fleurs. [Économie et personnalisation] Q : Quelles sont les monnaies et à quoi servent-elles (monnaie standard - or, monnaie premium - cristaux, etc.) ? R : Il y a des pièces, qui peuvent être dépensées pour des bonus en jeu, comme un boulon supplémentaire pour trier les écrous. Il existe aussi une monnaie distincte, les Écrous, qui peuvent être dépensés pour \"\"réparer\"\" le jardin. [Fidélisation et engagement] Q : Existe-t-il des récompenses quotidiennes ou autre chose qui incite les joueurs à revenir ? R : Il y a une tirelire, et des pièces sont collectées pendant que le joueur est absent du jeu. De plus, un coffre peut être ouvert lorsque certains niveaux sont atteints, et peut offrir des récompenses comme des bonus de jeu et de la monnaie en jeu. Q : Vaut-il mieux jouer avec le son pour mieux s'immerger dans l'ambiance, ou jouer sans son rendra-t-il la réussite des niveaux plus difficile ? R : Ce n'est pas nécessaire.",
-  "instructions": "Organisez les écrous Pour jouer à Nuts Puzzle: Sort by Color, commencez par toucher l'écrou que vous voulez déplacer, puis sélectionnez la vis où vous souhaitez le placer. Vous ne pouvez poser un écrou sur une autre vis que si elle est vide ou si l'écrou du dessus de cette vis a la même couleur que celui que vous déplacez. Cette règle simple pose les bases du défi, car il vous faudra planifier stratégiquement vos coups pour que chaque vis finisse avec des écrous d'une seule couleur. Au fil de la progression, le jeu ajoute davantage d'écrous et une plus grande variété de couleurs, rendant les puzzles de plus en plus complexes. De nouveaux défis, comme les niveaux en mode difficile, ajoutent une couche de difficulté supplémentaire en masquant la couleur des écrous jusqu'à ce que vous déplaciez une pièce qui se trouve au-dessus d'eux. Ces ajouts mettront à l'épreuve votre réflexion stratégique et vos capacités de résolution de problèmes à chaque niveau, en essayant de terminer le puzzle avec moins de coups et plus d'efficacité. Utilisez les aides C'est à ce moment-là que vous pourriez avoir besoin des options annuler, réinitialiser et vis supplémentaire"
+  "description": "Nuts Puzzle: Sort by Color est un jeu de puzzle classique où vous triez des écrous de différentes couleurs sur des vis jusqu'à ce qu'ils soient tous de la même couleur. À mesure que vous progressez dans les niveaux, les puzzles deviennent plus corsés, vous obligeant à bien planifier vos coups et à réfléchir plusieurs étapes à l'avance. Chaque tri réussi vous procurera un vrai sentiment d'accomplissement. Préparez-vous à tester votre stratégie et vos capacités de résolution de problèmes à mesure que vous affrontez des défis de plus en plus complexes et colorés ! [Gameplay principal et histoire] Q : De quoi parle le jeu ? Que doivent faire les joueurs ? R : C'est un jeu de puzzle dans lequel les joueurs trient des écrous codés par couleur sur les boulons correspondants. Q : Quel est le point fort unique du jeu ? Qu'est-ce qui le rend captivant pour les joueurs ? R : Les graphismes magnifiques et colorés, ainsi qu'un système de progression dans lequel les joueurs ne se contentent pas de trier les écrous, mais réparent aussi leur jardin en « réparant » progressivement les fleurs. Q : Quels sont les éléments de contenu attrayants (armes, véhicules, lieux, compétences, références à des franchises célèbres, etc.) ? R : Les graphismes magnifiques et colorés, ainsi qu'un système de progression dans lequel les joueurs ne se contentent pas de trier les écrous, mais réparent aussi leur jardin en « réparant » progressivement les fleurs. [Économie et personnalisation] Q : Quelles sont les monnaies et à quoi servent-elles (monnaie standard - or, monnaie premium - cristaux, etc.) ? R : Il existe des pièces, qui peuvent être dépensées pour des bonus in-game, comme un boulon supplémentaire pour trier les écrous. Il existe aussi une monnaie distincte, les Écrous, qui peut être dépensée pour « réparer » le jardin. [Rétention et engagement] Q : Y a-t-il des récompenses quotidiennes ou un système similaire qui incite les joueurs à revenir ? R : Il y a une tirelire, et des pièces sont collectées pendant que le joueur est absent du jeu. De plus, un coffre peut être ouvert après avoir atteint certains niveaux du jeu, pouvant contenir des récompenses comme des bonus de jeu et de la monnaie in-game. Q : Est-il préférable de jouer avec le son pour mieux s'immerger dans l'ambiance, ou jouer sans son compliquera-t-il la réussite des niveaux ? R : Ce n'est pas nécessaire.",
+  "instructions": "Organisez les écrous. Pour jouer à Nuts Puzzle: Sort by Color, commencez par toucher l'écrou que vous voulez déplacer, puis sélectionnez la vis où vous souhaitez le placer. Vous ne pouvez placer un écrou sur une autre vis que si elle est vide ou si l'écrou du dessus sur cette vis a la même couleur que celui que vous déplacez. Cette règle simple pose les bases du défi de résolution de puzzle : vous devrez planifier vos coups stratégiquement pour que chaque vis finisse avec des écrous d'une seule couleur. Au fil de votre progression, le jeu introduit davantage d'écrous et une plus grande variété de couleurs, rendant les puzzles de plus en plus complexes. De nouveaux défis, comme les niveaux du mode difficile, ajoutent une couche de difficulté supplémentaire en masquant la couleur des écrous jusqu'à ce que vous retiriez une pièce située au-dessus d'eux. Ces ajouts testeront votre réflexion stratégique et vos capacités de résolution de problèmes à mesure que vous progressez dans chaque niveau, en cherchant à terminer le puzzle avec moins de coups et plus d'efficacité. Utilisez les aides. C'est à ce moment que vous pourriez avoir besoin des options annuler, réinitialiser et vis supplémentaire"
  },
  "bus-master-road-journey": {
   "description": "Prenez le volant d'un bus puissant et explorez les rues animées de la ville, les autoroutes et les routes difficiles ! Prenez des passagers, naviguez dans la circulation et atteignez vos destinations en toute sécurité dans Busora: Highway Driver 3D. Testez vos talents de conducteur et profitez d'une aventure de simulateur de bus passionnante !",
@@ -23905,8 +23905,8 @@
   "instructions": "1. Appuie sur « Jouer ». Tu commences sur un toit au-dessus d'une foule d'infectés : saute au milieu d'eux. La première mission t'apprend chaque mouvement en cours de route : combattre avec des massues empruntées, absorber, lancer une voiture, courir sur un mur et planer. 2. Déplace-toi avec ZQSD ou les flèches du clavier (sur écran tactile : le joystick sur la moitié gauche de l'écran). Maintiens Maj ou pousse le joystick au bout pour sprinter. 3. Fonce contre un mur pour le grimper. Appuie brièvement sur Espace pour un petit saut, maintiens-le pour un saut haut ; maintiens-le en l'air pour planer. Ctrl (ou le bouton Dash en l'air) effectue un dash vers l'avant. 4. Le clic gauche (bouton Attaque) frappe avec les griffes : tape trois fois pour un combo. La caméra suit la souris après un clic dans le jeu ; sans capture de la souris, fais glisser avec le bouton droit (sur écran tactile : glisse sur la moitié droite de l'écran). 5. Un ennemi affaibli reçoit un repère : appuie sur E (le bouton contextuel) pour l'absorber. 6. Q (le bouton Écho) met en surbrillance les cibles de mission à travers les murs. Échap ou le bouton pause en haut à gauche met le jeu en pause. 7. Term"
  },
  "sunny-farm-match-3": {
-  "description": "Sunny Farm: Match 3 est un puzzle match-3 cosy avec 500 niveaux répartis sur cinq grands mondes : votre ferme, un voyage à travers les fermes de 10 pays, la Forêt magique, les îles du ciel et la toute nouvelle Vallée du Soleil doré. Échangez des fruits voisins, alignez-en trois ou plus et déclenchez des combos explosifs. Chaque niveau a son propre objectif : récolter les cultures, dégager le foin, les caisses, les mauvaises herbes, la glace et les chaînes, retourner la terre, faire descendre les paniers, attraper des lucioles, souffler un moulin à vent jusqu'à la girouette — et dans la vallée, dénouer des rubans de fête et cuire des gâteaux en couches. Au programme : • 500 niveaux et 50 chapitres sur une carte vivante : la ferme au fil des saisons, 10 pays de la Hollande à la Laponie, la Forêt magique, les îles du ciel et la Vallée du Soleil doré • Nouveauté dans la vallée : des rubans de fête avec nœuds et des gâteaux qui cuisent directement sur le plateau — biscuit, crème, baies, bougies et une explosion de feux d'artifice • 14 amis aidants : hibou, renard, hérisson, l'agneau nuage et le nouveau hamster, paon, castor et faon • Pièces spéciales : râteau, ruche, tonneau et l'arrosoir magique. Échangez deux pièces spéciales et elles explosent toutes les deux ! • Le Manoir : gagnez des planches grâce à vos victoires et reconstruisez des parcelles — de la Clairière des fées et du Château dans les nuages au Jardin de thé et au Palais du triomphe • Albums de cartes postales pour les cinq mondes, avec un cadeau pour chaque carte postale • Fête de la citrouille : attrapez des lanternes de citrouille sur le plateau et ouvrez des coffres de fête • Votre propre jardin avec des récoltes dorées, une chasse aux trésors, une traversée de grenouilles, une tirelire, une foire hebdomadaire, des commandes quotidiennes et une roue de la fortune • 10 bonus : marteau, pelle, dynamite, fourche, panier, essaim d'abeilles, tuyau d'arrosage, lanterne, tempête et feux d'artifice • Chaque pays a sa propre musique. Gratuit, sans inscription. Fonctionne sur téléphone, tablette et ordinateur.",
-  "instructions": "Souris ou tactile : échangez deux fruits voisins pour aligner trois fruits identiques ou plus (glissez, ou touchez un fruit puis son voisin). L'objectif du niveau est affiché en haut : collecter des fruits, atteindre un score, vider le plateau, retourner la terre (alignez directement dessus), faire descendre les paniers (alignez en dessous d'un panier), attraper des lucioles (videz la case sous une luciole), pousser le moulin à vent jusqu'à la girouette sur les îles du ciel (un alignement à côté du moulin le fait avancer selon les flèches) ou, dans la Vallée du Soleil doré, dénouer les rubans de fête (alignez à côté des nœuds aux deux extrémités) et cuire les gâteaux (alignez à côté d'un gâteau : biscuit, crème, baies, bougies). Pièces spéciales : quatre alignés — râteau (vide une ligne ou une colonne) ; carré 2x2 — ruche ; forme en L ou en T — tonneau ; cinq alignés — arrosoir magique (supprime tous les fruits d'un même type). Échangez deux pièces spéciales et elles explosent toutes les deux. Le brouillard disparaît lorsque vous alignez dessus ou à côté. Un nuage endormi se réveille lorsque vous alignez à côté de lui : sa pluie frappe alors les obstacles ou fait tomber les fruits de l'objectif. Coups restants à"
+  "description": "Sunny Farm est un puzzle match-3 douillet avec 500 niveaux répartis sur cinq grands mondes : votre ferme familiale, un voyage à travers les fermes de 10 pays, la Forêt magique, les îles du ciel et la toute nouvelle Vallée du Soleil doré. Échangez deux fruits voisins, alignez-en trois ou plus et déclenchez des combos explosifs. Chaque niveau a son propre objectif : récolter les cultures, dégager le foin, les caisses, les mauvaises herbes, la glace et les chaînes, déterrer le gazon, faire descendre les paniers, attraper les lucioles, faire tourner le moulinet jusqu'à la girouette, et dans la vallée, dénouer les rubans festifs et cuire des gâteaux en couches. Au programme : • 500 niveaux et 50 chapitres sur une carte vivante : la ferme au fil des saisons, 10 pays de la Hollande à la Laponie, la Forêt magique, les îles du ciel et la Vallée du Soleil doré • Nouveauté dans la vallée : des rubans festifs avec nœuds et des gâteaux qui cuisent directement sur le plateau : biscuit, crème, baies, bougies et une explosion de feux d'artifice • 14 amis aidants : hibou, renard, hérisson, l'agneau nuage et les nouveaux hamster, paon, castor et faon • Pièces spéciales : râteau, ruche, tonneau et l'arrosoir magique. Échangez deux pièces spéciales et elles se déclenchent toutes les deux ! • Le Manoir : gagnez des planches grâce à vos victoires et reconstruisez des parcelles, de la Clairière des fées au Château dans les nuages jusqu'au Jardin de thé et au Palais du triomphe • Albums de cartes postales pour les cinq mondes, avec un cadeau pour chaque carte • Fête de la citrouille : attrapez les lanternes de citrouille sur le plateau et ouvrez des coffres festifs • Votre propre jardin avec des récoltes dorées, une chasse au trésor, une traversée de grenouilles, une tirelire, une foire hebdomadaire, des commandes quotidiennes et une roue de la fortune • 10 bonus : marteau, pelle, dynamite, fourche, panier, essaim d'abeilles, tuyau d'arrosage, lanterne, tempête et feux d'artifice • Chaque terre a sa propre musique. Jeu gratuit, sans inscription. Fonctionne sur téléphone, tablette et ordinateur.",
+  "instructions": "Souris ou tactile : échangez deux fruits voisins pour aligner trois fruits identiques ou plus (glissez, ou touchez un fruit puis son voisin). L'objectif du niveau est affiché en haut : collecter des fruits, atteindre un score, vider le plateau, déterrer le gazon (associez directement dessus), faire descendre les paniers (associez en dessous d'un panier), attraper les lucioles (videz la case sous une luciole), pousser le moulinet jusqu'à la girouette des îles du ciel (un alignement à côté du moulinet le fait avancer selon les flèches) ou, dans la Vallée du Soleil doré, dénouer les rubans festifs (associez à côté des nœuds aux deux extrémités) et cuire les gâteaux (associez à côté d'un gâteau : biscuit, crème, baies, bougies). Pièces spéciales : quatre alignés — râteau (vide une ligne ou une colonne) ; carré 2x2 — ruche ; forme en L ou en T — tonneau ; cinq alignés — arrosoir magique (supprime tous les fruits d'un même type). Échangez deux pièces spéciales et elles se déclenchent toutes les deux. Le brouillard se dissipe lorsque vous associez dessus ou à côté. Un nuage endormi se réveille lorsque vous associez à côté de lui, puis sa pluie frappe les obstacles ou fait tomber les fruits de l'objectif. Coups restants à"
  },
  "snowball-fight-online": {
   "description": "Snowball Fight Online vous plonge dans une arène 3D enneigée où tout le monde lance des boules de neige. Choisissez le chacun pour soi, où le dernier joueur debout l'emporte, ou un combat par équipes de 10 contre 10, et rejoignez un salon déjà en cours. Déplacez-vous avec ZQSD, visez à la souris et lancez; les boules de neige s'épuisent, alors restez immobile un instant pour en fabriquer d'autres. Les objets lumineux au sol vous donnent des bonus à utiliser avec Q ou E. Plusieurs cartes tournent, dont un cimetière d'Halloween, 12 personnages à débloquer, des emotes, un chat ainsi qu'un classement quotidien et hebdomadaire. Le jeu se lance instantanément dans le navigateur, sans téléchargement ni compte, et vous pouvez sauvegarder votre progression pour la reprendre dans un autre navigateur.",
@@ -292451,12 +292451,57 @@
   }
  },
  "mexican-train-online": {
-  "description": "Mexican Train Online apporte le classique jeu de dominos dans le navigateur. Une manche commence à partir d'un double moteur au centre, ici le 12|12, et chaque joueur construit son propre train à partir de celui-ci, pendant qu'un Mexican Train commun reste ouvert à tous. Vous jouez contre des adversaires informatiques nommés Rusty, Tess et Dilly en niveau facile, moyen ou difficile, ou vous passez l'appareil entre deux à quatre personnes. Votre main affiche le total des points, un bouton d'indice met en surbrillance les dominos jouables, et vous pouvez annuler, trier votre main et jouer en plein écran. Les jeux double-6, double-9, double-12 et plus grands sont pris en charge.",
-  "instructions": "Touchez un domino lumineux dans votre main, puis touchez l'extrémité d'un train pour le jouer : votre propre train, le Mexican Train commun, ou le train d'un autre joueur une fois ouvert. Si vous ne pouvez pas jouer, piochez dans la pioche. Vider votre main en premier ; le total de points le plus bas après toutes les manches gagne. Utilisez l'ampoule pour obtenir des indices."
+  "description": "Mexican Train Online propose le classique jeu de dominos directement dans le navigateur. Une manche commence par un double servant de point de départ au centre, ici le 12|12, et chaque joueur construit son propre train à partir de ce point, tandis qu'un Mexican Train commun reste ouvert à tous. Vous jouez contre les adversaires informatiques Rusty, Tess et Dilly en facile, moyen ou difficile, ou vous passez l'appareil pour deux à quatre joueurs. Votre main affiche le total de points, un bouton d'aide met en évidence les dominos jouables, et vous pouvez annuler, trier votre main et jouer en plein écran. Les jeux de double 6, double 9, double 12 et plus sont pris en charge.",
+  "instructions": "Touchez un domino lumineux dans votre main, puis touchez l'extrémité d'un train pour le jouer : votre propre train, le Mexican Train commun, ou le train d'un autre joueur une fois ouvert. Si vous ne pouvez pas jouer, piochez dans la pioche. Vider votre main en premier ; le total de points le plus bas après toutes les manches gagne. Utilisez l'ampoule pour obtenir des indices.",
+  "guide": {
+   "intro": "Mexican Train Online est le classique jeu de dominos contre trois joueurs informatiques, Rusty, Tess et Dilly, ou en mode à tour de rôle pour deux à quatre joueurs. Une manche commence par le double le plus élevé, ici le 12|12 comme point de départ, chaque joueur reçoit treize dominos, et le Mexican Train commun est ouvert à tous dès le premier tour. La partie se joue en plusieurs manches et le total de points le plus bas à la fin l'emporte.",
+   "tips": [
+    "Votre main affiche son total de points (par exemple 153 points au début). Jouez vos dominos les plus lourds tôt, car tout ce qui reste dans votre main quand quelqu'un termine compte contre vous.",
+    "Commencez votre propre train avec un domino correspondant au point de départ, comme 12|9 sur le 12|12, puis prolongez-le avec des extrémités correspondantes.",
+    "Le Mexican Train commun est ouvert à tous. Utilisez-le lorsque vous ne pouvez pas prolonger votre propre train, au lieu de piocher.",
+    "Touchez l'ampoule pour obtenir un indice : elle montre quels dominos peuvent être joués immédiatement.",
+    "Le bouton de tri réorganise votre main, ce qui permet de repérer beaucoup plus facilement une suite d'extrémités correspondantes.",
+    "Si vous quittez en cours de partie, la prochaine visite demandera Bon retour ! Reprendre votre partie ?, pour que vous puissiez reprendre la même manche."
+   ],
+   "faq": [
+    [
+     "Comment jouer un domino dans Mexican Train Online ?",
+     "Touchez un domino lumineux dans votre main, puis touchez le plus à l'extrémité du train auquel vous voulez l'ajouter."
+    ],
+    [
+     "Puis-je jouer avec mes amis ?",
+     "Oui. Le mode à tour de rôle permet à deux à quatre joueurs de jouer sur un même appareil, ou vous pouvez affronter un à trois joueurs informatiques en facile, moyen ou difficile."
+    ],
+    [
+     "Quels jeux de dominos sont pris en charge ?",
+     "Les jeux de double 6, double 9, double 12 et plus, pour que vous puissiez jouer des parties courtes ou longues."
+    ]
+   ]
+  }
  },
  "wreck-kings-car": {
-  "description": "Wreck Kings: Car Destruction Island est un jeu de course et de demolition derby en 3D créé par BREYMANTECH. Percutez, fracassez et survivez face à vos rivaux sur une île pleine d'action ! Participez à 300 épreuves de carrière réparties en 15 chapitres, avec un boss à la fin de chaque chapitre. Il existe 8 modes : Course sur circuit, Sprint, Rallye sur terre, Demolition Derby, Spectacle de cascades, Chasse aux destructions, Takedown et Ruée tout-terrain. Gagnez de l'argent pour acheter 4 véhicules : une hot hatch, une supercar, un monster truck et un poids lourd. Améliorez le moteur, le nitro, les pneus, le blindage et la suspension, et débloquez 18 compétences dans l'arbre de compétences. Les carrosseries se déforment et des pièces s'envolent lors des chocs. Créez votre propre livrée dans le Paint Shop",
-  "instructions": "W uarr accélérateur S darr frein marche arrière A D larr rarr diriger ESPACE frein à main drift MAJ N nitro C changer de caméra R réinitialiser la voiture ÉCHAP P pause Les commandes de manette et tactiles sont prises en charge sur mobile Astuces : sauter, faire un flip et drifter pour remplir yo"
+  "description": "Wreck Kings: Car Destruction Island est un jeu de course et de demolition derby en 3D développé par BREYMANTECH. Percutez, fracassez et survivez à vos rivaux sur une île pleine d'action ! Participez à 300 épreuves de carrière réparties en 15 chapitres, avec un boss à la fin de chaque chapitre. Il existe 8 modes : Course sur circuit, Sprint, Rallye sur terre, Demolition Derby, Spectacle de cascades, Chasse aux carambolages, Takedown et Offroad Rush. Gagnez de l'argent pour acheter 4 véhicules : une berline sportive, une supercar, un monster truck et un camion lourd. Améliorez le moteur, le nitro, les pneus, le blindage et la suspension, et débloquez 18 compétences dans l'arbre de compétences. Les carrosseries se cabossent et des pièces se détachent lors des chocs. Créez votre propre livrée dans le Paint Shop",
+  "instructions": "W flèche haut accélérateur S flèche bas frein marche arrière A D flèche gauche flèche droite diriger ESPACE frein à main drift MAJ N nitro C changer de caméra R réinitialiser la voiture ECHAP P pause Les commandes manette et tactile sont prises en charge sur mobile Astuces sauter, faire un flip et drifter pour remplir yo",
+  "guide": {
+   "intro": "Wreck Kings: Car Destruction Island est un jeu de course et de demolition derby en 3D qui se déroule sur une île. Vous participez à 300 épreuves de carrière réparties en 15 chapitres, chacun se terminant par un boss, et vous pouvez améliorer et personnaliser vos véhicules au fil de votre progression.",
+   "tips": [
+    "Utilisez ESPACE pour faire un drift au frein à main dans les virages serrés des modes de course, puis appuyez sur S ou W pour garder le contrôle de votre vitesse à la sortie.",
+    "Réservez le nitro MAJ pour les lignes droites ou juste après un drift afin de profiter au maximum de chaque boost.",
+    "Dépensez votre argent dans les améliorations adaptées à votre mode : les pneus et la suspension aident sur les terrains accidentés, tandis que le blindage compte davantage dans les épreuves de demolition où les chocs comptent.",
+    "Choisissez un véhicule adapté à l'épreuve. Un monster truck ou un camion lourd résiste mieux aux coups dans un derby, alors qu'une berline sportive ou une supercar est plus efficace en course.",
+    "Si vous aimez le côté destruction du jeu, vous trouverez d'autres titres dans les [[car-crash-games|jeux de car crash]]."
+   ],
+   "faq": [
+    [
+     "Comment diriger et contrôler ma voiture ?",
+     "Utilisez A et D pour diriger, W pour avancer et S pour freiner ou reculer. Maintenez ESPACE pour faire un drift au frein à main."
+    ],
+    [
+     "Que dois-je améliorer en premier ?",
+     "Améliorez les éléments qui correspondent à votre mode préféré, comme les pneus et la suspension pour la course, ou le blindage pour les épreuves de demolition. Utilisez l'arbre de compétences pour débloquer les capacités qui correspondent à votre style de jeu."
+    ]
+   ]
+  }
  },
  "giant-egg-idle": {
   "description": "Giant Egg Idle est un idle game en pixel art 2D dans lequel vous formez une armée qui fait éclore un œuf géant. Chaque éclat qui se détache se transforme en pièces, donc plus votre escouade grandit, plus l'argent afflue vite, même quand vous êtes absent. Recrutez des Punchers, Miners, Archers, Catapults, Rocketeers, Blasters et Tanks et regardez toute la foule marteler la coquille autour de la fosse. Tapez sur les oiseaux pour faire tomber des pièces du ciel, attrapez les cadeaux à leur atterrissage et appelez le commando au bazooka quand il arrive sur le terrain. Dépensez les Gems dans l'arbre des améliorations, lancez une nouvelle ère avec le Prestige pour gagner des Diamonds et obtenir des avantages permanents, accomplissez les Daily Tasks et les Achievements pour gagner des Tickets, et changez l'apparence de la carte, de Meadow à Egypt, Jungle, Tundra et bien d'autres.",
@@ -292573,6 +292618,201 @@
     [
      "À quoi sert la touche de ralenti ?",
      "La touche T ralentit le temps, ce qui vous donne plus de contrôle pendant les sauts et les passages difficiles de la carte. Elle est utile pour bien préparer vos atterrissages."
+    ]
+   ]
+  }
+ },
+ "draw-the-odds": {
+  "description": "Draw The Odds est un boss rush en plateforme pixel-art créé pour la game jam Unity 2026. Chaque boss est une carte figure, à commencer par le Valet de trèfle, et cache un nombre secret de 1 à 13. Vous courez et sautez dans une arène gothique en lançant des cartes depuis une main de dix : des flèches indiquent s'il faut monter ou descendre, plus vous vous rapprochez, plus les dégâts sont importants, et un coup exact est un critique. Esquivez les dés et les jetons, récupérez les orbes plus, moins et multiplier pour fusionner deux cartes et obtenir le nombre voulu, battez le Valet, la Dame et le Roi, puis essayez le mode Infini.",
+  "instructions": "Ordinateur : A/D pour se déplacer, Espace pour sauter, Maj pour l'esquive, molette de la souris ou touches 1-0 pour choisir une carte, clic gauche pour la lancer, R pour piocher une nouvelle main (3 par partie). Avec un orbe, placez deux cartes et cliquez pour les fusionner. Mobile : joystick gauche, boutons saut et esquive, touchez une carte et faites-la glisser vers le haut pour la lancer.",
+  "guide": {
+   "intro": "Draw The Odds est un boss rush pixel-art issu de la game jam Unity 2026 (thème : Lucky Number). Chaque boss est une carte figure qui cache un nombre de 1 à 13, et la seule façon de lui infliger des dégâts est de lancer la bonne carte de votre main. Le premier combat oppose le Valet de trèfle dans une salle gothique avec des plateformes flottantes.",
+   "tips": [
+    "Commencez par une carte moyenne comme le 7 : la flèche qui apparaît indique plus haut ou plus bas, ce qui divise immédiatement la plage par deux.",
+    "Les dégâts augmentent à mesure que votre carte se rapproche du nombre secret, donc un tir proche entame quand même le boss ; un coup exact est un critique.",
+    "Vous commencez avec sept cartes dans une main de dix et trois repiochages (R). Gardez vos repiochages pour le moment où toutes les cartes restantes sont du mauvais côté de la flèche.",
+    "Les orbes verts plus et rouges moins vous permettent de fusionner deux cartes pour obtenir le nombre voulu, par exemple 9 et 3 donnent 12, ou 6 avec moins donnent 3.",
+    "Continuez à bouger entre les plateformes : dés et jetons fusent pendant que vous visez, et l'esquive Maj vous sort des situations délicates.",
+    "Après avoir battu la Dame, le mode Infini s'ouvre pour la chasse aux scores sur le tableau des classements."
+   ],
+   "faq": [
+    [
+     "Comment infliger des dégâts à un boss dans Draw The Odds ?",
+     "Choisissez une carte avec la molette de la souris ou les touches numériques, puis cliquez pour la lancer. Plus sa valeur est proche du nombre secret du boss, plus les dégâts sont importants."
+    ],
+    [
+     "À quoi servent les orbes ?",
+     "Les orbes plus, moins et multiplier combinent deux de vos cartes en une nouvelle valeur, ce qui vous permet d'obtenir un nombre que vous n'avez pas en main."
+    ],
+    [
+     "Peut-on jouer sur téléphone ?",
+     "Oui. Le mobile dispose d'un joystick, de boutons saut et esquive, et vous faites glisser une carte vers le haut pour la lancer."
+    ]
+   ]
+  }
+ },
+ "byte-heist": {
+  "description": "Byte Heist commence avec un vieux portable piraté et un terminal clignotant qui indique qu'aucun matériel n'est détecté. Chaque tap récupère un octet ; achetez des serveurs et des améliorations et les machines continuent de télécharger pour vous, en passant des octets aux téraoctets pendant que la jauge de chaleur monte. Au-delà de la boucle idle, il y a des duels de hack contre des hackers rivaux, composés de trois mini-jeux aléatoires parmi cinq, comme faire tourner un cadran de serrure sur le bon numéro ou colmater une fuite réseau. Les résolutions propres et rapides rapportent des bonus. Le style terminal ambré et le court tutoriel facilitent la prise en main sur téléphone.",
+  "instructions": "Tapez ou cliquez sur le terminal pour récupérer des données, puis achetez des serveurs et des améliorations. Lors des duels de hack, résolvez trois mini-jeux aléatoires avant votre rival : tapez les tuiles, faites glisser le cadran de serrure, ou utilisez les flèches/WASD pour les tuiles fléchées. Les machines continuent de rapporter pendant votre absence.",
+  "guide": {
+   "intro": "Byte Heist est un jeu de hacker idle au style terminal ambré. Vous commencez avec zéro octet et un vieux portable ; tapez sur le terminal pour récupérer des données, achetez du matériel qui télécharge pour vous, et affrontez des hackers rivaux lors de duels de hack composés de mini-jeux aléatoires.",
+   "tips": [
+    "Le tutoriel demande dix taps sur le terminal ; faites-les, puis achetez le Vieux Portable dès que vous le pouvez pour que les données arrivent toutes seules.",
+    "Surveillez la jauge de chaleur sous votre total ; elle monte à mesure que vous poussez vos machines.",
+    "Achetez par paliers x1, x10 ou Max depuis l'onglet Serveurs et consultez les Améliorations pour les multiplicateurs.",
+    "Lors des duels de hack, vous obtenez trois mini-jeux aléatoires parmi cinq, comme faire tourner un cadran de serrure sur le numéro affiché. Une résolution propre, sans erreur, rapporte un bonus.",
+    "Les machines continuent de rapporter pendant votre absence, alors il est intéressant de revenir régulièrement."
+   ],
+   "faq": [
+    [
+     "Comment gagner des données dans Byte Heist ?",
+     "Tapez sur le terminal pour des récupérations manuelles et achetez des serveurs qui téléchargent automatiquement."
+    ],
+    [
+     "Qu'est-ce qu'un duel de hack ?",
+     "Une course contre un hacker rival à travers trois mini-jeux aléatoires ; terminez en premier et proprement pour obtenir des bonus."
+    ],
+    [
+     "Est-ce conçu pour les téléphones ?",
+     "Oui, il se joue en portrait et chaque commande fonctionne par tap ou glisser."
+    ]
+   ]
+  }
+ },
+ "evening-club-191-durak": {
+  "description": "Evening Club 191 est un salon de cartes en 3D où vous vous asseyez à une table ronde verte, dans une pièce lambrissée de bois, la pluie tombant sur la fenêtre derrière vous, pour jouer au Durak. Créez une table, choisissez les règles d'ajout ou de transfert, ajoutez jusqu'à plusieurs bots, ou gardez la table sur invitation et envoyez le lien à vos amis. Pendant une manche, vous voyez votre main en 3D, l'atout et le nombre de cartes dans la pioche, ainsi que les boutons Indice, Jouer une carte, Prendre les cartes et Passer. Un court tutoriel avec des coups d'entraînement vous enseigne les bases. Vous pouvez aussi vous lever et vous promener dans la salle.",
+  "instructions": "Choisissez une table : définissez votre nom, les règles et le nombre de bots, puis cliquez sur Créer et asseyez-vous, et Commencer la partie. Sélectionnez les cartes à la souris ou au tactile, puis utilisez Jouer une carte, Prendre les cartes ou Passer. Ne soyez pas le dernier joueur à garder des cartes en main. Clic droit pour regarder autour de vous, WASD pour vous déplacer.",
+  "guide": {
+   "intro": "Evening Club 191 vous permet de jouer au Durak, le célèbre jeu de cartes russe, sur une table 3D dans un salon calme. Vous pouvez jouer contre des bots dès maintenant en tant qu'invité, ou créer une table privée et inviter vos amis avec un lien.",
+   "tips": [
+    "Sur Choisissez votre table, définissez les règles (Ajout ou Transfert) et le nombre de bots, cochez Sur invitation uniquement pour une partie privée, puis cliquez sur Créer et asseyez-vous.",
+    "La barre d'état affiche la manche, la couleur d'atout et le nombre de cartes dans votre main, dans la pioche et dans la défausse.",
+    "Utilisez Indice si vous ne savez pas quelle carte peut battre l'attaque ; Prendre les cartes est votre solution de repli lorsque vous ne pouvez pas défendre.",
+    "Gardez vos atouts pour défendre en fin de manche, une fois la pioche épuisée et que chaque carte compte.",
+    "Paramètres propose l'option Suivre le tutoriel avec cinq coups d'entraînement si vous débutez au Durak."
+   ],
+   "faq": [
+    [
+     "Comment gagner au Durak ?",
+     "Débarrassez-vous de toutes vos cartes. Le dernier joueur qui garde encore des cartes en main est le durak, le fou."
+    ],
+    [
+     "Puis-je jouer seul ?",
+     "Oui, ajoutez un ou plusieurs bots à votre table et lancez la partie."
+    ],
+    [
+     "Ai-je besoin d'un compte ?",
+     "Non, le jeu en mode invité fonctionne sans compte ; la progression est enregistrée sur votre appareil."
+    ]
+   ]
+  }
+ },
+ "scrap-steel": {
+  "description": "Scrap & Steel vous place à la tête d'un garage hérité dans la ville pluvieuse d'Astra City, avec 10 000 crédits de dette envers le Syndicat Scraphound et un loyer à payer chaque jour. Avant le premier jour, vous choisissez une voie de carrière : Cyber-Réputation pour le volume et la note de l'atelier, le Championnat Mech pour le forgeage lourd, ou la Ligue Drifter pour le réglage de précision. Chaque matin apporte des offres de travail comme un réglage de bras bionique ou une révision de combattant d'arène, chacune avec sa paie, ses points d'action et sa date limite. Vous les terminez grâce à trois mini-jeux de compétence, Forge, Calibreur et Assembleur, où le timing détermine la qualité et les gains.",
+  "instructions": "Choisissez des missions dans le briefing du matin, puis ouvrez l'atelier. Forge : Espace/Entrée ou clic au bon moment. Calibreur : maintenez ou tapez Espace ou clic gauche. Assembleur : flèches/ZQSD ou clic sur les cases adjacentes. Terminez la journée avec Tab/E. Sur mobile, appuyez et maintenez. Remboursez la dette en 30 jours.",
+  "guide": {
+   "intro": "Scrap & Steel est un jeu de gestion de garage cyberpunk : vous héritez d'un atelier à Astra City avec une dette de 10 000 crédits envers le Syndicat Scraphound, 2 000 crédits en poche et un loyer quotidien. Vous avez 30 jours pour redresser la situation en acceptant des missions et en les terminant grâce à trois mini-jeux de compétence.",
+   "tips": [
+    "Choisissez bien votre voie dès le départ. Cyber-Réputation exige 9 000 crédits en caisse et une note de cinq étoiles, tandis que le Championnat Mech et la Ligue Drifter demandent de réaliser le Champion Build entre les jours 15 et 28 avec une qualité de 80 % plus des frais d'inscription de 2 000 crédits.",
+    "Lisez chaque offre pour la paie, les points d'action et la date limite. Le premier jour, un réglage de bras bionique à 3 PA rapportant 820 crédits vaut mieux qu'une révision à 4 PA, sauf si vous avez besoin du gain plus élevé de 1 456 crédits.",
+    "Vous avez trois Discussions par jour en plus des Missions ; utilisez-les, car les clients et le Syndicat façonnent vos options.",
+    "Le loyer (150 crédits par jour au départ) et les intérêts se cumulent, donc prenez des missions régulières tôt plutôt que d'attendre la mission parfaite.",
+    "La qualité dépend du timing dans Forge, Calibreur et Assembleur ; un sans-faute rapporte davantage et améliore la note de votre atelier."
+   ],
+   "faq": [
+    [
+     "Quel est l'objectif dans Scrap & Steel ?",
+     "Remboursez la dette envers le Syndicat en 30 jours tout en remplissant la condition de victoire de la voie de carrière choisie."
+    ],
+    [
+     "Puis-je passer le tutoriel ?",
+     "Oui, un bouton Passer le tutoriel est disponible sur le premier écran d'une nouvelle carrière."
+    ],
+    [
+     "Est-ce que la partie est sauvegardée ?",
+     "Un bouton Continuer sur l'écran titre permet de reprendre votre carrière."
+    ]
+   ]
+  }
+ },
+ "space-trick-battle": {
+  "description": "Space Trick Battle est un shoot'em up en versus réparti en trois bandes : le terrain de ton adversaire en haut, ton vaisseau au milieu et les commandes en bas. Ton vaisseau tire tout seul pendant que tu le fais glisser pour esquiver ; les ennemis vaincus lâchent des objets que tu gardes dans trois emplacements, et les objets d'envoi font apparaître les unités de ton deck de cinq sur le terrain adverse. Quand le minuteur de cinq minutes se termine, la vie restante tranche. Entraîne-toi contre l'ordinateur en Normal Level, vise le classement en Ranker Level, ou joue en ligne en trouvant un adversaire ou en partageant un nom de salon. Les missions et la Shop permettent de débloquer d'autres unités avec des points.",
+  "instructions": "Fais glisser ton vaisseau dans la zone de commandes (ou utilise les touches fléchées/WASD) ; il tire automatiquement. Touche un emplacement d'objet à droite pour l'utiliser ; tu peux en garder trois. Tiens plus longtemps que l'adversaire grâce aux objets d'envoi et d'attaque. Constitue un deck de cinq unités et débloque-en d'autres dans la Shop avec des PT.",
+  "guide": {
+   "intro": "Space Trick Battle est un shoot'em up en versus au format portrait. L'écran affiche le terrain de ton adversaire en haut, ton propre terrain au milieu et une bande de commandes en bas. Ton vaisseau tire tout seul ; tu gagnes en survivant et en envoyant des problèmes de l'autre côté avant la fin du minuteur de cinq minutes.",
+   "tips": [
+    "Commence par vs Computer en Normal Level ; la première victoire contre l'ordinateur rapporte un bonus de 1 000 PT.",
+    "Fais glisser ton vaisseau n'importe où dans la bande du bas, ainsi ton doigt ne cache jamais l'action.",
+    "Les ennemis vaincus lâchent des objets. Tu peux en garder trois ; un quatrième est perdu, alors utilise tes objets plutôt que de les accumuler.",
+    "Les gros ennemis lâchent un objet de soin 75 % du temps, ils valent donc la peine d'être ciblés.",
+    "Les objets d'envoi font apparaître les unités de ton deck de cinq sur le terrain de ton adversaire ; compose ton deck dans Deck et débloque de nouvelles unités dans la Shop.",
+    "Seules les victoires en Ranker Level comptent pour le classement ; les matchs PvP ne rapportent aucun PT."
+   ],
+   "faq": [
+    [
+     "Comment attaquer l'autre joueur ?",
+     "Récupère les objets d'envoi et d'attaque sur les ennemis vaincus et touche leurs emplacements ; les objets d'envoi font apparaître les unités de ton deck sur le terrain adverse."
+    ],
+    [
+     "Peut-on jouer en ligne ?",
+     "Oui, utilise Find Opponent ou crée un salon et partage son nom."
+    ],
+    [
+     "Qu'est-ce qui départage un match qui arrive au bout du temps ?",
+     "Le joueur qui a le plus de vie restante gagne."
+    ]
+   ]
+  }
+ },
+ "the-comet": {
+  "description": "The Comet est un runner quotidien à une main sur une grille néon. Vous chevauchez une comète sur une piste à trois voies, changez de voie, sautez par-dessus les portails et vous baissez sous les barres tout en collectant des étoiles qui construisent un combo. La piste est générée une fois par jour et est identique pour tout le monde, si bien que le classement est une course équitable et non une question de qui a eu le niveau le plus clément. Une partie dure moins d'une minute, vos points s'additionnent sur une semaine de sept jours, et le compteur sur l'écran titre indique quand arrive la prochaine piste. Pas de compte ni d'installation : ouvrez le jeu, appuyez sur espace ou touchez l'écran, et votre score du jour est enregistré.",
+  "instructions": "Appuyez sur espace ou touchez l'écran pour commencer. Les flèches gauche et droite changent de voie, la flèche haut saute par-dessus un portail, la flèche bas vous fait passer sous une barre. Collectez des étoiles pour augmenter le multiplicateur de combo et gardez des trajectoires propres pour enchaîner les rasements. Toucher un obstacle met fin à la partie, et vous pouvez repartir immédiatement sur la même piste du jour.",
+  "guide": {
+   "intro": "The Comet offre à tout le monde la même piste chaque jour, donc un bon score repose sur la lecture de la voie qui arrive plutôt que sur la chance. Les parties sont courtes, vous pouvez recommencer tout de suite, et seul votre meilleur score du jour compte pour la semaine.",
+   "tips": [
+    "La piste est identique pour chaque joueur jusqu'à minuit UTC, donc une deuxième ou une troisième partie sur le même tracé est là que se trouvent les vrais points : vous savez déjà ce qui arrive.",
+    "Changez de voie tôt. La comète glisse au lieu de sauter d'un coup, donc un changement de voie commencé tard frôle le bord du portail que vous vouliez éviter.",
+    "Le saut sert pour les blocs pleins et le baisser pour les barres en hauteur ; quand les deux apparaissent ensemble, choisissez la voie sans l'un ni l'autre plutôt que d'essayer de caler deux commandes.",
+    "Les étoiles augmentent le multiplicateur de combo, et c'est le multiplicateur qui fait la différence entre 100 et 300. Une étoile vaut un petit détour, mais jamais un accident.",
+    "Les rasements sont comptés séparément sur l'écran de résultats : passer près d'un obstacle au lieu de faire un grand écart rapporte des points une fois que vous connaissez la piste.",
+    "Votre semaine s'additionne sur sept jours et le meneur est couronné le lundi, donc une journée médiocre compte encore si vous gardez la série en cours."
+   ],
+   "faq": [
+    [
+     "Faut-il un compte pour jouer ?",
+     "Non. Le jeu s'ouvre directement sur la piste du jour, et votre score du jour est conservé dans votre navigateur."
+    ],
+    [
+     "La piste est-elle aléatoire ?",
+     "Non. Une seule piste est générée par jour et tout le monde roule sur la même, ce qui rend le classement quotidien intéressant à suivre. Une nouvelle piste apparaît chaque jour à 00h00 UTC."
+    ],
+    [
+     "Est-ce que ça marche sur téléphone ?",
+     "Oui. Le jeu est conçu pour un seul pouce : touchez pour commencer, puis glissez ou utilisez les flèches à l'écran pour changer de voie, sauter et vous baisser."
+    ]
+   ]
+  }
+ },
+ "steal-all-eggs": {
+  "description": "Explorez des zones 3D colorées et collectionnez des animaux de compagnie dans Steal All Eggs. Choisissez l'un des deux modes solo et constituez votre collection à votre rythme. Dans Steal An Egg, prenez un œuf dans un nid, évitez les gardes et les bots contrôlés par l'ordinateur, puis ramenez-le à votre enclos. Placez-le dans l'enclos et faites-le éclore quand il est prêt. Des œufs spéciaux apparaissent pendant l'événement nocturne. Dans Break An Egg, utilisez une pioche pour casser les œufs, puis récupérez les animaux qui s'y trouvent et ramenez-les à votre base. Gagnez de l'argent en jeu, entraînez-vous pour améliorer votre vitesse et débloquez des améliorations, objets et tenues.",
+  "instructions": "- Déplacement : WASD ou touches fléchées. Saut : Espace. - Faire pivoter/incliner la caméra : Q/R et T/G, ou faites glisser sur la vue du jeu. Zoom : molette de la souris. - Appuyez sur E ou Entrée pour l'action à proximité. Dans Break An Egg, maintenez la touche pour miner un œuf. - Appuyez sur 1 pour équiper ou ranger la pioche dans Break An Egg ; appuyez sur 2 pour activer ou désactiver un objet équipé. - Dans Steal An Egg, appuyez sur F pour balancer la batte lorsque c'est permis. Appuyez sur X pour activer ou désactiver le déplacement lent. - Cliquez sur le bouton JOUER d'un mode pour commencer. Cliquez sur les menus, les boutons de la boutique et les invites d'amélioration pour faire vos choix. ### Commandes tactiles - Faites glisser le joystick à l'écran pour vous déplacer. Faites glisser la vue du jeu pour faire pivoter la caméra ; pincez pour zoomer. - Touchez Saut ou le bouton d'action contextuel ; maintenez le bouton d'action pour miner dans Break An Egg. - Touchez le bouton de batte dans Steal An Egg et les emplacements de la barre d'outils pour activer ou désactiver les outils ou objets. Touchez les menus et les invites d'amélioration à l'écran.",
+  "guide": {
+   "intro": "Steal All Eggs est une aventure 3D où vous explorez des zones colorées et collectionnez des animaux de compagnie. Vous pouvez choisir entre deux modes solo, Steal An Egg et Break An Egg, et constituer votre collection à votre rythme.",
+   "tips": [
+    "Dans Steal An Egg, surveillez les gardes et les bots contrôlés par l'ordinateur pendant que vous ramenez un œuf à votre enclos. Le déplacement lent avec X peut vous aider à rester calme lorsque vous êtes près d'eux.",
+    "Placez les œufs volés dans votre enclos et ne les faites éclore que lorsqu'ils sont prêts, afin que votre collection grandisse régulièrement au lieu de par à-coups précipités.",
+    "Dans Break An Egg, maintenez E ou Entrée pour miner un œuf, et gardez votre pioche équipée avec 1 lorsque vous passez d'un œuf à l'autre pour gagner du temps.",
+    "Dépensez d'abord l'argent gagné dans l'entraînement de vitesse, car aller plus vite rend chaque trajet vers un nid ou un œuf et retour à la base plus rapide. Si vous aimez les jeux de collection d'animaux, découvrez [[animal-games|d'autres jeux d'animaux de compagnie à thème animalier]].",
+    "Restez attentif à l'événement nocturne, car des œufs spéciaux apparaissent à ce moment-là et peuvent valoir le détour, même si vous êtes au milieu d'une partie normale."
+   ],
+   "faq": [
+    [
+     "Comment se déplacer et sauter dans Steal All Eggs ?",
+     "Utilisez WASD ou les touches fléchées pour vous déplacer et appuyez sur Espace pour sauter. Sur les écrans tactiles, faites glisser le joystick à l'écran pour vous déplacer et touchez Saut."
+    ],
+    [
+     "Que dois-je faire de l'argent que je gagne ?",
+     "Vous pouvez utiliser l'argent du jeu pour entraîner votre vitesse et débloquer des améliorations, objets et tenues. La vitesse est particulièrement utile lorsque vous devez ramener rapidement les œufs à votre base."
     ]
    ]
   }

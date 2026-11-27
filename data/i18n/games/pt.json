@@ -293224,5 +293224,200 @@
     ]
    ]
   }
+ },
+ "evening-club-191-durak": {
+  "description": "Evening Club 191 é uma sala de cartas 3D onde você se senta em uma mesa redonda verde, em um cômodo com painéis de madeira, chuva na janela atrás de você, e joga Durak. Crie uma mesa, escolha as regras de jogar carta ou transferir, adicione até vários bots, ou mantenha a mesa somente por convite e envie o link para os amigos. Durante a rodada você vê sua mão em 3D, o trunfo e a contagem do baralho, além dos botões Dica, Jogar carta, Pegar cartas e Passar. Um tutorial curto com jogadas de prática ensina o básico. Você também pode se levantar e andar pelo cômodo.",
+  "instructions": "Escolha uma mesa: defina seu nome, as regras e o número de bots, depois clique em Criar, sente-se e Iniciar o jogo. Selecione as cartas com o mouse ou toque na tela e use Jogar carta, Pegar cartas ou Passar. Não seja o último jogador com cartas na mão. O botão direito do mouse olha ao redor, e WASD anda.",
+  "guide": {
+   "intro": "Evening Club 191 permite que você jogue Durak, o clássico jogo de cartas russo, em uma mesa 3D em um tranquilo salão de clube. Você pode jogar contra bots logo de início como convidado ou criar uma mesa privada e convidar amigos com um link.",
+   "tips": [
+    "Em Escolha sua mesa, defina as regras (Jogar carta ou Transferir) e o número de bots, marque Somente por convite para um jogo privado, depois clique em Criar e sente-se.",
+    "A barra de status mostra a rodada, o naipe do trunfo e quantas cartas estão na sua mão, no baralho e no descarte.",
+    "Use Dica se não tiver certeza de qual carta pode vencer o ataque; Pegar cartas é sua saída quando não consegue defender.",
+    "Guarde os trunfos para defender no fim da rodada, quando o baralho acabar e cada carta contar.",
+    "Em Configurações há a opção Fazer o tutorial com cinco jogadas de prática, caso você seja novo no Durak."
+   ],
+   "faq": [
+    [
+     "Como vencer no Durak?",
+     "Livre-se de todas as suas cartas. O último jogador que ainda tiver cartas na mão é o durak, o tolo."
+    ],
+    [
+     "Posso jogar sozinho?",
+     "Sim, adicione um ou mais bots à sua mesa e inicie o jogo."
+    ],
+    [
+     "Preciso de uma conta?",
+     "Não, jogar como convidado funciona sem conta; o progresso fica salvo no seu dispositivo."
+    ]
+   ]
+  }
+ },
+ "space-trick-battle": {
+  "description": "Space Trick Battle é um shooter de duelo dividido em três faixas: o campo do seu oponente em cima, sua nave no meio e os controles embaixo. Sua nave atira sozinha enquanto você arrasta para desviar; inimigos derrotados deixam itens que você guarda em três espaços, e itens de envio levam unidades do seu baralho de cinco para o campo do adversário. Quando o cronômetro de cinco minutos acaba, a vida restante decide a partida. Treine contra o computador no Nível Normal, busque o topo do ranking no Nível Ranker ou jogue online encontrando um oponente ou compartilhando o nome de uma sala. Missões e uma loja desbloqueiam mais unidades com pontos.",
+  "instructions": "Arraste sua nave na área de controle (ou use as setas/WASD); ela atira automaticamente. Toque em um espaço de item à direita para usá-lo; você pode guardar três. Vença o oponente com itens de envio e ataque. Monte um baralho de cinco unidades e desbloqueie mais na Loja com PT.",
+  "guide": {
+   "intro": "Space Trick Battle é um shooter de duelo na vertical. A tela mostra o campo do seu oponente em cima, o seu próprio campo no meio e uma faixa de controle embaixo. Sua nave atira sozinha; você vence sobrevivendo e enviando problemas para o outro lado antes que o cronômetro de cinco minutos termine.",
+   "tips": [
+    "Comece com vs Computador no Nível Normal; a primeira vitória contra o computador paga um bônus de 1.000 PT.",
+    "Arraste sua nave para qualquer lugar da faixa de baixo, assim seu dedo nunca cobre a ação.",
+    "Inimigos derrotados deixam itens. Você pode guardar três; um quarto é perdido, então use os itens em vez de acumulá-los.",
+    "Inimigos grandes deixam um item de cura 75% das vezes, então vale a pena focar neles.",
+    "Itens de envio levam unidades do seu baralho de cinco para o campo do seu oponente; monte o baralho em Baralho e desbloqueie novas unidades na Loja.",
+    "Só as vitórias no Nível Ranker contam para o ranking; partidas PvP não dão PT."
+   ],
+   "faq": [
+    [
+     "Como ataco o outro jogador?",
+     "Colete itens de envio e ataque de inimigos derrotados e toque nos seus espaços; os itens de envio fazem as unidades do seu baralho surgirem no campo do oponente."
+    ],
+    [
+     "Posso jogar online?",
+     "Sim, use Encontrar Oponente ou crie uma sala e compartilhe o nome dela."
+    ],
+    [
+     "O que decide uma partida que acaba o tempo?",
+     "O jogador com mais vida restante vence."
+    ]
+   ]
+  }
+ },
+ "byte-heist": {
+  "description": "Byte Heist começa com um notebook antigo e rachado e um terminal piscando que diz que nenhum hardware foi detectado. Cada toque puxa um byte; compre servidores e melhorias e as máquinas continuam baixando dados para você, subindo de bytes até terabytes enquanto um medidor de calor sobe. Além do loop de ociosidade, há batalhas de hack-off contra hackers rivais, formadas por três minijogos aleatórios entre cinco, incluindo girar um disco de cadeado até o número certo e corrigir um vazamento de rede. Resoluções limpas e rápidas rendem bônus. O visual de terminal âmbar e o tutorial curto facilitam começar no celular.",
+  "instructions": "Toque ou clique no terminal para puxar dados e depois compre servidores e melhorias. Nos hack-offs, resolva três minijogos aleatórios antes do seu rival: toque nos blocos, arraste o disco do cadeado ou use as setas/WASD para os blocos de seta. As máquinas continuam ganhando enquanto você está ausente.",
+  "guide": {
+   "intro": "Byte Heist é um jogo de hacker ocioso com estilo de terminal âmbar. Você começa com zero bytes e um notebook antigo; toque no terminal para puxar dados, compre hardware que baixa dados para você e enfrente hackers rivais em hack-offs formados por minijogos aleatórios.",
+   "tips": [
+    "O tutorial pede dez toques no terminal; faça-os e depois compre o Old Laptop assim que puder pagar, para que os dados entrem sozinhos.",
+    "Fique de olho no medidor de calor abaixo do seu total; ele sobe conforme você força suas máquinas.",
+    "Compre em passos x1, x10 ou Max na aba Servers e confira Upgrades para ver os multiplicadores.",
+    "Nos hack-offs você recebe três minijogos aleatórios entre cinco, como girar um disco de cadeado até o número mostrado. Uma resolução limpa, sem erros, rende um bônus.",
+    "As máquinas continuam ganhando enquanto você está ausente, então vale a pena voltar com regularidade."
+   ],
+   "faq": [
+    [
+     "Como ganho dados no Byte Heist?",
+     "Toque no terminal para puxadas manuais e compre servidores que baixam automaticamente."
+    ],
+    [
+     "O que é um hack-off?",
+     "Uma corrida contra um hacker rival através de três minijogos aleatórios; termine primeiro e sem erros para ganhar bônus."
+    ],
+    [
+     "Foi feito para celulares?",
+     "Sim, ele funciona em modo retrato e todos os controles funcionam com toque ou arraste."
+    ]
+   ]
+  }
+ },
+ "scrap-steel": {
+  "description": "Scrap & Steel coloca você no comando de uma oficina herdada na chuvosa Astra City, devendo 10.000 créditos ao Scraphound Syndicate, com aluguel vencendo todo dia. Antes do primeiro dia, você escolhe um caminho de carreira: Cyber-Reputation para volume e avaliação da oficina, o Mech Championship para forjas pesadas, ou a Drifter League para ajustes de precisão. Cada manhã traz ofertas de trabalho, como uma revisão de braço biônico ou uma reforma de lutador de arena, cada uma com pagamento, pontos de ação e prazo. Você os conclui em três minigames de habilidade, Forge, Calibrator e Assembler, onde o tempo decide a qualidade e o dinheiro.",
+  "instructions": "Escolha trabalhos no briefing da manhã e depois abra a oficina. Forge: Espaço/Enter ou clique no tempo certo. Calibrator: segure ou toque Espaço ou clique com o botão esquerdo. Assembler: setas/WASD ou clique em células adjacentes. Encerre o dia com Tab/E. No celular, toque e segure. Quite a dívida em até 30 dias.",
+  "guide": {
+   "intro": "Scrap & Steel é um jogo de gerenciamento de oficina cyberpunk: você herda uma oficina em Astra City com uma dívida de 10.000 créditos com o Scraphound Syndicate, 2.000 créditos em caixa e aluguel diário. Você tem 30 dias para virar o jogo, aceitando trabalhos e concluindo-os em três minigames de habilidade.",
+   "tips": [
+    "Escolha seu caminho com cuidado no início. O Cyber-Reputation exige 9.000 em caixa e avaliação de cinco estrelas, enquanto o Mech Championship e a Drifter League precisam da Champion Build concluída entre os dias 15 e 28 com 80% de qualidade, além de uma taxa de inscrição de 2.000 créditos.",
+    "Leia cada oferta com atenção quanto ao pagamento, aos pontos de ação e ao prazo. No primeiro dia, uma revisão de braço biônico de 3 PA que paga 820 créditos vale mais que uma reforma de 4 PA, a menos que você precise do pagamento maior de 1.456.",
+    "Você tem três Conversas por dia, além dos Trabalhos; use-as, pois os clientes e o Syndicate moldam suas opções.",
+    "O aluguel (150 créditos por dia no início) e os juros se acumulam, então pegue trabalhos constantes logo no começo em vez de esperar por um trabalho perfeito.",
+    "A qualidade vem do tempo certo em Forge, Calibrator e Assembler; uma execução limpa rende mais e aumenta a avaliação da sua oficina."
+   ],
+   "faq": [
+    [
+     "Qual é o objetivo em Scrap & Steel?",
+     "Quitar a dívida com o Syndicate em até 30 dias, cumprindo a condição de vitória do caminho de carreira que você escolheu."
+    ],
+    [
+     "Posso pular o tutorial?",
+     "Sim, há um botão Skip tutorial na primeira tela de uma nova carreira."
+    ],
+    [
+     "O jogo salva?",
+     "Um botão Continue na tela inicial retoma sua carreira."
+    ]
+   ]
+  }
+ },
+ "the-comet": {
+  "description": "The Comet é um runner diário de um toque em um grid neon. Você pilota um cometa por uma pista de três faixas, trocando de faixa, pulando portões e se abaixando sob barras enquanto coleta estrelas que formam um combo. A pista é gerada uma vez por dia e é igual para todo mundo, então o ranking é uma corrida justa e não uma questão de quem recebeu a fase mais fácil. Cada partida dura menos de um minuto, seus pontos se acumulam ao longo de uma semana de sete dias, e o contador na tela inicial mostra quando a próxima pista chega. Não precisa de conta nem de instalação: abra, pressione espaço ou toque, e sua pontuação do dia está definida.",
+  "instructions": "Pressione espaço ou toque para começar. As setas esquerda e direita trocam de faixa, a seta para cima pula um portão e a seta para baixo se abaixa sob uma barra. Colete estrelas para aumentar o multiplicador do combo e mantenha trajetórias limpas para fazer quase-colisões. Bater em um obstáculo encerra a partida, e você pode jogar de novo imediatamente na mesma pista diária.",
+  "guide": {
+   "intro": "The Comet oferece a mesma pista para todos a cada dia, então uma boa pontuação depende de ler a faixa à frente e não de sorte. As partidas são curtas, você pode tentar de novo na hora, e só a sua melhor pontuação do dia conta para a semana.",
+   "tips": [
+    "A pista é idêntica para todos os jogadores até meia-noite UTC, então uma segunda ou terceira partida no mesmo layout é onde estão os pontos de verdade: você já sabe o que vem pela frente.",
+    "Troque de faixa cedo. O cometa desliza em vez de dar um salto seco, então uma troca de faixa feita tarde raspa na borda do portão que você estava tentando evitar.",
+    "O pulo é para os blocos sólidos e o agachamento é para as barras suspensas; quando os dois aparecem juntos, escolha a faixa sem nenhum dos dois em vez de tentar cronometrar duas teclas.",
+    "As estrelas aumentam o multiplicador do combo, e o multiplicador é o que separa 100 de 300. Uma estrela vale um pequeno desvio, mas nunca vale uma batida.",
+    "As quase-colisões são contadas separadamente na tela de resultado: passar perto de um obstáculo em vez de fazer uma curva aberta compensa quando você já conhece a pista.",
+    "Sua semana soma ao longo de sete dias e o líder é coroado na segunda-feira, então um dia medíocre ainda conta se você mantiver a sequência."
+   ],
+   "faq": [
+    [
+     "Preciso de uma conta para jogar?",
+     "Não. O jogo abre direto na pista diária, e sua pontuação do dia fica salva no seu navegador."
+    ],
+    [
+     "A pista é aleatória?",
+     "Não. Uma pista é gerada por dia e todo mundo joga a mesma, o que torna o ranking diário vale a pena ser perseguido. Uma nova pista aparece todo dia às 00:00 UTC."
+    ],
+    [
+     "Funciona no celular?",
+     "Sim. Ele foi feito para um toque só: toque para começar e deslize ou use as setas na tela para trocar de faixa, pular e se abaixar."
+    ]
+   ]
+  }
+ },
+ "draw-the-odds": {
+  "description": "Draw The Odds é um platformer de boss rush em pixel art feito para a game jam do Unity de 2026. Cada chefe é uma carta de figura, começando pelo Valete de paus, e esconde um número secreto de 1 a 13. Você corre e pula por uma arena gótica arremessando cartas de uma mão de dez: setas indicam se é para subir ou descer, quanto mais perto você chega, mais dano causa, e acertar em cheio é um crítico. Desvie de dados e fichas, pegue as esferas de mais, menos e multiplicação para juntar duas cartas no número que você precisa, derrote o Valete, a Dama e o Rei, e depois experimente o modo Endless.",
+  "instructions": "Desktop: A/D para mover, Espaço para pular, Shift para dash, roda do mouse ou 1-0 para escolher uma carta, clique com o botão esquerdo para arremessá-la, R para comprar uma nova mão (3 por partida). Com uma esfera, posicione duas cartas e clique para juntá-las. Mobile: joystick esquerdo, botões de pulo e dash, toque em uma carta e arraste para cima para arremessar.",
+  "guide": {
+   "intro": "Draw The Odds é um boss rush em pixel art da game jam do Unity de 2026 (tema: Lucky Number). Cada chefe é uma carta de figura escondendo um número de 1 a 13, e a única forma de causar dano é arremessar a carta certa da sua mão. A primeira luta é contra o Valete de paus em um salão gótico com plataformas flutuantes.",
+   "tips": [
+    "Comece com uma carta do meio, como um 7: a seta que aparece indica maior ou menor, o que reduz o intervalo pela metade logo de cara.",
+    "O dano aumenta quanto mais perto sua carta estiver do número secreto, então um quase acerto ainda derruba o chefe; acertar em cheio é um crítico.",
+    "Você começa com sete cartas em uma mão de dez e três recomprar (R). Guarde as recompras para quando todas as cartas restantes estiverem do lado errado da seta.",
+    "As esferas verdes de mais e as vermelhas de menos permitem juntar duas cartas no número que você precisa, por exemplo 9 e 3 em 12, ou 6 com menos em 3.",
+    "Continue se movendo entre as plataformas: dados e fichas voam na sua direção enquanto você mira, e o dash com Shift tira você de apuros.",
+    "Depois de derrotar a Dama, o modo Endless é liberado para buscar pontuação no painel de Ranking."
+   ],
+   "faq": [
+    [
+     "Como causar dano a um chefe em Draw The Odds?",
+     "Escolha uma carta com a roda do mouse ou as teclas numéricas e clique para arremessá-la. Quanto mais perto o valor dela estiver do número secreto do chefe, maior o dano."
+    ],
+    [
+     "Para que servem as esferas?",
+     "As esferas de mais, menos e multiplicação combinam duas das suas cartas em um novo valor, para que você possa criar um número que não está na sua mão."
+    ],
+    [
+     "Dá para jogar no celular?",
+     "Sim. O mobile tem joystick, botões de pulo e dash, e você arrasta uma carta para cima para arremessá-la."
+    ]
+   ]
+  }
+ },
+ "steal-all-eggs": {
+  "description": "Explore áreas coloridas em 3D e colecione pets em Steal All Eggs. Escolha um dos dois modos para um jogador e monte sua coleção no seu ritmo. No Steal An Egg, pegue um ovo de um ninho, evite os guardas e os bots controlados pelo computador e leve o ovo de volta ao seu curral. Coloque-o no curral e choque quando estiver pronto. Ovos especiais aparecem durante o evento da noite. No Break An Egg, use uma picareta para quebrar ovos, depois pegue os pets que estão dentro e leve-os de volta à sua base. Ganhe dinheiro no jogo, treine para melhorar sua velocidade e desbloqueie melhorias, itens e roupas.",
+  "instructions": "- Mover: WASD ou teclas de seta. Pular: Espaço. - Girar/inclinar a câmera: Q/R e T/G, ou arraste na tela do jogo. Zoom: roda do mouse. - Pressione E ou Enter para a ação próxima. No Break An Egg, segure para minerar um ovo. - Pressione 1 para equipar ou guardar a picareta no Break An Egg; pressione 2 para alternar um item equipado. - No Steal An Egg, pressione F para balançar o taco quando permitido. Pressione X para alternar movimento lento. - Clique no botão JOGAR de um modo para começar. Clique nos menus, botões da loja e avisos de melhoria para fazer seleções. ### Controles de toque - Arraste o joystick na tela para mover. Arraste a tela do jogo para girar a câmera; faça pinça para dar zoom. - Toque em Pular ou no botão de ação contextual; segure o botão de ação para minerar no Break An Egg. - Toque no botão do taco no Steal An Egg e nos espaços da barra de atalhos para alternar ferramentas ou itens. Toque nos menus da tela e nos avisos de melhoria.",
+  "guide": {
+   "intro": "Steal All Eggs é uma aventura em 3D em que você explora áreas coloridas e coleciona pets. Você pode escolher entre dois modos para um jogador, Steal An Egg e Break An Egg, e montar sua coleção no seu ritmo.",
+   "tips": [
+    "No Steal An Egg, fique de olho nos guardas e nos bots controlados pelo computador enquanto leva um ovo de volta ao curral. Mover-se devagar com X pode ajudar você a manter a calma quando estiver perto deles.",
+    "Coloque os ovos roubados no seu curral e choque-os somente quando estiverem prontos, para que sua coleção cresça de forma constante em vez de em surtos apressados.",
+    "No Break An Egg, segure E ou Enter para minerar um ovo, e mantenha a picareta equipada com 1 enquanto se move entre os ovos para economizar tempo.",
+    "Gaste primeiro o dinheiro que você ganhar em treino de velocidade, pois andar mais rápido deixa cada trajeto até um ninho ou ovo e de volta à base mais rápido. Se você gosta de mais jogos com coleta de bichinhos, confira [[animal-games|outros jogos de pets com temática animal]].",
+    "Fique atento ao evento da noite, porque ovos especiais aparecem nesse período e podem valer a pena mesmo se você estiver no meio de uma partida normal."
+   ],
+   "faq": [
+    [
+     "Como eu me movo e pulo em Steal All Eggs?",
+     "Use WASD ou as teclas de seta para se mover e pressione Espaço para pular. Em telas sensíveis ao toque, arraste o joystick na tela para mover e toque em Pular."
+    ],
+    [
+     "O que devo fazer com o dinheiro que eu ganho?",
+     "Você pode usar o dinheiro do jogo para treinar sua velocidade e desbloquear melhorias, itens e roupas. A velocidade é especialmente útil quando você precisa levar os ovos de volta à sua base rapidamente."
+    ]
+   ]
+  }
  }
 }
