@@ -1531,4 +1531,17 @@ try {
   console.log(`published.txt: ${next.length} slugs, ${gone} retired games redirected`);
 }
 
+// /all/<n>/ pages that existed before the catalogue cut (up to ~105 pages): noindex redirect to /all/ instead of a 404
+{
+  LANG = 'en';
+  let old = 0;
+  for (let n = 2; n <= 120; n++) {
+    if (fs.existsSync(path.join(DIST, `all/${n}/index.html`))) continue;
+    const to = u('/all/');
+    write(`all/${n}/index.html`, `<!doctype html>\n<html lang="en"><head><meta charset="utf-8"><meta name="robots" content="noindex,follow"><title>All games | ${esc(cfg.name)}</title><link rel="canonical" href="${esc(abs('/all/'))}"><meta http-equiv="refresh" content="0; url=${esc(to)}"></head><body><p>This page has moved. <a href="${esc(to)}">See all games</a>.</p></body></html>\n`);
+    old++;
+  }
+  console.log(`old /all/ pages redirected: ${old}`);
+}
+
 console.log(`Built ${all.length} games (${ours.length} ours), ${activeCats.length} categories, ${sitemap.length} URLs built, ${SITEMAP_OFFERED} in sitemap -> dist/`);
