@@ -804,3 +804,4 @@ body{background:radial-gradient(900px 480px at 10% -90px,rgba(255,61,110,.14),tr
 .text a.dev-tile b{color:var(--accent)}
 .text a.dev-tile span{color:var(--muted);text-decoration:none}
 .text a.btn{text-decoration:none}
+.text a.btn,.text a.btn:hover{color:#fff}
