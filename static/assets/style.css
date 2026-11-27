@@ -784,24 +784,74 @@ body{background:radial-gradient(900px 480px at 10% -90px,rgba(255,61,110,.14),tr
 .trio-head{margin:40px 0 0}
 .trio-head .banner{margin:0}
 
-/* developer pages */
-.sg-proof{display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin:16px 0}
-.sg-proof div{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 10px;text-align:center}
-.sg-proof b{display:block;font-size:1.6rem;line-height:1.1}
-.sg-proof span{display:block;font-size:.82rem;color:var(--muted);margin-top:4px}
-.sg-status{margin:14px 0;padding:14px 18px;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:var(--radius)}
+/* ---------------------------------------------------------- developer pages */
+/* the light theme's .text a colour is more specific than a plain .btn, so a button
+   inside a text page came out pink-on-pink; these two win in both themes */
+:root[data-theme=light] .text a.btn,:root[data-theme=light] .text a.btn:hover,
+.text a.btn,.text a.btn:hover{color:#fff;text-decoration:none}
+:root[data-theme=light] .text a.dev-tile,:root[data-theme=light] .text a.dev-tile:hover,
+.text a.dev-tile,.text a.dev-tile:hover{text-decoration:none;color:inherit}
+
+.dev-hero{position:relative;overflow:hidden;border-radius:20px;padding:30px 32px;margin:0 0 26px;
+  background:linear-gradient(135deg,#2a1033 0%,#45123f 45%,#5a1636 100%);border:1px solid #ffffff1a}
+.dev-hero::after{content:"";position:absolute;inset:auto -60px -120px auto;width:320px;height:320px;border-radius:50%;
+  background:radial-gradient(circle,#ff3d6e55,transparent 70%);pointer-events:none}
+.dev-hero > *{position:relative;z-index:1}
+.dev-hero .eyebrow{display:block;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:800;
+  color:var(--accent2);margin:0 0 10px}
+.dev-hero h1{margin:0 0 10px;font-size:clamp(26px,4.4vw,40px);line-height:1.08;letter-spacing:-.02em;color:#fff}
+.dev-hero p{margin:0;max-width:62ch;color:#e8dff0;font-size:1.02rem;line-height:1.55}
+.dev-hero .hero-cta{margin-top:20px;display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.text .hero-cta a.ghost-cta,.text .hero-cta a.ghost-cta:hover,
+:root[data-theme=light] .text .hero-cta a.ghost-cta{color:#fff;text-decoration:none;border:1px solid #ffffff55;
+  border-radius:999px;padding:10px 18px;font-weight:700;font-size:15px;background:#ffffff0f}
+.hero-cta a.ghost-cta:hover{border-color:#fff;background:#ffffff20}
+
+.sg-proof{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin:0 0 26px}
+.sg-proof div{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 12px;text-align:center}
+.sg-proof b{display:block;font-size:1.7rem;line-height:1.05;font-weight:800;
+  background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.sg-proof span{display:block;font-size:.8rem;color:var(--muted);margin-top:6px;line-height:1.35}
+
+.sg-status{margin:0 0 22px;padding:16px 20px;background:var(--card);border:1px solid var(--line);
+  border-left:4px solid var(--accent);border-radius:var(--radius)}
 .sg-status.st-published{border-left-color:var(--good)}
-.sg-status p{margin:6px 0}
-.dev-hub{display:grid;grid-template-columns:repeat(auto-fill,minmax(240px,1fr));gap:12px;margin:18px 0}
-.dev-tile{display:block;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px;text-decoration:none;color:inherit;transition:transform .12s,border-color .12s}
-.dev-tile:hover{transform:translateY(-2px);border-color:var(--accent)}
-.dev-tile b{display:block;font-size:1.05rem;margin-bottom:6px}
-.dev-tile span{display:block;font-size:.9rem;color:var(--muted)}
-.ck h3{margin:0 0 4px}.ck li{margin:0 0 14px}
-.text pre{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px;overflow-x:auto;font-size:.85rem}
-@media(max-width:640px){.sg-proof{grid-template-columns:repeat(2,1fr)}}
-.text a.dev-tile,.text a.dev-tile:hover{text-decoration:none;color:var(--text,inherit)}
-.text a.dev-tile b{color:var(--accent)}
-.text a.dev-tile span{color:var(--muted);text-decoration:none}
-.text a.btn{text-decoration:none}
-.text a.btn,.text a.btn:hover{color:#fff}
+.sg-status strong{font-size:1.05rem}
+.sg-status p{margin:6px 0 0;color:var(--muted)}
+
+.dev-hub{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px;margin:18px 0 28px}
+.dev-tile{display:block;position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:20px;transition:transform .14s,border-color .14s,box-shadow .14s}
+.dev-tile::before{content:attr(data-ico);display:block;font-size:22px;margin:0 0 10px;line-height:1}
+.dev-tile:hover{transform:translateY(-3px);border-color:var(--accent);box-shadow:0 10px 26px #0000002e}
+.text .dev-tile b{display:block;font-size:1.06rem;margin:0 0 6px;color:var(--accent)}
+.text .dev-tile span{display:block;font-size:.92rem;color:var(--muted);line-height:1.5}
+
+.dev-steps{list-style:none;counter-reset:s;padding:0;margin:18px 0 26px;display:grid;gap:12px}
+.dev-steps li{counter-increment:s;position:relative;padding:16px 18px 16px 62px;background:var(--card);
+  border:1px solid var(--line);border-radius:var(--radius);line-height:1.55}
+.dev-steps li::before{content:counter(s);position:absolute;left:18px;top:15px;width:30px;height:30px;border-radius:50%;
+  display:grid;place-items:center;font-weight:800;font-size:15px;color:#fff;background:var(--btn)}
+
+.dev-nots{list-style:none;padding:0;margin:14px 0 26px;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px}
+.dev-nots li{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:13px 16px 13px 44px;
+  position:relative;font-size:.95rem}
+.dev-nots li::before{content:"\2715";position:absolute;left:16px;top:13px;color:var(--good);font-weight:800}
+
+.ck{list-style:none;counter-reset:c;padding:0;margin:20px 0 28px;display:grid;gap:14px}
+.ck li{counter-increment:c;position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--radius);
+  padding:20px 22px 20px 74px}
+.ck li::before{content:counter(c,decimal-leading-zero);position:absolute;left:20px;top:17px;font-size:24px;font-weight:800;
+  line-height:1;background:linear-gradient(135deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.ck h3{margin:0 0 6px;font-size:1.06rem}
+.ck p{margin:0;color:var(--muted);line-height:1.6}
+.text pre{background:#1d1030;border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;overflow-x:auto;
+  font-size:.86rem;line-height:1.6;color:#ffd9e6}
+.text pre code{color:inherit;background:none;padding:0}
+
+.dev-end{margin:26px 0 0;padding:22px 24px;border-radius:var(--radius);border:1px solid var(--line);
+  background:linear-gradient(135deg,#ff3d6e14,#ffd34d14);display:flex;flex-wrap:wrap;gap:14px;align-items:center;justify-content:space-between}
+.dev-end p{margin:0;font-weight:700}
+
+@media(max-width:680px){.sg-proof{grid-template-columns:repeat(2,1fr)}.dev-hero{padding:24px 20px}
+  .ck li{padding:18px 18px 18px 62px}.ck li::before{left:16px}}
