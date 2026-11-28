@@ -215399,8 +215399,28 @@
   }
  },
  "evolution-simulator": {
-  "description": "Evo Wilds es una aventura de evolución en 3D muy colorida. Eclosionas como un pequeño Wiggle Worm en el Sunny Meadow: devora bayas, muerde insectos y recoge EVO para subir de nivel. Cada pocos niveles te EVOLUCIONAS y eliges tu camino entre dos nuevas criaturas: un luchador de golpes contundentes, un tanque muy resistente o un corredor veloz. 23 formas por descubrir, desde escarabajos, caracoles y ranas hasta zorros, lobos, osos, rinocerontes, raptores, mamuts, grifos y dragones. Fíjate en los colores de nivel sobre cada criatura: el verde significa tentempié, el rojo significa huye. Derrota al gigante jefe de cada isla, esquiva sus embestidas, cargas y rocas que caen, y cruza el portal al siguiente mundo: Shroom Woods, Sunscorch Dunes, Frostfang Peaks y las Ember Isles. Gasta ADN en el laboratorio para mordiscos más afilados y una piel más dura, completa tu Evo-Dex, sigue los objetivos y renace más fuerte para probar todos los caminos de evolución.",
-  "instructions": "Muévete con WASD o las teclas de flecha, o arrastra por cualquier parte de la pantalla en el móvil. El mordisco es automático: camina hacia una criatura y la atacarás. Pulsa Espacio (o el botón POUNCE) para lanzarte y morder con fuerza; no puedes recibir golpes mientras te lanzas, así que úsalo para esquivar los círculos rojos y los carriles de los jefes. Come tentempiés para curarte y ganar EVO. Llena la barra de EVO para subir de nivel; en los niveles de evolución elige una de dos nuevas formas. Las criaturas con nivel verde son seguras para cazar, el amarillo es un combate equilibrado, y el rojo y la calavera son demasiado fuertes por ahora. Derrota al jefe de cada isla en la arena al norte del camino para abrir el portal. Esc pausa."
+  "description": "Evo Wilds es una aventura de evolución en 3D muy colorida. Eclosionas como un pequeño Wiggle Worm en la Sunny Meadow: devora bayas, muerde insectos y recoge EVO para subir de nivel. Cada pocos niveles te EVOLUCIONAS y eliges tu camino entre dos criaturas nuevas: un luchador de golpes contundentes, un tanque resistente o un corredor veloz. 23 formas por descubrir, desde escarabajos, caracoles y ranas hasta zorros, lobos, osos, rinocerontes, raptores, mamuts, grifos y dragones. Fíjate en los colores de nivel sobre cada criatura: verde significa tentempié, rojo significa huir. Vence al gigantesco jefe de cada isla, esquiva sus embestidas, cargas y rocas que caen, y atraviesa el portal hacia el siguiente mundo: Shroom Woods, Sunscorch Dunes, Frostfang Peaks y las Ember Isles. Gasta ADN en el laboratorio para mordidas más afiladas y una piel más dura, completa tu Evo-Dex, sigue los objetivos y renace más fuerte para probar todos los caminos de evolución.",
+  "instructions": "Muévete con WASD o las teclas de flecha, o arrastra por cualquier parte de la pantalla en el móvil. Morder es automático: camina hacia una criatura y la atacarás. Pulsa Espacio (o el botón POUNCE) para lanzarte y morder con fuerza; no puedes recibir golpes mientras te lanzas, así que úsalo para esquivar los círculos rojos y los carriles de los jefes. Come tentempiés para curarte y ganar EVO. Llena la barra de EVO para subir de nivel; en los niveles de evolución elige una de dos formas nuevas. Las criaturas con nivel verde son seguras para cazar, las amarillas son un combate equilibrado, y las rojas y las calaveras son demasiado fuertes por ahora. Vence al jefe de cada isla en la arena al final norte del camino para abrir el portal. Esc pausa el juego.",
+  "guide": {
+   "intro": "En Evolution Simulator guías a un pequeño Wiggle Worm por la Sunny Meadow, comiendo y convirtiéndote en nuevas criaturas. Esta guía cubre los colores de nivel, las opciones de evolución y las batallas contra jefes.",
+   "tips": [
+    "Lee el color sobre cada criatura antes de elegir un combate. El verde es seguro para cazar, el amarillo es un combate equilibrado, y el rojo o la calavera significan que debes huir por ahora.",
+    "Usa Espacio para esquivar y no solo para atacar. No puedes recibir golpes mientras te lanzas, así que calcula bien el momento para atravesar los círculos rojos y los carriles del jefe.",
+    "Cuando llegues a un nivel de evolución, piensa en tu estilo de juego antes de elegir. El luchador golpea fuerte, el tanque aguanta el daño y el corredor es rápido, así que elige el que mejor encaje con tu forma de moverte. Para más juegos centrados en criaturas, prueba [[animal-games|más aventuras con criaturas para explorar]].",
+    "Caza criaturas verdes y amarillas para acumular EVO y curarte con tentempiés mientras esperas formas más fuertes. Evita las rojas hasta que seas más grande.",
+    "Gasta ADN en el laboratorio en mordidas más afiladas y una piel más dura después de cada partida, ya que el juego te permite renacer más fuerte para probar otros caminos de evolución."
+   ],
+   "faq": [
+    [
+     "¿Cómo sé qué criaturas puedo atacar con seguridad?",
+     "Mira el color de nivel sobre cada criatura. El verde significa tentempié y es seguro para cazar, el amarillo es un combate equilibrado, y el rojo o la calavera significan que son demasiado fuertes por ahora."
+    ],
+    [
+     "¿Cómo supero a un jefe y paso al siguiente mundo?",
+     "Vence al gigantesco jefe en la arena al final norte del camino de la isla. Una vez derrotado, podrás atravesar el portal hacia el siguiente mundo."
+    ]
+   ]
+  }
  },
  "fish-eggs-for-animals": {
   "description": "Lanza el anzuelo en un océano gigante, pesca peces raros y mutaciones, y construye un acuario que genera dinero con los visitantes en este juego de pesca 3D incremental.",
@@ -293291,6 +293311,36 @@
     [
      "¿Qué debo hacer con el dinero que gano?",
      "Puedes usar el dinero del juego para entrenar tu velocidad y desbloquear mejoras, objetos y atuendos. La velocidad es especialmente útil cuando necesitas llevar los huevos a tu base rápidamente."
+    ]
+   ]
+  }
+ },
+ "stiky-2": {
+  "description": "STIKY 2 es un plataformas de lucha con espadas de figuras de palitos con desplazamiento lateral, ambientado en una ciudad industrial oscura iluminada con neón rojo. Juegas como un ninja blanco con bufanda, cortando a enemigos rojos que gritan \"¡Intruso!\" y te atacan por pasarelas, repisas y trampas de pinchos. Los ataques ligeros encadenan combos, un golpe fuerte se puede mantener para cargarlo, un bloqueo bien cronometrado se convierte en parada y un dash y el doble salto te mantienen en movimiento. Al llenar el medidor desbloqueas un superataque. Elige entre Fácil, Normal, Difícil o Insano, cada uno con su propio multiplicador de puntuación, juega a dos jugadores en un mismo teclado o conéctate al modo multijugador en línea, con una tabla de puntuaciones que registra las mejores partidas.",
+  "instructions": "Muévete con las teclas de flecha o A/D y salta con Arriba o W (pulsa de nuevo en el aire para hacer doble salto). Ataca con Espacio o J y sigue pulsando para hacer combos; mantén K para un golpe fuerte cargado. Haz dash con Mayús o L, bloquea con Z (justo antes de un golpe para parar), cambia de arma con Q/E o Tab y lanza el superataque con V cuando el medidor esté lleno. Esc pausa el juego. El Tutorial del menú explica cada movimiento.",
+  "guide": {
+   "intro": "STIKY 2 parece un sencillo juego de peleas con muñecos de palitos, pero premia los mismos hábitos que un buen juego de acción: la distancia, el timing y saber cuándo no atacar. Los enemigos rojos gritan \"¡Intruso!\" cuando te descubren, así que normalmente tienes un momento para prepararte antes de que se acerquen.",
+   "tips": [
+    "Haz el Tutorial una vez. Es corto y es el único lugar que muestra todos los movimientos: doble salto, golpe fuerte cargado, dash, bloqueo, parada, cambio de arma y superataque.",
+    "Pulsar Espacio (o J) repetidamente encadena golpes ligeros en un combo; un golpe suelto te deja expuesto, así que o completas la secuencia o haces dash para salir.",
+    "Mantén K para cargar el golpe fuerte cuando un enemigo todavía camina hacia ti, y suéltalo cuando entre en alcance.",
+    "Z bloquea, pero pulsarlo justo antes de que llegue un golpe es una parada. Aprende la parada en Fácil antes de subir de nivel, porque los enemigos de Difícil e Insano castigan machacar botones.",
+    "Mayús (o L) te permite cruzar huecos y alejarte de grupos; úsalo para colocarte en una repisa para que los enemigos vengan uno a uno en lugar de por ambos lados.",
+    "El superataque (V) solo funciona con el medidor lleno. Guárdalo para un grupo y no para un solo enemigo.",
+    "Las dificultades altas multiplican tu puntuación (x2 Normal, x4 Difícil, x8 Insano), así que una partida limpia en Difícil supera a una larga en Fácil en la tabla de puntuaciones."
+   ],
+   "faq": [
+    [
+     "¿Pueden jugar dos personas en un mismo ordenador?",
+     "Sí. Elige 2 Jugadores en el menú principal para jugar en local con un mismo teclado. También hay un modo Multijugador en línea."
+    ],
+    [
+     "¿Necesito una cuenta?",
+     "No. El juego empieza como invitado; iniciar sesión es opcional y solo importa si quieres conservar tu nombre en la tabla de clasificación."
+    ],
+    [
+     "¿Funciona en el móvil?",
+     "Está hecho para teclado. Juégalo en un ordenador de escritorio o portátil para tener el conjunto completo de movimientos."
     ]
    ]
   }

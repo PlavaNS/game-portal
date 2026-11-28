@@ -293419,5 +293419,35 @@
     ]
    ]
   }
+ },
+ "stiky-2": {
+  "description": "STIKY 2 é um platformer de luta com espadas em estilo stick figure com rolagem lateral, ambientado numa cidade industrial sombria iluminada por neon vermelho. Você controla um ninja branco com cachecol, cortando inimigos vermelhos que gritam \"Intruder!\" e avançam por passarelas, saliências e armadilhas de espinhos. Ataques leves encadeiam em combos, um golpe pesado pode ser carregado, um bloqueio bem cronometrado vira um parry, e o dash e o pulo duplo mantêm você em movimento. Encher o medidor libera um super movimento. Escolha entre Easy, Normal, Hard ou Insane, cada um com seu próprio multiplicador de pontuação, jogue em dois jogadores no mesmo teclado ou entre no modo multiplayer online, com um placar que acompanha as melhores partidas.",
+  "instructions": "Mova-se com as setas ou A/D e pule com Cima ou W (pressione de novo no ar para o pulo duplo). Ataque com Espaço ou J e continue pressionando para os combos; segure K para um golpe pesado carregado. Use dash com Shift ou L, bloqueie com Z (pouco antes de um golpe para fazer parry), troque de arma com Q/E ou Tab e dispare o super com V quando o medidor estiver cheio. Esc pausa o jogo. O Tutorial no menu mostra todos os movimentos.",
+  "guide": {
+   "intro": "STIKY 2 parece um brawler simples de stickman, mas recompensa os mesmos hábitos de um bom jogo de ação: espaçamento, timing e saber quando não atacar. Os inimigos vermelhos gritam \"Intruder!\" quando te veem, então você geralmente tem um instante para se preparar antes que eles se aproximem.",
+   "tips": [
+    "Faça o Tutorial uma vez. Ele é curto e é o único lugar que mostra todo o conjunto de movimentos: pulo duplo, pesado carregado, dash, bloqueio, parry, troca de arma e super.",
+    "Espaço (ou J) pressionado repetidamente encadeia golpes leves em um combo; um golpe isolado deixa você exposto, então ou continue a sequência ou use o dash para sair.",
+    "Segure K para carregar o golpe pesado quando um inimigo ainda estiver andando em sua direção, e solte quando ele entrar no alcance.",
+    "Z bloqueia, mas apertá-lo logo antes de um golpe acertar é um parry. Aprenda o parry no Easy antes de subir de nível, porque inimigos do Hard e do Insane punem quem fica apertando botões.",
+    "Shift (ou L) faz dash por lacunas e para longe de grupos; use-o para se reposicionar numa saliência, para que os inimigos venham um de cada vez em vez de dos dois lados.",
+    "O super (V) só funciona com o medidor cheio. Guarde-o para um grupo, e não para um inimigo isolado.",
+    "Dificuldades mais altas multiplicam sua pontuação (x2 Normal, x4 Hard, x8 Insane), então uma partida limpa no Hard vence uma longa no Easy no placar."
+   ],
+   "faq": [
+    [
+     "Duas pessoas podem jogar no mesmo computador?",
+     "Sim. Escolha 2 Players no menu principal para jogar localmente no mesmo teclado. Também existe um modo Multiplayer online."
+    ],
+    [
+     "Preciso de uma conta?",
+     "Não. A partida começa como convidado; fazer login é opcional e só importa para manter seu nome no placar."
+    ],
+    [
+     "Funciona no celular?",
+     "Foi feito para teclado. Jogue num desktop ou notebook para ter o conjunto completo de movimentos."
+    ]
+   ]
+  }
  }
 }
