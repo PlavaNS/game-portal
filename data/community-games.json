@@ -1618,6 +1618,7 @@
    "controls": 7,
    "visuals": 8,
    "note": "Fast, readable neon combat with real depth (combos, parry, dash, super); the full keyboard layout takes a minute to learn and it is desktop-only."
-  }
+  },
+  "mobile": false
  }
 ]
