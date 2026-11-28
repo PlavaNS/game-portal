@@ -855,3 +855,10 @@ body{background:radial-gradient(900px 480px at 10% -90px,rgba(255,61,110,.14),tr
 
 @media(max-width:680px){.sg-proof{grid-template-columns:repeat(2,1fr)}.dev-hero{padding:24px 20px}
   .ck li{padding:18px 18px 18px 62px}.ck li::before{left:16px}}
+.bdg-why li{margin:0 0 10px;line-height:1.55}
+.bdg-pick{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:16px 18px;margin:18px 0 26px}
+.bdg-pick label{display:block;margin:0 0 8px}
+.bdg-pick select{width:100%;max-width:520px;padding:9px 12px;border:1px solid var(--line);border-radius:10px;background:var(--bg);color:inherit;font:inherit}
+.bdg-pick .muted{margin:10px 0 0;font-size:.88rem}
+.bdg-copy{margin:-6px 0 22px}
+.bdg-copy .bdg-btn{font-size:.9rem;padding:8px 16px;cursor:pointer;border:0}

@@ -1086,7 +1086,8 @@ ${o.instructions ? `<p><strong>How to play:</strong> ${esc(o.instructions)}</p>`
     return `<h2>${esc(label)} badge</h2>
 <p>${blurb}</p>
 <p class="bdg-prev"><img src="${B}/assets/${file}.svg" alt="${esc(label)} on ${esc(cfg.name)}" width="${w}" height="${h}"></p>
-<pre class="bdg-code"><code>&lt;a href="${abs('/')}" target="_blank" rel="noopener"&gt;&lt;img src="${abs(`/assets/${file}.svg`)}" alt="${esc(label)} on ${esc(cfg.name)}" width="${w}" height="${h}"&gt;&lt;/a&gt;</code></pre>
+<pre class="bdg-code"><code data-badge="${abs(`/assets/${file}.svg`)}" data-alt="${esc(label)} on ${esc(cfg.name)}" data-w="${w}" data-h="${h}">&lt;a href="${abs('/')}" target="_blank" rel="noopener"&gt;&lt;img src="${abs(`/assets/${file}.svg`)}" alt="${esc(label)} on ${esc(cfg.name)}" width="${w}" height="${h}"&gt;&lt;/a&gt;</code></pre>
+<p class="bdg-copy"><button type="button" class="btn bdg-btn">Copy the code</button></p>
 `;
   };
   const gotwCfg2 = readJSON(path.join(ROOT, 'data/game-of-week.json'), null);
@@ -1098,14 +1099,45 @@ ${o.instructions ? `<p><strong>How to play:</strong> ${esc(o.instructions)}</p>`
   const daySection = badgeBlock('game-of-the-day-badge', 240, 56, 'Indie Game of the Day', gotdCfg && gotdCfg.slug, 'A different submitted game gets this every day, picked automatically. If it is yours today, grab it while it is fresh.');
   const monthSection = badgeBlock('game-of-the-month-badge', 260, 56, 'Indie Game of the Month', gotmCfg && gotmCfg.slug, "Only for the one game we pick each month out of that month's Indie Game of the Week winners. If that is yours, you earned it.");
   const yearSection = badgeBlock('game-of-the-year-badge', 260, 56, 'Indie Game of the Year', gotyCfg && gotyCfg.slug, 'Picked once a year from that year’s Indie Game of the Month winners. The one, if there is one.');
-  textPage('badge', 'Badges for developers', `<p class="lead">Your game is on ${esc(cfg.name)}. If you want to show it on your own site, here are badges you can use. They are free, you do not have to ask, and there is nothing to install.</p>
-<p>Copy the code, paste it in your footer or on your press page, and it links back to your game page here.</p>
+  const bdgGames = all.filter(g => g.community).sort((a, b) => String(a.title).localeCompare(String(b.title)));
+  const bdgPick = `<div class="bdg-pick"><label for="bdg-game"><b>Pick your game</b> &mdash; the code below will link straight to its page here.</label>
+<select id="bdg-game"><option value="${abs('/')}">${esc(cfg.name)} home page</option>${bdgGames.map(g => `<option value="${abs('/games/' + g.slug + '/')}">${esc(g.title)}${g.studio ? ' &mdash; ' + esc(g.studio) : ''}</option>`).join('')}</select>
+<p class="muted">Not in the list? Your game page link works the same: <code>${abs('/games/your-game/')}</code>.</p></div>`;
+  const bdgJs = `<script>(function(){
+  var sel = document.getElementById('bdg-game'); if (!sel) return;
+  var blocks = [].slice.call(document.querySelectorAll('.bdg-code code'));
+  function paint(){
+    var href = sel.value;
+    blocks.forEach(function(c){
+      c.textContent = '<a href="' + href + '" target="_blank" rel="noopener"><img src="' + c.dataset.badge + '" alt="' + c.dataset.alt + '" width="' + c.dataset.w + '" height="' + c.dataset.h + '"></a>';
+    });
+  }
+  sel.addEventListener('change', paint); paint();
+  [].slice.call(document.querySelectorAll('.bdg-btn')).forEach(function(b){
+    b.addEventListener('click', function(){
+      var code = b.closest('p').previousElementSibling.querySelector('code');
+      var done = function(){ var t = b.textContent; b.textContent = 'Copied'; setTimeout(function(){ b.textContent = t; }, 1500); };
+      if (navigator.clipboard && navigator.clipboard.writeText) { navigator.clipboard.writeText(code.textContent).then(done, done); }
+      else { var r = document.createRange(); r.selectNodeContents(code); var s2 = getSelection(); s2.removeAllRanges(); s2.addRange(r); try { document.execCommand('copy'); } catch (e) {} done(); }
+    });
+  });
+})();<\/script>`;
+  textPage('badge', 'Badges for developers', `<p class="lead">Your game is on ${esc(cfg.name)}. These badges are yours to use on your own site. They are free, you do not have to ask, and there is nothing to install.</p>
+<h2>Why put one on your site</h2>
+<ul class="bdg-why">
+<li><strong>We already link to you.</strong> Every game page here credits the developer and links to your site, and that link is followed, not nofollowed. A link back makes it an honest exchange between two real sites.</li>
+<li><strong>Your visitors can play without downloading.</strong> The badge points at a page where your game runs in the browser. People who are not ready to install anything can try it in one click, and the ones who like it come back to you.</li>
+<li><strong>It is a credential, not an advert.</strong> "Indie Game of the Week" on your press page tells publishers and jam judges that someone outside your own circle played the game and picked it.</li>
+<li><strong>It costs nothing and never expires.</strong> One line of HTML. We do not track it, there is no script, and we will not take it away if you stop sending us games.</li>
+</ul>
+${bdgPick}
 <h2>Featured badge</h2>
 <p class="bdg-prev"><img src="${B}/assets/featured-badge.svg" alt="Play it on ${esc(cfg.name)}" width="230" height="56"></p>
-<pre class="bdg-code"><code>&lt;a href="${abs('/')}" target="_blank" rel="noopener"&gt;&lt;img src="${abs('/assets/featured-badge.svg')}" alt="Play it on ${esc(cfg.name)}" width="230" height="56"&gt;&lt;/a&gt;</code></pre>
-<p class="muted">Swap the link for your own game page here if you prefer, for example <code>${abs('/games/your-game/')}</code>.</p>
+<pre class="bdg-code"><code data-badge="${abs('/assets/featured-badge.svg')}" data-alt="Play it on ${esc(cfg.name)}" data-w="230" data-h="56">&lt;a href="${abs('/')}" target="_blank" rel="noopener"&gt;&lt;img src="${abs('/assets/featured-badge.svg')}" alt="Play it on ${esc(cfg.name)}" width="230" height="56"&gt;&lt;/a&gt;</code></pre>
+<p class="bdg-copy"><button type="button" class="btn bdg-btn">Copy the code</button></p>
 ${weekSection}${daySection}${monthSection}${yearSection}<h2>Not on the site yet?</h2>
-<p><a href="${ur('/submit-game/')}">Send us your game</a>. It is free and non-exclusive, a real person plays every submission, and accepted games get their own page with credit and a link back to you.</p>`, `Free badges for developers whose games are on ${cfg.name}: copy the code and link back from your own site.`);
+<p><a href="${ur('/submit-game/')}">Send us your game</a>. It is free and non-exclusive, a real person plays every submission, and accepted games get their own page with credit and a link back to you.</p>
+${bdgJs}`, `Free badges for developers whose games are on ${cfg.name}: copy the code and link back from your own site.`);
 }
 
 // /indie-games/ — chronological list of all community-submitted indie games
