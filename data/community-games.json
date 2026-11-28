@@ -1588,5 +1588,36 @@
    "visuals": 8,
    "note": "Sharp neon look and instant one-thumb controls; the daily-track idea gives a short game a reason to come back, though the run itself stays simple."
   }
+ },
+ {
+  "slug": "stiky-2",
+  "title": "STIKY 2",
+  "studio": "Alon Saranga",
+  "studioUrl": "https://www.alonsaranga.co.il",
+  "added": "2026-11-28",
+  "short": "A neon-noir stick-figure sword fighter: dash, combo and parry through waves of red stickmen, solo, with a friend or online.",
+  "description": "STIKY 2 is a side-scrolling stick-figure sword-fighting platformer set in a dark industrial city lit in red neon. You play a white ninja with a scarf, cutting through red enemies that call out \"Intruder!\" and come at you along catwalks, ledges and spike traps. Light attacks chain into combos, a heavy strike can be held to charge, a well-timed block turns into a parry, and a dash and double jump keep you moving. Filling the meter unlocks a super move. Pick Easy, Normal, Hard or Insane, each with its own score multiplier, play two players on one keyboard, or go online in multiplayer, with a scoreboard tracking the best runs.",
+  "instructions": "Move with the arrow keys or A/D and jump with Up or W (press again in the air to double jump). Attack with Space or J and keep pressing for combos; hold K for a charged heavy hit. Dash with Shift or L, block with Z (just before a hit to parry), switch weapons with Q/E or Tab, and fire the super with V once the meter is full. Esc pauses. The Tutorial in the menu walks through every move.",
+  "category": "action",
+  "extraCats": [
+   "two-player",
+   "multiplayer"
+  ],
+  "tags": [
+   "Stickman",
+   "Sword fighting",
+   "Platformer",
+   "Combos",
+   "Local co-op",
+   "Online multiplayer"
+  ],
+  "embed": "https://www.alonsaranga.co.il/games/Stiky2/",
+  "thumb": "https://ilovewebgames.com/assets/community/stiky-2.jpg?v=1",
+  "studioRating": {
+   "gameplay": 8,
+   "controls": 7,
+   "visuals": 8,
+   "note": "Fast, readable neon combat with real depth (combos, parry, dash, super); the full keyboard layout takes a minute to learn and it is desktop-only."
+  }
  }
 ]

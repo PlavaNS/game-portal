@@ -245746,5 +245746,31 @@
     "Yes. It is built for one thumb: tap to start and swipe or use the on-screen arrows for lane, jump and duck."
    ]
   ]
+ },
+ "stiky-2": {
+  "intro": "STIKY 2 looks like a simple stickman brawler, but it rewards the same habits as a proper action game: spacing, timing and knowing when not to attack. The red enemies shout \"Intruder!\" when they spot you, so you usually get a beat to set up before they close in.",
+  "tips": [
+   "Do the Tutorial once. It is short and it is the only place that shows the full move set: double jump, charged heavy, dash, block, parry, weapon switch and super.",
+   "Space (or J) pressed repeatedly strings light hits into a combo; a lone hit leaves you open, so either commit to the string or dash out.",
+   "Hold K to charge the heavy strike when an enemy is still walking towards you, and release as it steps into range.",
+   "Z blocks, but tapping it just before a hit lands is a parry. Learn the parry on Easy before moving up, because Hard and Insane enemies punish button-mashing.",
+   "Shift (or L) dashes through gaps and away from groups; use it to reposition onto a ledge so enemies come at you one by one instead of from both sides.",
+   "The super (V) only works with a full meter. Save it for a crowd rather than a single enemy.",
+   "Higher difficulties multiply your score (x2 Normal, x4 Hard, x8 Insane), so a clean Hard run beats a long Easy one on the scoreboard."
+  ],
+  "faq": [
+   [
+    "Can two people play on one computer?",
+    "Yes. Pick 2 Players in the main menu for local play on one keyboard. There is also an online Multiplayer mode."
+   ],
+   [
+    "Do I need an account?",
+    "No. Play starts as a guest; logging in is optional and only matters for keeping your name on the leaderboard."
+   ],
+   [
+    "Does it work on a phone?",
+    "It is built for a keyboard. Play it on a desktop or laptop for the full set of moves."
+   ]
+  ]
  }
 }
